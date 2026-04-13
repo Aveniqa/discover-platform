@@ -6,11 +6,6 @@ export function NewsletterForm({ variant = "default", "data-capture-location": c
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email) setSubmitted(true);
-  };
-
   if (submitted) {
     return (
       <div className="flex items-center gap-3 px-5 py-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
@@ -24,9 +19,16 @@ export function NewsletterForm({ variant = "default", "data-capture-location": c
 
   if (variant === "minimal") {
     return (
-      <form onSubmit={handleSubmit} className="flex gap-2">
+      <form
+        action="https://buttondown.email/api/emails/embed-subscribe/johne"
+        method="post"
+        target="_blank"
+        onSubmit={() => setSubmitted(true)}
+        className="flex gap-2"
+      >
         <input
           type="email"
+          name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your email"
@@ -34,6 +36,7 @@ export function NewsletterForm({ variant = "default", "data-capture-location": c
           className="flex-1 px-4 py-2.5 rounded-lg bg-surface-elevated border border-border text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-accent/40 focus:ring-1 focus:ring-accent/20 transition-all"
           required
         />
+        <input type="hidden" name="tag" value="surfaced" />
         <button
           type="submit"
           className="px-5 py-2.5 rounded-lg btn-gradient text-sm cursor-pointer"
@@ -45,9 +48,16 @@ export function NewsletterForm({ variant = "default", "data-capture-location": c
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md">
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/johne"
+      method="post"
+      target="_blank"
+      onSubmit={() => setSubmitted(true)}
+      className="flex flex-col sm:flex-row gap-3 max-w-md"
+    >
       <input
         type="email"
+        name="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="your@email.com"
@@ -55,6 +65,7 @@ export function NewsletterForm({ variant = "default", "data-capture-location": c
         className="flex-1 px-5 py-3.5 rounded-xl bg-surface-elevated border border-border text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-accent/40 focus:ring-2 focus:ring-accent/15 transition-all"
         required
       />
+      <input type="hidden" name="tag" value="surfaced" />
       <button
         type="submit"
         className="px-7 py-3.5 rounded-xl btn-gradient text-sm cursor-pointer active:scale-[0.98]"
