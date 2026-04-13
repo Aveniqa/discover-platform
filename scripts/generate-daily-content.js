@@ -3,7 +3,9 @@ const fs = require("fs");
 const path = require("path");
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-const MODEL = "gemini-2.5-flash";
+// Flash-Lite has the highest free-tier limits (15 RPM, 1000 RPD)
+// and is less likely to hit capacity issues than Flash or Pro
+const MODEL = "gemini-2.5-flash-lite";
 
 const DATA_DIR = path.join(__dirname, "..", "data");
 const today = new Date().toISOString().split("T")[0];
@@ -30,6 +32,24 @@ function getNextId(items) {
 
 function getExistingSlugs(items) {
   return new Set(items.map((i) => i.slug));
+}
+
+async function callWithRetry(fn, maxRetries = 3) {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      const is503 = err.message && (err.message.includes("503") || err.message.includes("UNAVAILABLE") || err.message.includes("high demand"));
+      const is429 = err.message && (err.message.includes("429") || err.message.includes("RESOURCE_EXHAUSTED"));
+      if ((is503 || is429) && attempt < maxRetries) {
+        const delay = attempt * 15000; // 15s, 30s, 45s
+        console.log(`  ⏳ Retry ${attempt}/${maxRetries} in ${delay / 1000}s (${is503 ? "capacity" : "rate limit"})...`);
+        await new Promise((r) => setTimeout(r, delay));
+      } else {
+        throw err;
+      }
+    }
+  }
 }
 
 async function generateItems(category, existingItems, count) {
@@ -125,10 +145,12 @@ Rules:
 
 Return ONLY the JSON array, no markdown fencing, no explanation.`;
 
-  const response = await ai.models.generateContent({
-    model: MODEL,
-    contents: prompt,
-  });
+  const response = await callWithRetry(() =>
+    ai.models.generateContent({
+      model: MODEL,
+      contents: prompt,
+    })
+  );
 
   const text = response.text.trim();
   // Strip markdown code fences if present
