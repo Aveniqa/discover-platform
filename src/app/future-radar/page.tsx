@@ -8,13 +8,15 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { futureRadar, getSubCategories } from "@/lib/data";
+import { futureRadar, getSubCategories, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
+import { QuickViewModal } from "@/components/ui/QuickViewModal";
 
 export default function FutureRadarPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
   const [sortMode, setSortMode] = useState<string>("default");
+  const [quickViewItem, setQuickViewItem] = useState<AnyItem | null>(null);
 
   const subCategories = getSubCategories("future-tech");
 
@@ -164,6 +166,12 @@ export default function FutureRadarPage() {
                       Editor&apos;s Pick
                     </span>
                   )}
+                  <button
+                    onClick={(e) => { e.preventDefault(); setQuickViewItem(item as AnyItem); }}
+                    className="absolute inset-0 z-20 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity"
+                  >
+                    <span className="px-3 py-1.5 bg-white text-black text-xs font-semibold rounded-full shadow">Quick View</span>
+                  </button>
                 </div>
                 <div className="p-6">
                 <div className="flex items-start justify-between gap-2 mb-3">
@@ -241,6 +249,7 @@ export default function FutureRadarPage() {
         </div>
       </section>
       <BackToTop />
+      {quickViewItem && <QuickViewModal item={quickViewItem} onClose={() => setQuickViewItem(null)} />}
     </>
   );
 }

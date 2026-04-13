@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "work-from-home-essentials",
+    "title": "Work From Home Essentials",
+    "description": "Everything you need for a productive home office — from standing desks to focus apps.",
+    "emoji": "🏠",
+    "itemSlugs": [
+      "the-great-wall-of-china-is-held-together-with-sticky-rice",
+      "the-patent-for-the-fire-hydrant-was-lost-in-a-fire",
+      "in-iceland-there-is-no-word-for-please",
+      "south-korea-has-a-law-that-keeps-your-age-from-changing-on-your-birthday",
+      "there-is-a-country-with-no-capital-city",
+      "the-shortest-war-in-history-lasted-38-minutes",
+      "a-day-on-venus-is-longer-than-a-year-on-venus",
+      "neutron-stars-are-so-dense-a-teaspoon-would-weigh-6-billion-tons",
+      "olympus-mons-on-mars-is-so-large-you-cant-see-it-from-its-base",
+      "the-first-webcam-was-invented-to-watch-a-coffee-pot",
+      "early-venus-had-oceans",
+      "ancient-egyptian-bread-fermentation"
+    ]
+  },
+  {
+    "slug": "under-50-dollars",
+    "title": "Best Picks Under $50",
+    "description": "High-quality products and tools that won't break the bank.",
+    "emoji": "💰",
+    "itemSlugs": [
+      "jbl-clip-5-portable-speaker",
+      "nalgene-32oz-sustain-water-bottle",
+      "philips-norelco-oneblade-360",
+      "grid-it-cocoon-organizer",
+      "aqara-presence-sensor-fp2",
+      "eve-energy-smart-plug-matter",
+      "rocketbook-pro-smart-notebook",
+      "chirp-wheel-plus-back-roller",
+      "bala-bangles-weighted-bracelets",
+      "uv-skinz-hooded-sunshirt-upf-50",
+      "stasher-reusable-silicone-bag-bundle",
+      "lastobject-lastswab-reusable-swab"
+    ]
+  },
+  {
+    "slug": "ai-powered-tools",
+    "title": "AI-Powered Tools & Apps",
+    "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
+    "emoji": "🤖",
+    "itemSlugs": [
+      "the-worlds-first-computer-programmer-was-a-woman-in-1843",
+      "japan-has-a-bullet-train-that-was-designed-after-a-kingfisher",
+      "nasa-uses-the-same-bolts-as-the-golden-gate-bridge",
+      "there-is-a-village-in-india-where-people-communicate-by-whistling",
+      "russia-has-11-time-zones-but-used-to-have-only-nine",
+      "there-is-a-country-with-no-capital-city",
+      "lesotho-is-the-only-country-entirely-above-1000-meters",
+      "you-are-more-likely-to-be-killed-by-a-vending-machine-than-a-shark",
+      "crows-can-recognize-human-faces-and-hold-grudges",
+      "the-amazon-rainforest-produces-20-percent-of-the-worlds-oxygen",
+      "a-single-teaspoon-of-soil-contains-more-organisms-than-people-on-earth",
+      "there-is-a-planet-where-it-rains-glass-sideways"
+    ]
+  },
+  {
+    "slug": "gift-guide",
+    "title": "The Ultimate Gift Guide",
+    "description": "Handpicked gifts for the person who has everything.",
+    "emoji": "🎁",
+    "itemSlugs": [
+      "samsung-viewfinity-s9-5k-monitor",
+      "sony-alpha-a7c-ii-mirrorless-camera",
+      "dji-air-3-drone",
+      "finland-has-more-saunas-than-cars",
+      "south-korea-has-a-law-that-keeps-your-age-from-changing-on-your-birthday",
+      "there-are-more-people-alive-today-than-have-ever-died",
+      "neutron-stars-are-so-dense-a-teaspoon-would-weigh-6-billion-tons",
+      "early-venus-had-oceans",
+      "logitech-mx-keys-s-keyboard",
+      "away-carry-on-aluminum-edition",
+      "8bitdo-ultimate-bluetooth-controller",
+      "peak-design-everyday-sling-6l"
+    ]
+  },
+  {
+    "slug": "health-and-wellness",
+    "title": "Health & Wellness Picks",
+    "description": "Products and tools to help you feel your best.",
+    "emoji": "💪",
+    "itemSlugs": [
+      "in-japan-there-is-a-festival-dedicated-to-crying-babies",
+      "a-single-teaspoon-of-soil-contains-more-organisms-than-people-on-earth",
+      "garmin-venu-3s-smartwatch",
+      "fitbit-charge-6-fitness-tracker",
+      "apple-airpods-pro-3",
+      "ember-mug-2-temperature-control",
+      "ecobee-smart-thermostat-premium",
+      "peloton-guide-strength-training-camera",
+      "hyperice-hypervolt-2-pro-massager",
+      "trx-all-in-one-suspension-trainer",
+      "chirp-wheel-plus-back-roller",
+      "bala-bangles-weighted-bracelets"
+    ]
+  }
+]

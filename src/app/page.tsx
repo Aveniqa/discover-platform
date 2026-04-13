@@ -24,6 +24,7 @@ import { SocialCTA } from "@/components/SocialCTA";
 import { ShareTodaysPicks } from "@/components/ui/ShareTodaysPicks";
 import { TodayDate } from "@/components/ui/TodayDate";
 import { getStreak } from "@/lib/engagement";
+import { todaysPicks } from "@/lib/data";
 import Link from "next/link";
 
 /* ---- Helpers ---- */
@@ -58,6 +59,13 @@ const categoryPillColors: Record<string, string> = {
   cyan: "bg-cyan-500/20 text-cyan-300 border-cyan-400/30 hover:bg-cyan-500/30",
   rose: "bg-rose-500/20 text-rose-300 border-rose-400/30 hover:bg-rose-500/30",
 };
+
+/** Returns true if the item's id is among the 3 highest in its category array */
+function isNewToday(item: AnyItem, categoryItems: AnyItem[]): boolean {
+  const sorted = [...categoryItems].sort((a, b) => (b.id || 0) - (a.id || 0));
+  const top3 = sorted.slice(0, 3).map((i) => i.id);
+  return top3.includes(item.id);
+}
 
 function accentBar(type: string): string {
   const c = getCategoryColor(type);
@@ -237,6 +245,56 @@ export default function HomePage() {
       </section>
 
       {/* ============================================
+          TODAY'S PICKS — Newest from each category
+          ============================================ */}
+      <section className="pb-10 px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-center justify-between mb-5">
+            <div>
+              <h2 className="text-xl font-bold text-foreground">Today&rsquo;s Picks</h2>
+              <p className="text-xs text-muted-foreground mt-0.5">Freshest from each category</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            {todaysPicks.map((pick) => {
+              const colorMap: Record<string, string> = {
+                discovery: "indigo",
+                product: "emerald",
+                "hidden-gem": "amber",
+                "future-tech": "cyan",
+                tool: "rose",
+              };
+              const badgeColors: Record<string, string> = {
+                indigo: "bg-indigo-500/15 text-indigo-300 border-indigo-400/25",
+                emerald: "bg-emerald-500/15 text-emerald-300 border-emerald-400/25",
+                amber: "bg-amber-500/15 text-amber-300 border-amber-400/25",
+                cyan: "bg-cyan-500/15 text-cyan-300 border-cyan-400/25",
+                rose: "bg-rose-500/15 text-rose-300 border-rose-400/25",
+              };
+              const color = colorMap[pick.type] || "indigo";
+              return (
+                <Link
+                  key={pick.slug}
+                  href={`/item/${pick.slug}`}
+                  className="group relative rounded-2xl border border-border/60 bg-surface p-5 hover:border-border card-hover-glow transition-all flex flex-col gap-3"
+                >
+                  <span className={`self-start px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border ${badgeColors[color]}`}>
+                    {pick.categoryLabel}
+                  </span>
+                  <h3 className="text-sm font-semibold text-foreground group-hover:text-accent-hover transition-colors line-clamp-3 leading-snug">
+                    {pick.title}
+                  </h3>
+                  <p className="text-xs text-muted-foreground line-clamp-2 mt-auto">
+                    {pick.description}
+                  </p>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ============================================
           WHAT SURFACED TODAY — Daily Editorial Roundup
           ============================================ */}
       <section className="relative pb-20 px-4 sm:px-6">
@@ -389,6 +447,7 @@ export default function HomePage() {
                   <span className="text-xl">{cat.icon}</span>
                   <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">
                     {cat.name}
+                    <span className="text-sm text-muted-foreground font-normal ml-2">{cat.count} items</span>
                   </h2>
                 </div>
                 <Link
@@ -402,7 +461,10 @@ export default function HomePage() {
               {/* Horizontal scroll row */}
               <div className="relative">
               <div className="flex gap-4 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0">
-                {items.map((item) => (
+                {items.map((item) => {
+                  const allInCategory = getItemsForCategory(cat.key);
+                  const isNew = isNewToday(item, allInCategory);
+                  return (
                   <Link
                     key={item.slug}
                     href={`/item/${item.slug}`}
@@ -410,8 +472,13 @@ export default function HomePage() {
                   >
                     <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                       <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
-                      <div className="overflow-hidden">
+                      <div className="overflow-hidden relative">
                         <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        {isNew && (
+                          <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
+                            New
+                          </span>
+                        )}
                       </div>
                       <div className="p-5 flex flex-col flex-1">
                       <CategoryBadge
@@ -428,7 +495,8 @@ export default function HomePage() {
                       </div>
                     </div>
                   </Link>
-                ))}
+                  );
+                })}
               </div>
               {/* Fade hint — indicates more cards to scroll */}
               <div className="absolute right-0 top-0 bottom-2 w-16 bg-gradient-to-l from-background to-transparent pointer-events-none" />

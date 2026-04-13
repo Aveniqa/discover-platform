@@ -9,7 +9,9 @@ import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { products, getSubCategories } from "@/lib/data";
+import { type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
+import { QuickViewModal } from "@/components/ui/QuickViewModal";
 
 // Parse the lower bound from "estimatedPriceRange" strings like "$299–$349" or "$29"
 function parsePriceLower(range: string | undefined): number {
@@ -25,11 +27,24 @@ const PRICE_RANGES = [
   { label: "$200+", min: 200, max: Infinity },
 ];
 
+import { type Product } from "@/lib/data";
+
 export default function TrendingPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
   const [priceFilter, setPriceFilter] = useState<string>("All");
   const [sortMode, setSortMode] = useState<string>("default");
+  const [compareItems, setCompareItems] = useState<string[]>([]);
+  const [showComparison, setShowComparison] = useState(false);
+  const [quickViewItem, setQuickViewItem] = useState<AnyItem | null>(null);
+
+  function toggleCompare(slug: string) {
+    setCompareItems((prev) => {
+      if (prev.includes(slug)) return prev.filter((s) => s !== slug);
+      if (prev.length >= 3) return prev; // max 3
+      return [...prev, slug];
+    });
+  }
 
   const subCategories = getSubCategories("product");
 
@@ -210,6 +225,12 @@ export default function TrendingPage() {
               <div className="group rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
                 <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.title} aspectRatio="3/2" width={400} height={267} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  <button
+                    onClick={(e) => { e.stopPropagation(); setQuickViewItem(item as AnyItem); }}
+                    className="absolute inset-0 z-20 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity"
+                  >
+                    <span className="px-3 py-1.5 bg-white text-black text-xs font-semibold rounded-full shadow">Quick View</span>
+                  </button>
                   {(item as any).badge === "editors-pick" && (
                     <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
                       Editor&apos;s Pick
@@ -246,9 +267,9 @@ export default function TrendingPage() {
                 <p className="text-sm text-muted-foreground line-clamp-1 mb-4">
                   {item.shortDescription}
                 </p>
-                <div className="mt-auto">
+                <div className="mt-auto flex items-center justify-between gap-2">
                   <a
-                    href={(item as any).affiliate?.url || item.sourceLink}
+                    href={(item as any).affiliate?.url || item.directAmazonUrl || item.sourceLink}
                     target="_blank"
                     rel="sponsored noopener"
                     data-affiliate="true"
@@ -257,6 +278,16 @@ export default function TrendingPage() {
                   >
                     Buy on Amazon →
                   </a>
+                  <button
+                    onClick={(e) => { e.stopPropagation(); toggleCompare(item.slug); }}
+                    className={`text-[10px] px-2 py-0.5 rounded-full border transition-colors ${
+                      compareItems.includes(item.slug)
+                        ? "bg-accent text-white border-accent"
+                        : "border-border text-muted-foreground hover:border-accent hover:text-accent"
+                    }`}
+                  >
+                    {compareItems.includes(item.slug) ? "✓ Added" : "Compare"}
+                  </button>
                 </div>
                 </div>
               </div>
@@ -328,6 +359,88 @@ export default function TrendingPage() {
         </div>
       </section>
       <BackToTop />
+
+      {/* ── Floating comparison bar ───────────────────────── */}
+      {compareItems.length >= 2 && !showComparison && (
+        <div className="fixed bottom-0 left-0 right-0 z-50 bg-background/95 backdrop-blur border-t border-border p-4 shadow-2xl">
+          <div className="max-w-6xl mx-auto flex items-center justify-between gap-4">
+            <span className="text-sm text-muted-foreground">
+              <span className="font-semibold text-foreground">{compareItems.length}</span> products selected
+              {compareItems.length < 3 && <span className="ml-1 text-xs">(add 1 more or compare now)</span>}
+            </span>
+            <div className="flex gap-3 items-center">
+              <button
+                onClick={() => setShowComparison(true)}
+                className="px-4 py-2 bg-accent text-white rounded-lg text-sm font-semibold hover:bg-accent/90 transition-colors"
+              >
+                Compare Now →
+              </button>
+              <button
+                onClick={() => setCompareItems([])}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── Comparison panel ─────────────────────────────── */}
+      {showComparison && (
+        <div className="fixed inset-0 z-[60] bg-background/80 backdrop-blur-sm overflow-y-auto" onClick={() => setShowComparison(false)}>
+          <div className="min-h-screen flex items-start justify-center py-20 px-4">
+            <div
+              className="relative bg-surface border border-border rounded-2xl shadow-2xl w-full max-w-5xl p-6 sm:p-8"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-xl font-bold text-foreground">Product Comparison</h2>
+                <button onClick={() => setShowComparison(false)} className="text-muted-foreground hover:text-foreground transition-colors">
+                  <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+
+              {(() => {
+                const compared = compareItems.map(slug => products.find(p => p.slug === slug)).filter(Boolean) as Product[];
+                return (
+                  <div className={`grid gap-6 ${compared.length === 2 ? "grid-cols-2" : "grid-cols-3"}`}>
+                    {compared.map((p) => (
+                      <div key={p.slug} className="flex flex-col gap-4 rounded-xl border border-border p-5 bg-card">
+                        <ItemImage slug={p.slug} alt={p.title} aspectRatio="3/2" width={400} height={267} size="sm" />
+                        <div>
+                          <CategoryBadge label={p.category} color="emerald" className="mb-2" />
+                          <h3 className="font-bold text-foreground text-sm leading-snug mb-1">{p.title}</h3>
+                        </div>
+                        <div className="text-2xl font-bold text-emerald-400">{p.estimatedPriceRange || "—"}</div>
+                        <p className="text-xs text-muted-foreground leading-relaxed flex-1 line-clamp-4">{p.shortDescription}</p>
+                        <a
+                          href={(p as any).affiliate?.url || (p as any).directAmazonUrl || p.sourceLink}
+                          target="_blank"
+                          rel="sponsored noopener"
+                          className="mt-auto text-center py-2 px-4 rounded-lg bg-emerald-500/15 text-emerald-400 text-xs font-semibold hover:bg-emerald-500/25 transition-colors"
+                        >
+                          Check Price →
+                        </a>
+                      </div>
+                    ))}
+                  </div>
+                );
+              })()}
+
+              <button
+                onClick={() => { setShowComparison(false); setCompareItems([]); }}
+                className="mt-6 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Clear selection
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      {quickViewItem && <QuickViewModal item={quickViewItem} onClose={() => setQuickViewItem(null)} />}
     </>
   );
 }

@@ -4,6 +4,8 @@ import hiddenGemsData from "@/../data/hidden-gems.json";
 import futureRadarData from "@/../data/future-radar.json";
 import dailyToolsData from "@/../data/daily-tools.json";
 import categoriesData from "@/../data/categories.json";
+import todaysPicksData from "@/../data/todays-picks.json";
+import collectionsData from "@/../data/collections.json";
 
 /* ---- Types ---- */
 export interface Discovery {
@@ -28,6 +30,7 @@ export interface Product {
   imageIdea: string;
   sourceLink: string;
   estimatedPriceRange: string;
+  directAmazonUrl?: string;
   type: "product";
 }
 
@@ -39,6 +42,7 @@ export interface HiddenGem {
   category: string;
   whyItIsUseful: string;
   websiteLink: string;
+  screenshotUrl?: string;
   type: "hidden-gem";
 }
 
@@ -95,6 +99,26 @@ export const futureRadar = futureRadarData as FutureTech[];
 export const dailyTools = dailyToolsData as DailyTool[];
 export const categories = categoriesData as CategoryMeta[];
 
+export interface TodaysPick {
+  slug: string;
+  title: string;
+  category: string;
+  categoryLabel: string;
+  description: string;
+  badge: string | null;
+  type: string;
+}
+export const todaysPicks = todaysPicksData as TodaysPick[];
+
+export interface Collection {
+  slug: string;
+  title: string;
+  description: string;
+  emoji: string;
+  itemSlugs: string[];
+}
+export const collections_data = collectionsData as Collection[];
+
 /* ---- Helpers ---- */
 export function getAllItems(): AnyItem[] {
   return [...discoveries, ...products, ...hiddenGems, ...futureRadar, ...dailyTools];
@@ -140,9 +164,10 @@ function getItemExternalLink(item: AnyItem): string | null {
   return null;
 }
 
-/** Resolve outbound URL — prefer affiliate URL when available */
+/** Resolve outbound URL — prefer affiliate URL, then directAmazonUrl, then sourceLink */
 export function getItemOutboundUrl(item: AnyItem): string | null {
   if (item.affiliate?.enabled && item.affiliate.url) return item.affiliate.url;
+  if (item.type === "product" && (item as Product).directAmazonUrl) return (item as Product).directAmazonUrl!;
   return getItemExternalLink(item);
 }
 

@@ -8,13 +8,15 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { discoveries, getSubCategories } from "@/lib/data";
+import { discoveries, getSubCategories, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
+import { QuickViewModal } from "@/components/ui/QuickViewModal";
 
 export default function DiscoverPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
   const [sortMode, setSortMode] = useState<string>("default");
+  const [quickViewItem, setQuickViewItem] = useState<AnyItem | null>(null);
 
   const subCategories = getSubCategories("discovery");
 
@@ -152,10 +154,7 @@ export default function DiscoverPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {filtered.map((item, index) => (
             <ScrollReveal key={item.slug} delay={index * 50} placeholder={<SkeletonCard />}>
-              <Link
-                href={`/item/${item.slug}`}
-                className="group block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden"
-              >
+              <div className="group relative block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden">
                 <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.title} aspectRatio="3/2" width={400} height={267} className="group-hover:scale-[1.03] transition-transform duration-500" />
                   {(item as any).badge === "editors-pick" && (
@@ -163,8 +162,14 @@ export default function DiscoverPage() {
                       Editor&apos;s Pick
                     </span>
                   )}
+                  <button
+                    onClick={(e) => { e.preventDefault(); setQuickViewItem(item as AnyItem); }}
+                    className="absolute inset-0 z-20 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity"
+                  >
+                    <span className="px-3 py-1.5 bg-white text-black text-xs font-semibold rounded-full shadow">Quick View</span>
+                  </button>
                 </div>
-                <div className="p-6">
+                <Link href={`/item/${item.slug}`} className="block p-6">
                 <div className="flex items-start justify-between gap-2 mb-3">
                   <CategoryBadge label={item.category} color="indigo" />
                   <BookmarkButton slug={item.slug} />
@@ -175,8 +180,8 @@ export default function DiscoverPage() {
                 <p className="text-sm text-muted-foreground line-clamp-1">
                   {item.shortDescription}
                 </p>
-                </div>
-              </Link>
+                </Link>
+              </div>
             </ScrollReveal>
           ))}
         </div>
@@ -233,6 +238,7 @@ export default function DiscoverPage() {
         </div>
       </section>
       <BackToTop />
+      {quickViewItem && <QuickViewModal item={quickViewItem} onClose={() => setQuickViewItem(null)} />}
     </>
   );
 }

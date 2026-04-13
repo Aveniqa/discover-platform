@@ -1,5 +1,38 @@
 [
   {
+    "id": 5,
+    "slug": "rive",
+    "name": "Rive",
+    "whatItDoes": "A design tool for creating interactive animations and motion graphics that run in real time on apps and websites. It uses a state machine approach to make animations respond to user input.",
+    "category": "Design",
+    "whyItIsUseful": "It replaces Lottie and After Effects workflows with a purpose-built tool for interactive runtime animations. The resulting files are tiny and performant across platforms.",
+    "websiteLink": "https://rive.app",
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Frive.app&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 6,
+    "slug": "anytype",
+    "name": "Anytype",
+    "whatItDoes": "A privacy-first, offline-capable knowledge management app that stores data locally and syncs peer-to-peer. It combines notes, tasks, databases, and bookmarks into a single workspace.",
+    "category": "Productivity",
+    "whyItIsUseful": "It offers the flexibility of Notion without sending your data to a central server. The local-first architecture means your notes are always available, even offline.",
+    "websiteLink": "https://anytype.io",
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fanytype.io&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 7,
+    "slug": "tana",
+    "name": "Tana",
+    "whatItDoes": "A supertag-based workspace that lets you build structured knowledge graphs from everyday notes. It combines outlining, databases, and AI-powered search into one tool.",
+    "category": "Productivity",
+    "whyItIsUseful": "It eliminates the friction between freeform notes and structured data. Supertags let you turn any bullet point into a queryable record without switching tools.",
+    "websiteLink": "https://tana.inc",
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftana.inc&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
     "id": 8,
     "slug": "reclaim-ai",
     "name": "Reclaim.ai",
@@ -7,7 +40,8 @@
     "category": "Productivity",
     "whyItIsUseful": "It solves the constant re-shuffling problem of time blocking by dynamically adjusting your schedule. Teams can protect focus time while still finding meeting slots that work for everyone.",
     "websiteLink": "https://reclaim.ai",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Freclaim.ai&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 9,
@@ -17,7 +51,8 @@
     "category": "Productivity",
     "whyItIsUseful": "It saves hours of repetitive typing for emails, code snippets, and form entries. Because it is system-wide, it works in every application without plugins.",
     "websiteLink": "https://espanso.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fespanso.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 10,
@@ -27,7 +62,8 @@
     "category": "Productivity",
     "whyItIsUseful": "It brings structure to your thinking without forcing rigid hierarchies. Linking objects together lets patterns and connections emerge naturally over time.",
     "websiteLink": "https://capacities.io",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcapacities.io&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 11,
@@ -37,7 +73,8 @@
     "category": "Developer Tools",
     "whyItIsUseful": "It provides a lightweight, free alternative to Postman without requiring installation or an account. The instant-load browser experience makes quick API testing frictionless.",
     "websiteLink": "https://hoppscotch.io",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhoppscotch.io&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 12,
@@ -47,7 +84,8 @@
     "category": "Developer Tools",
     "whyItIsUseful": "It makes API interaction from the terminal far more readable than curl. The web app version adds team collaboration features for sharing and documenting API requests.",
     "websiteLink": "https://httpie.io",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhttpie.io&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 13,
@@ -57,7 +95,8 @@
     "category": "Developer Tools",
     "whyItIsUseful": "It removes the DevOps overhead of deploying side projects and prototypes. You get databases, environment variables, and automatic deployments without writing a single YAML file.",
     "websiteLink": "https://railway.app",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Frailway.app&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 14,
@@ -67,7 +106,8 @@
     "category": "Developer Tools",
     "whyItIsUseful": "It combines the speed of Sublime Text with the collaboration features of VS Code Live Share in a native app. The sub-millisecond input latency makes coding feel instant.",
     "websiteLink": "https://zed.dev",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fzed.dev&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 15,
@@ -77,7 +117,8 @@
     "category": "Developer Tools",
     "whyItIsUseful": "It keeps sensitive data off third-party websites by running everything locally. Having dozens of common dev utilities in one app saves constant context-switching to browser tabs.",
     "websiteLink": "https://devtoys.app",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdevtoys.app&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 16,
@@ -87,7 +128,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It eliminates the need to open multiple search results and synthesize answers yourself. Every claim is linked to its source, making it easy to verify information.",
     "websiteLink": "https://www.perplexity.ai",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.perplexity.ai&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 17,
@@ -97,7 +139,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It makes professional-quality voiceovers accessible to anyone without hiring voice actors. Content creators use it for podcasts, audiobooks, and video narration at a fraction of the traditional cost.",
     "websiteLink": "https://elevenlabs.io",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Felevenlabs.io&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 18,
@@ -107,7 +150,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It dramatically speeds up debugging and learning new frameworks by providing targeted code solutions. The developer focus means answers include proper syntax and best practices rather than generic explanations.",
     "websiteLink": "https://www.phind.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.phind.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 19,
@@ -117,7 +161,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It collapses the gap between ideation and prototyping to seconds. Designers and product managers can communicate UI ideas without writing any code.",
     "websiteLink": "https://makereal.tldraw.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmakereal.tldraw.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 20,
@@ -127,7 +172,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It turns passive reading into active research by letting you interrogate your own documents. The source grounding eliminates hallucination concerns common with general-purpose chatbots.",
     "websiteLink": "https://notebooklm.google.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fnotebooklm.google.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 21,
@@ -137,7 +183,8 @@
     "category": "Writing",
     "whyItIsUseful": "It forces you to write with clarity by making bad habits visually obvious. The color-coded feedback loop trains you to produce tighter, more readable writing over time.",
     "websiteLink": "https://hemingwayapp.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhemingwayapp.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 22,
@@ -147,7 +194,8 @@
     "category": "Writing",
     "whyItIsUseful": "It catches nuanced grammar and style errors that basic spell checkers miss, across many languages. The open-source nature means it can be self-hosted for privacy-sensitive writing.",
     "websiteLink": "https://languagetool.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Flanguagetool.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 23,
@@ -157,7 +205,8 @@
     "category": "Writing",
     "whyItIsUseful": "It gives independent writers a complete publishing business in a single tool without platform lock-in. The clean editor and native newsletter support mean you do not need separate tools for content and distribution.",
     "websiteLink": "https://ghost.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fghost.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 24,
@@ -167,7 +216,8 @@
     "category": "Writing",
     "whyItIsUseful": "It removes the tedium of manual citation formatting for students and researchers. The auto-detection feature saves significant time when building bibliographies for papers.",
     "websiteLink": "https://www.bibguru.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.bibguru.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 25,
@@ -177,7 +227,8 @@
     "category": "Writing",
     "whyItIsUseful": "It lets technical writers add interactive components to docs without sacrificing Markdown simplicity. Content stays portable and version-controllable in Git while supporting rich, dynamic output.",
     "websiteLink": "https://markdoc.dev",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmarkdoc.dev&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 26,
@@ -187,7 +238,8 @@
     "category": "Learning",
     "whyItIsUseful": "It makes abstract concepts tangible by replacing passive video watching with active exploration. The bite-sized daily challenges build genuine understanding of complex topics over time.",
     "websiteLink": "https://brilliant.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fbrilliant.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 27,
@@ -197,7 +249,8 @@
     "category": "Learning",
     "whyItIsUseful": "It bridges the gap between tutorials and real coding ability through deliberate practice. The mentor feedback provides personalized guidance that self-study resources cannot match.",
     "websiteLink": "https://exercism.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fexercism.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 28,
@@ -207,7 +260,8 @@
     "category": "Learning",
     "whyItIsUseful": "The interactive screencast format eliminates the context switching between watching and practicing. You learn by doing inside the lesson itself rather than copying code into a separate editor.",
     "websiteLink": "https://scrimba.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fscrimba.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 29,
@@ -217,7 +271,8 @@
     "category": "Learning",
     "whyItIsUseful": "It makes abstract math concepts immediately intuitive through interaction rather than static formulas. A single visualization can communicate what pages of textbook notation cannot.",
     "websiteLink": "https://setosa.io/ev",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsetosa.io%2Fev&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 30,
@@ -227,7 +282,8 @@
     "category": "Learning",
     "whyItIsUseful": "It eliminates the paralysis of not knowing what to learn next in a technical career. The structured paths turn an overwhelming landscape of tools and concepts into a clear progression.",
     "websiteLink": "https://roadmap.sh",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Froadmap.sh&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 31,
@@ -237,7 +293,8 @@
     "category": "Data & Analytics",
     "whyItIsUseful": "It brings the reproducibility of code to business reporting without requiring a full engineering stack. Analysts can version-control their dashboards and deploy them like a website.",
     "websiteLink": "https://evidence.dev",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fevidence.dev&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 32,
@@ -247,7 +304,8 @@
     "category": "Data & Analytics",
     "whyItIsUseful": "It makes data exploration and sharing incredibly simple without standing up a database server. Journalists, researchers, and developers use it to publish structured data in minutes.",
     "websiteLink": "https://datasette.io",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdatasette.io&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 33,
@@ -257,7 +315,8 @@
     "category": "Data & Analytics",
     "whyItIsUseful": "It fills the gap between basic Excel charts and programmatic tools like D3.js. You can produce publication-quality visualizations by simply pasting data and choosing a chart type.",
     "websiteLink": "https://rawgraphs.io",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Frawgraphs.io&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 34,
@@ -267,7 +326,8 @@
     "category": "Data & Analytics",
     "whyItIsUseful": "It eliminates the friction of moving data between spreadsheets and code notebooks. Analysts can write Python formulas right in cells while non-technical collaborators still see a familiar spreadsheet.",
     "websiteLink": "https://www.quadratichq.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.quadratichq.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 35,
@@ -277,7 +337,8 @@
     "category": "Data & Analytics",
     "whyItIsUseful": "It makes D3.js and data exploration accessible through a notebook interface with instant feedback. The reactive paradigm means changing one value automatically cascades through all dependent charts and calculations.",
     "websiteLink": "https://observablehq.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fobservablehq.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 36,
@@ -287,7 +348,8 @@
     "category": "Communication",
     "whyItIsUseful": "It provides a self-hostable, privacy-respecting alternative to Calendly with no feature restrictions on the free plan. Teams can customize every aspect of the booking experience to match their workflow.",
     "websiteLink": "https://cal.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcal.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 37,
@@ -297,7 +359,8 @@
     "category": "Communication",
     "whyItIsUseful": "It solves the problem of important messages getting buried in fast-moving Slack channels. The topic-based threading means you can catch up on specific discussions without reading everything.",
     "websiteLink": "https://zulip.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fzulip.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 38,
@@ -307,7 +370,8 @@
     "category": "Communication",
     "whyItIsUseful": "It replaces meetings that could have been emails with quick video explanations. Asynchronous video is faster to record than writing and easier to understand than text for visual topics.",
     "websiteLink": "https://www.loom.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.loom.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 39,
@@ -317,7 +381,8 @@
     "category": "Communication",
     "whyItIsUseful": "It replaces the scattered habit of checking multiple tech blogs and subreddits with a single curated feed. The community upvoting ensures high-quality content rises to the top.",
     "websiteLink": "https://daily.dev",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdaily.dev&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 40,
@@ -327,7 +392,8 @@
     "category": "Communication",
     "whyItIsUseful": "It eliminates the friction of getting non-technical participants into video calls. The permanent room URLs mean you never need to generate and share new meeting links.",
     "websiteLink": "https://whereby.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwhereby.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 41,
@@ -337,7 +403,8 @@
     "category": "Media & Entertainment",
     "whyItIsUseful": "It gives musicians and listeners an alternative to corporate streaming platforms with full control over their libraries. The federated model means communities can interconnect without centralized gatekeeping.",
     "websiteLink": "https://funkwhale.audio",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ffunkwhale.audio&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 42,
@@ -347,7 +414,8 @@
     "category": "Media & Entertainment",
     "whyItIsUseful": "It solves subscription fatigue by letting you search across all your streaming services in one place. The add-on system makes it endlessly customizable without bloating the core app.",
     "websiteLink": "https://www.stremio.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.stremio.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 43,
@@ -357,7 +425,8 @@
     "category": "Media & Entertainment",
     "whyItIsUseful": "It makes professional audio and video editing accessible to people who find timeline-based editors intimidating. Editing a podcast becomes as easy as editing a Google Doc.",
     "websiteLink": "https://www.descript.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.descript.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 44,
@@ -367,7 +436,8 @@
     "category": "Media & Entertainment",
     "whyItIsUseful": "It provides a cleaner, ad-free podcast experience compared to Spotify or Apple Podcasts. The filtering and auto-download features mean your playlist is always ready without manual curation.",
     "websiteLink": "https://pocketcasts.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fpocketcasts.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 45,
@@ -377,7 +447,8 @@
     "category": "Media & Entertainment",
     "whyItIsUseful": "It is a genuinely unique way to discover music you would never encounter through algorithmic recommendations. It turns music exploration into a geographic and historical adventure.",
     "websiteLink": "https://radiooooo.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fradiooooo.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 46,
@@ -387,7 +458,8 @@
     "category": "Finance",
     "whyItIsUseful": "It provides the features of paid services like Mint or Personal Capital as a free, self-hostable tool. The open-source model means your financial data stays entirely under your control.",
     "websiteLink": "https://maybe.co",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmaybe.co&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 47,
@@ -397,7 +469,8 @@
     "category": "Finance",
     "whyItIsUseful": "It gives you a powerful zero-based budgeting system without the monthly subscription of YNAB. The local-first approach means your financial data never touches a third-party cloud.",
     "websiteLink": "https://actualbudget.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Factualbudget.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 48,
@@ -407,7 +480,8 @@
     "category": "Finance",
     "whyItIsUseful": "It saves significant money on international transfers compared to traditional banks that hide fees in exchange rate markups. Freelancers and remote workers use it to receive payments in multiple currencies without conversion losses.",
     "websiteLink": "https://wise.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwise.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 49,
@@ -417,7 +491,8 @@
     "category": "Finance",
     "whyItIsUseful": "It lets individual investors perform the same quantitative analysis that financial advisors charge for. Backtesting your strategy against decades of real data reveals risks that gut feeling cannot.",
     "websiteLink": "https://www.portfoliovisualizer.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.portfoliovisualizer.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 50,
@@ -427,7 +502,8 @@
     "category": "Finance",
     "whyItIsUseful": "It provides the fundamental analysis data that Bloomberg terminals offer at no cost. Individual investors get access to financial statements, ratios, and screening tools without expensive subscriptions.",
     "websiteLink": "https://stockanalysis.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fstockanalysis.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 51,
@@ -437,7 +513,8 @@
     "category": "Privacy & Security",
     "whyItIsUseful": "It provides enterprise-grade password management for free without the privacy concerns of closed-source alternatives. The self-hosting option gives organizations complete control over their credential data.",
     "websiteLink": "https://bitwarden.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fbitwarden.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 52,
@@ -447,7 +524,8 @@
     "category": "Privacy & Security",
     "whyItIsUseful": "It protects your real email address from data breaches and spam by giving every service a unique alias. If an alias gets compromised, you simply disable it without affecting your primary email.",
     "websiteLink": "https://simplelogin.io",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsimplelogin.io&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 53,
@@ -457,7 +535,8 @@
     "category": "Privacy & Security",
     "whyItIsUseful": "It provides Google Docs-style collaboration with genuine zero-knowledge encryption. Teams handling sensitive information can collaborate in real time without trusting a cloud provider with their data.",
     "websiteLink": "https://cryptpad.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcryptpad.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 54,
@@ -467,7 +546,8 @@
     "category": "Privacy & Security",
     "whyItIsUseful": "It is one of the few VPN providers that genuinely cannot identify its users even if compelled. The flat pricing and no-logging policy make it a trustworthy choice for real privacy needs.",
     "websiteLink": "https://mullvad.net",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmullvad.net&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 55,
@@ -477,7 +557,8 @@
     "category": "Privacy & Security",
     "whyItIsUseful": "It provides an immediate, actionable answer to whether your accounts may be compromised. The notification feature means you learn about breaches quickly enough to change passwords before damage is done.",
     "websiteLink": "https://haveibeenpwned.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhaveibeenpwned.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 56,
@@ -487,7 +568,8 @@
     "category": "Health & Wellness",
     "whyItIsUseful": "It offers a vastly larger free library than Headspace or Calm without pushing a premium subscription. The community features and live events create accountability that solo meditation apps lack.",
     "websiteLink": "https://insighttimer.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Finsighttimer.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 57,
@@ -497,7 +579,8 @@
     "category": "Health & Wellness",
     "whyItIsUseful": "It reveals nutritional blind spots that calorie-only trackers miss entirely. The accuracy of its database makes it trusted by researchers, dietitians, and people with specific health conditions.",
     "websiteLink": "https://cronometer.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcronometer.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 58,
@@ -507,7 +590,8 @@
     "category": "Health & Wellness",
     "whyItIsUseful": "It provides immediate, judgment-free mental health support at any hour without waitlists or cost barriers. The CBT-based techniques offer genuine therapeutic value between professional therapy sessions.",
     "websiteLink": "https://woebothealth.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwoebothealth.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 59,
@@ -517,7 +601,8 @@
     "category": "Health & Wellness",
     "whyItIsUseful": "It provides a no-cost, self-hostable alternative to paid workout apps with no ads or upsells. The open API means developers can build custom integrations with wearables and other health tools.",
     "websiteLink": "https://wger.de",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwger.de&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 60,
@@ -527,7 +612,8 @@
     "category": "Health & Wellness",
     "whyItIsUseful": "It turns the abstract goal of better sleep hygiene into a tangible, visual reward system. The gentle accountability of not wanting to destroy your building is surprisingly effective at reducing late-night phone use.",
     "websiteLink": "https://sleeptown.seekrtech.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsleeptown.seekrtech.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 61,
@@ -537,7 +623,8 @@
     "category": "Social & Community",
     "whyItIsUseful": "It provides the technical depth of early Hacker News with significantly less noise and marketing. The invite-only model and transparent moderation create a high signal-to-noise ratio.",
     "websiteLink": "https://lobste.rs",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Flobste.rs&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 62,
@@ -547,7 +634,8 @@
     "category": "Social & Community",
     "whyItIsUseful": "It replaces the chaos of browser bookmarks with a spatial, visual way to collect and connect inspiration. The community aspect means you discover unexpected connections through other people's collections.",
     "websiteLink": "https://www.are.na",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.are.na&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 63,
@@ -557,7 +645,8 @@
     "category": "Social & Community",
     "whyItIsUseful": "It provides a Reddit-like experience without centralized corporate control or algorithmic manipulation. Communities can self-govern on their own servers while still connecting to the wider network.",
     "websiteLink": "https://join-lemmy.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fjoin-lemmy.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 64,
@@ -567,7 +656,8 @@
     "category": "Social & Community",
     "whyItIsUseful": "It presents a more honest picture of professional identity than LinkedIn's job-title-centric model. People with portfolio careers and diverse interests can show everything they do in one place.",
     "websiteLink": "https://www.polywork.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.polywork.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 65,
@@ -577,7 +667,8 @@
     "category": "Social & Community",
     "whyItIsUseful": "It remains the most reliable way to find real-world communities in your area around any interest. The low barrier to creating groups means niche interests that lack dedicated platforms still find a home here.",
     "websiteLink": "https://www.meetup.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.meetup.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 66,
@@ -587,7 +678,8 @@
     "category": "File Management",
     "whyItIsUseful": "It solves the problem of files scattered across multiple cloud services and devices. Instead of remembering where you stored something, you search one unified catalog.",
     "websiteLink": "https://www.spacedrive.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.spacedrive.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 67,
@@ -597,7 +689,8 @@
     "category": "File Management",
     "whyItIsUseful": "It eliminates the need to install specialized software for one-off format conversions. The API support makes it useful for automating conversion workflows in applications.",
     "websiteLink": "https://cloudconvert.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcloudconvert.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 68,
@@ -607,7 +700,8 @@
     "category": "File Management",
     "whyItIsUseful": "It provides Dropbox-like syncing without giving any company access to your files. The decentralized architecture means it works on local networks even without internet access.",
     "websiteLink": "https://syncthing.net",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsyncthing.net&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 69,
@@ -617,7 +711,8 @@
     "category": "File Management",
     "whyItIsUseful": "It turns any storage backend into a user-friendly web file manager without migration. Teams can give non-technical users a simple interface to files stored on servers they would otherwise need CLI access to use.",
     "websiteLink": "https://www.filestash.app",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.filestash.app&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 70,
@@ -627,7 +722,8 @@
     "category": "File Management",
     "whyItIsUseful": "It offers a more secure alternative to WeTransfer with genuine end-to-end encryption. The no-account requirement and expiring links make it ideal for sending sensitive files to clients or collaborators.",
     "websiteLink": "https://send.tresorit.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsend.tresorit.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 71,
@@ -637,7 +733,8 @@
     "category": "Utilities",
     "whyItIsUseful": "It replaces dozens of single-purpose apps and spreadsheets with one searchable collection. The built-in explanations mean you understand the calculation, not just the result.",
     "websiteLink": "https://www.omnicalculator.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.omnicalculator.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 72,
@@ -647,7 +744,8 @@
     "category": "Utilities",
     "whyItIsUseful": "It protects your real inbox from spam when signing up for one-time downloads or trials. The instant, no-setup nature makes it faster than creating email aliases manually.",
     "websiteLink": "https://temp-mail.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftemp-mail.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 73,
@@ -657,7 +755,8 @@
     "category": "Utilities",
     "whyItIsUseful": "It remains one of the simplest, most reliable link shorteners without the tracking overhead of competitors. The custom alias feature lets you create memorable links for presentations and print materials.",
     "websiteLink": "https://tinyurl.com",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftinyurl.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 74,
@@ -667,7 +766,8 @@
     "category": "Utilities",
     "whyItIsUseful": "It turns plain code into visually appealing images for blog posts, slides, and social media. The browser-based workflow means you do not need to install anything or fuss with screenshot tools.",
     "websiteLink": "https://carbon.now.sh",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcarbon.now.sh&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 75,
@@ -677,7 +777,8 @@
     "category": "Utilities",
     "whyItIsUseful": "It takes the trial-and-error pain out of writing complex jq filters by giving instant visual feedback. Sharing query links makes it easy to collaborate on JSON transformations with teammates.",
     "websiteLink": "https://jqplay.org",
-    "type": "hidden-gem"
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fjqplay.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 76,
@@ -689,7 +790,8 @@
     "imageIdea": "two elegant typewriters side-by-side",
     "websiteLink": "https://www.fontpair.co/",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.fontpair.co%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 77,
@@ -701,7 +803,8 @@
     "imageIdea": "a vintage dictionary open to a page of many words",
     "websiteLink": "https://www.wordhippo.com/",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.wordhippo.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 78,
@@ -713,42 +816,7 @@
     "imageIdea": "a vintage microphone on a stand",
     "websiteLink": "https://online-sound-recorder.com/",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 79,
-    "slug": "wayback-engine",
-    "name": "Wayback Engine",
-    "whatItDoes": "Wayback Engine is a powerful search engine specifically designed to index and retrieve archived content from the Internet Archive's Wayback Machine. It allows for more precise searching of historical web pages than the standard Wayback Machine interface.",
-    "category": "Reference",
-    "whyItIsUseful": "It's invaluable for researchers, historians, and anyone needing to find specific versions of websites or understand how they've evolved over time. The granular search capabilities go beyond simple date browsing.",
-    "imageIdea": "antique library card catalog",
-    "websiteLink": "https://web.archive.org/web/2/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 80,
-    "slug": "drawsql",
-    "name": "DrawSQL",
-    "whatItDoes": "DrawSQL is a web-based tool for quickly and easily creating database diagrams (ERDs). It allows users to visually design their database schemas without needing to write complex SQL code upfront.",
-    "category": "Developer",
-    "whyItIsUseful": "It significantly speeds up the process of database design and documentation for developers and project managers. Its intuitive drag-and-drop interface makes it accessible even for those less familiar with ERD tools.",
-    "imageIdea": "architectural blueprint drafting table",
-    "websiteLink": "https://drawsql.app/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 81,
-    "slug": "text-to-image-ai-playground",
-    "name": "Playground AI",
-    "whatItDoes": "Playground AI is a free online image creation tool that uses artificial intelligence to generate images from text descriptions. It offers a user-friendly interface with various customization options for generating unique artwork.",
-    "category": "Design",
-    "whyItIsUseful": "It democratizes AI art generation, allowing anyone to create stunning visuals for personal projects, presentations, or creative endeavors without needing advanced technical skills or paid subscriptions for basic use. It's a great tool for visual brainstorming.",
-    "imageIdea": "artist's easel with digital canvas",
-    "websiteLink": "https://playgroundai.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fonline-sound-recorder.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

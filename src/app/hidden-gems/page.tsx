@@ -8,13 +8,16 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { hiddenGems, getSubCategories } from "@/lib/data";
+import { hiddenGems, getSubCategories, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
+import { LogoImage } from "@/components/ui/LogoImage";
+import { QuickViewModal } from "@/components/ui/QuickViewModal";
 
 export default function HiddenGemsPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
   const [sortMode, setSortMode] = useState<string>("default");
+  const [quickViewItem, setQuickViewItem] = useState<AnyItem | null>(null);
 
   const subCategories = getSubCategories("hidden-gem");
 
@@ -160,6 +163,12 @@ export default function HiddenGemsPage() {
                       Editor&apos;s Pick
                     </span>
                   )}
+                  <button
+                    onClick={() => setQuickViewItem(item as AnyItem)}
+                    className="absolute inset-0 z-20 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity"
+                  >
+                    <span className="px-3 py-1.5 bg-white text-black text-xs font-semibold rounded-full shadow">Quick View</span>
+                  </button>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                 <div className="flex items-start justify-between gap-2 mb-3">
@@ -167,7 +176,10 @@ export default function HiddenGemsPage() {
                   <BookmarkButton slug={item.slug} />
                 </div>
                 <Link href={`/item/${item.slug}`} className="block mb-2">
-                  <h3 className="text-base font-semibold text-foreground group-hover:text-amber-300 transition-colors line-clamp-2">
+                  <h3 className="text-base font-semibold text-foreground group-hover:text-amber-300 transition-colors line-clamp-2 flex items-center gap-1.5">
+                    {item.websiteLink && (() => { try { return new URL(item.websiteLink).hostname.replace("www.", ""); } catch { return null; } })() && (
+                      <LogoImage domain={(() => { try { return new URL(item.websiteLink).hostname.replace("www.", ""); } catch { return ""; } })()} />
+                    )}
                     {item.name}
                   </h3>
                 </Link>
@@ -244,6 +256,7 @@ export default function HiddenGemsPage() {
         </div>
       </section>
       <BackToTop />
+      {quickViewItem && <QuickViewModal item={quickViewItem} onClose={() => setQuickViewItem(null)} />}
     </>
   );
 }

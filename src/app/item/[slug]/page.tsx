@@ -21,6 +21,8 @@ import {
   type AnyItem,
   type Product,
   type FutureTech,
+  type HiddenGem,
+  type DailyTool,
 } from "@/lib/data";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
@@ -30,6 +32,8 @@ import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { PromoCode } from "@/components/ui/PromoCode";
 import { StickyCTA } from "@/components/ui/StickyCTA";
+import { LogoImage } from "@/components/ui/LogoImage";
+import { ScreenshotImage } from "@/components/ui/ScreenshotImage";
 import { isPexelsImage } from "@/lib/images";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -204,6 +208,13 @@ export default async function ItemPage({ params }: Props) {
   const ctaLabel = getCtaLabel(item);
   const isAffiliate = item.affiliate?.enabled || item.type === "product";
 
+  // Brand logo domain for hidden gems and tools
+  const websiteLink = (item as HiddenGem | DailyTool).websiteLink as string | undefined;
+  const logoDomain = (() => {
+    if (item.type !== "hidden-gem" && item.type !== "tool") return null;
+    try { return websiteLink ? new URL(websiteLink).hostname.replace("www.", "") : null; } catch { return null; }
+  })();
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -221,11 +232,17 @@ export default async function ItemPage({ params }: Props) {
 
       {/* ── Hero image (full-width) ───────────────────── */}
       <div className="w-full overflow-hidden border-b border-border/30 relative">
-        <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" />
-        {isPexelsImage(slug) && (
-          <p className="absolute bottom-2 right-3 text-[10px] text-white/30">
-            Photo via Pexels
-          </p>
+        {item.type === "hidden-gem" && (item as HiddenGem).screenshotUrl ? (
+          <ScreenshotImage src={(item as HiddenGem).screenshotUrl!} alt={title} />
+        ) : (
+          <>
+            <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" />
+            {isPexelsImage(slug) && (
+              <p className="absolute bottom-2 right-3 text-[10px] text-white/30">
+                Photo via Pexels
+              </p>
+            )}
+          </>
         )}
       </div>
 
@@ -243,9 +260,14 @@ export default async function ItemPage({ params }: Props) {
           {/* ── Badge + Title ───────────────────────────────── */}
           <div className="mb-8">
             <CategoryBadge color={color} label={label} size="md" className="mb-4" />
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground leading-[1.1]">
-              {title}
-            </h1>
+            <div className="flex items-center gap-3 mb-1">
+              {logoDomain && (
+                <LogoImage domain={logoDomain} className="w-8 h-8 rounded object-contain shrink-0" />
+              )}
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+                {title}
+              </h1>
+            </div>
 
             {/* Editorial byline */}
             <div className="flex items-center gap-2 mt-4 text-xs text-muted-foreground">
@@ -296,23 +318,28 @@ export default async function ItemPage({ params }: Props) {
           {outboundUrl && (
             <ScrollReveal delay={150}>
               <div className="mb-10">
-                <a
-                  href={outboundUrl}
-                  target="_blank"
-                  rel={isAffiliate ? "sponsored noopener" : "noopener"}
-                  data-affiliate={isAffiliate ? "true" : "false"}
-                  data-provider={item.affiliate?.provider || ""}
-                  data-item-slug={slug}
-                  data-item-category={category}
-                  data-item-type={item.type}
-                  id="main-cta-button"
-                  className={`inline-flex items-center gap-2.5 px-8 py-4 rounded-xl text-white font-bold text-base hover:-translate-y-0.5 transition-all ${
-                    ctaStyles[item.type] || ctaStyles.default
-                  }`}
-                >
-                  {ctaLabel}
-                  <span aria-hidden="true">&rarr;</span>
-                </a>
+                <div className="flex items-center gap-3 flex-wrap">
+                  <a
+                    href={outboundUrl}
+                    target="_blank"
+                    rel={isAffiliate ? "sponsored noopener" : "noopener"}
+                    data-affiliate={isAffiliate ? "true" : "false"}
+                    data-provider={item.affiliate?.provider || ""}
+                    data-item-slug={slug}
+                    data-item-category={category}
+                    data-item-type={item.type}
+                    id="main-cta-button"
+                    className={`inline-flex items-center gap-2.5 px-8 py-4 rounded-xl text-white font-bold text-base hover:-translate-y-0.5 transition-all ${
+                      ctaStyles[item.type] || ctaStyles.default
+                    }`}
+                  >
+                    {ctaLabel}
+                    <span aria-hidden="true">&rarr;</span>
+                  </a>
+                  {logoDomain && (
+                    <LogoImage domain={logoDomain} alt={`${title} logo`} className="w-7 h-7 rounded object-contain" />
+                  )}
+                </div>
 
                 {/* Affiliate badge */}
                 {isAffiliate && (

@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "ai-translates-ancient-lost-language",
+    "title": "AI Deciphers Previously Untranslatable Ancient Language",
+    "category": "discoveries",
+    "categoryLabel": "Discovery",
+    "description": "Artificial intelligence has successfully translated a long-lost ancient language that has baffled scholars for decades. ",
+    "badge": null,
+    "type": "discovery"
+  },
+  {
+    "slug": "anker-powerhouse-256wh-portable-power-station",
+    "title": "Anker PowerHouse 256Wh Portable Power Station",
+    "category": "products",
+    "categoryLabel": "Trending Product",
+    "description": "The Anker PowerHouse is a compact and powerful portable power station designed to keep your devices charged on the go. W",
+    "badge": null,
+    "type": "product"
+  },
+  {
+    "slug": "online-sound-recorder",
+    "title": "Online-Sound-Recorder.com",
+    "category": "hidden-gems",
+    "categoryLabel": "Hidden Gem",
+    "description": "This website offers a simple and free online tool to record audio directly from your web browser. It requires no install",
+    "badge": null,
+    "type": "hidden-gem"
+  },
+  {
+    "slug": "quantum-sensors-for-material-characterization",
+    "title": "Quantum Sensors for Material Characterization",
+    "category": "future-radar",
+    "categoryLabel": "Future Tech",
+    "description": "Emerging quantum sensing technologies, leveraging phenomena like superposition and entanglement, are offering unpreceden",
+    "badge": null,
+    "type": "future-tech"
+  },
+  {
+    "slug": "notion-workspace-organizer",
+    "title": "Notion",
+    "category": "daily-tools",
+    "categoryLabel": "Daily Tool",
+    "description": "Notion is an all-in-one workspace app that combines notes, tasks, wikis, and databases into a single, flexible platform.",
+    "badge": null,
+    "type": "tool"
+  }
+]

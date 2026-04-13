@@ -91,7 +91,7 @@ async function generateItems(category, existingItems, count) {
   "category": "<Design|Productivity|Education|Finance|Developer|Writing|Health|Entertainment|Social|Reference>",
   "whyItIsUseful": "<2-3 sentences>",
   "imageIdea": "<concrete visual noun>",
-  "websiteLink": "<real working URL>",
+  "websiteLink": "<real working URL — e.g. https://obsidian.md>",
   "type": "hidden-gem"
 }`,
     "future-radar": `{
@@ -113,7 +113,7 @@ async function generateItems(category, existingItems, count) {
   "category": "<Productivity|Design|Developer|Writing|Finance|Health|Education|Entertainment|Social|Reference>",
   "whyItIsUseful": "<2-3 sentences>",
   "imageIdea": "<concrete visual noun like 'productivity app laptop workspace'>",
-  "websiteLink": "<real working URL>",
+  "websiteLink": "<real working URL — e.g. https://notion.so>",
   "type": "tool"
 }`,
   };
@@ -124,11 +124,11 @@ async function generateItems(category, existingItems, count) {
     products:
       "Find 3 real, currently available consumer products that are trending or newly launched. They must be real products you can actually buy. Include accurate pricing.",
     "hidden-gems":
-      "Find 3 real, lesser-known websites or web tools that are genuinely useful. They must have real, working URLs. Focus on tools most people haven't heard of.",
+      "Find 3 real, lesser-known websites or web tools that are genuinely useful. They must have real, working URLs. Focus on tools most people haven't heard of. CRITICAL: The websiteLink field MUST be a real, working URL to the tool's actual website (e.g., 'https://obsidian.md'). Never use placeholder or example URLs.",
     "future-radar":
       "Find 3 real emerging technologies that have had recent milestones or breakthroughs. Focus on concrete developments, not speculation.",
     "daily-tools":
-      "Find 3 real, useful everyday tools or apps with working URLs. Focus on well-regarded tools that help with productivity, creativity, or daily life.",
+      "Find 3 real, useful everyday tools or apps with working URLs. Focus on well-regarded tools that help with productivity, creativity, or daily life. CRITICAL: The websiteLink field MUST be a real, working URL to the tool's actual website (e.g., 'https://notion.so'). Never use placeholder or example URLs.",
   };
 
   const prompt = `${categoryPrompts[category]}
@@ -199,24 +199,29 @@ async function main() {
 
   console.log("✅ All categories updated.\n");
 
-  // Auto-apply Amazon affiliate links to new products
-  const AMAZON_TAG = process.env.AMAZON_AFFILIATE_TAG || "";
-  if (AMAZON_TAG) {
-    const productsFile = path.join(DATA_DIR, "products.json");
-    const allProducts = JSON.parse(fs.readFileSync(productsFile, "utf8"));
-    let affiliateCount = 0;
-    for (const p of allProducts) {
-      if (!p.affiliate || !p.affiliate.enabled) {
-        const query = encodeURIComponent(p.title);
-        p.affiliate = {
-          enabled: true,
-          provider: "amazon",
-          url: `https://www.amazon.com/s?k=${query}&tag=${AMAZON_TAG}`,
-        };
-        affiliateCount++;
-      }
+  // Auto-apply Amazon affiliate links and directAmazonUrl to all products
+  const AMAZON_TAG = process.env.AMAZON_AFFILIATE_TAG || "vaultvibe-20";
+  const productsFile = path.join(DATA_DIR, "products.json");
+  const allProducts = JSON.parse(fs.readFileSync(productsFile, "utf8"));
+  let affiliateCount = 0;
+  for (const p of allProducts) {
+    const query = encodeURIComponent(p.title);
+    const amazonUrl = `https://www.amazon.com/s?k=${query}&tag=${AMAZON_TAG}`;
+    // Always set directAmazonUrl (explicit field for rendering)
+    if (!p.directAmazonUrl) {
+      p.directAmazonUrl = amazonUrl;
     }
-    fs.writeFileSync(productsFile, JSON.stringify(allProducts, null, 2));
+    if (!p.affiliate || !p.affiliate.enabled) {
+      p.affiliate = {
+        enabled: true,
+        provider: "amazon",
+        url: amazonUrl,
+      };
+      affiliateCount++;
+    }
+  }
+  fs.writeFileSync(productsFile, JSON.stringify(allProducts, null, 2));
+  if (affiliateCount > 0) {
     console.log(`🔗 Applied Amazon affiliate links to ${affiliateCount} products.`);
   }
 }

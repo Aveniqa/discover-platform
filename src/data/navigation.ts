@@ -11,6 +11,7 @@ export const mainNav: NavItem[] = [
   { label: "Hidden Gems", href: "/hidden-gems", description: "Internet's best-kept secrets" },
   { label: "Future Radar", href: "/future-radar", description: "What's coming next", isNew: true },
   { label: "Tools", href: "/tools", description: "Useful daily utilities" },
+  { label: "Collections", href: "/collections", description: "Curated themed groups" },
   { label: "Categories", href: "/categories", description: "Browse by topic" },
 ];
 

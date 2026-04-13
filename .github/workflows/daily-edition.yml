@@ -45,6 +45,15 @@ jobs:
       - name: Assign editorial badges
         run: node scripts/assign-badges.js
 
+      - name: Generate today's picks
+        run: node scripts/generate-todays-picks.js
+
+      - name: Populate collections
+        run: node scripts/populate-collections.js
+
+      - name: Generate website screenshots for hidden gems
+        run: node scripts/fetch-screenshots.js
+
       - name: Fetch images for new items
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
