@@ -157,13 +157,16 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
   const cleaned = text.replace(/^```json?\n?/, "").replace(/\n?```$/, "");
   const items = JSON.parse(cleaned);
 
-  // Assign IDs and validate no slug collisions
+  // Assign IDs and de-duplicate slugs (append suffix instead of skipping)
   let nextId = getNextId(existingItems);
   const validItems = [];
   for (const item of items) {
     if (existingSlugs.has(item.slug)) {
-      console.warn(`  ⚠ Skipping duplicate slug: ${item.slug}`);
-      continue;
+      const base = item.slug;
+      let suffix = 2;
+      while (existingSlugs.has(`${base}-${suffix}`)) suffix++;
+      item.slug = `${base}-${suffix}`;
+      console.warn(`  ⚠ Slug collision: '${base}' → renamed to '${item.slug}'`);
     }
     item.id = nextId++;
     item.dateAdded = today;

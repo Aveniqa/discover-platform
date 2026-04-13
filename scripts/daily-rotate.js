@@ -12,7 +12,12 @@ const CATS = ['discoveries', 'products', 'hidden-gems', 'future-radar', 'daily-t
 for (const cat of CATS) {
   const fp = path.join(__dirname, '..', 'data', `${cat}.json`);
   const items = JSON.parse(fs.readFileSync(fp, 'utf8'));
-  items.sort((a, b) => new Date(a.dateAdded) - new Date(b.dateAdded));
+  // Items without dateAdded are treated as the oldest (epoch 0)
+  items.sort((a, b) => {
+    const da = a.dateAdded ? new Date(a.dateAdded).getTime() : 0;
+    const db = b.dateAdded ? new Date(b.dateAdded).getTime() : 0;
+    return da - db;
+  });
   const cut = items.splice(0, 3);
   console.log(`[${cat}] Removed: ${cut.map(i => i.slug).join(', ')}`);
   fs.writeFileSync(fp, JSON.stringify(items, null, 2));
