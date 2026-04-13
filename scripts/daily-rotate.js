@@ -23,4 +23,15 @@ for (const cat of CATS) {
   fs.writeFileSync(fp, JSON.stringify(items, null, 2));
 }
 
+// Update category counts in categories.json
+const catFile = path.join(__dirname, '..', 'data', 'categories.json');
+const catData = JSON.parse(fs.readFileSync(catFile, 'utf8'));
+for (const cat of catData) {
+  const dataFile = path.join(__dirname, '..', 'data', `${cat.key}.json`);
+  const items = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
+  cat.count = items.length;
+}
+fs.writeFileSync(catFile, JSON.stringify(catData, null, 2));
+console.log('Category counts updated.');
+
 console.log('\nDone. 15 items removed. Add 15 fresh ones.');
