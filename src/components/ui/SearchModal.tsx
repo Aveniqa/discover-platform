@@ -150,10 +150,11 @@ export function SearchModal() {
 }
 
 export function SearchTrigger() {
-  const [, setOpen] = useState(false);
+  const [shortcutLabel, setShortcutLabel] = useState("⌘K");
 
   useEffect(() => {
-    // Listen for custom open event
+    const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
+    setShortcutLabel(isMac ? "⌘K" : "Ctrl+K");
   }, []);
 
   return (
@@ -169,7 +170,7 @@ export function SearchTrigger() {
       </svg>
       <span>Search...</span>
       <kbd className="hidden md:inline-flex items-center px-1.5 py-0.5 rounded text-[10px] bg-background/50 border border-border/50 text-muted-foreground font-mono">
-        ⌘K
+        {shortcutLabel}
       </kbd>
     </button>
   );
