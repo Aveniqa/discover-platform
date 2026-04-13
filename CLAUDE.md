@@ -1,17 +1,17 @@
 # Surfaced — Project Context
 
 ## Architecture
-Next.js App Router, static export to `out/`. Deployed to Cloudflare Pages (surfaced-4in). Content lives in `data/*.json`. Images cached in `data/image-cache.json`, fetched via `scripts/fetch-images.ts` using Pexels API.
+Next.js App Router, static export to `out/`. Deployed to Cloudflare Pages (surfaced-x). Content lives in `data/*.json`. Images cached in `data/image-cache.json`, fetched via `scripts/fetch-images.ts` using Pexels API.
 
-## JSON Schemas
+## JSON Schemas (actual field names)
 
-**All items require:** `slug` (kebab-case, unique), `title`, `description` (2-3 sentences), `imageIdea` (concrete visual noun, NOT abstract), `dateAdded` (YYYY-MM-DD)
+**discoveries.json**: `id`, `slug`, `title`, `shortDescription`, `category`, `whyItIsInteresting`, `imageIdea`, `sourceLink`, `type:"discovery"`
+**products.json**: `id`, `slug`, `title`, `shortDescription`, `category`, `whyItIsInteresting`, `imageIdea`, `sourceLink`, `estimatedPriceRange`, `type:"product"`
+**hidden-gems.json**: `id`, `slug`, `name`, `whatItDoes`, `category`, `whyItIsUseful`, `imageIdea`, `websiteLink`, `type:"hidden-gem"`
+**future-radar.json**: `id`, `slug`, `techName`, `explanation`, `industry`, `whyItMatters`, `developmentStage`, `imageIdea`, `type:"future-tech"`
+**daily-tools.json**: `id`, `slug`, `toolName`, `whatItDoes`, `category`, `whyItIsUseful`, `imageIdea`, `websiteLink`, `type:"tool"`
 
-**discoveries.json** — adds: `subcategory` (Science|Nature|History|Technology|Psychology|Culture|Global|Statistics|Innovation|Space), `funFact`, `source`
-**products.json** — adds: `price` (string), `productCategory`, `brand`, `rating` (number)
-**hidden-gems.json** — adds: `url` (real, working), `gemCategory` (Design|Productivity|Education|Finance|Developer|Writing|Health|Entertainment|Social|Reference)
-**future-tech.json** — adds: `industry`, `technology`, `developmentStage` (Research|Prototype|Early Adoption|Growth|Mainstream)
-**tools.json** — adds: `url` (real, working), `toolCategory`, `pricing` (Free|Freemium|Paid), `platforms` (array)
+New AI-generated items also get `dateAdded` (YYYY-MM-DD). Original items may lack this field.
 
 ## Daily Rotation
 - Run `node scripts/daily-rotate.js` to remove 3 oldest per category
