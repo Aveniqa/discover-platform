@@ -174,13 +174,14 @@ export default function TrendingPage() {
                 </p>
                 <div className="mt-auto">
                   <a
-                    href={item.sourceLink}
+                    href={(item as any).affiliate?.url || item.sourceLink}
                     target="_blank"
                     rel="sponsored noopener"
                     data-affiliate="true"
+                    onClick={(e) => e.stopPropagation()}
                     className="inline-flex items-center text-xs font-semibold text-emerald-400 hover:text-emerald-300 transition-colors"
                   >
-                    Check Price →
+                    Buy on Amazon →
                   </a>
                 </div>
                 </div>

@@ -171,9 +171,10 @@ export default function ToolsPage() {
                     target="_blank"
                     rel="noopener"
                     data-outbound="true"
+                    onClick={(e) => e.stopPropagation()}
                     className="inline-flex items-center text-xs font-semibold text-rose-400 hover:text-rose-300 transition-colors"
                   >
-                    Open Tool →
+                    Visit Site →
                   </a>
                 </div>
                 </div>

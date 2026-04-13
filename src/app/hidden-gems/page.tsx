@@ -172,9 +172,10 @@ export default function HiddenGemsPage() {
                     target="_blank"
                     rel="noopener"
                     data-outbound="true"
+                    onClick={(e) => e.stopPropagation()}
                     className="inline-flex items-center text-xs font-semibold text-amber-400 hover:text-amber-300 transition-colors"
                   >
-                    Visit →
+                    Visit Site →
                   </a>
                 </div>
                 </div>
