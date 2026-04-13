@@ -42,6 +42,9 @@ jobs:
       - name: Validate JSON files
         run: node scripts/validate-data.js
 
+      - name: Assign editorial badges
+        run: node scripts/assign-badges.js
+
       - name: Fetch images for new items
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}

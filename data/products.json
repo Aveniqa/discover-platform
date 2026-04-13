@@ -150,7 +150,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Samsung%20ViewFinity%20S9%205K%20Monitor&tag=vaultvibe-20"
-    }
+    },
+    "badge": "great-gift"
   },
   {
     "id": 13,
@@ -354,7 +355,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Nalgene%2032oz%20Sustain%20Water%20Bottle&tag=vaultvibe-20"
-    }
+    },
+    "badge": "best-value"
   },
   {
     "id": 25,
@@ -473,7 +475,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Sony%20Alpha%20a7C%20II%20Mirrorless%20Camera&tag=vaultvibe-20"
-    }
+    },
+    "badge": "great-gift"
   },
   {
     "id": 32,
@@ -490,7 +493,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=DJI%20Air%203%20Camera%20Drone&tag=vaultvibe-20"
-    }
+    },
+    "badge": "great-gift"
   },
   {
     "id": 33,
@@ -694,7 +698,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Grid-It%20Cocoon%20Organizer&tag=vaultvibe-20"
-    }
+    },
+    "badge": "best-value"
   },
   {
     "id": 45,
@@ -1119,7 +1124,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=LastObject%20LastSwab%20Reusable%20Swab&tag=vaultvibe-20"
-    }
+    },
+    "badge": "best-value"
   },
   {
     "id": 70,

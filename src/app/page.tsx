@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import {
   discoveries,
   products,
@@ -15,13 +16,14 @@ import {
 } from "@/lib/data";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
-import { StreakWidget } from "@/components/ui/StreakWidget";
+import { StreakWidget, getStreakMilestone } from "@/components/ui/StreakWidget";
 import { SurpriseMe } from "@/components/ui/SurpriseMe";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { SocialCTA } from "@/components/SocialCTA";
 import { ShareTodaysPicks } from "@/components/ui/ShareTodaysPicks";
 import { TodayDate } from "@/components/ui/TodayDate";
+import { getStreak } from "@/lib/engagement";
 import Link from "next/link";
 
 /* ---- Helpers ---- */
@@ -73,6 +75,7 @@ function accentBar(type: string): string {
 
 export default function HomePage() {
   const totalItems = discoveries.length + products.length + hiddenGems.length + futureRadar.length + dailyTools.length;
+  const [milestoneToast, setMilestoneToast] = useState<string | null>(null);
 
   /* Cmd+K trigger */
   const openSearch = () => {
@@ -80,6 +83,19 @@ export default function HomePage() {
       new KeyboardEvent("keydown", { key: "k", metaKey: true })
     );
   };
+
+  /* Streak milestone toast — fires once per milestone level */
+  useEffect(() => {
+    const streakDays = getStreak();
+    const milestone = getStreakMilestone(streakDays);
+    if (!milestone) return;
+    const lastShown = localStorage.getItem("surfaced-streak-milestone-shown");
+    if (lastShown === String(milestone.days)) return;
+    localStorage.setItem("surfaced-streak-milestone-shown", String(milestone.days));
+    setMilestoneToast(`${milestone.emoji} ${milestone.label} — ${streakDays}-day streak!`);
+    const t = setTimeout(() => setMilestoneToast(null), 4000);
+    return () => clearTimeout(t);
+  }, []);
 
   /* What Surfaced Today — 5 standout daily picks */
   const editorsPick = discoveries[0];
@@ -95,6 +111,13 @@ export default function HomePage() {
 
   return (
     <>
+      {/* ── Streak milestone toast ──────────────────────── */}
+      {milestoneToast && (
+        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-[60] px-6 py-3 rounded-2xl bg-amber-500/20 border border-amber-400/30 text-amber-200 text-sm font-semibold shadow-xl backdrop-blur animate-fade-in-up whitespace-nowrap">
+          {milestoneToast}
+        </div>
+      )}
+
       {/* ============================================
           HERO
           ============================================ */}

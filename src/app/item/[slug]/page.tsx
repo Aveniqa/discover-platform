@@ -13,6 +13,11 @@ import {
   getCategoryNavLabel,
   getCategoryPath,
   getRelatedItems,
+  discoveries,
+  products,
+  hiddenGems,
+  futureRadar,
+  dailyTools,
   type AnyItem,
   type Product,
   type FutureTech,
@@ -183,6 +188,19 @@ export default async function ItemPage({ params }: Props) {
   const relatedItems = getRelatedItems(item, 4);
   const crossItems = getCrossCategoryItems(item, 4);
   const outboundUrl = getItemOutboundUrl(item);
+
+  // Prev / next within the same type array
+  const typeArrayMap: Record<string, AnyItem[]> = {
+    discovery: discoveries as AnyItem[],
+    product: products as AnyItem[],
+    "hidden-gem": hiddenGems as AnyItem[],
+    "future-tech": futureRadar as AnyItem[],
+    tool: dailyTools as AnyItem[],
+  };
+  const categoryItems = typeArrayMap[item.type] || [];
+  const currentIndex = categoryItems.findIndex((i) => i.slug === slug);
+  const prevItem = currentIndex > 0 ? categoryItems[currentIndex - 1] : null;
+  const nextItem = currentIndex < categoryItems.length - 1 ? categoryItems[currentIndex + 1] : null;
   const ctaLabel = getCtaLabel(item);
   const isAffiliate = item.affiliate?.enabled || item.type === "product";
 
@@ -323,10 +341,38 @@ export default async function ItemPage({ params }: Props) {
           )}
 
           {/* ── Share + Bookmark row ────────────────────────── */}
-          <div className="flex flex-wrap items-center gap-3 mb-14 pb-12 border-b border-border/50">
+          <div className="flex flex-wrap items-center gap-3 mb-10 pb-10 border-b border-border/50">
             <ShareButtons title={title} slug={slug} />
             <BookmarkButton slug={slug} size="md" />
           </div>
+
+          {/* ── Prev / Next navigation ──────────────────────── */}
+          {(prevItem || nextItem) && (
+            <div className="flex justify-between items-center py-6 border-b border-border mb-10">
+              {prevItem ? (
+                <Link
+                  href={`/item/${prevItem.slug}`}
+                  className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group max-w-[45%]"
+                >
+                  <span className="group-hover:-translate-x-1 transition-transform shrink-0">←</span>
+                  <span className="truncate">{getItemTitle(prevItem)}</span>
+                </Link>
+              ) : (
+                <div />
+              )}
+              {nextItem ? (
+                <Link
+                  href={`/item/${nextItem.slug}`}
+                  className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group max-w-[45%] ml-auto text-right"
+                >
+                  <span className="truncate">{getItemTitle(nextItem)}</span>
+                  <span className="group-hover:translate-x-1 transition-transform shrink-0">→</span>
+                </Link>
+              ) : (
+                <div />
+              )}
+            </div>
+          )}
 
           {/* ── Related items ───────────────────────────────── */}
           {relatedItems.length > 0 && (

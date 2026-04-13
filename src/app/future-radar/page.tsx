@@ -9,6 +9,7 @@ import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { futureRadar, getSubCategories } from "@/lib/data";
+import { BackToTop } from "@/components/ui/BackToTop";
 
 export default function FutureRadarPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -30,12 +31,11 @@ export default function FutureRadarPage() {
           i.explanation.toLowerCase().includes(q)
       );
     }
-    if (sortMode === "az") {
-      items.sort((a, b) => a.techName.localeCompare(b.techName));
-    }
-    if (sortMode === "category") {
-      items.sort((a, b) => a.industry.localeCompare(b.industry));
-    }
+    if (sortMode === "newest") items.sort((a, b) => (b.id || 0) - (a.id || 0));
+    else if (sortMode === "oldest") items.sort((a, b) => (a.id || 0) - (b.id || 0));
+    else if (sortMode === "az") items.sort((a, b) => a.techName.localeCompare(b.techName));
+    else if (sortMode === "za") items.sort((a, b) => b.techName.localeCompare(a.techName));
+    else if (sortMode === "category") items.sort((a, b) => a.industry.localeCompare(b.industry));
     return items;
   }, [activeCategory, searchQuery, sortMode]);
 
@@ -101,7 +101,10 @@ export default function FutureRadarPage() {
               className="rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-cyan-500/40 transition-all cursor-pointer"
             >
               <option value="default">Default</option>
-              <option value="az">A-Z</option>
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="az">A → Z</option>
+              <option value="za">Z → A</option>
               <option value="category">Category</option>
             </select>
           </div>
@@ -154,8 +157,13 @@ export default function FutureRadarPage() {
                 href={`/item/${item.slug}`}
                 className="group block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden"
               >
-                <div className="overflow-hidden">
+                <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.techName} aspectRatio="3/2" width={400} height={267} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  {(item as any).badge === "editors-pick" && (
+                    <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
+                      Editor&apos;s Pick
+                    </span>
+                  )}
                 </div>
                 <div className="p-6">
                 <div className="flex items-start justify-between gap-2 mb-3">
@@ -188,6 +196,27 @@ export default function FutureRadarPage() {
         )}
       </section>
 
+      {/* ── Explore Another Category ─────────────────────── */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-4 mb-8">
+        <div className="p-6 rounded-2xl bg-card/50 border border-border text-center">
+          <h3 className="text-lg font-semibold mb-2">Done exploring? Try another category</h3>
+          <p className="text-sm text-muted-foreground mb-4">Keep discovering across all of Surfaced.</p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {[
+              { label: "Discoveries", href: "/discover" },
+              { label: "Trending Products", href: "/trending" },
+              { label: "Hidden Gems", href: "/hidden-gems" },
+              { label: "Daily Tools", href: "/tools" },
+            ].map((cat) => (
+              <Link key={cat.href} href={cat.href}
+                className="px-4 py-2 rounded-full text-sm bg-accent/10 text-accent hover:bg-accent/20 transition-colors">
+                {cat.label} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Newsletter CTA ────────────────────────────────── */}
       <section className="relative py-20 sm:py-28 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
@@ -211,6 +240,7 @@ export default function FutureRadarPage() {
           </div>
         </div>
       </section>
+      <BackToTop />
     </>
   );
 }

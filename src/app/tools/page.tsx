@@ -9,6 +9,7 @@ import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { dailyTools, getSubCategories } from "@/lib/data";
+import { BackToTop } from "@/components/ui/BackToTop";
 
 export default function ToolsPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -30,12 +31,11 @@ export default function ToolsPage() {
           i.whatItDoes.toLowerCase().includes(q)
       );
     }
-    if (sortMode === "az") {
-      items.sort((a, b) => a.toolName.localeCompare(b.toolName));
-    }
-    if (sortMode === "category") {
-      items.sort((a, b) => a.category.localeCompare(b.category));
-    }
+    if (sortMode === "newest") items.sort((a, b) => (b.id || 0) - (a.id || 0));
+    else if (sortMode === "oldest") items.sort((a, b) => (a.id || 0) - (b.id || 0));
+    else if (sortMode === "az") items.sort((a, b) => a.toolName.localeCompare(b.toolName));
+    else if (sortMode === "za") items.sort((a, b) => b.toolName.localeCompare(a.toolName));
+    else if (sortMode === "category") items.sort((a, b) => a.category.localeCompare(b.category));
     return items;
   }, [activeCategory, searchQuery, sortMode]);
 
@@ -99,7 +99,10 @@ export default function ToolsPage() {
               className="rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-rose-500/40 transition-all cursor-pointer"
             >
               <option value="default">Default</option>
-              <option value="az">A-Z</option>
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="az">A → Z</option>
+              <option value="za">Z → A</option>
               <option value="category">Category</option>
             </select>
           </div>
@@ -149,8 +152,13 @@ export default function ToolsPage() {
           {filtered.map((item, index) => (
             <ScrollReveal key={item.slug} delay={index * 50} placeholder={<SkeletonCard />}>
               <div className="group rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
-                <div className="overflow-hidden">
+                <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.toolName} aspectRatio="3/2" width={400} height={267} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  {(item as any).badge === "editors-pick" && (
+                    <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
+                      Editor&apos;s Pick
+                    </span>
+                  )}
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                 <div className="flex items-start justify-between gap-2 mb-3">
@@ -190,6 +198,27 @@ export default function ToolsPage() {
         )}
       </section>
 
+      {/* ── Explore Another Category ─────────────────────── */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-4 mb-8">
+        <div className="p-6 rounded-2xl bg-card/50 border border-border text-center">
+          <h3 className="text-lg font-semibold mb-2">Done exploring? Try another category</h3>
+          <p className="text-sm text-muted-foreground mb-4">Keep discovering across all of Surfaced.</p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {[
+              { label: "Discoveries", href: "/discover" },
+              { label: "Trending Products", href: "/trending" },
+              { label: "Hidden Gems", href: "/hidden-gems" },
+              { label: "Future Radar", href: "/future-radar" },
+            ].map((cat) => (
+              <Link key={cat.href} href={cat.href}
+                className="px-4 py-2 rounded-full text-sm bg-accent/10 text-accent hover:bg-accent/20 transition-colors">
+                {cat.label} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Newsletter CTA ────────────────────────────────── */}
       <section className="relative py-20 sm:py-28 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
@@ -213,6 +242,7 @@ export default function ToolsPage() {
           </div>
         </div>
       </section>
+      <BackToTop />
     </>
   );
 }

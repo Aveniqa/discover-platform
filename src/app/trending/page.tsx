@@ -9,10 +9,26 @@ import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { products, getSubCategories } from "@/lib/data";
+import { BackToTop } from "@/components/ui/BackToTop";
+
+// Parse the lower bound from "estimatedPriceRange" strings like "$299–$349" or "$29"
+function parsePriceLower(range: string | undefined): number {
+  if (!range) return 0;
+  const match = range.match(/\$(\d+(?:,\d+)?)/);
+  return match ? parseInt(match[1].replace(",", "")) : 0;
+}
+
+const PRICE_RANGES = [
+  { label: "Under $50", min: 0, max: 50 },
+  { label: "$50–$100", min: 50, max: 100 },
+  { label: "$100–$200", min: 100, max: 200 },
+  { label: "$200+", min: 200, max: Infinity },
+];
 
 export default function TrendingPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [activeCategory, setActiveCategory] = useState<string>("All");
+  const [priceFilter, setPriceFilter] = useState<string>("All");
   const [sortMode, setSortMode] = useState<string>("default");
 
   const subCategories = getSubCategories("product");
@@ -22,6 +38,15 @@ export default function TrendingPage() {
     if (activeCategory !== "All") {
       items = items.filter((i) => i.category === activeCategory);
     }
+    if (priceFilter !== "All") {
+      const range = PRICE_RANGES.find((r) => r.label === priceFilter);
+      if (range) {
+        items = items.filter((i) => {
+          const lower = parsePriceLower(i.estimatedPriceRange);
+          return lower >= range.min && lower < range.max;
+        });
+      }
+    }
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       items = items.filter(
@@ -30,14 +55,15 @@ export default function TrendingPage() {
           i.shortDescription.toLowerCase().includes(q)
       );
     }
-    if (sortMode === "az") {
-      items.sort((a, b) => a.title.localeCompare(b.title));
-    }
-    if (sortMode === "category") {
-      items.sort((a, b) => a.category.localeCompare(b.category));
-    }
+    if (sortMode === "newest") items.sort((a, b) => (b.id || 0) - (a.id || 0));
+    else if (sortMode === "oldest") items.sort((a, b) => (a.id || 0) - (b.id || 0));
+    else if (sortMode === "az") items.sort((a, b) => a.title.localeCompare(b.title));
+    else if (sortMode === "za") items.sort((a, b) => b.title.localeCompare(a.title));
+    else if (sortMode === "price-asc") items.sort((a, b) => parsePriceLower(a.estimatedPriceRange) - parsePriceLower(b.estimatedPriceRange));
+    else if (sortMode === "price-desc") items.sort((a, b) => parsePriceLower(b.estimatedPriceRange) - parsePriceLower(a.estimatedPriceRange));
+    else if (sortMode === "category") items.sort((a, b) => a.category.localeCompare(b.category));
     return items;
-  }, [activeCategory, searchQuery, sortMode]);
+  }, [activeCategory, priceFilter, searchQuery, sortMode]);
 
   return (
     <>
@@ -99,7 +125,12 @@ export default function TrendingPage() {
               className="rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-emerald-500/40 transition-all cursor-pointer"
             >
               <option value="default">Default</option>
-              <option value="az">A-Z</option>
+              <option value="newest">Newest First</option>
+              <option value="oldest">Oldest First</option>
+              <option value="az">A → Z</option>
+              <option value="za">Z → A</option>
+              <option value="price-asc">Price: Low → High</option>
+              <option value="price-desc">Price: High → Low</option>
               <option value="category">Category</option>
             </select>
           </div>
@@ -130,6 +161,34 @@ export default function TrendingPage() {
               </button>
             ))}
           </div>
+
+          {/* Price filter chips */}
+          <div className="flex flex-wrap gap-2 items-center">
+            <span className="text-xs text-muted-foreground font-medium mr-1">Price:</span>
+            <button
+              onClick={() => setPriceFilter("All")}
+              className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
+                priceFilter === "All"
+                  ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
+                  : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+              }`}
+            >
+              All Prices
+            </button>
+            {PRICE_RANGES.map((range) => (
+              <button
+                key={range.label}
+                onClick={() => setPriceFilter(range.label)}
+                className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
+                  priceFilter === range.label
+                    ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
+                    : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+                }`}
+              >
+                {range.label}
+              </button>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -149,8 +208,23 @@ export default function TrendingPage() {
           {filtered.map((item, index) => (
             <ScrollReveal key={item.slug} delay={index * 50} placeholder={<SkeletonCard />}>
               <div className="group rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
-                <div className="overflow-hidden">
+                <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.title} aspectRatio="3/2" width={400} height={267} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  {(item as any).badge === "editors-pick" && (
+                    <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
+                      Editor&apos;s Pick
+                    </span>
+                  )}
+                  {(item as any).badge === "great-gift" && (
+                    <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-rose-500/90 text-white rounded">
+                      🎁 Great Gift
+                    </span>
+                  )}
+                  {(item as any).badge === "best-value" && (
+                    <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-emerald-500/90 text-white rounded">
+                      Best Value
+                    </span>
+                  )}
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                 <div className="flex items-start justify-between gap-2 mb-3">
@@ -209,6 +283,27 @@ export default function TrendingPage() {
         </div>
       </section>
 
+      {/* ── Explore Another Category ─────────────────────── */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-8">
+        <div className="p-6 rounded-2xl bg-card/50 border border-border text-center">
+          <h3 className="text-lg font-semibold mb-2">Done exploring? Try another category</h3>
+          <p className="text-sm text-muted-foreground mb-4">Keep discovering across all of Surfaced.</p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {[
+              { label: "Discoveries", href: "/discover" },
+              { label: "Hidden Gems", href: "/hidden-gems" },
+              { label: "Future Radar", href: "/future-radar" },
+              { label: "Daily Tools", href: "/tools" },
+            ].map((cat) => (
+              <Link key={cat.href} href={cat.href}
+                className="px-4 py-2 rounded-full text-sm bg-accent/10 text-accent hover:bg-accent/20 transition-colors">
+                {cat.label} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Newsletter CTA ────────────────────────────────── */}
       <section className="relative py-20 sm:py-28 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
@@ -232,6 +327,7 @@ export default function TrendingPage() {
           </div>
         </div>
       </section>
+      <BackToTop />
     </>
   );
 }
