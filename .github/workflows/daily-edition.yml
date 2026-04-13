@@ -38,14 +38,7 @@ jobs:
         run: node scripts/generate-daily-content.js
 
       - name: Validate JSON files
-        run: |
-          node -e "
-            const files = ['discoveries','products','hidden-gems','future-radar','daily-tools'];
-            for (const f of files) {
-              const data = JSON.parse(require('fs').readFileSync('data/' + f + '.json', 'utf8'));
-              console.log(f + ': ' + data.length + ' items ✓');
-            }
-          "
+        run: node scripts/validate-data.js
 
       - name: Fetch images for new items
         env:
