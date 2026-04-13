@@ -20,6 +20,7 @@ import { StreakWidget, getStreakMilestone } from "@/components/ui/StreakWidget";
 import { SurpriseMe } from "@/components/ui/SurpriseMe";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
+import { Carousel } from "@/components/ui/Carousel";
 import { SocialCTA } from "@/components/SocialCTA";
 import { ShareTodaysPicks } from "@/components/ui/ShareTodaysPicks";
 import { TodayDate } from "@/components/ui/TodayDate";
@@ -437,7 +438,11 @@ export default function HomePage() {
           CATEGORY PREVIEW SECTIONS
           ============================================ */}
       {categories.map((cat) => {
-        const items = getItemsForCategory(cat.key).filter(i => !shownSlugs.has(i.slug)).slice(0, 6);
+        const allInCategory = getItemsForCategory(cat.key);
+        const items = [...allInCategory]
+          .filter((i) => !shownSlugs.has(i.slug))
+          .sort((a, b) => (b.id || 0) - (a.id || 0))
+          .slice(0, 36);
         return (
           <section key={cat.key} className="pb-18 px-4 sm:px-6">
             <div className="max-w-[90rem] mx-auto">
@@ -458,49 +463,44 @@ export default function HomePage() {
                 </Link>
               </div>
 
-              {/* Horizontal scroll row */}
-              <div className="relative">
-              <div className="flex gap-4 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0">
-                {items.map((item) => {
-                  const allInCategory = getItemsForCategory(cat.key);
+              {/* Carousel */}
+              <Carousel
+                items={items}
+                renderCard={(item) => {
                   const isNew = isNewToday(item, allInCategory);
                   return (
-                  <Link
-                    key={item.slug}
-                    href={`/item/${item.slug}`}
-                    className="snap-start shrink-0 w-[300px] sm:w-[320px] group"
-                  >
-                    <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
-                      <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
-                      <div className="overflow-hidden relative">
-                        <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
-                        {isNew && (
-                          <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
-                            New
-                          </span>
-                        )}
+                    <Link
+                      href={`/item/${item.slug}`}
+                      className="group block w-full"
+                    >
+                      <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
+                        <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
+                        <div className="overflow-hidden relative">
+                          <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                          {isNew && (
+                            <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
+                              New
+                            </span>
+                          )}
+                        </div>
+                        <div className="p-5 flex flex-col flex-1">
+                          <CategoryBadge
+                            label={getCategoryLabel(item.type)}
+                            color={getCategoryColor(item.type)}
+                            className="mb-3 self-start"
+                          />
+                          <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
+                            {getItemTitle(item)}
+                          </h3>
+                          <p className="text-xs text-muted leading-relaxed line-clamp-1">
+                            {getItemDescription(item)}
+                          </p>
+                        </div>
                       </div>
-                      <div className="p-5 flex flex-col flex-1">
-                      <CategoryBadge
-                        label={getCategoryLabel(item.type)}
-                        color={getCategoryColor(item.type)}
-                        className="mb-3 self-start"
-                      />
-                      <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
-                        {getItemTitle(item)}
-                      </h3>
-                      <p className="text-xs text-muted leading-relaxed line-clamp-1">
-                        {getItemDescription(item)}
-                      </p>
-                      </div>
-                    </div>
-                  </Link>
+                    </Link>
                   );
-                })}
-              </div>
-              {/* Fade hint — indicates more cards to scroll */}
-              <div className="absolute right-0 top-0 bottom-2 w-16 bg-gradient-to-l from-background to-transparent pointer-events-none" />
-              </div>
+                }}
+              />
             </div>
           </section>
         );
