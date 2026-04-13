@@ -28,10 +28,10 @@ async function fetchWithTimeout(url: string, opts: RequestInit, ms = 8000): Prom
   }
 }
 
-async function fetchPexelsImage(query: string): Promise<string | null> {
+async function fetchPexelsImage(query: string, page = 1): Promise<string | null> {
   try {
     const res = await fetchWithTimeout(
-      `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=1&orientation=landscape`,
+      `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=1&page=${page}&orientation=landscape`,
       { headers: { Authorization: PEXELS_KEY } }
     );
     const data = await res.json();
@@ -54,11 +54,15 @@ async function fetchUnsplashImage(query: string): Promise<string | null> {
   }
 }
 
-async function fetchItemImage(query: string): Promise<string> {
-  const pexels = await fetchPexelsImage(query);
-  if (pexels) return pexels;
+async function fetchItemImage(query: string, usedUrls: Set<string>): Promise<string> {
+  // Try Pexels pages 1–5 until we find an unused URL
+  for (let page = 1; page <= 5; page++) {
+    const url = await fetchPexelsImage(query, page);
+    if (url && !usedUrls.has(url)) return url;
+  }
+  // Fall back to Unsplash (random, less likely to duplicate)
   const unsplash = await fetchUnsplashImage(query);
-  if (unsplash) return unsplash;
+  if (unsplash && !usedUrls.has(unsplash)) return unsplash;
   return "";
 }
 
@@ -382,6 +386,9 @@ async function buildImageCache() {
 
   console.log(`Fetching images for ${allItems.length} items...\n`);
 
+  // Track URLs already in cache to avoid assigning duplicates
+  const usedUrls = new Set<string>(Object.values(cache).filter(Boolean));
+
   let success = 0;
   let skipped = 0;
   let noResult = 0;
@@ -400,7 +407,8 @@ async function buildImageCache() {
     const label = slug.slice(0, 45).padEnd(45);
     process.stdout.write(`[${i + 1}/${allItems.length}] ${label}  "${query}"  `);
 
-    const url = await fetchItemImage(query);
+    const url = await fetchItemImage(query, usedUrls);
+    if (url) usedUrls.add(url);
     cache[slug] = url;
 
     if (url) {
