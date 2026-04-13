@@ -102,6 +102,7 @@ async function generateItems(category, existingItems, count) {
   "industry": "<industry>",
   "whyItMatters": "<2-3 sentences>",
   "developmentStage": "<Research|Prototype|Early Adoption|Early Commercialization|Growth|Mainstream>",
+  "imageIdea": "<concrete visual noun like 'quantum computer circuit board'>",
   "type": "future-tech"
 }`,
     "daily-tools": `{
@@ -111,6 +112,7 @@ async function generateItems(category, existingItems, count) {
   "whatItDoes": "<2-3 sentences>",
   "category": "<Productivity|Design|Developer|Writing|Finance|Health|Education|Entertainment|Social|Reference>",
   "whyItIsUseful": "<2-3 sentences>",
+  "imageIdea": "<concrete visual noun like 'productivity app laptop workspace'>",
   "websiteLink": "<real working URL>",
   "type": "tool"
 }`,
