@@ -1,56 +1,5 @@
 [
   {
-    "id": 4,
-    "slug": "garmin-venu-3s-smartwatch",
-    "title": "Garmin Venu 3S Smartwatch",
-    "shortDescription": "A compact AMOLED smartwatch with advanced sleep coaching, body battery energy monitoring, and up to 10 days of battery life. Supports calls via Bluetooth.",
-    "category": "Wearables",
-    "whyItIsInteresting": "Garmin finally nailed the balance between fitness depth and everyday smartwatch polish. The body battery feature is surprisingly accurate at predicting energy levels.",
-    "imageIdea": "Compact smartwatch showing AMOLED fitness dashboard on a wrist",
-    "sourceLink": "https://www.garmin.com",
-    "estimatedPriceRange": "$399–$449",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Garmin%20Venu%203S%20Smartwatch&tag=vaultvibe-20"
-    }
-  },
-  {
-    "id": 5,
-    "slug": "fitbit-charge-6-fitness-tracker",
-    "title": "Fitbit Charge 6 Fitness Tracker",
-    "shortDescription": "A slim fitness tracker with built-in GPS, Google integration, and continuous heart rate monitoring. Comfortable enough for 24/7 wear with 7-day battery.",
-    "category": "Wearables",
-    "whyItIsInteresting": "It delivers 90% of smartwatch health features at a third of the price. Google Maps and YouTube Music integration elevate it beyond a basic tracker.",
-    "imageIdea": "Slim fitness band on a wrist with step count and heart rate display",
-    "sourceLink": "https://www.fitbit.com",
-    "estimatedPriceRange": "$139–$159",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Fitbit%20Charge%206%20Fitness%20Tracker&tag=vaultvibe-20"
-    }
-  },
-  {
-    "id": 6,
-    "slug": "sony-wh-1000xm6-headphones",
-    "title": "Sony WH-1000XM6 Wireless Headphones",
-    "shortDescription": "Industry-leading noise cancelling over-ears with 40-hour battery, LDAC hi-res audio, and multipoint Bluetooth. Lighter and more comfortable than ever.",
-    "category": "Audio",
-    "whyItIsInteresting": "Sony keeps pushing the noise cancelling ceiling higher. The adaptive sound control automatically adjusts based on your activity and location.",
-    "imageIdea": "Premium black headphones floating with visible sound wave cancellation effect",
-    "sourceLink": "https://www.sony.com",
-    "estimatedPriceRange": "$349–$399",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Sony%20WH-1000XM6%20Wireless%20Headphones&tag=vaultvibe-20"
-    }
-  },
-  {
     "id": 7,
     "slug": "apple-airpods-pro-3",
     "title": "Apple AirPods Pro 3",
@@ -1282,5 +1231,61 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Anker%20PowerHouse%20256Wh%20Portable%20Power%20Station&tag=vaultvibe-20"
     }
+  },
+  {
+    "id": 79,
+    "slug": "chromecast-with-google-tv-4k-new",
+    "title": "Chromecast with Google TV (4K)",
+    "shortDescription": "Stream your favorite content in stunning 4K HDR with the latest Chromecast. Featuring a redesigned interface and voice remote, it offers a seamless and personalized entertainment experience.",
+    "category": "Streaming Device",
+    "whyItIsInteresting": "This updated Chromecast offers a significant upgrade in user experience with its integrated Google TV interface, bringing together live TV, streaming services, and personalized recommendations in one place. Its affordability and 4K capabilities make it a compelling choice for upgrading home entertainment systems.",
+    "imageIdea": "smart tv remote control",
+    "sourceLink": "https://store.google.com/us/product/chromecast_with_google_tv",
+    "estimatedPriceRange": "$49-$49",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Chromecast%20with%20Google%20TV%20(4K)&tag=vaultvibe-20"
+    },
+    "badge": "editors-pick"
+  },
+  {
+    "id": 80,
+    "slug": "samsung-galaxy-ring",
+    "title": "Samsung Galaxy Ring",
+    "shortDescription": "The revolutionary Samsung Galaxy Ring tracks your health and sleep in a discreet and comfortable way. Monitor key wellness indicators directly from your finger, providing actionable insights into your well-being.",
+    "category": "Wearable Technology",
+    "whyItIsInteresting": "As a new entry into the wearable market from a major tech player, the Galaxy Ring promises to offer comprehensive health tracking in a much less intrusive form factor than smartwatches. Its focus on sleep and daily activity offers a new perspective on personal wellness monitoring.",
+    "imageIdea": "hand wearing smart ring",
+    "sourceLink": "https://www.samsung.com/us/smartwatches/wearables/galaxy-ring/",
+    "estimatedPriceRange": "$299-$349",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Ring&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 81,
+    "slug": "dyson-zone-noise-cancelling-headphones",
+    "title": "Dyson Zone™ Noise-Cancelling Headphones",
+    "shortDescription": "Experience immersive audio with advanced noise cancellation and purify your air with the Dyson Zone. These innovative headphones deliver premium sound and a unique personal air purification system.",
+    "category": "Audio/Air Purification",
+    "whyItIsInteresting": "Dyson has entered the audio market with a bold fusion of high-fidelity noise-cancelling headphones and an integrated air purification visor. This product pushes the boundaries of personal tech by addressing both auditory and environmental concerns simultaneously, offering a glimpse into multi-functional wearable devices.",
+    "imageIdea": "person wearing futuristic headphones",
+    "sourceLink": "https://www.dyson.com/headphones/dyson-zone-noise-cancelling-headphones",
+    "estimatedPriceRange": "$749-$949",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Dyson%20Zone%E2%84%A2%20Noise-Cancelling%20Headphones&tag=vaultvibe-20"
+    },
+    "badge": "editors-pick"
   }
 ]

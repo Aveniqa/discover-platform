@@ -1,35 +1,5 @@
 [
   {
-    "id": 4,
-    "slug": "green-hydrogen-electrolyzers",
-    "techName": "Green Hydrogen Electrolyzers",
-    "explanation": "Advanced electrolysis systems that split water into hydrogen and oxygen using renewable electricity. New membrane and catalyst designs dramatically reduce cost and improve efficiency.",
-    "industry": "Energy",
-    "whyItMatters": "Green hydrogen can decarbonize steel, shipping, and aviation where batteries cannot reach, potentially replacing 20% of global fossil fuel use by 2050.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech"
-  },
-  {
-    "id": 5,
-    "slug": "ai-managed-smart-grids",
-    "techName": "AI-Managed Smart Grids",
-    "explanation": "Power grids orchestrated by artificial intelligence that predict demand, route electricity dynamically, and seamlessly balance millions of distributed solar panels, batteries, and EVs in real time.",
-    "industry": "Energy",
-    "whyItMatters": "They could reduce energy waste by 30%, prevent blackouts, and enable a fully renewable grid by solving the intermittency problem that holds back wind and solar.",
-    "developmentStage": "Growth Phase",
-    "type": "future-tech"
-  },
-  {
-    "id": 6,
-    "slug": "mrna-therapeutics-platform",
-    "techName": "mRNA Therapeutics Platform",
-    "explanation": "Programmable mRNA molecules that instruct cells to produce specific therapeutic proteins. After proving themselves with COVID vaccines, these platforms are being adapted to treat cancer, heart disease, and rare genetic disorders.",
-    "industry": "Healthcare",
-    "whyItMatters": "A single platform could produce personalized cancer vaccines in weeks, turn the body into its own drug factory, and make rare disease treatments economically viable.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech"
-  },
-  {
     "id": 7,
     "slug": "in-vivo-gene-editing",
     "techName": "In-Vivo Gene Editing",
@@ -499,6 +469,42 @@
     "industry": "Biotechnology/Chemicals",
     "whyItMatters": "This technology allows for sustainable and bio-based production of materials currently reliant on fossil fuels, reducing environmental impact and creating novel product possibilities. It's a key enabler for a more circular and bio-economical future.",
     "developmentStage": "Early Adoption",
+    "type": "future-tech",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 54,
+    "slug": "advances-in-x-ray-crystallography-for-drug-design",
+    "techName": "Advances in X-ray Crystallography for Drug Design",
+    "explanation": "Recent breakthroughs in cryo-electron microscopy (cryo-EM) and synchrotron X-ray sources have enabled researchers to determine the 3D structures of complex biological molecules, like proteins and viruses, at near-atomic resolution. This allows for more precise visualization of drug targets and the design of highly specific therapeutic agents.",
+    "industry": "Pharmaceuticals",
+    "whyItMatters": "This technology accelerates the drug discovery pipeline by providing detailed molecular blueprints. It leads to the development of more effective and safer medications with fewer side effects, ultimately improving patient outcomes.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "3D protein structure visualization on a computer screen",
+    "type": "future-tech",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 55,
+    "slug": "generative-ai-for-synthetic-biology-design",
+    "techName": "Generative AI for Synthetic Biology Design",
+    "explanation": "Generative Artificial Intelligence models are being trained on vast biological datasets to design novel DNA sequences, proteins, and metabolic pathways. These AI systems can propose entirely new biological components or optimize existing ones for specific functions, significantly speeding up the design-build-test cycle in synthetic biology.",
+    "industry": "Biotechnology",
+    "whyItMatters": "This empowers the creation of custom-designed microbes for a wide range of applications, from producing sustainable materials and biofuels to developing advanced diagnostics and therapeutics. It opens up new frontiers in bio-manufacturing and bio-medicine.",
+    "developmentStage": "Prototype",
+    "imageIdea": "abstract biological code on a digital interface",
+    "type": "future-tech",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 56,
+    "slug": "quantum-sensors-for-material-characterization",
+    "techName": "Quantum Sensors for Material Characterization",
+    "explanation": "Emerging quantum sensing technologies, leveraging phenomena like superposition and entanglement, are offering unprecedented sensitivity and precision in detecting subtle changes in materials. This includes applications like magnetic resonance force microscopy (MRFM) and nitrogen-vacancy (NV) center magnetometry for nanoscale material analysis.",
+    "industry": "Materials Science",
+    "whyItMatters": "These sensors enable the characterization of materials at the quantum level, revealing properties previously undetectable. This can lead to the discovery and development of novel materials with enhanced performance for electronics, energy storage, and advanced manufacturing.",
+    "developmentStage": "Research",
+    "imageIdea": "glowing quantum entanglement pattern",
     "type": "future-tech",
     "dateAdded": "2026-04-13"
   }

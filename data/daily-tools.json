@@ -1,35 +1,5 @@
 [
   {
-    "id": 4,
-    "slug": "zapier",
-    "toolName": "Zapier",
-    "whatItDoes": "No-code automation platform connecting 6,000+ apps with if-this-then-that logic. Automates workflows like saving email attachments to Drive, posting Slack updates from forms, and syncing CRMs.",
-    "category": "Productivity",
-    "whyItIsUseful": "It eliminates hours of repetitive copy-paste work between apps. Even non-technical users can build automations that would otherwise require a developer.",
-    "websiteLink": "https://zapier.com",
-    "type": "tool"
-  },
-  {
-    "id": 5,
-    "slug": "forest-app",
-    "toolName": "Forest",
-    "whatItDoes": "Focus timer that grows a virtual tree while you work. If you leave the app to check social media, your tree dies. Accumulated coins can plant real trees through a partnership with Trees for the Future.",
-    "category": "Productivity",
-    "whyItIsUseful": "The emotional investment in keeping your virtual tree alive is surprisingly effective at blocking phone distractions, and you actually plant real trees as a bonus.",
-    "websiteLink": "https://www.forestapp.cc",
-    "type": "tool"
-  },
-  {
-    "id": 6,
-    "slug": "coolors",
-    "toolName": "Coolors",
-    "whatItDoes": "Color palette generator that creates harmonious 5-color schemes with a spacebar press. Includes accessibility contrast checking, palette extraction from images, and export to multiple formats.",
-    "category": "Design",
-    "whyItIsUseful": "Choosing colors that work together is genuinely hard. Coolors makes it instant and ensures your palettes are accessible to colorblind users.",
-    "websiteLink": "https://coolors.co",
-    "type": "tool"
-  },
-  {
     "id": 7,
     "slug": "google-fonts",
     "toolName": "Google Fonts",
@@ -599,6 +569,42 @@
     "category": "Productivity",
     "whyItIsUseful": "It is essential for managing your time effectively and coordinating schedules with others. Its integration with other Google services and intuitive interface make it a cornerstone for staying organized and on track with your daily commitments.",
     "websiteLink": "https://calendar.google.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 64,
+    "slug": "todoist-task-management",
+    "toolName": "Todoist",
+    "whatItDoes": "Todoist is a powerful and flexible task management app that helps you organize your life and get things done. It allows you to create tasks, set deadlines, prioritize, and collaborate with others.",
+    "category": "Productivity",
+    "whyItIsUseful": "It provides a clear overview of your commitments, reducing mental clutter and ensuring important tasks don't slip through the cracks. Its intuitive interface makes it easy to manage both personal and professional projects efficiently.",
+    "imageIdea": "task list sticky notes",
+    "websiteLink": "https://todoist.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 65,
+    "slug": "grammarly-writing-assistant",
+    "toolName": "Grammarly",
+    "whatItDoes": "Grammarly is an AI-powered writing assistant that checks your grammar, spelling, punctuation, clarity, engagement, and delivery mistakes in real-time. It offers suggestions to improve your writing across various platforms.",
+    "category": "Writing",
+    "whyItIsUseful": "It significantly enhances the quality and professionalism of your written communication, whether for emails, documents, or social media. By catching errors and suggesting better phrasing, it helps you convey your message more effectively.",
+    "imageIdea": "pen writing on paper",
+    "websiteLink": "https://www.grammarly.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 66,
+    "slug": "notion-workspace-organizer",
+    "toolName": "Notion",
+    "whatItDoes": "Notion is an all-in-one workspace app that combines notes, tasks, wikis, and databases into a single, flexible platform. You can build custom workflows, manage projects, and store all your information in one place.",
+    "category": "Productivity",
+    "whyItIsUseful": "It offers unparalleled flexibility for organizing everything from personal notes and to-do lists to complex team projects and knowledge bases. Its customizable nature allows you to create a system that perfectly fits your needs and workflow.",
+    "imageIdea": "digital notebook pages",
+    "websiteLink": "https://www.notion.so/",
     "type": "tool",
     "dateAdded": "2026-04-13"
   }

@@ -1,35 +1,5 @@
 [
   {
-    "id": 5,
-    "slug": "rive",
-    "name": "Rive",
-    "whatItDoes": "A design tool for creating interactive animations and motion graphics that run in real time on apps and websites. It uses a state machine approach to make animations respond to user input.",
-    "category": "Design",
-    "whyItIsUseful": "It replaces Lottie and After Effects workflows with a purpose-built tool for interactive runtime animations. The resulting files are tiny and performant across platforms.",
-    "websiteLink": "https://rive.app",
-    "type": "hidden-gem"
-  },
-  {
-    "id": 6,
-    "slug": "anytype",
-    "name": "Anytype",
-    "whatItDoes": "A privacy-first, offline-capable knowledge management app that stores data locally and syncs peer-to-peer. It combines notes, tasks, databases, and bookmarks into a single workspace.",
-    "category": "Productivity",
-    "whyItIsUseful": "It offers the flexibility of Notion without sending your data to a central server. The local-first architecture means your notes are always available, even offline.",
-    "websiteLink": "https://anytype.io",
-    "type": "hidden-gem"
-  },
-  {
-    "id": 7,
-    "slug": "tana",
-    "name": "Tana",
-    "whatItDoes": "A supertag-based workspace that lets you build structured knowledge graphs from everyday notes. It combines outlining, databases, and AI-powered search into one tool.",
-    "category": "Productivity",
-    "whyItIsUseful": "It eliminates the friction between freeform notes and structured data. Supertags let you turn any bullet point into a queryable record without switching tools.",
-    "websiteLink": "https://tana.inc",
-    "type": "hidden-gem"
-  },
-  {
     "id": 8,
     "slug": "reclaim-ai",
     "name": "Reclaim.ai",
@@ -742,6 +712,42 @@
     "whyItIsUseful": "When you need to quickly record a voice note, a short memo, or a snippet of audio without installing any software, this tool is incredibly handy. It's straightforward and accessible from any device with a microphone and internet connection.",
     "imageIdea": "a vintage microphone on a stand",
     "websiteLink": "https://online-sound-recorder.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 79,
+    "slug": "wayback-engine",
+    "name": "Wayback Engine",
+    "whatItDoes": "Wayback Engine is a powerful search engine specifically designed to index and retrieve archived content from the Internet Archive's Wayback Machine. It allows for more precise searching of historical web pages than the standard Wayback Machine interface.",
+    "category": "Reference",
+    "whyItIsUseful": "It's invaluable for researchers, historians, and anyone needing to find specific versions of websites or understand how they've evolved over time. The granular search capabilities go beyond simple date browsing.",
+    "imageIdea": "antique library card catalog",
+    "websiteLink": "https://web.archive.org/web/2/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 80,
+    "slug": "drawsql",
+    "name": "DrawSQL",
+    "whatItDoes": "DrawSQL is a web-based tool for quickly and easily creating database diagrams (ERDs). It allows users to visually design their database schemas without needing to write complex SQL code upfront.",
+    "category": "Developer",
+    "whyItIsUseful": "It significantly speeds up the process of database design and documentation for developers and project managers. Its intuitive drag-and-drop interface makes it accessible even for those less familiar with ERD tools.",
+    "imageIdea": "architectural blueprint drafting table",
+    "websiteLink": "https://drawsql.app/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 81,
+    "slug": "text-to-image-ai-playground",
+    "name": "Playground AI",
+    "whatItDoes": "Playground AI is a free online image creation tool that uses artificial intelligence to generate images from text descriptions. It offers a user-friendly interface with various customization options for generating unique artwork.",
+    "category": "Design",
+    "whyItIsUseful": "It democratizes AI art generation, allowing anyone to create stunning visuals for personal projects, presentations, or creative endeavors without needing advanced technical skills or paid subscriptions for basic use. It's a great tool for visual brainstorming.",
+    "imageIdea": "artist's easel with digital canvas",
+    "websiteLink": "https://playgroundai.com/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-13"
   }

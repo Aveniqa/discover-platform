@@ -1,38 +1,5 @@
 [
   {
-    "id": 4,
-    "slug": "glass-is-neither-a-solid-nor-a-liquid",
-    "title": "Glass Is Neither a Solid nor a Liquid",
-    "shortDescription": "Glass is an amorphous solid — its molecules are disordered like a liquid but rigid like a solid. The myth that old cathedral windows are thicker at the bottom due to flowing is false; that was just medieval glassmaking technique.",
-    "category": "Science",
-    "whyItIsInteresting": "It reveals that our neat categories of matter are oversimplifications. Glass exists in a strange in-between state that challenges fundamental assumptions taught in every chemistry class.",
-    "imageIdea": "A close-up of stained glass in a medieval cathedral with light refracting through uneven panes",
-    "sourceLink": "https://www.acs.org",
-    "type": "discovery"
-  },
-  {
-    "id": 5,
-    "slug": "water-can-boil-and-freeze-at-the-same-time",
-    "title": "Water Can Boil and Freeze at the Same Time",
-    "shortDescription": "At a specific pressure and temperature known as the triple point, water exists simultaneously as a solid, liquid, and gas. This occurs at 0.01 degrees Celsius and 611.73 pascals.",
-    "category": "Science",
-    "whyItIsInteresting": "The triple point of water is so precisely reproducible that it is used to define the kelvin, the base unit of temperature in the International System of Units. A quirk of physics became a foundation of measurement.",
-    "imageIdea": "A sealed laboratory flask showing water simultaneously bubbling, sitting as liquid, and forming ice crystals",
-    "sourceLink": "https://www.nist.gov",
-    "type": "discovery"
-  },
-  {
-    "id": 6,
-    "slug": "there-are-more-possible-chess-games-than-atoms-in-the-universe",
-    "title": "There Are More Possible Chess Games Than Atoms in the Universe",
-    "shortDescription": "The Shannon number estimates roughly 10^120 possible chess games, while the observable universe contains approximately 10^80 atoms. Chess complexity dwarfs cosmic scale by a factor of 10^40.",
-    "category": "Science",
-    "whyItIsInteresting": "It demonstrates how combinatorial explosion creates complexity beyond physical reality. This is why no computer can brute-force chess and why AI must use strategy, just like humans.",
-    "imageIdea": "A chessboard floating in deep space with stars and galaxies visible between the pieces",
-    "sourceLink": "https://www.science.org",
-    "type": "discovery"
-  },
-  {
     "id": 7,
     "slug": "the-worlds-first-computer-programmer-was-a-woman-in-1843",
     "title": "The World's First Computer Programmer Was a Woman in 1843",
@@ -338,8 +305,7 @@
     "whyItIsInteresting": "The real value of the Amazon is not oxygen production but carbon storage, biodiversity, and rainfall generation. Correcting this myth shifts the conservation argument to what actually matters — the Amazon holds 150 billion tonnes of carbon that would be devastating if released.",
     "imageIdea": "A vast aerial view of the Amazon canopy with overlaid infographics showing oxygen and carbon cycle arrows",
     "sourceLink": "https://www.nationalgeographic.com",
-    "type": "discovery",
-    "badge": "editors-pick"
+    "type": "discovery"
   },
   {
     "id": 35,
@@ -417,8 +383,7 @@
     "whyItIsInteresting": "Next time you hold a handful of sand at the beach, consider that the number of stars out there dwarfs every grain on every beach, desert, and riverbed on the entire planet combined. The universe is incomprehensibly vast, and we have only explored a vanishingly small fraction.",
     "imageIdea": "A hand releasing grains of sand that transform into glowing stars as they drift upward into a deep space background",
     "sourceLink": "https://www.esa.int",
-    "type": "discovery",
-    "badge": "editors-pick"
+    "type": "discovery"
   },
   {
     "id": 42,
@@ -664,6 +629,42 @@
     "whyItIsInteresting": "This decentralized intelligence is unlike anything seen in most animals, suggesting a radically different evolutionary path for problem-solving and survival. It makes us reconsider what 'intelligence' truly means.",
     "imageIdea": "octopus arm tentacle suckers",
     "sourceLink": "https://www.nature.com/articles/s41586-021-03781-1",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 64,
+    "slug": "antarctic-ice-reveals-ancient-solar-storm",
+    "title": "Ancient Solar Storms Frozen in Antarctic Ice",
+    "shortDescription": "Scientists have discovered evidence of massive solar storms from thousands of years ago preserved in Antarctic ice cores. These events, far larger than anything observed in modern times, offer a glimpse into the Sun's more violent past.",
+    "category": "Science",
+    "whyItIsInteresting": "This finding reveals the immense power of past solar events and raises questions about the potential risks to our modern technological infrastructure if such a storm were to occur today. It's like finding a cosmic time capsule of extreme solar activity.",
+    "imageIdea": "antarctic ice core drill",
+    "sourceLink": "https://www.nature.com/articles/s41586-023-06731-2",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 65,
+    "slug": "archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo",
+    "title": "Remarkable Roman Shipwreck Reveals Ancient Trade Secrets",
+    "shortDescription": "A remarkably well-preserved Roman-era shipwreck has been discovered off the coast, containing intact amphorae and other cargo. The find offers an unprecedented look into the trade routes and goods of the ancient Mediterranean.",
+    "category": "History",
+    "whyItIsInteresting": "This discovery provides a tangible link to ancient commerce, allowing historians to reconstruct trade networks and understand the types of goods transported. The sheer preservation of the cargo makes it feel like a snapshot from 2,000 years ago.",
+    "imageIdea": "roman amphora shipwreck underwater",
+    "sourceLink": "https://www.smithsonianmag.com/smart-news/roman-shipwreck-thousands-of-years-old-found-intact-in-mediterranean-180979539/",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 66,
+    "slug": "ai-translates-ancient-lost-language",
+    "title": "AI Deciphers Previously Untranslatable Ancient Language",
+    "shortDescription": "Artificial intelligence has successfully translated a long-lost ancient language that has baffled scholars for decades. This breakthrough opens up new avenues for understanding forgotten civilizations and their histories.",
+    "category": "Technology",
+    "whyItIsInteresting": "The application of advanced AI to solve a historical linguistic puzzle is a testament to technological progress. It demonstrates how AI can unlock secrets from the past, enriching our understanding of human civilization.",
+    "imageIdea": "ancient cuneiform tablet ai algorithm",
+    "sourceLink": "https://www.theverge.com/2024/1/24/24048683/ai-ancient-language-translation-elamite-inscriptions",
     "type": "discovery",
     "dateAdded": "2026-04-13"
   }
