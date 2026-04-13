@@ -1,0 +1,745 @@
+[
+  {
+    "id": 1,
+    "slug": "excalidraw",
+    "name": "Excalidraw",
+    "whatItDoes": "A virtual whiteboard for sketching hand-drawn-like diagrams. Collaborative, open-source, and runs entirely in the browser with no sign-up required.",
+    "category": "Design",
+    "whyItIsUseful": "It bridges the gap between napkin sketches and formal diagrams. Teams use it for brainstorming, wireframing, and system design without the overhead of Figma or Miro.",
+    "imageIdea": "hand-drawn whiteboard diagram sketch collaboration",
+    "websiteLink": "https://excalidraw.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 2,
+    "slug": "penpot",
+    "name": "Penpot",
+    "whatItDoes": "An open-source design and prototyping platform that works directly in the browser. It supports vector editing, interactive prototyping, and real-time collaboration.",
+    "category": "Design",
+    "whyItIsUseful": "It gives teams a free, self-hostable alternative to Figma with no vendor lock-in. Designers and developers can collaborate using open standards like SVG.",
+    "imageIdea": "open source design tool interface prototyping",
+    "websiteLink": "https://penpot.app",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 3,
+    "slug": "photopea",
+    "name": "Photopea",
+    "whatItDoes": "A free online image editor that supports PSD, Sketch, XD, and virtually every raster and vector format. It runs entirely in the browser with no installation needed.",
+    "category": "Design",
+    "whyItIsUseful": "It provides Photoshop-level editing for free without requiring a subscription or download. It is invaluable for quick edits when you do not have access to Adobe products.",
+    "imageIdea": "online photo editor image editing software browser",
+    "websiteLink": "https://www.photopea.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 5,
+    "slug": "rive",
+    "name": "Rive",
+    "whatItDoes": "A design tool for creating interactive animations and motion graphics that run in real time on apps and websites. It uses a state machine approach to make animations respond to user input.",
+    "category": "Design",
+    "whyItIsUseful": "It replaces Lottie and After Effects workflows with a purpose-built tool for interactive runtime animations. The resulting files are tiny and performant across platforms.",
+    "websiteLink": "https://rive.app",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 6,
+    "slug": "anytype",
+    "name": "Anytype",
+    "whatItDoes": "A privacy-first, offline-capable knowledge management app that stores data locally and syncs peer-to-peer. It combines notes, tasks, databases, and bookmarks into a single workspace.",
+    "category": "Productivity",
+    "whyItIsUseful": "It offers the flexibility of Notion without sending your data to a central server. The local-first architecture means your notes are always available, even offline.",
+    "websiteLink": "https://anytype.io",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 7,
+    "slug": "tana",
+    "name": "Tana",
+    "whatItDoes": "A supertag-based workspace that lets you build structured knowledge graphs from everyday notes. It combines outlining, databases, and AI-powered search into one tool.",
+    "category": "Productivity",
+    "whyItIsUseful": "It eliminates the friction between freeform notes and structured data. Supertags let you turn any bullet point into a queryable record without switching tools.",
+    "websiteLink": "https://tana.inc",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 8,
+    "slug": "reclaim-ai",
+    "name": "Reclaim.ai",
+    "whatItDoes": "An AI-powered calendar assistant that automatically schedules tasks, habits, and meetings around your existing commitments. It integrates with Google Calendar and popular task managers.",
+    "category": "Productivity",
+    "whyItIsUseful": "It solves the constant re-shuffling problem of time blocking by dynamically adjusting your schedule. Teams can protect focus time while still finding meeting slots that work for everyone.",
+    "websiteLink": "https://reclaim.ai",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 9,
+    "slug": "espanso",
+    "name": "Espanso",
+    "whatItDoes": "A cross-platform text expander that detects keywords you type and replaces them with templates, dates, clipboard contents, or even shell command output. It is open-source and works system-wide.",
+    "category": "Productivity",
+    "whyItIsUseful": "It saves hours of repetitive typing for emails, code snippets, and form entries. Because it is system-wide, it works in every application without plugins.",
+    "websiteLink": "https://espanso.org",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 10,
+    "slug": "capacities",
+    "name": "Capacities",
+    "whatItDoes": "An object-based note-taking app that treats every piece of information as a typed entity such as a person, book, meeting, or project. It builds a personal knowledge graph from your daily notes.",
+    "category": "Productivity",
+    "whyItIsUseful": "It brings structure to your thinking without forcing rigid hierarchies. Linking objects together lets patterns and connections emerge naturally over time.",
+    "websiteLink": "https://capacities.io",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 11,
+    "slug": "hoppscotch",
+    "name": "Hoppscotch",
+    "whatItDoes": "An open-source API development ecosystem that runs in the browser. It supports REST, GraphQL, WebSocket, and real-time testing with a clean, fast interface.",
+    "category": "Developer Tools",
+    "whyItIsUseful": "It provides a lightweight, free alternative to Postman without requiring installation or an account. The instant-load browser experience makes quick API testing frictionless.",
+    "websiteLink": "https://hoppscotch.io",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 12,
+    "slug": "httpie",
+    "name": "HTTPie",
+    "whatItDoes": "A user-friendly command-line and web-based HTTP client designed for testing and debugging APIs. It uses intuitive syntax, colorized output, and built-in JSON support.",
+    "category": "Developer Tools",
+    "whyItIsUseful": "It makes API interaction from the terminal far more readable than curl. The web app version adds team collaboration features for sharing and documenting API requests.",
+    "websiteLink": "https://httpie.io",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 13,
+    "slug": "railway",
+    "name": "Railway",
+    "whatItDoes": "A cloud platform that deploys apps, databases, and cron jobs from a Git repository with zero configuration. It supports dozens of languages and frameworks out of the box.",
+    "category": "Developer Tools",
+    "whyItIsUseful": "It removes the DevOps overhead of deploying side projects and prototypes. You get databases, environment variables, and automatic deployments without writing a single YAML file.",
+    "websiteLink": "https://railway.app",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 14,
+    "slug": "zed",
+    "name": "Zed",
+    "whatItDoes": "A high-performance, multiplayer code editor built from the ground up in Rust. It features real-time collaboration, integrated terminal, and GPU-accelerated rendering.",
+    "category": "Developer Tools",
+    "whyItIsUseful": "It combines the speed of Sublime Text with the collaboration features of VS Code Live Share in a native app. The sub-millisecond input latency makes coding feel instant.",
+    "websiteLink": "https://zed.dev",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 15,
+    "slug": "devtoys",
+    "name": "DevToys",
+    "whatItDoes": "A Swiss Army knife of offline developer utilities including JSON formatting, JWT decoding, hash generation, regex testing, and base64 encoding. It works entirely offline as a desktop app.",
+    "category": "Developer Tools",
+    "whyItIsUseful": "It keeps sensitive data off third-party websites by running everything locally. Having dozens of common dev utilities in one app saves constant context-switching to browser tabs.",
+    "websiteLink": "https://devtoys.app",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 16,
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "whatItDoes": "An AI-powered search engine that answers questions with cited sources from the live web. It combines large language model reasoning with real-time information retrieval.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It eliminates the need to open multiple search results and synthesize answers yourself. Every claim is linked to its source, making it easy to verify information.",
+    "websiteLink": "https://www.perplexity.ai",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 17,
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "whatItDoes": "An AI voice synthesis platform that generates remarkably natural speech in multiple languages. It can clone voices from short audio samples and offers real-time text-to-speech.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It makes professional-quality voiceovers accessible to anyone without hiring voice actors. Content creators use it for podcasts, audiobooks, and video narration at a fraction of the traditional cost.",
+    "websiteLink": "https://elevenlabs.io",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 18,
+    "slug": "phind",
+    "name": "Phind",
+    "whatItDoes": "An AI search engine built specifically for developers that answers technical questions with code examples and documentation references. It searches the web in real time and synthesizes programming knowledge.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It dramatically speeds up debugging and learning new frameworks by providing targeted code solutions. The developer focus means answers include proper syntax and best practices rather than generic explanations.",
+    "websiteLink": "https://www.phind.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 19,
+    "slug": "tldraw-make-real",
+    "name": "tldraw Make Real",
+    "whatItDoes": "A tool built on the tldraw canvas that turns hand-drawn wireframes and sketches into working HTML and CSS using AI. You draw a UI, click a button, and get functional code.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It collapses the gap between ideation and prototyping to seconds. Designers and product managers can communicate UI ideas without writing any code.",
+    "websiteLink": "https://makereal.tldraw.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 20,
+    "slug": "notebooklm",
+    "name": "NotebookLM",
+    "whatItDoes": "A Google AI tool that lets you upload documents, papers, and notes, then ask questions and get cited answers grounded in your own sources. It can also generate audio overviews of your content.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It turns passive reading into active research by letting you interrogate your own documents. The source grounding eliminates hallucination concerns common with general-purpose chatbots.",
+    "websiteLink": "https://notebooklm.google.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 21,
+    "slug": "hemingway-editor",
+    "name": "Hemingway Editor",
+    "whatItDoes": "A writing tool that highlights complex sentences, passive voice, adverbs, and readability issues in your text. It assigns a grade level and suggests simplifications to make prose clearer.",
+    "category": "Writing",
+    "whyItIsUseful": "It forces you to write with clarity by making bad habits visually obvious. The color-coded feedback loop trains you to produce tighter, more readable writing over time.",
+    "websiteLink": "https://hemingwayapp.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 22,
+    "slug": "languagetool",
+    "name": "LanguageTool",
+    "whatItDoes": "An open-source grammar, style, and spell checker that supports over 30 languages. It integrates with browsers, email clients, and text editors via extensions and plugins.",
+    "category": "Writing",
+    "whyItIsUseful": "It catches nuanced grammar and style errors that basic spell checkers miss, across many languages. The open-source nature means it can be self-hosted for privacy-sensitive writing.",
+    "websiteLink": "https://languagetool.org",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 23,
+    "slug": "ghost",
+    "name": "Ghost",
+    "whatItDoes": "An open-source publishing platform built for professional bloggers, newsletters, and membership sites. It includes a modern editor, built-in SEO, email newsletters, and paid subscription support.",
+    "category": "Writing",
+    "whyItIsUseful": "It gives independent writers a complete publishing business in a single tool without platform lock-in. The clean editor and native newsletter support mean you do not need separate tools for content and distribution.",
+    "websiteLink": "https://ghost.org",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 24,
+    "slug": "bibguru",
+    "name": "BibGuru",
+    "whatItDoes": "A free citation generator that creates properly formatted references in APA, MLA, Chicago, and hundreds of other styles. It can auto-fill citation details from a URL, DOI, or ISBN.",
+    "category": "Writing",
+    "whyItIsUseful": "It removes the tedium of manual citation formatting for students and researchers. The auto-detection feature saves significant time when building bibliographies for papers.",
+    "websiteLink": "https://www.bibguru.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 25,
+    "slug": "markdoc",
+    "name": "Markdoc",
+    "whatItDoes": "A Markdown-based authoring framework created by Stripe for building custom documentation sites. It extends Markdown with tags, variables, and functions while keeping content readable as plain text.",
+    "category": "Writing",
+    "whyItIsUseful": "It lets technical writers add interactive components to docs without sacrificing Markdown simplicity. Content stays portable and version-controllable in Git while supporting rich, dynamic output.",
+    "websiteLink": "https://markdoc.dev",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 26,
+    "slug": "brilliant",
+    "name": "Brilliant",
+    "whatItDoes": "An interactive learning platform for math, science, and computer science that teaches through guided problem-solving rather than lectures. Each lesson builds intuition through visual, hands-on puzzles.",
+    "category": "Learning",
+    "whyItIsUseful": "It makes abstract concepts tangible by replacing passive video watching with active exploration. The bite-sized daily challenges build genuine understanding of complex topics over time.",
+    "websiteLink": "https://brilliant.org",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 27,
+    "slug": "exercism",
+    "name": "Exercism",
+    "whatItDoes": "A free, open-source platform for learning programming through practice and mentorship. It offers exercises in over 65 languages with automated analysis and human code review.",
+    "category": "Learning",
+    "whyItIsUseful": "It bridges the gap between tutorials and real coding ability through deliberate practice. The mentor feedback provides personalized guidance that self-study resources cannot match.",
+    "websiteLink": "https://exercism.org",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 28,
+    "slug": "scrimba",
+    "name": "Scrimba",
+    "whatItDoes": "An interactive coding education platform where you can pause video tutorials and edit the code directly inside the screencast. It covers front-end development, React, and other web technologies.",
+    "category": "Learning",
+    "whyItIsUseful": "The interactive screencast format eliminates the context switching between watching and practicing. You learn by doing inside the lesson itself rather than copying code into a separate editor.",
+    "websiteLink": "https://scrimba.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 29,
+    "slug": "explained-visually",
+    "name": "Explained Visually",
+    "whatItDoes": "A collection of interactive visual explanations for complex mathematical and statistical concepts like eigenvalues, regression, and Markov chains. Each topic uses animated, manipulable diagrams.",
+    "category": "Learning",
+    "whyItIsUseful": "It makes abstract math concepts immediately intuitive through interaction rather than static formulas. A single visualization can communicate what pages of textbook notation cannot.",
+    "websiteLink": "https://setosa.io/ev",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 30,
+    "slug": "roadmap-sh",
+    "name": "roadmap.sh",
+    "whatItDoes": "A community-driven platform offering detailed visual roadmaps for learning various technology skills like frontend, backend, DevOps, and AI. Each roadmap links to curated free resources for every topic.",
+    "category": "Learning",
+    "whyItIsUseful": "It eliminates the paralysis of not knowing what to learn next in a technical career. The structured paths turn an overwhelming landscape of tools and concepts into a clear progression.",
+    "websiteLink": "https://roadmap.sh",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 31,
+    "slug": "evidence",
+    "name": "Evidence",
+    "whatItDoes": "A code-driven business intelligence tool that lets you build polished data reports and dashboards using SQL and Markdown. It generates static sites from your queries, making reports fast and easily shareable.",
+    "category": "Data & Analytics",
+    "whyItIsUseful": "It brings the reproducibility of code to business reporting without requiring a full engineering stack. Analysts can version-control their dashboards and deploy them like a website.",
+    "websiteLink": "https://evidence.dev",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 32,
+    "slug": "datasette",
+    "name": "Datasette",
+    "whatItDoes": "An open-source tool for exploring and publishing data stored in SQLite databases. It instantly turns any dataset into an interactive, searchable, API-enabled website.",
+    "category": "Data & Analytics",
+    "whyItIsUseful": "It makes data exploration and sharing incredibly simple without standing up a database server. Journalists, researchers, and developers use it to publish structured data in minutes.",
+    "websiteLink": "https://datasette.io",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 33,
+    "slug": "rawgraphs",
+    "name": "RAWGraphs",
+    "whatItDoes": "An open-source data visualization framework that creates complex charts from tabular data without coding. It supports uncommon chart types like alluvial diagrams, beeswarm plots, and treemaps.",
+    "category": "Data & Analytics",
+    "whyItIsUseful": "It fills the gap between basic Excel charts and programmatic tools like D3.js. You can produce publication-quality visualizations by simply pasting data and choosing a chart type.",
+    "websiteLink": "https://rawgraphs.io",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 34,
+    "slug": "quadratic",
+    "name": "Quadratic",
+    "whatItDoes": "A modern spreadsheet with built-in Python, SQL, and AI capabilities that runs in the browser. It combines the familiarity of a grid interface with the power of code-based data analysis.",
+    "category": "Data & Analytics",
+    "whyItIsUseful": "It eliminates the friction of moving data between spreadsheets and code notebooks. Analysts can write Python formulas right in cells while non-technical collaborators still see a familiar spreadsheet.",
+    "websiteLink": "https://www.quadratichq.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 35,
+    "slug": "observable",
+    "name": "Observable",
+    "whatItDoes": "A collaborative platform for building interactive data visualizations and dashboards using JavaScript notebooks. It provides reactive cells that update in real time as data or code changes.",
+    "category": "Data & Analytics",
+    "whyItIsUseful": "It makes D3.js and data exploration accessible through a notebook interface with instant feedback. The reactive paradigm means changing one value automatically cascades through all dependent charts and calculations.",
+    "websiteLink": "https://observablehq.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 36,
+    "slug": "cal-com",
+    "name": "Cal.com",
+    "whatItDoes": "An open-source scheduling platform that lets people book meetings based on your real-time availability. It integrates with multiple calendars, video platforms, and payment processors.",
+    "category": "Communication",
+    "whyItIsUseful": "It provides a self-hostable, privacy-respecting alternative to Calendly with no feature restrictions on the free plan. Teams can customize every aspect of the booking experience to match their workflow.",
+    "websiteLink": "https://cal.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 37,
+    "slug": "zulip",
+    "name": "Zulip",
+    "whatItDoes": "An open-source team chat application that organizes conversations by topic threads within channels. It combines the immediacy of chat with the structure of a forum.",
+    "category": "Communication",
+    "whyItIsUseful": "It solves the problem of important messages getting buried in fast-moving Slack channels. The topic-based threading means you can catch up on specific discussions without reading everything.",
+    "websiteLink": "https://zulip.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 38,
+    "slug": "loom",
+    "name": "Loom",
+    "whatItDoes": "A video messaging tool that lets you record your screen, camera, or both and instantly share the recording via a link. It includes features like viewer analytics, comments, and auto-generated transcripts.",
+    "category": "Communication",
+    "whyItIsUseful": "It replaces meetings that could have been emails with quick video explanations. Asynchronous video is faster to record than writing and easier to understand than text for visual topics.",
+    "websiteLink": "https://www.loom.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 39,
+    "slug": "daily-dev",
+    "name": "daily.dev",
+    "whatItDoes": "A browser extension and web app that aggregates developer news, blog posts, and articles from hundreds of sources into a personalized feed. It learns your interests and surfaces relevant technical content.",
+    "category": "Communication",
+    "whyItIsUseful": "It replaces the scattered habit of checking multiple tech blogs and subreddits with a single curated feed. The community upvoting ensures high-quality content rises to the top.",
+    "websiteLink": "https://daily.dev",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 40,
+    "slug": "whereby",
+    "name": "Whereby",
+    "whatItDoes": "A browser-based video meeting platform that requires no downloads or accounts for guests. It provides permanent meeting rooms with customizable URLs and built-in recording.",
+    "category": "Communication",
+    "whyItIsUseful": "It eliminates the friction of getting non-technical participants into video calls. The permanent room URLs mean you never need to generate and share new meeting links.",
+    "websiteLink": "https://whereby.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 41,
+    "slug": "funkwhale",
+    "name": "Funkwhale",
+    "whatItDoes": "A decentralized, open-source music streaming platform that lets you host and share your own music library. It supports federation through ActivityPub, letting independent servers share content.",
+    "category": "Media & Entertainment",
+    "whyItIsUseful": "It gives musicians and listeners an alternative to corporate streaming platforms with full control over their libraries. The federated model means communities can interconnect without centralized gatekeeping.",
+    "websiteLink": "https://funkwhale.audio",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 42,
+    "slug": "stremio",
+    "name": "Stremio",
+    "whatItDoes": "A media center application that aggregates streaming content from multiple services into a single interface. It uses community-built add-ons to organize movies, shows, and live TV from various sources.",
+    "category": "Media & Entertainment",
+    "whyItIsUseful": "It solves subscription fatigue by letting you search across all your streaming services in one place. The add-on system makes it endlessly customizable without bloating the core app.",
+    "websiteLink": "https://www.stremio.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 43,
+    "slug": "descript",
+    "name": "Descript",
+    "whatItDoes": "A video and podcast editor that lets you edit media by editing text. It transcribes your content and allows you to cut, rearrange, and overdub by simply modifying the transcript.",
+    "category": "Media & Entertainment",
+    "whyItIsUseful": "It makes professional audio and video editing accessible to people who find timeline-based editors intimidating. Editing a podcast becomes as easy as editing a Google Doc.",
+    "websiteLink": "https://www.descript.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 44,
+    "slug": "pocket-casts",
+    "name": "Pocket Casts",
+    "whatItDoes": "A cross-platform podcast player with powerful organization features including filters, playlists, and variable playback speed. It syncs listening progress across all your devices seamlessly.",
+    "category": "Media & Entertainment",
+    "whyItIsUseful": "It provides a cleaner, ad-free podcast experience compared to Spotify or Apple Podcasts. The filtering and auto-download features mean your playlist is always ready without manual curation.",
+    "websiteLink": "https://pocketcasts.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 45,
+    "slug": "radiooooo",
+    "name": "Radiooooo",
+    "whatItDoes": "A musical time machine that lets you listen to music from any country and any decade from the 1900s to today. You pick a spot on the world map and a time period, and it plays curated songs from that era and place.",
+    "category": "Media & Entertainment",
+    "whyItIsUseful": "It is a genuinely unique way to discover music you would never encounter through algorithmic recommendations. It turns music exploration into a geographic and historical adventure.",
+    "websiteLink": "https://radiooooo.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 46,
+    "slug": "maybe-finance",
+    "name": "Maybe Finance",
+    "whatItDoes": "An open-source personal finance and wealth management app that tracks your net worth, investments, and spending. It aggregates all accounts into a single dashboard with detailed analytics.",
+    "category": "Finance",
+    "whyItIsUseful": "It provides the features of paid services like Mint or Personal Capital as a free, self-hostable tool. The open-source model means your financial data stays entirely under your control.",
+    "websiteLink": "https://maybe.co",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 47,
+    "slug": "actual-budget",
+    "name": "Actual Budget",
+    "whatItDoes": "An open-source, local-first personal budgeting app inspired by YNAB's envelope budgeting method. It runs on your own device or server with optional sync across machines.",
+    "category": "Finance",
+    "whyItIsUseful": "It gives you a powerful zero-based budgeting system without the monthly subscription of YNAB. The local-first approach means your financial data never touches a third-party cloud.",
+    "websiteLink": "https://actualbudget.org",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 48,
+    "slug": "wise",
+    "name": "Wise",
+    "whatItDoes": "A financial platform for sending money internationally at the real exchange rate with transparent, low fees. It also offers multi-currency accounts and debit cards for spending abroad.",
+    "category": "Finance",
+    "whyItIsUseful": "It saves significant money on international transfers compared to traditional banks that hide fees in exchange rate markups. Freelancers and remote workers use it to receive payments in multiple currencies without conversion losses.",
+    "websiteLink": "https://wise.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 49,
+    "slug": "portfolio-visualizer",
+    "name": "Portfolio Visualizer",
+    "whatItDoes": "A suite of tools for backtesting investment portfolios, analyzing asset allocation, and running Monte Carlo simulations on retirement plans. It uses historical market data to model portfolio performance.",
+    "category": "Finance",
+    "whyItIsUseful": "It lets individual investors perform the same quantitative analysis that financial advisors charge for. Backtesting your strategy against decades of real data reveals risks that gut feeling cannot.",
+    "websiteLink": "https://www.portfoliovisualizer.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 50,
+    "slug": "stockanalysis",
+    "name": "Stock Analysis",
+    "whatItDoes": "A free financial data platform that provides stock screeners, financial statements, earnings data, and analyst estimates for thousands of companies. It presents institutional-grade data in a clean, ad-light interface.",
+    "category": "Finance",
+    "whyItIsUseful": "It provides the fundamental analysis data that Bloomberg terminals offer at no cost. Individual investors get access to financial statements, ratios, and screening tools without expensive subscriptions.",
+    "websiteLink": "https://stockanalysis.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 51,
+    "slug": "bitwarden",
+    "name": "Bitwarden",
+    "whatItDoes": "An open-source password manager that stores and auto-fills credentials across all devices and browsers. It supports two-factor authentication, secure sharing, and self-hosting.",
+    "category": "Privacy & Security",
+    "whyItIsUseful": "It provides enterprise-grade password management for free without the privacy concerns of closed-source alternatives. The self-hosting option gives organizations complete control over their credential data.",
+    "websiteLink": "https://bitwarden.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 52,
+    "slug": "simplelogin",
+    "name": "SimpleLogin",
+    "whatItDoes": "An email alias service that lets you create unlimited aliases that forward to your real inbox. You can reply from aliases, block them individually, and use them for sign-ups to prevent spam.",
+    "category": "Privacy & Security",
+    "whyItIsUseful": "It protects your real email address from data breaches and spam by giving every service a unique alias. If an alias gets compromised, you simply disable it without affecting your primary email.",
+    "websiteLink": "https://simplelogin.io",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 53,
+    "slug": "cryptpad",
+    "name": "CryptPad",
+    "whatItDoes": "An end-to-end encrypted collaborative office suite that includes documents, spreadsheets, presentations, forms, and kanban boards. The server never sees your content in plaintext.",
+    "category": "Privacy & Security",
+    "whyItIsUseful": "It provides Google Docs-style collaboration with genuine zero-knowledge encryption. Teams handling sensitive information can collaborate in real time without trusting a cloud provider with their data.",
+    "websiteLink": "https://cryptpad.org",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 54,
+    "slug": "mullvad-vpn",
+    "name": "Mullvad VPN",
+    "whatItDoes": "A privacy-focused VPN service that requires no email, name, or personal information to sign up. It uses account numbers instead of accounts and accepts anonymous payment methods including cash.",
+    "category": "Privacy & Security",
+    "whyItIsUseful": "It is one of the few VPN providers that genuinely cannot identify its users even if compelled. The flat pricing and no-logging policy make it a trustworthy choice for real privacy needs.",
+    "websiteLink": "https://mullvad.net",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 55,
+    "slug": "have-i-been-pwned",
+    "name": "Have I Been Pwned",
+    "whatItDoes": "A free service that checks whether your email address or phone number has appeared in known data breaches. It aggregates billions of leaked records and lets you set up alerts for future breaches.",
+    "category": "Privacy & Security",
+    "whyItIsUseful": "It provides an immediate, actionable answer to whether your accounts may be compromised. The notification feature means you learn about breaches quickly enough to change passwords before damage is done.",
+    "websiteLink": "https://haveibeenpwned.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 56,
+    "slug": "insight-timer",
+    "name": "Insight Timer",
+    "whatItDoes": "A meditation and sleep app with over 200,000 free guided meditations, music tracks, and talks from mindfulness teachers worldwide. It includes a customizable timer for unguided practice.",
+    "category": "Health & Wellness",
+    "whyItIsUseful": "It offers a vastly larger free library than Headspace or Calm without pushing a premium subscription. The community features and live events create accountability that solo meditation apps lack.",
+    "websiteLink": "https://insighttimer.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 57,
+    "slug": "cronometer",
+    "name": "Cronometer",
+    "whatItDoes": "A nutrition tracking app that provides detailed micronutrient data for everything you eat, covering over 80 vitamins, minerals, and amino acids. It uses verified, lab-analyzed food data rather than user-submitted entries.",
+    "category": "Health & Wellness",
+    "whyItIsUseful": "It reveals nutritional blind spots that calorie-only trackers miss entirely. The accuracy of its database makes it trusted by researchers, dietitians, and people with specific health conditions.",
+    "websiteLink": "https://cronometer.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 58,
+    "slug": "woebot",
+    "name": "Woebot",
+    "whatItDoes": "An AI-powered mental health chatbot grounded in cognitive behavioral therapy principles. It guides users through mood tracking, thought reframing, and therapeutic exercises via conversational interaction.",
+    "category": "Health & Wellness",
+    "whyItIsUseful": "It provides immediate, judgment-free mental health support at any hour without waitlists or cost barriers. The CBT-based techniques offer genuine therapeutic value between professional therapy sessions.",
+    "websiteLink": "https://woebothealth.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 59,
+    "slug": "wger",
+    "name": "wger",
+    "whatItDoes": "An open-source fitness tracker and workout manager that lets you create routines, log exercises, and track body measurements. It includes a built-in exercise database with images and nutritional tracking.",
+    "category": "Health & Wellness",
+    "whyItIsUseful": "It provides a no-cost, self-hostable alternative to paid workout apps with no ads or upsells. The open API means developers can build custom integrations with wearables and other health tools.",
+    "websiteLink": "https://wger.de",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 60,
+    "slug": "sleeptown",
+    "name": "SleepTown",
+    "whatItDoes": "A gamified sleep habit app where you plant a virtual building at bedtime and it grows overnight if you do not use your phone. Consistent sleep schedules build a virtual town over time.",
+    "category": "Health & Wellness",
+    "whyItIsUseful": "It turns the abstract goal of better sleep hygiene into a tangible, visual reward system. The gentle accountability of not wanting to destroy your building is surprisingly effective at reducing late-night phone use.",
+    "websiteLink": "https://sleeptown.seekrtech.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 61,
+    "slug": "lobsters",
+    "name": "Lobsters",
+    "whatItDoes": "An invite-only, technology-focused link aggregation and discussion community. It features transparent moderation, mandatory story tagging, and a tree structure that shows how the community grew.",
+    "category": "Social & Community",
+    "whyItIsUseful": "It provides the technical depth of early Hacker News with significantly less noise and marketing. The invite-only model and transparent moderation create a high signal-to-noise ratio.",
+    "websiteLink": "https://lobste.rs",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 62,
+    "slug": "are-na",
+    "name": "Are.na",
+    "whatItDoes": "A visual bookmarking and research platform where users organize ideas, images, links, and text into interconnected channels. It functions as a collaborative mood board and knowledge garden.",
+    "category": "Social & Community",
+    "whyItIsUseful": "It replaces the chaos of browser bookmarks with a spatial, visual way to collect and connect inspiration. The community aspect means you discover unexpected connections through other people's collections.",
+    "websiteLink": "https://www.are.na",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 63,
+    "slug": "lemmy",
+    "name": "Lemmy",
+    "whatItDoes": "A federated, open-source link aggregator and discussion platform similar to Reddit. It uses ActivityPub, meaning independent servers can communicate with each other and the broader fediverse.",
+    "category": "Social & Community",
+    "whyItIsUseful": "It provides a Reddit-like experience without centralized corporate control or algorithmic manipulation. Communities can self-govern on their own servers while still connecting to the wider network.",
+    "websiteLink": "https://join-lemmy.org",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 64,
+    "slug": "polywork",
+    "name": "Polywork",
+    "whatItDoes": "A professional networking platform that lets you showcase all your work and interests, not just job titles. It supports a timeline of projects, side hustles, collaborations, and achievements.",
+    "category": "Social & Community",
+    "whyItIsUseful": "It presents a more honest picture of professional identity than LinkedIn's job-title-centric model. People with portfolio careers and diverse interests can show everything they do in one place.",
+    "websiteLink": "https://www.polywork.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 65,
+    "slug": "meetup",
+    "name": "Meetup",
+    "whatItDoes": "A platform for finding and organizing local in-person and virtual events around shared interests. It covers tech meetups, book clubs, hiking groups, language exchanges, and thousands of other topics.",
+    "category": "Social & Community",
+    "whyItIsUseful": "It remains the most reliable way to find real-world communities in your area around any interest. The low barrier to creating groups means niche interests that lack dedicated platforms still find a home here.",
+    "websiteLink": "https://www.meetup.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 66,
+    "slug": "spacedrive",
+    "name": "Spacedrive",
+    "whatItDoes": "An open-source, cross-platform file manager that unifies files from local drives, cloud services, and network storage into one interface. It creates a virtual distributed filesystem across all your devices.",
+    "category": "File Management",
+    "whyItIsUseful": "It solves the problem of files scattered across multiple cloud services and devices. Instead of remembering where you stored something, you search one unified catalog.",
+    "websiteLink": "https://www.spacedrive.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 67,
+    "slug": "cloudconvert",
+    "name": "CloudConvert",
+    "whatItDoes": "An online file conversion service supporting over 200 formats including documents, images, video, audio, and ebooks. It processes files in the cloud and deletes them after conversion.",
+    "category": "File Management",
+    "whyItIsUseful": "It eliminates the need to install specialized software for one-off format conversions. The API support makes it useful for automating conversion workflows in applications.",
+    "websiteLink": "https://cloudconvert.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 68,
+    "slug": "syncthing",
+    "name": "Syncthing",
+    "whatItDoes": "An open-source, peer-to-peer file synchronization tool that keeps folders in sync across multiple devices without a central server. All data is encrypted in transit and never stored on third-party infrastructure.",
+    "category": "File Management",
+    "whyItIsUseful": "It provides Dropbox-like syncing without giving any company access to your files. The decentralized architecture means it works on local networks even without internet access.",
+    "websiteLink": "https://syncthing.net",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 69,
+    "slug": "filestash",
+    "name": "Filestash",
+    "whatItDoes": "A web-based file manager that connects to any storage backend including S3, SFTP, FTP, Google Drive, Dropbox, and WebDAV. It provides a unified browser interface with file preview and editing capabilities.",
+    "category": "File Management",
+    "whyItIsUseful": "It turns any storage backend into a user-friendly web file manager without migration. Teams can give non-technical users a simple interface to files stored on servers they would otherwise need CLI access to use.",
+    "websiteLink": "https://www.filestash.app",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 70,
+    "slug": "send-tresorit",
+    "name": "Tresorit Send",
+    "whatItDoes": "An end-to-end encrypted file sharing service that lets you send files up to 5 GB with no account required. Links can be password-protected and set to expire automatically.",
+    "category": "File Management",
+    "whyItIsUseful": "It offers a more secure alternative to WeTransfer with genuine end-to-end encryption. The no-account requirement and expiring links make it ideal for sending sensitive files to clients or collaborators.",
+    "websiteLink": "https://send.tresorit.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 71,
+    "slug": "omni-calculator",
+    "name": "Omni Calculator",
+    "whatItDoes": "A collection of over 3,000 free online calculators covering math, physics, finance, health, construction, cooking, and more. Each calculator includes explanations of the underlying formulas and concepts.",
+    "category": "Utilities",
+    "whyItIsUseful": "It replaces dozens of single-purpose apps and spreadsheets with one searchable collection. The built-in explanations mean you understand the calculation, not just the result.",
+    "websiteLink": "https://www.omnicalculator.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 72,
+    "slug": "temp-mail",
+    "name": "Temp Mail",
+    "whatItDoes": "A disposable email service that generates a temporary inbox for receiving emails without registration. The inbox self-destructs after a set period, leaving no trace of your activity.",
+    "category": "Utilities",
+    "whyItIsUseful": "It protects your real inbox from spam when signing up for one-time downloads or trials. The instant, no-setup nature makes it faster than creating email aliases manually.",
+    "websiteLink": "https://temp-mail.org",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 73,
+    "slug": "tinyurl",
+    "name": "TinyURL",
+    "whatItDoes": "A URL shortening service that converts long links into compact, shareable URLs with optional custom aliases. It has been operating reliably since 2002 and requires no account for basic use.",
+    "category": "Utilities",
+    "whyItIsUseful": "It remains one of the simplest, most reliable link shorteners without the tracking overhead of competitors. The custom alias feature lets you create memorable links for presentations and print materials.",
+    "websiteLink": "https://tinyurl.com",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 74,
+    "slug": "carbon",
+    "name": "Carbon",
+    "whatItDoes": "A tool for creating beautiful images of your source code with syntax highlighting, custom themes, and export options. It supports dozens of languages and produces shareable screenshots instantly.",
+    "category": "Utilities",
+    "whyItIsUseful": "It turns plain code into visually appealing images for blog posts, slides, and social media. The browser-based workflow means you do not need to install anything or fuss with screenshot tools.",
+    "websiteLink": "https://carbon.now.sh",
+    "type": "hidden-gem"
+  },
+  {
+    "id": 75,
+    "slug": "jqplay",
+    "name": "jqplay",
+    "whatItDoes": "An online playground for the jq command-line JSON processor that lets you test queries against sample data in real time. It provides syntax highlighting, auto-formatting, and shareable links to your queries.",
+    "category": "Utilities",
+    "whyItIsUseful": "It takes the trial-and-error pain out of writing complex jq filters by giving instant visual feedback. Sharing query links makes it easy to collaborate on JSON transformations with teammates.",
+    "websiteLink": "https://jqplay.org",
+    "type": "hidden-gem"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "surfaced",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve@latest", "out", "-l", "3000", "-s"],
+      "port": 3000
+    }
+  ]
+}

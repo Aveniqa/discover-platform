@@ -1,0 +1,52 @@
+[
+  {
+    "key": "discoveries",
+    "name": "Discoveries",
+    "icon": "🔮",
+    "color": "indigo",
+    "hex": "#6366F1",
+    "description": "Fascinating facts, breakthroughs, and things worth knowing",
+    "path": "/discover",
+    "count": 60
+  },
+  {
+    "key": "products",
+    "name": "Trending Products",
+    "icon": "📈",
+    "color": "emerald",
+    "hex": "#10B981",
+    "description": "Products people are actually buying right now",
+    "path": "/trending",
+    "count": 75
+  },
+  {
+    "key": "hidden-gems",
+    "name": "Hidden Gems",
+    "icon": "💎",
+    "color": "amber",
+    "hex": "#F59E0B",
+    "description": "Brilliant websites and tools you probably haven't found yet",
+    "path": "/hidden-gems",
+    "count": 75
+  },
+  {
+    "key": "future-radar",
+    "name": "Future Radar",
+    "icon": "🔭",
+    "color": "cyan",
+    "hex": "#06B6D4",
+    "description": "Emerging technologies shaping the world ahead",
+    "path": "/future-radar",
+    "count": 50
+  },
+  {
+    "key": "daily-tools",
+    "name": "Daily Tools",
+    "icon": "🛠",
+    "color": "rose",
+    "hex": "#F43F5E",
+    "description": "Useful tools and utilities for everyday life",
+    "path": "/tools",
+    "count": 60
+  }
+]

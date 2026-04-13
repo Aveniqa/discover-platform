@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "slug": "todoist",
+    "toolName": "Todoist",
+    "whatItDoes": "Task management app with natural language input, recurring tasks, priority levels, labels, and filters. Organizes work into projects with shared collaboration and productivity tracking.",
+    "category": "Productivity",
+    "whyItIsUseful": "Its natural language parsing lets you type 'Call dentist every 3 months' and it just works. The karma system gamifies productivity without being annoying.",
+    "websiteLink": "https://todoist.com",
+    "type": "tool"
+  },
+  {
+    "id": 2,
+    "slug": "notion",
+    "toolName": "Notion",
+    "whatItDoes": "All-in-one workspace combining notes, databases, kanban boards, wikis, and calendars. Templates for everything from personal journals to company wikis.",
+    "category": "Productivity",
+    "whyItIsUseful": "It replaces 5-6 separate apps with a single flexible workspace. The database feature alone makes it worth learning.",
+    "websiteLink": "https://www.notion.so",
+    "type": "tool"
+  },
+  {
+    "id": 3,
+    "slug": "fantastical",
+    "toolName": "Fantastical",
+    "whatItDoes": "Calendar app that parses natural language event creation, merges calendars from multiple accounts, and includes scheduling links, weather forecasts, and video call integration.",
+    "category": "Productivity",
+    "whyItIsUseful": "Type 'Lunch with Sarah at Noon on Friday at Blue Bottle' and it creates a perfectly formatted event. Merging all your calendars into one clean view is genuinely life-changing.",
+    "websiteLink": "https://flexibits.com/fantastical",
+    "type": "tool"
+  },
+  {
+    "id": 4,
+    "slug": "zapier",
+    "toolName": "Zapier",
+    "whatItDoes": "No-code automation platform connecting 6,000+ apps with if-this-then-that logic. Automates workflows like saving email attachments to Drive, posting Slack updates from forms, and syncing CRMs.",
+    "category": "Productivity",
+    "whyItIsUseful": "It eliminates hours of repetitive copy-paste work between apps. Even non-technical users can build automations that would otherwise require a developer.",
+    "websiteLink": "https://zapier.com",
+    "type": "tool"
+  },
+  {
+    "id": 5,
+    "slug": "forest-app",
+    "toolName": "Forest",
+    "whatItDoes": "Focus timer that grows a virtual tree while you work. If you leave the app to check social media, your tree dies. Accumulated coins can plant real trees through a partnership with Trees for the Future.",
+    "category": "Productivity",
+    "whyItIsUseful": "The emotional investment in keeping your virtual tree alive is surprisingly effective at blocking phone distractions, and you actually plant real trees as a bonus.",
+    "websiteLink": "https://www.forestapp.cc",
+    "type": "tool"
+  },
+  {
+    "id": 6,
+    "slug": "coolors",
+    "toolName": "Coolors",
+    "whatItDoes": "Color palette generator that creates harmonious 5-color schemes with a spacebar press. Includes accessibility contrast checking, palette extraction from images, and export to multiple formats.",
+    "category": "Design",
+    "whyItIsUseful": "Choosing colors that work together is genuinely hard. Coolors makes it instant and ensures your palettes are accessible to colorblind users.",
+    "websiteLink": "https://coolors.co",
+    "type": "tool"
+  },
+  {
+    "id": 7,
+    "slug": "google-fonts",
+    "toolName": "Google Fonts",
+    "whatItDoes": "Free library of 1,500+ open-source font families optimized for the web. Preview fonts with custom text, sort by category, and add them to any website with a single line of code.",
+    "category": "Design",
+    "whyItIsUseful": "It removes the cost and licensing headaches of professional typography. Every font is free, fast-loading, and already optimized for screen readability.",
+    "websiteLink": "https://fonts.google.com",
+    "type": "tool"
+  },
+  {
+    "id": 8,
+    "slug": "figma",
+    "toolName": "Figma",
+    "whatItDoes": "Browser-based collaborative design tool for UI/UX mockups, prototyping, and design systems. Multiple designers can work on the same file simultaneously with real-time cursors.",
+    "category": "Design",
+    "whyItIsUseful": "Real-time multiplayer design eliminates version conflicts. The free tier is generous enough for most individual designers and small teams.",
+    "websiteLink": "https://www.figma.com",
+    "type": "tool"
+  },
+  {
+    "id": 9,
+    "slug": "the-noun-project",
+    "toolName": "The Noun Project",
+    "whatItDoes": "Library of over 5 million icons and stock photos created by a global community of designers. Consistent icon sets available in SVG and PNG with customizable colors.",
+    "category": "Design",
+    "whyItIsUseful": "When you need a specific icon for an obscure concept, Noun Project almost certainly has it. The consistent style within icon sets keeps designs cohesive.",
+    "websiteLink": "https://thenounproject.com",
+    "type": "tool"
+  },
+  {
+    "id": 10,
+    "slug": "remove-bg",
+    "toolName": "Remove.bg",
+    "whatItDoes": "AI-powered background removal for images. Upload a photo and get a clean cutout in seconds with remarkably accurate edge detection, even handling hair and transparent objects.",
+    "category": "Design",
+    "whyItIsUseful": "What used to take 20 minutes of careful Photoshop masking now takes 5 seconds. The edge quality is better than most people can achieve manually.",
+    "websiteLink": "https://www.remove.bg",
+    "type": "tool"
+  },
+  {
+    "id": 11,
+    "slug": "grammarly",
+    "toolName": "Grammarly",
+    "whatItDoes": "AI writing assistant that checks grammar, spelling, punctuation, tone, and clarity in real time. Works across email, docs, social media, and most text fields via browser extension.",
+    "category": "Writing",
+    "whyItIsUseful": "It catches embarrassing errors before they ship and its tone detection helps you avoid sounding accidentally aggressive in emails. The browser extension means it works everywhere.",
+    "websiteLink": "https://www.grammarly.com",
+    "type": "tool"
+  },
+  {
+    "id": 12,
+    "slug": "jasper",
+    "toolName": "Jasper",
+    "whatItDoes": "AI content generation platform trained on marketing best practices. Creates blog posts, ad copy, product descriptions, email campaigns, and social posts with brand voice consistency.",
+    "category": "Writing",
+    "whyItIsUseful": "It turns a 2-hour blog post into a 20-minute editing task. The brand voice feature ensures AI output sounds like your company, not a generic robot.",
+    "websiteLink": "https://www.jasper.ai",
+    "type": "tool"
+  },
+  {
+    "id": 13,
+    "slug": "substack",
+    "toolName": "Substack",
+    "whatItDoes": "Newsletter publishing platform with built-in subscriptions, payments, podcasting, and a recommendation network. Writers own their email list and keep most of the revenue from paid subscribers.",
+    "category": "Writing",
+    "whyItIsUseful": "It removed every technical barrier to starting a paid newsletter. Writers who would never build a website can have a professional publication running in 10 minutes.",
+    "websiteLink": "https://substack.com",
+    "type": "tool"
+  },
+  {
+    "id": 14,
+    "slug": "surfer-seo",
+    "toolName": "Surfer SEO",
+    "whatItDoes": "Content optimization tool that analyzes top-ranking pages for any keyword, then gives you a real-time content score as you write. Recommends word count, headings, NLP terms, and structure.",
+    "category": "Writing",
+    "whyItIsUseful": "It takes the guesswork out of SEO writing by showing exactly what Google rewards for each keyword. Articles written with Surfer consistently rank higher.",
+    "websiteLink": "https://surferseo.com",
+    "type": "tool"
+  },
+  {
+    "id": 15,
+    "slug": "obsidian",
+    "toolName": "Obsidian",
+    "whatItDoes": "Markdown-based knowledge management app that stores notes as local files and connects them with bidirectional links. A graph view visualizes how your ideas interconnect.",
+    "category": "Writing",
+    "whyItIsUseful": "Your notes are plain Markdown files you own forever, not locked in a proprietary cloud. The linking system turns scattered notes into an interconnected personal wiki.",
+    "websiteLink": "https://obsidian.md",
+    "type": "tool"
+  },
+  {
+    "id": 16,
+    "slug": "visual-studio-code",
+    "toolName": "Visual Studio Code",
+    "whatItDoes": "Free, extensible code editor with IntelliSense auto-completion, built-in Git, debugging, terminal, and a marketplace of 40,000+ extensions for every language and framework.",
+    "category": "Development",
+    "whyItIsUseful": "It hits the sweet spot between a lightweight text editor and a heavy IDE. The extension ecosystem means it adapts to any language or workflow you throw at it.",
+    "websiteLink": "https://code.visualstudio.com",
+    "type": "tool"
+  },
+  {
+    "id": 17,
+    "slug": "vercel",
+    "toolName": "Vercel",
+    "whatItDoes": "Cloud platform for deploying frontend frameworks and static sites. Push to Git and it builds, deploys, and serves your site globally on an edge network with automatic HTTPS and preview URLs for every pull request.",
+    "category": "Development",
+    "whyItIsUseful": "It reduces deployment from a multi-day DevOps project to a Git push. Preview deployments for every PR transform the code review process.",
+    "websiteLink": "https://vercel.com",
+    "type": "tool"
+  },
+  {
+    "id": 18,
+    "slug": "postman",
+    "toolName": "Postman",
+    "whatItDoes": "API development platform for building, testing, documenting, and monitoring APIs. Create request collections, write test scripts, mock servers, and generate documentation automatically.",
+    "category": "Development",
+    "whyItIsUseful": "It makes API development visual and collaborative. Sharing a Postman collection is the fastest way to onboard someone to your API, far better than reading docs.",
+    "websiteLink": "https://www.postman.com",
+    "type": "tool"
+  },
+  {
+    "id": 19,
+    "slug": "playwright",
+    "toolName": "Playwright",
+    "whatItDoes": "End-to-end testing framework by Microsoft that automates Chromium, Firefox, and WebKit browsers. Supports auto-waiting, network interception, mobile emulation, and visual regression testing.",
+    "category": "Development",
+    "whyItIsUseful": "It handles the flakiness that plagues other testing tools with built-in auto-waiting. Testing across three browser engines with one API catches cross-browser bugs before users do.",
+    "websiteLink": "https://playwright.dev",
+    "type": "tool"
+  },
+  {
+    "id": 20,
+    "slug": "github-actions",
+    "toolName": "GitHub Actions",
+    "whatItDoes": "CI/CD automation built into GitHub that runs workflows on push, pull request, schedule, or any event. Build, test, and deploy code with YAML config files and a marketplace of reusable actions.",
+    "category": "Development",
+    "whyItIsUseful": "It eliminates the need for a separate CI/CD service. Being integrated directly into GitHub means your tests and deployments live right next to your code.",
+    "websiteLink": "https://github.com/features/actions",
+    "type": "tool"
+  },
+  {
+    "id": 21,
+    "slug": "ynab",
+    "toolName": "YNAB (You Need A Budget)",
+    "whatItDoes": "Zero-based budgeting app where every dollar gets a job. Syncs with bank accounts, tracks spending in real time, and helps you build a one-month financial buffer with goal tracking.",
+    "category": "Finance",
+    "whyItIsUseful": "YNAB users save an average of $600 in their first two months. The philosophy of giving every dollar a purpose fundamentally changes how you think about money.",
+    "websiteLink": "https://www.ynab.com",
+    "type": "tool"
+  },
+  {
+    "id": 22,
+    "slug": "turbotax",
+    "toolName": "TurboTax",
+    "whatItDoes": "Guided tax preparation software that interviews you with plain-English questions, imports W-2s and 1099s automatically, and checks for 350+ deductions. Handles federal, state, and self-employment taxes.",
+    "category": "Finance",
+    "whyItIsUseful": "It translates intimidating tax forms into simple questions anyone can answer. The automated import and deduction-finding pays for itself many times over for most filers.",
+    "websiteLink": "https://turbotax.intuit.com",
+    "type": "tool"
+  },
+  {
+    "id": 23,
+    "slug": "wave",
+    "toolName": "Wave",
+    "whatItDoes": "Free invoicing and accounting software for small businesses and freelancers. Create professional invoices, track expenses, scan receipts, accept payments, and generate financial reports.",
+    "category": "Finance",
+    "whyItIsUseful": "It is genuinely free for invoicing and accounting, not a limited trial. Freelancers get professional-grade financial tools without paying QuickBooks prices.",
+    "websiteLink": "https://www.waveapps.com",
+    "type": "tool"
+  },
+  {
+    "id": 24,
+    "slug": "wealthfront",
+    "toolName": "Wealthfront",
+    "whatItDoes": "Automated investment platform that builds a diversified portfolio based on your risk tolerance, handles rebalancing, and performs daily tax-loss harvesting. Includes high-yield savings and financial planning tools.",
+    "category": "Finance",
+    "whyItIsUseful": "Tax-loss harvesting alone typically adds 1-2% annual returns. It brings sophisticated investment strategies previously available only to the wealthy to anyone with $500.",
+    "websiteLink": "https://www.wealthfront.com",
+    "type": "tool"
+  },
+  {
+    "id": 25,
+    "slug": "numbeo",
+    "toolName": "Numbeo",
+    "whatItDoes": "Crowdsourced database of living costs, property prices, crime rates, healthcare quality, and traffic conditions for cities worldwide. Compare cost of living between any two cities side by side.",
+    "category": "Finance",
+    "whyItIsUseful": "It answers 'Can I afford to live there?' with real data before you commit to a move. The salary comparison tool shows exactly how much you need to earn to maintain your lifestyle.",
+    "websiteLink": "https://www.numbeo.com",
+    "type": "tool"
+  },
+  {
+    "id": 26,
+    "slug": "strava",
+    "toolName": "Strava",
+    "whatItDoes": "Fitness tracking app for running, cycling, and swimming with GPS route mapping, segment leaderboards, training analytics, and a social feed for sharing activities with friends.",
+    "category": "Health",
+    "whyItIsUseful": "The social and competitive features turn exercise from a chore into a game. Segment leaderboards add just enough competition to push you harder without being toxic.",
+    "websiteLink": "https://www.strava.com",
+    "type": "tool"
+  },
+  {
+    "id": 27,
+    "slug": "cronometer",
+    "toolName": "Cronometer",
+    "whatItDoes": "Nutrition tracker with a verified database of 400,000+ foods, tracking 82 micronutrients beyond just calories and macros. Includes barcode scanning, recipe import, and detailed nutrient reports.",
+    "category": "Health",
+    "whyItIsUseful": "Most food trackers only count calories. Cronometer shows you exactly which vitamins and minerals you are deficient in, turning vague 'eat healthier' goals into specific actions.",
+    "websiteLink": "https://cronometer.com",
+    "type": "tool"
+  },
+  {
+    "id": 28,
+    "slug": "headspace",
+    "toolName": "Headspace",
+    "whatItDoes": "Guided meditation and mindfulness app with courses for stress, focus, sleep, and anxiety. Includes animated breathing exercises, sleep stories, focus music, and SOS sessions for acute stress.",
+    "category": "Health",
+    "whyItIsUseful": "It makes meditation approachable for skeptics with friendly animations and short sessions. The sleep stories narrated by celebrities are surprisingly effective for insomnia.",
+    "websiteLink": "https://www.headspace.com",
+    "type": "tool"
+  },
+  {
+    "id": 29,
+    "slug": "sleep-cycle",
+    "toolName": "Sleep Cycle",
+    "whatItDoes": "Sleep tracking alarm clock that monitors your sleep phases through sound analysis or accelerometer. Wakes you during light sleep within a 30-minute window so you feel rested, and provides sleep quality trends.",
+    "category": "Health",
+    "whyItIsUseful": "Being woken during light sleep instead of deep sleep is the difference between feeling groggy and feeling refreshed. The trend data reveals which habits actually affect your sleep.",
+    "websiteLink": "https://www.sleepcycle.com",
+    "type": "tool"
+  },
+  {
+    "id": 30,
+    "slug": "betterhelp",
+    "toolName": "BetterHelp",
+    "whatItDoes": "Online therapy platform matching you with licensed therapists for unlimited messaging and weekly video, phone, or chat sessions. Offers individual, couples, and teen therapy.",
+    "category": "Health",
+    "whyItIsUseful": "It removes the biggest barriers to therapy: finding a therapist, scheduling, commuting, and stigma. Messaging your therapist between sessions provides continuity traditional therapy lacks.",
+    "websiteLink": "https://www.betterhelp.com",
+    "type": "tool"
+  },
+  {
+    "id": 31,
+    "slug": "duolingo",
+    "toolName": "Duolingo",
+    "whatItDoes": "Gamified language learning app with bite-sized lessons in 40+ languages. Uses spaced repetition, stories, podcasts, and streak mechanics to build daily practice habits.",
+    "category": "Learning",
+    "whyItIsUseful": "The gamification is engineered to be borderline addictive, which for once is a good thing. The streak system creates a daily habit that adds up to real fluency over months.",
+    "websiteLink": "https://www.duolingo.com",
+    "type": "tool"
+  },
+  {
+    "id": 32,
+    "slug": "coursera",
+    "toolName": "Coursera",
+    "whatItDoes": "Online learning platform offering courses, certificates, and degrees from Stanford, Google, IBM, and 300+ universities and companies. Covers tech, business, data science, and humanities.",
+    "category": "Learning",
+    "whyItIsUseful": "You can audit most courses for free and only pay if you want a certificate. Getting a Stanford-quality education from your couch is the closest thing to a cheat code for career growth.",
+    "websiteLink": "https://www.coursera.org",
+    "type": "tool"
+  },
+  {
+    "id": 33,
+    "slug": "anki",
+    "toolName": "Anki",
+    "whatItDoes": "Free spaced repetition flashcard app backed by cognitive science. Schedules reviews at optimal intervals to maximize long-term retention. Supports images, audio, cloze deletions, and shared decks.",
+    "category": "Learning",
+    "whyItIsUseful": "Medical students, language learners, and bar exam preppers swear by it because spaced repetition is the single most evidence-backed study technique. It is free and endlessly customizable.",
+    "websiteLink": "https://apps.ankiweb.net",
+    "type": "tool"
+  },
+  {
+    "id": 34,
+    "slug": "codecademy",
+    "toolName": "Codecademy",
+    "whatItDoes": "Interactive coding education platform with hands-on exercises in Python, JavaScript, SQL, and 14+ languages. Includes career paths, projects, and an in-browser code editor so you learn by doing.",
+    "category": "Learning",
+    "whyItIsUseful": "Learning to code by reading is like learning to swim by reading. Codecademy forces you to write real code from lesson one, which is how programming actually sticks.",
+    "websiteLink": "https://www.codecademy.com",
+    "type": "tool"
+  },
+  {
+    "id": 35,
+    "slug": "zotero",
+    "toolName": "Zotero",
+    "whatItDoes": "Free reference management tool that saves research papers with one click, organizes them into collections, extracts metadata automatically, and generates citations in 10,000+ styles.",
+    "category": "Learning",
+    "whyItIsUseful": "It turns the nightmare of managing hundreds of research sources into a one-click operation. The browser extension grabs the full citation from any journal, newspaper, or website instantly.",
+    "websiteLink": "https://www.zotero.org",
+    "type": "tool"
+  },
+  {
+    "id": 36,
+    "slug": "davinci-resolve",
+    "toolName": "DaVinci Resolve",
+    "whatItDoes": "Professional video editing, color grading, visual effects, and audio post-production in a single application. The free version includes nearly all features used by Hollywood studios.",
+    "category": "Media",
+    "whyItIsUseful": "It is the only truly professional video editor with a free tier that does not watermark or time-limit exports. Its color grading is used on actual feature films.",
+    "websiteLink": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "type": "tool"
+  },
+  {
+    "id": 37,
+    "slug": "audacity",
+    "toolName": "Audacity",
+    "whatItDoes": "Free, open-source audio editor for recording, editing, mixing, and processing sound. Supports multi-track editing, noise reduction, pitch shifting, and exports to all major audio formats.",
+    "category": "Media",
+    "whyItIsUseful": "It has been the go-to free audio editor for 20 years for good reason. Podcast editors, musicians, and students all use it because it handles 90% of audio tasks without costing a cent.",
+    "websiteLink": "https://www.audacityteam.org",
+    "type": "tool"
+  },
+  {
+    "id": 38,
+    "slug": "photopea",
+    "toolName": "Photopea",
+    "whatItDoes": "Free browser-based image editor that clones Photoshop's interface and supports PSD, XCF, Sketch, and RAW files. Includes layers, masks, smart objects, and most Photoshop tools.",
+    "category": "Media",
+    "whyItIsUseful": "It is essentially free Photoshop in a browser tab. It even opens actual PSD files, so you can edit Photoshop projects without a subscription.",
+    "websiteLink": "https://www.photopea.com",
+    "type": "tool"
+  },
+  {
+    "id": 39,
+    "slug": "obs-studio",
+    "toolName": "OBS Studio",
+    "whatItDoes": "Free, open-source software for live streaming and screen recording. Supports multiple scenes, sources, transitions, and audio mixing with output to Twitch, YouTube, and any RTMP server.",
+    "category": "Media",
+    "whyItIsUseful": "Every major streamer started with OBS because it is free and does everything paid alternatives do. The scene system makes professional-looking streams achievable for beginners.",
+    "websiteLink": "https://obsproject.com",
+    "type": "tool"
+  },
+  {
+    "id": 40,
+    "slug": "riverside-fm",
+    "toolName": "Riverside.fm",
+    "whatItDoes": "Remote podcast and video recording platform that records each participant locally in studio quality, then syncs the tracks. Includes transcription, AI editing, and clip generation for social media.",
+    "category": "Media",
+    "whyItIsUseful": "It solves the quality problem with remote recording. Even if your guest has bad internet, their audio and video are recorded locally in full quality, not compressed through a video call.",
+    "websiteLink": "https://riverside.fm",
+    "type": "tool"
+  },
+  {
+    "id": 41,
+    "slug": "hey-email",
+    "toolName": "HEY",
+    "whatItDoes": "Opinionated email service that screens new senders, separates newsletters into a Feed, groups receipts into a Paper Trail, and lets you set aside emails to reply to later in a focused batch.",
+    "category": "Communication",
+    "whyItIsUseful": "It rethinks email from scratch instead of adding features to a broken model. The Screener alone, which blocks unknown senders until you approve them, cuts inbox noise dramatically.",
+    "websiteLink": "https://www.hey.com",
+    "type": "tool"
+  },
+  {
+    "id": 42,
+    "slug": "zoom",
+    "toolName": "Zoom",
+    "whatItDoes": "Video conferencing platform with HD video, screen sharing, breakout rooms, whiteboarding, recording, live transcription, and AI meeting summaries. Supports up to 1,000 participants.",
+    "category": "Communication",
+    "whyItIsUseful": "It became the default video meeting tool because it just works with minimal setup. The AI companion that summarizes meetings you missed is genuinely useful.",
+    "websiteLink": "https://zoom.us",
+    "type": "tool"
+  },
+  {
+    "id": 43,
+    "slug": "loom",
+    "toolName": "Loom",
+    "whatItDoes": "Async video messaging tool that records your screen and camera simultaneously, then generates a shareable link instantly. Includes auto-transcription, viewer analytics, and commenting at specific timestamps.",
+    "category": "Communication",
+    "whyItIsUseful": "It replaces meetings that should have been emails and emails that should have been videos. Showing someone your screen while talking is 10x faster than writing instructions.",
+    "websiteLink": "https://www.loom.com",
+    "type": "tool"
+  },
+  {
+    "id": 44,
+    "slug": "slack",
+    "toolName": "Slack",
+    "whatItDoes": "Team messaging platform organized into channels by topic, project, or team. Supports threads, file sharing, huddles, workflow automation, and integrations with 2,400+ business tools.",
+    "category": "Communication",
+    "whyItIsUseful": "Channels turn chaotic group emails into organized, searchable conversations. The integration ecosystem means most of your tools can report directly into Slack without switching contexts.",
+    "websiteLink": "https://slack.com",
+    "type": "tool"
+  },
+  {
+    "id": 45,
+    "slug": "calendly",
+    "toolName": "Calendly",
+    "whatItDoes": "Scheduling automation tool that lets others book meetings based on your real-time availability. Integrates with Google, Outlook, and iCloud calendars, and sends automatic reminders and follow-ups.",
+    "category": "Communication",
+    "whyItIsUseful": "It eliminates the 'When are you free?' back-and-forth that wastes everyone's time. Sharing a Calendly link instead of proposing times saves an average of 4 emails per meeting.",
+    "websiteLink": "https://calendly.com",
+    "type": "tool"
+  },
+  {
+    "id": 46,
+    "slug": "mullvad-vpn",
+    "toolName": "Mullvad VPN",
+    "whatItDoes": "Privacy-focused VPN service that requires no email or personal information to sign up. Uses account numbers instead of accounts, accepts cash and cryptocurrency, and has been independently audited.",
+    "category": "Privacy",
+    "whyItIsUseful": "It is the gold standard for VPN privacy because they genuinely cannot identify you. No email, no name, and the flat pricing means no upsell dark patterns.",
+    "websiteLink": "https://mullvad.net",
+    "type": "tool"
+  },
+  {
+    "id": 47,
+    "slug": "bitwarden",
+    "toolName": "Bitwarden",
+    "whatItDoes": "Open-source password manager that generates, stores, and auto-fills strong unique passwords across all devices. Includes secure sharing, TOTP authenticator, breach monitoring, and encrypted vault export.",
+    "category": "Privacy",
+    "whyItIsUseful": "It is the only password manager that is both open-source and free for individuals. You get 1Password-level features without the subscription cost, and the code is publicly auditable.",
+    "websiteLink": "https://bitwarden.com",
+    "type": "tool"
+  },
+  {
+    "id": 48,
+    "slug": "veracrypt",
+    "toolName": "VeraCrypt",
+    "whatItDoes": "Free, open-source disk encryption software that creates encrypted containers or encrypts entire drives. Supports hidden volumes for plausible deniability and multiple encryption algorithms.",
+    "category": "Privacy",
+    "whyItIsUseful": "It provides military-grade encryption for free. The hidden volume feature means you can have a decoy encrypted drive that conceals the real one, protecting sensitive data even under coercion.",
+    "websiteLink": "https://www.veracrypt.fr",
+    "type": "tool"
+  },
+  {
+    "id": 49,
+    "slug": "ublock-origin",
+    "toolName": "uBlock Origin",
+    "whatItDoes": "Free, open-source browser extension that blocks ads, trackers, malware domains, and annoyances. Uses minimal CPU and memory compared to other ad blockers, with customizable filter lists.",
+    "category": "Privacy",
+    "whyItIsUseful": "It blocks ads and trackers while using a fraction of the resources of alternatives like AdBlock Plus. The web becomes faster, cleaner, and safer with a single install.",
+    "websiteLink": "https://ublockorigin.com",
+    "type": "tool"
+  },
+  {
+    "id": 50,
+    "slug": "simplelogin",
+    "toolName": "SimpleLogin",
+    "whatItDoes": "Email alias service that generates unique email addresses for every service you sign up for. If an alias gets spam, disable it without affecting your real email. Integrates with Bitwarden and Proton Mail.",
+    "category": "Privacy",
+    "whyItIsUseful": "When a service gets hacked and your email leaks, you just disable that one alias instead of dealing with spam forever. It also reveals which companies sell your data.",
+    "websiteLink": "https://simplelogin.io",
+    "type": "tool"
+  },
+  {
+    "id": 51,
+    "slug": "buffer",
+    "toolName": "Buffer",
+    "whatItDoes": "Social media scheduling tool for planning, publishing, and analyzing posts across Instagram, Twitter/X, Facebook, LinkedIn, Pinterest, and TikTok from a single dashboard.",
+    "category": "Social Media",
+    "whyItIsUseful": "It lets you batch-create a week of social content in one sitting instead of posting daily. The analytics show exactly which post types and times drive the most engagement.",
+    "websiteLink": "https://buffer.com",
+    "type": "tool"
+  },
+  {
+    "id": 52,
+    "slug": "sprout-social",
+    "toolName": "Sprout Social",
+    "whatItDoes": "Social media management and analytics platform with unified inbox, publishing calendar, competitor analysis, sentiment tracking, and custom reporting across all major social networks.",
+    "category": "Social Media",
+    "whyItIsUseful": "The unified smart inbox merges messages from every platform into one stream, so you never miss a customer comment. Competitor benchmarking shows exactly where you stand in your industry.",
+    "websiteLink": "https://sproutsocial.com",
+    "type": "tool"
+  },
+  {
+    "id": 53,
+    "slug": "canva",
+    "toolName": "Canva",
+    "whatItDoes": "Drag-and-drop design platform with templates for social media posts, presentations, logos, and videos. Includes AI image generation, brand kits, background removal, and animation.",
+    "category": "Social Media",
+    "whyItIsUseful": "It makes professional-looking social content accessible to non-designers. The platform-specific templates ensure your posts are perfectly sized for every network without guessing dimensions.",
+    "websiteLink": "https://www.canva.com",
+    "type": "tool"
+  },
+  {
+    "id": 54,
+    "slug": "hashtagify",
+    "toolName": "Hashtagify",
+    "whatItDoes": "Hashtag research tool that shows popularity, trends, related hashtags, and top influencers for any hashtag. Visualizes hashtag relationships and tracks performance over time.",
+    "category": "Social Media",
+    "whyItIsUseful": "Using the right hashtags can multiply reach by 10x. Hashtagify shows which tags are trending upward and which are oversaturated, so you pick the ones that actually get seen.",
+    "websiteLink": "https://hashtagify.me",
+    "type": "tool"
+  },
+  {
+    "id": 55,
+    "slug": "later",
+    "toolName": "Later",
+    "whatItDoes": "Visual social media planner focused on Instagram, TikTok, and Pinterest. Features a drag-and-drop visual calendar, link-in-bio tool, optimal posting times, and user-generated content collection.",
+    "category": "Social Media",
+    "whyItIsUseful": "The visual calendar lets you see how your Instagram grid will look before publishing, ensuring aesthetic consistency. The Linkin.bio feature turns your feed into a mini website.",
+    "websiteLink": "https://later.com",
+    "type": "tool"
+  },
+  {
+    "id": 56,
+    "slug": "claude",
+    "toolName": "Claude",
+    "whatItDoes": "AI assistant by Anthropic for thoughtful conversation, analysis, writing, coding, math, and research. Known for nuanced reasoning, following complex instructions, and being transparent about its limitations.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It excels at tasks requiring careful reasoning and long-context understanding. The ability to work with documents up to 200K tokens makes it ideal for analyzing lengthy reports, codebases, and research papers.",
+    "websiteLink": "https://claude.ai",
+    "type": "tool"
+  },
+  {
+    "id": 57,
+    "slug": "midjourney",
+    "toolName": "Midjourney",
+    "whatItDoes": "AI image generation tool that creates stunning artwork, photography, and illustrations from text descriptions. Known for particularly aesthetic, detailed, and artistic output across many styles.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It produces consistently beautiful images that often look indistinguishable from professional photography or illustration. The aesthetic quality puts it ahead for creative and marketing use cases.",
+    "websiteLink": "https://www.midjourney.com",
+    "type": "tool"
+  },
+  {
+    "id": 58,
+    "slug": "github-copilot",
+    "toolName": "GitHub Copilot",
+    "whatItDoes": "AI pair programmer that suggests code completions, generates entire functions from comments, explains code, writes tests, and answers questions about your codebase directly in your editor.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It eliminates boilerplate coding and reduces time spent searching Stack Overflow. Developers report completing tasks 55% faster, with the biggest gains on repetitive or unfamiliar code.",
+    "websiteLink": "https://github.com/features/copilot",
+    "type": "tool"
+  },
+  {
+    "id": 59,
+    "slug": "otter-ai",
+    "toolName": "Otter.ai",
+    "whatItDoes": "AI-powered meeting transcription and note-taking tool that joins your Zoom, Teams, or Google Meet calls automatically. Produces real-time transcripts, identifies speakers, and generates summaries with action items.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It lets you be fully present in meetings instead of frantically scribbling notes. The automated action items and searchable transcripts mean nothing from any meeting is ever lost.",
+    "websiteLink": "https://otter.ai",
+    "type": "tool"
+  },
+  {
+    "id": 60,
+    "slug": "elicit",
+    "toolName": "Elicit",
+    "whatItDoes": "AI research assistant that searches 200 million academic papers, extracts key findings, summarizes methodologies, and organizes results into structured tables. Automates systematic literature reviews.",
+    "category": "AI Tools",
+    "whyItIsUseful": "It turns a week-long literature review into an afternoon task. The ability to extract and compare findings across dozens of papers in a structured table is transformative for researchers.",
+    "websiteLink": "https://elicit.com",
+    "type": "tool"
+  }
+]

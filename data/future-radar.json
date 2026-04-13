@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "slug": "solid-state-batteries",
+    "techName": "Solid-State Batteries",
+    "explanation": "Batteries that replace liquid electrolyte with solid material. They offer 2-3x the energy density, charge in minutes, and virtually eliminate fire risk.",
+    "industry": "Energy",
+    "whyItMatters": "They could double EV range to 600+ miles, make grid storage affordable, and eliminate the biggest barrier to renewable energy adoption.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 2,
+    "slug": "compact-fusion-reactors",
+    "techName": "Compact Fusion Reactors",
+    "explanation": "Small-scale nuclear fusion devices that replicate how the sun generates energy. They fuse hydrogen isotopes at extreme temperatures to produce virtually limitless clean power with no long-lived radioactive waste.",
+    "industry": "Energy",
+    "whyItMatters": "A single fusion plant could power a city with fuel extracted from seawater, ending dependence on fossil fuels and solving the energy crisis permanently.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 3,
+    "slug": "perovskite-solar-cells",
+    "techName": "Perovskite Solar Cells",
+    "explanation": "Next-generation solar cells made from perovskite crystals that can be printed onto flexible surfaces. They achieve efficiencies rivaling silicon at a fraction of the manufacturing cost.",
+    "industry": "Energy",
+    "whyItMatters": "They could cut solar panel costs by 80%, be applied to windows and building facades, and make solar viable in cloudy climates by capturing a broader light spectrum.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 4,
+    "slug": "green-hydrogen-electrolyzers",
+    "techName": "Green Hydrogen Electrolyzers",
+    "explanation": "Advanced electrolysis systems that split water into hydrogen and oxygen using renewable electricity. New membrane and catalyst designs dramatically reduce cost and improve efficiency.",
+    "industry": "Energy",
+    "whyItMatters": "Green hydrogen can decarbonize steel, shipping, and aviation where batteries cannot reach, potentially replacing 20% of global fossil fuel use by 2050.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 5,
+    "slug": "ai-managed-smart-grids",
+    "techName": "AI-Managed Smart Grids",
+    "explanation": "Power grids orchestrated by artificial intelligence that predict demand, route electricity dynamically, and seamlessly balance millions of distributed solar panels, batteries, and EVs in real time.",
+    "industry": "Energy",
+    "whyItMatters": "They could reduce energy waste by 30%, prevent blackouts, and enable a fully renewable grid by solving the intermittency problem that holds back wind and solar.",
+    "developmentStage": "Growth Phase",
+    "type": "future-tech"
+  },
+  {
+    "id": 6,
+    "slug": "mrna-therapeutics-platform",
+    "techName": "mRNA Therapeutics Platform",
+    "explanation": "Programmable mRNA molecules that instruct cells to produce specific therapeutic proteins. After proving themselves with COVID vaccines, these platforms are being adapted to treat cancer, heart disease, and rare genetic disorders.",
+    "industry": "Healthcare",
+    "whyItMatters": "A single platform could produce personalized cancer vaccines in weeks, turn the body into its own drug factory, and make rare disease treatments economically viable.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 7,
+    "slug": "in-vivo-gene-editing",
+    "techName": "In-Vivo Gene Editing",
+    "explanation": "CRISPR-based therapies delivered directly into a living patient to fix disease-causing mutations at their source. No need to remove cells, edit them in a lab, and return them.",
+    "industry": "Healthcare",
+    "whyItMatters": "It could cure sickle cell disease, muscular dystrophy, and thousands of genetic conditions with a single injection, transforming medicine from treatment to permanent correction.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 8,
+    "slug": "liquid-biopsy-diagnostics",
+    "techName": "Liquid Biopsy Diagnostics",
+    "explanation": "Blood tests that detect fragments of tumor DNA, proteins, and exosomes circulating in the bloodstream. A simple draw can screen for dozens of cancer types years before symptoms appear.",
+    "industry": "Healthcare",
+    "whyItMatters": "Catching cancer at stage 1 instead of stage 4 raises survival rates from under 20% to over 90% for most cancers, potentially saving millions of lives annually.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 9,
+    "slug": "neural-controlled-prosthetics",
+    "techName": "Neural-Controlled Prosthetics",
+    "explanation": "Artificial limbs connected directly to the nervous system via implanted electrodes. Users control them with thought alone and receive sensory feedback including pressure, temperature, and texture.",
+    "industry": "Healthcare",
+    "whyItMatters": "They restore near-natural movement and sensation to amputees, closing the gap between biological and artificial limbs and dramatically improving quality of life for millions.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 10,
+    "slug": "senolytics-longevity-drugs",
+    "techName": "Senolytics and Longevity Drugs",
+    "explanation": "Pharmaceuticals that selectively destroy senescent (zombie) cells that accumulate with age and drive inflammation, tissue damage, and age-related diseases like Alzheimer's and arthritis.",
+    "industry": "Healthcare",
+    "whyItMatters": "By targeting the root biology of aging rather than individual diseases, senolytics could extend healthy lifespan by a decade or more and compress the period of age-related decline.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 11,
+    "slug": "vehicle-to-grid-ev-fleets",
+    "techName": "Vehicle-to-Grid EV Fleets",
+    "explanation": "Electric vehicles with bidirectional charging that can feed stored energy back into the power grid during peak demand. Fleets of millions of parked EVs act as a massive distributed battery.",
+    "industry": "Transportation",
+    "whyItMatters": "The world's EV fleet could store more energy than all planned grid batteries combined, stabilizing renewable grids while earning car owners money from their parked vehicles.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 12,
+    "slug": "level-5-autonomous-vehicles",
+    "techName": "Level 5 Autonomous Vehicles",
+    "explanation": "Fully self-driving cars that require zero human intervention in any condition, using advanced AI, lidar, cameras, and redundant systems to navigate complex urban environments safely.",
+    "industry": "Transportation",
+    "whyItMatters": "Human error causes 94% of crashes. Full autonomy could eliminate over a million traffic deaths per year worldwide and reclaim billions of hours lost to driving.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 13,
+    "slug": "vacuum-tube-hyperloop",
+    "techName": "Vacuum-Tube Hyperloop",
+    "explanation": "Passenger and cargo pods traveling through near-vacuum tubes at speeds up to 700 mph using magnetic levitation. The low-pressure environment eliminates air resistance.",
+    "industry": "Transportation",
+    "whyItMatters": "It could make a 350-mile trip take 30 minutes at a fraction of airline cost, connecting cities into mega-regions and reducing short-haul aviation emissions entirely.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 14,
+    "slug": "evtol-air-taxis",
+    "techName": "eVTOL Air Taxis",
+    "explanation": "Electric vertical takeoff and landing aircraft designed for urban air mobility. They carry 2-6 passengers, fly autonomously or with a pilot, and operate from rooftop vertiports.",
+    "industry": "Transportation",
+    "whyItMatters": "They bypass ground congestion entirely, cutting a 90-minute urban commute to 10 minutes while producing zero direct emissions and far less noise than helicopters.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 15,
+    "slug": "autonomous-electric-cargo-ships",
+    "techName": "Autonomous Electric Cargo Ships",
+    "explanation": "Crewless container ships powered by batteries, hydrogen fuel cells, or wind-assisted propulsion, guided by AI navigation systems that optimize routes for efficiency and safety.",
+    "industry": "Transportation",
+    "whyItMatters": "Shipping produces 3% of global emissions. Autonomous electric vessels could eliminate that while cutting operating costs by 40% and removing crews from dangerous conditions.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 16,
+    "slug": "fault-tolerant-quantum-computers",
+    "techName": "Fault-Tolerant Quantum Computers",
+    "explanation": "Quantum processors with enough error-corrected logical qubits to solve real-world problems. They use quantum superposition and entanglement to perform calculations impossible for classical machines.",
+    "industry": "AI & Computing",
+    "whyItMatters": "They could crack drug discovery problems in hours instead of decades, optimize global supply chains, break current encryption, and simulate materials atom by atom.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 17,
+    "slug": "neuromorphic-computing-chips",
+    "techName": "Neuromorphic Computing Chips",
+    "explanation": "Processors architecturally modeled on the human brain, using artificial synapses and neurons that process information through spikes rather than binary logic, consuming 1000x less power than GPUs.",
+    "industry": "AI & Computing",
+    "whyItMatters": "They enable always-on AI in devices with tiny batteries, from smart glasses to medical implants, and could be the key to energy-efficient artificial general intelligence.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 18,
+    "slug": "artificial-general-intelligence",
+    "techName": "Artificial General Intelligence",
+    "explanation": "AI systems with human-level reasoning that can learn any intellectual task, transfer knowledge between domains, and solve novel problems without task-specific training.",
+    "industry": "AI & Computing",
+    "whyItMatters": "AGI could accelerate scientific discovery by orders of magnitude, from curing diseases to solving climate change, representing the most transformative technology in human history.",
+    "developmentStage": "Early Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 19,
+    "slug": "ambient-edge-ai",
+    "techName": "Ambient Edge AI",
+    "explanation": "Tiny AI processors embedded in everyday objects that process data locally without cloud connectivity. They enable real-time intelligence in sensors, appliances, and infrastructure.",
+    "industry": "AI & Computing",
+    "whyItMatters": "Processing AI at the edge eliminates latency, protects privacy, works offline, and scales to trillions of devices, making the built environment genuinely intelligent.",
+    "developmentStage": "Growth Phase",
+    "type": "future-tech"
+  },
+  {
+    "id": 20,
+    "slug": "humanoid-general-purpose-robots",
+    "techName": "Humanoid General-Purpose Robots",
+    "explanation": "Bipedal robots with dexterous hands and AI brains capable of performing arbitrary physical tasks in human environments, from warehouse work to elder care to construction.",
+    "industry": "AI & Computing",
+    "whyItMatters": "They could fill labor shortages in aging societies, take over dangerous jobs, and extend human physical capability, fundamentally changing the economics of manual work.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 21,
+    "slug": "lunar-permanent-habitats",
+    "techName": "Lunar Permanent Habitats",
+    "explanation": "Self-sustaining bases on the Moon built from regolith using 3D printing, powered by solar arrays, and shielded from radiation. They support crews of 10-50 for indefinite stays.",
+    "industry": "Space",
+    "whyItMatters": "A Moon base serves as a proving ground for Mars colonization, a fuel depot using lunar water ice, and a platform for deep-space telescopes free from atmospheric interference.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 22,
+    "slug": "nuclear-thermal-propulsion",
+    "techName": "Nuclear Thermal Propulsion",
+    "explanation": "Rocket engines that heat propellant using a nuclear fission reactor, achieving twice the efficiency of chemical rockets. They cut Mars transit time from 9 months to 3-4 months.",
+    "industry": "Space",
+    "whyItMatters": "Faster transit means less radiation exposure for crews, smaller supply requirements, and wider launch windows, making crewed Mars missions practical rather than theoretical.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 23,
+    "slug": "asteroid-mining-platforms",
+    "techName": "Asteroid Mining Platforms",
+    "explanation": "Robotic spacecraft that land on near-Earth asteroids to extract platinum-group metals, rare earth elements, and water. A single metallic asteroid can contain more platinum than ever mined on Earth.",
+    "industry": "Space",
+    "whyItMatters": "Access to space-based resources could eliminate mining-related environmental destruction on Earth, break supply bottlenecks for electronics, and fund space infrastructure through trillion-dollar mineral returns.",
+    "developmentStage": "Early Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 24,
+    "slug": "mega-constellation-global-internet",
+    "techName": "Mega-Constellation Global Internet",
+    "explanation": "Networks of thousands of small satellites in low Earth orbit providing high-speed, low-latency broadband to every point on Earth's surface, including oceans, mountains, and polar regions.",
+    "industry": "Space",
+    "whyItMatters": "Three billion people still lack internet access. Satellite mega-constellations close the digital divide entirely, enabling education, telemedicine, and economic participation for everyone on the planet.",
+    "developmentStage": "Growth Phase",
+    "type": "future-tech"
+  },
+  {
+    "id": 25,
+    "slug": "space-based-gravitational-wave-observatory",
+    "techName": "Space-Based Gravitational Wave Observatory",
+    "explanation": "Constellations of spacecraft millions of miles apart using laser interferometry to detect gravitational waves at frequencies impossible to observe from Earth, revealing merging supermassive black holes and the Big Bang's echoes.",
+    "industry": "Space",
+    "whyItMatters": "It opens an entirely new window on the universe, allowing us to observe events invisible to light-based telescopes and test the fundamental fabric of spacetime itself.",
+    "developmentStage": "Early Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 26,
+    "slug": "mass-produced-graphene",
+    "techName": "Mass-Produced Graphene",
+    "explanation": "Industrial-scale production of single-layer carbon sheets that are 200 times stronger than steel, conduct electricity better than copper, and are nearly transparent. New roll-to-roll processes make it affordable.",
+    "industry": "Materials",
+    "whyItMatters": "Cheap graphene could revolutionize electronics with flexible displays, create ultra-light aircraft, enable instant water desalination membranes, and produce unbreakable yet featherweight composites.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 27,
+    "slug": "programmable-metamaterials",
+    "techName": "Programmable Metamaterials",
+    "explanation": "Engineered materials with structures smaller than the wavelength of light, giving them properties not found in nature. They can bend light, sound, or heat in arbitrary directions and be reconfigured on demand.",
+    "industry": "Materials",
+    "whyItMatters": "Applications include invisibility cloaking, perfect acoustic insulation, ultra-efficient antennas, flat lenses that replace bulky optics, and surfaces that redirect earthquake vibrations around buildings.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 28,
+    "slug": "self-healing-polymers",
+    "techName": "Self-Healing Polymers",
+    "explanation": "Materials embedded with microcapsules or dynamic chemical bonds that automatically repair cracks and damage without human intervention, extending the lifespan of products by orders of magnitude.",
+    "industry": "Materials",
+    "whyItMatters": "Self-healing coatings on bridges, pipelines, and aircraft could prevent catastrophic failures, reduce maintenance costs by billions, and slash the environmental impact of material replacement.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 29,
+    "slug": "dna-data-storage",
+    "techName": "DNA Data Storage",
+    "explanation": "Encoding digital information into synthetic DNA molecules. A single gram of DNA can theoretically store 215 petabytes and remain readable for thousands of years at room temperature.",
+    "industry": "Materials",
+    "whyItMatters": "Global data creation will exceed storage capacity by 2030. DNA storage could archive all of humanity's data in a space the size of a shoebox, lasting millennia.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 30,
+    "slug": "room-temperature-superconductors",
+    "techName": "Room-Temperature Superconductors",
+    "explanation": "Materials that conduct electricity with zero resistance at everyday temperatures and pressures, eliminating the need for extreme cooling. Recent research explores hydrogen-rich compounds and novel crystal structures.",
+    "industry": "Materials",
+    "whyItMatters": "They would make lossless power transmission, levitating trains, and MRI machines without cryogenics possible, saving the 10-15% of electricity currently lost in transmission worldwide.",
+    "developmentStage": "Early Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 31,
+    "slug": "ai-optimized-vertical-farms",
+    "techName": "AI-Optimized Vertical Farms",
+    "explanation": "Indoor farms stacking crops in climate-controlled layers, using AI to optimize light spectra, nutrients, and airflow. They use 95% less water and zero pesticides while producing year-round harvests.",
+    "industry": "Agriculture",
+    "whyItMatters": "They decouple food production from weather, location, and season, enabling fresh produce in deserts, cities, and disaster zones while freeing farmland for rewilding.",
+    "developmentStage": "Growth Phase",
+    "type": "future-tech"
+  },
+  {
+    "id": 32,
+    "slug": "precision-fermentation-proteins",
+    "techName": "Precision Fermentation Proteins",
+    "explanation": "Microorganisms engineered to produce animal-identical proteins, fats, and dairy without animals. Fermentation tanks convert sugar into real whey, collagen, casein, and egg whites at industrial scale.",
+    "industry": "Agriculture",
+    "whyItMatters": "Animal agriculture uses 77% of farmland but provides only 18% of calories. Precision fermentation could match the taste of animal products while using 99% less land and water.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 33,
+    "slug": "crispr-crop-engineering",
+    "techName": "CRISPR Crop Engineering",
+    "explanation": "Gene editing applied to food crops to create varieties resistant to drought, disease, and pests without introducing foreign DNA. Edits are precise, fast, and increasingly accepted by regulators.",
+    "industry": "Agriculture",
+    "whyItMatters": "Climate change threatens 25% of global crop yields by 2050. Gene-edited crops that thrive in heat and drought could prevent hundreds of millions from facing food insecurity.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 34,
+    "slug": "autonomous-agricultural-drones",
+    "techName": "Autonomous Agricultural Drones",
+    "explanation": "Swarms of AI-powered drones that monitor crop health with multispectral cameras, apply targeted micro-doses of fertilizer and pesticide, and pollinate plants in areas where bee populations have collapsed.",
+    "industry": "Agriculture",
+    "whyItMatters": "They reduce pesticide use by 90% through precision application, catch disease outbreaks weeks earlier than human inspection, and help small farmers access the same technology as industrial operations.",
+    "developmentStage": "Growth Phase",
+    "type": "future-tech"
+  },
+  {
+    "id": 35,
+    "slug": "biochar-soil-restoration",
+    "techName": "Biochar Soil Restoration",
+    "explanation": "Charcoal produced from agricultural waste through pyrolysis, then added to degraded soil. It locks carbon underground for centuries while dramatically improving water retention, nutrient availability, and microbial health.",
+    "industry": "Agriculture",
+    "whyItMatters": "A third of the world's soil is degraded. Biochar restores fertility while sequestering carbon, turning agricultural waste from a pollution source into a climate solution.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 36,
+    "slug": "6g-terahertz-networks",
+    "techName": "6G Terahertz Networks",
+    "explanation": "Sixth-generation wireless networks operating in terahertz frequencies, delivering speeds of 1 terabit per second with sub-millisecond latency. They enable holographic communication, digital twins, and ubiquitous sensing.",
+    "industry": "Communication",
+    "whyItMatters": "6G speeds are 100x faster than 5G, enabling real-time holographic telepresence, centimeter-accurate positioning everywhere, and the bandwidth needed for a fully immersive metaverse.",
+    "developmentStage": "Early Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 37,
+    "slug": "direct-to-device-satellite-internet",
+    "techName": "Direct-to-Device Satellite Internet",
+    "explanation": "Satellite networks that connect directly to standard smartphones without special antennas. Any phone becomes a satellite phone, maintaining connectivity anywhere on Earth including mid-ocean and remote wilderness.",
+    "industry": "Communication",
+    "whyItMatters": "It eliminates dead zones entirely. Emergency services, hikers, sailors, and the 600 million people in areas without cell towers get reliable connectivity from their existing devices.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 38,
+    "slug": "volumetric-holographic-displays",
+    "techName": "Volumetric Holographic Displays",
+    "explanation": "Screens that project true 3D images viewable from any angle without glasses. They use light field technology or femtosecond lasers to create floating images with real depth and parallax.",
+    "industry": "Communication",
+    "whyItMatters": "Holographic displays transform remote collaboration by making it feel like everyone is in the same room, revolutionize medical imaging, and make 2D screens feel as dated as fax machines.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 39,
+    "slug": "high-bandwidth-brain-computer-interfaces",
+    "techName": "High-Bandwidth Brain-Computer Interfaces",
+    "explanation": "Implanted or non-invasive devices that read and write thousands of neural signals simultaneously, enabling direct thought-to-text communication, memory augmentation, and control of digital devices with intention alone.",
+    "industry": "Communication",
+    "whyItMatters": "BCIs could restore speech to paralyzed patients, allow instant knowledge transfer, and eventually enable thought-speed communication that makes typing and speaking seem primitive.",
+    "developmentStage": "Advanced Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 40,
+    "slug": "self-organizing-mesh-networks",
+    "techName": "Self-Organizing Mesh Networks",
+    "explanation": "Decentralized communication networks where every device acts as a relay node. They self-heal around failures, scale automatically, and operate without central infrastructure or internet backbone.",
+    "industry": "Communication",
+    "whyItMatters": "They provide resilient communication during disasters, enable censorship-resistant internet in authoritarian regions, and build connectivity in areas where traditional infrastructure is too expensive to deploy.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 41,
+    "slug": "multi-material-3d-printing",
+    "techName": "Multi-Material 3D Printing",
+    "explanation": "Additive manufacturing systems that simultaneously print with metals, ceramics, polymers, and electronics in a single build. They produce finished products with embedded circuits, sensors, and moving parts.",
+    "industry": "Manufacturing",
+    "whyItMatters": "It collapses assembly lines into a single machine, enables on-demand spare parts anywhere on Earth, and allows designs impossible with traditional manufacturing like internal cooling channels.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 42,
+    "slug": "lights-out-autonomous-factories",
+    "techName": "Lights-Out Autonomous Factories",
+    "explanation": "Fully automated manufacturing facilities that operate 24/7 without human presence. AI manages production planning, robotic arms handle assembly, and computer vision performs quality control at superhuman accuracy.",
+    "industry": "Manufacturing",
+    "whyItMatters": "They could reshore manufacturing to high-wage countries by removing labor cost advantages, shorten supply chains, and produce goods with near-zero defect rates.",
+    "developmentStage": "Growth Phase",
+    "type": "future-tech"
+  },
+  {
+    "id": 43,
+    "slug": "industrial-digital-twins",
+    "techName": "Industrial Digital Twins",
+    "explanation": "Real-time virtual replicas of physical factories, products, and supply chains. Sensors feed live data into the simulation, allowing engineers to test changes, predict failures, and optimize operations before touching anything physical.",
+    "industry": "Manufacturing",
+    "whyItMatters": "Digital twins reduce product development cycles by 50%, predict equipment failures weeks in advance, and let companies simulate the impact of disruptions before they happen.",
+    "developmentStage": "Growth Phase",
+    "type": "future-tech"
+  },
+  {
+    "id": 44,
+    "slug": "distributed-microfactories",
+    "techName": "Distributed Microfactories",
+    "explanation": "Small, modular, and rapidly deployable manufacturing units that can be placed anywhere. They combine 3D printing, CNC machining, and robotic assembly to produce complex goods locally.",
+    "industry": "Manufacturing",
+    "whyItMatters": "They eliminate the need for massive centralized factories, reduce shipping emissions, enable rapid disaster response manufacturing, and let communities produce what they need locally.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 45,
+    "slug": "molecular-recycling",
+    "techName": "Molecular Recycling",
+    "explanation": "Chemical processes that break plastics and mixed waste down to their molecular building blocks, then reassemble them into virgin-quality materials. Unlike mechanical recycling, it handles contaminated and mixed plastics.",
+    "industry": "Manufacturing",
+    "whyItMatters": "Only 9% of plastic is recycled today. Molecular recycling could make all plastic infinitely recyclable, ending plastic pollution and creating a truly circular materials economy.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 46,
+    "slug": "direct-air-carbon-capture",
+    "techName": "Direct Air Carbon Capture",
+    "explanation": "Industrial facilities that pull CO2 directly from ambient air using chemical sorbents or solvents. The captured carbon is stored underground permanently or converted into fuels, concrete, and materials.",
+    "industry": "Climate",
+    "whyItMatters": "Even with zero emissions today, existing atmospheric CO2 guarantees continued warming. DAC is essential for removing legacy emissions and reaching net-negative to reverse climate change.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 47,
+    "slug": "marine-cloud-brightening",
+    "techName": "Marine Cloud Brightening",
+    "explanation": "Ships that spray fine sea salt particles into low-lying clouds over the ocean, increasing their reflectivity. The brighter clouds bounce more sunlight back to space, cooling the regions below.",
+    "industry": "Climate",
+    "whyItMatters": "It could buy critical time by cooling vulnerable areas like coral reefs and Arctic ice while the world decarbonizes, potentially preventing irreversible tipping points from being crossed.",
+    "developmentStage": "Early Research",
+    "type": "future-tech"
+  },
+  {
+    "id": 48,
+    "slug": "autonomous-ocean-cleanup-systems",
+    "techName": "Autonomous Ocean Cleanup Systems",
+    "explanation": "AI-guided vessels and barriers that collect plastic debris from ocean garbage patches and river mouths. They use current patterns and satellite data to optimize collection routes and intercept waste before it reaches open ocean.",
+    "industry": "Climate",
+    "whyItMatters": "14 million tons of plastic enter the ocean annually. Autonomous cleanup at scale could remove the existing garbage patches while river interceptors stop the flow at its source.",
+    "developmentStage": "Prototype",
+    "type": "future-tech"
+  },
+  {
+    "id": 49,
+    "slug": "solar-powered-desalination",
+    "techName": "Solar-Powered Desalination",
+    "explanation": "Next-generation desalination plants powered entirely by solar energy, using advanced membranes and energy recovery systems that cut costs to a fraction of conventional reverse osmosis.",
+    "industry": "Climate",
+    "whyItMatters": "Two billion people face water scarcity. Cheap solar desalination turns the ocean into a limitless freshwater source for drinking, agriculture, and industry in arid regions worldwide.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech"
+  },
+  {
+    "id": 50,
+    "slug": "drone-swarm-reforestation",
+    "techName": "Drone Swarm Reforestation",
+    "explanation": "Fleets of drones that map deforested terrain, analyze soil conditions, and fire seed pods containing native species at a rate of 100,000 trees per day per drone swarm, with AI-optimized species selection.",
+    "industry": "Climate",
+    "whyItMatters": "We need to plant a trillion trees to offset emissions, but manual planting cannot scale. Drone swarms could reforest degraded land 150x faster and 80% cheaper than traditional methods.",
+    "developmentStage": "Growth Phase",
+    "type": "future-tech"
+  }
+]
