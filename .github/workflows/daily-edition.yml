@@ -2,8 +2,8 @@ name: Daily Surfaced Edition
 
 on:
   schedule:
-    # 6am ET = 10:00 UTC (EDT) or 11:00 UTC (EST). Using 10:00 for summer.
-    - cron: '0 10 * * *'
+    # 7am ET = 11:00 UTC (EDT) or 12:00 UTC (EST). Using 11:00 for summer.
+    - cron: '0 11 * * *'
   workflow_dispatch: # Manual trigger button in GitHub Actions UI
 
 permissions:
