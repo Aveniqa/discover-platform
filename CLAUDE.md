@@ -25,3 +25,16 @@ Next.js App Router, static export to `out/`. Deployed to Cloudflare Pages (surfa
 - imageIdea must be concrete ("espresso machine coffee") not abstract ("illustration of productivity")
 - Do NOT modify components, CSS, templates, or build config
 - Do NOT push if build fails
+
+## Automation
+
+Daily updates run via GitHub Actions (.github/workflows/daily-edition.yml):
+1. `daily-rotate.js --run` removes 3 oldest items per category
+2. `generate-daily-content.js` calls the Anthropic API to create 15 fresh items
+3. `fetch-images.ts` gets Pexels photos for new items
+4. `npm run build` rebuilds the static site
+5. Push to main triggers Cloudflare Pages auto-deploy
+
+To trigger manually: GitHub repo → Actions tab → "Daily Surfaced Edition" → Run workflow
+
+Required GitHub Secrets: ANTHROPIC_API_KEY, PEXELS_API_KEY, UNSPLASH_ACCESS_KEY
