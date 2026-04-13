@@ -1,0 +1,74 @@
+name: Bulk Content Generation
+
+on:
+  workflow_dispatch:
+    inputs:
+      items_per_category:
+        description: 'Number of new items to add per category (in batches of 3)'
+        required: true
+        default: '60'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  bulk-generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Bulk generate content (no rotation)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AMAZON_AFFILIATE_TAG: ${{ secrets.AMAZON_AFFILIATE_TAG }}
+        run: node scripts/bulk-generate-content.js ${{ inputs.items_per_category }}
+
+      - name: Validate JSON files
+        run: node scripts/validate-data.js
+
+      - name: Assign editorial badges
+        run: node scripts/assign-badges.js
+
+      - name: Generate today's picks
+        run: node scripts/generate-todays-picks.js
+
+      - name: Populate collections
+        run: node scripts/populate-collections.js
+
+      - name: Generate website screenshots for hidden gems
+        run: node scripts/fetch-screenshots.js
+
+      - name: Fetch images for new items
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: npx tsx scripts/fetch-images.ts
+        continue-on-error: true
+
+      - name: Build site
+        run: npm run build
+
+      - name: Commit and push
+        run: |
+          git config user.name "Surfaced Bot"
+          git config user.email "bot@surfaced.daily"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "📦 Bulk content: +${{ inputs.items_per_category }} items per category"
+          git push
