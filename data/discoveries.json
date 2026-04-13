@@ -305,8 +305,7 @@
     "whyItIsInteresting": "The real value of the Amazon is not oxygen production but carbon storage, biodiversity, and rainfall generation. Correcting this myth shifts the conservation argument to what actually matters — the Amazon holds 150 billion tonnes of carbon that would be devastating if released.",
     "imageIdea": "A vast aerial view of the Amazon canopy with overlaid infographics showing oxygen and carbon cycle arrows",
     "sourceLink": "https://www.nationalgeographic.com",
-    "type": "discovery",
-    "badge": "editors-pick"
+    "type": "discovery"
   },
   {
     "id": 35,
@@ -372,8 +371,7 @@
     "whyItIsInteresting": "It is humanity's farthest-reaching object, running on less power than a refrigerator light bulb. The fact that 1970s technology is still functioning in interstellar space is a testament to engineering. Its Golden Record carries sounds and images of Earth for any civilization that might find it.",
     "imageIdea": "The Voyager spacecraft as a tiny golden speck against the vast darkness of interstellar space with a faint signal beam stretching back toward a tiny distant Sun",
     "sourceLink": "https://voyager.jpl.nasa.gov",
-    "type": "discovery",
-    "badge": "editors-pick"
+    "type": "discovery"
   },
   {
     "id": 41,
@@ -384,8 +382,7 @@
     "whyItIsInteresting": "Next time you hold a handful of sand at the beach, consider that the number of stars out there dwarfs every grain on every beach, desert, and riverbed on the entire planet combined. The universe is incomprehensibly vast, and we have only explored a vanishingly small fraction.",
     "imageIdea": "A hand releasing grains of sand that transform into glowing stars as they drift upward into a deep space background",
     "sourceLink": "https://www.esa.int",
-    "type": "discovery",
-    "badge": "editors-pick"
+    "type": "discovery"
   },
   {
     "id": 42,
@@ -451,8 +448,7 @@
     "whyItIsInteresting": "Pop culture treats them as belonging to completely different eras, but they were contemporaries. It was theoretically possible for a samurai to board a steamship to San Francisco and meet a cowboy. Akira Kurosawa understood this — his samurai films directly inspired Western movies.",
     "imageIdea": "A samurai and a cowboy standing back to back in a dusty frontier town, both ready to draw, with a Pacific Ocean dividing the background",
     "sourceLink": "https://www.smithsonianmag.com",
-    "type": "discovery",
-    "badge": "editors-pick"
+    "type": "discovery"
   },
   {
     "id": 48,
@@ -595,8 +591,7 @@
     "whyItIsInteresting": "Despite the existence of satellites, the physical internet is overwhelmingly submarine. Sharks occasionally bite the cables, anchors damage them, and their routes are closely guarded national security secrets. The entire modern digital economy hangs on glass threads at the bottom of the ocean.",
     "imageIdea": "A deep ocean floor view showing a thin fiber optic cable stretching into the dark abyss with faint data light pulses traveling through it",
     "sourceLink": "https://www.submarinecablemap.com",
-    "type": "discovery",
-    "badge": "editors-pick"
+    "type": "discovery"
   },
   {
     "id": 61,
@@ -669,5 +664,151 @@
     "sourceLink": "https://www.theverge.com/2024/1/24/24048683/ai-ancient-language-translation-elamite-inscriptions",
     "type": "discovery",
     "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 67,
+    "slug": "the-dancing-plague-of-1518-a-mysterious-outbreak-of-uncontrollable-dancing",
+    "title": "The Dancing Plague of 1518: A Mysterious Outbreak of Uncontrollable Dancing",
+    "shortDescription": "In Strasbourg, a woman began dancing uncontrollably in the street, and within a month, hundreds joined her, dancing for days without rest. This strange phenomenon resulted in several deaths from exhaustion, heart attack, or stroke. Historians are still debating the exact causes, ranging from mass psychogenic illness to ergot poisoning.",
+    "category": "History",
+    "whyItIsInteresting": "This event highlights the complex interplay between psychological, social, and environmental factors in historical health crises. It's a haunting reminder of how collective hysteria or unexplained illnesses could grip entire communities in the past.",
+    "imageIdea": "A medieval town square filled with people dancing frantically and uncontrollably, some collapsing from exhaustion, with onlookers looking bewildered or terrified.",
+    "sourceLink": "https://en.wikipedia.org/wiki/Dancing_Plague_of_1518",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 68,
+    "slug": "tardigrades-microscopic-water-bears-that-can-survive-in-space",
+    "title": "Tardigrades: Microscopic \"Water Bears\" That Can Survive in Space",
+    "shortDescription": "Tardigrades, also known as water bears or moss piglets, are microscopic invertebrates renowned for their extreme resilience. These tiny creatures can survive conditions that would be lethal to almost any other form of life, including extreme radiation, vacuum of space, intense pressure, and temperatures from near absolute zero to over 150°C. They achieve this by entering a state of cryptobiosis, essentially pausing their metabolism.",
+    "category": "Nature",
+    "whyItIsInteresting": "Their ability to survive in such extreme environments, including the vacuum of space, challenges our understanding of life's limits. They offer insights into potential astrobiological survival mechanisms and could inspire new forms of resilient technology.",
+    "imageIdea": "A close-up, magnified image of a tardigrade, showing its distinctive segmented body and eight legs with claws, perhaps against a backdrop suggesting extreme conditions or a cosmic environment.",
+    "sourceLink": "https://en.wikipedia.org/wiki/Tardigrade",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 69,
+    "slug": "the-voyager-golden-record-humanitys-message-to-the-cosmos",
+    "title": "The Voyager Golden Record: Humanity's Message to the Cosmos",
+    "shortDescription": "Launched with the Voyager 1 and 2 spacecraft in 1977, the Golden Records are phonograph records containing sounds and images selected to portray the diversity of life and culture on Earth. They are intended as a kind of time capsule and an interstellar message to any intelligent extraterrestrial life form that may encounter them. The contents include greetings in 55 languages, sounds of nature, music from different cultures, and 116 images.",
+    "category": "Space",
+    "whyItIsInteresting": "This ambitious project represents humanity's collective hope and curiosity, a profound attempt to communicate across the vastness of space and time. It encapsulates a snapshot of Earth's existence, a testament to human endeavor and our place in the universe.",
+    "imageIdea": "A stylized depiction of the gold-plated copper record, perhaps floating in space with stars in the background, or showing some of the intricate engravings on its surface.",
+    "sourceLink": "https://en.wikipedia.org/wiki/Voyager_Golden_Record",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 70,
+    "slug": "more-bacterial-cells-than-human-cells",
+    "title": "Your Body Hosts More Bacterial Cells Than Human Cells",
+    "shortDescription": "Recent research suggests that the number of bacterial cells living within and on your body vastly outnumbers your own human cells, though the ratio is closer than previously thought. These microscopic residents, collectively known as the microbiome, play crucial roles in digestion, immunity, and even mental health.",
+    "category": "Science",
+    "whyItIsInteresting": "This challenges the traditional view of the human body as solely a human entity, highlighting our symbiotic relationship with a vast ecosystem of microorganisms. It underscores the profound impact these tiny inhabitants have on our overall health and well-being.",
+    "imageIdea": "A stylized illustration showing a human figure filled with tiny glowing microbes, or a microscopic view of diverse bacteria.",
+    "sourceLink": "https://www.science.org/content/article/are-we-10-percent-human-new-recount-says-no",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 71,
+    "slug": "year-without-a-summer",
+    "title": "The Year Without a Summer Caused Global Famine and Extreme Weather",
+    "shortDescription": "In 1816, much of the Northern Hemisphere experienced abnormally cold temperatures, crop failures, and widespread famine. This dramatic climatic anomaly, often dubbed 'The Year Without a Summer,' was primarily caused by the massive eruption of Mount Tambora in Indonesia the previous year, which spewed enormous amounts of ash and aerosols into the atmosphere, blocking sunlight.",
+    "category": "History",
+    "whyItIsInteresting": "This event demonstrates the profound and far-reaching impact a single natural disaster can have on global climate, agriculture, and human society. It highlights the interconnectedness of Earth's systems and offers a historical precedent for understanding potential consequences of similar large-scale environmental disruptions.",
+    "imageIdea": "A historical painting depicting snow in summer, people bundled in heavy clothes in unusual seasons, or a map showing global temperature anomalies for 1816.",
+    "sourceLink": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 72,
+    "slug": "diamond-rain-on-exoplanets",
+    "title": "Scientists Believe Diamonds Rain from the Skies on Certain Exoplanets",
+    "shortDescription": "On gas giant planets like Neptune and Uranus, and potentially some exoplanets with similar compositions, extreme pressures and temperatures deep within their atmospheres are thought to transform hydrocarbons into solid diamonds. These diamonds then 'rain' down through the planet's interior.",
+    "category": "Space",
+    "whyItIsInteresting": "This discovery challenges our terrestrial understanding of weather and geology, revealing the incredible and bizarre conditions that exist on other worlds. It opens up fascinating possibilities for planetary composition and the diverse forms matter can take under extreme cosmic conditions.",
+    "imageIdea": "An artistic rendering of a gas giant planet with lightning and sparkling diamonds falling through its atmosphere.",
+    "sourceLink": "https://www.nasa.gov/science/planetary-science/diamonds-on-other-planets/",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 73,
+    "slug": "ketchup-as-medicine-19th-century",
+    "title": "Ketchup's Surprising Past: From Medicinal Tonic to Condiment Staple",
+    "shortDescription": "Before becoming a beloved condiment, ketchup had a very different role. In the 19th century, it was marketed as a medicinal remedy for various ailments, complete with recipes for 'tomato pills.' This transformation highlights how perceptions of food and medicine have evolved dramatically over time.",
+    "category": "History",
+    "whyItIsInteresting": "It's fascinating to see how common items like ketchup have such a rich and unexpected history, demonstrating shifts in both culinary practices and medical understanding. The idea of taking ketchup as a cure for indigestion seems bizarre to us today, offering a unique glimpse into past health beliefs.",
+    "imageIdea": "A vintage 19th-century advertisement for 'tomato pills' or 'Dr. Miles' Compound Extract of Tomato' with an old-fashioned ketchup bottle.",
+    "sourceLink": "https://en.wikipedia.org/wiki/Ketchup#History",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 74,
+    "slug": "male-seahorses-give-birth",
+    "title": "The Unique Reproductive Strategy of Seahorses: Males Give Birth to Young",
+    "shortDescription": "In a rare example in the animal kingdom, it is the male seahorse that becomes pregnant and gives birth to live young. The female deposits her eggs into a specialized pouch on the male's abdomen, where he fertilizes and incubates them for several weeks. This remarkable role reversal highlights the diverse and often surprising reproductive strategies found in nature.",
+    "category": "Nature",
+    "whyItIsInteresting": "This biological twist challenges typical mammalian reproductive norms, making seahorses a captivating subject for evolutionary study. It prompts questions about parental investment and sexual selection, showcasing the incredible adaptability and variety of life's strategies for perpetuation.",
+    "imageIdea": "A male seahorse with its swollen brood pouch, possibly with tiny seahorse fry emerging or clinging to it.",
+    "sourceLink": "https://en.wikipedia.org/wiki/Seahorse#Reproduction",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 75,
+    "slug": "exoplanet-wasp-12b-devoured-diamond",
+    "title": "WASP-12b: The Exoplanet Being Devoured by Its Star, Potentially Diamond-Rich",
+    "shortDescription": "WASP-12b is an ultra-hot Jupiter exoplanet so close to its star that it's being stretched into an egg shape and slowly devoured. Its extreme carbon-rich composition and immense pressure suggest that a significant portion of its interior could be exotic carbon forms, potentially including diamond. This scorching hot gas giant offers a glimpse into extreme planetary conditions far beyond our solar system.",
+    "category": "Space",
+    "whyItIsInteresting": "The idea of a planet being literally consumed by its host star, coupled with the possibility of its interior being a giant diamond, is incredibly dramatic and expands our understanding of planetary evolution. It challenges our assumptions about what planets can be made of and how they interact with their host stars under extreme conditions.",
+    "imageIdea": "An artist's impression of WASP-12b, depicted as an egg-shaped, glowing planet with material streaming off it towards its host star.",
+    "sourceLink": "https://www.nasa.gov/science-research/solar-system/wasp-12b-eats-light/",
+    "type": "discovery",
+    "dateAdded": "2026-04-13",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 76,
+    "slug": "roman-concrete-enduring-strength",
+    "title": "Ancient Roman Concrete Endures Millennia, Outperforming Modern Mixes",
+    "shortDescription": "Roman concrete, used in structures like the Pantheon and marine piers, has remarkable durability, often lasting thousands of years. Its unique mix, including volcanic ash, creates a material that actually strengthens over time, resisting decay better than many modern equivalents.",
+    "category": "Technology",
+    "whyItIsInteresting": "This discovery challenges our assumptions about ancient engineering, revealing that Romans possessed a sophisticated understanding of materials science. Their innovative use of volcanic ash created self-healing properties, offering valuable lessons for developing more sustainable and long-lasting infrastructure today.",
+    "imageIdea": "A split image showing a cross-section of ancient Roman concrete with visible aggregate next to a modern concrete crumbling, or the Pantheon dome contrasted with a contemporary failing structure.",
+    "sourceLink": "https://en.wikipedia.org/wiki/Roman_concrete",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 77,
+    "slug": "human-bioluminescence-invisible-glow",
+    "title": "Your Body Emits a Faint, Continuous Light That's Invisible to Our Eyes",
+    "shortDescription": "Despite appearing dark, the human body constantly emits a faint amount of visible light, a phenomenon known as biophoton emission. This glow is thousands of times weaker than what our eyes can detect, but advanced sensitive cameras have captured it, often peaking in the late afternoon.",
+    "category": "Science",
+    "whyItIsInteresting": "This unseen glow isn't just a quirky fact; it's believed to be linked to metabolic processes and cellular energy. Scientists are studying how these biophotons could potentially serve as non-invasive indicators of health, disease, or even brain activity, opening new avenues for medical diagnosis and research.",
+    "imageIdea": "A stylized thermal image of a human body, but instead of heat, it shows faint light emanating from various parts, especially the head and chest.",
+    "sourceLink": "https://en.wikipedia.org/wiki/Biophoton",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 78,
+    "slug": "anechoic-chamber-true-silence",
+    "title": "In an Anechoic Chamber, Silence Becomes a Disturbing Experience",
+    "shortDescription": "Anechoic chambers are rooms designed to completely absorb sound, creating an environment of near-perfect silence. Far from peaceful, spending time in one can be disorienting and even disturbing, as the absence of external noise makes you acutely aware of your own internal bodily sounds.",
+    "category": "Psychology",
+    "whyItIsInteresting": "This unique environment reveals how much we rely on ambient sound to orient ourselves and filter out internal noise. People in these chambers often hear their own heartbeat, blood flowing, or even the ringing in their ears (tinnitus), highlighting the profound impact of our auditory environment on our perception and well-being.",
+    "imageIdea": "A person sitting alone in a heavily padded, dark anechoic chamber, perhaps with a subtle ripple effect around them symbolizing sound absence, or an exaggerated illustration of internal body sounds.",
+    "sourceLink": "https://en.wikipedia.org/wiki/Anechoic_chamber",
+    "type": "discovery",
+    "dateAdded": "2026-04-13",
+    "badge": "editors-pick"
   }
 ]

@@ -1357,5 +1357,233 @@
       "url": "https://www.amazon.com/s?k=Anker%20PowerHouse%20256Wh%20Portable%20Power%20Station&tag=vaultvibe-20"
     },
     "directAmazonUrl": "https://www.amazon.com/s?k=Anker%20PowerHouse%20256Wh%20Portable%20Power%20Station&tag=vaultvibe-20"
+  },
+  {
+    "id": 79,
+    "slug": "aerogarden-bounty-elite",
+    "title": "AeroGarden Bounty Elite",
+    "shortDescription": "The AeroGarden Bounty Elite is an advanced indoor gardening system that allows you to grow fresh herbs, vegetables, and flowers year-round. It features an automatic LED grow light and a self-watering system, making indoor gardening simple and mess-free.",
+    "category": "Home & Kitchen",
+    "whyItIsInteresting": "This smart garden removes the guesswork from growing, providing optimal conditions for plants to thrive faster than traditional soil methods. It's perfect for urban dwellers or anyone wanting fresh produce without a traditional outdoor garden.",
+    "imageIdea": "A sleek, modern indoor garden unit with lush green herbs growing under bright LED lights on a kitchen counter.",
+    "sourceLink": "https://www.aerogarden.com/aerogarden-bounty-elite-art-701385-blk.html",
+    "estimatedPriceRange": "$250-$350",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=AeroGarden%20Bounty%20Elite&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=AeroGarden%20Bounty%20Elite&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 80,
+    "slug": "wacaco-nanopresso-portable-espresso-maker",
+    "title": "Wacaco Nanopresso Portable Espresso Maker",
+    "shortDescription": "The Wacaco Nanopresso is a compact, hand-powered espresso maker designed for on-the-go coffee lovers. It delivers a rich, crema-topped espresso shot using just ground coffee and hot water, all without electricity.",
+    "category": "Travel & Outdoors",
+    "whyItIsInteresting": "This device is a game-changer for travelers, campers, or anyone who craves real espresso away from home. Its impressive 18 bars of pressure ensures a high-quality shot, rivaling much larger machines, in a durable, pocket-sized package.",
+    "imageIdea": "A person holding the small black Nanopresso, pouring a stream of dark espresso into a tiny cup amidst a scenic outdoor backdrop like mountains or a campsite.",
+    "sourceLink": "https://www.wacaco.com/products/nanopresso",
+    "estimatedPriceRange": "$70-$90",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Wacaco%20Nanopresso%20Portable%20Espresso%20Maker&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Wacaco%20Nanopresso%20Portable%20Espresso%20Maker&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 81,
+    "slug": "furbo-360-dog-camera",
+    "title": "Furbo 360° Dog Camera",
+    "shortDescription": "The Furbo 360° Dog Camera is a smart pet monitor that allows you to see, talk to, and even toss treats to your dog remotely. It offers a 360-degree rotating view, night vision, and real-time barking alerts to keep you connected with your furry friend.",
+    "category": "Pet Care",
+    "whyItIsInteresting": "This isn't just a camera; it's an interactive pet nanny that helps ease separation anxiety for both pets and owners. The ability to dispense treats and interact from anywhere makes it incredibly engaging and reassuring.",
+    "imageIdea": "A sleek white cylindrical camera on a tabletop, with a dog playfully looking up at it as if expecting a treat. A phone screen showing the live camera feed could be overlaid.",
+    "sourceLink": "https://shopus.furbo.com/products/furbo-dog-camera-360-degree",
+    "estimatedPriceRange": "$150-$200",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Furbo%20360%C2%B0%20Dog%20Camera&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Furbo%20360%C2%B0%20Dog%20Camera&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 82,
+    "slug": "breville-smart-oven-air-fryer-pro",
+    "title": "Breville Smart Oven Air Fryer Pro",
+    "shortDescription": "This versatile countertop oven combines the functions of a toaster oven, air fryer, dehydrator, and more into one sleek appliance. It features Element IQ System for precise temperature control and a large capacity for family meals.",
+    "category": "Kitchen Appliance",
+    "whyItIsInteresting": "Its sheer versatility replaces multiple kitchen gadgets, saving counter space and simplifying cooking tasks. From perfect toast to crispy air-fried chicken and even dehydrating fruits, it handles a wide array of culinary needs with professional-level precision.",
+    "imageIdea": "A high-angle shot of the stainless steel Breville oven on a modern kitchen counter, with some air-fried vegetables or roasted chicken visible inside.",
+    "sourceLink": "https://www.breville.com/us/en/products/ovens/bov900.html",
+    "estimatedPriceRange": "$399-$499",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Breville%20Smart%20Oven%20Air%20Fryer%20Pro&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Breville%20Smart%20Oven%20Air%20Fryer%20Pro&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 83,
+    "slug": "helinox-chair-one-camp-chair",
+    "title": "Helinox Chair One Camp Chair",
+    "shortDescription": "The Helinox Chair One is an incredibly lightweight and compact portable chair, designed for comfort and durability in any outdoor setting. It features a sturdy aluminum frame and a breathable polyester seat, packing down into a small stuff sack.",
+    "category": "Outdoor Gear",
+    "whyItIsInteresting": "Its remarkable portability and ease of setup make it a game-changer for campers, hikers, and festival-goers who refuse to compromise on comfort. Despite its minimal packed size, it offers surprising stability and support, making any outdoor resting spot more enjoyable.",
+    "imageIdea": "A person setting up the Helinox Chair One by a scenic mountain lake, or someone relaxing comfortably in it at a campsite.",
+    "sourceLink": "https://helinox.com/products/chair-one",
+    "estimatedPriceRange": "$119-$149",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Helinox%20Chair%20One%20Camp%20Chair&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Helinox%20Chair%20One%20Camp%20Chair&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 84,
+    "slug": "oura-ring-gen3-horizon",
+    "title": "Oura Ring Gen3 Horizon",
+    "shortDescription": "The Oura Ring Gen3 Horizon is a stylish and discreet smart ring that tracks your sleep, activity, and overall health with advanced sensors. It provides personalized insights into readiness, sleep stages, heart rate, and body temperature.",
+    "category": "Wearable Tech",
+    "whyItIsInteresting": "Unlike bulky smartwatches, the Oura Ring offers comprehensive health monitoring in an elegant, unobtrusive form factor that can be worn 24/7. Its focus on detailed sleep analysis and recovery metrics helps users optimize their well-being without constant screen distractions.",
+    "imageIdea": "A close-up shot of the sleek Oura Ring (perhaps in black or silver) on a finger, with a subtle glow or digital overlay suggesting health data.",
+    "sourceLink": "https://ouraring.com/product/horizon-silver",
+    "estimatedPriceRange": "$299-$349",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Oura%20Ring%20Gen3%20Horizon&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Oura%20Ring%20Gen3%20Horizon&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 85,
+    "slug": "sawyer-squeeze-water-filter-system",
+    "title": "Sawyer Squeeze Water Filter System",
+    "shortDescription": "This lightweight and compact water filter allows outdoor enthusiasts to drink directly from natural water sources or filter water into a bottle or hydration pack. It removes 99.99999% of all bacteria, protozoa, and microplastics, providing safe drinking water on the go.",
+    "category": "Outdoor Gear",
+    "whyItIsInteresting": "Its impressive filtration capability, coupled with its durability and reusability for up to 100,000 gallons, makes it an essential survival tool for hiking, camping, and emergency preparedness. It offers peace of mind when access to clean water is uncertain.",
+    "imageIdea": "A close-up of someone squeezing filtered water into a bottle in a natural outdoor setting, with mountains or a forest in the background.",
+    "sourceLink": "https://sawyer.com/products/sawyer-squeeze-filter/",
+    "estimatedPriceRange": "$35-$45",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Sawyer%20Squeeze%20Water%20Filter%20System&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Sawyer%20Squeeze%20Water%20Filter%20System&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 86,
+    "slug": "click-and-grow-smart-garden-3",
+    "title": "Click & Grow Smart Garden 3",
+    "shortDescription": "This indoor smart garden uses a self-watering system and energy-efficient LED grow lights to cultivate herbs, fruits, and vegetables automatically. It comes with pre-seeded plant pods, making it easy for anyone to grow fresh produce year-round.",
+    "category": "Home & Garden",
+    "whyItIsInteresting": "It allows urban dwellers or those with limited space to enjoy fresh, pesticide-free produce without a green thumb. The automated system ensures optimal growth, turning anyone into a successful gardener with minimal effort.",
+    "imageIdea": "A sleek, modern indoor garden unit with vibrant green herbs growing under an LED light, placed on a kitchen counter.",
+    "sourceLink": "https://www.clickandgrow.com/products/the-smart-garden-3",
+    "estimatedPriceRange": "$99-$129",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Click%20%26%20Grow%20Smart%20Garden%203&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Click%20%26%20Grow%20Smart%20Garden%203&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 87,
+    "slug": "hatch-restore-2",
+    "title": "Hatch Restore 2",
+    "shortDescription": "The Hatch Restore 2 is a smart sleep assistant that combines a customizable sound machine, sunrise alarm, and dimmable reading light into one elegant device. It's designed to help users create a personalized sleep-wake routine for better rest.",
+    "category": "Smart Home & Wellness",
+    "whyItIsInteresting": "Beyond a simple alarm, it uses gentle sunrise simulations and calming sounds to wake you up naturally, reducing morning grogginess. Its guided meditations and personalized sleep programs aid in winding down, promoting a holistic approach to sleep hygiene.",
+    "imageIdea": "The Hatch Restore 2 device on a bedside table, emitting a warm, soft light, with a subtle clock display.",
+    "sourceLink": "https://www.hatch.co/restore-2",
+    "estimatedPriceRange": "$199-$229",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Hatch%20Restore%202&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Hatch%20Restore%202&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 88,
+    "slug": "govee-glide-hexa-light-panels",
+    "title": "Govee Glide Hexa Light Panels",
+    "shortDescription": "Transform your living space with customizable, modular hexagon-shaped LED light panels. Sync them to music or design unique patterns to set any mood, all controlled effortlessly via a smart app.",
+    "category": "Smart Home Decor",
+    "whyItIsInteresting": "These light panels offer a unique way to personalize room aesthetics with dynamic, ambient lighting. Their modular design allows for creative arrangement, making them a standout alternative to traditional smart lighting for an immersive visual experience.",
+    "imageIdea": "A modern living room wall featuring an artistic arrangement of glowing Govee Hexa panels in vibrant colors, complementing minimalist furniture and casting ambient light.",
+    "sourceLink": "https://us.govee.com/products/govee-glide-hexa-light-panels",
+    "estimatedPriceRange": "$159-$199",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Govee%20Glide%20Hexa%20Light%20Panels&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Govee%20Glide%20Hexa%20Light%20Panels&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 89,
+    "slug": "fellow-stagg-ekg-electric-pour-over-kettle",
+    "title": "Fellow Stagg EKG Electric Pour-Over Kettle",
+    "shortDescription": "An elegantly designed electric kettle engineered for the perfect pour-over coffee. It features precise temperature control and a built-in brew stopwatch, ensuring an optimal brewing experience.",
+    "category": "Kitchen Appliances",
+    "whyItIsInteresting": "Beyond its stunning minimalist design, this kettle offers unparalleled control for coffee enthusiasts. The ability to set exact temperatures and time your pours makes a noticeable difference in coffee quality, elevating daily brewing to an art form.",
+    "imageIdea": "A sleek, matte black Fellow Stagg EKG kettle gracefully pouring hot water into a ceramic pour-over cone on a light wooden counter, with steam gently rising from the coffee dripper.",
+    "sourceLink": "https://fellowproducts.com/products/stagg-ekg-electric-pour-over-kettle",
+    "estimatedPriceRange": "$169-$199",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Fellow%20Stagg%20EKG%20Electric%20Pour-Over%20Kettle&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Fellow%20Stagg%20EKG%20Electric%20Pour-Over%20Kettle&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 90,
+    "slug": "theragun-mini-2-0-portable-percussive-massager",
+    "title": "Theragun Mini 2.0 Portable Percussive Massager",
+    "shortDescription": "A compact and powerful percussive massager designed for on-the-go muscle relief. It delivers Theragun's signature treatment in a mini size, perfect for post-workout recovery or daily tension release.",
+    "category": "Health & Wellness",
+    "whyItIsInteresting": "This device redefines portable muscle recovery, offering professional-grade percussive therapy in a surprisingly small package. Its quiet operation and ease of use make it an ideal companion for athletes and anyone seeking quick, effective relief anywhere, anytime.",
+    "imageIdea": "A person in athletic wear using the small, ergonomic Theragun Mini 2.0 on their shoulder after a workout, showcasing its portability and comfortable grip.",
+    "sourceLink": "https://www.therabody.com/us/en-us/mini-2-0.html",
+    "estimatedPriceRange": "$179-$199",
+    "type": "product",
+    "dateAdded": "2026-04-13",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Theragun%20Mini%202.0%20Portable%20Percussive%20Massager&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Theragun%20Mini%202.0%20Portable%20Percussive%20Massager&tag=vaultvibe-20"
+    }
   }
 ]

@@ -607,5 +607,77 @@
     "websiteLink": "https://www.notion.so/",
     "type": "tool",
     "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 67,
+    "slug": "readwise",
+    "toolName": "Readwise",
+    "whatItDoes": "Readwise is a powerful tool that syncs your highlights from various sources like Kindle, Pocket, and Instapaper, centralizing your learning. It then uses a spaced repetition system to resurface your best highlights daily, helping you retain information over time.",
+    "category": "Productivity",
+    "whyItIsUseful": "It transforms passive reading into active learning by ensuring that valuable insights from your books and articles aren't forgotten. This daily review process strengthens memory and builds a robust personal knowledge base, making you a more effective learner.",
+    "imageIdea": "A clean, minimalist dashboard showing a 'Daily Review' card with highlighted text excerpts from books and articles.",
+    "websiteLink": "https://readwise.io/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 68,
+    "slug": "tally-forms",
+    "toolName": "Tally Forms",
+    "whatItDoes": "Tally is a free online form builder that operates like a document, allowing users to create any type of form, survey, or quiz easily. It supports advanced features like conditional logic, payment collection, and integrations without requiring any coding.",
+    "category": "Productivity",
+    "whyItIsUseful": "It empowers individuals and businesses to collect data efficiently and without cost, democratizing access to powerful form-building capabilities. Its intuitive drag-and-drop interface and extensive features make it a versatile tool for various data collection needs.",
+    "imageIdea": "A sleek, modern web page displaying an online form being built, with a cursor adding new blocks of content.",
+    "websiteLink": "https://tally.so/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 69,
+    "slug": "scrivener",
+    "toolName": "Scrivener",
+    "whatItDoes": "Scrivener is a comprehensive word-processing and project management tool specifically designed for writers of long-form content such as novels, screenplays, and academic papers. It provides a flexible environment to organize notes, research, and drafts in one integrated platform.",
+    "category": "Writing",
+    "whyItIsUseful": "It revolutionizes the writing process for complex projects by allowing non-linear composition and effortless organization of vast amounts of material. This integrated approach helps writers maintain focus, structure their ideas, and efficiently manage every aspect of their creative work.",
+    "imageIdea": "A split-panel view showing a manuscript draft on one side and a digital corkboard with virtual index cards on the other.",
+    "websiteLink": "https://www.literatureandlatte.com/scrivener/overview",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 70,
+    "slug": "pocket",
+    "toolName": "Pocket",
+    "whatItDoes": "Pocket allows users to save articles, videos, and web pages from the internet for later reading or viewing. It strips away clutter, providing a clean, distraction-free reading experience across devices. You can also tag items for better organization.",
+    "category": "Productivity",
+    "whyItIsUseful": "It's incredibly useful for decluttering your browser tabs and ensuring you don't miss out on interesting content due to lack of time. By saving content to Pocket, you can curate your own reading list and catch up whenever you have a moment, even offline.",
+    "imageIdea": "A stylized 'P' logo with a bookmark icon, saving an article to a tidy list on a tablet or phone screen.",
+    "websiteLink": "https://getpocket.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 71,
+    "slug": "inkscape",
+    "toolName": "Inkscape",
+    "whatItDoes": "Inkscape is a free and open-source vector graphics editor used to create or edit vector graphics such as illustrations, diagrams, line arts, charts, logos, and complex paintings. It supports the SVG (Scalable Vector Graphics) format and offers a wide range of tools similar to commercial alternatives.",
+    "category": "Design",
+    "whyItIsUseful": "It provides professional-grade vector editing capabilities without the cost, making it accessible for designers, illustrators, and hobbyists. Its versatility allows users to create scalable graphics for web, print, and digital art, ensuring high quality at any resolution.",
+    "imageIdea": "A stylized depiction of Inkscape's logo (a mountain-like shape with an ink drop) on a computer screen, surrounded by vector design elements.",
+    "websiteLink": "https://inkscape.org/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 72,
+    "slug": "hemingway-editor",
+    "toolName": "Hemingway Editor",
+    "whatItDoes": "Hemingway Editor helps writers improve their prose by highlighting common writing issues such as overly long sentences, passive voice, adverbs, and complex words. It provides suggestions to make writing bolder, clearer, and more concise, aiming for simplicity and readability.",
+    "category": "Writing",
+    "whyItIsUseful": "It's an invaluable tool for anyone looking to refine their writing, from students and bloggers to professionals. By simplifying language and structure, it helps convey messages more effectively, ensuring your audience understands your content effortlessly.",
+    "imageIdea": "A quill pen icon with text being analyzed and highlighted in different colors on a digital document, symbolizing readability improvements.",
+    "websiteLink": "https://hemingwayapp.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
   }
 ]
