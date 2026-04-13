@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://surfaced.io/sitemap.xml",
+    sitemap: "https://surfaced-x.pages.dev/sitemap.xml",
   };
 }

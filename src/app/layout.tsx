@@ -12,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://surfaced.io"),
+  metadataBase: new URL("https://surfaced-x.pages.dev"),
   title: {
     default: "Surfaced — What the Internet Surfaced Today",
     template: "%s — Surfaced",

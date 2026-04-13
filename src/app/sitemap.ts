@@ -4,7 +4,7 @@ import type { MetadataRoute } from "next";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://surfaced.io";
+  const baseUrl = "https://surfaced-x.pages.dev";
   const items = getAllItems();
 
   const itemPages = items.map((item) => ({
