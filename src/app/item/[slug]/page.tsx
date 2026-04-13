@@ -23,6 +23,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { PromoCode } from "@/components/ui/PromoCode";
+import { StickyCTA } from "@/components/ui/StickyCTA";
 import { isPexelsImage } from "@/lib/images";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -236,6 +237,7 @@ export default async function ItemPage({ params }: Props) {
                   data-item-slug={slug}
                   data-item-category={category}
                   data-item-type={item.type}
+                  id="main-cta-button"
                   className={`inline-flex items-center gap-2.5 px-8 py-4 rounded-xl text-white font-bold text-base hover:-translate-y-0.5 transition-all ${
                     ctaStyles[item.type] || ctaStyles.default
                   }`}
@@ -337,6 +339,17 @@ export default async function ItemPage({ params }: Props) {
           {/* AD_ZONE: detail-page-bottom */}
         </div>
       </section>
+
+      {/* Sticky bottom CTA — appears when main CTA scrolls out of view */}
+      {outboundUrl && (
+        <StickyCTA
+          title={title}
+          priceRange={item.type === "product" ? (item as Product).estimatedPriceRange : undefined}
+          ctaUrl={outboundUrl}
+          isAffiliate={isAffiliate}
+          itemType={item.type}
+        />
+      )}
     </>
   );
 }
