@@ -8,11 +8,12 @@ const fs = require("fs");
 const path = require("path");
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-const MODEL = "gemini-2.5-flash-lite";
+// Use gemini-2.5-flash (separate quota pool from flash-lite used by daily workflow)
+const MODEL = "gemini-2.5-flash";
 const DATA_DIR = path.join(__dirname, "..", "data");
 const today = new Date().toISOString().split("T")[0];
 
-const TARGET = parseInt(process.argv[2] || "60", 10);
+const TARGET = parseInt(process.argv[2] || "12", 10);
 const BATCH_SIZE = 3;
 const BATCHES = Math.ceil(TARGET / BATCH_SIZE);
 
@@ -29,12 +30,13 @@ function writeJSON(f, d) { fs.writeFileSync(path.join(DATA_DIR, f), JSON.stringi
 function getNextId(items) { return Math.max(...items.map(i => i.id || 0), 0) + 1; }
 function getExistingSlugs(items) { return new Set(items.map(i => i.slug)); }
 
-async function callWithRetry(fn, maxRetries = 4) {
+async function callWithRetry(fn, maxRetries = 5) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try { return await fn(); } catch (err) {
       const retriable = err.message && (err.message.includes("503") || err.message.includes("429") || err.message.includes("UNAVAILABLE") || err.message.includes("RESOURCE_EXHAUSTED") || err.message.includes("high demand"));
       if (retriable && attempt < maxRetries) {
-        const delay = attempt * 20000;
+        // Longer delays to respect rate limits: 30s, 60s, 90s, 120s
+        const delay = attempt * 30000;
         console.log(`    ⏳ Retry ${attempt}/${maxRetries} in ${delay/1000}s...`);
         await new Promise(r => setTimeout(r, delay));
       } else throw err;
@@ -109,15 +111,15 @@ async function main() {
       } catch (err) {
         console.log(`FAILED: ${err.message}`);
       }
-      // Rate limit: 4s between batches within a category
-      if (b < BATCHES) await new Promise(r => setTimeout(r, 4000));
+      // Rate limit: 8s between batches within a category
+      if (b < BATCHES) await new Promise(r => setTimeout(r, 8000));
     }
 
     writeJSON(filename, items);
     console.log(`  [${category}] ${startCount} → ${items.length} items ✓\n`);
 
-    // 3s pause between categories
-    await new Promise(r => setTimeout(r, 3000));
+    // 6s pause between categories
+    await new Promise(r => setTimeout(r, 6000));
   }
 
   // Apply Amazon affiliate links to all products
