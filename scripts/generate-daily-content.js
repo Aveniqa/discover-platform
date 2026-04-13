@@ -1,8 +1,9 @@
-const Anthropic = require("@anthropic-ai/sdk").default;
+const { GoogleGenAI } = require("@google/genai");
 const fs = require("fs");
 const path = require("path");
 
-const client = new Anthropic(); // uses ANTHROPIC_API_KEY env var
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const MODEL = "gemini-2.5-flash";
 
 const DATA_DIR = path.join(__dirname, "..", "data");
 const today = new Date().toISOString().split("T")[0];
@@ -33,7 +34,10 @@ function getExistingSlugs(items) {
 
 async function generateItems(category, existingItems, count) {
   const existingSlugs = getExistingSlugs(existingItems);
-  const existingTitles = existingItems.map((i) => i.title || i.name || i.toolName || i.techName).join(", ");
+  const existingTitles = existingItems
+    .slice(-30)
+    .map((i) => i.title || i.name || i.toolName || i.techName)
+    .join(", ");
 
   const schemas = {
     discoveries: `{
@@ -56,7 +60,7 @@ async function generateItems(category, existingItems, count) {
   "whyItIsInteresting": "<2-3 sentences>",
   "imageIdea": "<concrete visual noun>",
   "sourceLink": "<real product URL>",
-  "estimatedPriceRange": "<e.g. $299–$349>",
+  "estimatedPriceRange": "<e.g. $299-$349>",
   "type": "product"
 }`,
     "hidden-gems": `{
@@ -93,11 +97,16 @@ async function generateItems(category, existingItems, count) {
   };
 
   const categoryPrompts = {
-    discoveries: "Find 3 genuinely fascinating, surprising real-world facts, scientific discoveries, or historical revelations. Prioritize recent findings from the last month but timeless mind-blowing facts work too.",
-    products: "Find 3 real, currently available consumer products that are trending or newly launched. They must be real products you can actually buy. Include accurate pricing.",
-    "hidden-gems": "Find 3 real, lesser-known websites or web tools that are genuinely useful. They must have real, working URLs. Focus on tools most people haven't heard of.",
-    "future-radar": "Find 3 real emerging technologies that have had recent milestones or breakthroughs. Focus on concrete developments, not speculation.",
-    "daily-tools": "Find 3 real, useful everyday tools or apps with working URLs. Focus on well-regarded tools that help with productivity, creativity, or daily life.",
+    discoveries:
+      "Find 3 genuinely fascinating, surprising real-world facts, scientific discoveries, or historical revelations. Prioritize recent findings from the last month but timeless mind-blowing facts work too.",
+    products:
+      "Find 3 real, currently available consumer products that are trending or newly launched. They must be real products you can actually buy. Include accurate pricing.",
+    "hidden-gems":
+      "Find 3 real, lesser-known websites or web tools that are genuinely useful. They must have real, working URLs. Focus on tools most people haven't heard of.",
+    "future-radar":
+      "Find 3 real emerging technologies that have had recent milestones or breakthroughs. Focus on concrete developments, not speculation.",
+    "daily-tools":
+      "Find 3 real, useful everyday tools or apps with working URLs. Focus on well-regarded tools that help with productivity, creativity, or daily life.",
   };
 
   const prompt = `${categoryPrompts[category]}
@@ -116,13 +125,12 @@ Rules:
 
 Return ONLY the JSON array, no markdown fencing, no explanation.`;
 
-  const message = await client.messages.create({
-    model: "claude-sonnet-4-20250514",
-    max_tokens: 4096,
-    messages: [{ role: "user", content: prompt }],
+  const response = await ai.models.generateContent({
+    model: MODEL,
+    contents: prompt,
   });
 
-  const text = message.content[0].text.trim();
+  const text = response.text.trim();
   // Strip markdown code fences if present
   const cleaned = text.replace(/^```json?\n?/, "").replace(/\n?```$/, "");
   const items = JSON.parse(cleaned);
@@ -151,13 +159,15 @@ async function main() {
     console.log(`[${category}] Generating 3 new items...`);
     const existing = readJSON(filename);
     const newItems = await generateItems(category, existing, 3);
-    console.log(`[${category}] Generated: ${newItems.map((i) => i.slug).join(", ")}`);
+    console.log(
+      `[${category}] Generated: ${newItems.map((i) => i.slug).join(", ")}`
+    );
     existing.push(...newItems);
     writeJSON(filename, existing);
     console.log(`[${category}] Total items: ${existing.length}\n`);
 
     // Rate limit pause between categories
-    await new Promise((r) => setTimeout(r, 1000));
+    await new Promise((r) => setTimeout(r, 2000));
   }
 
   console.log("✅ All categories updated.\n");
