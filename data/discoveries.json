@@ -1,42 +1,9 @@
 [
   {
-    "id": 1,
-    "slug": "octopuses-have-three-hearts-and-blue-blood",
-    "title": "Octopuses Have Three Hearts and Blue Blood",
-    "shortDescription": "These cephalopods have a central heart and two gill hearts. Their blood is copper-based, making it blue \u2014 more efficient for cold, low-oxygen deep-sea environments.",
-    "category": "Science",
-    "whyItIsInteresting": "It challenges our mammal-centric view of biology. Copper-based blood is better adapted to extreme conditions, proving evolution finds wildly different solutions to the same problems.",
-    "imageIdea": "octopus underwater ocean sea creature",
-    "sourceLink": "https://www.nationalgeographic.com",
-    "type": "discovery"
-  },
-  {
-    "id": 2,
-    "slug": "bananas-are-naturally-radioactive",
-    "title": "Bananas Are Naturally Radioactive",
-    "shortDescription": "Bananas contain potassium-40, a naturally occurring radioactive isotope. You would need to eat roughly 10 million bananas at once to die of radiation poisoning from them.",
-    "category": "Science",
-    "whyItIsInteresting": "Scientists actually use the 'banana equivalent dose' as an informal unit to communicate radiation exposure to the public. It shows that radiation is everywhere, and dose is what matters.",
-    "imageIdea": "bunch of yellow bananas tropical fruit",
-    "sourceLink": "https://www.scientificamerican.com",
-    "type": "discovery"
-  },
-  {
-    "id": 3,
-    "slug": "your-body-produces-light-you-cant-see",
-    "title": "Your Body Produces Light You Can't See",
-    "shortDescription": "Human bodies emit bioluminescent light that is 1,000 times weaker than what the human eye can detect. This faint glow fluctuates throughout the day, peaking in the late afternoon.",
-    "category": "Science",
-    "whyItIsInteresting": "Japanese researchers captured this ultra-weak photon emission using incredibly sensitive cameras. It means every living person literally glows, connecting us to the same biochemistry as fireflies and deep-sea creatures.",
-    "imageIdea": "human silhouette glowing light bioluminescence",
-    "sourceLink": "https://www.nature.com",
-    "type": "discovery"
-  },
-  {
     "id": 4,
     "slug": "glass-is-neither-a-solid-nor-a-liquid",
     "title": "Glass Is Neither a Solid nor a Liquid",
-    "shortDescription": "Glass is an amorphous solid \u2014 its molecules are disordered like a liquid but rigid like a solid. The myth that old cathedral windows are thicker at the bottom due to flowing is false; that was just medieval glassmaking technique.",
+    "shortDescription": "Glass is an amorphous solid — its molecules are disordered like a liquid but rigid like a solid. The myth that old cathedral windows are thicker at the bottom due to flowing is false; that was just medieval glassmaking technique.",
     "category": "Science",
     "whyItIsInteresting": "It reveals that our neat categories of matter are oversimplifications. Glass exists in a strange in-between state that challenges fundamental assumptions taught in every chemistry class.",
     "imageIdea": "A close-up of stained glass in a medieval cathedral with light refracting through uneven panes",
@@ -82,7 +49,7 @@
     "title": "Velcro Was Invented After a Walk in the Woods",
     "shortDescription": "Swiss engineer George de Mestral noticed burrs sticking to his dog's fur in 1941. Under a microscope he saw tiny hooks catching on loops of fur, and spent eight years perfecting the synthetic version.",
     "category": "Innovation",
-    "whyItIsInteresting": "It is one of the most famous examples of biomimicry \u2014 nature solving an engineering problem billions of years before humans needed it. Velcro is now used in everything from NASA spacesuits to children's shoes.",
+    "whyItIsInteresting": "It is one of the most famous examples of biomimicry — nature solving an engineering problem billions of years before humans needed it. Velcro is now used in everything from NASA spacesuits to children's shoes.",
     "imageIdea": "A split image showing a close-up of a natural burr on one side and an electron microscope view of velcro hooks on the other",
     "sourceLink": "https://www.smithsonianmag.com",
     "type": "discovery"
@@ -148,7 +115,7 @@
     "title": "Finland Has More Saunas Than Cars",
     "shortDescription": "Finland has roughly 3.3 million saunas for a population of 5.5 million people. That is approximately one sauna for every 1.7 people, compared to about 3.4 million registered cars.",
     "category": "Culture",
-    "whyItIsInteresting": "The sauna is not a luxury in Finland \u2014 it is a fundamental part of life, historically used for giving birth, curing meats, and even holding parliamentary discussions. It shows how a cultural practice can become more essential than modern infrastructure.",
+    "whyItIsInteresting": "The sauna is not a luxury in Finland — it is a fundamental part of life, historically used for giving birth, curing meats, and even holding parliamentary discussions. It shows how a cultural practice can become more essential than modern infrastructure.",
     "imageIdea": "A traditional Finnish wooden sauna on the edge of a frozen lake with steam rising into the northern sky",
     "sourceLink": "https://www.visitfinland.com",
     "type": "discovery"
@@ -168,7 +135,7 @@
     "id": 16,
     "slug": "in-japan-there-is-a-festival-dedicated-to-crying-babies",
     "title": "In Japan There Is a Festival Dedicated to Crying Babies",
-    "shortDescription": "Naki Sumo is a 400-year-old Japanese festival where sumo wrestlers hold babies and try to make them cry. The baby who cries first \u2014 or loudest \u2014 is believed to be blessed with good health and a strong spirit.",
+    "shortDescription": "Naki Sumo is a 400-year-old Japanese festival where sumo wrestlers hold babies and try to make them cry. The baby who cries first — or loudest — is believed to be blessed with good health and a strong spirit.",
     "category": "Culture",
     "whyItIsInteresting": "It completely inverts the Western instinct to soothe a crying baby. The festival reflects a deep cultural belief that a powerful cry signifies vitality and wards off evil spirits, turning distress into celebration.",
     "imageIdea": "A massive sumo wrestler gently holding a tiny crying baby in a traditional Japanese shrine setting",
@@ -214,7 +181,7 @@
     "title": "Russia Has 11 Time Zones but Used to Have Only Nine",
     "shortDescription": "Russia spans 11 time zones, more than any other country. In 2010 Dmitry Medvedev reduced them to nine to boost economic efficiency, but the change was so unpopular it was reversed in 2014.",
     "category": "Global",
-    "whyItIsInteresting": "When it is midnight in Kaliningrad, it is already 10 AM in Kamchatka. The failed time zone experiment shows that even authoritarian governments cannot override the sun \u2014 human biology and daily life are bound to the rotation of the Earth.",
+    "whyItIsInteresting": "When it is midnight in Kaliningrad, it is already 10 AM in Kamchatka. The failed time zone experiment shows that even authoritarian governments cannot override the sun — human biology and daily life are bound to the rotation of the Earth.",
     "imageIdea": "A long panoramic map of Russia with 11 clocks showing different times lined up along the top, from Kaliningrad to Kamchatka",
     "sourceLink": "https://www.bbc.com",
     "type": "discovery"
@@ -234,9 +201,9 @@
     "id": 22,
     "slug": "lesotho-is-the-only-country-entirely-above-1000-meters",
     "title": "Lesotho Is the Only Country Entirely Above 1,000 Meters",
-    "shortDescription": "Every point in Lesotho sits above 1,000 meters in elevation, making it the highest low point of any country on Earth. Its lowest elevation is 1,400 meters \u2014 higher than the highest point in many nations.",
+    "shortDescription": "Every point in Lesotho sits above 1,000 meters in elevation, making it the highest low point of any country on Earth. Its lowest elevation is 1,400 meters — higher than the highest point in many nations.",
     "category": "Global",
-    "whyItIsInteresting": "This gives Lesotho the nickname 'Kingdom in the Sky.' Its extreme altitude creates unique challenges \u2014 crops grow differently, water boils at lower temperatures, and athletes from Lesotho have a natural advantage in endurance sports due to lifelong altitude training.",
+    "whyItIsInteresting": "This gives Lesotho the nickname 'Kingdom in the Sky.' Its extreme altitude creates unique challenges — crops grow differently, water boils at lower temperatures, and athletes from Lesotho have a natural advantage in endurance sports due to lifelong altitude training.",
     "imageIdea": "A dramatic mountain landscape in Lesotho with a Basotho horseman riding along a ridgeline above the clouds",
     "sourceLink": "https://www.worldatlas.com",
     "type": "discovery"
@@ -247,7 +214,7 @@
     "title": "More People Speak French in Africa Than in France",
     "shortDescription": "Over 140 million people across 31 African countries speak French, compared to about 67 million in France itself. By 2050, Africa is projected to be home to 85 percent of the world's French speakers.",
     "category": "Global",
-    "whyItIsInteresting": "The future of the French language is being shaped by Kinshasa, Abidjan, and Dakar more than Paris. It is a profound example of how colonial legacies evolve \u2014 the colonized are now the primary stewards and innovators of the colonizer's language.",
+    "whyItIsInteresting": "The future of the French language is being shaped by Kinshasa, Abidjan, and Dakar more than Paris. It is a profound example of how colonial legacies evolve — the colonized are now the primary stewards and innovators of the colonizer's language.",
     "imageIdea": "A vibrant African marketplace with French-language signs and banners amid colorful fabrics and bustling vendors",
     "sourceLink": "https://www.francophonie.org",
     "type": "discovery"
@@ -267,10 +234,10 @@
     "id": 25,
     "slug": "more-people-die-from-selfies-than-shark-attacks",
     "title": "More People Die from Selfies Than from Shark Attacks Each Year",
-    "shortDescription": "Studies have found that selfie-related deaths \u2014 from falls, drownings, and vehicle accidents \u2014 significantly outnumber shark attack fatalities globally. India, Russia, and the United States have the highest selfie death rates.",
+    "shortDescription": "Studies have found that selfie-related deaths — from falls, drownings, and vehicle accidents — significantly outnumber shark attack fatalities globally. India, Russia, and the United States have the highest selfie death rates.",
     "category": "Statistics",
     "whyItIsInteresting": "It is a striking example of how humans are terrible at assessing risk. We fear the dramatic and rare (sharks) while ignoring the mundane and common (distracted behavior near edges). Our risk perception is shaped by narrative, not data.",
-    "imageIdea": "A person taking a selfie dangerously close to a cliff edge with a shark fin visible in the distant ocean below \u2014 illustrating the ironic mismatch",
+    "imageIdea": "A person taking a selfie dangerously close to a cliff edge with a shark fin visible in the distant ocean below — illustrating the ironic mismatch",
     "sourceLink": "https://www.washingtonpost.com",
     "type": "discovery"
   },
@@ -280,7 +247,7 @@
     "title": "Vending Machines Kill More People Than Sharks Each Year",
     "shortDescription": "Vending machines cause an average of 13 deaths per year in the United States, usually from people rocking or tipping them. Sharks kill about 5 people globally per year on average.",
     "category": "Statistics",
-    "whyItIsInteresting": "It perfectly demonstrates the availability heuristic \u2014 we overestimate threats that are vivid and cinematic while ignoring everyday dangers. Media coverage makes sharks seem lethal, while nobody makes a horror movie about a Coca-Cola machine.",
+    "whyItIsInteresting": "It perfectly demonstrates the availability heuristic — we overestimate threats that are vivid and cinematic while ignoring everyday dangers. Media coverage makes sharks seem lethal, while nobody makes a horror movie about a Coca-Cola machine.",
     "imageIdea": "A menacing vending machine in a dark alley casting a shadow shaped like a shark fin",
     "sourceLink": "https://www.cdc.gov",
     "type": "discovery"
@@ -313,7 +280,7 @@
     "title": "The Total Weight of Ants on Earth Rivals the Total Weight of Humans",
     "shortDescription": "There are an estimated 20 quadrillion ants on Earth, with a combined biomass of roughly 80 million tonnes. This is in the same order of magnitude as humanity's total dry biomass.",
     "category": "Statistics",
-    "whyItIsInteresting": "Despite each ant weighing only 1 to 2 milligrams, their sheer numbers create a collective mass that competes with 8 billion humans. It reframes who really dominates the planet \u2014 in terms of biomass, ants have been winning for 100 million years.",
+    "whyItIsInteresting": "Despite each ant weighing only 1 to 2 milligrams, their sheer numbers create a collective mass that competes with 8 billion humans. It reframes who really dominates the planet — in terms of biomass, ants have been winning for 100 million years.",
     "imageIdea": "A giant scale balancing a dense swarm of ants on one side against a crowd of humans on the other, tipping nearly even",
     "sourceLink": "https://www.pnas.org",
     "type": "discovery"
@@ -366,9 +333,9 @@
     "id": 34,
     "slug": "the-amazon-rainforest-produces-20-percent-of-the-worlds-oxygen",
     "title": "The Amazon Rainforest Generates About 6 Percent of the World's Oxygen",
-    "shortDescription": "While often cited as producing 20 percent of Earth's oxygen, the Amazon actually produces closer to 6 percent \u2014 but consumes nearly all of it through respiration and decomposition. Ocean phytoplankton produce over 50 percent of the world's oxygen.",
+    "shortDescription": "While often cited as producing 20 percent of Earth's oxygen, the Amazon actually produces closer to 6 percent — but consumes nearly all of it through respiration and decomposition. Ocean phytoplankton produce over 50 percent of the world's oxygen.",
     "category": "Nature",
-    "whyItIsInteresting": "The real value of the Amazon is not oxygen production but carbon storage, biodiversity, and rainfall generation. Correcting this myth shifts the conservation argument to what actually matters \u2014 the Amazon holds 150 billion tonnes of carbon that would be devastating if released.",
+    "whyItIsInteresting": "The real value of the Amazon is not oxygen production but carbon storage, biodiversity, and rainfall generation. Correcting this myth shifts the conservation argument to what actually matters — the Amazon holds 150 billion tonnes of carbon that would be devastating if released.",
     "imageIdea": "A vast aerial view of the Amazon canopy with overlaid infographics showing oxygen and carbon cycle arrows",
     "sourceLink": "https://www.nationalgeographic.com",
     "type": "discovery"
@@ -390,7 +357,7 @@
     "title": "The World's Oldest Known Living Organism Is a Seagrass Meadow",
     "shortDescription": "A Posidonia oceanica seagrass meadow in the Mediterranean near Ibiza is estimated to be up to 100,000 years old. It is a single clonal organism that has been slowly spreading across the seafloor since before humans left Africa.",
     "category": "Nature",
-    "whyItIsInteresting": "This single organism has been alive through the entire history of modern human civilization and predates it by roughly 90,000 years. It quietly survived ice ages, sea level changes, and volcanic eruptions \u2014 all while most species went extinct around it.",
+    "whyItIsInteresting": "This single organism has been alive through the entire history of modern human civilization and predates it by roughly 90,000 years. It quietly survived ice ages, sea level changes, and volcanic eruptions — all while most species went extinct around it.",
     "imageIdea": "An underwater view of a vast, ancient seagrass meadow stretching to the horizon with sunlight filtering through crystal-clear Mediterranean water",
     "sourceLink": "https://www.plosone.org",
     "type": "discovery"
@@ -412,7 +379,7 @@
     "title": "There Is a Giant Cloud of Alcohol in Space",
     "shortDescription": "Sagittarius B2, a molecular cloud near the center of the Milky Way, contains billions of liters of methanol and ethanol. The ethanol cloud alone spans 288 billion miles across.",
     "category": "Space",
-    "whyItIsInteresting": "While you could not drink it \u2014 it is mixed with lethal chemicals and spread incredibly thin \u2014 it demonstrates that complex organic chemistry happens spontaneously in space. These are the same molecular building blocks that eventually lead to life.",
+    "whyItIsInteresting": "While you could not drink it — it is mixed with lethal chemicals and spread incredibly thin — it demonstrates that complex organic chemistry happens spontaneously in space. These are the same molecular building blocks that eventually lead to life.",
     "imageIdea": "A vast colorful nebula with molecular structure diagrams of ethanol floating over it, deep in a star-forming region",
     "sourceLink": "https://www.eso.org",
     "type": "discovery"
@@ -421,9 +388,9 @@
     "id": 39,
     "slug": "neutron-stars-are-so-dense-a-teaspoon-would-weigh-6-billion-tons",
     "title": "Neutron Stars Are So Dense a Teaspoon Would Weigh 6 Billion Tons",
-    "shortDescription": "When massive stars collapse, protons and electrons are crushed together into neutrons, creating matter so dense that a sugar-cube-sized piece would weigh about 6 billion tons \u2014 roughly the weight of Mount Everest.",
+    "shortDescription": "When massive stars collapse, protons and electrons are crushed together into neutrons, creating matter so dense that a sugar-cube-sized piece would weigh about 6 billion tons — roughly the weight of Mount Everest.",
     "category": "Space",
-    "whyItIsInteresting": "Neutron stars rotate up to 716 times per second and have magnetic fields a trillion times stronger than Earth's. They represent the absolute limit of matter before it collapses into a black hole \u2014 the universe's last stand before the point of no return.",
+    "whyItIsInteresting": "Neutron stars rotate up to 716 times per second and have magnetic fields a trillion times stronger than Earth's. They represent the absolute limit of matter before it collapses into a black hole — the universe's last stand before the point of no return.",
     "imageIdea": "A tiny glowing sphere the size of a city hovering above Earth with a mountain balanced on a scale against a teaspoon of neutron star material",
     "sourceLink": "https://www.nasa.gov",
     "type": "discovery"
@@ -454,9 +421,9 @@
     "id": 42,
     "slug": "olympus-mons-on-mars-is-so-large-you-cant-see-it-from-its-base",
     "title": "Olympus Mons on Mars Is So Large You Cannot See Its Peak from Its Base",
-    "shortDescription": "Olympus Mons is the tallest volcano in the solar system at 21.9 kilometers high \u2014 nearly three times the height of Everest. Its base is so wide (600 km across) that the curvature of Mars hides the summit from anyone standing at the edge.",
+    "shortDescription": "Olympus Mons is the tallest volcano in the solar system at 21.9 kilometers high — nearly three times the height of Everest. Its base is so wide (600 km across) that the curvature of Mars hides the summit from anyone standing at the edge.",
     "category": "Space",
-    "whyItIsInteresting": "If you stood at its base, you would not know you were on a mountain. The slope is so gradual \u2014 about 5 degrees \u2014 that it would feel like standing on a gently tilted plain. Mars's lower gravity and lack of tectonic plates allowed it to grow to a size impossible on Earth.",
+    "whyItIsInteresting": "If you stood at its base, you would not know you were on a mountain. The slope is so gradual — about 5 degrees — that it would feel like standing on a gently tilted plain. Mars's lower gravity and lack of tectonic plates allowed it to grow to a size impossible on Earth.",
     "imageIdea": "A massive Martian volcano stretching beyond the curved horizon of the red planet, with a tiny human figure at the base for scale",
     "sourceLink": "https://www.nasa.gov",
     "type": "discovery"
@@ -511,7 +478,7 @@
     "title": "Samurai and Cowboys Existed at the Same Time",
     "shortDescription": "The samurai class was not officially abolished in Japan until 1876, which overlaps directly with the American Wild West era of the 1860s through 1890s. For at least a decade, samurai and cowboys coexisted on opposite sides of the Pacific.",
     "category": "History",
-    "whyItIsInteresting": "Pop culture treats them as belonging to completely different eras, but they were contemporaries. It was theoretically possible for a samurai to board a steamship to San Francisco and meet a cowboy. Akira Kurosawa understood this \u2014 his samurai films directly inspired Western movies.",
+    "whyItIsInteresting": "Pop culture treats them as belonging to completely different eras, but they were contemporaries. It was theoretically possible for a samurai to board a steamship to San Francisco and meet a cowboy. Akira Kurosawa understood this — his samurai films directly inspired Western movies.",
     "imageIdea": "A samurai and a cowboy standing back to back in a dusty frontier town, both ready to draw, with a Pacific Ocean dividing the background",
     "sourceLink": "https://www.smithsonianmag.com",
     "type": "discovery"
@@ -531,9 +498,9 @@
     "id": 49,
     "slug": "your-brain-uses-the-same-circuits-for-physical-and-social-pain",
     "title": "Your Brain Uses the Same Circuits for Physical and Social Pain",
-    "shortDescription": "Neuroimaging studies show that social rejection activates the anterior cingulate cortex and insula \u2014 the same brain regions that process physical pain. This is why heartbreak and exclusion literally hurt.",
+    "shortDescription": "Neuroimaging studies show that social rejection activates the anterior cingulate cortex and insula — the same brain regions that process physical pain. This is why heartbreak and exclusion literally hurt.",
     "category": "Psychology",
-    "whyItIsInteresting": "It means social pain is not metaphorical \u2014 it is neurologically real. Studies have shown that taking acetaminophen (Tylenol) can actually reduce the sting of social rejection, because the brain genuinely processes both types of pain through overlapping pathways.",
+    "whyItIsInteresting": "It means social pain is not metaphorical — it is neurologically real. Studies have shown that taking acetaminophen (Tylenol) can actually reduce the sting of social rejection, because the brain genuinely processes both types of pain through overlapping pathways.",
     "imageIdea": "A brain scan with the same region glowing red in two side-by-side images: one labeled 'Stubbed Toe' and the other 'Social Rejection'",
     "sourceLink": "https://www.pnas.org",
     "type": "discovery"
@@ -577,7 +544,7 @@
     "title": "You Are More Creative When You Are Tired",
     "shortDescription": "Research published in Thinking and Reasoning found that people solve insight-based creative problems better during their non-optimal times of day. Morning people are more creative at night, and night owls are more creative in the morning.",
     "category": "Psychology",
-    "whyItIsInteresting": "When your prefrontal cortex is tired, it loosens its filter on 'irrelevant' thoughts \u2014 which are exactly the unexpected connections that fuel creativity. Your brain's reduced focus actually allows more diverse ideas to surface and combine in novel ways.",
+    "whyItIsInteresting": "When your prefrontal cortex is tired, it loosens its filter on 'irrelevant' thoughts — which are exactly the unexpected connections that fuel creativity. Your brain's reduced focus actually allows more diverse ideas to surface and combine in novel ways.",
     "imageIdea": "A sleepy person at a desk late at night with a chaotic but brilliant mind map of creative ideas swirling above their head",
     "sourceLink": "https://www.psychologytoday.com",
     "type": "discovery"
@@ -588,7 +555,7 @@
     "title": "The IKEA Effect Makes You Overvalue Things You Build Yourself",
     "shortDescription": "A Harvard study found that people place disproportionately high value on products they partially created, even if the result is objectively mediocre. Participants valued their own amateur origami creations nearly as much as expert-made ones.",
     "category": "Psychology",
-    "whyItIsInteresting": "It explains why home cooks love their own food, why managers love their own plans, and why IKEA is so successful. The labor itself creates emotional attachment, which means effort does not just produce value \u2014 it produces the illusion of extra value.",
+    "whyItIsInteresting": "It explains why home cooks love their own food, why managers love their own plans, and why IKEA is so successful. The labor itself creates emotional attachment, which means effort does not just produce value — it produces the illusion of extra value.",
     "imageIdea": "A person proudly displaying a slightly crooked IKEA bookshelf with a golden trophy glow around it, while a perfect store-bought shelf sits ignored nearby",
     "sourceLink": "https://www.hbs.edu",
     "type": "discovery"
@@ -597,7 +564,7 @@
     "id": 55,
     "slug": "there-are-more-possible-internet-addresses-in-ipv6-than-atoms-on-earth",
     "title": "There Are More Possible Internet Addresses in IPv6 Than Atoms on Earth",
-    "shortDescription": "IPv6 supports 340 undecillion unique addresses (3.4 x 10^38). Earth contains roughly 10^50 atoms, but the number of IPv6 addresses per square meter of Earth's surface is still about 6.7 x 10^23 \u2014 Avogadro's number.",
+    "shortDescription": "IPv6 supports 340 undecillion unique addresses (3.4 x 10^38). Earth contains roughly 10^50 atoms, but the number of IPv6 addresses per square meter of Earth's surface is still about 6.7 x 10^23 — Avogadro's number.",
     "category": "Technology",
     "whyItIsInteresting": "We could assign a unique internet address to every atom on the surface of several Earths and still not run out. IPv6 was designed to be so vast that humanity should never face address exhaustion again, even if we connect trillions of devices.",
     "imageIdea": "A stylized globe wrapped in a dense mesh of glowing network connections, each node representing an IPv6 address, stretching far beyond the planet",
@@ -619,7 +586,7 @@
     "id": 57,
     "slug": "the-entire-wikipedia-database-is-only-about-22-gigabytes",
     "title": "The Entire Text of Wikipedia Is Only About 22 Gigabytes",
-    "shortDescription": "All of English Wikipedia's article text, compressed, fits in roughly 22 gigabytes \u2014 small enough to fit on a basic USB drive. The full database with edit histories and metadata is much larger, but the sum of all human knowledge on Wikipedia is surprisingly compact.",
+    "shortDescription": "All of English Wikipedia's article text, compressed, fits in roughly 22 gigabytes — small enough to fit on a basic USB drive. The full database with edit histories and metadata is much larger, but the sum of all human knowledge on Wikipedia is surprisingly compact.",
     "category": "Technology",
     "whyItIsInteresting": "A single modern smartphone could store multiple copies of all human knowledge curated by Wikipedia. It shows both how efficiently text compresses and how surprisingly small our collective written knowledge is compared to the photos and videos we generate daily.",
     "imageIdea": "A tiny USB drive sitting next to towering stacks of encyclopedias that reach the ceiling, with a label showing they hold the same information",
@@ -643,7 +610,7 @@
     "title": "The First Webcam Was Invented to Watch a Coffee Pot",
     "shortDescription": "In 1991, researchers at the University of Cambridge set up a camera pointed at a coffee pot in the Trojan Room so they could check if coffee was ready without walking downstairs. It later became the first live image streamed on the web in 1993.",
     "category": "Technology",
-    "whyItIsInteresting": "The entire webcam industry \u2014 which now powers video conferencing, security systems, and streaming \u2014 was born from sheer laziness about checking a coffee pot. The pot itself was sold on eBay for 3,350 pounds in 2001 after the camera was decommissioned.",
+    "whyItIsInteresting": "The entire webcam industry — which now powers video conferencing, security systems, and streaming — was born from sheer laziness about checking a coffee pot. The pot itself was sold on eBay for 3,350 pounds in 2001 after the camera was decommissioned.",
     "imageIdea": "A grainy early-90s webcam image of a half-full coffee pot in a cluttered university break room with a CRT monitor displaying the feed",
     "sourceLink": "https://www.bbc.com",
     "type": "discovery"
@@ -658,5 +625,41 @@
     "imageIdea": "A deep ocean floor view showing a thin fiber optic cable stretching into the dark abyss with faint data light pulses traveling through it",
     "sourceLink": "https://www.submarinecablemap.com",
     "type": "discovery"
+  },
+  {
+    "id": 61,
+    "slug": "early-venus-had-oceans",
+    "title": "Venus May Have Had Oceans and a Habitable Climate Billions of Years Ago",
+    "shortDescription": "New research suggests that early Venus might have had a climate similar to Earth's, potentially supporting liquid water oceans for up to 3 billion years. This could have made the planet habitable for a significant period.",
+    "category": "Space",
+    "whyItIsInteresting": "It challenges our current understanding of Venus as a hellish world and raises profound questions about the conditions necessary for life to arise on planets, even those with seemingly inhospitable present-day environments.",
+    "imageIdea": "ancient venus planet landscape",
+    "sourceLink": "https://www.nasa.gov/missions/venus/venus-might-have-been-habitable/",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 62,
+    "slug": "ancient-egyptian-bread-fermentation",
+    "title": "Secrets of Ancient Egyptian Bread Fermentation Unlocked",
+    "shortDescription": "Scientists have successfully recreated ancient Egyptian sourdough bread using yeast strains isolated from pottery shards found at archaeological sites. This provides direct insight into their baking techniques.",
+    "category": "History",
+    "whyItIsInteresting": "This discovery offers a tangible taste of the past, revealing the sophisticated microbial understanding and fermentation processes employed by one of history's greatest civilizations. It connects us directly to the daily lives of ancient Egyptians.",
+    "imageIdea": "ancient egyptian bread pottery",
+    "sourceLink": "https://www.nature.com/articles/s41598-022-18868-0",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 63,
+    "slug": "octopus-arms-independent-brains",
+    "title": "Octopus Arms Possess 'Mini-Brains' That Can Act Independently",
+    "shortDescription": "Research shows that octopus arms have a complex nervous system allowing them to taste, touch, and even make decisions without direct input from the central brain. Each arm can act semi-autonomously.",
+    "category": "Nature",
+    "whyItIsInteresting": "This decentralized intelligence is unlike anything seen in most animals, suggesting a radically different evolutionary path for problem-solving and survival. It makes us reconsider what 'intelligence' truly means.",
+    "imageIdea": "octopus arm tentacle suckers",
+    "sourceLink": "https://www.nature.com/articles/s41586-021-03781-1",
+    "type": "discovery",
+    "dateAdded": "2026-04-13"
   }
 ]

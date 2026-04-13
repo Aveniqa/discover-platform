@@ -1,35 +1,5 @@
 [
   {
-    "id": 1,
-    "slug": "todoist",
-    "toolName": "Todoist",
-    "whatItDoes": "Task management app with natural language input, recurring tasks, priority levels, labels, and filters. Organizes work into projects with shared collaboration and productivity tracking.",
-    "category": "Productivity",
-    "whyItIsUseful": "Its natural language parsing lets you type 'Call dentist every 3 months' and it just works. The karma system gamifies productivity without being annoying.",
-    "websiteLink": "https://todoist.com",
-    "type": "tool"
-  },
-  {
-    "id": 2,
-    "slug": "notion",
-    "toolName": "Notion",
-    "whatItDoes": "All-in-one workspace combining notes, databases, kanban boards, wikis, and calendars. Templates for everything from personal journals to company wikis.",
-    "category": "Productivity",
-    "whyItIsUseful": "It replaces 5-6 separate apps with a single flexible workspace. The database feature alone makes it worth learning.",
-    "websiteLink": "https://www.notion.so",
-    "type": "tool"
-  },
-  {
-    "id": 3,
-    "slug": "fantastical",
-    "toolName": "Fantastical",
-    "whatItDoes": "Calendar app that parses natural language event creation, merges calendars from multiple accounts, and includes scheduling links, weather forecasts, and video call integration.",
-    "category": "Productivity",
-    "whyItIsUseful": "Type 'Lunch with Sarah at Noon on Friday at Blue Bottle' and it creates a perfectly formatted event. Merging all your calendars into one clean view is genuinely life-changing.",
-    "websiteLink": "https://flexibits.com/fantastical",
-    "type": "tool"
-  },
-  {
     "id": 4,
     "slug": "zapier",
     "toolName": "Zapier",
@@ -598,5 +568,38 @@
     "whyItIsUseful": "It turns a week-long literature review into an afternoon task. The ability to extract and compare findings across dozens of papers in a structured table is transformative for researchers.",
     "websiteLink": "https://elicit.com",
     "type": "tool"
+  },
+  {
+    "id": 61,
+    "slug": "evernote-notes-organizer",
+    "toolName": "Evernote",
+    "whatItDoes": "Evernote is a powerful note-taking and organizational app that allows you to capture ideas, inspiration, and to-dos from anywhere. It supports text, audio, web clips, and images, and synchronizes them across all your devices.",
+    "category": "Productivity",
+    "whyItIsUseful": "It helps declutter your mind by providing a centralized digital space for all your thoughts and important information. This makes it incredibly easy to find what you need, when you need it, boosting both personal and professional efficiency.",
+    "websiteLink": "https://evernote.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 62,
+    "slug": "notion-all-in-one-workspace",
+    "toolName": "Notion",
+    "whatItDoes": "Notion is an all-in-one workspace that combines note-taking, project management, and knowledge base functionalities into a single, highly customizable application. You can build databases, wikis, and task managers tailored to your specific needs.",
+    "category": "Productivity",
+    "whyItIsUseful": "It offers unparalleled flexibility for individuals and teams to organize their work and lives. By consolidating multiple tools into one platform, it reduces context switching and promotes a more integrated approach to productivity.",
+    "websiteLink": "https://www.notion.so/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 63,
+    "slug": "google-calendar-schedule-planner",
+    "toolName": "Google Calendar",
+    "whatItDoes": "Google Calendar is a free online calendar service that helps you keep track of your appointments, meetings, and events. It allows for easy scheduling, sharing, and synchronization across multiple devices.",
+    "category": "Productivity",
+    "whyItIsUseful": "It is essential for managing your time effectively and coordinating schedules with others. Its integration with other Google services and intuitive interface make it a cornerstone for staying organized and on track with your daily commitments.",
+    "websiteLink": "https://calendar.google.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-13"
   }
 ]

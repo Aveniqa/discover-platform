@@ -1,38 +1,5 @@
 [
   {
-    "id": 1,
-    "slug": "excalidraw",
-    "name": "Excalidraw",
-    "whatItDoes": "A virtual whiteboard for sketching hand-drawn-like diagrams. Collaborative, open-source, and runs entirely in the browser with no sign-up required.",
-    "category": "Design",
-    "whyItIsUseful": "It bridges the gap between napkin sketches and formal diagrams. Teams use it for brainstorming, wireframing, and system design without the overhead of Figma or Miro.",
-    "imageIdea": "hand-drawn whiteboard diagram sketch collaboration",
-    "websiteLink": "https://excalidraw.com",
-    "type": "hidden-gem"
-  },
-  {
-    "id": 2,
-    "slug": "penpot",
-    "name": "Penpot",
-    "whatItDoes": "An open-source design and prototyping platform that works directly in the browser. It supports vector editing, interactive prototyping, and real-time collaboration.",
-    "category": "Design",
-    "whyItIsUseful": "It gives teams a free, self-hostable alternative to Figma with no vendor lock-in. Designers and developers can collaborate using open standards like SVG.",
-    "imageIdea": "open source design tool interface prototyping",
-    "websiteLink": "https://penpot.app",
-    "type": "hidden-gem"
-  },
-  {
-    "id": 3,
-    "slug": "photopea",
-    "name": "Photopea",
-    "whatItDoes": "A free online image editor that supports PSD, Sketch, XD, and virtually every raster and vector format. It runs entirely in the browser with no installation needed.",
-    "category": "Design",
-    "whyItIsUseful": "It provides Photoshop-level editing for free without requiring a subscription or download. It is invaluable for quick edits when you do not have access to Adobe products.",
-    "imageIdea": "online photo editor image editing software browser",
-    "websiteLink": "https://www.photopea.com",
-    "type": "hidden-gem"
-  },
-  {
     "id": 5,
     "slug": "rive",
     "name": "Rive",
@@ -741,5 +708,41 @@
     "whyItIsUseful": "It takes the trial-and-error pain out of writing complex jq filters by giving instant visual feedback. Sharing query links makes it easy to collaborate on JSON transformations with teammates.",
     "websiteLink": "https://jqplay.org",
     "type": "hidden-gem"
+  },
+  {
+    "id": 76,
+    "slug": "font-pairwise",
+    "name": "Font Pair",
+    "whatItDoes": "Font Pair helps you discover beautiful font combinations for your design projects. It offers curated pairings of Google Fonts and provides visual examples of how they look together in different contexts.",
+    "category": "Design",
+    "whyItIsUseful": "Finding harmonious font pairings can be time-consuming. Font Pair simplifies this process by showcasing tested and visually appealing combinations, saving designers significant effort and improving the aesthetic quality of their work.",
+    "imageIdea": "two elegant typewriters side-by-side",
+    "websiteLink": "https://www.fontpair.co/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 77,
+    "slug": "thesaurus-wordhippo",
+    "name": "WordHippo",
+    "whatItDoes": "WordHippo is a comprehensive online thesaurus and dictionary that goes beyond simple synonyms. It offers a wide range of word-finding tools, including antonyms, rhyming words, words with similar meanings, and even words that start or end with specific letters.",
+    "category": "Writing",
+    "whyItIsUseful": "For writers, WordHippo is an invaluable resource for expanding vocabulary and finding the perfect word. Its diverse search functionalities allow for nuanced word selection, helping to craft more precise and evocative language.",
+    "imageIdea": "a vintage dictionary open to a page of many words",
+    "websiteLink": "https://www.wordhippo.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 78,
+    "slug": "online-sound-recorder",
+    "name": "Online-Sound-Recorder.com",
+    "whatItDoes": "This website offers a simple and free online tool to record audio directly from your web browser. It requires no installation and allows you to save your recordings as MP3 files.",
+    "category": "Productivity",
+    "whyItIsUseful": "When you need to quickly record a voice note, a short memo, or a snippet of audio without installing any software, this tool is incredibly handy. It's straightforward and accessible from any device with a microphone and internet connection.",
+    "imageIdea": "a vintage microphone on a stand",
+    "websiteLink": "https://online-sound-recorder.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-13"
   }
 ]

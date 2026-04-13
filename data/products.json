@@ -1,41 +1,5 @@
 [
   {
-    "id": 1,
-    "slug": "oura-ring-4-smart-health-ring",
-    "title": "Oura Ring 4 Smart Health Ring",
-    "shortDescription": "The most advanced smart ring for sleep, activity, and readiness tracking. Titanium build, 7-day battery, SpO2, temperature sensing.",
-    "category": "Wearables",
-    "whyItIsInteresting": "It packs clinical-grade health sensors into a ring form factor. Sleep staging accuracy rivals lab polysomnography at a fraction of the cost.",
-    "imageIdea": "titanium smart ring health wearable technology",
-    "sourceLink": "https://ouraring.com",
-    "estimatedPriceRange": "$299\u2013$349",
-    "type": "product"
-  },
-  {
-    "id": 2,
-    "slug": "apple-watch-ultra-3",
-    "title": "Apple Watch Ultra 3",
-    "shortDescription": "Apple's most rugged smartwatch with a brighter display, precision dual-frequency GPS, and up to 72-hour battery life. Built for extreme athletes and adventurers.",
-    "category": "Wearables",
-    "whyItIsInteresting": "It bridges the gap between a serious outdoor instrument and a daily smartwatch. The depth gauge, siren, and night mode make it genuinely useful in survival scenarios.",
-    "imageIdea": "rugged smartwatch outdoor adventure GPS tracking",
-    "sourceLink": "https://www.apple.com/apple-watch-ultra",
-    "estimatedPriceRange": "$799\u2013$899",
-    "type": "product"
-  },
-  {
-    "id": 3,
-    "slug": "whoop-4-0-fitness-band",
-    "title": "WHOOP 4.0 Fitness Band",
-    "shortDescription": "A screenless wearable focused purely on strain, recovery, and sleep coaching. Waterproof to 10m with 5-day battery and haptic alarms.",
-    "category": "Wearables",
-    "whyItIsInteresting": "By removing the screen it forces you to focus on recovery data rather than notifications. The strain coach genuinely helps prevent overtraining.",
-    "imageIdea": "fitness tracker wristband athlete workout recovery",
-    "sourceLink": "https://www.whoop.com",
-    "estimatedPriceRange": "$239 + membership",
-    "type": "product"
-  },
-  {
     "id": 4,
     "slug": "garmin-venu-3s-smartwatch",
     "title": "Garmin Venu 3S Smartwatch",
@@ -44,7 +8,7 @@
     "whyItIsInteresting": "Garmin finally nailed the balance between fitness depth and everyday smartwatch polish. The body battery feature is surprisingly accurate at predicting energy levels.",
     "imageIdea": "Compact smartwatch showing AMOLED fitness dashboard on a wrist",
     "sourceLink": "https://www.garmin.com",
-    "estimatedPriceRange": "$399\u2013$449",
+    "estimatedPriceRange": "$399–$449",
     "type": "product"
   },
   {
@@ -56,7 +20,7 @@
     "whyItIsInteresting": "It delivers 90% of smartwatch health features at a third of the price. Google Maps and YouTube Music integration elevate it beyond a basic tracker.",
     "imageIdea": "Slim fitness band on a wrist with step count and heart rate display",
     "sourceLink": "https://www.fitbit.com",
-    "estimatedPriceRange": "$139\u2013$159",
+    "estimatedPriceRange": "$139–$159",
     "type": "product"
   },
   {
@@ -68,7 +32,7 @@
     "whyItIsInteresting": "Sony keeps pushing the noise cancelling ceiling higher. The adaptive sound control automatically adjusts based on your activity and location.",
     "imageIdea": "Premium black headphones floating with visible sound wave cancellation effect",
     "sourceLink": "https://www.sony.com",
-    "estimatedPriceRange": "$349\u2013$399",
+    "estimatedPriceRange": "$349–$399",
     "type": "product"
   },
   {
@@ -104,7 +68,7 @@
     "whyItIsInteresting": "It clips onto anything and survives pool parties, hikes, and showers. The sound output relative to its tiny size is genuinely impressive.",
     "imageIdea": "Colorful mini speaker clipped to a backpack strap outdoors",
     "sourceLink": "https://www.jbl.com",
-    "estimatedPriceRange": "$49\u2013$79",
+    "estimatedPriceRange": "$49–$79",
     "type": "product"
   },
   {
@@ -128,7 +92,7 @@
     "whyItIsInteresting": "It delivers Herman Miller-level ergonomics at roughly half the price. The 12-year warranty signals genuine confidence in build quality.",
     "imageIdea": "Modern mesh office chair at a clean minimalist desk setup",
     "sourceLink": "https://www.branchfurniture.com",
-    "estimatedPriceRange": "$349\u2013$499",
+    "estimatedPriceRange": "$349–$499",
     "type": "product"
   },
   {
@@ -140,7 +104,7 @@
     "whyItIsInteresting": "It matches Apple Studio Display specs at a significantly lower price. The integrated webcam and Thunderbolt hub reduce desk clutter dramatically.",
     "imageIdea": "Sleek 5K monitor on a standing desk showing creative editing software",
     "sourceLink": "https://www.samsung.com",
-    "estimatedPriceRange": "$999\u2013$1,299",
+    "estimatedPriceRange": "$999–$1,299",
     "type": "product"
   },
   {
@@ -164,7 +128,7 @@
     "whyItIsInteresting": "The dual-motor system is faster and more stable than competitors at this price. Memory presets make transitioning between sitting and standing effortless throughout the day.",
     "imageIdea": "Electric standing desk at standing height with dual monitors and plants",
     "sourceLink": "https://www.flexispot.com",
-    "estimatedPriceRange": "$479\u2013$599",
+    "estimatedPriceRange": "$479–$599",
     "type": "product"
   },
   {
@@ -176,7 +140,7 @@
     "whyItIsInteresting": "It replaces a tangle of dongles and a separate wireless charger with one clean device. The combination form factor is uniquely space-efficient for small desks.",
     "imageIdea": "Compact dock on a desk with phone charging wirelessly on top",
     "sourceLink": "https://www.anker.com",
-    "estimatedPriceRange": "$129\u2013$149",
+    "estimatedPriceRange": "$129–$149",
     "type": "product"
   },
   {
@@ -188,7 +152,7 @@
     "whyItIsInteresting": "The assisted tamping system removes the biggest variable for home baristas. It pays for itself in a few months compared to daily coffee shop visits.",
     "imageIdea": "Stainless steel espresso machine pulling a perfect shot with crema",
     "sourceLink": "https://www.breville.com",
-    "estimatedPriceRange": "$699\u2013$899",
+    "estimatedPriceRange": "$699–$899",
     "type": "product"
   },
   {
@@ -200,7 +164,7 @@
     "whyItIsInteresting": "At this price point it outperforms air fryers costing twice as much. The shake reminder is a small feature that makes a big difference in cooking consistency.",
     "imageIdea": "Matte black air fryer on a kitchen counter with crispy golden fries",
     "sourceLink": "https://www.cosori.com",
-    "estimatedPriceRange": "$69\u2013$99",
+    "estimatedPriceRange": "$69–$99",
     "type": "product"
   },
   {
@@ -212,7 +176,7 @@
     "whyItIsInteresting": "It solves the universal annoyance of coffee going cold. Once you set your ideal temperature you never go back to a regular mug.",
     "imageIdea": "Minimalist smart mug on charging coaster with steam rising at perfect temperature",
     "sourceLink": "https://ember.com",
-    "estimatedPriceRange": "$129\u2013$149",
+    "estimatedPriceRange": "$129–$149",
     "type": "product"
   },
   {
@@ -224,7 +188,7 @@
     "whyItIsInteresting": "It makes any curtain smart without replacing hardware or hiring an electrician. Waking up to sunlight on a schedule genuinely improves morning routines.",
     "imageIdea": "Small motor device on a curtain rod with sunlight streaming through opening curtains",
     "sourceLink": "https://www.switch-bot.com",
-    "estimatedPriceRange": "$69\u2013$89",
+    "estimatedPriceRange": "$69–$89",
     "type": "product"
   },
   {
@@ -236,7 +200,7 @@
     "whyItIsInteresting": "It genuinely reduces kitchen clutter by replacing multiple pans, pots, and steamers. The toxin-free ceramic coating holds up better than traditional nonstick over time.",
     "imageIdea": "Colorful ceramic pan with vegetables sauteing and steam basket visible",
     "sourceLink": "https://fromourplace.com",
-    "estimatedPriceRange": "$130\u2013$150",
+    "estimatedPriceRange": "$130–$150",
     "type": "product"
   },
   {
@@ -248,7 +212,7 @@
     "whyItIsInteresting": "The aluminum shell ages beautifully with travel patina while protecting contents better than polycarbonate. The interior compression system is genuinely best-in-class.",
     "imageIdea": "Brushed aluminum suitcase in an airport with leather handle detail",
     "sourceLink": "https://www.awaytravel.com",
-    "estimatedPriceRange": "$475\u2013$595",
+    "estimatedPriceRange": "$475–$595",
     "type": "product"
   },
   {
@@ -260,7 +224,7 @@
     "whyItIsInteresting": "It eliminates the need to carry fuel canisters and charges your phone while you cook. The smokeless combustion technology is a genuine leap over traditional campfires.",
     "imageIdea": "Compact camp stove with flames and USB cable charging a phone in the woods",
     "sourceLink": "https://www.bioliteenergy.com",
-    "estimatedPriceRange": "$149\u2013$199",
+    "estimatedPriceRange": "$149–$199",
     "type": "product"
   },
   {
@@ -272,7 +236,7 @@
     "whyItIsInteresting": "It weighs almost nothing but supports serious weight, making it the go-to for backpackers and festival-goers. Setup takes under 30 seconds with no instructions needed.",
     "imageIdea": "Ultra-compact folding chair at a mountain campsite next to a backpack",
     "sourceLink": "https://www.helinox.com",
-    "estimatedPriceRange": "$99\u2013$129",
+    "estimatedPriceRange": "$99–$129",
     "type": "product"
   },
   {
@@ -284,7 +248,7 @@
     "whyItIsInteresting": "It has survived decades as the go-to outdoor bottle for good reason. The Sustain line adds recycled materials without sacrificing the legendary durability.",
     "imageIdea": "Colorful water bottle clipped to a hiking backpack on a trail",
     "sourceLink": "https://nalgene.com",
-    "estimatedPriceRange": "$14\u2013$18",
+    "estimatedPriceRange": "$14–$18",
     "type": "product"
   },
   {
@@ -296,7 +260,7 @@
     "whyItIsInteresting": "It maxes out carry-on size limits while still being comfortable for long walks through cities. The stowable harness means it slips under airplane seats cleanly.",
     "imageIdea": "Travel backpack being carried through a European cobblestone street",
     "sourceLink": "https://www.osprey.com",
-    "estimatedPriceRange": "$185\u2013$215",
+    "estimatedPriceRange": "$185–$215",
     "type": "product"
   },
   {
@@ -320,7 +284,7 @@
     "whyItIsInteresting": "The OLED upgrade transforms handheld PC gaming with deep blacks and vivid colors. Playing your full Steam library on a plane or in bed is a game-changer.",
     "imageIdea": "Handheld gaming device with OLED screen showing a vibrant game in a cozy setting",
     "sourceLink": "https://store.steampowered.com/steamdeck",
-    "estimatedPriceRange": "$399\u2013$649",
+    "estimatedPriceRange": "$399–$649",
     "type": "product"
   },
   {
@@ -332,7 +296,7 @@
     "whyItIsInteresting": "Hall effect sticks eliminate drift permanently, solving the biggest issue with modern controllers. The price undercuts first-party options while delivering more features.",
     "imageIdea": "Sleek controller on a charging dock with RGB lighting accents",
     "sourceLink": "https://www.8bitdo.com",
-    "estimatedPriceRange": "$69\u2013$79",
+    "estimatedPriceRange": "$69–$79",
     "type": "product"
   },
   {
@@ -344,7 +308,7 @@
     "whyItIsInteresting": "It bridges the gap between gaming aesthetics and genuine ergonomic support. The magnetic headrest and armrest system lets you customize comfort precisely.",
     "imageIdea": "Premium gaming chair at a multi-monitor setup with ambient lighting",
     "sourceLink": "https://secretlab.co",
-    "estimatedPriceRange": "$449\u2013$699",
+    "estimatedPriceRange": "$449–$699",
     "type": "product"
   },
   {
@@ -356,7 +320,7 @@
     "whyItIsInteresting": "The 75% layout saves desk space without losing essential keys. Hot-swappable switches mean you can change the feel without buying a new keyboard.",
     "imageIdea": "Compact mechanical keyboard with RGB lighting and rotary knob on a desk",
     "sourceLink": "https://www.razer.com",
-    "estimatedPriceRange": "$159\u2013$189",
+    "estimatedPriceRange": "$159–$189",
     "type": "product"
   },
   {
@@ -368,7 +332,7 @@
     "whyItIsInteresting": "It fits a full-frame sensor into a body barely larger than an APS-C camera. The autofocus system tracks eyes, animals, and vehicles with uncanny precision.",
     "imageIdea": "Compact mirrorless camera held up capturing a golden hour landscape",
     "sourceLink": "https://www.sony.com",
-    "estimatedPriceRange": "$1,798\u2013$2,198",
+    "estimatedPriceRange": "$1,798–$2,198",
     "type": "product"
   },
   {
@@ -380,7 +344,7 @@
     "whyItIsInteresting": "The dual-camera system gives you wide and telephoto options mid-flight without landing. 46-minute flight time is class-leading and actually delivers in real conditions.",
     "imageIdea": "Compact drone hovering over a scenic coastal cliff at golden hour",
     "sourceLink": "https://www.dji.com",
-    "estimatedPriceRange": "$1,099\u2013$1,549",
+    "estimatedPriceRange": "$1,099–$1,549",
     "type": "product"
   },
   {
@@ -392,7 +356,7 @@
     "whyItIsInteresting": "The FlexFold dividers reconfigure in seconds for different gear combinations. It looks stylish enough for daily carry but protects camera gear seriously well.",
     "imageIdea": "Sleek sling bag open showing camera and lenses with FlexFold dividers",
     "sourceLink": "https://www.peakdesign.com",
-    "estimatedPriceRange": "$99\u2013$119",
+    "estimatedPriceRange": "$99–$119",
     "type": "product"
   },
   {
@@ -404,7 +368,7 @@
     "whyItIsInteresting": "Shoot everything in 360 and reframe the perfect angle later in the app. The invisible selfie stick effect makes every clip look like it was filmed by a drone.",
     "imageIdea": "360 camera on invisible stick capturing a snowboarding action shot",
     "sourceLink": "https://www.insta360.com",
-    "estimatedPriceRange": "$499\u2013$599",
+    "estimatedPriceRange": "$499–$599",
     "type": "product"
   },
   {
@@ -416,7 +380,7 @@
     "whyItIsInteresting": "It wraps around trees, poles, and railings to create shots no regular tripod can achieve. The 5K weight capacity handles professional mirrorless setups without wobble.",
     "imageIdea": "Flexible tripod wrapped around a tree branch holding a camera in the forest",
     "sourceLink": "https://joby.com",
-    "estimatedPriceRange": "$79\u2013$99",
+    "estimatedPriceRange": "$79–$99",
     "type": "product"
   },
   {
@@ -428,7 +392,7 @@
     "whyItIsInteresting": "It replaces a curling iron, straightener, and blow dryer with one tool that causes significantly less heat damage. The Coanda effect wrapping is genuinely mesmerizing.",
     "imageIdea": "Sleek hair styling tool with multiple attachments on a vanity counter",
     "sourceLink": "https://www.dyson.com",
-    "estimatedPriceRange": "$499\u2013$599",
+    "estimatedPriceRange": "$499–$599",
     "type": "product"
   },
   {
@@ -452,7 +416,7 @@
     "whyItIsInteresting": "The medical-grade silicone is far more hygienic than bristle brushes and never needs replacement heads. Most users see visibly cleaner skin within the first week.",
     "imageIdea": "Mint green silicone facial device next to skincare products in a bathroom",
     "sourceLink": "https://www.foreo.com",
-    "estimatedPriceRange": "$199\u2013$279",
+    "estimatedPriceRange": "$199–$279",
     "type": "product"
   },
   {
@@ -464,7 +428,7 @@
     "whyItIsInteresting": "The pivoting blade adapts to facial contours, eliminating the need for multiple passes. It works on any hair length, replacing a trimmer and razor with one device.",
     "imageIdea": "Modern electric groomer with pivoting head and multiple guard attachments",
     "sourceLink": "https://www.philips.com",
-    "estimatedPriceRange": "$34\u2013$49",
+    "estimatedPriceRange": "$34–$49",
     "type": "product"
   },
   {
@@ -476,7 +440,7 @@
     "whyItIsInteresting": "It looks like a piece of art rather than an appliance, blending into any room decor. The porcelain construction feels premium and the mist is whisper-quiet.",
     "imageIdea": "Elegant white porcelain diffuser on a nightstand with soft mist rising",
     "sourceLink": "https://vitruvi.com",
-    "estimatedPriceRange": "$99\u2013$119",
+    "estimatedPriceRange": "$99–$119",
     "type": "product"
   },
   {
@@ -488,7 +452,7 @@
     "whyItIsInteresting": "It looks professional enough for the office while handling weekend trips easily. Bellroy's attention to internal organization means everything has a dedicated pocket.",
     "imageIdea": "Sleek backpack open showing organized compartments with laptop and gear",
     "sourceLink": "https://bellroy.com",
-    "estimatedPriceRange": "$149\u2013$189",
+    "estimatedPriceRange": "$149–$189",
     "type": "product"
   },
   {
@@ -500,7 +464,7 @@
     "whyItIsInteresting": "It forces a minimalist carry that eliminates back-pocket bulk permanently. The titanium version develops a unique patina over time that makes each wallet one-of-a-kind.",
     "imageIdea": "Slim titanium wallet with cards fanning out and cash strap visible",
     "sourceLink": "https://www.ridgewallet.com",
-    "estimatedPriceRange": "$95\u2013$135",
+    "estimatedPriceRange": "$95–$135",
     "type": "product"
   },
   {
@@ -512,7 +476,7 @@
     "whyItIsInteresting": "The Cordura nylon is nearly indestructible and the low-profile design keeps essentials accessible without a full backpack. Perfect for commuters and travelers.",
     "imageIdea": "Compact black sling bag worn crossbody on a person walking through a city",
     "sourceLink": "https://www.aersf.com",
-    "estimatedPriceRange": "$75\u2013$85",
+    "estimatedPriceRange": "$75–$85",
     "type": "product"
   },
   {
@@ -524,7 +488,7 @@
     "whyItIsInteresting": "It turns any bag into an organized tech pouch instantly. The elastic grid system is endlessly configurable and nothing rattles around during travel.",
     "imageIdea": "Flat organizer with cables, pens, and USB drives held in elastic grid",
     "sourceLink": "https://www.cocooninnovations.com",
-    "estimatedPriceRange": "$19\u2013$35",
+    "estimatedPriceRange": "$19–$35",
     "type": "product"
   },
   {
@@ -536,7 +500,7 @@
     "whyItIsInteresting": "The dedicated shoe compartment keeps everything else clean. The trolley sleeve slips over suitcase handles so it works beautifully as part of a travel system.",
     "imageIdea": "Stylish duffel bag on a suitcase handle with shoe compartment visible",
     "sourceLink": "https://www.calpaktravel.com",
-    "estimatedPriceRange": "$85\u2013$120",
+    "estimatedPriceRange": "$85–$120",
     "type": "product"
   },
   {
@@ -548,7 +512,7 @@
     "whyItIsInteresting": "The battery installation takes minutes with zero wiring needed. Intelligent alerts distinguish people, packages, animals, and vehicles to reduce false notifications dramatically.",
     "imageIdea": "Smart doorbell mounted on a front door frame showing live video feed",
     "sourceLink": "https://store.google.com",
-    "estimatedPriceRange": "$149\u2013$179",
+    "estimatedPriceRange": "$149–$179",
     "type": "product"
   },
   {
@@ -560,7 +524,7 @@
     "whyItIsInteresting": "Unlike single-color strips, the gradient effect shows different colors across zones simultaneously. TV sync transforms movie watching into a genuinely immersive experience.",
     "imageIdea": "Multicolor gradient light strip behind a TV creating ambient glow on the wall",
     "sourceLink": "https://www.philips-hue.com",
-    "estimatedPriceRange": "$169\u2013$229",
+    "estimatedPriceRange": "$169–$229",
     "type": "product"
   },
   {
@@ -584,7 +548,7 @@
     "whyItIsInteresting": "Unlike motion sensors, mmWave radar detects someone sitting perfectly still. Zone detection means different automations trigger in different parts of the same room.",
     "imageIdea": "Small white sensor on a shelf with zone detection overlay showing room mapping",
     "sourceLink": "https://www.aqara.com",
-    "estimatedPriceRange": "$49\u2013$59",
+    "estimatedPriceRange": "$49–$59",
     "type": "product"
   },
   {
@@ -596,7 +560,7 @@
     "whyItIsInteresting": "Matter compatibility means it works across all major ecosystems without being locked in. Real-time energy monitoring helps identify power-hungry devices and reduce electric bills.",
     "imageIdea": "Compact smart plug in a wall outlet with energy usage data on a phone",
     "sourceLink": "https://www.evehome.com",
-    "estimatedPriceRange": "$39\u2013$44",
+    "estimatedPriceRange": "$39–$44",
     "type": "product"
   },
   {
@@ -608,7 +572,7 @@
     "whyItIsInteresting": "The M3 chip makes this mid-tier iPad more powerful than most laptops. With Stage Manager and Apple Pencil Pro it becomes a genuine laptop replacement for many workflows.",
     "imageIdea": "Thin tablet with stylus showing note-taking app and split-screen productivity",
     "sourceLink": "https://www.apple.com/ipad-air",
-    "estimatedPriceRange": "$599\u2013$799",
+    "estimatedPriceRange": "$599–$799",
     "type": "product"
   },
   {
@@ -644,7 +608,7 @@
     "whyItIsInteresting": "The physical flipping gesture makes time tracking tangible and habitual instead of forgettable. Freelancers and consultants report billing 20-30% more hours after adopting it.",
     "imageIdea": "Octagonal tracker device on a desk next to a laptop with time report on screen",
     "sourceLink": "https://timeular.com",
-    "estimatedPriceRange": "$59\u2013$79",
+    "estimatedPriceRange": "$59–$79",
     "type": "product"
   },
   {
@@ -656,7 +620,7 @@
     "whyItIsInteresting": "It bridges analog writing and digital organization by instantly sending handwritten notes to your cloud. One notebook replaces hundreds of paper notebooks over its lifetime.",
     "imageIdea": "Reusable notebook with handwritten notes and phone scanning to cloud app",
     "sourceLink": "https://getrocketbook.com",
-    "estimatedPriceRange": "$45\u2013$55",
+    "estimatedPriceRange": "$45–$55",
     "type": "product"
   },
   {
@@ -668,7 +632,7 @@
     "whyItIsInteresting": "It brings personal trainer-level form feedback into your living room. The rep counting and movement tracking work surprisingly well and prevent common injury-causing mistakes.",
     "imageIdea": "Camera device next to TV showing body tracking overlay during a workout",
     "sourceLink": "https://www.onepeloton.com",
-    "estimatedPriceRange": "$199\u2013$295",
+    "estimatedPriceRange": "$199–$295",
     "type": "product"
   },
   {
@@ -680,7 +644,7 @@
     "whyItIsInteresting": "The pressure sensor shows real-time force so you hit the right intensity for each muscle group. Bluetooth-guided routines make recovery sessions more effective than guessing.",
     "imageIdea": "Professional massage gun with app showing pressure feedback and guided routine",
     "sourceLink": "https://hyperice.com",
-    "estimatedPriceRange": "$299\u2013$329",
+    "estimatedPriceRange": "$299–$329",
     "type": "product"
   },
   {
@@ -692,7 +656,7 @@
     "whyItIsInteresting": "It delivers a full-body gym workout from a device that fits in a small bag. The body-weight exercises are infinitely scalable from beginner to advanced athlete.",
     "imageIdea": "Suspension straps anchored to a door frame with person doing a row exercise",
     "sourceLink": "https://www.trxtraining.com",
-    "estimatedPriceRange": "$99\u2013$149",
+    "estimatedPriceRange": "$99–$149",
     "type": "product"
   },
   {
@@ -704,7 +668,7 @@
     "whyItIsInteresting": "The narrow profile targets the back muscles alongside the spine that foam rollers miss entirely. Many users report significant back pain relief within the first week of daily use.",
     "imageIdea": "Person lying on a back roller wheel with relaxed expression showing spine alignment",
     "sourceLink": "https://chirpwheel.com",
-    "estimatedPriceRange": "$39\u2013$99",
+    "estimatedPriceRange": "$39–$99",
     "type": "product"
   },
   {
@@ -716,7 +680,7 @@
     "whyItIsInteresting": "They make everyday activities like walking and stretching subtly more effective without feeling like a workout. The design is attractive enough that people actually wear them consistently.",
     "imageIdea": "Colorful weighted bangles on wrists during a yoga pose in a bright studio",
     "sourceLink": "https://www.balabangles.com",
-    "estimatedPriceRange": "$49\u2013$65",
+    "estimatedPriceRange": "$49–$65",
     "type": "product"
   },
   {
@@ -728,7 +692,7 @@
     "whyItIsInteresting": "It is genuinely functional as high-visibility safety gear while looking futuristic. The phosphorescent technology charges in sunlight and glows for up to 12 hours after dark.",
     "imageIdea": "Glowing green jacket in a dark forest with subtle light emission visible",
     "sourceLink": "https://www.vollebak.com",
-    "estimatedPriceRange": "$395\u2013$495",
+    "estimatedPriceRange": "$395–$495",
     "type": "product"
   },
   {
@@ -740,7 +704,7 @@
     "whyItIsInteresting": "Gentle vibrations on your hips, knees, and ankles guide alignment without needing to look at a screen. It is like having a yoga instructor's hands gently correcting your form.",
     "imageIdea": "Person in yoga pose wearing tech-embedded pants with subtle sensor indicators",
     "sourceLink": "https://www.wearableexperiments.com",
-    "estimatedPriceRange": "$149\u2013$249",
+    "estimatedPriceRange": "$149–$249",
     "type": "product"
   },
   {
@@ -752,7 +716,7 @@
     "whyItIsInteresting": "It provides better sun protection than sunscreen without reapplication or chemicals on your skin. The moisture-wicking fabric keeps you cool even in direct sunlight.",
     "imageIdea": "Lightweight hooded shirt on a person at the beach with UV protection graphic overlay",
     "sourceLink": "https://www.uvskinz.com",
-    "estimatedPriceRange": "$39\u2013$59",
+    "estimatedPriceRange": "$39–$59",
     "type": "product"
   },
   {
@@ -764,7 +728,7 @@
     "whyItIsInteresting": "It captures lab-quality biometric data during real-world activity without any wrist or chest strap. Athletes and researchers use it for continuous physiological monitoring during training.",
     "imageIdea": "Athletic smart shirt showing embedded sensor lines with biometric data overlay",
     "sourceLink": "https://www.hexoskin.com",
-    "estimatedPriceRange": "$169\u2013$399",
+    "estimatedPriceRange": "$169–$399",
     "type": "product"
   },
   {
@@ -776,7 +740,7 @@
     "whyItIsInteresting": "They look almost like regular sunglasses while projecting a massive virtual screen. Real-time translation overlay makes them genuinely useful for international travelers.",
     "imageIdea": "Sleek AR glasses on a person with subtle virtual display content visible in lenses",
     "sourceLink": "https://www.rayneo.com",
-    "estimatedPriceRange": "$379\u2013$429",
+    "estimatedPriceRange": "$379–$429",
     "type": "product"
   },
   {
@@ -788,7 +752,7 @@
     "whyItIsInteresting": "The LiFePO4 chemistry lasts over a decade of daily use, making it a long-term investment. It can power a mini fridge for 12+ hours during outages and recharges via solar panels.",
     "imageIdea": "Portable power station at a campsite connected to solar panel and charging devices",
     "sourceLink": "https://www.bluettipower.com",
-    "estimatedPriceRange": "$649\u2013$799",
+    "estimatedPriceRange": "$649–$799",
     "type": "product"
   },
   {
@@ -800,7 +764,7 @@
     "whyItIsInteresting": "Each bag replaces thousands of single-use plastic bags over its lifetime. They are versatile enough for sous vide cooking, freezer storage, and snack carrying in one product.",
     "imageIdea": "Colorful silicone bags with fruits and snacks on a kitchen counter",
     "sourceLink": "https://www.stasherbag.com",
-    "estimatedPriceRange": "$34\u2013$59",
+    "estimatedPriceRange": "$34–$59",
     "type": "product"
   },
   {
@@ -812,7 +776,7 @@
     "whyItIsInteresting": "It provides reliable off-grid charging without fuel or outlets. The foldable design and lightweight build make it practical for backpacking, not just car camping.",
     "imageIdea": "Foldable solar panel angled toward the sun on a rock charging a phone",
     "sourceLink": "https://www.goalzero.com",
-    "estimatedPriceRange": "$99\u2013$129",
+    "estimatedPriceRange": "$99–$129",
     "type": "product"
   },
   {
@@ -824,7 +788,7 @@
     "whyItIsInteresting": "It addresses one of the most overlooked single-use plastic problems in personal care. The carrying case makes it easy to keep in a toiletry bag and the material feels surprisingly similar to cotton.",
     "imageIdea": "Reusable swab in its case next to a pile of single-use swabs for comparison",
     "sourceLink": "https://lastobject.com",
-    "estimatedPriceRange": "$12\u2013$16",
+    "estimatedPriceRange": "$12–$16",
     "type": "product"
   },
   {
@@ -836,7 +800,7 @@
     "whyItIsInteresting": "It provides real drop protection while being completely compostable, unlike greenwashed alternatives. Over a billion plastic phone cases end up in landfills annually and this directly addresses that.",
     "imageIdea": "Eco-friendly phone case in earthy tones on a phone next to a plant",
     "sourceLink": "https://pelacase.com",
-    "estimatedPriceRange": "$35\u2013$55",
+    "estimatedPriceRange": "$35–$55",
     "type": "product"
   },
   {
@@ -848,7 +812,7 @@
     "whyItIsInteresting": "They combine functional barware with a conversation-starting art piece. Each mountain is topographically accurate, making them meaningful gifts for outdoor enthusiasts and whiskey lovers alike.",
     "imageIdea": "Set of whiskey glasses with mountain bases on a wooden surface with warm lighting",
     "sourceLink": "https://www.uncommongoods.com",
-    "estimatedPriceRange": "$65\u2013$85",
+    "estimatedPriceRange": "$65–$85",
     "type": "product"
   },
   {
@@ -860,7 +824,7 @@
     "whyItIsInteresting": "It keeps ice intact for an absurdly long time and survives drops that shatter competitors. The wide color range and personalization options make it a reliably great gift.",
     "imageIdea": "Colorful insulated tumbler with condensation beads on a desk in warm light",
     "sourceLink": "https://www.yeti.com",
-    "estimatedPriceRange": "$30\u2013$38",
+    "estimatedPriceRange": "$30–$38",
     "type": "product"
   },
   {
@@ -884,7 +848,7 @@
     "whyItIsInteresting": "The 4-pack means you can tag all your most-lost items at once. The crowd-sourced finding network means even out-of-range items can be located by other Tile users anonymously.",
     "imageIdea": "Small white trackers attached to keys, wallet, backpack, and luggage tag",
     "sourceLink": "https://www.tile.com",
-    "estimatedPriceRange": "$54\u2013$69",
+    "estimatedPriceRange": "$54–$69",
     "type": "product"
   },
   {
@@ -896,7 +860,46 @@
     "whyItIsInteresting": "It takes the guesswork out of cooking meat perfectly every single time. The guided cook system walks beginners through resting times and carry-over cooking for restaurant-quality results.",
     "imageIdea": "Wireless thermometer probe in a steak on a cutting board with app showing temperature",
     "sourceLink": "https://www.meater.com",
-    "estimatedPriceRange": "$69\u2013$99",
+    "estimatedPriceRange": "$69–$99",
     "type": "product"
+  },
+  {
+    "id": 76,
+    "slug": "sonos-move-2-portable-speaker",
+    "title": "Sonos Move 2 Portable Speaker",
+    "shortDescription": "The Sonos Move 2 is a portable smart speaker that delivers powerful sound both indoors and outdoors. It boasts improved battery life, a redesigned acoustic architecture for wider stereo sound, and seamless integration with the Sonos ecosystem.",
+    "category": "Audio",
+    "whyItIsInteresting": "This speaker elevates portable audio with its premium sound quality and smart home capabilities. Its updated design and extended battery life make it a versatile companion for any environment, from backyard BBQs to home listening.",
+    "imageIdea": "person on a picnic blanket with a speaker",
+    "sourceLink": "https://www.sonos.com/en-us/shop/move-2",
+    "estimatedPriceRange": "$449",
+    "type": "product",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 77,
+    "slug": "playstation-portal-remote-player",
+    "title": "PlayStation Portal Remote Player",
+    "shortDescription": "Stream your PS5 games directly from your console to the PlayStation Portal. This dedicated remote player features a vibrant 8-inch LCD screen and a comfortable handheld design with all the essential DualSense wireless controller features.",
+    "category": "Gaming",
+    "whyItIsInteresting": "This device offers a novel way to experience your PS5 library without being tethered to a TV. It's perfect for gamers who want to continue their sessions in another room or on the go, provided they have a strong Wi-Fi connection.",
+    "imageIdea": "person playing a video game on a handheld device",
+    "sourceLink": "https://direct.playstation.com/en-us/accessories/playstation-portal-remote-player/6000000000001016",
+    "estimatedPriceRange": "$199.99",
+    "type": "product",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 78,
+    "slug": "anker-powerhouse-256wh-portable-power-station",
+    "title": "Anker PowerHouse 256Wh Portable Power Station",
+    "shortDescription": "The Anker PowerHouse is a compact and powerful portable power station designed to keep your devices charged on the go. With multiple output ports, including AC, USB-C, and USB-A, it can power everything from laptops and phones to small appliances.",
+    "category": "Electronics",
+    "whyItIsInteresting": "This portable power station offers a reliable and flexible power solution for outdoor adventures, power outages, or as a backup for your essential electronics. Its portability and versatile charging options make it a practical investment.",
+    "imageIdea": "camper setting up a tent with a power station nearby",
+    "sourceLink": "https://www.anker.com/products/a1701",
+    "estimatedPriceRange": "$279.99-$329.99",
+    "type": "product",
+    "dateAdded": "2026-04-13"
   }
 ]

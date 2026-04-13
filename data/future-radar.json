@@ -1,35 +1,5 @@
 [
   {
-    "id": 1,
-    "slug": "solid-state-batteries",
-    "techName": "Solid-State Batteries",
-    "explanation": "Batteries that replace liquid electrolyte with solid material. They offer 2-3x the energy density, charge in minutes, and virtually eliminate fire risk.",
-    "industry": "Energy",
-    "whyItMatters": "They could double EV range to 600+ miles, make grid storage affordable, and eliminate the biggest barrier to renewable energy adoption.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech"
-  },
-  {
-    "id": 2,
-    "slug": "compact-fusion-reactors",
-    "techName": "Compact Fusion Reactors",
-    "explanation": "Small-scale nuclear fusion devices that replicate how the sun generates energy. They fuse hydrogen isotopes at extreme temperatures to produce virtually limitless clean power with no long-lived radioactive waste.",
-    "industry": "Energy",
-    "whyItMatters": "A single fusion plant could power a city with fuel extracted from seawater, ending dependence on fossil fuels and solving the energy crisis permanently.",
-    "developmentStage": "Advanced Research",
-    "type": "future-tech"
-  },
-  {
-    "id": 3,
-    "slug": "perovskite-solar-cells",
-    "techName": "Perovskite Solar Cells",
-    "explanation": "Next-generation solar cells made from perovskite crystals that can be printed onto flexible surfaces. They achieve efficiencies rivaling silicon at a fraction of the manufacturing cost.",
-    "industry": "Energy",
-    "whyItMatters": "They could cut solar panel costs by 80%, be applied to windows and building facades, and make solar viable in cloudy climates by capturing a broader light spectrum.",
-    "developmentStage": "Prototype",
-    "type": "future-tech"
-  },
-  {
     "id": 4,
     "slug": "green-hydrogen-electrolyzers",
     "techName": "Green Hydrogen Electrolyzers",
@@ -498,5 +468,38 @@
     "whyItMatters": "We need to plant a trillion trees to offset emissions, but manual planting cannot scale. Drone swarms could reforest degraded land 150x faster and 80% cheaper than traditional methods.",
     "developmentStage": "Growth Phase",
     "type": "future-tech"
+  },
+  {
+    "id": 51,
+    "slug": "ai-powered-drug-discovery-molecule-design",
+    "techName": "AI-Powered Drug Discovery (Molecule Design)",
+    "explanation": "Recent breakthroughs in generative AI models are enabling the rapid design of novel drug molecules with desired properties. These systems can explore vast chemical spaces far beyond human capability, identifying potential drug candidates for complex diseases in significantly reduced timeframes.",
+    "industry": "Biotechnology/Pharmaceuticals",
+    "whyItMatters": "This technology drastically accelerates the initial stages of drug development, promising to bring new treatments for previously intractable diseases to market faster and more affordably. It represents a paradigm shift in how we approach therapeutic innovation.",
+    "developmentStage": "Early Commercialization",
+    "type": "future-tech",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 52,
+    "slug": "next-gen-fusion-energy-reactor-control",
+    "techName": "Next-Generation Fusion Energy Reactor Control",
+    "explanation": "Advancements in AI and advanced sensor networks are leading to more stable and controllable plasma confinement in fusion reactors. Recent milestones have demonstrated unprecedented durations of stable plasma, moving closer to sustained, energy-producing fusion reactions.",
+    "industry": "Energy",
+    "whyItMatters": "Achieving controllable fusion energy would provide a virtually limitless, clean, and safe source of power, fundamentally transforming global energy landscapes and addressing climate change. These control breakthroughs are crucial for unlocking this potential.",
+    "developmentStage": "Prototype",
+    "type": "future-tech",
+    "dateAdded": "2026-04-13"
+  },
+  {
+    "id": 53,
+    "slug": "synthetic-biology-chassis-engineering",
+    "techName": "Synthetic Biology Chassis Engineering",
+    "explanation": "Researchers are developing highly optimized microbial 'chassis' organisms that can be programmed to efficiently produce a wide range of valuable biomolecules, from biofuels to specialized chemicals. Recent progress includes creating custom metabolic pathways and enhancing cellular resilience for industrial-scale applications.",
+    "industry": "Biotechnology/Chemicals",
+    "whyItMatters": "This technology allows for sustainable and bio-based production of materials currently reliant on fossil fuels, reducing environmental impact and creating novel product possibilities. It's a key enabler for a more circular and bio-economical future.",
+    "developmentStage": "Early Adoption",
+    "type": "future-tech",
+    "dateAdded": "2026-04-13"
   }
 ]
