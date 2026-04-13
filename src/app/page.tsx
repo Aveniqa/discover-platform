@@ -377,6 +377,7 @@ export default function HomePage() {
               </div>
 
               {/* Horizontal scroll row */}
+              <div className="relative">
               <div className="flex gap-4 overflow-x-auto pb-2 snap-x snap-mandatory scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0">
                 {items.map((item) => (
                   <Link
@@ -405,6 +406,9 @@ export default function HomePage() {
                     </div>
                   </Link>
                 ))}
+              </div>
+              {/* Fade hint — indicates more cards to scroll */}
+              <div className="absolute right-0 top-0 bottom-2 w-16 bg-gradient-to-l from-background to-transparent pointer-events-none" />
               </div>
             </div>
           </section>
