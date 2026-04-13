@@ -36,6 +36,7 @@ jobs:
       - name: Generate fresh content
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AMAZON_AFFILIATE_TAG: ${{ secrets.AMAZON_AFFILIATE_TAG }}
         run: node scripts/generate-daily-content.js
 
       - name: Validate JSON files

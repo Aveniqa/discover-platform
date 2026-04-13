@@ -9,7 +9,12 @@
     "imageIdea": "Compact smartwatch showing AMOLED fitness dashboard on a wrist",
     "sourceLink": "https://www.garmin.com",
     "estimatedPriceRange": "$399–$449",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Garmin%20Venu%203S%20Smartwatch&tag=vaultvibe-20"
+    }
   },
   {
     "id": 5,
@@ -21,7 +26,12 @@
     "imageIdea": "Slim fitness band on a wrist with step count and heart rate display",
     "sourceLink": "https://www.fitbit.com",
     "estimatedPriceRange": "$139–$159",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Fitbit%20Charge%206%20Fitness%20Tracker&tag=vaultvibe-20"
+    }
   },
   {
     "id": 6,
@@ -33,7 +43,12 @@
     "imageIdea": "Premium black headphones floating with visible sound wave cancellation effect",
     "sourceLink": "https://www.sony.com",
     "estimatedPriceRange": "$349–$399",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Sony%20WH-1000XM6%20Wireless%20Headphones&tag=vaultvibe-20"
+    }
   },
   {
     "id": 7,
@@ -45,7 +60,12 @@
     "imageIdea": "White wireless earbuds with translucent case showing internal chip",
     "sourceLink": "https://www.apple.com/airpods-pro",
     "estimatedPriceRange": "$249",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Apple%20AirPods%20Pro%203&tag=vaultvibe-20"
+    }
   },
   {
     "id": 8,
@@ -57,7 +77,12 @@
     "imageIdea": "Sculptural white speaker on a shelf with visible spatial audio waves",
     "sourceLink": "https://www.sonos.com",
     "estimatedPriceRange": "$449",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Sonos%20Era%20300%20Spatial%20Speaker&tag=vaultvibe-20"
+    }
   },
   {
     "id": 9,
@@ -69,7 +94,12 @@
     "imageIdea": "Colorful mini speaker clipped to a backpack strap outdoors",
     "sourceLink": "https://www.jbl.com",
     "estimatedPriceRange": "$49–$79",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=JBL%20Clip%205%20Portable%20Speaker&tag=vaultvibe-20"
+    }
   },
   {
     "id": 10,
@@ -81,7 +111,12 @@
     "imageIdea": "Transparent open-ear earbuds with visible internal components",
     "sourceLink": "https://nothing.tech",
     "estimatedPriceRange": "$149",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Nothing%20Ear%20(open)%20Earbuds&tag=vaultvibe-20"
+    }
   },
   {
     "id": 11,
@@ -93,7 +128,12 @@
     "imageIdea": "Modern mesh office chair at a clean minimalist desk setup",
     "sourceLink": "https://www.branchfurniture.com",
     "estimatedPriceRange": "$349–$499",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Branch%20Ergonomic%20Chair&tag=vaultvibe-20"
+    }
   },
   {
     "id": 12,
@@ -105,7 +145,12 @@
     "imageIdea": "Sleek 5K monitor on a standing desk showing creative editing software",
     "sourceLink": "https://www.samsung.com",
     "estimatedPriceRange": "$999–$1,299",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Samsung%20ViewFinity%20S9%205K%20Monitor&tag=vaultvibe-20"
+    }
   },
   {
     "id": 13,
@@ -117,7 +162,12 @@
     "imageIdea": "Low-profile wireless keyboard with warm backlighting on a wooden desk",
     "sourceLink": "https://www.logitech.com",
     "estimatedPriceRange": "$109",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Logitech%20MX%20Keys%20S%20Keyboard&tag=vaultvibe-20"
+    }
   },
   {
     "id": 14,
@@ -129,7 +179,12 @@
     "imageIdea": "Electric standing desk at standing height with dual monitors and plants",
     "sourceLink": "https://www.flexispot.com",
     "estimatedPriceRange": "$479–$599",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=FlexiSpot%20E7%20Standing%20Desk&tag=vaultvibe-20"
+    }
   },
   {
     "id": 15,
@@ -141,7 +196,12 @@
     "imageIdea": "Compact dock on a desk with phone charging wirelessly on top",
     "sourceLink": "https://www.anker.com",
     "estimatedPriceRange": "$129–$149",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Anker%20651%20USB-C%20Dock%20with%20Charging%20Pad&tag=vaultvibe-20"
+    }
   },
   {
     "id": 16,
@@ -153,7 +213,12 @@
     "imageIdea": "Stainless steel espresso machine pulling a perfect shot with crema",
     "sourceLink": "https://www.breville.com",
     "estimatedPriceRange": "$699–$899",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Breville%20Barista%20Express%20Impress&tag=vaultvibe-20"
+    }
   },
   {
     "id": 17,
@@ -165,7 +230,12 @@
     "imageIdea": "Matte black air fryer on a kitchen counter with crispy golden fries",
     "sourceLink": "https://www.cosori.com",
     "estimatedPriceRange": "$69–$99",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Cosori%20Air%20Fryer%20Pro%20LE%205-Qt&tag=vaultvibe-20"
+    }
   },
   {
     "id": 18,
@@ -177,7 +247,12 @@
     "imageIdea": "Minimalist smart mug on charging coaster with steam rising at perfect temperature",
     "sourceLink": "https://ember.com",
     "estimatedPriceRange": "$129–$149",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Ember%20Mug%202%20Temperature%20Control%20Mug&tag=vaultvibe-20"
+    }
   },
   {
     "id": 19,
@@ -189,7 +264,12 @@
     "imageIdea": "Small motor device on a curtain rod with sunlight streaming through opening curtains",
     "sourceLink": "https://www.switch-bot.com",
     "estimatedPriceRange": "$69–$89",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=SwitchBot%20Curtain%203%20Smart%20Motor&tag=vaultvibe-20"
+    }
   },
   {
     "id": 20,
@@ -201,7 +281,12 @@
     "imageIdea": "Colorful ceramic pan with vegetables sauteing and steam basket visible",
     "sourceLink": "https://fromourplace.com",
     "estimatedPriceRange": "$130–$150",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Our%20Place%20Always%20Pan%202.0&tag=vaultvibe-20"
+    }
   },
   {
     "id": 21,
@@ -213,7 +298,12 @@
     "imageIdea": "Brushed aluminum suitcase in an airport with leather handle detail",
     "sourceLink": "https://www.awaytravel.com",
     "estimatedPriceRange": "$475–$595",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Away%20Carry-On%20Aluminum%20Edition&tag=vaultvibe-20"
+    }
   },
   {
     "id": 22,
@@ -225,7 +315,12 @@
     "imageIdea": "Compact camp stove with flames and USB cable charging a phone in the woods",
     "sourceLink": "https://www.bioliteenergy.com",
     "estimatedPriceRange": "$149–$199",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=BioLite%20CampStove%202%2B&tag=vaultvibe-20"
+    }
   },
   {
     "id": 23,
@@ -237,7 +332,12 @@
     "imageIdea": "Ultra-compact folding chair at a mountain campsite next to a backpack",
     "sourceLink": "https://www.helinox.com",
     "estimatedPriceRange": "$99–$129",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Helinox%20Chair%20One%20Ultralight%20Camp%20Chair&tag=vaultvibe-20"
+    }
   },
   {
     "id": 24,
@@ -249,7 +349,12 @@
     "imageIdea": "Colorful water bottle clipped to a hiking backpack on a trail",
     "sourceLink": "https://nalgene.com",
     "estimatedPriceRange": "$14–$18",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Nalgene%2032oz%20Sustain%20Water%20Bottle&tag=vaultvibe-20"
+    }
   },
   {
     "id": 25,
@@ -261,7 +366,12 @@
     "imageIdea": "Travel backpack being carried through a European cobblestone street",
     "sourceLink": "https://www.osprey.com",
     "estimatedPriceRange": "$185–$215",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Osprey%20Farpoint%2040%20Travel%20Backpack&tag=vaultvibe-20"
+    }
   },
   {
     "id": 26,
@@ -273,7 +383,12 @@
     "imageIdea": "Sleek white console next to a TV displaying a visually stunning game scene",
     "sourceLink": "https://www.playstation.com",
     "estimatedPriceRange": "$699",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=PlayStation%205%20Pro%20Console&tag=vaultvibe-20"
+    }
   },
   {
     "id": 27,
@@ -285,7 +400,12 @@
     "imageIdea": "Handheld gaming device with OLED screen showing a vibrant game in a cozy setting",
     "sourceLink": "https://store.steampowered.com/steamdeck",
     "estimatedPriceRange": "$399–$649",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Steam%20Deck%20OLED%20Handheld&tag=vaultvibe-20"
+    }
   },
   {
     "id": 28,
@@ -297,7 +417,12 @@
     "imageIdea": "Sleek controller on a charging dock with RGB lighting accents",
     "sourceLink": "https://www.8bitdo.com",
     "estimatedPriceRange": "$69–$79",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=8BitDo%20Ultimate%20Bluetooth%20Controller&tag=vaultvibe-20"
+    }
   },
   {
     "id": 29,
@@ -309,7 +434,12 @@
     "imageIdea": "Premium gaming chair at a multi-monitor setup with ambient lighting",
     "sourceLink": "https://secretlab.co",
     "estimatedPriceRange": "$449–$699",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Secretlab%20TITAN%20Evo%20Gaming%20Chair&tag=vaultvibe-20"
+    }
   },
   {
     "id": 30,
@@ -321,7 +451,12 @@
     "imageIdea": "Compact mechanical keyboard with RGB lighting and rotary knob on a desk",
     "sourceLink": "https://www.razer.com",
     "estimatedPriceRange": "$159–$189",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Razer%20BlackWidow%20V4%2075%25%20Mechanical%20Keyboard&tag=vaultvibe-20"
+    }
   },
   {
     "id": 31,
@@ -333,7 +468,12 @@
     "imageIdea": "Compact mirrorless camera held up capturing a golden hour landscape",
     "sourceLink": "https://www.sony.com",
     "estimatedPriceRange": "$1,798–$2,198",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Sony%20Alpha%20a7C%20II%20Mirrorless%20Camera&tag=vaultvibe-20"
+    }
   },
   {
     "id": 32,
@@ -345,7 +485,12 @@
     "imageIdea": "Compact drone hovering over a scenic coastal cliff at golden hour",
     "sourceLink": "https://www.dji.com",
     "estimatedPriceRange": "$1,099–$1,549",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=DJI%20Air%203%20Camera%20Drone&tag=vaultvibe-20"
+    }
   },
   {
     "id": 33,
@@ -357,7 +502,12 @@
     "imageIdea": "Sleek sling bag open showing camera and lenses with FlexFold dividers",
     "sourceLink": "https://www.peakdesign.com",
     "estimatedPriceRange": "$99–$119",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Peak%20Design%20Everyday%20Sling%206L&tag=vaultvibe-20"
+    }
   },
   {
     "id": 34,
@@ -369,7 +519,12 @@
     "imageIdea": "360 camera on invisible stick capturing a snowboarding action shot",
     "sourceLink": "https://www.insta360.com",
     "estimatedPriceRange": "$499–$599",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Insta360%20X4%20360-Degree%20Camera&tag=vaultvibe-20"
+    }
   },
   {
     "id": 35,
@@ -381,7 +536,12 @@
     "imageIdea": "Flexible tripod wrapped around a tree branch holding a camera in the forest",
     "sourceLink": "https://joby.com",
     "estimatedPriceRange": "$79–$99",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=JOBY%20GorillaPod%205K%20Flexible%20Tripod&tag=vaultvibe-20"
+    }
   },
   {
     "id": 36,
@@ -393,7 +553,12 @@
     "imageIdea": "Sleek hair styling tool with multiple attachments on a vanity counter",
     "sourceLink": "https://www.dyson.com",
     "estimatedPriceRange": "$499–$599",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Dyson%20Airwrap%20Multi-Styler&tag=vaultvibe-20"
+    }
   },
   {
     "id": 37,
@@ -405,7 +570,12 @@
     "imageIdea": "Compact massage gun being used on shoulder muscles after a workout",
     "sourceLink": "https://www.therabody.com",
     "estimatedPriceRange": "$199",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Therabody%20Theragun%20Mini%202.0&tag=vaultvibe-20"
+    }
   },
   {
     "id": 38,
@@ -417,7 +587,12 @@
     "imageIdea": "Mint green silicone facial device next to skincare products in a bathroom",
     "sourceLink": "https://www.foreo.com",
     "estimatedPriceRange": "$199–$279",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=FOREO%20LUNA%204%20Facial%20Cleansing%20Device&tag=vaultvibe-20"
+    }
   },
   {
     "id": 39,
@@ -429,7 +604,12 @@
     "imageIdea": "Modern electric groomer with pivoting head and multiple guard attachments",
     "sourceLink": "https://www.philips.com",
     "estimatedPriceRange": "$34–$49",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Philips%20Norelco%20OneBlade%20360&tag=vaultvibe-20"
+    }
   },
   {
     "id": 40,
@@ -441,7 +621,12 @@
     "imageIdea": "Elegant white porcelain diffuser on a nightstand with soft mist rising",
     "sourceLink": "https://vitruvi.com",
     "estimatedPriceRange": "$99–$119",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Vitruvi%20Stone%20Essential%20Oil%20Diffuser&tag=vaultvibe-20"
+    }
   },
   {
     "id": 41,
@@ -453,7 +638,12 @@
     "imageIdea": "Sleek backpack open showing organized compartments with laptop and gear",
     "sourceLink": "https://bellroy.com",
     "estimatedPriceRange": "$149–$189",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Bellroy%20Classic%20Backpack%20Plus&tag=vaultvibe-20"
+    }
   },
   {
     "id": 42,
@@ -465,7 +655,12 @@
     "imageIdea": "Slim titanium wallet with cards fanning out and cash strap visible",
     "sourceLink": "https://www.ridgewallet.com",
     "estimatedPriceRange": "$95–$135",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=The%20Ridge%20Wallet%20Titanium&tag=vaultvibe-20"
+    }
   },
   {
     "id": 43,
@@ -477,7 +672,12 @@
     "imageIdea": "Compact black sling bag worn crossbody on a person walking through a city",
     "sourceLink": "https://www.aersf.com",
     "estimatedPriceRange": "$75–$85",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Aer%20City%20Sling%202&tag=vaultvibe-20"
+    }
   },
   {
     "id": 44,
@@ -489,7 +689,12 @@
     "imageIdea": "Flat organizer with cables, pens, and USB drives held in elastic grid",
     "sourceLink": "https://www.cocooninnovations.com",
     "estimatedPriceRange": "$19–$35",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Grid-It%20Cocoon%20Organizer&tag=vaultvibe-20"
+    }
   },
   {
     "id": 45,
@@ -501,7 +706,12 @@
     "imageIdea": "Stylish duffel bag on a suitcase handle with shoe compartment visible",
     "sourceLink": "https://www.calpaktravel.com",
     "estimatedPriceRange": "$85–$120",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=CALPAK%20Luka%20Duffel%20Bag&tag=vaultvibe-20"
+    }
   },
   {
     "id": 46,
@@ -513,7 +723,12 @@
     "imageIdea": "Smart doorbell mounted on a front door frame showing live video feed",
     "sourceLink": "https://store.google.com",
     "estimatedPriceRange": "$149–$179",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Google%20Nest%20Doorbell%20(Battery)&tag=vaultvibe-20"
+    }
   },
   {
     "id": 47,
@@ -525,7 +740,12 @@
     "imageIdea": "Multicolor gradient light strip behind a TV creating ambient glow on the wall",
     "sourceLink": "https://www.philips-hue.com",
     "estimatedPriceRange": "$169–$229",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Philips%20Hue%20Play%20Gradient%20Lightstrip&tag=vaultvibe-20"
+    }
   },
   {
     "id": 48,
@@ -537,7 +757,12 @@
     "imageIdea": "Premium thermostat on a wall showing temperature and air quality readings",
     "sourceLink": "https://www.ecobee.com",
     "estimatedPriceRange": "$249",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=ecobee%20Smart%20Thermostat%20Premium&tag=vaultvibe-20"
+    }
   },
   {
     "id": 49,
@@ -549,7 +774,12 @@
     "imageIdea": "Small white sensor on a shelf with zone detection overlay showing room mapping",
     "sourceLink": "https://www.aqara.com",
     "estimatedPriceRange": "$49–$59",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Aqara%20Presence%20Sensor%20FP2&tag=vaultvibe-20"
+    }
   },
   {
     "id": 50,
@@ -561,7 +791,12 @@
     "imageIdea": "Compact smart plug in a wall outlet with energy usage data on a phone",
     "sourceLink": "https://www.evehome.com",
     "estimatedPriceRange": "$39–$44",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Eve%20Energy%20Smart%20Plug%20(Matter)&tag=vaultvibe-20"
+    }
   },
   {
     "id": 51,
@@ -573,7 +808,12 @@
     "imageIdea": "Thin tablet with stylus showing note-taking app and split-screen productivity",
     "sourceLink": "https://www.apple.com/ipad-air",
     "estimatedPriceRange": "$599–$799",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Apple%20iPad%20Air%20M3&tag=vaultvibe-20"
+    }
   },
   {
     "id": 52,
@@ -585,7 +825,12 @@
     "imageIdea": "E-reader on a beach towel next to sunglasses showing a book page",
     "sourceLink": "https://www.amazon.com/kindle",
     "estimatedPriceRange": "$189",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Kindle%20Paperwhite%20Signature%20Edition&tag=vaultvibe-20"
+    }
   },
   {
     "id": 53,
@@ -597,7 +842,12 @@
     "imageIdea": "Thin e-ink tablet with handwritten notes and stylus on a wooden desk",
     "sourceLink": "https://remarkable.com",
     "estimatedPriceRange": "$449",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=reMarkable%202%20Paper%20Tablet&tag=vaultvibe-20"
+    }
   },
   {
     "id": 54,
@@ -609,7 +859,12 @@
     "imageIdea": "Octagonal tracker device on a desk next to a laptop with time report on screen",
     "sourceLink": "https://timeular.com",
     "estimatedPriceRange": "$59–$79",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Timeular%20Tracker%20Physical%20Time%20Tracker&tag=vaultvibe-20"
+    }
   },
   {
     "id": 55,
@@ -621,7 +876,12 @@
     "imageIdea": "Reusable notebook with handwritten notes and phone scanning to cloud app",
     "sourceLink": "https://getrocketbook.com",
     "estimatedPriceRange": "$45–$55",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Rocketbook%20Pro%20Smart%20Notebook&tag=vaultvibe-20"
+    }
   },
   {
     "id": 56,
@@ -633,7 +893,12 @@
     "imageIdea": "Camera device next to TV showing body tracking overlay during a workout",
     "sourceLink": "https://www.onepeloton.com",
     "estimatedPriceRange": "$199–$295",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Peloton%20Guide%20Strength%20Training%20Camera&tag=vaultvibe-20"
+    }
   },
   {
     "id": 57,
@@ -645,7 +910,12 @@
     "imageIdea": "Professional massage gun with app showing pressure feedback and guided routine",
     "sourceLink": "https://hyperice.com",
     "estimatedPriceRange": "$299–$329",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Hyperice%20Hypervolt%202%20Pro%20Massage%20Gun&tag=vaultvibe-20"
+    }
   },
   {
     "id": 58,
@@ -657,7 +927,12 @@
     "imageIdea": "Suspension straps anchored to a door frame with person doing a row exercise",
     "sourceLink": "https://www.trxtraining.com",
     "estimatedPriceRange": "$99–$149",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=TRX%20ALL-IN-ONE%20Suspension%20Trainer&tag=vaultvibe-20"
+    }
   },
   {
     "id": 59,
@@ -669,7 +944,12 @@
     "imageIdea": "Person lying on a back roller wheel with relaxed expression showing spine alignment",
     "sourceLink": "https://chirpwheel.com",
     "estimatedPriceRange": "$39–$99",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Chirp%20Wheel%2B%20Back%20Roller&tag=vaultvibe-20"
+    }
   },
   {
     "id": 60,
@@ -681,7 +961,12 @@
     "imageIdea": "Colorful weighted bangles on wrists during a yoga pose in a bright studio",
     "sourceLink": "https://www.balabangles.com",
     "estimatedPriceRange": "$49–$65",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Bala%20Bangles%20Weighted%20Bracelets&tag=vaultvibe-20"
+    }
   },
   {
     "id": 61,
@@ -693,7 +978,12 @@
     "imageIdea": "Glowing green jacket in a dark forest with subtle light emission visible",
     "sourceLink": "https://www.vollebak.com",
     "estimatedPriceRange": "$395–$495",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Vollebak%20Solar%20Charged%20Jacket&tag=vaultvibe-20"
+    }
   },
   {
     "id": 62,
@@ -705,7 +995,12 @@
     "imageIdea": "Person in yoga pose wearing tech-embedded pants with subtle sensor indicators",
     "sourceLink": "https://www.wearableexperiments.com",
     "estimatedPriceRange": "$149–$249",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Nadi%20X%20Smart%20Yoga%20Pants&tag=vaultvibe-20"
+    }
   },
   {
     "id": 63,
@@ -717,7 +1012,12 @@
     "imageIdea": "Lightweight hooded shirt on a person at the beach with UV protection graphic overlay",
     "sourceLink": "https://www.uvskinz.com",
     "estimatedPriceRange": "$39–$59",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=UV%20Skinz%20Hooded%20Sun%20Shirt%20UPF%2050%2B&tag=vaultvibe-20"
+    }
   },
   {
     "id": 64,
@@ -729,7 +1029,12 @@
     "imageIdea": "Athletic smart shirt showing embedded sensor lines with biometric data overlay",
     "sourceLink": "https://www.hexoskin.com",
     "estimatedPriceRange": "$169–$399",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Hexoskin%20Smart%20Shirt&tag=vaultvibe-20"
+    }
   },
   {
     "id": 65,
@@ -741,7 +1046,12 @@
     "imageIdea": "Sleek AR glasses on a person with subtle virtual display content visible in lenses",
     "sourceLink": "https://www.rayneo.com",
     "estimatedPriceRange": "$379–$429",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=RayNeo%20Air%202s%20AR%20Glasses&tag=vaultvibe-20"
+    }
   },
   {
     "id": 66,
@@ -753,7 +1063,12 @@
     "imageIdea": "Portable power station at a campsite connected to solar panel and charging devices",
     "sourceLink": "https://www.bluettipower.com",
     "estimatedPriceRange": "$649–$799",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=BLUETTI%20AC180%20Portable%20Power%20Station&tag=vaultvibe-20"
+    }
   },
   {
     "id": 67,
@@ -765,7 +1080,12 @@
     "imageIdea": "Colorful silicone bags with fruits and snacks on a kitchen counter",
     "sourceLink": "https://www.stasherbag.com",
     "estimatedPriceRange": "$34–$59",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Stasher%20Reusable%20Silicone%20Bag%20Bundle&tag=vaultvibe-20"
+    }
   },
   {
     "id": 68,
@@ -777,7 +1097,12 @@
     "imageIdea": "Foldable solar panel angled toward the sun on a rock charging a phone",
     "sourceLink": "https://www.goalzero.com",
     "estimatedPriceRange": "$99–$129",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Goal%20Zero%20Nomad%2020%20Solar%20Panel&tag=vaultvibe-20"
+    }
   },
   {
     "id": 69,
@@ -789,7 +1114,12 @@
     "imageIdea": "Reusable swab in its case next to a pile of single-use swabs for comparison",
     "sourceLink": "https://lastobject.com",
     "estimatedPriceRange": "$12–$16",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=LastObject%20LastSwab%20Reusable%20Swab&tag=vaultvibe-20"
+    }
   },
   {
     "id": 70,
@@ -801,7 +1131,12 @@
     "imageIdea": "Eco-friendly phone case in earthy tones on a phone next to a plant",
     "sourceLink": "https://pelacase.com",
     "estimatedPriceRange": "$35–$55",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Pela%20Compostable%20Phone%20Case&tag=vaultvibe-20"
+    }
   },
   {
     "id": 71,
@@ -813,7 +1148,12 @@
     "imageIdea": "Set of whiskey glasses with mountain bases on a wooden surface with warm lighting",
     "sourceLink": "https://www.uncommongoods.com",
     "estimatedPriceRange": "$65–$85",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Whiskey%20Peaks%20Mountain%20Glasses%20Set&tag=vaultvibe-20"
+    }
   },
   {
     "id": 72,
@@ -825,7 +1165,12 @@
     "imageIdea": "Colorful insulated tumbler with condensation beads on a desk in warm light",
     "sourceLink": "https://www.yeti.com",
     "estimatedPriceRange": "$30–$38",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=YETI%20Rambler%2020oz%20Tumbler&tag=vaultvibe-20"
+    }
   },
   {
     "id": 73,
@@ -837,7 +1182,12 @@
     "imageIdea": "LEGO orchid in blue vase on a shelf looking realistic next to real plants",
     "sourceLink": "https://www.lego.com",
     "estimatedPriceRange": "$49",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=LEGO%20Botanical%20Collection%20Orchid&tag=vaultvibe-20"
+    }
   },
   {
     "id": 74,
@@ -849,7 +1199,12 @@
     "imageIdea": "Small white trackers attached to keys, wallet, backpack, and luggage tag",
     "sourceLink": "https://www.tile.com",
     "estimatedPriceRange": "$54–$69",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Tile%20Mate%20Bluetooth%20Tracker%204-Pack&tag=vaultvibe-20"
+    }
   },
   {
     "id": 75,
@@ -861,7 +1216,12 @@
     "imageIdea": "Wireless thermometer probe in a steak on a cutting board with app showing temperature",
     "sourceLink": "https://www.meater.com",
     "estimatedPriceRange": "$69–$99",
-    "type": "product"
+    "type": "product",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=MEATER%202%20Plus%20Wireless%20Meat%20Thermometer&tag=vaultvibe-20"
+    }
   },
   {
     "id": 76,
@@ -874,7 +1234,12 @@
     "sourceLink": "https://www.sonos.com/en-us/shop/move-2",
     "estimatedPriceRange": "$449",
     "type": "product",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Sonos%20Move%202%20Portable%20Speaker&tag=vaultvibe-20"
+    }
   },
   {
     "id": 77,
@@ -887,7 +1252,12 @@
     "sourceLink": "https://direct.playstation.com/en-us/accessories/playstation-portal-remote-player/6000000000001016",
     "estimatedPriceRange": "$199.99",
     "type": "product",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=PlayStation%20Portal%20Remote%20Player&tag=vaultvibe-20"
+    }
   },
   {
     "id": 78,
@@ -900,6 +1270,11 @@
     "sourceLink": "https://www.anker.com/products/a1701",
     "estimatedPriceRange": "$279.99-$329.99",
     "type": "product",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Anker%20PowerHouse%20256Wh%20Portable%20Power%20Station&tag=vaultvibe-20"
+    }
   }
 ]

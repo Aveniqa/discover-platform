@@ -198,6 +198,27 @@ async function main() {
   }
 
   console.log("✅ All categories updated.\n");
+
+  // Auto-apply Amazon affiliate links to new products
+  const AMAZON_TAG = process.env.AMAZON_AFFILIATE_TAG || "";
+  if (AMAZON_TAG) {
+    const productsFile = path.join(DATA_DIR, "products.json");
+    const allProducts = JSON.parse(fs.readFileSync(productsFile, "utf8"));
+    let affiliateCount = 0;
+    for (const p of allProducts) {
+      if (!p.affiliate || !p.affiliate.enabled) {
+        const query = encodeURIComponent(p.title);
+        p.affiliate = {
+          enabled: true,
+          provider: "amazon",
+          url: `https://www.amazon.com/s?k=${query}&tag=${AMAZON_TAG}`,
+        };
+        affiliateCount++;
+      }
+    }
+    fs.writeFileSync(productsFile, JSON.stringify(allProducts, null, 2));
+    console.log(`🔗 Applied Amazon affiliate links to ${affiliateCount} products.`);
+  }
 }
 
 main().catch((err) => {
