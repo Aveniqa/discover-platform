@@ -13,6 +13,7 @@ import {
   getCategoryNavLabel,
   getCategoryPath,
   getRelatedItems,
+  type AnyItem,
   type Product,
   type FutureTech,
 } from "@/lib/data";
@@ -28,6 +29,54 @@ import { isPexelsImage } from "@/lib/images";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+
+/* ---- Cross-category recommendations ---- */
+function getCrossCategoryItems(item: AnyItem, count = 4): AnyItem[] {
+  const currentType = item.type;
+  const title = getItemTitle(item).toLowerCase();
+  const category = getItemCategory(item).toLowerCase();
+  const description = getItemDescription(item).toLowerCase();
+
+  // Build keyword set from title words + category
+  const keywords = new Set<string>(
+    [...title.split(/\s+/), ...category.split(/[\s/&]+/)]
+      .map((w) => w.replace(/[^a-z]/g, ""))
+      .filter((w) => w.length > 3)
+  );
+
+  const allItems = getAllItems();
+  const seenTypes = new Set<string>([currentType]);
+  const results: AnyItem[] = [];
+
+  // Score each item from a different category by keyword overlap
+  const scored = allItems
+    .filter((i) => i.type !== currentType)
+    .map((i) => {
+      const iTitle = getItemTitle(i).toLowerCase();
+      const iCat = getItemCategory(i).toLowerCase();
+      const iDesc = getItemDescription(i).toLowerCase();
+      const combined = `${iTitle} ${iCat} ${iDesc}`;
+      let score = 0;
+      for (const kw of keywords) {
+        if (combined.includes(kw)) score++;
+      }
+      // Bonus: description of current item mentions the other item's category
+      if (description.includes(iCat)) score += 2;
+      return { item: i, score };
+    })
+    .filter((s) => s.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  // Pick max 1 per type
+  for (const { item: candidate } of scored) {
+    if (results.length >= count) break;
+    if (seenTypes.has(candidate.type)) continue;
+    seenTypes.add(candidate.type);
+    results.push(candidate);
+  }
+
+  return results;
+}
 
 /* ---- Static Params ---- */
 export function generateStaticParams() {
@@ -132,6 +181,7 @@ export default async function ItemPage({ params }: Props) {
   const navLabel = getCategoryNavLabel(item.type);
   const backPath = getCategoryPath(item.type);
   const relatedItems = getRelatedItems(item, 4);
+  const crossItems = getCrossCategoryItems(item, 4);
   const outboundUrl = getItemOutboundUrl(item);
   const ctaLabel = getCtaLabel(item);
   const isAffiliate = item.affiliate?.enabled || item.type === "product";
@@ -316,6 +366,45 @@ export default async function ItemPage({ params }: Props) {
                   >
                     Continue exploring {navLabel} <span>&rarr;</span>
                   </Link>
+                </div>
+              </div>
+            </ScrollReveal>
+          )}
+
+          {/* ── Cross-category related picks ───────────────── */}
+          {crossItems.length > 0 && (
+            <ScrollReveal delay={220}>
+              <div className="mb-16">
+                <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-2">
+                  Explore Related
+                </h2>
+                <p className="text-sm text-muted-foreground mb-6">
+                  From{" "}
+                  {crossItems.map((i) => getCategoryLabel(i.type)).join(", ")}
+                </p>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {crossItems.map((related) => {
+                    const relTitle = getItemTitle(related);
+                    const relDesc = getItemDescription(related);
+                    const relColor = getCategoryColor(related.type);
+                    const relLabel = getCategoryLabel(related.type);
+                    return (
+                      <Link
+                        key={related.slug}
+                        href={`/item/${related.slug}`}
+                        className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow transition-all"
+                      >
+                        <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        <div className="p-5">
+                          <CategoryBadge color={relColor} label={relLabel} className="mb-3" />
+                          <h3 className="font-bold text-foreground group-hover:text-accent-hover transition-colors line-clamp-2 mb-2">
+                            {relTitle}
+                          </h3>
+                          <p className="text-sm text-muted-foreground line-clamp-2">{relDesc}</p>
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
             </ScrollReveal>
