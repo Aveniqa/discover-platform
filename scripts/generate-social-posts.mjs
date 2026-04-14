@@ -124,18 +124,21 @@ async function main() {
     // Fetch a relevant image using Gemini's suggested search query
     let imageUrl = fallbackImageUrl;
     if (PEXELS_API_KEY && socialContent) {
-      // Use Gemini's query if available, otherwise derive key nouns from title
-      const stopWords = new Set(['a','an','the','of','in','on','is','are','was','were','it','its','that','this','to','for','and','or','but','with','from','by','at','as','how','why','what','can','has','had','have','more','than','most','your','our','their','there','here','about','into','over','after','before','between','through','during','against','without','within','along','across','behind','beyond','above','below','who','which','where','when','will','would','could','should','may','might','shall','do','does','did','not','no','just','also','very','too','only','even','still','already','never','always','often','sometimes','really','quite','rather','almost','every','each','both','all','any','some','few','many','much','enough','several']);
-      const searchQuery = socialContent.imageSearchQuery
-        || item.title.replace(/[^a-zA-Z0-9 ]/g, '').split(' ')
-          .filter(w => w.length > 2 && !stopWords.has(w.toLowerCase()))
-          .slice(0, 4).join(' ');
-      const searchedImage = await searchPexelsImage(searchQuery);
-      if (searchedImage) {
-        imageUrl = searchedImage;
-        console.log(`   📷 Found relevant image for: "${searchQuery}"`);
-      } else {
-        console.log(`   ⚠️ No Pexels result for "${searchQuery}", using cached image`);
+      let searchQuery = socialContent.imageSearchQuery;
+
+      // If Gemini didn't return a search query, ask it specifically
+      if (!searchQuery) {
+        searchQuery = await getImageSearchQuery(item);
+      }
+
+      if (searchQuery) {
+        const searchedImage = await searchPexelsImage(searchQuery);
+        if (searchedImage) {
+          imageUrl = searchedImage;
+          console.log(`   📷 Found relevant image for: "${searchQuery}"`);
+        } else {
+          console.log(`   ⚠️ No Pexels result for "${searchQuery}", using cached image`);
+        }
       }
     }
 
@@ -290,6 +293,34 @@ Respond ONLY with valid JSON.`;
     console.error(`   ❌ Failed for ${item.title}: ${err.message}`);
     return null;
   }
+}
+
+async function getImageSearchQuery(item) {
+  const prompt = `Return a 2-4 word Pexels image search query for a photo that literally depicts this subject. Be concrete and visual, not abstract.
+
+Subject: ${item.title}
+Description: ${(item.shortDescription || "").slice(0, 150)}
+
+Examples:
+- "CRISPR Gene Editing" → "dna double helix laboratory"
+- "Ancient Babylonian Astronomy" → "cuneiform clay tablet"
+- "Tardigrades" → "tardigrade microscope"
+- "Rogue Planets" → "dark planet deep space"
+- "Roman Concrete" → "roman pantheon dome"
+
+Respond with ONLY the search query string in JSON: {"query": "your search terms"}`;
+
+  try {
+    const result = await callGeminiWithRetry(prompt);
+    const q = result?.query;
+    if (q && typeof q === "string" && q.length > 2) {
+      console.log(`   🔍 Gemini image query fallback: "${q}"`);
+      return q;
+    }
+  } catch (err) {
+    console.log(`   ⚠️ Image query fallback failed: ${err.message}`);
+  }
+  return null;
 }
 
 async function searchPexelsImage(query) {
