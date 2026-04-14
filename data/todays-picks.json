@@ -1,46 +1,46 @@
 [
   {
-    "slug": "anechoic-chamber-true-silence",
-    "title": "In an Anechoic Chamber, Silence Becomes a Disturbing Experience",
+    "slug": "milgram-experiment-obedience-authority",
+    "title": "The Milgram Experiment: Unsettling Insights into Obedience to Authority",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Anechoic chambers are rooms designed to completely absorb sound, creating an environment of near-perfect silence. Far fr",
-    "badge": "editors-pick",
+    "description": "In the 1960s, Stanley Milgram's controversial experiments revealed how readily individuals would obey instructions from ",
+    "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "theragun-mini-2-0-portable-percussive-massager",
-    "title": "Theragun Mini 2.0 Portable Percussive Massager",
+    "slug": "dodow-sleep-aid-device",
+    "title": "Dodow Sleep Aid Device",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "A compact and powerful percussive massager designed for on-the-go muscle relief. It delivers Theragun's signature treatm",
+    "description": "Dodow is a metronome with a light system that teaches you how to fall asleep naturally. By synchronizing your breath wit",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "perplexity-ai",
-    "title": "Perplexity AI",
+    "slug": "wappalyzer",
+    "title": "Wappalyzer",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Perplexity AI is an AI-powered conversational search engine that provides direct answers to your questions, complete wit",
-    "badge": "editors-pick",
+    "description": "Wappalyzer is a browser extension that uncovers the technologies used on websites. It identifies CMS, e-commerce platfor",
+    "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "genetically-engineered-bio-sentinel-plants",
-    "title": "Genetically Engineered Bio-Sentinel Plants",
+    "slug": "targeted-crispr-based-viral-inactivation",
+    "title": "Targeted CRISPR-Based Viral Inactivation (TCBVI)",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "These are plants genetically modified to detect specific environmental contaminants, pollutants, or pathogens by changin",
-    "badge": null,
+    "description": "TCBVI is a sophisticated therapeutic approach that utilizes engineered CRISPR-Cas systems to specifically identify and d",
+    "badge": "editors-pick",
     "type": "future-tech"
   },
   {
-    "slug": "hemingway-editor",
-    "title": "Hemingway Editor",
+    "slug": "instapaper",
+    "title": "Instapaper",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Hemingway Editor helps writers improve their prose by highlighting common writing issues such as overly long sentences, ",
+    "description": "Instapaper is a 'read-it-later' service that allows users to save web articles, videos, and other online content for off",
     "badge": null,
     "type": "tool"
   }
