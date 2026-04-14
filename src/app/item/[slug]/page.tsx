@@ -38,6 +38,7 @@ import { StickyCTA } from "@/components/ui/StickyCTA";
 import { LogoImage } from "@/components/ui/LogoImage";
 import { ScreenshotImage } from "@/components/ui/ScreenshotImage";
 import { isPexelsImage } from "@/lib/images";
+import { getItemImageUrl } from "@/lib/images";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -105,6 +106,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = getItemTitle(item);
   const desc = getItemDescription(item);
   const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
+  const ogImage = getItemImageUrl(slug, 1200, 630, "lg");
   return {
     title: `${title} — Surfaced`,
     description: desc,
@@ -115,11 +117,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url: pageUrl,
       siteName: "Surfaced",
       type: "article",
+      images: ogImage ? [{ url: ogImage, width: 1200, height: 630, alt: title }] : [],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description: desc,
+      images: ogImage ? [ogImage] : [],
     },
   };
 }
@@ -259,12 +263,73 @@ export default async function ItemPage({ params }: Props) {
     try { return websiteLink ? new URL(websiteLink).hostname.replace("www.", "") : null; } catch { return null; }
   })();
 
-  const jsonLd = {
+  // ── Structured Data (JSON-LD) ──────────────────────
+  const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
+  const imageUrl = getItemImageUrl(slug);
+  const categoryPath = getCategoryPath(item.type);
+
+  // Price parser for Product schema
+  const parsePrice = (range: string | undefined) => {
+    if (!range) return { low: undefined, high: undefined };
+    const nums = range.replace(/,/g, "").match(/[\d]+(?:\.\d+)?/g);
+    if (!nums || nums.length === 0) return { low: undefined, high: undefined };
+    return { low: nums[0], high: nums[nums.length - 1] };
+  };
+
+  // Brand extractor
+  const extractBrand = (t: string) => {
+    const knownBrands = ["Our Place", "Peak Design", "Click & Grow", "Goal Zero", "Sea to Summit", "Grid-It Cocoon"];
+    for (const b of knownBrands) {
+      if (t.toLowerCase().startsWith(b.toLowerCase())) return b;
+    }
+    return t.split(/\s+/)[0];
+  };
+
+  const jsonLd = item.type === "product" ? {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: title,
+    description,
+    url: pageUrl,
+    ...(imageUrl ? { image: imageUrl } : {}),
+    brand: { "@type": "Brand", name: extractBrand(title) },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "USD",
+      lowPrice: parsePrice((item as Product).estimatedPriceRange).low,
+      highPrice: parsePrice((item as Product).estimatedPriceRange).high,
+      availability: "https://schema.org/InStock",
+      url: (item as Product).directAmazonUrl,
+    },
+    review: {
+      "@type": "Review",
+      author: { "@type": "Organization", name: "Surfaced" },
+      reviewBody: whyText || description,
+    },
+  } : {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
     description,
-    url: `/item/${slug}`,
+    url: pageUrl,
+    ...(imageUrl ? { image: imageUrl } : {}),
+    datePublished: (item as { dateAdded?: string }).dateAdded || new Date().toISOString().split("T")[0],
+    author: { "@type": "Organization", name: "Surfaced" },
+    publisher: {
+      "@type": "Organization",
+      name: "Surfaced",
+      url: "https://surfaced-x.pages.dev",
+    },
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://surfaced-x.pages.dev" },
+      { "@type": "ListItem", position: 2, name: navLabel, item: `https://surfaced-x.pages.dev${categoryPath}` },
+      { "@type": "ListItem", position: 3, name: title },
+    ],
   };
 
   return (
@@ -274,6 +339,10 @@ export default async function ItemPage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       {/* ── Hero image (full-width) ───────────────────── */}
