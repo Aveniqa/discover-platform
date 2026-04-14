@@ -25,6 +25,7 @@ import { Carousel } from "@/components/ui/Carousel";
 import { SocialCTA } from "@/components/SocialCTA";
 import { ShareTodaysPicks } from "@/components/ui/ShareTodaysPicks";
 import { TodayDate } from "@/components/ui/TodayDate";
+import { HeroShowcase } from "@/components/ui/HeroShowcase";
 import { getStreak } from "@/lib/engagement";
 import { todaysPicks } from "@/lib/data";
 import Link from "next/link";
@@ -121,37 +122,43 @@ export default function HomePage() {
       )}
 
       {/* ============================================
-          HERO — Conversion-focused
+          HERO — Visual showcase + compact headline
           ============================================ */}
-      <section className="relative py-14 sm:py-20 text-center overflow-hidden">
+      <section className="relative pt-6 sm:pt-10 pb-8 sm:pb-12 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-accent/[0.07] blur-[100px]" />
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-accent/[0.05] blur-[120px]" />
         </div>
-        <div className="relative max-w-3xl mx-auto px-4 sm:px-6">
-          {/* Streak badge */}
-          {streakDays > 0 && (
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm mb-5">
+
+        {/* Streak badge */}
+        {streakDays > 0 && (
+          <div className="text-center mb-4">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm">
               {streakEmoji || "🔥"} Day {streakDays} streak
-            </div>
-          )}
+            </span>
+          </div>
+        )}
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-4">
-            Discover something<br />
-            <span className="gradient-text">remarkable</span> every day
+        {/* Compact headline above the showcase */}
+        <div className="relative text-center mb-6 sm:mb-8 px-4">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.1] mb-2">
+            Discover something <span className="gradient-text">remarkable</span>
           </h1>
-
-          <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto mb-7">
-            Curated products, hidden gem apps, emerging tech, and fascinating discoveries — refreshed daily at 7am.
+          <p className="text-sm sm:text-base text-muted-foreground max-w-lg mx-auto">
+            Products, hidden gems, future tech, and discoveries — refreshed daily
           </p>
+        </div>
 
-          {/* Primary CTA: Newsletter */}
-          <div className="max-w-md mx-auto mb-5">
+        {/* Image showcase carousel — hover to enlarge */}
+        <HeroShowcase />
+
+        {/* Newsletter + Stats — below the showcase */}
+        <div className="relative max-w-3xl mx-auto px-4 sm:px-6 mt-8">
+          <div className="max-w-md mx-auto mb-4">
             <NewsletterForm />
           </div>
-          <p className="text-xs text-muted-foreground mb-8">Join free — no spam, unsubscribe anytime</p>
+          <p className="text-xs text-muted-foreground text-center mb-6">Join free — no spam, unsubscribe anytime</p>
 
-          {/* Stats bar */}
-          <div className="flex items-center justify-center gap-6 sm:gap-10 pt-6 border-t border-border/50">
+          <div className="flex items-center justify-center gap-6 sm:gap-10 pt-5 border-t border-border/50">
             <div className="text-center">
               <p className="text-2xl font-bold">{totalItems}+</p>
               <p className="text-xs text-muted-foreground">Curated items</p>
