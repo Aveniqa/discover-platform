@@ -52,26 +52,14 @@ async function publishToBluesky(post) {
     if (!sessionRes.ok) throw new Error(`Session failed: ${sessionRes.status}`);
     const session = await sessionRes.json();
 
+    // Strip any URLs from text (links go in the card embed now)
+    let text = post.platforms.bluesky.text.replace(/https?:\/\/[^\s]+/g, '').trim();
     // Bluesky hard limit is 300 graphemes — trim if needed
-    let text = post.platforms.bluesky.text;
     if ([...text].length > 300) {
       text = [...text].slice(0, 297).join('') + '...';
       console.log(`   ⚠️ Bluesky: text trimmed to 300 graphemes`);
     }
     const now = new Date().toISOString().replace("+00:00", "Z");
-
-    // Parse link facets from text
-    const facets = [];
-    const urlRegex = /(https?:\/\/[^\s]+)/g;
-    let match;
-    while ((match = urlRegex.exec(text)) !== null) {
-      const byteStart = Buffer.byteLength(text.slice(0, match.index), "utf-8");
-      const byteEnd = byteStart + Buffer.byteLength(match[0], "utf-8");
-      facets.push({
-        index: { byteStart, byteEnd },
-        features: [{ $type: "app.bsky.richtext.facet#link", uri: match[0] }],
-      });
-    }
 
     // Build post record
     const record = {
@@ -79,9 +67,9 @@ async function publishToBluesky(post) {
       text,
       createdAt: now,
     };
-    if (facets.length > 0) record.facets = facets;
 
-    // Upload and embed image directly if available
+    // Upload image as thumbnail for the link card
+    let thumbBlob = null;
     if (post.imageUrl) {
       try {
         const imgRes = await fetch(post.imageUrl);
@@ -102,15 +90,7 @@ async function publishToBluesky(post) {
             );
             if (blobRes.ok) {
               const blobData = await blobRes.json();
-              record.embed = {
-                $type: "app.bsky.embed.images",
-                images: [
-                  {
-                    alt: post.title,
-                    image: blobData.blob,
-                  },
-                ],
-              };
+              thumbBlob = blobData.blob;
               console.log(`   📷 Bluesky: image uploaded`);
             }
           } else {
@@ -118,8 +98,21 @@ async function publishToBluesky(post) {
           }
         }
       } catch (imgErr) {
-        console.log(`   ⚠️ Bluesky: image upload failed, posting without image`);
+        console.log(`   ⚠️ Bluesky: image upload failed, continuing without thumbnail`);
       }
+    }
+
+    // Attach link card embed with full URL (not in text body)
+    const linkUrl = post.affiliateUrl || post.productUrl;
+    if (linkUrl) {
+      const card = {
+        uri: linkUrl,
+        title: post.title,
+        description: text.slice(0, 200),
+      };
+      if (thumbBlob) card.thumb = thumbBlob;
+      record.embed = { $type: "app.bsky.embed.external", external: card };
+      console.log(`   🔗 Bluesky: link card attached → ${linkUrl}`);
     }
 
     // Create post

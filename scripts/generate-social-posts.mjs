@@ -167,7 +167,7 @@ async function main() {
             boardName: BOARD_MAP[item._category],
           },
           bluesky: {
-            text: bsky.text || fallbackText.slice(0, 280),
+            text: bsky.text || `${item.title} — ${(item.shortDescription || "").slice(0, 200)}`.slice(0, 280),
           },
           twitter: {
             text: tw.text || fallbackText.slice(0, 280),
@@ -271,7 +271,7 @@ Tone: curious, opinionated, concise. Not corporate. Mention honest limitations w
 
 Generate exactly 4 outputs in valid JSON (no trailing commas):
 1. "pinterest": { "title": string (max 100 chars), "description": string (max 500 chars, include #affiliate if affiliate link, plus 3-4 hashtags) }
-2. "bluesky": { "text": string (max 290 chars including link — Bluesky hard limit is 300 graphemes, stay under) }
+2. "bluesky": { "text": string (max 280 chars, do NOT include any URL — the link will be attached automatically as a card) }
 3. "twitter": { "text": string (max 280 chars, include link at end) }
 4. "imageSearchQuery": string (REQUIRED — 2-4 word Pexels search query for a photo that directly illustrates this specific item. Be literal and specific, not abstract. Example: for penicillin discovery use "petri dish mold", for tardigrades use "tardigrade microscope")
 
