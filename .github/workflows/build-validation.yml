@@ -196,6 +196,67 @@ jobs:
           echo ""
           echo "✅ All critical pages present and valid."
 
+      - name: Install Lighthouse CI
+        if: success()
+        run: npm install -g @lhci/cli
+
+      - name: Serve static site and run Lighthouse CI
+        id: lighthouse
+        if: success()
+        run: |
+          # Serve the static export on port 8080
+          npx serve out -l 8080 &
+          SERVER_PID=$!
+          sleep 3
+
+          # Verify server is up
+          curl -s -o /dev/null -w "%{http_code}" http://localhost:8080 || true
+
+          # Run Lighthouse 3 times on the homepage for stable median scores
+          lhci collect \
+            --url="http://localhost:8080" \
+            --numberOfRuns=3 \
+            --settings.preset=desktop \
+            --settings.chromeFlags="--no-sandbox --headless"
+
+          # Run assertions using config file (CLI flags don't handle categories: syntax well)
+          lhci assert --config=lighthouserc.json 2>&1 | tee /tmp/lhci-results.log
+          LHCI_EXIT=$?
+
+          # Also run against a sample item page (warn-only, lower threshold)
+          SAMPLE_SLUG=$(find out/item -name "*.html" | shuf | head -1 | xargs basename | sed 's/.html//')
+          if [ -n "$SAMPLE_SLUG" ]; then
+            echo ""
+            echo "🔍 Running Lighthouse on sample item page: /item/$SAMPLE_SLUG"
+            lhci collect \
+              --url="http://localhost:8080/item/$SAMPLE_SLUG" \
+              --numberOfRuns=1 \
+              --settings.preset=desktop \
+              --settings.chromeFlags="--no-sandbox --headless"
+
+            # Item page: warn-only at 0.80 performance
+            lhci assert --config=lighthouserc-item.json 2>&1 | tee -a /tmp/lhci-results.log || true
+          fi
+
+          # Extract scores for the summary
+          echo ""
+          echo "🏗️ Lighthouse CI Results:"
+          cat /tmp/lhci-results.log | head -30
+
+          # Kill the server
+          kill $SERVER_PID 2>/dev/null || true
+
+          # Fail the job if homepage thresholds weren't met
+          exit $LHCI_EXIT
+
+      - name: Upload Lighthouse reports
+        if: always() && steps.lighthouse.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: .lighthouseci/
+          retention-days: 14
+
       - name: Performance summary
         if: always()
         run: |

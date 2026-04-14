@@ -1,0 +1,9 @@
+{
+  "ci": {
+    "assert": {
+      "assertions": {
+        "categories:performance": ["warn", { "minScore": 0.80, "aggregationMethod": "optimistic" }]
+      }
+    }
+  }
+}
