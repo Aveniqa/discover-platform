@@ -276,6 +276,7 @@ export default async function ItemPage({ params }: Props) {
   const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
   const imageUrl = getItemImageUrl(slug);
   const categoryPath = getCategoryPath(item.type);
+  const dateAdded = (item as { dateAdded?: string }).dateAdded;
 
   // Price parser for Product schema
   const parsePrice = (range: string | undefined) => {
@@ -322,8 +323,9 @@ export default async function ItemPage({ params }: Props) {
     description,
     url: pageUrl,
     ...(imageUrl ? { image: imageUrl } : {}),
-    datePublished: (item as { dateAdded?: string }).dateAdded || new Date().toISOString().split("T")[0],
-    author: { "@type": "Organization", name: "Surfaced" },
+    ...(dateAdded ? { datePublished: dateAdded } : {}),
+    dateModified: new Date().toISOString().slice(0, 10),
+    author: { "@type": "Organization", name: "Surfaced Editorial" },
     publisher: {
       "@type": "Organization",
       name: "Surfaced",
