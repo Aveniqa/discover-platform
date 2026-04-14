@@ -7,7 +7,8 @@
     "category": "Writing",
     "whyItIsUseful": "It turns a 2-hour blog post into a 20-minute editing task. The brand voice feature ensures AI output sounds like your company, not a generic robot.",
     "websiteLink": "https://www.jasper.ai",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "ai content marketing blog writing"
   },
   {
     "id": 13,
@@ -17,7 +18,8 @@
     "category": "Writing",
     "whyItIsUseful": "It removed every technical barrier to starting a paid newsletter. Writers who would never build a website can have a professional publication running in 10 minutes.",
     "websiteLink": "https://substack.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "newsletter email inbox subscription"
   },
   {
     "id": 14,
@@ -27,7 +29,8 @@
     "category": "Writing",
     "whyItIsUseful": "It takes the guesswork out of SEO writing by showing exactly what Google rewards for each keyword. Articles written with Surfer consistently rank higher.",
     "websiteLink": "https://surferseo.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "seo content optimization ranking"
   },
   {
     "id": 15,
@@ -37,7 +40,8 @@
     "category": "Writing",
     "whyItIsUseful": "Your notes are plain Markdown files you own forever, not locked in a proprietary cloud. The linking system turns scattered notes into an interconnected personal wiki.",
     "websiteLink": "https://obsidian.md",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "markdown notes linked graph vault"
   },
   {
     "id": 16,
@@ -47,7 +51,8 @@
     "category": "Development",
     "whyItIsUseful": "It hits the sweet spot between a lightweight text editor and a heavy IDE. The extension ecosystem means it adapts to any language or workflow you throw at it.",
     "websiteLink": "https://code.visualstudio.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "code editor syntax highlighting extensions"
   },
   {
     "id": 17,
@@ -57,7 +62,8 @@
     "category": "Development",
     "whyItIsUseful": "It reduces deployment from a multi-day DevOps project to a Git push. Preview deployments for every PR transform the code review process.",
     "websiteLink": "https://vercel.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "web deployment serverless cloud preview"
   },
   {
     "id": 18,
@@ -67,7 +73,8 @@
     "category": "Development",
     "whyItIsUseful": "It makes API development visual and collaborative. Sharing a Postman collection is the fastest way to onboard someone to your API, far better than reading docs.",
     "websiteLink": "https://www.postman.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "api testing request response collection"
   },
   {
     "id": 19,
@@ -77,7 +84,8 @@
     "category": "Development",
     "whyItIsUseful": "It handles the flakiness that plagues other testing tools with built-in auto-waiting. Testing across three browser engines with one API catches cross-browser bugs before users do.",
     "websiteLink": "https://playwright.dev",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "browser automation testing selenium"
   },
   {
     "id": 20,
@@ -87,7 +95,8 @@
     "category": "Development",
     "whyItIsUseful": "It eliminates the need for a separate CI/CD service. Being integrated directly into GitHub means your tests and deployments live right next to your code.",
     "websiteLink": "https://github.com/features/actions",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "ci cd pipeline workflow automation"
   },
   {
     "id": 21,
@@ -97,7 +106,8 @@
     "category": "Finance",
     "whyItIsUseful": "YNAB users save an average of $600 in their first two months. The philosophy of giving every dollar a purpose fundamentally changes how you think about money.",
     "websiteLink": "https://www.ynab.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "budget planning zero based money jars"
   },
   {
     "id": 22,
@@ -107,7 +117,8 @@
     "category": "Finance",
     "whyItIsUseful": "It translates intimidating tax forms into simple questions anyone can answer. The automated import and deduction-finding pays for itself many times over for most filers.",
     "websiteLink": "https://turbotax.intuit.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "tax filing forms calculator refund"
   },
   {
     "id": 23,
@@ -117,7 +128,8 @@
     "category": "Finance",
     "whyItIsUseful": "It is genuinely free for invoicing and accounting, not a limited trial. Freelancers get professional-grade financial tools without paying QuickBooks prices.",
     "websiteLink": "https://www.waveapps.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "invoice accounting small business receipt"
   },
   {
     "id": 24,
@@ -127,7 +139,8 @@
     "category": "Finance",
     "whyItIsUseful": "Tax-loss harvesting alone typically adds 1-2% annual returns. It brings sophisticated investment strategies previously available only to the wealthy to anyone with $500.",
     "websiteLink": "https://www.wealthfront.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "robo advisor investment portfolio automated"
   },
   {
     "id": 25,
@@ -137,7 +150,8 @@
     "category": "Finance",
     "whyItIsUseful": "It answers 'Can I afford to live there?' with real data before you commit to a move. The salary comparison tool shows exactly how much you need to earn to maintain your lifestyle.",
     "websiteLink": "https://www.numbeo.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "cost of living comparison city data"
   },
   {
     "id": 26,
@@ -147,7 +161,8 @@
     "category": "Health",
     "whyItIsUseful": "The social and competitive features turn exercise from a chore into a game. Segment leaderboards add just enough competition to push you harder without being toxic.",
     "websiteLink": "https://www.strava.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "running cycling gps fitness route map"
   },
   {
     "id": 27,
@@ -157,7 +172,8 @@
     "category": "Health",
     "whyItIsUseful": "Most food trackers only count calories. Cronometer shows you exactly which vitamins and minerals you are deficient in, turning vague 'eat healthier' goals into specific actions.",
     "websiteLink": "https://cronometer.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "nutrition tracker food diary macro chart"
   },
   {
     "id": 28,
@@ -167,7 +183,8 @@
     "category": "Health",
     "whyItIsUseful": "It makes meditation approachable for skeptics with friendly animations and short sessions. The sleep stories narrated by celebrities are surprisingly effective for insomnia.",
     "websiteLink": "https://www.headspace.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "meditation mindfulness breathing calm zen"
   },
   {
     "id": 29,
@@ -177,7 +194,8 @@
     "category": "Health",
     "whyItIsUseful": "Being woken during light sleep instead of deep sleep is the difference between feeling groggy and feeling refreshed. The trend data reveals which habits actually affect your sleep.",
     "websiteLink": "https://www.sleepcycle.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "sleep tracking alarm phases graph"
   },
   {
     "id": 30,
@@ -187,7 +205,8 @@
     "category": "Health",
     "whyItIsUseful": "It removes the biggest barriers to therapy: finding a therapist, scheduling, commuting, and stigma. Messaging your therapist between sessions provides continuity traditional therapy lacks.",
     "websiteLink": "https://www.betterhelp.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "online therapy counseling conversation"
   },
   {
     "id": 31,
@@ -197,7 +216,8 @@
     "category": "Learning",
     "whyItIsUseful": "The gamification is engineered to be borderline addictive, which for once is a good thing. The streak system creates a daily habit that adds up to real fluency over months.",
     "websiteLink": "https://www.duolingo.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "language learning owl lesson gamified"
   },
   {
     "id": 32,
@@ -207,7 +227,8 @@
     "category": "Learning",
     "whyItIsUseful": "You can audit most courses for free and only pay if you want a certificate. Getting a Stanford-quality education from your couch is the closest thing to a cheat code for career growth.",
     "websiteLink": "https://www.coursera.org",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "online course lecture university diploma"
   },
   {
     "id": 33,
@@ -217,7 +238,8 @@
     "category": "Learning",
     "whyItIsUseful": "Medical students, language learners, and bar exam preppers swear by it because spaced repetition is the single most evidence-backed study technique. It is free and endlessly customizable.",
     "websiteLink": "https://apps.ankiweb.net",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "flashcard spaced repetition study cards"
   },
   {
     "id": 34,
@@ -227,7 +249,8 @@
     "category": "Learning",
     "whyItIsUseful": "Learning to code by reading is like learning to swim by reading. Codecademy forces you to write real code from lesson one, which is how programming actually sticks.",
     "websiteLink": "https://www.codecademy.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "interactive coding lesson terminal browser"
   },
   {
     "id": 35,
@@ -237,7 +260,8 @@
     "category": "Learning",
     "whyItIsUseful": "It turns the nightmare of managing hundreds of research sources into a one-click operation. The browser extension grabs the full citation from any journal, newspaper, or website instantly.",
     "websiteLink": "https://www.zotero.org",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "reference manager citation library papers"
   },
   {
     "id": 36,
@@ -247,7 +271,8 @@
     "category": "Media",
     "whyItIsUseful": "It is the only truly professional video editor with a free tier that does not watermark or time-limit exports. Its color grading is used on actual feature films.",
     "websiteLink": "https://www.blackmagicdesign.com/products/davinciresolve",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "video editing color grading timeline"
   },
   {
     "id": 37,
@@ -257,7 +282,8 @@
     "category": "Media",
     "whyItIsUseful": "It has been the go-to free audio editor for 20 years for good reason. Podcast editors, musicians, and students all use it because it handles 90% of audio tasks without costing a cent.",
     "websiteLink": "https://www.audacityteam.org",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "audio waveform recording editing mixer"
   },
   {
     "id": 38,
@@ -267,7 +293,8 @@
     "category": "Media",
     "whyItIsUseful": "It is essentially free Photoshop in a browser tab. It even opens actual PSD files, so you can edit Photoshop projects without a subscription.",
     "websiteLink": "https://www.photopea.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "photo editing layers tools browser"
   },
   {
     "id": 39,
@@ -277,7 +304,8 @@
     "category": "Media",
     "whyItIsUseful": "Every major streamer started with OBS because it is free and does everything paid alternatives do. The scene system makes professional-looking streams achievable for beginners.",
     "websiteLink": "https://obsproject.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "live streaming screen recording broadcast"
   },
   {
     "id": 40,
@@ -287,7 +315,8 @@
     "category": "Media",
     "whyItIsUseful": "It solves the quality problem with remote recording. Even if your guest has bad internet, their audio and video are recorded locally in full quality, not compressed through a video call.",
     "websiteLink": "https://riverside.fm",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "podcast recording studio remote microphone"
   },
   {
     "id": 41,
@@ -297,7 +326,8 @@
     "category": "Communication",
     "whyItIsUseful": "It rethinks email from scratch instead of adding features to a broken model. The Screener alone, which blocks unknown senders until you approve them, cuts inbox noise dramatically.",
     "websiteLink": "https://www.hey.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "email inbox organized screener"
   },
   {
     "id": 42,
@@ -307,7 +337,8 @@
     "category": "Communication",
     "whyItIsUseful": "It became the default video meeting tool because it just works with minimal setup. The AI companion that summarizes meetings you missed is genuinely useful.",
     "websiteLink": "https://zoom.us",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "video conference call meeting grid"
   },
   {
     "id": 43,
@@ -317,7 +348,8 @@
     "category": "Communication",
     "whyItIsUseful": "It replaces meetings that should have been emails and emails that should have been videos. Showing someone your screen while talking is 10x faster than writing instructions.",
     "websiteLink": "https://www.loom.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "screen recording video message async"
   },
   {
     "id": 44,
@@ -327,7 +359,8 @@
     "category": "Communication",
     "whyItIsUseful": "Channels turn chaotic group emails into organized, searchable conversations. The integration ecosystem means most of your tools can report directly into Slack without switching contexts.",
     "websiteLink": "https://slack.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "team chat channels messaging threads"
   },
   {
     "id": 45,
@@ -337,7 +370,8 @@
     "category": "Communication",
     "whyItIsUseful": "It eliminates the 'When are you free?' back-and-forth that wastes everyone's time. Sharing a Calendly link instead of proposing times saves an average of 4 emails per meeting.",
     "websiteLink": "https://calendly.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "meeting scheduling calendar availability"
   },
   {
     "id": 46,
@@ -347,7 +381,8 @@
     "category": "Privacy",
     "whyItIsUseful": "It is the gold standard for VPN privacy because they genuinely cannot identify you. No email, no name, and the flat pricing means no upsell dark patterns.",
     "websiteLink": "https://mullvad.net",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "vpn encrypted tunnel privacy shield"
   },
   {
     "id": 47,
@@ -357,7 +392,8 @@
     "category": "Privacy",
     "whyItIsUseful": "It is the only password manager that is both open-source and free for individuals. You get 1Password-level features without the subscription cost, and the code is publicly auditable.",
     "websiteLink": "https://bitwarden.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "password manager vault encrypted logins"
   },
   {
     "id": 48,
@@ -367,7 +403,8 @@
     "category": "Privacy",
     "whyItIsUseful": "It provides military-grade encryption for free. The hidden volume feature means you can have a decoy encrypted drive that conceals the real one, protecting sensitive data even under coercion.",
     "websiteLink": "https://www.veracrypt.fr",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "disk encryption volume secure padlock"
   },
   {
     "id": 49,
@@ -377,7 +414,8 @@
     "category": "Privacy",
     "whyItIsUseful": "It blocks ads and trackers while using a fraction of the resources of alternatives like AdBlock Plus. The web becomes faster, cleaner, and safer with a single install.",
     "websiteLink": "https://ublockorigin.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "ad blocker browser clean webpage"
   },
   {
     "id": 50,
@@ -387,7 +425,8 @@
     "category": "Privacy",
     "whyItIsUseful": "When a service gets hacked and your email leaks, you just disable that one alias instead of dealing with spam forever. It also reveals which companies sell your data.",
     "websiteLink": "https://simplelogin.io",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "email alias privacy forwarding"
   },
   {
     "id": 51,
@@ -397,7 +436,8 @@
     "category": "Social Media",
     "whyItIsUseful": "It lets you batch-create a week of social content in one sitting instead of posting daily. The analytics show exactly which post types and times drive the most engagement.",
     "websiteLink": "https://buffer.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "social media scheduler queue calendar"
   },
   {
     "id": 52,
@@ -407,7 +447,8 @@
     "category": "Social Media",
     "whyItIsUseful": "The unified smart inbox merges messages from every platform into one stream, so you never miss a customer comment. Competitor benchmarking shows exactly where you stand in your industry.",
     "websiteLink": "https://sproutsocial.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "social analytics engagement dashboard"
   },
   {
     "id": 53,
@@ -417,7 +458,8 @@
     "category": "Social Media",
     "whyItIsUseful": "It makes professional-looking social content accessible to non-designers. The platform-specific templates ensure your posts are perfectly sized for every network without guessing dimensions.",
     "websiteLink": "https://www.canva.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "social media template design post"
   },
   {
     "id": 54,
@@ -427,7 +469,8 @@
     "category": "Social Media",
     "whyItIsUseful": "Using the right hashtags can multiply reach by 10x. Hashtagify shows which tags are trending upward and which are oversaturated, so you pick the ones that actually get seen.",
     "websiteLink": "https://hashtagify.me",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "hashtag research trending cloud"
   },
   {
     "id": 55,
@@ -437,7 +480,8 @@
     "category": "Social Media",
     "whyItIsUseful": "The visual calendar lets you see how your Instagram grid will look before publishing, ensuring aesthetic consistency. The Linkin.bio feature turns your feed into a mini website.",
     "websiteLink": "https://later.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "instagram visual planner grid preview"
   },
   {
     "id": 56,
@@ -447,7 +491,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It excels at tasks requiring careful reasoning and long-context understanding. The ability to work with documents up to 200K tokens makes it ideal for analyzing lengthy reports, codebases, and research papers.",
     "websiteLink": "https://claude.ai",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "ai assistant conversation thoughtful analysis"
   },
   {
     "id": 57,
@@ -457,7 +502,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It produces consistently beautiful images that often look indistinguishable from professional photography or illustration. The aesthetic quality puts it ahead for creative and marketing use cases.",
     "websiteLink": "https://www.midjourney.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "ai generated artwork fantasy illustration"
   },
   {
     "id": 58,
@@ -467,7 +513,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It eliminates boilerplate coding and reduces time spent searching Stack Overflow. Developers report completing tasks 55% faster, with the biggest gains on repetitive or unfamiliar code.",
     "websiteLink": "https://github.com/features/copilot",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "ai code suggestion autocomplete programming"
   },
   {
     "id": 59,
@@ -477,7 +524,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It lets you be fully present in meetings instead of frantically scribbling notes. The automated action items and searchable transcripts mean nothing from any meeting is ever lost.",
     "websiteLink": "https://otter.ai",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "meeting transcription notes ai recording"
   },
   {
     "id": 60,
@@ -487,7 +535,8 @@
     "category": "AI Tools",
     "whyItIsUseful": "It turns a week-long literature review into an afternoon task. The ability to extract and compare findings across dozens of papers in a structured table is transformative for researchers.",
     "websiteLink": "https://elicit.com",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "research paper search academic ai"
   },
   {
     "id": 121,
@@ -498,7 +547,8 @@
     "whyItIsUseful": "Shopify makes it incredibly easy to set up a professional online store without any coding knowledge. With built-in payment processing, shipping integration, and thousands of apps, it's the go-to platform for anyone serious about selling online.",
     "websiteLink": "https://www.shopify.com/",
     "imageSearchQuery": "Shopify e-commerce platform store dashboard",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "online store ecommerce shopping cart"
   },
   {
     "id": 122,
@@ -509,7 +559,8 @@
     "whyItIsUseful": "If you sell both online and in-store, Shopify POS keeps everything in sync automatically. One inventory, one customer list, one dashboard — whether someone buys on your website or walks into your shop.",
     "websiteLink": "https://www.shopify.com/pos",
     "imageSearchQuery": "Shopify POS retail point of sale tablet store",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "point of sale retail checkout terminal"
   },
   {
     "id": 123,
@@ -520,7 +571,8 @@
     "whyItIsUseful": "Canva has democratized design. Whether you need a quick Instagram post, a professional presentation, or a logo, you can create it in minutes without any design experience. The AI features make it even faster.",
     "websiteLink": "https://www.canva.com/",
     "imageSearchQuery": "Canva graphic design platform interface templates",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "graphic design template social media"
   },
   {
     "id": 124,
@@ -531,7 +583,8 @@
     "whyItIsUseful": "Notion replaces a dozen separate apps with one connected workspace. Teams use it for documentation, project tracking, and knowledge bases. The flexible block system means you can build exactly the workflow you need.",
     "websiteLink": "https://www.notion.so/",
     "imageSearchQuery": "Notion productivity workspace app dashboard",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "workspace wiki database kanban board"
   },
   {
     "id": 125,
@@ -542,7 +595,8 @@
     "whyItIsUseful": "Unlike traditional courses, Skillshare classes are short (15-60 min) and project-based, so you learn by doing. The unlimited access model means you can explore broadly without per-course costs.",
     "websiteLink": "https://www.skillshare.com/",
     "imageSearchQuery": "Skillshare online learning platform creative classes",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "creative class workshop project hands"
   },
   {
     "id": 126,
@@ -553,7 +607,8 @@
     "whyItIsUseful": "Need a logo designed, a website built, or a video edited? Fiverr makes it easy to find affordable freelancers with transparent pricing. The review system and portfolio previews help you pick the right person.",
     "websiteLink": "https://www.fiverr.com/",
     "imageSearchQuery": "Fiverr freelance marketplace services homepage",
-    "type": "tool"
+    "type": "tool",
+    "imageIdea": "freelancer gig marketplace creative services"
   },
   {
     "id": 61,
@@ -564,7 +619,8 @@
     "whyItIsUseful": "It helps declutter your mind by providing a centralized digital space for all your thoughts and important information. This makes it incredibly easy to find what you need, when you need it, boosting both personal and professional efficiency.",
     "websiteLink": "https://evernote.com/",
     "type": "tool",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "imageIdea": "digital notebook clipping organized green"
   },
   {
     "id": 62,
@@ -575,7 +631,8 @@
     "whyItIsUseful": "It offers unparalleled flexibility for individuals and teams to organize their work and lives. By consolidating multiple tools into one platform, it reduces context switching and promotes a more integrated approach to productivity.",
     "websiteLink": "https://www.notion.so/",
     "type": "tool",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "imageIdea": "workspace wiki database kanban board"
   },
   {
     "id": 63,
@@ -586,7 +643,8 @@
     "whyItIsUseful": "It is essential for managing your time effectively and coordinating schedules with others. Its integration with other Google services and intuitive interface make it a cornerstone for staying organized and on track with your daily commitments.",
     "websiteLink": "https://calendar.google.com/",
     "type": "tool",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "imageIdea": "calendar events schedule planner colorful"
   },
   {
     "id": 64,
