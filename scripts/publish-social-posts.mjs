@@ -52,7 +52,12 @@ async function publishToBluesky(post) {
     if (!sessionRes.ok) throw new Error(`Session failed: ${sessionRes.status}`);
     const session = await sessionRes.json();
 
-    const text = post.platforms.bluesky.text;
+    // Bluesky hard limit is 300 graphemes — trim if needed
+    let text = post.platforms.bluesky.text;
+    if ([...text].length > 300) {
+      text = [...text].slice(0, 297).join('') + '...';
+      console.log(`   ⚠️ Bluesky: text trimmed to 300 graphemes`);
+    }
     const now = new Date().toISOString().replace("+00:00", "Z");
 
     // Parse link facets from text
