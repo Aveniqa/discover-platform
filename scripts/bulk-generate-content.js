@@ -122,7 +122,7 @@ async function main() {
     await new Promise(r => setTimeout(r, 6000));
   }
 
-  // Fix any missing 'type' fields (Gemini sometimes omits them)
+  // Fix any missing fields (Gemini sometimes omits them)
   const typeMap = {
     "discoveries.json": "discovery",
     "products.json": "product",
@@ -130,13 +130,35 @@ async function main() {
     "future-radar.json": "future-tech",
     "daily-tools.json": "tool",
   };
-  let typeFixed = 0;
+  const requiredFields = {
+    "discoveries.json": ["type", "slug", "title", "shortDescription", "category", "whyItIsInteresting"],
+    "products.json": ["type", "slug", "title", "shortDescription", "category", "whyItIsInteresting", "estimatedPriceRange"],
+    "hidden-gems.json": ["type", "slug", "name", "whatItDoes", "category", "whyItIsUseful"],
+    "future-radar.json": ["type", "slug", "techName", "explanation", "industry", "whyItMatters", "developmentStage"],
+    "daily-tools.json": ["type", "slug", "toolName", "whatItDoes", "category", "whyItIsUseful"],
+  };
+  let totalFixed = 0;
   for (const [file, expectedType] of Object.entries(typeMap)) {
     const items = readJSON(file);
-    items.forEach(item => { if (!item.type) { item.type = expectedType; typeFixed++; } });
-    writeJSON(file, items);
+    const fields = requiredFields[file] || [];
+    const validItems = items.filter(item => {
+      if (!item.type) { item.type = expectedType; totalFixed++; }
+      // Remove items missing critical fields that can't be auto-filled
+      for (const f of fields) {
+        if (!item[f] || (typeof item[f] === 'string' && item[f].trim() === '')) {
+          if (f === 'type') continue; // already fixed above
+          console.log(`    ⚠️ Removing ${item.slug || item.id} — missing '${f}'`);
+          return false;
+        }
+      }
+      return true;
+    });
+    writeJSON(file, validItems);
+    if (validItems.length < items.length) {
+      console.log(`  [${file}] Removed ${items.length - validItems.length} invalid items`);
+    }
   }
-  if (typeFixed > 0) console.log(`🔧 Fixed ${typeFixed} items missing 'type' field`);
+  if (totalFixed > 0) console.log(`🔧 Fixed ${totalFixed} items missing 'type' field`);
 
   // Apply Amazon affiliate links to all products
   const TAG = process.env.AMAZON_AFFILIATE_TAG || "vaultvibe-20";
