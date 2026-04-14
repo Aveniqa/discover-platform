@@ -81,6 +81,7 @@ async function generateItems(category, existingItems, count) {
   "imageIdea": "<concrete visual noun>",
   "sourceLink": "<real product URL>",
   "estimatedPriceRange": "<e.g. $299-$349>",
+  "availableOnAmazon": <true|false — true if this exact product is sold on Amazon, false for DTC-only or niche brands not on Amazon>,
   "type": "product"
 }`,
     "hidden-gems": `{
@@ -204,7 +205,13 @@ async function main() {
   const productsFile = path.join(DATA_DIR, "products.json");
   const allProducts = JSON.parse(fs.readFileSync(productsFile, "utf8"));
   let affiliateCount = 0;
+  let skippedDtc = 0;
   for (const p of allProducts) {
+    // Skip products explicitly flagged as not on Amazon
+    if (p.availableOnAmazon === false) {
+      skippedDtc++;
+      continue;
+    }
     const query = encodeURIComponent(p.title);
     const amazonUrl = `https://www.amazon.com/s?k=${query}&tag=${AMAZON_TAG}`;
     // Always set directAmazonUrl (explicit field for rendering)
@@ -219,6 +226,9 @@ async function main() {
       };
       affiliateCount++;
     }
+  }
+  if (skippedDtc > 0) {
+    console.log(`⏭️  Skipped ${skippedDtc} DTC-only products (not on Amazon).`);
   }
   // Auto-apply Best Buy search URLs to electronics/appliance products
   const BESTBUY_CATEGORIES = [

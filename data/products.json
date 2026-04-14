@@ -962,11 +962,8 @@
     "estimatedPriceRange": "$59\u2013$79",
     "type": "product",
     "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Timeular+Tracker+Physical+Time+Tracker&tag=vaultvibe-20"
+      "enabled": false
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Timeular+Tracker+Physical+Time+Tracker&tag=vaultvibe-20",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Timeular+Tracker+Physical+Time+Tracker"
   },
   {
@@ -1095,11 +1092,8 @@
     "estimatedPriceRange": "$395\u2013$495",
     "type": "product",
     "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Vollebak+Solar+Charged+Jacket&tag=vaultvibe-20"
+      "enabled": false
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Vollebak+Solar+Charged+Jacket&tag=vaultvibe-20",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Vollebak+Solar+Charged+Jacket"
   },
   {
@@ -1114,11 +1108,8 @@
     "estimatedPriceRange": "$149\u2013$249",
     "type": "product",
     "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Nadi+X+Smart+Yoga+Pants&tag=vaultvibe-20"
+      "enabled": false
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Nadi+X+Smart+Yoga+Pants&tag=vaultvibe-20",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nadi+X+Smart+Yoga+Pants"
   },
   {
@@ -1152,11 +1143,8 @@
     "estimatedPriceRange": "$169\u2013$399",
     "type": "product",
     "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Hexoskin+Smart+Shirt&tag=vaultvibe-20"
+      "enabled": false
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Hexoskin+Smart+Shirt&tag=vaultvibe-20",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Hexoskin+Smart+Shirt"
   },
   {
@@ -1171,11 +1159,8 @@
     "estimatedPriceRange": "$379\u2013$429",
     "type": "product",
     "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=RayNeo+Air+2s+AR+Glasses&tag=vaultvibe-20"
+      "enabled": false
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=RayNeo+Air+2s+AR+Glasses&tag=vaultvibe-20",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=RayNeo+Air+2s+AR+Glasses"
   },
   {
@@ -1265,11 +1250,8 @@
     "estimatedPriceRange": "$35\u2013$55",
     "type": "product",
     "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Pela+Compostable+Phone+Case&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Pela+Compostable+Phone+Case&tag=vaultvibe-20"
+      "enabled": false
+    }
   },
   {
     "id": 71,
@@ -2117,11 +2099,8 @@
     "estimatedPriceRange": "$349-$399",
     "type": "product",
     "dateAdded": "2026-04-14",
-    "directAmazonUrl": "https://www.amazon.com/s?k=Muse+S+%28Gen+2%29+Brain+Sensing+Headband&tag=vaultvibe-20",
     "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Muse+S+%28Gen+2%29+Brain+Sensing+Headband&tag=vaultvibe-20"
+      "enabled": false
     },
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Muse+S+%28Gen+2%29+Brain+Sensing+Headband"
   },
@@ -2177,11 +2156,8 @@
     "estimatedPriceRange": "$150-$190",
     "type": "product",
     "dateAdded": "2026-04-14",
-    "directAmazonUrl": "https://www.amazon.com/s?k=Wynd+Plus+Personal+Air+Purifier&tag=vaultvibe-20",
     "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Wynd+Plus+Personal+Air+Purifier&tag=vaultvibe-20"
+      "enabled": false
     },
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Wynd+Plus+Personal+Air+Purifier"
   },
@@ -2217,11 +2193,8 @@
     "estimatedPriceRange": "$899-$999",
     "type": "product",
     "dateAdded": "2026-04-14",
-    "directAmazonUrl": "https://www.amazon.com/s?k=Gardyn+Home+Kit+3.0&tag=vaultvibe-20",
     "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Gardyn+Home+Kit+3.0&tag=vaultvibe-20"
+      "enabled": false
     },
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Gardyn+Home+Kit+3.0"
   },
