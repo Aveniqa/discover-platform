@@ -177,6 +177,60 @@ async function main() {
   posts.forEach((p) => console.log(`   • ${p.title} (${p.category})`));
 }
 
+function cleanJson(text) {
+  // Strip markdown fences if present
+  let cleaned = text.replace(/^```json\s*/i, "").replace(/```\s*$/i, "").trim();
+  // Remove trailing commas before } or ]
+  cleaned = cleaned.replace(/,\s*([}\]])/g, "$1");
+  return cleaned;
+}
+
+async function callGeminiWithRetry(prompt, maxRetries = 2) {
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      const response = await fetch(`${GEMINI_URL}?key=${GEMINI_API_KEY}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            temperature: 0.7,
+            maxOutputTokens: 800,
+            responseMimeType: "application/json",
+          },
+        }),
+      });
+
+      if (response.status === 503 || response.status === 429) {
+        if (attempt < maxRetries) {
+          const wait = (attempt + 1) * 3000;
+          console.log(`   ⏳ Rate limited, retrying in ${wait / 1000}s...`);
+          await new Promise((r) => setTimeout(r, wait));
+          continue;
+        }
+      }
+
+      if (!response.ok) {
+        const errText = await response.text();
+        throw new Error(`Gemini API ${response.status}: ${errText.slice(0, 200)}`);
+      }
+
+      const data = await response.json();
+      const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!text) throw new Error("Empty Gemini response");
+
+      return JSON.parse(cleanJson(text));
+    } catch (err) {
+      if (attempt < maxRetries && err.message.includes("JSON")) {
+        console.log(`   ⏳ JSON parse error, retrying...`);
+        await new Promise((r) => setTimeout(r, 2000));
+        continue;
+      }
+      throw err;
+    }
+  }
+}
+
 async function generateSocialContent(item, affiliateUrl, productUrl) {
   const hasAffiliate = item.directAmazonUrl ? true : false;
   const affiliateNote = hasAffiliate
@@ -186,7 +240,7 @@ async function generateSocialContent(item, affiliateUrl, productUrl) {
   const prompt = `You write social media posts for "Surfaced," a product discovery site (surfaced-x.pages.dev).
 Tone: curious, opinionated, concise. Not corporate. Mention honest limitations when relevant.
 
-Generate exactly 3 outputs in JSON:
+Generate exactly 3 outputs in valid JSON (no trailing commas):
 1. "pinterest": { "title": string (max 100 chars), "description": string (max 500 chars, include #affiliate if affiliate link, plus 3-4 hashtags) }
 2. "bluesky": { "text": string (max 280 chars, include link at end) }
 3. "twitter": { "text": string (max 280 chars, include link at end) }
@@ -201,32 +255,10 @@ Product:
 - Price: ${item.estimatedPriceRange || "See link"}
 - Link: ${hasAffiliate ? affiliateUrl : productUrl}
 
-Respond ONLY with valid JSON. No markdown fences.`;
+Respond ONLY with valid JSON.`;
 
   try {
-    const response = await fetch(`${GEMINI_URL}?key=${GEMINI_API_KEY}`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: {
-          temperature: 0.8,
-          maxOutputTokens: 800,
-          responseMimeType: "application/json",
-        },
-      }),
-    });
-
-    if (!response.ok) {
-      const errText = await response.text();
-      throw new Error(`Gemini API ${response.status}: ${errText.slice(0, 200)}`);
-    }
-
-    const data = await response.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
-    if (!text) throw new Error("Empty Gemini response");
-
-    return JSON.parse(text);
+    return await callGeminiWithRetry(prompt);
   } catch (err) {
     console.error(`   ❌ Failed for ${item.title}: ${err.message}`);
     return null;
