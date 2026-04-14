@@ -252,7 +252,7 @@ export default async function ItemPage({ params }: Props) {
   const prevItem = currentIndex > 0 ? categoryItems[currentIndex - 1] : null;
   const nextItem = currentIndex < categoryItems.length - 1 ? categoryItems[currentIndex + 1] : null;
   const ctaLabel = getCtaLabel(item);
-  const isAffiliate = item.affiliate?.enabled || item.type === "product";
+  const isAffiliate = item.affiliate?.enabled === true;
 
   // C1: Reading time estimate
   const readingText = [description, whyText].filter(Boolean).join(" ");
