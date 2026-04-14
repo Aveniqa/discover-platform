@@ -75,7 +75,7 @@ export function getNewsletterEmail(): string | null {
 }
 
 /* ---- Share ---- */
-const SITE_URL = "https://surfaced.io";
+const SITE_URL = "https://surfaced-x.pages.dev";
 
 export function getShareUrl(slug: string): string {
   const origin = typeof window !== "undefined" ? window.location.origin : SITE_URL;

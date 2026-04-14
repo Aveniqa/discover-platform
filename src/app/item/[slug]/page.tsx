@@ -111,7 +111,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const priceRange = isProduct ? (item as Product).estimatedPriceRange : undefined;
 
   return {
-    title: `${title} — Surfaced`,
+    title: title,
     description: desc,
     alternates: { canonical: pageUrl },
     openGraph: {
@@ -258,9 +258,10 @@ export default async function ItemPage({ params }: Props) {
   const readingText = [description, whyText].filter(Boolean).join(" ");
   const readingTime = Math.max(1, Math.ceil(readingText.length / 1000));
 
-  // C3: "You Might Also Like" — same category, newest first, excluding current
+  // C3: "You Might Also Like" — same category, newest first, excluding current + already shown
+  const shownSlugs = new Set([slug, ...relatedItems.map(i => i.slug), ...crossItems.map(i => i.slug)]);
   const youMightLike = categoryItems
-    .filter((i) => i.slug !== slug)
+    .filter((i) => !shownSlugs.has(i.slug))
     .sort((a, b) => (b.id || 0) - (a.id || 0))
     .slice(0, 6);
 

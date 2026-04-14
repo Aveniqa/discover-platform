@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "Surfaced — What the Internet Surfaced Today",
     description:
       "Fascinating discoveries, trending products, hidden gems, and future technology — curated daily.",
-    creator: "@surfaced",
+    creator: "@xSurfaced",
   },
   robots: {
     index: true,
