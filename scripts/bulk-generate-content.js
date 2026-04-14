@@ -122,6 +122,22 @@ async function main() {
     await new Promise(r => setTimeout(r, 6000));
   }
 
+  // Fix any missing 'type' fields (Gemini sometimes omits them)
+  const typeMap = {
+    "discoveries.json": "discovery",
+    "products.json": "product",
+    "hidden-gems.json": "hidden-gem",
+    "future-radar.json": "future-tech",
+    "daily-tools.json": "tool",
+  };
+  let typeFixed = 0;
+  for (const [file, expectedType] of Object.entries(typeMap)) {
+    const items = readJSON(file);
+    items.forEach(item => { if (!item.type) { item.type = expectedType; typeFixed++; } });
+    writeJSON(file, items);
+  }
+  if (typeFixed > 0) console.log(`🔧 Fixed ${typeFixed} items missing 'type' field`);
+
   // Apply Amazon affiliate links to all products
   const TAG = process.env.AMAZON_AFFILIATE_TAG || "vaultvibe-20";
   const products = readJSON("products.json");
