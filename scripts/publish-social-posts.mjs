@@ -76,58 +76,44 @@ async function publishToBluesky(post) {
     };
     if (facets.length > 0) record.facets = facets;
 
-    // Optionally embed link card using the product page OG tags
-    if (post.productUrl) {
+    // Upload and embed image directly if available
+    if (post.imageUrl) {
       try {
-        const ogRes = await fetch(post.productUrl);
-        if (ogRes.ok) {
-          const html = await ogRes.text();
-          const ogTitle =
-            html.match(/<meta[^>]*property="og:title"[^>]*content="([^"]*)"/)
-              ?.[1] || post.title;
-          const ogDesc =
-            html.match(
-              /<meta[^>]*property="og:description"[^>]*content="([^"]*)"/)
-              ?.[1] || "";
-          const ogImage =
-            html.match(/<meta[^>]*property="og:image"[^>]*content="([^"]*)"/)
-              ?.[1] || "";
-
-          const card = {
-            uri: post.productUrl,
-            title: ogTitle,
-            description: ogDesc,
-          };
-
-          // Upload thumbnail if available
-          if (ogImage) {
-            const imgRes = await fetch(ogImage);
-            if (imgRes.ok) {
-              const imgBuffer = await imgRes.arrayBuffer();
-              if (imgBuffer.byteLength <= 1000000) {
-                const blobRes = await fetch(
-                  "https://bsky.social/xrpc/com.atproto.repo.uploadBlob",
-                  {
-                    method: "POST",
-                    headers: {
-                      "Content-Type": "image/jpeg",
-                      Authorization: `Bearer ${session.accessJwt}`,
-                    },
-                    body: Buffer.from(imgBuffer),
-                  }
-                );
-                if (blobRes.ok) {
-                  const blobData = await blobRes.json();
-                  card.thumb = blobData.blob;
-                }
+        const imgRes = await fetch(post.imageUrl);
+        if (imgRes.ok) {
+          const imgBuffer = await imgRes.arrayBuffer();
+          if (imgBuffer.byteLength <= 1000000) {
+            const contentType = imgRes.headers.get("content-type") || "image/jpeg";
+            const blobRes = await fetch(
+              "https://bsky.social/xrpc/com.atproto.repo.uploadBlob",
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": contentType,
+                  Authorization: `Bearer ${session.accessJwt}`,
+                },
+                body: Buffer.from(imgBuffer),
               }
+            );
+            if (blobRes.ok) {
+              const blobData = await blobRes.json();
+              record.embed = {
+                $type: "app.bsky.embed.images",
+                images: [
+                  {
+                    alt: post.title,
+                    image: blobData.blob,
+                  },
+                ],
+              };
+              console.log(`   📷 Bluesky: image uploaded`);
             }
+          } else {
+            console.log(`   ⚠️ Bluesky: image too large (${(imgBuffer.byteLength / 1024).toFixed(0)}KB), skipping`);
           }
-
-          record.embed = { $type: "app.bsky.embed.external", external: card };
         }
-      } catch {
-        // Link card is optional — continue without it
+      } catch (imgErr) {
+        console.log(`   ⚠️ Bluesky: image upload failed, posting without image`);
       }
     }
 
@@ -161,7 +147,6 @@ async function publishToBluesky(post) {
     return false;
   }
 }
-
 // ─── Pinterest API v5 ─────────────────────────────────────────
 async function publishToPinterest(post) {
   const token = process.env.PINTEREST_ACCESS_TOKEN;
@@ -242,6 +227,71 @@ async function publishToTwitter(post) {
 
   try {
     const tweetText = post.platforms.twitter.text;
+
+    // Upload image if available (v1.1 media upload)
+    let mediaId = null;
+    if (post.imageUrl) {
+      try {
+        const imgRes = await fetch(post.imageUrl);
+        if (imgRes.ok) {
+          const imgBuffer = await imgRes.arrayBuffer();
+          const base64Image = Buffer.from(imgBuffer).toString("base64");
+          const contentType = imgRes.headers.get("content-type") || "image/jpeg";
+
+          const uploadUrl = "https://upload.twitter.com/1.1/media/upload.json";
+          const uploadMethod = "POST";
+
+          // Build form data as URL-encoded
+          const mediaData = `media_data=${percentEncode(base64Image)}`;
+
+          const uploadOauthParams = {
+            oauth_consumer_key: apiKey,
+            oauth_nonce: randomBytes(16).toString("hex"),
+            oauth_signature_method: "HMAC-SHA1",
+            oauth_timestamp: Math.floor(Date.now() / 1000).toString(),
+            oauth_token: accessToken,
+            oauth_version: "1.0",
+          };
+
+          const uploadSig = generateOAuthSignature(
+            uploadMethod,
+            uploadUrl,
+            uploadOauthParams,
+            apiSecret,
+            accessSecret
+          );
+          uploadOauthParams.oauth_signature = uploadSig;
+
+          const uploadAuthHeader =
+            "OAuth " +
+            Object.keys(uploadOauthParams)
+              .sort()
+              .map((k) => `${percentEncode(k)}="${percentEncode(uploadOauthParams[k])}"`)
+              .join(", ");
+
+          const uploadRes = await fetch(uploadUrl, {
+            method: uploadMethod,
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+              Authorization: uploadAuthHeader,
+            },
+            body: mediaData,
+          });
+
+          if (uploadRes.ok) {
+            const uploadResult = await uploadRes.json();
+            mediaId = uploadResult.media_id_string;
+            console.log(`   📷 X/Twitter: image uploaded → ${mediaId}`);
+          } else {
+            const uploadErr = await uploadRes.text();
+            console.log(`   ⚠️ X/Twitter: image upload failed (${uploadRes.status}), posting without image`);
+          }
+        }
+      } catch (imgErr) {
+        console.log(`   ⚠️ X/Twitter: image upload failed, posting without image`);
+      }
+    }
+
     const url = "https://api.x.com/2/tweets";
     const method = "POST";
 
@@ -270,13 +320,18 @@ async function publishToTwitter(post) {
         .map((k) => `${percentEncode(k)}="${percentEncode(oauthParams[k])}"`)
         .join(", ");
 
+    const tweetBody = { text: tweetText };
+    if (mediaId) {
+      tweetBody.media = { media_ids: [mediaId] };
+    }
+
     const res = await fetch(url, {
       method,
       headers: {
         "Content-Type": "application/json",
         Authorization: authHeader,
       },
-      body: JSON.stringify({ text: tweetText }),
+      body: JSON.stringify(tweetBody),
     });
 
     if (!res.ok) {
