@@ -71,4 +71,5 @@ jobs:
             exit 0
           fi
           git commit -m "📦 Bulk content: +${{ inputs.items_per_category }} items per category"
+          git pull --rebase origin main
           git push
