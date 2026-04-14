@@ -1,46 +1,46 @@
 [
   {
-    "slug": "milgram-experiment-obedience-authority",
-    "title": "The Milgram Experiment: Unsettling Insights into Obedience to Authority",
+    "slug": "ancient-african-civilization-advanced-metallurgy",
+    "title": "Ancient African Civilization Showed Advanced Metallurgy",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "In the 1960s, Stanley Milgram's controversial experiments revealed how readily individuals would obey instructions from ",
+    "description": "Archaeological findings in Niger reveal evidence of a sophisticated iron-smelting civilization that predates similar dev",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "dodow-sleep-aid-device",
-    "title": "Dodow Sleep Aid Device",
+    "slug": "lightform-projector-holographic-display",
+    "title": "Lightform Projector",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "Dodow is a metronome with a light system that teaches you how to fall asleep naturally. By synchronizing your breath wit",
-    "badge": null,
+    "description": "This isn't your average projector; Lightform creates interactive, touch-responsive holographic projections. It blurs the",
+    "badge": "great-gift",
     "type": "product"
   },
   {
-    "slug": "wappalyzer",
-    "title": "Wappalyzer",
+    "slug": "use-word-count",
+    "title": "Use Word Count",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Wappalyzer is a browser extension that uncovers the technologies used on websites. It identifies CMS, e-commerce platfor",
+    "description": "Use Word Count is a straightforward online tool that provides real-time word and character counts for your text. It also",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "targeted-crispr-based-viral-inactivation",
-    "title": "Targeted CRISPR-Based Viral Inactivation (TCBVI)",
+    "slug": "advanced-robotic-assisted-surgery-platforms",
+    "title": "Advanced Robotic-Assisted Surgery Platforms with Haptic Feedback",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "TCBVI is a sophisticated therapeutic approach that utilizes engineered CRISPR-Cas systems to specifically identify and d",
-    "badge": "editors-pick",
+    "description": "New surgical robotic systems are integrating sophisticated haptic feedback, allowing surgeons to 'feel' tissues and inst",
+    "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "instapaper",
-    "title": "Instapaper",
+    "slug": "spotify",
+    "title": "Spotify",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Instapaper is a 'read-it-later' service that allows users to save web articles, videos, and other online content for off",
+    "description": "A digital music, podcast, and video streaming service that gives you access to millions of songs and other content from ",
     "badge": null,
     "type": "tool"
   }

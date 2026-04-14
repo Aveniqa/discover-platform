@@ -1,55 +1,5 @@
 [
   {
-    "id": 7,
-    "slug": "in-vivo-gene-editing",
-    "techName": "In-Vivo Gene Editing",
-    "explanation": "CRISPR-based therapies delivered directly into a living patient to fix disease-causing mutations at their source. No need to remove cells, edit them in a lab, and return them.",
-    "industry": "Healthcare",
-    "whyItMatters": "It could cure sickle cell disease, muscular dystrophy, and thousands of genetic conditions with a single injection, transforming medicine from treatment to permanent correction.",
-    "developmentStage": "Advanced Research",
-    "type": "future-tech"
-  },
-  {
-    "id": 8,
-    "slug": "liquid-biopsy-diagnostics",
-    "techName": "Liquid Biopsy Diagnostics",
-    "explanation": "Blood tests that detect fragments of tumor DNA, proteins, and exosomes circulating in the bloodstream. A simple draw can screen for dozens of cancer types years before symptoms appear.",
-    "industry": "Healthcare",
-    "whyItMatters": "Catching cancer at stage 1 instead of stage 4 raises survival rates from under 20% to over 90% for most cancers, potentially saving millions of lives annually.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech"
-  },
-  {
-    "id": 9,
-    "slug": "neural-controlled-prosthetics",
-    "techName": "Neural-Controlled Prosthetics",
-    "explanation": "Artificial limbs connected directly to the nervous system via implanted electrodes. Users control them with thought alone and receive sensory feedback including pressure, temperature, and texture.",
-    "industry": "Healthcare",
-    "whyItMatters": "They restore near-natural movement and sensation to amputees, closing the gap between biological and artificial limbs and dramatically improving quality of life for millions.",
-    "developmentStage": "Prototype",
-    "type": "future-tech"
-  },
-  {
-    "id": 10,
-    "slug": "senolytics-longevity-drugs",
-    "techName": "Senolytics and Longevity Drugs",
-    "explanation": "Pharmaceuticals that selectively destroy senescent (zombie) cells that accumulate with age and drive inflammation, tissue damage, and age-related diseases like Alzheimer's and arthritis.",
-    "industry": "Healthcare",
-    "whyItMatters": "By targeting the root biology of aging rather than individual diseases, senolytics could extend healthy lifespan by a decade or more and compress the period of age-related decline.",
-    "developmentStage": "Advanced Research",
-    "type": "future-tech"
-  },
-  {
-    "id": 11,
-    "slug": "vehicle-to-grid-ev-fleets",
-    "techName": "Vehicle-to-Grid EV Fleets",
-    "explanation": "Electric vehicles with bidirectional charging that can feed stored energy back into the power grid during peak demand. Fleets of millions of parked EVs act as a massive distributed battery.",
-    "industry": "Transportation",
-    "whyItMatters": "The world's EV fleet could store more energy than all planned grid batteries combined, stabilizing renewable grids while earning car owners money from their parked vehicles.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech"
-  },
-  {
     "id": 12,
     "slug": "level-5-autonomous-vehicles",
     "techName": "Level 5 Autonomous Vehicles",
@@ -1229,5 +1179,41 @@
     "type": "future-tech",
     "dateAdded": "2026-04-14",
     "badge": "editors-pick"
+  },
+  {
+    "id": 117,
+    "slug": "solid-state-battery-breakthrough",
+    "techName": "Solid-State Battery Breakthroughs",
+    "explanation": "Recent advancements in solid-state battery technology have overcome previous limitations in conductivity and manufacturability. Companies are now demonstrating prototypes with significantly improved energy density and faster charging capabilities compared to current lithium-ion batteries.",
+    "industry": "Automotive/Energy Storage",
+    "whyItMatters": "This technology promises safer, longer-lasting, and faster-charging batteries for electric vehicles and portable electronics. It has the potential to accelerate the transition to electric transportation and reduce reliance on fossil fuels.",
+    "developmentStage": "Prototype",
+    "imageIdea": "cross-section of a solid-state battery cell",
+    "type": "future-tech",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 118,
+    "slug": "next-gen-messenger-rna-therapeutics",
+    "techName": "Next-Generation mRNA Therapeutics Beyond Vaccines",
+    "explanation": "Building on the success of COVID-19 vaccines, researchers are making strides in developing mRNA therapies for a wider range of diseases. Recent milestones include successful pre-clinical trials for personalized cancer treatments and therapies for rare genetic disorders.",
+    "industry": "Biotechnology/Pharmaceuticals",
+    "whyItMatters": "mRNA technology offers a flexible and rapid platform for developing treatments. It holds promise for tackling currently incurable diseases by instructing the body to produce therapeutic proteins or immune responses.",
+    "developmentStage": "Research",
+    "imageIdea": "stylized mRNA molecule with therapeutic protein",
+    "type": "future-tech",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 119,
+    "slug": "advanced-robotic-assisted-surgery-platforms",
+    "techName": "Advanced Robotic-Assisted Surgery Platforms with Haptic Feedback",
+    "explanation": "New surgical robotic systems are integrating sophisticated haptic feedback, allowing surgeons to 'feel' tissues and instruments with unprecedented precision. Recent demonstrations showcase enhanced dexterity and reduced invasiveness for complex procedures.",
+    "industry": "Healthcare/Medical Devices",
+    "whyItMatters": "These platforms enhance surgical outcomes by improving surgeon control and reducing the potential for error. They can lead to faster patient recovery times and enable more intricate surgical interventions.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "surgical robot arm with haptic glove",
+    "type": "future-tech",
+    "dateAdded": "2026-04-14"
   }
 ]

@@ -1,60 +1,5 @@
 [
   {
-    "id": 5,
-    "slug": "rive",
-    "name": "Rive",
-    "whatItDoes": "A design tool for creating interactive animations and motion graphics that run in real time on apps and websites. It uses a state machine approach to make animations respond to user input.",
-    "category": "Design",
-    "whyItIsUseful": "It replaces Lottie and After Effects workflows with a purpose-built tool for interactive runtime animations. The resulting files are tiny and performant across platforms.",
-    "websiteLink": "https://rive.app",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Frive.app&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 6,
-    "slug": "anytype",
-    "name": "Anytype",
-    "whatItDoes": "A privacy-first, offline-capable knowledge management app that stores data locally and syncs peer-to-peer. It combines notes, tasks, databases, and bookmarks into a single workspace.",
-    "category": "Productivity",
-    "whyItIsUseful": "It offers the flexibility of Notion without sending your data to a central server. The local-first architecture means your notes are always available, even offline.",
-    "websiteLink": "https://anytype.io",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fanytype.io&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 7,
-    "slug": "tana",
-    "name": "Tana",
-    "whatItDoes": "A supertag-based workspace that lets you build structured knowledge graphs from everyday notes. It combines outlining, databases, and AI-powered search into one tool.",
-    "category": "Productivity",
-    "whyItIsUseful": "It eliminates the friction between freeform notes and structured data. Supertags let you turn any bullet point into a queryable record without switching tools.",
-    "websiteLink": "https://tana.inc",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftana.inc&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 8,
-    "slug": "reclaim-ai",
-    "name": "Reclaim.ai",
-    "whatItDoes": "An AI-powered calendar assistant that automatically schedules tasks, habits, and meetings around your existing commitments. It integrates with Google Calendar and popular task managers.",
-    "category": "Productivity",
-    "whyItIsUseful": "It solves the constant re-shuffling problem of time blocking by dynamically adjusting your schedule. Teams can protect focus time while still finding meeting slots that work for everyone.",
-    "websiteLink": "https://reclaim.ai",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Freclaim.ai&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 9,
-    "slug": "espanso",
-    "name": "Espanso",
-    "whatItDoes": "A cross-platform text expander that detects keywords you type and replaces them with templates, dates, clipboard contents, or even shell command output. It is open-source and works system-wide.",
-    "category": "Productivity",
-    "whyItIsUseful": "It saves hours of repetitive typing for emails, code snippets, and form entries. Because it is system-wide, it works in every application without plugins.",
-    "websiteLink": "https://espanso.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fespanso.org&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 10,
     "slug": "capacities",
     "name": "Capacities",
@@ -715,6 +660,18 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fjqplay.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
+    "id": 139,
+    "slug": "etsy-handmade-marketplace",
+    "name": "Etsy",
+    "whatItDoes": "Global marketplace for unique handmade, vintage, and creative goods — from jewelry and art to home decor and personalized gifts from independent artisans worldwide.",
+    "category": "Shopping",
+    "whyItIsUseful": "When you want something unique that you won't find at big retailers, Etsy is the place. Every purchase supports independent creators, and the personalization options mean you can get truly one-of-a-kind items.",
+    "websiteLink": "https://www.etsy.com/",
+    "imageSearchQuery": "Etsy handmade marketplace unique artisan products",
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.etsy.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
     "id": 76,
     "slug": "font-pairwise",
     "name": "Font Pair",
@@ -1326,14 +1283,42 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.wappalyzer.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 139,
-    "slug": "etsy-handmade-marketplace",
-    "name": "Etsy",
-    "whatItDoes": "Global marketplace for unique handmade, vintage, and creative goods \u2014 from jewelry and art to home decor and personalized gifts from independent artisans worldwide.",
-    "category": "Shopping",
-    "whyItIsUseful": "When you want something unique that you won't find at big retailers, Etsy is the place. Every purchase supports independent creators, and the personalization options mean you can get truly one-of-a-kind items.",
-    "websiteLink": "https://www.etsy.com/",
-    "imageSearchQuery": "Etsy handmade marketplace unique artisan products",
-    "type": "hidden-gem"
+    "id": 140,
+    "slug": "font-pair",
+    "name": "Font Pair",
+    "whatItDoes": "Font Pair is a curated collection of Google Fonts that pair well together. It offers visual examples of font combinations, making it easy to discover harmonious typography for your projects.",
+    "category": "Design",
+    "whyItIsUseful": "Finding complementary fonts can be time-consuming. Font Pair simplifies this process by showcasing tested and attractive combinations, saving designers significant effort.",
+    "imageIdea": "pair of roman sandals",
+    "websiteLink": "https://fontpair.co/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ffontpair.co%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 141,
+    "slug": "taskade",
+    "name": "Taskade",
+    "whatItDoes": "Taskade is an all-in-one collaboration tool that combines task management, notes, and team chat. It allows you to create projects, assign tasks, and communicate with your team in a unified workspace.",
+    "category": "Productivity",
+    "whyItIsUseful": "It offers a flexible and integrated approach to project management and team communication, reducing the need to juggle multiple applications. Its visual and intuitive interface makes it accessible for various team sizes and workflows.",
+    "imageIdea": "tangled ball of yarn",
+    "websiteLink": "https://www.taskade.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.taskade.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 142,
+    "slug": "use-word-count",
+    "name": "Use Word Count",
+    "whatItDoes": "Use Word Count is a straightforward online tool that provides real-time word and character counts for your text. It also offers basic text analysis like sentence and paragraph counts.",
+    "category": "Writing",
+    "whyItIsUseful": "Essential for writers, students, and anyone who needs to adhere to specific length constraints. Its simplicity and immediate feedback are invaluable for precise content creation.",
+    "imageIdea": "measuring tape and a pen",
+    "websiteLink": "https://usewordcount.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fusewordcount.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

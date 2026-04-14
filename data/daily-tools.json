@@ -1,55 +1,5 @@
 [
   {
-    "id": 7,
-    "slug": "google-fonts",
-    "toolName": "Google Fonts",
-    "whatItDoes": "Free library of 1,500+ open-source font families optimized for the web. Preview fonts with custom text, sort by category, and add them to any website with a single line of code.",
-    "category": "Design",
-    "whyItIsUseful": "It removes the cost and licensing headaches of professional typography. Every font is free, fast-loading, and already optimized for screen readability.",
-    "websiteLink": "https://fonts.google.com",
-    "type": "tool"
-  },
-  {
-    "id": 8,
-    "slug": "figma",
-    "toolName": "Figma",
-    "whatItDoes": "Browser-based collaborative design tool for UI/UX mockups, prototyping, and design systems. Multiple designers can work on the same file simultaneously with real-time cursors.",
-    "category": "Design",
-    "whyItIsUseful": "Real-time multiplayer design eliminates version conflicts. The free tier is generous enough for most individual designers and small teams.",
-    "websiteLink": "https://www.figma.com",
-    "type": "tool"
-  },
-  {
-    "id": 9,
-    "slug": "the-noun-project",
-    "toolName": "The Noun Project",
-    "whatItDoes": "Library of over 5 million icons and stock photos created by a global community of designers. Consistent icon sets available in SVG and PNG with customizable colors.",
-    "category": "Design",
-    "whyItIsUseful": "When you need a specific icon for an obscure concept, Noun Project almost certainly has it. The consistent style within icon sets keeps designs cohesive.",
-    "websiteLink": "https://thenounproject.com",
-    "type": "tool"
-  },
-  {
-    "id": 10,
-    "slug": "remove-bg",
-    "toolName": "Remove.bg",
-    "whatItDoes": "AI-powered background removal for images. Upload a photo and get a clean cutout in seconds with remarkably accurate edge detection, even handling hair and transparent objects.",
-    "category": "Design",
-    "whyItIsUseful": "What used to take 20 minutes of careful Photoshop masking now takes 5 seconds. The edge quality is better than most people can achieve manually.",
-    "websiteLink": "https://www.remove.bg",
-    "type": "tool"
-  },
-  {
-    "id": 11,
-    "slug": "grammarly",
-    "toolName": "Grammarly",
-    "whatItDoes": "AI writing assistant that checks grammar, spelling, punctuation, tone, and clarity in real time. Works across email, docs, social media, and most text fields via browser extension.",
-    "category": "Writing",
-    "whyItIsUseful": "It catches embarrassing errors before they ship and its tone detection helps you avoid sounding accidentally aggressive in emails. The browser extension means it works everywhere.",
-    "websiteLink": "https://www.grammarly.com",
-    "type": "tool"
-  },
-  {
     "id": 12,
     "slug": "jasper",
     "toolName": "Jasper",
@@ -540,6 +490,72 @@
     "type": "tool"
   },
   {
+    "id": 121,
+    "slug": "shopify-ecommerce-platform",
+    "toolName": "Shopify",
+    "whatItDoes": "All-in-one e-commerce platform to create your online store, manage products, process payments, and scale your business — used by millions of merchants worldwide.",
+    "category": "E-Commerce",
+    "whyItIsUseful": "Shopify makes it incredibly easy to set up a professional online store without any coding knowledge. With built-in payment processing, shipping integration, and thousands of apps, it's the go-to platform for anyone serious about selling online.",
+    "websiteLink": "https://www.shopify.com/",
+    "imageSearchQuery": "Shopify e-commerce platform store dashboard",
+    "type": "tool"
+  },
+  {
+    "id": 122,
+    "slug": "shopify-pos-retail",
+    "toolName": "Shopify POS",
+    "whatItDoes": "Point-of-sale system that unifies online and in-person selling with inventory sync, customer profiles, and tap-to-pay — turning any device into a register.",
+    "category": "E-Commerce",
+    "whyItIsUseful": "If you sell both online and in-store, Shopify POS keeps everything in sync automatically. One inventory, one customer list, one dashboard — whether someone buys on your website or walks into your shop.",
+    "websiteLink": "https://www.shopify.com/pos",
+    "imageSearchQuery": "Shopify POS retail point of sale tablet store",
+    "type": "tool"
+  },
+  {
+    "id": 123,
+    "slug": "canva-design-platform",
+    "toolName": "Canva",
+    "whatItDoes": "Drag-and-drop design platform for creating social media graphics, presentations, posters, videos, and more — with thousands of templates and an AI-powered design assistant.",
+    "category": "Design",
+    "whyItIsUseful": "Canva has democratized design. Whether you need a quick Instagram post, a professional presentation, or a logo, you can create it in minutes without any design experience. The AI features make it even faster.",
+    "websiteLink": "https://www.canva.com/",
+    "imageSearchQuery": "Canva graphic design platform interface templates",
+    "type": "tool"
+  },
+  {
+    "id": 124,
+    "slug": "notion-workspace",
+    "toolName": "Notion",
+    "whatItDoes": "All-in-one workspace for notes, docs, project management, and wikis — with AI-powered writing assistance and a modular block-based editor.",
+    "category": "Productivity",
+    "whyItIsUseful": "Notion replaces a dozen separate apps with one connected workspace. Teams use it for documentation, project tracking, and knowledge bases. The flexible block system means you can build exactly the workflow you need.",
+    "websiteLink": "https://www.notion.so/",
+    "imageSearchQuery": "Notion productivity workspace app dashboard",
+    "type": "tool"
+  },
+  {
+    "id": 125,
+    "slug": "skillshare-learning",
+    "toolName": "Skillshare",
+    "whatItDoes": "Online learning community with thousands of short, project-based classes in design, business, technology, and creative skills — taught by industry professionals.",
+    "category": "Education",
+    "whyItIsUseful": "Unlike traditional courses, Skillshare classes are short (15-60 min) and project-based, so you learn by doing. The unlimited access model means you can explore broadly without per-course costs.",
+    "websiteLink": "https://www.skillshare.com/",
+    "imageSearchQuery": "Skillshare online learning platform creative classes",
+    "type": "tool"
+  },
+  {
+    "id": 126,
+    "slug": "fiverr-freelance-marketplace",
+    "toolName": "Fiverr",
+    "whatItDoes": "Global freelance marketplace connecting businesses with skilled professionals for graphic design, web development, writing, video editing, and hundreds of other services.",
+    "category": "Productivity",
+    "whyItIsUseful": "Need a logo designed, a website built, or a video edited? Fiverr makes it easy to find affordable freelancers with transparent pricing. The review system and portfolio previews help you pick the right person.",
+    "websiteLink": "https://www.fiverr.com/",
+    "imageSearchQuery": "Fiverr freelance marketplace services homepage",
+    "type": "tool"
+  },
+  {
     "id": 61,
     "slug": "evernote-notes-organizer",
     "toolName": "Evernote",
@@ -996,7 +1012,7 @@
     "id": 99,
     "slug": "convertio",
     "toolName": "Convertio",
-    "whatItDoes": "Convertio is an online file converter that supports over 3700 different conversions between various file formats. You can upload almost any type of file \u2013 documents, images, audio, video, archives, presentations \u2013 and convert it to a wide range of output formats directly in your browser.",
+    "whatItDoes": "Convertio is an online file converter that supports over 3700 different conversions between various file formats. You can upload almost any type of file – documents, images, audio, video, archives, presentations – and convert it to a wide range of output formats directly in your browser.",
     "category": "Reference",
     "whyItIsUseful": "This tool is invaluable for anyone who frequently encounters incompatible file formats or needs to quickly convert files without installing dedicated software. It simplifies cross-platform file sharing and ensures accessibility of content across different applications.",
     "imageIdea": "An abstract graphic representing various file types (e.g., PDF, JPG, MP4, DOC) flowing into a central conversion icon and then emerging as different, converted file types (e.g., TXT, PNG, MP3, PPT).",
@@ -1258,69 +1274,39 @@
     "dateAdded": "2026-04-14"
   },
   {
-    "id": 121,
-    "slug": "shopify-ecommerce-platform",
-    "toolName": "Shopify",
-    "whatItDoes": "All-in-one e-commerce platform to create your online store, manage products, process payments, and scale your business \u2014 used by millions of merchants worldwide.",
-    "category": "E-Commerce",
-    "whyItIsUseful": "Shopify makes it incredibly easy to set up a professional online store without any coding knowledge. With built-in payment processing, shipping integration, and thousands of apps, it's the go-to platform for anyone serious about selling online.",
-    "websiteLink": "https://www.shopify.com/",
-    "imageSearchQuery": "Shopify e-commerce platform store dashboard",
-    "type": "tool"
-  },
-  {
-    "id": 122,
-    "slug": "shopify-pos-retail",
-    "toolName": "Shopify POS",
-    "whatItDoes": "Point-of-sale system that unifies online and in-person selling with inventory sync, customer profiles, and tap-to-pay \u2014 turning any device into a register.",
-    "category": "E-Commerce",
-    "whyItIsUseful": "If you sell both online and in-store, Shopify POS keeps everything in sync automatically. One inventory, one customer list, one dashboard \u2014 whether someone buys on your website or walks into your shop.",
-    "websiteLink": "https://www.shopify.com/pos",
-    "imageSearchQuery": "Shopify POS retail point of sale tablet store",
-    "type": "tool"
-  },
-  {
-    "id": 123,
-    "slug": "canva-design-platform",
-    "toolName": "Canva",
-    "whatItDoes": "Drag-and-drop design platform for creating social media graphics, presentations, posters, videos, and more \u2014 with thousands of templates and an AI-powered design assistant.",
-    "category": "Design",
-    "whyItIsUseful": "Canva has democratized design. Whether you need a quick Instagram post, a professional presentation, or a logo, you can create it in minutes without any design experience. The AI features make it even faster.",
-    "websiteLink": "https://www.canva.com/",
-    "imageSearchQuery": "Canva graphic design platform interface templates",
-    "type": "tool"
-  },
-  {
-    "id": 124,
-    "slug": "notion-workspace",
-    "toolName": "Notion",
-    "whatItDoes": "All-in-one workspace for notes, docs, project management, and wikis \u2014 with AI-powered writing assistance and a modular block-based editor.",
+    "id": 127,
+    "slug": "google-docs",
+    "toolName": "Google Docs",
+    "whatItDoes": "A free, web-based word processor that allows users to create and edit documents online. It facilitates real-time collaboration with other users, making it ideal for team projects.",
     "category": "Productivity",
-    "whyItIsUseful": "Notion replaces a dozen separate apps with one connected workspace. Teams use it for documentation, project tracking, and knowledge bases. The flexible block system means you can build exactly the workflow you need.",
-    "websiteLink": "https://www.notion.so/",
-    "imageSearchQuery": "Notion productivity workspace app dashboard",
-    "type": "tool"
+    "whyItIsUseful": "It's incredibly versatile for writing reports, essays, meeting minutes, or any text-based document. The cloud-based nature ensures accessibility from any device and automatic saving, preventing data loss.",
+    "imageIdea": "document editor laptop screen",
+    "websiteLink": "https://docs.google.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-14"
   },
   {
-    "id": 125,
-    "slug": "skillshare-learning",
-    "toolName": "Skillshare",
-    "whatItDoes": "Online learning community with thousands of short, project-based classes in design, business, technology, and creative skills \u2014 taught by industry professionals.",
-    "category": "Education",
-    "whyItIsUseful": "Unlike traditional courses, Skillshare classes are short (15-60 min) and project-based, so you learn by doing. The unlimited access model means you can explore broadly without per-course costs.",
-    "websiteLink": "https://www.skillshare.com/",
-    "imageSearchQuery": "Skillshare online learning platform creative classes",
-    "type": "tool"
-  },
-  {
-    "id": 126,
-    "slug": "fiverr-freelance-marketplace",
-    "toolName": "Fiverr",
-    "whatItDoes": "Global freelance marketplace connecting businesses with skilled professionals for graphic design, web development, writing, video editing, and hundreds of other services.",
+    "id": 128,
+    "slug": "evernote",
+    "toolName": "Evernote",
+    "whatItDoes": "A note-taking application that allows users to capture ideas, organize thoughts, and save information in various formats like text, audio, and web clippings. It offers robust search capabilities to find stored information quickly.",
     "category": "Productivity",
-    "whyItIsUseful": "Need a logo designed, a website built, or a video edited? Fiverr makes it easy to find affordable freelancers with transparent pricing. The review system and portfolio previews help you pick the right person.",
-    "websiteLink": "https://www.fiverr.com/",
-    "imageSearchQuery": "Fiverr freelance marketplace services homepage",
-    "type": "tool"
+    "whyItIsUseful": "Evernote is a powerful tool for organizing personal and professional information, acting as a digital brain. It helps in remembering tasks, storing research, and keeping track of important details across different aspects of life.",
+    "imageIdea": "digital notebook organized pages",
+    "websiteLink": "https://evernote.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 129,
+    "slug": "spotify",
+    "toolName": "Spotify",
+    "whatItDoes": "A digital music, podcast, and video streaming service that gives you access to millions of songs and other content from creators all over the world. Users can find music based on mood, genre, or artist.",
+    "category": "Entertainment",
+    "whyItIsUseful": "Spotify enhances daily life by providing a vast library of audio content for entertainment, focus, or relaxation. It's excellent for discovering new music, curating playlists for different activities, and staying updated with favorite artists.",
+    "imageIdea": "headphones listening music",
+    "websiteLink": "https://www.spotify.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-14"
   }
 ]

@@ -2,51 +2,51 @@
   {
     "key": "discoveries",
     "name": "Discoveries",
-    "icon": "\ud83d\udd2e",
+    "icon": "🔮",
     "color": "indigo",
     "hex": "#6366F1",
     "description": "Fascinating facts, breakthroughs, and things worth knowing",
     "path": "/discover",
-    "count": 120
+    "count": 115
   },
   {
     "key": "products",
     "name": "Trending Products",
-    "icon": "\ud83d\udcc8",
+    "icon": "📈",
     "color": "emerald",
     "hex": "#10B981",
     "description": "Products people are actually buying right now",
     "path": "/trending",
-    "count": 135
+    "count": 130
   },
   {
     "key": "hidden-gems",
     "name": "Hidden Gems",
-    "icon": "\ud83d\udc8e",
+    "icon": "💎",
     "color": "amber",
     "hex": "#F59E0B",
     "description": "Brilliant websites and tools you probably haven't found yet",
     "path": "/hidden-gems",
-    "count": 113
+    "count": 108
   },
   {
     "key": "future-radar",
     "name": "Future Radar",
-    "icon": "\ud83d\udd2d",
+    "icon": "🔭",
     "color": "cyan",
     "hex": "#06B6D4",
     "description": "Emerging technologies shaping the world ahead",
     "path": "/future-radar",
-    "count": 110
+    "count": 105
   },
   {
     "key": "daily-tools",
     "name": "Daily Tools",
-    "icon": "\ud83d\udee0",
+    "icon": "🛠",
     "color": "rose",
     "hex": "#F43F5E",
     "description": "Useful tools and utilities for everyday life",
     "path": "/tools",
-    "count": 120
+    "count": 115
   }
 ]
