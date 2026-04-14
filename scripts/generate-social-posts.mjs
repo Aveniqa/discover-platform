@@ -123,14 +123,16 @@ async function main() {
 
     // Fetch a relevant image using Gemini's suggested search query
     let imageUrl = fallbackImageUrl;
-    console.log(`   🔍 imageSearchQuery: ${socialContent?.imageSearchQuery || 'NOT RETURNED'}, PEXELS_API_KEY set: ${!!PEXELS_API_KEY}`);
-    if (socialContent?.imageSearchQuery && PEXELS_API_KEY) {
-      const searchedImage = await searchPexelsImage(socialContent.imageSearchQuery);
+    if (PEXELS_API_KEY && socialContent) {
+      // Use Gemini's query if available, otherwise derive from title
+      const searchQuery = socialContent.imageSearchQuery
+        || item.title.replace(/[^a-zA-Z0-9 ]/g, '').split(' ').slice(0, 4).join(' ');
+      const searchedImage = await searchPexelsImage(searchQuery);
       if (searchedImage) {
         imageUrl = searchedImage;
-        console.log(`   📷 Found relevant image for: "${socialContent.imageSearchQuery}"`);
+        console.log(`   📷 Found relevant image for: "${searchQuery}"`);
       } else {
-        console.log(`   ⚠️ No Pexels result for "${socialContent.imageSearchQuery}", using cached image`);
+        console.log(`   ⚠️ No Pexels result for "${searchQuery}", using cached image`);
       }
     }
 
@@ -265,7 +267,7 @@ Generate exactly 4 outputs in valid JSON (no trailing commas):
 1. "pinterest": { "title": string (max 100 chars), "description": string (max 500 chars, include #affiliate if affiliate link, plus 3-4 hashtags) }
 2. "bluesky": { "text": string (max 280 chars, include link at end) }
 3. "twitter": { "text": string (max 280 chars, include link at end) }
-4. "imageSearchQuery": string (2-4 word Pexels search query for a photo that directly illustrates this specific item — be literal and specific, not abstract)
+4. "imageSearchQuery": string (REQUIRED — 2-4 word Pexels search query for a photo that directly illustrates this specific item. Be literal and specific, not abstract. Example: for penicillin discovery use "petri dish mold", for tardigrades use "tardigrade microscope")
 
 ${affiliateNote}
 
