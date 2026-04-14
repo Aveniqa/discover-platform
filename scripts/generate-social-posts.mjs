@@ -14,6 +14,7 @@ const root = join(__dirname, "..");
 const DATA_DIR = join(root, "data");
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const PEXELS_API_KEY = process.env.PEXELS_API_KEY;
 if (!GEMINI_API_KEY) {
   console.error("❌ GEMINI_API_KEY not set");
   process.exit(1);
@@ -113,12 +114,24 @@ async function main() {
   // 5. Generate social posts for each item
   const posts = [];
   for (const item of selected) {
-    const imageUrl = imageCache[item.slug] || "";
+    const fallbackImageUrl = imageCache[item.slug] || "";
     const productUrl = `${SITE_URL}/item/${item.slug}`;
     const affiliateUrl = item.directAmazonUrl || productUrl;
 
     console.log(`  Generating posts for: ${item.title}`);
     const socialContent = await generateSocialContent(item, affiliateUrl, productUrl);
+
+    // Fetch a relevant image using Gemini's suggested search query
+    let imageUrl = fallbackImageUrl;
+    if (socialContent?.imageSearchQuery && PEXELS_API_KEY) {
+      const searchedImage = await searchPexelsImage(socialContent.imageSearchQuery);
+      if (searchedImage) {
+        imageUrl = searchedImage;
+        console.log(`   📷 Found relevant image for: "${socialContent.imageSearchQuery}"`);
+      } else {
+        console.log(`   ⚠️ No Pexels result for "${socialContent.imageSearchQuery}", using cached image`);
+      }
+    }
 
     if (socialContent) {
       // Validate that all expected fields exist
@@ -247,10 +260,11 @@ async function generateSocialContent(item, affiliateUrl, productUrl) {
   const prompt = `You write social media posts for "Surfaced," a product discovery site (surfaced-x.pages.dev).
 Tone: curious, opinionated, concise. Not corporate. Mention honest limitations when relevant.
 
-Generate exactly 3 outputs in valid JSON (no trailing commas):
+Generate exactly 4 outputs in valid JSON (no trailing commas):
 1. "pinterest": { "title": string (max 100 chars), "description": string (max 500 chars, include #affiliate if affiliate link, plus 3-4 hashtags) }
 2. "bluesky": { "text": string (max 280 chars, include link at end) }
 3. "twitter": { "text": string (max 280 chars, include link at end) }
+4. "imageSearchQuery": string (2-4 word Pexels search query for a photo that directly illustrates this specific item — be literal and specific, not abstract)
 
 ${affiliateNote}
 
@@ -268,6 +282,24 @@ Respond ONLY with valid JSON.`;
     return await callGeminiWithRetry(prompt);
   } catch (err) {
     console.error(`   ❌ Failed for ${item.title}: ${err.message}`);
+    return null;
+  }
+}
+
+async function searchPexelsImage(query) {
+  try {
+    const res = await fetch(
+      `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=5&orientation=landscape`,
+      { headers: { Authorization: PEXELS_API_KEY } }
+    );
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (data.photos && data.photos.length > 0) {
+      // Return the large size (good quality, reasonable file size)
+      return data.photos[0].src.large;
+    }
+    return null;
+  } catch {
     return null;
   }
 }
