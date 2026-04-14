@@ -19,6 +19,7 @@ import {
   futureRadar,
   dailyTools,
   type AnyItem,
+  type Discovery,
   type Product,
   type FutureTech,
   type HiddenGem,
@@ -193,6 +194,25 @@ export default async function ItemPage({ params }: Props) {
   const crossItems = getCrossCategoryItems(item, 4);
   const outboundUrl = getItemOutboundUrl(item);
 
+  // Source article URL (for "Read Original Source" link)
+  const sourceUrl = (() => {
+    try {
+      let url: string | null = null;
+      if (item.type === "discovery") url = (item as Discovery).sourceLink;
+      else if (item.type === "product") url = (item as Product).sourceLink;
+      else if (item.type === "hidden-gem") url = (item as HiddenGem).websiteLink;
+      else if (item.type === "tool") url = (item as DailyTool).websiteLink;
+      else if (item.type === "future-tech") {
+        url = ((item as FutureTech) as unknown as { sourceLink?: string }).sourceLink ?? null;
+      }
+      if (!url) return null;
+      new URL(url); // validate — throws if malformed
+      return url;
+    } catch {
+      return null;
+    }
+  })();
+
   // Prev / next within the same type array
   const typeArrayMap: Record<string, AnyItem[]> = {
     discovery: discoveries as AnyItem[],
@@ -310,6 +330,21 @@ export default async function ItemPage({ params }: Props) {
             <ScrollReveal delay={150}>
               <div className="mb-12 rounded-xl border border-border bg-card p-7 sm:p-10">
                 <DevelopmentStageBar currentStage={(item as FutureTech).developmentStage} />
+              </div>
+            </ScrollReveal>
+          )}
+
+          {/* ── Source article link ──────────────────────────── */}
+          {sourceUrl && (
+            <ScrollReveal delay={130}>
+              <div className="flex items-center gap-2 py-3 px-4 rounded-lg bg-card/50 border border-border mb-10">
+                <svg className="w-4 h-4 text-muted-foreground shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <a href={sourceUrl} target="_blank" rel="noopener"
+                   className="text-sm text-accent hover:text-accent/80 transition-colors truncate">
+                  Read full article at {new URL(sourceUrl).hostname.replace("www.", "")} →
+                </a>
               </div>
             </ScrollReveal>
           )}

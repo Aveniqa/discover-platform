@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { LogoImage } from "@/components/ui/LogoImage";
+import { ShareButtons } from "@/components/ui/ShareButtons";
 import {
   getItemTitle,
   getItemDescription,
@@ -123,6 +124,12 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
             >
               View Full Details →
             </Link>
+          </div>
+
+          {/* Quick share row */}
+          <div className="flex items-center gap-2 mt-3 pt-3 border-t border-border/50">
+            <span className="text-xs text-muted-foreground mr-1">Share:</span>
+            <ShareButtons title={title} slug={item.slug} compact />
           </div>
         </div>
       </div>

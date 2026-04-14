@@ -181,6 +181,13 @@ export default function DiscoverPage() {
                   {item.shortDescription}
                 </p>
                 </Link>
+                {item.sourceLink && (() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return null; } })() && (
+                  <a href={item.sourceLink} target="_blank" rel="noopener"
+                     onClick={(e) => e.stopPropagation()}
+                     className="block px-6 pb-4 text-[11px] text-muted-foreground hover:text-accent transition-colors truncate -mt-2">
+                    📰 {(() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return ""; } })()}
+                  </a>
+                )}
               </div>
             </ScrollReveal>
           ))}

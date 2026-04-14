@@ -264,9 +264,16 @@ export default function TrendingPage() {
                     {item.title}
                   </h3>
                 </Link>
-                <p className="text-sm text-muted-foreground line-clamp-1 mb-4">
+                <p className="text-sm text-muted-foreground line-clamp-1 mb-2">
                   {item.shortDescription}
                 </p>
+                {item.sourceLink && (() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return null; } })() && (
+                  <a href={item.sourceLink} target="_blank" rel="noopener"
+                     onClick={(e) => e.stopPropagation()}
+                     className="block text-[11px] text-muted-foreground hover:text-accent transition-colors truncate mb-3">
+                    📰 {(() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return ""; } })()}
+                  </a>
+                )}
                 <div className="mt-auto flex items-center justify-between gap-2">
                   <a
                     href={(item as any).affiliate?.url || item.directAmazonUrl || item.sourceLink}
