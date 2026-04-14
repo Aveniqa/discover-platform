@@ -6,6 +6,10 @@ on:
     - cron: '0 11 * * *'
   workflow_dispatch: # Manual trigger button in GitHub Actions UI
 
+concurrency:
+  group: daily-edition
+  cancel-in-progress: false
+
 permissions:
   contents: write
   issues: write
@@ -17,15 +21,23 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
+
+      - name: Validate secrets
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          [ -n "$GEMINI_API_KEY" ] || (echo "❌ GEMINI_API_KEY is not set" && exit 1)
+          [ -n "$PEXELS_API_KEY" ] || echo "⚠️ PEXELS_API_KEY is not set — images will not be fetched"
 
       - name: Install dependencies
         run: npm ci
@@ -74,6 +86,7 @@ jobs:
             exit 0
           fi
           git commit -m "📰 Daily edition: $(date +%Y-%m-%d)"
+          git pull --rebase origin main
           git push
 
   alert-on-failure:
@@ -82,7 +95,7 @@ jobs:
     if: failure()
     steps:
       - name: Create GitHub Issue for failed run
-        uses: actions/github-script@v9
+        uses: actions/github-script@v7
         with:
           script: |
             const title = `⚠️ Daily edition failed — ${new Date().toISOString().split('T')[0]}`;

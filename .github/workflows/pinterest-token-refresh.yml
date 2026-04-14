@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   refresh:
@@ -49,17 +50,60 @@ jobs:
           
           echo "✅ Token refreshed! Scope: $SCOPE"
           
-          # Update secrets (requires PAT_TOKEN with repo scope)
-          if [ -n "$GH_TOKEN" ]; then
-            echo "$NEW_TOKEN" | gh secret set PINTEREST_ACCESS_TOKEN --repo Aveniqa/discover-platform
-            echo "✅ PINTEREST_ACCESS_TOKEN updated"
-            
-            if [ -n "$NEW_REFRESH" ]; then
-              echo "$NEW_REFRESH" | gh secret set PINTEREST_REFRESH_TOKEN --repo Aveniqa/discover-platform
-              echo "✅ PINTEREST_REFRESH_TOKEN updated"
-            fi
+          # Verify the new token works
+          echo "Verifying new token..."
+          VERIFY=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer ${NEW_TOKEN}" \
+            "https://api.pinterest.com/v5/user_account")
+          if [ "$VERIFY" != "200" ]; then
+            echo "⚠️ Token refreshed but verification returned HTTP $VERIFY"
           else
-            echo "⚠️  No PAT_TOKEN secret — cannot auto-update secrets."
+            echo "✅ Token verified — API returned 200"
+          fi
+          
+          # Update secrets (requires PAT_TOKEN with repo scope)
+          if [ -z "$GH_TOKEN" ]; then
+            echo "❌ No PAT_TOKEN secret — cannot auto-update secrets."
             echo "   Add a PAT with repo scope as PAT_TOKEN secret for auto-refresh."
             echo "   For now, manually update PINTEREST_ACCESS_TOKEN in GitHub Secrets."
+            exit 1
           fi
+          
+          echo "$NEW_TOKEN" | gh secret set PINTEREST_ACCESS_TOKEN --repo Aveniqa/discover-platform
+          echo "✅ PINTEREST_ACCESS_TOKEN updated"
+          
+          if [ -n "$NEW_REFRESH" ]; then
+            echo "$NEW_REFRESH" | gh secret set PINTEREST_REFRESH_TOKEN --repo Aveniqa/discover-platform
+            echo "✅ PINTEREST_REFRESH_TOKEN updated"
+          fi
+
+  alert-on-failure:
+    runs-on: ubuntu-latest
+    needs: refresh
+    if: failure()
+    steps:
+      - name: Create GitHub Issue for failed refresh
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `⚠️ Pinterest token refresh failed — ${new Date().toISOString().split('T')[0]}`;
+            const body = [
+              `The **Pinterest Token Refresh** workflow failed.`,
+              ``,
+              `**Run:** https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              ``,
+              `This means the Pinterest access token may expire soon. Check:`,
+              `- Is \`PAT_TOKEN\` set as a GitHub Secret with \`repo\` scope?`,
+              `- Is \`PINTEREST_REFRESH_TOKEN\` still valid?`,
+              `- You may need to manually re-authenticate at https://developers.pinterest.com/apps/`,
+              ``,
+              `Social posts to Pinterest will fail until this is resolved.`
+            ].join('\n');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['bug', 'automation']
+            });

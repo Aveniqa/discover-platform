@@ -17,12 +17,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
@@ -32,7 +32,7 @@ jobs:
 
       - name: Extract form data from issue body
         id: extract
-        uses: actions/github-script@v9
+        uses: actions/github-script@v7
         with:
           script: |
             const body = context.payload.issue.body || '';
@@ -64,11 +64,15 @@ jobs:
             console.log(`Format: ${format}`);
 
       - name: Run Best Buy affiliate activation script
+        env:
+          TRACKING_ID: ${{ steps.extract.outputs.tracking_id }}
+          PROGRAM_ID: ${{ steps.extract.outputs.program_id }}
+          FORMAT: ${{ steps.extract.outputs.format }}
         run: |
           node scripts/activate-bestbuy-affiliate.js \
-            --tracking-id=${{ steps.extract.outputs.tracking_id }} \
-            --program-id=${{ steps.extract.outputs.program_id }} \
-            --format=${{ steps.extract.outputs.format }}
+            --tracking-id="$TRACKING_ID" \
+            --program-id="$PROGRAM_ID" \
+            --format="$FORMAT"
 
       - name: Validate data
         run: node scripts/validate-data.js
@@ -86,6 +90,7 @@ jobs:
             exit 0
           fi
           git commit -m "🏬 Activate Best Buy Impact affiliate tracking (${{ steps.extract.outputs.tracking_id }})"
+          git pull --rebase origin main
           git push
 
       - name: Store tracking IDs as secrets reminder
@@ -94,7 +99,7 @@ jobs:
           echo "note=Remember to add BESTBUY_TRACKING_ID and BESTBUY_PROGRAM_ID as GitHub Secrets for the daily workflow." >> $GITHUB_OUTPUT
 
       - name: Comment on issue with results
-        uses: actions/github-script@v9
+        uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
@@ -148,7 +153,7 @@ jobs:
     if: failure()
     steps:
       - name: Comment failure on issue
-        uses: actions/github-script@v9
+        uses: actions/github-script@v7
         with:
           script: |
             await github.rest.issues.createComment({

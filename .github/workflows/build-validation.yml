@@ -6,6 +6,8 @@ on:
     paths-ignore:
       - 'data/social-queue.json'
       - 'data/social-posted.json'
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -19,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
@@ -287,7 +289,7 @@ jobs:
     if: failure()
     steps:
       - name: Create GitHub Issue for failed validation
-        uses: actions/github-script@v9
+        uses: actions/github-script@v7
         with:
           script: |
             const title = `🚨 Build validation failed — ${new Date().toISOString().split('T')[0]}`;

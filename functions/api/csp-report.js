@@ -18,6 +18,7 @@
 const MAX_STORED = 200;
 const RATE_LIMIT_WINDOW = 60_000; // 1 minute
 const RATE_LIMIT_MAX = 30; // max reports per IP per minute
+const RATE_LIMIT_MAP_CAP = 1000; // prune when map exceeds this size
 const KV_KEY = "csp_violations";
 // Cache API key — a synthetic URL used as the cache key
 const CACHE_KEY = "https://surfaced-x.pages.dev/_internal/csp-violations-store";
@@ -33,6 +34,16 @@ const rateLimitMap = new Map();
 
 function isRateLimited(ip) {
   const now = Date.now();
+
+  // Prune stale entries when map grows too large
+  if (rateLimitMap.size > RATE_LIMIT_MAP_CAP) {
+    for (const [key, entry] of rateLimitMap) {
+      if (now - entry.windowStart > RATE_LIMIT_WINDOW) {
+        rateLimitMap.delete(key);
+      }
+    }
+  }
+
   const entry = rateLimitMap.get(ip);
   if (!entry || now - entry.windowStart > RATE_LIMIT_WINDOW) {
     rateLimitMap.set(ip, { windowStart: now, count: 1 });
@@ -40,6 +51,20 @@ function isRateLimited(ip) {
   }
   entry.count++;
   return entry.count > RATE_LIMIT_MAX;
+}
+
+/**
+ * Constant-time string comparison to prevent timing attacks on the admin token.
+ * JavaScript's !== short-circuits on the first differing character.
+ */
+function timingSafeEquals(a, b) {
+  if (typeof a !== "string" || typeof b !== "string") return false;
+  if (a.length !== b.length) return false;
+  let mismatch = 0;
+  for (let i = 0; i < a.length; i++) {
+    mismatch |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  }
+  return mismatch === 0;
 }
 
 // ── Storage helpers ─────────────────────────────────────────────────
@@ -157,15 +182,18 @@ export async function onRequestGet(context) {
   const url = new URL(request.url);
   const token = url.searchParams.get("token");
   const expectedToken = env.CSP_ADMIN_TOKEN;
+  const ip = request.headers.get("CF-Connecting-IP") || "unknown";
 
   if (!expectedToken) {
+    console.warn("[CSP] GET request but CSP_ADMIN_TOKEN not configured");
     return Response.json(
       { error: "CSP_ADMIN_TOKEN not configured in environment variables." },
       { status: 503 }
     );
   }
 
-  if (token !== expectedToken) {
+  if (!timingSafeEquals(token || "", expectedToken)) {
+    console.warn("[CSP] Unauthorized GET attempt from:", ip);
     return new Response("Unauthorized", { status: 401 });
   }
 
