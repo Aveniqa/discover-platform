@@ -191,7 +191,7 @@ export default function HomePage() {
           TRENDING THIS WEEK — badged items
           ============================================ */}
       {trendingItems.length > 0 && (
-        <section className="pb-10 px-4 sm:px-6 border-b border-border/50">
+        <section className="pb-6 sm:pb-10 px-4 sm:px-6 border-b border-border/50">
           <div className="max-w-6xl mx-auto">
             <div className="flex items-center justify-between mb-5">
               <div>
@@ -219,7 +219,7 @@ export default function HomePage() {
       {/* ============================================
           CATEGORY QUICK-ACCESS CARDS
           ============================================ */}
-      <section className="py-8 px-4 sm:px-6">
+      <section className="py-4 sm:py-8 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
             {[
@@ -243,7 +243,7 @@ export default function HomePage() {
       {/* ============================================
           TODAY'S PICKS — Newest from each category
           ============================================ */}
-      <section className="pb-10 px-4 sm:px-6">
+      <section className="pb-6 sm:pb-10 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-5">
             <div>
@@ -293,15 +293,15 @@ export default function HomePage() {
       {/* ============================================
           WHAT SURFACED TODAY — Daily Editorial Roundup
           ============================================ */}
-      <section className="relative pb-20 px-4 sm:px-6">
+      <section className="relative pb-10 sm:pb-20 px-4 sm:px-6">
         {/* Subtle editorial backdrop */}
         <div className="absolute inset-0 bg-gradient-to-b from-accent/[0.03] via-transparent to-transparent pointer-events-none" />
 
         <div className="relative max-w-[90rem] mx-auto">
-          <div className="glow-line mb-10" />
+          <div className="glow-line mb-4 sm:mb-10" />
 
           {/* Edition header */}
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-4 sm:mb-8">
             <div>
               <div className="flex items-center gap-3 mb-3">
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-[10px] font-bold uppercase tracking-[0.15em] text-accent">
@@ -439,7 +439,7 @@ export default function HomePage() {
           .sort((a, b) => (b.id || 0) - (a.id || 0))
           .slice(0, 36);
         return (
-          <section key={cat.key} className="pb-18 px-4 sm:px-6">
+          <section key={cat.key} className="pb-8 sm:pb-18 px-4 sm:px-6">
             <div className="max-w-[90rem] mx-auto">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-2.5">
@@ -506,7 +506,7 @@ export default function HomePage() {
           .sort((a, b) => (b.id || 0) - (a.id || 0))
           .slice(0, 36);
         return (
-          <section key={cat.key} className="pb-18 px-4 sm:px-6">
+          <section key={cat.key} className="pb-8 sm:pb-18 px-4 sm:px-6">
             <div className="max-w-[90rem] mx-auto">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-2.5">
@@ -558,7 +558,7 @@ export default function HomePage() {
       {/* ============================================
           NEWSLETTER CTA
           ============================================ */}
-      <section className="section-divider relative py-24 sm:py-32 px-4 sm:px-6 overflow-hidden">
+      <section className="section-divider relative py-12 sm:py-32 px-4 sm:px-6 overflow-hidden">
         {/* Gradient background */}
         <div className="absolute inset-0 bg-gradient-to-b from-accent/[0.04] via-surface to-background pointer-events-none" />
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-accent/[0.06] blur-[120px] pointer-events-none" />
@@ -580,7 +580,7 @@ export default function HomePage() {
       {/* ============================================
           SOCIAL CTA
           ============================================ */}
-      <section className="pb-20 px-4 sm:px-6">
+      <section className="pb-10 sm:pb-20 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
           <SocialCTA />
         </div>

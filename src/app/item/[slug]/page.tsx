@@ -29,6 +29,8 @@ import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
 import { ShareButtons } from "@/components/ui/ShareButtons";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { ScrollProgress } from "@/components/ui/ScrollProgress";
+import { BackToTop } from "@/components/ui/BackToTop";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { PromoCode } from "@/components/ui/PromoCode";
@@ -240,6 +242,16 @@ export default async function ItemPage({ params }: Props) {
   const ctaLabel = getCtaLabel(item);
   const isAffiliate = item.affiliate?.enabled || item.type === "product";
 
+  // C1: Reading time estimate
+  const readingText = [description, whyText].filter(Boolean).join(" ");
+  const readingTime = Math.max(1, Math.ceil(readingText.length / 1000));
+
+  // C3: "You Might Also Like" — same category, newest first, excluding current
+  const youMightLike = categoryItems
+    .filter((i) => i.slug !== slug)
+    .sort((a, b) => (b.id || 0) - (a.id || 0))
+    .slice(0, 6);
+
   // Brand logo domain for hidden gems and tools
   const websiteLink = (item as HiddenGem | DailyTool).websiteLink as string | undefined;
   const logoDomain = (() => {
@@ -257,6 +269,8 @@ export default async function ItemPage({ params }: Props) {
 
   return (
     <>
+      <ScrollProgress />
+      <BackToTop />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -302,10 +316,23 @@ export default async function ItemPage({ params }: Props) {
             </div>
 
             {/* Editorial byline */}
-            <div className="flex items-center gap-2 mt-4 text-xs text-muted-foreground">
+            <div className="flex items-center gap-2 mt-4 text-xs text-muted-foreground flex-wrap">
               <span>Curated by Surfaced Editorial</span>
               <span className="text-border">&middot;</span>
               <span>{category}</span>
+              <span className="text-border">&middot;</span>
+              <span className="inline-flex items-center gap-1">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
+                </svg>
+                {readingTime} min read
+              </span>
+            </div>
+
+            {/* C4: Share This Find — compact row below title */}
+            <div className="mt-5 flex items-center gap-2 flex-wrap">
+              <span className="text-xs text-muted-foreground mr-1">Share:</span>
+              <ShareButtons title={title} slug={slug} compact />
             </div>
 
             {/* Price range badge for products */}
@@ -521,6 +548,77 @@ export default async function ItemPage({ params }: Props) {
                             {relTitle}
                           </h3>
                           <p className="text-sm text-muted-foreground line-clamp-2">{relDesc}</p>
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+            </ScrollReveal>
+          )}
+
+          {/* ── You Might Also Like (C3) ────────────────────── */}
+          {youMightLike.length > 0 && (
+            <ScrollReveal delay={230}>
+              <div className="mb-16">
+                <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-6">
+                  You Might Also Like
+                </h2>
+                {/* Mobile: horizontal scroll; Desktop: 3-column grid */}
+                <div className="hidden sm:grid sm:grid-cols-3 gap-4">
+                  {youMightLike.map((related) => {
+                    const relTitle = getItemTitle(related);
+                    const relColor = getCategoryColor(related.type);
+                    const relLabel = getCategoryLabel(related.type);
+                    const hasAmazon = !!(related as { amazonLink?: string }).amazonLink;
+                    return (
+                      <Link
+                        key={related.slug}
+                        href={`/item/${related.slug}`}
+                        className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow transition-all flex flex-col"
+                      >
+                        {hasAmazon && (
+                          <span className="absolute top-2 left-2 z-10 text-[10px] font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30 px-1.5 py-0.5 rounded-full">
+                            🛒 On Amazon
+                          </span>
+                        )}
+                        <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        <div className="p-4 flex flex-col flex-1">
+                          <CategoryBadge color={relColor} label={relLabel} className="mb-2" />
+                          <h3 className="text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-3 flex-1">
+                            {relTitle}
+                          </h3>
+                          <span className="text-xs text-accent font-medium">Explore →</span>
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
+                {/* Mobile horizontal scroll */}
+                <div className="sm:hidden flex gap-3 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" } as React.CSSProperties}>
+                  {youMightLike.map((related) => {
+                    const relTitle = getItemTitle(related);
+                    const relColor = getCategoryColor(related.type);
+                    const relLabel = getCategoryLabel(related.type);
+                    const hasAmazon = !!(related as { amazonLink?: string }).amazonLink;
+                    return (
+                      <Link
+                        key={related.slug}
+                        href={`/item/${related.slug}`}
+                        className="group relative shrink-0 w-[200px] rounded-xl border border-border bg-card overflow-hidden card-hover-glow flex flex-col"
+                      >
+                        {hasAmazon && (
+                          <span className="absolute top-2 left-2 z-10 text-[10px] font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30 px-1.5 py-0.5 rounded-full">
+                            🛒 On Amazon
+                          </span>
+                        )}
+                        <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={200} height={133} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        <div className="p-3 flex flex-col flex-1">
+                          <CategoryBadge color={relColor} label={relLabel} className="mb-2" />
+                          <h3 className="text-xs font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-2 flex-1">
+                            {relTitle}
+                          </h3>
+                          <span className="text-xs text-accent font-medium">Explore →</span>
                         </div>
                       </Link>
                     );
