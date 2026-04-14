@@ -1,0 +1,255 @@
+name: Build Validation
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/social-queue.json'
+      - 'data/social-posted.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  validate-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        id: build
+        run: |
+          npm run build 2>&1 | tee /tmp/build-output.log
+          echo "build_exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Validate page count
+        id: validate
+        if: success()
+        run: |
+          TOTAL_HTML=$(find out -name "*.html" | wc -l)
+          ITEM_PAGES=$(find out/item -name "*.html" 2>/dev/null | wc -l)
+          TOP_PAGES=$(find out -maxdepth 1 -name "*.html" | wc -l)
+          COLLECTION_PAGES=$(find out/collections -name "*.html" 2>/dev/null | wc -l)
+
+          echo "total_html=$TOTAL_HTML" >> "$GITHUB_OUTPUT"
+          echo "item_pages=$ITEM_PAGES" >> "$GITHUB_OUTPUT"
+          echo "top_pages=$TOP_PAGES" >> "$GITHUB_OUTPUT"
+          echo "collection_pages=$COLLECTION_PAGES" >> "$GITHUB_OUTPUT"
+
+          echo "📊 Build Results:"
+          echo "   Total HTML pages: $TOTAL_HTML"
+          echo "   Item pages:       $ITEM_PAGES"
+          echo "   Top-level pages:  $TOP_PAGES"
+          echo "   Collection pages: $COLLECTION_PAGES"
+
+          # ── Minimum thresholds ──
+          # Total pages should be at least 600 (currently 614)
+          # Item pages should be at least 580 (currently 591)
+          # Top-level pages should be at least 15 (currently 18)
+          ERRORS=""
+
+          if [ "$TOTAL_HTML" -lt 600 ]; then
+            ERRORS="${ERRORS}❌ Total pages ($TOTAL_HTML) dropped below 600 minimum.\n"
+          fi
+
+          if [ "$ITEM_PAGES" -lt 580 ]; then
+            ERRORS="${ERRORS}❌ Item pages ($ITEM_PAGES) dropped below 580 minimum.\n"
+          fi
+
+          if [ "$TOP_PAGES" -lt 15 ]; then
+            ERRORS="${ERRORS}❌ Top-level pages ($TOP_PAGES) dropped below 15 minimum.\n"
+          fi
+
+          if [ -n "$ERRORS" ]; then
+            echo ""
+            echo "⚠️ VALIDATION FAILED:"
+            echo -e "$ERRORS"
+            echo "validation_passed=false" >> "$GITHUB_OUTPUT"
+            echo "errors=$ERRORS" >> "$GITHUB_OUTPUT"
+            exit 1
+          fi
+
+          echo ""
+          echo "✅ All page count thresholds met."
+          echo "validation_passed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Check for broken data files
+        if: success()
+        run: |
+          echo "🔍 Validating JSON data files..."
+          ERRORS=""
+
+          for f in data/products.json data/discoveries.json data/hidden-gems.json data/future-radar.json data/daily-tools.json; do
+            if [ ! -f "$f" ]; then
+              ERRORS="${ERRORS}❌ Missing: $f\n"
+              continue
+            fi
+
+            # Validate JSON and check item count
+            COUNT=$(node -e "
+              try {
+                const d = JSON.parse(require('fs').readFileSync('$f','utf-8'));
+                console.log(Array.isArray(d) ? d.length : 'NOT_ARRAY');
+              } catch(e) {
+                console.log('PARSE_ERROR');
+              }
+            ")
+
+            if [ "$COUNT" = "PARSE_ERROR" ]; then
+              ERRORS="${ERRORS}❌ Invalid JSON: $f\n"
+            elif [ "$COUNT" = "NOT_ARRAY" ]; then
+              ERRORS="${ERRORS}❌ Not an array: $f\n"
+            elif [ "$COUNT" -lt 10 ]; then
+              ERRORS="${ERRORS}❌ $f has only $COUNT items (expected 10+)\n"
+            else
+              echo "   ✅ $f: $COUNT items"
+            fi
+          done
+
+          # Check image cache
+          if [ -f "data/image-cache.json" ]; then
+            IMG_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('data/image-cache.json','utf-8')); console.log(Object.keys(d).length)")
+            echo "   ✅ image-cache.json: $IMG_COUNT entries"
+          else
+            ERRORS="${ERRORS}❌ Missing: data/image-cache.json\n"
+          fi
+
+          if [ -n "$ERRORS" ]; then
+            echo ""
+            echo "⚠️ DATA VALIDATION FAILED:"
+            echo -e "$ERRORS"
+            exit 1
+          fi
+
+          echo ""
+          echo "✅ All data files valid."
+
+      - name: Spot-check critical pages exist
+        if: success()
+        run: |
+          echo "🔍 Checking critical pages..."
+          MISSING=""
+
+          CRITICAL_PAGES=(
+            "out/index.html"
+            "out/404.html"
+            "out/about.html"
+            "out/categories.html"
+            "out/discover.html"
+            "out/trending.html"
+            "out/hidden-gems.html"
+            "out/future-radar.html"
+            "out/tools.html"
+            "out/affiliate-disclosure.html"
+            "out/privacy.html"
+            "out/terms.html"
+            "out/newsletter.html"
+            "out/saved.html"
+          )
+
+          for page in "${CRITICAL_PAGES[@]}"; do
+            if [ -f "$page" ]; then
+              SIZE=$(wc -c < "$page")
+              if [ "$SIZE" -lt 1000 ]; then
+                MISSING="${MISSING}⚠️ $page exists but is suspiciously small (${SIZE} bytes)\n"
+              else
+                echo "   ✅ $page (${SIZE} bytes)"
+              fi
+            else
+              MISSING="${MISSING}❌ Missing: $page\n"
+            fi
+          done
+
+          # Check a sample of item pages
+          SAMPLE_ITEMS=$(find out/item -name "*.html" | shuf | head -5)
+          for page in $SAMPLE_ITEMS; do
+            SIZE=$(wc -c < "$page")
+            SLUG=$(basename "$page" .html)
+            if [ "$SIZE" -lt 1000 ]; then
+              MISSING="${MISSING}⚠️ Item $SLUG is suspiciously small (${SIZE} bytes)\n"
+            else
+              echo "   ✅ item/$SLUG (${SIZE} bytes)"
+            fi
+          done
+
+          if [ -n "$MISSING" ]; then
+            echo ""
+            echo "⚠️ CRITICAL PAGE CHECK FAILED:"
+            echo -e "$MISSING"
+            exit 1
+          fi
+
+          echo ""
+          echo "✅ All critical pages present and valid."
+
+      - name: Performance summary
+        if: always()
+        run: |
+          echo ""
+          echo "═══════════════════════════════════════"
+          echo "  Surfaced Build Validation Summary"
+          echo "═══════════════════════════════════════"
+
+          if [ -f out/index.html ]; then
+            TOTAL=$(find out -name "*.html" | wc -l)
+            ITEMS=$(find out/item -name "*.html" 2>/dev/null | wc -l)
+            STATIC_SIZE=$(du -sh out 2>/dev/null | cut -f1)
+            echo "  Pages:       $TOTAL total ($ITEMS items)"
+            echo "  Build size:  $STATIC_SIZE"
+          else
+            echo "  ❌ Build failed — no output found"
+          fi
+
+          echo "  Commit:      ${GITHUB_SHA:0:8}"
+          echo "  Branch:      $GITHUB_REF_NAME"
+          echo "═══════════════════════════════════════"
+
+  alert-on-failure:
+    runs-on: ubuntu-latest
+    needs: validate-build
+    if: failure()
+    steps:
+      - name: Create GitHub Issue for failed validation
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const title = `🚨 Build validation failed — ${new Date().toISOString().split('T')[0]}`;
+            const body = [
+              `The **Build Validation** workflow failed after a push to \`main\`.`,
+              ``,
+              `This means the latest deploy to Cloudflare Pages may have issues.`,
+              ``,
+              `**Run:** https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              `**Commit:** \`${context.sha.slice(0, 8)}\``,
+              `**Triggered by:** ${context.eventName}`,
+              ``,
+              `### What to check:`,
+              `- Did the build complete without errors?`,
+              `- Are all 600+ pages generated?`,
+              `- Are all data JSON files valid?`,
+              `- Are critical pages (index, 404, categories) present?`,
+              ``,
+              `Check the run logs for specific failures.`
+            ].join('\n');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['bug', 'automation']
+            });
