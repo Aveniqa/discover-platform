@@ -18,7 +18,7 @@ for (const cat of CATS) {
     const db = b.dateAdded ? new Date(b.dateAdded).getTime() : 0;
     return da - db;
   });
-  const cut = items.splice(0, 3);
+  const cut = items.splice(0, 5);
   console.log(`[${cat}] Removed: ${cut.map(i => i.slug).join(', ')}`);
   fs.writeFileSync(fp, JSON.stringify(items, null, 2));
 }
@@ -34,4 +34,4 @@ for (const cat of catData) {
 fs.writeFileSync(catFile, JSON.stringify(catData, null, 2));
 console.log('Category counts updated.');
 
-console.log('\nDone. 15 items removed. Add 15 fresh ones.');
+console.log('\nDone. 25 items removed. Add 25 fresh ones.');

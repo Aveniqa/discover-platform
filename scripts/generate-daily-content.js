@@ -183,9 +183,9 @@ async function main() {
   console.log(`\n📰 Generating daily content for ${today}\n`);
 
   for (const [category, filename] of Object.entries(FILES)) {
-    console.log(`[${category}] Generating 3 new items...`);
+    console.log(`[${category}] Generating 5 new items...`);
     const existing = readJSON(filename);
-    const newItems = await generateItems(category, existing, 3);
+    const newItems = await generateItems(category, existing, 5);
     console.log(
       `[${category}] Generated: ${newItems.map((i) => i.slug).join(", ")}`
     );
