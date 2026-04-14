@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 import Link from "next/link";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
@@ -35,6 +36,7 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
   const label = getCategoryLabel(item.type);
   const isAffiliate = item.affiliate?.enabled || item.type === "product";
   const priceRange = item.type === "product" ? (item as Product).estimatedPriceRange : null;
+  const trapRef = useFocusTrap();
 
   const websiteLink = (item as HiddenGem | DailyTool).websiteLink as string | undefined;
   const logoDomain = (() => {
@@ -59,8 +61,12 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
       onClick={onClose}
     >
       <div
+        ref={trapRef}
         className="relative bg-surface border border-border rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="quickview-title"
       >
         {/* Close button */}
         <button
@@ -84,7 +90,7 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
             <CategoryBadge label={label} color={color} />
             {logoDomain && <LogoImage domain={logoDomain} className="w-5 h-5 rounded-sm object-contain" />}
           </div>
-          <h2 className="text-xl sm:text-2xl font-bold text-foreground mb-2 leading-snug">
+          <h2 id="quickview-title" className="text-xl sm:text-2xl font-bold text-foreground mb-2 leading-snug">
             {title}
           </h2>
 

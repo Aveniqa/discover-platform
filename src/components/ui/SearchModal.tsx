@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { useRouter } from "next/navigation";
 import { getAllItems, getItemTitle, getItemDescription, getItemCategory, getCategoryColor, getCategoryLabel, type AnyItem } from "@/lib/data";
 
@@ -17,6 +18,7 @@ export function SearchModal() {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<AnyItem[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
+  const trapRef = useFocusTrap(open);
   const router = useRouter();
 
   const allItems = useRef<AnyItem[]>([]);
@@ -75,10 +77,10 @@ export function SearchModal() {
   }, {});
 
   return (
-    <div className="fixed inset-0 z-[100]" role="dialog" aria-modal="true">
+    <div className="fixed inset-0 z-[100]" role="dialog" aria-modal="true" aria-label="Search Surfaced">
       <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" onClick={() => setOpen(false)} />
       <div className="relative mx-auto mt-[10vh] max-w-2xl px-4">
-        <div className="rounded-2xl border border-border/60 bg-surface-elevated shadow-[0_20px_80px_rgba(0,0,0,0.6)] overflow-hidden">
+        <div ref={trapRef} className="rounded-2xl border border-border/60 bg-surface-elevated shadow-[0_20px_80px_rgba(0,0,0,0.6)] overflow-hidden">
           {/* Search Input */}
           <div className="flex items-center gap-3 px-6 py-5 border-b border-border">
             <svg width="18" height="18" viewBox="0 0 16 16" fill="none" className="text-muted-foreground shrink-0">
@@ -103,7 +105,7 @@ export function SearchModal() {
             {query.length >= 2 && results.length === 0 && (
               <div className="px-5 py-8 text-center">
                 <p className="text-muted-foreground text-sm">No results found for &quot;{query}&quot;</p>
-                <p className="text-muted-foreground/60 text-xs mt-1">Try searching for AI, gadgets, tools, science...</p>
+                <p className="text-muted-foreground/70 text-xs mt-1">Try searching for AI, gadgets, tools, science...</p>
               </div>
             )}
 
@@ -139,7 +141,7 @@ export function SearchModal() {
             {query.length < 2 && (
               <div className="px-5 py-8 text-center">
                 <p className="text-muted-foreground text-sm mb-1">Search 320+ curated finds</p>
-                <p className="text-muted-foreground/50 text-xs">Try &quot;AI&quot;, &quot;productivity&quot;, &quot;biotech&quot;, or &quot;design tools&quot;</p>
+                <p className="text-muted-foreground/70 text-xs">Try &quot;AI&quot;, &quot;productivity&quot;, &quot;biotech&quot;, or &quot;design tools&quot;</p>
               </div>
             )}
           </div>

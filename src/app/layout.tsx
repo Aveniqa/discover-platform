@@ -103,9 +103,15 @@ export default function RootLayout({
             },
           }) }}
         />
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:z-[200] focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded-lg focus:font-semibold focus:text-sm focus:shadow-lg"
+        >
+          Skip to content
+        </a>
         <SearchModal />
         <Navbar />
-        <main className="min-h-screen pt-16">{children}</main>
+        <main id="main-content" className="min-h-screen pt-16">{children}</main>
         <Footer />
       </body>
     </html>
