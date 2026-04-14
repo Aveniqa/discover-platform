@@ -57,7 +57,65 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth",
+      "title": "There Are More Stars in the Universe Than Grains of Sand on Earth",
+      "category": "discoveries",
+      "imageUrl": "https://images.pexels.com/photos/34764650/pexels-photo-34764650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "productUrl": "https://surfaced-x.pages.dev/item/there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth",
+      "platforms": {
+        "pinterest": {
+          "title": "There Are More Stars in the Universe Than Grains of Sand on Earth",
+          "description": "Astronomers estimate there are roughly 200 sextillion stars in the observable universe (2 x 10^23). Earth has approximately 7.5 x 10^18 grains of sand, making stars outnumber sand grains by a factor of about 26,000. https://surfaced-x.pages.dev/item/there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth #surfaced #discoveries",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "There Are More Stars in the Universe Than Grains of Sand on Earth — Astronomers estimate there are roughly 200 sextillion stars in the observable universe (2 x 10^23). Earth has approximately 7.5 x 10^18 grains of sand https://surfaced-x.pages.dev/item/there-are-more-stars-in-the"
+        },
+        "twitter": {
+          "text": "There Are More Stars in the Universe Than Grains of Sand on Earth — Astronomers estimate there are roughly 200 sextillion stars in the observable universe (2 x 10^23). Earth has approximately 7.5 x 10^18 grains of sand https://surfaced-x.pages.dev/item/there-are-more-stars-in-the"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-14T07:31:44.114Z",
+      "publishedAt": "2026-04-14T07:31:47.775Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "the-patent-for-the-fire-hydrant-was-lost-in-a-fire",
+      "title": "The Patent for the Fire Hydrant Was Lost in a Fire",
+      "category": "discoveries",
+      "imageUrl": "https://images.pexels.com/photos/8536721/pexels-photo-8536721.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "productUrl": "https://surfaced-x.pages.dev/item/the-patent-for-the-fire-hydrant-was-lost-in-a-fire",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/the-patent-for-the-fire-hydrant-was-lost-in-a-fire",
+      "platforms": {
+        "pinterest": {
+          "title": "The Patent for the Fire Hydrant Was Lost in a Fire",
+          "description": "The original patent for the fire hydrant is widely believed to have been destroyed when the U.S. Patent Office burned down in 1836. The irony has made it one of history's most famous lost inventions. https://surfaced-x.pages.dev/item/the-patent-for-the-fire-hydrant-was-lost-in-a-fire #surfaced #discoveries",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "The Patent for the Fire Hydrant Was Lost in a Fire — The original patent for the fire hydrant is widely believed to have been destroyed when the U.S. Patent Office burned down in 1836. The irony has made https://surfaced-x.pages.dev/item/the-patent-for-the-fire-hydrant-was-lost-i"
+        },
+        "twitter": {
+          "text": "The Patent for the Fire Hydrant Was Lost in a Fire — The original patent for the fire hydrant is widely believed to have been destroyed when the U.S. Patent Office burned down in 1836. The irony has made https://surfaced-x.pages.dev/item/the-patent-for-the-fire-hydrant-was-lost-i"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-14T07:31:45.943Z",
+      "publishedAt": "2026-04-14T07:31:48.836Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-14T07:28:37.717Z"
+  "lastGenerated": "2026-04-14T07:31:45.943Z"
 }
