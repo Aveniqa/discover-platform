@@ -159,6 +159,7 @@ export default function TrendingPage() {
           <div className="flex flex-wrap gap-2">
             <button
               onClick={() => { setActiveCategory("All"); setPage(1); }}
+              aria-pressed={activeCategory === "All"}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
                   ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
@@ -171,6 +172,7 @@ export default function TrendingPage() {
               <button
                 key={cat}
                 onClick={() => { setActiveCategory(cat); setPage(1); }}
+                aria-pressed={activeCategory === cat}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
                     ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
