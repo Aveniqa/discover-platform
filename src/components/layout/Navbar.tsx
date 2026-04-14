@@ -10,9 +10,45 @@ import { BookmarkCount } from "@/components/ui/BookmarkCount";
 import { SurpriseMe } from "@/components/ui/SurpriseMe";
 import { StreakWidget } from "@/components/ui/StreakWidget";
 
+/** Maps item type slugs (used in URL /item/…) to their parent nav paths */
+const typeToNavPath: Record<string, string> = {
+  discovery: "/discover",
+  product: "/trending",
+  "hidden-gem": "/hidden-gems",
+  "future-tech": "/future-radar",
+  tool: "/tools",
+};
+
+/**
+ * Determine which nav item is active.
+ * - Exact path match on category/collection pages
+ * - On /item/[slug] pages, resolve the item's type from the DOM data attribute
+ *   and highlight the parent category nav link
+ * - On /collections/[slug] pages, highlight /collections
+ */
+function getActiveHref(pathname: string): string | null {
+  // Exact matches first (handles /discover, /trending, etc.)
+  const navHrefs = mainNav.map((n) => n.href);
+  if (navHrefs.includes(pathname)) return pathname;
+
+  // Collection sub-pages → highlight /collections
+  if (pathname.startsWith("/collections/")) return "/collections";
+
+  // Item pages — we parse the type from the slug's position in the global data
+  // This runs client-side so we can look up the item type from our data exports
+  if (pathname.startsWith("/item/")) {
+    // We'll resolve this via a data attribute set on the body by the item page
+    // For simplicity, check all nav paths for a startsWith match first
+    return null;
+  }
+
+  return null;
+}
+
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [itemParentPath, setItemParentPath] = useState<string | null>(null);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -23,7 +59,34 @@ export function Navbar() {
 
   useEffect(() => {
     setMobileOpen(false);
+
+    // For /item/ pages, read item-type from the CTA data attribute or breadcrumb
+    if (pathname.startsWith("/item/")) {
+      // Try to read the item type from the main CTA button's data-item-type
+      requestAnimationFrame(() => {
+        const cta = document.getElementById("main-cta-button");
+        const itemType = cta?.getAttribute("data-item-type");
+        if (itemType && typeToNavPath[itemType]) {
+          setItemParentPath(typeToNavPath[itemType]);
+        } else {
+          // Fallback: try breadcrumb links
+          const breadcrumbLinks = document.querySelectorAll('nav[aria-label="Breadcrumb"] a');
+          for (const link of breadcrumbLinks) {
+            const href = link.getAttribute("href");
+            if (href && mainNav.some((n) => n.href === href)) {
+              setItemParentPath(href);
+              return;
+            }
+          }
+          setItemParentPath(null);
+        }
+      });
+    } else {
+      setItemParentPath(null);
+    }
   }, [pathname]);
+
+  const activeHref = getActiveHref(pathname) || itemParentPath;
 
   return (
     <>
@@ -55,7 +118,7 @@ export function Navbar() {
                   href={item.href}
                   className={cn(
                     "relative px-3.5 py-2 rounded-lg text-[13px] font-medium transition-all duration-200",
-                    pathname === item.href
+                    activeHref === item.href
                       ? "text-foreground bg-surface-elevated/80 shadow-sm"
                       : "text-muted-foreground hover:text-foreground hover:bg-surface-elevated/40"
                   )}
@@ -132,7 +195,7 @@ export function Navbar() {
                   href={item.href}
                   className={cn(
                     "flex items-center justify-between px-4 py-3 rounded-lg text-[13px] font-medium transition-colors",
-                    pathname === item.href
+                    activeHref === item.href
                       ? "text-foreground bg-surface-elevated"
                       : "text-muted hover:text-foreground hover:bg-surface-elevated/50"
                   )}
