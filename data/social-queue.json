@@ -57,7 +57,65 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "ancient-babylonian-astronomy-mathematics",
+      "title": "Unveiling the Precision of Ancient Babylonian Astronomy and Mathematics",
+      "category": "discoveries",
+      "imageUrl": "https://images.pexels.com/photos/6913348/pexels-photo-6913348.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "productUrl": "https://surfaced-x.pages.dev/item/ancient-babylonian-astronomy-mathematics",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/ancient-babylonian-astronomy-mathematics",
+      "platforms": {
+        "pinterest": {
+          "title": "Unveiling the Precision of Ancient Babylonian Astronomy and Mathematics",
+          "description": "Ancient Babylonian astronomers developed sophisticated mathematical methods to predict celestial events, including eclipses and planetary positions, centuries before modern telescopes. Their clay tablets reveal intricate computational techniques that allowed for precise tracking of cosmic phenomena. https://surfaced-x.pages.dev/item/ancient-babylonian-astronomy-mathematics #surfaced #discoveries",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "Unveiling the Precision of Ancient Babylonian Astronomy and Mathematics — Ancient Babylonian astronomers developed sophisticated mathematical methods to predict celestial events, including eclipses and planetary positions, c https://surfaced-x.pages.dev/item/ancient-babylonian-as"
+        },
+        "twitter": {
+          "text": "Unveiling the Precision of Ancient Babylonian Astronomy and Mathematics — Ancient Babylonian astronomers developed sophisticated mathematical methods to predict celestial events, including eclipses and planetary positions, c https://surfaced-x.pages.dev/item/ancient-babylonian-as"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-14T07:34:24.298Z",
+      "publishedAt": "2026-04-14T07:34:27.728Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo",
+      "title": "Remarkable Roman Shipwreck Reveals Ancient Trade Secrets",
+      "category": "discoveries",
+      "imageUrl": "https://images.pexels.com/photos/13633284/pexels-photo-13633284.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "productUrl": "https://surfaced-x.pages.dev/item/archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo",
+      "platforms": {
+        "pinterest": {
+          "title": "Roman Shipwreck Discovery: Ancient Trade Secrets Unearthed",
+          "description": "Dive into the past with this incredible Roman shipwreck find! Perfectly preserved amphorae and cargo offer a rare glimpse into ancient Mediterranean trade routes. Imagine the stories these artifacts could tell! #AncientHistory #Archaeology #RomanEmpire #Shipwreck",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "Just stumbled upon an absolutely mind-blowing Roman shipwreck discovery! Intact cargo, thousands of years old. It's like a time capsule of ancient trade. Get the details: https://surfaced-x.pages.dev/item/archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo"
+        },
+        "twitter": {
+          "text": "Unbelievable find: a Roman shipwreck with perfectly preserved cargo! 🤯 This discovery is a direct window into ancient Mediterranean trade. Like, actual ancient goods chilling underwater. See it here: https://surfaced-x.pages.dev/item/archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-14T07:34:26.062Z",
+      "publishedAt": "2026-04-14T07:34:29.282Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-14T07:33:09.662Z"
+  "lastGenerated": "2026-04-14T07:34:26.062Z"
 }
