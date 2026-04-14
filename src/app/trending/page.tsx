@@ -240,17 +240,17 @@ export default function TrendingPage() {
                   >
                     <span className="px-3 py-1.5 bg-white text-black text-xs font-semibold rounded-full shadow">Quick View</span>
                   </button>
-                  {(item as any).badge === "editors-pick" && (
+                  {item.badge === "editors-pick" && (
                     <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
                       Editor&apos;s Pick
                     </span>
                   )}
-                  {(item as any).badge === "great-gift" && (
+                  {item.badge === "great-gift" && (
                     <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-rose-500/90 text-white rounded">
                       🎁 Great Gift
                     </span>
                   )}
-                  {(item as any).badge === "best-value" && (
+                  {item.badge === "best-value" && (
                     <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-emerald-500/90 text-white rounded">
                       Best Value
                     </span>
@@ -285,7 +285,7 @@ export default function TrendingPage() {
                 )}
                 <div className="mt-auto flex items-center justify-between gap-2">
                   <a
-                    href={(item as any).affiliate?.url || item.directAmazonUrl || item.sourceLink}
+                    href={(item as AnyItem).affiliate?.url || item.directAmazonUrl || item.sourceLink}
                     target="_blank"
                     rel="sponsored noopener"
                     data-affiliate="true"
@@ -453,7 +453,7 @@ export default function TrendingPage() {
                         <div className="text-2xl font-bold text-emerald-400">{p.estimatedPriceRange || "—"}</div>
                         <p className="text-xs text-muted-foreground leading-relaxed flex-1 line-clamp-4">{p.shortDescription}</p>
                         <a
-                          href={(p as any).affiliate?.url || (p as any).directAmazonUrl || p.sourceLink}
+                          href={(p as AnyItem).affiliate?.url || p.directAmazonUrl || p.sourceLink}
                           target="_blank"
                           rel="sponsored noopener"
                           className="mt-auto text-center py-2 px-4 rounded-lg bg-emerald-500/15 text-emerald-400 text-xs font-semibold hover:bg-emerald-500/25 transition-colors"

@@ -17,6 +17,7 @@ export interface Discovery {
   whyItIsInteresting: string;
   imageIdea: string;
   sourceLink: string;
+  badge?: string;
   type: "discovery";
 }
 
@@ -32,6 +33,7 @@ export interface Product {
   estimatedPriceRange: string;
   directAmazonUrl?: string;
   bestBuyUrl?: string;
+  badge?: string;
   type: "product";
 }
 
@@ -44,6 +46,7 @@ export interface HiddenGem {
   whyItIsUseful: string;
   websiteLink: string;
   screenshotUrl?: string;
+  badge?: string;
   type: "hidden-gem";
 }
 
@@ -55,6 +58,8 @@ export interface FutureTech {
   industry: string;
   whyItMatters: string;
   developmentStage: string;
+  sourceLink?: string;
+  badge?: string;
   type: "future-tech";
 }
 
@@ -66,6 +71,7 @@ export interface DailyTool {
   category: string;
   whyItIsUseful: string;
   websiteLink: string;
+  badge?: string;
   type: "tool";
 }
 

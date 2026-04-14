@@ -170,7 +170,7 @@ export default function FutureRadarPage() {
               >
                 <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.techName} aspectRatio="3/2" width={400} height={267} className="group-hover:scale-[1.03] transition-transform duration-500" />
-                  {(item as any).badge === "editors-pick" && (
+                  {item.badge === "editors-pick" && (
                     <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
                       Editor&apos;s Pick
                     </span>
