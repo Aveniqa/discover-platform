@@ -341,11 +341,17 @@ function buildSearchQuery(item: Record<string, unknown>): string {
     }
 
     case "hidden-gem": {
+      const imageIdea = item.imageIdea as string;
+      const name = item.name as string;
+      if (imageIdea) return `${name} ${imageIdea}`.trim().slice(0, 80);
       const category = item.category as string;
       return categorySceneQueries[category] || "technology workspace digital";
     }
 
     case "tool": {
+      const imageIdea = item.imageIdea as string;
+      const toolName = item.toolName as string;
+      if (imageIdea) return `${toolName} ${imageIdea}`.trim().slice(0, 80);
       const category = item.category as string;
       return categorySceneQueries[category] || "technology workspace digital";
     }

@@ -8,6 +8,7 @@ import {
   futureRadar,
   dailyTools,
   categories,
+  getAllItems,
   getItemTitle,
   getItemDescription,
   getCategoryColor,
@@ -16,7 +17,7 @@ import {
 } from "@/lib/data";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
-import { StreakWidget, getStreakMilestone } from "@/components/ui/StreakWidget";
+import { getStreakMilestone } from "@/components/ui/StreakWidget";
 import { SurpriseMe } from "@/components/ui/SurpriseMe";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
@@ -29,12 +30,6 @@ import { todaysPicks } from "@/lib/data";
 import Link from "next/link";
 
 /* ---- Helpers ---- */
-
-const shortCategoryNames: Record<string, string> = {
-  "Trending Products": "Trending",
-  "Future Radar": "Future",
-  "Daily Tools": "Tools",
-};
 
 function getItemsForCategory(key: string): AnyItem[] {
   switch (key) {
@@ -52,14 +47,6 @@ function getItemsForCategory(key: string): AnyItem[] {
       return [];
   }
 }
-
-const categoryPillColors: Record<string, string> = {
-  indigo: "bg-indigo-500/20 text-indigo-300 border-indigo-400/30 hover:bg-indigo-500/30",
-  emerald: "bg-emerald-500/20 text-emerald-300 border-emerald-400/30 hover:bg-emerald-500/30",
-  amber: "bg-amber-500/20 text-amber-300 border-amber-400/30 hover:bg-amber-500/30",
-  cyan: "bg-cyan-500/20 text-cyan-300 border-cyan-400/30 hover:bg-cyan-500/30",
-  rose: "bg-rose-500/20 text-rose-300 border-rose-400/30 hover:bg-rose-500/30",
-};
 
 /** Returns true if the item's id is among the 3 highest in its category array */
 function isNewToday(item: AnyItem, categoryItems: AnyItem[]): boolean {
@@ -85,26 +72,32 @@ function accentBar(type: string): string {
 export default function HomePage() {
   const totalItems = discoveries.length + products.length + hiddenGems.length + futureRadar.length + dailyTools.length;
   const [milestoneToast, setMilestoneToast] = useState<string | null>(null);
+  const [streakDays, setStreakDays] = useState(0);
+  const [streakEmoji, setStreakEmoji] = useState("");
 
-  /* Cmd+K trigger */
   const openSearch = () => {
-    document.dispatchEvent(
-      new KeyboardEvent("keydown", { key: "k", metaKey: true })
-    );
+    document.dispatchEvent(new KeyboardEvent("keydown", { key: "k", metaKey: true }));
   };
 
-  /* Streak milestone toast — fires once per milestone level */
   useEffect(() => {
-    const streakDays = getStreak();
-    const milestone = getStreakMilestone(streakDays);
+    const days = getStreak();
+    setStreakDays(days);
+    const milestone = getStreakMilestone(days);
+    if (milestone) setStreakEmoji(milestone.emoji);
     if (!milestone) return;
     const lastShown = localStorage.getItem("surfaced-streak-milestone-shown");
     if (lastShown === String(milestone.days)) return;
     localStorage.setItem("surfaced-streak-milestone-shown", String(milestone.days));
-    setMilestoneToast(`${milestone.emoji} ${milestone.label} — ${streakDays}-day streak!`);
+    setMilestoneToast(`${milestone.emoji} ${milestone.label} — ${days}-day streak!`);
     const t = setTimeout(() => setMilestoneToast(null), 4000);
     return () => clearTimeout(t);
   }, []);
+
+  /* Trending This Week — badged items, newest first */
+  const trendingItems = [...getAllItems()]
+    .filter((i) => !!(i as { badge?: string }).badge)
+    .sort((a, b) => (b.id || 0) - (a.id || 0))
+    .slice(0, 6);
 
   /* What Surfaced Today — 5 standout daily picks */
   const editorsPick = discoveries[0];
@@ -128,117 +121,119 @@ export default function HomePage() {
       )}
 
       {/* ============================================
-          HERO
+          HERO — Conversion-focused
           ============================================ */}
-      <section className="relative overflow-hidden pt-16 pb-20 sm:pt-24 sm:pb-28">
-        {/* Gradient orbs */}
-        <div className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] rounded-full bg-accent/[0.09] blur-[120px] pointer-events-none" />
-        <div className="absolute top-[10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-cyan/[0.07] blur-[100px] pointer-events-none" />
-        <div className="absolute bottom-[-10%] left-[30%] w-[400px] h-[400px] rounded-full bg-amber/[0.06] blur-[100px] pointer-events-none" />
-
-        {/* Grid pattern overlay */}
-        <div
-          className="absolute inset-0 pointer-events-none opacity-[0.03]"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px)",
-            backgroundSize: "64px 64px",
-          }}
-        />
-
-        {/* Breathing rings */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none" aria-hidden="true">
-          <div className="w-[600px] h-[600px] rounded-full border border-accent/[0.06] animate-breathe" />
-          <div className="absolute inset-8 rounded-full border border-cyan/[0.05] animate-breathe" style={{ animationDelay: "1s" }} />
-          <div className="absolute inset-16 rounded-full border border-accent/[0.04] animate-breathe" style={{ animationDelay: "2s" }} />
+      <section className="relative py-14 sm:py-20 text-center overflow-hidden">
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] rounded-full bg-accent/[0.07] blur-[100px]" />
         </div>
+        <div className="relative max-w-3xl mx-auto px-4 sm:px-6">
+          {/* Streak badge */}
+          {streakDays > 0 && (
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm mb-5">
+              {streakEmoji || "🔥"} Day {streakDays} streak
+            </div>
+          )}
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 text-center">
-          {/* Date + Streak row */}
-          <div className="flex items-center justify-center gap-4 mb-6 animate-fade-in">
-            <span className="text-xs sm:text-sm text-muted tracking-wide">
-              {<TodayDate />}
-            </span>
-            <StreakWidget />
-          </div>
-
-          {/* Headline */}
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] mb-6 animate-fade-in-up">
-            <span className="text-foreground">Discover What&rsquo;s </span>
-            <span className="gradient-text">Worth Knowing</span>
-            <span className="text-foreground"> Today</span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-4">
+            Discover something<br />
+            <span className="gradient-text">remarkable</span> every day
           </h1>
 
-          {/* Subtitle */}
-          <p className="max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground leading-relaxed mb-8 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            The internet is infinite. We read all of it so you don&apos;t have
-            to — five categories, zero noise, updated every morning.
+          <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto mb-7">
+            Curated products, hidden gem apps, emerging tech, and fascinating discoveries — refreshed daily at 7am.
           </p>
 
-          {/* Counter + Search row */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            {/* Counter badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface border border-border text-sm gradient-border">
-              <span className="font-mono font-bold text-accent tabular-nums">
-                {totalItems}+
-              </span>
-              <span className="text-muted">Discoveries</span>
-            </div>
-
-            {/* Search trigger */}
-            <button
-              onClick={openSearch}
-              className="group inline-flex items-center gap-3 px-5 py-2.5 rounded-xl bg-surface border border-border text-sm text-muted hover:border-accent/30 hover:text-foreground transition-all cursor-pointer"
-            >
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                className="text-muted-foreground group-hover:text-accent transition-colors"
-              >
-                <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5" />
-                <path d="M11 11l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-              </svg>
-              <span>Search discoveries...</span>
-              <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-surface-elevated border border-border text-[10px] font-mono text-muted-foreground">
-                <span className="text-xs">&#8984;</span>K
-              </kbd>
-            </button>
+          {/* Primary CTA: Newsletter */}
+          <div className="max-w-md mx-auto mb-5">
+            <NewsletterForm />
           </div>
+          <p className="text-xs text-muted-foreground mb-8">Join free — no spam, unsubscribe anytime</p>
 
-          {/* Live status indicator */}
-          <div className="flex items-center justify-center gap-2 mt-6 animate-fade-in" style={{ animationDelay: "0.35s" }}>
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald opacity-60" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald" />
-            </span>
-            <span className="text-xs text-muted-foreground">Updated today &middot; Next edition tomorrow at 8am</span>
+          {/* Stats bar */}
+          <div className="flex items-center justify-center gap-6 sm:gap-10 pt-6 border-t border-border/50">
+            <div className="text-center">
+              <p className="text-2xl font-bold">{totalItems}+</p>
+              <p className="text-xs text-muted-foreground">Curated items</p>
+            </div>
+            <div className="text-center">
+              <p className="text-2xl font-bold">5</p>
+              <p className="text-xs text-muted-foreground">Categories</p>
+            </div>
+            <div className="text-center">
+              <p className="text-2xl font-bold">25</p>
+              <p className="text-xs text-muted-foreground">New daily</p>
+            </div>
           </div>
         </div>
       </section>
 
+      {/* Search strip */}
+      <section className="pb-6 px-4 sm:px-6">
+        <div className="max-w-lg mx-auto">
+          <button
+            onClick={openSearch}
+            className="group w-full inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-surface border border-border text-sm text-muted hover:border-accent/30 hover:text-foreground transition-all cursor-pointer"
+          >
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-muted-foreground group-hover:text-accent transition-colors shrink-0">
+              <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5" />
+              <path d="M11 11l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+            </svg>
+            <span className="flex-1 text-left">Search {totalItems}+ discoveries...</span>
+            <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-surface-elevated border border-border text-[10px] font-mono text-muted-foreground">
+              <span className="text-xs">⌘</span>K
+            </kbd>
+          </button>
+        </div>
+      </section>
+
       {/* ============================================
-          CATEGORY NAVIGATION STRIP
+          TRENDING THIS WEEK — badged items
           ============================================ */}
-      <section className="pb-14 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex gap-3 overflow-x-auto snap-x snap-mandatory scrollbar-none pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:justify-center sm:flex-wrap">
-            {categories.map((cat) => (
-              <Link
-                key={cat.key}
-                href={cat.path}
-                className={`snap-start shrink-0 inline-flex items-center gap-2 px-4 py-3 rounded-xl border text-[13px] font-semibold transition-all ${
-                  categoryPillColors[cat.color] || categoryPillColors.indigo
-                }`}
-              >
-                <span className="text-base">{cat.icon}</span>
-                <span>
-                  <span className="sm:hidden">{shortCategoryNames[cat.name] || cat.name}</span>
-                  <span className="hidden sm:inline">{cat.name}</span>
-                  {" "}
-                  <span className="opacity-60">({cat.count})</span>
-                </span>
+      {trendingItems.length > 0 && (
+        <section className="pb-10 px-4 sm:px-6 border-b border-border/50">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center justify-between mb-5">
+              <div>
+                <h2 className="text-lg font-semibold">Trending This Week</h2>
+                <p className="text-xs text-muted-foreground">Editor&rsquo;s picks and top finds</p>
+              </div>
+              <Link href="/trending" className="text-sm text-accent hover:text-accent/80 transition-colors">See all →</Link>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+              {trendingItems.map((item) => (
+                <Link key={item.slug} href={`/item/${item.slug}`}
+                  className="group p-3 rounded-xl bg-card/50 border border-border/50 hover:border-accent/30 transition-all">
+                  <div className="rounded-lg overflow-hidden mb-2 bg-muted">
+                    <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="1/1" width={120} height={120} size="sm" className="group-hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <span className="text-[10px] uppercase tracking-wider text-accent font-medium">{getCategoryLabel(item.type)}</span>
+                  <p className="text-xs font-medium leading-snug mt-0.5 line-clamp-2 text-foreground">{getItemTitle(item)}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ============================================
+          CATEGORY QUICK-ACCESS CARDS
+          ============================================ */}
+      <section className="py-8 px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
+            {[
+              { label: "Discoveries", href: "/discover", emoji: "🔮", count: discoveries.length, color: "from-purple-500/20 to-transparent" },
+              { label: "Products", href: "/trending", emoji: "📈", count: products.length, color: "from-green-500/20 to-transparent" },
+              { label: "Hidden Gems", href: "/hidden-gems", emoji: "💎", count: hiddenGems.length, color: "from-amber-500/20 to-transparent" },
+              { label: "Future Tech", href: "/future-radar", emoji: "🔭", count: futureRadar.length, color: "from-blue-500/20 to-transparent" },
+              { label: "Daily Tools", href: "/tools", emoji: "🛠️", count: dailyTools.length, color: "from-rose-500/20 to-transparent" },
+            ].map((cat) => (
+              <Link key={cat.href} href={cat.href}
+                className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 transition-all group`}>
+                <span className="text-2xl">{cat.emoji}</span>
+                <p className="font-semibold mt-2 text-sm group-hover:text-accent transition-colors">{cat.label}</p>
+                <p className="text-xs text-muted-foreground">{cat.count} items</p>
               </Link>
             ))}
           </div>
@@ -437,7 +432,7 @@ export default function HomePage() {
       {/* ============================================
           CATEGORY PREVIEW SECTIONS
           ============================================ */}
-      {categories.map((cat) => {
+      {categories.slice(0, 3).map((cat) => {
         const allInCategory = getItemsForCategory(cat.key);
         const items = [...allInCategory]
           .filter((i) => !shownSlugs.has(i.slug))
@@ -446,7 +441,6 @@ export default function HomePage() {
         return (
           <section key={cat.key} className="pb-18 px-4 sm:px-6">
             <div className="max-w-[90rem] mx-auto">
-              {/* Section header */}
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-2.5">
                   <span className="text-xl">{cat.icon}</span>
@@ -455,24 +449,16 @@ export default function HomePage() {
                     <span className="text-sm text-muted-foreground font-normal ml-2">{cat.count} items</span>
                   </h2>
                 </div>
-                <Link
-                  href={cat.path}
-                  className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline"
-                >
+                <Link href={cat.path} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">
                   See All <span>&rarr;</span>
                 </Link>
               </div>
-
-              {/* Carousel */}
               <Carousel
                 items={items}
                 renderCard={(item) => {
                   const isNew = isNewToday(item, allInCategory);
                   return (
-                    <Link
-                      href={`/item/${item.slug}`}
-                      className="group block w-full"
-                    >
+                    <Link href={`/item/${item.slug}`} className="group block w-full">
                       <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                         <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                         <div className="overflow-hidden relative">
@@ -484,11 +470,74 @@ export default function HomePage() {
                           )}
                         </div>
                         <div className="p-5 flex flex-col flex-1">
-                          <CategoryBadge
-                            label={getCategoryLabel(item.type)}
-                            color={getCategoryColor(item.type)}
-                            className="mb-3 self-start"
-                          />
+                          <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} className="mb-3 self-start" />
+                          <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
+                            {getItemTitle(item)}
+                          </h3>
+                          <p className="text-xs text-muted leading-relaxed line-clamp-1">
+                            {getItemDescription(item)}
+                          </p>
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                }}
+              />
+            </div>
+          </section>
+        );
+      })}
+
+      {/* ============================================
+          INLINE NEWSLETTER CTA (between carousels 3 & 4)
+          ============================================ */}
+      <section className="py-8 my-2 px-4 sm:px-6">
+        <div className="max-w-2xl mx-auto text-center">
+          <p className="text-lg font-medium mb-1">Enjoying the discoveries?</p>
+          <p className="text-sm text-muted-foreground mb-4">Get the best 5 picks delivered to your inbox every morning.</p>
+          <NewsletterForm variant="minimal" />
+        </div>
+      </section>
+
+      {categories.slice(3).map((cat) => {
+        const allInCategory = getItemsForCategory(cat.key);
+        const items = [...allInCategory]
+          .filter((i) => !shownSlugs.has(i.slug))
+          .sort((a, b) => (b.id || 0) - (a.id || 0))
+          .slice(0, 36);
+        return (
+          <section key={cat.key} className="pb-18 px-4 sm:px-6">
+            <div className="max-w-[90rem] mx-auto">
+              <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center gap-2.5">
+                  <span className="text-xl">{cat.icon}</span>
+                  <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">
+                    {cat.name}
+                    <span className="text-sm text-muted-foreground font-normal ml-2">{cat.count} items</span>
+                  </h2>
+                </div>
+                <Link href={cat.path} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">
+                  See All <span>&rarr;</span>
+                </Link>
+              </div>
+              <Carousel
+                items={items}
+                renderCard={(item) => {
+                  const isNew = isNewToday(item, allInCategory);
+                  return (
+                    <Link href={`/item/${item.slug}`} className="group block w-full">
+                      <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
+                        <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
+                        <div className="overflow-hidden relative">
+                          <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                          {isNew && (
+                            <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
+                              New
+                            </span>
+                          )}
+                        </div>
+                        <div className="p-5 flex flex-col flex-1">
+                          <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} className="mb-3 self-start" />
                           <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
                             {getItemTitle(item)}
                           </h3>
