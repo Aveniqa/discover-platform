@@ -23,7 +23,7 @@ const benefits = [
 
 export default function NewsletterPage() {
   return (
-    <main>
+    <article>
       {/* Hero */}
       <section className="relative py-20 sm:py-28 overflow-hidden">
         {/* Background accents */}
@@ -162,6 +162,6 @@ export default function NewsletterPage() {
           <SocialCTA />
         </div>
       </section>
-    </main>
+    </article>
   );
 }

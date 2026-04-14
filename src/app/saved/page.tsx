@@ -17,6 +17,7 @@ import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 
 export default function SavedPage() {
+  const [mounted, setMounted] = useState(false);
   const [savedItems, setSavedItems] = useState<AnyItem[]>([]);
   const [copied, setCopied] = useState(false);
 
@@ -29,6 +30,7 @@ export default function SavedPage() {
   };
 
   useEffect(() => {
+    setMounted(true);
     loadSaved();
 
     const handleChange = () => loadSaved();
@@ -46,6 +48,17 @@ export default function SavedPage() {
       // fallback silent
     }
   };
+
+  if (!mounted) {
+    return (
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">
+          Saved Items
+        </h1>
+        <p className="mt-2 text-muted text-sm">Loading your bookmarks...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">

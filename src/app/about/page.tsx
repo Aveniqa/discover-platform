@@ -140,7 +140,7 @@ const values = [
 
 export default function AboutPage() {
   return (
-    <main>
+    <article>
       {/* Hero / Mission */}
       <section className="relative py-20 sm:py-28 overflow-hidden">
         {/* Background gradient orbs */}
@@ -284,6 +284,6 @@ export default function AboutPage() {
           <SocialCTA />
         </div>
       </section>
-    </main>
+    </article>
   );
 }
