@@ -135,7 +135,8 @@ async function main() {
       const tw = socialContent.twitter || {};
 
       // Fallback content if Gemini returned incomplete data
-      const link = hasAffiliate ? affiliateUrl : productUrl;
+      const hasAffLink = !!item.directAmazonUrl;
+      const link = hasAffLink ? affiliateUrl : productUrl;
       const fallbackText = `${item.title} — ${(item.shortDescription || "").slice(0, 150)} ${link}`;
 
       posts.push({
