@@ -54,7 +54,7 @@ const pillars = [
     ),
   },
   {
-    name: "Future Technology",
+    name: "Future Radar",
     description:
       "Breakthroughs in AI, biotech, space, and computing that are shaping what comes next.",
     icon: (
@@ -74,9 +74,9 @@ const pillars = [
     ),
   },
   {
-    name: "AI & Tools",
+    name: "Daily Tools",
     description:
-      "The best AI tools, automations, and software that actually change how you work and create.",
+      "The best tools, automations, and software that actually change how you work and create.",
     icon: (
       <svg
         className="h-6 w-6"
@@ -94,9 +94,9 @@ const pillars = [
     ),
   },
   {
-    name: "Culture & Lifestyle",
+    name: "Discoveries",
     description:
-      "The ideas, movements, and oddities defining modern culture across the digital landscape.",
+      "Fascinating facts, mind-blowing science, and things you never knew about the world around you.",
     icon: (
       <svg
         className="h-6 w-6"
