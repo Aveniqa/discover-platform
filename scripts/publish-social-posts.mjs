@@ -14,7 +14,6 @@
  *   BLUESKY_APP_PASSWORD  — app password from bsky.app/settings
  *   PINTEREST_ACCESS_TOKEN — OAuth 2.0 token (refresh via cron monthly)
  *   PINTEREST_BOARD_ID    — default board ID for pins
- *   X_BEARER_TOKEN        — OAuth 2.0 bearer token for posting
  *   X_API_KEY             — X API consumer key
  *   X_API_SECRET          — X API consumer secret
  *   X_ACCESS_TOKEN        — X OAuth 1.0a user access token
@@ -52,7 +51,7 @@ async function publishToBluesky(post) {
     if (!sessionRes.ok) throw new Error(`Session failed: ${sessionRes.status}`);
     const session = await sessionRes.json();
 
-    // Strip any URLs from text (links go in the card embed now)
+    // Strip any URLs from text (links go in the card embed)
     let text = post.platforms.bluesky.text.replace(/https?:\/\/[^\s]+/g, '').trim();
     // Bluesky hard limit is 300 graphemes — trim if needed
     if ([...text].length > 300) {
@@ -61,12 +60,37 @@ async function publishToBluesky(post) {
     }
     const now = new Date().toISOString().replace("+00:00", "Z");
 
+    // Parse hashtag and link facets from text
+    const facets = [];
+    // Hashtag facets
+    const hashtagRegex = /#(\w+)/g;
+    let match;
+    while ((match = hashtagRegex.exec(text)) !== null) {
+      const byteStart = Buffer.byteLength(text.slice(0, match.index), "utf-8");
+      const byteEnd = byteStart + Buffer.byteLength(match[0], "utf-8");
+      facets.push({
+        index: { byteStart, byteEnd },
+        features: [{ $type: "app.bsky.richtext.facet#tag", tag: match[1] }],
+      });
+    }
+    // URL facets (in case any slip through)
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    while ((match = urlRegex.exec(text)) !== null) {
+      const byteStart = Buffer.byteLength(text.slice(0, match.index), "utf-8");
+      const byteEnd = byteStart + Buffer.byteLength(match[0], "utf-8");
+      facets.push({
+        index: { byteStart, byteEnd },
+        features: [{ $type: "app.bsky.richtext.facet#link", uri: match[0] }],
+      });
+    }
+
     // Build post record
     const record = {
       $type: "app.bsky.feed.post",
       text,
       createdAt: now,
     };
+    if (facets.length > 0) record.facets = facets;
 
     // Upload image as thumbnail for the link card
     let thumbBlob = null;
@@ -108,7 +132,7 @@ async function publishToBluesky(post) {
       const card = {
         uri: linkUrl,
         title: post.title,
-        description: text.slice(0, 200),
+        description: text.replace(/#\w+/g, '').trim().slice(0, 200),
       };
       if (thumbBlob) card.thumb = thumbBlob;
       record.embed = { $type: "app.bsky.embed.external", external: card };
@@ -161,6 +185,7 @@ async function publishToPinterest(post) {
       title: pin.title,
       description: pin.description,
       link: post.affiliateUrl || post.productUrl,
+      alt_text: post.imageAltText || `Image for ${post.title}`,
     };
 
     // Attach image if available
@@ -234,12 +259,10 @@ async function publishToTwitter(post) {
         if (imgRes.ok) {
           const imgBuffer = await imgRes.arrayBuffer();
           const base64Image = Buffer.from(imgBuffer).toString("base64");
-          const contentType = imgRes.headers.get("content-type") || "image/jpeg";
 
           const uploadUrl = "https://upload.twitter.com/1.1/media/upload.json";
           const uploadMethod = "POST";
 
-          // Build form data as URL-encoded
           const mediaData = `media_data=${percentEncode(base64Image)}`;
 
           const uploadOauthParams = {
@@ -280,8 +303,11 @@ async function publishToTwitter(post) {
             const uploadResult = await uploadRes.json();
             mediaId = uploadResult.media_id_string;
             console.log(`   📷 X/Twitter: image uploaded → ${mediaId}`);
+
+            // Add alt text to the uploaded image
+            const altText = post.imageAltText || `Image for ${post.title}`;
+            await addAltTextToMedia(mediaId, altText, apiKey, apiSecret, accessToken, accessSecret);
           } else {
-            const uploadErr = await uploadRes.text();
             console.log(`   ⚠️ X/Twitter: image upload failed (${uploadRes.status}), posting without image`);
           }
         }
@@ -348,6 +374,51 @@ async function publishToTwitter(post) {
   }
 }
 
+// Add alt text to uploaded media for accessibility
+async function addAltTextToMedia(mediaId, altText, apiKey, apiSecret, accessToken, accessSecret) {
+  try {
+    const url = "https://upload.twitter.com/1.1/media/metadata/create.json";
+    const method = "POST";
+
+    const oauthParams = {
+      oauth_consumer_key: apiKey,
+      oauth_nonce: randomBytes(16).toString("hex"),
+      oauth_signature_method: "HMAC-SHA1",
+      oauth_timestamp: Math.floor(Date.now() / 1000).toString(),
+      oauth_token: accessToken,
+      oauth_version: "1.0",
+    };
+
+    const sig = generateOAuthSignature(method, url, oauthParams, apiSecret, accessSecret);
+    oauthParams.oauth_signature = sig;
+
+    const authHeader =
+      "OAuth " +
+      Object.keys(oauthParams)
+        .sort()
+        .map((k) => `${percentEncode(k)}="${percentEncode(oauthParams[k])}"`)
+        .join(", ");
+
+    const res = await fetch(url, {
+      method,
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: authHeader,
+      },
+      body: JSON.stringify({
+        media_id: mediaId,
+        alt_text: { text: altText.slice(0, 1000) },
+      }),
+    });
+
+    if (res.ok || res.status === 204) {
+      console.log(`   ♿ X/Twitter: alt text added`);
+    }
+  } catch {
+    // Alt text is optional — don't fail the whole post
+  }
+}
+
 // ─── Main ─────────────────────────────────────────────────────
 async function main() {
   if (!existsSync(queuePath)) {
@@ -365,7 +436,8 @@ async function main() {
 
   console.log(`📤 Publishing ${pending.length} pending social posts...\n`);
 
-  for (const post of pending) {
+  for (let i = 0; i < pending.length; i++) {
+    const post = pending[i];
     console.log(`\n🔄 ${post.title} (${post.category})`);
 
     const results = {
@@ -379,6 +451,13 @@ async function main() {
     post.status = anySuccess ? "published" : "failed";
     post.publishedAt = new Date().toISOString();
     post.publishResults = results;
+
+    // Stagger posts to avoid looking automated (30-90s between posts)
+    if (i < pending.length - 1) {
+      const delay = 30000 + Math.floor(Math.random() * 60000);
+      console.log(`   ⏱️ Waiting ${Math.round(delay / 1000)}s before next post...`);
+      await new Promise((r) => setTimeout(r, delay));
+    }
   }
 
   // Save updated queue

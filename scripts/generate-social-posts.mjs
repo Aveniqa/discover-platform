@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 /**
  * Generate social media posts from Surfaced product data.
- * Picks 2 items per day (rotating categories), calls Gemini to generate
- * platform-specific copy for Pinterest, Bluesky, and X/Twitter.
+ * Picks items per day (3 weekdays, 2 weekends — rotating categories),
+ * calls Gemini to generate platform-specific copy for Pinterest, Bluesky,
+ * and X/Twitter.
  * Output: data/social-queue.json
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
@@ -25,14 +26,15 @@ const GEMINI_URL =
 const SITE_URL = "https://surfaced-x.pages.dev";
 
 // Category rotation by day of week (0=Sun … 6=Sat)
+// Weekdays: 3 posts from 2 categories; Weekends: 2 posts from 2 categories
 const CATEGORY_ROTATION = {
-  0: ["products", "hidden-gems"],
-  1: ["products"],
-  2: ["discoveries"],
-  3: ["hidden-gems"],
-  4: ["future-radar"],
-  5: ["daily-tools"],
-  6: ["discoveries", "future-radar"],
+  0: ["products", "hidden-gems"],          // Sun: 2 posts
+  1: ["products", "discoveries"],           // Mon: 3 posts
+  2: ["discoveries", "hidden-gems"],        // Tue: 3 posts
+  3: ["hidden-gems", "future-radar"],       // Wed: 3 posts
+  4: ["future-radar", "daily-tools"],       // Thu: 3 posts
+  5: ["daily-tools", "products"],           // Fri: 3 posts
+  6: ["discoveries", "future-radar"],       // Sat: 2 posts
 };
 
 const CATEGORY_FILES = {
@@ -43,8 +45,6 @@ const CATEGORY_FILES = {
   "daily-tools": "daily-tools.json",
 };
 
-// All items use /item/[slug] route (static export)
-
 // Pinterest board name mapping
 const BOARD_MAP = {
   products: "Tech Products",
@@ -52,6 +52,15 @@ const BOARD_MAP = {
   "hidden-gems": "Hidden Gems",
   "future-radar": "Future Tech",
   "daily-tools": "Daily Tools",
+};
+
+// Category-specific hashtags for Bluesky
+const CATEGORY_HASHTAGS = {
+  products: ["#tech", "#gadgets", "#innovation"],
+  discoveries: ["#science", "#discovery", "#TIL"],
+  "hidden-gems": ["#hiddenGem", "#apps", "#underrated"],
+  "future-radar": ["#futuretech", "#innovation", "#emerging"],
+  "daily-tools": ["#productivity", "#tools", "#apps"],
 };
 
 async function main() {
@@ -66,15 +75,17 @@ async function main() {
     readFileSync(join(DATA_DIR, "image-cache.json"), "utf-8")
   );
 
-  // 3. Determine today's categories
+  // 3. Determine today's categories and post count
   const dayOfWeek = new Date().getDay();
+  const isWeekend = dayOfWeek === 0 || dayOfWeek === 6;
+  const targetCount = isWeekend ? 2 : 3;
   const categories = CATEGORY_ROTATION[dayOfWeek];
 
-  // 4. Pick 2 items
+  // 4. Pick items — distribute across categories
   const selected = [];
 
   for (const cat of categories) {
-    if (selected.length >= 2) break;
+    if (selected.length >= targetCount) break;
     const items = JSON.parse(
       readFileSync(join(DATA_DIR, CATEGORY_FILES[cat]), "utf-8")
     );
@@ -93,21 +104,30 @@ async function main() {
     }
   }
 
-  // If only 1 picked and single-category day, get a second
-  if (selected.length < 2) {
+  // Fill remaining slots from primary category
+  while (selected.length < targetCount) {
     const cat = categories[0];
     const items = JSON.parse(
       readFileSync(join(DATA_DIR, CATEGORY_FILES[cat]), "utf-8")
     );
     const alreadyPicked = selected.map((s) => s.slug);
     const postedSlugs = posted[cat] || [];
-    const available = items.filter(
+    let available = items.filter(
       (item) =>
         !postedSlugs.includes(item.slug) && !alreadyPicked.includes(item.slug)
     );
+
+    if (available.length === 0) {
+      // Reset and retry
+      posted[cat] = [];
+      available = items.filter((item) => !alreadyPicked.includes(item.slug));
+    }
+
     if (available.length > 0) {
       const pick = available[Math.floor(Math.random() * available.length)];
       selected.push({ ...pick, _category: cat });
+    } else {
+      break; // Can't find more items
     }
   }
 
@@ -118,8 +138,17 @@ async function main() {
     const productUrl = `${SITE_URL}/item/${item.slug}`;
     const affiliateUrl = item.directAmazonUrl || productUrl;
 
+    // Add UTM tracking parameters
+    const utmParams = `?utm_source=social&utm_medium=${item._category}&utm_campaign=daily_post`;
+    const trackedProductUrl = `${productUrl}${utmParams}`;
+    const trackedAffiliateUrl = item.directAmazonUrl
+      ? affiliateUrl // Don't modify Amazon URLs
+      : trackedProductUrl;
+
     console.log(`  Generating posts for: ${item.title}`);
-    const socialContent = await generateSocialContent(item, affiliateUrl, productUrl);
+    const socialContent = await generateSocialContent(
+      item, trackedAffiliateUrl, trackedProductUrl
+    );
 
     // Fetch a relevant image using Gemini's suggested search query
     let imageUrl = fallbackImageUrl;
@@ -148,18 +177,28 @@ async function main() {
       const bsky = socialContent.bluesky || {};
       const tw = socialContent.twitter || {};
 
+      // Pick 2 relevant hashtags for Bluesky
+      const catHashtags = CATEGORY_HASHTAGS[item._category] || ["#surfaced"];
+      const bskyHashtags = catHashtags.slice(0, 2).join(" ");
+
       // Fallback content if Gemini returned incomplete data
       const hasAffLink = !!item.directAmazonUrl;
-      const link = hasAffLink ? affiliateUrl : productUrl;
+      const link = hasAffLink ? trackedAffiliateUrl : trackedProductUrl;
       const fallbackText = `${item.title} — ${(item.shortDescription || "").slice(0, 150)} ${link}`;
+
+      // Alt text for images (used by X/Twitter)
+      const altText = socialContent.imageAltText
+        || `Image related to: ${item.title}`;
 
       posts.push({
         id: item.slug,
         title: item.title,
         category: item._category,
         imageUrl,
-        productUrl,
-        affiliateUrl,
+        imageAltText: altText,
+        productUrl: trackedProductUrl,
+        affiliateUrl: trackedAffiliateUrl,
+        sourceLink: item.sourceLink || "",
         platforms: {
           pinterest: {
             title: pin.title || item.title.slice(0, 100),
@@ -167,7 +206,9 @@ async function main() {
             boardName: BOARD_MAP[item._category],
           },
           bluesky: {
-            text: bsky.text || `${item.title} — ${(item.shortDescription || "").slice(0, 200)}`.slice(0, 280),
+            text: bsky.text
+              ? `${bsky.text}\n\n${bskyHashtags}`
+              : `${item.title} — ${(item.shortDescription || "").slice(0, 200)}\n\n${bskyHashtags}`.slice(0, 290),
           },
           twitter: {
             text: tw.text || fallbackText.slice(0, 280),
@@ -192,9 +233,9 @@ async function main() {
   existingQueue.lastGenerated = new Date().toISOString();
   existingQueue.posts.push(...posts);
 
-  // Keep only last 60 entries
-  if (existingQueue.posts.length > 60) {
-    existingQueue.posts = existingQueue.posts.slice(-60);
+  // Keep only last 90 entries (increased for 3/day)
+  if (existingQueue.posts.length > 90) {
+    existingQueue.posts = existingQueue.posts.slice(-90);
   }
 
   writeFileSync(queuePath, JSON.stringify(existingQueue, null, 2));
@@ -269,11 +310,12 @@ async function generateSocialContent(item, affiliateUrl, productUrl) {
   const prompt = `You write social media posts for "Surfaced," a product discovery site (surfaced-x.pages.dev).
 Tone: curious, opinionated, concise. Not corporate. Mention honest limitations when relevant.
 
-Generate exactly 4 outputs in valid JSON (no trailing commas):
+Generate exactly 5 outputs in valid JSON (no trailing commas):
 1. "pinterest": { "title": string (max 100 chars), "description": string (max 500 chars, include #affiliate if affiliate link, plus 3-4 hashtags) }
-2. "bluesky": { "text": string (max 280 chars, do NOT include any URL — the link will be attached automatically as a card) }
+2. "bluesky": { "text": string (max 250 chars, do NOT include any URL or hashtags — those are added automatically. Write engaging copy only.) }
 3. "twitter": { "text": string (max 280 chars, include link at end) }
 4. "imageSearchQuery": string (REQUIRED — 2-4 word Pexels search query for a photo that directly illustrates this specific item. Be literal and specific, not abstract. Example: for penicillin discovery use "petri dish mold", for tardigrades use "tardigrade microscope")
+5. "imageAltText": string (REQUIRED — concise alt text describing what the ideal image would show, for accessibility. Max 100 chars.)
 
 ${affiliateNote}
 
@@ -284,6 +326,7 @@ Product:
 - Why interesting: ${item.whyItIsInteresting || ""}
 - Price: ${item.estimatedPriceRange || "See link"}
 - Link: ${hasAffiliate ? affiliateUrl : productUrl}
+${item.sourceLink ? `- Source: ${item.sourceLink}` : ""}
 
 Respond ONLY with valid JSON.`;
 
