@@ -1,0 +1,92 @@
+name: Pinterest Token Exchange (one-time)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  exchange:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Exchange OAuth code for access token
+        env:
+          APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          AUTH=$(echo -n "1561781:${APP_SECRET}" | base64 -w0)
+          
+          echo "Exchanging OAuth code for access token..."
+          RESPONSE=$(curl -s -X POST "https://api.pinterest.com/v5/oauth/token" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -H "Authorization: Basic ${AUTH}" \
+            -d "grant_type=authorization_code" \
+            -d "code=7b641f6d6b4c7eb4a969112a9a135dc592c40682" \
+            -d "redirect_uri=https://surfaced-x.pages.dev/")
+          
+          echo "Response received."
+          
+          # Check for error
+          ERROR=$(echo "$RESPONSE" | jq -r '.error // empty')
+          if [ -n "$ERROR" ]; then
+            ERROR_DESC=$(echo "$RESPONSE" | jq -r '.error_description // "unknown"')
+            echo "❌ Error: $ERROR — $ERROR_DESC"
+            exit 1
+          fi
+          
+          ACCESS_TOKEN=$(echo "$RESPONSE" | jq -r '.access_token')
+          REFRESH_TOKEN=$(echo "$RESPONSE" | jq -r '.refresh_token')
+          SCOPE=$(echo "$RESPONSE" | jq -r '.scope')
+          EXPIRES=$(echo "$RESPONSE" | jq -r '.expires_in')
+          
+          echo "✅ Token obtained!"
+          echo "   Scope: $SCOPE"
+          echo "   Expires in: $EXPIRES seconds"
+          
+          # Save as GitHub Secrets
+          echo "$ACCESS_TOKEN" | gh secret set PINTEREST_ACCESS_TOKEN --repo Aveniqa/discover-platform
+          echo "✅ PINTEREST_ACCESS_TOKEN saved"
+          
+          echo "$REFRESH_TOKEN" | gh secret set PINTEREST_REFRESH_TOKEN --repo Aveniqa/discover-platform
+          echo "✅ PINTEREST_REFRESH_TOKEN saved"
+
+      - name: Get board ID
+        env:
+          APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+        run: |
+          # Re-read the token we just saved (can't access secrets mid-job, so re-exchange isn't needed - just use the var)
+          AUTH=$(echo -n "1561781:${APP_SECRET}" | base64 -w0)
+          RESPONSE=$(curl -s -X POST "https://api.pinterest.com/v5/oauth/token" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -H "Authorization: Basic ${AUTH}" \
+            -d "grant_type=authorization_code" \
+            -d "code=7b641f6d6b4c7eb4a969112a9a135dc592c40682" \
+            -d "redirect_uri=https://surfaced-x.pages.dev/")
+          ACCESS_TOKEN=$(echo "$RESPONSE" | jq -r '.access_token // empty')
+          
+          if [ -z "$ACCESS_TOKEN" ]; then
+            echo "Token already exchanged (codes are single-use). Board setup will happen on next run."
+            exit 0
+          fi
+          
+          echo "Fetching boards..."
+          BOARDS=$(curl -s "https://api.pinterest.com/v5/boards" \
+            -H "Authorization: Bearer ${ACCESS_TOKEN}")
+          echo "Boards: $BOARDS" | jq '.items[] | {id, name}' 2>/dev/null || echo "No boards found or token expired"
+
+      - name: Clean up this workflow file
+        run: |
+          git config user.name "Surfaced Bot"
+          git config user.email "bot@surfaced.daily"
+          rm -f .github/workflows/pinterest-token-exchange.yml
+          git add -A
+          git commit -m "🧹 Remove one-time Pinterest token exchange workflow" || true
+          git push || true
