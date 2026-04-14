@@ -145,9 +145,17 @@ async function main() {
       ? affiliateUrl // Don't modify Amazon URLs
       : trackedProductUrl;
 
-    console.log(`  Generating posts for: ${item.title}`);
+    // Normalize fields across different data schemas
+    const itemTitle = item.title || item.name || item.slug;
+    const itemDesc = item.shortDescription || item.whatItDoes || item.description || "";
+    const itemWhy = item.whyItIsInteresting || item.whyItIsUseful || "";
+    const itemSource = item.sourceLink || item.websiteLink || "";
+    const itemPrice = item.estimatedPriceRange || item.pricingModel || "See link";
+
+    console.log(`  Generating posts for: ${itemTitle}`);
+    const normalizedItem = { ...item, title: itemTitle, shortDescription: itemDesc, whyItIsInteresting: itemWhy, sourceLink: itemSource, estimatedPriceRange: itemPrice };
     const socialContent = await generateSocialContent(
-      item, trackedAffiliateUrl, trackedProductUrl
+      normalizedItem, trackedAffiliateUrl, trackedProductUrl
     );
 
     // Fetch a relevant image using Gemini's suggested search query
@@ -188,11 +196,11 @@ async function main() {
 
       // Alt text for images (used by X/Twitter)
       const altText = socialContent.imageAltText
-        || `Image related to: ${item.title}`;
+        || `Image related to: ${itemTitle}`;
 
       posts.push({
         id: item.slug,
-        title: item.title,
+        title: itemTitle,
         category: item._category,
         imageUrl,
         imageAltText: altText,
@@ -201,14 +209,14 @@ async function main() {
         sourceLink: item.sourceLink || "",
         platforms: {
           pinterest: {
-            title: pin.title || item.title.slice(0, 100),
+            title: pin.title || itemTitle.slice(0, 100),
             description: pin.description || `${(item.shortDescription || "").slice(0, 400)} ${link} #surfaced #${item._category}`,
             boardName: BOARD_MAP[item._category],
           },
           bluesky: {
             text: bsky.text
               ? `${bsky.text}\n\n${bskyHashtags}`
-              : `${item.title} — ${(item.shortDescription || "").slice(0, 200)}\n\n${bskyHashtags}`.slice(0, 290),
+              : `${itemTitle} — ${itemDesc.slice(0, 200)}\n\n${bskyHashtags}`.slice(0, 290),
           },
           twitter: {
             text: tw.text || fallbackText.slice(0, 280),
