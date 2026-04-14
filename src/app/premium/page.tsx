@@ -75,7 +75,7 @@ function CheckIcon({ active }: { active: boolean }) {
 
 export default function PremiumPage() {
   return (
-    <main>
+    <article>
       {/* Hero */}
       <section className="relative py-20 sm:py-28 overflow-hidden">
         {/* Background glow */}
@@ -201,6 +201,6 @@ export default function PremiumPage() {
           </p>
         </div>
       </section>
-    </main>
+    </article>
   );
 }

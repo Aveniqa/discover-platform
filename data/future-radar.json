@@ -7,7 +7,8 @@
     "industry": "AI & Computing",
     "whyItMatters": "They enable always-on AI in devices with tiny batteries, from smart glasses to medical implants, and could be the key to energy-efficient artificial general intelligence.",
     "developmentStage": "Prototype",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Close-up of a brain-inspired microchip with neural network pathways glowing on a silicon wafer"
   },
   {
     "id": 18,
@@ -17,7 +18,8 @@
     "industry": "AI & Computing",
     "whyItMatters": "AGI could accelerate scientific discovery by orders of magnitude, from curing diseases to solving climate change, representing the most transformative technology in human history.",
     "developmentStage": "Early Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Abstract visualization of a vast interconnected neural network with human-like reasoning patterns emerging from data streams"
   },
   {
     "id": 19,
@@ -27,7 +29,8 @@
     "industry": "AI & Computing",
     "whyItMatters": "Processing AI at the edge eliminates latency, protects privacy, works offline, and scales to trillions of devices, making the built environment genuinely intelligent.",
     "developmentStage": "Growth Phase",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Smart home environment with subtle AI sensors embedded in everyday objects, soft ambient lighting"
   },
   {
     "id": 20,
@@ -37,7 +40,8 @@
     "industry": "AI & Computing",
     "whyItMatters": "They could fill labor shortages in aging societies, take over dangerous jobs, and extend human physical capability, fundamentally changing the economics of manual work.",
     "developmentStage": "Prototype",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Humanoid robot working alongside humans in a modern warehouse, performing dexterous tasks"
   },
   {
     "id": 21,
@@ -47,7 +51,8 @@
     "industry": "Space",
     "whyItMatters": "A Moon base serves as a proving ground for Mars colonization, a fuel depot using lunar water ice, and a platform for deep-space telescopes free from atmospheric interference.",
     "developmentStage": "Advanced Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Futuristic lunar base with pressurized domes on the Moon's surface, Earth visible in the background sky"
   },
   {
     "id": 22,
@@ -57,7 +62,8 @@
     "industry": "Space",
     "whyItMatters": "Faster transit means less radiation exposure for crews, smaller supply requirements, and wider launch windows, making crewed Mars missions practical rather than theoretical.",
     "developmentStage": "Advanced Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Spacecraft with glowing nuclear thermal engine firing in deep space, stars in background"
   },
   {
     "id": 23,
@@ -67,7 +73,8 @@
     "industry": "Space",
     "whyItMatters": "Access to space-based resources could eliminate mining-related environmental destruction on Earth, break supply bottlenecks for electronics, and fund space infrastructure through trillion-dollar mineral returns.",
     "developmentStage": "Early Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Robotic mining platform attached to a rocky asteroid in space, extracting minerals with mechanical arms"
   },
   {
     "id": 24,
@@ -77,7 +84,8 @@
     "industry": "Space",
     "whyItMatters": "Three billion people still lack internet access. Satellite mega-constellations close the digital divide entirely, enabling education, telemedicine, and economic participation for everyone on the planet.",
     "developmentStage": "Growth Phase",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Thousands of small satellites orbiting Earth in coordinated formation, beaming internet coverage to the surface"
   },
   {
     "id": 25,
@@ -87,7 +95,8 @@
     "industry": "Space",
     "whyItMatters": "It opens an entirely new window on the universe, allowing us to observe events invisible to light-based telescopes and test the fundamental fabric of spacetime itself.",
     "developmentStage": "Early Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Three spacecraft in triangular formation in deep space, connected by laser beams detecting gravitational ripples"
   },
   {
     "id": 26,
@@ -97,7 +106,8 @@
     "industry": "Materials",
     "whyItMatters": "Cheap graphene could revolutionize electronics with flexible displays, create ultra-light aircraft, enable instant water desalination membranes, and produce unbreakable yet featherweight composites.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Industrial facility producing rolls of transparent graphene sheets, with microscopic hexagonal lattice pattern overlay"
   },
   {
     "id": 27,
@@ -107,7 +117,8 @@
     "industry": "Materials",
     "whyItMatters": "Applications include invisibility cloaking, perfect acoustic insulation, ultra-efficient antennas, flat lenses that replace bulky optics, and surfaces that redirect earthquake vibrations around buildings.",
     "developmentStage": "Advanced Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Material surface morphing and reshaping its structure in response to stimuli, with geometric patterns shifting dynamically"
   },
   {
     "id": 28,
@@ -117,7 +128,8 @@
     "industry": "Materials",
     "whyItMatters": "Self-healing coatings on bridges, pipelines, and aircraft could prevent catastrophic failures, reduce maintenance costs by billions, and slash the environmental impact of material replacement.",
     "developmentStage": "Prototype",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Close-up of a polymer material with a crack visibly mending itself, molecular bonds reforming across the gap"
   },
   {
     "id": 29,
@@ -127,7 +139,8 @@
     "industry": "Materials",
     "whyItMatters": "Global data creation will exceed storage capacity by 2030. DNA storage could archive all of humanity's data in a space the size of a shoebox, lasting millennia.",
     "developmentStage": "Advanced Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "DNA double helix structure being encoded with digital binary data, biological storage meets digital technology"
   },
   {
     "id": 30,
@@ -137,7 +150,8 @@
     "industry": "Materials",
     "whyItMatters": "They would make lossless power transmission, levitating trains, and MRI machines without cryogenics possible, saving the 10-15% of electricity currently lost in transmission worldwide.",
     "developmentStage": "Early Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Levitating magnet above a superconducting material at room temperature in a laboratory setting"
   },
   {
     "id": 31,
@@ -147,7 +161,8 @@
     "industry": "Agriculture",
     "whyItMatters": "They decouple food production from weather, location, and season, enabling fresh produce in deserts, cities, and disaster zones while freeing farmland for rewilding.",
     "developmentStage": "Growth Phase",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Multi-story indoor vertical farm with AI-controlled LED lighting, robotic arms tending rows of leafy greens"
   },
   {
     "id": 32,
@@ -157,7 +172,8 @@
     "industry": "Agriculture",
     "whyItMatters": "Animal agriculture uses 77% of farmland but provides only 18% of calories. Precision fermentation could match the taste of animal products while using 99% less land and water.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Industrial bioreactor tanks producing protein through precision fermentation, with molecular protein structures overlaid"
   },
   {
     "id": 33,
@@ -167,7 +183,8 @@
     "industry": "Agriculture",
     "whyItMatters": "Climate change threatens 25% of global crop yields by 2050. Gene-edited crops that thrive in heat and drought could prevent hundreds of millions from facing food insecurity.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "CRISPR molecular scissors editing plant DNA strand, with healthy modified crops growing in the background"
   },
   {
     "id": 34,
@@ -177,7 +194,8 @@
     "industry": "Agriculture",
     "whyItMatters": "They reduce pesticide use by 90% through precision application, catch disease outbreaks weeks earlier than human inspection, and help small farmers access the same technology as industrial operations.",
     "developmentStage": "Growth Phase",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Fleet of agricultural drones flying over vast farmland, scanning and spraying crops with precision"
   },
   {
     "id": 35,
@@ -187,7 +205,8 @@
     "industry": "Agriculture",
     "whyItMatters": "A third of the world's soil is degraded. Biochar restores fertility while sequestering carbon, turning agricultural waste from a pollution source into a climate solution.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Cross-section of rich dark soil enriched with biochar particles, healthy plant roots growing through restored earth"
   },
   {
     "id": 36,
@@ -197,7 +216,8 @@
     "industry": "Communication",
     "whyItMatters": "6G speeds are 100x faster than 5G, enabling real-time holographic telepresence, centimeter-accurate positioning everywhere, and the bandwidth needed for a fully immersive metaverse.",
     "developmentStage": "Early Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Futuristic city skyline with invisible terahertz wireless waves connecting devices at ultra-high speeds, holographic data streams"
   },
   {
     "id": 37,
@@ -207,7 +227,8 @@
     "industry": "Communication",
     "whyItMatters": "It eliminates dead zones entirely. Emergency services, hikers, sailors, and the 600 million people in areas without cell towers get reliable connectivity from their existing devices.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Smartphone receiving signal directly from a low-orbit satellite, no cell tower needed, in a remote rural area"
   },
   {
     "id": 38,
@@ -217,7 +238,8 @@
     "industry": "Communication",
     "whyItMatters": "Holographic displays transform remote collaboration by making it feel like everyone is in the same room, revolutionize medical imaging, and make 2D screens feel as dated as fax machines.",
     "developmentStage": "Prototype",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Person interacting with a floating 3D holographic display showing a rotating globe, no headset needed"
   },
   {
     "id": 39,
@@ -227,7 +249,8 @@
     "industry": "Communication",
     "whyItMatters": "BCIs could restore speech to paralyzed patients, allow instant knowledge transfer, and eventually enable thought-speed communication that makes typing and speaking seem primitive.",
     "developmentStage": "Advanced Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Neural interface device on a person's head with visible data streams flowing between brain and computer"
   },
   {
     "id": 40,
@@ -237,7 +260,8 @@
     "industry": "Communication",
     "whyItMatters": "They provide resilient communication during disasters, enable censorship-resistant internet in authoritarian regions, and build connectivity in areas where traditional infrastructure is too expensive to deploy.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Interconnected network nodes forming an organic mesh pattern, devices autonomously routing data without central infrastructure"
   },
   {
     "id": 41,
@@ -247,7 +271,8 @@
     "industry": "Manufacturing",
     "whyItMatters": "It collapses assembly lines into a single machine, enables on-demand spare parts anywhere on Earth, and allows designs impossible with traditional manufacturing like internal cooling channels.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Advanced 3D printer simultaneously printing with metal, polymer, and ceramic materials to create a complex functional part"
   },
   {
     "id": 42,
@@ -257,7 +282,8 @@
     "industry": "Manufacturing",
     "whyItMatters": "They could reshore manufacturing to high-wage countries by removing labor cost advantages, shorten supply chains, and produce goods with near-zero defect rates.",
     "developmentStage": "Growth Phase",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Fully automated dark factory floor with robotic arms and AGVs operating without human presence or lighting"
   },
   {
     "id": 43,
@@ -267,7 +293,8 @@
     "industry": "Manufacturing",
     "whyItMatters": "Digital twins reduce product development cycles by 50%, predict equipment failures weeks in advance, and let companies simulate the impact of disruptions before they happen.",
     "developmentStage": "Growth Phase",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Split view showing a physical factory on one side and its exact digital twin simulation on a holographic screen"
   },
   {
     "id": 44,
@@ -277,7 +304,8 @@
     "industry": "Manufacturing",
     "whyItMatters": "They eliminate the need for massive centralized factories, reduce shipping emissions, enable rapid disaster response manufacturing, and let communities produce what they need locally.",
     "developmentStage": "Prototype",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Small neighborhood-scale manufacturing facility with modular production equipment making custom products on demand"
   },
   {
     "id": 45,
@@ -287,7 +315,8 @@
     "industry": "Manufacturing",
     "whyItMatters": "Only 9% of plastic is recycled today. Molecular recycling could make all plastic infinitely recyclable, ending plastic pollution and creating a truly circular materials economy.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Chemical process breaking down mixed plastic waste into pure molecular building blocks, before and after comparison"
   },
   {
     "id": 46,
@@ -297,7 +326,8 @@
     "industry": "Climate",
     "whyItMatters": "Even with zero emissions today, existing atmospheric CO2 guarantees continued warming. DAC is essential for removing legacy emissions and reaching net-negative to reverse climate change.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Large industrial fan arrays pulling CO2 directly from the atmosphere, with clean air emerging on the other side"
   },
   {
     "id": 47,
@@ -307,7 +337,8 @@
     "industry": "Climate",
     "whyItMatters": "It could buy critical time by cooling vulnerable areas like coral reefs and Arctic ice while the world decarbonizes, potentially preventing irreversible tipping points from being crossed.",
     "developmentStage": "Early Research",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Ship spraying fine sea salt aerosol into the sky over the ocean, creating brighter reflective clouds"
   },
   {
     "id": 48,
@@ -317,7 +348,8 @@
     "industry": "Climate",
     "whyItMatters": "14 million tons of plastic enter the ocean annually. Autonomous cleanup at scale could remove the existing garbage patches while river interceptors stop the flow at its source.",
     "developmentStage": "Prototype",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Fleet of autonomous vessels collecting floating plastic debris from the ocean surface, clean water in their wake"
   },
   {
     "id": 49,
@@ -327,7 +359,8 @@
     "industry": "Climate",
     "whyItMatters": "Two billion people face water scarcity. Cheap solar desalination turns the ocean into a limitless freshwater source for drinking, agriculture, and industry in arid regions worldwide.",
     "developmentStage": "Early Commercialization",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Solar panel array powering a coastal desalination plant, clean freshwater flowing from the facility into storage"
   },
   {
     "id": 50,
@@ -337,7 +370,8 @@
     "industry": "Climate",
     "whyItMatters": "We need to plant a trillion trees to offset emissions, but manual planting cannot scale. Drone swarms could reforest degraded land 150x faster and 80% cheaper than traditional methods.",
     "developmentStage": "Growth Phase",
-    "type": "future-tech"
+    "type": "future-tech",
+    "imageIdea": "Coordinated swarm of drones dropping seed pods over deforested hillside, new green growth emerging below"
   },
   {
     "id": 51,
@@ -348,7 +382,8 @@
     "whyItMatters": "This technology drastically accelerates the initial stages of drug development, promising to bring new treatments for previously intractable diseases to market faster and more affordably. It represents a paradigm shift in how we approach therapeutic innovation.",
     "developmentStage": "Early Commercialization",
     "type": "future-tech",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "imageIdea": "AI system analyzing and designing molecular structures for new pharmaceutical drugs, 3D molecule visualization on screen"
   },
   {
     "id": 52,
@@ -359,7 +394,8 @@
     "whyItMatters": "Achieving controllable fusion energy would provide a virtually limitless, clean, and safe source of power, fundamentally transforming global energy landscapes and addressing climate change. These control breakthroughs are crucial for unlocking this potential.",
     "developmentStage": "Prototype",
     "type": "future-tech",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "imageIdea": "Glowing plasma contained in a tokamak fusion reactor, AI control systems monitoring the fusion process in real-time"
   },
   {
     "id": 53,
@@ -370,7 +406,8 @@
     "whyItMatters": "This technology allows for sustainable and bio-based production of materials currently reliant on fossil fuels, reducing environmental impact and creating novel product possibilities. It's a key enabler for a more circular and bio-economical future.",
     "developmentStage": "Early Adoption",
     "type": "future-tech",
-    "dateAdded": "2026-04-13"
+    "dateAdded": "2026-04-13",
+    "imageIdea": "Engineered microorganism viewed under microscope with programmable genetic circuits highlighted, synthetic biology laboratory"
   },
   {
     "id": 54,
@@ -834,7 +871,7 @@
     "techName": "Self-Healing Quantum Computing Chips",
     "explanation": "Quantum processors designed with intrinsic self-repair mechanisms, utilizing redundant qubits and AI-driven diagnostics to detect and automatically correct errors or physical defects at the quantum level. This enhances their operational stability and prolongs their functional lifespan.",
     "industry": "Quantum Computing, Advanced Materials, Semiconductor Manufacturing",
-    "whyItMatters": "This addresses a major hurdle in quantum computing—decoherence and error susceptibility—by making quantum systems more robust and stable. It accelerates the development and commercialization of powerful quantum technologies for complex problem-solving in fields like medicine, materials science, and finance.",
+    "whyItMatters": "This addresses a major hurdle in quantum computing\u2014decoherence and error susceptibility\u2014by making quantum systems more robust and stable. It accelerates the development and commercialization of powerful quantum technologies for complex problem-solving in fields like medicine, materials science, and finance.",
     "developmentStage": "Research",
     "imageIdea": "A visually complex quantum chip glowing with intricate, ethereal patterns, with small self-repairing nodes highlighted by a faint energy flow, suggesting internal restoration processes at a microscopic level. It conveys advanced, resilient technology.",
     "type": "future-tech",

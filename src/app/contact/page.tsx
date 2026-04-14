@@ -56,7 +56,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main>
+    <article>
       {/* Hero */}
       <section className="py-20 sm:py-28">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
@@ -271,6 +271,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-    </main>
+    </article>
   );
 }

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function AffiliateDisclosurePage() {
   return (
-    <main>
+    <article>
       <section className="py-20 sm:py-28">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           {/* Header */}
@@ -235,6 +235,6 @@ export default function AffiliateDisclosurePage() {
           </div>
         </div>
       </section>
-    </main>
+    </article>
   );
 }
