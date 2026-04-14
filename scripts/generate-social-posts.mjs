@@ -129,6 +129,15 @@ async function main() {
     const socialContent = await generateSocialContent(item, affiliateUrl, productUrl);
 
     if (socialContent) {
+      // Validate that all expected fields exist
+      const pin = socialContent.pinterest || {};
+      const bsky = socialContent.bluesky || {};
+      const tw = socialContent.twitter || {};
+
+      // Fallback content if Gemini returned incomplete data
+      const link = hasAffiliate ? affiliateUrl : productUrl;
+      const fallbackText = `${item.title} — ${(item.shortDescription || "").slice(0, 150)} ${link}`;
+
       posts.push({
         id: item.slug,
         title: item.title,
@@ -138,11 +147,16 @@ async function main() {
         affiliateUrl,
         platforms: {
           pinterest: {
-            ...socialContent.pinterest,
+            title: pin.title || item.title.slice(0, 100),
+            description: pin.description || `${(item.shortDescription || "").slice(0, 400)} ${link} #surfaced #${item._category}`,
             boardName: BOARD_MAP[item._category],
           },
-          bluesky: socialContent.bluesky,
-          twitter: socialContent.twitter,
+          bluesky: {
+            text: bsky.text || fallbackText.slice(0, 280),
+          },
+          twitter: {
+            text: tw.text || fallbackText.slice(0, 280),
+          },
         },
         status: "pending",
         generatedAt: new Date().toISOString(),
