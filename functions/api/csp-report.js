@@ -1,23 +1,34 @@
 /**
  * CSP Violation Report Endpoint
- * 
- * Receives Content-Security-Policy violation reports from browsers,
- * stores the last 200 in Cloudflare KV, and provides a GET endpoint
- * for reviewing them.
- * 
+ *
+ * Receives Content-Security-Policy violation reports from browsers and
+ * persists the last 200 using the Cloudflare Cache API (no KV binding needed).
+ *
  * POST /api/csp-report  — browsers send violation reports here
- * GET  /api/csp-report  — returns stored violations as JSON (admin use)
- * 
- * Requires a KV namespace binding named CSP_REPORTS in Cloudflare Pages settings.
- * If KV is not configured, reports are logged to console (visible via wrangler tail).
+ * GET  /api/csp-report  — returns stored violations as JSON (token-protected)
+ *
+ * Storage priority:
+ *   1. KV namespace binding "CSP_REPORTS" (if configured in Pages settings)
+ *   2. Cloudflare Cache API (works automatically on *.pages.dev — per-colo, ephemeral)
+ *
+ * The Cache API store is per-data-center and may be evicted, but it requires
+ * zero dashboard configuration and captures the majority of real violations.
  */
 
 const MAX_STORED = 200;
 const RATE_LIMIT_WINDOW = 60_000; // 1 minute
 const RATE_LIMIT_MAX = 30; // max reports per IP per minute
 const KV_KEY = "csp_violations";
+// Cache API key — a synthetic URL used as the cache key
+const CACHE_KEY = "https://surfaced-x.pages.dev/_internal/csp-violations-store";
+// Cache TTL: 7 days (max useful window for CSP violation review)
+const CACHE_TTL = 60 * 60 * 24 * 7;
 
-// Simple in-memory rate limiter (resets per isolate lifecycle)
+// Admin token — required to view reports via GET
+// Also checked from env.CSP_ADMIN_TOKEN if set (takes precedence)
+const HARDCODED_ADMIN_TOKEN = "3NyEjlEbyLqFYJDMAZfB6yf0SvUK26lHFmcA49UQbnw";
+
+// In-memory rate limiter (resets per isolate lifecycle)
 const rateLimitMap = new Map();
 
 function isRateLimited(ip) {
@@ -28,35 +39,99 @@ function isRateLimited(ip) {
     return false;
   }
   entry.count++;
-  if (entry.count > RATE_LIMIT_MAX) return true;
-  return false;
+  return entry.count > RATE_LIMIT_MAX;
 }
 
-// POST: Receive a CSP violation report
+// ── Storage helpers ─────────────────────────────────────────────────
+
+async function readViolations(env) {
+  // Try KV first
+  if (env.CSP_REPORTS) {
+    try {
+      const data = await env.CSP_REPORTS.get(KV_KEY, { type: "json" });
+      if (data) return { violations: data, source: "kv" };
+    } catch (e) {
+      console.error("[CSP] KV read error:", e.message);
+    }
+  }
+
+  // Fall back to Cache API
+  try {
+    const cache = caches.default;
+    const req = new Request(CACHE_KEY);
+    const cached = await cache.match(req);
+    if (cached) {
+      const data = await cached.json();
+      return { violations: data, source: "cache" };
+    }
+  } catch (e) {
+    console.error("[CSP] Cache read error:", e.message);
+  }
+
+  return { violations: [], source: "none" };
+}
+
+async function writeViolations(env, violations, ctx) {
+  const json = JSON.stringify(violations);
+
+  // Write to KV if available
+  if (env.CSP_REPORTS) {
+    try {
+      await env.CSP_REPORTS.put(KV_KEY, json);
+    } catch (e) {
+      console.error("[CSP] KV write error:", e.message);
+    }
+  }
+
+  // Always write to Cache API as well (backup / standalone)
+  try {
+    const cache = caches.default;
+    const req = new Request(CACHE_KEY);
+    const res = new Response(json, {
+      headers: {
+        "Content-Type": "application/json",
+        "Cache-Control": `public, max-age=${CACHE_TTL}`,
+      },
+    });
+    // Use waitUntil so the cache write doesn't block the response
+    if (ctx && ctx.waitUntil) {
+      ctx.waitUntil(cache.put(req, res));
+    } else {
+      await cache.put(req, res);
+    }
+  } catch (e) {
+    console.error("[CSP] Cache write error:", e.message);
+  }
+}
+
+// ── POST: Receive a CSP violation report ────────────────────────────
+
 export async function onRequestPost(context) {
   const { request, env } = context;
   const ip = request.headers.get("CF-Connecting-IP") || "unknown";
 
-  // Rate limit
   if (isRateLimited(ip)) {
     return new Response("Too many reports", { status: 429 });
   }
 
-  // Parse the report body
   let report;
   try {
     const body = await request.json();
-    // Browsers send either {"csp-report": {...}} (report-uri) or [{"type":"csp-violation","body":{...}}] (report-to)
-    report = body["csp-report"] || body?.body || (Array.isArray(body) ? body[0]?.body : null) || body;
+    // Browsers send either {"csp-report": {...}} or [{"type":"csp-violation","body":{...}}]
+    report =
+      body["csp-report"] ||
+      body?.body ||
+      (Array.isArray(body) ? body[0]?.body : null) ||
+      body;
   } catch {
     return new Response("Invalid JSON", { status: 400 });
   }
 
-  // Build a clean, minimal violation record
   const violation = {
     ts: new Date().toISOString(),
     blockedUri: report["blocked-uri"] || report.blockedURL || "",
-    violatedDirective: report["violated-directive"] || report.effectiveDirective || "",
+    violatedDirective:
+      report["violated-directive"] || report.effectiveDirective || "",
     documentUri: report["document-uri"] || report.documentURL || "",
     sourceFile: report["source-file"] || report.sourceFile || "",
     lineNumber: report["line-number"] || report.lineNumber || 0,
@@ -64,68 +139,57 @@ export async function onRequestPost(context) {
     userAgent: request.headers.get("User-Agent") || "",
   };
 
-  // Log to console (visible via `wrangler pages deployment tail`)
   console.log("[CSP Violation]", JSON.stringify(violation));
 
-  // Store in KV if available
-  if (env.CSP_REPORTS) {
-    try {
-      const existing = await env.CSP_REPORTS.get(KV_KEY, { type: "json" }) || [];
-      existing.unshift(violation);
-      // Keep only the most recent MAX_STORED
-      if (existing.length > MAX_STORED) existing.length = MAX_STORED;
-      await env.CSP_REPORTS.put(KV_KEY, JSON.stringify(existing));
-    } catch (e) {
-      console.error("[CSP] KV write error:", e.message);
-    }
-  }
+  // Read → prepend → trim → write
+  const { violations } = await readViolations(env);
+  violations.unshift(violation);
+  if (violations.length > MAX_STORED) violations.length = MAX_STORED;
+  await writeViolations(env, violations, context);
 
-  // Return 204 No Content (standard for report endpoints)
   return new Response(null, { status: 204 });
 }
 
-// GET: Retrieve stored violations (for admin review)
+// ── GET: Retrieve stored violations ─────────────────────────────────
+
 export async function onRequestGet(context) {
   const { request, env } = context;
-
-  // Basic auth check — require a secret query param to view reports
   const url = new URL(request.url);
   const token = url.searchParams.get("token");
-  const expectedToken = env.CSP_ADMIN_TOKEN;
+  const expectedToken = env.CSP_ADMIN_TOKEN || HARDCODED_ADMIN_TOKEN;
 
-  if (expectedToken && token !== expectedToken) {
+  if (token !== expectedToken) {
     return new Response("Unauthorized", { status: 401 });
   }
 
-  if (!env.CSP_REPORTS) {
-    return Response.json({
-      error: "KV not configured. Reports are only in console logs.",
-      hint: "Bind a KV namespace called CSP_REPORTS in Cloudflare Pages settings.",
-    }, { status: 503 });
-  }
-
-  const violations = await env.CSP_REPORTS.get(KV_KEY, { type: "json" }) || [];
+  const { violations, source } = await readViolations(env);
 
   // Support filtering
+  let filtered = violations;
   const directive = url.searchParams.get("directive");
   const since = url.searchParams.get("since");
-  let filtered = violations;
   if (directive) {
-    filtered = filtered.filter(v => v.violatedDirective?.includes(directive));
+    filtered = filtered.filter((v) =>
+      v.violatedDirective?.includes(directive)
+    );
   }
   if (since) {
-    filtered = filtered.filter(v => v.ts >= since);
+    filtered = filtered.filter((v) => v.ts >= since);
   }
 
-  return Response.json({
-    total: violations.length,
-    showing: filtered.length,
-    violations: filtered,
-  }, {
-    headers: {
-      "Content-Type": "application/json",
-      "Cache-Control": "no-store",
-      "X-Content-Type-Options": "nosniff",
+  return Response.json(
+    {
+      total: violations.length,
+      showing: filtered.length,
+      storage: source,
+      violations: filtered,
     },
-  });
+    {
+      headers: {
+        "Content-Type": "application/json",
+        "Cache-Control": "no-store",
+        "X-Content-Type-Options": "nosniff",
+      },
+    }
+  );
 }
