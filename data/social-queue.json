@@ -1,1 +1,63 @@
-{"posts":[]}
+{
+  "posts": [
+    {
+      "id": "accidental-discovery-penicillin",
+      "title": "The Accidental Discovery of Penicillin: Revolutionizing Medicine and Saving Millions",
+      "category": "discoveries",
+      "imageUrl": "https://images.unsplash.com/photo-1771223568780-bdfd81ae816a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDA2MDF8&ixlib=rb-4.1.0&q=80&w=1080",
+      "productUrl": "https://surfaced-x.pages.dev/item/accidental-discovery-penicillin",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/accidental-discovery-penicillin",
+      "platforms": {
+        "pinterest": {
+          "title": "The Accidental Discovery of Penicillin: Revolutionizing Medicine and Saving Millions",
+          "description": "In 1928, bacteriologist Alexander Fleming noticed a mold (Penicillium notatum) contaminating a petri dish had killed the surrounding bacteria. This serendipitous observation led to the discovery of penicillin, the world's first widely used antibiotic. https://surfaced-x.pages.dev/item/accidental-discovery-penicillin #surfaced #discoveries",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "The Accidental Discovery of Penicillin: Revolutionizing Medicine and Saving Millions — In 1928, bacteriologist Alexander Fleming noticed a mold (Penicillium notatum) contaminating a petri dish had killed the surrounding bacteria. This se https://surfaced-x.pages.dev/item/accident"
+        },
+        "twitter": {
+          "text": "The Accidental Discovery of Penicillin: Revolutionizing Medicine and Saving Millions — In 1928, bacteriologist Alexander Fleming noticed a mold (Penicillium notatum) contaminating a petri dish had killed the surrounding bacteria. This se https://surfaced-x.pages.dev/item/accident"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-14T07:28:36.031Z",
+      "publishedAt": "2026-04-14T07:28:39.678Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "human-bioluminescence-invisible-glow",
+      "title": "Your Body Emits a Faint, Continuous Light That's Invisible to Our Eyes",
+      "category": "discoveries",
+      "imageUrl": "https://images.unsplash.com/photo-1641566620624-35871c41b39d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxMjI4MTR8&ixlib=rb-4.1.0&q=80&w=1080",
+      "productUrl": "https://surfaced-x.pages.dev/item/human-bioluminescence-invisible-glow",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/human-bioluminescence-invisible-glow",
+      "platforms": {
+        "pinterest": {
+          "title": "Your Body Emits a Faint, Continuous Light That's Invisible to Our Eyes",
+          "description": "Despite appearing dark, the human body constantly emits a faint amount of visible light, a phenomenon known as biophoton emission. This glow is thousands of times weaker than what our eyes can detect, but advanced sensitive cameras have captured it, often peaking in the late afternoon. https://surfaced-x.pages.dev/item/human-bioluminescence-invisible-glow #surfaced #discoveries",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "Your Body Emits a Faint, Continuous Light That's Invisible to Our Eyes — Despite appearing dark, the human body constantly emits a faint amount of visible light, a phenomenon known as biophoton emission. This glow is thousa https://surfaced-x.pages.dev/item/human-bioluminescence-"
+        },
+        "twitter": {
+          "text": "Your Body Emits a Faint, Continuous Light That's Invisible to Our Eyes — Despite appearing dark, the human body constantly emits a faint amount of visible light, a phenomenon known as biophoton emission. This glow is thousa https://surfaced-x.pages.dev/item/human-bioluminescence-"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-14T07:28:37.717Z",
+      "publishedAt": "2026-04-14T07:28:40.529Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    }
+  ],
+  "lastGenerated": "2026-04-14T07:28:37.717Z"
+}
