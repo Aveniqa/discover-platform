@@ -513,6 +513,18 @@ export default async function ItemPage({ params }: Props) {
                   </p>
                 )}
 
+                {/* Also at Best Buy — products only */}
+                {item.type === "product" && (item as Product).bestBuyUrl && (
+                  <a
+                    href={(item as Product).bestBuyUrl}
+                    target="_blank"
+                    rel="noopener"
+                    className="inline-flex items-center gap-2 mt-3 text-sm text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    Also at Best Buy <span>&rarr;</span>
+                  </a>
+                )}
+
                 {/* Promo code */}
                 {item.promoCode && <PromoCode code={item.promoCode} />}
 

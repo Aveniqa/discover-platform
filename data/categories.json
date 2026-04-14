@@ -2,7 +2,7 @@
   {
     "key": "discoveries",
     "name": "Discoveries",
-    "icon": "🔮",
+    "icon": "\ud83d\udd2e",
     "color": "indigo",
     "hex": "#6366F1",
     "description": "Fascinating facts, breakthroughs, and things worth knowing",
@@ -12,7 +12,7 @@
   {
     "key": "products",
     "name": "Trending Products",
-    "icon": "📈",
+    "icon": "\ud83d\udcc8",
     "color": "emerald",
     "hex": "#10B981",
     "description": "Products people are actually buying right now",
@@ -22,17 +22,17 @@
   {
     "key": "hidden-gems",
     "name": "Hidden Gems",
-    "icon": "💎",
+    "icon": "\ud83d\udc8e",
     "color": "amber",
     "hex": "#F59E0B",
     "description": "Brilliant websites and tools you probably haven't found yet",
     "path": "/hidden-gems",
-    "count": 112
+    "count": 113
   },
   {
     "key": "future-radar",
     "name": "Future Radar",
-    "icon": "🔭",
+    "icon": "\ud83d\udd2d",
     "color": "cyan",
     "hex": "#06B6D4",
     "description": "Emerging technologies shaping the world ahead",
@@ -42,11 +42,11 @@
   {
     "key": "daily-tools",
     "name": "Daily Tools",
-    "icon": "🛠",
+    "icon": "\ud83d\udee0",
     "color": "rose",
     "hex": "#F43F5E",
     "description": "Useful tools and utilities for everyday life",
     "path": "/tools",
-    "count": 114
+    "count": 120
   }
 ]

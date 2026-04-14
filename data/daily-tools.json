@@ -1256,5 +1256,71 @@
     "websiteLink": "https://www.instapaper.com/",
     "type": "tool",
     "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 121,
+    "slug": "shopify-ecommerce-platform",
+    "toolName": "Shopify",
+    "whatItDoes": "All-in-one e-commerce platform to create your online store, manage products, process payments, and scale your business \u2014 used by millions of merchants worldwide.",
+    "category": "E-Commerce",
+    "whyItIsUseful": "Shopify makes it incredibly easy to set up a professional online store without any coding knowledge. With built-in payment processing, shipping integration, and thousands of apps, it's the go-to platform for anyone serious about selling online.",
+    "websiteLink": "https://www.shopify.com/",
+    "imageSearchQuery": "Shopify e-commerce platform store dashboard",
+    "type": "tool"
+  },
+  {
+    "id": 122,
+    "slug": "shopify-pos-retail",
+    "toolName": "Shopify POS",
+    "whatItDoes": "Point-of-sale system that unifies online and in-person selling with inventory sync, customer profiles, and tap-to-pay \u2014 turning any device into a register.",
+    "category": "E-Commerce",
+    "whyItIsUseful": "If you sell both online and in-store, Shopify POS keeps everything in sync automatically. One inventory, one customer list, one dashboard \u2014 whether someone buys on your website or walks into your shop.",
+    "websiteLink": "https://www.shopify.com/pos",
+    "imageSearchQuery": "Shopify POS retail point of sale tablet store",
+    "type": "tool"
+  },
+  {
+    "id": 123,
+    "slug": "canva-design-platform",
+    "toolName": "Canva",
+    "whatItDoes": "Drag-and-drop design platform for creating social media graphics, presentations, posters, videos, and more \u2014 with thousands of templates and an AI-powered design assistant.",
+    "category": "Design",
+    "whyItIsUseful": "Canva has democratized design. Whether you need a quick Instagram post, a professional presentation, or a logo, you can create it in minutes without any design experience. The AI features make it even faster.",
+    "websiteLink": "https://www.canva.com/",
+    "imageSearchQuery": "Canva graphic design platform interface templates",
+    "type": "tool"
+  },
+  {
+    "id": 124,
+    "slug": "notion-workspace",
+    "toolName": "Notion",
+    "whatItDoes": "All-in-one workspace for notes, docs, project management, and wikis \u2014 with AI-powered writing assistance and a modular block-based editor.",
+    "category": "Productivity",
+    "whyItIsUseful": "Notion replaces a dozen separate apps with one connected workspace. Teams use it for documentation, project tracking, and knowledge bases. The flexible block system means you can build exactly the workflow you need.",
+    "websiteLink": "https://www.notion.so/",
+    "imageSearchQuery": "Notion productivity workspace app dashboard",
+    "type": "tool"
+  },
+  {
+    "id": 125,
+    "slug": "skillshare-learning",
+    "toolName": "Skillshare",
+    "whatItDoes": "Online learning community with thousands of short, project-based classes in design, business, technology, and creative skills \u2014 taught by industry professionals.",
+    "category": "Education",
+    "whyItIsUseful": "Unlike traditional courses, Skillshare classes are short (15-60 min) and project-based, so you learn by doing. The unlimited access model means you can explore broadly without per-course costs.",
+    "websiteLink": "https://www.skillshare.com/",
+    "imageSearchQuery": "Skillshare online learning platform creative classes",
+    "type": "tool"
+  },
+  {
+    "id": 126,
+    "slug": "fiverr-freelance-marketplace",
+    "toolName": "Fiverr",
+    "whatItDoes": "Global freelance marketplace connecting businesses with skilled professionals for graphic design, web development, writing, video editing, and hundreds of other services.",
+    "category": "Productivity",
+    "whyItIsUseful": "Need a logo designed, a website built, or a video edited? Fiverr makes it easy to find affordable freelancers with transparent pricing. The review system and portfolio previews help you pick the right person.",
+    "websiteLink": "https://www.fiverr.com/",
+    "imageSearchQuery": "Fiverr freelance marketplace services homepage",
+    "type": "tool"
   }
 ]

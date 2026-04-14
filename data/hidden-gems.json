@@ -1324,5 +1324,16 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-14",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.wappalyzer.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 139,
+    "slug": "etsy-handmade-marketplace",
+    "name": "Etsy",
+    "whatItDoes": "Global marketplace for unique handmade, vintage, and creative goods \u2014 from jewelry and art to home decor and personalized gifts from independent artisans worldwide.",
+    "category": "Shopping",
+    "whyItIsUseful": "When you want something unique that you won't find at big retailers, Etsy is the place. Every purchase supports independent creators, and the personalization options mean you can get truly one-of-a-kind items.",
+    "websiteLink": "https://www.etsy.com/",
+    "imageSearchQuery": "Etsy handmade marketplace unique artisan products",
+    "type": "hidden-gem"
   }
 ]

@@ -94,11 +94,11 @@ export default function HomePage() {
     return () => clearTimeout(t);
   }, []);
 
-  /* Trending This Week — badged items, newest first */
+  /* Trending This Week — badged items, newest first (12 for carousel) */
   const trendingItems = [...getAllItems()]
     .filter((i) => !!(i as { badge?: string }).badge)
     .sort((a, b) => (b.id || 0) - (a.id || 0))
-    .slice(0, 6);
+    .slice(0, 12);
 
   /* What Surfaced Today — 5 standout daily picks */
   const editorsPick = discoveries[0];
@@ -199,26 +199,41 @@ export default function HomePage() {
           ============================================ */}
       {trendingItems.length > 0 && (
         <section className="pb-6 sm:pb-10 px-4 sm:px-6 border-b border-border/50">
-          <div className="max-w-6xl mx-auto">
-            <div className="flex items-center justify-between mb-5">
+          <div className="max-w-[90rem] mx-auto">
+            <div className="flex items-center justify-between mb-6">
               <div>
-                <h2 className="text-lg font-semibold">Trending This Week</h2>
-                <p className="text-xs text-muted-foreground">Editor&rsquo;s picks and top finds</p>
+                <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">Trending This Week</h2>
+                <p className="text-xs text-muted-foreground mt-0.5">Editor&rsquo;s picks and top finds</p>
               </div>
-              <Link href="/trending" className="text-sm text-accent hover:text-accent/80 transition-colors">See all →</Link>
+              <Link href="/trending" className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">See all <span>&rarr;</span></Link>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-              {trendingItems.map((item) => (
-                <Link key={item.slug} href={`/item/${item.slug}`}
-                  className="group p-3 rounded-xl bg-card/50 border border-border/50 hover:border-accent/30 transition-all">
-                  <div className="rounded-lg overflow-hidden mb-2 bg-muted">
-                    <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="1/1" width={120} height={120} size="sm" className="group-hover:scale-105 transition-transform duration-300" />
+            <Carousel
+              items={trendingItems}
+              renderCard={(item) => (
+                <Link href={`/item/${item.slug}`} className="group block w-full">
+                  <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
+                    <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
+                    <div className="overflow-hidden relative">
+                      <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                      {!!(item as { badge?: string }).badge && (
+                        <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-amber-500 text-white rounded-full">
+                          {(item as { badge?: string }).badge}
+                        </span>
+                      )}
+                    </div>
+                    <div className="p-5 flex flex-col flex-1">
+                      <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} className="mb-3 self-start" />
+                      <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
+                        {getItemTitle(item)}
+                      </h3>
+                      <p className="text-xs text-muted leading-relaxed line-clamp-1">
+                        {getItemDescription(item)}
+                      </p>
+                    </div>
                   </div>
-                  <span className="text-[10px] uppercase tracking-wider text-accent font-medium">{getCategoryLabel(item.type)}</span>
-                  <p className="text-xs font-medium leading-snug mt-0.5 line-clamp-2 text-foreground">{getItemTitle(item)}</p>
                 </Link>
-              ))}
-            </div>
+              )}
+            />
           </div>
         </section>
       )}
@@ -227,7 +242,7 @@ export default function HomePage() {
           CATEGORY QUICK-ACCESS CARDS
           ============================================ */}
       <section className="py-4 sm:py-8 px-4 sm:px-6">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-[90rem] mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
             {[
               { label: "Discoveries", href: "/discover", emoji: "🔮", count: discoveries.length, color: "from-purple-500/20 to-transparent" },
@@ -251,10 +266,10 @@ export default function HomePage() {
           TODAY'S PICKS — Newest from each category
           ============================================ */}
       <section className="pb-6 sm:pb-10 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[90rem] mx-auto">
           <div className="flex items-center justify-between mb-5">
             <div>
-              <h2 className="text-xl font-bold text-foreground">Today&rsquo;s Picks</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">Today&rsquo;s Picks</h2>
               <p className="text-xs text-muted-foreground mt-0.5">Freshest from each category</p>
             </div>
           </div>
@@ -275,21 +290,29 @@ export default function HomePage() {
                 rose: "bg-rose-500/15 text-rose-300 border-rose-400/25",
               };
               const color = colorMap[pick.type] || "indigo";
+              const fullItem = getAllItems().find(i => i.slug === pick.slug);
               return (
                 <Link
                   key={pick.slug}
                   href={`/item/${pick.slug}`}
-                  className="group relative rounded-2xl border border-border/60 bg-surface p-5 hover:border-border card-hover-glow transition-all flex flex-col gap-3"
+                  className="group relative rounded-2xl border border-border/60 bg-surface overflow-hidden hover:border-border card-hover-glow transition-all flex flex-col"
                 >
-                  <span className={`self-start px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border ${badgeColors[color]}`}>
-                    {pick.categoryLabel}
-                  </span>
-                  <h3 className="text-sm font-semibold text-foreground group-hover:text-accent-hover transition-colors line-clamp-3 leading-snug">
-                    {pick.title}
-                  </h3>
-                  <p className="text-xs text-muted-foreground line-clamp-2 mt-auto">
-                    {pick.description}
-                  </p>
+                  {fullItem && (
+                    <div className="overflow-hidden">
+                      <ItemImage slug={pick.slug} alt={pick.title} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                    </div>
+                  )}
+                  <div className="p-5 flex flex-col flex-1 gap-3">
+                    <span className={`self-start px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border ${badgeColors[color]}`}>
+                      {pick.categoryLabel}
+                    </span>
+                    <h3 className="text-sm font-semibold text-foreground group-hover:text-accent-hover transition-colors line-clamp-3 leading-snug">
+                      {pick.title}
+                    </h3>
+                    <p className="text-xs text-muted-foreground line-clamp-2 mt-auto">
+                      {pick.description}
+                    </p>
+                  </div>
                 </Link>
               );
             })}

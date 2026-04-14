@@ -31,6 +31,7 @@ export interface Product {
   sourceLink: string;
   estimatedPriceRange: string;
   directAmazonUrl?: string;
+  bestBuyUrl?: string;
   type: "product";
 }
 

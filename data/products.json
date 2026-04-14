@@ -15,7 +15,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Garmin+Venu+3S+Smartwatch&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Garmin+Venu+3S+Smartwatch&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Garmin+Venu+3S+Smartwatch&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Garmin+Venu+3S+Smartwatch"
   },
   {
     "id": 5,
@@ -33,7 +34,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Fitbit+Charge+6+Fitness+Tracker&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Fitbit+Charge+6+Fitness+Tracker&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Fitbit+Charge+6+Fitness+Tracker&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Fitbit+Charge+6+Fitness+Tracker"
   },
   {
     "id": 6,
@@ -51,7 +53,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Sony+WH-1000XM6+Wireless+Headphones&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Sony+WH-1000XM6+Wireless+Headphones&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Sony+WH-1000XM6+Wireless+Headphones&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sony+WH-1000XM6+Wireless+Headphones"
   },
   {
     "id": 7,
@@ -69,7 +72,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Apple+AirPods+Pro+3&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Apple+AirPods+Pro+3&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Apple+AirPods+Pro+3&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Apple+AirPods+Pro+3"
   },
   {
     "id": 8,
@@ -87,7 +91,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Sonos+Era+300+Spatial+Speaker&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Sonos+Era+300+Spatial+Speaker&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Sonos+Era+300+Spatial+Speaker&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sonos+Era+300+Spatial+Speaker"
   },
   {
     "id": 9,
@@ -105,7 +110,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=JBL+Clip+5+Portable+Speaker&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=JBL+Clip+5+Portable+Speaker&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=JBL+Clip+5+Portable+Speaker&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=JBL+Clip+5+Portable+Speaker"
   },
   {
     "id": 10,
@@ -123,7 +129,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Nothing+Ear+%28open%29+Earbuds&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Nothing+Ear+%28open%29+Earbuds&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Nothing+Ear+%28open%29+Earbuds&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nothing+Ear+%28open%29+Earbuds"
   },
   {
     "id": 11,
@@ -141,7 +148,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Branch+Ergonomic+Chair&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Branch+Ergonomic+Chair&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Branch+Ergonomic+Chair&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Branch+Ergonomic+Chair"
   },
   {
     "id": 12,
@@ -160,7 +168,8 @@
       "url": "https://www.amazon.com/s?k=Samsung+ViewFinity+S9+5K+Monitor&tag=vaultvibe-20"
     },
     "directAmazonUrl": "https://www.amazon.com/s?k=Samsung+ViewFinity+S9+5K+Monitor&tag=vaultvibe-20",
-    "badge": "great-gift"
+    "badge": "great-gift",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Samsung+ViewFinity+S9+5K+Monitor"
   },
   {
     "id": 13,
@@ -178,7 +187,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Logitech+MX+Keys+S+Keyboard&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Logitech+MX+Keys+S+Keyboard&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Logitech+MX+Keys+S+Keyboard&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech+MX+Keys+S+Keyboard"
   },
   {
     "id": 14,
@@ -196,7 +206,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=FlexiSpot+E7+Standing+Desk&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=FlexiSpot+E7+Standing+Desk&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=FlexiSpot+E7+Standing+Desk&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=FlexiSpot+E7+Standing+Desk"
   },
   {
     "id": 15,
@@ -214,7 +225,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Anker+651+USB-C+Dock+with+Charging+Pad&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Anker+651+USB-C+Dock+with+Charging+Pad&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Anker+651+USB-C+Dock+with+Charging+Pad&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anker+651+USB-C+Dock+with+Charging+Pad"
   },
   {
     "id": 16,
@@ -358,7 +370,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Helinox+Chair+One+Ultralight+Camp+Chair&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Helinox+Chair+One+Ultralight+Camp+Chair&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Helinox+Chair+One+Ultralight+Camp+Chair&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Helinox+Chair+One+Ultralight+Camp+Chair"
   },
   {
     "id": 24,
@@ -413,7 +426,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=PlayStation+5+Pro+Console&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=PlayStation+5+Pro+Console&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=PlayStation+5+Pro+Console&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=PlayStation+5+Pro+Console"
   },
   {
     "id": 27,
@@ -431,7 +445,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Steam+Deck+OLED+Handheld&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Steam+Deck+OLED+Handheld&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Steam+Deck+OLED+Handheld&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Steam+Deck+OLED+Handheld"
   },
   {
     "id": 28,
@@ -449,7 +464,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=8BitDo+Ultimate+Bluetooth+Controller&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=8BitDo+Ultimate+Bluetooth+Controller&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=8BitDo+Ultimate+Bluetooth+Controller&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=8BitDo+Ultimate+Bluetooth+Controller"
   },
   {
     "id": 29,
@@ -467,7 +483,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Secretlab+TITAN+Evo+Gaming+Chair&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Secretlab+TITAN+Evo+Gaming+Chair&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Secretlab+TITAN+Evo+Gaming+Chair&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Secretlab+TITAN+Evo+Gaming+Chair"
   },
   {
     "id": 30,
@@ -485,7 +502,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Razer+BlackWidow+V4+75%25+Mechanical+Keyboard&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Razer+BlackWidow+V4+75%25+Mechanical+Keyboard&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Razer+BlackWidow+V4+75%25+Mechanical+Keyboard&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Razer+BlackWidow+V4+75%25+Mechanical+Keyboard"
   },
   {
     "id": 31,
@@ -504,7 +522,8 @@
       "url": "https://www.amazon.com/s?k=Sony+Alpha+a7C+II+Mirrorless+Camera&tag=vaultvibe-20"
     },
     "directAmazonUrl": "https://www.amazon.com/s?k=Sony+Alpha+a7C+II+Mirrorless+Camera&tag=vaultvibe-20",
-    "badge": "great-gift"
+    "badge": "great-gift",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sony+Alpha+a7C+II+Mirrorless+Camera"
   },
   {
     "id": 32,
@@ -523,7 +542,8 @@
       "url": "https://www.amazon.com/s?k=DJI+Air+3+Camera+Drone&tag=vaultvibe-20"
     },
     "directAmazonUrl": "https://www.amazon.com/s?k=DJI+Air+3+Camera+Drone&tag=vaultvibe-20",
-    "badge": "great-gift"
+    "badge": "great-gift",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI+Air+3+Camera+Drone"
   },
   {
     "id": 33,
@@ -541,7 +561,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Peak+Design+Everyday+Sling+6L&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Peak+Design+Everyday+Sling+6L&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Peak+Design+Everyday+Sling+6L&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Peak+Design+Everyday+Sling+6L"
   },
   {
     "id": 34,
@@ -559,7 +580,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Insta360+X4+360-Degree+Camera&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Insta360+X4+360-Degree+Camera&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Insta360+X4+360-Degree+Camera&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Insta360+X4+360-Degree+Camera"
   },
   {
     "id": 35,
@@ -577,7 +599,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=JOBY+GorillaPod+5K+Flexible+Tripod&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=JOBY+GorillaPod+5K+Flexible+Tripod&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=JOBY+GorillaPod+5K+Flexible+Tripod&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=JOBY+GorillaPod+5K+Flexible+Tripod"
   },
   {
     "id": 36,
@@ -595,7 +618,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Dyson+Airwrap+Multi-Styler&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Dyson+Airwrap+Multi-Styler&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Dyson+Airwrap+Multi-Styler&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Dyson+Airwrap+Multi-Styler"
   },
   {
     "id": 37,
@@ -649,7 +673,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Philips+Norelco+OneBlade+360&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Philips+Norelco+OneBlade+360&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Philips+Norelco+OneBlade+360&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Philips+Norelco+OneBlade+360"
   },
   {
     "id": 40,
@@ -776,7 +801,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Google+Nest+Doorbell+%28Battery%29&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Google+Nest+Doorbell+%28Battery%29&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Google+Nest+Doorbell+%28Battery%29&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Google+Nest+Doorbell+%28Battery%29"
   },
   {
     "id": 47,
@@ -794,7 +820,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Philips+Hue+Play+Gradient+Lightstrip&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Philips+Hue+Play+Gradient+Lightstrip&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Philips+Hue+Play+Gradient+Lightstrip&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Philips+Hue+Play+Gradient+Lightstrip"
   },
   {
     "id": 48,
@@ -812,7 +839,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=ecobee+Smart+Thermostat+Premium&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=ecobee+Smart+Thermostat+Premium&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=ecobee+Smart+Thermostat+Premium&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=ecobee+Smart+Thermostat+Premium"
   },
   {
     "id": 49,
@@ -830,7 +858,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Aqara+Presence+Sensor+FP2&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Aqara+Presence+Sensor+FP2&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Aqara+Presence+Sensor+FP2&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Aqara+Presence+Sensor+FP2"
   },
   {
     "id": 50,
@@ -848,7 +877,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Eve+Energy+Smart+Plug+%28Matter%29&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Eve+Energy+Smart+Plug+%28Matter%29&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Eve+Energy+Smart+Plug+%28Matter%29&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Eve+Energy+Smart+Plug+%28Matter%29"
   },
   {
     "id": 51,
@@ -866,7 +896,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Apple+iPad+Air+M3&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Apple+iPad+Air+M3&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Apple+iPad+Air+M3&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Apple+iPad+Air+M3"
   },
   {
     "id": 52,
@@ -884,7 +915,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Kindle+Paperwhite+Signature+Edition&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Kindle+Paperwhite+Signature+Edition&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Kindle+Paperwhite+Signature+Edition&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Kindle+Paperwhite+Signature+Edition"
   },
   {
     "id": 53,
@@ -902,7 +934,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=reMarkable+2+Paper+Tablet&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=reMarkable+2+Paper+Tablet&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=reMarkable+2+Paper+Tablet&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=reMarkable+2+Paper+Tablet"
   },
   {
     "id": 54,
@@ -920,7 +953,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Timeular+Tracker+Physical+Time+Tracker&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Timeular+Tracker+Physical+Time+Tracker&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Timeular+Tracker+Physical+Time+Tracker&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Timeular+Tracker+Physical+Time+Tracker"
   },
   {
     "id": 55,
@@ -938,7 +972,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Rocketbook+Pro+Smart+Notebook&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Rocketbook+Pro+Smart+Notebook&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Rocketbook+Pro+Smart+Notebook&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Rocketbook+Pro+Smart+Notebook"
   },
   {
     "id": 56,
@@ -956,7 +991,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Peloton+Guide+Strength+Training+Camera&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Peloton+Guide+Strength+Training+Camera&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Peloton+Guide+Strength+Training+Camera&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Peloton+Guide+Strength+Training+Camera"
   },
   {
     "id": 57,
@@ -974,7 +1010,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Hyperice+Hypervolt+2+Pro+Massage+Gun&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Hyperice+Hypervolt+2+Pro+Massage+Gun&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Hyperice+Hypervolt+2+Pro+Massage+Gun&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Hyperice+Hypervolt+2+Pro+Massage+Gun"
   },
   {
     "id": 58,
@@ -992,7 +1029,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=TRX+ALL-IN-ONE+Suspension+Trainer&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=TRX+ALL-IN-ONE+Suspension+Trainer&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=TRX+ALL-IN-ONE+Suspension+Trainer&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=TRX+ALL-IN-ONE+Suspension+Trainer"
   },
   {
     "id": 59,
@@ -1010,7 +1048,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Chirp+Wheel%2B+Back+Roller&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Chirp+Wheel%2B+Back+Roller&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Chirp+Wheel%2B+Back+Roller&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Chirp+Wheel%2B+Back+Roller"
   },
   {
     "id": 60,
@@ -1028,7 +1067,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Bala+Bangles+Weighted+Bracelets&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Bala+Bangles+Weighted+Bracelets&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Bala+Bangles+Weighted+Bracelets&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Bala+Bangles+Weighted+Bracelets"
   },
   {
     "id": 61,
@@ -1046,7 +1086,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Vollebak+Solar+Charged+Jacket&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Vollebak+Solar+Charged+Jacket&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Vollebak+Solar+Charged+Jacket&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Vollebak+Solar+Charged+Jacket"
   },
   {
     "id": 62,
@@ -1064,7 +1105,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Nadi+X+Smart+Yoga+Pants&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Nadi+X+Smart+Yoga+Pants&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Nadi+X+Smart+Yoga+Pants&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nadi+X+Smart+Yoga+Pants"
   },
   {
     "id": 63,
@@ -1082,7 +1124,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=UV+Skinz+Hooded+Sun+Shirt+UPF+50%2B&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=UV+Skinz+Hooded+Sun+Shirt+UPF+50%2B&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=UV+Skinz+Hooded+Sun+Shirt+UPF+50%2B&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=UV+Skinz+Hooded+Sun+Shirt+UPF+50%2B"
   },
   {
     "id": 64,
@@ -1100,7 +1143,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Hexoskin+Smart+Shirt&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Hexoskin+Smart+Shirt&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Hexoskin+Smart+Shirt&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Hexoskin+Smart+Shirt"
   },
   {
     "id": 65,
@@ -1118,7 +1162,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=RayNeo+Air+2s+AR+Glasses&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=RayNeo+Air+2s+AR+Glasses&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=RayNeo+Air+2s+AR+Glasses&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=RayNeo+Air+2s+AR+Glasses"
   },
   {
     "id": 66,
@@ -1281,7 +1326,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Tile+Mate+Bluetooth+Tracker+4-Pack&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Tile+Mate+Bluetooth+Tracker+4-Pack&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Tile+Mate+Bluetooth+Tracker+4-Pack&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Tile+Mate+Bluetooth+Tracker+4-Pack"
   },
   {
     "id": 75,
@@ -1318,7 +1364,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Sonos+Move+2+Portable+Speaker&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Sonos+Move+2+Portable+Speaker&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Sonos+Move+2+Portable+Speaker&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sonos+Move+2+Portable+Speaker"
   },
   {
     "id": 77,
@@ -1337,7 +1384,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=PlayStation+Portal+Remote+Player&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=PlayStation+Portal+Remote+Player&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=PlayStation+Portal+Remote+Player&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=PlayStation+Portal+Remote+Player"
   },
   {
     "id": 78,
@@ -1356,7 +1404,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Anker+PowerHouse+256Wh+Portable+Power+Station&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Anker+PowerHouse+256Wh+Portable+Power+Station&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Anker+PowerHouse+256Wh+Portable+Power+Station&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anker+PowerHouse+256Wh+Portable+Power+Station"
   },
   {
     "id": 79,
@@ -1413,7 +1462,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Furbo+360%C2%B0+Dog+Camera&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Furbo+360%C2%B0+Dog+Camera"
   },
   {
     "id": 82,
@@ -1470,7 +1520,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Oura+Ring+Gen3+Horizon&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Oura+Ring+Gen3+Horizon"
   },
   {
     "id": 85,
@@ -1527,7 +1578,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Hatch+Restore+2&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Hatch+Restore+2"
   },
   {
     "id": 88,
@@ -1546,7 +1598,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Govee+Glide+Hexa+Light+Panels&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Govee+Glide+Hexa+Light+Panels"
   },
   {
     "id": 89,
@@ -1584,7 +1637,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Theragun+Mini+2.0+Portable+Percussive+Massager&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Theragun+Mini+2.0+Portable+Percussive+Massager"
   },
   {
     "id": 91,
@@ -1603,7 +1657,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Aera+Smart+Diffuser&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Aera+Smart+Diffuser"
   },
   {
     "id": 92,
@@ -1641,7 +1696,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Upright+GO+2+Posture+Corrector&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Upright+GO+2+Posture+Corrector"
   },
   {
     "id": 94,
@@ -1679,7 +1735,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Peak+Design+Everyday+Backpack&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Peak+Design+Everyday+Backpack"
   },
   {
     "id": 96,
@@ -1698,7 +1755,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Loftie+Clock&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Loftie+Clock"
   },
   {
     "id": 97,
@@ -1717,7 +1775,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=August+Wi-Fi+Smart+Lock&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=August+Wi-Fi+Smart+Lock"
   },
   {
     "id": 98,
@@ -1755,7 +1814,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Waterpik+Aquarius+Water+Flosser&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Waterpik+Aquarius+Water+Flosser"
   },
   {
     "id": 100,
@@ -1774,7 +1834,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=PetSafe+Healthy+Pet+Simply+Feed+Automatic+Feeder&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=PetSafe+Healthy+Pet+Simply+Feed+Automatic+Feeder"
   },
   {
     "id": 101,
@@ -1793,7 +1854,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=ENO+%28Eagle+Nest+Outfitters%29+DoubleNest+Hammock&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=ENO+%28Eagle+Nest+Outfitters%29+DoubleNest+Hammock"
   },
   {
     "id": 102,
@@ -1831,7 +1893,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=SwitchBot+Curtain+3&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=SwitchBot+Curtain+3"
   },
   {
     "id": 104,
@@ -1888,7 +1951,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Litter-Robot+4&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Litter-Robot+4"
   },
   {
     "id": 107,
@@ -1907,7 +1971,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Withings+Body+Comp+Smart+Scale&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Withings+Body+Comp+Smart+Scale"
   },
   {
     "id": 108,
@@ -1983,7 +2048,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Remarkable+2+Paper+Tablet&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Remarkable+2+Paper+Tablet"
   },
   {
     "id": 112,
@@ -2002,7 +2068,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Lomi+Smart+Composter&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Lomi+Smart+Composter"
   },
   {
     "id": 113,
@@ -2021,7 +2088,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Muse+S+%28Gen+2%29+Brain+Sensing+Headband&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Muse+S+%28Gen+2%29+Brain+Sensing+Headband"
   },
   {
     "id": 114,
@@ -2040,7 +2108,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Insta360+GO+3+Action+Camera&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Insta360+GO+3+Action+Camera"
   },
   {
     "id": 115,
@@ -2059,7 +2128,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=ECOVACS+WINBOT+W2+OMNI+Robotic+Window+Cleaner&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=ECOVACS+WINBOT+W2+OMNI+Robotic+Window+Cleaner"
   },
   {
     "id": 116,
@@ -2078,7 +2148,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Wynd+Plus+Personal+Air+Purifier&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Wynd+Plus+Personal+Air+Purifier"
   },
   {
     "id": 117,
@@ -2097,7 +2168,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Nebula+Capsule+3+Laser+Portable+Projector&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nebula+Capsule+3+Laser+Portable+Projector"
   },
   {
     "id": 118,
@@ -2116,7 +2188,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Gardyn+Home+Kit+3.0&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Gardyn+Home+Kit+3.0"
   },
   {
     "id": 119,
@@ -2192,7 +2265,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Ring+Video+Doorbell+Pro+2&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ring+Video+Doorbell+Pro+2"
   },
   {
     "id": 123,
@@ -2211,7 +2285,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Garmin+Fenix+7+Pro+Sapphire+Solar+GPS+Smartwatch&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Garmin+Fenix+7+Pro+Sapphire+Solar+GPS+Smartwatch"
   },
   {
     "id": 124,
@@ -2230,7 +2305,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Ember+Mug+2&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ember+Mug+2"
   },
   {
     "id": 125,
@@ -2249,7 +2325,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=DJI+Mini+3+Pro+Drone&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI+Mini+3+Pro+Drone"
   },
   {
     "id": 126,
@@ -2268,7 +2345,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=WHOOP+4.0+Recovery+Tracker&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=WHOOP+4.0+Recovery+Tracker"
   },
   {
     "id": 127,
@@ -2287,7 +2365,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Philips+Hue+Play+Gradient+Lightstrip&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Philips+Hue+Play+Gradient+Lightstrip"
   },
   {
     "id": 128,
@@ -2306,7 +2385,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Garmin+InReach+Mini+2&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Garmin+InReach+Mini+2"
   },
   {
     "id": 129,
@@ -2344,7 +2424,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=SureFlap+Microchip+Pet+Door+Connect&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=SureFlap+Microchip+Pet+Door+Connect"
   },
   {
     "id": 131,
@@ -2363,7 +2444,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Philips+SmartSleep+Wake-up+Light&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Philips+SmartSleep+Wake-up+Light"
   },
   {
     "id": 132,
@@ -2420,7 +2502,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Garmin+Instinct+2+Solar+Smartwatch&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Garmin+Instinct+2+Solar+Smartwatch"
   },
   {
     "id": 135,
@@ -2439,7 +2522,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Therabody+SmartGoggles&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Therabody+SmartGoggles"
   },
   {
     "id": 136,
@@ -2477,7 +2561,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=BioLite+HeadLamp+800+Pro&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BioLite+HeadLamp+800+Pro"
   },
   {
     "id": 138,
@@ -2496,6 +2581,7 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Dodow+Sleep+Aid+Device&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Dodow+Sleep+Aid+Device"
   }
 ]
