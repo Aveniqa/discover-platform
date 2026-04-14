@@ -220,8 +220,10 @@ jobs:
             --settings.chromeFlags="--no-sandbox --headless"
 
           # Run assertions using config file (CLI flags don't handle categories: syntax well)
+          set -o pipefail
           lhci assert --config=lighthouserc.json 2>&1 | tee /tmp/lhci-results.log
           LHCI_EXIT=$?
+          set +o pipefail
 
           # Also run against a sample item page (warn-only, lower threshold)
           SAMPLE_SLUG=$(find out/item -name "*.html" | shuf | head -1 | xargs basename | sed 's/.html//')
