@@ -99,14 +99,26 @@ type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const item = getItemBySlug(slug);
-  if (!item) return {};
+  if (!item) return { title: "Not Found — Surfaced" };
   const title = getItemTitle(item);
   const desc = getItemDescription(item);
+  const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
   return {
-    title: title,
+    title: `${title} — Surfaced`,
     description: desc,
-    openGraph: { title, description: desc, type: "article", url: `/item/${slug}` },
-    twitter: { card: "summary_large_image", title, description: desc },
+    alternates: { canonical: pageUrl },
+    openGraph: {
+      title,
+      description: desc,
+      url: pageUrl,
+      siteName: "Surfaced",
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: desc,
+    },
   };
 }
 

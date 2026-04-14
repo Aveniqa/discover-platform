@@ -5,6 +5,13 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Collections — Surfaced",
   description: "Curated themed groups of the best finds across all categories.",
+  alternates: { canonical: "https://surfaced-x.pages.dev/collections" },
+  openGraph: {
+    title: "Collections — Surfaced",
+    description: "Curated themed groups of the best finds across all categories.",
+    url: "https://surfaced-x.pages.dev/collections",
+    siteName: "Surfaced",
+  },
 };
 
 export default function CollectionsPage() {
