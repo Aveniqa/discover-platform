@@ -18,7 +18,7 @@ export function ScreenshotImage({ src, alt, fallbackSlug }: ScreenshotImageProps
         className="w-full bg-gradient-to-br from-white/[0.04] to-white/[0.01] flex items-center justify-center"
         style={{ aspectRatio: "16/7" }}
       >
-        <span className="text-xs text-white/20 uppercase tracking-wider">Surfaced</span>
+        <span className="text-xs text-white/60 uppercase tracking-wider">Surfaced</span>
       </div>
     );
   }

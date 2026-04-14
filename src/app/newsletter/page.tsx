@@ -53,7 +53,7 @@ export default function NewsletterPage() {
           <div className="max-w-md mx-auto mb-4">
             <NewsletterForm data-capture-location="newsletter-page" />
           </div>
-          <p className="text-center text-xs text-muted-foreground/60 mb-16">No spam, ever. Unsubscribe in one click.</p>
+          <p className="text-center text-xs text-muted-foreground/70 mb-16">No spam, ever. Unsubscribe in one click.</p>
 
           {/* Social proof */}
           <div className="text-center mb-16">

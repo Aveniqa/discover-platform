@@ -42,7 +42,7 @@ export function Footer() {
                 Join the daily newsletter
               </p>
               <NewsletterForm variant="minimal" data-capture-location="footer" />
-              <p className="mt-3 text-xs text-muted-foreground/50">
+              <p className="mt-3 text-xs text-muted-foreground/70">
                 No spam, ever. Unsubscribe anytime.
               </p>
             </div>
@@ -79,7 +79,7 @@ export function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-border/20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex flex-col sm:flex-row items-center gap-2 text-xs text-muted-foreground/60">
+          <div className="flex flex-col sm:flex-row items-center gap-2 text-xs text-muted-foreground/70">
             <p>&copy; {new Date().getFullYear()} Surfaced. All rights reserved.</p>
             <span className="hidden sm:inline">&middot;</span>
             <p>
@@ -89,13 +89,13 @@ export function Footer() {
               </Link>
             </p>
           </div>
-          <div className="flex items-center gap-5 text-xs text-muted-foreground/60">
+          <div className="flex items-center gap-5 text-xs text-muted-foreground/70">
             <Link href="/about" className="hover:text-foreground transition-colors">About</Link>
             <Link href="/privacy" className="hover:text-foreground transition-colors">Privacy</Link>
             <Link href="/terms" className="hover:text-foreground transition-colors">Terms</Link>
             <Link href="/affiliate-disclosure" className="hover:text-foreground transition-colors">Affiliate Disclosure</Link>
           </div>
-          <div className="flex items-center gap-2 text-xs text-muted-foreground/60">
+          <div className="flex items-center gap-2 text-xs text-muted-foreground/70">
             <span className="relative flex h-1.5 w-1.5">
               <span className="absolute inline-flex h-full w-full rounded-full bg-emerald/60 animate-ping" />
               <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald" />

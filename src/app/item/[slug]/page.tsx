@@ -229,7 +229,7 @@ export default async function ItemPage({ params }: Props) {
       else if (item.type === "hidden-gem") url = (item as HiddenGem).websiteLink;
       else if (item.type === "tool") url = (item as DailyTool).websiteLink;
       else if (item.type === "future-tech") {
-        url = ((item as FutureTech) as unknown as { sourceLink?: string }).sourceLink ?? null;
+        url = (item as FutureTech).sourceLink ?? null;
       }
       if (!url) return null;
       new URL(url); // validate — throws if malformed
@@ -505,7 +505,7 @@ export default async function ItemPage({ params }: Props) {
 
                 {/* Affiliate badge */}
                 {isAffiliate && (
-                  <p className="text-xs text-muted-foreground/50 mt-2 flex items-center gap-1">
+                  <p className="text-xs text-muted-foreground/70 mt-2 flex items-center gap-1">
                     <svg className="w-3 h-3 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m9.86-2.06a4.5 4.5 0 00-1.242-7.244l4.5-4.5a4.5 4.5 0 016.364 6.364l-1.757 1.757" />
                     </svg>
@@ -533,7 +533,7 @@ export default async function ItemPage({ params }: Props) {
 
                 {/* Affiliate disclosure */}
                 {isAffiliate && (
-                  <p className="text-xs text-white/40 mt-3">
+                  <p className="text-xs text-white/60 mt-3">
                     Some links may earn Surfaced a small commission — at no extra cost to you.{" "}
                     <Link href="/affiliate-disclosure" className="text-accent/60 hover:text-accent transition-colors underline underline-offset-2">
                       Learn more
