@@ -1,0 +1,166 @@
+name: Activate Best Buy Affiliate
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  activate:
+    # Only run when the issue title matches the template
+    if: contains(github.event.issue.title, 'Activate Best Buy Impact affiliate URLs')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Extract form data from issue body
+        id: extract
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+
+            // Extract tracking ID
+            const trackingMatch = body.match(/### Impact Tracking ID\s*\n\s*(.+)/);
+            const trackingId = trackingMatch ? trackingMatch[1].trim() : '';
+
+            // Extract program ID
+            const programMatch = body.match(/### Impact Program ID \(Best Buy\)\s*\n\s*(.+)/);
+            const programId = programMatch ? programMatch[1].trim() : '';
+
+            // Extract format
+            const formatMatch = body.match(/### Impact Link Format\s*\n\s*(.+)/);
+            const formatRaw = formatMatch ? formatMatch[1].trim() : 'Standard (goto.bestbuy.com)';
+            const format = formatRaw.includes('Impact redirect') ? 'impact' : 'standard';
+
+            if (!trackingId || !programId) {
+              core.setFailed('Missing tracking ID or program ID in issue body');
+              return;
+            }
+
+            core.setOutput('tracking_id', trackingId);
+            core.setOutput('program_id', programId);
+            core.setOutput('format', format);
+
+            console.log(`Tracking ID: ${trackingId}`);
+            console.log(`Program ID: ${programId}`);
+            console.log(`Format: ${format}`);
+
+      - name: Run Best Buy affiliate activation script
+        run: |
+          node scripts/activate-bestbuy-affiliate.js \
+            --tracking-id=${{ steps.extract.outputs.tracking_id }} \
+            --program-id=${{ steps.extract.outputs.program_id }} \
+            --format=${{ steps.extract.outputs.format }}
+
+      - name: Validate data
+        run: node scripts/validate-data.js
+
+      - name: Build site
+        run: npm run build
+
+      - name: Commit and push
+        run: |
+          git config user.name "Surfaced Bot"
+          git config user.email "bot@surfaced.daily"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "🏬 Activate Best Buy Impact affiliate tracking (${{ steps.extract.outputs.tracking_id }})"
+          git push
+
+      - name: Store tracking IDs as secrets reminder
+        id: secrets_note
+        run: |
+          echo "note=Remember to add BESTBUY_TRACKING_ID and BESTBUY_PROGRAM_ID as GitHub Secrets for the daily workflow." >> $GITHUB_OUTPUT
+
+      - name: Comment on issue with results
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require('fs');
+            const products = JSON.parse(fs.readFileSync('data/products.json', 'utf8'));
+            const bbCount = products.filter(p => p.bestBuyUrl).length;
+            const trackedCount = products.filter(p => p.bestBuyUrl && (p.bestBuyUrl.includes('evyy.net') || p.bestBuyUrl.includes('goto.bestbuy.com'))).length;
+
+            const body = [
+              `## ✅ Best Buy Affiliate Activation Complete`,
+              ``,
+              `| Metric | Value |`,
+              `|--------|-------|`,
+              `| Products with Best Buy URLs | **${bbCount}** |`,
+              `| Converted to Impact tracking | **${trackedCount}** |`,
+              `| Tracking ID | \`${{ steps.extract.outputs.tracking_id }}\` |`,
+              `| Program ID | \`${{ steps.extract.outputs.program_id }}\` |`,
+              `| Link format | \`${{ steps.extract.outputs.format }}\` |`,
+              ``,
+              `### What was updated`,
+              `- \`data/products.json\` — all Best Buy URLs now use Impact tracking`,
+              `- \`scripts/generate-daily-content.js\` — future products will auto-get tracked URLs`,
+              `- \`scripts/bulk-generate-content.js\` — bulk generation also uses tracked URLs`,
+              ``,
+              `### Next step`,
+              `Add these **GitHub Secrets** so the daily workflow uses tracked URLs for new products:`,
+              `- \`BESTBUY_TRACKING_ID\` = \`${{ steps.extract.outputs.tracking_id }}\``,
+              `- \`BESTBUY_PROGRAM_ID\` = \`${{ steps.extract.outputs.program_id }}\``,
+              ``,
+              `Site will auto-deploy via Cloudflare Pages in ~60 seconds.`,
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body,
+            });
+
+            // Close the issue
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              state: 'closed',
+              state_reason: 'completed',
+            });
+
+  alert-on-failure:
+    runs-on: ubuntu-latest
+    needs: activate
+    if: failure()
+    steps:
+      - name: Comment failure on issue
+        uses: actions/github-script@v9
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: [
+                `## ❌ Activation Failed`,
+                ``,
+                `The Best Buy affiliate activation workflow failed.`,
+                `[View the run logs](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})`,
+                ``,
+                `Check that the Tracking ID and Program ID are correct and try again by opening a new issue.`,
+              ].join('\n'),
+            });

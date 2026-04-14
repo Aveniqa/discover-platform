@@ -1,0 +1,58 @@
+name: "🏬 Best Buy Affiliate Activation"
+description: "Activate Best Buy Impact affiliate tracking across all products"
+title: "Activate Best Buy Impact affiliate URLs"
+labels: ["affiliate", "automation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Best Buy Impact Affiliate Activation
+
+        Once Best Buy approves your Impact affiliate application, fill in the fields below and submit this issue.
+        A GitHub Actions workflow will automatically:
+
+        1. Swap all 127+ Best Buy search URLs to Impact-tracked affiliate URLs
+        2. Update the daily generation scripts to use tracked URLs for future products
+        3. Commit and push — Cloudflare deploys automatically
+
+        **No code changes needed on your end.**
+
+  - type: input
+    id: impact_tracking_id
+    attributes:
+      label: Impact Tracking ID
+      description: "Your Impact affiliate tracking ID for Best Buy (found in your Impact dashboard under Brands → Best Buy → Tracking Links)"
+      placeholder: "e.g. 123456"
+    validations:
+      required: true
+
+  - type: input
+    id: impact_program_id
+    attributes:
+      label: Impact Program ID (Best Buy)
+      description: "The Best Buy program/campaign ID from Impact (sometimes called 'campaignid' or 'adid')"
+      placeholder: "e.g. 1234567890"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: link_format
+    attributes:
+      label: Impact Link Format
+      description: "Which Impact link format to use (check your Impact dashboard for the recommended format)"
+      options:
+        - "Standard (goto.bestbuy.com)"
+        - "Impact redirect (impact.com tracking domain)"
+      default: 0
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Pre-flight checks
+      options:
+        - label: "Best Buy has approved my Impact affiliate application"
+          required: true
+        - label: "I have verified my tracking ID works by testing a link in Impact's link builder"
+          required: true
