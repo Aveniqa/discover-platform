@@ -1,60 +1,5 @@
 [
   {
-    "id": 12,
-    "slug": "nasa-uses-the-same-bolts-as-the-golden-gate-bridge",
-    "title": "NASA Uses the Same Bolt Supplier as the Golden Gate Bridge",
-    "shortDescription": "The company that supplied bolts for the Golden Gate Bridge in the 1930s still manufactures aerospace-grade fasteners for NASA. Some bolt designs have remained virtually unchanged for nearly a century because they already achieved near-perfect engineering.",
-    "category": "Innovation",
-    "whyItIsInteresting": "It shows that sometimes the best engineering solution is the one that already works. In a world obsessed with disruption, the humble bolt proves that true innovation can mean perfecting what exists rather than reinventing it.",
-    "imageIdea": "A massive golden bolt on the Golden Gate Bridge next to a gleaming titanium bolt on a spacecraft, both identical in design",
-    "sourceLink": "https://www.nasa.gov",
-    "type": "discovery"
-  },
-  {
-    "id": 13,
-    "slug": "in-iceland-there-is-no-word-for-please",
-    "title": "In Icelandic There Is No Direct Word for Please",
-    "shortDescription": "The Icelandic language has no single standalone word equivalent to 'please.' Politeness is conveyed through tone, sentence structure, and verb conjugation rather than a specific magic word.",
-    "category": "Culture",
-    "whyItIsInteresting": "It reveals how deeply language shapes cultural attitudes toward politeness. What English speakers achieve with one word, Icelanders weave into the fabric of their entire sentence, suggesting politeness can be systemic rather than performative.",
-    "imageIdea": "A cozy Icelandic cafe scene with people engaged in warm conversation, speech bubbles floating above without the word please",
-    "sourceLink": "https://www.bbc.com",
-    "type": "discovery"
-  },
-  {
-    "id": 14,
-    "slug": "finland-has-more-saunas-than-cars",
-    "title": "Finland Has More Saunas Than Cars",
-    "shortDescription": "Finland has roughly 3.3 million saunas for a population of 5.5 million people. That is approximately one sauna for every 1.7 people, compared to about 3.4 million registered cars.",
-    "category": "Culture",
-    "whyItIsInteresting": "The sauna is not a luxury in Finland — it is a fundamental part of life, historically used for giving birth, curing meats, and even holding parliamentary discussions. It shows how a cultural practice can become more essential than modern infrastructure.",
-    "imageIdea": "A traditional Finnish wooden sauna on the edge of a frozen lake with steam rising into the northern sky",
-    "sourceLink": "https://www.visitfinland.com",
-    "type": "discovery"
-  },
-  {
-    "id": 15,
-    "slug": "south-korea-has-a-law-that-keeps-your-age-from-changing-on-your-birthday",
-    "title": "South Korea Recently Abolished Its Unique Age-Counting System",
-    "shortDescription": "Until 2023, South Korea used a system where you were 1 at birth and everyone aged up together on New Year's Day. A person born on December 31 would be considered 2 years old the very next day. The government unified the system to international standards in June 2023.",
-    "category": "Culture",
-    "whyItIsInteresting": "It was one of the last countries to use this traditional East Asian age reckoning. The change affected legal drinking ages, military service timing, and even insurance premiums overnight, showing how deeply a simple counting convention can affect a society.",
-    "imageIdea": "A Korean calendar with birthday candles and the numbers 1 and 2 superimposed, symbolizing the age discrepancy",
-    "sourceLink": "https://www.bbc.com",
-    "type": "discovery"
-  },
-  {
-    "id": 16,
-    "slug": "in-japan-there-is-a-festival-dedicated-to-crying-babies",
-    "title": "In Japan There Is a Festival Dedicated to Crying Babies",
-    "shortDescription": "Naki Sumo is a 400-year-old Japanese festival where sumo wrestlers hold babies and try to make them cry. The baby who cries first — or loudest — is believed to be blessed with good health and a strong spirit.",
-    "category": "Culture",
-    "whyItIsInteresting": "It completely inverts the Western instinct to soothe a crying baby. The festival reflects a deep cultural belief that a powerful cry signifies vitality and wards off evil spirits, turning distress into celebration.",
-    "imageIdea": "A massive sumo wrestler gently holding a tiny crying baby in a traditional Japanese shrine setting",
-    "sourceLink": "https://www.atlasobscura.com",
-    "type": "discovery"
-  },
-  {
     "id": 17,
     "slug": "there-is-a-village-in-india-where-people-communicate-by-whistling",
     "title": "There Is a Village in India Where People Communicate by Whistling",
@@ -1365,6 +1310,42 @@
     "whyItIsInteresting": "This revelation challenges traditional Eurocentric views of technological history, demonstrating a remarkably advanced understanding of metallurgy in ancient Africa much earlier than previously believed. It highlights the rich, complex, and independent innovations that occurred on the continent.",
     "imageIdea": "ancient iron smelting furnace",
     "sourceLink": "https://www.nature.com/articles/s41586-022-05121-2",
+    "type": "discovery",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 130,
+    "slug": "alien-mega-structures-in-space",
+    "title": "Alien Mega-Structures: Is Dyson Spheres Possible?",
+    "shortDescription": "Scientists are exploring the possibility of alien civilizations building massive structures, like Dyson spheres, to harness the energy of their stars. These hypothetical megastructures could be detectable through their waste heat.",
+    "category": "Space",
+    "whyItIsInteresting": "The idea that advanced extraterrestrial life might build such colossal engineering feats is mind-boggling. It shifts our perspective from looking for tiny signals to searching for the byproducts of immense interstellar construction.",
+    "imageIdea": "glowing star sky with orbiting solar panels",
+    "sourceLink": "https://www.nasa.gov/missions/hubble/hubbles-legacy-revealed-by-these-5-new-images/",
+    "type": "discovery",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 131,
+    "slug": "ancient-dna-rewrites-human-history",
+    "title": "Ancient DNA Reveals Surprising Human Migrations",
+    "shortDescription": "Recent ancient DNA studies have overturned previous understandings of human migrations and population movements throughout history. Findings suggest more complex and interconnected ancestries than previously thought.",
+    "category": "History",
+    "whyItIsInteresting": "It's fascinating how the tiny, fragile strands of ancient DNA can completely reshape our narrative of who we are and where we came from. The insights challenge established historical accounts with irrefutable genetic evidence.",
+    "imageIdea": "DNA helix with ancient map overlay",
+    "sourceLink": "https://www.nature.com/news/ancient-dna-studies-reveal-new-human-migrations-1.17410",
+    "type": "discovery",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 132,
+    "slug": "fungi-communicate-through-electrical-signals",
+    "title": "Fungi Communicate Using Electrical Signals",
+    "shortDescription": "Research suggests that fungi can communicate with each other through electrical impulses, similar to a rudimentary nervous system. These signals may be used to share information about resources or threats.",
+    "category": "Nature",
+    "whyItIsInteresting": "The notion that a network of fungi underground could be 'talking' to each other using electrical signals is astonishing. It implies a level of complex interaction in the fungal kingdom we are only beginning to understand.",
+    "imageIdea": "glowing mushroom network underground",
+    "sourceLink": "https://www.newscientist.com/article/mg24933270-700-fungi-use-electrical-signals-to-talk-to-each-other/",
     "type": "discovery",
     "dateAdded": "2026-04-14"
   }

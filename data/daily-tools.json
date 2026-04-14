@@ -1,60 +1,5 @@
 [
   {
-    "id": 12,
-    "slug": "jasper",
-    "toolName": "Jasper",
-    "whatItDoes": "AI content generation platform trained on marketing best practices. Creates blog posts, ad copy, product descriptions, email campaigns, and social posts with brand voice consistency.",
-    "category": "Writing",
-    "whyItIsUseful": "It turns a 2-hour blog post into a 20-minute editing task. The brand voice feature ensures AI output sounds like your company, not a generic robot.",
-    "websiteLink": "https://www.jasper.ai",
-    "type": "tool",
-    "imageIdea": "ai content marketing blog writing"
-  },
-  {
-    "id": 13,
-    "slug": "substack",
-    "toolName": "Substack",
-    "whatItDoes": "Newsletter publishing platform with built-in subscriptions, payments, podcasting, and a recommendation network. Writers own their email list and keep most of the revenue from paid subscribers.",
-    "category": "Writing",
-    "whyItIsUseful": "It removed every technical barrier to starting a paid newsletter. Writers who would never build a website can have a professional publication running in 10 minutes.",
-    "websiteLink": "https://substack.com",
-    "type": "tool",
-    "imageIdea": "newsletter email inbox subscription"
-  },
-  {
-    "id": 14,
-    "slug": "surfer-seo",
-    "toolName": "Surfer SEO",
-    "whatItDoes": "Content optimization tool that analyzes top-ranking pages for any keyword, then gives you a real-time content score as you write. Recommends word count, headings, NLP terms, and structure.",
-    "category": "Writing",
-    "whyItIsUseful": "It takes the guesswork out of SEO writing by showing exactly what Google rewards for each keyword. Articles written with Surfer consistently rank higher.",
-    "websiteLink": "https://surferseo.com",
-    "type": "tool",
-    "imageIdea": "seo content optimization ranking"
-  },
-  {
-    "id": 15,
-    "slug": "obsidian",
-    "toolName": "Obsidian",
-    "whatItDoes": "Markdown-based knowledge management app that stores notes as local files and connects them with bidirectional links. A graph view visualizes how your ideas interconnect.",
-    "category": "Writing",
-    "whyItIsUseful": "Your notes are plain Markdown files you own forever, not locked in a proprietary cloud. The linking system turns scattered notes into an interconnected personal wiki.",
-    "websiteLink": "https://obsidian.md",
-    "type": "tool",
-    "imageIdea": "markdown notes linked graph vault"
-  },
-  {
-    "id": 16,
-    "slug": "visual-studio-code",
-    "toolName": "Visual Studio Code",
-    "whatItDoes": "Free, extensible code editor with IntelliSense auto-completion, built-in Git, debugging, terminal, and a marketplace of 40,000+ extensions for every language and framework.",
-    "category": "Development",
-    "whyItIsUseful": "It hits the sweet spot between a lightweight text editor and a heavy IDE. The extension ecosystem means it adapts to any language or workflow you throw at it.",
-    "websiteLink": "https://code.visualstudio.com",
-    "type": "tool",
-    "imageIdea": "code editor syntax highlighting extensions"
-  },
-  {
     "id": 17,
     "slug": "vercel",
     "toolName": "Vercel",
@@ -1364,6 +1309,42 @@
     "whyItIsUseful": "Spotify enhances daily life by providing a vast library of audio content for entertainment, focus, or relaxation. It's excellent for discovering new music, curating playlists for different activities, and staying updated with favorite artists.",
     "imageIdea": "headphones listening music",
     "websiteLink": "https://www.spotify.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 130,
+    "slug": "obsidian-notes",
+    "toolName": "Obsidian",
+    "whatItDoes": "Obsidian is a powerful knowledge base that works on local Markdown files. It allows you to link your thoughts together, creating a network of interconnected notes that fosters deeper understanding and recall.  This tool is ideal for building a personal wiki or a second brain.",
+    "category": "Productivity",
+    "whyItIsUseful": "Obsidian excels at helping you organize complex information and discover new connections between ideas. Its local-first approach ensures your data is private and portable, while its extensive plugin ecosystem allows for immense customization to fit your unique workflow.",
+    "imageIdea": "digital brain network connections",
+    "websiteLink": "https://obsidian.md/",
+    "type": "tool",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 131,
+    "slug": "todoist-tasks",
+    "toolName": "Todoist",
+    "whatItDoes": "Todoist is a simple yet powerful task management app designed to help you organize your life and boost your productivity. It allows you to create to-do lists, set reminders, prioritize tasks, and collaborate with others on projects.",
+    "category": "Productivity",
+    "whyItIsUseful": "Its clean interface and intuitive design make it easy to capture and manage all your tasks, from daily errands to long-term goals. Todoist helps you stay on track, reduce overwhelm, and achieve more by breaking down big objectives into manageable steps.",
+    "imageIdea": "checklist daily planner organizer",
+    "websiteLink": "https://todoist.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 132,
+    "slug": "canva-design-editor",
+    "toolName": "Canva",
+    "whatItDoes": "Canva is an online graphic design tool that makes it easy to create beautiful visuals for any purpose. With a vast library of templates, photos, and design elements, you can design presentations, social media graphics, posters, and more without prior design experience.",
+    "category": "Design",
+    "whyItIsUseful": "Canva democratizes design, empowering individuals and small businesses to produce professional-looking materials quickly and affordably. Its drag-and-drop interface and collaborative features make it a versatile tool for both personal creative projects and team-based visual content creation.",
+    "imageIdea": "graphic design template collage",
+    "websiteLink": "https://www.canva.com/",
     "type": "tool",
     "dateAdded": "2026-04-14"
   }

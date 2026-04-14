@@ -1,65 +1,5 @@
 [
   {
-    "id": 10,
-    "slug": "capacities",
-    "name": "Capacities",
-    "whatItDoes": "An object-based note-taking app that treats every piece of information as a typed entity such as a person, book, meeting, or project. It builds a personal knowledge graph from your daily notes.",
-    "category": "Productivity",
-    "whyItIsUseful": "It brings structure to your thinking without forcing rigid hierarchies. Linking objects together lets patterns and connections emerge naturally over time.",
-    "websiteLink": "https://capacities.io",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcapacities.io&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "linked notes objects database"
-  },
-  {
-    "id": 11,
-    "slug": "hoppscotch",
-    "name": "Hoppscotch",
-    "whatItDoes": "An open-source API development ecosystem that runs in the browser. It supports REST, GraphQL, WebSocket, and real-time testing with a clean, fast interface.",
-    "category": "Developer Tools",
-    "whyItIsUseful": "It provides a lightweight, free alternative to Postman without requiring installation or an account. The instant-load browser experience makes quick API testing frictionless.",
-    "websiteLink": "https://hoppscotch.io",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhoppscotch.io&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "api request response json browser"
-  },
-  {
-    "id": 12,
-    "slug": "httpie",
-    "name": "HTTPie",
-    "whatItDoes": "A user-friendly command-line and web-based HTTP client designed for testing and debugging APIs. It uses intuitive syntax, colorized output, and built-in JSON support.",
-    "category": "Developer Tools",
-    "whyItIsUseful": "It makes API interaction from the terminal far more readable than curl. The web app version adds team collaboration features for sharing and documenting API requests.",
-    "websiteLink": "https://httpie.io",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhttpie.io&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "terminal command line http colorful"
-  },
-  {
-    "id": 13,
-    "slug": "railway",
-    "name": "Railway",
-    "whatItDoes": "A cloud platform that deploys apps, databases, and cron jobs from a Git repository with zero configuration. It supports dozens of languages and frameworks out of the box.",
-    "category": "Developer Tools",
-    "whyItIsUseful": "It removes the DevOps overhead of deploying side projects and prototypes. You get databases, environment variables, and automatic deployments without writing a single YAML file.",
-    "websiteLink": "https://railway.app",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Frailway.app&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "cloud deployment server dashboard"
-  },
-  {
-    "id": 14,
-    "slug": "zed",
-    "name": "Zed",
-    "whatItDoes": "A high-performance, multiplayer code editor built from the ground up in Rust. It features real-time collaboration, integrated terminal, and GPU-accelerated rendering.",
-    "category": "Developer Tools",
-    "whyItIsUseful": "It combines the speed of Sublime Text with the collaboration features of VS Code Live Share in a native app. The sub-millisecond input latency makes coding feel instant.",
-    "websiteLink": "https://zed.dev",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fzed.dev&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "code editor pair programming collaboration"
-  },
-  {
     "id": 15,
     "slug": "devtoys",
     "name": "DevToys",
@@ -1381,5 +1321,44 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-14",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fusewordcount.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 143,
+    "slug": "typograph-checker",
+    "name": "Typograph",
+    "whatItDoes": "Typograph is a web-based tool that helps you identify and fix common typography and punctuation errors in your text. It goes beyond simple spell-checking to ensure your writing adheres to typographical best practices.",
+    "category": "Writing",
+    "whyItIsUseful": "It catches subtle errors like incorrect quotation marks, em dashes, and spacing issues that can detract from a professional appearance. This tool is invaluable for authors, editors, and anyone who wants their written communication to be polished and error-free.",
+    "imageIdea": "quill pen and ink bottle",
+    "websiteLink": "https://typograph.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftypograph.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 144,
+    "slug": "zen-tab",
+    "name": "ZenTab",
+    "whatItDoes": "ZenTab is a browser extension that allows you to manage your open tabs by grouping them into 'Zen Modes'. You can create custom modes for different tasks or contexts, helping to declutter your browsing experience.",
+    "category": "Productivity",
+    "whyItIsUseful": "It combats tab overload by letting you isolate sets of tabs for specific projects or activities. This significantly reduces cognitive load and makes it easier to focus on what you're currently working on, leading to improved efficiency.",
+    "imageIdea": "zen garden raked sand",
+    "websiteLink": "https://chrome.google.com/webstore/detail/zentab/jgbnkjbgkmpajkofonpgcecljldcghdl",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fzentab%2Fjgbnkjbgkmpajkofonpgcecljldcghdl&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 145,
+    "slug": "color-harmony-tool",
+    "name": "Coolors.co",
+    "whatItDoes": "Coolors is a fast color scheme generator that allows you to explore, create, and save beautiful color palettes. You can generate schemes from scratch, based on an image, or by locking colors you like.",
+    "category": "Design",
+    "whyItIsUseful": "It provides an intuitive and rapid way to discover harmonious color combinations, which is essential for designers, artists, and even anyone customizing a website or presentation. Its efficiency in generating aesthetically pleasing palettes saves considerable time.",
+    "imageIdea": "artist's palette with colorful paints",
+    "websiteLink": "https://coolors.co/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcoolors.co%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

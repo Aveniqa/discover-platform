@@ -1,55 +1,5 @@
 [
   {
-    "id": 12,
-    "slug": "level-5-autonomous-vehicles",
-    "techName": "Level 5 Autonomous Vehicles",
-    "explanation": "Fully self-driving cars that require zero human intervention in any condition, using advanced AI, lidar, cameras, and redundant systems to navigate complex urban environments safely.",
-    "industry": "Transportation",
-    "whyItMatters": "Human error causes 94% of crashes. Full autonomy could eliminate over a million traffic deaths per year worldwide and reclaim billions of hours lost to driving.",
-    "developmentStage": "Advanced Research",
-    "type": "future-tech"
-  },
-  {
-    "id": 13,
-    "slug": "vacuum-tube-hyperloop",
-    "techName": "Vacuum-Tube Hyperloop",
-    "explanation": "Passenger and cargo pods traveling through near-vacuum tubes at speeds up to 700 mph using magnetic levitation. The low-pressure environment eliminates air resistance.",
-    "industry": "Transportation",
-    "whyItMatters": "It could make a 350-mile trip take 30 minutes at a fraction of airline cost, connecting cities into mega-regions and reducing short-haul aviation emissions entirely.",
-    "developmentStage": "Prototype",
-    "type": "future-tech"
-  },
-  {
-    "id": 14,
-    "slug": "evtol-air-taxis",
-    "techName": "eVTOL Air Taxis",
-    "explanation": "Electric vertical takeoff and landing aircraft designed for urban air mobility. They carry 2-6 passengers, fly autonomously or with a pilot, and operate from rooftop vertiports.",
-    "industry": "Transportation",
-    "whyItMatters": "They bypass ground congestion entirely, cutting a 90-minute urban commute to 10 minutes while producing zero direct emissions and far less noise than helicopters.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech"
-  },
-  {
-    "id": 15,
-    "slug": "autonomous-electric-cargo-ships",
-    "techName": "Autonomous Electric Cargo Ships",
-    "explanation": "Crewless container ships powered by batteries, hydrogen fuel cells, or wind-assisted propulsion, guided by AI navigation systems that optimize routes for efficiency and safety.",
-    "industry": "Transportation",
-    "whyItMatters": "Shipping produces 3% of global emissions. Autonomous electric vessels could eliminate that while cutting operating costs by 40% and removing crews from dangerous conditions.",
-    "developmentStage": "Prototype",
-    "type": "future-tech"
-  },
-  {
-    "id": 16,
-    "slug": "fault-tolerant-quantum-computers",
-    "techName": "Fault-Tolerant Quantum Computers",
-    "explanation": "Quantum processors with enough error-corrected logical qubits to solve real-world problems. They use quantum superposition and entanglement to perform calculations impossible for classical machines.",
-    "industry": "AI & Computing",
-    "whyItMatters": "They could crack drug discovery problems in hours instead of decades, optimize global supply chains, break current encryption, and simulate materials atom by atom.",
-    "developmentStage": "Advanced Research",
-    "type": "future-tech"
-  },
-  {
     "id": 17,
     "slug": "neuromorphic-computing-chips",
     "techName": "Neuromorphic Computing Chips",
@@ -1213,6 +1163,42 @@
     "whyItMatters": "These platforms enhance surgical outcomes by improving surgeon control and reducing the potential for error. They can lead to faster patient recovery times and enable more intricate surgical interventions.",
     "developmentStage": "Early Adoption",
     "imageIdea": "surgical robot arm with haptic glove",
+    "type": "future-tech",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 120,
+    "slug": "advances-in-solid-state-battery-tech",
+    "techName": "Advanced Solid-State Battery Technology",
+    "explanation": "Researchers have achieved significant breakthroughs in solid-state battery technology, moving closer to commercial viability with higher energy densities and improved safety compared to traditional lithium-ion batteries. Recent milestones include enhanced electrolyte stability and scalable manufacturing processes.",
+    "industry": "Automotive, Electronics, Energy Storage",
+    "whyItMatters": "This technology promises to revolutionize electric vehicles with longer ranges and faster charging, while also enhancing the safety and performance of portable electronics and grid-scale energy storage solutions.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "cutaway view of a solid-state battery cross-section",
+    "type": "future-tech",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 121,
+    "slug": "hallucination-mitigation-in-large-language-models",
+    "techName": "Hallucination Mitigation in Large Language Models",
+    "explanation": "Recent advancements have focused on developing sophisticated techniques to reduce 'hallucinations' (factually incorrect or nonsensical outputs) in large language models (LLMs). This includes improved fact-checking mechanisms, retrieval-augmented generation, and advanced training methodologies that prioritize accuracy and grounding in real-world data.",
+    "industry": "Artificial Intelligence, Software Development, Information Technology",
+    "whyItMatters": "As LLMs become more integrated into daily life and critical applications, mitigating hallucinations is crucial for building trust, ensuring reliability, and enabling their widespread adoption in fields like education, research, and customer service.",
+    "developmentStage": "Growth",
+    "imageIdea": "network diagram illustrating fact-checking nodes",
+    "type": "future-tech",
+    "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 122,
+    "slug": "perovskite-solar-cell-efficiency-leap",
+    "techName": "Perovskite Solar Cell Efficiency Leap",
+    "explanation": "Perovskite solar cells have recently achieved record-breaking efficiencies, rivaling and even surpassing traditional silicon-based solar panels in laboratory settings. Breakthroughs in material stability and manufacturing techniques are paving the way for their commercial deployment.",
+    "industry": "Renewable Energy, Solar Power",
+    "whyItMatters": "The development of highly efficient, flexible, and potentially lower-cost perovskite solar cells could significantly accelerate the global transition to renewable energy, making solar power more accessible and versatile for a wider range of applications.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "close-up of a flexible perovskite solar cell surface",
     "type": "future-tech",
     "dateAdded": "2026-04-14"
   }

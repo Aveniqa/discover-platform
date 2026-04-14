@@ -5,8 +5,6 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "in-iceland-there-is-no-word-for-please",
-      "south-korea-has-a-law-that-keeps-your-age-from-changing-on-your-birthday",
       "there-is-a-country-with-no-capital-city",
       "the-shortest-war-in-history-lasted-38-minutes",
       "a-day-on-venus-is-longer-than-a-year-on-venus",
@@ -16,7 +14,9 @@
       "early-venus-had-oceans",
       "ancient-egyptian-bread-fermentation",
       "archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo",
-      "ai-translates-ancient-lost-language"
+      "ai-translates-ancient-lost-language",
+      "tardigrades-microscopic-water-bears-that-can-survive-in-space",
+      "year-without-a-summer"
     ]
   },
   {
@@ -25,7 +25,6 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "jbl-clip-5-portable-speaker",
       "nalgene-32oz-sustain-water-bottle",
       "philips-norelco-oneblade-360",
       "grid-it-cocoon-organizer",
@@ -36,7 +35,8 @@
       "bala-bangles-weighted-bracelets",
       "uv-skinz-hooded-sunshirt-upf-50",
       "stasher-reusable-silicone-bag-bundle",
-      "lastobject-lastswab-reusable-swab"
+      "lastobject-lastswab-reusable-swab",
+      "pela-compostable-phone-case"
     ]
   },
   {
@@ -45,7 +45,6 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "nasa-uses-the-same-bolts-as-the-golden-gate-bridge",
       "there-is-a-village-in-india-where-people-communicate-by-whistling",
       "russia-has-11-time-zones-but-used-to-have-only-nine",
       "there-is-a-country-with-no-capital-city",
@@ -56,7 +55,8 @@
       "a-single-teaspoon-of-soil-contains-more-organisms-than-people-on-earth",
       "there-is-a-planet-where-it-rains-glass-sideways",
       "there-is-a-giant-cloud-of-alcohol-in-space",
-      "there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth"
+      "there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth",
+      "olympus-mons-on-mars-is-so-large-you-cant-see-it-from-its-base"
     ]
   },
   {
@@ -68,15 +68,15 @@
       "sony-alpha-a7c-ii-mirrorless-camera",
       "dji-air-3-drone",
       "lightform-projector-holographic-display",
-      "finland-has-more-saunas-than-cars",
-      "south-korea-has-a-law-that-keeps-your-age-from-changing-on-your-birthday",
       "there-are-more-people-alive-today-than-have-ever-died",
       "neutron-stars-are-so-dense-a-teaspoon-would-weigh-6-billion-tons",
       "early-venus-had-oceans",
       "the-voyager-golden-record-humanitys-message-to-the-cosmos",
       "male-seahorses-give-birth",
       "the-doomsday-vault-safeguarding-the-worlds-plant-diversity-deep-inside-an-arctic-mountain",
-      "the-lost-legacy-of-the-great-library-of-alexandria"
+      "the-lost-legacy-of-the-great-library-of-alexandria",
+      "the-astonishing-glass-frog-transparency",
+      "the-dunning-kruger-effect"
     ]
   },
   {
@@ -85,7 +85,6 @@
     "description": "Products and tools to help you feel your best.",
     "emoji": "💪",
     "itemSlugs": [
-      "in-japan-there-is-a-festival-dedicated-to-crying-babies",
       "a-single-teaspoon-of-soil-contains-more-organisms-than-people-on-earth",
       "the-dancing-plague-of-1518-a-mysterious-outbreak-of-uncontrollable-dancing",
       "more-bacterial-cells-than-human-cells",
@@ -96,7 +95,8 @@
       "ancient-roman-hypocausts-ingenious-underfloor-heating",
       "the-great-pacific-garbage-patch",
       "ember-mug-2-temperature-control",
-      "ecobee-smart-thermostat-premium"
+      "ecobee-smart-thermostat-premium",
+      "peloton-guide-strength-training-camera"
     ]
   }
 ]

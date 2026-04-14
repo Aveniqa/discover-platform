@@ -1,100 +1,5 @@
 [
   {
-    "id": 9,
-    "slug": "jbl-clip-5-portable-speaker",
-    "title": "JBL Clip 5 Portable Speaker",
-    "shortDescription": "An ultra-portable Bluetooth speaker with integrated carabiner, IP67 waterproof rating, and 15 hours of playtime. Weighs just 300g.",
-    "category": "Audio",
-    "whyItIsInteresting": "It clips onto anything and survives pool parties, hikes, and showers. The sound output relative to its tiny size is genuinely impressive.",
-    "imageIdea": "Colorful mini speaker clipped to a backpack strap outdoors",
-    "sourceLink": "https://www.jbl.com",
-    "estimatedPriceRange": "$49–$79",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=JBL+Clip+5+Portable+Speaker&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=JBL+Clip+5+Portable+Speaker&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=JBL+Clip+5+Portable+Speaker"
-  },
-  {
-    "id": 10,
-    "slug": "nothing-ear-open-earbuds",
-    "title": "Nothing Ear (open) Earbuds",
-    "shortDescription": "Open-ear wireless earbuds with a transparent design, directional speakers, and all-day comfort. No ear tips means zero ear fatigue.",
-    "category": "Audio",
-    "whyItIsInteresting": "They let you hear the world around you while still enjoying music clearly. The transparent aesthetic stands out in a sea of identical black earbuds.",
-    "imageIdea": "Transparent open-ear earbuds with visible internal components",
-    "sourceLink": "https://nothing.tech",
-    "estimatedPriceRange": "$149",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Nothing+Ear+%28open%29+Earbuds&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Nothing+Ear+%28open%29+Earbuds&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nothing+Ear+%28open%29+Earbuds"
-  },
-  {
-    "id": 11,
-    "slug": "branch-ergonomic-chair",
-    "title": "Branch Ergonomic Chair",
-    "shortDescription": "A high-quality ergonomic office chair with adjustable lumbar support, armrests, and seat depth. Italian mesh back keeps you cool during long sessions.",
-    "category": "Home Office",
-    "whyItIsInteresting": "It delivers Herman Miller-level ergonomics at roughly half the price. The 12-year warranty signals genuine confidence in build quality.",
-    "imageIdea": "Modern mesh office chair at a clean minimalist desk setup",
-    "sourceLink": "https://www.branchfurniture.com",
-    "estimatedPriceRange": "$349–$499",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Branch+Ergonomic+Chair&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Branch+Ergonomic+Chair&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Branch+Ergonomic+Chair"
-  },
-  {
-    "id": 12,
-    "slug": "samsung-viewfinity-s9-5k-monitor",
-    "title": "Samsung ViewFinity S9 5K Monitor",
-    "shortDescription": "A 27-inch 5K IPS monitor with built-in 4K webcam, matte display coating, and Thunderbolt 4 connectivity. Color-calibrated for creative professionals.",
-    "category": "Home Office",
-    "whyItIsInteresting": "It matches Apple Studio Display specs at a significantly lower price. The integrated webcam and Thunderbolt hub reduce desk clutter dramatically.",
-    "imageIdea": "Sleek 5K monitor on a standing desk showing creative editing software",
-    "sourceLink": "https://www.samsung.com",
-    "estimatedPriceRange": "$999–$1,299",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Samsung+ViewFinity+S9+5K+Monitor&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Samsung+ViewFinity+S9+5K+Monitor&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Samsung+ViewFinity+S9+5K+Monitor"
-  },
-  {
-    "id": 13,
-    "slug": "logitech-mx-keys-s-keyboard",
-    "title": "Logitech MX Keys S Keyboard",
-    "shortDescription": "A premium wireless keyboard with smart backlighting, multi-device pairing, and a comfortable key profile. Works across Mac, Windows, and Linux seamlessly.",
-    "category": "Home Office",
-    "whyItIsInteresting": "The proximity-sensing backlight and smart actions macro system boost productivity without extra software. Flow lets you type across multiple computers effortlessly.",
-    "imageIdea": "Low-profile wireless keyboard with warm backlighting on a wooden desk",
-    "sourceLink": "https://www.logitech.com",
-    "estimatedPriceRange": "$109",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Logitech+MX+Keys+S+Keyboard&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Logitech+MX+Keys+S+Keyboard&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech+MX+Keys+S+Keyboard"
-  },
-  {
     "id": 14,
     "slug": "flexispot-e7-standing-desk",
     "title": "FlexiSpot E7 Standing Desk",
@@ -2578,5 +2483,56 @@
     "dateAdded": "2026-04-14",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Lightform%20Projector",
     "badge": "great-gift"
+  },
+  {
+    "id": 142,
+    "slug": "whisper-quiet-smart-humidifier",
+    "title": "Levoit Aura Smart Humidifier",
+    "shortDescription": "Experience ultimate comfort with the Levoit Aura Smart Humidifier. This device intelligently monitors and adjusts humidity levels, ensuring optimal air quality for your home. Its whisper-quiet operation and sleek design make it a seamless addition to any room.",
+    "category": "Home Appliances",
+    "whyItIsInteresting": "This humidifier integrates with smart home ecosystems, allowing for voice control and automated scheduling. Its advanced sensor technology provides precise humidity control, preventing dryness and improving respiratory health.",
+    "imageIdea": "humidifier mist bedroom",
+    "sourceLink": "https://www.levoit.com/levoit-aura-smart-humidifier-h940",
+    "estimatedPriceRange": "$99-$129",
+    "availableOnAmazon": true,
+    "type": "product",
+    "dateAdded": "2026-04-14",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Levoit%20Aura%20Smart%20Humidifier&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Levoit%20Aura%20Smart%20Humidifier&tag=vaultvibe-20"
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Levoit%20Aura%20Smart%20Humidifier"
+  },
+  {
+    "id": 143,
+    "slug": "reMarkable-2-with-stylus-and-folio",
+    "title": "reMarkable 2",
+    "shortDescription": "The reMarkable 2 is a paper-thin tablet designed for taking notes and reading. It offers a paper-like writing experience with its Marker stylus and a digital notebook that feels incredibly natural. Sync your notes to the cloud and access them from anywhere.",
+    "category": "Electronics",
+    "whyItIsInteresting": "This device offers a distraction-free digital writing experience, mimicking the feel of pen on paper. It's perfect for students, writers, and professionals who want to reduce screen fatigue and focus on their ideas without the clutter of a typical tablet.",
+    "imageIdea": "tablet stylus hand writing",
+    "sourceLink": "https://remarkable.com/store/remarkable-2",
+    "estimatedPriceRange": "$349-$449",
+    "availableOnAmazon": false,
+    "type": "product",
+    "dateAdded": "2026-04-14",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=reMarkable%202"
+  },
+  {
+    "id": 144,
+    "slug": "phantom-stereo-bluetooth-headphones",
+    "title": "Devialet Mania",
+    "shortDescription": "Immerse yourself in unparalleled sound with the Devialet Mania portable speaker. Its active speaker system delivers 360-degree audio, adapting to your environment for an optimized listening experience. Enjoy high-fidelity sound on the go with its long-lasting battery.",
+    "category": "Audio",
+    "whyItIsInteresting": "Devialet is known for its high-end audio engineering, and the Mania brings that expertise to a portable speaker. Its intelligent sound architecture, including adaptive room correction, sets it apart from other portable speakers, offering a truly premium audio experience.",
+    "imageIdea": "portable speaker on patio table",
+    "sourceLink": "https://us.devialet.com/products/mania",
+    "estimatedPriceRange": "$790-$990",
+    "availableOnAmazon": false,
+    "type": "product",
+    "dateAdded": "2026-04-14",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Devialet%20Mania"
   }
 ]
