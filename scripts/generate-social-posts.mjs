@@ -42,14 +42,7 @@ const CATEGORY_FILES = {
   "daily-tools": "daily-tools.json",
 };
 
-// URL path segments for each category
-const CATEGORY_PATHS = {
-  products: "products",
-  discoveries: "discoveries",
-  "hidden-gems": "hidden-gems",
-  "future-radar": "future-radar",
-  "daily-tools": "daily-tools",
-};
+// All items use /item/[slug] route (static export)
 
 // Pinterest board name mapping
 const BOARD_MAP = {
@@ -121,8 +114,7 @@ async function main() {
   const posts = [];
   for (const item of selected) {
     const imageUrl = imageCache[item.slug] || "";
-    const catPath = CATEGORY_PATHS[item._category];
-    const productUrl = `${SITE_URL}/${catPath}/${item.slug}`;
+    const productUrl = `${SITE_URL}/item/${item.slug}`;
     const affiliateUrl = item.directAmazonUrl || productUrl;
 
     console.log(`  Generating posts for: ${item.title}`);
