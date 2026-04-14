@@ -176,17 +176,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fnotebooklm.google.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 21,
-    "slug": "hemingway-editor",
-    "name": "Hemingway Editor",
-    "whatItDoes": "A writing tool that highlights complex sentences, passive voice, adverbs, and readability issues in your text. It assigns a grade level and suggests simplifications to make prose clearer.",
-    "category": "Writing",
-    "whyItIsUseful": "It forces you to write with clarity by making bad habits visually obvious. The color-coded feedback loop trains you to produce tighter, more readable writing over time.",
-    "websiteLink": "https://hemingwayapp.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhemingwayapp.com&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 22,
     "slug": "languagetool",
     "name": "LanguageTool",
@@ -363,17 +352,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fzulip.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 38,
-    "slug": "loom",
-    "name": "Loom",
-    "whatItDoes": "A video messaging tool that lets you record your screen, camera, or both and instantly share the recording via a link. It includes features like viewer analytics, comments, and auto-generated transcripts.",
-    "category": "Communication",
-    "whyItIsUseful": "It replaces meetings that could have been emails with quick video explanations. Asynchronous video is faster to record than writing and easier to understand than text for visual topics.",
-    "websiteLink": "https://www.loom.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.loom.com&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 39,
     "slug": "daily-dev",
     "name": "daily.dev",
@@ -506,28 +484,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fstockanalysis.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 51,
-    "slug": "bitwarden",
-    "name": "Bitwarden",
-    "whatItDoes": "An open-source password manager that stores and auto-fills credentials across all devices and browsers. It supports two-factor authentication, secure sharing, and self-hosting.",
-    "category": "Privacy & Security",
-    "whyItIsUseful": "It provides enterprise-grade password management for free without the privacy concerns of closed-source alternatives. The self-hosting option gives organizations complete control over their credential data.",
-    "websiteLink": "https://bitwarden.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fbitwarden.com&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 52,
-    "slug": "simplelogin",
-    "name": "SimpleLogin",
-    "whatItDoes": "An email alias service that lets you create unlimited aliases that forward to your real inbox. You can reply from aliases, block them individually, and use them for sign-ups to prevent spam.",
-    "category": "Privacy & Security",
-    "whyItIsUseful": "It protects your real email address from data breaches and spam by giving every service a unique alias. If an alias gets compromised, you simply disable it without affecting your primary email.",
-    "websiteLink": "https://simplelogin.io",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsimplelogin.io&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 53,
     "slug": "cryptpad",
     "name": "CryptPad",
@@ -537,17 +493,6 @@
     "websiteLink": "https://cryptpad.org",
     "type": "hidden-gem",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcryptpad.org&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 54,
-    "slug": "mullvad-vpn",
-    "name": "Mullvad VPN",
-    "whatItDoes": "A privacy-focused VPN service that requires no email, name, or personal information to sign up. It uses account numbers instead of accounts and accepts anonymous payment methods including cash.",
-    "category": "Privacy & Security",
-    "whyItIsUseful": "It is one of the few VPN providers that genuinely cannot identify its users even if compelled. The flat pricing and no-logging policy make it a trustworthy choice for real privacy needs.",
-    "websiteLink": "https://mullvad.net",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmullvad.net&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 55,
@@ -570,17 +515,6 @@
     "websiteLink": "https://insighttimer.com",
     "type": "hidden-gem",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Finsighttimer.com&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 57,
-    "slug": "cronometer",
-    "name": "Cronometer",
-    "whatItDoes": "A nutrition tracking app that provides detailed micronutrient data for everything you eat, covering over 80 vitamins, minerals, and amino acids. It uses verified, lab-analyzed food data rather than user-submitted entries.",
-    "category": "Health & Wellness",
-    "whyItIsUseful": "It reveals nutritional blind spots that calorie-only trackers miss entirely. The accuracy of its database makes it trusted by researchers, dietitians, and people with specific health conditions.",
-    "websiteLink": "https://cronometer.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcronometer.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 58,
@@ -924,19 +858,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.algorithm-visualizer.org%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 87,
-    "slug": "coolors",
-    "name": "Coolors",
-    "whatItDoes": "Coolors is a super fast color palette generator that allows designers to create, save, and export harmonious color schemes in seconds. Users can lock specific colors and press spacebar to generate new combinations.",
-    "category": "Design",
-    "whyItIsUseful": "It's an indispensable tool for graphic designers, web developers, and artists needing quick inspiration and perfectly matched color palettes for their projects. It streamlines the design process by taking the guesswork out of color selection.",
-    "imageIdea": "A vibrant array of five color swatches arranged in a palette, with a 'generate' button and a subtle gradient background.",
-    "websiteLink": "https://coolors.co/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcoolors.co%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 88,
     "slug": "freedom",
     "name": "Freedom",
@@ -948,19 +869,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-13",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ffreedom.to%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 89,
-    "slug": "remove-bg",
-    "name": "remove.bg",
-    "whatItDoes": "remove.bg is an online tool that automatically removes the background from any image with just a few clicks. It uses AI to detect the foreground subject and separate it from the background, providing a transparent PNG or allowing you to add a new background. It streamlines the process of image editing for various uses.",
-    "category": "Design",
-    "whyItIsUseful": "This tool is incredibly useful for designers, marketers, and anyone needing quick and clean image cutouts without complex photo editing software. It saves significant time by automating a task that traditionally requires manual work, making professional-looking product shots or profile pictures easily achievable for everyone.",
-    "imageIdea": "A before-and-after image split; one side shows a cluttered photo, the other shows the main subject perfectly cut out against a transparent background.",
-    "websiteLink": "https://www.remove.bg/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.remove.bg%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 90,
@@ -1002,19 +910,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhttpie.io%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 93,
-    "slug": "squoosh",
-    "name": "Squoosh",
-    "whatItDoes": "Squoosh is a free, open-source web app developed by Google that allows users to compress and optimize images using various advanced codecs. It provides a live side-by-side comparison to instantly see the impact of different compression settings.",
-    "category": "Design",
-    "whyItIsUseful": "It's incredibly useful for web developers, designers, or anyone needing to reduce image file sizes without sacrificing quality. Its intuitive interface and powerful algorithms make optimizing images for web performance accessible to everyone.",
-    "imageIdea": "A split-screen view showing an original image on one side and a compressed version on the other, with compression settings controls visible.",
-    "websiteLink": "https://squoosh.app/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsquoosh.app%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 94,
     "slug": "glasp",
     "name": "Glasp",
@@ -1026,19 +921,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-14",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fglasp.co%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 95,
-    "slug": "photopea",
-    "name": "Photopea",
-    "whatItDoes": "Photopea is a free, advanced online raster and vector graphics editor that runs directly in your web browser. It's designed to be highly compatible with Adobe Photoshop (PSD), GIMP (XCF), Sketch, and other popular design file formats.",
-    "category": "Design",
-    "whyItIsUseful": "This tool provides professional-grade image manipulation capabilities without the need for expensive software installations. It's incredibly useful for quick edits, mockups, or for anyone needing powerful graphic design features on the go or on a budget.",
-    "imageIdea": "A screenshot of the Photopea interface in a web browser, displaying an image being edited with layers, tools, and panels visible, similar to Photoshop.",
-    "websiteLink": "https://www.photopea.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.photopea.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 96,
@@ -1093,71 +975,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Froamresearch.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 100,
-    "slug": "krita",
-    "name": "Krita",
-    "whatItDoes": "Krita is a free and open-source raster graphics editor primarily designed for digital painting, 2D animation, and concept art. It provides a comprehensive suite of tools for artists, including a wide array of brushes, layers, and color management features.",
-    "category": "Design",
-    "whyItIsUseful": "It offers a professional-grade alternative to expensive proprietary software like Photoshop for artists on a budget. Its powerful brush engine, animation capabilities, and active community make it excellent for creating comics, illustrations, and animations.",
-    "imageIdea": "A digital painting being created on a tablet with Krita's interface visible, showing various brushes and color palettes.",
-    "websiteLink": "https://krita.org/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fkrita.org%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 101,
-    "slug": "zotero",
-    "name": "Zotero",
-    "whatItDoes": "Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research. It allows you to save references from web pages, PDFs, and databases with a single click and organize them into collections.",
-    "category": "Education",
-    "whyItIsUseful": "It streamlines the research process by automating bibliography creation in various citation styles and integrating directly with word processors. This saves immense time and effort for students, academics, and writers, ensuring accurate and consistent referencing.",
-    "imageIdea": "A person using Zotero's browser extension to save a research paper, with a sidebar showing an organized library of sources.",
-    "websiteLink": "https://www.zotero.org/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.zotero.org%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 102,
-    "slug": "habitica",
-    "name": "Habitica",
-    "whatItDoes": "Habitica is a free habit-building and productivity app that treats your goals like a game. When you complete tasks, you earn gold and experience points to level up your custom pixel-art avatar and unlock in-game items like armor, pets, and quests.",
-    "category": "Health",
-    "whyItIsUseful": "By turning personal development into an engaging RPG, it provides strong motivation to stick to positive habits and break bad ones. The gamified approach and social features make it easier and more fun to stay accountable and achieve your personal goals.",
-    "imageIdea": "A pixel-art avatar celebrating after completing a task, with a progress bar filling up and coins appearing, against a fantasy background.",
-    "websiteLink": "https://habitica.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhabitica.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 103,
-    "slug": "sharex",
-    "name": "ShareX",
-    "whatItDoes": "ShareX is a free and open-source program that lets you capture screenshots or screen recordings with a wide range of customizable options. It also provides powerful file uploading, annotation, and workflow automation capabilities for various online services.",
-    "category": "Productivity",
-    "whyItIsUseful": "This tool is incredibly useful for anyone who frequently needs to share visual information quickly and efficiently, from bug reports to design feedback. Its extensive set of upload destinations and post-capture actions can significantly streamline workflows and save time.",
-    "imageIdea": "A screenshot being taken with an overlay of annotation tools, and small icons representing various upload destinations like imgur, github, etc.",
-    "websiteLink": "https://getsharex.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgetsharex.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 104,
-    "slug": "raindrop-io",
-    "name": "Raindrop.io",
-    "whatItDoes": "Raindrop.io is a modern, feature-rich bookmark manager that allows you to collect, organize, and view your online content from any device. It supports various media types like articles, images, videos, and even full web pages, saving them neatly into collections.",
-    "category": "Reference",
-    "whyItIsUseful": "It's highly useful for researchers, students, and anyone who needs a robust system to save and retrieve web content without clutter. Its powerful search, tagging, and nested collection features make it easy to find saved items, while the automatic article parsing creates a clean reading experience.",
-    "imageIdea": "A browser extension icon dropping a webpage into a visually appealing collection grid, with tags and different types of saved content (article, video, image).",
-    "websiteLink": "https://raindrop.io/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fraindrop.io%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 105,
     "slug": "flux",
     "name": "f.lux",
@@ -1210,19 +1027,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftella.tv%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 109,
-    "slug": "tinypng",
-    "name": "TinyPNG",
-    "whatItDoes": "TinyPNG is a web service that uses smart lossy compression techniques to reduce the file size of your PNG and JPEG images. It selectively decreases the number of colors in the image, requiring fewer bytes to store the data. This results in faster loading times for web content.",
-    "category": "Design",
-    "whyItIsUseful": "It significantly reduces image file sizes without noticeable loss in visual quality, making websites load faster and saving bandwidth for users. This is crucial for web developers, designers, and anyone sharing images online who needs to optimize performance.",
-    "imageIdea": "A small panda squashing a large image file into a tiny one, with data bars showing size reduction.",
-    "websiteLink": "https://tinypng.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftinypng.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 110,
     "slug": "scribehow",
     "name": "ScribeHow",
@@ -1249,19 +1053,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fninite.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 112,
-    "slug": "raycast",
-    "name": "Raycast",
-    "whatItDoes": "Raycast is an ultra-fast, extensible launcher for macOS that enhances productivity by providing quick access to apps, files, snippets, and custom scripts. It features a powerful command palette with integrated search, window management, and a vast library of community-built extensions.",
-    "category": "Productivity",
-    "whyItIsUseful": "It significantly accelerates daily workflows by minimizing mouse usage and context switching, allowing users to perform complex tasks with simple keyboard commands. For developers and power users, its extensibility makes it an indispensable tool for automation and integration.",
-    "imageIdea": "A sleek, dark command bar overlaying a macOS desktop, with various app icons and text suggestions appearing below the cursor, indicating fast search and action.",
-    "websiteLink": "https://www.raycast.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.raycast.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 113,
     "slug": "languagetool-2",
     "name": "LanguageTool",
@@ -1275,19 +1066,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Flanguagetool.org%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 114,
-    "slug": "streaks",
-    "name": "Streaks",
-    "whatItDoes": "Streaks is a beautiful and intuitive habit tracking app for iOS and macOS, designed to help users form good habits and break bad ones. It allows tracking up to twelve tasks daily, focusing on building a 'streak' of consecutive completions to maintain motivation.",
-    "category": "Health",
-    "whyItIsUseful": "Its minimalist design and clear focus on maintaining streaks provide a powerful incentive for consistent action, making it easier to establish routines like exercising, reading, or meditating. The app's simplicity and smart reminders contribute to long-term habit formation.",
-    "imageIdea": "A clean mobile app interface showing a grid of circular icons, each representing a habit, with some showing a high 'streak' number and a green checkmark.",
-    "websiteLink": "https://streaksapp.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fstreaksapp.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 115,
     "slug": "picular",
     "name": "Picular",
@@ -1299,19 +1077,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-14",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fpicular.co%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 116,
-    "slug": "numbeo",
-    "name": "Numbeo",
-    "whatItDoes": "The world's largest database of user contributed data about cities and countries worldwide. It provides current and historical information about cost of living, housing indicators, crime rates, and quality of life.",
-    "category": "Finance",
-    "whyItIsUseful": "Indispensable for anyone planning to move, travel, or simply understand living costs in different locations globally, offering realistic insights based on crowdsourced data.",
-    "imageIdea": "A map or comparison table showing cost of living data between two cities.",
-    "websiteLink": "https://www.numbeo.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.numbeo.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 117,
@@ -1364,19 +1129,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-14",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdevrant.com&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 121,
-    "slug": "milanote",
-    "name": "Milanote",
-    "whatItDoes": "Milanote is an online workspace for creatives, acting like an infinite digital whiteboard. It allows users to collect notes, images, files, links, and even videos, organizing them visually to build mood boards, storyboards, and creative briefs.",
-    "category": "Design",
-    "whyItIsUseful": "It's incredibly useful for visual thinkers and teams who need a flexible way to brainstorm, organize ideas, and collaborate on projects. Its freeform canvas helps in seeing the big picture and making connections that might be missed in linear documents.",
-    "imageIdea": "A boundless digital whiteboard with various sticky notes, images, and lines connecting different ideas, hinting at creative organization.",
-    "websiteLink": "https://www.milanote.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.milanote.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 122,
@@ -1457,19 +1209,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fpolypane.app%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 128,
-    "slug": "dynalist",
-    "name": "Dynalist",
-    "whatItDoes": "Dynalist is a powerful outlining tool designed for organizing thoughts, notes, and projects in an infinite hierarchical structure. It allows users to break down complex ideas into manageable bullet points, supporting markdown, tags, and internal links for rich content.",
-    "category": "Productivity",
-    "whyItIsUseful": "This tool is exceptional for brainstorming, structuring long-form writing, and managing complex tasks without getting overwhelmed. Its clean interface, powerful search capabilities, and keyboard-driven workflow make it incredibly fast and efficient for capturing and organizing information.",
-    "imageIdea": "A clean, minimalist outliner interface with nested bullet points, some with tags and internal links visible.",
-    "websiteLink": "https://dynalist.io/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdynalist.io%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 129,
     "slug": "endel",
     "name": "Endel",
@@ -1507,19 +1246,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-14",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgetkap.co%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 132,
-    "slug": "anki",
-    "name": "Anki",
-    "whatItDoes": "Anki is a powerful open-source flashcard program that leverages spaced repetition to help you memorize facts efficiently. It optimizes review times based on your performance, ensuring you study the right material at the right moment for maximum retention.",
-    "category": "Education",
-    "whyItIsUseful": "Anki is highly effective for learning languages, medical terminology, historical dates, or any fact-based knowledge system. Its customizable interface and extensive add-on ecosystem allow users to tailor their learning experience precisely to their needs.",
-    "imageIdea": "A user interacting with a flashcard on a desktop screen, possibly showing a language learning context or complex scientific formulas. The UI should highlight the 'show answer' and rating buttons.",
-    "websiteLink": "https://apps.ankiweb.net/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fapps.ankiweb.net%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 133,

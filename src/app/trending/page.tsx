@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { products, getSubCategories } from "@/lib/data";
+import { products, getSubCategories, getFilterCategory } from "@/lib/data";
 import { type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
@@ -52,7 +52,7 @@ export default function TrendingPage() {
   const filtered = useMemo(() => {
     let items = [...products];
     if (activeCategory !== "All") {
-      items = items.filter((i) => i.category === activeCategory);
+      items = items.filter((i) => getFilterCategory(i) === activeCategory);
     }
     if (priceFilter !== "All") {
       const range = PRICE_RANGES.find((r) => r.label === priceFilter);
@@ -257,7 +257,7 @@ export default function TrendingPage() {
                 <div className="p-6 flex flex-col flex-1">
                 <div className="flex items-start justify-between gap-2 mb-3">
                   <div className="flex items-center gap-2">
-                    <CategoryBadge label={item.category} color="emerald" />
+                    <CategoryBadge label={getFilterCategory(item)} color="emerald" />
                     {item.estimatedPriceRange && (
                       <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                         {item.estimatedPriceRange}
@@ -445,7 +445,7 @@ export default function TrendingPage() {
                       <div key={p.slug} className="flex flex-col gap-4 rounded-xl border border-border p-5 bg-card">
                         <ItemImage slug={p.slug} alt={p.title} aspectRatio="3/2" width={400} height={267} size="sm" />
                         <div>
-                          <CategoryBadge label={p.category} color="emerald" className="mb-2" />
+                          <CategoryBadge label={getFilterCategory(p)} color="emerald" className="mb-2" />
                           <h3 className="font-bold text-foreground text-sm leading-snug mb-1">{p.title}</h3>
                         </div>
                         <div className="text-2xl font-bold text-emerald-400">{p.estimatedPriceRange || "—"}</div>

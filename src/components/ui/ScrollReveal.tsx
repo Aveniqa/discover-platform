@@ -12,19 +12,24 @@ interface ScrollRevealProps {
 
 export function ScrollReveal({ children, delay = 0, className = "", placeholder }: ScrollRevealProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
+  // Start visible so SSR/SSG renders content fully — JS then hides off-screen cards
+  const [visible, setVisible] = useState(true);
+  const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
+    setHydrated(true);
     const el = ref.current;
     if (!el) return;
 
-    // Check if already in viewport on mount (fixes above-fold cards never triggering)
+    // If already in viewport on mount, keep visible (no animation needed)
     const rect = el.getBoundingClientRect();
     if (rect.top < window.innerHeight + 50) {
       setVisible(true);
       return;
     }
 
+    // Below viewport — hide and animate in on scroll
+    setVisible(false);
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -47,7 +52,7 @@ export function ScrollReveal({ children, delay = 0, className = "", placeholder 
         <div
           style={{
             opacity: visible ? 0 : 1,
-            transition: `opacity 0.4s ease ${delay}ms`,
+            transition: hydrated ? `opacity 0.4s ease ${delay}ms` : "none",
             pointerEvents: visible ? "none" : "auto",
           }}
           aria-hidden={visible}
@@ -60,7 +65,9 @@ export function ScrollReveal({ children, delay = 0, className = "", placeholder 
           style={{
             opacity: visible ? 1 : 0,
             transform: visible ? "translateY(0)" : "translateY(16px)",
-            transition: `opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms`,
+            transition: hydrated
+              ? `opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms`
+              : "none",
           }}
         >
           {children}
@@ -76,7 +83,9 @@ export function ScrollReveal({ children, delay = 0, className = "", placeholder 
       style={{
         opacity: visible ? 1 : 0,
         transform: visible ? "translateY(0)" : "translateY(24px)",
-        transition: `opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms`,
+        transition: hydrated
+          ? `opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms`
+          : "none",
       }}
     >
       {children}

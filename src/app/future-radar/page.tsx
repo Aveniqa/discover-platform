@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { futureRadar, getSubCategories, type AnyItem } from "@/lib/data";
+import { futureRadar, getSubCategories, getFilterCategory, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
 
@@ -24,7 +24,7 @@ export default function FutureRadarPage() {
   const filtered = useMemo(() => {
     let items = [...futureRadar];
     if (activeCategory !== "All") {
-      items = items.filter((i) => i.industry === activeCategory);
+      items = items.filter((i) => getFilterCategory(i) === activeCategory);
     }
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
@@ -65,7 +65,7 @@ export default function FutureRadarPage() {
             <span className="gradient-text">Radar</span>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-            Breakthroughs that will reshape the world -- tracked with timelines
+            Breakthroughs that will reshape the world — tracked with timelines
             and impact analysis.{" "}
             <span className="font-semibold text-foreground">
               {futureRadar.length}
@@ -183,7 +183,7 @@ export default function FutureRadarPage() {
                 <div className="p-6">
                 <div className="flex items-start justify-between gap-2 mb-3">
                   <div className="flex items-center gap-2">
-                    <CategoryBadge label={item.industry} color="cyan" />
+                    <CategoryBadge label={getFilterCategory(item)} color="cyan" />
                     {item.developmentStage && (
                       <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
                         {item.developmentStage}

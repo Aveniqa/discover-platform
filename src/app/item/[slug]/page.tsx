@@ -362,7 +362,7 @@ export default async function ItemPage({ params }: Props) {
           <>
             <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" />
             {isPexelsImage(slug) && (
-              <p className="absolute bottom-2 right-3 text-[10px] text-white/30">
+              <p className="absolute bottom-2 right-3 text-[10px] text-white/60">
                 Photo via Pexels
               </p>
             )}

@@ -14,6 +14,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://surfaced-x.pages.dev"),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     default: "Surfaced — What the Internet Surfaced Today",
     template: "%s — Surfaced",

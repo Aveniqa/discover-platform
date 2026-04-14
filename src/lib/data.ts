@@ -244,8 +244,66 @@ export function getRelatedItems(item: AnyItem, count = 4): AnyItem[] {
   return allType.slice(0, count);
 }
 
+/* ---- Category Normalization ----
+   Verbose compound categories ("Smart Home / Entertainment Lighting",
+   "Biotechnology, Personalized Medicine, Neuroscience, AI, Nutrition")
+   are collapsed to clean top-level labels for filter UIs. */
+
+const PRODUCT_CATEGORY_MAP: Record<string, string> = {};
+const FUTURE_INDUSTRY_MAP: Record<string, string> = {};
+
+function normalizeProductCategory(raw: string): string {
+  if (PRODUCT_CATEGORY_MAP[raw]) return PRODUCT_CATEGORY_MAP[raw];
+  const r = raw.toLowerCase();
+  if (r.includes("audio") || r.includes("speaker") || r.includes("headphone") || r.includes("earbuds")) return "Audio";
+  if (r.includes("kitchen") || r.includes("sous vide") || r.includes("coffee") || r.includes("dining") || r.includes("cooking")) return "Kitchen & Home";
+  if (r.includes("smart home") || r.includes("automation") || r.includes("cleaning") || r.includes("security") || r.includes("decor") || r.includes("entertainment lighting") || r.includes("gardening")) return "Smart Home";
+  if (r.includes("outdoor") || r.includes("camping") || r.includes("travel") || r.includes("adventure") || r.includes("satellite")) return "Outdoor & Travel";
+  if (r.includes("fitness") || r.includes("wellness") || r.includes("health") || r.includes("ergonomic") || r.includes("personal care") || r.includes("oral health")) return "Health & Wellness";
+  if (r.includes("wearable") || r.includes("sports")) return "Wearable Tech";
+  if (r.includes("pet")) return "Pet Care";
+  if (r.includes("photo") || r.includes("drone") || r.includes("camera")) return "Photography";
+  if (r.includes("gaming")) return "Gaming";
+  if (r.includes("fashion") || r.includes("bag") || r.includes("accessories") || r.includes("beauty")) return "Fashion & Accessories";
+  if (r.includes("productivity") || r.includes("electronics") || r.includes("home office")) return "Productivity";
+  if (r.includes("sustainability")) return "Sustainability";
+  if (r.includes("gift")) return "Gifts";
+  if (r.includes("home") || r.includes("garden")) return "Kitchen & Home";
+  return raw; // fallback to original
+}
+
+function normalizeFutureIndustry(raw: string): string {
+  if (FUTURE_INDUSTRY_MAP[raw]) return FUTURE_INDUSTRY_MAP[raw];
+  const r = raw.toLowerCase();
+  if (r.includes("biotech") || r.includes("pharma") || r.includes("regenerative") || r.includes("bio-engineering") || r.includes("oncology")) return "Biotechnology";
+  if (r.includes("healthcare") || r.includes("medical") || r.includes("neuroscience") || r.includes("assistive")) return "Healthcare";
+  if (r.includes("ai") || r.includes("computing") || r.includes("quantum") || r.includes("semiconductor") || r.includes("machine learning") || r.includes("data storage")) return "AI & Computing";
+  if (r.includes("climate") || r.includes("environment") || r.includes("waste") || r.includes("remediation")) return "Climate & Environment";
+  if (r.includes("energy") || r.includes("renewable")) return "Energy";
+  if (r.includes("space") || r.includes("aerospace")) return "Space & Aerospace";
+  if (r.includes("robot") || r.includes("manufacturing") || r.includes("nanotechnology") || r.includes("3d print")) return "Manufacturing & Robotics";
+  if (r.includes("material")) return "Materials Science";
+  if (r.includes("transport") || r.includes("logistics")) return "Transportation";
+  if (r.includes("construction") || r.includes("architecture") || r.includes("urban") || r.includes("smart cit") || r.includes("infrastructure")) return "Construction & Cities";
+  if (r.includes("agriculture") || r.includes("horticulture")) return "Agriculture";
+  if (r.includes("telecom") || r.includes("communication") || r.includes("cybersecurity")) return "Telecom & Security";
+  if (r.includes("education")) return "Education";
+  if (r.includes("entertainment") || r.includes("gaming") || r.includes("wellness") || r.includes("consumer")) return "Consumer Tech";
+  return raw.split(",")[0].trim(); // fallback to first term
+}
+
+/** Get the display-friendly filter category for a given item */
+export function getFilterCategory(item: AnyItem): string {
+  const raw = getItemCategory(item);
+  if (item.type === "product") return normalizeProductCategory(raw);
+  if (item.type === "future-tech") return normalizeFutureIndustry(raw);
+  return raw;
+}
+
 export function getSubCategories(itemType: string): string[] {
   const items = getAllItems().filter((i) => i.type === itemType);
-  const cats = new Set(items.map(getItemCategory));
+  const cats = new Set(items.map(i =>
+    itemType === "product" || itemType === "future-tech" ? getFilterCategory(i) : getItemCategory(i)
+  ));
   return Array.from(cats).sort();
 }
