@@ -57,17 +57,17 @@ jobs:
           echo "   Collection pages: $COLLECTION_PAGES"
 
           # ── Minimum thresholds ──
-          # Total pages should be at least 600 (currently 614)
-          # Item pages should be at least 580 (currently 591)
+          # Total pages should be at least 550 (currently 580 after duplicate cleanup)
+          # Item pages should be at least 530 (currently 557 after duplicate cleanup)
           # Top-level pages should be at least 15 (currently 18)
           ERRORS=""
 
-          if [ "$TOTAL_HTML" -lt 600 ]; then
-            ERRORS="${ERRORS}❌ Total pages ($TOTAL_HTML) dropped below 600 minimum.\n"
+          if [ "$TOTAL_HTML" -lt 550 ]; then
+            ERRORS="${ERRORS}❌ Total pages ($TOTAL_HTML) dropped below 550 minimum.\n"
           fi
 
-          if [ "$ITEM_PAGES" -lt 580 ]; then
-            ERRORS="${ERRORS}❌ Item pages ($ITEM_PAGES) dropped below 580 minimum.\n"
+          if [ "$ITEM_PAGES" -lt 530 ]; then
+            ERRORS="${ERRORS}❌ Item pages ($ITEM_PAGES) dropped below 530 minimum.\n"
           fi
 
           if [ "$TOP_PAGES" -lt 15 ]; then
@@ -302,7 +302,7 @@ jobs:
               ``,
               `### What to check:`,
               `- Did the build complete without errors?`,
-              `- Are all 600+ pages generated?`,
+              `- Are all 550+ pages generated?`,
               `- Are all data JSON files valid?`,
               `- Are critical pages (index, 404, categories) present?`,
               ``,
