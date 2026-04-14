@@ -124,9 +124,12 @@ async function main() {
     // Fetch a relevant image using Gemini's suggested search query
     let imageUrl = fallbackImageUrl;
     if (PEXELS_API_KEY && socialContent) {
-      // Use Gemini's query if available, otherwise derive from title
+      // Use Gemini's query if available, otherwise derive key nouns from title
+      const stopWords = new Set(['a','an','the','of','in','on','is','are','was','were','it','its','that','this','to','for','and','or','but','with','from','by','at','as','how','why','what','can','has','had','have','more','than','most','your','our','their','there','here','about','into','over','after','before','between','through','during','against','without','within','along','across','behind','beyond','above','below','who','which','where','when','will','would','could','should','may','might','shall','do','does','did','not','no','just','also','very','too','only','even','still','already','never','always','often','sometimes','really','quite','rather','almost','every','each','both','all','any','some','few','many','much','enough','several']);
       const searchQuery = socialContent.imageSearchQuery
-        || item.title.replace(/[^a-zA-Z0-9 ]/g, '').split(' ').slice(0, 4).join(' ');
+        || item.title.replace(/[^a-zA-Z0-9 ]/g, '').split(' ')
+          .filter(w => w.length > 2 && !stopWords.has(w.toLowerCase()))
+          .slice(0, 4).join(' ');
       const searchedImage = await searchPexelsImage(searchQuery);
       if (searchedImage) {
         imageUrl = searchedImage;
