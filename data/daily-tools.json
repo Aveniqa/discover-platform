@@ -493,7 +493,8 @@
     "websiteLink": "https://www.shopify.com/",
     "imageSearchQuery": "Shopify e-commerce platform store dashboard",
     "type": "tool",
-    "imageIdea": "online store ecommerce shopping cart"
+    "imageIdea": "online store ecommerce shopping cart",
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 122,
@@ -505,19 +506,8 @@
     "websiteLink": "https://www.shopify.com/pos",
     "imageSearchQuery": "Shopify POS retail point of sale tablet store",
     "type": "tool",
-    "imageIdea": "point of sale retail checkout terminal"
-  },
-  {
-    "id": 123,
-    "slug": "canva-design-platform",
-    "toolName": "Canva",
-    "whatItDoes": "Drag-and-drop design platform for creating social media graphics, presentations, posters, videos, and more — with thousands of templates and an AI-powered design assistant.",
-    "category": "Design",
-    "whyItIsUseful": "Canva has democratized design. Whether you need a quick Instagram post, a professional presentation, or a logo, you can create it in minutes without any design experience. The AI features make it even faster.",
-    "websiteLink": "https://www.canva.com/",
-    "imageSearchQuery": "Canva graphic design platform interface templates",
-    "type": "tool",
-    "imageIdea": "graphic design template social media"
+    "imageIdea": "point of sale retail checkout terminal",
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 124,
@@ -529,7 +519,8 @@
     "websiteLink": "https://www.notion.so/",
     "imageSearchQuery": "Notion productivity workspace app dashboard",
     "type": "tool",
-    "imageIdea": "workspace wiki database kanban board"
+    "imageIdea": "workspace wiki database kanban board",
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 125,
@@ -541,7 +532,8 @@
     "websiteLink": "https://www.skillshare.com/",
     "imageSearchQuery": "Skillshare online learning platform creative classes",
     "type": "tool",
-    "imageIdea": "creative class workshop project hands"
+    "imageIdea": "creative class workshop project hands",
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 126,
@@ -553,7 +545,8 @@
     "websiteLink": "https://www.fiverr.com/",
     "imageSearchQuery": "Fiverr freelance marketplace services homepage",
     "type": "tool",
-    "imageIdea": "freelancer gig marketplace creative services"
+    "imageIdea": "freelancer gig marketplace creative services",
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 61,
@@ -566,18 +559,6 @@
     "type": "tool",
     "dateAdded": "2026-04-13",
     "imageIdea": "digital notebook clipping organized green"
-  },
-  {
-    "id": 62,
-    "slug": "notion-all-in-one-workspace",
-    "toolName": "Notion",
-    "whatItDoes": "Notion is an all-in-one workspace that combines note-taking, project management, and knowledge base functionalities into a single, highly customizable application. You can build databases, wikis, and task managers tailored to your specific needs.",
-    "category": "Productivity",
-    "whyItIsUseful": "It offers unparalleled flexibility for individuals and teams to organize their work and lives. By consolidating multiple tools into one platform, it reduces context switching and promotes a more integrated approach to productivity.",
-    "websiteLink": "https://www.notion.so/",
-    "type": "tool",
-    "dateAdded": "2026-04-13",
-    "imageIdea": "workspace wiki database kanban board"
   },
   {
     "id": 63,
@@ -612,18 +593,6 @@
     "whyItIsUseful": "It significantly enhances the quality and professionalism of your written communication, whether for emails, documents, or social media. By catching errors and suggesting better phrasing, it helps you convey your message more effectively.",
     "imageIdea": "pen writing on paper",
     "websiteLink": "https://www.grammarly.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 66,
-    "slug": "notion-workspace-organizer",
-    "toolName": "Notion",
-    "whatItDoes": "Notion is an all-in-one workspace app that combines notes, tasks, wikis, and databases into a single, flexible platform. You can build custom workflows, manage projects, and store all your information in one place.",
-    "category": "Productivity",
-    "whyItIsUseful": "It offers unparalleled flexibility for organizing everything from personal notes and to-do lists to complex team projects and knowledge bases. Its customizable nature allows you to create a system that perfectly fits your needs and workflow.",
-    "imageIdea": "digital notebook pages",
-    "websiteLink": "https://www.notion.so/",
     "type": "tool",
     "dateAdded": "2026-04-13"
   },
@@ -748,18 +717,6 @@
     "dateAdded": "2026-04-14"
   },
   {
-    "id": 77,
-    "slug": "ynab-2",
-    "toolName": "YNAB (You Need A Budget)",
-    "whatItDoes": "YNAB is a powerful budgeting software designed to help you gain total control of your money. It operates on four core rules, emphasizing giving every dollar a job, embracing your true expenses, rolling with the punches, and aging your money.",
-    "category": "Finance",
-    "whyItIsUseful": "It provides a clear, actionable framework for budgeting that teaches users to be intentional with their spending and saving, rather than just tracking past transactions. Many users find it transformative for achieving financial goals like getting out of debt or saving for major purchases.",
-    "imageIdea": "A clean, modern dashboard view showing budget categories with progress bars, alongside a graph illustrating money aging over time.",
-    "websiteLink": "https://www.youneedabudget.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 78,
     "slug": "obsidian-2",
     "toolName": "Obsidian",
@@ -792,18 +749,6 @@
     "whyItIsUseful": "Its elegant and minimalist interface makes writing a pleasure, reducing distractions and enhancing focus. The intuitive tag-based organization system allows users to quickly categorize and retrieve information, making it ideal for everything from fleeting thoughts to lengthy documents.",
     "imageIdea": "A clean, minimalist note-taking interface on a Mac screen, showing Markdown formatting and a sidebar with nested hashtags.",
     "websiteLink": "https://bear.app/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 81,
-    "slug": "headspace-2",
-    "toolName": "Headspace",
-    "whatItDoes": "Headspace is a popular meditation and mindfulness app offering guided sessions to help users reduce stress, improve sleep, and enhance focus. It provides a wide range of courses and single meditations tailored for various situations, from beginner introductions to specific challenges like anxiety or creativity.",
-    "category": "Health",
-    "whyItIsUseful": "It democratizes mindfulness, making it accessible and easy to incorporate into daily life, regardless of prior experience. Consistent use helps individuals manage daily stressors, cultivate emotional resilience, and foster a greater sense of calm and well-being.",
-    "imageIdea": "A serene visual of a person meditating with a calm, abstract background, subtly incorporating the Headspace 'dot' logo.",
-    "websiteLink": "https://www.headspace.com/",
     "type": "tool",
     "dateAdded": "2026-04-14"
   },
@@ -904,18 +849,6 @@
     "dateAdded": "2026-04-14"
   },
   {
-    "id": 90,
-    "slug": "duolingo-2",
-    "toolName": "Duolingo",
-    "whatItDoes": "Duolingo is a popular language-learning platform that offers bite-sized lessons in various languages through gamified exercises, quizzes, and challenges. It covers reading, writing, listening, and speaking skills for learners of all levels.",
-    "category": "Education",
-    "whyItIsUseful": "It makes language acquisition accessible and engaging for anyone, regardless of their prior experience. Its daily practice structure helps build consistent learning habits and efficiently expand one's cultural horizons through interactive lessons.",
-    "imageIdea": "Duo the green owl mascot cheering, surrounded by flag icons of different countries and speech bubbles with foreign words.",
-    "websiteLink": "https://www.duolingo.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 91,
     "slug": "cleanshot-x",
     "toolName": "CleanShot X",
@@ -936,18 +869,6 @@
     "whyItIsUseful": "It helps improve concentration and relaxation by masking distracting environmental noises, making it easier to focus on tasks or unwind during breaks. The ability to fine-tune the sound mix ensures a pleasant and effective auditory environment tailored to individual preferences and needs throughout the day.",
     "imageIdea": "A minimalist web interface with individual volume sliders for various nature and ambient sounds (e.g., rain, fire, waves), surrounded by a calm, soft-toned background.",
     "websiteLink": "https://asoftmurmur.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 93,
-    "slug": "anki-2",
-    "toolName": "Anki",
-    "whatItDoes": "Anki is a powerful, open-source spaced repetition flashcard program designed to help users efficiently learn and retain information for the long term. It uses an adaptive algorithm to schedule reviews for flashcards based on how well the user knows each item, optimizing memory retention.",
-    "category": "Education",
-    "whyItIsUseful": "It significantly enhances long-term memory for complex subjects, languages, or facts by presenting information at optimal intervals, preventing forgetting and reducing study time. Its customizability and extensibility make it an incredibly versatile tool for students, language learners, and anyone looking to master new knowledge.",
-    "imageIdea": "A digital flashcard displaying a question or concept, with a graph or visual representation of a spaced repetition schedule, alongside a brain icon symbolizing memory enhancement.",
-    "websiteLink": "https://apps.ankiweb.net/",
     "type": "tool",
     "dateAdded": "2026-04-14"
   },
@@ -1020,18 +941,6 @@
     "whyItIsUseful": "This tool is invaluable for anyone who frequently encounters incompatible file formats or needs to quickly convert files without installing dedicated software. It simplifies cross-platform file sharing and ensures accessibility of content across different applications.",
     "imageIdea": "An abstract graphic representing various file types (e.g., PDF, JPG, MP4, DOC) flowing into a central conversion icon and then emerging as different, converted file types (e.g., TXT, PNG, MP3, PPT).",
     "websiteLink": "https://convertio.co/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 100,
-    "slug": "loom-2",
-    "toolName": "Loom",
-    "whatItDoes": "Loom allows you to quickly record your screen, camera, and microphone, then instantly share the video with a link. It's perfect for explaining complex ideas, giving feedback, or sending quick updates without scheduling a meeting.",
-    "category": "Productivity",
-    "whyItIsUseful": "It drastically cuts down on meeting time and clarifies communication by showing instead of just telling. This tool helps distributed teams stay connected and can save hours of writing lengthy emails or documents, fostering more efficient collaboration.",
-    "imageIdea": "A laptop screen showing a recording interface with a small bubble of a person's face in the corner, a play button icon, and a share link icon.",
-    "websiteLink": "https://www.loom.com/",
     "type": "tool",
     "dateAdded": "2026-04-14"
   },
@@ -1152,18 +1061,6 @@
     "whyItIsUseful": "It significantly boosts productivity by centralizing countless actions and workflows into a single, lightning-fast interface. Developers and power users benefit immensely from its extensibility, enabling them to automate repetitive tasks and deeply integrate with their favorite tools and services, saving vast amounts of time daily.",
     "imageIdea": "A screenshot of the Raycast command palette open, showing search results for applications, files, and a few extension commands (e.g., 'Create Notion page,' 'Search GitHub,' 'Convert currency').",
     "websiteLink": "https://www.raycast.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 111,
-    "slug": "zotero-2",
-    "toolName": "Zotero",
-    "whatItDoes": "Zotero is a free, open-source reference management tool designed to help academics, students, and researchers collect, organize, cite, and share research sources. It can automatically detect research on web pages, download metadata and PDFs, and integrates seamlessly with word processors to effortlessly create bibliographies and in-text citations.",
-    "category": "Education",
-    "whyItIsUseful": "For anyone involved in research or academic writing, Zotero is invaluable for streamlining the often tedious process of managing research literature. It ensures accuracy in citations, saves significant time during the writing phase, and helps keep track of vast amounts of information, thereby greatly improving research efficiency and organization.",
-    "imageIdea": "A split screen showing a web browser with a Zotero connector icon active, a Zotero desktop app window displaying an organized list of references, and a word processor document with an automatically generated bibliography.",
-    "websiteLink": "https://www.zotero.org/",
     "type": "tool",
     "dateAdded": "2026-04-14"
   },
@@ -1289,18 +1186,6 @@
     "dateAdded": "2026-04-14"
   },
   {
-    "id": 128,
-    "slug": "evernote",
-    "toolName": "Evernote",
-    "whatItDoes": "A note-taking application that allows users to capture ideas, organize thoughts, and save information in various formats like text, audio, and web clippings. It offers robust search capabilities to find stored information quickly.",
-    "category": "Productivity",
-    "whyItIsUseful": "Evernote is a powerful tool for organizing personal and professional information, acting as a digital brain. It helps in remembering tasks, storing research, and keeping track of important details across different aspects of life.",
-    "imageIdea": "digital notebook organized pages",
-    "websiteLink": "https://evernote.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 129,
     "slug": "spotify",
     "toolName": "Spotify",
@@ -1309,42 +1194,6 @@
     "whyItIsUseful": "Spotify enhances daily life by providing a vast library of audio content for entertainment, focus, or relaxation. It's excellent for discovering new music, curating playlists for different activities, and staying updated with favorite artists.",
     "imageIdea": "headphones listening music",
     "websiteLink": "https://www.spotify.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 130,
-    "slug": "obsidian-notes",
-    "toolName": "Obsidian",
-    "whatItDoes": "Obsidian is a powerful knowledge base that works on local Markdown files. It allows you to link your thoughts together, creating a network of interconnected notes that fosters deeper understanding and recall.  This tool is ideal for building a personal wiki or a second brain.",
-    "category": "Productivity",
-    "whyItIsUseful": "Obsidian excels at helping you organize complex information and discover new connections between ideas. Its local-first approach ensures your data is private and portable, while its extensive plugin ecosystem allows for immense customization to fit your unique workflow.",
-    "imageIdea": "digital brain network connections",
-    "websiteLink": "https://obsidian.md/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 131,
-    "slug": "todoist-tasks",
-    "toolName": "Todoist",
-    "whatItDoes": "Todoist is a simple yet powerful task management app designed to help you organize your life and boost your productivity. It allows you to create to-do lists, set reminders, prioritize tasks, and collaborate with others on projects.",
-    "category": "Productivity",
-    "whyItIsUseful": "Its clean interface and intuitive design make it easy to capture and manage all your tasks, from daily errands to long-term goals. Todoist helps you stay on track, reduce overwhelm, and achieve more by breaking down big objectives into manageable steps.",
-    "imageIdea": "checklist daily planner organizer",
-    "websiteLink": "https://todoist.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 132,
-    "slug": "canva-design-editor",
-    "toolName": "Canva",
-    "whatItDoes": "Canva is an online graphic design tool that makes it easy to create beautiful visuals for any purpose. With a vast library of templates, photos, and design elements, you can design presentations, social media graphics, posters, and more without prior design experience.",
-    "category": "Design",
-    "whyItIsUseful": "Canva democratizes design, empowering individuals and small businesses to produce professional-looking materials quickly and affordably. Its drag-and-drop interface and collaborative features make it a versatile tool for both personal creative projects and team-based visual content creation.",
-    "imageIdea": "graphic design template collage",
-    "websiteLink": "https://www.canva.com/",
     "type": "tool",
     "dateAdded": "2026-04-14"
   }

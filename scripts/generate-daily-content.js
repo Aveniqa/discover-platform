@@ -160,10 +160,19 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
   const cleaned = text.replace(/^```json?\n?/, "").replace(/\n?```$/, "");
   const items = JSON.parse(cleaned);
 
-  // Assign IDs and de-duplicate slugs (append suffix instead of skipping)
+  // Assign IDs and reject true duplicates (same name as existing item)
+  const existingNames = new Set(
+    existingItems.map((i) => (i.title || i.name || i.toolName || i.techName || "").toLowerCase())
+  );
   let nextId = getNextId(existingItems);
   const validItems = [];
   for (const item of items) {
+    const itemName = (item.title || item.name || item.toolName || item.techName || "").toLowerCase();
+    // Skip exact name duplicates entirely
+    if (existingNames.has(itemName)) {
+      console.warn(`  ⚠ Duplicate name skipped: "${itemName}" (slug: ${item.slug})`);
+      continue;
+    }
     if (existingSlugs.has(item.slug)) {
       const base = item.slug;
       let suffix = 2;
@@ -175,6 +184,7 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
     item.dateAdded = today;
     validItems.push(item);
     existingSlugs.add(item.slug);
+    existingNames.add(itemName);
   }
 
   return validItems;

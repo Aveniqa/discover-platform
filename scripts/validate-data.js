@@ -91,6 +91,19 @@ for (const [cat, schema] of Object.entries(SCHEMAS)) {
     }
   }
 
+  // --- Duplicate name check ---
+  const nameField = { discoveries: "title", products: "title", "hidden-gems": "name", "future-radar": "techName", "daily-tools": "toolName" }[cat];
+  const nameCounts = {};
+  for (const item of items) {
+    const n = (item[nameField] || "").toLowerCase();
+    if (n) nameCounts[n] = (nameCounts[n] || 0) + 1;
+  }
+  for (const [name, count] of Object.entries(nameCounts)) {
+    if (count > 1) {
+      error(cat, `Duplicate name '${name}' appears ${count} times`);
+    }
+  }
+
   // --- Duplicate id check ---
   const idCounts = {};
   for (const item of items) {

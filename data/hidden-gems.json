@@ -670,7 +670,8 @@
     "imageSearchQuery": "Etsy handmade marketplace unique artisan products",
     "type": "hidden-gem",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.etsy.com%2F&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "handmade crafts artisan marketplace"
+    "imageIdea": "handmade crafts artisan marketplace",
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 76,
@@ -1011,19 +1012,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fninite.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 113,
-    "slug": "languagetool-2",
-    "name": "LanguageTool",
-    "whatItDoes": "LanguageTool is an open-source grammar, style, and spell checker that can detect numerous errors traditional spell checkers miss, including complex grammar issues, punctuation problems, and stylistic improvements in over 30 languages. It's available as a browser extension, desktop app, and integrates with many writing tools.",
-    "category": "Writing",
-    "whyItIsUseful": "It helps users produce professional and error-free text across various contexts, from emails and social media posts to academic papers and reports. Its comprehensive error detection and multilingual support ensure clear and correct communication for a global audience.",
-    "imageIdea": "A split screen showing a text document with highlighted grammar errors on one side, and suggestions from LanguageTool on the other, indicating corrections in multiple languages.",
-    "websiteLink": "https://languagetool.org/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Flanguagetool.org%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 115,
     "slug": "picular",
     "name": "Picular",
@@ -1206,19 +1194,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgetkap.co%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 133,
-    "slug": "excalidraw-2",
-    "name": "Excalidraw",
-    "whatItDoes": "A virtual whiteboard for sketching hand-drawn like diagrams and collaborating in real-time. It's perfect for brainstorming, designing user flows, or explaining complex concepts visually with a unique, artistic touch.",
-    "category": "Design",
-    "whyItIsUseful": "It makes diagramming fun and accessible, moving away from rigid, perfect lines to embrace a more natural, human-like aesthetic. Its real-time collaboration features are incredibly powerful for remote teams and quick idea sharing.",
-    "imageIdea": "A screenshot of the Excalidraw interface with a hand-drawn flowchart being collaboratively edited by two cursors.",
-    "websiteLink": "https://excalidraw.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fexcalidraw.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 134,
     "slug": "appflowy",
     "name": "AppFlowy",
@@ -1282,19 +1257,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-14",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.wappalyzer.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 140,
-    "slug": "font-pair",
-    "name": "Font Pair",
-    "whatItDoes": "Font Pair is a curated collection of Google Fonts that pair well together. It offers visual examples of font combinations, making it easy to discover harmonious typography for your projects.",
-    "category": "Design",
-    "whyItIsUseful": "Finding complementary fonts can be time-consuming. Font Pair simplifies this process by showcasing tested and attractive combinations, saving designers significant effort.",
-    "imageIdea": "pair of roman sandals",
-    "websiteLink": "https://fontpair.co/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ffontpair.co%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 141,
