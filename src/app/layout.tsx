@@ -73,6 +73,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} dark`}>
       <head>
         <meta name="impact-site-verification" content="1dd3812c-2540-4b06-b6c6-27528553b44d" />
+        <meta name="impact-site-verification" content="undefined" />
         <Analytics />
         <link rel="alternate" type="application/rss+xml" title="Surfaced" href="/feed.xml" />
         <link rel="preconnect" href="https://images.pexels.com" />
