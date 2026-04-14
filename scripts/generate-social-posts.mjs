@@ -123,6 +123,7 @@ async function main() {
 
     // Fetch a relevant image using Gemini's suggested search query
     let imageUrl = fallbackImageUrl;
+    console.log(`   🔍 imageSearchQuery: ${socialContent?.imageSearchQuery || 'NOT RETURNED'}, PEXELS_API_KEY set: ${!!PEXELS_API_KEY}`);
     if (socialContent?.imageSearchQuery && PEXELS_API_KEY) {
       const searchedImage = await searchPexelsImage(socialContent.imageSearchQuery);
       if (searchedImage) {
