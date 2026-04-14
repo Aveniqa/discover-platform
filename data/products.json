@@ -244,7 +244,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Breville+Barista+Express+Impress&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Breville+Barista+Express+Impress&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Breville+Barista+Express+Impress&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Breville%20Barista%20Express%20Impress"
   },
   {
     "id": 17,
@@ -262,7 +263,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Cosori+Air+Fryer+Pro+LE+5-Qt&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Cosori+Air+Fryer+Pro+LE+5-Qt&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Cosori+Air+Fryer+Pro+LE+5-Qt&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Cosori%20Air%20Fryer%20Pro%20LE%205-Qt"
   },
   {
     "id": 18,
@@ -280,7 +282,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Ember+Mug+2+Temperature+Control+Mug&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Ember+Mug+2+Temperature+Control+Mug&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Ember+Mug+2+Temperature+Control+Mug&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ember%20Mug%202%20Temperature%20Control%20Mug"
   },
   {
     "id": 19,
@@ -298,7 +301,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=SwitchBot+Curtain+3+Smart+Motor&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=SwitchBot+Curtain+3+Smart+Motor&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=SwitchBot+Curtain+3+Smart+Motor&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=SwitchBot%20Curtain%203%20Smart%20Motor"
   },
   {
     "id": 20,
@@ -316,7 +320,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Our+Place+Always+Pan+2.0&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Our+Place+Always+Pan+2.0&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Our+Place+Always+Pan+2.0&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Our%20Place%20Always%20Pan%202.0"
   },
   {
     "id": 21,
@@ -334,7 +339,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Away+Carry-On+Aluminum+Edition&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Away+Carry-On+Aluminum+Edition&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Away+Carry-On+Aluminum+Edition&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Away%20Carry-On%20Aluminum%20Edition"
   },
   {
     "id": 22,
@@ -352,7 +358,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=BioLite+CampStove+2%2B&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=BioLite+CampStove+2%2B&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=BioLite+CampStove+2%2B&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BioLite%20CampStove%202%2B"
   },
   {
     "id": 23,
@@ -390,7 +397,8 @@
       "url": "https://www.amazon.com/s?k=Nalgene+32oz+Sustain+Water+Bottle&tag=vaultvibe-20"
     },
     "directAmazonUrl": "https://www.amazon.com/s?k=Nalgene+32oz+Sustain+Water+Bottle&tag=vaultvibe-20",
-    "badge": "best-value"
+    "badge": "best-value",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nalgene%2032oz%20Sustain%20Water%20Bottle"
   },
   {
     "id": 25,
@@ -408,7 +416,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Osprey+Farpoint+40+Travel+Backpack&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Osprey+Farpoint+40+Travel+Backpack&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Osprey+Farpoint+40+Travel+Backpack&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Osprey%20Farpoint%2040%20Travel%20Backpack"
   },
   {
     "id": 26,
@@ -637,7 +646,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Therabody+Theragun+Mini+2.0&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Therabody+Theragun+Mini+2.0&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Therabody+Theragun+Mini+2.0&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Therabody%20Theragun%20Mini%202.0"
   },
   {
     "id": 38,
@@ -655,7 +665,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=FOREO+LUNA+4+Facial+Cleansing+Device&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=FOREO+LUNA+4+Facial+Cleansing+Device&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=FOREO+LUNA+4+Facial+Cleansing+Device&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=FOREO%20LUNA%204%20Facial%20Cleansing%20Device"
   },
   {
     "id": 39,
@@ -710,7 +721,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Bellroy+Classic+Backpack+Plus&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Bellroy+Classic+Backpack+Plus&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Bellroy+Classic+Backpack+Plus&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Bellroy%20Classic%20Backpack%20Plus"
   },
   {
     "id": 42,
@@ -728,7 +740,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=The+Ridge+Wallet+Titanium&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=The+Ridge+Wallet+Titanium&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=The+Ridge+Wallet+Titanium&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=The%20Ridge%20Wallet%20Titanium"
   },
   {
     "id": 43,
@@ -1181,7 +1194,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=BLUETTI+AC180+Portable+Power+Station&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=BLUETTI+AC180+Portable+Power+Station&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=BLUETTI+AC180+Portable+Power+Station&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BLUETTI%20AC180%20Portable%20Power%20Station"
   },
   {
     "id": 67,
@@ -1217,7 +1231,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Goal+Zero+Nomad+20+Solar+Panel&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Goal+Zero+Nomad+20+Solar+Panel&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Goal+Zero+Nomad+20+Solar+Panel&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Goal%20Zero%20Nomad%2020%20Solar%20Panel"
   },
   {
     "id": 69,
@@ -1290,7 +1305,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=YETI+Rambler+20oz+Tumbler&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=YETI+Rambler+20oz+Tumbler&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=YETI+Rambler+20oz+Tumbler&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=YETI%20Rambler%2020oz%20Tumbler"
   },
   {
     "id": 73,
@@ -1308,7 +1324,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=LEGO+Botanical+Collection+Orchid&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=LEGO+Botanical+Collection+Orchid&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=LEGO+Botanical+Collection+Orchid&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=LEGO%20Botanical%20Collection%20Orchid"
   },
   {
     "id": 74,
@@ -1345,7 +1362,8 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=MEATER+2+Plus+Wireless+Meat+Thermometer&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=MEATER+2+Plus+Wireless+Meat+Thermometer&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=MEATER+2+Plus+Wireless+Meat+Thermometer&tag=vaultvibe-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=MEATER%202%20Plus%20Wireless%20Meat%20Thermometer"
   },
   {
     "id": 76,
@@ -1424,7 +1442,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=AeroGarden+Bounty+Elite&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=AeroGarden%20Bounty%20Elite"
   },
   {
     "id": 80,
@@ -1443,7 +1462,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Wacaco+Nanopresso+Portable+Espresso+Maker&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Wacaco%20Nanopresso%20Portable%20Espresso%20Maker"
   },
   {
     "id": 81,
@@ -1482,7 +1502,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Breville+Smart+Oven+Air+Fryer+Pro&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Breville%20Smart%20Oven%20Air%20Fryer%20Pro"
   },
   {
     "id": 83,
@@ -1501,7 +1522,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Helinox+Chair+One+Camp+Chair&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Helinox%20Chair%20One%20Camp%20Chair"
   },
   {
     "id": 84,
@@ -1540,7 +1562,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Sawyer+Squeeze+Water+Filter+System&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sawyer%20Squeeze%20Water%20Filter%20System"
   },
   {
     "id": 86,
@@ -1559,7 +1582,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Click+%26+Grow+Smart+Garden+3&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Click%20%26%20Grow%20Smart%20Garden%203"
   },
   {
     "id": 87,
@@ -1618,7 +1642,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Fellow+Stagg+EKG+Electric+Pour-Over+Kettle&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Fellow%20Stagg%20EKG%20Electric%20Pour-Over%20Kettle"
   },
   {
     "id": 90,
@@ -1677,7 +1702,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=NuWave+PIC+Flex+Precision+Induction+Cooktop&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=NuWave%20PIC%20Flex%20Precision%20Induction%20Cooktop"
   },
   {
     "id": 93,
@@ -1716,7 +1742,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=AeroPress+Go+Portable+Coffee+Maker&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=AeroPress%20Go%20Portable%20Coffee%20Maker"
   },
   {
     "id": 95,
@@ -1795,7 +1822,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=BioLite+CampStove+2%2B&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BioLite%20CampStove%202%2B"
   },
   {
     "id": 99,
@@ -1874,7 +1902,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=FoodSaver+VS3180+Multi-Use+Food+Preservation+System&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=FoodSaver%20VS3180%20Multi-Use%20Food%20Preservation%20System"
   },
   {
     "id": 103,
@@ -1913,7 +1942,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Nespresso+Aeroccino+4+Milk+Frother&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nespresso%20Aeroccino%204%20Milk%20Frother"
   },
   {
     "id": 105,
@@ -1932,7 +1962,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Rumpl+Original+Puffy+Blanket&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Rumpl%20Original%20Puffy%20Blanket"
   },
   {
     "id": 106,
@@ -1991,7 +2022,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=BioLite+FirePit%2B&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BioLite%20FirePit%2B"
   },
   {
     "id": 109,
@@ -2010,7 +2042,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Smeg+50s+Retro+Style+Toaster&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Smeg%2050s%20Retro%20Style%20Toaster"
   },
   {
     "id": 110,
@@ -2029,7 +2062,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Foreo+Luna+4+Facial+Cleansing+Brush&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Foreo%20Luna%204%20Facial%20Cleansing%20Brush"
   },
   {
     "id": 111,
@@ -2208,7 +2242,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Ooni+Karu+16+Multi-Fuel+Pizza+Oven&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ooni%20Karu%2016%20Multi-Fuel%20Pizza%20Oven"
   },
   {
     "id": 120,
@@ -2227,7 +2262,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Sea+to+Summit+Aeros+Premium+Pillow&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sea%20to%20Summit%20Aeros%20Premium%20Pillow"
   },
   {
     "id": 121,
@@ -2246,7 +2282,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Vitamix+Ascent+Series+A3500+Smart+Blender&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Vitamix%20Ascent%20Series%20A3500%20Smart%20Blender"
   },
   {
     "id": 122,
@@ -2405,7 +2442,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Anova+Culinary+Precision+Cooker+Nano&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anova%20Culinary%20Precision%20Cooker%20Nano"
   },
   {
     "id": 130,
@@ -2464,7 +2502,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Jackery+Explorer+300+Portable+Power+Station&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Jackery%20Explorer%20300%20Portable%20Power%20Station"
   },
   {
     "id": 133,
@@ -2483,7 +2522,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Breville+Smart+Oven+Air+Fryer+Pro&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Breville%20Smart%20Oven%20Air%20Fryer%20Pro"
   },
   {
     "id": 134,
@@ -2542,7 +2582,8 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=SodaStream+Art+Sparkling+Water+Maker&tag=vaultvibe-20"
-    }
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=SodaStream%20Art%20Sparkling%20Water%20Maker"
   },
   {
     "id": 137,

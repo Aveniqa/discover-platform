@@ -518,7 +518,10 @@ export default async function ItemPage({ params }: Props) {
                   <a
                     href={(item as Product).bestBuyUrl}
                     target="_blank"
-                    rel="noopener"
+                    rel="sponsored noopener"
+                    data-affiliate="true"
+                    data-provider="bestbuy"
+                    data-item-slug={slug}
                     className="inline-flex items-center gap-2 mt-3 text-sm text-muted-foreground hover:text-accent transition-colors"
                   >
                     Also at Best Buy <span>&rarr;</span>

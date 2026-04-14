@@ -173,8 +173,27 @@ async function main() {
       affCount++;
     }
   }
+  // Apply Best Buy search URLs to electronics/appliance products
+  const BB_KEYWORDS = [
+    "audio", "speaker", "headphone", "earbuds", "wearable", "smart home",
+    "gaming", "camera", "drone", "photo", "electronics", "tech", "fitness",
+    "home office", "productivity", "security", "monitor", "display",
+    "kitchen", "appliance", "health", "wellness", "pet", "outdoor",
+    "camping", "charger", "satellite", "fashion tech", "entertainment",
+    "personal care", "sustainability", "gift", "garden", "beauty"
+  ];
+  let bbCount = 0;
+  for (const p of products) {
+    if (p.bestBuyUrl) continue;
+    const combined = `${p.category} ${p.title}`.toLowerCase();
+    if (BB_KEYWORDS.some((kw) => combined.includes(kw))) {
+      p.bestBuyUrl = `https://www.bestbuy.com/site/searchpage.jsp?st=${encodeURIComponent(p.title)}`;
+      bbCount++;
+    }
+  }
   writeJSON("products.json", products);
   console.log(`🔗 Applied affiliate links to ${affCount} new products`);
+  if (bbCount > 0) console.log(`🏬 Applied Best Buy URLs to ${bbCount} products`);
   console.log(`\n✅ Bulk generation complete.\n`);
 }
 
