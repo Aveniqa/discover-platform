@@ -18,6 +18,7 @@ export default function ToolsPage() {
   const [activeCategory, setActiveCategory] = useState<string>("All");
   const [sortMode, setSortMode] = useState<string>("default");
   const [quickViewItem, setQuickViewItem] = useState<AnyItem | null>(null);
+  const [page, setPage] = useState(1);
 
   const subCategories = getSubCategories("tool");
 
@@ -41,6 +42,10 @@ export default function ToolsPage() {
     else if (sortMode === "category") items.sort((a, b) => a.category.localeCompare(b.category));
     return items;
   }, [activeCategory, searchQuery, sortMode]);
+
+  const PER_PAGE = 24;
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
+  const paginatedItems = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
 
   return (
     <>
@@ -92,13 +97,13 @@ export default function ToolsPage() {
                 type="text"
                 placeholder="Search tools..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => { setSearchQuery(e.target.value); setPage(1); }}
                 className="w-full rounded-2xl border border-border bg-surface pl-10 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-rose-500/30 focus:border-rose-500/30 transition-all"
               />
             </div>
             <select
               value={sortMode}
-              onChange={(e) => setSortMode(e.target.value)}
+              onChange={(e) => { setSortMode(e.target.value); setPage(1); }}
               className="rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-rose-500/40 transition-all cursor-pointer"
             >
               <option value="default">Default</option>
@@ -113,7 +118,7 @@ export default function ToolsPage() {
           {/* Sub-category chips */}
           <div className="flex flex-wrap gap-2">
             <button
-              onClick={() => setActiveCategory("All")}
+              onClick={() => { setActiveCategory("All"); setPage(1); }}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
                   ? "bg-rose-500/20 text-rose-300 border-rose-400/35"
@@ -125,7 +130,7 @@ export default function ToolsPage() {
             {subCategories.map((cat) => (
               <button
                 key={cat}
-                onClick={() => setActiveCategory(cat)}
+                onClick={() => { setActiveCategory(cat); setPage(1); }}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
                     ? "bg-rose-500/20 text-rose-300 border-rose-400/35"
@@ -143,16 +148,18 @@ export default function ToolsPage() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
         <p className="text-sm text-muted-foreground mb-6">
           Showing{" "}
-          <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
+          <span className="font-semibold text-foreground">
+            {filtered.length === 0 ? 0 : (page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)}
+          </span>{" "}
           of{" "}
-          <span className="font-semibold text-foreground">{dailyTools.length}</span>{" "}
+          <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
           items
         </p>
 
         {/* AD_ZONE: sidebar */}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {filtered.map((item, index) => (
+          {paginatedItems.map((item, index) => (
             <ScrollReveal key={item.slug} delay={index * 50} placeholder={<SkeletonCard />}>
               <div className="group rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
                 <div className="overflow-hidden relative">
@@ -206,6 +213,26 @@ export default function ToolsPage() {
         {filtered.length === 0 && (
           <div className="text-center py-16">
             <p className="text-muted-foreground">No tools match your search.</p>
+          </div>
+        )}
+
+        {totalPages > 1 && (
+          <div className="flex items-center justify-center gap-2 mt-8">
+            <button
+              onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+              disabled={page === 1}
+              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
+            >
+              ← Previous
+            </button>
+            <span className="text-sm text-muted-foreground px-3">Page {page} of {totalPages}</span>
+            <button
+              onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+              disabled={page === totalPages}
+              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
+            >
+              Next →
+            </button>
           </div>
         )}
       </section>

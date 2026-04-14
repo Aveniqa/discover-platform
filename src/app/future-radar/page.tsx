@@ -17,6 +17,7 @@ export default function FutureRadarPage() {
   const [activeCategory, setActiveCategory] = useState<string>("All");
   const [sortMode, setSortMode] = useState<string>("default");
   const [quickViewItem, setQuickViewItem] = useState<AnyItem | null>(null);
+  const [page, setPage] = useState(1);
 
   const subCategories = getSubCategories("future-tech");
 
@@ -40,6 +41,10 @@ export default function FutureRadarPage() {
     else if (sortMode === "category") items.sort((a, b) => a.industry.localeCompare(b.industry));
     return items;
   }, [activeCategory, searchQuery, sortMode]);
+
+  const PER_PAGE = 24;
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
+  const paginatedItems = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
 
   return (
     <>
@@ -93,13 +98,13 @@ export default function FutureRadarPage() {
                 type="text"
                 placeholder="Search future tech..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => { setSearchQuery(e.target.value); setPage(1); }}
                 className="w-full rounded-2xl border border-border bg-surface pl-10 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-cyan-500/30 focus:border-cyan-500/30 transition-all"
               />
             </div>
             <select
               value={sortMode}
-              onChange={(e) => setSortMode(e.target.value)}
+              onChange={(e) => { setSortMode(e.target.value); setPage(1); }}
               className="rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-cyan-500/40 transition-all cursor-pointer"
             >
               <option value="default">Default</option>
@@ -114,7 +119,7 @@ export default function FutureRadarPage() {
           {/* Sub-category chips */}
           <div className="flex flex-wrap gap-2">
             <button
-              onClick={() => setActiveCategory("All")}
+              onClick={() => { setActiveCategory("All"); setPage(1); }}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
                   ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/35"
@@ -126,7 +131,7 @@ export default function FutureRadarPage() {
             {subCategories.map((cat) => (
               <button
                 key={cat}
-                onClick={() => setActiveCategory(cat)}
+                onClick={() => { setActiveCategory(cat); setPage(1); }}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
                     ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/35"
@@ -144,16 +149,18 @@ export default function FutureRadarPage() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
         <p className="text-sm text-muted-foreground mb-6">
           Showing{" "}
-          <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
+          <span className="font-semibold text-foreground">
+            {filtered.length === 0 ? 0 : (page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)}
+          </span>{" "}
           of{" "}
-          <span className="font-semibold text-foreground">{futureRadar.length}</span>{" "}
+          <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
           items
         </p>
 
         {/* AD_ZONE: sidebar */}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {filtered.map((item, index) => (
+          {paginatedItems.map((item, index) => (
             <ScrollReveal key={item.slug} delay={index * 50} placeholder={<SkeletonCard />}>
               <Link
                 href={`/item/${item.slug}`}
@@ -200,6 +207,26 @@ export default function FutureRadarPage() {
         {filtered.length === 0 && (
           <div className="text-center py-16">
             <p className="text-muted-foreground">No future tech matches your search.</p>
+          </div>
+        )}
+
+        {totalPages > 1 && (
+          <div className="flex items-center justify-center gap-2 mt-8">
+            <button
+              onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+              disabled={page === 1}
+              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
+            >
+              ← Previous
+            </button>
+            <span className="text-sm text-muted-foreground px-3">Page {page} of {totalPages}</span>
+            <button
+              onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+              disabled={page === totalPages}
+              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
+            >
+              Next →
+            </button>
           </div>
         )}
       </section>
