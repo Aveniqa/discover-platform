@@ -169,6 +169,36 @@ async function publishToBluesky(post) {
     return false;
   }
 }
+// ─── Pinterest Board ID mapping ───────────────────────────────
+// Resolved at publish-time by fetching boards from the API
+let _pinterestBoards = null;
+async function getPinterestBoardId(token, boardName) {
+  const defaultBoard = process.env.PINTEREST_BOARD_ID;
+  if (!boardName) return defaultBoard;
+
+  // Cache the board list for the entire run
+  if (!_pinterestBoards) {
+    try {
+      const res = await fetch("https://api.pinterest.com/v5/boards", {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      if (res.ok) {
+        const data = await res.json();
+        _pinterestBoards = data.items || [];
+      } else {
+        _pinterestBoards = [];
+      }
+    } catch {
+      _pinterestBoards = [];
+    }
+  }
+
+  const match = _pinterestBoards.find(
+    (b) => b.name.toLowerCase() === boardName.toLowerCase()
+  );
+  return match ? match.id : defaultBoard;
+}
+
 // ─── Pinterest API v5 ─────────────────────────────────────────
 async function publishToPinterest(post) {
   const token = process.env.PINTEREST_ACCESS_TOKEN;
@@ -180,8 +210,9 @@ async function publishToPinterest(post) {
 
   try {
     const pin = post.platforms.pinterest;
+    const boardId = await getPinterestBoardId(token, pin.boardName);
     const body = {
-      board_id: defaultBoard,
+      board_id: boardId,
       title: pin.title,
       description: pin.description,
       link: post.affiliateUrl || post.productUrl,

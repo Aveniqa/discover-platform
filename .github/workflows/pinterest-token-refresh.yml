@@ -1,0 +1,65 @@
+name: Refresh Pinterest Token
+
+on:
+  schedule:
+    # Run every 25 days to refresh before the 30-day expiry
+    - cron: '0 12 1,25 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Refresh Pinterest access token
+        env:
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          set -e
+          
+          if [ -z "$PINTEREST_REFRESH_TOKEN" ]; then
+            echo "❌ No refresh token found"
+            exit 1
+          fi
+          
+          AUTH=$(echo -n "1561781:${PINTEREST_APP_SECRET}" | base64 -w0)
+          
+          echo "Refreshing Pinterest access token..."
+          RESPONSE=$(curl -s -X POST "https://api.pinterest.com/v5/oauth/token" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -H "Authorization: Basic ${AUTH}" \
+            -d "grant_type=refresh_token" \
+            -d "refresh_token=${PINTEREST_REFRESH_TOKEN}")
+          
+          ERROR=$(echo "$RESPONSE" | jq -r '.error // empty')
+          if [ -n "$ERROR" ]; then
+            echo "❌ Refresh failed: $(echo "$RESPONSE" | jq -r '.error_description // "unknown"')"
+            echo "Manual re-auth may be needed at https://developers.pinterest.com/apps/"
+            exit 1
+          fi
+          
+          NEW_TOKEN=$(echo "$RESPONSE" | jq -r '.access_token')
+          NEW_REFRESH=$(echo "$RESPONSE" | jq -r '.refresh_token // empty')
+          SCOPE=$(echo "$RESPONSE" | jq -r '.scope')
+          
+          echo "✅ Token refreshed! Scope: $SCOPE"
+          
+          # Update secrets (requires PAT_TOKEN with repo scope)
+          if [ -n "$GH_TOKEN" ]; then
+            echo "$NEW_TOKEN" | gh secret set PINTEREST_ACCESS_TOKEN --repo Aveniqa/discover-platform
+            echo "✅ PINTEREST_ACCESS_TOKEN updated"
+            
+            if [ -n "$NEW_REFRESH" ]; then
+              echo "$NEW_REFRESH" | gh secret set PINTEREST_REFRESH_TOKEN --repo Aveniqa/discover-platform
+              echo "✅ PINTEREST_REFRESH_TOKEN updated"
+            fi
+          else
+            echo "⚠️  No PAT_TOKEN secret — cannot auto-update secrets."
+            echo "   Add a PAT with repo scope as PAT_TOKEN secret for auto-refresh."
+            echo "   For now, manually update PINTEREST_ACCESS_TOKEN in GitHub Secrets."
+          fi
