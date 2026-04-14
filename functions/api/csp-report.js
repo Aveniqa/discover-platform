@@ -24,9 +24,9 @@ const CACHE_KEY = "https://surfaced-x.pages.dev/_internal/csp-violations-store";
 // Cache TTL: 7 days (max useful window for CSP violation review)
 const CACHE_TTL = 60 * 60 * 24 * 7;
 
-// Admin token — required to view reports via GET
-// Also checked from env.CSP_ADMIN_TOKEN if set (takes precedence)
-const HARDCODED_ADMIN_TOKEN = "3NyEjlEbyLqFYJDMAZfB6yf0SvUK26lHFmcA49UQbnw";
+// Admin token — MUST be set as CSP_ADMIN_TOKEN environment variable
+// in Cloudflare Pages Settings > Environment Variables.
+// No hardcoded fallback — if the env var is missing, GET returns 503.
 
 // In-memory rate limiter (resets per isolate lifecycle)
 const rateLimitMap = new Map();
@@ -156,7 +156,14 @@ export async function onRequestGet(context) {
   const { request, env } = context;
   const url = new URL(request.url);
   const token = url.searchParams.get("token");
-  const expectedToken = env.CSP_ADMIN_TOKEN || HARDCODED_ADMIN_TOKEN;
+  const expectedToken = env.CSP_ADMIN_TOKEN;
+
+  if (!expectedToken) {
+    return Response.json(
+      { error: "CSP_ADMIN_TOKEN not configured in environment variables." },
+      { status: 503 }
+    );
+  }
 
   if (token !== expectedToken) {
     return new Response("Unauthorized", { status: 401 });

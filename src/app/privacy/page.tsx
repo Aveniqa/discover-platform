@@ -200,6 +200,88 @@ export default function PrivacyPage() {
               </div>
             </div>
 
+            {/* GDPR */}
+            <div>
+              <h2 className="text-2xl font-bold text-foreground mb-4">
+                European Privacy Rights (GDPR)
+              </h2>
+              <div className="space-y-4 text-muted leading-relaxed">
+                <p>
+                  If you are located in the European Economic Area (EEA), United
+                  Kingdom, or Switzerland, you have additional rights under the
+                  General Data Protection Regulation (GDPR), including:
+                </p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>
+                    <span className="text-foreground font-medium">Right to be informed</span>{" "}
+                    — you have the right to know how your data is collected and used
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Right to erasure</span>{" "}
+                    — you can request that we delete your personal data
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Right to data portability</span>{" "}
+                    — you can request your data in a structured, machine-readable format
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Right to lodge a complaint</span>{" "}
+                    — you may file a complaint with your local data protection authority
+                  </li>
+                </ul>
+                <p>
+                  Our legal basis for processing your data includes: your consent,
+                  our legitimate interests in operating and improving the service,
+                  and compliance with legal obligations. We do not transfer your
+                  data outside the EEA without appropriate safeguards.
+                </p>
+              </div>
+            </div>
+
+            {/* CCPA */}
+            <div>
+              <h2 className="text-2xl font-bold text-foreground mb-4">
+                California Privacy Rights (CCPA)
+              </h2>
+              <div className="space-y-4 text-muted leading-relaxed">
+                <p>
+                  If you are a California resident, the California Consumer Privacy
+                  Act (CCPA) provides you with additional rights regarding your
+                  personal information:
+                </p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>
+                    <span className="text-foreground font-medium">Right to know</span>{" "}
+                    — you can request details about the categories and specific pieces
+                    of personal information we have collected
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Right to delete</span>{" "}
+                    — you can request deletion of your personal information
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Right to opt out</span>{" "}
+                    — you can opt out of the sale of your personal information
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">Right to non-discrimination</span>{" "}
+                    — we will not discriminate against you for exercising your rights
+                  </li>
+                </ul>
+                <p>
+                  We do not sell your personal information. To exercise your CCPA
+                  rights, contact us at{" "}
+                  <a
+                    href="mailto:privacy@surfaced.io"
+                    className="text-accent hover:text-accent/80 transition-colors"
+                  >
+                    privacy@surfaced.io
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+
             {/* Contact */}
             <div className="pt-8 border-t border-border/60">
               <h2 className="text-2xl font-bold text-foreground mb-4">
