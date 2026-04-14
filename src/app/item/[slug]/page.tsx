@@ -107,6 +107,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const desc = getItemDescription(item);
   const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
   const ogImage = getItemImageUrl(slug, 1200, 630, "lg");
+  const isProduct = item.type === "product";
+  const priceRange = isProduct ? (item as Product).estimatedPriceRange : undefined;
+
   return {
     title: `${title} — Surfaced`,
     description: desc,
@@ -124,6 +127,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title,
       description: desc,
       images: ogImage ? [ogImage] : [],
+    },
+    other: {
+      ...(isProduct ? { "og:type": "product" } : {}),
+      ...(isProduct && ogImage ? { "pinterest:media": ogImage } : {}),
+      ...(isProduct && priceRange ? { "product:price:amount": priceRange, "product:price:currency": "USD" } : {}),
     },
   };
 }
@@ -363,14 +371,22 @@ export default async function ItemPage({ params }: Props) {
 
       <section className="py-12 sm:py-16">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          {/* ── Back link ───────────────────────────────────── */}
-          <Link
-            href={backPath}
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-accent-hover transition-colors mb-10"
-          >
-            <span aria-hidden="true">&larr;</span>
-            Back to {navLabel}
-          </Link>
+          {/* ── Visible breadcrumbs ─────────────────────────── */}
+          <nav aria-label="Breadcrumb" className="mb-8">
+            <ol className="flex items-center gap-1.5 text-sm text-muted-foreground flex-wrap">
+              <li>
+                <Link href="/" className="hover:text-accent transition-colors">Home</Link>
+              </li>
+              <li aria-hidden="true" className="text-border">/</li>
+              <li>
+                <Link href={backPath} className="hover:text-accent transition-colors">{navLabel}</Link>
+              </li>
+              <li aria-hidden="true" className="text-border">/</li>
+              <li className="text-foreground font-medium truncate max-w-[200px] sm:max-w-none" aria-current="page">
+                {title}
+              </li>
+            </ol>
+          </nav>
 
           {/* ── Badge + Title ───────────────────────────────── */}
           <div className="mb-8">

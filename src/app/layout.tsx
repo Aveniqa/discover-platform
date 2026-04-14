@@ -64,6 +64,10 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} dark`}>
       <head>
         <Analytics />
+        <link rel="alternate" type="application/rss+xml" title="Surfaced" href="/feed.xml" />
+        <link rel="preconnect" href="https://images.pexels.com" />
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://www.amazon.com" />
         {process.env.NEXT_PUBLIC_ADSENSE_ID && (
           <script
             async
@@ -73,6 +77,21 @@ export default function RootLayout({
         )}
       </head>
       <body className="noise">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Surfaced",
+            url: "https://surfaced-x.pages.dev",
+            description: "Your daily discovery engine. Curated products, hidden gems, future tech, and fascinating finds.",
+            potentialAction: {
+              "@type": "SearchAction",
+              target: "https://surfaced-x.pages.dev/?q={search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          }) }}
+        />
         <SearchModal />
         <Navbar />
         <main className="min-h-screen pt-16">{children}</main>
