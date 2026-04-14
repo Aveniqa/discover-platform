@@ -570,7 +570,7 @@ export default async function ItemPage({ params }: Props) {
                     const relTitle = getItemTitle(related);
                     const relColor = getCategoryColor(related.type);
                     const relLabel = getCategoryLabel(related.type);
-                    const hasAmazon = !!(related as { amazonLink?: string }).amazonLink;
+                    const hasAmazon = !!(related as { directAmazonUrl?: string }).directAmazonUrl || !!(related as { affiliate?: { enabled?: boolean } }).affiliate?.enabled;
                     return (
                       <Link
                         key={related.slug}
@@ -600,7 +600,7 @@ export default async function ItemPage({ params }: Props) {
                     const relTitle = getItemTitle(related);
                     const relColor = getCategoryColor(related.type);
                     const relLabel = getCategoryLabel(related.type);
-                    const hasAmazon = !!(related as { amazonLink?: string }).amazonLink;
+                    const hasAmazon = !!(related as { directAmazonUrl?: string }).directAmazonUrl || !!(related as { affiliate?: { enabled?: boolean } }).affiliate?.enabled;
                     return (
                       <Link
                         key={related.slug}
