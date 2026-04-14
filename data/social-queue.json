@@ -1,1 +1,63 @@
-{"posts":[]}
+{
+  "posts": [
+    {
+      "id": "crispr-cas9-gene-editing-breakthrough",
+      "title": "CRISPR-Cas9: A Revolutionary Tool for Precision Gene Editing",
+      "category": "discoveries",
+      "imageUrl": "https://images.unsplash.com/photo-1759850426022-2c7ba6d03b59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzYxNDA1OTd8&ixlib=rb-4.1.0&q=80&w=1080",
+      "productUrl": "https://surfaced-x.pages.dev/item/crispr-cas9-gene-editing-breakthrough",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/crispr-cas9-gene-editing-breakthrough",
+      "platforms": {
+        "pinterest": {
+          "title": "CRISPR-Cas9: A Revolutionary Tool for Precision Gene Editing",
+          "description": "CRISPR-Cas9 is a groundbreaking gene-editing technology that allows scientists to precisely cut and paste DNA sequences, effectively correcting genetic 'typos' in living organisms. This molecular scissor system, adapted from a natural bacterial defense mechanism, offers unprecedented control over the genome. https://surfaced-x.pages.dev/item/crispr-cas9-gene-editing-breakthrough #surfaced #discoveries",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "CRISPR-Cas9: A Revolutionary Tool for Precision Gene Editing — CRISPR-Cas9 is a groundbreaking gene-editing technology that allows scientists to precisely cut and paste DNA sequences, effectively correcting geneti https://surfaced-x.pages.dev/item/crispr-cas9-gene-editing-breakth"
+        },
+        "twitter": {
+          "text": "CRISPR-Cas9: A Revolutionary Tool for Precision Gene Editing — CRISPR-Cas9 is a groundbreaking gene-editing technology that allows scientists to precisely cut and paste DNA sequences, effectively correcting geneti https://surfaced-x.pages.dev/item/crispr-cas9-gene-editing-breakth"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-14T07:33:07.735Z",
+      "publishedAt": "2026-04-14T07:33:11.597Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "rogue-planets-wander-universe-without-star",
+      "title": "Rogue Planets: The Mysterious Worlds Wandering Our Galaxy Without a Host Star",
+      "category": "discoveries",
+      "imageUrl": "https://images.pexels.com/photos/5258255/pexels-photo-5258255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "productUrl": "https://surfaced-x.pages.dev/item/rogue-planets-wander-universe-without-star",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/rogue-planets-wander-universe-without-star",
+      "platforms": {
+        "pinterest": {
+          "title": "Rogue Planets: Mysterious Worlds Drifting Without a Star",
+          "description": "Did you know billions of planets wander the galaxy solo? These 'rogue planets' are ejected from their star systems, offering a peek into extreme environments and unique planetary formation. Could life exist in the dark? 🤔 #Space #Astronomy #RoguePlanets #Cosmos",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "Billions of planets don't orbit stars. These 'rogue planets' drift solo through the galaxy, ejected from their systems. What secrets do these starless worlds hold about planet formation and life? 🤔 https://surfaced-x.pages.dev/item/rogue-planets-wander-universe-without-star"
+        },
+        "twitter": {
+          "text": "Mind blown: Billions of planets wander the galaxy without a star. Rogue planets, ejected from their systems, challenge everything we thought we knew about planetary formation. Could life exist in the interstellar dark? 🤯 https://surfaced-x.pages.dev/item/rogue-planets-wander-universe-without-star"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-14T07:33:09.661Z",
+      "publishedAt": "2026-04-14T07:33:19.372Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    }
+  ],
+  "lastGenerated": "2026-04-14T07:33:09.662Z"
+}
