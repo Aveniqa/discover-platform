@@ -3,7 +3,8 @@
  * Generate a static RSS feed (feed.xml) from all items.
  * Run before `next build` so the file is included in the static export.
  */
-import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import { readFileSync, mkdirSync } from "fs";
+import { writeFileSafe } from "./lib/write-safe.mjs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -20,11 +21,12 @@ const dailyTools = JSON.parse(readFileSync(join(root, "data/daily-tools.json"), 
 const SITE_URL = "https://surfaced-x.pages.dev";
 
 function getTitle(item) {
-  return item.title || item.name || "Untitled";
+  return item.title || item.name || item.techName || item.toolName || "Untitled";
 }
 
 function getDescription(item) {
-  return item.shortDescription || item.description || "";
+  return item.shortDescription || item.description ||
+         item.explanation || item.whatItDoes || item.whyItMatters || "";
 }
 
 function getCategoryLabel(type) {
@@ -67,12 +69,16 @@ const rssItems = sorted
     const desc = escapeXml(getDescription(item));
     const link = `${SITE_URL}/item/${item.slug}`;
     const category = escapeXml(getCategoryLabel(item.type));
+    const pubDate = item.dateAdded
+      ? new Date(item.dateAdded).toUTCString()
+      : new Date().toUTCString();
     return `    <item>
       <title>${title}</title>
       <link>${link}</link>
       <guid isPermaLink="true">${link}</guid>
       <description>${desc}</description>
       <category>${category}</category>
+      <pubDate>${pubDate}</pubDate>
     </item>`;
   })
   .join("\n");
@@ -93,6 +99,6 @@ ${rssItems}
 // Write to public/ so Next.js static export includes it
 const publicDir = join(root, "public");
 mkdirSync(publicDir, { recursive: true });
-writeFileSync(join(publicDir, "feed.xml"), rss, "utf-8");
+writeFileSafe(join(publicDir, "feed.xml"), rss);
 
 console.log(`✅ Generated feed.xml with ${sorted.length} items`);

@@ -34,5 +34,14 @@
     "description": "Perovskite solar cells have recently achieved record-breaking efficiencies, rivaling and even surpassing traditional sil",
     "badge": null,
     "type": "future-tech"
+  },
+  {
+    "slug": "spotify",
+    "title": "Spotify",
+    "category": "daily-tools",
+    "categoryLabel": "Daily Tool",
+    "description": "A digital music, podcast, and video streaming service that gives you access to millions of songs and other content from ",
+    "badge": null,
+    "type": "tool"
   }
 ]

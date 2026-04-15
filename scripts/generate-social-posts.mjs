@@ -6,7 +6,8 @@
  * and X/Twitter.
  * Output: data/social-queue.json
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
+import { readFileSync, existsSync, mkdirSync } from "fs";
+import { writeJsonSafe } from "./lib/write-safe.mjs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
@@ -226,9 +227,8 @@ async function main() {
         generatedAt: new Date().toISOString(),
       });
 
-      // Track posted
-      if (!posted[item._category]) posted[item._category] = [];
-      posted[item._category].push(item.slug);
+      // Note: posted tracking moved to publish-social-posts.mjs —
+      // items are only marked as posted when at least one platform succeeds.
     }
   }
 
@@ -246,8 +246,7 @@ async function main() {
     existingQueue.posts = existingQueue.posts.slice(-90);
   }
 
-  writeFileSync(queuePath, JSON.stringify(existingQueue, null, 2));
-  writeFileSync(postedPath, JSON.stringify(posted, null, 2));
+  writeJsonSafe(queuePath, existingQueue);
 
   console.log(
     `\n✅ Generated ${posts.length} social posts for ${new Date().toLocaleDateString()}`

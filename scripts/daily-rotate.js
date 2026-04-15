@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { writeJsonSafe } = require('./lib/write-safe');
 
 if (!process.argv.includes('--run')) {
   console.log('Usage: node scripts/daily-rotate.js --run');
@@ -20,7 +21,7 @@ for (const cat of CATS) {
   });
   const cut = items.splice(0, 5);
   console.log(`[${cat}] Removed: ${cut.map(i => i.slug).join(', ')}`);
-  fs.writeFileSync(fp, JSON.stringify(items, null, 2));
+  writeJsonSafe(fp, items);
 }
 
 // Update category counts in categories.json
@@ -31,7 +32,7 @@ for (const cat of catData) {
   const items = JSON.parse(fs.readFileSync(dataFile, 'utf8'));
   cat.count = items.length;
 }
-fs.writeFileSync(catFile, JSON.stringify(catData, null, 2));
+writeJsonSafe(catFile, catData);
 console.log('Category counts updated.');
 
 console.log('\nDone. 25 items removed. Add 25 fresh ones.');

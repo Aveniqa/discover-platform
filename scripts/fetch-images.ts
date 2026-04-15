@@ -34,6 +34,15 @@ async function fetchPexelsImage(query: string, page = 1): Promise<string | null>
       `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=1&page=${page}&orientation=landscape`,
       { headers: { Authorization: PEXELS_KEY } }
     );
+    if (res.status === 429) {
+      console.log("\n  ⏳ Pexels rate limited — backing off 60s...");
+      await new Promise((r) => setTimeout(r, 60000));
+      return null;
+    }
+    if (!res.ok) {
+      console.log(`\n  ⚠ Pexels ${res.status} for "${query}"`);
+      return null;
+    }
     const data = await res.json();
     return data.photos?.[0]?.src?.large || null;
   } catch {
@@ -47,6 +56,15 @@ async function fetchUnsplashImage(query: string): Promise<string | null> {
       `https://api.unsplash.com/photos/random?query=${encodeURIComponent(query)}&orientation=landscape`,
       { headers: { Authorization: `Client-ID ${UNSPLASH_KEY}` } }
     );
+    if (res.status === 429) {
+      console.log("\n  ⏳ Unsplash rate limited — backing off 60s...");
+      await new Promise((r) => setTimeout(r, 60000));
+      return null;
+    }
+    if (!res.ok) {
+      console.log(`\n  ⚠ Unsplash ${res.status} for "${query}"`);
+      return null;
+    }
     const data = await res.json();
     return data.urls?.regular || null;
   } catch {
@@ -422,13 +440,13 @@ async function buildImageCache() {
     process.stdout.write(`[${i + 1}/${allItems.length}] ${label}  "${query}"  `);
 
     const url = await fetchItemImage(query, usedUrls);
-    if (url) usedUrls.add(url);
-    cache[slug] = url;
-
     if (url) {
+      usedUrls.add(url);
+      cache[slug] = url;
       success++;
       console.log("✓");
     } else {
+      // Do not write empty entries to cache — leave uncached for next run
       noResult++;
       console.log("✗ no result");
     }
@@ -437,7 +455,10 @@ async function buildImageCache() {
     await new Promise((r) => setTimeout(r, 120));
   }
 
-  fs.writeFileSync(outputPath, JSON.stringify(cache, null, 2));
+  // Atomic write: tmp file + rename to avoid truncated JSON on crash
+  const tmpPath = outputPath + '.tmp';
+  fs.writeFileSync(tmpPath, JSON.stringify(cache, null, 2) + '\n');
+  fs.renameSync(tmpPath, outputPath);
   console.log(
     `\n✅ Image cache saved to data/image-cache.json` +
     `\n   ${success} fetched, ${skipped} already cached, ${noResult} missing`

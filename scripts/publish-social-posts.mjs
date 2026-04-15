@@ -19,7 +19,8 @@
  *   X_ACCESS_TOKEN        — X OAuth 1.0a user access token
  *   X_ACCESS_SECRET       — X OAuth 1.0a user access secret
  */
-import { readFileSync, writeFileSync, existsSync } from "fs";
+import { readFileSync, existsSync } from "fs";
+import { writeJsonSafe } from "./lib/write-safe.mjs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import { createHmac, randomBytes } from "crypto";
@@ -30,6 +31,28 @@ const DATA_DIR = join(root, "data");
 const queuePath = join(DATA_DIR, "social-queue.json");
 
 // ─── Bluesky (AT Protocol) ────────────────────────────────────
+let _blueskySession = null;
+
+async function getBlueskySession() {
+  if (_blueskySession) return _blueskySession;
+  const handle = process.env.BLUESKY_HANDLE;
+  const password = process.env.BLUESKY_APP_PASSWORD;
+  if (!handle || !password) return null;
+
+  const sessionRes = await fetch(
+    "https://bsky.social/xrpc/com.atproto.server.createSession",
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ identifier: handle, password }),
+    }
+  );
+  if (!sessionRes.ok) throw new Error(`Session failed: ${sessionRes.status}`);
+  _blueskySession = await sessionRes.json();
+  console.log("   🔑 Bluesky: session created (reusing for all posts)");
+  return _blueskySession;
+}
+
 async function publishToBluesky(post) {
   const handle = process.env.BLUESKY_HANDLE;
   const password = process.env.BLUESKY_APP_PASSWORD;
@@ -39,17 +62,7 @@ async function publishToBluesky(post) {
   }
 
   try {
-    // Create session
-    const sessionRes = await fetch(
-      "https://bsky.social/xrpc/com.atproto.server.createSession",
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ identifier: handle, password }),
-      }
-    );
-    if (!sessionRes.ok) throw new Error(`Session failed: ${sessionRes.status}`);
-    const session = await sessionRes.json();
+    const session = await getBlueskySession();
 
     // Strip any URLs from text (links go in the card embed)
     let text = post.platforms.bluesky.text.replace(/https?:\/\/[^\s]+/g, '').trim();
@@ -451,6 +464,8 @@ async function addAltTextToMedia(mediaId, altText, apiKey, apiSecret, accessToke
 }
 
 // ─── Main ─────────────────────────────────────────────────────
+const postedPath = join(DATA_DIR, "social-posted.json");
+
 async function main() {
   if (!existsSync(queuePath)) {
     console.log("No social queue found. Run generate-social-posts.mjs first.");
@@ -464,6 +479,12 @@ async function main() {
     console.log("No pending posts to publish.");
     process.exit(0);
   }
+
+  // Load posted history — items are marked as posted here (on publish success),
+  // not at generation time, to avoid permanently consuming items on publish failure.
+  const posted = existsSync(postedPath)
+    ? JSON.parse(readFileSync(postedPath, "utf-8"))
+    : {};
 
   console.log(`📤 Publishing ${pending.length} pending social posts...\n`);
 
@@ -483,6 +504,18 @@ async function main() {
     post.publishedAt = new Date().toISOString();
     post.publishResults = results;
 
+    // Only mark as posted when at least one platform succeeded
+    if (anySuccess && post.category) {
+      if (!posted[post.category]) posted[post.category] = [];
+      if (!posted[post.category].includes(post.id)) {
+        posted[post.category].push(post.id);
+      }
+    }
+
+    // Write queue after EACH post so a mid-run kill won't re-publish
+    writeJsonSafe(queuePath, queue);
+    writeJsonSafe(postedPath, posted);
+
     // Stagger posts to avoid looking automated (30-90s between posts)
     if (i < pending.length - 1) {
       const delay = 30000 + Math.floor(Math.random() * 60000);
@@ -491,8 +524,6 @@ async function main() {
     }
   }
 
-  // Save updated queue
-  writeFileSync(queuePath, JSON.stringify(queue, null, 2));
   console.log("\n✅ Publishing complete. Queue updated.");
 }
 

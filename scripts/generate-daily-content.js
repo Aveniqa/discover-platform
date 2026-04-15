@@ -1,6 +1,7 @@
 const { GoogleGenAI } = require("@google/genai");
 const fs = require("fs");
 const path = require("path");
+const { writeJsonSafe } = require("./lib/write-safe");
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 // Flash-Lite has the highest free-tier limits (15 RPM, 1000 RPD)
@@ -23,7 +24,7 @@ function readJSON(filename) {
 }
 
 function writeJSON(filename, data) {
-  fs.writeFileSync(path.join(DATA_DIR, filename), JSON.stringify(data, null, 2));
+  writeJsonSafe(path.join(DATA_DIR, filename), data);
 }
 
 function getNextId(items) {
@@ -39,11 +40,14 @@ async function callWithRetry(fn, maxRetries = 3) {
     try {
       return await fn();
     } catch (err) {
-      const is503 = err.message && (err.message.includes("503") || err.message.includes("UNAVAILABLE") || err.message.includes("high demand"));
-      const is429 = err.message && (err.message.includes("429") || err.message.includes("RESOURCE_EXHAUSTED"));
-      if ((is503 || is429) && attempt < maxRetries) {
+      const msg = err.message || "";
+      const is503 = msg.includes("503") || msg.includes("UNAVAILABLE") || msg.includes("high demand");
+      const is429 = msg.includes("429") || msg.includes("RESOURCE_EXHAUSTED");
+      const isJsonErr = msg.includes("JSON parse failed");
+      if ((is503 || is429 || isJsonErr) && attempt < maxRetries) {
         const delay = attempt * 15000; // 15s, 30s, 45s
-        console.log(`  ⏳ Retry ${attempt}/${maxRetries} in ${delay / 1000}s (${is503 ? "capacity" : "rate limit"})...`);
+        const reason = is503 ? "capacity" : is429 ? "rate limit" : "bad JSON";
+        console.log(`  ⏳ Retry ${attempt}/${maxRetries} in ${delay / 1000}s (${reason})...`);
         await new Promise((r) => setTimeout(r, delay));
       } else {
         throw err;
@@ -148,17 +152,21 @@ Rules:
 
 Return ONLY the JSON array, no markdown fencing, no explanation.`;
 
-  const response = await callWithRetry(() =>
-    ai.models.generateContent({
+  const items = await callWithRetry(async () => {
+    const response = await ai.models.generateContent({
       model: MODEL,
       contents: prompt,
-    })
-  );
+    });
 
-  const text = response.text.trim();
-  // Strip markdown code fences if present
-  const cleaned = text.replace(/^```json?\n?/, "").replace(/\n?```$/, "");
-  const items = JSON.parse(cleaned);
+    const text = response.text.trim();
+    // Strip markdown code fences if present
+    const cleaned = text.replace(/^```json?\n?/, "").replace(/\n?```$/, "");
+    try {
+      return JSON.parse(cleaned);
+    } catch (parseErr) {
+      throw new Error(`JSON parse failed: ${parseErr.message} — raw: ${cleaned.slice(0, 200)}`);
+    }
+  });
 
   // Assign IDs and reject true duplicates (same name as existing item)
   const existingNames = new Set(
@@ -193,22 +201,65 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
 async function main() {
   console.log(`\n📰 Generating daily content for ${today}\n`);
 
+  // Snapshot all data files before generation so we can restore on failure
+  const backups = {};
   for (const [category, filename] of Object.entries(FILES)) {
-    console.log(`[${category}] Generating 5 new items...`);
-    const existing = readJSON(filename);
-    const newItems = await generateItems(category, existing, 5);
-    console.log(
-      `[${category}] Generated: ${newItems.map((i) => i.slug).join(", ")}`
-    );
-    existing.push(...newItems);
-    writeJSON(filename, existing);
-    console.log(`[${category}] Total items: ${existing.length}\n`);
+    const fp = path.join(DATA_DIR, filename);
+    backups[fp] = fs.readFileSync(fp, "utf8");
+  }
 
-    // Rate limit pause between categories
-    await new Promise((r) => setTimeout(r, 2000));
+  try {
+    for (const [category, filename] of Object.entries(FILES)) {
+      console.log(`[${category}] Generating 5 new items...`);
+      const existing = readJSON(filename);
+      const newItems = await generateItems(category, existing, 5);
+      console.log(
+        `[${category}] Generated: ${newItems.map((i) => i.slug).join(", ")}`
+      );
+      existing.push(...newItems);
+      writeJSON(filename, existing);
+      console.log(`[${category}] Total items: ${existing.length}\n`);
+
+      // Rate limit pause between categories
+      await new Promise((r) => setTimeout(r, 2000));
+    }
+  } catch (err) {
+    console.error(`\n❌ Generation failed: ${err.message}`);
+    console.log("Restoring data files from backup...");
+    for (const [fp, content] of Object.entries(backups)) {
+      fs.writeFileSync(fp, content);
+    }
+    console.log("Data files restored to pre-generation state.");
+    throw err;
   }
 
   console.log("✅ All categories updated.\n");
+
+  // Cross-category slug deduplication — all 5 files share the /item/<slug> route
+  const globalSlugs = new Map(); // slug → category name
+  let totalRenames = 0;
+  for (const [category, filename] of Object.entries(FILES)) {
+    const items = readJSON(filename);
+    let dirty = false;
+    for (let idx = 0; idx < items.length; idx++) {
+      const slug = items[idx].slug;
+      if (globalSlugs.has(slug)) {
+        const owner = globalSlugs.get(slug);
+        const newSlug = `${category.replace(/s$/, "")}-${slug}`;
+        console.warn(`  ⚠ Cross-category slug collision: "${slug}" (${category} vs ${owner}) → renamed to "${newSlug}"`);
+        items[idx].slug = newSlug;
+        dirty = true;
+        totalRenames++;
+      }
+      globalSlugs.set(items[idx].slug, category);
+    }
+    if (dirty) {
+      writeJSON(filename, items);
+    }
+  }
+  if (totalRenames > 0) {
+    console.log(`Fixed ${totalRenames} cross-category slug collision(s).`);
+  }
 
   // Auto-apply Amazon affiliate links and directAmazonUrl to all products
   const AMAZON_TAG = process.env.AMAZON_AFFILIATE_TAG || "vaultvibe-20";
@@ -261,7 +312,7 @@ async function main() {
     }
   }
 
-  fs.writeFileSync(productsFile, JSON.stringify(allProducts, null, 2));
+  writeJsonSafe(productsFile, allProducts);
   if (affiliateCount > 0) {
     console.log(`🔗 Applied Amazon affiliate links to ${affiliateCount} products.`);
   }
