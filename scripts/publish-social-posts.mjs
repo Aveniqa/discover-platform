@@ -192,7 +192,7 @@ async function getPinterestBoardId(token, boardName) {
   // Cache the board list for the entire run
   if (!_pinterestBoards) {
     try {
-      const res = await fetch("https://api-sandbox.pinterest.com/v5/boards", {
+      const res = await fetch("https://api.pinterest.com/v5/boards", {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (res.ok) {
@@ -240,7 +240,7 @@ async function publishToPinterest(post) {
       };
     }
 
-    const res = await fetch("https://api-sandbox.pinterest.com/v5/pins", {
+    const res = await fetch("https://api.pinterest.com/v5/pins", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
