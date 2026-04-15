@@ -42,90 +42,102 @@
 /*.woff2
   Cache-Control: public, max-age=2592000, immutable
 
-# ─── Dynamic content caching ─────────────────────────────────
+# ─── HTML page caching (CF Pages deploy-aware) ─────────
+#
+# Strategy: Let CF Pages manage edge cache invalidation on deploy.
+#
+# CF Pages automatically invalidates its CDN cache on every deployment.
+# By NOT setting a long max-age on HTML, we ensure fresh content is
+# served within minutes of the daily edition push.
+#
+# The service worker (sw.js) handles instant loads for returning
+# visitors via its own stale-while-revalidate cache. The browser
+# revalidates with the edge on each navigation (cheap 304 if unchanged),
+# and the SW updates its cache in the background.
+#
+# no-cache = always revalidate before serving (browser + CDN)
+# CF edge returns 304 Not Modified via ETag if content hasn't changed,
+# so revalidation is fast (~50ms RTT) and bandwidth-free.
 
-# HTML pages — cache 1 hour, serve stale while revalidating up to 1 day.
-# Content changes once daily via the pipeline, so 1hr cache is safe.
-# stale-while-revalidate gives instant loads for returning visitors.
+# All HTML pages
 /*.html
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 # Category root pages (extensionless HTML on CF Pages)
-# Must be listed individually because /path/* doesn't match /path itself
 /discover
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /hidden-gems
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /future-radar
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /tools
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /trending
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /collections
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /categories
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /about
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /newsletter
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /premium
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 # Static info pages — cache longer (1 day), they rarely change
+# These don't receive daily content updates, so a longer TTL is fine.
 /privacy
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=86400
 
 /terms
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=86400
 
 /affiliate-disclosure
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=86400
 
 /contact
-  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+  Cache-Control: public, max-age=86400
 
-# Item detail pages — same 1hr strategy
+# Item detail pages — always revalidate (daily content may change any item)
 /item/*
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 # Collection sub-pages
 /collections/*
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 # Category sub-pages (pagination etc.)
 /discover/*
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /hidden-gems/*
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /future-radar/*
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /tools/*
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /trending/*
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
-# RSC payload files (.txt) — same as their HTML counterparts
-# Using path-specific patterns to avoid matching /robots.txt (CF Pages merges all matching rules)
+# RSC payload files — same as their HTML counterparts
 /item/*.txt
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 /collections/*.txt
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, no-cache
 
 # ─── Service Worker ──────────────────────────────────────────
 
@@ -138,13 +150,13 @@
 
 # ─── Feeds and metadata ──────────────────────────────────────
 
-# RSS feed — cache 2 hours (regenerated each build)
+# RSS feed — revalidate on each request (changes daily with new content)
 /feed.xml
-  Cache-Control: public, max-age=7200, stale-while-revalidate=3600
+  Cache-Control: public, no-cache
 
-# Sitemap — cache 2 hours
+# Sitemap — revalidate (new item pages are added daily)
 /sitemap.xml
-  Cache-Control: public, max-age=7200, stale-while-revalidate=3600
+  Cache-Control: public, no-cache
 
 # robots.txt — cache 1 day (rarely changes)
 /robots.txt

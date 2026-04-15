@@ -1,12 +1,20 @@
-// Surfaced Service Worker — stale-while-revalidate for item & category pages
-// Version is bumped by the daily build via the CACHE_VERSION below.
+// Surfaced Service Worker — stale-while-revalidate for all pages
+//
+// CDN headers are set to no-cache (revalidate on every request), so
+// CF Pages’ edge always serves fresh content after a deploy. The SW
+// is the *only* layer providing instant loads for returning visitors:
+//   1. Serve cached version immediately (≈0ms)
+//   2. Fetch fresh version from edge in background
+//   3. Update SW cache for next visit
+//
 // On activation, old caches are purged automatically.
 
-const CACHE_VERSION = 'surfaced-v1';
+const CACHE_VERSION = 'surfaced-v2';
 const CACHE_NAME = `${CACHE_VERSION}-pages`;
 
 // Routes that benefit from SW caching (HTML navigations)
 const SWR_PATTERNS = [
+  /^\/$/,               // homepage
   /^\/item\//,          // all 500+ item detail pages
   /^\/discover(\/|$)/,  // discovery category + pagination
   /^\/trending(\/|$)/,  // products category
