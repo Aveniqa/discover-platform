@@ -8,29 +8,48 @@ import imageCache from "@/../data/image-cache.json";
 
 const cache = imageCache as Record<string, string>;
 
-/** Picsum fallback for slugs missing from the cache */
-function picsum(slug: string, w: number, h: number): string {
-  return `https://picsum.photos/seed/${slug}/${w}/${h}`;
-}
-
 const sizeDims: Record<string, string> = {
   sm: "h=400&w=400",
   md: "h=500&w=700",
   lg: "h=650&w=940",
 };
 
+/**
+ * Returns the cached image URL for a given item slug,
+ * or null if no image is available.
+ *
+ * Returning null (instead of a broken external URL) lets the
+ * ItemImage component render a CSS gradient placeholder
+ * immediately — no flash of broken image, no failed requests.
+ *
+ * Appends &fm=webp for modern format support (both Pexels and
+ * Unsplash serve WebP when requested, ~30-50% smaller than JPEG).
+ */
 export function getItemImageUrl(
   slug: string,
   width = 600,
   height = 400,
   size: "sm" | "md" | "lg" = "md"
-): string {
+): string | null {
   const url = cache[slug];
-  if (!url) return picsum(slug, width, height);
-  return url.replace(/h=\d+&w=\d+/, sizeDims[size]);
+  if (!url) return null;
+
+  let sized = url.replace(/h=\d+&w=\d+/, sizeDims[size]);
+
+  // Request WebP format for smaller payloads
+  if (!sized.includes("fm=webp")) {
+    sized = sized.replace(/fm=jpg/, "fm=webp");
+  }
+
+  return sized;
 }
 
 /** Check if an image URL came from Pexels (for attribution) */
 export function isPexelsImage(slug: string): boolean {
   return (cache[slug] || "").includes("pexels.com");
+}
+
+/** Check whether a slug has a cached image */
+export function hasImage(slug: string): boolean {
+  return !!cache[slug];
 }

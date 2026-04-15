@@ -11,6 +11,24 @@ interface ItemImageProps {
   aspectRatio?: string;
   className?: string;
   size?: "sm" | "md" | "lg";
+  priority?: boolean;
+}
+
+/**
+ * Gradient placeholder shown when no cached image exists
+ * or when an image fails to load. Pure CSS — no external request.
+ */
+function ImagePlaceholder({ aspectRatio = "16/10" }: { aspectRatio?: string }) {
+  return (
+    <div
+      className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-transparent to-cyan-500/10 flex items-center justify-center"
+      style={{ aspectRatio }}
+    >
+      <span className="text-xs text-white/50 uppercase tracking-widest font-medium select-none">
+        Surfaced
+      </span>
+    </div>
+  );
 }
 
 export function ItemImage({
@@ -21,7 +39,9 @@ export function ItemImage({
   aspectRatio = "16/10",
   className = "",
   size = "md",
+  priority = false,
 }: ItemImageProps) {
+  const imageUrl = getItemImageUrl(slug, width, height, size);
   const [errored, setErrored] = useState(false);
 
   return (
@@ -29,16 +49,17 @@ export function ItemImage({
       className={`relative overflow-hidden bg-white/[0.03] ${className}`}
       style={{ aspectRatio }}
     >
-      {errored ? (
-        <div className="absolute inset-0 bg-gradient-to-br from-white/[0.04] to-white/[0.01] flex items-center justify-center">
-          <span className="text-xs text-white/60 uppercase tracking-wider">Surfaced</span>
-        </div>
+      {!imageUrl || errored ? (
+        <ImagePlaceholder aspectRatio={aspectRatio} />
       ) : (
         <img
-          src={getItemImageUrl(slug, width, height, size)}
+          src={imageUrl}
           alt={alt}
-          loading="lazy"
+          width={width}
+          height={height}
+          loading={priority ? "eager" : "lazy"}
           decoding="async"
+          fetchPriority={priority ? "high" : "auto"}
           onError={() => setErrored(true)}
           className="w-full h-full object-cover"
         />
