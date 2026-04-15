@@ -89,7 +89,23 @@ const collectionKeywords = {
 
 const MAX_PER_COLLECTION = 12;
 
+// Skip re-populating if the collection already has valid, non-discovery items.
+// This prevents overwriting manually curated collections with keyword-matched noise.
+function hasValidCuratedItems(collection) {
+  if (!collection.itemSlugs || collection.itemSlugs.length === 0) return false;
+  // Check if at least half of the items resolve to actual non-discovery items
+  const resolved = collection.itemSlugs.filter((slug) =>
+    allItems.some((i) => i.slug === slug && i.type !== "discovery")
+  );
+  return resolved.length >= collection.itemSlugs.length / 2;
+}
+
 for (const collection of collections) {
+  if (hasValidCuratedItems(collection)) {
+    console.log(`[${collection.slug}] → ${collection.itemSlugs.length} items (curated, skipped)`);
+    continue;
+  }
+
   let matches = [];
 
   if (collection.slug === "under-50-dollars") {
@@ -120,7 +136,7 @@ for (const collection of collections) {
       .filter((i) => !i.badge || i.badge !== "great-gift")
       .filter((i) => {
         const text = getItemText(i);
-        return keywords.some((kw) => text.includes(kw));
+        return keywords.some((kw) => textMatchesKeyword(text, kw));
       });
     matches = [...badged, ...keywordMatch];
   } else {
@@ -128,7 +144,7 @@ for (const collection of collections) {
     if (keywords.length > 0) {
       matches = allItems.filter((item) => {
         const text = getItemText(item);
-        return keywords.some((kw) => text.includes(kw));
+        return keywords.some((kw) => textMatchesKeyword(text, kw));
       });
     }
   }
