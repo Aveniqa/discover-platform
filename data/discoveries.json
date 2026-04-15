@@ -3,11 +3,11 @@
     "id": 22,
     "slug": "lesotho-is-the-only-country-entirely-above-1000-meters",
     "title": "Lesotho Is the Only Country Entirely Above 1,000 Meters",
-    "shortDescription": "Every point in Lesotho sits above 1,000 meters in elevation, making it the highest low point of any country on Earth. Its lowest elevation is 1,400 meters — higher than the highest point in many nations.",
+    "shortDescription": "Every point in Lesotho sits above 1,000 meters in elevation, making it the highest low point of any country on Earth. Its lowest elevation is 1,400 meters \u2014 higher than the highest point in many nations.",
     "category": "Global",
-    "whyItIsInteresting": "This gives Lesotho the nickname 'Kingdom in the Sky.' Its extreme altitude creates unique challenges — crops grow differently, water boils at lower temperatures, and athletes from Lesotho have a natural advantage in endurance sports due to lifelong altitude training.",
+    "whyItIsInteresting": "This gives Lesotho the nickname 'Kingdom in the Sky.' Its extreme altitude creates unique challenges \u2014 crops grow differently, water boils at lower temperatures, and athletes from Lesotho have a natural advantage in endurance sports due to lifelong altitude training.",
     "imageIdea": "A dramatic mountain landscape in Lesotho with a Basotho horseman riding along a ridgeline above the clouds",
-    "sourceLink": "https://www.worldatlas.com",
+    "sourceLink": "https://en.wikipedia.org/wiki/Geography_of_Lesotho",
     "type": "discovery"
   },
   {
@@ -16,9 +16,9 @@
     "title": "More People Speak French in Africa Than in France",
     "shortDescription": "Over 140 million people across 31 African countries speak French, compared to about 67 million in France itself. By 2050, Africa is projected to be home to 85 percent of the world's French speakers.",
     "category": "Global",
-    "whyItIsInteresting": "The future of the French language is being shaped by Kinshasa, Abidjan, and Dakar more than Paris. It is a profound example of how colonial legacies evolve — the colonized are now the primary stewards and innovators of the colonizer's language.",
+    "whyItIsInteresting": "The future of the French language is being shaped by Kinshasa, Abidjan, and Dakar more than Paris. It is a profound example of how colonial legacies evolve \u2014 the colonized are now the primary stewards and innovators of the colonizer's language.",
     "imageIdea": "A vibrant African marketplace with French-language signs and banners amid colorful fabrics and bustling vendors",
-    "sourceLink": "https://www.francophonie.org",
+    "sourceLink": "https://en.wikipedia.org/wiki/Geographical_distribution_of_French_speakers",
     "type": "discovery"
   },
   {
@@ -29,18 +29,18 @@
     "category": "Global",
     "whyItIsInteresting": "It starkly illustrates the overwhelming military asymmetry of the colonial era. One side had a navy; the other had a wooden palace. The brevity of the conflict makes it a grim symbol of how imperial power operated.",
     "imageIdea": "A British warship firing at a small palace on a tropical coastline with smoke rising from the bombardment",
-    "sourceLink": "https://www.britannica.com",
+    "sourceLink": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
     "type": "discovery"
   },
   {
     "id": 25,
     "slug": "more-people-die-from-selfies-than-shark-attacks",
     "title": "More People Die from Selfies Than from Shark Attacks Each Year",
-    "shortDescription": "Studies have found that selfie-related deaths — from falls, drownings, and vehicle accidents — significantly outnumber shark attack fatalities globally. India, Russia, and the United States have the highest selfie death rates.",
+    "shortDescription": "Studies have found that selfie-related deaths \u2014 from falls, drownings, and vehicle accidents \u2014 significantly outnumber shark attack fatalities globally. India, Russia, and the United States have the highest selfie death rates.",
     "category": "Statistics",
     "whyItIsInteresting": "It is a striking example of how humans are terrible at assessing risk. We fear the dramatic and rare (sharks) while ignoring the mundane and common (distracted behavior near edges). Our risk perception is shaped by narrative, not data.",
-    "imageIdea": "A person taking a selfie dangerously close to a cliff edge with a shark fin visible in the distant ocean below — illustrating the ironic mismatch",
-    "sourceLink": "https://www.washingtonpost.com",
+    "imageIdea": "A person taking a selfie dangerously close to a cliff edge with a shark fin visible in the distant ocean below \u2014 illustrating the ironic mismatch",
+    "sourceLink": "https://phys.org/news/2019-06-selfies-deadly-shark.html",
     "type": "discovery"
   },
   {
@@ -49,9 +49,9 @@
     "title": "Vending Machines Kill More People Than Sharks Each Year",
     "shortDescription": "Vending machines cause an average of 13 deaths per year in the United States, usually from people rocking or tipping them. Sharks kill about 5 people globally per year on average.",
     "category": "Statistics",
-    "whyItIsInteresting": "It perfectly demonstrates the availability heuristic — we overestimate threats that are vivid and cinematic while ignoring everyday dangers. Media coverage makes sharks seem lethal, while nobody makes a horror movie about a Coca-Cola machine.",
+    "whyItIsInteresting": "It perfectly demonstrates the availability heuristic \u2014 we overestimate threats that are vivid and cinematic while ignoring everyday dangers. Media coverage makes sharks seem lethal, while nobody makes a horror movie about a Coca-Cola machine.",
     "imageIdea": "A menacing vending machine in a dark alley casting a shadow shaped like a shark fin",
-    "sourceLink": "https://www.cdc.gov",
+    "sourceLink": "https://en.wikipedia.org/wiki/Death_by_vending_machine",
     "type": "discovery"
   },
   {
@@ -62,7 +62,7 @@
     "category": "Statistics",
     "whyItIsInteresting": "It completely breaks our intuitive understanding of what a 'day' and a 'year' mean. Venus also rotates backward compared to most planets, meaning the Sun rises in the west and sets in the east. It is the solar system's most contrarian planet.",
     "imageIdea": "A split clock showing Venus rotating slowly on one side and orbiting the Sun on the other, with the orbit completing first",
-    "sourceLink": "https://www.nasa.gov",
+    "sourceLink": "https://spaceplace.nasa.gov/all-about-venus/",
     "type": "discovery"
   },
   {
@@ -73,7 +73,7 @@
     "category": "Statistics",
     "whyItIsInteresting": "It reveals how deeply all life on Earth is connected through a common ancestor billions of years ago. The genes we share with bananas are so essential to life that evolution has preserved them across unimaginably different paths.",
     "imageIdea": "A double helix DNA strand that transitions from human form at the top to a banana at the bottom, with shared gene segments highlighted",
-    "sourceLink": "https://www.genome.gov",
+    "sourceLink": "https://www.genome.gov/genetics-glossary/homolog",
     "type": "discovery"
   },
   {
@@ -82,9 +82,9 @@
     "title": "The Total Weight of Ants on Earth Rivals the Total Weight of Humans",
     "shortDescription": "There are an estimated 20 quadrillion ants on Earth, with a combined biomass of roughly 80 million tonnes. This is in the same order of magnitude as humanity's total dry biomass.",
     "category": "Statistics",
-    "whyItIsInteresting": "Despite each ant weighing only 1 to 2 milligrams, their sheer numbers create a collective mass that competes with 8 billion humans. It reframes who really dominates the planet — in terms of biomass, ants have been winning for 100 million years.",
+    "whyItIsInteresting": "Despite each ant weighing only 1 to 2 milligrams, their sheer numbers create a collective mass that competes with 8 billion humans. It reframes who really dominates the planet \u2014 in terms of biomass, ants have been winning for 100 million years.",
     "imageIdea": "A giant scale balancing a dense swarm of ants on one side against a crowd of humans on the other, tipping nearly even",
-    "sourceLink": "https://www.pnas.org",
+    "sourceLink": "https://www.pnas.org/doi/10.1073/pnas.2201550119",
     "type": "discovery"
   },
   {
@@ -95,7 +95,7 @@
     "category": "Statistics",
     "whyItIsInteresting": "Each bolt is five times hotter than the surface of the Sun and lasts less than a second. The sheer frequency means that in the time it took you to read this sentence, over 500 lightning bolts hit the Earth somewhere.",
     "imageIdea": "A global satellite view of Earth at night with hundreds of lightning flashes illuminating storm systems simultaneously across every continent",
-    "sourceLink": "https://www.noaa.gov",
+    "sourceLink": "https://www.weather.gov/mlb/lightning_facts",
     "type": "discovery"
   },
   {
@@ -106,7 +106,7 @@
     "category": "Nature",
     "whyItIsInteresting": "It overturns the view of forests as collections of competing individuals. Mother trees actively nurture their seedlings through these networks, and dying trees dump their resources into the network for others. Forests are cooperative communities, not battlefields.",
     "imageIdea": "A cross-section view of a forest floor showing intricate glowing fungal threads connecting the root systems of multiple trees",
-    "sourceLink": "https://www.nature.com",
+    "sourceLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4497361/",
     "type": "discovery"
   },
   {
@@ -117,7 +117,7 @@
     "category": "Nature",
     "whyItIsInteresting": "It is the only known animal that can completely reverse its aging process. Scientists are studying its cellular mechanisms hoping to unlock insights into human aging and cancer, since both involve cells that refuse to follow normal life cycle rules.",
     "imageIdea": "A tiny translucent jellyfish glowing with bioluminescence in deep dark water, with arrows showing its cyclical life stages",
-    "sourceLink": "https://www.livescience.com",
+    "sourceLink": "https://www.pnas.org/doi/10.1073/pnas.2118763119",
     "type": "discovery"
   },
   {
@@ -128,18 +128,18 @@
     "category": "Nature",
     "whyItIsInteresting": "It reveals that crows have facial recognition abilities, cultural transmission of knowledge, and a concept of social justice. They are essentially running a generational neighborhood watch program against specific humans.",
     "imageIdea": "A crow perched on a branch, staring intensely at a specific person in a crowd while other crows gather nearby",
-    "sourceLink": "https://www.science.org",
+    "sourceLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3234554/",
     "type": "discovery"
   },
   {
     "id": 34,
     "slug": "the-amazon-rainforest-produces-20-percent-of-the-worlds-oxygen",
     "title": "The Amazon Rainforest Generates About 6 Percent of the World's Oxygen",
-    "shortDescription": "While often cited as producing 20 percent of Earth's oxygen, the Amazon actually produces closer to 6 percent — but consumes nearly all of it through respiration and decomposition. Ocean phytoplankton produce over 50 percent of the world's oxygen.",
+    "shortDescription": "While often cited as producing 20 percent of Earth's oxygen, the Amazon actually produces closer to 6 percent \u2014 but consumes nearly all of it through respiration and decomposition. Ocean phytoplankton produce over 50 percent of the world's oxygen.",
     "category": "Nature",
-    "whyItIsInteresting": "The real value of the Amazon is not oxygen production but carbon storage, biodiversity, and rainfall generation. Correcting this myth shifts the conservation argument to what actually matters — the Amazon holds 150 billion tonnes of carbon that would be devastating if released.",
+    "whyItIsInteresting": "The real value of the Amazon is not oxygen production but carbon storage, biodiversity, and rainfall generation. Correcting this myth shifts the conservation argument to what actually matters \u2014 the Amazon holds 150 billion tonnes of carbon that would be devastating if released.",
     "imageIdea": "A vast aerial view of the Amazon canopy with overlaid infographics showing oxygen and carbon cycle arrows",
-    "sourceLink": "https://www.nationalgeographic.com",
+    "sourceLink": "https://www.theatlantic.com/science/archive/2019/08/amazon-fire-earth-has-plenty-oxygen/596923/",
     "type": "discovery"
   },
   {
@@ -150,7 +150,7 @@
     "category": "Nature",
     "whyItIsInteresting": "We spend billions exploring space while the ground beneath our feet is one of the least understood ecosystems on Earth. Over 99 percent of soil microorganisms have never been identified, making the dirt in your garden more mysterious than the surface of Mars.",
     "imageIdea": "A magnified cross-section of a teaspoon of dark rich soil teeming with glowing microscopic organisms of all shapes",
-    "sourceLink": "https://www.usda.gov",
+    "sourceLink": "https://ohioline.osu.edu/factsheet/SAG-16",
     "type": "discovery"
   },
   {
@@ -159,9 +159,9 @@
     "title": "The World's Oldest Known Living Organism Is a Seagrass Meadow",
     "shortDescription": "A Posidonia oceanica seagrass meadow in the Mediterranean near Ibiza is estimated to be up to 100,000 years old. It is a single clonal organism that has been slowly spreading across the seafloor since before humans left Africa.",
     "category": "Nature",
-    "whyItIsInteresting": "This single organism has been alive through the entire history of modern human civilization and predates it by roughly 90,000 years. It quietly survived ice ages, sea level changes, and volcanic eruptions — all while most species went extinct around it.",
+    "whyItIsInteresting": "This single organism has been alive through the entire history of modern human civilization and predates it by roughly 90,000 years. It quietly survived ice ages, sea level changes, and volcanic eruptions \u2014 all while most species went extinct around it.",
     "imageIdea": "An underwater view of a vast, ancient seagrass meadow stretching to the horizon with sunlight filtering through crystal-clear Mediterranean water",
-    "sourceLink": "https://www.plosone.org",
+    "sourceLink": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030454",
     "type": "discovery"
   },
   {
@@ -172,7 +172,7 @@
     "category": "Space",
     "whyItIsInteresting": "It redefines what 'weather' can mean. On Earth we worry about rain; on HD 189733b, you would be shredded by horizontal glass shards moving at seven times the speed of sound. It makes Earth's worst hurricanes look gentle by comparison.",
     "imageIdea": "A blue alien planet with visible horizontal streaks of glittering glass rain being blown across its turbulent atmosphere",
-    "sourceLink": "https://www.nasa.gov",
+    "sourceLink": "https://www.nasa.gov/image-article/rains-of-terror-exoplanet-hd-189733b/",
     "type": "discovery"
   },
   {
@@ -181,20 +181,20 @@
     "title": "There Is a Giant Cloud of Alcohol in Space",
     "shortDescription": "Sagittarius B2, a molecular cloud near the center of the Milky Way, contains billions of liters of methanol and ethanol. The ethanol cloud alone spans 288 billion miles across.",
     "category": "Space",
-    "whyItIsInteresting": "While you could not drink it — it is mixed with lethal chemicals and spread incredibly thin — it demonstrates that complex organic chemistry happens spontaneously in space. These are the same molecular building blocks that eventually lead to life.",
+    "whyItIsInteresting": "While you could not drink it \u2014 it is mixed with lethal chemicals and spread incredibly thin \u2014 it demonstrates that complex organic chemistry happens spontaneously in space. These are the same molecular building blocks that eventually lead to life.",
     "imageIdea": "A vast colorful nebula with molecular structure diagrams of ethanol floating over it, deep in a star-forming region",
-    "sourceLink": "https://www.eso.org",
+    "sourceLink": "https://phys.org/news/2014-09-alcohol-clouds-space.html",
     "type": "discovery"
   },
   {
     "id": 39,
     "slug": "neutron-stars-are-so-dense-a-teaspoon-would-weigh-6-billion-tons",
     "title": "Neutron Stars Are So Dense a Teaspoon Would Weigh 6 Billion Tons",
-    "shortDescription": "When massive stars collapse, protons and electrons are crushed together into neutrons, creating matter so dense that a sugar-cube-sized piece would weigh about 6 billion tons — roughly the weight of Mount Everest.",
+    "shortDescription": "When massive stars collapse, protons and electrons are crushed together into neutrons, creating matter so dense that a sugar-cube-sized piece would weigh about 6 billion tons \u2014 roughly the weight of Mount Everest.",
     "category": "Space",
-    "whyItIsInteresting": "Neutron stars rotate up to 716 times per second and have magnetic fields a trillion times stronger than Earth's. They represent the absolute limit of matter before it collapses into a black hole — the universe's last stand before the point of no return.",
+    "whyItIsInteresting": "Neutron stars rotate up to 716 times per second and have magnetic fields a trillion times stronger than Earth's. They represent the absolute limit of matter before it collapses into a black hole \u2014 the universe's last stand before the point of no return.",
     "imageIdea": "A tiny glowing sphere the size of a city hovering above Earth with a mountain balanced on a scale against a teaspoon of neutron star material",
-    "sourceLink": "https://www.nasa.gov",
+    "sourceLink": "https://en.wikipedia.org/wiki/Neutron_star",
     "type": "discovery"
   },
   {
@@ -205,7 +205,7 @@
     "category": "Space",
     "whyItIsInteresting": "It is humanity's farthest-reaching object, running on less power than a refrigerator light bulb. The fact that 1970s technology is still functioning in interstellar space is a testament to engineering. Its Golden Record carries sounds and images of Earth for any civilization that might find it.",
     "imageIdea": "The Voyager spacecraft as a tiny golden speck against the vast darkness of interstellar space with a faint signal beam stretching back toward a tiny distant Sun",
-    "sourceLink": "https://voyager.jpl.nasa.gov",
+    "sourceLink": "https://science.nasa.gov/mission/voyager/voyager-1/",
     "type": "discovery"
   },
   {
@@ -216,18 +216,18 @@
     "category": "Space",
     "whyItIsInteresting": "Next time you hold a handful of sand at the beach, consider that the number of stars out there dwarfs every grain on every beach, desert, and riverbed on the entire planet combined. The universe is incomprehensibly vast, and we have only explored a vanishingly small fraction.",
     "imageIdea": "A hand releasing grains of sand that transform into glowing stars as they drift upward into a deep space background",
-    "sourceLink": "https://www.esa.int",
+    "sourceLink": "https://www.npr.org/sections/krulwich/2012/09/17/161096233/which-is-greater-the-number-of-sand-grains-on-earth-or-stars-in-the-sky",
     "type": "discovery"
   },
   {
     "id": 42,
     "slug": "olympus-mons-on-mars-is-so-large-you-cant-see-it-from-its-base",
     "title": "Olympus Mons on Mars Is So Large You Cannot See Its Peak from Its Base",
-    "shortDescription": "Olympus Mons is the tallest volcano in the solar system at 21.9 kilometers high — nearly three times the height of Everest. Its base is so wide (600 km across) that the curvature of Mars hides the summit from anyone standing at the edge.",
+    "shortDescription": "Olympus Mons is the tallest volcano in the solar system at 21.9 kilometers high \u2014 nearly three times the height of Everest. Its base is so wide (600 km across) that the curvature of Mars hides the summit from anyone standing at the edge.",
     "category": "Space",
-    "whyItIsInteresting": "If you stood at its base, you would not know you were on a mountain. The slope is so gradual — about 5 degrees — that it would feel like standing on a gently tilted plain. Mars's lower gravity and lack of tectonic plates allowed it to grow to a size impossible on Earth.",
+    "whyItIsInteresting": "If you stood at its base, you would not know you were on a mountain. The slope is so gradual \u2014 about 5 degrees \u2014 that it would feel like standing on a gently tilted plain. Mars's lower gravity and lack of tectonic plates allowed it to grow to a size impossible on Earth.",
     "imageIdea": "A massive Martian volcano stretching beyond the curved horizon of the red planet, with a tiny human figure at the base for scale",
-    "sourceLink": "https://www.nasa.gov",
+    "sourceLink": "https://en.wikipedia.org/wiki/Olympus_Mons",
     "type": "discovery"
   },
   {
@@ -238,7 +238,7 @@
     "category": "History",
     "whyItIsInteresting": "It shatters our compressed mental timeline of 'ancient history.' We lump Egypt into one era, but Egyptian civilization spanned so long that the pyramids were as ancient to Cleopatra as Cleopatra is to us. The past is deeper than we imagine.",
     "imageIdea": "A timeline ribbon with the pyramids on the far left, Cleopatra in the middle, and the Apollo 11 landing on the right, showing the surprising distances",
-    "sourceLink": "https://www.history.com",
+    "sourceLink": "https://www.worldatlas.com/articles/so-cleopatra-lived-closer-in-time-to-the-first-lunar-landing-than-the-great-pyramids.html",
     "type": "discovery"
   },
   {
@@ -249,7 +249,7 @@
     "category": "History",
     "whyItIsInteresting": "We think of the Aztecs as ancient and universities as modern, but reality is the opposite. This fact reveals how our mental model of history is warped by cultural familiarity rather than actual chronology.",
     "imageIdea": "A split image showing the medieval Oxford spires on one side and the grand temples of Tenochtitlan on the other, with dates showing Oxford came first",
-    "sourceLink": "https://www.ox.ac.uk",
+    "sourceLink": "https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/",
     "type": "discovery"
   },
   {
@@ -260,7 +260,7 @@
     "category": "History",
     "whyItIsInteresting": "It is a jarring collision of timelines that shows how unevenly human progress moves. The same species that was sending probes to Mars was still using an 18th-century beheading machine for capital punishment in one of the world's most advanced democracies.",
     "imageIdea": "A movie theater marquee showing Star Wars on one side and a faded newspaper headline about the last guillotine execution on the other, both dated 1977",
-    "sourceLink": "https://www.britannica.com",
+    "sourceLink": "https://www.mentalfloss.com/article/91042/france-stopped-using-guillotine-star-wars-premiered",
     "type": "discovery"
   },
   {
@@ -271,7 +271,7 @@
     "category": "History",
     "whyItIsInteresting": "Imagine if the two most powerful civilizations on Earth had formed a direct alliance or trade route. The Parthian Empire deliberately kept them apart to maintain its lucrative middleman role. A single empire's trade policy may have altered the entire course of world history.",
     "imageIdea": "A Roman legionnaire and a Han Dynasty soldier standing on opposite ends of a vast desert landscape, reaching toward each other but not quite touching",
-    "sourceLink": "https://www.worldhistory.org",
+    "sourceLink": "https://en.wikipedia.org/wiki/Sino-Roman_relations",
     "type": "discovery"
   },
   {
@@ -280,9 +280,9 @@
     "title": "Samurai and Cowboys Existed at the Same Time",
     "shortDescription": "The samurai class was not officially abolished in Japan until 1876, which overlaps directly with the American Wild West era of the 1860s through 1890s. For at least a decade, samurai and cowboys coexisted on opposite sides of the Pacific.",
     "category": "History",
-    "whyItIsInteresting": "Pop culture treats them as belonging to completely different eras, but they were contemporaries. It was theoretically possible for a samurai to board a steamship to San Francisco and meet a cowboy. Akira Kurosawa understood this — his samurai films directly inspired Western movies.",
+    "whyItIsInteresting": "Pop culture treats them as belonging to completely different eras, but they were contemporaries. It was theoretically possible for a samurai to board a steamship to San Francisco and meet a cowboy. Akira Kurosawa understood this \u2014 his samurai films directly inspired Western movies.",
     "imageIdea": "A samurai and a cowboy standing back to back in a dusty frontier town, both ready to draw, with a Pacific Ocean dividing the background",
-    "sourceLink": "https://www.smithsonianmag.com",
+    "sourceLink": "https://en.wikipedia.org/wiki/Boshin_War",
     "type": "discovery"
   },
   {
@@ -293,18 +293,18 @@
     "category": "History",
     "whyItIsInteresting": "We imagine mammoths as Ice Age creatures that vanished before civilization began, but an isolated herd outlived the founding of most ancient civilizations. It reframes extinction as a gradual, uneven process rather than a clean historical break.",
     "imageIdea": "A woolly mammoth standing on a frozen Arctic island with the Egyptian pyramids visible on the distant horizon across the sea",
-    "sourceLink": "https://www.nature.com",
+    "sourceLink": "https://en.wikipedia.org/wiki/Woolly_mammoth",
     "type": "discovery"
   },
   {
     "id": 49,
     "slug": "your-brain-uses-the-same-circuits-for-physical-and-social-pain",
     "title": "Your Brain Uses the Same Circuits for Physical and Social Pain",
-    "shortDescription": "Neuroimaging studies show that social rejection activates the anterior cingulate cortex and insula — the same brain regions that process physical pain. This is why heartbreak and exclusion literally hurt.",
+    "shortDescription": "Neuroimaging studies show that social rejection activates the anterior cingulate cortex and insula \u2014 the same brain regions that process physical pain. This is why heartbreak and exclusion literally hurt.",
     "category": "Psychology",
-    "whyItIsInteresting": "It means social pain is not metaphorical — it is neurologically real. Studies have shown that taking acetaminophen (Tylenol) can actually reduce the sting of social rejection, because the brain genuinely processes both types of pain through overlapping pathways.",
+    "whyItIsInteresting": "It means social pain is not metaphorical \u2014 it is neurologically real. Studies have shown that taking acetaminophen (Tylenol) can actually reduce the sting of social rejection, because the brain genuinely processes both types of pain through overlapping pathways.",
     "imageIdea": "A brain scan with the same region glowing red in two side-by-side images: one labeled 'Stubbed Toe' and the other 'Social Rejection'",
-    "sourceLink": "https://www.pnas.org",
+    "sourceLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3273616/",
     "type": "discovery"
   },
   {
@@ -315,7 +315,7 @@
     "category": "Psychology",
     "whyItIsInteresting": "It creates a paradox where the least qualified people are often the most confident, and the most qualified are plagued by doubt. This explains everything from bad drivers who think they are great to novice investors who are certain they will beat the market.",
     "imageIdea": "A graph showing confidence on the y-axis and knowledge on the x-axis, with a peak of confidence at low knowledge and a valley at moderate knowledge",
-    "sourceLink": "https://www.apa.org",
+    "sourceLink": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
     "type": "discovery"
   },
   {
@@ -326,7 +326,7 @@
     "category": "Psychology",
     "whyItIsInteresting": "It raises profound questions about free will. If your brain commits to a choice before 'you' are aware of it, who is really making the decision? It suggests consciousness may be more of a narrator than a decision-maker.",
     "imageIdea": "A person staring at two buttons, with a ghostly brain image above already reaching for one button 10 seconds before the hand moves",
-    "sourceLink": "https://www.nature.com",
+    "sourceLink": "https://www.nature.com/articles/nn.2112",
     "type": "discovery"
   },
   {
@@ -337,7 +337,7 @@
     "category": "Psychology",
     "whyItIsInteresting": "It explains why athletes perform better in stadiums but students bomb exams when anxious. Your brain releases more adrenaline when observed, which sharpens automatic skills but disrupts the careful thinking needed for novel problems.",
     "imageIdea": "A split scene: on the left, a person confidently solving a simple puzzle in front of a crowd; on the right, the same person struggling with a complex puzzle under the same audience",
-    "sourceLink": "https://www.apa.org",
+    "sourceLink": "https://en.wikipedia.org/wiki/Social_facilitation",
     "type": "discovery"
   },
   {
@@ -346,9 +346,9 @@
     "title": "You Are More Creative When You Are Tired",
     "shortDescription": "Research published in Thinking and Reasoning found that people solve insight-based creative problems better during their non-optimal times of day. Morning people are more creative at night, and night owls are more creative in the morning.",
     "category": "Psychology",
-    "whyItIsInteresting": "When your prefrontal cortex is tired, it loosens its filter on 'irrelevant' thoughts — which are exactly the unexpected connections that fuel creativity. Your brain's reduced focus actually allows more diverse ideas to surface and combine in novel ways.",
+    "whyItIsInteresting": "When your prefrontal cortex is tired, it loosens its filter on 'irrelevant' thoughts \u2014 which are exactly the unexpected connections that fuel creativity. Your brain's reduced focus actually allows more diverse ideas to surface and combine in novel ways.",
     "imageIdea": "A sleepy person at a desk late at night with a chaotic but brilliant mind map of creative ideas swirling above their head",
-    "sourceLink": "https://www.psychologytoday.com",
+    "sourceLink": "https://www.smithsonianmag.com/smart-news/tired-brain-could-actually-be-more-creative-one-180954802/",
     "type": "discovery"
   },
   {
@@ -357,20 +357,20 @@
     "title": "The IKEA Effect Makes You Overvalue Things You Build Yourself",
     "shortDescription": "A Harvard study found that people place disproportionately high value on products they partially created, even if the result is objectively mediocre. Participants valued their own amateur origami creations nearly as much as expert-made ones.",
     "category": "Psychology",
-    "whyItIsInteresting": "It explains why home cooks love their own food, why managers love their own plans, and why IKEA is so successful. The labor itself creates emotional attachment, which means effort does not just produce value — it produces the illusion of extra value.",
+    "whyItIsInteresting": "It explains why home cooks love their own food, why managers love their own plans, and why IKEA is so successful. The labor itself creates emotional attachment, which means effort does not just produce value \u2014 it produces the illusion of extra value.",
     "imageIdea": "A person proudly displaying a slightly crooked IKEA bookshelf with a golden trophy glow around it, while a perfect store-bought shelf sits ignored nearby",
-    "sourceLink": "https://www.hbs.edu",
+    "sourceLink": "https://en.wikipedia.org/wiki/IKEA_effect",
     "type": "discovery"
   },
   {
     "id": 55,
     "slug": "there-are-more-possible-internet-addresses-in-ipv6-than-atoms-on-earth",
     "title": "There Are More Possible Internet Addresses in IPv6 Than Atoms on Earth",
-    "shortDescription": "IPv6 supports 340 undecillion unique addresses (3.4 x 10^38). Earth contains roughly 10^50 atoms, but the number of IPv6 addresses per square meter of Earth's surface is still about 6.7 x 10^23 — Avogadro's number.",
+    "shortDescription": "IPv6 supports 340 undecillion unique addresses (3.4 x 10^38). Earth contains roughly 10^50 atoms, but the number of IPv6 addresses per square meter of Earth's surface is still about 6.7 x 10^23 \u2014 Avogadro's number.",
     "category": "Technology",
     "whyItIsInteresting": "We could assign a unique internet address to every atom on the surface of several Earths and still not run out. IPv6 was designed to be so vast that humanity should never face address exhaustion again, even if we connect trillions of devices.",
     "imageIdea": "A stylized globe wrapped in a dense mesh of glowing network connections, each node representing an IPv6 address, stretching far beyond the planet",
-    "sourceLink": "https://www.ietf.org",
+    "sourceLink": "https://en.wikipedia.org/wiki/IPv6#Larger_address_space",
     "type": "discovery"
   },
   {
@@ -381,18 +381,18 @@
     "category": "Technology",
     "whyItIsInteresting": "The original logbook with the moth is preserved at the Smithsonian. While the term 'bug' was already used informally in engineering, this incident cemented it in computing vocabulary forever. Every time a programmer 'debugs' code, they reference a dead moth from 1947.",
     "imageIdea": "A preserved moth taped to a yellowed logbook page with handwritten notes, next to vintage vacuum tube computer equipment",
-    "sourceLink": "https://www.si.edu",
+    "sourceLink": "https://americanhistory.si.edu/collections/object/nmah_334663",
     "type": "discovery"
   },
   {
     "id": 57,
     "slug": "the-entire-wikipedia-database-is-only-about-22-gigabytes",
     "title": "The Entire Text of Wikipedia Is Only About 22 Gigabytes",
-    "shortDescription": "All of English Wikipedia's article text, compressed, fits in roughly 22 gigabytes — small enough to fit on a basic USB drive. The full database with edit histories and metadata is much larger, but the sum of all human knowledge on Wikipedia is surprisingly compact.",
+    "shortDescription": "All of English Wikipedia's article text, compressed, fits in roughly 22 gigabytes \u2014 small enough to fit on a basic USB drive. The full database with edit histories and metadata is much larger, but the sum of all human knowledge on Wikipedia is surprisingly compact.",
     "category": "Technology",
     "whyItIsInteresting": "A single modern smartphone could store multiple copies of all human knowledge curated by Wikipedia. It shows both how efficiently text compresses and how surprisingly small our collective written knowledge is compared to the photos and videos we generate daily.",
     "imageIdea": "A tiny USB drive sitting next to towering stacks of encyclopedias that reach the ceiling, with a label showing they hold the same information",
-    "sourceLink": "https://www.wikipedia.org",
+    "sourceLink": "https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia",
     "type": "discovery"
   },
   {
@@ -403,7 +403,7 @@
     "category": "Technology",
     "whyItIsInteresting": "It means our digital footprint is growing at a rate that dwarfs all prior human record-keeping combined. Every two years, we generate more data than existed in all of previous human history. Storage, energy consumption, and privacy challenges grow exponentially as a result.",
     "imageIdea": "A timeline bar chart where a tiny sliver represents all data from human history until two years ago and a massive bar represents the last two years",
-    "sourceLink": "https://www.ibm.com",
+    "sourceLink": "https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/",
     "type": "discovery"
   },
   {
@@ -412,9 +412,9 @@
     "title": "The First Webcam Was Invented to Watch a Coffee Pot",
     "shortDescription": "In 1991, researchers at the University of Cambridge set up a camera pointed at a coffee pot in the Trojan Room so they could check if coffee was ready without walking downstairs. It later became the first live image streamed on the web in 1993.",
     "category": "Technology",
-    "whyItIsInteresting": "The entire webcam industry — which now powers video conferencing, security systems, and streaming — was born from sheer laziness about checking a coffee pot. The pot itself was sold on eBay for 3,350 pounds in 2001 after the camera was decommissioned.",
+    "whyItIsInteresting": "The entire webcam industry \u2014 which now powers video conferencing, security systems, and streaming \u2014 was born from sheer laziness about checking a coffee pot. The pot itself was sold on eBay for 3,350 pounds in 2001 after the camera was decommissioned.",
     "imageIdea": "A grainy early-90s webcam image of a half-full coffee pot in a cluttered university break room with a CRT monitor displaying the feed",
-    "sourceLink": "https://www.bbc.com",
+    "sourceLink": "https://www.cl.cam.ac.uk/coffee/qsf/cacm200107.html",
     "type": "discovery"
   },
   {
@@ -425,7 +425,7 @@
     "category": "Technology",
     "whyItIsInteresting": "Despite the existence of satellites, the physical internet is overwhelmingly submarine. Sharks occasionally bite the cables, anchors damage them, and their routes are closely guarded national security secrets. The entire modern digital economy hangs on glass threads at the bottom of the ocean.",
     "imageIdea": "A deep ocean floor view showing a thin fiber optic cable stretching into the dark abyss with faint data light pulses traveling through it",
-    "sourceLink": "https://www.submarinecablemap.com",
+    "sourceLink": "https://en.wikipedia.org/wiki/Submarine_communications_cable",
     "type": "discovery"
   },
   {
@@ -516,7 +516,7 @@
     "id": 68,
     "slug": "tardigrades-microscopic-water-bears-that-can-survive-in-space",
     "title": "Tardigrades: Microscopic \"Water Bears\" That Can Survive in Space",
-    "shortDescription": "Tardigrades, also known as water bears or moss piglets, are microscopic invertebrates renowned for their extreme resilience. These tiny creatures can survive conditions that would be lethal to almost any other form of life, including extreme radiation, vacuum of space, intense pressure, and temperatures from near absolute zero to over 150°C. They achieve this by entering a state of cryptobiosis, essentially pausing their metabolism.",
+    "shortDescription": "Tardigrades, also known as water bears or moss piglets, are microscopic invertebrates renowned for their extreme resilience. These tiny creatures can survive conditions that would be lethal to almost any other form of life, including extreme radiation, vacuum of space, intense pressure, and temperatures from near absolute zero to over 150\u00b0C. They achieve this by entering a state of cryptobiosis, essentially pausing their metabolism.",
     "category": "Nature",
     "whyItIsInteresting": "Their ability to survive in such extreme environments, including the vacuum of space, challenges our understanding of life's limits. They offer insights into potential astrobiological survival mechanisms and could inspire new forms of resilient technology.",
     "imageIdea": "A close-up, magnified image of a tardigrade, showing its distinctive segmented body and eight legs with claws, perhaps against a backdrop suggesting extreme conditions or a cosmic environment.",
@@ -866,7 +866,7 @@
     "title": "The Rosetta Stone: Unlocking the Secrets of Ancient Egyptian Hieroglyphs",
     "shortDescription": "Discovered in 1799 during Napoleon's Egyptian campaign, the Rosetta Stone provided the key to deciphering ancient Egyptian hieroglyphs. It contains a decree issued in 196 BC inscribed with essentially the same text in three scripts: hieroglyphic, Demotic, and ancient Greek. This crucial artifact enabled scholars to finally understand a lost language and unlock centuries of Egyptian history and culture.",
     "category": "History",
-    "whyItIsInteresting": "Before the Rosetta Stone, hieroglyphs were a mystery, their meaning lost for over a millennium. Its decipherment by Jean-François Champollion revolutionized Egyptology, allowing us to read countless inscriptions and gain unprecedented insights into one of the world's most fascinating ancient civilizations. It's a testament to linguistic ingenuity and historical detective work.",
+    "whyItIsInteresting": "Before the Rosetta Stone, hieroglyphs were a mystery, their meaning lost for over a millennium. Its decipherment by Jean-Fran\u00e7ois Champollion revolutionized Egyptology, allowing us to read countless inscriptions and gain unprecedented insights into one of the world's most fascinating ancient civilizations. It's a testament to linguistic ingenuity and historical detective work.",
     "imageIdea": "A close-up, slightly angled shot of the Rosetta Stone, highlighting the three distinct scripts, with a faint historical map of Egypt in the background.",
     "sourceLink": "https://en.wikipedia.org/wiki/Rosetta_Stone",
     "type": "discovery",
@@ -974,7 +974,7 @@
     "title": "The Hum: A Mysterious Low-Frequency Sound Heard by a Select Few Worldwide",
     "shortDescription": "Across various locations globally, a small percentage of the population reports hearing a persistent, low-frequency humming sound that isn't audible to most people or detectable by conventional microphones. This elusive phenomenon, often described as a 'torture' by those who experience it, has puzzled scientists and local authorities for decades, with its source remaining largely unknown.",
     "category": "Global",
-    "whyItIsInteresting": "The Hum highlights the subjective nature of perception and how environmental factors can uniquely affect individuals. It’s a real-world mystery that delves into acoustics, human physiology, and potentially unidentified geological or industrial sources, challenging our understanding of sound and its impact.",
+    "whyItIsInteresting": "The Hum highlights the subjective nature of perception and how environmental factors can uniquely affect individuals. It\u2019s a real-world mystery that delves into acoustics, human physiology, and potentially unidentified geological or industrial sources, challenging our understanding of sound and its impact.",
     "imageIdea": "A person cupping their ear, looking puzzled, in a quiet, rural setting, with subtle, low-frequency sound waves visually emanating from the ground or horizon.",
     "sourceLink": "https://en.wikipedia.org/wiki/The_Hum",
     "type": "discovery",
@@ -1035,7 +1035,7 @@
     "title": "The \"Useless\" Glue That Stuck Around: The Accidental Birth of Post-it Notes",
     "shortDescription": "In 1968, Spencer Silver, a scientist at 3M, developed a \"low-tack,\" repositionable adhesive that was strong enough to stick but weak enough to be easily removed without leaving residue. For years, he couldn't find a practical use for his \"useless\" glue until his colleague, Art Fry, used it to bookmark hymns in his church choir book, solving a personal frustration. This simple application sparked a revolutionary idea.",
     "category": "Innovation",
-    "whyItIsInteresting": "What started as a scientific \"failure\" – an adhesive that wasn't strong enough for conventional uses – became a global phenomenon through an innovative application. The Post-it Note transformed how people organize thoughts, collaborate, and communicate, demonstrating that sometimes the greatest discoveries come from unexpected solutions to seemingly minor problems and persistence in finding a purpose. Its ubiquity is a testament to its accidental genius.",
+    "whyItIsInteresting": "What started as a scientific \"failure\" \u2013 an adhesive that wasn't strong enough for conventional uses \u2013 became a global phenomenon through an innovative application. The Post-it Note transformed how people organize thoughts, collaborate, and communicate, demonstrating that sometimes the greatest discoveries come from unexpected solutions to seemingly minor problems and persistence in finding a purpose. Its ubiquity is a testament to its accidental genius.",
     "imageIdea": "A stack of classic yellow Post-it Notes, with one peeled off and stuck to a monitor displaying a brainstorming session, showing its versatile use.",
     "sourceLink": "https://www.3m.com/3M/en_US/post-it-brand/ideas/history/",
     "type": "discovery",
@@ -1045,11 +1045,11 @@
   {
     "id": 112,
     "slug": "gobekli-tepe-worlds-oldest-known-temple",
-    "title": "Göbekli Tepe: Unearthing the World's Oldest Known Temple Complex",
-    "shortDescription": "Predating Stonehenge and the Egyptian pyramids by thousands of years, Göbekli Tepe is an archaeological site in southeastern Turkey. Its monumental circular structures, adorned with intricate animal carvings, challenge traditional views on the origins of civilization and organized religion. This discovery suggests complex societies may have emerged *before* the development of agriculture.",
+    "title": "G\u00f6bekli Tepe: Unearthing the World's Oldest Known Temple Complex",
+    "shortDescription": "Predating Stonehenge and the Egyptian pyramids by thousands of years, G\u00f6bekli Tepe is an archaeological site in southeastern Turkey. Its monumental circular structures, adorned with intricate animal carvings, challenge traditional views on the origins of civilization and organized religion. This discovery suggests complex societies may have emerged *before* the development of agriculture.",
     "category": "History",
     "whyItIsInteresting": "This site completely rewrites our understanding of early human history, indicating that hunter-gatherers were capable of sophisticated construction and social organization much earlier than previously thought. It pushes back the timeline for monumental architecture and organized religion by several millennia, forcing a re-evaluation of how human societies evolved.",
-    "imageIdea": "An aerial view of the Göbekli Tepe archaeological site showing the distinct circular enclosures and massive T-shaped pillars rising from the ground.",
+    "imageIdea": "An aerial view of the G\u00f6bekli Tepe archaeological site showing the distinct circular enclosures and massive T-shaped pillars rising from the ground.",
     "sourceLink": "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe",
     "type": "discovery",
     "dateAdded": "2026-04-14"
@@ -1266,7 +1266,7 @@
     "category": "Space",
     "whyItIsInteresting": "The idea that advanced extraterrestrial life might build such colossal engineering feats is mind-boggling. It shifts our perspective from looking for tiny signals to searching for the byproducts of immense interstellar construction.",
     "imageIdea": "glowing star sky with orbiting solar panels",
-    "sourceLink": "https://www.nasa.gov/missions/hubble/hubbles-legacy-revealed-by-these-5-new-images/",
+    "sourceLink": "https://science.nasa.gov/universe/search-for-life/searching-for-signs-of-intelligent-life-technosignatures/",
     "type": "discovery",
     "dateAdded": "2026-04-14"
   },
