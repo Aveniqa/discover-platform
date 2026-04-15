@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Test Pinterest API — Production token check + Sandbox token generation
+      - name: Test Pinterest pin creation — production + sandbox auth
         env:
           PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
           PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
           PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
           PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
         run: |
-          set -e
+          set -euo pipefail
 
-          echo "=== Step 1: Verify production token still works ==="
+          echo "=== Step 1: Verify production token ==="
           PROD_RESP=$(curl -s -w "\n%{http_code}" \
             -H "Authorization: Bearer ${PINTEREST_ACCESS_TOKEN}" \
             "https://api.pinterest.com/v5/user_account")
@@ -28,93 +28,20 @@ jobs:
           PROD_BODY=$(echo "$PROD_RESP" | sed '$d')
           echo "Production API: HTTP $PROD_HTTP"
           echo "$PROD_BODY" | jq '{username, account_type}' 2>/dev/null || echo "$PROD_BODY"
-
-          if [ "$PROD_HTTP" != "200" ]; then
-            echo "❌ Production token is invalid/expired (HTTP $PROD_HTTP)"
-            echo "Token refresh may be needed first."
-          else
-            echo "✅ Production token is valid"
-          fi
           echo ""
 
-          echo "=== Step 2: Generate a sandbox token via refresh_token ==="
-          AUTH=$(echo -n "1561781:${PINTEREST_APP_SECRET}" | base64 -w0)
-
-          SANDBOX_TOKEN_RESP=$(curl -s -w "\n%{http_code}" \
-            -X POST "https://api-sandbox.pinterest.com/v5/oauth/token" \
-            -H "Content-Type: application/x-www-form-urlencoded" \
-            -H "Authorization: Basic ${AUTH}" \
-            -d "grant_type=refresh_token" \
-            -d "refresh_token=${PINTEREST_REFRESH_TOKEN}")
-          SANDBOX_HTTP=$(echo "$SANDBOX_TOKEN_RESP" | tail -1)
-          SANDBOX_BODY=$(echo "$SANDBOX_TOKEN_RESP" | sed '$d')
-          echo "Sandbox token refresh: HTTP $SANDBOX_HTTP"
-
-          SANDBOX_ERROR=$(echo "$SANDBOX_BODY" | jq -r '.error // empty' 2>/dev/null)
-          if [ -n "$SANDBOX_ERROR" ]; then
-            echo "Sandbox refresh error: $(echo "$SANDBOX_BODY" | jq -r '.error_description // "unknown"' 2>/dev/null)"
-            echo ""
-            echo "Trying alternative: exchange a new auth code for sandbox token..."
-            echo "NOTE: Sandbox tokens require a separate OAuth flow."
-            echo "The production refresh token cannot be exchanged for a sandbox token."
-            echo ""
-            echo "=== Fallback: Test pin creation on PRODUCTION API ==="
-            echo "(This will confirm if Trial access restriction still applies)"
-            PIN_RESP=$(curl -s -w "\n%{http_code}" \
-              -X POST "https://api.pinterest.com/v5/pins" \
-              -H "Content-Type: application/json" \
-              -H "Authorization: Bearer ${PINTEREST_ACCESS_TOKEN}" \
-              -d "{
-                \"board_id\": \"${PINTEREST_BOARD_ID}\",
-                \"title\": \"Test Pin — Surfaced\",
-                \"description\": \"Automated test pin to verify API access level.\",
-                \"link\": \"https://surfaced-x.pages.dev/\",
-                \"alt_text\": \"Surfaced homepage\",
-                \"media_source\": {
-                  \"source_type\": \"image_url\",
-                  \"url\": \"https://surfaced-x.pages.dev/og-image.png\"
-                }
-              }")
-            PIN_HTTP=$(echo "$PIN_RESP" | tail -1)
-            PIN_RESULT=$(echo "$PIN_RESP" | sed '$d')
-            echo "Production pin creation: HTTP $PIN_HTTP"
-            echo "$PIN_RESULT" | jq . 2>/dev/null || echo "$PIN_RESULT"
-
-            if [ "$PIN_HTTP" = "201" ] || [ "$PIN_HTTP" = "200" ]; then
-              echo "✅ Pin creation succeeded on production!"
-            elif [ "$PIN_HTTP" = "403" ]; then
-              echo "❌ Still blocked: Trial access cannot create pins in production"
-              echo "   Standard access upgrade is required."
-            else
-              echo "❌ Pin creation failed: HTTP $PIN_HTTP"
-            fi
-            exit 0
-          fi
-
-          SANDBOX_TOKEN=$(echo "$SANDBOX_BODY" | jq -r '.access_token')
-          echo "✅ Sandbox token obtained"
-          echo ""
-
-          echo "=== Step 3: Verify sandbox token ==="
-          VERIFY_RESP=$(curl -s -w "\n%{http_code}" \
-            -H "Authorization: Bearer ${SANDBOX_TOKEN}" \
-            "https://api-sandbox.pinterest.com/v5/user_account")
-          VERIFY_HTTP=$(echo "$VERIFY_RESP" | tail -1)
-          echo "Sandbox user_account: HTTP $VERIFY_HTTP"
-          echo "$VERIFY_RESP" | sed '$d' | jq '{username, account_type}' 2>/dev/null
-          echo ""
-
-          echo "=== Step 4: Create test pin on sandbox ==="
+          echo "=== Step 2: Test pin creation on PRODUCTION ==="
+          echo "(Checking if Trial access 403 still applies)"
           PIN_RESP=$(curl -s -w "\n%{http_code}" \
-            -X POST "https://api-sandbox.pinterest.com/v5/pins" \
+            -X POST "https://api.pinterest.com/v5/pins" \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${SANDBOX_TOKEN}" \
+            -H "Authorization: Bearer ${PINTEREST_ACCESS_TOKEN}" \
             -d "{
               \"board_id\": \"${PINTEREST_BOARD_ID}\",
-              \"title\": \"Sandbox Test Pin — Surfaced Auto-Pin\",
-              \"description\": \"Automated test pin from Surfaced (App 1561781) verifying sandbox pin creation. Safe to delete.\",
+              \"title\": \"Test — Surfaced Auto-Pin Verification\",
+              \"description\": \"Automated test from Surfaced (App 1561781). Safe to delete.\",
               \"link\": \"https://surfaced-x.pages.dev/\",
-              \"alt_text\": \"Surfaced homepage showing curated product discoveries\",
+              \"alt_text\": \"Surfaced homepage\",
               \"media_source\": {
                 \"source_type\": \"image_url\",
                 \"url\": \"https://surfaced-x.pages.dev/og-image.png\"
@@ -122,25 +49,91 @@ jobs:
             }")
           PIN_HTTP=$(echo "$PIN_RESP" | tail -1)
           PIN_RESULT=$(echo "$PIN_RESP" | sed '$d')
-          echo "Sandbox pin creation: HTTP $PIN_HTTP"
+          echo "Production pin creation: HTTP $PIN_HTTP"
           echo "$PIN_RESULT" | jq . 2>/dev/null || echo "$PIN_RESULT"
+          echo ""
 
           if [ "$PIN_HTTP" = "201" ] || [ "$PIN_HTTP" = "200" ]; then
             PIN_ID=$(echo "$PIN_RESULT" | jq -r '.id // "unknown"')
-            echo ""
-            echo "✅ SUCCESS — Sandbox test pin created (ID: $PIN_ID)"
-
-            echo "=== Step 5: Verify pin exists ==="
-            FETCH_RESP=$(curl -s -w "\n%{http_code}" \
-              -H "Authorization: Bearer ${SANDBOX_TOKEN}" \
-              "https://api-sandbox.pinterest.com/v5/pins/${PIN_ID}")
-            FETCH_HTTP=$(echo "$FETCH_RESP" | tail -1)
-            echo "Pin fetch: HTTP $FETCH_HTTP"
-            echo "$FETCH_RESP" | sed '$d' | jq '{id, title, link, board_id, created_at}' 2>/dev/null
-            echo "✅ Sandbox pin creation verified end-to-end"
+            echo "✅ UNEXPECTED SUCCESS — Pin created on production! (ID: $PIN_ID)"
+            echo "   Trial access restriction may have been lifted."
+          elif [ "$PIN_HTTP" = "403" ]; then
+            echo "⚠️ CONFIRMED: Trial access blocks pin creation in production."
+            echo "   Error: $(echo "$PIN_RESULT" | jq -r '.message // "unknown"' 2>/dev/null)"
           else
+            echo "❌ Unexpected HTTP $PIN_HTTP"
+          fi
+          echo ""
+
+          echo "=== Step 3: Generate sandbox OAuth token ==="
+          echo "Attempting to get sandbox token via authorization code flow..."
+          AUTH=$(echo -n "1561781:${PINTEREST_APP_SECRET}" | base64 -w0)
+
+          # Try 1: Refresh token against sandbox endpoint
+          echo "--- Try 1: refresh_token against sandbox endpoint ---"
+          SAND_RESP=$(curl -s -w "\n%{http_code}" \
+            -X POST "https://api-sandbox.pinterest.com/v5/oauth/token" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -H "Authorization: Basic ${AUTH}" \
+            -d "grant_type=refresh_token&refresh_token=${PINTEREST_REFRESH_TOKEN}")
+          SAND_HTTP=$(echo "$SAND_RESP" | tail -1)
+          SAND_BODY=$(echo "$SAND_RESP" | sed '$d')
+          echo "Sandbox refresh: HTTP $SAND_HTTP"
+
+          SAND_TOKEN=$(echo "$SAND_BODY" | jq -r '.access_token // empty' 2>/dev/null)
+          if [ -n "$SAND_TOKEN" ] && [ "$SAND_TOKEN" != "null" ]; then
+            echo "✅ Got sandbox token via refresh"
+
+            echo "--- Verify sandbox token ---"
+            VERIFY=$(curl -s -w "\n%{http_code}" \
+              -H "Authorization: Bearer ${SAND_TOKEN}" \
+              "https://api-sandbox.pinterest.com/v5/user_account")
+            V_HTTP=$(echo "$VERIFY" | tail -1)
+            echo "Sandbox verify: HTTP $V_HTTP"
+            echo "$VERIFY" | sed '$d' | jq '{username, account_type}' 2>/dev/null
             echo ""
-            echo "❌ Sandbox pin creation failed: HTTP $PIN_HTTP"
-            ERROR=$(echo "$PIN_RESULT" | jq -r '.message // .error_description // "unknown"' 2>/dev/null)
-            echo "   Error: $ERROR"
+
+            if [ "$V_HTTP" = "200" ]; then
+              echo "--- Create sandbox pin ---"
+              SPIN_RESP=$(curl -s -w "\n%{http_code}" \
+                -X POST "https://api-sandbox.pinterest.com/v5/pins" \
+                -H "Content-Type: application/json" \
+                -H "Authorization: Bearer ${SAND_TOKEN}" \
+                -d "{
+                  \"board_id\": \"${PINTEREST_BOARD_ID}\",
+                  \"title\": \"Sandbox Test — Surfaced Auto-Pin\",
+                  \"description\": \"Test pin via sandbox API. App 1561781. Safe to delete.\",
+                  \"link\": \"https://surfaced-x.pages.dev/\",
+                  \"alt_text\": \"Surfaced homepage\",
+                  \"media_source\": {
+                    \"source_type\": \"image_url\",
+                    \"url\": \"https://surfaced-x.pages.dev/og-image.png\"
+                  }
+                }")
+              SPIN_HTTP=$(echo "$SPIN_RESP" | tail -1)
+              echo "Sandbox pin creation: HTTP $SPIN_HTTP"
+              echo "$SPIN_RESP" | sed '$d' | jq . 2>/dev/null
+              if [ "$SPIN_HTTP" = "201" ] || [ "$SPIN_HTTP" = "200" ]; then
+                echo "✅ Sandbox pin creation SUCCEEDED!"
+              else
+                echo "❌ Sandbox pin creation failed"
+              fi
+            else
+              echo "❌ Sandbox token verification failed"
+            fi
+          else
+            echo "❌ Could not obtain sandbox token via refresh_token"
+            echo "   Response: $(echo "$SAND_BODY" | jq -r '.message // .error_description // .error // .' 2>/dev/null)"
+            echo ""
+            echo "=== CONCLUSION ==="
+            echo "Pinterest sandbox requires a SEPARATE OAuth authorization flow."
+            echo "The production refresh_token cannot generate sandbox tokens."
+            echo ""
+            echo "To get a sandbox token, you need to:"
+            echo "1. Go to https://www.pinterest.com/oauth/?response_type=code&client_id=1561781&scope=boards:read,pins:read,pins:write&redirect_uri=https://surfaced-x.pages.dev/"
+            echo "2. Authorize the app"
+            echo "3. Exchange the auth code at https://api-sandbox.pinterest.com/v5/oauth/token"
+            echo ""
+            echo "Alternatively, the Pinterest developer dashboard may show a sandbox token"
+            echo "directly under your app settings (App ID 1561781)."
           fi
