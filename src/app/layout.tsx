@@ -4,6 +4,8 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { SearchModal } from "@/components/ui/SearchModal";
 import { Analytics } from "@/components/Analytics";
+import { ServiceWorkerRegistration } from "@/components/ServiceWorkerRegistration";
+import { PrefetchLinks } from "@/components/ui/PrefetchLinks";
 import "./globals.css";
 
 const inter = Inter({
@@ -114,6 +116,8 @@ export default function RootLayout({
         <Navbar />
         <main id="main-content" className="min-h-screen pt-16">{children}</main>
         <Footer />
+        <ServiceWorkerRegistration />
+        <PrefetchLinks />
       </body>
     </html>
   );
