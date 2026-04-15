@@ -1,0 +1,125 @@
+name: Test Pinterest Sandbox Pin
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-pin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Test Pinterest Sandbox API — Create Pin
+        env:
+          PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+        run: |
+          set -e
+
+          if [ -z "$PINTEREST_ACCESS_TOKEN" ]; then
+            echo "❌ PINTEREST_ACCESS_TOKEN secret is not set"
+            exit 1
+          fi
+          if [ -z "$PINTEREST_BOARD_ID" ]; then
+            echo "❌ PINTEREST_BOARD_ID secret is not set"
+            exit 1
+          fi
+
+          echo "=== Step 1: Verify token with user_account endpoint ==="
+          USER_RESP=$(curl -s -w "\n%{http_code}" \
+            -H "Authorization: Bearer ${PINTEREST_ACCESS_TOKEN}" \
+            "https://api-sandbox.pinterest.com/v5/user_account")
+          USER_HTTP=$(echo "$USER_RESP" | tail -1)
+          USER_BODY=$(echo "$USER_RESP" | sed '$d')
+          echo "HTTP $USER_HTTP"
+          echo "$USER_BODY" | jq . 2>/dev/null || echo "$USER_BODY"
+
+          if [ "$USER_HTTP" != "200" ]; then
+            echo "❌ Token verification failed (HTTP $USER_HTTP)"
+            exit 1
+          fi
+          echo "✅ Token is valid"
+          echo ""
+
+          echo "=== Step 2: List boards ==="
+          BOARDS_RESP=$(curl -s -w "\n%{http_code}" \
+            -H "Authorization: Bearer ${PINTEREST_ACCESS_TOKEN}" \
+            "https://api-sandbox.pinterest.com/v5/boards")
+          BOARDS_HTTP=$(echo "$BOARDS_RESP" | tail -1)
+          BOARDS_BODY=$(echo "$BOARDS_RESP" | sed '$d')
+          echo "HTTP $BOARDS_HTTP"
+          echo "$BOARDS_BODY" | jq '.items | length' 2>/dev/null && echo " board(s) found"
+          echo "$BOARDS_BODY" | jq -r '.items[]? | "  - \(.name) (id: \(.id))"' 2>/dev/null
+
+          if [ "$BOARDS_HTTP" != "200" ]; then
+            echo "⚠️ Board listing failed (HTTP $BOARDS_HTTP) — continuing with default board ID"
+          fi
+          echo ""
+
+          echo "=== Step 3: Create a test Pin on sandbox ==="
+          PIN_BODY=$(cat <<'EOF'
+          {
+            "board_id": "BOARD_PLACEHOLDER",
+            "title": "🧪 Sandbox Test Pin — Surfaced Auto-Pin",
+            "description": "This is an automated test pin from Surfaced (App ID 1561781) verifying sandbox pin creation works end-to-end. This pin was created via the Pinterest API v5 sandbox endpoint. Safe to delete.",
+            "link": "https://surfaced-x.pages.dev/",
+            "alt_text": "Surfaced homepage showing curated product discoveries",
+            "media_source": {
+              "source_type": "image_url",
+              "url": "https://surfaced-x.pages.dev/og-image.png"
+            }
+          }
+          EOF
+          )
+          # Replace placeholder with actual board ID
+          PIN_BODY=$(echo "$PIN_BODY" | sed "s/BOARD_PLACEHOLDER/${PINTEREST_BOARD_ID}/")
+
+          echo "Sending pin creation request..."
+          echo "$PIN_BODY" | jq . 2>/dev/null
+
+          PIN_RESP=$(curl -s -w "\n%{http_code}" \
+            -X POST "https://api-sandbox.pinterest.com/v5/pins" \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${PINTEREST_ACCESS_TOKEN}" \
+            -d "$PIN_BODY")
+          PIN_HTTP=$(echo "$PIN_RESP" | tail -1)
+          PIN_RESULT=$(echo "$PIN_RESP" | sed '$d')
+          echo ""
+          echo "HTTP $PIN_HTTP"
+          echo "$PIN_RESULT" | jq . 2>/dev/null || echo "$PIN_RESULT"
+
+          if [ "$PIN_HTTP" = "201" ] || [ "$PIN_HTTP" = "200" ]; then
+            PIN_ID=$(echo "$PIN_RESULT" | jq -r '.id // "unknown"')
+            echo ""
+            echo "✅ SUCCESS — Test pin created!"
+            echo "   Pin ID: $PIN_ID"
+            echo "   Board: $PINTEREST_BOARD_ID"
+            echo "   Sandbox pin creation is working end-to-end."
+            echo ""
+            echo "=== Step 4: Verify pin exists by fetching it back ==="
+            VERIFY_RESP=$(curl -s -w "\n%{http_code}" \
+              -H "Authorization: Bearer ${PINTEREST_ACCESS_TOKEN}" \
+              "https://api-sandbox.pinterest.com/v5/pins/${PIN_ID}")
+            VERIFY_HTTP=$(echo "$VERIFY_RESP" | tail -1)
+            VERIFY_BODY=$(echo "$VERIFY_RESP" | sed '$d')
+            echo "HTTP $VERIFY_HTTP"
+            echo "$VERIFY_BODY" | jq '{id, title, link, board_id, created_at}' 2>/dev/null
+            if [ "$VERIFY_HTTP" = "200" ]; then
+              echo "✅ Pin verified — exists in sandbox"
+            else
+              echo "⚠️ Pin created but verification fetch returned HTTP $VERIFY_HTTP"
+            fi
+          else
+            echo ""
+            echo "❌ FAILED — Pin creation returned HTTP $PIN_HTTP"
+            ERROR_MSG=$(echo "$PIN_RESULT" | jq -r '.message // .error_description // "unknown error"' 2>/dev/null)
+            echo "   Error: $ERROR_MSG"
+            echo ""
+            echo "Common issues:"
+            echo "   403 = Trial access cannot create pins (need Standard)"
+            echo "   401 = Token expired or invalid"
+            echo "   400 = Invalid board ID or payload"
+            exit 1
+          fi
