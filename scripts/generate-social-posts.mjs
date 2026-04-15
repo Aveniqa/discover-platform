@@ -8,8 +8,12 @@
  */
 import { readFileSync, existsSync, mkdirSync } from "fs";
 import { writeJsonSafe } from "./lib/write-safe.mjs";
+import { createLogger } from "./lib/logger.mjs";
+import { pooledFetch } from "./lib/fetch-pool.mjs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+
+const log = createLogger({ script: 'generate-social-posts' });
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
@@ -265,7 +269,7 @@ function cleanJson(text) {
 async function callGeminiWithRetry(prompt, maxRetries = 2) {
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
     try {
-      const response = await fetch(`${GEMINI_URL}?key=${GEMINI_API_KEY}`, {
+      const response = await pooledFetch(`${GEMINI_URL}?key=${GEMINI_API_KEY}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -375,7 +379,7 @@ Respond with ONLY the search query string in JSON: {"query": "your search terms"
 
 async function searchPexelsImage(query) {
   try {
-    const res = await fetch(
+    const res = await pooledFetch(
       `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=5&orientation=landscape`,
       { headers: { Authorization: PEXELS_API_KEY } }
     );

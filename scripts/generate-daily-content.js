@@ -2,6 +2,9 @@ const { GoogleGenAI } = require("@google/genai");
 const fs = require("fs");
 const path = require("path");
 const { writeJsonSafe } = require("./lib/write-safe");
+const { createLogger } = require("./lib/logger");
+
+const log = createLogger({ script: 'generate-daily-content' });
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 // Flash-Lite has the highest free-tier limits (15 RPM, 1000 RPD)
@@ -322,6 +325,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error("❌ Generation failed:", err.message);
+  log.error('Generation failed', { error: err.message, stack: err.stack });
   process.exit(1);
 });

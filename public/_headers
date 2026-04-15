@@ -15,7 +15,7 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()
   
   # Content Security Policy with violation reporting
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://images.pexels.com https://images.unsplash.com data: blob:; connect-src 'self' https://api.pexels.com https://api.unsplash.com; frame-src 'self' https://*.pages.dev; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; report-uri /api/csp-report; report-to csp-endpoint
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://images.pexels.com https://images.unsplash.com https://www.google.com data: blob:; connect-src 'self' https://api.pexels.com https://api.unsplash.com; frame-src 'self' https://*.pages.dev; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; report-uri /api/csp-report; report-to csp-endpoint
   
   # CSP Reporting endpoint (modern browsers)
   Report-To: {"group":"csp-endpoint","max_age":10886400,"endpoints":[{"url":"https://surfaced-x.pages.dev/api/csp-report"}],"include_subdomains":true}
@@ -24,42 +24,80 @@
   # Force HTTPS
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 
-# Cache immutable static assets aggressively (content-hashed filenames)
+# ─── Static asset caching ────────────────────────────────────
+
+# Immutable content-hashed JS/CSS (Next.js build output) — cache forever
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable
 
-# Cache local images (1 day)
+# Local images — cache 7 days (they don't change between builds)
 /images/*
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 
-# Cache SVGs (1 day)
+# SVG icons/logos — cache 7 days
 /*.svg
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 
-# HTML pages — must revalidate (content changes daily)
+# Fonts — cache 30 days (immutable between builds)
+/*.woff2
+  Cache-Control: public, max-age=2592000, immutable
+
+# ─── Dynamic content caching ─────────────────────────────────
+
+# HTML pages — cache 1 hour, serve stale while revalidating up to 1 day.
+# Content changes once daily via the pipeline, so 1hr cache is safe.
+# stale-while-revalidate gives instant loads for returning visitors.
 /*.html
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
-# Subdirectory HTML pages (item detail, collections, etc.)
+# Item detail pages — same 1hr strategy
 /item/*
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
+# Collection pages
 /collections/*
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
-# RSC payload files (.txt) — same policy as HTML
+# Category listing pages
+/discover/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/hidden-gems/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/future-radar/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/tools/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/trending/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+# RSC payload files (.txt) — same as their HTML counterparts
 /*.txt
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
 /item/*.txt
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
 /collections/*.txt
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
-# RSS feed and sitemap (1 hour cache — regenerated each build)
+# ─── Feeds and metadata ──────────────────────────────────────
+
+# RSS feed — cache 2 hours (regenerated each build)
 /feed.xml
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=7200, stale-while-revalidate=3600
 
+# Sitemap — cache 2 hours
 /sitemap.xml
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=7200, stale-while-revalidate=3600
+
+# robots.txt — cache 1 day (rarely changes)
+/robots.txt
+  Cache-Control: public, max-age=86400
+
+# og-image — cache 1 day
+/og-image.png
+  Cache-Control: public, max-age=86400, stale-while-revalidate=86400

@@ -73,11 +73,12 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} dark`}>
       <head>
         <meta name="impact-site-verification" content="1dd3812c-2540-4b06-b6c6-27528553b44d" />
-        <meta name="impact-site-verification" content="undefined" />
         <Analytics />
         <link rel="alternate" type="application/rss+xml" title="Surfaced" href="/feed.xml" />
+        {/* Preconnect to image CDNs for faster above-the-fold loads */}
         <link rel="preconnect" href="https://images.pexels.com" />
         <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="preconnect" href="https://www.google.com" />
         <link rel="dns-prefetch" href="https://www.amazon.com" />
         {process.env.NEXT_PUBLIC_ADSENSE_ID && (
           <script

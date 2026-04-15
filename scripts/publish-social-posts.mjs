@@ -21,9 +21,13 @@
  */
 import { readFileSync, existsSync } from "fs";
 import { writeJsonSafe } from "./lib/write-safe.mjs";
+import { createLogger } from "./lib/logger.mjs";
+import { pooledFetch } from "./lib/fetch-pool.mjs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import { createHmac, randomBytes } from "crypto";
+
+const log = createLogger({ script: 'publish-social-posts' });
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
@@ -39,7 +43,7 @@ async function getBlueskySession() {
   const password = process.env.BLUESKY_APP_PASSWORD;
   if (!handle || !password) return null;
 
-  const sessionRes = await fetch(
+  const sessionRes = await pooledFetch(
     "https://bsky.social/xrpc/com.atproto.server.createSession",
     {
       method: "POST",
@@ -109,12 +113,12 @@ async function publishToBluesky(post) {
     let thumbBlob = null;
     if (post.imageUrl) {
       try {
-        const imgRes = await fetch(post.imageUrl);
+        const imgRes = await pooledFetch(post.imageUrl, { timeout: 10000 });
         if (imgRes.ok) {
           const imgBuffer = await imgRes.arrayBuffer();
           if (imgBuffer.byteLength <= 1000000) {
             const contentType = imgRes.headers.get("content-type") || "image/jpeg";
-            const blobRes = await fetch(
+            const blobRes = await pooledFetch(
               "https://bsky.social/xrpc/com.atproto.repo.uploadBlob",
               {
                 method: "POST",
@@ -153,7 +157,7 @@ async function publishToBluesky(post) {
     }
 
     // Create post
-    const postRes = await fetch(
+    const postRes = await pooledFetch(
       "https://bsky.social/xrpc/com.atproto.repo.createRecord",
       {
         method: "POST",
@@ -192,7 +196,7 @@ async function getPinterestBoardId(token, boardName) {
   // Cache the board list for the entire run
   if (!_pinterestBoards) {
     try {
-      const res = await fetch("https://api.pinterest.com/v5/boards", {
+      const res = await pooledFetch("https://api.pinterest.com/v5/boards", {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (res.ok) {
@@ -240,7 +244,7 @@ async function publishToPinterest(post) {
       };
     }
 
-    const res = await fetch("https://api.pinterest.com/v5/pins", {
+    const res = await pooledFetch("https://api.pinterest.com/v5/pins", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -316,7 +320,7 @@ async function addAltTextToMedia(mediaId, altText, apiKey, apiSecret, accessToke
         .map((k) => `${percentEncode(k)}="${percentEncode(oauthParams[k])}"`)
         .join(", ");
 
-    const res = await fetch(url, {
+    const res = await pooledFetch(url, {
       method,
       headers: {
         "Content-Type": "application/json",
@@ -340,8 +344,10 @@ async function addAltTextToMedia(mediaId, altText, apiKey, apiSecret, accessToke
 const postedPath = join(DATA_DIR, "social-posted.json");
 
 async function main() {
+  log.time('publish-run');
+
   if (!existsSync(queuePath)) {
-    console.log("No social queue found. Run generate-social-posts.mjs first.");
+    log.info('No social queue found — run generate-social-posts.mjs first');
     process.exit(0);
   }
 
@@ -349,7 +355,7 @@ async function main() {
   const pending = queue.posts.filter((p) => p.status === "pending");
 
   if (pending.length === 0) {
-    console.log("No pending posts to publish.");
+    log.info('No pending posts to publish');
     process.exit(0);
   }
 
@@ -359,11 +365,14 @@ async function main() {
     ? JSON.parse(readFileSync(postedPath, "utf-8"))
     : {};
 
-  console.log(`📤 Publishing ${pending.length} pending social posts...\n`);
+  log.info(`Publishing ${pending.length} pending social posts`, { count: pending.length });
+
+  const stats = { total: pending.length, published: 0, failed: 0, platforms: { bluesky: 0, pinterest: 0, twitter: 0 } };
 
   for (let i = 0; i < pending.length; i++) {
     const post = pending[i];
-    console.log(`\n🔄 ${post.title} (${post.category})`);
+    log.info(`Processing: ${post.title}`, { category: post.category, index: i + 1 });
+    log.time(`post-${i}`);
 
     const results = {
       bluesky: await publishToBluesky(post),
@@ -371,11 +380,17 @@ async function main() {
       twitter: await publishToTwitter(post),
     };
 
+    // Track stats
+    if (results.bluesky) stats.platforms.bluesky++;
+    if (results.pinterest) stats.platforms.pinterest++;
+    if (results.twitter) stats.platforms.twitter++;
+
     // Mark as published if at least one platform succeeded
     const anySuccess = Object.values(results).some((v) => v);
     post.status = anySuccess ? "published" : "failed";
     post.publishedAt = new Date().toISOString();
     post.publishResults = results;
+    anySuccess ? stats.published++ : stats.failed++;
 
     // Only mark as posted when at least one platform succeeded
     if (anySuccess && post.category) {
@@ -389,18 +404,21 @@ async function main() {
     writeJsonSafe(queuePath, queue);
     writeJsonSafe(postedPath, posted);
 
+    log.timeEnd(`post-${i}`, { title: post.title, status: post.status, results });
+
     // Stagger posts to avoid looking automated (30-90s between posts)
     if (i < pending.length - 1) {
       const delay = 30000 + Math.floor(Math.random() * 60000);
-      console.log(`   ⏱️ Waiting ${Math.round(delay / 1000)}s before next post...`);
+      log.info(`Staggering ${Math.round(delay / 1000)}s before next post`);
       await new Promise((r) => setTimeout(r, delay));
     }
   }
 
-  console.log("\n✅ Publishing complete. Queue updated.");
+  log.timeEnd('publish-run', { type: 'summary' });
+  log.summary(stats);
 }
 
 main().catch((err) => {
-  console.error("Fatal error:", err);
+  log.error('Fatal error', { error: err.message, stack: err.stack });
   process.exit(1);
 });
