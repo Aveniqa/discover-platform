@@ -7,7 +7,7 @@ on:
         description: 'Number of new items to add per category (in batches of 3)'
         required: true
         default: '60'
-        type: string
+        type: number
 
 concurrency:
   group: content-generation
@@ -38,7 +38,8 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           AMAZON_AFFILIATE_TAG: ${{ secrets.AMAZON_AFFILIATE_TAG }}
-        run: node scripts/bulk-generate-content.js ${{ inputs.items_per_category }}
+          ITEMS_PER_CATEGORY: ${{ inputs.items_per_category }}
+        run: node scripts/bulk-generate-content.js "$ITEMS_PER_CATEGORY"
 
       - name: Validate JSON files
         run: node scripts/validate-data.js
@@ -66,6 +67,8 @@ jobs:
         run: npm run build
 
       - name: Commit and push
+        env:
+          ITEMS_PER_CATEGORY: ${{ inputs.items_per_category }}
         run: |
           git config user.name "Surfaced Bot"
           git config user.email "bot@surfaced.daily"
@@ -74,6 +77,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "📦 Bulk content: +${{ inputs.items_per_category }} items per category"
+          git commit -m "📦 Bulk content: +${ITEMS_PER_CATEGORY} items per category"
           git pull --rebase origin main
           git push
