@@ -192,7 +192,7 @@ async function getPinterestBoardId(token, boardName) {
   // Cache the board list for the entire run
   if (!_pinterestBoards) {
     try {
-      const res = await fetch("https://api.pinterest.com/v5/boards", {
+      const res = await fetch("https://api-sandbox.pinterest.com/v5/boards", {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (res.ok) {
@@ -240,7 +240,7 @@ async function publishToPinterest(post) {
       };
     }
 
-    const res = await fetch("https://api.pinterest.com/v5/pins", {
+    const res = await fetch("https://api-sandbox.pinterest.com/v5/pins", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -282,140 +282,13 @@ function generateOAuthSignature(method, url, params, consumerSecret, tokenSecret
 }
 
 async function publishToTwitter(post) {
-  const apiKey = process.env.X_API_KEY;
-  const apiSecret = process.env.X_API_SECRET;
-  const accessToken = process.env.X_ACCESS_TOKEN;
-  const accessSecret = process.env.X_ACCESS_SECRET;
-
-  if (!apiKey || !apiSecret || !accessToken || !accessSecret) {
-    console.log("   ⏭ X/Twitter: skipped (no credentials)");
-    return false;
-  }
-
-  try {
-    const tweetText = post.platforms.twitter.text;
-
-    // Upload image if available (v1.1 media upload)
-    let mediaId = null;
-    if (post.imageUrl) {
-      try {
-        const imgRes = await fetch(post.imageUrl);
-        if (imgRes.ok) {
-          const imgBuffer = await imgRes.arrayBuffer();
-          const base64Image = Buffer.from(imgBuffer).toString("base64");
-
-          const uploadUrl = "https://upload.twitter.com/1.1/media/upload.json";
-          const uploadMethod = "POST";
-
-          const mediaData = `media_data=${percentEncode(base64Image)}`;
-
-          const uploadOauthParams = {
-            oauth_consumer_key: apiKey,
-            oauth_nonce: randomBytes(16).toString("hex"),
-            oauth_signature_method: "HMAC-SHA1",
-            oauth_timestamp: Math.floor(Date.now() / 1000).toString(),
-            oauth_token: accessToken,
-            oauth_version: "1.0",
-          };
-
-          const uploadSig = generateOAuthSignature(
-            uploadMethod,
-            uploadUrl,
-            uploadOauthParams,
-            apiSecret,
-            accessSecret
-          );
-          uploadOauthParams.oauth_signature = uploadSig;
-
-          const uploadAuthHeader =
-            "OAuth " +
-            Object.keys(uploadOauthParams)
-              .sort()
-              .map((k) => `${percentEncode(k)}="${percentEncode(uploadOauthParams[k])}"`)
-              .join(", ");
-
-          const uploadRes = await fetch(uploadUrl, {
-            method: uploadMethod,
-            headers: {
-              "Content-Type": "application/x-www-form-urlencoded",
-              Authorization: uploadAuthHeader,
-            },
-            body: mediaData,
-          });
-
-          if (uploadRes.ok) {
-            const uploadResult = await uploadRes.json();
-            mediaId = uploadResult.media_id_string;
-            console.log(`   📷 X/Twitter: image uploaded → ${mediaId}`);
-
-            // Add alt text to the uploaded image
-            const altText = post.imageAltText || `Image for ${post.title}`;
-            await addAltTextToMedia(mediaId, altText, apiKey, apiSecret, accessToken, accessSecret);
-          } else {
-            console.log(`   ⚠️ X/Twitter: image upload failed (${uploadRes.status}), posting without image`);
-          }
-        }
-      } catch (imgErr) {
-        console.log(`   ⚠️ X/Twitter: image upload failed, posting without image`);
-      }
-    }
-
-    const url = "https://api.x.com/2/tweets";
-    const method = "POST";
-
-    const oauthParams = {
-      oauth_consumer_key: apiKey,
-      oauth_nonce: randomBytes(16).toString("hex"),
-      oauth_signature_method: "HMAC-SHA1",
-      oauth_timestamp: Math.floor(Date.now() / 1000).toString(),
-      oauth_token: accessToken,
-      oauth_version: "1.0",
-    };
-
-    const signature = generateOAuthSignature(
-      method,
-      url,
-      oauthParams,
-      apiSecret,
-      accessSecret
-    );
-    oauthParams.oauth_signature = signature;
-
-    const authHeader =
-      "OAuth " +
-      Object.keys(oauthParams)
-        .sort()
-        .map((k) => `${percentEncode(k)}="${percentEncode(oauthParams[k])}"`)
-        .join(", ");
-
-    const tweetBody = { text: tweetText };
-    if (mediaId) {
-      tweetBody.media = { media_ids: [mediaId] };
-    }
-
-    const res = await fetch(url, {
-      method,
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: authHeader,
-      },
-      body: JSON.stringify(tweetBody),
-    });
-
-    if (!res.ok) {
-      const errBody = await res.text();
-      throw new Error(`Tweet failed ${res.status}: ${errBody.slice(0, 200)}`);
-    }
-
-    const result = await res.json();
-    console.log(
-      `   ✅ X/Twitter: tweeted → https://x.com/i/status/${result.data.id}`
-    );
-    return true;
-  } catch (err) {
-    console.error(`   ❌ X/Twitter: ${err.message}`);
-    return false;
-  }
+  // X/Twitter posting is temporarily disabled.
+  // Reason: Free-tier credits are depleted (402 CreditsDepleted) and image
+  // upload requires Basic tier ($200/mo, returns 401). Skipping to avoid
+  // wasting queue items on guaranteed failures.
+  // Re-enable when: credits are restored OR account is upgraded to Basic tier.
+  console.log("   ⏭ X/Twitter: SKIPPED — posting disabled (credits depleted + Basic tier required for media). Re-enable when account is upgraded.");
+  return false;
 }
 
 // Add alt text to uploaded media for accessibility

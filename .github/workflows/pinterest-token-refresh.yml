@@ -31,7 +31,8 @@ jobs:
           AUTH=$(echo -n "1561781:${PINTEREST_APP_SECRET}" | base64 -w0)
           
           echo "Refreshing Pinterest access token..."
-          RESPONSE=$(curl -s -X POST "https://api.pinterest.com/v5/oauth/token" \
+          # Using sandbox API while awaiting Standard access approval
+          RESPONSE=$(curl -s -X POST "https://api-sandbox.pinterest.com/v5/oauth/token" \
             -H "Content-Type: application/x-www-form-urlencoded" \
             -H "Authorization: Basic ${AUTH}" \
             -d "grant_type=refresh_token" \
@@ -54,7 +55,7 @@ jobs:
           echo "Verifying new token..."
           VERIFY=$(curl -s -o /dev/null -w "%{http_code}" \
             -H "Authorization: Bearer ${NEW_TOKEN}" \
-            "https://api.pinterest.com/v5/user_account")
+            "https://api-sandbox.pinterest.com/v5/user_account")
           if [ "$VERIFY" != "200" ]; then
             echo "⚠️ Token refreshed but verification returned HTTP $VERIFY"
           else
