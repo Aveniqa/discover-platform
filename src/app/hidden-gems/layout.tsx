@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hidden Gem Apps & Tools | Surfaced",
+    title: "Hidden Gem Apps & Tools",
     description:
       "Under-the-radar apps, tools, and services that deserve more attention.",
   },

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Trending Products Worth Buying | Surfaced",
+    title: "Trending Products Worth Buying",
     description:
       "Curated products across tech, home, fitness, and outdoors — with honest reviews and prices.",
   },

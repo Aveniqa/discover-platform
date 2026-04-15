@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Best Daily Tools | Surfaced",
+    title: "Best Daily Tools",
     description:
       "Essential tools for creators, developers, and professionals — free and paid, all personally vetted.",
   },

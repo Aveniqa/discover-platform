@@ -3,7 +3,7 @@ import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { SocialCTA } from "@/components/SocialCTA";
 
 export const metadata: Metadata = {
-  title: "Newsletter — Surfaced",
+  title: "Newsletter",
   description:
     "Get the best discoveries, trending products, and hidden internet gems delivered to your inbox every morning. Free, no spam.",
   openGraph: {

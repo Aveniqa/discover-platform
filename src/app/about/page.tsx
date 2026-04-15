@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SocialCTA } from "@/components/SocialCTA";
 
 export const metadata: Metadata = {
-  title: "About — Surfaced",
+  title: "About",
   description:
     "Learn about Surfaced, the daily discovery engine that surfaces what matters from the infinite internet.",
   openGraph: {

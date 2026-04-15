@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fascinating Discoveries | Surfaced",
+    title: "Fascinating Discoveries",
     description:
       "Mind-blowing facts, forgotten history, and bizarre science — updated daily.",
   },

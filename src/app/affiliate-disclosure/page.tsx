@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Affiliate Disclosure — Surfaced",
+  title: "Affiliate Disclosure",
   description:
     "Transparency about how Surfaced earns revenue through affiliate links and why it never compromises our editorial independence.",
   openGraph: {

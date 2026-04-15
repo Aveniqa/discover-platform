@@ -4,7 +4,7 @@ import { categories } from "@/lib/data";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 
 export const metadata: Metadata = {
-  title: "Browse by Category — Surfaced",
+  title: "Browse by Category",
   description: "Explore discoveries, products, tools, and hidden gems organized by topic.",
   alternates: { canonical: "https://surfaced-x.pages.dev/categories" },
   openGraph: {

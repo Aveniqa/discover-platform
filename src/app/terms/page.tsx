@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Surfaced",
+  title: "Terms of Service",
   description:
     "Read the terms and conditions governing your use of the Surfaced platform and services.",
   openGraph: {

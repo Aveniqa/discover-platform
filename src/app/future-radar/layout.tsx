@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Future Technology & Emerging Innovations | Surfaced",
+    title: "Future Technology & Emerging Innovations",
     description:
       "Emerging technologies reshaping our world — gene editing, quantum computing, space tech, and more.",
   },

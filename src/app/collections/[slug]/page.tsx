@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!col) return {};
   const pageUrl = `https://surfaced-x.pages.dev/collections/${slug}`;
   return {
-    title: `${col.title} — Surfaced Collections`,
+    title: `${col.title} Collection`,
     description: col.description,
     alternates: { canonical: pageUrl },
     openGraph: {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 
 export const metadata: Metadata = {
-  title: "Premium — Surfaced",
+  title: "Premium",
   description:
     "Surfaced Premium is coming soon. Ad-free reading, early access, exclusive tools, saved collections, and weekly deep dives.",
   openGraph: {

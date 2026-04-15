@@ -102,7 +102,7 @@ type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const item = getItemBySlug(slug);
-  if (!item) return { title: "Not Found — Surfaced" };
+  if (!item) return { title: "Not Found" };
   const title = getItemTitle(item);
   const desc = getItemDescription(item);
   const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
