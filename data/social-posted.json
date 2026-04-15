@@ -10,6 +10,11 @@
   "hidden-gems": [
     "roadmap-sh",
     "phind",
-    "scrimba"
+    "scrimba",
+    "lemmy",
+    "zulip"
+  ],
+  "future-radar": [
+    "full-body-haptic-immersion-suits"
   ]
 }

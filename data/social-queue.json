@@ -278,7 +278,100 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "lemmy",
+      "title": "Lemmy",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/30018095/pexels-photo-30018095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Lemmy",
+      "productUrl": "https://surfaced-x.pages.dev/item/lemmy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/lemmy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Lemmy",
+          "description": " https://surfaced-x.pages.dev/item/lemmy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Lemmy — A federated, open-source link aggregator and discussion platform similar to Reddit. It uses ActivityPub, meaning independent servers can communicate with each other and the broader fediverse.\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/lemmy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-15T16:14:23.846Z",
+      "publishedAt": "2026-04-15T16:14:30.680Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "full-body-haptic-immersion-suits",
+      "title": "full-body-haptic-immersion-suits",
+      "category": "future-radar",
+      "imageUrl": "https://images.pexels.com/photos/7561886/pexels-photo-7561886.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Person wearing a futuristic full-body haptic suit with visible sensors and wiring.",
+      "productUrl": "https://surfaced-x.pages.dev/item/full-body-haptic-immersion-suits?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/full-body-haptic-immersion-suits?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Full-Body Haptic Immersion Suits: Feel the Future of VR",
+          "description": "Imagine stepping into virtual worlds and actually feeling the rain, the impact of a virtual punch, or the texture of an object. Full-body haptic suits are making this a reality, offering unparalleled immersion. While still early tech, the potential for gaming, training, and remote experiences is mind-blowing. What would you do first in a truly immersive VR environment? #VR #Haptics #FutureTech #ImmersiveTech",
+          "boardName": "Future Tech"
+        },
+        "bluesky": {
+          "text": "Feeling is believing. These full-body haptic suits are blurring the lines between the digital and physical. Get ready to experience VR on a whole new level. What's the first thing you'd want to 'feel' in a virtual world?\n\n#futuretech #innovation"
+        },
+        "twitter": {
+          "text": "Forget just seeing and hearing – soon you'll *feel* virtual worlds with full-body haptic immersion suits. The next level of VR is here, offering incredible sensory feedback. Still early days, but the potential is HUGE. Dive into the future: https://surfaced-x.pages.dev/item/full-body-haptic-immersion-suits?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-15T16:14:26.085Z",
+      "publishedAt": "2026-04-15T16:15:56.830Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "zulip",
+      "title": "Zulip",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/8284721/pexels-photo-8284721.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "A visual metaphor for organized team chat, perhaps with distinct threads branching off a main channel.",
+      "productUrl": "https://surfaced-x.pages.dev/item/zulip?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/zulip?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Zulip: Team Chat That Actually Makes Sense",
+          "description": "Tired of Slack chaos? Zulip organizes conversations by topic threads within channels, blending chat immediacy with forum structure. Finally, catch up on what matters without drowning in noise. Open-source and built for serious teams. #TeamChat #OpenSource #Productivity #CommunicationTools",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "This open-source team chat app has a brilliant idea: organize conversations by topic threads. It feels like Slack but with the clarity of a forum. No more lost messages in the void.\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "Zulip redefines team chat. It uses topic threads within channels to organize conversations, solving the 'lost message' problem of Slack. It's like a chat app met a forum, and it's brilliant. https://surfaced-x.pages.dev/item/zulip?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-15T16:14:28.537Z",
+      "publishedAt": "2026-04-15T16:16:49.702Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-14T16:43:32.200Z"
+  "lastGenerated": "2026-04-15T16:14:28.538Z"
 }
