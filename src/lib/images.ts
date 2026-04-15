@@ -12,6 +12,7 @@ const sizeDims: Record<string, string> = {
   sm: "h=400&w=400",
   md: "h=500&w=700",
   lg: "h=650&w=940",
+  og: "h=630&w=1200",
 };
 
 /**
@@ -29,7 +30,7 @@ export function getItemImageUrl(
   slug: string,
   width = 600,
   height = 400,
-  size: "sm" | "md" | "lg" = "md"
+  size: "sm" | "md" | "lg" | "og" = "md"
 ): string | null {
   const url = cache[slug];
   if (!url) return null;

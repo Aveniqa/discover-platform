@@ -230,10 +230,10 @@ export default function TrendingPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {paginatedItems.map((item, index) => (
-            <ScrollReveal key={item.slug} delay={index * 50} placeholder={<SkeletonCard />}>
+            <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />}>
               <div className="group rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
                 <div className="overflow-hidden relative">
-                  <ItemImage slug={item.slug} alt={item.title} aspectRatio="3/2" width={400} height={267} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  <ItemImage slug={item.slug} alt={item.title} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
                   <button
                     onClick={(e) => { e.stopPropagation(); setQuickViewItem(item as AnyItem); }}
                     className="absolute inset-0 z-20 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity"

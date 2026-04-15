@@ -162,10 +162,10 @@ export default function ToolsPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {paginatedItems.map((item, index) => (
-            <ScrollReveal key={item.slug} delay={index * 50} placeholder={<SkeletonCard />}>
+            <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />}>
               <div className="group rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
                 <div className="overflow-hidden relative">
-                  <ItemImage slug={item.slug} alt={item.toolName} aspectRatio="3/2" width={400} height={267} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  <ItemImage slug={item.slug} alt={item.toolName} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
                   {item.badge === "editors-pick" && (
                     <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
                       Editor&apos;s Pick

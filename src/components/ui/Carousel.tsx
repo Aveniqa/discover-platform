@@ -5,7 +5,7 @@ import type { AnyItem } from "@/lib/data";
 
 interface CarouselProps {
   items: AnyItem[];
-  renderCard: (item: AnyItem) => ReactNode;
+  renderCard: (item: AnyItem, index: number) => ReactNode;
   cardWidthClass?: string;
 }
 
@@ -54,9 +54,9 @@ export function Carousel({
           } as React.CSSProperties
         }
       >
-        {items.map((item) => (
+        {items.map((item, index) => (
           <div key={item.slug} className={`snap-start shrink-0 ${cardWidthClass}`}>
-            {renderCard(item)}
+            {renderCard(item, index)}
           </div>
         ))}
       </div>
@@ -87,9 +87,9 @@ export function Carousel({
         )}
         {expanded && (
           <div className="grid grid-cols-2 gap-3 mt-3">
-            {items.slice(6).map((item) => (
+            {items.slice(6).map((item, i) => (
               <div key={`exp-${item.slug}`} className="overflow-hidden">
-                {renderCard(item)}
+                {renderCard(item, i + 6)}
               </div>
             ))}
           </div>

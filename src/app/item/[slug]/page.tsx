@@ -106,7 +106,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = getItemTitle(item);
   const desc = getItemDescription(item);
   const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
-  const ogImage = getItemImageUrl(slug, 1200, 630, "lg");
+  const ogImage = getItemImageUrl(slug, 1200, 630, "og");
   const isProduct = item.type === "product";
   const priceRange = isProduct ? (item as Product).estimatedPriceRange : undefined;
 

@@ -209,12 +209,12 @@ export default function HomePage() {
             </div>
             <Carousel
               items={trendingItems}
-              renderCard={(item) => (
+              renderCard={(item, idx) => (
                 <Link href={`/item/${item.slug}`} className="group block w-full">
                   <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                     <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                     <div className="overflow-hidden relative">
-                      <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                      <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" priority={idx < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
                       {!!(item as { badge?: string }).badge && (
                         <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-amber-500 text-white rounded-full">
                           {(item as { badge?: string }).badge}
@@ -366,7 +366,7 @@ export default function HomePage() {
             <div className="sm:col-span-2 xl:row-span-2 gradient-border relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden">
               <div className={`absolute top-0 left-0 right-0 h-[3px] z-10 ${accentBar(editorsPick.type)}`} />
               <div className="overflow-hidden">
-                <ItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                <ItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" priority className="group-hover:scale-[1.03] transition-transform duration-500" />
               </div>
               <div className="p-7 sm:p-8 flex flex-col flex-1">
               <div className="flex items-start justify-between mb-5">
