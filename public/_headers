@@ -50,15 +50,60 @@
 /*.html
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
+# Category root pages (extensionless HTML on CF Pages)
+# Must be listed individually because /path/* doesn't match /path itself
+/discover
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/hidden-gems
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/future-radar
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/tools
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/trending
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/collections
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/categories
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/about
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/newsletter
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/premium
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+# Static info pages — cache longer (1 day), they rarely change
+/privacy
+  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+
+/terms
+  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+
+/affiliate-disclosure
+  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+
+/contact
+  Cache-Control: public, max-age=86400, stale-while-revalidate=86400
+
 # Item detail pages — same 1hr strategy
 /item/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
-# Collection pages
+# Collection sub-pages
 /collections/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
-# Category listing pages
+# Category sub-pages (pagination etc.)
 /discover/*
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
@@ -75,9 +120,7 @@
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
 # RSC payload files (.txt) — same as their HTML counterparts
-/*.txt
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
-
+# Using path-specific patterns to avoid matching /robots.txt (CF Pages merges all matching rules)
 /item/*.txt
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
 
