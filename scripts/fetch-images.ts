@@ -350,12 +350,18 @@ function buildSearchQuery(item: Record<string, unknown>): string {
   switch (type) {
     case "discovery": {
       const slug = item.slug as string;
-      return discoveryQueries[slug] || "science discovery nature";
+      if (discoveryQueries[slug]) return discoveryQueries[slug];
+      const imageIdea = item.imageIdea as string;
+      if (imageIdea) return imageIdea.slice(0, 80);
+      return "science discovery nature";
     }
 
     case "product": {
       const slug = item.slug as string;
-      return productQueries[slug] || (item.category as string) || "product technology";
+      if (productQueries[slug]) return productQueries[slug];
+      const imageIdea = item.imageIdea as string;
+      if (imageIdea) return imageIdea.slice(0, 80);
+      return (item.category as string) || "product technology";
     }
 
     case "hidden-gem": {
@@ -384,8 +390,11 @@ function buildSearchQuery(item: Record<string, unknown>): string {
 
     case "future-tech": {
       const techName = item.techName as string;
-      // Prefer the specific tech visual hint, fall back to industry query
-      return techVisualHints[techName] || industryQueries[item.industry as string] || "technology innovation future";
+      if (techVisualHints[techName]) return techVisualHints[techName];
+      if (industryQueries[item.industry as string]) return industryQueries[item.industry as string];
+      const imageIdea = item.imageIdea as string;
+      if (imageIdea) return imageIdea.slice(0, 80);
+      return "technology innovation future";
     }
 
     default:
