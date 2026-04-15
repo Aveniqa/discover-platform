@@ -1,65 +1,5 @@
 [
   {
-    "id": 15,
-    "slug": "devtoys",
-    "name": "DevToys",
-    "whatItDoes": "A Swiss Army knife of offline developer utilities including JSON formatting, JWT decoding, hash generation, regex testing, and base64 encoding. It works entirely offline as a desktop app.",
-    "category": "Developer Tools",
-    "whyItIsUseful": "It keeps sensitive data off third-party websites by running everything locally. Having dozens of common dev utilities in one app saves constant context-switching to browser tabs.",
-    "websiteLink": "https://devtoys.app",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdevtoys.app&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "developer utilities swiss army knife tools"
-  },
-  {
-    "id": 16,
-    "slug": "perplexity",
-    "name": "Perplexity",
-    "whatItDoes": "An AI-powered search engine that answers questions with cited sources from the live web. It combines large language model reasoning with real-time information retrieval.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It eliminates the need to open multiple search results and synthesize answers yourself. Every claim is linked to its source, making it easy to verify information.",
-    "websiteLink": "https://www.perplexity.ai",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.perplexity.ai&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "ai search engine answer citation"
-  },
-  {
-    "id": 17,
-    "slug": "elevenlabs",
-    "name": "ElevenLabs",
-    "whatItDoes": "An AI voice synthesis platform that generates remarkably natural speech in multiple languages. It can clone voices from short audio samples and offers real-time text-to-speech.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It makes professional-quality voiceovers accessible to anyone without hiring voice actors. Content creators use it for podcasts, audiobooks, and video narration at a fraction of the traditional cost.",
-    "websiteLink": "https://elevenlabs.io",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Felevenlabs.io&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "voice waveform audio synthesis microphone"
-  },
-  {
-    "id": 18,
-    "slug": "phind",
-    "name": "Phind",
-    "whatItDoes": "An AI search engine built specifically for developers that answers technical questions with code examples and documentation references. It searches the web in real time and synthesizes programming knowledge.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It dramatically speeds up debugging and learning new frameworks by providing targeted code solutions. The developer focus means answers include proper syntax and best practices rather than generic explanations.",
-    "websiteLink": "https://www.phind.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.phind.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "developer coding search ai assistant"
-  },
-  {
-    "id": 19,
-    "slug": "tldraw-make-real",
-    "name": "tldraw Make Real",
-    "whatItDoes": "A tool built on the tldraw canvas that turns hand-drawn wireframes and sketches into working HTML and CSS using AI. You draw a UI, click a button, and get functional code.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It collapses the gap between ideation and prototyping to seconds. Designers and product managers can communicate UI ideas without writing any code.",
-    "websiteLink": "https://makereal.tldraw.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmakereal.tldraw.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "whiteboard wireframe sketch drawing"
-  },
-  {
     "id": 20,
     "slug": "notebooklm",
     "name": "NotebookLM",
@@ -660,20 +600,6 @@
     "imageIdea": "json data parser terminal query"
   },
   {
-    "id": 139,
-    "slug": "etsy-handmade-marketplace",
-    "name": "Etsy",
-    "whatItDoes": "Global marketplace for unique handmade, vintage, and creative goods — from jewelry and art to home decor and personalized gifts from independent artisans worldwide.",
-    "category": "Shopping",
-    "whyItIsUseful": "When you want something unique that you won't find at big retailers, Etsy is the place. Every purchase supports independent creators, and the personalization options mean you can get truly one-of-a-kind items.",
-    "websiteLink": "https://www.etsy.com/",
-    "imageSearchQuery": "Etsy handmade marketplace unique artisan products",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.etsy.com%2F&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "handmade crafts artisan marketplace",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 76,
     "slug": "font-pairwise",
     "name": "Font Pair",
@@ -841,6 +767,20 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-13",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.perplexity.ai%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 139,
+    "slug": "etsy-handmade-marketplace",
+    "name": "Etsy",
+    "whatItDoes": "Global marketplace for unique handmade, vintage, and creative goods — from jewelry and art to home decor and personalized gifts from independent artisans worldwide.",
+    "category": "Shopping",
+    "whyItIsUseful": "When you want something unique that you won't find at big retailers, Etsy is the place. Every purchase supports independent creators, and the personalization options mean you can get truly one-of-a-kind items.",
+    "websiteLink": "https://www.etsy.com/",
+    "imageSearchQuery": "Etsy handmade marketplace unique artisan products",
+    "type": "hidden-gem",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.etsy.com%2F&screenshot=true&meta=false&embed=screenshot.url",
+    "imageIdea": "handmade crafts artisan marketplace",
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 91,
@@ -1322,5 +1262,44 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-14",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcoolors.co%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 146,
+    "slug": "simul-writing",
+    "name": "Simul.Writing",
+    "whatItDoes": "Simul.Writing is a collaborative real-time writing tool that allows multiple users to edit a document simultaneously. It offers robust version control and comment features, similar to Google Docs but with a minimalist and focused interface.",
+    "category": "Writing",
+    "whyItIsUseful": "For teams or individuals who need to co-author documents without the distractions of more feature-heavy platforms, Simul.Writing provides a streamlined and efficient experience. Its emphasis on clarity and collaboration makes it ideal for quick editing sessions or group brainstorming.",
+    "imageIdea": "glass table shared document",
+    "websiteLink": "https://simul.writing",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-15",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsimul.writing&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 147,
+    "slug": "runebender-3d",
+    "name": "Runebender 3D",
+    "whatItDoes": "Runebender 3D is a free, browser-based 3D modeling and sculpting tool. It's designed to be accessible and intuitive, allowing users to create and manipulate 3D models directly in their web browser without needing to download complex software.",
+    "category": "Design",
+    "whyItIsUseful": "This tool is fantastic for hobbyists, students, or anyone curious about 3D art who wants to experiment without a steep learning curve. It democratizes 3D creation by offering a capable platform that runs on almost any device with a web browser.",
+    "imageIdea": "clay sculpting tools desk",
+    "websiteLink": "https://runebender.io",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-15",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Frunebender.io&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 148,
+    "slug": "fontjoy",
+    "name": "Fontjoy",
+    "whatItDoes": "Fontjoy uses AI to help you generate font pairings for your design projects. You can explore a vast library of fonts and get intelligent suggestions for visually harmonious combinations, saving you time and guesswork.",
+    "category": "Design",
+    "whyItIsUseful": "Finding the perfect font combination can be a significant challenge in design. Fontjoy streamlines this process by offering AI-powered pairings, making it easier to create aesthetically pleasing and professional-looking designs quickly.",
+    "imageIdea": "typographer's desk letterpress",
+    "websiteLink": "https://fontjoy.com",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-15",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ffontjoy.com&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

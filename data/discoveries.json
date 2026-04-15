@@ -1,60 +1,5 @@
 [
   {
-    "id": 17,
-    "slug": "there-is-a-village-in-india-where-people-communicate-by-whistling",
-    "title": "There Is a Village in India Where People Communicate by Whistling",
-    "shortDescription": "In Kongthong, a remote village in Meghalaya, India, each person is given a unique melody by their mother at birth. Villagers call each other across the hills using these personalized whistled tunes instead of names.",
-    "category": "Culture",
-    "whyItIsInteresting": "It is one of the only known places where every individual has a unique musical identity from birth. This 'whistled name' system adapted perfectly to the hilly terrain where shouted words get distorted but melodies carry clearly.",
-    "imageIdea": "A woman standing on a lush green hillside in Meghalaya, lips pursed in a whistle, with musical notes drifting across the misty valley",
-    "sourceLink": "https://www.nationalgeographic.com",
-    "type": "discovery"
-  },
-  {
-    "id": 18,
-    "slug": "the-night-witches-were-all-female-bomber-pilots-who-terrorized-nazis",
-    "title": "The Night Witches Were All-Female Bomber Pilots Who Terrorized Nazis",
-    "shortDescription": "The Soviet 588th Night Bomber Regiment was composed entirely of women who flew obsolete plywood biplanes in World War II. They would cut their engines and glide silently over targets, earning the name 'Nachthexen' (Night Witches) from terrified German soldiers.",
-    "category": "Culture",
-    "whyItIsInteresting": "They flew over 23,000 sorties in planes so old they could not carry parachutes. Their tactic of engine-off glide bombing was so effective that any German soldier who shot one down was automatically awarded the Iron Cross.",
-    "imageIdea": "A formation of small biplanes silhouetted against a moonlit sky, engines off, gliding silently toward their target",
-    "sourceLink": "https://www.smithsonianmag.com",
-    "type": "discovery"
-  },
-  {
-    "id": 19,
-    "slug": "there-are-more-people-alive-today-than-have-ever-died",
-    "title": "About 7 Percent of All Humans Who Ever Lived Are Alive Right Now",
-    "shortDescription": "Approximately 109 billion humans have ever been born throughout history. With nearly 8 billion alive today, the living represent about 7 percent of all humans who have ever existed.",
-    "category": "Global",
-    "whyItIsInteresting": "It puts the scale of modern population into deep historical context. For most of human history, the global population was under 1 million. The explosive growth of the last 200 years is a complete anomaly in the 300,000-year story of our species.",
-    "imageIdea": "A massive crowd of people from above that gradually fades into ghostly transparent figures representing the dead",
-    "sourceLink": "https://www.prb.org",
-    "type": "discovery"
-  },
-  {
-    "id": 20,
-    "slug": "russia-has-11-time-zones-but-used-to-have-only-nine",
-    "title": "Russia Has 11 Time Zones but Used to Have Only Nine",
-    "shortDescription": "Russia spans 11 time zones, more than any other country. In 2010 Dmitry Medvedev reduced them to nine to boost economic efficiency, but the change was so unpopular it was reversed in 2014.",
-    "category": "Global",
-    "whyItIsInteresting": "When it is midnight in Kaliningrad, it is already 10 AM in Kamchatka. The failed time zone experiment shows that even authoritarian governments cannot override the sun — human biology and daily life are bound to the rotation of the Earth.",
-    "imageIdea": "A long panoramic map of Russia with 11 clocks showing different times lined up along the top, from Kaliningrad to Kamchatka",
-    "sourceLink": "https://www.bbc.com",
-    "type": "discovery"
-  },
-  {
-    "id": 21,
-    "slug": "there-is-a-country-with-no-capital-city",
-    "title": "Nauru Is the Only Country in the World with No Official Capital",
-    "shortDescription": "The tiny Pacific island nation of Nauru has no official capital city. Government offices are scattered across the island, mainly in the Yaren district, but no capital has ever been formally designated.",
-    "category": "Global",
-    "whyItIsInteresting": "Nauru is only 21 square kilometers, making it the third-smallest country by area. It was once the richest country per capita in the world due to phosphate mining, but economic collapse left it without the resources to formalize even basic governmental structures.",
-    "imageIdea": "An aerial view of the tiny coral island of Nauru surrounded by deep blue Pacific waters, with a small cluster of government buildings visible",
-    "sourceLink": "https://www.cia.gov",
-    "type": "discovery"
-  },
-  {
     "id": 22,
     "slug": "lesotho-is-the-only-country-entirely-above-1000-meters",
     "title": "Lesotho Is the Only Country Entirely Above 1,000 Meters",
@@ -1348,5 +1293,65 @@
     "sourceLink": "https://www.newscientist.com/article/mg24933270-700-fungi-use-electrical-signals-to-talk-to-each-other/",
     "type": "discovery",
     "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 133,
+    "slug": "ancient-egyptian-beer-brewery-discovery",
+    "title": "Massive Ancient Egyptian Beer Brewery Unearthed",
+    "shortDescription": "Archaeologists in Abydos, Egypt, have discovered a massive ancient brewery, dating back to around 3100 BC. This discovery sheds new light on the scale of food and beverage production in early Egyptian civilization.",
+    "category": "History",
+    "whyItIsInteresting": "It's the largest and oldest brewery of its kind ever found, suggesting that beer was a significant part of Egyptian society and likely used in rituals and as a form of payment. The sheer industrial scale for its time is astonishing.",
+    "imageIdea": "archaeological dig site ancient egypt",
+    "sourceLink": "https://www.archaeologymag.com/2021/02/massive-ancient-egyptian-beer-brewery-discovered-in-abydos/",
+    "type": "discovery",
+    "dateAdded": "2026-04-15"
+  },
+  {
+    "id": 134,
+    "slug": "deep-sea-hydrothermal-vents-new-life",
+    "title": "Bizarre New Life Found at Deep-Sea Vents",
+    "shortDescription": "Recent deep-sea expeditions have uncovered novel species thriving in the extreme environments around hydrothermal vents. These organisms survive without sunlight, utilizing chemosynthesis for energy.",
+    "category": "Nature",
+    "whyItIsInteresting": "These newly discovered creatures exhibit unique adaptations to crushing pressures, high temperatures, and toxic chemicals, challenging our understanding of where life can exist. They offer clues about potential life on other planets.",
+    "imageIdea": "deep sea hydrothermal vent organism",
+    "sourceLink": "https://www.nationalgeographic.com/science/article/deep-sea-vents-life-explained",
+    "type": "discovery",
+    "dateAdded": "2026-04-15"
+  },
+  {
+    "id": 135,
+    "slug": "galaxies-merging-supermassive-black-holes-gravitational-waves",
+    "title": "Cosmic Dance of Merging Black Holes",
+    "shortDescription": "Scientists have detected ripples in spacetime, known as gravitational waves, originating from the merger of supermassive black holes. This groundbreaking observation confirms long-held astrophysical theories.",
+    "category": "Space",
+    "whyItIsInteresting": "These mergers are the most energetic events in the universe since the Big Bang. The detection allows us to study the dynamics of galaxies and the evolution of black holes on unprecedented scales.",
+    "imageIdea": "artist conception of merging black holes",
+    "sourceLink": "https://www.ligo.caltech.edu/page/detection-companion-gw150914",
+    "type": "discovery",
+    "dateAdded": "2026-04-15"
+  },
+  {
+    "id": 136,
+    "slug": "ancient-roman-concrete-durability-secrets",
+    "title": "Secrets of Durable Roman Concrete Revealed",
+    "shortDescription": "Researchers have discovered why ancient Roman concrete, used in structures like the Pantheon, has remained remarkably durable for millennia. The key lies in its self-healing properties facilitated by lime clasts.",
+    "category": "History",
+    "whyItIsInteresting": "Unlike modern concrete, Roman concrete contains white chunks (lime clasts) that actively react with water to repair cracks, making it incredibly long-lasting. This could revolutionize modern construction materials.",
+    "imageIdea": "roman aqueduct concrete structure",
+    "sourceLink": "https://www.newscientist.com/article/2307448-secrets-of-roman-concrete-revealed-in-new-study/",
+    "type": "discovery",
+    "dateAdded": "2026-04-15"
+  },
+  {
+    "id": 137,
+    "slug": "brain-organoids-learn-play-video-games",
+    "title": "Lab-Grown Brain Organoids Play Video Games",
+    "shortDescription": "Scientists have successfully grown brain organoids (miniature, simplified brains) in a lab that can learn to play a simple video game. The organoids responded to electrical stimulation by controlling paddle movements.",
+    "category": "Science",
+    "whyItIsInteresting": "This breakthrough blurs the lines between biological and artificial intelligence, offering a unique platform to study learning, memory, and neurological disorders in a controlled environment. It raises profound ethical questions about consciousness.",
+    "imageIdea": "microscope view of brain organoids culture",
+    "sourceLink": "https://www.newscientist.com/article/2307229-lab-grown-brain-organoids-have-learned-to-play-pong/",
+    "type": "discovery",
+    "dateAdded": "2026-04-15"
   }
 ]

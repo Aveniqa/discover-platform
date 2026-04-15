@@ -1,100 +1,5 @@
 [
   {
-    "id": 14,
-    "slug": "flexispot-e7-standing-desk",
-    "title": "FlexiSpot E7 Standing Desk",
-    "shortDescription": "A dual-motor electric standing desk with programmable height presets, anti-collision system, and a weight capacity of 355 lbs. Whisper-quiet operation.",
-    "category": "Home Office",
-    "whyItIsInteresting": "The dual-motor system is faster and more stable than competitors at this price. Memory presets make transitioning between sitting and standing effortless throughout the day.",
-    "imageIdea": "Electric standing desk at standing height with dual monitors and plants",
-    "sourceLink": "https://www.flexispot.com",
-    "estimatedPriceRange": "$479–$599",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=FlexiSpot+E7+Standing+Desk&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=FlexiSpot+E7+Standing+Desk&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=FlexiSpot+E7+Standing+Desk"
-  },
-  {
-    "id": 15,
-    "slug": "anker-651-usb-c-dock-charging-pad",
-    "title": "Anker 651 USB-C Dock with Charging Pad",
-    "shortDescription": "A versatile USB-C docking station that doubles as a wireless charging pad. Features HDMI, USB-A, USB-C, ethernet, and SD card slots in one compact unit.",
-    "category": "Home Office",
-    "whyItIsInteresting": "It replaces a tangle of dongles and a separate wireless charger with one clean device. The combination form factor is uniquely space-efficient for small desks.",
-    "imageIdea": "Compact dock on a desk with phone charging wirelessly on top",
-    "sourceLink": "https://www.anker.com",
-    "estimatedPriceRange": "$129–$149",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Anker+651+USB-C+Dock+with+Charging+Pad&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Anker+651+USB-C+Dock+with+Charging+Pad&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anker+651+USB-C+Dock+with+Charging+Pad"
-  },
-  {
-    "id": 16,
-    "slug": "breville-barista-express-impress",
-    "title": "Breville Barista Express Impress",
-    "shortDescription": "An all-in-one espresso machine with built-in conical burr grinder and assisted tamping. Intuitive dose control and PID temperature management for cafe-quality shots.",
-    "category": "Kitchen & Home",
-    "whyItIsInteresting": "The assisted tamping system removes the biggest variable for home baristas. It pays for itself in a few months compared to daily coffee shop visits.",
-    "imageIdea": "Stainless steel espresso machine pulling a perfect shot with crema",
-    "sourceLink": "https://www.breville.com",
-    "estimatedPriceRange": "$699–$899",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Breville+Barista+Express+Impress&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Breville+Barista+Express+Impress&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Breville%20Barista%20Express%20Impress"
-  },
-  {
-    "id": 17,
-    "slug": "cosori-air-fryer-pro-le-5qt",
-    "title": "Cosori Air Fryer Pro LE 5-Qt",
-    "shortDescription": "A compact 5-quart air fryer with 10 preset cooking functions, shake reminder, and dishwasher-safe basket. Crisps food with up to 85% less oil.",
-    "category": "Kitchen & Home",
-    "whyItIsInteresting": "At this price point it outperforms air fryers costing twice as much. The shake reminder is a small feature that makes a big difference in cooking consistency.",
-    "imageIdea": "Matte black air fryer on a kitchen counter with crispy golden fries",
-    "sourceLink": "https://www.cosori.com",
-    "estimatedPriceRange": "$69–$99",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Cosori+Air+Fryer+Pro+LE+5-Qt&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Cosori+Air+Fryer+Pro+LE+5-Qt&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Cosori%20Air%20Fryer%20Pro%20LE%205-Qt"
-  },
-  {
-    "id": 18,
-    "slug": "ember-mug-2-temperature-control",
-    "title": "Ember Mug 2 Temperature Control Mug",
-    "shortDescription": "A smart mug that keeps your beverage at your exact preferred temperature for up to 80 minutes. App-controlled with LED indicator and auto-sleep on the charging coaster.",
-    "category": "Kitchen & Home",
-    "whyItIsInteresting": "It solves the universal annoyance of coffee going cold. Once you set your ideal temperature you never go back to a regular mug.",
-    "imageIdea": "Minimalist smart mug on charging coaster with steam rising at perfect temperature",
-    "sourceLink": "https://ember.com",
-    "estimatedPriceRange": "$129–$149",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Ember+Mug+2+Temperature+Control+Mug&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Ember+Mug+2+Temperature+Control+Mug&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ember%20Mug%202%20Temperature%20Control%20Mug"
-  },
-  {
     "id": 19,
     "slug": "switchbot-curtain-3-smart-motor",
     "title": "SwitchBot Curtain 3 Smart Motor",
@@ -2439,5 +2344,60 @@
     "type": "product",
     "dateAdded": "2026-04-14",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Devialet%20Mania"
+  },
+  {
+    "id": 145,
+    "slug": "humane-ai-pin",
+    "title": "Humane AI Pin",
+    "shortDescription": "A screenless, wearable AI device that projects information onto your hand and uses voice commands for most interactions. It aims to be a more natural and less intrusive way to access technology.",
+    "category": "Wearable Technology",
+    "whyItIsInteresting": "This device represents a bold departure from traditional smartphone interfaces, focusing on ambient computing and human-AI interaction. Its unique projector interface and lack of a traditional screen make it a fascinating glimpse into the future of personal technology.",
+    "imageIdea": "human hand with glowing holographic projection",
+    "sourceLink": "https://shop.humane.is/",
+    "estimatedPriceRange": "$699 (device) + $24/month (subscription)",
+    "availableOnAmazon": false,
+    "type": "product",
+    "dateAdded": "2026-04-15",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Humane%20AI%20Pin"
+  },
+  {
+    "id": 146,
+    "slug": "meta-quest-3",
+    "title": "Meta Quest 3",
+    "shortDescription": "The latest virtual and mixed reality headset from Meta, offering improved performance, higher resolution displays, and enhanced passthrough capabilities for blending the virtual and physical worlds. It's designed for gaming, social experiences, and productivity.",
+    "category": "Virtual Reality Headset",
+    "whyItIsInteresting": "The Quest 3 significantly advances mixed reality, making it more accessible and compelling for a wider audience. Its improved visual fidelity and more comfortable design make extended use more enjoyable, blurring the lines between gaming and everyday applications.",
+    "imageIdea": "person wearing VR headset interacting with holographic cityscape",
+    "sourceLink": "https://www.meta.com/quest/products/quest-3/",
+    "estimatedPriceRange": "$499-$649",
+    "availableOnAmazon": true,
+    "type": "product",
+    "dateAdded": "2026-04-15",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Meta%20Quest%203&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Meta%20Quest%203&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 147,
+    "slug": "google-pixel-watch-3",
+    "title": "Google Pixel Watch 3",
+    "shortDescription": "The latest generation of Google's smartwatch, featuring advanced health tracking, seamless integration with Wear OS and Fitbit, and a refined design. It aims to offer a comprehensive and stylish wearable experience.",
+    "category": "Smartwatch",
+    "whyItIsInteresting": "The Pixel Watch 3 continues Google's commitment to providing a premium smartwatch experience powered by Wear OS and its deep integration with Fitbit's health tracking. It offers a balance of sophisticated features, elegant design, and robust performance for both fitness and daily life.",
+    "imageIdea": "smartwatch on a wrist displaying detailed health metrics",
+    "sourceLink": "https://store.google.com/us/product/pixel_watch_3",
+    "estimatedPriceRange": "$399-$449",
+    "availableOnAmazon": true,
+    "type": "product",
+    "dateAdded": "2026-04-15",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Google%20Pixel%20Watch%203&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Google%20Pixel%20Watch%203&tag=vaultvibe-20"
+    }
   }
 ]

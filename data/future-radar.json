@@ -1,60 +1,5 @@
 [
   {
-    "id": 17,
-    "slug": "neuromorphic-computing-chips",
-    "techName": "Neuromorphic Computing Chips",
-    "explanation": "Processors architecturally modeled on the human brain, using artificial synapses and neurons that process information through spikes rather than binary logic, consuming 1000x less power than GPUs.",
-    "industry": "AI & Computing",
-    "whyItMatters": "They enable always-on AI in devices with tiny batteries, from smart glasses to medical implants, and could be the key to energy-efficient artificial general intelligence.",
-    "developmentStage": "Prototype",
-    "type": "future-tech",
-    "imageIdea": "Close-up of a brain-inspired microchip with neural network pathways glowing on a silicon wafer"
-  },
-  {
-    "id": 18,
-    "slug": "artificial-general-intelligence",
-    "techName": "Artificial General Intelligence",
-    "explanation": "AI systems with human-level reasoning that can learn any intellectual task, transfer knowledge between domains, and solve novel problems without task-specific training.",
-    "industry": "AI & Computing",
-    "whyItMatters": "AGI could accelerate scientific discovery by orders of magnitude, from curing diseases to solving climate change, representing the most transformative technology in human history.",
-    "developmentStage": "Early Research",
-    "type": "future-tech",
-    "imageIdea": "Abstract visualization of a vast interconnected neural network with human-like reasoning patterns emerging from data streams"
-  },
-  {
-    "id": 19,
-    "slug": "ambient-edge-ai",
-    "techName": "Ambient Edge AI",
-    "explanation": "Tiny AI processors embedded in everyday objects that process data locally without cloud connectivity. They enable real-time intelligence in sensors, appliances, and infrastructure.",
-    "industry": "AI & Computing",
-    "whyItMatters": "Processing AI at the edge eliminates latency, protects privacy, works offline, and scales to trillions of devices, making the built environment genuinely intelligent.",
-    "developmentStage": "Growth Phase",
-    "type": "future-tech",
-    "imageIdea": "Smart home environment with subtle AI sensors embedded in everyday objects, soft ambient lighting"
-  },
-  {
-    "id": 20,
-    "slug": "humanoid-general-purpose-robots",
-    "techName": "Humanoid General-Purpose Robots",
-    "explanation": "Bipedal robots with dexterous hands and AI brains capable of performing arbitrary physical tasks in human environments, from warehouse work to elder care to construction.",
-    "industry": "AI & Computing",
-    "whyItMatters": "They could fill labor shortages in aging societies, take over dangerous jobs, and extend human physical capability, fundamentally changing the economics of manual work.",
-    "developmentStage": "Prototype",
-    "type": "future-tech",
-    "imageIdea": "Humanoid robot working alongside humans in a modern warehouse, performing dexterous tasks"
-  },
-  {
-    "id": 21,
-    "slug": "lunar-permanent-habitats",
-    "techName": "Lunar Permanent Habitats",
-    "explanation": "Self-sustaining bases on the Moon built from regolith using 3D printing, powered by solar arrays, and shielded from radiation. They support crews of 10-50 for indefinite stays.",
-    "industry": "Space",
-    "whyItMatters": "A Moon base serves as a proving ground for Mars colonization, a fuel depot using lunar water ice, and a platform for deep-space telescopes free from atmospheric interference.",
-    "developmentStage": "Advanced Research",
-    "type": "future-tech",
-    "imageIdea": "Futuristic lunar base with pressurized domes on the Moon's surface, Earth visible in the background sky"
-  },
-  {
     "id": 22,
     "slug": "nuclear-thermal-propulsion",
     "techName": "Nuclear Thermal Propulsion",
@@ -871,7 +816,7 @@
     "techName": "Self-Healing Quantum Computing Chips",
     "explanation": "Quantum processors designed with intrinsic self-repair mechanisms, utilizing redundant qubits and AI-driven diagnostics to detect and automatically correct errors or physical defects at the quantum level. This enhances their operational stability and prolongs their functional lifespan.",
     "industry": "Quantum Computing, Advanced Materials, Semiconductor Manufacturing",
-    "whyItMatters": "This addresses a major hurdle in quantum computing\u2014decoherence and error susceptibility\u2014by making quantum systems more robust and stable. It accelerates the development and commercialization of powerful quantum technologies for complex problem-solving in fields like medicine, materials science, and finance.",
+    "whyItMatters": "This addresses a major hurdle in quantum computing—decoherence and error susceptibility—by making quantum systems more robust and stable. It accelerates the development and commercialization of powerful quantum technologies for complex problem-solving in fields like medicine, materials science, and finance.",
     "developmentStage": "Research",
     "imageIdea": "A visually complex quantum chip glowing with intricate, ethereal patterns, with small self-repairing nodes highlighted by a faint energy flow, suggesting internal restoration processes at a microscopic level. It conveys advanced, resilient technology.",
     "type": "future-tech",
@@ -1238,5 +1183,41 @@
     "imageIdea": "close-up of a flexible perovskite solar cell surface",
     "type": "future-tech",
     "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 123,
+    "slug": "ai-driven-drug-discovery-platforms",
+    "techName": "AI-Driven Drug Discovery Platforms",
+    "explanation": "New AI platforms are dramatically accelerating the identification and design of novel drug candidates.  These systems can analyze vast biological datasets to predict molecular interactions and therapeutic efficacy, significantly reducing the time and cost of early-stage drug development.",
+    "industry": "Pharmaceuticals",
+    "whyItMatters": "This technology promises to bring life-saving treatments to market faster by overcoming traditional bottlenecks in pharmaceutical research.  It could lead to breakthroughs in treating previously intractable diseases.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "microscope slide with glowing dna strands",
+    "type": "future-tech",
+    "dateAdded": "2026-04-15"
+  },
+  {
+    "id": 124,
+    "slug": "functional-tissue-printing-for-organ-transplants",
+    "techName": "Functional Tissue Printing for Organ Transplants",
+    "explanation": "Significant strides are being made in bioprinting complex, functional human tissues and even rudimentary organs. Researchers are overcoming challenges in vascularization and cell integration, moving closer to creating transplantable tissues that can fully integrate with the body.",
+    "industry": "Biotechnology & Healthcare",
+    "whyItMatters": "This breakthrough offers a potential solution to organ transplant shortages and the problem of immune rejection.  The ability to print patient-specific tissues could revolutionize regenerative medicine and extend lifespans.",
+    "developmentStage": "Prototype",
+    "imageIdea": "3d bioprinter extruding cell-laden hydrogel",
+    "type": "future-tech",
+    "dateAdded": "2026-04-15"
+  },
+  {
+    "id": 125,
+    "slug": "advanced-robotics-for-precision-agriculture",
+    "techName": "Advanced Robotics for Precision Agriculture",
+    "explanation": "Next-generation agricultural robots are demonstrating unprecedented capabilities in crop monitoring, targeted pest control, and selective harvesting. These robots utilize sophisticated AI and sensor technology to optimize resource usage and minimize environmental impact.",
+    "industry": "Agriculture",
+    "whyItMatters": "This technology is crucial for increasing food production sustainably in the face of a growing global population and climate change.  It can lead to more efficient farming practices, reduced reliance on pesticides, and higher crop yields.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "robotic arm tending to a strawberry plant",
+    "type": "future-tech",
+    "dateAdded": "2026-04-15"
   }
 ]
