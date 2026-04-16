@@ -368,19 +368,23 @@ function buildSearchQuery(item: Record<string, unknown>): string {
       const imageIdea = item.imageIdea as string;
       const name = item.name as string;
       const whatItDoes = item.whatItDoes as string;
-      if (imageIdea) return `${name} ${imageIdea}`.trim().slice(0, 80);
+      // Skip name prefix for domain-style names (e.g. "Cal.com") — they pollute search results
+      const namePrefix = name.includes(".") ? "" : name;
+      if (imageIdea) return `${namePrefix} ${imageIdea}`.trim().slice(0, 80);
       // Fallback: use item name + first few words of description for a unique query
       const descWords = (whatItDoes || "").split(/\s+/).slice(0, 4).join(" ");
-      if (descWords) return `${name} ${descWords}`.trim().slice(0, 80);
+      if (descWords) return `${namePrefix} ${descWords}`.trim().slice(0, 80);
       const category = item.category as string;
-      return `${name} ${categorySceneQueries[category] || "technology digital"}`.trim().slice(0, 80);
+      return `${namePrefix} ${categorySceneQueries[category] || "technology digital"}`.trim().slice(0, 80);
     }
 
     case "tool": {
       const imageIdea = item.imageIdea as string;
       const toolName = item.toolName as string;
       const whatItDoes = item.whatItDoes as string;
-      if (imageIdea) return `${toolName} ${imageIdea}`.trim().slice(0, 80);
+      // Skip name prefix for domain-style names (e.g. "Keybr.com") — they pollute search results
+      const toolPrefix = toolName.includes(".") ? "" : toolName;
+      if (imageIdea) return `${toolPrefix} ${imageIdea}`.trim().slice(0, 80);
       // Fallback: use tool name + first few words of description for a unique query
       const descWords = (whatItDoes || "").split(/\s+/).slice(0, 4).join(" ");
       if (descWords) return `${toolName} ${descWords}`.trim().slice(0, 80);
