@@ -371,7 +371,100 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "holographic-data-storage",
+      "title": "holographic-data-storage",
+      "category": "future-radar",
+      "imageUrl": "https://images.pexels.com/photos/7976210/pexels-photo-7976210.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "A glowing crystal with a holographic projection of data points.",
+      "productUrl": "https://surfaced-x.pages.dev/item/holographic-data-storage?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/holographic-data-storage?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Holographic Data Storage: A Glimpse into the Future of Information",
+          "description": "Imagine storing terabytes of data in a crystal the size of a sugar cube. Holographic data storage promises just that, using lasers to write data into a 3D medium. While still in development, the potential for dense, long-lasting storage is mind-blowing. This could revolutionize everything from personal devices to massive data centers. #FutureTech #DataStorage #Holography #Innovation",
+          "boardName": "Future Tech"
+        },
+        "bluesky": {
+          "text": "Holographic data storage is no longer just sci-fi. We're talking about cramming unimaginable amounts of data into tiny crystals. Think of the possibilities for archiving and access. It's still a ways off from your everyday laptop, but the trajectory is fascinating.\n\n#futuretech #innovation"
+        },
+        "twitter": {
+          "text": "Holographic data storage is pushing the boundaries of how much data we can store. Imagine terabytes in a sugar cube! It's early days, but the potential for dense, durable storage is immense. What could this mean for our digital future? 🤔 https://surfaced-x.pages.dev/item/holographic-data-storage?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-16T16:59:58.618Z",
+      "publishedAt": "2026-04-16T17:00:14.833Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "photopea",
+      "title": "photopea",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/36215733/pexels-photo-36215733.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: photopea",
+      "productUrl": "https://surfaced-x.pages.dev/item/photopea?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/photopea?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "photopea",
+          "description": " https://surfaced-x.pages.dev/item/photopea?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post #surfaced #daily-tools",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "photopea — Free browser-based image editor that clones Photoshop's interface and supports PSD, XCF, Sketch, and RAW files. Includes layers, masks, smart objects, and most Photoshop tools.\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/photopea?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-16T17:00:09.783Z",
+      "publishedAt": "2026-04-16T17:00:58.895Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "advances-in-solid-state-battery-tech",
+      "title": "advances-in-solid-state-battery-tech",
+      "category": "future-radar",
+      "imageUrl": "https://images.pexels.com/photos/3639037/pexels-photo-3639037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Diagram illustrating the layers of a solid-state battery with solid electrolyte.",
+      "productUrl": "https://surfaced-x.pages.dev/item/advances-in-solid-state-battery-tech?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/advances-in-solid-state-battery-tech?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Solid-State Batteries: The Future of Power?",
+          "description": "Forget liquid electrolytes. Solid-state batteries promise safer, faster-charging, and more energy-dense power for everything from EVs to your phone. Still some hurdles, but the potential is huge. #batteries #tech #innovation #futuretech",
+          "boardName": "Future Tech"
+        },
+        "bluesky": {
+          "text": "This tech could fundamentally change how we store and use energy. Imagine EVs that charge in minutes and phones that last for days. It's not science fiction anymore, but it's not quite mainstream yet either.\n\n#futuretech #innovation"
+        },
+        "twitter": {
+          "text": "Solid-state batteries are getting serious. Safer, faster charging, more power density. We're getting closer to a battery revolution. Still challenges to overcome, but the future looks bright. https://surfaced-x.pages.dev/item/advances-in-solid-state-battery-tech?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-16T17:00:12.158Z",
+      "publishedAt": "2026-04-16T17:01:47.478Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-15T16:14:28.538Z"
+  "lastGenerated": "2026-04-16T17:00:12.158Z"
 }
