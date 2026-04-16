@@ -22,6 +22,16 @@ const FILES = {
   "daily-tools": "daily-tools.json",
 };
 
+// Required fields per category that Gemini must return.
+// id and dateAdded are assigned post-generation, so they're excluded here.
+const REQUIRED_FIELDS = {
+  discoveries: ["slug", "title", "shortDescription", "category", "whyItIsInteresting", "type"],
+  products: ["slug", "title", "shortDescription", "category", "whyItIsInteresting", "type"],
+  "hidden-gems": ["slug", "name", "whatItDoes", "category", "whyItIsUseful", "type"],
+  "future-radar": ["slug", "techName", "explanation", "industry", "whyItMatters", "developmentStage", "type"],
+  "daily-tools": ["slug", "toolName", "whatItDoes", "category", "whyItIsUseful", "type"],
+};
+
 function readJSON(filename) {
   return JSON.parse(fs.readFileSync(path.join(DATA_DIR, filename), "utf8"));
 }
@@ -179,6 +189,19 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
   const validItems = [];
   for (const item of items) {
     const itemName = (item.title || item.name || item.toolName || item.techName || "").toLowerCase();
+
+    // Validate required fields — discard incomplete Gemini responses
+    const requiredFields = REQUIRED_FIELDS[category];
+    if (requiredFields) {
+      const missing = requiredFields.filter(
+        (f) => item[f] === undefined || item[f] === null || (typeof item[f] === "string" && item[f].trim() === "")
+      );
+      if (missing.length > 0) {
+        console.warn(`  ⚠ Incomplete item discarded: "${itemName || item.slug || "unknown"}" — missing: ${missing.join(", ")}`);
+        continue;
+      }
+    }
+
     // Skip exact name duplicates entirely
     if (existingNames.has(itemName)) {
       console.warn(`  ⚠ Duplicate name skipped: "${itemName}" (slug: ${item.slug})`);

@@ -8,13 +8,21 @@ import path from "path";
 import dotenv from "dotenv";
 dotenv.config({ path: ".env.local" });
 
-const PEXELS_KEY = process.env.PEXELS_API_KEY!;
-const UNSPLASH_KEY = process.env.UNSPLASH_ACCESS_KEY!;
+const PEXELS_KEY = process.env.PEXELS_API_KEY || "";
+const UNSPLASH_KEY = process.env.UNSPLASH_ACCESS_KEY || "";
+const PIXABAY_KEY = process.env.PIXABAY_API_KEY || "";
 
-if (!PEXELS_KEY || !UNSPLASH_KEY) {
-  console.error("Missing API keys. Set PEXELS_API_KEY and UNSPLASH_ACCESS_KEY in .env.local");
+const availableProviders = [
+  PEXELS_KEY && "Pexels",
+  UNSPLASH_KEY && "Unsplash",
+  PIXABAY_KEY && "Pixabay",
+].filter(Boolean);
+
+if (availableProviders.length === 0) {
+  console.error("No image API keys configured. Set at least one of: PEXELS_API_KEY, UNSPLASH_ACCESS_KEY, PIXABAY_API_KEY");
   process.exit(1);
 }
+console.log(`Image providers: ${availableProviders.join(", ")}\n`);
 
 // ─── Fetch helpers ──────────────────────────────────────────────
 
@@ -72,6 +80,29 @@ async function fetchUnsplashImage(query: string): Promise<string | null> {
   }
 }
 
+async function fetchPixabayImage(query: string): Promise<string | null> {
+  if (!PIXABAY_KEY) return null;
+  try {
+    const res = await fetchWithTimeout(
+      `https://pixabay.com/api/?key=${PIXABAY_KEY}&q=${encodeURIComponent(query)}&image_type=photo&orientation=horizontal&per_page=3`,
+      {}
+    );
+    if (res.status === 429) {
+      console.log("\n  ⏳ Pixabay rate limited — backing off 60s...");
+      await new Promise((r) => setTimeout(r, 60000));
+      return null;
+    }
+    if (!res.ok) {
+      console.log(`\n  ⚠ Pixabay ${res.status} for "${query}"`);
+      return null;
+    }
+    const data = await res.json();
+    return data.hits?.[0]?.largeImageURL || null;
+  } catch {
+    return null;
+  }
+}
+
 async function fetchItemImage(query: string, usedUrls: Set<string>): Promise<string> {
   // Try Pexels pages 1–5 until we find an unused URL
   for (let page = 1; page <= 5; page++) {
@@ -81,6 +112,9 @@ async function fetchItemImage(query: string, usedUrls: Set<string>): Promise<str
   // Fall back to Unsplash (random, less likely to duplicate)
   const unsplash = await fetchUnsplashImage(query);
   if (unsplash && !usedUrls.has(unsplash)) return unsplash;
+  // Third fallback: Pixabay
+  const pixabay = await fetchPixabayImage(query);
+  if (pixabay && !usedUrls.has(pixabay)) return pixabay;
   return "";
 }
 
