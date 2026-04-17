@@ -1,0 +1,57 @@
+name: Weekly Data Backup
+
+on:
+  schedule:
+    # Every Sunday at 23:00 UTC — after the week's daily editions have settled
+    - cron: '0 23 * * 0'
+  workflow_dispatch: # Manual backup button
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create backup archive
+        id: archive
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          mkdir -p /tmp/backup
+          ARCHIVE="/tmp/backup/data-snapshot-${DATE}.tar.gz"
+
+          # Include all JSON data files + image cache
+          tar -czf "$ARCHIVE" \
+            data/*.json \
+            public/feed.xml 2>/dev/null || true
+
+          # Output archive path and size
+          SIZE=$(du -h "$ARCHIVE" | cut -f1)
+          echo "archive=$ARCHIVE" >> $GITHUB_OUTPUT
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+          echo "size=$SIZE" >> $GITHUB_OUTPUT
+          echo "Created: $ARCHIVE ($SIZE)"
+          tar -tzf "$ARCHIVE" | head -20
+
+      - name: Upload backup as artifact (90-day retention)
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-backup-${{ steps.archive.outputs.date }}
+          path: ${{ steps.archive.outputs.archive }}
+          retention-days: 90
+          if-no-files-found: error
+
+      - name: Summary
+        run: |
+          echo "### Data Backup Complete :floppy_disk:" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date:** ${{ steps.archive.outputs.date }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Size:** ${{ steps.archive.outputs.size }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Retention:** 90 days" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Download from the run's **Artifacts** section if recovery is needed." >> $GITHUB_STEP_SUMMARY
