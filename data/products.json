@@ -1,100 +1,5 @@
 [
   {
-    "id": 19,
-    "slug": "switchbot-curtain-3-smart-motor",
-    "title": "SwitchBot Curtain 3 Smart Motor",
-    "shortDescription": "A retrofit smart motor that automates existing curtains without rewiring. Solar-powered option, whisper-quiet operation, and compatible with Alexa, Google, and HomeKit.",
-    "category": "Kitchen & Home",
-    "whyItIsInteresting": "It makes any curtain smart without replacing hardware or hiring an electrician. Waking up to sunlight on a schedule genuinely improves morning routines.",
-    "imageIdea": "Small motor device on a curtain rod with sunlight streaming through opening curtains",
-    "sourceLink": "https://www.switch-bot.com",
-    "estimatedPriceRange": "$69–$89",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=SwitchBot+Curtain+3+Smart+Motor&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=SwitchBot+Curtain+3+Smart+Motor&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=SwitchBot%20Curtain%203%20Smart%20Motor"
-  },
-  {
-    "id": 20,
-    "slug": "our-place-always-pan-2",
-    "title": "Our Place Always Pan 2.0",
-    "shortDescription": "A versatile nonstick pan that replaces 8 pieces of cookware. Ceramic nontoxic coating, built-in steamer, modular handle, and a nesting spatula included.",
-    "category": "Kitchen & Home",
-    "whyItIsInteresting": "It genuinely reduces kitchen clutter by replacing multiple pans, pots, and steamers. The toxin-free ceramic coating holds up better than traditional nonstick over time.",
-    "imageIdea": "Colorful ceramic pan with vegetables sauteing and steam basket visible",
-    "sourceLink": "https://fromourplace.com",
-    "estimatedPriceRange": "$130–$150",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Our+Place+Always+Pan+2.0&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Our+Place+Always+Pan+2.0&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Our%20Place%20Always%20Pan%202.0"
-  },
-  {
-    "id": 21,
-    "slug": "away-carry-on-aluminum-edition",
-    "title": "Away Carry-On Aluminum Edition",
-    "shortDescription": "A premium aluminum hardshell carry-on with TSA-approved lock, leather handles, and 360-degree spinner wheels. Built-in compression system maximizes packing space.",
-    "category": "Outdoor & Travel",
-    "whyItIsInteresting": "The aluminum shell ages beautifully with travel patina while protecting contents better than polycarbonate. The interior compression system is genuinely best-in-class.",
-    "imageIdea": "Brushed aluminum suitcase in an airport with leather handle detail",
-    "sourceLink": "https://www.awaytravel.com",
-    "estimatedPriceRange": "$475–$595",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Away+Carry-On+Aluminum+Edition&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Away+Carry-On+Aluminum+Edition&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Away%20Carry-On%20Aluminum%20Edition"
-  },
-  {
-    "id": 22,
-    "slug": "biolite-campstove-2-plus",
-    "title": "BioLite CampStove 2+",
-    "shortDescription": "A wood-burning camp stove that generates electricity to charge devices via USB. Burns twigs and pellets with a smokeless flame using an internal fan system.",
-    "category": "Outdoor & Travel",
-    "whyItIsInteresting": "It eliminates the need to carry fuel canisters and charges your phone while you cook. The smokeless combustion technology is a genuine leap over traditional campfires.",
-    "imageIdea": "Compact camp stove with flames and USB cable charging a phone in the woods",
-    "sourceLink": "https://www.bioliteenergy.com",
-    "estimatedPriceRange": "$149–$199",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=BioLite+CampStove+2%2B&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=BioLite+CampStove+2%2B&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BioLite%20CampStove%202%2B"
-  },
-  {
-    "id": 23,
-    "slug": "helinox-chair-one-ultralight",
-    "title": "Helinox Chair One Ultralight Camp Chair",
-    "shortDescription": "An ultralight collapsible camp chair weighing just 2 lbs with a 320 lb capacity. Packs down to the size of a water bottle with advanced DAC aluminum poles.",
-    "category": "Outdoor & Travel",
-    "whyItIsInteresting": "It weighs almost nothing but supports serious weight, making it the go-to for backpackers and festival-goers. Setup takes under 30 seconds with no instructions needed.",
-    "imageIdea": "Ultra-compact folding chair at a mountain campsite next to a backpack",
-    "sourceLink": "https://www.helinox.com",
-    "estimatedPriceRange": "$99–$129",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Helinox+Chair+One+Ultralight+Camp+Chair&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Helinox+Chair+One+Ultralight+Camp+Chair&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Helinox+Chair+One+Ultralight+Camp+Chair"
-  },
-  {
     "id": 24,
     "slug": "nalgene-32oz-sustain-water-bottle",
     "title": "Nalgene 32oz Sustain Water Bottle",
@@ -265,8 +170,7 @@
       "url": "https://www.amazon.com/s?k=DJI+Air+3+Camera+Drone&tag=vaultvibe-20"
     },
     "directAmazonUrl": "https://www.amazon.com/s?k=DJI+Air+3+Camera+Drone&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI+Air+3+Camera+Drone",
-    "badge": "great-gift"
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI+Air+3+Camera+Drone"
   },
   {
     "id": 33,
@@ -2398,6 +2302,41 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Google%20Pixel%20Watch%203&tag=vaultvibe-20"
+    }
+  },
+  {
+    "id": 148,
+    "slug": "apple-vision-pro",
+    "title": "Apple Vision Pro",
+    "shortDescription": "Apple's groundbreaking spatial computing device that seamlessly blends digital content with the physical world. Experience immersive entertainment, productivity, and communication in a completely new way.",
+    "category": "Spatial Computing Headset",
+    "whyItIsInteresting": "This represents Apple's entry into a new product category, pushing the boundaries of augmented and virtual reality. Its high-end features and premium pricing target early adopters and professionals.",
+    "imageIdea": "person wearing apple vision pro headset in a futuristic living room",
+    "sourceLink": "https://www.apple.com/apple-vision-pro/",
+    "estimatedPriceRange": "$3499+",
+    "availableOnAmazon": false,
+    "type": "product",
+    "dateAdded": "2026-04-17",
+    "badge": "great-gift"
+  },
+  {
+    "id": 149,
+    "slug": "samsung-galaxy-ring",
+    "title": "Samsung Galaxy Ring",
+    "shortDescription": "Samsung's first smart ring designed to track health and wellness metrics discreetly. Monitor sleep, heart rate, and activity levels with a minimalist and comfortable wearable.",
+    "category": "Smart Ring",
+    "whyItIsInteresting": "The smart ring market is heating up, and Samsung's entry brings its extensive ecosystem and health tracking expertise to this compact form factor. It offers a compelling alternative to smartwatches for those seeking less intrusive tracking.",
+    "imageIdea": "hand with a subtle samsung galaxy ring on a finger with health data overlay",
+    "sourceLink": "https://www.samsung.com/us/smartrings/",
+    "estimatedPriceRange": "$299-$349",
+    "availableOnAmazon": true,
+    "type": "product",
+    "dateAdded": "2026-04-17",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Ring&tag=vaultvibe-20",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Ring&tag=vaultvibe-20"
     }
   }
 ]

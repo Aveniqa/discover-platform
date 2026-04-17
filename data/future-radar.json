@@ -1,60 +1,5 @@
 [
   {
-    "id": 22,
-    "slug": "nuclear-thermal-propulsion",
-    "techName": "Nuclear Thermal Propulsion",
-    "explanation": "Rocket engines that heat propellant using a nuclear fission reactor, achieving twice the efficiency of chemical rockets. They cut Mars transit time from 9 months to 3-4 months.",
-    "industry": "Space",
-    "whyItMatters": "Faster transit means less radiation exposure for crews, smaller supply requirements, and wider launch windows, making crewed Mars missions practical rather than theoretical.",
-    "developmentStage": "Advanced Research",
-    "type": "future-tech",
-    "imageIdea": "Spacecraft with glowing nuclear thermal engine firing in deep space, stars in background"
-  },
-  {
-    "id": 23,
-    "slug": "asteroid-mining-platforms",
-    "techName": "Asteroid Mining Platforms",
-    "explanation": "Robotic spacecraft that land on near-Earth asteroids to extract platinum-group metals, rare earth elements, and water. A single metallic asteroid can contain more platinum than ever mined on Earth.",
-    "industry": "Space",
-    "whyItMatters": "Access to space-based resources could eliminate mining-related environmental destruction on Earth, break supply bottlenecks for electronics, and fund space infrastructure through trillion-dollar mineral returns.",
-    "developmentStage": "Early Research",
-    "type": "future-tech",
-    "imageIdea": "Robotic mining platform attached to a rocky asteroid in space, extracting minerals with mechanical arms"
-  },
-  {
-    "id": 24,
-    "slug": "mega-constellation-global-internet",
-    "techName": "Mega-Constellation Global Internet",
-    "explanation": "Networks of thousands of small satellites in low Earth orbit providing high-speed, low-latency broadband to every point on Earth's surface, including oceans, mountains, and polar regions.",
-    "industry": "Space",
-    "whyItMatters": "Three billion people still lack internet access. Satellite mega-constellations close the digital divide entirely, enabling education, telemedicine, and economic participation for everyone on the planet.",
-    "developmentStage": "Growth Phase",
-    "type": "future-tech",
-    "imageIdea": "Thousands of small satellites orbiting Earth in coordinated formation, beaming internet coverage to the surface"
-  },
-  {
-    "id": 25,
-    "slug": "space-based-gravitational-wave-observatory",
-    "techName": "Space-Based Gravitational Wave Observatory",
-    "explanation": "Constellations of spacecraft millions of miles apart using laser interferometry to detect gravitational waves at frequencies impossible to observe from Earth, revealing merging supermassive black holes and the Big Bang's echoes.",
-    "industry": "Space",
-    "whyItMatters": "It opens an entirely new window on the universe, allowing us to observe events invisible to light-based telescopes and test the fundamental fabric of spacetime itself.",
-    "developmentStage": "Early Research",
-    "type": "future-tech",
-    "imageIdea": "Three spacecraft in triangular formation in deep space, connected by laser beams detecting gravitational ripples"
-  },
-  {
-    "id": 26,
-    "slug": "mass-produced-graphene",
-    "techName": "Mass-Produced Graphene",
-    "explanation": "Industrial-scale production of single-layer carbon sheets that are 200 times stronger than steel, conduct electricity better than copper, and are nearly transparent. New roll-to-roll processes make it affordable.",
-    "industry": "Materials",
-    "whyItMatters": "Cheap graphene could revolutionize electronics with flexible displays, create ultra-light aircraft, enable instant water desalination membranes, and produce unbreakable yet featherweight composites.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech",
-    "imageIdea": "Industrial facility producing rolls of transparent graphene sheets, with microscopic hexagonal lattice pattern overlay"
-  },
-  {
     "id": 27,
     "slug": "programmable-metamaterials",
     "techName": "Programmable Metamaterials",
@@ -1219,5 +1164,41 @@
     "imageIdea": "robotic arm tending to a strawberry plant",
     "type": "future-tech",
     "dateAdded": "2026-04-15"
+  },
+  {
+    "id": 126,
+    "slug": "fusion-energy-net-gain",
+    "techName": "Fusion Energy Net Energy Gain Milestone",
+    "explanation": "Scientists have achieved a significant milestone in fusion energy, producing more energy from a fusion reaction than was used to initiate it. This breakthrough, occurring at facilities like the National Ignition Facility (NIF), represents a critical step towards a clean and virtually limitless energy source.",
+    "industry": "Energy",
+    "whyItMatters": "Achieving net energy gain in fusion is a monumental step towards solving global energy crises and combating climate change. It promises abundant, clean electricity without long-lived radioactive waste.",
+    "developmentStage": "Prototype",
+    "imageIdea": "glowing plasma confinement chamber",
+    "type": "future-tech",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 127,
+    "slug": "ai-driven-protein-folding-acceleration",
+    "techName": "AI-Accelerated Protein Folding Simulation",
+    "explanation": "Advancements in AI, notably models like AlphaFold, have dramatically accelerated the process of predicting protein structures from their amino acid sequences. This capability is revolutionizing biological research, enabling faster understanding of disease mechanisms and the design of new therapeutics.",
+    "industry": "Biotechnology",
+    "whyItMatters": "Understanding protein folding is fundamental to biology and medicine, impacting drug discovery, disease research, and synthetic biology. AI's ability to predict these structures rapidly opens new avenues for scientific breakthroughs.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "3d molecular model of a protein",
+    "type": "future-tech",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 128,
+    "slug": "commercial-vertical-takeoff-and-landing-aircraft",
+    "techName": "Commercial eVTOL Aircraft Certification",
+    "explanation": "Several companies are nearing or have achieved significant regulatory certifications for their electric Vertical Take-Off and Landing (eVTOL) aircraft. This paves the way for the commercial deployment of air taxis and other urban air mobility services, promising a new era of transportation.",
+    "industry": "Aerospace",
+    "whyItMatters": "eVTOLs offer the potential to alleviate urban congestion by providing efficient, on-demand air travel. This technology could reshape city logistics, emergency response, and personal mobility.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "sleek electric air taxi in flight",
+    "type": "future-tech",
+    "dateAdded": "2026-04-17"
   }
 ]

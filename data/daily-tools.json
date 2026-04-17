@@ -1,60 +1,5 @@
 [
   {
-    "id": 22,
-    "slug": "turbotax",
-    "toolName": "TurboTax",
-    "whatItDoes": "Guided tax preparation software that interviews you with plain-English questions, imports W-2s and 1099s automatically, and checks for 350+ deductions. Handles federal, state, and self-employment taxes.",
-    "category": "Finance",
-    "whyItIsUseful": "It translates intimidating tax forms into simple questions anyone can answer. The automated import and deduction-finding pays for itself many times over for most filers.",
-    "websiteLink": "https://turbotax.intuit.com",
-    "type": "tool",
-    "imageIdea": "tax filing forms calculator refund"
-  },
-  {
-    "id": 23,
-    "slug": "wave",
-    "toolName": "Wave",
-    "whatItDoes": "Free invoicing and accounting software for small businesses and freelancers. Create professional invoices, track expenses, scan receipts, accept payments, and generate financial reports.",
-    "category": "Finance",
-    "whyItIsUseful": "It is genuinely free for invoicing and accounting, not a limited trial. Freelancers get professional-grade financial tools without paying QuickBooks prices.",
-    "websiteLink": "https://www.waveapps.com",
-    "type": "tool",
-    "imageIdea": "invoice accounting small business receipt"
-  },
-  {
-    "id": 24,
-    "slug": "wealthfront",
-    "toolName": "Wealthfront",
-    "whatItDoes": "Automated investment platform that builds a diversified portfolio based on your risk tolerance, handles rebalancing, and performs daily tax-loss harvesting. Includes high-yield savings and financial planning tools.",
-    "category": "Finance",
-    "whyItIsUseful": "Tax-loss harvesting alone typically adds 1-2% annual returns. It brings sophisticated investment strategies previously available only to the wealthy to anyone with $500.",
-    "websiteLink": "https://www.wealthfront.com",
-    "type": "tool",
-    "imageIdea": "robo advisor investment portfolio automated"
-  },
-  {
-    "id": 25,
-    "slug": "numbeo",
-    "toolName": "Numbeo",
-    "whatItDoes": "Crowdsourced database of living costs, property prices, crime rates, healthcare quality, and traffic conditions for cities worldwide. Compare cost of living between any two cities side by side.",
-    "category": "Finance",
-    "whyItIsUseful": "It answers 'Can I afford to live there?' with real data before you commit to a move. The salary comparison tool shows exactly how much you need to earn to maintain your lifestyle.",
-    "websiteLink": "https://www.numbeo.com",
-    "type": "tool",
-    "imageIdea": "cost of living comparison city data"
-  },
-  {
-    "id": 26,
-    "slug": "strava",
-    "toolName": "Strava",
-    "whatItDoes": "Fitness tracking app for running, cycling, and swimming with GPS route mapping, segment leaderboards, training analytics, and a social feed for sharing activities with friends.",
-    "category": "Health",
-    "whyItIsUseful": "The social and competitive features turn exercise from a chore into a game. Segment leaderboards add just enough competition to push you harder without being toxic.",
-    "websiteLink": "https://www.strava.com",
-    "type": "tool",
-    "imageIdea": "running cycling gps fitness route map"
-  },
-  {
     "id": 27,
     "slug": "cronometer",
     "toolName": "Cronometer",
@@ -1141,5 +1086,29 @@
     "websiteLink": "https://www.spotify.com/",
     "type": "tool",
     "dateAdded": "2026-04-14"
+  },
+  {
+    "id": 130,
+    "slug": "evernote-web-clipper",
+    "toolName": "Evernote Web Clipper",
+    "whatItDoes": "A browser extension that allows you to save anything you see online directly into your Evernote account. You can save full articles, simplified versions, screenshots, or just links.",
+    "category": "Productivity",
+    "whyItIsUseful": "It's incredibly useful for researchers, students, and anyone who wants to gather information efficiently from the web. You can organize your clippings by notebook and tag them for easy retrieval later.",
+    "imageIdea": "browser tab clipping a webpage",
+    "websiteLink": "https://evernote.com/features/web-clipper",
+    "type": "tool",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 131,
+    "slug": "calm",
+    "toolName": "Calm",
+    "whatItDoes": "A meditation and sleep app that offers guided meditations, sleep stories, relaxing music, and breathing exercises. It aims to help users reduce anxiety, improve sleep, and increase mindfulness.",
+    "category": "Health",
+    "whyItIsUseful": "In today's fast-paced world, stress management and good sleep are crucial for well-being. Calm provides accessible tools to help individuals cultivate peace of mind and improve their mental health.",
+    "imageIdea": "person meditating by a serene lake",
+    "websiteLink": "https://www.calm.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-17"
   }
 ]

@@ -1,65 +1,5 @@
 [
   {
-    "id": 20,
-    "slug": "notebooklm",
-    "name": "NotebookLM",
-    "whatItDoes": "A Google AI tool that lets you upload documents, papers, and notes, then ask questions and get cited answers grounded in your own sources. It can also generate audio overviews of your content.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It turns passive reading into active research by letting you interrogate your own documents. The source grounding eliminates hallucination concerns common with general-purpose chatbots.",
-    "websiteLink": "https://notebooklm.google.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fnotebooklm.google.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "research documents ai notebook highlights"
-  },
-  {
-    "id": 22,
-    "slug": "languagetool",
-    "name": "LanguageTool",
-    "whatItDoes": "An open-source grammar, style, and spell checker that supports over 30 languages. It integrates with browsers, email clients, and text editors via extensions and plugins.",
-    "category": "Writing",
-    "whyItIsUseful": "It catches nuanced grammar and style errors that basic spell checkers miss, across many languages. The open-source nature means it can be self-hosted for privacy-sensitive writing.",
-    "websiteLink": "https://languagetool.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Flanguagetool.org&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "grammar spelling correction multilingual text"
-  },
-  {
-    "id": 23,
-    "slug": "ghost",
-    "name": "Ghost",
-    "whatItDoes": "An open-source publishing platform built for professional bloggers, newsletters, and membership sites. It includes a modern editor, built-in SEO, email newsletters, and paid subscription support.",
-    "category": "Writing",
-    "whyItIsUseful": "It gives independent writers a complete publishing business in a single tool without platform lock-in. The clean editor and native newsletter support mean you do not need separate tools for content and distribution.",
-    "websiteLink": "https://ghost.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fghost.org&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "blog publishing platform newsletter"
-  },
-  {
-    "id": 24,
-    "slug": "bibguru",
-    "name": "BibGuru",
-    "whatItDoes": "A free citation generator that creates properly formatted references in APA, MLA, Chicago, and hundreds of other styles. It can auto-fill citation details from a URL, DOI, or ISBN.",
-    "category": "Writing",
-    "whyItIsUseful": "It removes the tedium of manual citation formatting for students and researchers. The auto-detection feature saves significant time when building bibliographies for papers.",
-    "websiteLink": "https://www.bibguru.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.bibguru.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "academic citation bibliography reference books"
-  },
-  {
-    "id": 25,
-    "slug": "markdoc",
-    "name": "Markdoc",
-    "whatItDoes": "A Markdown-based authoring framework created by Stripe for building custom documentation sites. It extends Markdown with tags, variables, and functions while keeping content readable as plain text.",
-    "category": "Writing",
-    "whyItIsUseful": "It lets technical writers add interactive components to docs without sacrificing Markdown simplicity. Content stays portable and version-controllable in Git while supporting rich, dynamic output.",
-    "websiteLink": "https://markdoc.dev",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmarkdoc.dev&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "markdown documentation technical writing"
-  },
-  {
     "id": 26,
     "slug": "brilliant",
     "name": "Brilliant",
@@ -1301,5 +1241,31 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-15",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ffontjoy.com&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 149,
+    "slug": "diagrams-net",
+    "name": "diagrams.net (formerly draw.io)",
+    "whatItDoes": "A free online diagramming tool that allows you to create a wide variety of diagrams, from flowcharts and mind maps to network diagrams and UML. It offers extensive customization options and integrates with cloud storage services like Google Drive and Dropbox.",
+    "category": "Productivity",
+    "whyItIsUseful": "It's a powerful and surprisingly feature-rich alternative to paid diagramming software. Its accessibility and versatility make it ideal for quick sketches, detailed technical diagrams, and collaborative projects.",
+    "imageIdea": "blueprint blueprinting drafting table",
+    "websiteLink": "https://www.diagrams.net/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-17",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.diagrams.net%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 150,
+    "slug": "this-is-today",
+    "name": "This is Today",
+    "whatItDoes": "A simple, minimalist website that displays the current date in a large, readable format with a brief description of the day's significance. It focuses on present moment awareness.",
+    "category": "Productivity",
+    "whyItIsUseful": "In a world of constant digital distraction, 'This is Today' offers a simple anchor to the present. It's a refreshing break from cluttered interfaces and serves as a gentle reminder to be mindful of the current day.",
+    "imageIdea": "sundial calendar page",
+    "websiteLink": "https://www.thisistoday.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-17",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.thisistoday.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

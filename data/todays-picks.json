@@ -1,46 +1,46 @@
 [
   {
-    "slug": "brain-organoids-learn-play-video-games",
-    "title": "Lab-Grown Brain Organoids Play Video Games",
+    "slug": "ancient-human-migration-patterns-rewritten",
+    "title": "Ancient DNA Rewrites Human Migration History",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Scientists have successfully grown brain organoids (miniature, simplified brains) in a lab that can learn to play a simp",
+    "description": "Recent studies using advanced ancient DNA analysis are dramatically reshaping our understanding of early human migration",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "google-pixel-watch-3",
-    "title": "Google Pixel Watch 3",
+    "slug": "samsung-galaxy-ring",
+    "title": "Samsung Galaxy Ring",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The latest generation of Google's smartwatch, featuring advanced health tracking, seamless integration with Wear OS and ",
+    "description": "Samsung's first smart ring designed to track health and wellness metrics discreetly. Monitor sleep, heart rate, and acti",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "fontjoy",
-    "title": "Fontjoy",
+    "slug": "this-is-today",
+    "title": "This is Today",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Fontjoy uses AI to help you generate font pairings for your design projects. You can explore a vast library of fonts and",
+    "description": "A simple, minimalist website that displays the current date in a large, readable format with a brief description of the ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "advanced-robotics-for-precision-agriculture",
-    "title": "Advanced Robotics for Precision Agriculture",
+    "slug": "commercial-vertical-takeoff-and-landing-aircraft",
+    "title": "Commercial eVTOL Aircraft Certification",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "Next-generation agricultural robots are demonstrating unprecedented capabilities in crop monitoring, targeted pest contr",
+    "description": "Several companies are nearing or have achieved significant regulatory certifications for their electric Vertical Take-Of",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "spotify",
-    "title": "Spotify",
+    "slug": "calm",
+    "title": "Calm",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "A digital music, podcast, and video streaming service that gives you access to millions of songs and other content from ",
+    "description": "A meditation and sleep app that offers guided meditations, sleep stories, relaxing music, and breathing exercises. It ai",
     "badge": null,
     "type": "tool"
   }
