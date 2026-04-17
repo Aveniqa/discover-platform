@@ -81,6 +81,12 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Send daily newsletter
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: node scripts/send-newsletter.mjs
+        continue-on-error: true
+
       - name: Commit and push
         run: |
           git config user.name "Surfaced Bot"
