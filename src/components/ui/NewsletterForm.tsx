@@ -20,7 +20,7 @@ export function NewsletterForm({ variant = "default", "data-capture-location": c
   if (variant === "minimal") {
     return (
       <form
-        action="https://buttondown.email/api/emails/embed-subscribe/johne"
+        action="https://buttondown.email/api/emails/embed-subscribe/surfaced"
         method="post"
         target="_blank"
         onSubmit={() => setSubmitted(true)}
@@ -49,7 +49,7 @@ export function NewsletterForm({ variant = "default", "data-capture-location": c
 
   return (
     <form
-      action="https://buttondown.email/api/emails/embed-subscribe/johne"
+      action="https://buttondown.email/api/emails/embed-subscribe/surfaced"
       method="post"
       target="_blank"
       onSubmit={() => setSubmitted(true)}
