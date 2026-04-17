@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     creator: "@xSurfaced",
   },
   verification: {
-    google: "fkbYRCrZQGx9tfcR4UBdZBW6aA3MugY2hCmSR6JSKbI",
+    google: "6WKQAe4TdWU2yAH-KF_Sivy8NZgZOvxyhHvdDd2bRTQ",
   },
   robots: {
     index: true,
