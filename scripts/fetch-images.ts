@@ -36,7 +36,7 @@ async function fetchWithTimeout(url: string, opts: RequestInit, ms = 8000): Prom
   }
 }
 
-async function fetchPexelsImage(query: string, page = 1): Promise<string | null> {
+async function fetchPexelsImage(query: string, page = 1, retry = true): Promise<string | null> {
   try {
     const res = await fetchWithTimeout(
       `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=1&page=${page}&orientation=landscape`,
@@ -45,7 +45,7 @@ async function fetchPexelsImage(query: string, page = 1): Promise<string | null>
     if (res.status === 429) {
       console.log("\n  ⏳ Pexels rate limited — backing off 60s...");
       await new Promise((r) => setTimeout(r, 60000));
-      return null;
+      return retry ? fetchPexelsImage(query, page, false) : null;
     }
     if (!res.ok) {
       console.log(`\n  ⚠ Pexels ${res.status} for "${query}"`);
@@ -58,7 +58,7 @@ async function fetchPexelsImage(query: string, page = 1): Promise<string | null>
   }
 }
 
-async function fetchUnsplashImage(query: string): Promise<string | null> {
+async function fetchUnsplashImage(query: string, retry = true): Promise<string | null> {
   try {
     const res = await fetchWithTimeout(
       `https://api.unsplash.com/photos/random?query=${encodeURIComponent(query)}&orientation=landscape`,
@@ -67,7 +67,7 @@ async function fetchUnsplashImage(query: string): Promise<string | null> {
     if (res.status === 429) {
       console.log("\n  ⏳ Unsplash rate limited — backing off 60s...");
       await new Promise((r) => setTimeout(r, 60000));
-      return null;
+      return retry ? fetchUnsplashImage(query, false) : null;
     }
     if (!res.ok) {
       console.log(`\n  ⚠ Unsplash ${res.status} for "${query}"`);
@@ -80,7 +80,7 @@ async function fetchUnsplashImage(query: string): Promise<string | null> {
   }
 }
 
-async function fetchPixabayImage(query: string): Promise<string | null> {
+async function fetchPixabayImage(query: string, retry = true): Promise<string | null> {
   if (!PIXABAY_KEY) return null;
   try {
     const res = await fetchWithTimeout(
@@ -90,7 +90,7 @@ async function fetchPixabayImage(query: string): Promise<string | null> {
     if (res.status === 429) {
       console.log("\n  ⏳ Pixabay rate limited — backing off 60s...");
       await new Promise((r) => setTimeout(r, 60000));
-      return null;
+      return retry ? fetchPixabayImage(query, false) : null;
     }
     if (!res.ok) {
       console.log(`\n  ⚠ Pixabay ${res.status} for "${query}"`);

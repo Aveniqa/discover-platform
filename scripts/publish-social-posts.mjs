@@ -310,11 +310,13 @@ async function main() {
     log.info(`Processing: ${post.title}`, { category: post.category, index: i + 1 });
     log.time(`post-${i}`);
 
-    const results = {
-      bluesky: await publishToBluesky(post),
-      pinterest: await publishToPinterest(post),
-      twitter: await publishToTwitter(post),
-    };
+    // Publish to all platforms in parallel — each is independent
+    const [bluesky, pinterest, twitter] = await Promise.all([
+      publishToBluesky(post),
+      publishToPinterest(post),
+      publishToTwitter(post),
+    ]);
+    const results = { bluesky, pinterest, twitter };
 
     // Track stats
     if (results.bluesky) stats.platforms.bluesky++;

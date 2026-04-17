@@ -326,6 +326,29 @@ async function main() {
   let affiliateCount = 0;
   let skippedDtc = 0;
   let asinDirectCount = 0;
+
+  // Validate all new ASINs concurrently in batches of 10 (each request has an 8 s timeout,
+  // so 10 parallel = worst-case 8 s per batch instead of 8 s × N sequentially).
+  const needsAsinCheck = allProducts.filter(
+    (p) => p.availableOnAmazon !== false && p.amazonAsin && (!p.affiliate || !p.affiliate.enabled)
+  );
+  const validatedDirectUrls = new Map(); // product object → direct URL | null
+  const ASIN_BATCH = 10;
+  for (let i = 0; i < needsAsinCheck.length; i += ASIN_BATCH) {
+    await Promise.all(
+      needsAsinCheck.slice(i, i + ASIN_BATCH).map(async (p) => {
+        const valid = await asinIsValid(p.amazonAsin);
+        if (valid) {
+          validatedDirectUrls.set(p, `https://www.amazon.com/dp/${p.amazonAsin}?tag=${AMAZON_TAG}&linkCode=ll1`);
+          asinDirectCount++;
+        } else {
+          console.warn(`  ⚠ Invalid ASIN for "${p.title}": ${p.amazonAsin} — falling back to search`);
+          delete p.amazonAsin;
+        }
+      })
+    );
+  }
+
   for (const p of allProducts) {
     // Skip products explicitly flagged as not on Amazon
     if (p.availableOnAmazon === false) {
@@ -334,22 +357,9 @@ async function main() {
     }
     const query = encodeURIComponent(p.title);
     const searchUrl = `https://www.amazon.com/s?k=${query}&tag=${AMAZON_TAG}`;
-
-    // If Gemini returned an ASIN and it's a new product (no existing affiliate),
-    // try to validate it and use a direct /dp/ URL.
-    let directUrl = null;
-    if (p.amazonAsin && (!p.affiliate || !p.affiliate.enabled)) {
-      const valid = await asinIsValid(p.amazonAsin);
-      if (valid) {
-        directUrl = `https://www.amazon.com/dp/${p.amazonAsin}?tag=${AMAZON_TAG}&linkCode=ll1`;
-        asinDirectCount++;
-      } else {
-        console.warn(`  ⚠ Invalid ASIN for "${p.title}": ${p.amazonAsin} — falling back to search`);
-        delete p.amazonAsin;
-      }
-    }
-
+    const directUrl = validatedDirectUrls.get(p) || null;
     const amazonUrl = directUrl || searchUrl;
+
     // Always set directAmazonUrl (explicit field for rendering)
     if (!p.directAmazonUrl) {
       p.directAmazonUrl = amazonUrl;

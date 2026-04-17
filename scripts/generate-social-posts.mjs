@@ -133,72 +133,68 @@ async function main() {
     }
   }
 
-  // 5. Generate social posts for each item
+  // 5. Generate social posts for all items in parallel
   const posts = [];
-  for (const item of selected) {
+
+  // Step A: Compute all derived fields synchronously
+  const preparedItems = selected.map((item) => {
     const fallbackImageUrl = imageCache[item.slug] || "";
     const productUrl = `${SITE_URL}/item/${item.slug}`;
     const affiliateUrl = item.directAmazonUrl || productUrl;
-
-    // Add UTM tracking parameters
     const utmParams = `?utm_source=social&utm_medium=${item._category}&utm_campaign=daily_post`;
     const trackedProductUrl = `${productUrl}${utmParams}`;
-    const trackedAffiliateUrl = item.directAmazonUrl
-      ? affiliateUrl // Don't modify Amazon URLs
-      : trackedProductUrl;
-
-    // Normalize fields across different data schemas
+    const trackedAffiliateUrl = item.directAmazonUrl ? affiliateUrl : trackedProductUrl;
     const itemTitle = item.title || item.name || item.slug;
     const itemDesc = item.shortDescription || item.whatItDoes || item.description || "";
     const itemWhy = item.whyItIsInteresting || item.whyItIsUseful || "";
     const itemSource = item.sourceLink || item.websiteLink || "";
     const itemPrice = item.estimatedPriceRange || item.pricingModel || "See link";
-
-    console.log(`  Generating posts for: ${itemTitle}`);
     const normalizedItem = { ...item, title: itemTitle, shortDescription: itemDesc, whyItIsInteresting: itemWhy, sourceLink: itemSource, estimatedPriceRange: itemPrice };
-    const socialContent = await generateSocialContent(
-      normalizedItem, trackedAffiliateUrl, trackedProductUrl
-    );
+    return { item, fallbackImageUrl, trackedProductUrl, trackedAffiliateUrl, normalizedItem, itemTitle, itemDesc };
+  });
 
-    // Fetch a relevant image using Gemini's suggested search query
-    let imageUrl = fallbackImageUrl;
-    if (PEXELS_API_KEY && socialContent) {
+  // Step B: Call Gemini for all items in parallel
+  console.log(`  Generating posts for: ${preparedItems.map((p) => p.itemTitle).join(", ")}`);
+  const socialContents = await Promise.all(
+    preparedItems.map(({ normalizedItem, trackedAffiliateUrl, trackedProductUrl }) =>
+      generateSocialContent(normalizedItem, trackedAffiliateUrl, trackedProductUrl)
+    )
+  );
+
+  // Step C: Fetch images for all items in parallel (Gemini fallback + Pexels)
+  const imageUrls = await Promise.all(
+    preparedItems.map(async ({ item, fallbackImageUrl }, i) => {
+      const socialContent = socialContents[i];
+      if (!PEXELS_API_KEY || !socialContent) return fallbackImageUrl;
       let searchQuery = socialContent.imageSearchQuery;
-
-      // If Gemini didn't return a search query, ask it specifically
-      if (!searchQuery) {
-        searchQuery = await getImageSearchQuery(item);
+      if (!searchQuery) searchQuery = await getImageSearchQuery(item);
+      if (!searchQuery) return fallbackImageUrl;
+      const searchedImage = await searchPexelsImage(searchQuery);
+      if (searchedImage) {
+        console.log(`   📷 Found relevant image for: "${searchQuery}"`);
+        return searchedImage;
       }
+      console.log(`   ⚠️ No Pexels result for "${searchQuery}", using cached image`);
+      return fallbackImageUrl;
+    })
+  );
 
-      if (searchQuery) {
-        const searchedImage = await searchPexelsImage(searchQuery);
-        if (searchedImage) {
-          imageUrl = searchedImage;
-          console.log(`   📷 Found relevant image for: "${searchQuery}"`);
-        } else {
-          console.log(`   ⚠️ No Pexels result for "${searchQuery}", using cached image`);
-        }
-      }
-    }
+  // Step D: Build post objects from results
+  for (let i = 0; i < preparedItems.length; i++) {
+    const { item, trackedProductUrl, trackedAffiliateUrl, itemTitle, itemDesc } = preparedItems[i];
+    const socialContent = socialContents[i];
+    const imageUrl = imageUrls[i];
 
     if (socialContent) {
-      // Validate that all expected fields exist
       const pin = socialContent.pinterest || {};
       const bsky = socialContent.bluesky || {};
       const tw = socialContent.twitter || {};
-
-      // Pick 2 relevant hashtags for Bluesky
       const catHashtags = CATEGORY_HASHTAGS[item._category] || ["#surfaced"];
       const bskyHashtags = catHashtags.slice(0, 2).join(" ");
-
-      // Fallback content if Gemini returned incomplete data
       const hasAffLink = !!item.directAmazonUrl;
       const link = hasAffLink ? trackedAffiliateUrl : trackedProductUrl;
       const fallbackText = `${item.title} — ${(item.shortDescription || "").slice(0, 150)} ${link}`;
-
-      // Alt text for images (used by X/Twitter)
-      const altText = socialContent.imageAltText
-        || `Image related to: ${itemTitle}`;
+      const altText = socialContent.imageAltText || `Image related to: ${itemTitle}`;
 
       posts.push({
         id: item.slug,
@@ -227,9 +223,7 @@ async function main() {
         status: "pending",
         generatedAt: new Date().toISOString(),
       });
-
-      // Note: posted tracking moved to publish-social-posts.mjs —
-      // items are only marked as posted when at least one platform succeeds.
+      // Note: posted tracking is in publish-social-posts.mjs — only marked when a platform succeeds.
     }
   }
 
