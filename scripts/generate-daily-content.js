@@ -99,6 +99,7 @@ async function generateItems(category, existingItems, count) {
   "sourceLink": "<real product URL>",
   "estimatedPriceRange": "<e.g. $299-$349>",
   "availableOnAmazon": <true|false — true if this exact product is sold on Amazon, false for DTC-only or niche brands not on Amazon>,
+  "amazonAsin": "<10-char ASIN if you are confident this exact product is listed on amazon.com (e.g. 'B09G9FPHY6'), else empty string>",
   "type": "product"
 }`,
     "hidden-gems": `{
@@ -288,11 +289,43 @@ async function main() {
   }
 
   // Auto-apply Amazon affiliate links and directAmazonUrl to all products
+  // Prefer direct /dp/ASIN URLs (valid ASINs land on the specific product page).
+  // Fall back to search URLs when ASIN is missing or invalid.
   const AMAZON_TAG = process.env.AMAZON_AFFILIATE_TAG || "vaultvibe-20";
   const productsFile = path.join(DATA_DIR, "products.json");
   const allProducts = JSON.parse(fs.readFileSync(productsFile, "utf8"));
+
+  const ASIN_REGEX = /^[A-Z0-9]{10}$/;
+  const AMAZON_UA =
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
+    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
+  async function asinIsValid(asin) {
+    if (!ASIN_REGEX.test(asin)) return false;
+    try {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 8000);
+      const res = await fetch(`https://www.amazon.com/dp/${asin}`, {
+        method: "GET",
+        signal: ctrl.signal,
+        redirect: "follow",
+        headers: { "User-Agent": AMAZON_UA },
+      });
+      clearTimeout(timer);
+      if (res.status >= 400) return false;
+      // Amazon returns 200 for both valid products and its "didn't find that page" screen.
+      // Check the HTML for the not-found marker.
+      const text = await res.text();
+      if (/Looking for something\?|Page Not Found|dogsofamazon/i.test(text)) return false;
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
   let affiliateCount = 0;
   let skippedDtc = 0;
+  let asinDirectCount = 0;
   for (const p of allProducts) {
     // Skip products explicitly flagged as not on Amazon
     if (p.availableOnAmazon === false) {
@@ -300,7 +333,23 @@ async function main() {
       continue;
     }
     const query = encodeURIComponent(p.title);
-    const amazonUrl = `https://www.amazon.com/s?k=${query}&tag=${AMAZON_TAG}`;
+    const searchUrl = `https://www.amazon.com/s?k=${query}&tag=${AMAZON_TAG}`;
+
+    // If Gemini returned an ASIN and it's a new product (no existing affiliate),
+    // try to validate it and use a direct /dp/ URL.
+    let directUrl = null;
+    if (p.amazonAsin && (!p.affiliate || !p.affiliate.enabled)) {
+      const valid = await asinIsValid(p.amazonAsin);
+      if (valid) {
+        directUrl = `https://www.amazon.com/dp/${p.amazonAsin}?tag=${AMAZON_TAG}&linkCode=ll1`;
+        asinDirectCount++;
+      } else {
+        console.warn(`  ⚠ Invalid ASIN for "${p.title}": ${p.amazonAsin} — falling back to search`);
+        delete p.amazonAsin;
+      }
+    }
+
+    const amazonUrl = directUrl || searchUrl;
     // Always set directAmazonUrl (explicit field for rendering)
     if (!p.directAmazonUrl) {
       p.directAmazonUrl = amazonUrl;
@@ -313,6 +362,9 @@ async function main() {
       };
       affiliateCount++;
     }
+  }
+  if (asinDirectCount > 0) {
+    console.log(`🎯 Direct /dp/ASIN URLs applied to ${asinDirectCount} products.`);
   }
   if (skippedDtc > 0) {
     console.log(`⏭️  Skipped ${skippedDtc} DTC-only products (not on Amazon).`);

@@ -54,6 +54,10 @@ jobs:
       - name: Validate JSON files
         run: node scripts/validate-data.js
 
+      - name: Validate outbound URLs (recent items)
+        run: node scripts/validate-urls.js --recent
+        continue-on-error: true
+
       - name: Assign editorial badges
         run: node scripts/assign-badges.js
 

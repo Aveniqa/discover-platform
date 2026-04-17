@@ -18,7 +18,6 @@
     "category": "Statistics",
     "whyItIsInteresting": "It reveals how deeply all life on Earth is connected through a common ancestor billions of years ago. The genes we share with bananas are so essential to life that evolution has preserved them across unimaginably different paths.",
     "imageIdea": "A double helix DNA strand that transitions from human form at the top to a banana at the bottom, with shared gene segments highlighted",
-    "sourceLink": "https://www.genome.gov/genetics-glossary/homolog",
     "type": "discovery"
   },
   {
@@ -381,7 +380,6 @@
     "category": "Space",
     "whyItIsInteresting": "It challenges our current understanding of Venus as a hellish world and raises profound questions about the conditions necessary for life to arise on planets, even those with seemingly inhospitable present-day environments.",
     "imageIdea": "ancient venus planet landscape",
-    "sourceLink": "https://www.nasa.gov/missions/venus/venus-might-have-been-habitable/",
     "type": "discovery",
     "dateAdded": "2026-04-13"
   },
@@ -393,7 +391,6 @@
     "category": "History",
     "whyItIsInteresting": "This discovery offers a tangible taste of the past, revealing the sophisticated microbial understanding and fermentation processes employed by one of history's greatest civilizations. It connects us directly to the daily lives of ancient Egyptians.",
     "imageIdea": "ancient egyptian bread pottery",
-    "sourceLink": "https://www.nature.com/articles/s41598-022-18868-0",
     "type": "discovery",
     "dateAdded": "2026-04-13"
   },
@@ -405,7 +402,6 @@
     "category": "Nature",
     "whyItIsInteresting": "This decentralized intelligence is unlike anything seen in most animals, suggesting a radically different evolutionary path for problem-solving and survival. It makes us reconsider what 'intelligence' truly means.",
     "imageIdea": "octopus arm tentacle suckers",
-    "sourceLink": "https://www.nature.com/articles/s41586-021-03781-1",
     "type": "discovery",
     "dateAdded": "2026-04-13"
   },
@@ -417,7 +413,6 @@
     "category": "Science",
     "whyItIsInteresting": "This finding reveals the immense power of past solar events and raises questions about the potential risks to our modern technological infrastructure if such a storm were to occur today. It's like finding a cosmic time capsule of extreme solar activity.",
     "imageIdea": "antarctic ice core drill",
-    "sourceLink": "https://www.nature.com/articles/s41586-023-06731-2",
     "type": "discovery",
     "dateAdded": "2026-04-13"
   },
@@ -441,7 +436,6 @@
     "category": "Technology",
     "whyItIsInteresting": "The application of advanced AI to solve a historical linguistic puzzle is a testament to technological progress. It demonstrates how AI can unlock secrets from the past, enriching our understanding of human civilization.",
     "imageIdea": "ancient cuneiform tablet ai algorithm",
-    "sourceLink": "https://www.theverge.com/2024/1/24/24048683/ai-ancient-language-translation-elamite-inscriptions",
     "type": "discovery",
     "dateAdded": "2026-04-13"
   },
@@ -513,7 +507,6 @@
     "category": "Space",
     "whyItIsInteresting": "This discovery challenges our terrestrial understanding of weather and geology, revealing the incredible and bizarre conditions that exist on other worlds. It opens up fascinating possibilities for planetary composition and the diverse forms matter can take under extreme cosmic conditions.",
     "imageIdea": "An artistic rendering of a gas giant planet with lightning and sparkling diamonds falling through its atmosphere.",
-    "sourceLink": "https://www.nasa.gov/science/planetary-science/diamonds-on-other-planets/",
     "type": "discovery",
     "dateAdded": "2026-04-13"
   },
@@ -549,7 +542,6 @@
     "category": "Space",
     "whyItIsInteresting": "The idea of a planet being literally consumed by its host star, coupled with the possibility of its interior being a giant diamond, is incredibly dramatic and expands our understanding of planetary evolution. It challenges our assumptions about what planets can be made of and how they interact with their host stars under extreme conditions.",
     "imageIdea": "An artist's impression of WASP-12b, depicted as an egg-shaped, glowing planet with material streaming off it towards its host star.",
-    "sourceLink": "https://www.nasa.gov/science-research/solar-system/wasp-12b-eats-light/",
     "type": "discovery",
     "dateAdded": "2026-04-13"
   },
@@ -789,7 +781,6 @@
     "category": "Space",
     "whyItIsInteresting": "This discovery was a monumental feat of international scientific collaboration and engineering, linking telescopes across the globe to form an Earth-sized virtual telescope. It allowed humanity to 'see' one of the most enigmatic objects in the universe for the first time, opening new avenues for understanding gravity and the cosmos.",
     "imageIdea": "A stylized representation of the iconic orange-red ring image of the M87* black hole, with a subtle overlay of radio telescopes on Earth, symbolizing the EHT array.",
-    "sourceLink": "https://eventhorizontelescope.org/blog/first-image-black-hole",
     "type": "discovery",
     "dateAdded": "2026-04-14"
   },
@@ -982,7 +973,6 @@
     "category": "Innovation",
     "whyItIsInteresting": "What started as a scientific \"failure\" – an adhesive that wasn't strong enough for conventional uses – became a global phenomenon through an innovative application. The Post-it Note transformed how people organize thoughts, collaborate, and communicate, demonstrating that sometimes the greatest discoveries come from unexpected solutions to seemingly minor problems and persistence in finding a purpose. Its ubiquity is a testament to its accidental genius.",
     "imageIdea": "A stack of classic yellow Post-it Notes, with one peeled off and stuck to a monitor displaying a brainstorming session, showing its versatile use.",
-    "sourceLink": "https://www.3m.com/3M/en_US/post-it-brand/ideas/history/",
     "type": "discovery",
     "dateAdded": "2026-04-14",
     "badge": "editors-pick"
@@ -1091,7 +1081,6 @@
     "category": "Technology",
     "whyItIsInteresting": "Its open, decentralized nature allowed for unprecedented growth and accessibility, empowering individuals and industries alike, though it also brought new challenges. The Web's impact on society, economy, and culture is arguably one of the most profound in human history.",
     "imageIdea": "A stylized illustration showing interconnected nodes or a globe with lines connecting various points, representing data flow and global connectivity. Perhaps with a subtle nod to early web browsers or HTML code.",
-    "sourceLink": "https://home.cern/science/computing/birth-web/who-and-what",
     "type": "discovery",
     "dateAdded": "2026-04-14"
   },
@@ -1175,7 +1164,6 @@
     "category": "Space",
     "whyItIsInteresting": "Finding a gas like phosphine, which is strongly linked to biological processes on Earth, in the clouds of Venus is incredibly surprising. While not definitive proof of life, it's the most compelling potential biosignature found beyond Earth to date.",
     "imageIdea": "swirling yellow clouds venus",
-    "sourceLink": "https://www.nasa.gov/releases/phosphine-discovery-on-venus/",
     "type": "discovery",
     "dateAdded": "2026-04-14"
   },
@@ -1199,7 +1187,6 @@
     "category": "History",
     "whyItIsInteresting": "This revelation challenges traditional Eurocentric views of technological history, demonstrating a remarkably advanced understanding of metallurgy in ancient Africa much earlier than previously believed. It highlights the rich, complex, and independent innovations that occurred on the continent.",
     "imageIdea": "ancient iron smelting furnace",
-    "sourceLink": "https://www.nature.com/articles/s41586-022-05121-2",
     "type": "discovery",
     "dateAdded": "2026-04-14"
   },
@@ -1247,7 +1234,6 @@
     "category": "History",
     "whyItIsInteresting": "It's the largest and oldest brewery of its kind ever found, suggesting that beer was a significant part of Egyptian society and likely used in rituals and as a form of payment. The sheer industrial scale for its time is astonishing.",
     "imageIdea": "archaeological dig site ancient egypt",
-    "sourceLink": "https://www.archaeologymag.com/2021/02/massive-ancient-egyptian-beer-brewery-discovered-in-abydos/",
     "type": "discovery",
     "dateAdded": "2026-04-15"
   },
@@ -1259,7 +1245,6 @@
     "category": "Nature",
     "whyItIsInteresting": "These newly discovered creatures exhibit unique adaptations to crushing pressures, high temperatures, and toxic chemicals, challenging our understanding of where life can exist. They offer clues about potential life on other planets.",
     "imageIdea": "deep sea hydrothermal vent organism",
-    "sourceLink": "https://www.nationalgeographic.com/science/article/deep-sea-vents-life-explained",
     "type": "discovery",
     "dateAdded": "2026-04-15"
   },
@@ -1271,7 +1256,6 @@
     "category": "Space",
     "whyItIsInteresting": "These mergers are the most energetic events in the universe since the Big Bang. The detection allows us to study the dynamics of galaxies and the evolution of black holes on unprecedented scales.",
     "imageIdea": "artist conception of merging black holes",
-    "sourceLink": "https://www.ligo.caltech.edu/page/detection-companion-gw150914",
     "type": "discovery",
     "dateAdded": "2026-04-15"
   },
@@ -1283,7 +1267,6 @@
     "category": "History",
     "whyItIsInteresting": "Unlike modern concrete, Roman concrete contains white chunks (lime clasts) that actively react with water to repair cracks, making it incredibly long-lasting. This could revolutionize modern construction materials.",
     "imageIdea": "roman aqueduct concrete structure",
-    "sourceLink": "https://www.newscientist.com/article/2307448-secrets-of-roman-concrete-revealed-in-new-study/",
     "type": "discovery",
     "dateAdded": "2026-04-15"
   },
@@ -1295,7 +1278,6 @@
     "category": "Science",
     "whyItIsInteresting": "This breakthrough blurs the lines between biological and artificial intelligence, offering a unique platform to study learning, memory, and neurological disorders in a controlled environment. It raises profound ethical questions about consciousness.",
     "imageIdea": "microscope view of brain organoids culture",
-    "sourceLink": "https://www.newscientist.com/article/2307229-lab-grown-brain-organoids-have-learned-to-play-pong/",
     "type": "discovery",
     "dateAdded": "2026-04-15"
   },
