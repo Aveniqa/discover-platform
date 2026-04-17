@@ -224,10 +224,10 @@ export default function AffiliateDisclosurePage() {
                 <p>
                   Email:{" "}
                   <a
-                    href="mailto:contact@surfaced.co"
+                    href="mailto:surfaced-x@protonmail.com"
                     className="text-accent hover:text-accent/80 transition-colors"
                   >
-                    contact@surfaced.co
+                    surfaced-x@protonmail.com
                   </a>
                 </p>
               </div>

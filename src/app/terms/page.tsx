@@ -236,10 +236,10 @@ export default function TermsPage() {
                 <p>
                   Email:{" "}
                   <a
-                    href="mailto:legal@surfaced.io"
+                    href="mailto:surfaced-x@protonmail.com"
                     className="text-accent hover:text-accent/80 transition-colors"
                   >
-                    legal@surfaced.io
+                    surfaced-x@protonmail.com
                   </a>
                 </p>
               </div>

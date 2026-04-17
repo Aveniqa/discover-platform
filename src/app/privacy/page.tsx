@@ -190,10 +190,10 @@ export default function PrivacyPage() {
                 <p>
                   To exercise any of these rights, please contact us at{" "}
                   <a
-                    href="mailto:privacy@surfaced.io"
+                    href="mailto:surfaced-x@protonmail.com"
                     className="text-accent hover:text-accent/80 transition-colors"
                   >
-                    privacy@surfaced.io
+                    surfaced-x@protonmail.com
                   </a>
                   . We will respond to your request within 30 days.
                 </p>
@@ -272,10 +272,10 @@ export default function PrivacyPage() {
                   We do not sell your personal information. To exercise your CCPA
                   rights, contact us at{" "}
                   <a
-                    href="mailto:privacy@surfaced.io"
+                    href="mailto:surfaced-x@protonmail.com"
                     className="text-accent hover:text-accent/80 transition-colors"
                   >
-                    privacy@surfaced.io
+                    surfaced-x@protonmail.com
                   </a>
                   .
                 </p>
@@ -295,10 +295,10 @@ export default function PrivacyPage() {
                 <p>
                   Email:{" "}
                   <a
-                    href="mailto:privacy@surfaced.io"
+                    href="mailto:surfaced-x@protonmail.com"
                     className="text-accent hover:text-accent/80 transition-colors"
                   >
-                    privacy@surfaced.io
+                    surfaced-x@protonmail.com
                   </a>
                 </p>
                 <p>

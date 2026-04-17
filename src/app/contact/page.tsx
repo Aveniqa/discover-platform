@@ -10,25 +10,25 @@ const contactChannels = [
   {
     title: "General Inquiries",
     description: "Questions, feedback, or just want to say hello.",
-    email: "hello@surfaced.io",
+    email: "surfaced-x@protonmail.com",
   },
   {
     title: "Brand Partnerships",
     description:
       "Interested in partnering with Surfaced to reach our curious audience.",
-    email: "partnerships@surfaced.io",
+    email: "surfaced-x@protonmail.com",
   },
   {
     title: "Advertising",
     description:
       "Sponsor our newsletter or place native ads across our platform.",
-    email: "ads@surfaced.io",
+    email: "surfaced-x@protonmail.com",
   },
   {
     title: "Press & Media",
     description:
       "Journalist or blogger? We are happy to provide quotes, data, or interviews.",
-    email: "press@surfaced.io",
+    email: "surfaced-x@protonmail.com",
   },
 ];
 
@@ -250,7 +250,7 @@ export default function ContactPage() {
 
           <div className="mt-10">
             <a
-              href="mailto:partnerships@surfaced.io"
+              href="mailto:surfaced-x@protonmail.com"
               className="inline-flex items-center gap-2 text-accent font-medium hover:text-accent/80 transition-colors"
             >
               Reach out about partnerships
