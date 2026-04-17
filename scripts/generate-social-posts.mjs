@@ -6,14 +6,11 @@
  * and X/Twitter.
  * Output: data/social-queue.json
  */
-import { readFileSync, existsSync, mkdirSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 import { writeJsonSafe } from "./lib/write-safe.mjs";
-import { createLogger } from "./lib/logger.mjs";
 import { pooledFetch } from "./lib/fetch-pool.mjs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-
-const log = createLogger({ script: 'generate-social-posts' });
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");

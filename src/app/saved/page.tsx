@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { getBookmarks } from "@/lib/engagement";
 import {
-  getAllItems,
   getItemBySlug,
   getItemTitle,
   getItemDescription,

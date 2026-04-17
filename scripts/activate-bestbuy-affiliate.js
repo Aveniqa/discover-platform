@@ -74,8 +74,14 @@ let alreadyTracked = 0;
 for (const p of products) {
   if (!p.bestBuyUrl) continue;
 
-  // Skip if already an Impact-tracked URL
-  if (p.bestBuyUrl.includes("evyy.net") || p.bestBuyUrl.includes("goto.bestbuy.com")) {
+  // Skip if already an Impact-tracked URL (hostname match only, not substring)
+  let host;
+  try {
+    host = new URL(p.bestBuyUrl).hostname;
+  } catch {
+    host = "";
+  }
+  if (host === "bestbuy.evyy.net" || host === "goto.bestbuy.com") {
     alreadyTracked++;
     continue;
   }

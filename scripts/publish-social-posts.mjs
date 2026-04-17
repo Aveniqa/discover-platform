@@ -25,7 +25,7 @@ import { createLogger } from "./lib/logger.mjs";
 import { pooledFetch } from "./lib/fetch-pool.mjs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-import { createHmac, randomBytes } from "crypto";
+import { createHmac } from "crypto";
 
 const log = createLogger({ script: 'publish-social-posts' });
 
@@ -219,7 +219,6 @@ async function getPinterestBoardId(token, boardName) {
 // ─── Pinterest API v5 ─────────────────────────────────────────
 async function publishToPinterest(post) {
   const token = process.env.PINTEREST_ACCESS_TOKEN;
-  const defaultBoard = process.env.PINTEREST_BOARD_ID;
   if (!token) {
     console.log("   ⏭ Pinterest: skipped (no credentials)");
     return false;
@@ -293,51 +292,6 @@ async function publishToTwitter(post) {
   // Re-enable when: credits are restored OR account is upgraded to Basic tier.
   console.log("   ⏭ X/Twitter: SKIPPED — posting disabled (credits depleted + Basic tier required for media). Re-enable when account is upgraded.");
   return false;
-}
-
-// Add alt text to uploaded media for accessibility
-async function addAltTextToMedia(mediaId, altText, apiKey, apiSecret, accessToken, accessSecret) {
-  try {
-    const url = "https://upload.twitter.com/1.1/media/metadata/create.json";
-    const method = "POST";
-
-    const oauthParams = {
-      oauth_consumer_key: apiKey,
-      oauth_nonce: randomBytes(16).toString("hex"),
-      oauth_signature_method: "HMAC-SHA1",
-      oauth_timestamp: Math.floor(Date.now() / 1000).toString(),
-      oauth_token: accessToken,
-      oauth_version: "1.0",
-    };
-
-    const sig = generateOAuthSignature(method, url, oauthParams, apiSecret, accessSecret);
-    oauthParams.oauth_signature = sig;
-
-    const authHeader =
-      "OAuth " +
-      Object.keys(oauthParams)
-        .sort()
-        .map((k) => `${percentEncode(k)}="${percentEncode(oauthParams[k])}"`)
-        .join(", ");
-
-    const res = await pooledFetch(url, {
-      method,
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: authHeader,
-      },
-      body: JSON.stringify({
-        media_id: mediaId,
-        alt_text: { text: altText.slice(0, 1000) },
-      }),
-    });
-
-    if (res.ok || res.status === 204) {
-      console.log(`   ♿ X/Twitter: alt text added`);
-    }
-  } catch {
-    // Alt text is optional — don't fail the whole post
-  }
 }
 
 // ─── Main ─────────────────────────────────────────────────────

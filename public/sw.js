@@ -137,6 +137,17 @@ self.addEventListener('fetch', (event) => {
 
 // ── Message handler for cache invalidation ──────────
 self.addEventListener('message', (event) => {
+  // Only accept messages from pages on our own origin.
+  // event.origin is empty for same-origin MessagePort messages in some
+  // browsers, so also accept when the source client matches self.origin.
+  const fromSameOrigin =
+    event.origin === self.location.origin ||
+    (event.origin === '' &&
+      event.source &&
+      new URL(event.source.url).origin === self.location.origin);
+
+  if (!fromSameOrigin) return;
+
   if (event.data === 'SKIP_WAITING') {
     self.skipWaiting();
   }

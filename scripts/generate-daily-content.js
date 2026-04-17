@@ -230,7 +230,7 @@ async function main() {
 
   // Snapshot all data files before generation so we can restore on failure
   const backups = {};
-  for (const [category, filename] of Object.entries(FILES)) {
+  for (const filename of Object.values(FILES)) {
     const fp = path.join(DATA_DIR, filename);
     backups[fp] = fs.readFileSync(fp, "utf8");
   }

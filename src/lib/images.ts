@@ -47,7 +47,14 @@ export function getItemImageUrl(
 
 /** Check if an image URL came from Pexels (for attribution) */
 export function isPexelsImage(slug: string): boolean {
-  return (cache[slug] || "").includes("pexels.com");
+  const url = cache[slug];
+  if (!url) return false;
+  try {
+    const host = new URL(url).hostname;
+    return host === "images.pexels.com" || host.endsWith(".pexels.com");
+  } catch {
+    return false;
+  }
 }
 
 /** Check whether a slug has a cached image */

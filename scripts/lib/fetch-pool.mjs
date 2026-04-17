@@ -39,7 +39,6 @@ const httpsAgent = new https.Agent({
  * Drop-in replacement for global fetch() with better defaults.
  */
 export async function pooledFetch(url, opts = {}) {
-  const isHttps = url.startsWith('https');
   const controller = new AbortController();
   const timeout = opts.timeout || 15000;
   const timer = setTimeout(() => controller.abort(), timeout);
