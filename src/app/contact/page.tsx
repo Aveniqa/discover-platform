@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
 // Metadata must be in a separate file for client components, or use generateMetadata
 // For simplicity, we keep the metadata pattern and note it for layout usage.
@@ -41,19 +41,7 @@ const partnershipBenefits = [
 ];
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    email: "",
-    subject: "",
-    message: "",
-  });
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (formData.email && formData.message) {
-      setSubmitted(true);
-    }
-  };
+  const [state, handleSubmit] = useForm("xyklwbvg");
 
   return (
     <article>
@@ -118,96 +106,67 @@ export default function ContactPage() {
             Fill out the form below and we will get back to you within 48 hours.
           </p>
 
-          {submitted ? (
+          {state.succeeded ? (
             <div className="p-8 rounded-xl bg-surface border border-accent/20 text-center">
               <div className="w-12 h-12 rounded-full bg-accent/15 text-accent flex items-center justify-center mx-auto mb-4">
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.5 12.75l6 6 9-13.5"
-                  />
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-2">
-                Message received
-              </h3>
-              <p className="text-muted">
-                Thanks for reaching out. We will get back to you soon.
-              </p>
+              <h3 className="text-xl font-semibold text-foreground mb-2">Message received</h3>
+              <p className="text-muted">Thanks for reaching out. We will get back to you soon.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-foreground mb-2"
-                >
+                <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
                   Email address
                 </label>
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   required
-                  value={formData.email}
-                  onChange={(e) =>
-                    setFormData({ ...formData, email: e.target.value })
-                  }
                   placeholder="you@example.com"
                   className="w-full px-4 py-3 rounded-lg bg-surface-elevated border border-border text-foreground placeholder:text-muted/50 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent/50 transition-all"
                 />
+                <ValidationError field="email" errors={state.errors} className="text-red-400 text-sm mt-1" />
               </div>
 
               <div>
-                <label
-                  htmlFor="subject"
-                  className="block text-sm font-medium text-foreground mb-2"
-                >
+                <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
                   Subject
                 </label>
                 <input
                   type="text"
                   id="subject"
-                  value={formData.subject}
-                  onChange={(e) =>
-                    setFormData({ ...formData, subject: e.target.value })
-                  }
+                  name="subject"
                   placeholder="What's this about?"
                   className="w-full px-4 py-3 rounded-lg bg-surface-elevated border border-border text-foreground placeholder:text-muted/50 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent/50 transition-all"
                 />
               </div>
 
               <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium text-foreground mb-2"
-                >
+                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
                   Message
                 </label>
                 <textarea
                   id="message"
+                  name="message"
                   required
                   rows={6}
-                  value={formData.message}
-                  onChange={(e) =>
-                    setFormData({ ...formData, message: e.target.value })
-                  }
                   placeholder="Tell us what's on your mind..."
                   className="w-full px-4 py-3 rounded-lg bg-surface-elevated border border-border text-foreground placeholder:text-muted/50 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent/50 transition-all resize-none"
                 />
+                <ValidationError field="message" errors={state.errors} className="text-red-400 text-sm mt-1" />
               </div>
 
               <button
                 type="submit"
-                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl btn-gradient text-sm cursor-pointer active:scale-[0.98]"
+                disabled={state.submitting}
+                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl btn-gradient text-sm cursor-pointer active:scale-[0.98] disabled:opacity-60 disabled:cursor-not-allowed"
               >
-                Send Message
+                {state.submitting ? "Sending…" : "Send Message"}
               </button>
             </form>
           )}
