@@ -25,6 +25,7 @@ import { createLogger } from "./lib/logger.mjs";
 import { pooledFetch } from "./lib/fetch-pool.mjs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
+import { createHmac, randomBytes } from "crypto";
 
 const log = createLogger({ script: 'publish-social-posts' });
 
@@ -265,15 +266,95 @@ async function publishToPinterest(post) {
   }
 }
 
-// ─── X/Twitter ───────────────────────────────────────────────
-// Posting is temporarily disabled. Free-tier credits are depleted
-// (402 CreditsDepleted) and image upload requires Basic tier
-// ($200/mo, returns 401). Re-enable by restoring OAuth 1.0a signing
-// (createHmac-based HMAC-SHA1) + media upload once the account is
-// upgraded; prior implementation lives in git history.
+// ─── X/Twitter (OAuth 1.0a, text + URL card — no media upload) ───
+// Free tier supports 500 posts/month; at 3/day we use ~76/month.
+// We skip media upload (requires $200/mo Basic tier) and instead
+// include the item URL in the tweet text — X fetches the og:image
+// from the page and renders a summary_large_image card automatically.
+
+function percentEncode(str) {
+  return encodeURIComponent(str).replace(
+    /[!'()*]/g,
+    (c) => `%${c.charCodeAt(0).toString(16).toUpperCase()}`
+  );
+}
+
+function buildOAuthHeader(method, url, oauthParams, consumerSecret, tokenSecret) {
+  const sortedKeys = Object.keys(oauthParams).sort();
+  const paramString = sortedKeys
+    .map((k) => `${percentEncode(k)}=${percentEncode(oauthParams[k])}`)
+    .join("&");
+  const baseString = `${method}&${percentEncode(url)}&${percentEncode(paramString)}`;
+  const signingKey = `${percentEncode(consumerSecret)}&${percentEncode(tokenSecret)}`;
+  const signature = createHmac("sha1", signingKey).update(baseString).digest("base64");
+  const allParams = { ...oauthParams, oauth_signature: signature };
+  return (
+    "OAuth " +
+    Object.keys(allParams)
+      .sort()
+      .map((k) => `${percentEncode(k)}="${percentEncode(allParams[k])}"`)
+      .join(", ")
+  );
+}
+
 async function publishToTwitter(post) {
-  console.log("   ⏭ X/Twitter: SKIPPED — posting disabled (credits depleted + Basic tier required for media). Re-enable when account is upgraded.");
-  return false;
+  const apiKey = process.env.X_API_KEY;
+  const apiSecret = process.env.X_API_SECRET;
+  const accessToken = process.env.X_ACCESS_TOKEN;
+  const accessSecret = process.env.X_ACCESS_SECRET;
+
+  if (!apiKey || !apiSecret || !accessToken || !accessSecret) {
+    console.log("   ⏭ X/Twitter: skipped (no credentials)");
+    return false;
+  }
+
+  try {
+    const TWEET_URL = "https://api.twitter.com/2/tweets";
+    const itemUrl = post.productUrl;
+
+    // Build tweet text. Include the item URL so X renders the OG card.
+    // X counts all URLs as 23 chars (t.co), so reserve that space.
+    const URL_LEN = 23;
+    const MAX_TEXT = 280 - URL_LEN - 1; // -1 for the space before URL
+    let body = (post.platforms.twitter?.text || post.title).trim();
+    // Strip any URL already in the generated text (we'll append cleanly)
+    body = body.replace(/https?:\/\/\S+/g, "").trim();
+    if (body.length > MAX_TEXT) body = body.slice(0, MAX_TEXT - 1).trimEnd() + "…";
+    const tweetText = `${body} ${itemUrl}`;
+
+    const oauthParams = {
+      oauth_consumer_key: apiKey,
+      oauth_nonce: randomBytes(16).toString("hex"),
+      oauth_signature_method: "HMAC-SHA1",
+      oauth_timestamp: Math.floor(Date.now() / 1000).toString(),
+      oauth_token: accessToken,
+      oauth_version: "1.0",
+    };
+
+    const authHeader = buildOAuthHeader("POST", TWEET_URL, oauthParams, apiSecret, accessSecret);
+
+    const res = await pooledFetch(TWEET_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: authHeader,
+      },
+      body: JSON.stringify({ text: tweetText }),
+    });
+
+    if (!res.ok) {
+      const err = await res.text();
+      console.error(`   ❌ X/Twitter: ${res.status} — ${err.slice(0, 200)}`);
+      return false;
+    }
+
+    const result = await res.json();
+    console.log(`   ✅ X/Twitter: posted → ${result.data?.id}`);
+    return true;
+  } catch (err) {
+    console.error(`   ❌ X/Twitter: ${err.message}`);
+    return false;
+  }
 }
 
 // ─── Main ─────────────────────────────────────────────────────
