@@ -71,6 +71,9 @@ Publishes 3 posts/weekday, 2/weekend to Bluesky + Pinterest + X (text + OG card,
 | `X_ACCESS_TOKEN` | social publishing |
 | `X_ACCESS_SECRET` | social publishing |
 
+## Next.js agent note
+This version may have breaking changes vs. your training data. Read `node_modules/next/dist/docs/` before writing Next.js-specific code.
+
 ## Rules
 - Never duplicate an existing slug (check all 5 category files + archive)
 - `imageIdea` must be concrete ("espresso machine coffee"), never abstract ("illustration of productivity")
