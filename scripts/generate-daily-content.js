@@ -263,7 +263,9 @@ async function main() {
   console.log("✅ All categories updated.\n");
 
   // Cross-category slug deduplication — all 5 files share the /item/<slug> route
-  const globalSlugs = new Map(); // slug → category name
+  // Seed with archive slugs so new items never collide with archived URLs
+  const archiveItems = JSON.parse(fs.readFileSync(path.join(DATA_DIR, "archive.json"), "utf8"));
+  const globalSlugs = new Map(archiveItems.map((i) => [i.slug, "archive"]));
   let totalRenames = 0;
   for (const [category, filename] of Object.entries(FILES)) {
     const items = readJSON(filename);
