@@ -1,59 +1,5 @@
 [
   {
-    "id": 27,
-    "slug": "a-day-on-venus-is-longer-than-a-year-on-venus",
-    "title": "A Day on Venus Is Longer Than a Year on Venus",
-    "shortDescription": "Venus takes 243 Earth days to rotate once on its axis but only 225 Earth days to orbit the Sun. This means a single Venusian day is longer than its entire year.",
-    "category": "Statistics",
-    "whyItIsInteresting": "It completely breaks our intuitive understanding of what a 'day' and a 'year' mean. Venus also rotates backward compared to most planets, meaning the Sun rises in the west and sets in the east. It is the solar system's most contrarian planet.",
-    "imageIdea": "A split clock showing Venus rotating slowly on one side and orbiting the Sun on the other, with the orbit completing first",
-    "sourceLink": "https://spaceplace.nasa.gov/all-about-venus/",
-    "type": "discovery"
-  },
-  {
-    "id": 28,
-    "slug": "humans-share-60-percent-of-their-dna-with-bananas",
-    "title": "Humans Share About 60 Percent of Their DNA with Bananas",
-    "shortDescription": "Roughly 60 percent of human genes have recognizable counterparts in the banana genome. These shared genes handle fundamental cellular processes like cell division, energy production, and growth.",
-    "category": "Statistics",
-    "whyItIsInteresting": "It reveals how deeply all life on Earth is connected through a common ancestor billions of years ago. The genes we share with bananas are so essential to life that evolution has preserved them across unimaginably different paths.",
-    "imageIdea": "A double helix DNA strand that transitions from human form at the top to a banana at the bottom, with shared gene segments highlighted",
-    "type": "discovery"
-  },
-  {
-    "id": 29,
-    "slug": "the-total-weight-of-ants-on-earth-rivals-the-total-weight-of-humans",
-    "title": "The Total Weight of Ants on Earth Rivals the Total Weight of Humans",
-    "shortDescription": "There are an estimated 20 quadrillion ants on Earth, with a combined biomass of roughly 80 million tonnes. This is in the same order of magnitude as humanity's total dry biomass.",
-    "category": "Statistics",
-    "whyItIsInteresting": "Despite each ant weighing only 1 to 2 milligrams, their sheer numbers create a collective mass that competes with 8 billion humans. It reframes who really dominates the planet — in terms of biomass, ants have been winning for 100 million years.",
-    "imageIdea": "A giant scale balancing a dense swarm of ants on one side against a crowd of humans on the other, tipping nearly even",
-    "sourceLink": "https://www.pnas.org/doi/10.1073/pnas.2201550119",
-    "type": "discovery"
-  },
-  {
-    "id": 30,
-    "slug": "lightning-strikes-the-earth-about-100-times-per-second",
-    "title": "Lightning Strikes the Earth About 100 Times Per Second",
-    "shortDescription": "At any given moment, roughly 1,800 thunderstorms are occurring across the planet, producing about 8.6 million lightning strikes per day. That works out to approximately 100 strikes every second.",
-    "category": "Statistics",
-    "whyItIsInteresting": "Each bolt is five times hotter than the surface of the Sun and lasts less than a second. The sheer frequency means that in the time it took you to read this sentence, over 500 lightning bolts hit the Earth somewhere.",
-    "imageIdea": "A global satellite view of Earth at night with hundreds of lightning flashes illuminating storm systems simultaneously across every continent",
-    "sourceLink": "https://www.weather.gov/mlb/lightning_facts",
-    "type": "discovery"
-  },
-  {
-    "id": 31,
-    "slug": "trees-can-communicate-and-share-nutrients-underground",
-    "title": "Trees Can Communicate and Share Nutrients Underground",
-    "shortDescription": "Trees in a forest are connected through vast underground fungal networks called mycorrhizal networks, often called the 'Wood Wide Web.' Through these networks, trees share carbon, water, and nutrients, and even send chemical warning signals about insect attacks.",
-    "category": "Nature",
-    "whyItIsInteresting": "It overturns the view of forests as collections of competing individuals. Mother trees actively nurture their seedlings through these networks, and dying trees dump their resources into the network for others. Forests are cooperative communities, not battlefields.",
-    "imageIdea": "A cross-section view of a forest floor showing intricate glowing fungal threads connecting the root systems of multiple trees",
-    "sourceLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4497361/",
-    "type": "discovery"
-  },
-  {
     "id": 32,
     "slug": "there-is-a-jellyfish-that-is-biologically-immortal",
     "title": "There Is a Jellyfish That Is Biologically Immortal",
@@ -1289,7 +1235,6 @@
     "category": "Science",
     "whyItIsInteresting": "It's mind-boggling to get such granular information about creatures that went extinct thousands of years ago, directly from their genetic code. The findings challenge previous assumptions about their ecological roles.",
     "imageIdea": "woolly mammoth grazing tundra",
-    "sourceLink": "https://www.nature.com/articles/s41586-024-07400-1",
     "type": "discovery",
     "dateAdded": "2026-04-17"
   },
@@ -1301,7 +1246,6 @@
     "category": "Space",
     "whyItIsInteresting": "The prospect of finding life beyond Earth, even in microbial form, is a monumental scientific quest. This ongoing investigation highlights the rigorous process of scientific verification and the immense implications of a positive detection.",
     "imageIdea": "artist's impression venusian clouds",
-    "sourceLink": "https://www.universetoday.com/166015/whats-the-deal-with-phosphine-on-venus/",
     "type": "discovery",
     "dateAdded": "2026-04-17"
   },
@@ -1325,7 +1269,40 @@
     "category": "Science",
     "whyItIsInteresting": "It's remarkable how a single strand of DNA can overturn long-held historical narratives. This continuous refinement of our origins is a testament to the power of cutting-edge scientific techniques.",
     "imageIdea": "cave paintings human figures",
-    "sourceLink": "https://www.nationalgeographic.com/history/article/ancient-dna-reveals-surprising-human-migrations",
+    "type": "discovery",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 142,
+    "slug": "rewriting-human-origin-stories-new-fossil-finds",
+    "title": "New Fossil Finds Rewriting Early Human Origin Stories",
+    "shortDescription": "Recent paleontological discoveries in Africa are challenging established timelines for human evolution. Fossils exhibiting a mosaic of primitive and advanced traits suggest a more complex and less linear path to Homo sapiens than previously understood.",
+    "category": "History",
+    "whyItIsInteresting": "These findings force scientists to re-evaluate existing models of human migration and diversification. It highlights that our understanding of our own origins is still very much a work in progress, with new evidence constantly reshaping the narrative.",
+    "imageIdea": "fossilized hominid skull excavation site",
+    "sourceLink": "https://www.nature.com/news/new-fossil-finds-rewrite-early-human-history-1.19419",
+    "type": "discovery",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 143,
+    "slug": "ai-predicts-protein-folding-with-unprecedented-accuracy",
+    "title": "AI Predicts Protein Folding with Unprecedented Accuracy",
+    "shortDescription": "An artificial intelligence system has achieved near-perfect accuracy in predicting the 3D shapes of proteins, a long-standing challenge in biology. This breakthrough has profound implications for drug discovery and understanding disease mechanisms.",
+    "category": "Technology",
+    "whyItIsInteresting": "Understanding protein folding is crucial for comprehending how life works at a molecular level. This AI's ability to solve this complex problem rapidly accelerates research that could lead to new treatments for a wide range of diseases.",
+    "imageIdea": "3d rendered protein structure molecule",
+    "type": "discovery",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 144,
+    "slug": "ancient-maya-water-management-complex-discovered",
+    "title": "Vast Ancient Maya Water Management Complex Discovered",
+    "shortDescription": "Archaeologists have uncovered an extensive subterranean water management system used by the ancient Maya. This sophisticated network of reservoirs, canals, and tunnels demonstrates remarkable engineering for its time.",
+    "category": "History",
+    "whyItIsInteresting": "This discovery reveals the ingenuity of the Maya in adapting to their environment and sustaining large populations. It adds another layer to our understanding of their complex civilization and advanced architectural capabilities.",
+    "imageIdea": "ancient stone aqueduct ruins",
     "type": "discovery",
     "dateAdded": "2026-04-17"
   }

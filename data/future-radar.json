@@ -1,60 +1,5 @@
 [
   {
-    "id": 27,
-    "slug": "programmable-metamaterials",
-    "techName": "Programmable Metamaterials",
-    "explanation": "Engineered materials with structures smaller than the wavelength of light, giving them properties not found in nature. They can bend light, sound, or heat in arbitrary directions and be reconfigured on demand.",
-    "industry": "Materials",
-    "whyItMatters": "Applications include invisibility cloaking, perfect acoustic insulation, ultra-efficient antennas, flat lenses that replace bulky optics, and surfaces that redirect earthquake vibrations around buildings.",
-    "developmentStage": "Advanced Research",
-    "type": "future-tech",
-    "imageIdea": "Material surface morphing and reshaping its structure in response to stimuli, with geometric patterns shifting dynamically"
-  },
-  {
-    "id": 28,
-    "slug": "self-healing-polymers",
-    "techName": "Self-Healing Polymers",
-    "explanation": "Materials embedded with microcapsules or dynamic chemical bonds that automatically repair cracks and damage without human intervention, extending the lifespan of products by orders of magnitude.",
-    "industry": "Materials",
-    "whyItMatters": "Self-healing coatings on bridges, pipelines, and aircraft could prevent catastrophic failures, reduce maintenance costs by billions, and slash the environmental impact of material replacement.",
-    "developmentStage": "Prototype",
-    "type": "future-tech",
-    "imageIdea": "Close-up of a polymer material with a crack visibly mending itself, molecular bonds reforming across the gap"
-  },
-  {
-    "id": 29,
-    "slug": "dna-data-storage",
-    "techName": "DNA Data Storage",
-    "explanation": "Encoding digital information into synthetic DNA molecules. A single gram of DNA can theoretically store 215 petabytes and remain readable for thousands of years at room temperature.",
-    "industry": "Materials",
-    "whyItMatters": "Global data creation will exceed storage capacity by 2030. DNA storage could archive all of humanity's data in a space the size of a shoebox, lasting millennia.",
-    "developmentStage": "Advanced Research",
-    "type": "future-tech",
-    "imageIdea": "DNA double helix structure being encoded with digital binary data, biological storage meets digital technology"
-  },
-  {
-    "id": 30,
-    "slug": "room-temperature-superconductors",
-    "techName": "Room-Temperature Superconductors",
-    "explanation": "Materials that conduct electricity with zero resistance at everyday temperatures and pressures, eliminating the need for extreme cooling. Recent research explores hydrogen-rich compounds and novel crystal structures.",
-    "industry": "Materials",
-    "whyItMatters": "They would make lossless power transmission, levitating trains, and MRI machines without cryogenics possible, saving the 10-15% of electricity currently lost in transmission worldwide.",
-    "developmentStage": "Early Research",
-    "type": "future-tech",
-    "imageIdea": "Levitating magnet above a superconducting material at room temperature in a laboratory setting"
-  },
-  {
-    "id": 31,
-    "slug": "ai-optimized-vertical-farms",
-    "techName": "AI-Optimized Vertical Farms",
-    "explanation": "Indoor farms stacking crops in climate-controlled layers, using AI to optimize light spectra, nutrients, and airflow. They use 95% less water and zero pesticides while producing year-round harvests.",
-    "industry": "Agriculture",
-    "whyItMatters": "They decouple food production from weather, location, and season, enabling fresh produce in deserts, cities, and disaster zones while freeing farmland for rewilding.",
-    "developmentStage": "Growth Phase",
-    "type": "future-tech",
-    "imageIdea": "Multi-story indoor vertical farm with AI-controlled LED lighting, robotic arms tending rows of leafy greens"
-  },
-  {
     "id": 32,
     "slug": "precision-fermentation-proteins",
     "techName": "Precision Fermentation Proteins",
@@ -1198,6 +1143,42 @@
     "whyItMatters": "eVTOLs offer the potential to alleviate urban congestion by providing efficient, on-demand air travel. This technology could reshape city logistics, emergency response, and personal mobility.",
     "developmentStage": "Early Commercialization",
     "imageIdea": "sleek electric air taxi in flight",
+    "type": "future-tech",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 129,
+    "slug": "quantum-computing-error-correction-advances",
+    "techName": "Quantum Computing Error Correction Advances",
+    "explanation": "Recent breakthroughs have demonstrated significant improvements in quantum error correction techniques, a crucial step towards building fault-tolerant quantum computers. Researchers have developed new methods to detect and mitigate errors in qubits, bringing the dream of reliable quantum computation closer to reality. These advancements are critical for unlocking the full potential of quantum computing for complex problem-solving.",
+    "industry": "Computing",
+    "whyItMatters": "Error correction is the biggest hurdle to realizing practical quantum computers. Successful implementation will enable breakthroughs in drug discovery, materials science, and complex optimization problems currently intractable for classical computers.",
+    "developmentStage": "Prototype",
+    "imageIdea": "glowing abstract quantum entanglement network",
+    "type": "future-tech",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 130,
+    "slug": "generative-ai-for-drug-discovery",
+    "techName": "Generative AI for Drug Discovery",
+    "explanation": "Generative AI models are now capable of designing novel drug molecules with unprecedented speed and accuracy. Recent milestones show these AI systems creating entirely new chemical structures tailored for specific therapeutic targets, accelerating the initial stages of drug development. This marks a significant shift from traditional, time-consuming, and often serendipitous drug discovery processes.",
+    "industry": "Pharmaceuticals",
+    "whyItMatters": "This technology dramatically reduces the time and cost of bringing new medicines to market. It can lead to faster development of treatments for a wide range of diseases, including rare and previously untreatable conditions.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "3D rendering of complex drug molecules designed by AI",
+    "type": "future-tech",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 131,
+    "slug": "ai-driven-personalized-education-platforms",
+    "techName": "AI-Driven Personalized Education Platforms",
+    "explanation": "Emerging AI platforms are now providing highly individualized learning experiences, adapting curricula and teaching methods in real-time based on student performance and engagement. Recent developments showcase AI tutors that can identify learning gaps with high precision and offer tailored support, moving beyond one-size-fits-all education. These systems are designed to optimize learning outcomes for each individual student.",
+    "industry": "Education",
+    "whyItMatters": "Personalized education can unlock the full potential of every student, addressing individual learning styles and paces. This technology has the power to revolutionize how we teach and learn, leading to greater educational equity and effectiveness.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "holographic AI tutor interacting with a student's digital workspace",
     "type": "future-tech",
     "dateAdded": "2026-04-17"
   }

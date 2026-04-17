@@ -1,10 +1,10 @@
 [
   {
-    "slug": "ancient-human-migration-patterns-rewritten",
-    "title": "Ancient DNA Rewrites Human Migration History",
+    "slug": "ancient-maya-water-management-complex-discovered",
+    "title": "Vast Ancient Maya Water Management Complex Discovered",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Recent studies using advanced ancient DNA analysis are dramatically reshaping our understanding of early human migration",
+    "description": "Archaeologists have uncovered an extensive subterranean water management system used by the ancient Maya. This sophistic",
     "badge": null,
     "type": "discovery"
   },
@@ -18,29 +18,29 @@
     "type": "product"
   },
   {
-    "slug": "this-is-today",
-    "title": "This is Today",
+    "slug": "readlang-translate-text",
+    "title": "Readlang",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "A simple, minimalist website that displays the current date in a large, readable format with a brief description of the ",
+    "description": "Readlang is a browser extension that helps you learn languages by translating words and phrases directly on web pages. Y",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "commercial-vertical-takeoff-and-landing-aircraft",
-    "title": "Commercial eVTOL Aircraft Certification",
+    "slug": "ai-driven-personalized-education-platforms",
+    "title": "AI-Driven Personalized Education Platforms",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "Several companies are nearing or have achieved significant regulatory certifications for their electric Vertical Take-Of",
+    "description": "Emerging AI platforms are now providing highly individualized learning experiences, adapting curricula and teaching meth",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "calm",
-    "title": "Calm",
+    "slug": "streamlit-python-data-apps",
+    "title": "Streamlit",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "A meditation and sleep app that offers guided meditations, sleep stories, relaxing music, and breathing exercises. It ai",
+    "description": "Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine",
     "badge": null,
     "type": "tool"
   }

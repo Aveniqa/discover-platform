@@ -1,65 +1,5 @@
 [
   {
-    "id": 26,
-    "slug": "brilliant",
-    "name": "Brilliant",
-    "whatItDoes": "An interactive learning platform for math, science, and computer science that teaches through guided problem-solving rather than lectures. Each lesson builds intuition through visual, hands-on puzzles.",
-    "category": "Learning",
-    "whyItIsUseful": "It makes abstract concepts tangible by replacing passive video watching with active exploration. The bite-sized daily challenges build genuine understanding of complex topics over time.",
-    "websiteLink": "https://brilliant.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fbrilliant.org&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "interactive math puzzle visual learning"
-  },
-  {
-    "id": 27,
-    "slug": "exercism",
-    "name": "Exercism",
-    "whatItDoes": "A free, open-source platform for learning programming through practice and mentorship. It offers exercises in over 65 languages with automated analysis and human code review.",
-    "category": "Learning",
-    "whyItIsUseful": "It bridges the gap between tutorials and real coding ability through deliberate practice. The mentor feedback provides personalized guidance that self-study resources cannot match.",
-    "websiteLink": "https://exercism.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fexercism.org&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "programming exercises code mentoring"
-  },
-  {
-    "id": 28,
-    "slug": "scrimba",
-    "name": "Scrimba",
-    "whatItDoes": "An interactive coding education platform where you can pause video tutorials and edit the code directly inside the screencast. It covers front-end development, React, and other web technologies.",
-    "category": "Learning",
-    "whyItIsUseful": "The interactive screencast format eliminates the context switching between watching and practicing. You learn by doing inside the lesson itself rather than copying code into a separate editor.",
-    "websiteLink": "https://scrimba.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fscrimba.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "interactive coding tutorial screencast"
-  },
-  {
-    "id": 29,
-    "slug": "explained-visually",
-    "name": "Explained Visually",
-    "whatItDoes": "A collection of interactive visual explanations for complex mathematical and statistical concepts like eigenvalues, regression, and Markov chains. Each topic uses animated, manipulable diagrams.",
-    "category": "Learning",
-    "whyItIsUseful": "It makes abstract math concepts immediately intuitive through interaction rather than static formulas. A single visualization can communicate what pages of textbook notation cannot.",
-    "websiteLink": "https://setosa.io/ev",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsetosa.io%2Fev&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "mathematical visualization interactive diagram"
-  },
-  {
-    "id": 30,
-    "slug": "roadmap-sh",
-    "name": "roadmap.sh",
-    "whatItDoes": "A community-driven platform offering detailed visual roadmaps for learning various technology skills like frontend, backend, DevOps, and AI. Each roadmap links to curated free resources for every topic.",
-    "category": "Learning",
-    "whyItIsUseful": "It eliminates the paralysis of not knowing what to learn next in a technical career. The structured paths turn an overwhelming landscape of tools and concepts into a clear progression.",
-    "websiteLink": "https://roadmap.sh",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Froadmap.sh&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "developer roadmap flowchart career path"
-  },
-  {
     "id": 31,
     "slug": "evidence",
     "name": "Evidence",
@@ -1259,5 +1199,31 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-17",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.thisistoday.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 151,
+    "slug": "wayback-machine-archive",
+    "name": "The Wayback Machine",
+    "whatItDoes": "The Wayback Machine, powered by the Internet Archive, allows you to browse archived versions of websites from the past. You can see how sites looked years ago, track changes over time, and access content that may no longer be available.",
+    "category": "Reference",
+    "whyItIsUseful": "It's an invaluable tool for researchers, historians, and anyone curious about the evolution of the internet. It helps recover lost content and provides a historical perspective on online information.",
+    "imageIdea": "old computer monitor",
+    "websiteLink": "https://archive.org/web/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-17",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Farchive.org%2Fweb%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 152,
+    "slug": "readlang-translate-text",
+    "name": "Readlang",
+    "whatItDoes": "Readlang is a browser extension that helps you learn languages by translating words and phrases directly on web pages. You can click on any word to get its translation and pronunciation, and then save these words to study later.",
+    "category": "Education",
+    "whyItIsUseful": "It makes learning a new language while browsing the web incredibly seamless and efficient. By integrating learning into your daily online activities, it accelerates comprehension and vocabulary acquisition.",
+    "imageIdea": "stack of foreign language books",
+    "websiteLink": "https://readlang.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-17",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Freadlang.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

@@ -1,60 +1,5 @@
 [
   {
-    "id": 27,
-    "slug": "cronometer",
-    "toolName": "Cronometer",
-    "whatItDoes": "Nutrition tracker with a verified database of 400,000+ foods, tracking 82 micronutrients beyond just calories and macros. Includes barcode scanning, recipe import, and detailed nutrient reports.",
-    "category": "Health",
-    "whyItIsUseful": "Most food trackers only count calories. Cronometer shows you exactly which vitamins and minerals you are deficient in, turning vague 'eat healthier' goals into specific actions.",
-    "websiteLink": "https://cronometer.com",
-    "type": "tool",
-    "imageIdea": "nutrition tracker food diary macro chart"
-  },
-  {
-    "id": 28,
-    "slug": "headspace",
-    "toolName": "Headspace",
-    "whatItDoes": "Guided meditation and mindfulness app with courses for stress, focus, sleep, and anxiety. Includes animated breathing exercises, sleep stories, focus music, and SOS sessions for acute stress.",
-    "category": "Health",
-    "whyItIsUseful": "It makes meditation approachable for skeptics with friendly animations and short sessions. The sleep stories narrated by celebrities are surprisingly effective for insomnia.",
-    "websiteLink": "https://www.headspace.com",
-    "type": "tool",
-    "imageIdea": "meditation mindfulness breathing calm zen"
-  },
-  {
-    "id": 29,
-    "slug": "sleep-cycle",
-    "toolName": "Sleep Cycle",
-    "whatItDoes": "Sleep tracking alarm clock that monitors your sleep phases through sound analysis or accelerometer. Wakes you during light sleep within a 30-minute window so you feel rested, and provides sleep quality trends.",
-    "category": "Health",
-    "whyItIsUseful": "Being woken during light sleep instead of deep sleep is the difference between feeling groggy and feeling refreshed. The trend data reveals which habits actually affect your sleep.",
-    "websiteLink": "https://www.sleepcycle.com",
-    "type": "tool",
-    "imageIdea": "sleep tracking alarm phases graph"
-  },
-  {
-    "id": 30,
-    "slug": "betterhelp",
-    "toolName": "BetterHelp",
-    "whatItDoes": "Online therapy platform matching you with licensed therapists for unlimited messaging and weekly video, phone, or chat sessions. Offers individual, couples, and teen therapy.",
-    "category": "Health",
-    "whyItIsUseful": "It removes the biggest barriers to therapy: finding a therapist, scheduling, commuting, and stigma. Messaging your therapist between sessions provides continuity traditional therapy lacks.",
-    "websiteLink": "https://www.betterhelp.com",
-    "type": "tool",
-    "imageIdea": "online therapy counseling conversation"
-  },
-  {
-    "id": 31,
-    "slug": "duolingo",
-    "toolName": "Duolingo",
-    "whatItDoes": "Gamified language learning app with bite-sized lessons in 40+ languages. Uses spaced repetition, stories, podcasts, and streak mechanics to build daily practice habits.",
-    "category": "Learning",
-    "whyItIsUseful": "The gamification is engineered to be borderline addictive, which for once is a good thing. The streak system creates a daily habit that adds up to real fluency over months.",
-    "websiteLink": "https://www.duolingo.com",
-    "type": "tool",
-    "imageIdea": "language learning owl lesson gamified"
-  },
-  {
     "id": 32,
     "slug": "coursera",
     "toolName": "Coursera",
@@ -673,7 +618,6 @@
     "category": "Finance",
     "whyItIsUseful": "It provides a holistic view of your financial health, making it easier to track spending, monitor investments, and plan for retirement. Users can see their entire financial picture at a glance, enabling better decision-making without the hassle of logging into multiple financial portals.",
     "imageIdea": "A clean, modern financial dashboard displaying various charts: a pie chart for expenses, a line graph for net worth over time, and a bar chart for investment performance. Icons for banking, credit cards, and investments would be visible.",
-    "websiteLink": "https://www.empower.com/personal-capital",
     "type": "tool",
     "dateAdded": "2026-04-14"
   },
@@ -1107,6 +1051,18 @@
     "whyItIsUseful": "In today's fast-paced world, stress management and good sleep are crucial for well-being. Calm provides accessible tools to help individuals cultivate peace of mind and improve their mental health.",
     "imageIdea": "person meditating by a serene lake",
     "websiteLink": "https://www.calm.com/",
+    "type": "tool",
+    "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 132,
+    "slug": "streamlit-python-data-apps",
+    "toolName": "Streamlit",
+    "whatItDoes": "Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. You can turn data scripts into shareable web apps in minutes.",
+    "category": "Developer",
+    "whyItIsUseful": "It significantly lowers the barrier to entry for data scientists and developers who want to showcase their work or build interactive dashboards without extensive web development knowledge.",
+    "imageIdea": "python code editor with a running web application",
+    "websiteLink": "https://streamlit.io/",
     "type": "tool",
     "dateAdded": "2026-04-17"
   }

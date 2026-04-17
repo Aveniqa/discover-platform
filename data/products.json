@@ -1,101 +1,5 @@
 [
   {
-    "id": 24,
-    "slug": "nalgene-32oz-sustain-water-bottle",
-    "title": "Nalgene 32oz Sustain Water Bottle",
-    "shortDescription": "An indestructible BPA-free water bottle made from 50% recycled content. Wide mouth, leak-proof, dishwasher safe, and practically unbreakable Tritan plastic.",
-    "category": "Outdoor & Travel",
-    "whyItIsInteresting": "It has survived decades as the go-to outdoor bottle for good reason. The Sustain line adds recycled materials without sacrificing the legendary durability.",
-    "imageIdea": "Colorful water bottle clipped to a hiking backpack on a trail",
-    "sourceLink": "https://nalgene.com",
-    "estimatedPriceRange": "$14–$18",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Nalgene+32oz+Sustain+Water+Bottle&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Nalgene+32oz+Sustain+Water+Bottle&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nalgene%2032oz%20Sustain%20Water%20Bottle",
-    "badge": "best-value"
-  },
-  {
-    "id": 25,
-    "slug": "osprey-farpoint-40-travel-backpack",
-    "title": "Osprey Farpoint 40 Travel Backpack",
-    "shortDescription": "A carry-on-compliant 40L travel backpack with padded laptop sleeve, lockable zippers, and stowable harness. Convertible between backpack and duffel modes.",
-    "category": "Outdoor & Travel",
-    "whyItIsInteresting": "It maxes out carry-on size limits while still being comfortable for long walks through cities. The stowable harness means it slips under airplane seats cleanly.",
-    "imageIdea": "Travel backpack being carried through a European cobblestone street",
-    "sourceLink": "https://www.osprey.com",
-    "estimatedPriceRange": "$185–$215",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Osprey+Farpoint+40+Travel+Backpack&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Osprey+Farpoint+40+Travel+Backpack&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Osprey%20Farpoint%2040%20Travel%20Backpack"
-  },
-  {
-    "id": 26,
-    "slug": "playstation-5-pro-console",
-    "title": "PlayStation 5 Pro Console",
-    "shortDescription": "Sony's enhanced PS5 with GPU rendering at up to 45% faster speeds, 2TB SSD, and PlayStation Spectral Super Resolution upscaling. Ray tracing performance doubled.",
-    "category": "Gaming",
-    "whyItIsInteresting": "It hits a stable 4K 60fps in demanding titles where the base PS5 struggles. PSSR upscaling makes even older games look noticeably sharper.",
-    "imageIdea": "Sleek white console next to a TV displaying a visually stunning game scene",
-    "sourceLink": "https://www.playstation.com",
-    "estimatedPriceRange": "$699",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=PlayStation+5+Pro+Console&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=PlayStation+5+Pro+Console&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=PlayStation+5+Pro+Console"
-  },
-  {
-    "id": 27,
-    "slug": "steam-deck-oled-handheld",
-    "title": "Steam Deck OLED Handheld",
-    "shortDescription": "Valve's portable PC gaming handheld with a vibrant 7.4-inch HDR OLED display, improved battery life, faster Wi-Fi 6E, and access to your full Steam library.",
-    "category": "Gaming",
-    "whyItIsInteresting": "The OLED upgrade transforms handheld PC gaming with deep blacks and vivid colors. Playing your full Steam library on a plane or in bed is a game-changer.",
-    "imageIdea": "Handheld gaming device with OLED screen showing a vibrant game in a cozy setting",
-    "sourceLink": "https://store.steampowered.com/steamdeck",
-    "estimatedPriceRange": "$399–$649",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Steam+Deck+OLED+Handheld&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Steam+Deck+OLED+Handheld&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Steam+Deck+OLED+Handheld"
-  },
-  {
-    "id": 28,
-    "slug": "8bitdo-ultimate-bluetooth-controller",
-    "title": "8BitDo Ultimate Bluetooth Controller",
-    "shortDescription": "A premium wireless controller with hall effect joysticks, customizable back paddles, and a charging dock. Compatible with Switch, PC, Android, and iOS.",
-    "category": "Gaming",
-    "whyItIsInteresting": "Hall effect sticks eliminate drift permanently, solving the biggest issue with modern controllers. The price undercuts first-party options while delivering more features.",
-    "imageIdea": "Sleek controller on a charging dock with RGB lighting accents",
-    "sourceLink": "https://www.8bitdo.com",
-    "estimatedPriceRange": "$69–$79",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=8BitDo+Ultimate+Bluetooth+Controller&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=8BitDo+Ultimate+Bluetooth+Controller&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=8BitDo+Ultimate+Bluetooth+Controller"
-  },
-  {
     "id": 29,
     "slug": "secretlab-titan-evo-gaming-chair",
     "title": "Secretlab TITAN Evo Gaming Chair",
@@ -1073,7 +977,6 @@
     "category": "Travel & Outdoors",
     "whyItIsInteresting": "This device is a game-changer for travelers, campers, or anyone who craves real espresso away from home. Its impressive 18 bars of pressure ensures a high-quality shot, rivaling much larger machines, in a durable, pocket-sized package.",
     "imageIdea": "A person holding the small black Nanopresso, pouring a stream of dark espresso into a tiny cup amidst a scenic outdoor backdrop like mountains or a campsite.",
-    "sourceLink": "https://www.wacaco.com/products/nanopresso",
     "estimatedPriceRange": "$70-$90",
     "type": "product",
     "dateAdded": "2026-04-13",
@@ -1761,7 +1664,6 @@
     "category": "Entertainment / Outdoor Tech",
     "whyItIsInteresting": "It combines high-quality laser projection with smart TV functionality in an ultra-portable form factor, allowing for cinematic experiences virtually anywhere. Its impressive battery life and robust sound make it a versatile entertainment hub for adventurers and homebodies alike.",
     "imageIdea": "A compact, sleek black cylindrical projector casting a large, vibrant movie scene onto an outdoor screen setup in a backyard or a tent wall under a starry night sky.",
-    "sourceLink": "https://us.seenebula.com/products/nebula-capsule-3-laser",
     "estimatedPriceRange": "$799-$849",
     "type": "product",
     "dateAdded": "2026-04-14",
@@ -1821,7 +1723,6 @@
     "category": "Outdoor Gear & Travel",
     "whyItIsInteresting": "Despite its minimal packed size and weight (often less than 3 oz), this pillow provides surprisingly generous support and comfort, a game-changer for anyone struggling to sleep well outdoors or while traveling. Its inflatable nature allows for adjustable firmness, catering to individual preferences for a better night's rest on the go.",
     "imageIdea": "A compact, rolled-up pillow in its stuff sack next to an inflated pillow on a sleeping pad, possibly in a tent or scenic outdoor setting.",
-    "sourceLink": "https://seatosummit.com/products/aeros-premium-pillow",
     "estimatedPriceRange": "$42-$55",
     "type": "product",
     "dateAdded": "2026-04-14",
@@ -2060,7 +1961,6 @@
     "category": "Wearable Technology",
     "whyItIsInteresting": "Designed for adventurers, its extreme durability and solar charging capability mean you can stay off-grid longer without worrying about power. It provides comprehensive data for sports and outdoor activities in a tough, dependable package.",
     "imageIdea": "A person hiking or trail running, wearing the rugged Garmin Instinct 2 Solar on their wrist, with mountains or a forest in the background.",
-    "sourceLink": "https://www.garmin.com/en-US/p/775988",
     "estimatedPriceRange": "$349-$449",
     "type": "product",
     "dateAdded": "2026-04-14",
@@ -2080,7 +1980,6 @@
     "category": "Wellness Device",
     "whyItIsInteresting": "Beyond simple eye masks, the SmartGoggles integrate bio-signals and smart routines to deliver a truly personalized and effective relaxation experience. It's a drug-free solution for daily discomfort and a powerful tool for promoting overall well-being.",
     "imageIdea": "A close-up of the Therabody SmartGoggles being worn by someone relaxing comfortably, perhaps in a dim room or a meditation setting.",
-    "sourceLink": "https://www.therabody.com/us/en-us/smartgoggles-recovery-goggles.html",
     "estimatedPriceRange": "$199-$249",
     "type": "product",
     "dateAdded": "2026-04-14",
@@ -2177,7 +2076,8 @@
     "estimatedPriceRange": "$25-$35 per box",
     "availableOnAmazon": false,
     "type": "product",
-    "dateAdded": "2026-04-14"
+    "dateAdded": "2026-04-14",
+    "badge": "best-value"
   },
   {
     "id": 141,
@@ -2203,7 +2103,6 @@
     "category": "Home Appliances",
     "whyItIsInteresting": "This humidifier integrates with smart home ecosystems, allowing for voice control and automated scheduling. Its advanced sensor technology provides precise humidity control, preventing dryness and improving respiratory health.",
     "imageIdea": "humidifier mist bedroom",
-    "sourceLink": "https://www.levoit.com/levoit-aura-smart-humidifier-h940",
     "estimatedPriceRange": "$99-$129",
     "availableOnAmazon": true,
     "type": "product",
@@ -2307,7 +2206,6 @@
     "category": "Smart Ring",
     "whyItIsInteresting": "The smart ring market is heating up, and Samsung's entry brings its extensive ecosystem and health tracking expertise to this compact form factor. It offers a compelling alternative to smartwatches for those seeking less intrusive tracking.",
     "imageIdea": "hand with a subtle samsung galaxy ring on a finger with health data overlay",
-    "sourceLink": "https://www.samsung.com/us/smartrings/",
     "estimatedPriceRange": "$299-$349",
     "availableOnAmazon": true,
     "type": "product",
