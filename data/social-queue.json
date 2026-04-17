@@ -464,7 +464,100 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "hemingway-editor",
+      "title": "hemingway-editor",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/7596911/pexels-photo-7596911.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "A red pen marking up a printed page of text, highlighting errors.",
+      "productUrl": "https://surfaced-x.pages.dev/item/hemingway-editor?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/hemingway-editor?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Hemingway Editor: Write Boldly, Clearly, Concisely",
+          "description": "Struggling with wordy sentences or passive voice? The Hemingway Editor flags common writing pitfalls, offering suggestions to make your prose stronger and more readable. Perfect for bloggers, students, and professionals who want their message to land. Give your writing the clarity it deserves! #writingtips #editing #contentcreation #productivity",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "Cut the fluff. Hemingway Editor makes your writing bolder and clearer. It's like a ruthless but fair editor for your sentences, adverbs, and passive voice.\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "Tired of wordy sentences and passive voice? The Hemingway Editor helps you write with boldness and clarity. Simplify your prose and make your message undeniable. Check it out! https://surfaced-x.pages.dev/item/hemingway-editor?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-17T15:44:37.579Z",
+      "publishedAt": "2026-04-17T15:44:44.791Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "dji-air-3-drone",
+      "title": "DJI Air 3 Camera Drone",
+      "category": "products",
+      "imageUrl": "https://images.pexels.com/photos/18660495/pexels-photo-18660495.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "A DJI Air 3 drone is captured mid-flight against a clear blue sky, showcasing its sleek design and dual camera modules.",
+      "productUrl": "https://surfaced-x.pages.dev/item/dji-air-3-drone?utm_source=social&utm_medium=products&utm_campaign=daily_post",
+      "affiliateUrl": "https://www.amazon.com/s?k=DJI+Air+3+Camera+Drone&tag=vaultvibe-20",
+      "sourceLink": "https://www.dji.com",
+      "platforms": {
+        "pinterest": {
+          "title": "DJI Air 3: Dual Cameras, Epic Flight Time. Is it worth it?",
+          "description": "The DJI Air 3 drone packs a serious punch with its dual 48MP cameras (wide and 3x telephoto!) and an insane 46-minute flight time. Perfect for photographers who want versatility mid-air. Omnidirectional obstacle sensing is a nice safety net. Pricey, but the flight time claims hold up. Affiliate link — I earn a commission on purchases. #DJIAir3 #DronePhotography #TechGadgets #AerialVideo",
+          "boardName": "Tech Products"
+        },
+        "bluesky": {
+          "text": "Just got my hands on the DJI Air 3. That dual-camera setup is a game-changer, no more mid-flight lens swaps needed. And the 46-minute flight time? It actually feels like you get that long. This thing is seriously impressive, though not exactly cheap.\n\n#tech #gadgets"
+        },
+        "twitter": {
+          "text": "DJI Air 3 drone review: Dual cameras (wide + 3x telephoto) and a class-leading 46-minute flight time. This thing is a portable powerhouse for aerial photographers. Obstacle sensing is top-notch. Price starts at $1,099. https://www.amazon.com/s?k=DJI+Air+3+Camera+Drone&tag=vaultvibe-20"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-17T15:44:40.373Z",
+      "publishedAt": "2026-04-17T15:45:26.756Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "mullvad-vpn",
+      "title": "mullvad-vpn",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/5926389/pexels-photo-5926389.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Person using a laptop with a blurred out face, symbolizing anonymity.",
+      "productUrl": "https://surfaced-x.pages.dev/item/mullvad-vpn?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/mullvad-vpn?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Mullvad VPN: The Gold Standard for Online Privacy",
+          "description": "Tired of VPNs that track you? Mullvad VPN requires NO personal info to sign up, uses account numbers, and accepts cash. Truly anonymous browsing. #VPN #Privacy #Anonymity #Cybersecurity",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "This VPN doesn't even want your email. Mullvad uses account numbers and accepts cash. If you care about privacy, this is the one.\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "The gold standard for VPN privacy is here. Mullvad VPN requires absolutely no personal info to sign up. No email, no name, just pure privacy. Flat pricing, no upsells. See why: https://surfaced-x.pages.dev/item/mullvad-vpn?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "failed",
+      "generatedAt": "2026-04-17T15:44:42.541Z",
+      "publishedAt": "2026-04-17T15:46:52.367Z",
+      "publishResults": {
+        "bluesky": false,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-16T17:00:12.158Z"
+  "lastGenerated": "2026-04-17T15:44:42.541Z"
 }
