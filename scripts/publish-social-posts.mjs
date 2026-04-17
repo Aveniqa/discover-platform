@@ -25,7 +25,6 @@ import { createLogger } from "./lib/logger.mjs";
 import { pooledFetch } from "./lib/fetch-pool.mjs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
-import { createHmac } from "crypto";
 
 const log = createLogger({ script: 'publish-social-posts' });
 
@@ -266,30 +265,13 @@ async function publishToPinterest(post) {
   }
 }
 
-// ─── X/Twitter (OAuth 1.0a HMAC-SHA1) ────────────────────────
-function percentEncode(str) {
-  return encodeURIComponent(str).replace(
-    /[!'()*]/g,
-    (c) => `%${c.charCodeAt(0).toString(16).toUpperCase()}`
-  );
-}
-
-function generateOAuthSignature(method, url, params, consumerSecret, tokenSecret) {
-  const sortedKeys = Object.keys(params).sort();
-  const paramString = sortedKeys
-    .map((k) => `${percentEncode(k)}=${percentEncode(params[k])}`)
-    .join("&");
-  const baseString = `${method}&${percentEncode(url)}&${percentEncode(paramString)}`;
-  const signingKey = `${percentEncode(consumerSecret)}&${percentEncode(tokenSecret)}`;
-  return createHmac("sha1", signingKey).update(baseString).digest("base64");
-}
-
+// ─── X/Twitter ───────────────────────────────────────────────
+// Posting is temporarily disabled. Free-tier credits are depleted
+// (402 CreditsDepleted) and image upload requires Basic tier
+// ($200/mo, returns 401). Re-enable by restoring OAuth 1.0a signing
+// (createHmac-based HMAC-SHA1) + media upload once the account is
+// upgraded; prior implementation lives in git history.
 async function publishToTwitter(post) {
-  // X/Twitter posting is temporarily disabled.
-  // Reason: Free-tier credits are depleted (402 CreditsDepleted) and image
-  // upload requires Basic tier ($200/mo, returns 401). Skipping to avoid
-  // wasting queue items on guaranteed failures.
-  // Re-enable when: credits are restored OR account is upgraded to Basic tier.
   console.log("   ⏭ X/Twitter: SKIPPED — posting disabled (credits depleted + Basic tier required for media). Re-enable when account is upgraded.");
   return false;
 }
