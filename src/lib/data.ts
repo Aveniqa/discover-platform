@@ -3,6 +3,7 @@ import productsData from "@/../data/products.json";
 import hiddenGemsData from "@/../data/hidden-gems.json";
 import futureRadarData from "@/../data/future-radar.json";
 import dailyToolsData from "@/../data/daily-tools.json";
+import archiveData from "@/../data/archive.json";
 import categoriesData from "@/../data/categories.json";
 import todaysPicksData from "@/../data/todays-picks.json";
 import collectionsData from "@/../data/collections.json";
@@ -127,8 +128,13 @@ export interface Collection {
 export const collections_data = collectionsData as Collection[];
 
 /* ---- Helpers ---- */
+// Archive items are included so their /item/<slug> URLs stay alive for Google.
+// They never appear in category listing pages — only accessible via direct URL
+// or internal links, preserving all indexed pages after daily rotation.
+const archive = archiveData as AnyItem[];
+
 export function getAllItems(): AnyItem[] {
-  return [...discoveries, ...products, ...hiddenGems, ...futureRadar, ...dailyTools];
+  return [...discoveries, ...products, ...hiddenGems, ...futureRadar, ...dailyTools, ...archive];
 }
 
 export function getItemBySlug(slug: string): AnyItem | undefined {

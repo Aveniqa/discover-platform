@@ -50,6 +50,9 @@ export const metadata: Metadata = {
       "Fascinating discoveries, trending products, hidden gems, and future technology — curated daily.",
     creator: "@xSurfaced",
   },
+  verification: {
+    google: "fkbYRCrZQGx9tfcR4UBdZBW6aA3MugY2hCmSR6JSKbI",
+  },
   robots: {
     index: true,
     follow: true,

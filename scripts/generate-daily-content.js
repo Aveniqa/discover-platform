@@ -80,10 +80,10 @@ async function generateItems(category, existingItems, count) {
     discoveries: `{
   "id": <number>,
   "slug": "<kebab-case>",
-  "title": "<50-80 chars>",
-  "shortDescription": "<2-3 sentences>",
+  "title": "<50-80 chars — specific, searchable, intriguing>",
+  "shortDescription": "<4-5 sentences: introduce the discovery with concrete detail, name the scientists/institution/study if relevant, mention when it was found, and give one surprising implication>",
   "category": "<Science|Nature|History|Technology|Psychology|Culture|Global|Statistics|Innovation|Space>",
-  "whyItIsInteresting": "<2-3 sentences>",
+  "whyItIsInteresting": "<5-7 sentences: a rich paragraph explaining the deeper significance — why experts were surprised, what it overturns or confirms, real-world applications or consequences, and one thought-provoking question it raises for curious readers>",
   "imageIdea": "<concrete visual noun like 'octopus underwater ocean'>",
   "sourceLink": "<real URL>",
   "type": "discovery"
@@ -91,10 +91,10 @@ async function generateItems(category, existingItems, count) {
     products: `{
   "id": <number>,
   "slug": "<kebab-case>",
-  "title": "<product name>",
-  "shortDescription": "<2-3 sentences>",
+  "title": "<product name — exact brand + model where possible>",
+  "shortDescription": "<4-5 sentences: describe what the product is, who makes it, its standout feature, a specific use case, and who it's for>",
   "category": "<product category>",
-  "whyItIsInteresting": "<2-3 sentences>",
+  "whyItIsInteresting": "<5-7 sentences: explain what makes this product genuinely worth considering — key specs or innovations, how it compares to alternatives, what problem it solves better than anything else, and any notable reviews or awards>",
   "imageIdea": "<concrete visual noun>",
   "sourceLink": "<real product URL>",
   "estimatedPriceRange": "<e.g. $299-$349>",
@@ -106,9 +106,9 @@ async function generateItems(category, existingItems, count) {
   "id": <number>,
   "slug": "<kebab-case>",
   "name": "<tool/site name>",
-  "whatItDoes": "<2-3 sentences>",
+  "whatItDoes": "<4-5 sentences: describe the tool's core function, the specific problem it solves, who built it, and one concrete example of how someone would use it today>",
   "category": "<Design|Productivity|Education|Finance|Developer|Writing|Health|Entertainment|Social|Reference>",
-  "whyItIsUseful": "<2-3 sentences>",
+  "whyItIsUseful": "<5-7 sentences: explain why this tool is underrated — what makes it better or different from mainstream alternatives, what power users love about it, any notable features most people miss, and the type of person who gets the most value from it>",
   "imageIdea": "<concrete visual noun>",
   "websiteLink": "<real working URL — e.g. https://obsidian.md>",
   "type": "hidden-gem"
@@ -117,9 +117,9 @@ async function generateItems(category, existingItems, count) {
   "id": <number>,
   "slug": "<kebab-case>",
   "techName": "<technology name>",
-  "explanation": "<2-3 sentences>",
+  "explanation": "<4-5 sentences: explain what the technology is in plain language, name the specific recent milestone or breakthrough, cite the organization or research group behind it, and describe how it works at a high level>",
   "industry": "<industry>",
-  "whyItMatters": "<2-3 sentences>",
+  "whyItMatters": "<5-7 sentences: explain the broader impact — what existing systems or industries this disrupts, the realistic timeline to mainstream adoption, key obstacles still to overcome, and what daily life or work might look like once it's widespread>",
   "developmentStage": "<Research|Prototype|Early Adoption|Early Commercialization|Growth|Mainstream>",
   "imageIdea": "<concrete visual noun like 'quantum computer circuit board'>",
   "type": "future-tech"
@@ -128,9 +128,9 @@ async function generateItems(category, existingItems, count) {
   "id": <number>,
   "slug": "<kebab-case>",
   "toolName": "<tool name>",
-  "whatItDoes": "<2-3 sentences>",
+  "whatItDoes": "<4-5 sentences: describe the tool's primary function, the workflow or problem it addresses, its pricing model (free/freemium/paid), and one specific task it handles better than any other tool>",
   "category": "<Productivity|Design|Developer|Writing|Finance|Health|Education|Entertainment|Social|Reference>",
-  "whyItIsUseful": "<2-3 sentences>",
+  "whyItIsUseful": "<5-7 sentences: explain why this tool earns a permanent spot in someone's workflow — standout features, time or money it saves, any integrations with popular platforms, what its most enthusiastic users say, and who gets the most out of it>",
   "imageIdea": "<concrete visual noun like 'productivity app laptop workspace'>",
   "websiteLink": "<real working URL — e.g. https://notion.so>",
   "type": "tool"
@@ -139,15 +139,15 @@ async function generateItems(category, existingItems, count) {
 
   const categoryPrompts = {
     discoveries:
-      "Find 3 genuinely fascinating, surprising real-world facts, scientific discoveries, or historical revelations. Prioritize recent findings from the last month but timeless mind-blowing facts work too.",
+      "Find 3 genuinely fascinating, surprising real-world facts, scientific discoveries, or historical revelations. Prioritize recent findings but timeless mind-blowing facts work too. Write with the depth and specificity of a science journalist — name the researchers, the journal, the year, the numbers. Descriptions must be long enough that a curious reader learns something substantial.",
     products:
-      "Find 3 real, currently available consumer products that are trending or newly launched. They must be real products you can actually buy. Include accurate pricing.",
+      "Find 3 real, currently available consumer products that are trending or newly launched. They must be real products you can actually buy. Include accurate pricing, exact model names, and enough detail that someone reading could make an informed purchase decision.",
     "hidden-gems":
-      "Find 3 real, lesser-known websites or web tools that are genuinely useful. They must have real, working URLs. Focus on tools most people haven't heard of. CRITICAL: The websiteLink field MUST be a real, working URL to the tool's actual website (e.g., 'https://obsidian.md'). Never use placeholder or example URLs.",
+      "Find 3 real, lesser-known websites or web tools that are genuinely useful. They must have real, working URLs. Focus on tools most people haven't heard of. Write descriptions detailed enough that a reader knows exactly whether this tool fits their workflow. CRITICAL: The websiteLink field MUST be a real, working URL to the tool's actual website (e.g., 'https://obsidian.md'). Never use placeholder or example URLs.",
     "future-radar":
-      "Find 3 real emerging technologies that have had recent milestones or breakthroughs. Focus on concrete developments, not speculation.",
+      "Find 3 real emerging technologies with recent milestones or breakthroughs. Cite the specific organisation, lab, or company behind each. Write with enough depth that a technically curious reader understands both what was achieved and why it matters beyond the headline.",
     "daily-tools":
-      "Find 3 real, useful everyday tools or apps with working URLs. Focus on well-regarded tools that help with productivity, creativity, or daily life. CRITICAL: The websiteLink field MUST be a real, working URL to the tool's actual website (e.g., 'https://notion.so'). Never use placeholder or example URLs.",
+      "Find 3 real, useful everyday tools or apps with working URLs. Focus on well-regarded tools that help with productivity, creativity, or daily life. Write descriptions detailed enough to explain the tool's value to someone who has never heard of it. CRITICAL: The websiteLink field MUST be a real, working URL to the tool's actual website (e.g., 'https://notion.so'). Never use placeholder or example URLs.",
   };
 
   const prompt = `${categoryPrompts[category]}

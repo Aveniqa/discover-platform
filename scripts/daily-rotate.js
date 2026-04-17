@@ -4,11 +4,16 @@ const { writeJsonSafe } = require('./lib/write-safe');
 
 if (!process.argv.includes('--run')) {
   console.log('Usage: node scripts/daily-rotate.js --run');
-  console.log('Removes the 3 oldest items from each category. Add --run to execute.');
+  console.log('Rotates the 5 oldest items from each category into the archive. Add --run to execute.');
   process.exit(0);
 }
 
 const CATS = ['discoveries', 'products', 'hidden-gems', 'future-radar', 'daily-tools'];
+
+// Load existing archive (items keep their URLs forever for SEO)
+const archiveFile = path.join(__dirname, '..', 'data', 'archive.json');
+const archive = JSON.parse(fs.readFileSync(archiveFile, 'utf8'));
+const archivedSlugs = new Set(archive.map(i => i.slug));
 
 for (const cat of CATS) {
   const fp = path.join(__dirname, '..', 'data', `${cat}.json`);
@@ -19,10 +24,20 @@ for (const cat of CATS) {
     const db = b.dateAdded ? new Date(b.dateAdded).getTime() : 0;
     return da - db;
   });
-  const cut = items.splice(0, 5);
-  console.log(`[${cat}] Removed: ${cut.map(i => i.slug).join(', ')}`);
+  const rotated = items.splice(0, 5);
+  // Move to archive instead of deleting — keeps /item/<slug> URLs alive for Google
+  for (const item of rotated) {
+    if (!archivedSlugs.has(item.slug)) {
+      archive.push({ ...item, archivedAt: new Date().toISOString().slice(0, 10) });
+      archivedSlugs.add(item.slug);
+    }
+  }
+  console.log(`[${cat}] Archived: ${rotated.map(i => i.slug).join(', ')}`);
   writeJsonSafe(fp, items);
 }
+
+writeJsonSafe(archiveFile, archive);
+console.log(`Archive now holds ${archive.length} items.`);
 
 // Update category counts in categories.json
 const catFile = path.join(__dirname, '..', 'data', 'categories.json');
