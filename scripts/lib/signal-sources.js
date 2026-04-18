@@ -39,6 +39,41 @@ async function fetchJson(url, opts = {}) {
 }
 
 /**
+ * Strip tracking parameters (utm_*, ref, fbclid, etc.) from a URL.
+ * Leaves legitimate query params intact.
+ */
+function stripTracking(url) {
+  try {
+    const u = new URL(url);
+    const junk = [];
+    for (const key of u.searchParams.keys()) {
+      if (
+        key.startsWith("utm_") ||
+        key === "ref" ||
+        key === "ref_src" ||
+        key === "ref_url" ||
+        key === "referrer" ||
+        key === "fbclid" ||
+        key === "gclid" ||
+        key === "mc_cid" ||
+        key === "mc_eid"
+      ) {
+        junk.push(key);
+      }
+    }
+    junk.forEach((k) => u.searchParams.delete(k));
+    return u.toString().replace(/\?$/, "");
+  } catch {
+    return url;
+  }
+}
+
+// Note: PH's /r/<id> redirect URLs return 403 to non-browser clients (Cloudflare bot
+// protection), so we can't resolve them server-side. Real users clicking the link
+// in a browser get redirected to the product's real site — we just strip tracking
+// params so the URL looks clean in Surfaced's UI.
+
+/**
  * Hacker News front page — items with external URLs.
  * Great for hidden-gems (Show HN, interesting sites) and future-radar (research).
  */
@@ -154,7 +189,7 @@ async function fetchProductHunt({ limit = 8 } = {}) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     const edges = data?.data?.posts?.edges || [];
-    return edges.slice(0, limit).map(({ node }) => ({
+    const items = edges.slice(0, limit).map(({ node }) => ({
       title: node.name,
       tagline: node.tagline,
       description: node.description,
@@ -163,6 +198,12 @@ async function fetchProductHunt({ limit = 8 } = {}) {
       topics: (node.topics?.edges || []).map((e) => e.node.name),
       source: "producthunt",
     }));
+    // PH returns UTM-laden /r/<id> redirect URLs. Strip tracking so item pages
+    // show clean URLs; the redirect still works fine for real users in a browser.
+    for (const item of items) {
+      item.url = stripTracking(item.url);
+    }
+    return items;
   } catch (err) {
     console.warn(`  ⚠ Product Hunt fetch failed: ${err.message}`);
     return [];
