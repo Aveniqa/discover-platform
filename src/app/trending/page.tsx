@@ -12,6 +12,7 @@ import { products, getSubCategories, getFilterCategory } from "@/lib/data";
 import { type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
+import { ItemListSchema } from "@/components/seo/ItemListSchema";
 
 // Parse the lower bound from "estimatedPriceRange" strings like "$299–$349" or "$29"
 function parsePriceLower(range: string | undefined): number {
@@ -87,6 +88,12 @@ export default function TrendingPage() {
 
   return (
     <>
+      <ItemListSchema
+        items={products as AnyItem[]}
+        name="Surfaced Trending Products — Curated Gear & Gadgets"
+        description="Trending products and gear worth knowing about — editor-curated daily."
+        pagePath="/trending"
+      />
       {/* ── Hero ──────────────────────────────────────────── */}
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">

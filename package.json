@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/generate-rss.mjs",
+    "prebuild": "node scripts/generate-rss.mjs && node scripts/generate-og-images.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "fetch-images": "tsx scripts/fetch-images.ts",
+    "generate:og": "node scripts/generate-og-images.mjs",
     "generate:social": "node scripts/generate-social-posts.mjs",
     "publish:social": "node scripts/publish-social-posts.mjs"
   },

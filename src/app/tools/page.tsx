@@ -12,6 +12,7 @@ import { dailyTools, getSubCategories, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { LogoImage } from "@/components/ui/LogoImage";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
+import { ItemListSchema } from "@/components/seo/ItemListSchema";
 
 export default function ToolsPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -49,6 +50,12 @@ export default function ToolsPage() {
 
   return (
     <>
+      <ItemListSchema
+        items={dailyTools as AnyItem[]}
+        name="Surfaced Daily Tools — Everyday Apps & Utilities"
+        description="Productivity apps, everyday utilities, and tools that make work and life easier."
+        pagePath="/tools"
+      />
       {/* ── Hero ──────────────────────────────────────────── */}
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">

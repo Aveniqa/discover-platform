@@ -12,6 +12,7 @@ import { hiddenGems, getSubCategories, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { LogoImage } from "@/components/ui/LogoImage";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
+import { ItemListSchema } from "@/components/seo/ItemListSchema";
 
 export default function HiddenGemsPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -49,6 +50,12 @@ export default function HiddenGemsPage() {
 
   return (
     <>
+      <ItemListSchema
+        items={hiddenGems as AnyItem[]}
+        name="Surfaced Hidden Gems — Lesser-Known Web Tools & Sites"
+        description="Undiscovered web tools, obscure apps, and internet curiosities worth bookmarking."
+        pagePath="/hidden-gems"
+      />
       {/* ── Hero ──────────────────────────────────────────── */}
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
