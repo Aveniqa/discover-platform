@@ -6,6 +6,7 @@ import { SearchModal } from "@/components/ui/SearchModal";
 import { Analytics } from "@/components/Analytics";
 import { ServiceWorkerRegistration } from "@/components/ServiceWorkerRegistration";
 import { PrefetchLinks } from "@/components/ui/PrefetchLinks";
+import { ScrollProgress } from "@/components/ui/ScrollProgress";
 import "./globals.css";
 
 const inter = Inter({
@@ -115,6 +116,7 @@ export default function RootLayout({
         >
           Skip to content
         </a>
+        <ScrollProgress />
         <SearchModal />
         <Navbar />
         <main id="main-content" className="min-h-screen pt-16">{children}</main>

@@ -26,6 +26,9 @@ import { SocialCTA } from "@/components/SocialCTA";
 import { ShareTodaysPicks } from "@/components/ui/ShareTodaysPicks";
 import { TodayDate } from "@/components/ui/TodayDate";
 import { HeroShowcase } from "@/components/ui/HeroShowcase";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
+import { AnimatedHeroBackground } from "@/components/ui/AnimatedHeroBackground";
 import { getStreak } from "@/lib/engagement";
 import { todaysPicks } from "@/lib/data";
 import Link from "next/link";
@@ -125,9 +128,7 @@ export default function HomePage() {
           HERO — Visual showcase + compact headline
           ============================================ */}
       <section className="relative pt-6 sm:pt-10 pb-8 sm:pb-12 overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-accent/[0.05] blur-[120px]" />
-        </div>
+        <AnimatedHeroBackground />
 
         {/* Streak badge */}
         {streakDays > 0 && (
@@ -138,12 +139,31 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* Compact headline above the showcase */}
+        {/* Compact headline above the showcase — kinetic typography */}
         <div className="relative text-center mb-6 sm:mb-8 px-4">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.1] mb-2">
-            Discover something <span className="gradient-text">remarkable</span>
+            <span className="inline-block animate-fade-in-up" style={{ animationDelay: "40ms", animationFillMode: "both" }}>
+              Discover
+            </span>{" "}
+            <span className="inline-block animate-fade-in-up" style={{ animationDelay: "180ms", animationFillMode: "both" }}>
+              something
+            </span>{" "}
+            <span
+              className="inline-block gradient-text animate-fade-in-up"
+              style={{
+                animationDelay: "320ms",
+                animationFillMode: "both",
+                backgroundSize: "200% 200%",
+                animation: "fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) 320ms both, gradient-shift 6s ease-in-out 1.2s infinite",
+              }}
+            >
+              remarkable
+            </span>
           </h1>
-          <p className="text-sm sm:text-base text-muted-foreground max-w-lg mx-auto">
+          <p
+            className="text-sm sm:text-base text-muted-foreground max-w-lg mx-auto animate-fade-in-up"
+            style={{ animationDelay: "480ms", animationFillMode: "both" }}
+          >
             Products, hidden gems, future tech, and discoveries — refreshed daily
           </p>
         </div>
@@ -160,15 +180,21 @@ export default function HomePage() {
 
           <div className="flex items-center justify-center gap-6 sm:gap-10 pt-5 border-t border-border/50">
             <div className="text-center">
-              <p className="text-2xl font-bold">{totalItems}+</p>
+              <p className="text-2xl font-bold tabular-nums">
+                <AnimatedCounter value={totalItems} suffix="+" />
+              </p>
               <p className="text-xs text-muted-foreground">Curated items</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl font-bold">5</p>
+              <p className="text-2xl font-bold tabular-nums">
+                <AnimatedCounter value={5} />
+              </p>
               <p className="text-xs text-muted-foreground">Categories</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl font-bold">25</p>
+              <p className="text-2xl font-bold tabular-nums">
+                <AnimatedCounter value={25} />
+              </p>
               <p className="text-xs text-muted-foreground">New daily</p>
             </div>
           </div>
@@ -198,6 +224,7 @@ export default function HomePage() {
           TRENDING THIS WEEK — badged items
           ============================================ */}
       {trendingItems.length > 0 && (
+        <ScrollReveal>
         <section className="pb-6 sm:pb-10 px-4 sm:px-6 border-b border-border/50">
           <div className="max-w-[90rem] mx-auto">
             <div className="flex items-center justify-between mb-6">
@@ -236,11 +263,13 @@ export default function HomePage() {
             />
           </div>
         </section>
+        </ScrollReveal>
       )}
 
       {/* ============================================
           CATEGORY QUICK-ACCESS CARDS
           ============================================ */}
+      <ScrollReveal>
       <section className="py-4 sm:py-8 px-4 sm:px-6">
         <div className="max-w-[90rem] mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
@@ -250,10 +279,11 @@ export default function HomePage() {
               { label: "Hidden Gems", href: "/hidden-gems", emoji: "💎", count: hiddenGems.length, color: "from-amber-500/20 to-transparent" },
               { label: "Future Tech", href: "/future-radar", emoji: "🔭", count: futureRadar.length, color: "from-blue-500/20 to-transparent" },
               { label: "Daily Tools", href: "/tools", emoji: "🛠️", count: dailyTools.length, color: "from-rose-500/20 to-transparent" },
-            ].map((cat) => (
+            ].map((cat, i) => (
               <Link key={cat.href} href={cat.href}
-                className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 transition-all group`}>
-                <span className="text-2xl">{cat.emoji}</span>
+                className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 hover:-translate-y-0.5 transition-all group animate-fade-in-up`}
+                style={{ animationDelay: `${i * 80}ms`, animationFillMode: "both" }}>
+                <span className="text-2xl inline-block transition-transform group-hover:scale-110">{cat.emoji}</span>
                 <p className="font-semibold mt-2 text-sm group-hover:text-accent transition-colors">{cat.label}</p>
                 <p className="text-xs text-muted-foreground">{cat.count} items</p>
               </Link>
@@ -261,10 +291,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           TODAY'S PICKS — Newest from each category
           ============================================ */}
+      <ScrollReveal>
       <section className="pb-6 sm:pb-10 px-4 sm:px-6">
         <div className="max-w-[90rem] mx-auto">
           <div className="flex items-center justify-between mb-5">
@@ -319,10 +351,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           WHAT SURFACED TODAY — Daily Editorial Roundup
           ============================================ */}
+      <ScrollReveal>
       <section className="relative pb-10 sm:pb-20 px-4 sm:px-6">
         {/* Subtle editorial backdrop */}
         <div className="absolute inset-0 bg-gradient-to-b from-accent/[0.03] via-transparent to-transparent pointer-events-none" />
@@ -458,6 +492,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           CATEGORY PREVIEW SECTIONS
@@ -469,7 +504,8 @@ export default function HomePage() {
           .sort((a, b) => (b.id || 0) - (a.id || 0))
           .slice(0, 36);
         return (
-          <section key={cat.key} className="pb-8 sm:pb-18 px-4 sm:px-6">
+          <ScrollReveal key={cat.key}>
+          <section className="pb-8 sm:pb-18 px-4 sm:px-6">
             <div className="max-w-[90rem] mx-auto">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-2.5">
@@ -515,12 +551,14 @@ export default function HomePage() {
               />
             </div>
           </section>
+          </ScrollReveal>
         );
       })}
 
       {/* ============================================
           INLINE NEWSLETTER CTA (between carousels 3 & 4)
           ============================================ */}
+      <ScrollReveal>
       <section className="py-8 my-2 px-4 sm:px-6">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-lg font-medium mb-1">Enjoying the discoveries?</p>
@@ -528,6 +566,7 @@ export default function HomePage() {
           <NewsletterForm variant="minimal" />
         </div>
       </section>
+      </ScrollReveal>
 
       {categories.slice(3).map((cat) => {
         const allInCategory = getItemsForCategory(cat.key);
@@ -536,7 +575,8 @@ export default function HomePage() {
           .sort((a, b) => (b.id || 0) - (a.id || 0))
           .slice(0, 36);
         return (
-          <section key={cat.key} className="pb-8 sm:pb-18 px-4 sm:px-6">
+          <ScrollReveal key={cat.key}>
+          <section className="pb-8 sm:pb-18 px-4 sm:px-6">
             <div className="max-w-[90rem] mx-auto">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-2.5">
@@ -582,12 +622,14 @@ export default function HomePage() {
               />
             </div>
           </section>
+          </ScrollReveal>
         );
       })}
 
       {/* ============================================
           NEWSLETTER CTA
           ============================================ */}
+      <ScrollReveal>
       <section className="section-divider relative py-12 sm:py-32 px-4 sm:px-6 overflow-hidden">
         {/* Gradient background */}
         <div className="absolute inset-0 bg-gradient-to-b from-accent/[0.04] via-surface to-background pointer-events-none" />
@@ -606,15 +648,18 @@ export default function HomePage() {
           <p className="mt-3 text-xs text-muted-foreground/60">No spam, ever. Unsubscribe anytime.</p>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           SOCIAL CTA
           ============================================ */}
+      <ScrollReveal>
       <section className="pb-10 sm:pb-20 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
           <SocialCTA />
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           SURPRISE ME FAB
