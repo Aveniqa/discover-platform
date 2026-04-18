@@ -29,6 +29,7 @@ import { HeroShowcase } from "@/components/ui/HeroShowcase";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 import { AnimatedHeroBackground } from "@/components/ui/AnimatedHeroBackground";
+import { NewTodayRibbon, SignalScore, getItemSignals } from "@/components/ui/ItemSignals";
 import { getStreak } from "@/lib/engagement";
 import { todaysPicks } from "@/lib/data";
 import Link from "next/link";
@@ -236,20 +237,29 @@ export default function HomePage() {
             </div>
             <Carousel
               items={trendingItems}
-              renderCard={(item, idx) => (
+              renderCard={(item, idx) => {
+                const { source, score, fresh } = getItemSignals(item);
+                const badge = (item as { badge?: string }).badge;
+                return (
                 <Link href={`/item/${item.slug}`} className="group block w-full">
                   <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                     <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                     <div className="overflow-hidden relative">
                       <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" priority={idx < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
-                      {!!(item as { badge?: string }).badge && (
-                        <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-amber-500 text-white rounded-full">
-                          {(item as { badge?: string }).badge}
-                        </span>
-                      )}
+                      <div className="absolute top-2 right-2 z-10 flex flex-col items-end gap-1">
+                        {fresh && <NewTodayRibbon />}
+                        {!!badge && (
+                          <span className="px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-amber-500 text-white rounded-full">
+                            {badge}
+                          </span>
+                        )}
+                      </div>
                     </div>
                     <div className="p-5 flex flex-col flex-1">
-                      <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} className="mb-3 self-start" />
+                      <div className="flex items-center justify-between gap-2 mb-3">
+                        <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} />
+                        <SignalScore source={source} score={score} />
+                      </div>
                       <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
                         {getItemTitle(item)}
                       </h3>
@@ -259,7 +269,8 @@ export default function HomePage() {
                     </div>
                   </div>
                 </Link>
-              )}
+                );
+              }}
             />
           </div>
         </section>
@@ -397,14 +408,18 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-5">
             {/* Lead story — large card */}
+            {(() => {
+              const lead = getItemSignals(editorsPick);
+              return (
             <div className="sm:col-span-2 xl:row-span-2 gradient-border relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden">
               <div className={`absolute top-0 left-0 right-0 h-[3px] z-10 ${accentBar(editorsPick.type)}`} />
-              <div className="overflow-hidden">
+              <div className="overflow-hidden relative">
                 <ItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" priority className="group-hover:scale-[1.03] transition-transform duration-500" />
+                {lead.fresh && <NewTodayRibbon className="absolute top-3 right-3 z-10" />}
               </div>
               <div className="p-7 sm:p-8 flex flex-col flex-1">
-              <div className="flex items-start justify-between mb-5">
-                <div className="flex items-center gap-2.5">
+              <div className="flex items-start justify-between mb-5 gap-2">
+                <div className="flex items-center gap-2.5 flex-wrap">
                   <span className="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-[0.12em] text-accent bg-accent/15 border border-accent/20 px-2.5 py-1 rounded-full">
                     &#9733; Lead
                   </span>
@@ -412,6 +427,7 @@ export default function HomePage() {
                     label={getCategoryLabel(editorsPick.type)}
                     color={getCategoryColor(editorsPick.type)}
                   />
+                  <SignalScore source={lead.source} score={lead.score} />
                 </div>
                 <BookmarkButton slug={editorsPick.slug} />
               </div>
@@ -435,25 +451,31 @@ export default function HomePage() {
               </Link>
               </div>
             </div>
+              );
+            })()}
 
             {/* 4 supporting picks */}
-            {topPicksRest.map((item, i) => (
+            {topPicksRest.map((item, i) => {
+              const { source, score, fresh } = getItemSignals(item);
+              return (
               <div
                 key={item.slug}
                 className="relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden"
               >
                 <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
-                <div className="overflow-hidden">
+                <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="md" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  {fresh && <NewTodayRibbon className="absolute top-2 right-2 z-10" />}
                 </div>
                 <div className="p-5 sm:p-6 flex flex-col flex-1">
-                <div className="flex items-start justify-between mb-3">
+                <div className="flex items-start justify-between mb-3 gap-2">
                   <div className="flex items-center gap-2">
                     <span className="text-[9px] font-bold text-accent/50 tabular-nums">0{i + 2}</span>
                     <CategoryBadge
                       label={getCategoryLabel(item.type)}
                       color={getCategoryColor(item.type)}
                     />
+                    <SignalScore source={source} score={score} />
                   </div>
                   <BookmarkButton slug={item.slug} />
                 </div>
@@ -477,7 +499,8 @@ export default function HomePage() {
                 </Link>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
 
           {/* Inline newsletter nudge */}
@@ -522,21 +545,21 @@ export default function HomePage() {
               <Carousel
                 items={items}
                 renderCard={(item) => {
-                  const isNew = isNewToday(item, allInCategory);
+                  const { source, score, fresh } = getItemSignals(item);
+                  const isNew = fresh || isNewToday(item, allInCategory);
                   return (
                     <Link href={`/item/${item.slug}`} className="group block w-full">
                       <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                         <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                         <div className="overflow-hidden relative">
                           <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
-                          {isNew && (
-                            <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
-                              New
-                            </span>
-                          )}
+                          {isNew && <NewTodayRibbon className="absolute top-2 right-2 z-10" />}
                         </div>
                         <div className="p-5 flex flex-col flex-1">
-                          <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} className="mb-3 self-start" />
+                          <div className="flex items-center justify-between gap-2 mb-3">
+                            <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} />
+                            <SignalScore source={source} score={score} />
+                          </div>
                           <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
                             {getItemTitle(item)}
                           </h3>
@@ -593,21 +616,21 @@ export default function HomePage() {
               <Carousel
                 items={items}
                 renderCard={(item) => {
-                  const isNew = isNewToday(item, allInCategory);
+                  const { source, score, fresh } = getItemSignals(item);
+                  const isNew = fresh || isNewToday(item, allInCategory);
                   return (
                     <Link href={`/item/${item.slug}`} className="group block w-full">
                       <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                         <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                         <div className="overflow-hidden relative">
                           <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
-                          {isNew && (
-                            <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
-                              New
-                            </span>
-                          )}
+                          {isNew && <NewTodayRibbon className="absolute top-2 right-2 z-10" />}
                         </div>
                         <div className="p-5 flex flex-col flex-1">
-                          <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} className="mb-3 self-start" />
+                          <div className="flex items-center justify-between gap-2 mb-3">
+                            <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} />
+                            <SignalScore source={source} score={score} />
+                          </div>
                           <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
                             {getItemTitle(item)}
                           </h3>

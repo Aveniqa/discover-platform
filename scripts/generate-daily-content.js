@@ -245,6 +245,18 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
     }
     item.id = nextId++;
     item.dateAdded = today;
+
+    // Attach signal provenance (HN/PH/GH score + source) by matching URL back to the seed Gemini picked.
+    // This lets the UI show "🔥 347 on HN" social proof on items sourced from real trending data.
+    const itemUrl = item.sourceLink || item.websiteLink || "";
+    if (itemUrl && filteredSeeds.length) {
+      const seed = filteredSeeds.find((s) => s.url === itemUrl);
+      if (seed) {
+        item.signalSource = seed.source;
+        item.signalScore = seed.score;
+      }
+    }
+
     validItems.push(item);
     existingSlugs.add(item.slug);
     existingNames.add(itemName);
