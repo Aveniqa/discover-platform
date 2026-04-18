@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const { writeJsonSafe } = require("./lib/write-safe");
 const { createLogger } = require("./lib/logger");
+const { getSeedsForCategory, formatSeeds } = require("./lib/signal-sources");
 
 const log = createLogger({ script: 'generate-daily-content' });
 
@@ -69,12 +70,27 @@ async function callWithRetry(fn, maxRetries = 3) {
   }
 }
 
-async function generateItems(category, existingItems, count) {
+async function generateItems(category, existingItems, count, seeds = []) {
   const existingSlugs = getExistingSlugs(existingItems);
   const existingTitles = existingItems
     .slice(-30)
     .map((i) => i.title || i.name || i.toolName || i.techName)
     .join(", ");
+
+  // De-dupe seeds against items we already have (by URL host+path or name)
+  const existingUrls = new Set(
+    existingItems
+      .map((i) => (i.websiteLink || i.sourceLink || "").replace(/\/$/, "").toLowerCase())
+      .filter(Boolean)
+  );
+  const existingNamesLower = new Set(
+    existingItems.map((i) => (i.title || i.name || i.toolName || i.techName || "").toLowerCase())
+  );
+  const filteredSeeds = seeds.filter((s) => {
+    const u = (s.url || "").replace(/\/$/, "").toLowerCase();
+    const n = (s.title || "").toLowerCase();
+    return !existingUrls.has(u) && !existingNamesLower.has(n);
+  });
 
   const schemas = {
     discoveries: `{
@@ -150,18 +166,30 @@ async function generateItems(category, existingItems, count) {
       "Find 3 real, useful everyday tools or apps with working URLs. Focus on well-regarded tools that help with productivity, creativity, or daily life. Write descriptions detailed enough to explain the tool's value to someone who has never heard of it. CRITICAL: The websiteLink field MUST be a real, working URL to the tool's actual website (e.g., 'https://notion.so'). Never use placeholder or example URLs.",
   };
 
-  const prompt = `${categoryPrompts[category]}
+  const seedBlock = filteredSeeds.length
+    ? `
+REAL TRENDING ITEMS — pick the ${count} most interesting and fitting for Surfaced from this list.
+These are currently trending on Hacker News / GitHub / Product Hunt. You MUST use the EXACT name
+and EXACT URL from the chosen seed (do not invent, rename, or substitute). Only the copy
+(description/why fields/imageIdea/category/slug) is yours to write:
 
+${formatSeeds(filteredSeeds)}
+
+`
+    : "";
+
+  const prompt = `${categoryPrompts[category]}
+${seedBlock}
 EXISTING items to AVOID duplicating (these already exist): ${existingTitles}
 
 Return EXACTLY ${count} items as a JSON array. Each item must match this exact schema:
 ${schemas[category]}
 
 Rules:
-- All URLs must be real, publicly accessible websites
+- All URLs must be real, publicly accessible websites${filteredSeeds.length ? " — use the EXACT URL from the seed you picked" : ""}
 - imageIdea must be a concrete visual noun (e.g. "espresso machine coffee barista"), NEVER abstract concepts
 - slug must be kebab-case, unique, derived from the title/name
-- Descriptions should be engaging and informative
+- Descriptions should be engaging and informative — add depth, context, and specifics beyond the raw seed blurb
 - Today's date for reference: ${today}
 
 Return ONLY the JSON array, no markdown fencing, no explanation.`;
@@ -239,7 +267,11 @@ async function main() {
     for (const [category, filename] of Object.entries(FILES)) {
       console.log(`[${category}] Generating 5 new items...`);
       const existing = readJSON(filename);
-      const newItems = await generateItems(category, existing, 5);
+      const seeds = await getSeedsForCategory(category);
+      if (seeds.length) {
+        console.log(`[${category}] Seeded with ${seeds.length} real trending items (${[...new Set(seeds.map((s) => s.source))].join(", ")})`);
+      }
+      const newItems = await generateItems(category, existing, 5, seeds);
       console.log(
         `[${category}] Generated: ${newItems.map((i) => i.slug).join(", ")}`
       );
