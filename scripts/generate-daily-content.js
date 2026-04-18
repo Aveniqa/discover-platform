@@ -341,58 +341,31 @@ async function main() {
   const productsFile = path.join(DATA_DIR, "products.json");
   const allProducts = JSON.parse(fs.readFileSync(productsFile, "utf8"));
 
+  // Amazon uniformly serves a 404 "dogs of Amazon" page to any script-originated
+  // request regardless of UA/headers, so live /dp/<ASIN> validation rejects 100%
+  // of candidates (valid and bogus alike). We trust Gemini's ASIN + the 10-char
+  // format check; Gemini is instructed to return "" when not confident.
   const ASIN_REGEX = /^[A-Z0-9]{10}$/;
-  const AMAZON_UA =
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
-    "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
-
-  async function asinIsValid(asin) {
-    if (!ASIN_REGEX.test(asin)) return false;
-    try {
-      const ctrl = new AbortController();
-      const timer = setTimeout(() => ctrl.abort(), 8000);
-      const res = await fetch(`https://www.amazon.com/dp/${asin}`, {
-        method: "GET",
-        signal: ctrl.signal,
-        redirect: "follow",
-        headers: { "User-Agent": AMAZON_UA },
-      });
-      clearTimeout(timer);
-      if (res.status >= 400) return false;
-      // Amazon returns 200 for both valid products and its "didn't find that page" screen.
-      // Check the HTML for the not-found marker.
-      const text = await res.text();
-      if (/Looking for something\?|Page Not Found|dogsofamazon/i.test(text)) return false;
-      return true;
-    } catch {
-      return false;
-    }
-  }
 
   let affiliateCount = 0;
   let skippedDtc = 0;
   let asinDirectCount = 0;
 
-  // Validate all new ASINs concurrently in batches of 10 (each request has an 8 s timeout,
-  // so 10 parallel = worst-case 8 s per batch instead of 8 s × N sequentially).
-  const needsAsinCheck = allProducts.filter(
-    (p) => p.availableOnAmazon !== false && p.amazonAsin && (!p.affiliate || !p.affiliate.enabled)
-  );
-  const validatedDirectUrls = new Map(); // product object → direct URL | null
-  const ASIN_BATCH = 10;
-  for (let i = 0; i < needsAsinCheck.length; i += ASIN_BATCH) {
-    await Promise.all(
-      needsAsinCheck.slice(i, i + ASIN_BATCH).map(async (p) => {
-        const valid = await asinIsValid(p.amazonAsin);
-        if (valid) {
-          validatedDirectUrls.set(p, `https://www.amazon.com/dp/${p.amazonAsin}?tag=${AMAZON_TAG}&linkCode=ll1`);
-          asinDirectCount++;
-        } else {
-          console.warn(`  ⚠ Invalid ASIN for "${p.title}": ${p.amazonAsin} — falling back to search`);
-          delete p.amazonAsin;
-        }
-      })
+  const validatedDirectUrls = new Map(); // product object → direct URL
+  for (const p of allProducts) {
+    if (p.availableOnAmazon === false) continue;
+    if (!p.amazonAsin) continue;
+    if (p.affiliate && p.affiliate.enabled) continue;
+    if (!ASIN_REGEX.test(p.amazonAsin)) {
+      console.warn(`  ⚠ Malformed ASIN for "${p.title}": ${p.amazonAsin} — falling back to search`);
+      delete p.amazonAsin;
+      continue;
+    }
+    validatedDirectUrls.set(
+      p,
+      `https://www.amazon.com/dp/${p.amazonAsin}?tag=${AMAZON_TAG}&linkCode=ll1`
     );
+    asinDirectCount++;
   }
 
   for (const p of allProducts) {

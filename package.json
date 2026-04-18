@@ -10,6 +10,7 @@
     "lint": "eslint",
     "fetch-images": "tsx scripts/fetch-images.ts",
     "generate:og": "node scripts/generate-og-images.mjs",
+    "backfill:asins": "node scripts/backfill-asins.js",
     "generate:social": "node scripts/generate-social-posts.mjs",
     "publish:social": "node scripts/publish-social-posts.mjs"
   },
