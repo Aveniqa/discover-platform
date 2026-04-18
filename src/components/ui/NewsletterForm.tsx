@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 
-// Buttondown's public embed endpoint handles bot detection (Turnstile) natively.
-// Must be a real browser form POST — fetch calls are rejected by Turnstile.
+// Buttondown's embed endpoint uses Cloudflare Turnstile bot detection.
+// It requires a real browser form POST — fetch calls are rejected (400).
+// target="_blank" opens Buttondown's response in a new tab while onSubmit
+// shows the success state immediately on the main page.
 const EMBED_ACTION = "https://buttondown.email/api/emails/embed-subscribe/surfaced";
 
 export function NewsletterForm({
@@ -15,34 +17,26 @@ export function NewsletterForm({
 }) {
   const [submitted, setSubmitted] = useState(false);
 
-  // Hidden iframe absorbs the Buttondown POST response so no new tab opens
-  const iframe = <iframe name="buttondown-subscribe" style={{ display: "none" }} aria-hidden="true" />;
-
   if (submitted) {
     return (
-      <>
-        {iframe}
-        <div className="flex items-center gap-3 px-5 py-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-emerald shrink-0">
-            <path d="M4 10l4 4 8-8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          <span className="text-sm font-medium text-emerald">You&apos;re in. Check your inbox to confirm your subscription.</span>
-        </div>
-      </>
+      <div className="flex items-center gap-3 px-5 py-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-emerald shrink-0">
+          <path d="M4 10l4 4 8-8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <span className="text-sm font-medium text-emerald">You&apos;re in. Check your inbox to confirm your subscription.</span>
+      </div>
     );
   }
 
   if (variant === "minimal") {
     return (
-      <>
-        {iframe}
-        <form
-          action={EMBED_ACTION}
-          method="post"
-          target="buttondown-subscribe"
-          onSubmit={() => setSubmitted(true)}
-          className="flex gap-2"
-        >
+      <form
+        action={EMBED_ACTION}
+        method="post"
+        target="_blank"
+        onSubmit={() => setSubmitted(true)}
+        className="flex gap-2"
+      >
         <input
           type="email"
           name="email"
@@ -56,17 +50,14 @@ export function NewsletterForm({
           Join
         </button>
       </form>
-      </>
     );
   }
 
   return (
-    <>
-      {iframe}
-      <form
+    <form
       action={EMBED_ACTION}
       method="post"
-      target="buttondown-subscribe"
+      target="_blank"
       onSubmit={() => setSubmitted(true)}
       className="flex flex-col sm:flex-row gap-3 max-w-md"
     >
@@ -83,6 +74,5 @@ export function NewsletterForm({
         Subscribe Free
       </button>
     </form>
-    </>
   );
 }
