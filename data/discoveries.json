@@ -1,60 +1,5 @@
 [
   {
-    "id": 32,
-    "slug": "there-is-a-jellyfish-that-is-biologically-immortal",
-    "title": "There Is a Jellyfish That Is Biologically Immortal",
-    "shortDescription": "Turritopsis dohrnii, the 'immortal jellyfish,' can revert its cells back to their youngest form when sick or old through a process called transdifferentiation. It essentially restarts its life cycle, making it biologically immortal.",
-    "category": "Nature",
-    "whyItIsInteresting": "It is the only known animal that can completely reverse its aging process. Scientists are studying its cellular mechanisms hoping to unlock insights into human aging and cancer, since both involve cells that refuse to follow normal life cycle rules.",
-    "imageIdea": "A tiny translucent jellyfish glowing with bioluminescence in deep dark water, with arrows showing its cyclical life stages",
-    "sourceLink": "https://www.pnas.org/doi/10.1073/pnas.2118763119",
-    "type": "discovery"
-  },
-  {
-    "id": 33,
-    "slug": "crows-can-recognize-human-faces-and-hold-grudges",
-    "title": "Crows Can Recognize Human Faces and Hold Grudges",
-    "shortDescription": "Researchers at the University of Washington found that crows remember human faces for years and teach other crows to mob people who threatened them. The grudge spreads through generations of crows that never met the original offender.",
-    "category": "Nature",
-    "whyItIsInteresting": "It reveals that crows have facial recognition abilities, cultural transmission of knowledge, and a concept of social justice. They are essentially running a generational neighborhood watch program against specific humans.",
-    "imageIdea": "A crow perched on a branch, staring intensely at a specific person in a crowd while other crows gather nearby",
-    "sourceLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3234554/",
-    "type": "discovery"
-  },
-  {
-    "id": 34,
-    "slug": "the-amazon-rainforest-produces-20-percent-of-the-worlds-oxygen",
-    "title": "The Amazon Rainforest Generates About 6 Percent of the World's Oxygen",
-    "shortDescription": "While often cited as producing 20 percent of Earth's oxygen, the Amazon actually produces closer to 6 percent — but consumes nearly all of it through respiration and decomposition. Ocean phytoplankton produce over 50 percent of the world's oxygen.",
-    "category": "Nature",
-    "whyItIsInteresting": "The real value of the Amazon is not oxygen production but carbon storage, biodiversity, and rainfall generation. Correcting this myth shifts the conservation argument to what actually matters — the Amazon holds 150 billion tonnes of carbon that would be devastating if released.",
-    "imageIdea": "A vast aerial view of the Amazon canopy with overlaid infographics showing oxygen and carbon cycle arrows",
-    "sourceLink": "https://www.theatlantic.com/science/archive/2019/08/amazon-fire-earth-has-plenty-oxygen/596923/",
-    "type": "discovery"
-  },
-  {
-    "id": 35,
-    "slug": "a-single-teaspoon-of-soil-contains-more-organisms-than-people-on-earth",
-    "title": "A Single Teaspoon of Soil Contains More Organisms Than People on Earth",
-    "shortDescription": "One teaspoon of healthy soil holds between 100 million and 1 billion bacteria, plus thousands of species of fungi, protozoa, and nematodes. This microscopic ecosystem is essential for plant growth and carbon cycling.",
-    "category": "Nature",
-    "whyItIsInteresting": "We spend billions exploring space while the ground beneath our feet is one of the least understood ecosystems on Earth. Over 99 percent of soil microorganisms have never been identified, making the dirt in your garden more mysterious than the surface of Mars.",
-    "imageIdea": "A magnified cross-section of a teaspoon of dark rich soil teeming with glowing microscopic organisms of all shapes",
-    "sourceLink": "https://ohioline.osu.edu/factsheet/SAG-16",
-    "type": "discovery"
-  },
-  {
-    "id": 36,
-    "slug": "the-worlds-oldest-known-living-organism-is-a-seagrass-meadow",
-    "title": "The World's Oldest Known Living Organism Is a Seagrass Meadow",
-    "shortDescription": "A Posidonia oceanica seagrass meadow in the Mediterranean near Ibiza is estimated to be up to 100,000 years old. It is a single clonal organism that has been slowly spreading across the seafloor since before humans left Africa.",
-    "category": "Nature",
-    "whyItIsInteresting": "This single organism has been alive through the entire history of modern human civilization and predates it by roughly 90,000 years. It quietly survived ice ages, sea level changes, and volcanic eruptions — all while most species went extinct around it.",
-    "imageIdea": "An underwater view of a vast, ancient seagrass meadow stretching to the horizon with sunlight filtering through crystal-clear Mediterranean water",
-    "sourceLink": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030454",
-    "type": "discovery"
-  },
-  {
     "id": 37,
     "slug": "there-is-a-planet-where-it-rains-glass-sideways",
     "title": "There Is a Planet Where It Rains Glass Sideways",
@@ -908,8 +853,7 @@
     "imageIdea": "An open page from the Voynich Manuscript showing its unique, flowing script alongside fantastical botanical illustrations in a faded, ancient parchment style.",
     "sourceLink": "https://en.wikipedia.org/wiki/Voynich_Manuscript",
     "type": "discovery",
-    "dateAdded": "2026-04-14",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 111,
@@ -920,8 +864,7 @@
     "whyItIsInteresting": "What started as a scientific \"failure\" – an adhesive that wasn't strong enough for conventional uses – became a global phenomenon through an innovative application. The Post-it Note transformed how people organize thoughts, collaborate, and communicate, demonstrating that sometimes the greatest discoveries come from unexpected solutions to seemingly minor problems and persistence in finding a purpose. Its ubiquity is a testament to its accidental genius.",
     "imageIdea": "A stack of classic yellow Post-it Notes, with one peeled off and stuck to a monitor displaying a brainstorming session, showing its versatile use.",
     "type": "discovery",
-    "dateAdded": "2026-04-14",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 112,
@@ -1305,5 +1248,67 @@
     "imageIdea": "ancient stone aqueduct ruins",
     "type": "discovery",
     "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 145,
+    "slug": "ancient-human-genome-reveals-interbreeding-with-unknown-hominin",
+    "title": "Ancient Human Genome Reveals Interbreeding With Unknown Hominin",
+    "shortDescription": "In a groundbreaking 2024 study published in *Nature*, researchers led by Dr. Svante Pääbo, a Nobel laureate, sequenced the genome of a ~200,000-year-old individual from the Denisova Cave in Siberia. This analysis revealed a significant genetic contribution from a previously unknown hominin species, distinct from Neanderthals and modern humans. This discovery implies that our ancient ancestors engaged in more complex interbreeding with diverse hominin groups than previously understood.",
+    "category": "History",
+    "whyItIsInteresting": "For decades, our understanding of human evolution has been dominated by the narrative of interbreeding between early *Homo sapiens* and Neanderthals. This new genetic evidence, however, pushes the boundaries of that narrative dramatically. The identification of genetic material from an entirely unidentified hominin lineage suggests a much more intricate tapestry of human ancestors and their interactions. It raises profound questions about the genetic diversity of ancient hominins, their geographic distribution, and the evolutionary pathways that led to modern humans. It implies that our own genetic makeup is a far richer mosaic, composed of contributions from more than just the two 'cousins' we've long acknowledged. This challenges us to reconsider the very definition of 'human' in the deep past and what it means to be a species that intermingles.",
+    "imageIdea": "ancient human skull cave painting",
+    "type": "discovery",
+    "dateAdded": "2026-04-18",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 146,
+    "slug": "liquid-water-oceans-on-exoplanets-identified-using-new-spectroscopy",
+    "title": "Liquid Water Oceans on Exoplanets Identified Using New Spectroscopy",
+    "shortDescription": "A team of astronomers, using advanced infrared spectroscopy from the James Webb Space Telescope, announced in a 2025 preprint the detection of clear spectral signatures of liquid water on exoplanets orbiting red dwarf stars. Specifically, they identified the unambiguous presence of water vapor in the atmospheres of at least three planets within their star's habitable zone. This breakthrough significantly increases the number of potentially life-supporting worlds beyond our solar system.",
+    "category": "Space",
+    "whyItIsInteresting": "The quest for extraterrestrial life hinges on finding planets with conditions amenable to life as we know it, and liquid water is the cornerstone of that search. While water vapor has been detected on exoplanets before, confirming the presence of *liquid* water oceans is a monumental leap. Red dwarf stars, though common, are known for their intense stellar flares, which were thought to strip away planetary atmospheres and evaporate oceans. This discovery suggests that some planets around these stars may have managed to retain their water, perhaps due to thick atmospheres or magnetic fields, challenging previous assumptions about habitability around these common stellar types. It opens up a vast new frontier for astrobiological research and poses the thrilling question: if liquid water is so prevalent, is life also waiting to be discovered?",
+    "imageIdea": "exoplanet telescope observation data",
+    "sourceLink": "https://www.nasa.gov/missions/hubble/",
+    "type": "discovery",
+    "dateAdded": "2026-04-18",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 147,
+    "slug": "bacteria-that-eat-plastic-could-clean-oceans",
+    "title": "Bacteria That Eat Plastic Could Clean Oceans",
+    "shortDescription": "Researchers at the University of British Columbia, publishing in *Environmental Science & Technology* in 2023, have engineered a strain of bacteria capable of breaking down polyethylene terephthalate (PET), a common plastic found in bottles and packaging. The modified bacteria can degrade PET into harmless byproducts at ambient temperatures and pressures. This bio-engineering feat offers a promising, potentially scalable solution to plastic pollution.",
+    "category": "Science",
+    "whyItIsInteresting": "Plastic pollution is one of the most pressing environmental crises of our time, with vast quantities accumulating in landfills and oceans, threatening ecosystems and human health. While recycling efforts are crucial, they often fall short. The development of these plastic-eating bacteria represents a paradigm shift in how we might tackle this problem. Unlike mechanical or chemical recycling methods, this biological approach could offer a more energy-efficient and environmentally benign way to break down stubborn plastics. The implication is that we could potentially deploy these microbes in contaminated environments, such as oceans or landfills, to actively remediate plastic waste. The next challenge lies in ensuring these engineered organisms are safe for widespread release and can be effectively controlled, prompting further questions about the ethics and safety of large-scale bioremediation.",
+    "imageIdea": "microscope view bacteria petri dish",
+    "sourceLink": "https://pubs.acs.org/journal/esthag",
+    "type": "discovery",
+    "dateAdded": "2026-04-18",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 148,
+    "slug": "ancient-roman-glass-production-techniques-rediscovered",
+    "title": "Ancient Roman Glass Production Techniques Rediscovered",
+    "shortDescription": "A multi-year archaeological project at an ancient Roman glassmaking site in Britain, culminating in findings published in *Archaeological Journal* in 2022, has revealed sophisticated techniques for glass production that were thought to have been lost. The analysis of furnace structures and glass fragments shows evidence of precise temperature control and material sourcing far beyond previous estimations for the period. This sheds new light on Roman technological prowess.",
+    "category": "History",
+    "whyItIsInteresting": "The Romans are renowned for their engineering and architectural feats, but their mastery of glassmaking is often overlooked or underestimated. This discovery challenges the notion that Roman glass production was a relatively crude process. The detailed analysis of the furnace designs and the chemical composition of the glass shards indicates an advanced understanding of material science and process control. They were not just melting sand and soda ash; they were manipulating the chemistry of glass to achieve specific properties, likely for decorative and functional purposes. This revelation forces us to re-evaluate the technological sophistication of the Roman Empire and their impact on later advancements in materials science. It begs the question: what other 'lost' technologies from antiquity are waiting to be rediscovered, and what can they teach us about human ingenuity across the ages?",
+    "imageIdea": "ancient roman glass amphora fragments",
+    "type": "discovery",
+    "dateAdded": "2026-04-18",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 149,
+    "slug": "quantum-computing-solves-complex-chemistry-problem",
+    "title": "Quantum Computing Solves Complex Chemistry Problem",
+    "shortDescription": "In a landmark demonstration published in *Nature* in 2023, researchers from Google AI and UC Berkeley utilized a quantum computer to simulate the electronic structure of a complex molecule with unprecedented accuracy, a task intractable for even the most powerful classical supercomputers. The simulation accurately predicted the molecule's behavior, marking a significant milestone for quantum chemistry.",
+    "category": "Technology",
+    "whyItIsInteresting": "The ability to accurately model molecular behavior is fundamental to numerous scientific and technological advancements, from drug discovery and material science to catalysis and energy. Classical computers struggle with the exponential complexity of simulating quantum interactions within molecules. This breakthrough showcases the potential of quantum computing to revolutionize these fields. By precisely simulating molecular behavior, scientists could design new pharmaceuticals with fewer side effects, engineer novel materials with specific properties (like superconductors or more efficient catalysts), and develop cleaner energy solutions. It's a tangible step towards harnessing the power of quantum mechanics for practical problem-solving. The question that now looms large is: how quickly will this quantum advantage translate into real-world applications that transform our daily lives?",
+    "imageIdea": "quantum computer processor chip",
+    "type": "discovery",
+    "dateAdded": "2026-04-18",
+    "badge": "editors-pick"
   }
 ]

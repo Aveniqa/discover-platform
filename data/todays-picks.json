@@ -1,46 +1,46 @@
 [
   {
-    "slug": "ancient-maya-water-management-complex-discovered",
-    "title": "Vast Ancient Maya Water Management Complex Discovered",
+    "slug": "quantum-computing-solves-complex-chemistry-problem",
+    "title": "Quantum Computing Solves Complex Chemistry Problem",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Archaeologists have uncovered an extensive subterranean water management system used by the ancient Maya. This sophistic",
-    "badge": null,
+    "description": "In a landmark demonstration published in *Nature* in 2023, researchers from Google AI and UC Berkeley utilized a quantum",
+    "badge": "editors-pick",
     "type": "discovery"
   },
   {
-    "slug": "samsung-galaxy-ring",
-    "title": "Samsung Galaxy Ring",
+    "slug": "prodshort-meeting-to-content",
+    "title": "ProdShort",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "Samsung's first smart ring designed to track health and wellness metrics discreetly. Monitor sleep, heart rate, and acti",
+    "description": "ProdShort transforms spoken content from your meetings into ready-to-post social media shorts and posts, addressing the ",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "readlang-translate-text",
-    "title": "Readlang",
+    "slug": "claude-design",
+    "title": "Claude Design",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Readlang is a browser extension that helps you learn languages by translating words and phrases directly on web pages. Y",
+    "description": "Claude Design is an experimental initiative by Anthropic that explores the potential of large language models, like Clau",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "ai-driven-personalized-education-platforms",
-    "title": "AI-Driven Personalized Education Platforms",
+    "slug": "claude-tokenizer-cost-measurement",
+    "title": "LLM Tokenizer Cost Analysis",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "Emerging AI platforms are now providing highly individualized learning experiences, adapting curricula and teaching meth",
+    "description": "This investigative piece provides a detailed analysis of the cost implications of Claude 4.7's new tokenizer system. The",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "streamlit-python-data-apps",
-    "title": "Streamlit",
+    "slug": "stitch-2-0",
+    "title": "Stitch 2.0 by Google",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine",
+    "description": "Stitch 2.0 is an AI-native design partner that enables the creation of beautiful, production-ready UI in seconds. It all",
     "badge": null,
     "type": "tool"
   }

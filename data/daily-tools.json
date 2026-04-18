@@ -1,60 +1,5 @@
 [
   {
-    "id": 32,
-    "slug": "coursera",
-    "toolName": "Coursera",
-    "whatItDoes": "Online learning platform offering courses, certificates, and degrees from Stanford, Google, IBM, and 300+ universities and companies. Covers tech, business, data science, and humanities.",
-    "category": "Learning",
-    "whyItIsUseful": "You can audit most courses for free and only pay if you want a certificate. Getting a Stanford-quality education from your couch is the closest thing to a cheat code for career growth.",
-    "websiteLink": "https://www.coursera.org",
-    "type": "tool",
-    "imageIdea": "online course lecture university diploma"
-  },
-  {
-    "id": 33,
-    "slug": "anki",
-    "toolName": "Anki",
-    "whatItDoes": "Free spaced repetition flashcard app backed by cognitive science. Schedules reviews at optimal intervals to maximize long-term retention. Supports images, audio, cloze deletions, and shared decks.",
-    "category": "Learning",
-    "whyItIsUseful": "Medical students, language learners, and bar exam preppers swear by it because spaced repetition is the single most evidence-backed study technique. It is free and endlessly customizable.",
-    "websiteLink": "https://apps.ankiweb.net",
-    "type": "tool",
-    "imageIdea": "flashcard spaced repetition study cards"
-  },
-  {
-    "id": 34,
-    "slug": "codecademy",
-    "toolName": "Codecademy",
-    "whatItDoes": "Interactive coding education platform with hands-on exercises in Python, JavaScript, SQL, and 14+ languages. Includes career paths, projects, and an in-browser code editor so you learn by doing.",
-    "category": "Learning",
-    "whyItIsUseful": "Learning to code by reading is like learning to swim by reading. Codecademy forces you to write real code from lesson one, which is how programming actually sticks.",
-    "websiteLink": "https://www.codecademy.com",
-    "type": "tool",
-    "imageIdea": "interactive coding lesson terminal browser"
-  },
-  {
-    "id": 35,
-    "slug": "zotero",
-    "toolName": "Zotero",
-    "whatItDoes": "Free reference management tool that saves research papers with one click, organizes them into collections, extracts metadata automatically, and generates citations in 10,000+ styles.",
-    "category": "Learning",
-    "whyItIsUseful": "It turns the nightmare of managing hundreds of research sources into a one-click operation. The browser extension grabs the full citation from any journal, newspaper, or website instantly.",
-    "websiteLink": "https://www.zotero.org",
-    "type": "tool",
-    "imageIdea": "reference manager citation library papers"
-  },
-  {
-    "id": 36,
-    "slug": "davinci-resolve",
-    "toolName": "DaVinci Resolve",
-    "whatItDoes": "Professional video editing, color grading, visual effects, and audio post-production in a single application. The free version includes nearly all features used by Hollywood studios.",
-    "category": "Media",
-    "whyItIsUseful": "It is the only truly professional video editor with a free tier that does not watermark or time-limit exports. Its color grading is used on actual feature films.",
-    "websiteLink": "https://www.blackmagicdesign.com/products/davinciresolve",
-    "type": "tool",
-    "imageIdea": "video editing color grading timeline"
-  },
-  {
     "id": 37,
     "slug": "audacity",
     "toolName": "Audacity",
@@ -967,8 +912,7 @@
     "imageIdea": "A block of text styled like a newspaper column, with the iconic 'Lorem Ipsum' phrase highlighted at the top, on a web browser interface.",
     "websiteLink": "https://www.lipsum.com/",
     "type": "tool",
-    "dateAdded": "2026-04-14",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 118,
@@ -1065,5 +1009,65 @@
     "websiteLink": "https://streamlit.io/",
     "type": "tool",
     "dateAdded": "2026-04-17"
+  },
+  {
+    "id": 133,
+    "slug": "mempalace",
+    "toolName": "mempalace",
+    "whatItDoes": "mempalace is an open-source AI memory system designed to store, retrieve, and organize vast amounts of information, acting as an external brain for users. It aims to provide a highly efficient and benchmarked solution for managing personal knowledge, research, or creative project data. The system is free to use, offering a powerful alternative to proprietary solutions for those who value data ownership and customizability. It excels at enabling rapid recall and contextual linking of information, making it a standout for deep research dives.",
+    "category": "Productivity",
+    "whyItIsUseful": "mempalace offers unparalleled control and performance for individuals managing extensive digital knowledge bases. Its open-source nature means it's constantly being improved by a community, ensuring it stays at the cutting edge of AI memory technology without recurring costs. Users can integrate it with their existing workflows, creating a seamless extension of their own cognitive processes. Enthusiasts highlight its ability to connect seemingly disparate pieces of information, leading to novel insights and accelerating creative output. It's particularly valuable for academics, researchers, writers, and anyone who needs to synthesize and access large volumes of complex data efficiently.",
+    "imageIdea": "digital brain data network",
+    "websiteLink": "https://github.com/MemPalace/mempalace",
+    "type": "tool",
+    "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 134,
+    "slug": "nuwa-skill",
+    "toolName": "nuwa-skill",
+    "whatItDoes": "nuwa-skill is a groundbreaking AI tool that allows you to distill and replicate the thinking patterns and cognitive models of any individual. Instead of just learning information, it helps you understand *how* someone arrives at their conclusions, their decision-making heuristics, and their unique communication style. This is achieved through advanced AI analysis, creating a digital 'mind model' that can be studied and applied. It's particularly adept at capturing complex strategic thinking and problem-solving approaches, offering a unique way to learn from experts.",
+    "category": "Education",
+    "whyItIsUseful": "This tool provides an unprecedented opportunity to learn from the best minds in any field, not just by consuming their output, but by understanding their underlying thought processes. Imagine being able to internalize the strategic genius of a business leader, the creative methodology of an artist, or the analytical rigor of a scientist. nuwa-skill facilitates this deep learning, allowing users to enhance their own decision-making, problem-solving, and communication skills. It’s invaluable for aspiring professionals, students seeking advanced learning, and anyone looking to elevate their cognitive abilities by deconstructing expert thinking.",
+    "imageIdea": "human brain with gears",
+    "websiteLink": "https://github.com/alchaincyf/nuwa-skill",
+    "type": "tool",
+    "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 135,
+    "slug": "gbrain",
+    "toolName": "gbrain",
+    "whatItDoes": "gbrain is an opinionated, open-source agent brain built on the OpenClaw/Hermes framework, designed to empower advanced AI agents. It provides a structured and intelligent core for agents to process information, make decisions, and execute tasks within complex environments. Developed with specific design choices in mind, gbrain aims to offer a robust and efficient foundation for building sophisticated AI assistants and autonomous systems. Its strength lies in providing a coherent and opinionated architecture that simplifies the development of highly capable AI agents.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers working on cutting-edge AI agents, gbrain offers a powerful, pre-architected 'brain' that significantly accelerates development time. Instead of building a decision-making and processing core from scratch, developers can leverage gbrain's well-defined structure and intelligent capabilities. This allows them to focus on higher-level agent behaviors and specific task implementations. Its opinionated design means it comes with built-in best practices, reducing the chances of common pitfalls. Gbrain is ideal for researchers, AI enthusiasts, and professional developers looking to create sophisticated, autonomous agents for various applications.",
+    "imageIdea": "ai robot circuit board",
+    "websiteLink": "https://github.com/garrytan/gbrain",
+    "type": "tool",
+    "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 136,
+    "slug": "brila",
+    "toolName": "Brila",
+    "whatItDoes": "Brila is an innovative website builder that generates one-page websites directly from your real Google Maps reviews. Unlike traditional website builders that rely on generic templates and require extensive content creation, Brila leverages authentic customer feedback to craft compelling narratives. It intelligently analyzes reviews to highlight key customer sentiments and reasons for choosing your business, ensuring your website speaks directly to potential clients. Brila offers a unique, content-first approach to web design, making it incredibly efficient for small businesses wanting a professional online presence without the hassle.",
+    "category": "Design",
+    "whyItIsUseful": "Brila solves the common problem of creating a business website that feels authentic and persuasive. By using actual customer testimonials and insights from Google Maps, it builds trust and credibility from the outset, which is far more effective than fabricated copy. This means businesses can launch a professional-looking, content-rich website in a fraction of the time and cost typically associated with web development. Users benefit from a site that automatically highlights their unique selling propositions as perceived by their customers. It's perfect for local businesses, service providers, and restaurants that rely heavily on word-of-mouth and online reviews.",
+    "imageIdea": "website template with customer reviews",
+    "websiteLink": "https://www.producthunt.com/r/2ENSJE4L7JILGP",
+    "type": "tool",
+    "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 137,
+    "slug": "stitch-2-0",
+    "toolName": "Stitch 2.0 by Google",
+    "whatItDoes": "Stitch 2.0 is an AI-native design partner that enables the creation of beautiful, production-ready UI in seconds. It allows designers and developers to express their vision using natural language, voice commands, and context-aware agents. Stitch 2.0 facilitates seamless iteration and collaboration across images, code, and text, streamlining the entire UI design and development workflow. Its core value proposition is turning design concepts into high-fidelity interfaces with unprecedented speed and intelligence, effectively acting as a creative co-pilot.",
+    "category": "Design",
+    "whyItIsUseful": "Stitch 2.0 revolutionizes UI design by dramatically reducing the time and effort required to bring digital products to life. Its AI capabilities understand design intent, allowing users to generate complex interfaces from simple prompts, and iterate rapidly based on feedback. The tool bridges the gap between design and development by producing production-ready code, minimizing handoff friction. This makes it invaluable for startups, design agencies, and development teams aiming for agile workflows and faster product launches. Users can explore more design possibilities and refine their interfaces with greater ease and efficiency.",
+    "imageIdea": "ui design mockup with ai interface",
+    "websiteLink": "https://www.producthunt.com/r/FCKF6O6HKHV32R",
+    "type": "tool",
+    "dateAdded": "2026-04-18"
   }
 ]

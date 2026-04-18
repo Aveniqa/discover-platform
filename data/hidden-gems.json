@@ -1,65 +1,5 @@
 [
   {
-    "id": 31,
-    "slug": "evidence",
-    "name": "Evidence",
-    "whatItDoes": "A code-driven business intelligence tool that lets you build polished data reports and dashboards using SQL and Markdown. It generates static sites from your queries, making reports fast and easily shareable.",
-    "category": "Data & Analytics",
-    "whyItIsUseful": "It brings the reproducibility of code to business reporting without requiring a full engineering stack. Analysts can version-control their dashboards and deploy them like a website.",
-    "websiteLink": "https://evidence.dev",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fevidence.dev&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "business intelligence dashboard charts code"
-  },
-  {
-    "id": 32,
-    "slug": "datasette",
-    "name": "Datasette",
-    "whatItDoes": "An open-source tool for exploring and publishing data stored in SQLite databases. It instantly turns any dataset into an interactive, searchable, API-enabled website.",
-    "category": "Data & Analytics",
-    "whyItIsUseful": "It makes data exploration and sharing incredibly simple without standing up a database server. Journalists, researchers, and developers use it to publish structured data in minutes.",
-    "websiteLink": "https://datasette.io",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdatasette.io&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "database explorer table data browser"
-  },
-  {
-    "id": 33,
-    "slug": "rawgraphs",
-    "name": "RAWGraphs",
-    "whatItDoes": "An open-source data visualization framework that creates complex charts from tabular data without coding. It supports uncommon chart types like alluvial diagrams, beeswarm plots, and treemaps.",
-    "category": "Data & Analytics",
-    "whyItIsUseful": "It fills the gap between basic Excel charts and programmatic tools like D3.js. You can produce publication-quality visualizations by simply pasting data and choosing a chart type.",
-    "websiteLink": "https://rawgraphs.io",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Frawgraphs.io&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "data visualization custom chart colorful"
-  },
-  {
-    "id": 34,
-    "slug": "quadratic",
-    "name": "Quadratic",
-    "whatItDoes": "A modern spreadsheet with built-in Python, SQL, and AI capabilities that runs in the browser. It combines the familiarity of a grid interface with the power of code-based data analysis.",
-    "category": "Data & Analytics",
-    "whyItIsUseful": "It eliminates the friction of moving data between spreadsheets and code notebooks. Analysts can write Python formulas right in cells while non-technical collaborators still see a familiar spreadsheet.",
-    "websiteLink": "https://www.quadratichq.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.quadratichq.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "spreadsheet python formula data grid"
-  },
-  {
-    "id": 35,
-    "slug": "observable",
-    "name": "Observable",
-    "whatItDoes": "A collaborative platform for building interactive data visualizations and dashboards using JavaScript notebooks. It provides reactive cells that update in real time as data or code changes.",
-    "category": "Data & Analytics",
-    "whyItIsUseful": "It makes D3.js and data exploration accessible through a notebook interface with instant feedback. The reactive paradigm means changing one value automatically cascades through all dependent charts and calculations.",
-    "websiteLink": "https://observablehq.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fobservablehq.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "interactive data notebook visualization"
-  },
-  {
     "id": 36,
     "slug": "cal-com",
     "name": "Cal.com",
@@ -1225,5 +1165,70 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-17",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Freadlang.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 153,
+    "slug": "boringbar",
+    "name": "boringBar",
+    "whatItDoes": "boringBar is a lightweight, macOS-native taskbar-style dock replacement that aims to simplify your workflow by presenting open applications and essential system information in a clean, unobtrusive bar at the top of your screen. It's designed for users who find the default macOS Dock distracting or prefer a more minimalist interface. For example, a graphic designer could use boringBar to keep track of their open Adobe Suite applications and quickly switch between them without cluttering their main desktop space.",
+    "category": "Productivity",
+    "whyItIsUseful": "This tool is particularly useful for macOS users who want a more efficient and less visually demanding way to manage their open applications. Unlike the default Dock which can become crowded, boringBar offers a streamlined, taskbar-like experience reminiscent of other operating systems. Its simplicity is its strength, allowing for quick glances and application switching without taking up prime screen real estate. Power users appreciate its minimal impact on system resources and its unobtrusive design, making it ideal for those who prioritize focus and efficiency in their digital workspace. It's a refreshing alternative for anyone tired of the default macOS aesthetic.",
+    "imageIdea": "minimalist black bar on a macbook screen",
+    "websiteLink": "https://boringbar.app/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-18",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fboringbar.app%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 154,
+    "slug": "smol-machines",
+    "name": "Smol machines",
+    "whatItDoes": "Smol machines are incredibly small, portable virtual machines designed for sub-second coldstarts. They allow you to package and run applications with their dependencies in a lightweight, isolated environment, ensuring consistency across different systems. This is particularly beneficial for developers needing to test or deploy applications quickly and reliably. For instance, a developer could package a web server application with its specific runtime and libraries into a smol machine to guarantee it runs identically in development, staging, and production.",
+    "category": "Developer",
+    "whyItIsUseful": "Smol machines offer a unique advantage in the world of virtualization by prioritizing extreme speed and portability. Their sub-second coldstart times dramatically reduce overhead compared to traditional VMs or containers, making them ideal for scenarios where rapid deployment and execution are critical. The focus on small size means less storage and faster transfer. Developers and system administrators who need to spin up ephemeral environments or run isolated processes with minimal delay will find this invaluable. It's a niche but powerful tool for optimizing performance and resource usage in compute-intensive or rapidly iterating workflows.",
+    "imageIdea": "tiny, glowing computer chip",
+    "websiteLink": "https://github.com/smol-machines/smolvm",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-18",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fsmol-machines%2Fsmolvm&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 155,
+    "slug": "interval-calculator",
+    "name": "Interval Calculator",
+    "whatItDoes": "This is a specialized calculator designed to perform operations on disjoint sets of intervals. It allows users to input multiple, non-overlapping ranges and then perform calculations such as union, intersection, difference, and more, outputting the resulting set of intervals. It's built by Victor Poughon and is useful for anyone working with mathematical or computational problems involving ranges. A researcher analyzing data that is only valid within specific time windows could use this calculator to efficiently find the combined valid periods after several distinct data collection phases.",
+    "category": "Developer",
+    "whyItIsUseful": "While seemingly simple, this interval calculator addresses a specific mathematical challenge that is often cumbersome to handle manually or with generic tools. Its ability to manage and calculate over disjoint sets of intervals provides a clean and accurate solution for complex range-based problems. For individuals in fields like mathematics, computer science, or data analysis who frequently deal with interval arithmetic, this tool offers precision and efficiency. It's a testament to how focused, well-executed tools can solve problems that larger, more general-purpose software might overlook or complicate.",
+    "imageIdea": "overlapping color bands on a graph",
+    "websiteLink": "https://victorpoughon.github.io/interval-calculator/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-18",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fvictorpoughon.github.io%2Finterval-calculator%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 156,
+    "slug": "paniclock",
+    "name": "PanicLock",
+    "whatItDoes": "PanicLock is a macOS utility that enhances security by disabling Touch ID and requiring a full password unlock when your MacBook's lid is closed. This prevents unauthorized access if your device is stolen or accessed without your knowledge while you're away from your desk. It's particularly useful for individuals working with sensitive data who need an extra layer of protection beyond standard lock screen settings. A remote worker at a coffee shop could use PanicLock to ensure that even if their laptop is briefly unattended, it cannot be woken and accessed via fingerprint.",
+    "category": "Developer",
+    "whyItIsUseful": "In an era where laptops are carried everywhere, PanicLock provides a crucial security enhancement that many users might not realize they need. By forcing a password input after lid closure, it mitigates a potential security vulnerability where a quick lid-close might not fully secure the machine against quick access. It's a straightforward yet effective tool for users who prioritize robust security, especially those in fields like finance, law, or government. Power users often appreciate the granular control and the peace of mind it offers without significantly impacting daily usability.",
+    "imageIdea": "padlock icon superimposed on a laptop lid",
+    "websiteLink": "https://github.com/paniclock/paniclock/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-18",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fpaniclock%2Fpaniclock%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 157,
+    "slug": "claude-design",
+    "name": "Claude Design",
+    "whatItDoes": "Claude Design is an experimental initiative by Anthropic that explores the potential of large language models, like Claude, in the creative process of design. It showcases how AI can be used as a collaborative partner for generating design concepts, iterating on ideas, and even producing visual elements. This tool is aimed at designers, artists, and anyone interested in the intersection of AI and creativity. A product designer could use Claude Design to brainstorm initial interface layouts for a new app, providing prompts to generate various visual directions before committing to a specific path.",
+    "category": "Design",
+    "whyItIsUseful": "Claude Design represents a forward-thinking exploration of AI's role in the creative industries. While AI art generators are becoming more common, this initiative delves deeper into using LLMs as a conceptual and iterative design tool, pushing the boundaries of what's possible. It's less about a polished, end-user product and more about demonstrating research and future capabilities. Designers looking for inspiration, ways to accelerate early-stage ideation, or simply to understand the evolving landscape of AI in design will find this area of research particularly compelling.",
+    "imageIdea": "abstract geometric shapes generated by AI",
+    "websiteLink": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-18",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fclaude-design-anthropic-labs&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

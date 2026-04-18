@@ -1,101 +1,5 @@
 [
   {
-    "id": 29,
-    "slug": "secretlab-titan-evo-gaming-chair",
-    "title": "Secretlab TITAN Evo Gaming Chair",
-    "shortDescription": "An ergonomic gaming chair with 4-way lumbar support, cold-cure foam, and magnetic accessories. Available in fabric, leatherette, and NAPA leather finishes.",
-    "category": "Gaming",
-    "whyItIsInteresting": "It bridges the gap between gaming aesthetics and genuine ergonomic support. The magnetic headrest and armrest system lets you customize comfort precisely.",
-    "imageIdea": "Premium gaming chair at a multi-monitor setup with ambient lighting",
-    "sourceLink": "https://secretlab.co",
-    "estimatedPriceRange": "$449–$699",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Secretlab+TITAN+Evo+Gaming+Chair&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Secretlab+TITAN+Evo+Gaming+Chair&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Secretlab+TITAN+Evo+Gaming+Chair"
-  },
-  {
-    "id": 30,
-    "slug": "razer-blackwidow-v4-75-percent-keyboard",
-    "title": "Razer BlackWidow V4 75% Mechanical Keyboard",
-    "shortDescription": "A compact 75% mechanical gaming keyboard with hot-swappable switches, RGB underglow, a rotary encoder knob, and a comfortable wrist rest included.",
-    "category": "Gaming",
-    "whyItIsInteresting": "The 75% layout saves desk space without losing essential keys. Hot-swappable switches mean you can change the feel without buying a new keyboard.",
-    "imageIdea": "Compact mechanical keyboard with RGB lighting and rotary knob on a desk",
-    "sourceLink": "https://www.razer.com",
-    "estimatedPriceRange": "$159–$189",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Razer+BlackWidow+V4+75%25+Mechanical+Keyboard&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Razer+BlackWidow+V4+75%25+Mechanical+Keyboard&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Razer+BlackWidow+V4+75%25+Mechanical+Keyboard"
-  },
-  {
-    "id": 31,
-    "slug": "sony-alpha-a7c-ii-mirrorless-camera",
-    "title": "Sony Alpha a7C II Mirrorless Camera",
-    "shortDescription": "A full-frame mirrorless camera in a compact rangefinder-style body. 33MP sensor, 5-axis stabilization, real-time eye AF, and 4K 60p video recording.",
-    "category": "Photography",
-    "whyItIsInteresting": "It fits a full-frame sensor into a body barely larger than an APS-C camera. The autofocus system tracks eyes, animals, and vehicles with uncanny precision.",
-    "imageIdea": "Compact mirrorless camera held up capturing a golden hour landscape",
-    "sourceLink": "https://www.sony.com",
-    "estimatedPriceRange": "$1,798–$2,198",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Sony+Alpha+a7C+II+Mirrorless+Camera&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Sony+Alpha+a7C+II+Mirrorless+Camera&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sony+Alpha+a7C+II+Mirrorless+Camera",
-    "badge": "great-gift"
-  },
-  {
-    "id": 32,
-    "slug": "dji-air-3-drone",
-    "title": "DJI Air 3 Camera Drone",
-    "shortDescription": "A portable drone with dual cameras including a 3x medium tele lens, 48MP photos, 4K HDR video, and 46 minutes of flight time. Omnidirectional obstacle sensing.",
-    "category": "Photography",
-    "whyItIsInteresting": "The dual-camera system gives you wide and telephoto options mid-flight without landing. 46-minute flight time is class-leading and actually delivers in real conditions.",
-    "imageIdea": "Compact drone hovering over a scenic coastal cliff at golden hour",
-    "sourceLink": "https://www.dji.com",
-    "estimatedPriceRange": "$1,099–$1,549",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=DJI+Air+3+Camera+Drone&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=DJI+Air+3+Camera+Drone&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI+Air+3+Camera+Drone"
-  },
-  {
-    "id": 33,
-    "slug": "peak-design-everyday-sling-6l",
-    "title": "Peak Design Everyday Sling 6L",
-    "shortDescription": "A premium camera sling bag with FlexFold dividers, weatherproof recycled nylon shell, and quick-access side zip. Fits a mirrorless body with 1-2 lenses.",
-    "category": "Photography",
-    "whyItIsInteresting": "The FlexFold dividers reconfigure in seconds for different gear combinations. It looks stylish enough for daily carry but protects camera gear seriously well.",
-    "imageIdea": "Sleek sling bag open showing camera and lenses with FlexFold dividers",
-    "sourceLink": "https://www.peakdesign.com",
-    "estimatedPriceRange": "$99–$119",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Peak+Design+Everyday+Sling+6L&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Peak+Design+Everyday+Sling+6L&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Peak+Design+Everyday+Sling+6L"
-  },
-  {
     "id": 34,
     "slug": "insta360-x4-360-camera",
     "title": "Insta360 X4 360-Degree Camera",
@@ -1693,7 +1597,8 @@
       "url": "https://www.amazon.com/s?k=Gardyn%20Home%20Kit%203.0&tag=vaultvibe-20"
     },
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Gardyn+Home+Kit+3.0",
-    "directAmazonUrl": "https://www.amazon.com/s?k=Gardyn%20Home%20Kit%203.0&tag=vaultvibe-20"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Gardyn%20Home%20Kit%203.0&tag=vaultvibe-20",
+    "badge": "great-gift"
   },
   {
     "id": 119,
@@ -2216,5 +2121,81 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Ring&tag=vaultvibe-20"
     }
+  },
+  {
+    "id": 150,
+    "slug": "brila-one-page-websites-from-google-reviews",
+    "title": "Brila",
+    "shortDescription": "Brila is a unique website generator that transforms your existing Google Maps reviews into compelling one-page websites. Instead of generic templates, Brila analyzes customer feedback to automatically populate your site with authentic testimonials and highlight what makes your business stand out. This service is ideal for small businesses or service providers looking for a quick, authentic, and effective online presence without the hassle of manual copywriting.",
+    "category": "Website Builder",
+    "whyItIsInteresting": "Brila offers a novel approach to website creation by leveraging social proof directly from Google Maps reviews. This bypasses the common issue of generic website content and ensures authenticity, as the copy is generated from real customer experiences. Its AI-driven content generation means less manual effort for users, making it an efficient solution for businesses focused on service delivery. The 'Alpha' status suggests it's a new and potentially disruptive tool in the website builder market, appealing to early adopters looking for innovative solutions.",
+    "imageIdea": "Google Maps pin on a laptop screen",
+    "sourceLink": "https://www.producthunt.com/r/2ENSJE4L7JILGP",
+    "estimatedPriceRange": "$29/month (starting)",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 151,
+    "slug": "stitch-2-by-google-ai-ui-design",
+    "title": "Stitch 2.0 by Google",
+    "shortDescription": "Stitch 2.0 is an AI-powered design partner from Google that streamlines UI creation. It enables designers to generate high-fidelity, production-ready user interfaces rapidly using natural language prompts, voice commands, and context-aware AI agents. Stitch is designed for teams that need to iterate quickly on visual designs, bridging the gap between concept and code, and is perfect for product teams and UI/UX designers looking for an accelerated workflow.",
+    "category": "Design Tools",
+    "whyItIsInteresting": "As a product from Google, Stitch 2.0 enters the design tool landscape with significant backing and potential for seamless integration with other Google products. Its AI-native approach, allowing design via natural language and voice, represents a leap forward in usability and accessibility for UI/UX professionals. The ability to design across images, code, and text in a unified workflow tackles a major pain point in the design process. Its focus on 'vibe design' suggests an emphasis on aesthetic coherence and rapid prototyping.",
+    "imageIdea": "Abstract UI wireframes flowing into code",
+    "sourceLink": "https://www.producthunt.com/r/FCKF6O6HKHV32R",
+    "estimatedPriceRange": "Free Trial, then tiered subscription (Pricing not publicly detailed)",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 152,
+    "slug": "tobira-ai-agent-deal-finding",
+    "title": "Tobira.ai",
+    "shortDescription": "Tobira.ai is a novel network where specialized AI agents operate on behalf of their human users to discover and negotiate business deals. Each AI agent is assigned a public address within the network, allowing it to autonomously find potential founders, investors, partners, and clients by interacting with other agents. Users maintain full control over their agent's actions and negotiations, making it a secure and efficient tool for proactive business development.",
+    "category": "Productivity",
+    "whyItIsInteresting": "Tobira.ai pioneers a decentralized approach to business development by utilizing AI agents. The concept of AI agents negotiating deals is cutting-edge, offering a glimpse into the future of automated business processes. By creating a dedicated network for these agents, Tobira facilitates a unique ecosystem for deal discovery and negotiation, potentially saving significant time and resources for businesses. The emphasis on user control over agent actions addresses common concerns about AI autonomy in critical business functions.",
+    "imageIdea": "Robot hand shaking another robot hand",
+    "sourceLink": "https://www.producthunt.com/r/G5JOBDQ3XBHBER",
+    "estimatedPriceRange": "Not explicitly stated, likely tiered subscription or commission-based",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-18",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Tobira.ai"
+  },
+  {
+    "id": 153,
+    "slug": "littlebird-ai-work-assistant",
+    "title": "Littlebird",
+    "shortDescription": "Littlebird is an AI assistant designed to understand and integrate with your existing work context, providing highly relevant assistance. It gains insight by observing your screen activity and transcribing meetings, allowing it to generate more accurate answers, drafts, and plans. This makes Littlebird a powerful tool for professionals who need an AI assistant that truly grasps their ongoing projects and workflow, enhancing productivity and reducing the need for constant context re-explanation.",
+    "category": "Artificial Intelligence",
+    "whyItIsInteresting": "Littlebird's unique selling proposition is its deep contextual understanding of a user's work, achieved through screen observation and meeting transcription. This feature sets it apart from generic AI assistants that require extensive prompting for every task. By acting as an AI assistant that 'already knows your work,' Littlebird promises a more intuitive and efficient user experience, reducing cognitive load and boosting productivity for busy professionals. Its ability to synthesize information from various sources on your screen makes it a potentially indispensable tool for knowledge workers.",
+    "imageIdea": "Abstract digital bird perched on a computer monitor",
+    "sourceLink": "https://www.producthunt.com/r/5P6FZ2JTZUBBPB",
+    "estimatedPriceRange": "$25/month (starting)",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 154,
+    "slug": "prodshort-meeting-to-content",
+    "title": "ProdShort",
+    "shortDescription": "ProdShort transforms spoken content from your meetings into ready-to-post social media shorts and posts, addressing the challenge of creating authentic and time-consuming content. Unlike AI content generators that can sound fake, ProdShort captures the genuine value of your conversations, making them easily shareable. This is an ideal solution for founders, marketers, and teams looking to efficiently leverage their internal discussions for external communication and content marketing.",
+    "category": "Social Media",
+    "whyItIsInteresting": "ProdShort tackles the perennial problem of content creation fatigue by repurposing existing meeting content. Its innovative approach of 'capturing' rather than 'generating' ensures authenticity, a critical factor in today's content landscape where AI-generated material can often feel impersonal. The ability to turn everyday conversations into polished social media assets is a significant time-saver for busy professionals. Its 'Alpha' status indicates a promising new tool for businesses seeking to maximize their content output with minimal extra effort.",
+    "imageIdea": "Video play button overlaid on a speech bubble",
+    "sourceLink": "https://www.producthunt.com/r/5O7FS7MXUZ4VCP",
+    "estimatedPriceRange": "$49/month (starting)",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-18"
   }
 ]

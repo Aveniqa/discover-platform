@@ -5,8 +5,72 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Apr 2026 14:45:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 12:04:42 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Design</title>
+      <link>https://surfaced-x.pages.dev/item/claude-design</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/claude-design</guid>
+      <description>Claude Design is an experimental initiative by Anthropic that explores the potential of large language models, like Claude, in the creative process of design. It showcases how AI can be used as a collaborative partner for generating design concepts, iterating on ideas, and even producing visual elements. This tool is aimed at designers, artists, and anyone interested in the intersection of AI and creativity. A product designer could use Claude Design to brainstorm initial interface layouts for a new app, providing prompts to generate various visual directions before committing to a specific path.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>PanicLock</title>
+      <link>https://surfaced-x.pages.dev/item/paniclock</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/paniclock</guid>
+      <description>PanicLock is a macOS utility that enhances security by disabling Touch ID and requiring a full password unlock when your MacBook&apos;s lid is closed. This prevents unauthorized access if your device is stolen or accessed without your knowledge while you&apos;re away from your desk. It&apos;s particularly useful for individuals working with sensitive data who need an extra layer of protection beyond standard lock screen settings. A remote worker at a coffee shop could use PanicLock to ensure that even if their laptop is briefly unattended, it cannot be woken and accessed via fingerprint.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Interval Calculator</title>
+      <link>https://surfaced-x.pages.dev/item/interval-calculator</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/interval-calculator</guid>
+      <description>This is a specialized calculator designed to perform operations on disjoint sets of intervals. It allows users to input multiple, non-overlapping ranges and then perform calculations such as union, intersection, difference, and more, outputting the resulting set of intervals. It&apos;s built by Victor Poughon and is useful for anyone working with mathematical or computational problems involving ranges. A researcher analyzing data that is only valid within specific time windows could use this calculator to efficiently find the combined valid periods after several distinct data collection phases.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ProdShort</title>
+      <link>https://surfaced-x.pages.dev/item/prodshort-meeting-to-content</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/prodshort-meeting-to-content</guid>
+      <description>ProdShort transforms spoken content from your meetings into ready-to-post social media shorts and posts, addressing the challenge of creating authentic and time-consuming content. Unlike AI content generators that can sound fake, ProdShort captures the genuine value of your conversations, making them easily shareable. This is an ideal solution for founders, marketers, and teams looking to efficiently leverage their internal discussions for external communication and content marketing.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Smol machines</title>
+      <link>https://surfaced-x.pages.dev/item/smol-machines</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/smol-machines</guid>
+      <description>Smol machines are incredibly small, portable virtual machines designed for sub-second coldstarts. They allow you to package and run applications with their dependencies in a lightweight, isolated environment, ensuring consistency across different systems. This is particularly beneficial for developers needing to test or deploy applications quickly and reliably. For instance, a developer could package a web server application with its specific runtime and libraries into a smol machine to guarantee it runs identically in development, staging, and production.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Littlebird</title>
+      <link>https://surfaced-x.pages.dev/item/littlebird-ai-work-assistant</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/littlebird-ai-work-assistant</guid>
+      <description>Littlebird is an AI assistant designed to understand and integrate with your existing work context, providing highly relevant assistance. It gains insight by observing your screen activity and transcribing meetings, allowing it to generate more accurate answers, drafts, and plans. This makes Littlebird a powerful tool for professionals who need an AI assistant that truly grasps their ongoing projects and workflow, enhancing productivity and reducing the need for constant context re-explanation.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>boringBar</title>
+      <link>https://surfaced-x.pages.dev/item/boringbar</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/boringbar</guid>
+      <description>boringBar is a lightweight, macOS-native taskbar-style dock replacement that aims to simplify your workflow by presenting open applications and essential system information in a clean, unobtrusive bar at the top of your screen. It&apos;s designed for users who find the default macOS Dock distracting or prefer a more minimalist interface. For example, a graphic designer could use boringBar to keep track of their open Adobe Suite applications and quickly switch between them without cluttering their main desktop space.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tobira.ai</title>
+      <link>https://surfaced-x.pages.dev/item/tobira-ai-agent-deal-finding</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tobira-ai-agent-deal-finding</guid>
+      <description>Tobira.ai is a novel network where specialized AI agents operate on behalf of their human users to discover and negotiate business deals. Each AI agent is assigned a public address within the network, allowing it to autonomously find potential founders, investors, partners, and clients by interacting with other agents. Users maintain full control over their agent&apos;s actions and negotiations, making it a secure and efficient tool for proactive business development.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Readlang</title>
       <link>https://surfaced-x.pages.dev/item/readlang-translate-text</link>
@@ -14,6 +78,14 @@
       <description>Readlang is a browser extension that helps you learn languages by translating words and phrases directly on web pages. You can click on any word to get its translation and pronunciation, and then save these words to study later.</description>
       <category>Hidden Gems</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stitch 2.0 by Google</title>
+      <link>https://surfaced-x.pages.dev/item/stitch-2-by-google-ai-ui-design</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/stitch-2-by-google-ai-ui-design</guid>
+      <description>Stitch 2.0 is an AI-powered design partner from Google that streamlines UI creation. It enables designers to generate high-fidelity, production-ready user interfaces rapidly using natural language prompts, voice commands, and context-aware AI agents. Stitch is designed for teams that need to iterate quickly on visual designs, bridging the gap between concept and code, and is perfect for product teams and UI/UX designers looking for an accelerated workflow.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>The Wayback Machine</title>
@@ -24,12 +96,28 @@
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Brila</title>
+      <link>https://surfaced-x.pages.dev/item/brila-one-page-websites-from-google-reviews</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/brila-one-page-websites-from-google-reviews</guid>
+      <description>Brila is a unique website generator that transforms your existing Google Maps reviews into compelling one-page websites. Instead of generic templates, Brila analyzes customer feedback to automatically populate your site with authentic testimonials and highlight what makes your business stand out. This service is ideal for small businesses or service providers looking for a quick, authentic, and effective online presence without the hassle of manual copywriting.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>This is Today</title>
       <link>https://surfaced-x.pages.dev/item/this-is-today</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/this-is-today</guid>
       <description>A simple, minimalist website that displays the current date in a large, readable format with a brief description of the day&apos;s significance. It focuses on present moment awareness.</description>
       <category>Hidden Gems</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quantum Computing Solves Complex Chemistry Problem</title>
+      <link>https://surfaced-x.pages.dev/item/quantum-computing-solves-complex-chemistry-problem</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/quantum-computing-solves-complex-chemistry-problem</guid>
+      <description>In a landmark demonstration published in *Nature* in 2023, researchers from Google AI and UC Berkeley utilized a quantum computer to simulate the electronic structure of a complex molecule with unprecedented accuracy, a task intractable for even the most powerful classical supercomputers. The simulation accurately predicted the molecule&apos;s behavior, marking a significant milestone for quantum chemistry.</description>
+      <category>Discoveries</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Samsung Galaxy Ring</title>
@@ -48,6 +136,14 @@
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Ancient Roman Glass Production Techniques Rediscovered</title>
+      <link>https://surfaced-x.pages.dev/item/ancient-roman-glass-production-techniques-rediscovered</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-roman-glass-production-techniques-rediscovered</guid>
+      <description>A multi-year archaeological project at an ancient Roman glassmaking site in Britain, culminating in findings published in *Archaeological Journal* in 2022, has revealed sophisticated techniques for glass production that were thought to have been lost. The analysis of furnace structures and glass fragments shows evidence of precise temperature control and material sourcing far beyond previous estimations for the period. This sheds new light on Roman technological prowess.</description>
+      <category>Discoveries</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Apple Vision Pro</title>
       <link>https://surfaced-x.pages.dev/item/apple-vision-pro</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/apple-vision-pro</guid>
@@ -62,6 +158,14 @@
       <description>Fontjoy uses AI to help you generate font pairings for your design projects. You can explore a vast library of fonts and get intelligent suggestions for visually harmonious combinations, saving you time and guesswork.</description>
       <category>Hidden Gems</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bacteria That Eat Plastic Could Clean Oceans</title>
+      <link>https://surfaced-x.pages.dev/item/bacteria-that-eat-plastic-could-clean-oceans</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bacteria-that-eat-plastic-could-clean-oceans</guid>
+      <description>Researchers at the University of British Columbia, publishing in *Environmental Science &amp; Technology* in 2023, have engineered a strain of bacteria capable of breaking down polyethylene terephthalate (PET), a common plastic found in bottles and packaging. The modified bacteria can degrade PET into harmless byproducts at ambient temperatures and pressures. This bio-engineering feat offers a promising, potentially scalable solution to plastic pollution.</description>
+      <category>Discoveries</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Google Pixel Watch 3</title>
@@ -80,6 +184,14 @@
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Liquid Water Oceans on Exoplanets Identified Using New Spectroscopy</title>
+      <link>https://surfaced-x.pages.dev/item/liquid-water-oceans-on-exoplanets-identified-using-new-spectroscopy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/liquid-water-oceans-on-exoplanets-identified-using-new-spectroscopy</guid>
+      <description>A team of astronomers, using advanced infrared spectroscopy from the James Webb Space Telescope, announced in a 2025 preprint the detection of clear spectral signatures of liquid water on exoplanets orbiting red dwarf stars. Specifically, they identified the unambiguous presence of water vapor in the atmospheres of at least three planets within their star&apos;s habitable zone. This breakthrough significantly increases the number of potentially life-supporting worlds beyond our solar system.</description>
+      <category>Discoveries</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta Quest 3</title>
       <link>https://surfaced-x.pages.dev/item/meta-quest-3</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/meta-quest-3</guid>
@@ -94,6 +206,14 @@
       <description>Simul.Writing is a collaborative real-time writing tool that allows multiple users to edit a document simultaneously. It offers robust version control and comment features, similar to Google Docs but with a minimalist and focused interface.</description>
       <category>Hidden Gems</category>
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ancient Human Genome Reveals Interbreeding With Unknown Hominin</title>
+      <link>https://surfaced-x.pages.dev/item/ancient-human-genome-reveals-interbreeding-with-unknown-hominin</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-human-genome-reveals-interbreeding-with-unknown-hominin</guid>
+      <description>In a groundbreaking 2024 study published in *Nature*, researchers led by Dr. Svante Pääbo, a Nobel laureate, sequenced the genome of a ~200,000-year-old individual from the Denisova Cave in Siberia. This analysis revealed a significant genetic contribution from a previously unknown hominin species, distinct from Neanderthals and modern humans. This discovery implies that our ancient ancestors engaged in more complex interbreeding with diverse hominin groups than previously understood.</description>
+      <category>Discoveries</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Humane AI Pin</title>
@@ -285,126 +405,6 @@
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/focusmate</guid>
       <description>Focusmate is a virtual co-working platform that pairs you with an accountability partner for a 50-minute video session. You state your goal, work silently on your task, and check in at the end to report progress, creating a powerful external commitment.</description>
       <category>Hidden Gems</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Secrets of Durable Roman Concrete Revealed</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-roman-concrete-durability-secrets</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-roman-concrete-durability-secrets</guid>
-      <description>Researchers have discovered why ancient Roman concrete, used in structures like the Pantheon, has remained remarkably durable for millennia. The key lies in its self-healing properties facilitated by lime clasts.</description>
-      <category>Discoveries</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SodaStream Art Sparkling Water Maker</title>
-      <link>https://surfaced-x.pages.dev/item/sodastream-art-sparkling-water-maker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sodastream-art-sparkling-water-maker</guid>
-      <description>Transform ordinary tap water into refreshing sparkling water with the SodaStream Art. This sleek, retro-inspired machine features a unique carbonating lever for a personalized fizz experience, bringing cafe-style drinks right to your countertop.</description>
-      <category>Trending Products</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Blobmaker</title>
-      <link>https://surfaced-x.pages.dev/item/blobmaker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/blobmaker</guid>
-      <description>Blobmaker is a free online tool that helps designers and developers quickly generate unique, organic SVG shapes (blobs). Users can customize the complexity, contrast, and number of points to create a perfect fluid shape for their designs.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Cosmic Dance of Merging Black Holes</title>
-      <link>https://surfaced-x.pages.dev/item/galaxies-merging-supermassive-black-holes-gravitational-waves</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/galaxies-merging-supermassive-black-holes-gravitational-waves</guid>
-      <description>Scientists have detected ripples in spacetime, known as gravitational waves, originating from the merger of supermassive black holes. This groundbreaking observation confirms long-held astrophysical theories.</description>
-      <category>Discoveries</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Therabody SmartGoggles</title>
-      <link>https://surfaced-x.pages.dev/item/therabody-smartgoggles</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/therabody-smartgoggles</guid>
-      <description>These innovative smart goggles are designed to provide natural relief for eye strain, headaches, and facial tension using a combination of heat, vibration, and massage. They guide you through focused relaxation routines to improve sleep and reduce stress.</description>
-      <category>Trending Products</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windy.com</title>
-      <link>https://surfaced-x.pages.dev/item/windy-com</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/windy-com</guid>
-      <description>A sophisticated, interactive tool providing stunning visualizations of weather forecasts globally. It displays detailed information like wind, temperature, rain, clouds, and waves on a dynamic map interface.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bizarre New Life Found at Deep-Sea Vents</title>
-      <link>https://surfaced-x.pages.dev/item/deep-sea-hydrothermal-vents-new-life</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deep-sea-hydrothermal-vents-new-life</guid>
-      <description>Recent deep-sea expeditions have uncovered novel species thriving in the extreme environments around hydrothermal vents. These organisms survive without sunlight, utilizing chemosynthesis for energy.</description>
-      <category>Discoveries</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Garmin Instinct 2 Solar Smartwatch</title>
-      <link>https://surfaced-x.pages.dev/item/garmin-instinct-2-solar-smartwatch</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/garmin-instinct-2-solar-smartwatch</guid>
-      <description>A rugged GPS smartwatch built for the outdoors, featuring unlimited battery life in smartwatch mode with sufficient solar exposure. It offers advanced fitness tracking, navigation, heart rate monitoring, and smart notifications.</description>
-      <category>Trending Products</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AppFlowy</title>
-      <link>https://surfaced-x.pages.dev/item/appflowy</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/appflowy</guid>
-      <description>An open-source alternative to Notion, allowing you to create and manage notes, wikis, and databases with full data control. It provides a highly customizable workspace for personal and team productivity.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Massive Ancient Egyptian Beer Brewery Unearthed</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-egyptian-beer-brewery-discovery</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-egyptian-beer-brewery-discovery</guid>
-      <description>Archaeologists in Abydos, Egypt, have discovered a massive ancient brewery, dating back to around 3100 BC. This discovery sheds new light on the scale of food and beverage production in early Egyptian civilization.</description>
-      <category>Discoveries</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fungi Communicate Using Electrical Signals</title>
-      <link>https://surfaced-x.pages.dev/item/fungi-communicate-through-electrical-signals</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fungi-communicate-through-electrical-signals</guid>
-      <description>Research suggests that fungi can communicate with each other through electrical impulses, similar to a rudimentary nervous system. These signals may be used to share information about resources or threats.</description>
-      <category>Discoveries</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jackery Explorer 300 Portable Power Station</title>
-      <link>https://surfaced-x.pages.dev/item/jackery-explorer-300-portable-power-station</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/jackery-explorer-300-portable-power-station</guid>
-      <description>The Jackery Explorer 300 is a compact and lightweight portable power station, perfect for camping, road trips, or as an emergency backup. It features multiple output ports, including AC, DC, USB-A, and USB-C PD, allowing you to charge and power a wide range of electronics and small appliances. Its 293Wh capacity can be recharged via wall outlet, car charger, or optional solar panels.</description>
-      <category>Trending Products</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Streamlit</title>
-      <link>https://surfaced-x.pages.dev/item/streamlit-python-data-apps</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/streamlit-python-data-apps</guid>
-      <description>Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. You can turn data scripts into shareable web apps in minutes.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ancient DNA Reveals Surprising Human Migrations</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-dna-rewrites-human-history</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-dna-rewrites-human-history</guid>
-      <description>Recent ancient DNA studies have overturned previous understandings of human migrations and population movements throughout history. Findings suggest more complex and interconnected ancestries than previously thought.</description>
-      <category>Discoveries</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Philips SmartSleep Wake-up Light</title>
-      <link>https://surfaced-x.pages.dev/item/philips-smartsleep-wake-up-light</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/philips-smartsleep-wake-up-light</guid>
-      <description>This innovative wake-up light simulates a natural sunrise, gradually brightening your room over a set period to gently rouse you from sleep. It also includes a sunset simulation for winding down, personalized soundscapes, and smart features like ambient light sensors and a charging port. Designed to improve sleep and wakefulness cycles.</description>
-      <category>Trending Products</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
