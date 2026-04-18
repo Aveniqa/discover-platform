@@ -4,7 +4,10 @@ export const metadata: Metadata = {
   title: "Trending Products Worth Buying in 2026",
   description:
     "135 curated products across tech, home, fitness, and outdoors — each hand-picked with honest reviews and price comparisons. Updated daily by Surfaced.",
-  alternates: { canonical: "https://surfaced-x.pages.dev/trending" },
+  alternates: {
+    canonical: "https://surfaced-x.pages.dev/trending",
+    types: { "application/rss+xml": "/feeds/products.xml" },
+  },
   openGraph: {
     title: "Trending Products Worth Buying in 2026",
     description:

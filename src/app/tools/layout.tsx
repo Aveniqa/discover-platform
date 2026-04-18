@@ -4,7 +4,10 @@ export const metadata: Metadata = {
   title: "Best Daily Tools for Productivity, Design & Development",
   description:
     "114 essential tools for creators, developers, and professionals. Free and paid — all personally vetted and curated daily by Surfaced.",
-  alternates: { canonical: "https://surfaced-x.pages.dev/tools" },
+  alternates: {
+    canonical: "https://surfaced-x.pages.dev/tools",
+    types: { "application/rss+xml": "/feeds/daily-tools.xml" },
+  },
   openGraph: {
     title: "Best Daily Tools for Productivity, Design & Development",
     description:

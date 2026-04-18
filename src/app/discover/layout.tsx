@@ -4,7 +4,10 @@ export const metadata: Metadata = {
   title: "Fascinating Discoveries — Mind-Blowing Facts You Didn't Know",
   description:
     "Explore 120+ incredible discoveries, from forgotten history to bizarre science. Updated daily with new fascinating finds curated by Surfaced.",
-  alternates: { canonical: "https://surfaced-x.pages.dev/discover" },
+  alternates: {
+    canonical: "https://surfaced-x.pages.dev/discover",
+    types: { "application/rss+xml": "/feeds/discoveries.xml" },
+  },
   openGraph: {
     title: "Fascinating Discoveries — Mind-Blowing Facts You Didn't Know",
     description:

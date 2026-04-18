@@ -1,4 +1,5 @@
 import { getAllItems, collections_data } from "@/lib/data";
+import { getEditionDates } from "@/lib/editions";
 import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
@@ -35,6 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/collections`, changeFrequency: "weekly" as const, priority: 0.8 },
     { url: `${BASE}/categories`, changeFrequency: "weekly" as const, priority: 0.8 },
     { url: `${BASE}/newsletter`, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${BASE}/editions`, changeFrequency: "daily" as const, priority: 0.7 },
     { url: `${BASE}/about`, changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE}/premium`, changeFrequency: "monthly" as const, priority: 0.5 },
     { url: `${BASE}/contact`, changeFrequency: "monthly" as const, priority: 0.4 },
@@ -43,5 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/affiliate-disclosure`, changeFrequency: "yearly" as const, priority: 0.3 },
   ].map((p) => ({ ...p, lastModified: new Date() }));
 
-  return [...staticPages, ...collectionPages, ...itemPages];
+  const editionPages: MetadataRoute.Sitemap = getEditionDates().map((d) => ({
+    url: `${BASE}/editions/${d}`,
+    lastModified: new Date(d + "T00:00:00Z"),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...collectionPages, ...editionPages, ...itemPages];
 }
