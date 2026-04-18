@@ -1,0 +1,41 @@
+name: Smoke Test — Signal Sources
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Probe signal sources
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
+        run: |
+          node -e "
+          const { getSeedsForCategory, formatSeeds, fetchProductHunt } = require('./scripts/lib/signal-sources.js');
+          (async () => {
+            console.log('== Product Hunt (direct) ==');
+            const ph = await fetchProductHunt({ limit: 3 });
+            console.log('count:', ph.length);
+            if (ph.length) console.log(JSON.stringify(ph[0], null, 2));
+
+            for (const cat of ['hidden-gems', 'daily-tools', 'future-radar', 'products']) {
+              const s = await getSeedsForCategory(cat);
+              console.log('\n== ' + cat + ' ==', s.length, 'seeds from', [...new Set(s.map(x => x.source))].join(', '));
+              if (s.length) console.log(formatSeeds(s.slice(0, 2)));
+            }
+
+            // Fail if PH returned nothing — token is expected to be set
+            if (ph.length === 0) {
+              console.error('\n❌ PRODUCT_HUNT_TOKEN returned no items — token may be invalid or expired.');
+              process.exit(1);
+            }
+            console.log('\n✅ All sources working.');
+          })();
+          "
