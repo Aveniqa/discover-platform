@@ -619,7 +619,69 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "bellroy-classic-backpack-plus",
+      "title": "Bellroy Classic Backpack Plus",
+      "category": "products",
+      "imageUrl": "https://images.pexels.com/photos/5507245/pexels-photo-5507245.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Black Bellroy Classic Backpack Plus, side view showing organized interior pockets.",
+      "productUrl": "https://surfaced-x.pages.dev/item/bellroy-classic-backpack-plus?utm_source=social&utm_medium=products&utm_campaign=daily_post",
+      "affiliateUrl": "https://www.amazon.com/s?k=Bellroy+Classic+Backpack+Plus&tag=vaultvibe-20",
+      "sourceLink": "https://bellroy.com",
+      "platforms": {
+        "pinterest": {
+          "title": "Bellroy Classic Backpack Plus: Your New Everyday Carry",
+          "description": "This 22L backpack is a game-changer for work and weekends. Padded laptop sleeve, water-resistant fabric, and *seriously* good internal organization. No more digging for cables! #backpack #everydaycarry #workbag #travelgear Affiliate link — I earn a commission on purchases.",
+          "boardName": "Tech Products"
+        },
+        "bluesky": {
+          "text": "Finally, a backpack that doesn't look like a tent but can still hold your life. Seriously good pockets for all the things. Professional enough for meetings, tough enough for a weekend getaway.\n\n#tech #gadgets"
+        },
+        "twitter": {
+          "text": "The Bellroy Classic Backpack Plus is the do-it-all bag I've been searching for. 22L capacity, great laptop protection, and pockets for *everything*. Looks sharp, handles travel. Pricey, but worth it? https://www.amazon.com/s?k=Bellroy+Classic+Backpack+Plus&tag=vaultvibe-20 Affiliate link — I earn a commission on purchases."
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-19T15:25:39.326Z",
+      "publishedAt": "2026-04-19T15:25:41.862Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "tiddlywiki",
+      "title": "TiddlyWiki",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/9665177/pexels-photo-9665177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: TiddlyWiki",
+      "productUrl": "https://surfaced-x.pages.dev/item/tiddlywiki?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/tiddlywiki?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "TiddlyWiki",
+          "description": " https://surfaced-x.pages.dev/item/tiddlywiki?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "TiddlyWiki — TiddlyWiki is a unique non-linear notebook for organizing and sharing complex information. It operates as a single HTML file that acts as a wiki, allowing you to create, edit, and link 'tiddlers' (ind\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/tiddlywiki?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-19T15:25:39.326Z",
+      "publishedAt": "2026-04-19T15:26:50.541Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-18T15:25:58.131Z"
+  "lastGenerated": "2026-04-19T15:25:39.326Z"
 }
