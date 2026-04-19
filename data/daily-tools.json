@@ -1,60 +1,5 @@
 [
   {
-    "id": 37,
-    "slug": "audacity",
-    "toolName": "Audacity",
-    "whatItDoes": "Free, open-source audio editor for recording, editing, mixing, and processing sound. Supports multi-track editing, noise reduction, pitch shifting, and exports to all major audio formats.",
-    "category": "Media",
-    "whyItIsUseful": "It has been the go-to free audio editor for 20 years for good reason. Podcast editors, musicians, and students all use it because it handles 90% of audio tasks without costing a cent.",
-    "websiteLink": "https://www.audacityteam.org",
-    "type": "tool",
-    "imageIdea": "audio waveform recording editing mixer"
-  },
-  {
-    "id": 38,
-    "slug": "photopea",
-    "toolName": "Photopea",
-    "whatItDoes": "Free browser-based image editor that clones Photoshop's interface and supports PSD, XCF, Sketch, and RAW files. Includes layers, masks, smart objects, and most Photoshop tools.",
-    "category": "Media",
-    "whyItIsUseful": "It is essentially free Photoshop in a browser tab. It even opens actual PSD files, so you can edit Photoshop projects without a subscription.",
-    "websiteLink": "https://www.photopea.com",
-    "type": "tool",
-    "imageIdea": "photo editing layers tools browser"
-  },
-  {
-    "id": 39,
-    "slug": "obs-studio",
-    "toolName": "OBS Studio",
-    "whatItDoes": "Free, open-source software for live streaming and screen recording. Supports multiple scenes, sources, transitions, and audio mixing with output to Twitch, YouTube, and any RTMP server.",
-    "category": "Media",
-    "whyItIsUseful": "Every major streamer started with OBS because it is free and does everything paid alternatives do. The scene system makes professional-looking streams achievable for beginners.",
-    "websiteLink": "https://obsproject.com",
-    "type": "tool",
-    "imageIdea": "live streaming screen recording broadcast"
-  },
-  {
-    "id": 40,
-    "slug": "riverside-fm",
-    "toolName": "Riverside.fm",
-    "whatItDoes": "Remote podcast and video recording platform that records each participant locally in studio quality, then syncs the tracks. Includes transcription, AI editing, and clip generation for social media.",
-    "category": "Media",
-    "whyItIsUseful": "It solves the quality problem with remote recording. Even if your guest has bad internet, their audio and video are recorded locally in full quality, not compressed through a video call.",
-    "websiteLink": "https://riverside.fm",
-    "type": "tool",
-    "imageIdea": "podcast recording studio remote microphone"
-  },
-  {
-    "id": 41,
-    "slug": "hey-email",
-    "toolName": "HEY",
-    "whatItDoes": "Opinionated email service that screens new senders, separates newsletters into a Feed, groups receipts into a Paper Trail, and lets you set aside emails to reply to later in a focused batch.",
-    "category": "Communication",
-    "whyItIsUseful": "It rethinks email from scratch instead of adding features to a broken model. The Screener alone, which blocks unknown senders until you approve them, cuts inbox noise dramatically.",
-    "websiteLink": "https://www.hey.com",
-    "type": "tool",
-    "imageIdea": "email inbox organized screener"
-  },
-  {
     "id": 42,
     "slug": "zoom",
     "toolName": "Zoom",
@@ -1069,5 +1014,65 @@
     "websiteLink": "https://www.producthunt.com/r/FCKF6O6HKHV32R",
     "type": "tool",
     "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 138,
+    "slug": "puremac",
+    "toolName": "PureMac",
+    "whatItDoes": "PureMac is a free and open-source macOS cleaner designed to be a privacy-conscious alternative to paid software like CleanMyMac. It offers robust system cleaning capabilities, including removing unwanted cache files, old application data, and build artifacts from tools like Xcode and Homebrew. Its native SwiftUI interface provides a modern and intuitive user experience, and it supports scheduled auto-cleaning for continuous system maintenance. PureMac operates with zero telemetry, ensuring your data remains private.",
+    "category": "Developer",
+    "whyItIsUseful": "For Mac users, especially developers, PureMac is invaluable for reclaiming disk space and maintaining optimal system performance without compromising privacy. Its ability to target specific caches from development tools means you can free up gigabytes of storage that might otherwise be tied up in temporary build files. The scheduled cleaning feature automates a crucial maintenance task, saving users the manual effort of regularly tidying up their system. Its open-source nature and lack of telemetry give users confidence in its integrity, making it a trustworthy companion for keeping macOS lean and efficient. Developers, designers, and anyone who values a clean system will find immense benefit.",
+    "imageIdea": "macOS system cleaner dashboard",
+    "websiteLink": "https://github.com/momenbasel/PureMac",
+    "type": "tool",
+    "dateAdded": "2026-04-19"
+  },
+  {
+    "id": 139,
+    "slug": "fireworks-tech-graph",
+    "toolName": "fireworks-tech-graph",
+    "whatItDoes": "fireworks-tech-graph is a specialized AI skill that generates professional-looking technical diagrams using Claude Code. It supports the creation of eight distinct diagram types, including flowcharts, sequence diagrams, and architecture diagrams, with five different visual styles to choose from. Leveraging deep AI and agent domain knowledge, it can translate complex technical concepts into clear, visual representations. The output can be generated as both SVG and PNG files, making them easily embeddable in documentation, presentations, or code repositories. It's a free, open-source tool.",
+    "category": "Developer",
+    "whyItIsUseful": "Creating clear and accurate technical diagrams can be a time-consuming and often tedious process. fireworks-tech-graph automates this by allowing users to describe their technical architecture or workflow, and the AI generates a polished visual representation. This significantly speeds up the documentation process for software projects, makes it easier to communicate complex ideas to team members, and improves the overall clarity of technical materials. Its ability to generate production-quality graphics in multiple formats makes it a versatile asset for developers, project managers, and technical writers. Users praise its speed and the quality of the generated diagrams, often surpassing manual efforts.",
+    "imageIdea": "technical architecture diagram flowchart",
+    "websiteLink": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+    "type": "tool",
+    "dateAdded": "2026-04-19"
+  },
+  {
+    "id": 140,
+    "slug": "codeburn",
+    "toolName": "codeburn",
+    "whatItDoes": "codeburn is an interactive terminal UI (TUI) dashboard designed for cost observability of AI coding tokens. It provides insights into where your AI tokens are being consumed when using services like Claude Code, Codex, and Cursor. The tool helps users understand and manage their spending on AI-powered coding assistance, presenting the data in a clear, real-time visual format within the terminal. This allows for quick identification of usage patterns and potential cost overruns. It's an open-source project.",
+    "category": "Developer",
+    "whyItIsUseful": "As AI coding assistants become more integrated into developer workflows, understanding the associated costs is crucial. codeburn directly addresses this by offering transparency into AI token usage. Developers can easily see which actions or features are consuming the most tokens, enabling them to optimize their usage and budget effectively. This tool is particularly useful for teams or individuals who are heavily reliant on AI for coding tasks and need to keep track of their expenses. By providing this visibility, codeburn empowers users to make informed decisions about their AI tool adoption and ensures that costs remain manageable. It's a must-have for anyone serious about controlling their AI development expenditures.",
+    "imageIdea": "terminal dashboard code spending",
+    "websiteLink": "https://github.com/getagentseal/codeburn",
+    "type": "tool",
+    "dateAdded": "2026-04-19"
+  },
+  {
+    "id": 141,
+    "slug": "khazix-skills",
+    "toolName": "khazix-skills",
+    "whatItDoes": "khazix-skills is an open-source collection of AI skills developed by 'digital life Khazix'. This repository serves as a hub for various AI capabilities that can be integrated into different AI agent frameworks or used independently. The skills are designed to enhance the functionality and intelligence of AI agents, allowing them to perform a wider range of tasks more effectively. It's a Python-based project, making it accessible to a broad range of developers. The project is actively maintained and has garnered significant community interest.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers and AI enthusiasts looking to build or enhance AI agents, khazix-skills offers a valuable library of pre-built functionalities. Instead of reinventing the wheel for common AI tasks, developers can leverage these existing skills to accelerate their development process. This collection promotes modularity and reusability in AI agent design, making it easier to create sophisticated and versatile AI systems. The active community and high star count on GitHub indicate a well-supported and appreciated resource. This tool is ideal for anyone involved in AI research, development, or the creation of custom AI assistants.",
+    "imageIdea": "ai agent skill tree",
+    "websiteLink": "https://github.com/KKKKhazix/khazix-skills",
+    "type": "tool",
+    "dateAdded": "2026-04-19"
+  },
+  {
+    "id": 142,
+    "slug": "tobira-ai",
+    "toolName": "Tobira.ai",
+    "whatItDoes": "Tobira.ai is a network where AI agents connect and discover business opportunities for their human users. Each AI agent gets a public address within this network, enabling it to find founders, investors, partners, and clients by interacting with other agents. The platform facilitates negotiation and deal-making on behalf of the user, with the user retaining full control over their agent's actions. It aims to streamline business development and networking through intelligent automation.",
+    "category": "Productivity",
+    "whyItIsUseful": "Tobira.ai offers a novel approach to business development and networking by harnessing the power of AI agents. For founders and entrepreneurs, it can act as a tireless scout, constantly searching for potential collaborations, funding opportunities, or strategic partnerships. The automated discovery and initial negotiation process can save significant time and effort compared to manual outreach. By allowing users to maintain control and set boundaries for their agents, it ensures that the AI acts as a powerful assistant rather than an uncontrolled entity. This tool is particularly beneficial for startups, small businesses, and individuals looking to expand their network and secure new opportunities efficiently.",
+    "imageIdea": "ai agent business network connection",
+    "websiteLink": "https://www.producthunt.com/r/G5JOBDQ3XBHBER",
+    "type": "tool",
+    "dateAdded": "2026-04-19"
   }
 ]

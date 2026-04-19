@@ -1,46 +1,46 @@
 [
   {
-    "slug": "quantum-computing-solves-complex-chemistry-problem",
-    "title": "Quantum Computing Solves Complex Chemistry Problem",
+    "slug": "ancient-dna-reveals-surprising-human-migration-patterns-in-europe",
+    "title": "Ancient DNA Reveals Surprising European Migrations",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "In a landmark demonstration published in *Nature* in 2023, researchers from Google AI and UC Berkeley utilized a quantum",
-    "badge": "editors-pick",
+    "description": "Studies published in journals like Nature in 2018 and 2022, led by researchers such as David Reich at Harvard Medical Sc",
+    "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "prodshort-meeting-to-content",
-    "title": "ProdShort",
+    "slug": "google-pixel-8a",
+    "title": "Google Pixel 8a",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "ProdShort transforms spoken content from your meetings into ready-to-post social media shorts and posts, addressing the ",
+    "description": "The Google Pixel 8a is the latest affordable smartphone from Google, packing flagship-level AI capabilities into a budge",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "claude-design",
-    "title": "Claude Design",
+    "slug": "pixel-perfect-editor",
+    "title": "Pixel Perfect Editor",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Claude Design is an experimental initiative by Anthropic that explores the potential of large language models, like Clau",
+    "description": "Pixel Perfect Editor is a lightweight, web-based image editing tool focused on precise pixel manipulation and color adju",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "claude-tokenizer-cost-measurement",
-    "title": "LLM Tokenizer Cost Analysis",
+    "slug": "japanese-railway-excellence",
+    "title": "Integrated High-Speed Rail Networks",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "This investigative piece provides a detailed analysis of the cost implications of Claude 4.7's new tokenizer system. The",
-    "badge": null,
+    "description": "The article explores the multifaceted reasons behind Japan's exceptionally efficient and punctual railway system. It goe",
+    "badge": "editors-pick",
     "type": "future-tech"
   },
   {
-    "slug": "stitch-2-0",
-    "title": "Stitch 2.0 by Google",
+    "slug": "tobira-ai",
+    "title": "Tobira.ai",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Stitch 2.0 is an AI-native design partner that enables the creation of beautiful, production-ready UI in seconds. It all",
+    "description": "Tobira.ai is a network where AI agents connect and discover business opportunities for their human users. Each AI agent ",
     "badge": null,
     "type": "tool"
   }

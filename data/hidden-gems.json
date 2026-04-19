@@ -1,65 +1,5 @@
 [
   {
-    "id": 36,
-    "slug": "cal-com",
-    "name": "Cal.com",
-    "whatItDoes": "An open-source scheduling platform that lets people book meetings based on your real-time availability. It integrates with multiple calendars, video platforms, and payment processors.",
-    "category": "Communication",
-    "whyItIsUseful": "It provides a self-hostable, privacy-respecting alternative to Calendly with no feature restrictions on the free plan. Teams can customize every aspect of the booking experience to match their workflow.",
-    "websiteLink": "https://cal.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcal.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "digital calendar planner scheduling"
-  },
-  {
-    "id": 37,
-    "slug": "zulip",
-    "name": "Zulip",
-    "whatItDoes": "An open-source team chat application that organizes conversations by topic threads within channels. It combines the immediacy of chat with the structure of a forum.",
-    "category": "Communication",
-    "whyItIsUseful": "It solves the problem of important messages getting buried in fast-moving Slack channels. The topic-based threading means you can catch up on specific discussions without reading everything.",
-    "websiteLink": "https://zulip.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fzulip.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "threaded chat conversation organized topics"
-  },
-  {
-    "id": 39,
-    "slug": "daily-dev",
-    "name": "daily.dev",
-    "whatItDoes": "A browser extension and web app that aggregates developer news, blog posts, and articles from hundreds of sources into a personalized feed. It learns your interests and surfaces relevant technical content.",
-    "category": "Communication",
-    "whyItIsUseful": "It replaces the scattered habit of checking multiple tech blogs and subreddits with a single curated feed. The community upvoting ensures high-quality content rises to the top.",
-    "websiteLink": "https://daily.dev",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdaily.dev&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "developer news feed articles browser"
-  },
-  {
-    "id": 40,
-    "slug": "whereby",
-    "name": "Whereby",
-    "whatItDoes": "A browser-based video meeting platform that requires no downloads or accounts for guests. It provides permanent meeting rooms with customizable URLs and built-in recording.",
-    "category": "Communication",
-    "whyItIsUseful": "It eliminates the friction of getting non-technical participants into video calls. The permanent room URLs mean you never need to generate and share new meeting links.",
-    "websiteLink": "https://whereby.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwhereby.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "video call browser meeting room"
-  },
-  {
-    "id": 41,
-    "slug": "funkwhale",
-    "name": "Funkwhale",
-    "whatItDoes": "A decentralized, open-source music streaming platform that lets you host and share your own music library. It supports federation through ActivityPub, letting independent servers share content.",
-    "category": "Media & Entertainment",
-    "whyItIsUseful": "It gives musicians and listeners an alternative to corporate streaming platforms with full control over their libraries. The federated model means communities can interconnect without centralized gatekeeping.",
-    "websiteLink": "https://funkwhale.audio",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ffunkwhale.audio&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "music streaming decentralized audio player"
-  },
-  {
     "id": 42,
     "slug": "stremio",
     "name": "Stremio",
@@ -1230,5 +1170,68 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-18",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fclaude-design-anthropic-labs&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 158,
+    "slug": "oberon-system-3-native",
+    "name": "Oberon System 3 Native",
+    "whatItDoes": "Oberon System 3 is a compact and efficient operating system and programming environment designed for simplicity and performance. This specific release allows the full Oberon System 3 experience to run natively on a Raspberry Pi 3, eliminating the need for emulation or complex setup. It's developed by a community of enthusiasts aiming to revive and modernize this powerful, yet often overlooked, computing platform. Users can boot directly into a graphical interface and begin coding or exploring the system's capabilities immediately.",
+    "category": "Developer",
+    "whyItIsUseful": "This is a remarkable opportunity for hobbyists and retro-computing enthusiasts to experience a truly unique operating system on accessible hardware. Unlike mainstream OS options, Oberon's integrated development environment and minimalist design foster deep understanding of computing fundamentals. Its small footprint and efficient resource usage make it ideal for learning and experimentation without the bloat of modern systems. Developers who appreciate elegant design and direct hardware control will find immense value in its approach. It's a portal to an alternative computing paradigm that remains surprisingly relevant.",
+    "imageIdea": "retro computer monitor with colorful code",
+    "websiteLink": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-19",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Frochus-keller%2FOberonSystem3Native%2Freleases&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 159,
+    "slug": "track-succession-explore",
+    "name": "Track Succession",
+    "whatItDoes": "Track Succession provides real-time, publicly accessible data on every CEO and CFO change at US public companies, sourced directly from SEC filings. The platform aims to offer transparency into corporate leadership transitions, allowing users to track historical and ongoing executive shifts. It's a valuable resource for investors, researchers, and anyone interested in the dynamics of corporate governance. The 'explore' section allows for detailed filtering and analysis of this data.",
+    "category": "Finance",
+    "whyItIsUseful": "This tool fills a significant niche by consolidating and presenting crucial executive change data that is otherwise scattered across regulatory filings. It offers a more accessible and digestible way to understand leadership turnover than navigating raw SEC documents. For financial analysts and investors, tracking these changes can be a leading indicator of potential strategic shifts or instability within a company. Its live updates and comprehensive historical data make it a powerful, yet often underutilized, resource for informed decision-making. Individuals keen on detailed corporate intelligence will find this indispensable.",
+    "imageIdea": "stock market ticker with changing names",
+    "websiteLink": "https://tracksuccession.com/explore",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-19",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftracksuccession.com%2Fexplore&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 160,
+    "slug": "any-wavelength-lasers-nist",
+    "name": "NIST Scientists Create 'Any Wavelength' Lasers",
+    "whatItDoes": "This news article from NIST (National Institute of Standards and Technology) details a breakthrough by their scientists in creating lasers capable of emitting light at virtually any wavelength. This advancement utilizes tiny circuits to manipulate light, offering unprecedented flexibility in laser technology. The development has significant implications for various fields, including telecommunications, sensing, and scientific research, by enabling custom-tailored light sources. This is a scientific discovery rather than a direct tool for end-users, but it highlights groundbreaking technological progress.",
+    "category": "Reference",
+    "whyItIsUseful": "While not a tool one can 'use' directly, the information provided by NIST about this 'any wavelength' laser technology is profoundly important for understanding future technological capabilities. It signifies a leap beyond the limitations of current laser systems, which are often restricted to specific frequencies. This innovation promises to unlock new applications in fields requiring highly specific light interactions, from advanced medical diagnostics to quantum computing. For anyone in research, engineering, or even just interested in cutting-edge science, this represents a significant potential paradigm shift, making current laser limitations obsolete.",
+    "imageIdea": "prismatic light spectrum",
+    "websiteLink": "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-19",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.nist.gov%2Fnews-events%2Fnews%2F2026%2F04%2Fany-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 161,
+    "slug": "opus-token-comparison",
+    "name": "Opus Token Leaderboard",
+    "whatItDoes": "The Opus Token Leaderboard is a website that anonymously compares the request-token performance of Opus 4.6 and Opus 4.7, two versions of an AI model. It presents data on how these models perform on various tasks, focusing on their token efficiency and output quality. The comparisons are conducted anonymously, providing an objective benchmark for developers and users evaluating different AI model versions. This tool helps users understand which AI model might be more suitable for their specific needs based on empirical performance data.",
+    "category": "Developer",
+    "whyItIsUseful": "This is an invaluable, under-the-radar resource for anyone working with or evaluating large language models, particularly those based on the Opus architecture. It provides concrete, comparative data on model performance that is difficult to obtain elsewhere. Unlike general benchmarks, this focuses on the practical aspect of token usage and its impact on output quality, which is crucial for cost and efficiency. Power users appreciate its transparent, anonymous methodology and the clear insights it offers into model evolution. Developers and researchers looking to optimize AI integration and performance will find this an essential diagnostic tool.",
+    "imageIdea": "abstract AI brain network",
+    "websiteLink": "https://tokens.billchambers.me/leaderboard",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-19",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftokens.billchambers.me%2Fleaderboard&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 162,
+    "slug": "pixel-perfect-editor",
+    "name": "Pixel Perfect Editor",
+    "whatItDoes": "Pixel Perfect Editor is a lightweight, web-based image editing tool focused on precise pixel manipulation and color adjustments. It allows users to zoom in to the pixel level, make intricate edits, and apply color grading with fine-grained control, all within the browser. It's designed for designers and artists who need exactitude in their image work, offering a streamlined interface that avoids the complexity of full-fledged desktop software. Users can import images, make detailed adjustments, and export their modified creations.",
+    "category": "Design",
+    "whyItIsUseful": "This editor is a hidden gem for those who require meticulous control over digital imagery without the overhead of professional software like Photoshop. Its strength lies in its simplicity and focus on pixel-level accuracy, making it ideal for tasks like refining textures, adjusting individual pixel colors, or preparing graphics for specific display requirements. Unlike more complex tools, it loads quickly and is accessible from anywhere with an internet connection. Designers and developers who value precision and efficiency, and are tired of overly complex interfaces for simple, exact tasks, will find this tool exceptionally useful.",
+    "imageIdea": "magnifying glass over a pixelated image",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-19"
   }
 ]

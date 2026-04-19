@@ -1,99 +1,5 @@
 [
   {
-    "id": 34,
-    "slug": "insta360-x4-360-camera",
-    "title": "Insta360 X4 360-Degree Camera",
-    "shortDescription": "An 8K 360-degree action camera with the invisible selfie stick effect, FlowState stabilization, and AI-powered reframing. Waterproof to 33 feet.",
-    "category": "Photography",
-    "whyItIsInteresting": "Shoot everything in 360 and reframe the perfect angle later in the app. The invisible selfie stick effect makes every clip look like it was filmed by a drone.",
-    "imageIdea": "360 camera on invisible stick capturing a snowboarding action shot",
-    "sourceLink": "https://www.insta360.com",
-    "estimatedPriceRange": "$499–$599",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Insta360+X4+360-Degree+Camera&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Insta360+X4+360-Degree+Camera&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Insta360+X4+360-Degree+Camera"
-  },
-  {
-    "id": 35,
-    "slug": "joby-gorillapod-5k-flexible-tripod",
-    "title": "JOBY GorillaPod 5K Flexible Tripod",
-    "shortDescription": "A flexible tripod with wrappable rubber legs that grip any surface. Supports up to 5kg, includes a precision ball head, and fits cameras and smartphones.",
-    "category": "Photography",
-    "whyItIsInteresting": "It wraps around trees, poles, and railings to create shots no regular tripod can achieve. The 5K weight capacity handles professional mirrorless setups without wobble.",
-    "imageIdea": "Flexible tripod wrapped around a tree branch holding a camera in the forest",
-    "sourceLink": "https://joby.com",
-    "estimatedPriceRange": "$79–$99",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=JOBY+GorillaPod+5K+Flexible+Tripod&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=JOBY+GorillaPod+5K+Flexible+Tripod&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=JOBY+GorillaPod+5K+Flexible+Tripod"
-  },
-  {
-    "id": 36,
-    "slug": "dyson-airwrap-multi-styler",
-    "title": "Dyson Airwrap Multi-Styler",
-    "shortDescription": "A multi-functional hair styler using the Coanda effect to curl, wave, smooth, and dry with air instead of extreme heat. Six attachments included.",
-    "category": "Personal Care",
-    "whyItIsInteresting": "It replaces a curling iron, straightener, and blow dryer with one tool that causes significantly less heat damage. The Coanda effect wrapping is genuinely mesmerizing.",
-    "imageIdea": "Sleek hair styling tool with multiple attachments on a vanity counter",
-    "estimatedPriceRange": "$499–$599",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Dyson+Airwrap+Multi-Styler&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Dyson+Airwrap+Multi-Styler&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Dyson+Airwrap+Multi-Styler"
-  },
-  {
-    "id": 37,
-    "slug": "therabody-theragun-mini-2",
-    "title": "Therabody Theragun Mini 2.0",
-    "shortDescription": "An ultra-portable percussion massage device with 3 speed settings, QuietForce technology, and 150-minute battery life. Weighs just 1.35 lbs.",
-    "category": "Personal Care",
-    "whyItIsInteresting": "It fits in a bag and delivers surprisingly powerful percussive therapy on the go. The quiet motor means you can use it in an office or hotel without disturbing anyone.",
-    "imageIdea": "Compact massage gun being used on shoulder muscles after a workout",
-    "sourceLink": "https://www.therabody.com",
-    "estimatedPriceRange": "$199",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Therabody+Theragun+Mini+2.0&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Therabody+Theragun+Mini+2.0&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Therabody%20Theragun%20Mini%202.0"
-  },
-  {
-    "id": 38,
-    "slug": "foreo-luna-4-facial-cleansing",
-    "title": "FOREO LUNA 4 Facial Cleansing Device",
-    "shortDescription": "A silicone facial cleansing and firming device with T-Sonic pulsations. Removes 99% of dirt and oil, waterproof, and a single charge lasts 4 months.",
-    "category": "Personal Care",
-    "whyItIsInteresting": "The medical-grade silicone is far more hygienic than bristle brushes and never needs replacement heads. Most users see visibly cleaner skin within the first week.",
-    "imageIdea": "Mint green silicone facial device next to skincare products in a bathroom",
-    "sourceLink": "https://www.foreo.com",
-    "estimatedPriceRange": "$199–$279",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=FOREO+LUNA+4+Facial+Cleansing+Device&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=FOREO+LUNA+4+Facial+Cleansing+Device&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=FOREO%20LUNA%204%20Facial%20Cleansing%20Device"
-  },
-  {
     "id": 39,
     "slug": "philips-norelco-oneblade-360",
     "title": "Philips Norelco OneBlade 360",
@@ -1981,8 +1887,7 @@
     "estimatedPriceRange": "$25-$35 per box",
     "availableOnAmazon": false,
     "type": "product",
-    "dateAdded": "2026-04-14",
-    "badge": "best-value"
+    "dateAdded": "2026-04-14"
   },
   {
     "id": 141,
@@ -2197,5 +2102,100 @@
     "amazonAsin": "",
     "type": "product",
     "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 155,
+    "slug": "agentplace-ai-agents",
+    "title": "Agentplace AI Agents",
+    "shortDescription": "Agentplace offers a platform for creating and deploying specialized AI agents designed for specific real-world tasks and workflows. Users can start with pre-built agents for common needs or customize their own within minutes. These agents can handle everything from lead routing and in-depth research to document analysis and appointment scheduling, making them ideal for businesses and professionals looking to automate repetitive and complex processes.",
+    "category": "Productivity Software",
+    "whyItIsInteresting": "Agentplace is tapping into the growing demand for practical AI applications beyond generalized chatbots. Its strength lies in enabling users to build or leverage highly specialized agents that can integrate into existing workflows, offering tangible productivity gains. The platform's flexibility, allowing for both ready-made and custom solutions, makes it accessible to a broad range of users. The high signal on Product Hunt (701 points) indicates significant community interest in this approach to AI augmentation.",
+    "imageIdea": "network of glowing interconnected nodes",
+    "sourceLink": "https://www.producthunt.com/r/LICQ5AAJADF7J6",
+    "estimatedPriceRange": "$20-$100/month (based on tiers)",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-19",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Agentplace%20AI%20Agents"
+  },
+  {
+    "id": 156,
+    "slug": "velo-share-anything-as-video-messages",
+    "title": "Velo",
+    "shortDescription": "Velo is a new tool that transforms raw screen recordings into polished, shareable video messages. Leveraging AI, it simplifies the process of creating professional-looking videos from your computer screen. This is perfect for anyone who needs to communicate complex ideas visually, provide software walkthroughs, or offer feedback in a dynamic and engaging format, moving beyond static screenshots or lengthy text explanations.",
+    "category": "Video Communication Tool",
+    "whyItIsInteresting": "In a world saturated with remote work and digital communication, Velo addresses the challenge of making screen recordings more effective and less cumbersome. By applying AI to enhance raw footage, it democratizes the creation of professional-quality video messages, saving users significant editing time and effort. This innovation is particularly valuable for customer support, sales demos, and internal training, offering a more personal and impactful way to communicate. Its popularity on Product Hunt (672 points) suggests a strong market need for this streamlined video solution.",
+    "imageIdea": "film reel with a cursor icon",
+    "sourceLink": "https://www.producthunt.com/r/5NXKZ7EKGRZVKR",
+    "estimatedPriceRange": "$15-$50/month (based on tiers)",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-19",
+    "badge": "best-value"
+  },
+  {
+    "id": 157,
+    "slug": "logitech-mx-master-4-mouse",
+    "title": "Logitech MX Master 4 Mouse",
+    "shortDescription": "The Logitech MX Master 4 is a wireless, ergonomic mouse designed for ultimate productivity and comfort. It features advanced tracking on virtually any surface, a hyper-fast scroll wheel for navigating long documents or code, and customizable buttons that can be programmed for specific application shortcuts. This mouse is ideal for professionals, creatives, and power users who spend long hours at their computer and demand precision and efficiency.",
+    "category": "Computer Peripherals",
+    "whyItIsInteresting": "Logitech's MX Master series is renowned for its premium build quality and feature set, and the MX Master 4 aims to build on that legacy. Its standout feature is often the combination of an incredibly precise sensor (Logitech's Darkfield sensor) and the revolutionary MagSpeed electromagnetic scroll wheel, which can switch between precise ratcheting and free-spin modes automatically. The ability to customize button functions per application via Logitech Options+ software offers a level of workflow optimization that few other mice can match, making it a top choice for serious computer users.",
+    "imageIdea": "ergonomic computer mouse on a desk",
+    "estimatedPriceRange": "$99-$119",
+    "availableOnAmazon": true,
+    "amazonAsin": "B0CY2Z1B5P",
+    "type": "product",
+    "dateAdded": "2026-04-19",
+    "directAmazonUrl": "https://www.amazon.com/dp/B0CY2Z1B5P?tag=vaultvibe-20&linkCode=ll1",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/dp/B0CY2Z1B5P?tag=vaultvibe-20&linkCode=ll1"
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech%20MX%20Master%204%20Mouse"
+  },
+  {
+    "id": 158,
+    "slug": "anker-737-power-bank-powercore-24k-hifi",
+    "title": "Anker 737 Power Bank (PowerCore 24K Hi-Fi)",
+    "shortDescription": "The Anker 737 Power Bank is a high-capacity portable charger designed for power users and travelers. With a 24,000mAh capacity and 140W total output, it can simultaneously charge multiple devices, including laptops, tablets, and smartphones, at rapid speeds. Its standout feature is the smart digital display that shows power output, input, and estimated recharge time, offering unprecedented transparency into its charging status.",
+    "category": "Portable Power",
+    "whyItIsInteresting": "As more devices rely on powerful, fast charging, a high-capacity, high-output power bank like the Anker 737 becomes essential. The 140W Power Delivery 3.1 standard it supports is crucial for quickly charging demanding devices like modern laptops, which often require 60W or more. The intelligent display is a significant upgrade over traditional power banks, providing real-time data that helps users manage their charging needs more effectively. This makes it an indispensable tool for professionals on the go, students, and anyone who needs reliable, fast power away from an outlet.",
+    "imageIdea": "black cylindrical power bank with a digital display",
+    "sourceLink": "https://www.amazon.com/Anker-Charger-PowerCore-Display-Output/dp/B09XMG8W2X",
+    "estimatedPriceRange": "$100-$150",
+    "availableOnAmazon": true,
+    "amazonAsin": "B09XMG8W2X",
+    "type": "product",
+    "dateAdded": "2026-04-19",
+    "directAmazonUrl": "https://www.amazon.com/dp/B09XMG8W2X?tag=vaultvibe-20&linkCode=ll1",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/dp/B09XMG8W2X?tag=vaultvibe-20&linkCode=ll1"
+    }
+  },
+  {
+    "id": 159,
+    "slug": "google-pixel-8a",
+    "title": "Google Pixel 8a",
+    "shortDescription": "The Google Pixel 8a is the latest affordable smartphone from Google, packing flagship-level AI capabilities into a budget-friendly device. It features Google's powerful Tensor G3 chip, a high-refresh-rate OLED display, and an advanced camera system enhanced by Google's computational photography. This phone is designed for users who want a premium smartphone experience, including cutting-edge AI features and a superior camera, without the premium price tag.",
+    "category": "Smartphone",
+    "whyItIsInteresting": "Google's Pixel 'a' series has consistently offered exceptional value, and the Pixel 8a continues this trend by bringing the advanced AI features and camera prowess of its flagship siblings to a more accessible price point. The Tensor G3 chip enables features like Magic Editor for photos, improved voice typing, and real-time translation, all powered by Google's AI. Its competitive pricing, combined with a clean Android experience and a commitment to timely software updates, makes it a compelling choice for a wide range of consumers looking for a smart, capable, and affordable smartphone.",
+    "imageIdea": "smartphone with a vibrant screen displaying AI-generated art",
+    "sourceLink": "https://store.google.com/product/pixel_8a",
+    "estimatedPriceRange": "$499-$549",
+    "availableOnAmazon": true,
+    "amazonAsin": "B0CS4XN3T7",
+    "type": "product",
+    "dateAdded": "2026-04-19",
+    "directAmazonUrl": "https://www.amazon.com/dp/B0CS4XN3T7?tag=vaultvibe-20&linkCode=ll1",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/dp/B0CS4XN3T7?tag=vaultvibe-20&linkCode=ll1"
+    }
   }
 ]

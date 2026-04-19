@@ -1,60 +1,5 @@
 [
   {
-    "id": 37,
-    "slug": "there-is-a-planet-where-it-rains-glass-sideways",
-    "title": "There Is a Planet Where It Rains Glass Sideways",
-    "shortDescription": "HD 189733b, located 63 light-years away, has winds exceeding 8,700 kilometers per hour that blow molten silicate glass horizontally. The planet appears deep blue, not from water, but from the light-scattering properties of the glass particles in its atmosphere.",
-    "category": "Space",
-    "whyItIsInteresting": "It redefines what 'weather' can mean. On Earth we worry about rain; on HD 189733b, you would be shredded by horizontal glass shards moving at seven times the speed of sound. It makes Earth's worst hurricanes look gentle by comparison.",
-    "imageIdea": "A blue alien planet with visible horizontal streaks of glittering glass rain being blown across its turbulent atmosphere",
-    "sourceLink": "https://www.nasa.gov/image-article/rains-of-terror-exoplanet-hd-189733b/",
-    "type": "discovery"
-  },
-  {
-    "id": 38,
-    "slug": "there-is-a-giant-cloud-of-alcohol-in-space",
-    "title": "There Is a Giant Cloud of Alcohol in Space",
-    "shortDescription": "Sagittarius B2, a molecular cloud near the center of the Milky Way, contains billions of liters of methanol and ethanol. The ethanol cloud alone spans 288 billion miles across.",
-    "category": "Space",
-    "whyItIsInteresting": "While you could not drink it — it is mixed with lethal chemicals and spread incredibly thin — it demonstrates that complex organic chemistry happens spontaneously in space. These are the same molecular building blocks that eventually lead to life.",
-    "imageIdea": "A vast colorful nebula with molecular structure diagrams of ethanol floating over it, deep in a star-forming region",
-    "sourceLink": "https://phys.org/news/2014-09-alcohol-clouds-space.html",
-    "type": "discovery"
-  },
-  {
-    "id": 39,
-    "slug": "neutron-stars-are-so-dense-a-teaspoon-would-weigh-6-billion-tons",
-    "title": "Neutron Stars Are So Dense a Teaspoon Would Weigh 6 Billion Tons",
-    "shortDescription": "When massive stars collapse, protons and electrons are crushed together into neutrons, creating matter so dense that a sugar-cube-sized piece would weigh about 6 billion tons — roughly the weight of Mount Everest.",
-    "category": "Space",
-    "whyItIsInteresting": "Neutron stars rotate up to 716 times per second and have magnetic fields a trillion times stronger than Earth's. They represent the absolute limit of matter before it collapses into a black hole — the universe's last stand before the point of no return.",
-    "imageIdea": "A tiny glowing sphere the size of a city hovering above Earth with a mountain balanced on a scale against a teaspoon of neutron star material",
-    "sourceLink": "https://en.wikipedia.org/wiki/Neutron_star",
-    "type": "discovery"
-  },
-  {
-    "id": 40,
-    "slug": "the-voyager-1-spacecraft-is-still-sending-data-from-interstellar-space",
-    "title": "Voyager 1 Is Still Sending Data from Interstellar Space",
-    "shortDescription": "Launched in 1977, Voyager 1 entered interstellar space in 2012 and continues transmitting data from over 24 billion kilometers away. Its radio signals, traveling at the speed of light, take over 22 hours to reach Earth.",
-    "category": "Space",
-    "whyItIsInteresting": "It is humanity's farthest-reaching object, running on less power than a refrigerator light bulb. The fact that 1970s technology is still functioning in interstellar space is a testament to engineering. Its Golden Record carries sounds and images of Earth for any civilization that might find it.",
-    "imageIdea": "The Voyager spacecraft as a tiny golden speck against the vast darkness of interstellar space with a faint signal beam stretching back toward a tiny distant Sun",
-    "sourceLink": "https://science.nasa.gov/mission/voyager/voyager-1/",
-    "type": "discovery"
-  },
-  {
-    "id": 41,
-    "slug": "there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth",
-    "title": "There Are More Stars in the Universe Than Grains of Sand on Earth",
-    "shortDescription": "Astronomers estimate there are roughly 200 sextillion stars in the observable universe (2 x 10^23). Earth has approximately 7.5 x 10^18 grains of sand, making stars outnumber sand grains by a factor of about 26,000.",
-    "category": "Space",
-    "whyItIsInteresting": "Next time you hold a handful of sand at the beach, consider that the number of stars out there dwarfs every grain on every beach, desert, and riverbed on the entire planet combined. The universe is incomprehensibly vast, and we have only explored a vanishingly small fraction.",
-    "imageIdea": "A hand releasing grains of sand that transform into glowing stars as they drift upward into a deep space background",
-    "sourceLink": "https://www.npr.org/sections/krulwich/2012/09/17/161096233/which-is-greater-the-number-of-sand-grains-on-earth-or-stars-in-the-sky",
-    "type": "discovery"
-  },
-  {
     "id": 42,
     "slug": "olympus-mons-on-mars-is-so-large-you-cant-see-it-from-its-base",
     "title": "Olympus Mons on Mars Is So Large You Cannot See Its Peak from Its Base",
@@ -1258,8 +1203,7 @@
     "whyItIsInteresting": "For decades, our understanding of human evolution has been dominated by the narrative of interbreeding between early *Homo sapiens* and Neanderthals. This new genetic evidence, however, pushes the boundaries of that narrative dramatically. The identification of genetic material from an entirely unidentified hominin lineage suggests a much more intricate tapestry of human ancestors and their interactions. It raises profound questions about the genetic diversity of ancient hominins, their geographic distribution, and the evolutionary pathways that led to modern humans. It implies that our own genetic makeup is a far richer mosaic, composed of contributions from more than just the two 'cousins' we've long acknowledged. This challenges us to reconsider the very definition of 'human' in the deep past and what it means to be a species that intermingles.",
     "imageIdea": "ancient human skull cave painting",
     "type": "discovery",
-    "dateAdded": "2026-04-18",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-18"
   },
   {
     "id": 146,
@@ -1271,8 +1215,7 @@
     "imageIdea": "exoplanet telescope observation data",
     "sourceLink": "https://www.nasa.gov/missions/hubble/",
     "type": "discovery",
-    "dateAdded": "2026-04-18",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-18"
   },
   {
     "id": 147,
@@ -1308,7 +1251,40 @@
     "whyItIsInteresting": "The ability to accurately model molecular behavior is fundamental to numerous scientific and technological advancements, from drug discovery and material science to catalysis and energy. Classical computers struggle with the exponential complexity of simulating quantum interactions within molecules. This breakthrough showcases the potential of quantum computing to revolutionize these fields. By precisely simulating molecular behavior, scientists could design new pharmaceuticals with fewer side effects, engineer novel materials with specific properties (like superconductors or more efficient catalysts), and develop cleaner energy solutions. It's a tangible step towards harnessing the power of quantum mechanics for practical problem-solving. The question that now looms large is: how quickly will this quantum advantage translate into real-world applications that transform our daily lives?",
     "imageIdea": "quantum computer processor chip",
     "type": "discovery",
-    "dateAdded": "2026-04-18",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-18"
+  },
+  {
+    "id": 150,
+    "slug": "ancient-dna-reveals-neanderthal-and-denisovan-genes-in-modern-humans",
+    "title": "Ancient DNA Reveals Neanderthal and Denisovan Genes in Modern Humans",
+    "shortDescription": "Analysis of ancient human DNA, published by Svante Pääbo and his team at the Max Planck Institute for Evolutionary Anthropology, has revealed that most modern humans outside of Africa carry genetic material from Neanderthals and Denisovans. These interbreeding events occurred tens of thousands of years ago, leaving a lasting genetic legacy. This discovery fundamentally reshaped our understanding of human evolution, showing that our ancestors were not a purely Homo sapiens lineage but a mosaic of different hominin groups.",
+    "category": "History",
+    "whyItIsInteresting": "For decades, the prevailing narrative was that modern humans outcompeted and replaced archaic hominins like Neanderthals. The groundbreaking work, culminating in Pääbo's Nobel Prize in Physiology or Medicine in 2022, revealed a far more complex and intimate story of interaction. The presence of Neanderthal and Denisovan DNA in our genomes, some of which influences traits like immune response and adaptation to altitude, suggests that these genes provided our ancestors with crucial advantages for survival. This raises profound questions about the definition of 'human' and our place in the evolutionary tree, prompting us to consider what traits we might have inherited from these 'other' humans and how they continue to shape us today.",
+    "imageIdea": "DNA helix double strand",
+    "type": "discovery",
+    "dateAdded": "2026-04-19"
+  },
+  {
+    "id": 151,
+    "slug": "venus-phosphine-detection-revisited-new-analysis-shows-no-clear-signal",
+    "title": "Venus Phosphine Signal Re-evaluation",
+    "shortDescription": "Initial reports in 2020 by Clara Sousa-Silva, Janusz Petkowski, and colleagues suggested the detection of phosphine gas in the atmosphere of Venus, a potential biosignature. However, subsequent, more rigorous analyses published in multiple journals, including Nature Astronomy in 2021, have cast doubt on this finding. Improved data processing and alternative interpretations of the spectral signals suggest the initial detection may have been an artifact or a result of misinterpretation of sulfur dioxide. The scientific community remains divided on the certainty of life on Venus based on this evidence.",
+    "category": "Space",
+    "whyItIsInteresting": "The initial announcement of phosphine on Venus ignited global excitement about the possibility of extraterrestrial life within our own solar system. Phosphine is a highly reactive gas, and its presence in significant quantities on Venus, if confirmed, would be difficult to explain through known geological or chemical processes, strongly implying a biological origin. The subsequent re-evaluation, however, highlights the rigorous self-correction inherent in the scientific process. While the definitive detection of life on Venus remains elusive, the intensive scrutiny of this signal has pushed the boundaries of astrobiological detection techniques and our understanding of Venus's complex atmospheric chemistry. It underscores the importance of robust data analysis and the ongoing quest to understand if life exists beyond Earth.",
+    "imageIdea": "planet venus cloudy atmosphere",
+    "type": "discovery",
+    "dateAdded": "2026-04-19"
+  },
+  {
+    "id": 152,
+    "slug": "ancient-dna-reveals-surprising-human-migration-patterns-in-europe",
+    "title": "Ancient DNA Reveals Surprising European Migrations",
+    "shortDescription": "Studies published in journals like Nature in 2018 and 2022, led by researchers such as David Reich at Harvard Medical School and Eske Willerslev at the University of Cambridge, have utilized ancient DNA to reconstruct complex human migration patterns across prehistoric Europe. These findings have revealed significant population turnovers and genetic admixtures, overturning previous assumptions about the stability of early European societies. For instance, it was discovered that the spread of farming from the Near East involved a massive influx of people, and later, the Yamnaya culture from the Pontic-Caspian steppe dramatically reshaped the genetic landscape of Europe.",
+    "category": "History",
+    "whyItIsInteresting": "For a long time, our understanding of European prehistory was based on archaeological evidence, which provided a somewhat static picture of cultural development. Ancient DNA has revolutionized this field, offering a direct window into the genetic heritage of past populations. The scale of population movements revealed by these studies is staggering, indicating that Europe has been a dynamic continent shaped by successive waves of migration and genetic replacement. This research has not only rewritten timelines but also provided insights into how languages spread and how cultural innovations were disseminated. It prompts us to reconsider the concept of 'indigenous' populations and the deep historical roots of modern European diversity.",
+    "imageIdea": "archaeological dig site",
+    "sourceLink": "https://www.nature.com/articles/nature13551",
+    "type": "discovery",
+    "dateAdded": "2026-04-19"
   }
 ]
