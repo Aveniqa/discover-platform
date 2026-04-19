@@ -122,7 +122,7 @@ jobs:
               ``,
               `Check the run logs to see which step errored. The site content is now stale until this is resolved.`,
               ``,
-              `Close this issue once the problem is fixed and a successful run completes.`
+              `_This issue will auto-close on the next successful daily-edition run._`
             ].join('\n');
 
             await github.rest.issues.create({
@@ -132,3 +132,42 @@ jobs:
               body,
               labels: ['bug', 'automation']
             });
+
+  close-stale-alerts:
+    runs-on: ubuntu-latest
+    needs: daily-update
+    if: success()
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Auto-close open daily-edition alerts
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'automation',
+              per_page: 100,
+            });
+            const stale = issues.filter((i) => i.title.startsWith('⚠️ Daily edition failed'));
+            for (const issue of stale) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `Auto-closing — daily edition ran successfully ([run](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})).`,
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+                state_reason: 'completed',
+              });
+            }
+            if (stale.length) {
+              core.notice(`Closed ${stale.length} stale daily-edition alert(s).`);
+            }

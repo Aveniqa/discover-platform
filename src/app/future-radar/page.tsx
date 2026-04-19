@@ -11,6 +11,7 @@ import { ItemImage } from "@/components/ui/ItemImage";
 import { futureRadar, getSubCategories, getFilterCategory, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
+import { ItemListSchema } from "@/components/seo/ItemListSchema";
 
 export default function FutureRadarPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -48,6 +49,12 @@ export default function FutureRadarPage() {
 
   return (
     <>
+      <ItemListSchema
+        items={futureRadar as AnyItem[]}
+        name="Surfaced Future Radar — Emerging Tech Worth Watching"
+        description="Emerging technologies, frontier research, and industry-shaping innovations on the horizon."
+        pagePath="/future-radar"
+      />
       {/* ── Hero ──────────────────────────────────────────── */}
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">

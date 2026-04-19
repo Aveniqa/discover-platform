@@ -187,16 +187,6 @@
     "imageIdea": "social media template design post"
   },
   {
-    "id": 54,
-    "slug": "hashtagify",
-    "toolName": "Hashtagify",
-    "whatItDoes": "Hashtag research tool that shows popularity, trends, related hashtags, and top influencers for any hashtag. Visualizes hashtag relationships and tracks performance over time.",
-    "category": "Social Media",
-    "whyItIsUseful": "Using the right hashtags can multiply reach by 10x. Hashtagify shows which tags are trending upward and which are oversaturated, so you pick the ones that actually get seen.",
-    "type": "tool",
-    "imageIdea": "hashtag research trending cloud"
-  },
-  {
     "id": 55,
     "slug": "later",
     "toolName": "Later",
@@ -552,17 +542,6 @@
     "whyItIsUseful": "It's an invaluable tool for web developers, designers, and anyone managing a website, as it significantly reduces image file sizes without noticeable quality loss. This leads to faster website loading times, improved SEO, and a better user experience, supporting modern image formats like WebP and AVIF.",
     "imageIdea": "A split-screen view of an image, with one side showing the original uncompressed version and the other showing a highly optimized version with compression sliders and format options visible. The background could be a subtle grid pattern.",
     "websiteLink": "https://squoosh.app/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 84,
-    "slug": "personal-capital",
-    "toolName": "Personal Capital (now Empower)",
-    "whatItDoes": "Personal Capital, now integrated with Empower, is a comprehensive financial dashboard that aggregates all of a user's financial accounts, including bank accounts, credit cards, investments, and loans, into a single platform. It offers tools for net worth tracking, budgeting, and investment analysis.",
-    "category": "Finance",
-    "whyItIsUseful": "It provides a holistic view of your financial health, making it easier to track spending, monitor investments, and plan for retirement. Users can see their entire financial picture at a glance, enabling better decision-making without the hassle of logging into multiple financial portals.",
-    "imageIdea": "A clean, modern financial dashboard displaying various charts: a pie chart for expenses, a line graph for net worth over time, and a bar chart for investment performance. Icons for banking, credit cards, and investments would be visible.",
     "type": "tool",
     "dateAdded": "2026-04-14"
   },

@@ -4,7 +4,10 @@ export const metadata: Metadata = {
   title: "Hidden Gem Apps & Tools Most People Don't Know About",
   description:
     "134 under-the-radar apps, tools, and services that deserve more attention. From productivity to design to AI — curated daily by Surfaced.",
-  alternates: { canonical: "https://surfaced-x.pages.dev/hidden-gems" },
+  alternates: {
+    canonical: "https://surfaced-x.pages.dev/hidden-gems",
+    types: { "application/rss+xml": "/feeds/hidden-gems.xml" },
+  },
   openGraph: {
     title: "Hidden Gem Apps & Tools Most People Don't Know About",
     description:

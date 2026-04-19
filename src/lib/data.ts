@@ -97,6 +97,9 @@ export interface AffiliateInfo {
 export type AnyItem = (Discovery | Product | HiddenGem | FutureTech | DailyTool) & {
   affiliate?: AffiliateInfo;
   promoCode?: string;
+  dateAdded?: string;
+  signalSource?: string;
+  signalScore?: number;
 };
 
 /* ---- Data Access ---- */

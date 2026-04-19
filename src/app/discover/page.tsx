@@ -11,6 +11,7 @@ import { ItemImage } from "@/components/ui/ItemImage";
 import { discoveries, getSubCategories, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
+import { ItemListSchema } from "@/components/seo/ItemListSchema";
 
 export default function DiscoverPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -48,6 +49,12 @@ export default function DiscoverPage() {
 
   return (
     <>
+      <ItemListSchema
+        items={discoveries}
+        name="Surfaced Discoveries — Fascinating Science & Facts"
+        description="Breakthroughs, fascinating research, and curious facts — curated daily."
+        pagePath="/discover"
+      />
       {/* ── Hero ──────────────────────────────────────────── */}
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">

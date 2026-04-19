@@ -6,6 +6,12 @@
       "runtimeExecutable": "npx",
       "runtimeArgs": ["serve@latest", "out", "-l", "3000", "-s"],
       "port": 3000
+    },
+    {
+      "name": "surfaced-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
     }
   ]
 }

@@ -26,6 +26,10 @@ import { SocialCTA } from "@/components/SocialCTA";
 import { ShareTodaysPicks } from "@/components/ui/ShareTodaysPicks";
 import { TodayDate } from "@/components/ui/TodayDate";
 import { HeroShowcase } from "@/components/ui/HeroShowcase";
+import { ScrollReveal } from "@/components/ui/ScrollReveal";
+import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
+import { AnimatedHeroBackground } from "@/components/ui/AnimatedHeroBackground";
+import { NewTodayRibbon, SignalScore, getItemSignals } from "@/components/ui/ItemSignals";
 import { getStreak } from "@/lib/engagement";
 import { todaysPicks } from "@/lib/data";
 import Link from "next/link";
@@ -72,6 +76,17 @@ function accentBar(type: string): string {
 
 export default function HomePage() {
   const totalItems = discoveries.length + products.length + hiddenGems.length + futureRadar.length + dailyTools.length;
+  const topicCount = (() => {
+    const tags = new Set<string>();
+    const bag: Array<{ category?: string; industry?: string }> = [
+      ...discoveries, ...products, ...hiddenGems, ...futureRadar, ...dailyTools,
+    ];
+    for (const i of bag) {
+      if (i.category) tags.add(i.category);
+      if (i.industry) tags.add(i.industry);
+    }
+    return Math.floor(tags.size / 10) * 10; // floor to nearest 10 for an honest "N+" claim
+  })();
   const [milestoneToast, setMilestoneToast] = useState<string | null>(null);
   const [streakDays, setStreakDays] = useState(0);
   const [streakEmoji, setStreakEmoji] = useState("");
@@ -125,9 +140,7 @@ export default function HomePage() {
           HERO — Visual showcase + compact headline
           ============================================ */}
       <section className="relative pt-6 sm:pt-10 pb-8 sm:pb-12 overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-accent/[0.05] blur-[120px]" />
-        </div>
+        <AnimatedHeroBackground />
 
         {/* Streak badge */}
         {streakDays > 0 && (
@@ -138,12 +151,31 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* Compact headline above the showcase */}
+        {/* Compact headline above the showcase — kinetic typography */}
         <div className="relative text-center mb-6 sm:mb-8 px-4">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.1] mb-2">
-            Discover something <span className="gradient-text">remarkable</span>
+            <span className="inline-block animate-fade-in-up" style={{ animationDelay: "40ms", animationFillMode: "both" }}>
+              Discover
+            </span>{" "}
+            <span className="inline-block animate-fade-in-up" style={{ animationDelay: "180ms", animationFillMode: "both" }}>
+              something
+            </span>{" "}
+            <span
+              className="inline-block gradient-text animate-fade-in-up"
+              style={{
+                animationDelay: "320ms",
+                animationFillMode: "both",
+                backgroundSize: "200% 200%",
+                animation: "fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) 320ms both, gradient-shift 6s ease-in-out 1.2s infinite",
+              }}
+            >
+              remarkable
+            </span>
           </h1>
-          <p className="text-sm sm:text-base text-muted-foreground max-w-lg mx-auto">
+          <p
+            className="text-sm sm:text-base text-muted-foreground max-w-lg mx-auto animate-fade-in-up"
+            style={{ animationDelay: "480ms", animationFillMode: "both" }}
+          >
             Products, hidden gems, future tech, and discoveries — refreshed daily
           </p>
         </div>
@@ -160,16 +192,22 @@ export default function HomePage() {
 
           <div className="flex items-center justify-center gap-6 sm:gap-10 pt-5 border-t border-border/50">
             <div className="text-center">
-              <p className="text-2xl font-bold">{totalItems}+</p>
-              <p className="text-xs text-muted-foreground">Curated items</p>
+              <p className="text-2xl font-bold tabular-nums">
+                <AnimatedCounter value={totalItems} suffix="+" />
+              </p>
+              <p className="text-xs text-muted-foreground">Hand-picked finds</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl font-bold">5</p>
-              <p className="text-xs text-muted-foreground">Categories</p>
+              <p className="text-2xl font-bold tabular-nums">
+                <AnimatedCounter value={topicCount} suffix="+" />
+              </p>
+              <p className="text-xs text-muted-foreground">Topics covered</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl font-bold">25</p>
-              <p className="text-xs text-muted-foreground">New daily</p>
+              <p className="text-2xl font-bold tabular-nums">
+                <AnimatedCounter value={7} />
+              </p>
+              <p className="text-xs text-muted-foreground">Days a week</p>
             </div>
           </div>
         </div>
@@ -198,6 +236,7 @@ export default function HomePage() {
           TRENDING THIS WEEK — badged items
           ============================================ */}
       {trendingItems.length > 0 && (
+        <ScrollReveal>
         <section className="pb-6 sm:pb-10 px-4 sm:px-6 border-b border-border/50">
           <div className="max-w-[90rem] mx-auto">
             <div className="flex items-center justify-between mb-6">
@@ -209,20 +248,29 @@ export default function HomePage() {
             </div>
             <Carousel
               items={trendingItems}
-              renderCard={(item, idx) => (
+              renderCard={(item, idx) => {
+                const { source, score, fresh } = getItemSignals(item);
+                const badge = (item as { badge?: string }).badge;
+                return (
                 <Link href={`/item/${item.slug}`} className="group block w-full">
                   <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                     <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                     <div className="overflow-hidden relative">
                       <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" priority={idx < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
-                      {!!(item as { badge?: string }).badge && (
-                        <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-amber-500 text-white rounded-full">
-                          {(item as { badge?: string }).badge}
-                        </span>
-                      )}
+                      <div className="absolute top-2 right-2 z-10 flex flex-col items-end gap-1">
+                        {fresh && <NewTodayRibbon />}
+                        {!!badge && (
+                          <span className="px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-amber-500 text-white rounded-full">
+                            {badge}
+                          </span>
+                        )}
+                      </div>
                     </div>
                     <div className="p-5 flex flex-col flex-1">
-                      <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} className="mb-3 self-start" />
+                      <div className="flex items-center justify-between gap-2 mb-3">
+                        <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} />
+                        <SignalScore source={source} score={score} />
+                      </div>
                       <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
                         {getItemTitle(item)}
                       </h3>
@@ -232,15 +280,18 @@ export default function HomePage() {
                     </div>
                   </div>
                 </Link>
-              )}
+                );
+              }}
             />
           </div>
         </section>
+        </ScrollReveal>
       )}
 
       {/* ============================================
           CATEGORY QUICK-ACCESS CARDS
           ============================================ */}
+      <ScrollReveal>
       <section className="py-4 sm:py-8 px-4 sm:px-6">
         <div className="max-w-[90rem] mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
@@ -250,10 +301,11 @@ export default function HomePage() {
               { label: "Hidden Gems", href: "/hidden-gems", emoji: "💎", count: hiddenGems.length, color: "from-amber-500/20 to-transparent" },
               { label: "Future Tech", href: "/future-radar", emoji: "🔭", count: futureRadar.length, color: "from-blue-500/20 to-transparent" },
               { label: "Daily Tools", href: "/tools", emoji: "🛠️", count: dailyTools.length, color: "from-rose-500/20 to-transparent" },
-            ].map((cat) => (
+            ].map((cat, i) => (
               <Link key={cat.href} href={cat.href}
-                className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 transition-all group`}>
-                <span className="text-2xl">{cat.emoji}</span>
+                className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 hover:-translate-y-0.5 transition-all group animate-fade-in-up`}
+                style={{ animationDelay: `${i * 80}ms`, animationFillMode: "both" }}>
+                <span className="text-2xl inline-block transition-transform group-hover:scale-110">{cat.emoji}</span>
                 <p className="font-semibold mt-2 text-sm group-hover:text-accent transition-colors">{cat.label}</p>
                 <p className="text-xs text-muted-foreground">{cat.count} items</p>
               </Link>
@@ -261,10 +313,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           TODAY'S PICKS — Newest from each category
           ============================================ */}
+      <ScrollReveal>
       <section className="pb-6 sm:pb-10 px-4 sm:px-6">
         <div className="max-w-[90rem] mx-auto">
           <div className="flex items-center justify-between mb-5">
@@ -319,10 +373,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           WHAT SURFACED TODAY — Daily Editorial Roundup
           ============================================ */}
+      <ScrollReveal>
       <section className="relative pb-10 sm:pb-20 px-4 sm:px-6">
         {/* Subtle editorial backdrop */}
         <div className="absolute inset-0 bg-gradient-to-b from-accent/[0.03] via-transparent to-transparent pointer-events-none" />
@@ -363,14 +419,18 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-5">
             {/* Lead story — large card */}
+            {(() => {
+              const lead = getItemSignals(editorsPick);
+              return (
             <div className="sm:col-span-2 xl:row-span-2 gradient-border relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden">
               <div className={`absolute top-0 left-0 right-0 h-[3px] z-10 ${accentBar(editorsPick.type)}`} />
-              <div className="overflow-hidden">
+              <div className="overflow-hidden relative">
                 <ItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" priority className="group-hover:scale-[1.03] transition-transform duration-500" />
+                {lead.fresh && <NewTodayRibbon className="absolute top-3 right-3 z-10" />}
               </div>
               <div className="p-7 sm:p-8 flex flex-col flex-1">
-              <div className="flex items-start justify-between mb-5">
-                <div className="flex items-center gap-2.5">
+              <div className="flex items-start justify-between mb-5 gap-2">
+                <div className="flex items-center gap-2.5 flex-wrap">
                   <span className="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-[0.12em] text-accent bg-accent/15 border border-accent/20 px-2.5 py-1 rounded-full">
                     &#9733; Lead
                   </span>
@@ -378,6 +438,7 @@ export default function HomePage() {
                     label={getCategoryLabel(editorsPick.type)}
                     color={getCategoryColor(editorsPick.type)}
                   />
+                  <SignalScore source={lead.source} score={lead.score} />
                 </div>
                 <BookmarkButton slug={editorsPick.slug} />
               </div>
@@ -401,25 +462,31 @@ export default function HomePage() {
               </Link>
               </div>
             </div>
+              );
+            })()}
 
             {/* 4 supporting picks */}
-            {topPicksRest.map((item, i) => (
+            {topPicksRest.map((item, i) => {
+              const { source, score, fresh } = getItemSignals(item);
+              return (
               <div
                 key={item.slug}
                 className="relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden"
               >
                 <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
-                <div className="overflow-hidden">
+                <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="md" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  {fresh && <NewTodayRibbon className="absolute top-2 right-2 z-10" />}
                 </div>
                 <div className="p-5 sm:p-6 flex flex-col flex-1">
-                <div className="flex items-start justify-between mb-3">
+                <div className="flex items-start justify-between mb-3 gap-2">
                   <div className="flex items-center gap-2">
                     <span className="text-[9px] font-bold text-accent/50 tabular-nums">0{i + 2}</span>
                     <CategoryBadge
                       label={getCategoryLabel(item.type)}
                       color={getCategoryColor(item.type)}
                     />
+                    <SignalScore source={source} score={score} />
                   </div>
                   <BookmarkButton slug={item.slug} />
                 </div>
@@ -443,7 +510,8 @@ export default function HomePage() {
                 </Link>
                 </div>
               </div>
-            ))}
+              );
+            })}
           </div>
 
           {/* Inline newsletter nudge */}
@@ -458,6 +526,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           CATEGORY PREVIEW SECTIONS
@@ -469,7 +538,8 @@ export default function HomePage() {
           .sort((a, b) => (b.id || 0) - (a.id || 0))
           .slice(0, 36);
         return (
-          <section key={cat.key} className="pb-8 sm:pb-18 px-4 sm:px-6">
+          <ScrollReveal key={cat.key}>
+          <section className="pb-8 sm:pb-18 px-4 sm:px-6">
             <div className="max-w-[90rem] mx-auto">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-2.5">
@@ -486,21 +556,21 @@ export default function HomePage() {
               <Carousel
                 items={items}
                 renderCard={(item) => {
-                  const isNew = isNewToday(item, allInCategory);
+                  const { source, score, fresh } = getItemSignals(item);
+                  const isNew = fresh || isNewToday(item, allInCategory);
                   return (
                     <Link href={`/item/${item.slug}`} className="group block w-full">
                       <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                         <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                         <div className="overflow-hidden relative">
                           <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
-                          {isNew && (
-                            <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
-                              New
-                            </span>
-                          )}
+                          {isNew && <NewTodayRibbon className="absolute top-2 right-2 z-10" />}
                         </div>
                         <div className="p-5 flex flex-col flex-1">
-                          <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} className="mb-3 self-start" />
+                          <div className="flex items-center justify-between gap-2 mb-3">
+                            <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} />
+                            <SignalScore source={source} score={score} />
+                          </div>
                           <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
                             {getItemTitle(item)}
                           </h3>
@@ -515,12 +585,14 @@ export default function HomePage() {
               />
             </div>
           </section>
+          </ScrollReveal>
         );
       })}
 
       {/* ============================================
           INLINE NEWSLETTER CTA (between carousels 3 & 4)
           ============================================ */}
+      <ScrollReveal>
       <section className="py-8 my-2 px-4 sm:px-6">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-lg font-medium mb-1">Enjoying the discoveries?</p>
@@ -528,6 +600,7 @@ export default function HomePage() {
           <NewsletterForm variant="minimal" />
         </div>
       </section>
+      </ScrollReveal>
 
       {categories.slice(3).map((cat) => {
         const allInCategory = getItemsForCategory(cat.key);
@@ -536,7 +609,8 @@ export default function HomePage() {
           .sort((a, b) => (b.id || 0) - (a.id || 0))
           .slice(0, 36);
         return (
-          <section key={cat.key} className="pb-8 sm:pb-18 px-4 sm:px-6">
+          <ScrollReveal key={cat.key}>
+          <section className="pb-8 sm:pb-18 px-4 sm:px-6">
             <div className="max-w-[90rem] mx-auto">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-2.5">
@@ -553,21 +627,21 @@ export default function HomePage() {
               <Carousel
                 items={items}
                 renderCard={(item) => {
-                  const isNew = isNewToday(item, allInCategory);
+                  const { source, score, fresh } = getItemSignals(item);
+                  const isNew = fresh || isNewToday(item, allInCategory);
                   return (
                     <Link href={`/item/${item.slug}`} className="group block w-full">
                       <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                         <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                         <div className="overflow-hidden relative">
                           <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
-                          {isNew && (
-                            <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
-                              New
-                            </span>
-                          )}
+                          {isNew && <NewTodayRibbon className="absolute top-2 right-2 z-10" />}
                         </div>
                         <div className="p-5 flex flex-col flex-1">
-                          <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} className="mb-3 self-start" />
+                          <div className="flex items-center justify-between gap-2 mb-3">
+                            <CategoryBadge label={getCategoryLabel(item.type)} color={getCategoryColor(item.type)} />
+                            <SignalScore source={source} score={score} />
+                          </div>
                           <h3 className="text-sm font-semibold text-foreground leading-snug mb-1.5 line-clamp-2 group-hover:text-accent transition-colors">
                             {getItemTitle(item)}
                           </h3>
@@ -582,12 +656,14 @@ export default function HomePage() {
               />
             </div>
           </section>
+          </ScrollReveal>
         );
       })}
 
       {/* ============================================
           NEWSLETTER CTA
           ============================================ */}
+      <ScrollReveal>
       <section className="section-divider relative py-12 sm:py-32 px-4 sm:px-6 overflow-hidden">
         {/* Gradient background */}
         <div className="absolute inset-0 bg-gradient-to-b from-accent/[0.04] via-surface to-background pointer-events-none" />
@@ -606,15 +682,18 @@ export default function HomePage() {
           <p className="mt-3 text-xs text-muted-foreground/60">No spam, ever. Unsubscribe anytime.</p>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           SOCIAL CTA
           ============================================ */}
+      <ScrollReveal>
       <section className="pb-10 sm:pb-20 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
           <SocialCTA />
         </div>
       </section>
+      </ScrollReveal>
 
       {/* ============================================
           SURPRISE ME FAB

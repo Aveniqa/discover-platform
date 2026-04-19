@@ -286,7 +286,7 @@ jobs:
   alert-on-failure:
     runs-on: ubuntu-latest
     needs: validate-build
-    if: failure()
+    if: failure() && github.event_name == 'push'
     steps:
       - name: Create GitHub Issue for failed validation
         uses: actions/github-script@v7
@@ -308,7 +308,9 @@ jobs:
               `- Are all data JSON files valid?`,
               `- Are critical pages (index, 404, categories) present?`,
               ``,
-              `Check the run logs for specific failures.`
+              `Check the run logs for specific failures.`,
+              ``,
+              `_This issue will auto-close on the next successful push-triggered run._`
             ].join('\n');
 
             await github.rest.issues.create({
@@ -318,3 +320,42 @@ jobs:
               body,
               labels: ['bug', 'automation']
             });
+
+  close-stale-alerts:
+    runs-on: ubuntu-latest
+    needs: validate-build
+    if: success() && github.event_name == 'push'
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Auto-close open build-validation alerts
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'automation',
+              per_page: 100,
+            });
+            const stale = issues.filter((i) => i.title.startsWith('🚨 Build validation failed'));
+            for (const issue of stale) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `Auto-closing — build validation passed on commit \`${context.sha.slice(0, 8)}\` ([run](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId})).`,
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+                state_reason: 'completed',
+              });
+            }
+            if (stale.length) {
+              core.notice(`Closed ${stale.length} stale build-validation alert(s).`);
+            }

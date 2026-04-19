@@ -38,7 +38,7 @@ import { StickyCTA } from "@/components/ui/StickyCTA";
 import { LogoImage } from "@/components/ui/LogoImage";
 import { ScreenshotImage } from "@/components/ui/ScreenshotImage";
 import { isPexelsImage } from "@/lib/images";
-import { getItemImageUrl } from "@/lib/images";
+import { getItemImageUrl, getOgImageUrl } from "@/lib/images";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -106,7 +106,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = getItemTitle(item);
   const desc = getItemDescription(item);
   const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
-  const ogImage = getItemImageUrl(slug, 1200, 630, "og");
+  const ogPng = getOgImageUrl(slug);
+  const ogImage = ogPng
+    ? `https://surfaced-x.pages.dev${ogPng}`
+    : getItemImageUrl(slug, 1200, 630, "og");
   const isProduct = item.type === "product";
   const priceRange = isProduct ? (item as Product).estimatedPriceRange : undefined;
 
@@ -295,30 +298,17 @@ export default async function ItemPage({ params }: Props) {
     return t.split(/\s+/)[0];
   };
 
-  const jsonLd = item.type === "product" ? {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: title,
-    description,
-    url: pageUrl,
-    ...(imageUrl ? { image: imageUrl } : {}),
-    brand: { "@type": "Brand", name: extractBrand(title) },
-    offers: {
-      "@type": "AggregateOffer",
-      priceCurrency: "USD",
-      lowPrice: parsePrice((item as Product).estimatedPriceRange).low,
-      highPrice: parsePrice((item as Product).estimatedPriceRange).high,
-      availability: "https://schema.org/InStock",
-      url: (item as Product).directAmazonUrl,
+  const publisher = {
+    "@type": "Organization",
+    name: "Surfaced",
+    url: "https://surfaced-x.pages.dev",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://surfaced-x.pages.dev/icon.svg",
     },
-    review: {
-      "@type": "Review",
-      author: { "@type": "Organization", name: "Surfaced" },
-      reviewBody: whyText || description,
-    },
-  } : {
+  };
+  const commonArticleFields = {
     "@context": "https://schema.org",
-    "@type": "Article",
     headline: title,
     description,
     url: pageUrl,
@@ -326,12 +316,63 @@ export default async function ItemPage({ params }: Props) {
     ...(dateAdded ? { datePublished: dateAdded } : {}),
     dateModified: new Date().toISOString().slice(0, 10),
     author: { "@type": "Organization", name: "Surfaced Editorial" },
-    publisher: {
-      "@type": "Organization",
-      name: "Surfaced",
-      url: "https://surfaced-x.pages.dev",
-    },
+    publisher,
+    mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
   };
+
+  const jsonLd = (() => {
+    if (item.type === "product") {
+      return {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: title,
+        description,
+        url: pageUrl,
+        ...(imageUrl ? { image: imageUrl } : {}),
+        brand: { "@type": "Brand", name: extractBrand(title) },
+        offers: {
+          "@type": "AggregateOffer",
+          priceCurrency: "USD",
+          lowPrice: parsePrice((item as Product).estimatedPriceRange).low,
+          highPrice: parsePrice((item as Product).estimatedPriceRange).high,
+          availability: "https://schema.org/InStock",
+          url: (item as Product).directAmazonUrl,
+        },
+        review: {
+          "@type": "Review",
+          author: { "@type": "Organization", name: "Surfaced" },
+          reviewBody: whyText || description,
+        },
+      };
+    }
+    if (item.type === "hidden-gem" || item.type === "tool") {
+      const url = (item as HiddenGem | DailyTool).websiteLink;
+      return {
+        ...commonArticleFields,
+        "@type": "SoftwareApplication",
+        name: title,
+        applicationCategory: "WebApplication",
+        operatingSystem: "Web",
+        ...(url ? { sameAs: [url] } : {}),
+        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+        aggregateRating: undefined,
+      };
+    }
+    if (item.type === "future-tech") {
+      return {
+        ...commonArticleFields,
+        "@type": "TechArticle",
+        proficiencyLevel: "Expert",
+        about: (item as FutureTech).industry,
+      };
+    }
+    // discovery
+    return {
+      ...commonArticleFields,
+      "@type": "Article",
+      articleSection: (item as Discovery).category,
+    };
+  })();
 
   const breadcrumbLd = {
     "@context": "https://schema.org",

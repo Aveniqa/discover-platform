@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/generate-rss.mjs",
+    "prebuild": "node scripts/generate-rss.mjs && node scripts/generate-og-images.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "fetch-images": "tsx scripts/fetch-images.ts",
+    "generate:og": "node scripts/generate-og-images.mjs",
+    "backfill:asins": "node scripts/backfill-asins.js",
     "generate:social": "node scripts/generate-social-posts.mjs",
     "publish:social": "node scripts/publish-social-posts.mjs"
   },
@@ -27,6 +29,7 @@
     "dotenv": "^17.4.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.3",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5"

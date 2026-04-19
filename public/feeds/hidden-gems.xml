@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Surfaced — Hidden Gems</title>
+    <link>https://surfaced-x.pages.dev</link>
+    <description>Lesser-known web tools and sites — updated daily.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Apr 2026 23:32:52 GMT</lastBuildDate>
+    <atom:link href="https://surfaced-x.pages.dev/feeds/hidden-gems.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Design</title>
+      <link>https://surfaced-x.pages.dev/item/claude-design</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/claude-design</guid>
+      <description>Claude Design is an experimental initiative by Anthropic that explores the potential of large language models, like Claude, in the creative process of design. It showcases how AI can be used as a collaborative partner for generating design concepts, iterating on ideas, and even producing visual elements. This tool is aimed at designers, artists, and anyone interested in the intersection of AI and creativity. A product designer could use Claude Design to brainstorm initial interface layouts for a new app, providing prompts to generate various visual directions before committing to a specific path.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>PanicLock</title>
+      <link>https://surfaced-x.pages.dev/item/paniclock</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/paniclock</guid>
+      <description>PanicLock is a macOS utility that enhances security by disabling Touch ID and requiring a full password unlock when your MacBook&apos;s lid is closed. This prevents unauthorized access if your device is stolen or accessed without your knowledge while you&apos;re away from your desk. It&apos;s particularly useful for individuals working with sensitive data who need an extra layer of protection beyond standard lock screen settings. A remote worker at a coffee shop could use PanicLock to ensure that even if their laptop is briefly unattended, it cannot be woken and accessed via fingerprint.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Interval Calculator</title>
+      <link>https://surfaced-x.pages.dev/item/interval-calculator</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/interval-calculator</guid>
+      <description>This is a specialized calculator designed to perform operations on disjoint sets of intervals. It allows users to input multiple, non-overlapping ranges and then perform calculations such as union, intersection, difference, and more, outputting the resulting set of intervals. It&apos;s built by Victor Poughon and is useful for anyone working with mathematical or computational problems involving ranges. A researcher analyzing data that is only valid within specific time windows could use this calculator to efficiently find the combined valid periods after several distinct data collection phases.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Smol machines</title>
+      <link>https://surfaced-x.pages.dev/item/smol-machines</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/smol-machines</guid>
+      <description>Smol machines are incredibly small, portable virtual machines designed for sub-second coldstarts. They allow you to package and run applications with their dependencies in a lightweight, isolated environment, ensuring consistency across different systems. This is particularly beneficial for developers needing to test or deploy applications quickly and reliably. For instance, a developer could package a web server application with its specific runtime and libraries into a smol machine to guarantee it runs identically in development, staging, and production.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>boringBar</title>
+      <link>https://surfaced-x.pages.dev/item/boringbar</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/boringbar</guid>
+      <description>boringBar is a lightweight, macOS-native taskbar-style dock replacement that aims to simplify your workflow by presenting open applications and essential system information in a clean, unobtrusive bar at the top of your screen. It&apos;s designed for users who find the default macOS Dock distracting or prefer a more minimalist interface. For example, a graphic designer could use boringBar to keep track of their open Adobe Suite applications and quickly switch between them without cluttering their main desktop space.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Readlang</title>
+      <link>https://surfaced-x.pages.dev/item/readlang-translate-text</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/readlang-translate-text</guid>
+      <description>Readlang is a browser extension that helps you learn languages by translating words and phrases directly on web pages. You can click on any word to get its translation and pronunciation, and then save these words to study later.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Wayback Machine</title>
+      <link>https://surfaced-x.pages.dev/item/wayback-machine-archive</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wayback-machine-archive</guid>
+      <description>The Wayback Machine, powered by the Internet Archive, allows you to browse archived versions of websites from the past. You can see how sites looked years ago, track changes over time, and access content that may no longer be available.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>This is Today</title>
+      <link>https://surfaced-x.pages.dev/item/this-is-today</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/this-is-today</guid>
+      <description>A simple, minimalist website that displays the current date in a large, readable format with a brief description of the day&apos;s significance. It focuses on present moment awareness.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>diagrams.net (formerly draw.io)</title>
+      <link>https://surfaced-x.pages.dev/item/diagrams-net</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/diagrams-net</guid>
+      <description>A free online diagramming tool that allows you to create a wide variety of diagrams, from flowcharts and mind maps to network diagrams and UML. It offers extensive customization options and integrates with cloud storage services like Google Drive and Dropbox.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fontjoy</title>
+      <link>https://surfaced-x.pages.dev/item/fontjoy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fontjoy</guid>
+      <description>Fontjoy uses AI to help you generate font pairings for your design projects. You can explore a vast library of fonts and get intelligent suggestions for visually harmonious combinations, saving you time and guesswork.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Runebender 3D</title>
+      <link>https://surfaced-x.pages.dev/item/runebender-3d</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/runebender-3d</guid>
+      <description>Runebender 3D is a free, browser-based 3D modeling and sculpting tool. It&apos;s designed to be accessible and intuitive, allowing users to create and manipulate 3D models directly in their web browser without needing to download complex software.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Simul.Writing</title>
+      <link>https://surfaced-x.pages.dev/item/simul-writing</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/simul-writing</guid>
+      <description>Simul.Writing is a collaborative real-time writing tool that allows multiple users to edit a document simultaneously. It offers robust version control and comment features, similar to Google Docs but with a minimalist and focused interface.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coolors.co</title>
+      <link>https://surfaced-x.pages.dev/item/color-harmony-tool</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/color-harmony-tool</guid>
+      <description>Coolors is a fast color scheme generator that allows you to explore, create, and save beautiful color palettes. You can generate schemes from scratch, based on an image, or by locking colors you like.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ZenTab</title>
+      <link>https://surfaced-x.pages.dev/item/zen-tab</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zen-tab</guid>
+      <description>ZenTab is a browser extension that allows you to manage your open tabs by grouping them into &apos;Zen Modes&apos;. You can create custom modes for different tasks or contexts, helping to declutter your browsing experience.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Typograph</title>
+      <link>https://surfaced-x.pages.dev/item/typograph-checker</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typograph-checker</guid>
+      <description>Typograph is a web-based tool that helps you identify and fix common typography and punctuation errors in your text. It goes beyond simple spell-checking to ensure your writing adheres to typographical best practices.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Use Word Count</title>
+      <link>https://surfaced-x.pages.dev/item/use-word-count</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/use-word-count</guid>
+      <description>Use Word Count is a straightforward online tool that provides real-time word and character counts for your text. It also offers basic text analysis like sentence and paragraph counts.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Taskade</title>
+      <link>https://surfaced-x.pages.dev/item/taskade</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/taskade</guid>
+      <description>Taskade is an all-in-one collaboration tool that combines task management, notes, and team chat. It allows you to create projects, assign tasks, and communicate with your team in a unified workspace.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Etsy</title>
+      <link>https://surfaced-x.pages.dev/item/etsy-handmade-marketplace</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/etsy-handmade-marketplace</guid>
+      <description>Global marketplace for unique handmade, vintage, and creative goods — from jewelry and art to home decor and personalized gifts from independent artisans worldwide.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wappalyzer</title>
+      <link>https://surfaced-x.pages.dev/item/wappalyzer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wappalyzer</guid>
+      <description>Wappalyzer is a browser extension that uncovers the technologies used on websites. It identifies CMS, e-commerce platforms, web servers, JavaScript frameworks, analytics tools, and much more, providing deep insights into a site&apos;s tech stack.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Focusmate</title>
+      <link>https://surfaced-x.pages.dev/item/focusmate</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/focusmate</guid>
+      <description>Focusmate is a virtual co-working platform that pairs you with an accountability partner for a 50-minute video session. You state your goal, work silently on your task, and check in at the end to report progress, creating a powerful external commitment.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Blobmaker</title>
+      <link>https://surfaced-x.pages.dev/item/blobmaker</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/blobmaker</guid>
+      <description>Blobmaker is a free online tool that helps designers and developers quickly generate unique, organic SVG shapes (blobs). Users can customize the complexity, contrast, and number of points to create a perfect fluid shape for their designs.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windy.com</title>
+      <link>https://surfaced-x.pages.dev/item/windy-com</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/windy-com</guid>
+      <description>A sophisticated, interactive tool providing stunning visualizations of weather forecasts globally. It displays detailed information like wind, temperature, rain, clouds, and waves on a dynamic map interface.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>AppFlowy</title>
+      <link>https://surfaced-x.pages.dev/item/appflowy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/appflowy</guid>
+      <description>An open-source alternative to Notion, allowing you to create and manage notes, wikis, and databases with full data control. It provides a highly customizable workspace for personal and team productivity.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kap</title>
+      <link>https://surfaced-x.pages.dev/item/kap</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/kap</guid>
+      <description>Kap is a free, open-source screen recorder built with web technologies for macOS. It allows users to record their screen, including system audio and microphone input, and export the recordings in various formats.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>TiddlyWiki</title>
+      <link>https://surfaced-x.pages.dev/item/tiddlywiki</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tiddlywiki</guid>
+      <description>TiddlyWiki is a unique non-linear notebook for organizing and sharing complex information. It operates as a single HTML file that acts as a wiki, allowing you to create, edit, and link &apos;tiddlers&apos; (individual notes) directly within your web browser.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Endel</title>
+      <link>https://surfaced-x.pages.dev/item/endel</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/endel</guid>
+      <description>Endel generates personalized, AI-powered soundscapes tailored to enhance focus, relaxation, and sleep. It adapts in real-time to factors like time of day, weather, and even heart rate data to create unique, non-looping audio environments.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Polypane</title>
+      <link>https://surfaced-x.pages.dev/item/polypane</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/polypane</guid>
+      <description>Polypane is a specialized browser built for web developers and designers to create and test responsive websites efficiently. It displays multiple viewports and emulators simultaneously, allowing you to see how your site looks on different devices at once.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>YouGlish</title>
+      <link>https://surfaced-x.pages.dev/item/youglish</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/youglish</guid>
+      <description>YouGlish helps language learners improve pronunciation and usage by searching for any word or phrase across thousands of YouTube videos. It plays relevant snippets, showing you how native speakers use the word in context.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Noisli</title>
+      <link>https://surfaced-x.pages.dev/item/noisli</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/noisli</guid>
+      <description>Noisli is a background noise and color generator that helps you focus, relax, or sleep. It offers a wide range of high-quality ambient sounds like rain, forest, coffee shop, and white noise, which can be mixed and customized.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lunchmoney</title>
+      <link>https://surfaced-x.pages.dev/item/lunchmoney</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lunchmoney</guid>
+      <description>Lunchmoney is an intuitive, web-based budgeting and expense tracking tool. It offers automatic transaction importing from banks, custom categories, and a clear overview of your finances.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Flowstate</title>
+      <link>https://surfaced-x.pages.dev/item/flowstate</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/flowstate</guid>
+      <description>Flowstate is a minimalist writing app designed to eliminate writer&apos;s block and procrastination. You set a timer and start typing; if you stop typing for more than a few seconds, all your progress is instantly deleted, forcing continuous engagement.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Explain Shell</title>
+      <link>https://surfaced-x.pages.dev/item/explainshell</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/explainshell</guid>
+      <description>Explain Shell is a web-based tool that demystifies complex shell commands. Users paste any Unix-like command (e.g., `git diff --name-only -r 5`) and it breaks down each argument, option, and sub-command, explaining their function.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>devRant</title>
+      <link>https://surfaced-x.pages.dev/item/devrant</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/devrant</guid>
+      <description>devRant is a community and social platform specifically for developers to share their frustrations, successes, and funny stories about coding and tech. It provides a space for coders to &apos;rant&apos; and connect with peers who understand their daily struggles.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Logseq</title>
+      <link>https://surfaced-x.pages.dev/item/logseq</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/logseq</guid>
+      <description>Logseq is a privacy-first, open-source knowledge base that works on local plain-text Markdown and Org-mode files. It&apos;s a powerful outliner for journaling, note-taking, and building a personal knowledge graph by linking ideas.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Uizard</title>
+      <link>https://surfaced-x.pages.dev/item/uizard</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/uizard</guid>
+      <description>Uizard is an AI-powered design tool that lets you create mockups, wireframes, and prototypes incredibly fast. You can start from text prompts, hand-drawn sketches, or screenshots, and watch them transform into editable designs.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Coffitivity</title>
+      <link>https://surfaced-x.pages.dev/item/coffitivity</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/coffitivity</guid>
+      <description>Provides ambient sounds of a coffee shop to help boost your creativity and productivity. The background noise is specifically designed to create an atmosphere conducive to focus and work.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Picular</title>
+      <link>https://surfaced-x.pages.dev/item/picular</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/picular</guid>
+      <description>A unique search engine that provides color palettes inspired by any search term. Instead of showing images or text, it shows dominant colors associated with that word.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ninite</title>
+      <link>https://surfaced-x.pages.dev/item/ninite</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ninite</guid>
+      <description>Ninite is a service that allows users to get a custom installer that installs multiple popular free applications at once onto a Windows PC. It automates the download and installation process, skipping all the usual installer questions and bundled junkware.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ScribeHow</title>
+      <link>https://surfaced-x.pages.dev/item/scribehow</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/scribehow</guid>
+      <description>ScribeHow is an AI-powered tool that automatically generates step-by-step guides, tutorials, and SOPs simply by watching you complete a process. It captures your clicks and keystrokes, then instantly creates visual instructions with text and annotated screenshots.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tella</title>
+      <link>https://surfaced-x.pages.dev/item/tella-tv</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tella-tv</guid>
+      <description>Tella is a screen recorder that helps you create engaging video presentations by combining screen recordings, webcam video, and custom layouts. It focuses on making it easy to produce high-quality, edited videos quickly.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gamma App</title>
+      <link>https://surfaced-x.pages.dev/item/gamma-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/gamma-app</guid>
+      <description>Gamma is an AI-powered tool that helps you create beautiful, engaging presentations, documents, and webpages in minutes. Simply type your ideas, and Gamma generates a polished, brand-consistent design automatically.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scribble Maps</title>
+      <link>https://surfaced-x.pages.dev/item/scribblemaps</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/scribblemaps</guid>
+      <description>An intuitive online tool that allows users to draw, measure, and mark up maps with custom shapes, text, and icons. It&apos;s great for visualizing geographical data, planning routes, or creating custom territories.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>f.lux</title>
+      <link>https://surfaced-x.pages.dev/item/flux</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/flux</guid>
+      <description>f.lux is a software that automatically adjusts the color of your computer&apos;s display to adapt to the time of day, making it warmer at night. This change in screen temperature is designed to reduce eye strain and improve sleep patterns.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Roam Research</title>
+      <link>https://surfaced-x.pages.dev/item/roam-research</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/roam-research</guid>
+      <description>Roam Research is a note-taking tool designed for networked thought, allowing users to create connections between ideas using bi-directional links. Each page is a node in a graph, facilitating non-linear organization and discovery of knowledge.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Motion</title>
+      <link>https://surfaced-x.pages.dev/item/motion</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/motion</guid>
+      <description>Motion is an AI-powered calendar and task manager that automatically schedules your tasks, meetings, and appointments into your day. It intelligently optimizes your schedule to help you complete tasks and attend meetings by finding optimal time slots.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hooktheory</title>
+      <link>https://surfaced-x.pages.dev/item/hooktheory</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hooktheory</guid>
+      <description>Hooktheory provides interactive tools and lessons for understanding music theory, chord progressions, and song composition. It features Hookpad, a browser-based songwriting scratchpad that helps visualize musical ideas.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepL Translator</title>
+      <link>https://surfaced-x.pages.dev/item/deepl-translator</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepl-translator</guid>
+      <description>DeepL Translator is an AI-powered machine translation service renowned for its high accuracy and natural-sounding translations. It often provides more nuanced and contextually appropriate results compared to other popular translation tools.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Glasp</title>
+      <link>https://surfaced-x.pages.dev/item/glasp</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/glasp</guid>
+      <description>Glasp is a social web highlighter that allows you to highlight and organize quotes, thoughts, and knowledge from the web. It also lets you see highlights from other users and share your own, fostering a collaborative learning environment.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>HTTPie</title>
+      <link>https://surfaced-x.pages.dev/item/httpie-2</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/httpie-2</guid>
+      <description>HTTPie is a command-line HTTP client that makes interacting with web services simple and user-friendly. It provides an intuitive syntax, colorized output, and built-in JSON support for sending arbitrary HTTP requests.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Workflowy</title>
+      <link>https://surfaced-x.pages.dev/item/workflowy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/workflowy</guid>
+      <description>Workflowy is an online outliner tool that allows users to organize their thoughts, notes, and tasks in a hierarchical, bulleted list format. It&apos;s designed for extreme simplicity, letting you zoom in and out of any bullet point to focus on details or see the big picture.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
