@@ -150,7 +150,9 @@ async function main() {
       Authorization: `Token ${API_KEY}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ subject, body, status: "sent" }),
+    // Buttondown no longer accepts status:"sent" on creation (400 "status_invalid").
+    // Use "about_to_send" — enqueues the email for immediate delivery to all subscribers.
+    body: JSON.stringify({ subject, body, status: "about_to_send" }),
   });
 
   if (!res.ok) {
@@ -160,7 +162,7 @@ async function main() {
   }
 
   const data = await res.json();
-  console.log(`✅ Newsletter sent! ID: ${data.id}`);
+  console.log(`✅ Newsletter queued! ID: ${data.id}`);
   console.log(`   Subject: ${subject}`);
   console.log(`   Items: ${totalItems}`);
 }
