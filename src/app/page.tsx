@@ -76,6 +76,17 @@ function accentBar(type: string): string {
 
 export default function HomePage() {
   const totalItems = discoveries.length + products.length + hiddenGems.length + futureRadar.length + dailyTools.length;
+  const topicCount = (() => {
+    const tags = new Set<string>();
+    const bag: Array<{ category?: string; industry?: string }> = [
+      ...discoveries, ...products, ...hiddenGems, ...futureRadar, ...dailyTools,
+    ];
+    for (const i of bag) {
+      if (i.category) tags.add(i.category);
+      if (i.industry) tags.add(i.industry);
+    }
+    return Math.floor(tags.size / 10) * 10; // floor to nearest 10 for an honest "N+" claim
+  })();
   const [milestoneToast, setMilestoneToast] = useState<string | null>(null);
   const [streakDays, setStreakDays] = useState(0);
   const [streakEmoji, setStreakEmoji] = useState("");
@@ -184,19 +195,19 @@ export default function HomePage() {
               <p className="text-2xl font-bold tabular-nums">
                 <AnimatedCounter value={totalItems} suffix="+" />
               </p>
-              <p className="text-xs text-muted-foreground">Curated items</p>
+              <p className="text-xs text-muted-foreground">Hand-picked finds</p>
             </div>
             <div className="text-center">
               <p className="text-2xl font-bold tabular-nums">
-                <AnimatedCounter value={5} />
+                <AnimatedCounter value={topicCount} suffix="+" />
               </p>
-              <p className="text-xs text-muted-foreground">Categories</p>
+              <p className="text-xs text-muted-foreground">Topics covered</p>
             </div>
             <div className="text-center">
               <p className="text-2xl font-bold tabular-nums">
-                <AnimatedCounter value={25} />
+                <AnimatedCounter value={7} />
               </p>
-              <p className="text-xs text-muted-foreground">New daily</p>
+              <p className="text-xs text-muted-foreground">Days a week</p>
             </div>
           </div>
         </div>
