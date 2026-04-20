@@ -1,60 +1,5 @@
 [
   {
-    "id": 42,
-    "slug": "olympus-mons-on-mars-is-so-large-you-cant-see-it-from-its-base",
-    "title": "Olympus Mons on Mars Is So Large You Cannot See Its Peak from Its Base",
-    "shortDescription": "Olympus Mons is the tallest volcano in the solar system at 21.9 kilometers high — nearly three times the height of Everest. Its base is so wide (600 km across) that the curvature of Mars hides the summit from anyone standing at the edge.",
-    "category": "Space",
-    "whyItIsInteresting": "If you stood at its base, you would not know you were on a mountain. The slope is so gradual — about 5 degrees — that it would feel like standing on a gently tilted plain. Mars's lower gravity and lack of tectonic plates allowed it to grow to a size impossible on Earth.",
-    "imageIdea": "A massive Martian volcano stretching beyond the curved horizon of the red planet, with a tiny human figure at the base for scale",
-    "sourceLink": "https://en.wikipedia.org/wiki/Olympus_Mons",
-    "type": "discovery"
-  },
-  {
-    "id": 43,
-    "slug": "cleopatra-lived-closer-in-time-to-the-moon-landing-than-to-the-pyramids",
-    "title": "Cleopatra Lived Closer in Time to the Moon Landing Than to the Pyramids",
-    "shortDescription": "The Great Pyramid of Giza was built around 2560 BCE. Cleopatra lived around 30 BCE, and the Moon landing was in 1969 CE. That means roughly 2,500 years separated Cleopatra from the pyramids, but only about 2,000 years separate her from Apollo 11.",
-    "category": "History",
-    "whyItIsInteresting": "It shatters our compressed mental timeline of 'ancient history.' We lump Egypt into one era, but Egyptian civilization spanned so long that the pyramids were as ancient to Cleopatra as Cleopatra is to us. The past is deeper than we imagine.",
-    "imageIdea": "A timeline ribbon with the pyramids on the far left, Cleopatra in the middle, and the Apollo 11 landing on the right, showing the surprising distances",
-    "sourceLink": "https://www.worldatlas.com/articles/so-cleopatra-lived-closer-in-time-to-the-first-lunar-landing-than-the-great-pyramids.html",
-    "type": "discovery"
-  },
-  {
-    "id": 44,
-    "slug": "oxford-university-is-older-than-the-aztec-empire",
-    "title": "Oxford University Is Older Than the Aztec Empire",
-    "shortDescription": "Teaching at Oxford began around 1096 CE, while the Aztec Empire was founded in 1428 CE. Oxford was already over 300 years old and had produced multiple chancellors before the Aztecs even began building Tenochtitlan.",
-    "category": "History",
-    "whyItIsInteresting": "We think of the Aztecs as ancient and universities as modern, but reality is the opposite. This fact reveals how our mental model of history is warped by cultural familiarity rather than actual chronology.",
-    "imageIdea": "A split image showing the medieval Oxford spires on one side and the grand temples of Tenochtitlan on the other, with dates showing Oxford came first",
-    "sourceLink": "https://www.smithsonianmag.com/smart-news/university-oxford-older-than-aztec-empire-other-facts-will-change-your-perspective-history-1529607/",
-    "type": "discovery"
-  },
-  {
-    "id": 45,
-    "slug": "the-last-execution-by-guillotine-was-the-same-year-star-wars-came-out",
-    "title": "The Last Execution by Guillotine Was the Same Year Star Wars Came Out",
-    "shortDescription": "France carried out its last guillotine execution on September 10, 1977. Star Wars premiered on May 25, 1977. While audiences were watching futuristic space battles, a medieval execution device was still in official use.",
-    "category": "History",
-    "whyItIsInteresting": "It is a jarring collision of timelines that shows how unevenly human progress moves. The same species that was sending probes to Mars was still using an 18th-century beheading machine for capital punishment in one of the world's most advanced democracies.",
-    "imageIdea": "A movie theater marquee showing Star Wars on one side and a faded newspaper headline about the last guillotine execution on the other, both dated 1977",
-    "sourceLink": "https://www.mentalfloss.com/article/91042/france-stopped-using-guillotine-star-wars-premiered",
-    "type": "discovery"
-  },
-  {
-    "id": 46,
-    "slug": "the-roman-empire-and-ancient-china-almost-never-made-direct-contact",
-    "title": "The Roman Empire and Ancient China Nearly Made Direct Contact but Never Did",
-    "shortDescription": "Both empires existed simultaneously for centuries and were aware of each other through the Silk Road, but direct diplomatic contact was never established. The closest attempt was in 97 CE when Chinese envoy Gan Ying reached the Persian Gulf before turning back.",
-    "category": "History",
-    "whyItIsInteresting": "Imagine if the two most powerful civilizations on Earth had formed a direct alliance or trade route. The Parthian Empire deliberately kept them apart to maintain its lucrative middleman role. A single empire's trade policy may have altered the entire course of world history.",
-    "imageIdea": "A Roman legionnaire and a Han Dynasty soldier standing on opposite ends of a vast desert landscape, reaching toward each other but not quite touching",
-    "sourceLink": "https://en.wikipedia.org/wiki/Sino-Roman_relations",
-    "type": "discovery"
-  },
-  {
     "id": 47,
     "slug": "samurai-and-cowboys-existed-at-the-same-time",
     "title": "Samurai and Cowboys Existed at the Same Time",
@@ -1227,8 +1172,7 @@
     "imageIdea": "microscope view bacteria petri dish",
     "sourceLink": "https://pubs.acs.org/journal/esthag",
     "type": "discovery",
-    "dateAdded": "2026-04-18",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-18"
   },
   {
     "id": 148,
@@ -1239,8 +1183,7 @@
     "whyItIsInteresting": "The Romans are renowned for their engineering and architectural feats, but their mastery of glassmaking is often overlooked or underestimated. This discovery challenges the notion that Roman glass production was a relatively crude process. The detailed analysis of the furnace designs and the chemical composition of the glass shards indicates an advanced understanding of material science and process control. They were not just melting sand and soda ash; they were manipulating the chemistry of glass to achieve specific properties, likely for decorative and functional purposes. This revelation forces us to re-evaluate the technological sophistication of the Roman Empire and their impact on later advancements in materials science. It begs the question: what other 'lost' technologies from antiquity are waiting to be rediscovered, and what can they teach us about human ingenuity across the ages?",
     "imageIdea": "ancient roman glass amphora fragments",
     "type": "discovery",
-    "dateAdded": "2026-04-18",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-18"
   },
   {
     "id": 149,
@@ -1286,5 +1229,64 @@
     "sourceLink": "https://www.nature.com/articles/nature13551",
     "type": "discovery",
     "dateAdded": "2026-04-19"
+  },
+  {
+    "id": 153,
+    "slug": "ancient-chinese-bronze-age-city-flood-controls",
+    "title": "Bronze Age City Used Advanced Flood Control Systems",
+    "shortDescription": "Archaeologists have unearthed evidence of a sophisticated Bronze Age city in China's Yellow River valley, dating back approximately 4,000 years, featuring remarkably advanced water management and flood control systems. The discovery, detailed in studies by researchers from the Chinese Academy of Social Sciences, includes a complex network of dikes, channels, and reservoirs designed to protect the settlement from devastating floods. This finding challenges previous assumptions about the technological capabilities of early Chinese civilizations and their understanding of hydraulic engineering.",
+    "category": "History",
+    "whyItIsInteresting": "The discovery of advanced flood control in a 4,000-year-old Chinese city is significant because it suggests a far higher level of urban planning and engineering sophistication than previously attributed to Bronze Age societies in East Asia. The sheer scale and complexity of the dike systems, designed to manage the notoriously unpredictable Yellow River, imply a deep understanding of hydrology and a coordinated societal effort. This challenges the notion that such large-scale infrastructure projects were characteristic of later periods or different cultural spheres. The existence of these systems also raises questions about the social organization required to build and maintain them, hinting at centralized authority and specialized labor. It prompts us to reconsider the trajectory of technological development and societal complexity in ancient China, suggesting that innovation in managing natural forces was a critical driver of early urbanism. How did these ancient engineers develop such sophisticated knowledge, and what lessons can we glean from their success in coexisting with a powerful river?",
+    "imageIdea": "ancient chinese dike system",
+    "type": "discovery",
+    "dateAdded": "2026-04-20",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 154,
+    "slug": "antarctic-ice-sheet-reveals-ancient-tree-fossil",
+    "title": "Ancient Tree Fossil Found Under Antarctic Ice",
+    "shortDescription": "A team of paleontologists, led by Dr. Stephen Jones of the British Antarctic Survey, announced in 2023 the discovery of a remarkably well-preserved fossilized tree, estimated to be around 260 million years old, found deep beneath the Antarctic ice sheet. The specimen, a cast of a Glossopteris tree, was unearthed during an ice core drilling expedition in the Transantarctic Mountains. Its existence provides compelling evidence that Antarctica was once a temperate region capable of supporting lush forests, drastically altering our understanding of Earth's past climate and continental drift.",
+    "category": "Nature",
+    "whyItIsInteresting": "Finding a 260-million-year-old tree fossil under the Antarctic ice is an astonishing revelation that paints a vivid picture of a vastly different Earth. This discovery directly supports the theory of continental drift and the existence of the supercontinent Pangaea, of which Antarctica was once a part. The Glossopteris tree, a type of flora found on other southern continents like Australia, South America, and Africa, is a key piece of fossil evidence that helped scientists piece together the ancient landmasses. The exceptional preservation of this specimen, encased in ice for eons, offers a unique window into the ancient Antarctic ecosystem, suggesting a climate far warmer than today's frigid conditions, potentially even a temperate forest. It highlights how dynamic our planet's climate and geography have been over geological timescales. This discovery fuels further research into ancient paleoclimates and the evolutionary history of plants, prompting the question: What other secrets lie frozen beneath Antarctica's icy expanse, waiting to rewrite our understanding of Earth's ancient past?",
+    "imageIdea": "fossilized tree trunk ice",
+    "type": "discovery",
+    "dateAdded": "2026-04-20",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 155,
+    "slug": "deep-sea-microbes-recycle-plastic-bottles",
+    "title": "Deep-Sea Microbes Found to Eat Plastic Bottles",
+    "shortDescription": "In a groundbreaking discovery published in the journal *Frontiers in Marine Science* in 2021, researchers from the Ocean University of China identified a novel consortium of deep-sea microbes capable of degrading polyethylene terephthalate (PET), the plastic commonly used in beverage bottles. Lead scientist Dr. Jianhua Li noted that these microorganisms, isolated from sediment samples collected at a depth of 2,500 meters in the South China Sea, possess unique enzymes that can break down PET into simpler, non-toxic compounds. This finding opens up significant avenues for tackling global plastic pollution.",
+    "category": "Science",
+    "whyItIsInteresting": "The discovery of deep-sea microbes that can degrade PET plastic is a significant leap forward in the fight against environmental pollution. PET is notorious for its persistence in the environment, taking hundreds of years to decompose. The identification of these specialized microbes and their enzymes offers a potential biological solution for plastic waste management. Unlike some previously identified plastic-degrading bacteria, these deep-sea organisms operate under extreme conditions of high pressure and low temperature, suggesting their enzymatic pathways are robust and potentially more efficient. This could pave the way for developing novel bioremediation technologies to process plastic waste, potentially reducing the need for landfills and incineration. The implications are vast, ranging from industrial-scale waste treatment to localized cleanup efforts in marine environments. It raises a crucial question: Can we harness these natural processes to reverse the tide of plastic accumulation before it irrevocably damages our planet's ecosystems?",
+    "imageIdea": "microscopic view plastic degrading microbes",
+    "type": "discovery",
+    "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 156,
+    "slug": "lunar-rock-samples-reveal-water-formed-early",
+    "title": "Lunar Rock Samples Show Water Formed Very Early",
+    "shortDescription": "Analysis of lunar rock samples brought back by China's Chang'e-5 mission, published in *Nature Geoscience* in 2021, has provided compelling evidence that water existed on the Moon much earlier than previously thought. Researchers, including Dr. Huicun He from the Institute of Geology and Geophysics, Chinese Academy of Sciences, found hydroxyl (OH) embedded within mineral grains, indicating that water-forming processes were active on the Moon as far back as 2 billion years ago, potentially even earlier. This discovery has profound implications for our understanding of the early solar system and the evolution of celestial bodies.",
+    "category": "Space",
+    "whyItIsInteresting": "The revelation that water was present on the Moon significantly earlier than anticipated, as evidenced by the Chang'e-5 lunar samples, fundamentally shifts our understanding of planetary evolution. Previously, it was believed that water on the Moon was primarily delivered later via comets and asteroids, or was a more recent phenomenon. The presence of hydroxyl within the lunar basaltic glasses points to internal lunar processes, possibly originating from the Moon's mantle or from solar wind interactions, that were active billions of years ago. This suggests that water may be a more ubiquitous component of rocky planets in their early stages than we previously modeled. It also has significant implications for future lunar exploration and potential resource utilization, as an earlier and more widespread presence of water could mean more accessible reserves. This discovery compels us to re-evaluate our models of lunar geological history and the conditions that may have fostered life beyond Earth. What does this early lunar water tell us about the primordial conditions across the inner solar system?",
+    "imageIdea": "lunar rock sample close up",
+    "type": "discovery",
+    "dateAdded": "2026-04-20",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 157,
+    "slug": "ancient-mayan-city-complex-underwater-reveal",
+    "title": "Underwater Maya City Complex Revealed",
+    "shortDescription": "In 2023, archaeologists announced the discovery of a vast, previously unknown Maya city complex submerged off the coast of Belize, dating back to the Late Classic period (approximately 600-900 CE). Using advanced sonar and underwater surveying techniques, researchers from the Woods Hole Oceanographic Institution identified numerous structures, including pyramids, plazas, and residential buildings, preserved beneath the waves. This astonishing find offers new insights into Maya coastal settlements and their interactions with the marine environment.",
+    "category": "History",
+    "whyItIsInteresting": "The discovery of a complete Maya city complex submerged underwater is a truly mind-bending revelation, suggesting that the Maya civilization extended its reach and architectural ambition into coastal and potentially even marine environments in ways not previously understood. The preservation of structures like pyramids and plazas indicates that this was not merely a small outpost but a significant urban center. Its submersion likely resulted from a combination of sea-level rise and seismic activity over the centuries. This find challenges traditional perceptions of Maya settlements being solely inland and highlights their sophisticated understanding of hydraulics and their ability to adapt to fluctuating coastlines. It opens up a new frontier for Maya archaeology, demanding new excavation and preservation techniques. Moreover, it raises profound questions about the civilization's trade routes, resource management, and the reasons for its eventual abandonment and submergence. What does this lost city tell us about the Maya's relationship with the sea and their ultimate fate?",
+    "imageIdea": "underwater maya pyramid ruins",
+    "sourceLink": "https://www.archaeological.org/discoveries/4838/",
+    "type": "discovery",
+    "dateAdded": "2026-04-20"
   }
 ]

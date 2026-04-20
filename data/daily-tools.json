@@ -1,60 +1,5 @@
 [
   {
-    "id": 42,
-    "slug": "zoom",
-    "toolName": "Zoom",
-    "whatItDoes": "Video conferencing platform with HD video, screen sharing, breakout rooms, whiteboarding, recording, live transcription, and AI meeting summaries. Supports up to 1,000 participants.",
-    "category": "Communication",
-    "whyItIsUseful": "It became the default video meeting tool because it just works with minimal setup. The AI companion that summarizes meetings you missed is genuinely useful.",
-    "websiteLink": "https://zoom.us",
-    "type": "tool",
-    "imageIdea": "video conference call meeting grid"
-  },
-  {
-    "id": 43,
-    "slug": "loom",
-    "toolName": "Loom",
-    "whatItDoes": "Async video messaging tool that records your screen and camera simultaneously, then generates a shareable link instantly. Includes auto-transcription, viewer analytics, and commenting at specific timestamps.",
-    "category": "Communication",
-    "whyItIsUseful": "It replaces meetings that should have been emails and emails that should have been videos. Showing someone your screen while talking is 10x faster than writing instructions.",
-    "websiteLink": "https://www.loom.com",
-    "type": "tool",
-    "imageIdea": "screen recording video message async"
-  },
-  {
-    "id": 44,
-    "slug": "slack",
-    "toolName": "Slack",
-    "whatItDoes": "Team messaging platform organized into channels by topic, project, or team. Supports threads, file sharing, huddles, workflow automation, and integrations with 2,400+ business tools.",
-    "category": "Communication",
-    "whyItIsUseful": "Channels turn chaotic group emails into organized, searchable conversations. The integration ecosystem means most of your tools can report directly into Slack without switching contexts.",
-    "websiteLink": "https://slack.com",
-    "type": "tool",
-    "imageIdea": "team chat channels messaging threads"
-  },
-  {
-    "id": 45,
-    "slug": "calendly",
-    "toolName": "Calendly",
-    "whatItDoes": "Scheduling automation tool that lets others book meetings based on your real-time availability. Integrates with Google, Outlook, and iCloud calendars, and sends automatic reminders and follow-ups.",
-    "category": "Communication",
-    "whyItIsUseful": "It eliminates the 'When are you free?' back-and-forth that wastes everyone's time. Sharing a Calendly link instead of proposing times saves an average of 4 emails per meeting.",
-    "websiteLink": "https://calendly.com",
-    "type": "tool",
-    "imageIdea": "meeting scheduling calendar availability"
-  },
-  {
-    "id": 46,
-    "slug": "mullvad-vpn",
-    "toolName": "Mullvad VPN",
-    "whatItDoes": "Privacy-focused VPN service that requires no email or personal information to sign up. Uses account numbers instead of accounts, accepts cash and cryptocurrency, and has been independently audited.",
-    "category": "Privacy",
-    "whyItIsUseful": "It is the gold standard for VPN privacy because they genuinely cannot identify you. No email, no name, and the flat pricing means no upsell dark patterns.",
-    "websiteLink": "https://mullvad.net",
-    "type": "tool",
-    "imageIdea": "vpn encrypted tunnel privacy shield"
-  },
-  {
     "id": 47,
     "slug": "bitwarden",
     "toolName": "Bitwarden",
@@ -1074,5 +1019,41 @@
     "websiteLink": "https://www.producthunt.com/r/G5JOBDQ3XBHBER",
     "type": "tool",
     "dateAdded": "2026-04-19"
+  },
+  {
+    "id": 143,
+    "slug": "openmythos",
+    "toolName": "OpenMythos",
+    "whatItDoes": "OpenMythos is a theoretical reconstruction of the Claude Mythos architecture, built from first principles using available research literature. It aims to provide an open-source framework for understanding and replicating advanced AI language model architectures. The project is currently in its early stages, focusing on the foundational elements of AI model design. While not a ready-to-use application, it serves as a crucial educational and research tool for AI developers and academics. Its primary value lies in its transparency and its contribution to the open-source AI community.",
+    "category": "Developer",
+    "whyItIsUseful": "For AI researchers and developers looking to deeply understand the inner workings of large language models, OpenMythos offers an unprecedented level of detail and a first-principles approach. Unlike proprietary models, it breaks down complex architectures into understandable components, fostering innovation and education. Its open-source nature means it benefits from community contributions and is a valuable resource for anyone building or experimenting with advanced AI. Enthusiasts and professionals alike can leverage its insights to contribute to the future of AI development, making it a foundational tool for advanced AI exploration.",
+    "imageIdea": "abstract AI neural network diagram",
+    "websiteLink": "https://github.com/kyegomez/OpenMythos",
+    "type": "tool",
+    "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 144,
+    "slug": "browser-harness",
+    "toolName": "browser-harness",
+    "whatItDoes": "browser-harness is a self-healing browser harness designed to enable Large Language Models (LLMs) to complete any task within a web browser. It provides a robust framework for LLMs to interact with web pages, simulate user actions, and extract information. This tool addresses the challenge of reliably integrating LLMs into web-based workflows by automatically handling common browser issues and ensuring task completion. It's an open-source project primarily aimed at developers and researchers looking to build sophisticated AI agents and automation tools. The pricing model is free and open-source.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is a game-changer for anyone looking to automate complex web-based tasks using AI. Its 'self-healing' nature means it's far more resilient to website changes and unexpected errors than traditional automation scripts, saving countless hours of debugging. LLMs can leverage browser-harness to perform intricate operations like form filling, data scraping, and even complex user journey simulations with high reliability. It empowers developers to build intelligent agents that can navigate and interact with the internet as a human would, but with machine speed and precision, opening up new possibilities for web automation and AI-driven services.",
+    "imageIdea": "browser window with AI assistant overlay",
+    "websiteLink": "https://github.com/browser-use/browser-harness",
+    "type": "tool",
+    "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 145,
+    "slug": "lingbot-map",
+    "toolName": "lingbot-map",
+    "whatItDoes": "lingbot-map is a feed-forward 3D foundation model for reconstructing scenes from streaming data. It excels at creating accurate and detailed 3D representations of environments in real-time, making it ideal for applications that require dynamic spatial understanding. The model processes sensor data, such as from cameras or LiDAR, to build a coherent 3D map. This open-source project is geared towards developers and researchers in robotics, augmented reality, and autonomous systems who need robust scene reconstruction capabilities. It is free to use under its open-source license.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers working with robotics, AR/VR, or any application that requires real-time 3D environmental understanding, lingbot-map provides a powerful and efficient solution. Its ability to reconstruct scenes from streaming data means it can adapt to changing environments dynamically, which is critical for autonomous navigation and interactive experiences. This foundation model significantly reduces the complexity of building sophisticated 3D mapping systems. Users benefit from its potential to enable more intelligent robots, immersive AR experiences, and accurate simulations, making it a vital component for cutting-edge spatial computing projects.",
+    "imageIdea": "3D reconstruction of a room",
+    "websiteLink": "https://github.com/Robbyant/lingbot-map",
+    "type": "tool",
+    "dateAdded": "2026-04-20"
   }
 ]

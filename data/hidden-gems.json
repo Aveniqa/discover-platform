@@ -1,65 +1,5 @@
 [
   {
-    "id": 42,
-    "slug": "stremio",
-    "name": "Stremio",
-    "whatItDoes": "A media center application that aggregates streaming content from multiple services into a single interface. It uses community-built add-ons to organize movies, shows, and live TV from various sources.",
-    "category": "Media & Entertainment",
-    "whyItIsUseful": "It solves subscription fatigue by letting you search across all your streaming services in one place. The add-on system makes it endlessly customizable without bloating the core app.",
-    "websiteLink": "https://www.stremio.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.stremio.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "streaming media center movies popcorn"
-  },
-  {
-    "id": 43,
-    "slug": "descript",
-    "name": "Descript",
-    "whatItDoes": "A video and podcast editor that lets you edit media by editing text. It transcribes your content and allows you to cut, rearrange, and overdub by simply modifying the transcript.",
-    "category": "Media & Entertainment",
-    "whyItIsUseful": "It makes professional audio and video editing accessible to people who find timeline-based editors intimidating. Editing a podcast becomes as easy as editing a Google Doc.",
-    "websiteLink": "https://www.descript.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.descript.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "video editing transcript waveform"
-  },
-  {
-    "id": 44,
-    "slug": "pocket-casts",
-    "name": "Pocket Casts",
-    "whatItDoes": "A cross-platform podcast player with powerful organization features including filters, playlists, and variable playback speed. It syncs listening progress across all your devices seamlessly.",
-    "category": "Media & Entertainment",
-    "whyItIsUseful": "It provides a cleaner, ad-free podcast experience compared to Spotify or Apple Podcasts. The filtering and auto-download features mean your playlist is always ready without manual curation.",
-    "websiteLink": "https://pocketcasts.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fpocketcasts.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "podcast player headphones episodes"
-  },
-  {
-    "id": 45,
-    "slug": "radiooooo",
-    "name": "Radiooooo",
-    "whatItDoes": "A musical time machine that lets you listen to music from any country and any decade from the 1900s to today. You pick a spot on the world map and a time period, and it plays curated songs from that era and place.",
-    "category": "Media & Entertainment",
-    "whyItIsUseful": "It is a genuinely unique way to discover music you would never encounter through algorithmic recommendations. It turns music exploration into a geographic and historical adventure.",
-    "websiteLink": "https://radiooooo.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fradiooooo.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "vintage radio world map music globe"
-  },
-  {
-    "id": 46,
-    "slug": "maybe-finance",
-    "name": "Maybe Finance",
-    "whatItDoes": "An open-source personal finance and wealth management app that tracks your net worth, investments, and spending. It aggregates all accounts into a single dashboard with detailed analytics.",
-    "category": "Finance",
-    "whyItIsUseful": "It provides the features of paid services like Mint or Personal Capital as a free, self-hostable tool. The open-source model means your financial data stays entirely under your control.",
-    "websiteLink": "https://maybe.co",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmaybe.co&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "personal finance dashboard wealth tracking"
-  },
-  {
     "id": 47,
     "slug": "actual-budget",
     "name": "Actual Budget",
@@ -1233,5 +1173,70 @@
     "imageIdea": "magnifying glass over a pixelated image",
     "type": "hidden-gem",
     "dateAdded": "2026-04-19"
+  },
+  {
+    "id": 163,
+    "slug": "trellis-mac",
+    "name": "TRELLIS.2 Image-to-3D generation",
+    "whatItDoes": "TRELLIS.2 is a powerful open-source tool that enables users to generate 3D models directly from 2D images, natively on Apple Silicon hardware. Developed by Shivam P. Kumar, it leverages advanced diffusion models to create detailed and accurate 3D representations. This is ideal for artists, game developers, or hobbyists looking to quickly prototype 3D assets from existing imagery without complex manual modeling processes.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is a significant leap for anyone working with 3D assets, especially those on macOS. Unlike cloud-based or GPU-intensive solutions, TRELLIS.2 runs efficiently on local Apple Silicon, offering privacy and speed. Its ability to generate 3D models from a single image democratizes 3D creation, making it accessible to those without high-end hardware or extensive 3D modeling expertise. Power users appreciate its potential for rapid prototyping and asset generation pipelines, a feature often overlooked in more mainstream creative software.",
+    "imageIdea": "abstract sculpture from flat image",
+    "websiteLink": "https://github.com/shivampkumar/trellis-mac",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-20",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fshivampkumar%2Ftrellis-mac&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 164,
+    "slug": "ithihasas-character-explorer",
+    "name": "Ithihāsas – a character explorer for Hindu epics",
+    "whatItDoes": "Ithihāsas is a web application designed to explore and understand the complex characters and relationships within Hindu epics like the Ramayana and Mahabharata. Built in a remarkably short time, it provides an interactive interface to navigate through characters, their lineage, key events, and connections. This tool is perfect for students, scholars, or anyone curious about the rich narratives and intricate character webs of these ancient texts.",
+    "category": "Education",
+    "whyItIsUseful": "For anyone delving into Hindu mythology, Ithihāsas offers an unparalleled way to grasp the vastness and interconnectedness of its characters. Traditional study often involves dense reading or static charts, but this interactive explorer brings the epics to life. Its intuitive design allows users to visually trace relationships and understand character motivations, making it a far more engaging and effective learning tool. It's particularly valuable for newcomers to these epics, offering a guided and accessible entry point into a rich literary tradition.",
+    "imageIdea": "genealogy tree of mythological figures",
+    "websiteLink": "https://www.ithihasas.in",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-20",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.ithihasas.in&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 165,
+    "slug": "eu-replaceable-batteries-news",
+    "name": "All phones sold in the EU to have replaceable batteries from 2027",
+    "whatItDoes": "This news article reports on a significant legislative change by the European Union mandating that all phones and tablets sold within the EU must feature easily replaceable batteries starting in 2027. The initiative aims to reduce electronic waste and extend the lifespan of devices by empowering consumers to perform common repairs themselves. This policy is a response to growing environmental concerns and the trend of sealed, difficult-to-repair electronics.",
+    "category": "Reference",
+    "whyItIsUseful": "While a news article rather than a tool, this information is incredibly useful for consumers and manufacturers alike, anticipating a major shift in consumer electronics. It signals a move away from planned obsolescence and towards sustainability, directly impacting purchasing decisions and device design globally. For those frustrated by the inability to replace a degrading battery, this represents a future where devices are more repairable and longer-lasting. It's a critical piece of context for anyone interested in technology, environmental policy, or consumer rights.",
+    "imageIdea": "mobile phone with a removed back cover and battery",
+    "websiteLink": "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-20",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.theolivepress.es%2Fspain-news%2F2026%2F04%2F20%2Feu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 166,
+    "slug": "github-fake-star-economy-investigation",
+    "name": "GitHub's Fake Star Economy",
+    "whatItDoes": "This investigative piece delves into the phenomenon of fake stars on GitHub, exploring how metrics like repository stars can be artificially inflated. It examines the mechanisms and motivations behind this practice, which can distort the perceived popularity and quality of open-source projects. The article is crucial for developers, project maintainers, and users who rely on GitHub's metrics for evaluating software and contributions.",
+    "category": "Developer",
+    "whyItIsUseful": "Understanding the 'fake star economy' on GitHub is vital for anyone navigating the open-source landscape. This article provides critical insight into how popularity metrics can be manipulated, helping users look beyond superficial numbers to assess genuine project value. It exposes the subtle ways in which this artificial inflation can mislead individuals and even organizations seeking reliable tools. For developers and researchers, it offers a more nuanced perspective on project evaluation, encouraging a deeper dive into factors like contribution activity, issue resolution, and community engagement rather than just star counts.",
+    "imageIdea": "graph with inflated star metrics",
+    "websiteLink": "https://awesomeagents.ai/news/github-fake-stars-investigation/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-20",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fawesomeagents.ai%2Fnews%2Fgithub-fake-stars-investigation%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 167,
+    "slug": "all-phones-eu-replaceable-batteries",
+    "name": "EU to Force Replaceable Batteries in Phones and Tablets from 2027",
+    "whatItDoes": "This is an article reporting on a new EU regulation that will require all smartphones and tablets sold within the European Union to have batteries that are easily replaceable by consumers or independent repairers. This directive, set to take effect in 2027, aims to combat e-waste and promote device longevity by moving away from sealed-unit designs. It's a significant policy shift with potential global implications for consumer electronics manufacturing and repairability.",
+    "category": "Reference",
+    "whyItIsUseful": "This information is exceptionally useful for consumers who are tired of devices becoming obsolete due to failing batteries and for those interested in sustainability and the right to repair. It highlights a future where electronic devices are designed for longevity and easier maintenance, directly challenging the current industry trend of integrated, non-user-serviceable components. For developers in the tech industry, it signals a major regulatory shift that will necessitate design and manufacturing changes. It empowers consumers by informing them of upcoming changes that will allow for more sustainable and cost-effective device ownership.",
+    "imageIdea": "smartphone with a easily removable battery",
+    "websiteLink": "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-20",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.theolivepress.es%2Fspain-news%2F2026%2F04%2F20%2Feu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

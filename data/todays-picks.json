@@ -1,46 +1,46 @@
 [
   {
-    "slug": "ancient-dna-reveals-surprising-human-migration-patterns-in-europe",
-    "title": "Ancient DNA Reveals Surprising European Migrations",
+    "slug": "ancient-mayan-city-complex-underwater-reveal",
+    "title": "Underwater Maya City Complex Revealed",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Studies published in journals like Nature in 2018 and 2022, led by researchers such as David Reich at Harvard Medical Sc",
+    "description": "In 2023, archaeologists announced the discovery of a vast, previously unknown Maya city complex submerged off the coast ",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "google-pixel-8a",
-    "title": "Google Pixel 8a",
+    "slug": "jupid-ai-powered-tax-filing",
+    "title": "Jupid",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The Google Pixel 8a is the latest affordable smartphone from Google, packing flagship-level AI capabilities into a budge",
-    "badge": null,
+    "description": "Jupid is an innovative financial technology platform designed to bridge the gap between powerful Large Language Models (",
+    "badge": "best-value",
     "type": "product"
   },
   {
-    "slug": "pixel-perfect-editor",
-    "title": "Pixel Perfect Editor",
+    "slug": "all-phones-eu-replaceable-batteries",
+    "title": "EU to Force Replaceable Batteries in Phones and Tablets from 2027",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Pixel Perfect Editor is a lightweight, web-based image editing tool focused on precise pixel manipulation and color adju",
+    "description": "This is an article reporting on a new EU regulation that will require all smartphones and tablets sold within the Europe",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "japanese-railway-excellence",
-    "title": "Integrated High-Speed Rail Networks",
+    "slug": "future-radar-github-fake-star-economy-investigation",
+    "title": "GitHub's Synthetic Engagement Metrics",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "The article explores the multifaceted reasons behind Japan's exceptionally efficient and punctual railway system. It goe",
-    "badge": "editors-pick",
+    "description": "An investigation into 'GitHub's Fake Star Economy' reveals a concerning trend where artificial engagement, through fake ",
+    "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "tobira-ai",
-    "title": "Tobira.ai",
+    "slug": "lingbot-map",
+    "title": "lingbot-map",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Tobira.ai is a network where AI agents connect and discover business opportunities for their human users. Each AI agent ",
+    "description": "lingbot-map is a feed-forward 3D foundation model for reconstructing scenes from streaming data. It excels at creating a",
     "badge": null,
     "type": "tool"
   }

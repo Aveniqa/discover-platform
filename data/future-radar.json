@@ -1,60 +1,5 @@
 [
   {
-    "id": 42,
-    "slug": "lights-out-autonomous-factories",
-    "techName": "Lights-Out Autonomous Factories",
-    "explanation": "Fully automated manufacturing facilities that operate 24/7 without human presence. AI manages production planning, robotic arms handle assembly, and computer vision performs quality control at superhuman accuracy.",
-    "industry": "Manufacturing",
-    "whyItMatters": "They could reshore manufacturing to high-wage countries by removing labor cost advantages, shorten supply chains, and produce goods with near-zero defect rates.",
-    "developmentStage": "Growth Phase",
-    "type": "future-tech",
-    "imageIdea": "Fully automated dark factory floor with robotic arms and AGVs operating without human presence or lighting"
-  },
-  {
-    "id": 43,
-    "slug": "industrial-digital-twins",
-    "techName": "Industrial Digital Twins",
-    "explanation": "Real-time virtual replicas of physical factories, products, and supply chains. Sensors feed live data into the simulation, allowing engineers to test changes, predict failures, and optimize operations before touching anything physical.",
-    "industry": "Manufacturing",
-    "whyItMatters": "Digital twins reduce product development cycles by 50%, predict equipment failures weeks in advance, and let companies simulate the impact of disruptions before they happen.",
-    "developmentStage": "Growth Phase",
-    "type": "future-tech",
-    "imageIdea": "Split view showing a physical factory on one side and its exact digital twin simulation on a holographic screen"
-  },
-  {
-    "id": 44,
-    "slug": "distributed-microfactories",
-    "techName": "Distributed Microfactories",
-    "explanation": "Small, modular, and rapidly deployable manufacturing units that can be placed anywhere. They combine 3D printing, CNC machining, and robotic assembly to produce complex goods locally.",
-    "industry": "Manufacturing",
-    "whyItMatters": "They eliminate the need for massive centralized factories, reduce shipping emissions, enable rapid disaster response manufacturing, and let communities produce what they need locally.",
-    "developmentStage": "Prototype",
-    "type": "future-tech",
-    "imageIdea": "Small neighborhood-scale manufacturing facility with modular production equipment making custom products on demand"
-  },
-  {
-    "id": 45,
-    "slug": "molecular-recycling",
-    "techName": "Molecular Recycling",
-    "explanation": "Chemical processes that break plastics and mixed waste down to their molecular building blocks, then reassemble them into virgin-quality materials. Unlike mechanical recycling, it handles contaminated and mixed plastics.",
-    "industry": "Manufacturing",
-    "whyItMatters": "Only 9% of plastic is recycled today. Molecular recycling could make all plastic infinitely recyclable, ending plastic pollution and creating a truly circular materials economy.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech",
-    "imageIdea": "Chemical process breaking down mixed plastic waste into pure molecular building blocks, before and after comparison"
-  },
-  {
-    "id": 46,
-    "slug": "direct-air-carbon-capture",
-    "techName": "Direct Air Carbon Capture",
-    "explanation": "Industrial facilities that pull CO2 directly from ambient air using chemical sorbents or solvents. The captured carbon is stored underground permanently or converted into fuels, concrete, and materials.",
-    "industry": "Climate",
-    "whyItMatters": "Even with zero emissions today, existing atmospheric CO2 guarantees continued warming. DAC is essential for removing legacy emissions and reaching net-negative to reverse climate change.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech",
-    "imageIdea": "Large industrial fan arrays pulling CO2 directly from the atmosphere, with clean air emerging on the other side"
-  },
-  {
     "id": 47,
     "slug": "marine-cloud-brightening",
     "techName": "Marine Cloud Brightening",
@@ -1152,8 +1097,7 @@
     "developmentStage": "Early Adoption",
     "imageIdea": "student hands typing on a vintage typewriter",
     "type": "future-tech",
-    "dateAdded": "2026-04-19",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-19"
   },
   {
     "id": 139,
@@ -1180,5 +1124,65 @@
     "type": "future-tech",
     "dateAdded": "2026-04-19",
     "badge": "editors-pick"
+  },
+  {
+    "id": 141,
+    "slug": "eu-replaceable-batteries-phones-tablets",
+    "techName": "Mandatory Replaceable Batteries for Consumer Electronics",
+    "explanation": "Starting in 2027, all smartphones and tablets sold in the European Union will be legally required to have user-replaceable batteries. This directive, driven by the EU, aims to combat electronic waste and promote a more sustainable product lifecycle. The goal is to empower consumers to easily swap out degraded batteries themselves, rather than being forced to replace entire devices.",
+    "industry": "Consumer Electronics",
+    "whyItMatters": "This regulation directly challenges the 'throwaway culture' prevalent in the consumer electronics industry, forcing manufacturers to redesign devices for longevity and repairability. It could significantly reduce the mountains of e-waste generated annually, leading to fewer hazardous materials entering landfills. While initially met with resistance, the realistic timeline for mainstream adoption globally is within the next 5-10 years as other regions consider similar legislation. The key obstacle is redesigning devices for accessibility without compromising on sleekness or performance. Daily life will see consumers keeping devices longer, saving money, and contributing to a healthier planet.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "smartphone with a battery being slid out",
+    "type": "future-tech",
+    "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 142,
+    "slug": "atlassian-ai-data-collection-defaults",
+    "techName": "AI Training Data Collection by Default",
+    "explanation": "Atlassian has begun enabling default data collection from its suite of products (like Jira and Confluence) to train its artificial intelligence models. This represents a shift towards leveraging vast amounts of real-world user data to improve AI capabilities within business productivity tools. The company is implementing this to enhance features such as intelligent search, automated task assignment, and predictive analytics.",
+    "industry": "Software & AI",
+    "whyItMatters": "This move by Atlassian signals a broader trend of software companies actively harvesting user data for AI development, raising important questions about privacy and data ownership. It has the potential to make AI features within enterprise software significantly more powerful and intuitive, streamlining workflows. The realistic timeline for this becoming a standard practice across major SaaS providers is 2-3 years. Key obstacles include navigating evolving data privacy regulations and gaining user trust. Workplaces could see AI assistants becoming indispensable, automating mundane tasks and offering proactive insights.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "server rack with glowing data streams",
+    "type": "future-tech",
+    "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 143,
+    "slug": "openclaw-local-ai-agent",
+    "techName": "Open-Source Local AI Agent",
+    "explanation": "OpenClaw is an open-source project aiming to create a free, secure, and always-on local AI agent that operates entirely on a user's own hardware. This initiative seeks to provide an alternative to cloud-based AI services, giving users greater control over their data and processing. It's designed to run various AI models locally, enabling offline functionality and enhanced privacy.",
+    "industry": "Software & AI",
+    "whyItMatters": "The development of robust local AI agents like OpenClaw democratizes access to advanced AI capabilities, freeing users from reliance on large tech companies and their data-gathering practices. It empowers individuals and smaller organizations to leverage AI for tasks like content creation, coding assistance, and data analysis without privacy concerns. The realistic timeline for widespread adoption of powerful, user-friendly local AI agents is 3-5 years, contingent on hardware advancements and software optimization. Significant obstacles include optimizing AI model performance on diverse local hardware and developing intuitive user interfaces. Daily life could involve highly personalized AI assistants seamlessly integrated into personal devices, always available and respecting user privacy.",
+    "developmentStage": "Prototype",
+    "imageIdea": "desktop computer with a glowing abstract AI icon",
+    "type": "future-tech",
+    "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 144,
+    "slug": "sauna-effect-heart-rate-research",
+    "techName": "Sauna's Physiological Impact Research",
+    "explanation": "Recent research, including studies highlighted by platforms like Terra, is investigating the profound physiological effects of sauna use on heart rate and cardiovascular health. This goes beyond anecdotal evidence, using scientific methods to quantify the cardiovascular stress and adaptation experienced during a sauna session. The findings explore how regular sauna bathing can mimic aspects of cardiovascular exercise.",
+    "industry": "Health & Wellness",
+    "whyItMatters": "This research is crucial for validating and understanding the health benefits of sauna bathing, moving it from a cultural practice to a scientifically-backed wellness modality. It could lead to personalized recommendations for using saunas as a supplementary tool for cardiovascular fitness and stress reduction, particularly for individuals who find traditional exercise challenging. The realistic timeline for mainstream integration into fitness and wellness routines is 2-4 years, with more rigorous clinical trials further solidifying benefits. Key obstacles involve standardizing sauna protocols and educating the public and medical professionals. Daily life could see saunas becoming as common in gyms and homes as treadmills, prescribed as a recovery or maintenance tool for heart health.",
+    "developmentStage": "Research",
+    "imageIdea": "person sitting in a wooden sauna with steam rising",
+    "type": "future-tech",
+    "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 145,
+    "slug": "future-radar-github-fake-star-economy-investigation",
+    "techName": "GitHub's Synthetic Engagement Metrics",
+    "explanation": "An investigation into 'GitHub's Fake Star Economy' reveals a concerning trend where artificial engagement, through fake accounts and automated systems, is being used to inflate the popularity of projects on the platform. This practice manipulates the perceived value and credibility of open-source software. The issue highlights the vulnerabilities of social proof mechanisms in online development communities.",
+    "industry": "Technology & Open Source",
+    "whyItMatters": "The manipulation of GitHub stars undermines the trust and transparency fundamental to the open-source ecosystem, potentially misleading developers and businesses about the quality and viability of projects. It creates a false meritocracy, where genuine innovation can be overshadowed by artificially inflated metrics. Addressing this issue is critical for the long-term health of open-source development. The realistic timeline for effective countermeasures and greater platform integrity is ongoing, with significant efforts needed over the next 1-3 years. Key obstacles include sophisticated detection methods for fake accounts and the economic incentives driving this behavior. A more reliable and transparent system for project endorsement will foster genuine collaboration and better project selection for developers.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "graph showing a steep, artificial upward trend",
+    "type": "future-tech",
+    "dateAdded": "2026-04-20"
   }
 ]

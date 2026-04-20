@@ -1,99 +1,5 @@
 [
   {
-    "id": 39,
-    "slug": "philips-norelco-oneblade-360",
-    "title": "Philips Norelco OneBlade 360",
-    "shortDescription": "A versatile electric face and body groomer with a 360-degree pivoting blade. Trims, edges, and shaves any length of hair without irritation.",
-    "category": "Personal Care",
-    "whyItIsInteresting": "The pivoting blade adapts to facial contours, eliminating the need for multiple passes. It works on any hair length, replacing a trimmer and razor with one device.",
-    "imageIdea": "Modern electric groomer with pivoting head and multiple guard attachments",
-    "sourceLink": "https://www.philips.com",
-    "estimatedPriceRange": "$34–$49",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Philips+Norelco+OneBlade+360&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Philips+Norelco+OneBlade+360&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Philips+Norelco+OneBlade+360"
-  },
-  {
-    "id": 40,
-    "slug": "vitruvi-stone-essential-oil-diffuser",
-    "title": "Vitruvi Stone Essential Oil Diffuser",
-    "shortDescription": "A handmade porcelain essential oil diffuser with a minimalist design. Covers up to 500 sq ft with ultrasonic misting and an auto-shutoff timer.",
-    "category": "Personal Care",
-    "whyItIsInteresting": "It looks like a piece of art rather than an appliance, blending into any room decor. The porcelain construction feels premium and the mist is whisper-quiet.",
-    "imageIdea": "Elegant white porcelain diffuser on a nightstand with soft mist rising",
-    "sourceLink": "https://vitruvi.com",
-    "estimatedPriceRange": "$99–$119",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Vitruvi+Stone+Essential+Oil+Diffuser&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Vitruvi+Stone+Essential+Oil+Diffuser&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Vitruvi%20Stone%20Essential%20Oil%20Diffuser"
-  },
-  {
-    "id": 41,
-    "slug": "bellroy-classic-backpack-plus",
-    "title": "Bellroy Classic Backpack Plus",
-    "shortDescription": "A refined everyday backpack with a 22L capacity, padded 16-inch laptop compartment, and water-resistant woven fabric. Internal organizer keeps cables and pens sorted.",
-    "category": "Bags & Accessories",
-    "whyItIsInteresting": "It looks professional enough for the office while handling weekend trips easily. Bellroy's attention to internal organization means everything has a dedicated pocket.",
-    "imageIdea": "Sleek backpack open showing organized compartments with laptop and gear",
-    "sourceLink": "https://bellroy.com",
-    "estimatedPriceRange": "$149–$189",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Bellroy+Classic+Backpack+Plus&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Bellroy+Classic+Backpack+Plus&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Bellroy%20Classic%20Backpack%20Plus"
-  },
-  {
-    "id": 42,
-    "slug": "ridge-wallet-titanium",
-    "title": "The Ridge Wallet Titanium",
-    "shortDescription": "An ultra-slim RFID-blocking wallet machined from titanium. Holds 1-12 cards with a cash strap or money clip. Virtually indestructible and weighs just 2 oz.",
-    "category": "Bags & Accessories",
-    "whyItIsInteresting": "It forces a minimalist carry that eliminates back-pocket bulk permanently. The titanium version develops a unique patina over time that makes each wallet one-of-a-kind.",
-    "imageIdea": "Slim titanium wallet with cards fanning out and cash strap visible",
-    "sourceLink": "https://www.ridgewallet.com",
-    "estimatedPriceRange": "$95–$135",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=The+Ridge+Wallet+Titanium&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=The+Ridge+Wallet+Titanium&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=The%20Ridge%20Wallet%20Titanium"
-  },
-  {
-    "id": 43,
-    "slug": "aer-city-sling-2",
-    "title": "Aer City Sling 2",
-    "shortDescription": "A compact crossbody sling bag with 1680D Cordura nylon, YKK zippers, and an internal organizer. Quick-access pocket fits a phone and transit card.",
-    "category": "Bags & Accessories",
-    "whyItIsInteresting": "The Cordura nylon is nearly indestructible and the low-profile design keeps essentials accessible without a full backpack. Perfect for commuters and travelers.",
-    "imageIdea": "Compact black sling bag worn crossbody on a person walking through a city",
-    "sourceLink": "https://www.aersf.com",
-    "estimatedPriceRange": "$75–$85",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Aer+City+Sling+2&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Aer+City+Sling+2&tag=vaultvibe-20"
-  },
-  {
     "id": 44,
     "slug": "grid-it-cocoon-organizer",
     "title": "Grid-It Cocoon Organizer",
@@ -109,8 +15,7 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/s?k=Grid-It+Cocoon+Organizer&tag=vaultvibe-20"
     },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Grid-It+Cocoon+Organizer&tag=vaultvibe-20",
-    "badge": "best-value"
+    "directAmazonUrl": "https://www.amazon.com/s?k=Grid-It+Cocoon+Organizer&tag=vaultvibe-20"
   },
   {
     "id": 45,
@@ -2197,5 +2102,22 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/dp/B0CS4XN3T7?tag=vaultvibe-20&linkCode=ll1"
     }
+  },
+  {
+    "id": 160,
+    "slug": "jupid-ai-powered-tax-filing",
+    "title": "Jupid",
+    "shortDescription": "Jupid is an innovative financial technology platform designed to bridge the gap between powerful Large Language Models (LLMs) and the complexities of financial transactions. It addresses the common issues of context loss, inconsistent categorization, and lack of memory that plague LLMs when handling financial data. By connecting directly to your bank accounts, Jupid aims to provide a reliable data layer for more accurate and efficient financial management.",
+    "category": "Fintech",
+    "whyItIsInteresting": "Jupid tackles a significant challenge in the current AI landscape: the unreliability of LLMs for critical financial tasks. While LLMs excel at many things, their inherent limitations in maintaining context and consistency over time make them unsuitable for precise financial operations. Jupid's solution focuses on building a robust data layer, ensuring that your financial information is accurately processed and remembered. This could revolutionize how individuals and small businesses manage their finances, especially during tax season, by leveraging AI without the associated data risks. Its recent traction on Product Hunt suggests a strong market interest in such a solution.",
+    "imageIdea": "bank icon with ai brain",
+    "sourceLink": "https://www.producthunt.com/r/IV445DDMYNBMML",
+    "estimatedPriceRange": "$10-$20/month",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-20",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Jupid",
+    "badge": "best-value"
   }
 ]
