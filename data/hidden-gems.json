@@ -1,65 +1,5 @@
 [
   {
-    "id": 47,
-    "slug": "actual-budget",
-    "name": "Actual Budget",
-    "whatItDoes": "An open-source, local-first personal budgeting app inspired by YNAB's envelope budgeting method. It runs on your own device or server with optional sync across machines.",
-    "category": "Finance",
-    "whyItIsUseful": "It gives you a powerful zero-based budgeting system without the monthly subscription of YNAB. The local-first approach means your financial data never touches a third-party cloud.",
-    "websiteLink": "https://actualbudget.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Factualbudget.org&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "budget envelope categories expenses"
-  },
-  {
-    "id": 48,
-    "slug": "wise",
-    "name": "Wise",
-    "whatItDoes": "A financial platform for sending money internationally at the real exchange rate with transparent, low fees. It also offers multi-currency accounts and debit cards for spending abroad.",
-    "category": "Finance",
-    "whyItIsUseful": "It saves significant money on international transfers compared to traditional banks that hide fees in exchange rate markups. Freelancers and remote workers use it to receive payments in multiple currencies without conversion losses.",
-    "websiteLink": "https://wise.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwise.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "international money transfer currency exchange"
-  },
-  {
-    "id": 49,
-    "slug": "portfolio-visualizer",
-    "name": "Portfolio Visualizer",
-    "whatItDoes": "A suite of tools for backtesting investment portfolios, analyzing asset allocation, and running Monte Carlo simulations on retirement plans. It uses historical market data to model portfolio performance.",
-    "category": "Finance",
-    "whyItIsUseful": "It lets individual investors perform the same quantitative analysis that financial advisors charge for. Backtesting your strategy against decades of real data reveals risks that gut feeling cannot.",
-    "websiteLink": "https://www.portfoliovisualizer.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.portfoliovisualizer.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "investment portfolio charts allocation"
-  },
-  {
-    "id": 50,
-    "slug": "stockanalysis",
-    "name": "Stock Analysis",
-    "whatItDoes": "A free financial data platform that provides stock screeners, financial statements, earnings data, and analyst estimates for thousands of companies. It presents institutional-grade data in a clean, ad-light interface.",
-    "category": "Finance",
-    "whyItIsUseful": "It provides the fundamental analysis data that Bloomberg terminals offer at no cost. Individual investors get access to financial statements, ratios, and screening tools without expensive subscriptions.",
-    "websiteLink": "https://stockanalysis.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fstockanalysis.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "stock market chart candlestick analysis"
-  },
-  {
-    "id": 53,
-    "slug": "cryptpad",
-    "name": "CryptPad",
-    "whatItDoes": "An end-to-end encrypted collaborative office suite that includes documents, spreadsheets, presentations, forms, and kanban boards. The server never sees your content in plaintext.",
-    "category": "Privacy & Security",
-    "whyItIsUseful": "It provides Google Docs-style collaboration with genuine zero-knowledge encryption. Teams handling sensitive information can collaborate in real time without trusting a cloud provider with their data.",
-    "websiteLink": "https://cryptpad.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcryptpad.org&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "encrypted collaborative document padlock"
-  },
-  {
     "id": 55,
     "slug": "have-i-been-pwned",
     "name": "Have I Been Pwned",
@@ -1238,5 +1178,44 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-20",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.theolivepress.es%2Fspain-news%2F2026%2F04%2F20%2Feu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 168,
+    "slug": "macmind",
+    "name": "MacMind",
+    "whatItDoes": "MacMind is a fascinating project that recreates a functional HyperCard environment within a modern web browser, powered by a transformer neural network. It allows users to interact with a simulated 1989 Macintosh experience, complete with the iconic HyperCard interface and its stack-based organization. This tool is built by SeanFDZ and offers a unique way to explore and understand the early days of personal computing and interactive multimedia.",
+    "category": "Education",
+    "whyItIsUseful": "For anyone interested in the history of computing, user interface design, or the foundational principles of interactive applications, MacMind offers an unparalleled hands-on experience. Unlike static historical accounts or documentaries, it provides a truly interactive simulation. Developers and designers can glean insights into early hypertext systems and information architecture, while students can gain a tangible appreciation for the evolution of digital tools. It's a niche but deeply rewarding dive into a formative era.",
+    "imageIdea": "vintage macintosh computer screen with hypercard stacks",
+    "websiteLink": "https://github.com/SeanFDZ/macmind",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-21",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2FSeanFDZ%2Fmacmind&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 169,
+    "slug": "laws-of-software-engineering",
+    "name": "Laws of Software Engineering",
+    "whatItDoes": "The Laws of Software Engineering is a curated collection of fundamental principles and best practices that govern the design, development, and maintenance of software systems. It compiles widely accepted axioms and heuristics, presented in a clear and accessible manner, to help engineers build more robust, scalable, and maintainable software. The site serves as a central repository for critical software engineering wisdom.",
+    "category": "Developer",
+    "whyItIsUseful": "While many developers are familiar with individual best practices, this site consolidates them into a cohesive framework, acting as a valuable reference and learning resource. It's particularly useful for junior engineers seeking to build a strong foundation and for senior engineers looking to reinforce core concepts. The site provides a structured approach to understanding why certain practices are crucial, going beyond simple 'how-to' guides to explain the underlying 'why'. It helps foster a more disciplined and principled approach to software development.",
+    "imageIdea": "architectural blueprint with code snippets",
+    "websiteLink": "https://lawsofsoftwareengineering.com",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-21",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Flawsofsoftwareengineering.com&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 170,
+    "slug": "john-ternus-apple-ceo",
+    "name": "John Ternus to become Apple CEO",
+    "whatItDoes": "This news article, originating from Apple's official newsroom, announces a significant leadership transition within Apple Inc. It details that John Ternus is set to assume the role of Chief Executive Officer, while Tim Cook will move to the position of Executive Chairman. The announcement outlines the effective date of this change and highlights the company's forward-looking strategy under new leadership.",
+    "category": "Reference",
+    "whyItIsUseful": "While this is a news item, its inclusion here serves as an example of how to use official corporate communications as a reliable source for factual information about major organizational shifts. For individuals interested in business, technology trends, or corporate governance, understanding these leadership changes is crucial. It provides direct insight into the strategic direction and future priorities of one of the world's most influential technology companies, straight from the source, without third-party interpretation.",
+    "imageIdea": "apple logo with a CEO podium",
+    "websiteLink": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-21",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.apple.com%2Fnewsroom%2F2026%2F04%2Ftim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

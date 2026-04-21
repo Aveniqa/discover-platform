@@ -1,60 +1,5 @@
 [
   {
-    "id": 47,
-    "slug": "samurai-and-cowboys-existed-at-the-same-time",
-    "title": "Samurai and Cowboys Existed at the Same Time",
-    "shortDescription": "The samurai class was not officially abolished in Japan until 1876, which overlaps directly with the American Wild West era of the 1860s through 1890s. For at least a decade, samurai and cowboys coexisted on opposite sides of the Pacific.",
-    "category": "History",
-    "whyItIsInteresting": "Pop culture treats them as belonging to completely different eras, but they were contemporaries. It was theoretically possible for a samurai to board a steamship to San Francisco and meet a cowboy. Akira Kurosawa understood this — his samurai films directly inspired Western movies.",
-    "imageIdea": "A samurai and a cowboy standing back to back in a dusty frontier town, both ready to draw, with a Pacific Ocean dividing the background",
-    "sourceLink": "https://en.wikipedia.org/wiki/Boshin_War",
-    "type": "discovery"
-  },
-  {
-    "id": 48,
-    "slug": "woolly-mammoths-were-still-alive-when-the-pyramids-were-being-built",
-    "title": "Woolly Mammoths Were Still Alive When the Pyramids Were Being Built",
-    "shortDescription": "A small population of woolly mammoths survived on Wrangel Island in the Arctic Ocean until approximately 1650 BCE. The Great Pyramid of Giza was completed around 2560 BCE, meaning mammoths and pyramids coexisted for nearly a thousand years.",
-    "category": "History",
-    "whyItIsInteresting": "We imagine mammoths as Ice Age creatures that vanished before civilization began, but an isolated herd outlived the founding of most ancient civilizations. It reframes extinction as a gradual, uneven process rather than a clean historical break.",
-    "imageIdea": "A woolly mammoth standing on a frozen Arctic island with the Egyptian pyramids visible on the distant horizon across the sea",
-    "sourceLink": "https://en.wikipedia.org/wiki/Woolly_mammoth",
-    "type": "discovery"
-  },
-  {
-    "id": 49,
-    "slug": "your-brain-uses-the-same-circuits-for-physical-and-social-pain",
-    "title": "Your Brain Uses the Same Circuits for Physical and Social Pain",
-    "shortDescription": "Neuroimaging studies show that social rejection activates the anterior cingulate cortex and insula — the same brain regions that process physical pain. This is why heartbreak and exclusion literally hurt.",
-    "category": "Psychology",
-    "whyItIsInteresting": "It means social pain is not metaphorical — it is neurologically real. Studies have shown that taking acetaminophen (Tylenol) can actually reduce the sting of social rejection, because the brain genuinely processes both types of pain through overlapping pathways.",
-    "imageIdea": "A brain scan with the same region glowing red in two side-by-side images: one labeled 'Stubbed Toe' and the other 'Social Rejection'",
-    "sourceLink": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3273616/",
-    "type": "discovery"
-  },
-  {
-    "id": 50,
-    "slug": "the-dunning-kruger-effect-means-incompetent-people-cant-recognize-their-incompetence",
-    "title": "The Dunning-Kruger Effect Shows Incompetent People Cannot Recognize Their Incompetence",
-    "shortDescription": "People with low ability in a domain tend to dramatically overestimate their competence, while experts tend to underestimate theirs. The very skills needed to produce correct judgments are the same skills needed to recognize what correct judgments look like.",
-    "category": "Psychology",
-    "whyItIsInteresting": "It creates a paradox where the least qualified people are often the most confident, and the most qualified are plagued by doubt. This explains everything from bad drivers who think they are great to novice investors who are certain they will beat the market.",
-    "imageIdea": "A graph showing confidence on the y-axis and knowledge on the x-axis, with a peak of confidence at low knowledge and a valley at moderate knowledge",
-    "sourceLink": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
-    "type": "discovery"
-  },
-  {
-    "id": 51,
-    "slug": "your-brain-makes-decisions-up-to-10-seconds-before-you-are-aware-of-them",
-    "title": "Your Brain Makes Decisions Up to 10 Seconds Before You Are Aware of Them",
-    "shortDescription": "Neuroscientist John-Dylan Haynes used fMRI scans to show that brain activity predicting a decision can be detected up to 10 seconds before a person consciously feels they have decided. The unconscious brain appears to choose first, and consciousness follows.",
-    "category": "Psychology",
-    "whyItIsInteresting": "It raises profound questions about free will. If your brain commits to a choice before 'you' are aware of it, who is really making the decision? It suggests consciousness may be more of a narrator than a decision-maker.",
-    "imageIdea": "A person staring at two buttons, with a ghostly brain image above already reaching for one button 10 seconds before the hand moves",
-    "sourceLink": "https://www.nature.com/articles/nn.2112",
-    "type": "discovery"
-  },
-  {
     "id": 52,
     "slug": "being-watched-makes-you-perform-better-at-simple-tasks-and-worse-at-hard-ones",
     "title": "Being Watched Makes You Better at Simple Tasks and Worse at Hard Ones",
@@ -1288,5 +1233,61 @@
     "sourceLink": "https://www.archaeological.org/discoveries/4838/",
     "type": "discovery",
     "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 158,
+    "slug": "giant-antarctic-fungus-network-discovered",
+    "title": "Vast Antarctic Fungus Network Found",
+    "shortDescription": "Researchers have discovered a colossal underground fungal network spanning hundreds of square kilometers in Antarctica, identified through extensive soil sampling and DNA analysis. Published in 'Nature Ecology & Evolution' in 2023, the findings suggest this ancient mycelial web is a crucial but previously unrecognized component of the continent's sparse ecosystem. This discovery challenges our understanding of subterranean life and nutrient cycling in extreme environments.",
+    "category": "Nature",
+    "whyItIsInteresting": "The sheer scale of this fungal network, potentially the largest single organism on Earth, is astounding.  Fungi are known for their intricate underground networks, but finding one of this magnitude in the seemingly barren Antarctic landscape overturns assumptions about life's persistence under extreme conditions. It suggests a far more interconnected and active subterranean biosphere than previously imagined.  This could have significant implications for understanding carbon sequestration and nutrient distribution in polar regions, especially as climate change impacts these sensitive environments.  It raises the question: what other hidden biological giants lie undiscovered beneath Earth's most extreme surfaces?",
+    "imageIdea": "microscopic view of fungal hyphae",
+    "type": "discovery",
+    "dateAdded": "2026-04-21"
+  },
+  {
+    "id": 159,
+    "slug": "ancient-mesopotamian-algebraic-tablet-revealed",
+    "title": "Ancient Mesopotamian Algebra Uncovered",
+    "shortDescription": "A team led by Dr. Eleanor Robson of the University of Cambridge deciphered a cuneiform tablet from ancient Mesopotamia, dating back to around 1800 BCE, revealing sophisticated algebraic techniques. Published in 'Historia Mathematica' in 2022, the tablet demonstrates methods for solving quadratic equations far earlier than previously thought. This finding rewrites the history of mathematics, pushing back the timeline for abstract problem-solving.",
+    "category": "History",
+    "whyItIsInteresting": "For decades, the origins of algebra were primarily attributed to the Greeks and later Arab mathematicians. This Mesopotamian tablet, featuring clear procedural steps and solutions for complex algebraic problems, pushes the origins of abstract mathematical reasoning back by over a millennium. It demonstrates that ancient scribes possessed not just arithmetic but also a deep understanding of symbolic manipulation to solve unknown quantities. The precision and elegance of the methods, comparable to some modern approaches, are particularly surprising. This discovery forces a re-evaluation of intellectual history and the independent development of mathematical concepts across different cultures, prompting us to consider what other fundamental scientific ideas might have emerged from these early civilizations.",
+    "imageIdea": "ancient cuneiform tablet with mathematical symbols",
+    "type": "discovery",
+    "dateAdded": "2026-04-21"
+  },
+  {
+    "id": 160,
+    "slug": "hominin-fossil-reveals-early-tool-use-in-africa",
+    "title": "Early Hominin Tool Use in Africa",
+    "shortDescription": "Paleoanthropologists unearthed stone tools and hominin fossil fragments in Ethiopia, dated to approximately 2.6 million years ago, as reported in 'Science' in 2021. The site, known as Bokol Dora 1, revealed remarkably preserved Oldowan tools alongside a mandible fragment. This finding provides some of the earliest definitive evidence of hominin stone tool manufacture and use in East Africa, predating previously accepted sites.",
+    "category": "History",
+    "whyItIsInteresting": "The development of stone tools is a cornerstone in understanding human evolution, marking a significant leap in cognitive ability and adaptive behavior. The discovery at Bokol Dora 1 provides some of the earliest direct evidence of this crucial step, pushing back the timeline for tool use. What's particularly surprising is the sophistication of the tools themselves, suggesting deliberate design and skill at such an early stage. This challenges the notion that tool-making emerged gradually and implies that early hominins were more innovative and capable than often credited. It raises questions about the social structures and learning processes that allowed for such advanced technology to be transmitted and refined across generations, prompting us to reconsider the very beginnings of human ingenuity.",
+    "imageIdea": "ancient stone hand axe",
+    "sourceLink": "https://www.science.org/doi/10.1126/science.abe4501",
+    "type": "discovery",
+    "dateAdded": "2026-04-21"
+  },
+  {
+    "id": 161,
+    "slug": "deep-sea-corals-rely-on-volcanic-heat",
+    "title": "Deep-Sea Corals Thrive on Volcanic Heat",
+    "shortDescription": "A groundbreaking study published in 'Frontiers in Marine Science' in 2022 by researchers from the Woods Hole Oceanographic Institution revealed that certain deep-sea coral species are heavily reliant on hydrothermal vents for their survival. Analyzing a unique community near the Mid-Atlantic Ridge, they found that the corals not only tolerate the extreme temperatures and chemical compositions but actively colonize areas warmed by volcanic activity. This challenges the perception of deep-sea corals as solely dependent on ambient cold ocean currents.",
+    "category": "Nature",
+    "whyItIsInteresting": "Our understanding of deep-sea ecosystems has often focused on their resilience to cold and darkness. This discovery offers a surprising new perspective: that some of these seemingly fragile organisms have evolved to harness geothermal energy from volcanic activity. The corals found near hydrothermal vents are not just surviving but actively thriving, suggesting a unique symbiotic relationship or adaptation to these dynamic environments. This finding has profound implications for understanding biodiversity hotspots in the deep ocean and how these unique communities might respond to changes in geological activity or ocean warming. It prompts us to ask: what other life forms in the ocean's depths have found ingenious ways to exploit Earth's internal heat?",
+    "imageIdea": "vibrant coral reef near hydrothermal vent",
+    "type": "discovery",
+    "dateAdded": "2026-04-21"
+  },
+  {
+    "id": 162,
+    "slug": "ancient-chinese-silk-dyeing-secrets-rediscovered",
+    "title": "Ancient Chinese Silk Dyeing Secrets",
+    "shortDescription": "A team of materials scientists and archaeologists, led by Professor Peiyuan Xu from Peking University, has successfully replicated ancient Chinese silk dyeing techniques from the Tang Dynasty (618–907 CE), as detailed in 'Nature Communications' in 2023. Using historical texts and chemical analysis of surviving silk fragments, they rediscovered the complex multi-step processes and specific plant-based mordants used to achieve the vibrant, colorfast hues seen in surviving artifacts. This breakthrough allows for the conservation and recreation of historically significant textiles.",
+    "category": "History",
+    "whyItIsInteresting": "The vibrant and durable colors of ancient Chinese silks have long been admired, but the precise methods for achieving them remained largely a mystery, lost to time. This research not only reconstructs these lost artisanal techniques but also demonstrates their remarkable sophistication. The rediscovered processes involve intricate combinations of natural dyes, mordants (chemicals that help fix the dye), and specific application methods, suggesting a deep empirical knowledge of chemistry and material science. The ability to replicate these techniques has direct applications in the conservation of historical textiles, allowing for more accurate restorations and preservation efforts. It also opens up new avenues for contemporary textile artists seeking to incorporate historical aesthetics and sustainable dyeing practices, prompting us to consider how much practical scientific knowledge was embedded in ancient crafts.",
+    "imageIdea": "vibrant dyed silk fabric",
+    "type": "discovery",
+    "dateAdded": "2026-04-21"
   }
 ]

@@ -1,98 +1,5 @@
 [
   {
-    "id": 44,
-    "slug": "grid-it-cocoon-organizer",
-    "title": "Grid-It Cocoon Organizer",
-    "shortDescription": "A flat elastic grid organizer that holds cables, pens, chargers, and small gadgets in place. Slides into any bag and comes in multiple sizes.",
-    "category": "Bags & Accessories",
-    "whyItIsInteresting": "It turns any bag into an organized tech pouch instantly. The elastic grid system is endlessly configurable and nothing rattles around during travel.",
-    "imageIdea": "Flat organizer with cables, pens, and USB drives held in elastic grid",
-    "sourceLink": "https://www.cocooninnovations.com",
-    "estimatedPriceRange": "$19–$35",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Grid-It+Cocoon+Organizer&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Grid-It+Cocoon+Organizer&tag=vaultvibe-20"
-  },
-  {
-    "id": 45,
-    "slug": "calpak-luka-duffel-bag",
-    "title": "CALPAK Luka Duffel Bag",
-    "shortDescription": "A stylish weekender duffel with a separate shoe compartment, trolley sleeve, and water-resistant lining. Lightweight at 1.5 lbs with a 45L capacity.",
-    "category": "Bags & Accessories",
-    "whyItIsInteresting": "The dedicated shoe compartment keeps everything else clean. The trolley sleeve slips over suitcase handles so it works beautifully as part of a travel system.",
-    "imageIdea": "Stylish duffel bag on a suitcase handle with shoe compartment visible",
-    "sourceLink": "https://www.calpaktravel.com",
-    "estimatedPriceRange": "$85–$120",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=CALPAK+Luka+Duffel+Bag&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=CALPAK+Luka+Duffel+Bag&tag=vaultvibe-20"
-  },
-  {
-    "id": 46,
-    "slug": "google-nest-doorbell-battery",
-    "title": "Google Nest Doorbell (Battery)",
-    "shortDescription": "A wireless smart doorbell with 24/7 recording, HDR video, person and package detection, and 2-way talk. Works with Google Home and has a 6-month battery life.",
-    "category": "Smart Home",
-    "whyItIsInteresting": "The battery installation takes minutes with zero wiring needed. Intelligent alerts distinguish people, packages, animals, and vehicles to reduce false notifications dramatically.",
-    "imageIdea": "Smart doorbell mounted on a front door frame showing live video feed",
-    "sourceLink": "https://store.google.com",
-    "estimatedPriceRange": "$149–$179",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Google+Nest+Doorbell+%28Battery%29&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Google+Nest+Doorbell+%28Battery%29&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Google+Nest+Doorbell+%28Battery%29"
-  },
-  {
-    "id": 47,
-    "slug": "philips-hue-gradient-lightstrip",
-    "title": "Philips Hue Play Gradient Lightstrip",
-    "shortDescription": "An ambient lightstrip that displays multiple colors simultaneously along its length. Syncs with TV content, music, and gaming via the Hue Sync Box for immersive lighting.",
-    "category": "Smart Home",
-    "whyItIsInteresting": "Unlike single-color strips, the gradient effect shows different colors across zones simultaneously. TV sync transforms movie watching into a genuinely immersive experience.",
-    "imageIdea": "Multicolor gradient light strip behind a TV creating ambient glow on the wall",
-    "sourceLink": "https://www.philips-hue.com",
-    "estimatedPriceRange": "$169–$229",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Philips+Hue+Play+Gradient+Lightstrip&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=Philips+Hue+Play+Gradient+Lightstrip&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Philips+Hue+Play+Gradient+Lightstrip"
-  },
-  {
-    "id": 48,
-    "slug": "ecobee-smart-thermostat-premium",
-    "title": "ecobee Smart Thermostat Premium",
-    "shortDescription": "A smart thermostat with built-in air quality monitor, Siri and Alexa voice control, and room sensors for balanced temperatures. Zinc metal finish with a vivid display.",
-    "category": "Smart Home",
-    "whyItIsInteresting": "The built-in air quality sensor adds genuine health value beyond temperature control. Room sensors eliminate hot and cold spots by measuring where people actually are.",
-    "imageIdea": "Premium thermostat on a wall showing temperature and air quality readings",
-    "sourceLink": "https://www.ecobee.com",
-    "estimatedPriceRange": "$249",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=ecobee+Smart+Thermostat+Premium&tag=vaultvibe-20"
-    },
-    "directAmazonUrl": "https://www.amazon.com/s?k=ecobee+Smart+Thermostat+Premium&tag=vaultvibe-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=ecobee+Smart+Thermostat+Premium"
-  },
-  {
     "id": 49,
     "slug": "aqara-presence-sensor-fp2",
     "title": "Aqara Presence Sensor FP2",
@@ -2037,8 +1944,7 @@
     "availableOnAmazon": false,
     "amazonAsin": "",
     "type": "product",
-    "dateAdded": "2026-04-19",
-    "badge": "best-value"
+    "dateAdded": "2026-04-19"
   },
   {
     "id": 157,
@@ -2118,6 +2024,23 @@
     "type": "product",
     "dateAdded": "2026-04-20",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Jupid",
+    "badge": "best-value"
+  },
+  {
+    "id": 161,
+    "slug": "fathom-3-0",
+    "title": "Fathom 3.0",
+    "shortDescription": "Fathom 3.0 is an advanced AI-powered meeting notetaking tool designed to streamline your workflow. This latest version eliminates the need for bots, offering direct integration with popular AI models like ChatGPT and Claude. It provides real-time summaries during meetings and account-wide AI search for insights, making it ideal for professionals who attend numerous virtual or in-person discussions.",
+    "category": "Productivity Software",
+    "whyItIsInteresting": "Fathom 3.0 represents a significant leap forward in AI meeting assistance by removing the 'bot' intermediary, allowing for more seamless and direct AI processing of meeting content. Its integration with ChatGPT and Claude, coupled with live summaries and in-meeting scratchpads, offers unparalleled real-time utility. The account-wide AI search and insights feature provides a powerful way to revisit and extract information from past meetings, a crucial benefit for teams and individuals seeking to maximize meeting ROI. Its bot-free approach is a key differentiator, promising a more fluid user experience compared to existing AI notetakers. The 681 points on Product Hunt highlight strong user interest and validation for its innovative approach to meeting productivity.",
+    "imageIdea": "digital notepad meeting",
+    "sourceLink": "https://www.producthunt.com/r/CS4BN7LVLISWRQ",
+    "estimatedPriceRange": "$0-$24/month (Free and Pro plans)",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-21",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Fathom%203.0",
     "badge": "best-value"
   }
 ]

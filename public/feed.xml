@@ -5,8 +5,32 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Apr 2026 15:56:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 15:56:26 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>John Ternus to become Apple CEO</title>
+      <link>https://surfaced-x.pages.dev/item/john-ternus-apple-ceo</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/john-ternus-apple-ceo</guid>
+      <description>This news article, originating from Apple&apos;s official newsroom, announces a significant leadership transition within Apple Inc. It details that John Ternus is set to assume the role of Chief Executive Officer, while Tim Cook will move to the position of Executive Chairman. The announcement outlines the effective date of this change and highlights the company&apos;s forward-looking strategy under new leadership.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Laws of Software Engineering</title>
+      <link>https://surfaced-x.pages.dev/item/laws-of-software-engineering</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/laws-of-software-engineering</guid>
+      <description>The Laws of Software Engineering is a curated collection of fundamental principles and best practices that govern the design, development, and maintenance of software systems. It compiles widely accepted axioms and heuristics, presented in a clear and accessible manner, to help engineers build more robust, scalable, and maintainable software. The site serves as a central repository for critical software engineering wisdom.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>MacMind</title>
+      <link>https://surfaced-x.pages.dev/item/macmind</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/macmind</guid>
+      <description>MacMind is a fascinating project that recreates a functional HyperCard environment within a modern web browser, powered by a transformer neural network. It allows users to interact with a simulated 1989 Macintosh experience, complete with the iconic HyperCard interface and its stack-based organization. This tool is built by SeanFDZ and offers a unique way to explore and understand the early days of personal computing and interactive multimedia.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>EU to Force Replaceable Batteries in Phones and Tablets from 2027</title>
       <link>https://surfaced-x.pages.dev/item/all-phones-eu-replaceable-batteries</link>
@@ -48,6 +72,14 @@
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Ancient Chinese Silk Dyeing Secrets</title>
+      <link>https://surfaced-x.pages.dev/item/ancient-chinese-silk-dyeing-secrets-rediscovered</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-chinese-silk-dyeing-secrets-rediscovered</guid>
+      <description>A team of materials scientists and archaeologists, led by Professor Peiyuan Xu from Peking University, has successfully replicated ancient Chinese silk dyeing techniques from the Tang Dynasty (618–907 CE), as detailed in &apos;Nature Communications&apos; in 2023. Using historical texts and chemical analysis of surviving silk fragments, they rediscovered the complex multi-step processes and specific plant-based mordants used to achieve the vibrant, colorfast hues seen in surviving artifacts. This breakthrough allows for the conservation and recreation of historically significant textiles.</description>
+      <category>Discoveries</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Pixel Perfect Editor</title>
       <link>https://surfaced-x.pages.dev/item/pixel-perfect-editor</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pixel-perfect-editor</guid>
@@ -56,12 +88,36 @@
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Deep-Sea Corals Thrive on Volcanic Heat</title>
+      <link>https://surfaced-x.pages.dev/item/deep-sea-corals-rely-on-volcanic-heat</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deep-sea-corals-rely-on-volcanic-heat</guid>
+      <description>A groundbreaking study published in &apos;Frontiers in Marine Science&apos; in 2022 by researchers from the Woods Hole Oceanographic Institution revealed that certain deep-sea coral species are heavily reliant on hydrothermal vents for their survival. Analyzing a unique community near the Mid-Atlantic Ridge, they found that the corals not only tolerate the extreme temperatures and chemical compositions but actively colonize areas warmed by volcanic activity. This challenges the perception of deep-sea corals as solely dependent on ambient cold ocean currents.</description>
+      <category>Discoveries</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fathom 3.0</title>
+      <link>https://surfaced-x.pages.dev/item/fathom-3-0</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fathom-3-0</guid>
+      <description>Fathom 3.0 is an advanced AI-powered meeting notetaking tool designed to streamline your workflow. This latest version eliminates the need for bots, offering direct integration with popular AI models like ChatGPT and Claude. It provides real-time summaries during meetings and account-wide AI search for insights, making it ideal for professionals who attend numerous virtual or in-person discussions.</description>
+      <category>Trending Products</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Opus Token Leaderboard</title>
       <link>https://surfaced-x.pages.dev/item/opus-token-comparison</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/opus-token-comparison</guid>
       <description>The Opus Token Leaderboard is a website that anonymously compares the request-token performance of Opus 4.6 and Opus 4.7, two versions of an AI model. It presents data on how these models perform on various tasks, focusing on their token efficiency and output quality. The comparisons are conducted anonymously, providing an objective benchmark for developers and users evaluating different AI model versions. This tool helps users understand which AI model might be more suitable for their specific needs based on empirical performance data.</description>
       <category>Hidden Gems</category>
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Early Hominin Tool Use in Africa</title>
+      <link>https://surfaced-x.pages.dev/item/hominin-fossil-reveals-early-tool-use-in-africa</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hominin-fossil-reveals-early-tool-use-in-africa</guid>
+      <description>Paleoanthropologists unearthed stone tools and hominin fossil fragments in Ethiopia, dated to approximately 2.6 million years ago, as reported in &apos;Science&apos; in 2021. The site, known as Bokol Dora 1, revealed remarkably preserved Oldowan tools alongside a mandible fragment. This finding provides some of the earliest definitive evidence of hominin stone tool manufacture and use in East Africa, predating previously accepted sites.</description>
+      <category>Discoveries</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Jupid</title>
@@ -80,6 +136,14 @@
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Ancient Mesopotamian Algebra Uncovered</title>
+      <link>https://surfaced-x.pages.dev/item/ancient-mesopotamian-algebraic-tablet-revealed</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-mesopotamian-algebraic-tablet-revealed</guid>
+      <description>A team led by Dr. Eleanor Robson of the University of Cambridge deciphered a cuneiform tablet from ancient Mesopotamia, dating back to around 1800 BCE, revealing sophisticated algebraic techniques. Published in &apos;Historia Mathematica&apos; in 2022, the tablet demonstrates methods for solving quadratic equations far earlier than previously thought. This finding rewrites the history of mathematics, pushing back the timeline for abstract problem-solving.</description>
+      <category>Discoveries</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Google Pixel 8a</title>
       <link>https://surfaced-x.pages.dev/item/google-pixel-8a</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/google-pixel-8a</guid>
@@ -94,6 +158,14 @@
       <description>Track Succession provides real-time, publicly accessible data on every CEO and CFO change at US public companies, sourced directly from SEC filings. The platform aims to offer transparency into corporate leadership transitions, allowing users to track historical and ongoing executive shifts. It&apos;s a valuable resource for investors, researchers, and anyone interested in the dynamics of corporate governance. The &apos;explore&apos; section allows for detailed filtering and analysis of this data.</description>
       <category>Hidden Gems</category>
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Vast Antarctic Fungus Network Found</title>
+      <link>https://surfaced-x.pages.dev/item/giant-antarctic-fungus-network-discovered</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/giant-antarctic-fungus-network-discovered</guid>
+      <description>Researchers have discovered a colossal underground fungal network spanning hundreds of square kilometers in Antarctica, identified through extensive soil sampling and DNA analysis. Published in &apos;Nature Ecology &amp; Evolution&apos; in 2023, the findings suggest this ancient mycelial web is a crucial but previously unrecognized component of the continent&apos;s sparse ecosystem. This discovery challenges our understanding of subterranean life and nutrient cycling in extreme environments.</description>
+      <category>Discoveries</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Anker 737 Power Bank (PowerCore 24K Hi-Fi)</title>
@@ -304,6 +376,14 @@
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>AI-Assisted Infrastructure Exploitation</title>
+      <link>https://surfaced-x.pages.dev/item/roblox-cheat-ai-vercel-outage</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/roblox-cheat-ai-vercel-outage</guid>
+      <description>A recent incident saw Vercel&apos;s platform brought down by a combination of a Roblox cheat and an AI tool. This signifies a new frontier in cyber threats where AI is leveraged not just for defense but also for sophisticated attacks on complex infrastructure. The breakthrough is the demonstration of how AI can be used to identify and exploit vulnerabilities in ways previously unimaginable, even against robust cloud platforms.</description>
+      <category>Future Radar</category>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Quantum Computing Solves Complex Chemistry Problem</title>
       <link>https://surfaced-x.pages.dev/item/quantum-computing-solves-complex-chemistry-problem</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/quantum-computing-solves-complex-chemistry-problem</guid>
@@ -326,86 +406,6 @@
       <description>A free online diagramming tool that allows you to create a wide variety of diagrams, from flowcharts and mind maps to network diagrams and UML. It offers extensive customization options and integrates with cloud storage services like Google Drive and Dropbox.</description>
       <category>Hidden Gems</category>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ancient Roman Glass Production Techniques Rediscovered</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-roman-glass-production-techniques-rediscovered</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-roman-glass-production-techniques-rediscovered</guid>
-      <description>A multi-year archaeological project at an ancient Roman glassmaking site in Britain, culminating in findings published in *Archaeological Journal* in 2022, has revealed sophisticated techniques for glass production that were thought to have been lost. The analysis of furnace structures and glass fragments shows evidence of precise temperature control and material sourcing far beyond previous estimations for the period. This sheds new light on Roman technological prowess.</description>
-      <category>Discoveries</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Apple Vision Pro</title>
-      <link>https://surfaced-x.pages.dev/item/apple-vision-pro</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/apple-vision-pro</guid>
-      <description>Apple&apos;s groundbreaking spatial computing device that seamlessly blends digital content with the physical world. Experience immersive entertainment, productivity, and communication in a completely new way.</description>
-      <category>Trending Products</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fontjoy</title>
-      <link>https://surfaced-x.pages.dev/item/fontjoy</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fontjoy</guid>
-      <description>Fontjoy uses AI to help you generate font pairings for your design projects. You can explore a vast library of fonts and get intelligent suggestions for visually harmonious combinations, saving you time and guesswork.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bacteria That Eat Plastic Could Clean Oceans</title>
-      <link>https://surfaced-x.pages.dev/item/bacteria-that-eat-plastic-could-clean-oceans</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bacteria-that-eat-plastic-could-clean-oceans</guid>
-      <description>Researchers at the University of British Columbia, publishing in *Environmental Science &amp; Technology* in 2023, have engineered a strain of bacteria capable of breaking down polyethylene terephthalate (PET), a common plastic found in bottles and packaging. The modified bacteria can degrade PET into harmless byproducts at ambient temperatures and pressures. This bio-engineering feat offers a promising, potentially scalable solution to plastic pollution.</description>
-      <category>Discoveries</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google Pixel Watch 3</title>
-      <link>https://surfaced-x.pages.dev/item/google-pixel-watch-3</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/google-pixel-watch-3</guid>
-      <description>The latest generation of Google&apos;s smartwatch, featuring advanced health tracking, seamless integration with Wear OS and Fitbit, and a refined design. It aims to offer a comprehensive and stylish wearable experience.</description>
-      <category>Trending Products</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Runebender 3D</title>
-      <link>https://surfaced-x.pages.dev/item/runebender-3d</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/runebender-3d</guid>
-      <description>Runebender 3D is a free, browser-based 3D modeling and sculpting tool. It&apos;s designed to be accessible and intuitive, allowing users to create and manipulate 3D models directly in their web browser without needing to download complex software.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Liquid Water Oceans on Exoplanets Identified Using New Spectroscopy</title>
-      <link>https://surfaced-x.pages.dev/item/liquid-water-oceans-on-exoplanets-identified-using-new-spectroscopy</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/liquid-water-oceans-on-exoplanets-identified-using-new-spectroscopy</guid>
-      <description>A team of astronomers, using advanced infrared spectroscopy from the James Webb Space Telescope, announced in a 2025 preprint the detection of clear spectral signatures of liquid water on exoplanets orbiting red dwarf stars. Specifically, they identified the unambiguous presence of water vapor in the atmospheres of at least three planets within their star&apos;s habitable zone. This breakthrough significantly increases the number of potentially life-supporting worlds beyond our solar system.</description>
-      <category>Discoveries</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Meta Quest 3</title>
-      <link>https://surfaced-x.pages.dev/item/meta-quest-3</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/meta-quest-3</guid>
-      <description>The latest virtual and mixed reality headset from Meta, offering improved performance, higher resolution displays, and enhanced passthrough capabilities for blending the virtual and physical worlds. It&apos;s designed for gaming, social experiences, and productivity.</description>
-      <category>Trending Products</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Simul.Writing</title>
-      <link>https://surfaced-x.pages.dev/item/simul-writing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/simul-writing</guid>
-      <description>Simul.Writing is a collaborative real-time writing tool that allows multiple users to edit a document simultaneously. It offers robust version control and comment features, similar to Google Docs but with a minimalist and focused interface.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ancient Human Genome Reveals Interbreeding With Unknown Hominin</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-human-genome-reveals-interbreeding-with-unknown-hominin</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-human-genome-reveals-interbreeding-with-unknown-hominin</guid>
-      <description>In a groundbreaking 2024 study published in *Nature*, researchers led by Dr. Svante Pääbo, a Nobel laureate, sequenced the genome of a ~200,000-year-old individual from the Denisova Cave in Siberia. This analysis revealed a significant genetic contribution from a previously unknown hominin species, distinct from Neanderthals and modern humans. This discovery implies that our ancient ancestors engaged in more complex interbreeding with diverse hominin groups than previously understood.</description>
-      <category>Discoveries</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

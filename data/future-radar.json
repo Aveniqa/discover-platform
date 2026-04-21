@@ -1,61 +1,5 @@
 [
   {
-    "id": 47,
-    "slug": "marine-cloud-brightening",
-    "techName": "Marine Cloud Brightening",
-    "explanation": "Ships that spray fine sea salt particles into low-lying clouds over the ocean, increasing their reflectivity. The brighter clouds bounce more sunlight back to space, cooling the regions below.",
-    "industry": "Climate",
-    "whyItMatters": "It could buy critical time by cooling vulnerable areas like coral reefs and Arctic ice while the world decarbonizes, potentially preventing irreversible tipping points from being crossed.",
-    "developmentStage": "Early Research",
-    "type": "future-tech",
-    "imageIdea": "Ship spraying fine sea salt aerosol into the sky over the ocean, creating brighter reflective clouds"
-  },
-  {
-    "id": 48,
-    "slug": "autonomous-ocean-cleanup-systems",
-    "techName": "Autonomous Ocean Cleanup Systems",
-    "explanation": "AI-guided vessels and barriers that collect plastic debris from ocean garbage patches and river mouths. They use current patterns and satellite data to optimize collection routes and intercept waste before it reaches open ocean.",
-    "industry": "Climate",
-    "whyItMatters": "14 million tons of plastic enter the ocean annually. Autonomous cleanup at scale could remove the existing garbage patches while river interceptors stop the flow at its source.",
-    "developmentStage": "Prototype",
-    "type": "future-tech",
-    "imageIdea": "Fleet of autonomous vessels collecting floating plastic debris from the ocean surface, clean water in their wake"
-  },
-  {
-    "id": 49,
-    "slug": "solar-powered-desalination",
-    "techName": "Solar-Powered Desalination",
-    "explanation": "Next-generation desalination plants powered entirely by solar energy, using advanced membranes and energy recovery systems that cut costs to a fraction of conventional reverse osmosis.",
-    "industry": "Climate",
-    "whyItMatters": "Two billion people face water scarcity. Cheap solar desalination turns the ocean into a limitless freshwater source for drinking, agriculture, and industry in arid regions worldwide.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech",
-    "imageIdea": "Solar panel array powering a coastal desalination plant, clean freshwater flowing from the facility into storage"
-  },
-  {
-    "id": 50,
-    "slug": "drone-swarm-reforestation",
-    "techName": "Drone Swarm Reforestation",
-    "explanation": "Fleets of drones that map deforested terrain, analyze soil conditions, and fire seed pods containing native species at a rate of 100,000 trees per day per drone swarm, with AI-optimized species selection.",
-    "industry": "Climate",
-    "whyItMatters": "We need to plant a trillion trees to offset emissions, but manual planting cannot scale. Drone swarms could reforest degraded land 150x faster and 80% cheaper than traditional methods.",
-    "developmentStage": "Growth Phase",
-    "type": "future-tech",
-    "imageIdea": "Coordinated swarm of drones dropping seed pods over deforested hillside, new green growth emerging below"
-  },
-  {
-    "id": 51,
-    "slug": "ai-powered-drug-discovery-molecule-design",
-    "techName": "AI-Powered Drug Discovery (Molecule Design)",
-    "explanation": "Recent breakthroughs in generative AI models are enabling the rapid design of novel drug molecules with desired properties. These systems can explore vast chemical spaces far beyond human capability, identifying potential drug candidates for complex diseases in significantly reduced timeframes.",
-    "industry": "Biotechnology/Pharmaceuticals",
-    "whyItMatters": "This technology drastically accelerates the initial stages of drug development, promising to bring new treatments for previously intractable diseases to market faster and more affordably. It represents a paradigm shift in how we approach therapeutic innovation.",
-    "developmentStage": "Early Commercialization",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13",
-    "imageIdea": "AI system analyzing and designing molecular structures for new pharmaceutical drugs, 3D molecule visualization on screen"
-  },
-  {
     "id": 52,
     "slug": "next-gen-fusion-energy-reactor-control",
     "techName": "Next-Generation Fusion Energy Reactor Control",
@@ -1184,5 +1128,65 @@
     "imageIdea": "graph showing a steep, artificial upward trend",
     "type": "future-tech",
     "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 146,
+    "slug": "future-radar-laws-of-software-engineering",
+    "techName": "Laws of Software Engineering",
+    "explanation": "This initiative proposes formalizing the field of software engineering with a set of foundational laws, akin to those in physics or chemistry. The recent milestone involves the articulation and dissemination of these potential laws, aiming to bring more scientific rigor to software development. The concept posits that by identifying fundamental principles, we can achieve more predictable, reliable, and efficient software creation processes.",
+    "industry": "Software Development",
+    "whyItMatters": "Establishing concrete 'laws' for software engineering could revolutionize how we build and maintain complex systems. It promises to move the discipline from an art form to a more predictable science, reducing bugs, cost overruns, and project failures. While the timeline for widespread adoption is long, potentially decades, the immediate impact is fostering critical thought about software design principles. Overcoming resistance to formalization and ensuring these laws are practical and universally applicable are key challenges. Widespread adoption could lead to software that is inherently more robust and easier to scale, transforming industries reliant on technology.",
+    "developmentStage": "Research",
+    "imageIdea": "a complex blueprint of software architecture",
+    "type": "future-tech",
+    "dateAdded": "2026-04-21"
+  },
+  {
+    "id": 147,
+    "slug": "future-radar-john-ternus-apple-ceo",
+    "techName": "Leadership Transition in Major Tech",
+    "explanation": "This announcement details a significant leadership change at Apple, with John Ternus succeeding Tim Cook as CEO. The milestone is the formal declaration of this succession plan, indicating a new era for one of the world's most influential technology companies. While not a 'technology' in itself, such leadership shifts often signal strategic reorientations and continued innovation within a company's product and service offerings.",
+    "industry": "Technology",
+    "whyItMatters": "Major leadership changes at companies like Apple have profound implications for the tech landscape, influencing product development, market strategies, and consumer trends. The timeline for observable impacts is immediate, as Ternus's vision will begin to shape Apple's direction. The key obstacle is the immense pressure to maintain Apple's unprecedented success. If successful, Ternus's tenure could lead to new categories of products or refined approaches to existing ones, further solidifying Apple's dominance and impacting user experiences globally.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "a changing of the guard ceremony with tech executives",
+    "type": "future-tech",
+    "dateAdded": "2026-04-21"
+  },
+  {
+    "id": 148,
+    "slug": "mnt-reform-open-hardware-laptop",
+    "techName": "MNT Reform Open Hardware Laptop",
+    "explanation": "The MNT Reform is a laptop built on open hardware principles, designed and assembled in Germany to prioritize repairability, sustainability, and user control. The recent milestone is the continued development and availability of this device, offering an alternative to proprietary, often-disposable electronics. It emphasizes modular design and readily available documentation, empowering users to understand, modify, and repair their hardware.",
+    "industry": "Hardware Manufacturing",
+    "whyItMatters": "The MNT Reform challenges the status quo of planned obsolescence in consumer electronics, promoting a more sustainable and user-empowering model. It matters by providing a tangible alternative for those seeking greater control over their devices and a reduced environmental footprint. The timeline for broader market impact is likely in the early adoption phase, with potential growth if more mainstream manufacturers adopt similar open-source hardware strategies. Key obstacles include scaling production and competing with the economies of scale of larger corporations. Widespread adoption could mean longer-lasting devices, reduced e-waste, and a more engaged user base for hardware.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "a disassembled laptop showing modular components",
+    "type": "future-tech",
+    "dateAdded": "2026-04-21"
+  },
+  {
+    "id": 149,
+    "slug": "anthropic-claude-cli-usage",
+    "techName": "Open Access to Advanced AI Models via CLI",
+    "explanation": "Anthropic has reinstated permission for using its advanced AI models, like Claude, through Command Line Interface (CLI) tools, as facilitated by platforms like OpenClaw. This means developers and researchers can more easily integrate and interact with sophisticated AI capabilities directly from their terminals. The breakthrough is the renewed accessibility, enabling programmatic use of powerful AI without complex graphical interfaces.",
+    "industry": "Artificial Intelligence",
+    "whyItMatters": "This development democratizes access to cutting-edge AI, allowing for more rapid experimentation, integration into custom workflows, and development of novel AI-powered applications. It significantly lowers the barrier to entry for leveraging AI beyond simple chatbots. The timeline for broader impact is immediate, accelerating innovation in AI-driven tools and services. The main obstacle is ensuring responsible use and preventing misuse of these powerful models. Widespread adoption will likely lead to a proliferation of specialized AI agents and sophisticated automation across various professional fields.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "a person typing commands into a terminal with glowing AI output",
+    "type": "future-tech",
+    "dateAdded": "2026-04-21"
+  },
+  {
+    "id": 150,
+    "slug": "roblox-cheat-ai-vercel-outage",
+    "techName": "AI-Assisted Infrastructure Exploitation",
+    "explanation": "A recent incident saw Vercel's platform brought down by a combination of a Roblox cheat and an AI tool. This signifies a new frontier in cyber threats where AI is leveraged not just for defense but also for sophisticated attacks on complex infrastructure. The breakthrough is the demonstration of how AI can be used to identify and exploit vulnerabilities in ways previously unimaginable, even against robust cloud platforms.",
+    "industry": "Cybersecurity",
+    "whyItMatters": "This event highlights a critical shift in the cybersecurity landscape, underscoring the growing threat posed by AI-powered attacks. It necessitates a rapid evolution of defensive strategies to counter these advanced exploits. The timeline for impact is immediate, pushing cybersecurity firms and cloud providers to develop AI-resistant defenses. Overcoming this challenge requires a proactive arms race, where AI is used for both attack and defense. Widespread adoption of AI in attacks could lead to more frequent and impactful disruptions, requiring businesses to invest heavily in resilient infrastructure and advanced threat detection.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "a digital fortress under siege by abstract AI entities",
+    "type": "future-tech",
+    "dateAdded": "2026-04-21"
   }
 ]
