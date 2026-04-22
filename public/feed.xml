@@ -5,8 +5,40 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Apr 2026 15:56:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 15:54:07 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub CLI telemetry</title>
+      <link>https://surfaced-x.pages.dev/item/github-cli-telemetry-collection</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/github-cli-telemetry-collection</guid>
+      <description>This page details GitHub CLI&apos;s pseudoanonymous telemetry collection. It explains that the GitHub Command Line Interface (CLI) now gathers opt-in, anonymized data about how users interact with the tool. This telemetry includes information like command usage, errors encountered, and system configuration. The purpose is to help the GitHub team understand user behavior, identify areas for improvement, and prioritize feature development for the CLI. Users can review the data collected and manage their participation.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GoModel</title>
+      <link>https://surfaced-x.pages.dev/item/go-model-open-source-ai-gateway</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/go-model-open-source-ai-gateway</guid>
+      <description>GoModel is an open-source AI gateway built in Go, designed to simplify the integration and management of various AI models. It acts as a unified interface for different AI services and models, allowing developers to interact with them through a consistent API. This means you can switch between different AI providers or models without rewriting significant parts of your application. It&apos;s particularly useful for backend developers building applications that rely on machine learning capabilities, aiming to reduce complexity and accelerate development.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows 9x Subsystem for Linux</title>
+      <link>https://surfaced-x.pages.dev/item/windows-9x-subsystem-for-linux</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/windows-9x-subsystem-for-linux</guid>
+      <description>This project aims to bring the functionality of a Linux subsystem to the classic Windows 9x operating system. It allows users to run Linux command-line tools and potentially even graphical applications within a Windows 95/98 environment. The goal is to bridge the gap between legacy Windows systems and modern open-source software, enabling users to access a wider range of utilities and development tools on older hardware. It&apos;s particularly interesting for retro computing enthusiasts and those exploring historical operating system capabilities.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>VidStudio</title>
+      <link>https://surfaced-x.pages.dev/item/vidstudio-browser-video-editor</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vidstudio-browser-video-editor</guid>
+      <description>VidStudio is a powerful, browser-based video editor designed for users who want to create and edit videos without the hassle of uploading large files. It leverages WebAssembly and client-side processing to offer a smooth editing experience directly within your web browser. This means your raw footage stays on your device, enhancing privacy and speed for edits. It&apos;s ideal for quick social media video cuts, simple tutorial creation, or trimming existing footage without requiring desktop software.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>John Ternus to become Apple CEO</title>
       <link>https://surfaced-x.pages.dev/item/john-ternus-apple-ceo</link>
@@ -32,12 +64,28 @@
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Arctic Permafrost Releases Ancient Viruses, Potent Threat</title>
+      <link>https://surfaced-x.pages.dev/item/arctic-permafrost-releases-ancient-viruses-potent-threat</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/arctic-permafrost-releases-ancient-viruses-potent-threat</guid>
+      <description>In 2024, a team of French and Russian scientists, led by Dr. Jean-Michel Claverie of Aix-Marseille University, successfully revived several strains of ancient viruses that had been frozen in Siberian permafrost for tens of thousands of years. The oldest revived virus, a strain of *Pandoravirus* dating back 48,500 years, was isolated from a sample of permafrost taken from the deepest layer ever studied. This research, published in *Viruses*, highlights the potential for these &apos;zombie viruses&apos; to pose a significant, albeit currently theoretical, threat to public health as global temperatures rise and thaw these ancient ice reserves.</description>
+      <category>Discoveries</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>EU to Force Replaceable Batteries in Phones and Tablets from 2027</title>
       <link>https://surfaced-x.pages.dev/item/all-phones-eu-replaceable-batteries</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/all-phones-eu-replaceable-batteries</guid>
       <description>This is an article reporting on a new EU regulation that will require all smartphones and tablets sold within the European Union to have batteries that are easily replaceable by consumers or independent repairers. This directive, set to take effect in 2027, aims to combat e-waste and promote device longevity by moving away from sealed-unit designs. It&apos;s a significant policy shift with potential global implications for consumer electronics manufacturing and repairability.</description>
       <category>Hidden Gems</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ancient Chinese Musical Instrument Reveals Complex Notation</title>
+      <link>https://surfaced-x.pages.dev/item/ancient-chinese-musical-instrument-reveals-complex-notation</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-chinese-musical-instrument-reveals-complex-notation</guid>
+      <description>The discovery of a nearly intact 2,400-year-old *se* zither in a tomb in Hubei Province, China, has provided archaeologists and musicologists with an extraordinary glimpse into ancient Chinese musical practices. Unearthed in 2020, the instrument, along with its original strings and protective casing, was accompanied by a detailed musical score inscribed onto bamboo slips. This score, analyzed by researchers including Dr. Li Yu of the Institute of Archaeology, Chinese Academy of Social Sciences, reveals a sophisticated system of musical notation far more advanced than previously assumed for the period.</description>
+      <category>Discoveries</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>GitHub&apos;s Fake Star Economy</title>
@@ -48,6 +96,14 @@
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Artificial Wormholes Created in Lab Testing Einstein Theory</title>
+      <link>https://surfaced-x.pages.dev/item/artificial-wormholes-created-in-lab-testing-einstein-theory</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/artificial-wormholes-created-in-lab-testing-einstein-theory</guid>
+      <description>Physicists at the University of Maryland, led by Dr. Christopher Monroe and his team, have successfully created and manipulated what they describe as a &apos;traversable artificial wormhole&apos; in a lab setting. Published in *Nature Physics* in 2022, this groundbreaking experiment used entangled quantum bits (qubits) to simulate the connection between two points in spacetime, a phenomenon theorized by Einstein but never before observed. While not a physical tunnel through space, it replicates the mathematical properties of a wormhole, allowing information to &apos;travel&apos; between seemingly disconnected quantum states.</description>
+      <category>Discoveries</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>All phones sold in the EU to have replaceable batteries from 2027</title>
       <link>https://surfaced-x.pages.dev/item/eu-replaceable-batteries-news</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/eu-replaceable-batteries-news</guid>
@@ -56,12 +112,28 @@
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Ancient Bird Fossil Reveals Unexpected Flight Mechanism</title>
+      <link>https://surfaced-x.pages.dev/item/ancient-bird-fossil-reveals-unexpected-flight-mechanism</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-bird-fossil-reveals-unexpected-flight-mechanism</guid>
+      <description>A remarkably preserved fossil of *Asteriornis maastrichtensis*, a 66-million-year-old bird discovered in Belgium, has provided unprecedented insights into the evolutionary transition from non-avian dinosaurs to modern birds. Published in *Nature* in 2022 by a team led by Albert Chen and Daniel Field from the University of Cambridge, the fossil&apos;s detailed skull anatomy suggests it possessed a &apos;modern&apos; jaw mechanism that allowed for more agile feeding and potentially different flight adaptations than previously thought for birds of this era, just before the K-Pg extinction event.</description>
+      <category>Discoveries</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Ithihāsas – a character explorer for Hindu epics</title>
       <link>https://surfaced-x.pages.dev/item/ithihasas-character-explorer</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ithihasas-character-explorer</guid>
       <description>Ithihāsas is a web application designed to explore and understand the complex characters and relationships within Hindu epics like the Ramayana and Mahabharata. Built in a remarkably short time, it provides an interactive interface to navigate through characters, their lineage, key events, and connections. This tool is perfect for students, scholars, or anyone curious about the rich narratives and intricate character webs of these ancient texts.</description>
       <category>Hidden Gems</category>
       <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Earth&apos;s Core Rotation Slowing: Implications for Day Length</title>
+      <link>https://surfaced-x.pages.dev/item/earths-core-rotation-might-be-slowing</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/earths-core-rotation-might-be-slowing</guid>
+      <description>Researchers Yi Yang and Xiaodong Song at Peking University have presented compelling evidence suggesting that the Earth&apos;s inner core&apos;s rotation might have significantly slowed down, or even paused, around 2009-2010, and may now be rotating in the opposite direction relative to the mantle. Analyzing seismic waves from repeating earthquakes over several decades, they observed distinct changes in wave travel times, pointing to a slowdown and potential reversal. This phenomenon could subtly influence the length of our days.</description>
+      <category>Discoveries</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>TRELLIS.2 Image-to-3D generation</title>
@@ -256,6 +328,14 @@
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>GitHub CLI Telemetry Collection</title>
+      <link>https://surfaced-x.pages.dev/item/github-cli-telemetry</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/github-cli-telemetry</guid>
+      <description>The GitHub Command Line Interface (CLI) now collects pseudo-anonymous telemetry data to understand user behavior and identify areas for improvement. This means that while usage data is gathered, it&apos;s designed to protect individual user identity and privacy. The breakthrough lies in implementing a privacy-preserving telemetry system that provides valuable insights into tool usage patterns without compromising user anonymity.</description>
+      <category>Future Radar</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Ancient Tree Fossil Found Under Antarctic Ice</title>
       <link>https://surfaced-x.pages.dev/item/antarctic-ice-sheet-reveals-ancient-tree-fossil</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/antarctic-ice-sheet-reveals-ancient-tree-fossil</guid>
@@ -278,6 +358,14 @@
       <description>Smol machines are incredibly small, portable virtual machines designed for sub-second coldstarts. They allow you to package and run applications with their dependencies in a lightweight, isolated environment, ensuring consistency across different systems. This is particularly beneficial for developers needing to test or deploy applications quickly and reliably. For instance, a developer could package a web server application with its specific runtime and libraries into a smol machine to guarantee it runs identically in development, staging, and production.</description>
       <category>Hidden Gems</category>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>3.4 Million Solar Panels</title>
+      <link>https://surfaced-x.pages.dev/item/3-4m-solar-panels</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/3-4m-solar-panels</guid>
+      <description>This milestone highlights the deployment of an enormous solar farm comprising 3.4 million individual solar panels, representing a significant step in large-scale renewable energy generation. The project, spearheaded by American Solar Farms, aims to harness solar power at an industrial level, contributing substantially to the clean energy grid. It leverages advancements in photovoltaic technology and efficient land utilization for maximum energy capture.</description>
+      <category>Future Radar</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Bronze Age City Used Advanced Flood Control Systems</title>
@@ -304,108 +392,20 @@
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Making RAM at Home</title>
+      <link>https://surfaced-x.pages.dev/item/making-ram-at-home</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/making-ram-at-home</guid>
+      <description>This refers to a project that demonstrates the feasibility of constructing basic Random Access Memory (RAM) modules using accessible components and a home laboratory setup. The video showcases a step-by-step process, likely involving discrete electronic components like transistors and capacitors, to build functional memory circuits. The achievement is in demystifying and enabling DIY creation of fundamental computing hardware, even if at a rudimentary level.</description>
+      <category>Future Radar</category>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Ancient DNA Reveals Surprising European Migrations</title>
       <link>https://surfaced-x.pages.dev/item/ancient-dna-reveals-surprising-human-migration-patterns-in-europe</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-dna-reveals-surprising-human-migration-patterns-in-europe</guid>
       <description>Studies published in journals like Nature in 2018 and 2022, led by researchers such as David Reich at Harvard Medical School and Eske Willerslev at the University of Cambridge, have utilized ancient DNA to reconstruct complex human migration patterns across prehistoric Europe. These findings have revealed significant population turnovers and genetic admixtures, overturning previous assumptions about the stability of early European societies. For instance, it was discovered that the spread of farming from the Near East involved a massive influx of people, and later, the Yamnaya culture from the Pontic-Caspian steppe dramatically reshaped the genetic landscape of Europe.</description>
       <category>Discoveries</category>
       <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tobira.ai</title>
-      <link>https://surfaced-x.pages.dev/item/tobira-ai-agent-deal-finding</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tobira-ai-agent-deal-finding</guid>
-      <description>Tobira.ai is a novel network where specialized AI agents operate on behalf of their human users to discover and negotiate business deals. Each AI agent is assigned a public address within the network, allowing it to autonomously find potential founders, investors, partners, and clients by interacting with other agents. Users maintain full control over their agent&apos;s actions and negotiations, making it a secure and efficient tool for proactive business development.</description>
-      <category>Trending Products</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Readlang</title>
-      <link>https://surfaced-x.pages.dev/item/readlang-translate-text</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/readlang-translate-text</guid>
-      <description>Readlang is a browser extension that helps you learn languages by translating words and phrases directly on web pages. You can click on any word to get its translation and pronunciation, and then save these words to study later.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Venus Phosphine Signal Re-evaluation</title>
-      <link>https://surfaced-x.pages.dev/item/venus-phosphine-detection-revisited-new-analysis-shows-no-clear-signal</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/venus-phosphine-detection-revisited-new-analysis-shows-no-clear-signal</guid>
-      <description>Initial reports in 2020 by Clara Sousa-Silva, Janusz Petkowski, and colleagues suggested the detection of phosphine gas in the atmosphere of Venus, a potential biosignature. However, subsequent, more rigorous analyses published in multiple journals, including Nature Astronomy in 2021, have cast doubt on this finding. Improved data processing and alternative interpretations of the spectral signals suggest the initial detection may have been an artifact or a result of misinterpretation of sulfur dioxide. The scientific community remains divided on the certainty of life on Venus based on this evidence.</description>
-      <category>Discoveries</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Stitch 2.0 by Google</title>
-      <link>https://surfaced-x.pages.dev/item/stitch-2-by-google-ai-ui-design</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/stitch-2-by-google-ai-ui-design</guid>
-      <description>Stitch 2.0 is an AI-powered design partner from Google that streamlines UI creation. It enables designers to generate high-fidelity, production-ready user interfaces rapidly using natural language prompts, voice commands, and context-aware AI agents. Stitch is designed for teams that need to iterate quickly on visual designs, bridging the gap between concept and code, and is perfect for product teams and UI/UX designers looking for an accelerated workflow.</description>
-      <category>Trending Products</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Wayback Machine</title>
-      <link>https://surfaced-x.pages.dev/item/wayback-machine-archive</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wayback-machine-archive</guid>
-      <description>The Wayback Machine, powered by the Internet Archive, allows you to browse archived versions of websites from the past. You can see how sites looked years ago, track changes over time, and access content that may no longer be available.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ancient DNA Reveals Neanderthal and Denisovan Genes in Modern Humans</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-dna-reveals-neanderthal-and-denisovan-genes-in-modern-humans</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-dna-reveals-neanderthal-and-denisovan-genes-in-modern-humans</guid>
-      <description>Analysis of ancient human DNA, published by Svante Pääbo and his team at the Max Planck Institute for Evolutionary Anthropology, has revealed that most modern humans outside of Africa carry genetic material from Neanderthals and Denisovans. These interbreeding events occurred tens of thousands of years ago, leaving a lasting genetic legacy. This discovery fundamentally reshaped our understanding of human evolution, showing that our ancestors were not a purely Homo sapiens lineage but a mosaic of different hominin groups.</description>
-      <category>Discoveries</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Brila</title>
-      <link>https://surfaced-x.pages.dev/item/brila-one-page-websites-from-google-reviews</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/brila-one-page-websites-from-google-reviews</guid>
-      <description>Brila is a unique website generator that transforms your existing Google Maps reviews into compelling one-page websites. Instead of generic templates, Brila analyzes customer feedback to automatically populate your site with authentic testimonials and highlight what makes your business stand out. This service is ideal for small businesses or service providers looking for a quick, authentic, and effective online presence without the hassle of manual copywriting.</description>
-      <category>Trending Products</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>This is Today</title>
-      <link>https://surfaced-x.pages.dev/item/this-is-today</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/this-is-today</guid>
-      <description>A simple, minimalist website that displays the current date in a large, readable format with a brief description of the day&apos;s significance. It focuses on present moment awareness.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI-Assisted Infrastructure Exploitation</title>
-      <link>https://surfaced-x.pages.dev/item/roblox-cheat-ai-vercel-outage</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/roblox-cheat-ai-vercel-outage</guid>
-      <description>A recent incident saw Vercel&apos;s platform brought down by a combination of a Roblox cheat and an AI tool. This signifies a new frontier in cyber threats where AI is leveraged not just for defense but also for sophisticated attacks on complex infrastructure. The breakthrough is the demonstration of how AI can be used to identify and exploit vulnerabilities in ways previously unimaginable, even against robust cloud platforms.</description>
-      <category>Future Radar</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Quantum Computing Solves Complex Chemistry Problem</title>
-      <link>https://surfaced-x.pages.dev/item/quantum-computing-solves-complex-chemistry-problem</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/quantum-computing-solves-complex-chemistry-problem</guid>
-      <description>In a landmark demonstration published in *Nature* in 2023, researchers from Google AI and UC Berkeley utilized a quantum computer to simulate the electronic structure of a complex molecule with unprecedented accuracy, a task intractable for even the most powerful classical supercomputers. The simulation accurately predicted the molecule&apos;s behavior, marking a significant milestone for quantum chemistry.</description>
-      <category>Discoveries</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Samsung Galaxy Ring</title>
-      <link>https://surfaced-x.pages.dev/item/samsung-galaxy-ring</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/samsung-galaxy-ring</guid>
-      <description>Samsung&apos;s first smart ring designed to track health and wellness metrics discreetly. Monitor sleep, heart rate, and activity levels with a minimalist and comfortable wearable.</description>
-      <category>Trending Products</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>diagrams.net (formerly draw.io)</title>
-      <link>https://surfaced-x.pages.dev/item/diagrams-net</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/diagrams-net</guid>
-      <description>A free online diagramming tool that allows you to create a wide variety of diagrams, from flowcharts and mind maps to network diagrams and UML. It offers extensive customization options and integrates with cloud storage services like Google Drive and Dropbox.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

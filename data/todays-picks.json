@@ -1,10 +1,10 @@
 [
   {
-    "slug": "ancient-chinese-silk-dyeing-secrets-rediscovered",
-    "title": "Ancient Chinese Silk Dyeing Secrets",
+    "slug": "arctic-permafrost-releases-ancient-viruses-potent-threat",
+    "title": "Arctic Permafrost Releases Ancient Viruses, Potent Threat",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "A team of materials scientists and archaeologists, led by Professor Peiyuan Xu from Peking University, has successfully ",
+    "description": "In 2024, a team of French and Russian scientists, led by Dr. Jean-Michel Claverie of Aix-Marseille University, successfu",
     "badge": null,
     "type": "discovery"
   },
@@ -18,29 +18,29 @@
     "type": "product"
   },
   {
-    "slug": "john-ternus-apple-ceo",
-    "title": "John Ternus to become Apple CEO",
+    "slug": "github-cli-telemetry-collection",
+    "title": "GitHub CLI telemetry",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This news article, originating from Apple's official newsroom, announces a significant leadership transition within Appl",
+    "description": "This page details GitHub CLI's pseudoanonymous telemetry collection. It explains that the GitHub Command Line Interface ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "roblox-cheat-ai-vercel-outage",
-    "title": "AI-Assisted Infrastructure Exploitation",
+    "slug": "github-cli-telemetry",
+    "title": "GitHub CLI Telemetry Collection",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "A recent incident saw Vercel's platform brought down by a combination of a Roblox cheat and an AI tool. This signifies a",
+    "description": "The GitHub Command Line Interface (CLI) now collects pseudo-anonymous telemetry data to understand user behavior and ide",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "lingbot-map",
-    "title": "lingbot-map",
+    "slug": "huashu-design",
+    "title": "Huashu Design",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "lingbot-map is a feed-forward 3D foundation model for reconstructing scenes from streaming data. It excels at creating a",
+    "description": "Huashu Design is a revolutionary approach to creating high-fidelity prototypes, presentations, and animations directly w",
     "badge": null,
     "type": "tool"
   }

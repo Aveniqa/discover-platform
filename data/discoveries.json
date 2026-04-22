@@ -1,60 +1,5 @@
 [
   {
-    "id": 52,
-    "slug": "being-watched-makes-you-perform-better-at-simple-tasks-and-worse-at-hard-ones",
-    "title": "Being Watched Makes You Better at Simple Tasks and Worse at Hard Ones",
-    "shortDescription": "Social facilitation theory, demonstrated in hundreds of studies since the 1890s, shows that an audience improves performance on well-practiced tasks but impairs performance on complex or unfamiliar ones. The mere presence of others changes your brain chemistry.",
-    "category": "Psychology",
-    "whyItIsInteresting": "It explains why athletes perform better in stadiums but students bomb exams when anxious. Your brain releases more adrenaline when observed, which sharpens automatic skills but disrupts the careful thinking needed for novel problems.",
-    "imageIdea": "A split scene: on the left, a person confidently solving a simple puzzle in front of a crowd; on the right, the same person struggling with a complex puzzle under the same audience",
-    "sourceLink": "https://en.wikipedia.org/wiki/Social_facilitation",
-    "type": "discovery"
-  },
-  {
-    "id": 53,
-    "slug": "you-are-more-creative-when-you-are-tired",
-    "title": "You Are More Creative When You Are Tired",
-    "shortDescription": "Research published in Thinking and Reasoning found that people solve insight-based creative problems better during their non-optimal times of day. Morning people are more creative at night, and night owls are more creative in the morning.",
-    "category": "Psychology",
-    "whyItIsInteresting": "When your prefrontal cortex is tired, it loosens its filter on 'irrelevant' thoughts — which are exactly the unexpected connections that fuel creativity. Your brain's reduced focus actually allows more diverse ideas to surface and combine in novel ways.",
-    "imageIdea": "A sleepy person at a desk late at night with a chaotic but brilliant mind map of creative ideas swirling above their head",
-    "sourceLink": "https://www.smithsonianmag.com/smart-news/tired-brain-could-actually-be-more-creative-one-180954802/",
-    "type": "discovery"
-  },
-  {
-    "id": 54,
-    "slug": "the-ikea-effect-makes-you-overvalue-things-you-build-yourself",
-    "title": "The IKEA Effect Makes You Overvalue Things You Build Yourself",
-    "shortDescription": "A Harvard study found that people place disproportionately high value on products they partially created, even if the result is objectively mediocre. Participants valued their own amateur origami creations nearly as much as expert-made ones.",
-    "category": "Psychology",
-    "whyItIsInteresting": "It explains why home cooks love their own food, why managers love their own plans, and why IKEA is so successful. The labor itself creates emotional attachment, which means effort does not just produce value — it produces the illusion of extra value.",
-    "imageIdea": "A person proudly displaying a slightly crooked IKEA bookshelf with a golden trophy glow around it, while a perfect store-bought shelf sits ignored nearby",
-    "sourceLink": "https://en.wikipedia.org/wiki/IKEA_effect",
-    "type": "discovery"
-  },
-  {
-    "id": 55,
-    "slug": "there-are-more-possible-internet-addresses-in-ipv6-than-atoms-on-earth",
-    "title": "There Are More Possible Internet Addresses in IPv6 Than Atoms on Earth",
-    "shortDescription": "IPv6 supports 340 undecillion unique addresses (3.4 x 10^38). Earth contains roughly 10^50 atoms, but the number of IPv6 addresses per square meter of Earth's surface is still about 6.7 x 10^23 — Avogadro's number.",
-    "category": "Technology",
-    "whyItIsInteresting": "We could assign a unique internet address to every atom on the surface of several Earths and still not run out. IPv6 was designed to be so vast that humanity should never face address exhaustion again, even if we connect trillions of devices.",
-    "imageIdea": "A stylized globe wrapped in a dense mesh of glowing network connections, each node representing an IPv6 address, stretching far beyond the planet",
-    "sourceLink": "https://en.wikipedia.org/wiki/IPv6#Larger_address_space",
-    "type": "discovery"
-  },
-  {
-    "id": 56,
-    "slug": "the-first-computer-bug-was-an-actual-bug",
-    "title": "The First Computer Bug Was an Actual Bug",
-    "shortDescription": "In 1947, engineers working on the Harvard Mark II computer found a moth trapped in a relay, causing a malfunction. Grace Hopper taped the moth into the logbook with the note 'First actual case of bug being found,' popularizing the term 'debugging.'",
-    "category": "Technology",
-    "whyItIsInteresting": "The original logbook with the moth is preserved at the Smithsonian. While the term 'bug' was already used informally in engineering, this incident cemented it in computing vocabulary forever. Every time a programmer 'debugs' code, they reference a dead moth from 1947.",
-    "imageIdea": "A preserved moth taped to a yellowed logbook page with handwritten notes, next to vintage vacuum tube computer equipment",
-    "sourceLink": "https://americanhistory.si.edu/collections/object/nmah_334663",
-    "type": "discovery"
-  },
-  {
     "id": 57,
     "slug": "the-entire-wikipedia-database-is-only-about-22-gigabytes",
     "title": "The Entire Text of Wikipedia Is Only About 22 Gigabytes",
@@ -1289,5 +1234,61 @@
     "imageIdea": "vibrant dyed silk fabric",
     "type": "discovery",
     "dateAdded": "2026-04-21"
+  },
+  {
+    "id": 163,
+    "slug": "earths-core-rotation-might-be-slowing",
+    "title": "Earth's Core Rotation Slowing: Implications for Day Length",
+    "shortDescription": "Researchers Yi Yang and Xiaodong Song at Peking University have presented compelling evidence suggesting that the Earth's inner core's rotation might have significantly slowed down, or even paused, around 2009-2010, and may now be rotating in the opposite direction relative to the mantle. Analyzing seismic waves from repeating earthquakes over several decades, they observed distinct changes in wave travel times, pointing to a slowdown and potential reversal. This phenomenon could subtly influence the length of our days.",
+    "category": "Science",
+    "whyItIsInteresting": "The Earth's inner core, a solid ball of iron and nickel roughly the size of the Moon, is thought to spin slightly faster than the rest of the planet, driven by the geodynamo that generates our magnetic field. The idea that this super-rotation has decelerated, possibly even reversed, challenges long-held assumptions about the stable, unchanging nature of our planet's deepest interior. This shift could have subtle but significant effects on surface phenomena, including slight variations in day length and changes in the Earth's magnetic field. Scientists are now grappling with how this internal dynamism influences the planet's observable characteristics and what it means for long-term geological processes. It prompts the question: how much do the unseen movements deep within our planet truly shape our everyday experience?",
+    "imageIdea": "cutaway of earth planet layers",
+    "type": "discovery",
+    "dateAdded": "2026-04-22"
+  },
+  {
+    "id": 164,
+    "slug": "ancient-bird-fossil-reveals-unexpected-flight-mechanism",
+    "title": "Ancient Bird Fossil Reveals Unexpected Flight Mechanism",
+    "shortDescription": "A remarkably preserved fossil of *Asteriornis maastrichtensis*, a 66-million-year-old bird discovered in Belgium, has provided unprecedented insights into the evolutionary transition from non-avian dinosaurs to modern birds. Published in *Nature* in 2022 by a team led by Albert Chen and Daniel Field from the University of Cambridge, the fossil's detailed skull anatomy suggests it possessed a 'modern' jaw mechanism that allowed for more agile feeding and potentially different flight adaptations than previously thought for birds of this era, just before the K-Pg extinction event.",
+    "category": "History",
+    "whyItIsInteresting": "This fossil is extraordinary because it dates to within the last million years of the Cretaceous period, placing it at a critical juncture in avian evolution, mere moments before the asteroid impact that wiped out non-avian dinosaurs. The discovery of a bird with such advanced cranial features so early challenges the notion that modern avian traits evolved solely in the aftermath of the extinction. It suggests that many key evolutionary innovations were already in place, giving these early birds a significant advantage in surviving the cataclysm. The implications are profound: this isn't just a new species; it's a snapshot of avian lineage poised for dominance, hinting that the dinosaur extinction might have been less of a 'reset' and more of a 'great culling' for traits already being refined. It begs us to consider what other fundamental evolutionary leaps were happening unseen in the late Cretaceous.",
+    "imageIdea": "fossil bird skull detail",
+    "type": "discovery",
+    "dateAdded": "2026-04-22"
+  },
+  {
+    "id": 165,
+    "slug": "artificial-wormholes-created-in-lab-testing-einstein-theory",
+    "title": "Artificial Wormholes Created in Lab Testing Einstein Theory",
+    "shortDescription": "Physicists at the University of Maryland, led by Dr. Christopher Monroe and his team, have successfully created and manipulated what they describe as a 'traversable artificial wormhole' in a lab setting. Published in *Nature Physics* in 2022, this groundbreaking experiment used entangled quantum bits (qubits) to simulate the connection between two points in spacetime, a phenomenon theorized by Einstein but never before observed. While not a physical tunnel through space, it replicates the mathematical properties of a wormhole, allowing information to 'travel' between seemingly disconnected quantum states.",
+    "category": "Science",
+    "whyItIsInteresting": "This experiment is a significant step towards understanding the fundamental nature of spacetime and gravity. While the 'wormhole' is a quantum simulation and not a gateway for physical travel, its creation demonstrates that the bizarre mathematical constructs of general relativity can be mimicked and tested in controlled laboratory conditions. It opens avenues for exploring quantum gravity and the very fabric of the universe. The ability to manipulate entangled states in this way has potential implications for quantum computing, enabling more robust and complex information processing. The success of this simulation raises profound questions about whether the universe itself is fundamentally a quantum computation and if such 'artificial' wormholes could one day lead to genuine breakthroughs in theoretical physics and even, perhaps, interstellar travel.",
+    "imageIdea": "glowing quantum entanglement qubits",
+    "type": "discovery",
+    "dateAdded": "2026-04-22"
+  },
+  {
+    "id": 166,
+    "slug": "ancient-chinese-musical-instrument-reveals-complex-notation",
+    "title": "Ancient Chinese Musical Instrument Reveals Complex Notation",
+    "shortDescription": "The discovery of a nearly intact 2,400-year-old *se* zither in a tomb in Hubei Province, China, has provided archaeologists and musicologists with an extraordinary glimpse into ancient Chinese musical practices. Unearthed in 2020, the instrument, along with its original strings and protective casing, was accompanied by a detailed musical score inscribed onto bamboo slips. This score, analyzed by researchers including Dr. Li Yu of the Institute of Archaeology, Chinese Academy of Social Sciences, reveals a sophisticated system of musical notation far more advanced than previously assumed for the period.",
+    "category": "History",
+    "whyItIsInteresting": "This discovery is significant because it moves beyond simply finding ancient musical artifacts; it offers a direct window into the music itself. The detailed notation on the bamboo slips demonstrates a level of musical sophistication in ancient China that challenges previous understandings. It includes not just notes but indications of rhythm, tempo, and possibly even expressive nuances, suggesting a highly developed musical culture. This level of detail allows scholars to reconstruct and perform ancient melodies, offering an auditory connection to the past. It sheds light on the social and cultural importance of music in the Warring States period and raises questions about the transmission of musical knowledge and the evolution of notation systems across different civilizations. The ability to hear the echoes of music played millennia ago is a powerful testament to the enduring nature of human creativity.",
+    "imageIdea": "ancient bamboo musical score",
+    "type": "discovery",
+    "dateAdded": "2026-04-22"
+  },
+  {
+    "id": 167,
+    "slug": "arctic-permafrost-releases-ancient-viruses-potent-threat",
+    "title": "Arctic Permafrost Releases Ancient Viruses, Potent Threat",
+    "shortDescription": "In 2024, a team of French and Russian scientists, led by Dr. Jean-Michel Claverie of Aix-Marseille University, successfully revived several strains of ancient viruses that had been frozen in Siberian permafrost for tens of thousands of years. The oldest revived virus, a strain of *Pandoravirus* dating back 48,500 years, was isolated from a sample of permafrost taken from the deepest layer ever studied. This research, published in *Viruses*, highlights the potential for these 'zombie viruses' to pose a significant, albeit currently theoretical, threat to public health as global temperatures rise and thaw these ancient ice reserves.",
+    "category": "Science",
+    "whyItIsInteresting": "The thawing of Arctic permafrost, a vast expanse of permanently frozen ground, is a well-documented consequence of climate change. What is particularly alarming is the potential release of ancient pathogens that have been locked away for millennia, effectively preserved in a deep freeze. The successful revival of these viruses, including a 48,500-year-old specimen, confirms that they can retain their infectivity over immense timescales. While these particular viruses were selected for their low risk to humans and animals, the precedent is stark: larger, more dangerous pathogens could also be lurking in the thawing ice. This phenomenon raises critical questions about biosecurity and pandemic preparedness in a warming world, forcing us to consider the ancient microbial threats that might re-emerge from the Earth's frozen depths. It compels us to ask: what other unknown biological agents are waiting to be unleashed?",
+    "imageIdea": "thawing permafrost ice",
+    "sourceLink": "https://www.preprints.org/manuscript/202401/202401.0010.1",
+    "type": "discovery",
+    "dateAdded": "2026-04-22"
   }
 ]

@@ -1,59 +1,5 @@
 [
   {
-    "id": 52,
-    "slug": "sprout-social",
-    "toolName": "Sprout Social",
-    "whatItDoes": "Social media management and analytics platform with unified inbox, publishing calendar, competitor analysis, sentiment tracking, and custom reporting across all major social networks.",
-    "category": "Social Media",
-    "whyItIsUseful": "The unified smart inbox merges messages from every platform into one stream, so you never miss a customer comment. Competitor benchmarking shows exactly where you stand in your industry.",
-    "websiteLink": "https://sproutsocial.com",
-    "type": "tool",
-    "imageIdea": "social analytics engagement dashboard"
-  },
-  {
-    "id": 53,
-    "slug": "canva",
-    "toolName": "Canva",
-    "whatItDoes": "Drag-and-drop design platform with templates for social media posts, presentations, logos, and videos. Includes AI image generation, brand kits, background removal, and animation.",
-    "category": "Social Media",
-    "whyItIsUseful": "It makes professional-looking social content accessible to non-designers. The platform-specific templates ensure your posts are perfectly sized for every network without guessing dimensions.",
-    "websiteLink": "https://www.canva.com",
-    "type": "tool",
-    "imageIdea": "social media template design post"
-  },
-  {
-    "id": 54,
-    "slug": "hashtagify",
-    "toolName": "Hashtagify",
-    "whatItDoes": "Hashtag research tool that shows popularity, trends, related hashtags, and top influencers for any hashtag. Visualizes hashtag relationships and tracks performance over time.",
-    "category": "Social Media",
-    "whyItIsUseful": "Using the right hashtags can multiply reach by 10x. Hashtagify shows which tags are trending upward and which are oversaturated, so you pick the ones that actually get seen.",
-    "type": "tool",
-    "imageIdea": "hashtag research trending cloud"
-  },
-  {
-    "id": 55,
-    "slug": "later",
-    "toolName": "Later",
-    "whatItDoes": "Visual social media planner focused on Instagram, TikTok, and Pinterest. Features a drag-and-drop visual calendar, link-in-bio tool, optimal posting times, and user-generated content collection.",
-    "category": "Social Media",
-    "whyItIsUseful": "The visual calendar lets you see how your Instagram grid will look before publishing, ensuring aesthetic consistency. The Linkin.bio feature turns your feed into a mini website.",
-    "websiteLink": "https://later.com",
-    "type": "tool",
-    "imageIdea": "instagram visual planner grid preview"
-  },
-  {
-    "id": 56,
-    "slug": "claude",
-    "toolName": "Claude",
-    "whatItDoes": "AI assistant by Anthropic for thoughtful conversation, analysis, writing, coding, math, and research. Known for nuanced reasoning, following complex instructions, and being transparent about its limitations.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It excels at tasks requiring careful reasoning and long-context understanding. The ability to work with documents up to 200K tokens makes it ideal for analyzing lengthy reports, codebases, and research papers.",
-    "websiteLink": "https://claude.ai",
-    "type": "tool",
-    "imageIdea": "ai assistant conversation thoughtful analysis"
-  },
-  {
     "id": 57,
     "slug": "midjourney",
     "toolName": "Midjourney",
@@ -1000,5 +946,17 @@
     "websiteLink": "https://github.com/Robbyant/lingbot-map",
     "type": "tool",
     "dateAdded": "2026-04-20"
+  },
+  {
+    "id": 146,
+    "slug": "huashu-design",
+    "toolName": "Huashu Design",
+    "whatItDoes": "Huashu Design is a revolutionary approach to creating high-fidelity prototypes, presentations, and animations directly within Claude Code, leveraging HTML as its native design language. It empowers users to build complex visual elements, design systems, and even interactive animations with a focus on design philosophy and review processes. The tool offers features like 5-dimensional reviews and MP4 export, and importantly, it is agent-agnostic, meaning it's not tied to a specific AI assistant. It operates on a free and open-source model.",
+    "category": "Design",
+    "whyItIsUseful": "This tool is a game-changer for designers and developers looking to bridge the gap between ideation and execution, especially when working with AI coding assistants. By treating HTML as a first-class design citizen, Huashu Design allows for incredibly precise and interactive mockups that are closer to production-ready code. Its emphasis on design philosophy and structured review processes elevates the collaborative aspect of design. For anyone who needs to rapidly iterate on UI/UX, create dynamic presentations, or simply visualize complex ideas before coding, Huashu Design offers an unparalleled workflow. It’s particularly beneficial for those working with AI to generate code, ensuring the visual output aligns perfectly with functional requirements. The agent-agnostic nature makes it highly versatile.",
+    "imageIdea": "html code building a sleek digital interface",
+    "websiteLink": "https://github.com/alchaincyf/huashu-design",
+    "type": "tool",
+    "dateAdded": "2026-04-22"
   }
 ]

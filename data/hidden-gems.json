@@ -1,65 +1,5 @@
 [
   {
-    "id": 55,
-    "slug": "have-i-been-pwned",
-    "name": "Have I Been Pwned",
-    "whatItDoes": "A free service that checks whether your email address or phone number has appeared in known data breaches. It aggregates billions of leaked records and lets you set up alerts for future breaches.",
-    "category": "Privacy & Security",
-    "whyItIsUseful": "It provides an immediate, actionable answer to whether your accounts may be compromised. The notification feature means you learn about breaches quickly enough to change passwords before damage is done.",
-    "websiteLink": "https://haveibeenpwned.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhaveibeenpwned.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "data breach email security alert"
-  },
-  {
-    "id": 56,
-    "slug": "insight-timer",
-    "name": "Insight Timer",
-    "whatItDoes": "A meditation and sleep app with over 200,000 free guided meditations, music tracks, and talks from mindfulness teachers worldwide. It includes a customizable timer for unguided practice.",
-    "category": "Health & Wellness",
-    "whyItIsUseful": "It offers a vastly larger free library than Headspace or Calm without pushing a premium subscription. The community features and live events create accountability that solo meditation apps lack.",
-    "websiteLink": "https://insighttimer.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Finsighttimer.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "meditation timer singing bowl peaceful"
-  },
-  {
-    "id": 58,
-    "slug": "woebot",
-    "name": "Woebot",
-    "whatItDoes": "An AI-powered mental health chatbot grounded in cognitive behavioral therapy principles. It guides users through mood tracking, thought reframing, and therapeutic exercises via conversational interaction.",
-    "category": "Health & Wellness",
-    "whyItIsUseful": "It provides immediate, judgment-free mental health support at any hour without waitlists or cost barriers. The CBT-based techniques offer genuine therapeutic value between professional therapy sessions.",
-    "websiteLink": "https://woebothealth.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwoebothealth.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "mental health chatbot therapy conversation"
-  },
-  {
-    "id": 59,
-    "slug": "wger",
-    "name": "wger",
-    "whatItDoes": "An open-source fitness tracker and workout manager that lets you create routines, log exercises, and track body measurements. It includes a built-in exercise database with images and nutritional tracking.",
-    "category": "Health & Wellness",
-    "whyItIsUseful": "It provides a no-cost, self-hostable alternative to paid workout apps with no ads or upsells. The open API means developers can build custom integrations with wearables and other health tools.",
-    "websiteLink": "https://wger.de",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwger.de&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "workout tracker exercise log fitness gym"
-  },
-  {
-    "id": 60,
-    "slug": "sleeptown",
-    "name": "SleepTown",
-    "whatItDoes": "A gamified sleep habit app where you plant a virtual building at bedtime and it grows overnight if you do not use your phone. Consistent sleep schedules build a virtual town over time.",
-    "category": "Health & Wellness",
-    "whyItIsUseful": "It turns the abstract goal of better sleep hygiene into a tangible, visual reward system. The gentle accountability of not wanting to destroy your building is surprisingly effective at reducing late-night phone use.",
-    "websiteLink": "https://sleeptown.seekrtech.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsleeptown.seekrtech.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "sleep tracking bedtime building night"
-  },
-  {
     "id": 61,
     "slug": "lobsters",
     "name": "Lobsters",
@@ -1217,5 +1157,57 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-21",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.apple.com%2Fnewsroom%2F2026%2F04%2Ftim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 171,
+    "slug": "vidstudio-browser-video-editor",
+    "name": "VidStudio",
+    "whatItDoes": "VidStudio is a powerful, browser-based video editor designed for users who want to create and edit videos without the hassle of uploading large files. It leverages WebAssembly and client-side processing to offer a smooth editing experience directly within your web browser. This means your raw footage stays on your device, enhancing privacy and speed for edits. It's ideal for quick social media video cuts, simple tutorial creation, or trimming existing footage without requiring desktop software.",
+    "category": "Productivity",
+    "whyItIsUseful": "This tool is a hidden gem because it elegantly sidesteps the common bottleneck of uploading large video files for editing. For creators who value privacy or have limited bandwidth, VidStudio offers a compelling alternative to cloud-dependent editors. Its browser-native approach ensures it's accessible from any device with a modern browser, and the performance for many common editing tasks is surprisingly robust. Power users appreciate the ability to perform edits quickly without waiting for uploads, making it perfect for rapid content iteration or for those working on less powerful machines.",
+    "imageIdea": "modern web browser window with video timeline interface",
+    "websiteLink": "https://vidstudio.app/video-editor",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-22",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fvidstudio.app%2Fvideo-editor&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 172,
+    "slug": "windows-9x-subsystem-for-linux",
+    "name": "Windows 9x Subsystem for Linux",
+    "whatItDoes": "This project aims to bring the functionality of a Linux subsystem to the classic Windows 9x operating system. It allows users to run Linux command-line tools and potentially even graphical applications within a Windows 95/98 environment. The goal is to bridge the gap between legacy Windows systems and modern open-source software, enabling users to access a wider range of utilities and development tools on older hardware. It's particularly interesting for retro computing enthusiasts and those exploring historical operating system capabilities.",
+    "category": "Developer",
+    "whyItIsUseful": "This is an incredibly niche but fascinating project that appeals to a very specific but dedicated audience. It's useful for retro-computing enthusiasts who want to run modern-ish command-line tools on their vintage Windows machines without resorting to complex dual-boot setups or virtual machines. The utility lies in its ability to breathe new life into old hardware by providing access to a familiar Linux environment. For developers or tinkerers working with legacy systems, it opens up new possibilities for testing or development workflows that would otherwise be impossible.",
+    "imageIdea": "pixelated Windows 95 desktop with a Linux terminal window overlay",
+    "websiteLink": "https://social.hails.org/@hailey/116446826733136456",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-22",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsocial.hails.org%2F%40hailey%2F116446826733136456&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 173,
+    "slug": "go-model-open-source-ai-gateway",
+    "name": "GoModel",
+    "whatItDoes": "GoModel is an open-source AI gateway built in Go, designed to simplify the integration and management of various AI models. It acts as a unified interface for different AI services and models, allowing developers to interact with them through a consistent API. This means you can switch between different AI providers or models without rewriting significant parts of your application. It's particularly useful for backend developers building applications that rely on machine learning capabilities, aiming to reduce complexity and accelerate development.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is a less-discussed but highly practical solution for managing AI integrations. In the rapidly evolving AI landscape, developers often face the challenge of integrating with multiple, disparate AI services. GoModel provides a much-needed abstraction layer, promoting flexibility and future-proofing applications. Its Go implementation suggests a focus on performance and concurrency, which is crucial for AI-driven services. Developers who need to experiment with or switch between different LLMs, image generation models, or other AI functionalities will find immense value in its streamlined approach.",
+    "imageIdea": "network diagram showing multiple AI models connecting to a central gateway",
+    "websiteLink": "https://github.com/ENTERPILOT/GOModel/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-22",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2FENTERPILOT%2FGOModel%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 174,
+    "slug": "github-cli-telemetry-collection",
+    "name": "GitHub CLI telemetry",
+    "whatItDoes": "This page details GitHub CLI's pseudoanonymous telemetry collection. It explains that the GitHub Command Line Interface (CLI) now gathers opt-in, anonymized data about how users interact with the tool. This telemetry includes information like command usage, errors encountered, and system configuration. The purpose is to help the GitHub team understand user behavior, identify areas for improvement, and prioritize feature development for the CLI. Users can review the data collected and manage their participation.",
+    "category": "Developer",
+    "whyItIsUseful": "While many tools collect telemetry, the transparency and opt-in nature of GitHub CLI's approach make it a noteworthy mention. It’s a helpful resource for developers who use the GitHub CLI extensively and are curious about or concerned with data collection practices. Understanding what data is being collected and why can build trust and allows users to make informed decisions about their privacy. This is especially useful for organizations with strict data policies or individual developers who value transparency in the tools they use daily for their development workflows.",
+    "imageIdea": "stylized bar graph with lines representing anonymous user activity",
+    "websiteLink": "https://cli.github.com/telemetry",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-22",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcli.github.com%2Ftelemetry&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]
