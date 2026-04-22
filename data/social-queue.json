@@ -867,7 +867,100 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "send-tresorit",
+      "title": "Tresorit Send",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/5052333/pexels-photo-5052333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Tresorit Send",
+      "productUrl": "https://surfaced-x.pages.dev/item/send-tresorit?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/send-tresorit?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Tresorit Send",
+          "description": " https://surfaced-x.pages.dev/item/send-tresorit?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Tresorit Send — An end-to-end encrypted file sharing service that lets you send files up to 5 GB with no account required. Links can be password-protected and set to expire automatically.\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/send-tresorit?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-22T16:19:25.979Z",
+      "publishedAt": "2026-04-22T16:19:27.918Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "openclaw-local-ai-agent",
+      "title": "openclaw-local-ai-agent",
+      "category": "future-radar",
+      "imageUrl": "https://images.pexels.com/photos/30530416/pexels-photo-30530416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "A computer screen displaying abstract AI neural network graphics.",
+      "productUrl": "https://surfaced-x.pages.dev/item/openclaw-local-ai-agent?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/openclaw-local-ai-agent?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "OpenAI on your machine? Local AI Agent is here.",
+          "description": "Imagine running powerful AI models directly on your computer, no cloud needed. Open-claw is a local AI agent that promises just that. It's still early days and might not handle *everything* just yet, but the potential for privacy and offline use is huge. Definitely one to watch if you're curious about the future of AI. #AI #LocalAI #Tech #FutureTech",
+          "boardName": "Future Tech"
+        },
+        "bluesky": {
+          "text": "Finally, an AI agent that runs locally! No more sending your data to the cloud. Open-claw is bringing powerful AI processing right to your own machine. It's not perfect yet, but the privacy and offline capabilities are a game-changer.\n\n#futuretech #innovation"
+        },
+        "twitter": {
+          "text": "Running AI locally just got a lot more interesting. Open-claw is a new local AI agent aiming to bring powerful models to your own hardware, no cloud required. Still has some rough edges, but the privacy implications are massive. Check it out: https://surfaced-x.pages.dev/item/openclaw-local-ai-agent?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-22T16:19:25.979Z",
+      "publishedAt": "2026-04-22T16:20:20.652Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "spacedrive",
+      "title": "Spacedrive",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/2123667/pexels-photo-2123667.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Spacedrive",
+      "productUrl": "https://surfaced-x.pages.dev/item/spacedrive?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/spacedrive?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Spacedrive",
+          "description": " https://surfaced-x.pages.dev/item/spacedrive?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Spacedrive — An open-source, cross-platform file manager that unifies files from local drives, cloud services, and network storage into one interface. It creates a virtual distributed filesystem across all your de\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/spacedrive?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-22T16:19:25.979Z",
+      "publishedAt": "2026-04-22T16:21:16.626Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-21T16:38:24.836Z"
+  "lastGenerated": "2026-04-22T16:19:25.979Z"
 }
