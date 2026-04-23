@@ -43,6 +43,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Surfaced",
     locale: "en_US",
+    images: [{ url: "https://surfaced-x.pages.dev/og/category-home.png", width: 1200, height: 630, alt: "Surfaced — Daily Discovery Engine" }],
   },
   twitter: {
     card: "summary_large_image",
@@ -50,6 +51,7 @@ export const metadata: Metadata = {
     description:
       "Fascinating discoveries, trending products, hidden gems, and future technology — curated daily.",
     creator: "@xSurfaced",
+    images: ["https://surfaced-x.pages.dev/og/category-home.png"],
   },
   verification: {
     google: "6WKQAe4TdWU2yAH-KF_Sivy8NZgZOvxyhHvdDd2bRTQ",

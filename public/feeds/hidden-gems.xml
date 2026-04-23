@@ -5,7 +5,7 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Lesser-known web tools and sites — updated daily.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Apr 2026 23:32:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 23:27:28 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feeds/hidden-gems.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Claude Design</title>
@@ -88,22 +88,6 @@
       <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Runebender 3D</title>
-      <link>https://surfaced-x.pages.dev/item/runebender-3d</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/runebender-3d</guid>
-      <description>Runebender 3D is a free, browser-based 3D modeling and sculpting tool. It&apos;s designed to be accessible and intuitive, allowing users to create and manipulate 3D models directly in their web browser without needing to download complex software.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Simul.Writing</title>
-      <link>https://surfaced-x.pages.dev/item/simul-writing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/simul-writing</guid>
-      <description>Simul.Writing is a collaborative real-time writing tool that allows multiple users to edit a document simultaneously. It offers robust version control and comment features, similar to Google Docs but with a minimalist and focused interface.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Coolors.co</title>
       <link>https://surfaced-x.pages.dev/item/color-harmony-tool</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/color-harmony-tool</guid>
@@ -116,22 +100,6 @@
       <link>https://surfaced-x.pages.dev/item/zen-tab</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zen-tab</guid>
       <description>ZenTab is a browser extension that allows you to manage your open tabs by grouping them into &apos;Zen Modes&apos;. You can create custom modes for different tasks or contexts, helping to declutter your browsing experience.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Typograph</title>
-      <link>https://surfaced-x.pages.dev/item/typograph-checker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typograph-checker</guid>
-      <description>Typograph is a web-based tool that helps you identify and fix common typography and punctuation errors in your text. It goes beyond simple spell-checking to ensure your writing adheres to typographical best practices.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Use Word Count</title>
-      <link>https://surfaced-x.pages.dev/item/use-word-count</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/use-word-count</guid>
-      <description>Use Word Count is a straightforward online tool that provides real-time word and character counts for your text. It also offers basic text analysis like sentence and paragraph counts.</description>
       <category>Hidden Gems</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
     </item>
@@ -244,14 +212,6 @@
       <link>https://surfaced-x.pages.dev/item/lunchmoney</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lunchmoney</guid>
       <description>Lunchmoney is an intuitive, web-based budgeting and expense tracking tool. It offers automatic transaction importing from banks, custom categories, and a clear overview of your finances.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Flowstate</title>
-      <link>https://surfaced-x.pages.dev/item/flowstate</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/flowstate</guid>
-      <description>Flowstate is a minimalist writing app designed to eliminate writer&apos;s block and procrastination. You set a timer and start typing; if you stop typing for more than a few seconds, all your progress is instantly deleted, forcing continuous engagement.</description>
       <category>Hidden Gems</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
     </item>
@@ -406,6 +366,46 @@
       <description>Workflowy is an online outliner tool that allows users to organize their thoughts, notes, and tasks in a hierarchical, bulleted list format. It&apos;s designed for extreme simplicity, letting you zoom in and out of any bullet point to focus on details or see the big picture.</description>
       <category>Hidden Gems</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Perplexity AI</title>
+      <link>https://surfaced-x.pages.dev/item/perplexity-ai</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/perplexity-ai</guid>
+      <description>Perplexity AI is an AI-powered conversational search engine that provides direct answers to your questions, complete with sources. Instead of just listing links, it synthesizes information from various web sources and presents it in a coherent, summarized format, making it easier to understand complex topics and verify information.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Freedom</title>
+      <link>https://surfaced-x.pages.dev/item/freedom</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/freedom</guid>
+      <description>Freedom is a website and application blocker designed to help you focus and improve your productivity. It allows you to block distracting websites and apps across all your devices for scheduled sessions. You can customize your blocklists and choose when to enable your focus time.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Text Blaze</title>
+      <link>https://surfaced-x.pages.dev/item/text-blaze</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/text-blaze</guid>
+      <description>Text Blaze is a powerful Chrome extension that allows users to save time by automating repetitive typing tasks. It lets you create custom snippets and templates that can be inserted anywhere with a simple shortcut.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CodeSandbox</title>
+      <link>https://surfaced-x.pages.dev/item/codesandbox</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/codesandbox</guid>
+      <description>CodeSandbox is an online IDE and prototyping tool for web development. It allows users to quickly create and share web projects, with live reloading and integrated development tools, all within a browser.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Readwise Reader</title>
+      <link>https://surfaced-x.pages.dev/item/readwise-reader</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/readwise-reader</guid>
+      <description>Readwise Reader is an all-in-one &apos;read-it-later&apos; application designed to help you read and annotate articles, PDFs, and newsletters more effectively. It integrates seamlessly with Readwise for spaced repetition of your highlights.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

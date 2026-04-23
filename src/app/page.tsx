@@ -190,24 +190,24 @@ export default function HomePage() {
           </div>
           <p className="text-xs text-muted-foreground text-center mb-6">Join free — no spam, unsubscribe anytime</p>
 
-          <div className="flex items-center justify-center gap-6 sm:gap-10 pt-5 border-t border-border/50">
-            <div className="text-center">
+          <div className="flex items-center justify-center gap-4 sm:gap-10 pt-5 border-t border-border/50">
+            <div className="text-center min-w-0">
               <p className="text-2xl font-bold tabular-nums">
                 <AnimatedCounter value={totalItems} suffix="+" />
               </p>
-              <p className="text-xs text-muted-foreground">Hand-picked finds</p>
+              <p className="text-[11px] sm:text-xs text-muted-foreground whitespace-nowrap">Hand-picked finds</p>
             </div>
-            <div className="text-center">
+            <div className="text-center min-w-0">
               <p className="text-2xl font-bold tabular-nums">
                 <AnimatedCounter value={topicCount} suffix="+" />
               </p>
-              <p className="text-xs text-muted-foreground">Topics covered</p>
+              <p className="text-[11px] sm:text-xs text-muted-foreground whitespace-nowrap">Topics covered</p>
             </div>
-            <div className="text-center">
+            <div className="text-center min-w-0">
               <p className="text-2xl font-bold tabular-nums">
                 <AnimatedCounter value={7} />
               </p>
-              <p className="text-xs text-muted-foreground">Days a week</p>
+              <p className="text-[11px] sm:text-xs text-muted-foreground whitespace-nowrap">Days a week</p>
             </div>
           </div>
         </div>

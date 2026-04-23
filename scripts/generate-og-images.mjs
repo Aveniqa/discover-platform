@@ -34,6 +34,52 @@ const FILES = [
 
 const BRAND_PURPLE = "#A855F7";
 
+// Category-level OG image definitions
+const CATEGORY_OGS = [
+  {
+    slug: "category-home",
+    label: "Daily Discovery Engine",
+    sub: "Curated finds — refreshed every morning",
+    color1: "#A855F7",
+    color2: "#22D3EE",
+  },
+  {
+    slug: "category-discover",
+    label: "Today's Discoveries",
+    sub: "Breakthroughs, science & things you didn't know",
+    color1: "#6366F1",
+    color2: "#A855F7",
+  },
+  {
+    slug: "category-trending",
+    label: "Trending Products",
+    sub: "The best gear, gadgets & products worth buying",
+    color1: "#10B981",
+    color2: "#06B6D4",
+  },
+  {
+    slug: "category-hidden-gems",
+    label: "Hidden Gems",
+    sub: "Under-the-radar tools most people don't know",
+    color1: "#FBBF24",
+    color2: "#F59E0B",
+  },
+  {
+    slug: "category-future-radar",
+    label: "Future Radar",
+    sub: "Emerging tech that will change everything",
+    color1: "#22D3EE",
+    color2: "#6366F1",
+  },
+  {
+    slug: "category-tools",
+    label: "Daily Tools",
+    sub: "Apps & utilities for everyday use",
+    color1: "#FB7185",
+    color2: "#F43F5E",
+  },
+];
+
 function loadAllItems() {
   const out = [];
   for (const f of FILES) {
@@ -131,13 +177,84 @@ async function generate(slug, title, category, imageUrl, force = false) {
   }
 }
 
+function makeCategoryOgSvg({ label, sub, color1, color2 }) {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="blob1" cx="25%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="${color1}" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="${color1}" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="${color2}" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="${color2}" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stripe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="${color1}"/>
+      <stop offset="100%" stop-color="${color2}"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#08080C"/>
+  <!-- Gradient blobs -->
+  <rect width="1200" height="630" fill="url(#blob1)"/>
+  <rect width="1200" height="630" fill="url(#blob2)"/>
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="5" fill="url(#stripe)"/>
+  <!-- Subtle grid dots -->
+  <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="20" cy="20" r="1" fill="#ffffff" fill-opacity="0.04"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <!-- Decorative accent: three gradient bars -->
+  <rect x="60" y="180" width="80" height="12" rx="6" fill="url(#stripe)" fill-opacity="0.9"/>
+  <rect x="60" y="202" width="52" height="12" rx="6" fill="url(#stripe)" fill-opacity="0.6"/>
+  <rect x="60" y="224" width="28" height="12" rx="6" fill="url(#stripe)" fill-opacity="0.35"/>
+  <!-- Content -->
+  <g font-family="Inter, system-ui, -apple-system, sans-serif">
+    <!-- Surfaced wordmark -->
+    <text x="60" y="72" font-size="22" font-weight="700" fill="${color1}" letter-spacing="5">SURFACED</text>
+    <!-- Divider -->
+    <rect x="60" y="88" width="48" height="2" fill="${color1}" fill-opacity="0.5" rx="1"/>
+    <!-- Category label -->
+    <text x="60" y="340" font-size="64" font-weight="800" fill="#F2F2F7" letter-spacing="-1">${escapeXml(label)}</text>
+    <!-- Sub-label -->
+    <text x="60" y="400" font-size="26" font-weight="400" fill="#8E8EA0">${escapeXml(sub)}</text>
+    <!-- Bottom tag -->
+    <text x="60" y="575" font-size="16" font-weight="600" fill="${color1}" fill-opacity="0.8" letter-spacing="3">SURFACED.DAILY — UPDATED EVERY MORNING</text>
+  </g>
+</svg>`;
+}
+
+async function generateCategoryOgs(force = false) {
+  const CATEGORY_SLUGS = new Set(CATEGORY_OGS.map((c) => c.slug));
+  let generated = 0;
+  for (const cat of CATEGORY_OGS) {
+    const outPath = path.join(OUT_DIR, `${cat.slug}.png`);
+    if (!force) {
+      try { await fs.access(outPath); continue; } catch { /* generate */ }
+    }
+    const svg = Buffer.from(makeCategoryOgSvg(cat));
+    await sharp(svg).png({ quality: 85 }).toFile(outPath);
+    generated++;
+    console.log(`  🎨 category OG: ${cat.slug}`);
+  }
+  if (generated === 0) console.log("  ↪ all category OGs cached");
+  return CATEGORY_SLUGS;
+}
+
 async function main() {
   const force = process.argv.includes("--force");
   await fs.mkdir(OUT_DIR, { recursive: true });
 
+  // Generate category-level OG images first
+  console.log("📐 Generating category OG images...");
+  const categorySlugs = await generateCategoryOgs(force);
+
   const cache = JSON.parse(await fs.readFile(CACHE_FILE, "utf8"));
   const items = loadAllItems();
-  const activeSlugs = new Set(items.map((i) => i.slug));
+  // Protect both item slugs and category slugs from orphan cleanup
+  const activeSlugs = new Set([...items.map((i) => i.slug), ...categorySlugs]);
 
   const pending = items.filter((i) => cache[i.slug] && i.title);
   console.log(`🎨 OG images — ${pending.length} candidates (force=${force})`);

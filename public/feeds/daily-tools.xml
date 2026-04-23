@@ -5,7 +5,7 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Everyday apps and tools that make life better — updated daily.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Apr 2026 23:32:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 23:27:28 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feeds/daily-tools.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stitch 2.0 by Google</title>
@@ -384,14 +384,6 @@
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Personal Capital (now Empower)</title>
-      <link>https://surfaced-x.pages.dev/item/personal-capital</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/personal-capital</guid>
-      <description>Personal Capital, now integrated with Empower, is a comprehensive financial dashboard that aggregates all of a user&apos;s financial accounts, including bank accounts, credit cards, investments, and loans, into a single platform. It offers tools for net worth tracking, budgeting, and investment analysis.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Squoosh</title>
       <link>https://surfaced-x.pages.dev/item/squoosh</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/squoosh</guid>
@@ -404,6 +396,14 @@
       <link>https://surfaced-x.pages.dev/item/forest</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/forest</guid>
       <description>Forest is a mobile and browser app that helps users stay focused by gamifying productivity. When you start a focus session, a virtual tree begins to grow. If you leave the app to check other sites or apps, your tree withers and dies.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bear App</title>
+      <link>https://surfaced-x.pages.dev/item/bear-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bear-app</guid>
+      <description>Bear App is a flexible writing application designed for notes, prose, code snippets, and more, available for Apple devices. It utilizes Markdown for quick formatting, organizes content with nested hashtags, and offers powerful search capabilities along with various export options.</description>
       <category>Daily Tools</category>
       <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
     </item>

@@ -14,12 +14,14 @@ export const metadata: Metadata = {
       "135 curated products across tech, home, fitness, and outdoors — hand-picked with honest reviews.",
     url: "https://surfaced-x.pages.dev/trending",
     type: "website",
+    images: [{ url: "https://surfaced-x.pages.dev/og/category-trending.png", width: 1200, height: 630, alt: "Trending Products — Surfaced" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Trending Products Worth Buying",
     description:
       "Curated products across tech, home, fitness, and outdoors — with honest reviews and prices.",
+    images: ["https://surfaced-x.pages.dev/og/category-trending.png"],
   },
 };
 

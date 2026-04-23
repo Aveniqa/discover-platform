@@ -95,7 +95,7 @@ export default function TrendingPage() {
         pagePath="/trending"
       />
       {/* ── Hero ──────────────────────────────────────────── */}
-      <section className="relative py-24 sm:py-32 overflow-hidden">
+      <section className="relative py-14 sm:py-24 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-24 right-1/3 w-[440px] h-[440px] rounded-full bg-emerald-500/8 blur-[120px]" />
           <div className="absolute top-32 left-1/4 w-[360px] h-[360px] rounded-full bg-emerald-500/6 blur-[100px]" />

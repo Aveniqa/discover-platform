@@ -56,7 +56,7 @@ export default function DiscoverPage() {
         pagePath="/discover"
       />
       {/* ── Hero ──────────────────────────────────────────── */}
-      <section className="relative py-24 sm:py-32 overflow-hidden">
+      <section className="relative py-14 sm:py-24 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-32 left-1/4 w-[480px] h-[480px] rounded-full bg-indigo-500/8 blur-[120px]" />
           <div className="absolute top-20 right-1/4 w-[360px] h-[360px] rounded-full bg-cyan-500/6 blur-[100px]" />

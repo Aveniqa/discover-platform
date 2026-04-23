@@ -57,7 +57,7 @@ export default function ToolsPage() {
         pagePath="/tools"
       />
       {/* ── Hero ──────────────────────────────────────────── */}
-      <section className="relative py-24 sm:py-32 overflow-hidden">
+      <section className="relative py-14 sm:py-24 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-28 right-1/3 w-[460px] h-[460px] rounded-full bg-rose-500/8 blur-[120px]" />
           <div className="absolute top-36 left-1/4 w-[320px] h-[320px] rounded-full bg-rose-500/6 blur-[100px]" />

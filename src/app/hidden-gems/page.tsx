@@ -57,7 +57,7 @@ export default function HiddenGemsPage() {
         pagePath="/hidden-gems"
       />
       {/* ── Hero ──────────────────────────────────────────── */}
-      <section className="relative py-24 sm:py-32 overflow-hidden">
+      <section className="relative py-14 sm:py-24 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-28 left-1/3 w-[500px] h-[500px] rounded-full bg-amber-500/8 blur-[120px]" />
           <div className="absolute top-40 right-1/4 w-[340px] h-[340px] rounded-full bg-amber-500/6 blur-[100px]" />

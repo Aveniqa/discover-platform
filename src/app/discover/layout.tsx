@@ -14,12 +14,14 @@ export const metadata: Metadata = {
       "Explore 120+ incredible discoveries, from forgotten history to bizarre science. Updated daily.",
     url: "https://surfaced-x.pages.dev/discover",
     type: "website",
+    images: [{ url: "https://surfaced-x.pages.dev/og/category-discover.png", width: 1200, height: 630, alt: "Today's Discoveries — Surfaced" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Fascinating Discoveries",
     description:
       "Mind-blowing facts, forgotten history, and bizarre science — updated daily.",
+    images: ["https://surfaced-x.pages.dev/og/category-discover.png"],
   },
 };
 
