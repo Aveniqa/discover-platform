@@ -26,8 +26,8 @@ export function BookmarkButton({ slug, size = "sm" }: { slug: string; size?: "sm
       onClick={handleClick}
       className={`${sizes} rounded-lg flex items-center justify-center transition-all duration-200 cursor-pointer ${
         saved
-          ? "bg-rose-500/20 text-rose-400 border border-rose-500/30 shadow-[0_0_12px_rgba(251,113,133,0.12)]"
-          : "bg-surface-elevated/60 text-muted-foreground border border-border hover:text-rose-400 hover:border-rose-500/25"
+          ? "bg-rose-500/20 text-rose-400 light:bg-rose-500/12 light:text-rose-600 border border-rose-500/30 light:border-rose-500/25 shadow-[0_0_12px_rgba(251,113,133,0.12)]"
+          : "bg-surface-elevated/60 text-muted-foreground border border-border hover:text-rose-400 light:hover:text-rose-600 hover:border-rose-500/25"
       }`}
       aria-label={saved ? "Remove bookmark" : "Bookmark"}
       title={saved ? "Remove bookmark" : "Save for later"}

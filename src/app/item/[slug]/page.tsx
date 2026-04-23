@@ -164,7 +164,7 @@ function DevelopmentStageBar({ currentStage }: { currentStage: string }) {
         {/* Filled line */}
         {activeIdx >= 0 && (
           <div
-            className="absolute top-1/2 -translate-y-1/2 h-0.5 bg-cyan-400 transition-all"
+            className="absolute top-1/2 -translate-y-1/2 h-0.5 bg-cyan-400 light:bg-cyan-600 transition-all"
             style={{ width: `${(activeIdx / (FUTURE_TECH_STAGES.length - 1)) * 100}%` }}
           />
         )}
@@ -177,9 +177,9 @@ function DevelopmentStageBar({ currentStage }: { currentStage: string }) {
               <div
                 className={`w-4 h-4 rounded-full border-2 transition-all ${
                   isCurrent
-                    ? "bg-cyan-400 border-cyan-400 ring-4 ring-cyan-400/20"
+                    ? "bg-cyan-400 border-cyan-400 ring-4 ring-cyan-400/20 light:bg-cyan-600 light:border-cyan-600 light:ring-cyan-600/20"
                     : isActive
-                    ? "bg-cyan-400 border-cyan-400"
+                    ? "bg-cyan-400 border-cyan-400 light:bg-cyan-600 light:border-cyan-600"
                     : "bg-surface border-border"
                 }`}
               />
@@ -574,7 +574,7 @@ export default async function ItemPage({ params }: Props) {
 
                 {/* Affiliate disclosure */}
                 {isAffiliate && (
-                  <p className="text-xs text-white/60 mt-3">
+                  <p className="text-xs text-muted-foreground/70 mt-3">
                     Some links may earn Surfaced a small commission — at no extra cost to you.{" "}
                     <Link href="/affiliate-disclosure" className="text-accent/60 hover:text-accent transition-colors underline underline-offset-2">
                       Learn more

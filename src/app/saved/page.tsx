@@ -80,7 +80,7 @@ export default function SavedPage() {
           >
             {copied ? (
               <>
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-emerald-400">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-emerald-400 light:text-emerald-600">
                   <path d="M3 8.5l3 3 7-7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
                 Copied!

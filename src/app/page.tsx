@@ -338,10 +338,10 @@ export default function HomePage() {
               };
               const badgeColors: Record<string, string> = {
                 indigo: "bg-indigo-500/15 text-indigo-300 border-indigo-400/25 light:bg-indigo-500/12 light:text-indigo-700 light:border-indigo-600/30",
-                emerald: "bg-emerald-500/15 text-emerald-300 border-emerald-400/25",
-                amber: "bg-amber-500/15 text-amber-300 border-amber-400/25",
-                cyan: "bg-cyan-500/15 text-cyan-300 border-cyan-400/25",
-                rose: "bg-rose-500/15 text-rose-300 border-rose-400/25",
+                emerald: "bg-emerald-500/15 text-emerald-300 border-emerald-400/25 light:bg-emerald-500/12 light:text-emerald-700 light:border-emerald-600/30",
+                amber: "bg-amber-500/15 text-amber-300 border-amber-400/25 light:bg-amber-500/15 light:text-amber-700 light:border-amber-600/35",
+                cyan: "bg-cyan-500/15 text-cyan-300 border-cyan-400/25 light:bg-cyan-500/12 light:text-cyan-700 light:border-cyan-600/30",
+                rose: "bg-rose-500/15 text-rose-300 border-rose-400/25 light:bg-rose-500/12 light:text-rose-700 light:border-rose-600/30",
               };
               const color = colorMap[pick.type] || "indigo";
               const fullItem = getAllItems().find(i => i.slug === pick.slug);

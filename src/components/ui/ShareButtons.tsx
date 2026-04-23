@@ -96,7 +96,7 @@ export function ShareButtons({ title, slug, compact }: ShareButtonsProps) {
         </a>
         <button onClick={handleCopyLink} className={compactBtnClass} aria-label="Copy link" title="Copy link">
           {copied ? (
-            <span className="text-emerald-400 text-xs">✓</span>
+            <span className="text-emerald-400 light:text-emerald-600 text-xs">✓</span>
           ) : (
             <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
@@ -135,7 +135,7 @@ export function ShareButtons({ title, slug, compact }: ShareButtonsProps) {
         data-share-action="social-copy"
         data-share-slug={slug}
       >
-        {socialCopied ? <span className="text-emerald-400 text-xs">✓</span> : <span className="text-sm">📱</span>}
+        {socialCopied ? <span className="text-emerald-400 light:text-emerald-600 text-xs">✓</span> : <span className="text-sm">📱</span>}
       </button>
 
       {/* Copy link */}
@@ -148,7 +148,7 @@ export function ShareButtons({ title, slug, compact }: ShareButtonsProps) {
         data-share-slug={slug}
       >
         {copied ? (
-          <span className="text-emerald-400 text-xs">✓</span>
+          <span className="text-emerald-400 light:text-emerald-600 text-xs">✓</span>
         ) : (
           <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />

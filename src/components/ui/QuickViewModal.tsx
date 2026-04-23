@@ -96,7 +96,7 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
 
           {/* Price (products only) */}
           {priceRange && (
-            <p className="text-lg font-bold text-emerald-400 mb-3">{priceRange}</p>
+            <p className="text-lg font-bold text-emerald-400 light:text-emerald-700 mb-3">{priceRange}</p>
           )}
 
           {/* Description */}

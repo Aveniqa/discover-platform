@@ -143,7 +143,7 @@ export function ProductCard({
           )}
         </div>
         <div className="flex items-center gap-1 text-xs text-muted-foreground">
-          <span className="text-amber-400">★</span>
+          <span className="text-amber-400 light:text-amber-600">★</span>
           <span>{rating}</span>
           <span>({reviews})</span>
         </div>
