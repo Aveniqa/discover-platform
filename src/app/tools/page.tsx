@@ -129,7 +129,7 @@ export default function ToolsPage() {
               aria-pressed={activeCategory === "All"}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
-                  ? "bg-rose-500/20 text-rose-300 border-rose-400/35"
+                  ? "bg-rose-500/20 text-rose-300 border-rose-400/35 light:bg-rose-500/12 light:text-rose-700 light:border-rose-600/30"
                   : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
               }`}
             >
@@ -142,7 +142,7 @@ export default function ToolsPage() {
                 aria-pressed={activeCategory === cat}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
-                    ? "bg-rose-500/20 text-rose-300 border-rose-400/35"
+                    ? "bg-rose-500/20 text-rose-300 border-rose-400/35 light:bg-rose-500/12 light:text-rose-700 light:border-rose-600/30"
                     : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
                 }`}
               >

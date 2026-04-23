@@ -185,7 +185,7 @@ function DevelopmentStageBar({ currentStage }: { currentStage: string }) {
               />
               <span
                 className={`mt-2 text-[10px] sm:text-xs text-center leading-tight max-w-[4.5rem] ${
-                  isCurrent ? "text-cyan-400 font-semibold" : "text-muted-foreground"
+                  isCurrent ? "text-cyan-400 light:text-cyan-700 font-semibold" : "text-muted-foreground"
                 }`}
               >
                 {stage}
@@ -466,7 +466,7 @@ export default async function ItemPage({ params }: Props) {
 
             {/* Price range badge for products */}
             {item.type === "product" && (
-              <span className="mt-5 inline-flex items-center rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 px-4 py-1.5 text-sm font-bold shadow-[0_0_15px_rgba(52,211,153,0.1)]">
+              <span className="mt-5 inline-flex items-center rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 light:bg-emerald-500/12 light:text-emerald-700 light:border-emerald-600/30 px-4 py-1.5 text-sm font-bold shadow-[0_0_15px_rgba(52,211,153,0.1)]">
                 {(item as Product).estimatedPriceRange}
               </span>
             )}
@@ -722,7 +722,7 @@ export default async function ItemPage({ params }: Props) {
                         className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow transition-all flex flex-col"
                       >
                         {hasAmazon && (
-                          <span className="absolute top-2 left-2 z-10 text-[10px] font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30 px-1.5 py-0.5 rounded-full">
+                          <span className="absolute top-2 left-2 z-10 text-[10px] font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30 light:bg-amber-500/15 light:text-amber-700 light:border-amber-600/35 px-1.5 py-0.5 rounded-full">
                             🛒 On Amazon
                           </span>
                         )}
@@ -752,7 +752,7 @@ export default async function ItemPage({ params }: Props) {
                         className="group relative shrink-0 w-[200px] rounded-xl border border-border bg-card overflow-hidden card-hover-glow flex flex-col"
                       >
                         {hasAmazon && (
-                          <span className="absolute top-2 left-2 z-10 text-[10px] font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30 px-1.5 py-0.5 rounded-full">
+                          <span className="absolute top-2 left-2 z-10 text-[10px] font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30 light:bg-amber-500/15 light:text-amber-700 light:border-amber-600/35 px-1.5 py-0.5 rounded-full">
                             🛒 On Amazon
                           </span>
                         )}

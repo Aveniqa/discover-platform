@@ -11,10 +11,10 @@ interface SectionHeaderProps {
 }
 
 const accentColors = {
-  violet: "text-violet-400",
-  cyan: "text-cyan-400",
-  amber: "text-amber-400",
-  emerald: "text-emerald-400",
+  violet: "text-violet-400 light:text-violet-700",
+  cyan: "text-cyan-400 light:text-cyan-700",
+  amber: "text-amber-400 light:text-amber-700",
+  emerald: "text-emerald-400 light:text-emerald-700",
 };
 
 export function SectionHeader({

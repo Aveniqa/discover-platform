@@ -129,7 +129,7 @@ export default function DiscoverPage() {
               aria-pressed={activeCategory === "All"}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
-                  ? "bg-indigo-500/20 text-indigo-300 border-indigo-400/35"
+                  ? "bg-indigo-500/20 text-indigo-300 border-indigo-400/35 light:bg-indigo-500/12 light:text-indigo-700 light:border-indigo-600/30"
                   : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
               }`}
             >
@@ -142,7 +142,7 @@ export default function DiscoverPage() {
                 aria-pressed={activeCategory === cat}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
-                    ? "bg-indigo-500/20 text-indigo-300 border-indigo-400/35"
+                    ? "bg-indigo-500/20 text-indigo-300 border-indigo-400/35 light:bg-indigo-500/12 light:text-indigo-700 light:border-indigo-600/30"
                     : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
                 }`}
               >

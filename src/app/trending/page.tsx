@@ -169,7 +169,7 @@ export default function TrendingPage() {
               aria-pressed={activeCategory === "All"}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
-                  ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
+                  ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35 light:bg-emerald-500/12 light:text-emerald-700 light:border-emerald-600/30"
                   : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
               }`}
             >
@@ -182,7 +182,7 @@ export default function TrendingPage() {
                 aria-pressed={activeCategory === cat}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
-                    ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
+                    ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35 light:bg-emerald-500/12 light:text-emerald-700 light:border-emerald-600/30"
                     : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
                 }`}
               >
@@ -198,7 +198,7 @@ export default function TrendingPage() {
               onClick={() => { setPriceFilter("All"); setPage(1); }}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 priceFilter === "All"
-                  ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
+                  ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35 light:bg-emerald-500/12 light:text-emerald-700 light:border-emerald-600/30"
                   : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
               }`}
             >
@@ -210,7 +210,7 @@ export default function TrendingPage() {
                 onClick={() => { setPriceFilter(range.label); setPage(1); }}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   priceFilter === range.label
-                    ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
+                    ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35 light:bg-emerald-500/12 light:text-emerald-700 light:border-emerald-600/30"
                     : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
                 }`}
               >
@@ -268,7 +268,7 @@ export default function TrendingPage() {
                   <div className="flex items-center gap-2">
                     <CategoryBadge label={getFilterCategory(item)} color="emerald" />
                     {item.estimatedPriceRange && (
-                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 light:bg-emerald-500/12 light:text-emerald-700 light:border-emerald-600/30">
                         {item.estimatedPriceRange}
                       </span>
                     )}
@@ -463,7 +463,7 @@ export default function TrendingPage() {
                           href={(p as AnyItem).affiliate?.url || p.directAmazonUrl || p.sourceLink}
                           target="_blank"
                           rel="sponsored noopener"
-                          className="mt-auto text-center py-2 px-4 rounded-lg bg-emerald-500/15 text-emerald-400 text-xs font-semibold hover:bg-emerald-500/25 transition-colors"
+                          className="mt-auto text-center py-2 px-4 rounded-lg bg-emerald-500/15 text-emerald-400 light:bg-emerald-500/12 light:text-emerald-700 text-xs font-semibold hover:bg-emerald-500/25 transition-colors"
                         >
                           Check Price →
                         </a>

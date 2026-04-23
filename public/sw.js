@@ -9,7 +9,7 @@
 //
 // On activation, old caches are purged automatically.
 
-const CACHE_VERSION = 'surfaced-v2';
+const CACHE_VERSION = 'surfaced-v3';
 const CACHE_NAME = `${CACHE_VERSION}-pages`;
 
 // Routes that benefit from SW caching (HTML navigations)

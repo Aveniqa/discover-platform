@@ -27,7 +27,7 @@ export function StreakWidget() {
   const icon = milestone ? milestone.emoji : "🔥";
 
   return (
-    <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/25 text-xs font-medium text-amber-300 shadow-[0_0_15px_rgba(251,191,36,0.08)]">
+    <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber/15 border border-amber/30 text-xs font-medium text-amber shadow-[0_0_15px_var(--amber-glow)]">
       <span>{icon}</span>
       <span className="font-medium">Day {streak} streak</span>
     </div>

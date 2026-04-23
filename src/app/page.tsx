@@ -131,7 +131,7 @@ export default function HomePage() {
     <>
       {/* ── Streak milestone toast ──────────────────────── */}
       {milestoneToast && (
-        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-[60] px-6 py-3 rounded-2xl bg-amber-500/20 border border-amber-400/30 text-amber-200 text-sm font-semibold shadow-xl backdrop-blur animate-fade-in-up whitespace-nowrap">
+        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-[60] px-6 py-3 rounded-2xl bg-amber-500/20 border border-amber-400/30 text-amber-200 light:bg-amber-500/15 light:text-amber-800 text-sm font-semibold shadow-xl backdrop-blur animate-fade-in-up whitespace-nowrap">
           {milestoneToast}
         </div>
       )}
@@ -337,7 +337,7 @@ export default function HomePage() {
                 tool: "rose",
               };
               const badgeColors: Record<string, string> = {
-                indigo: "bg-indigo-500/15 text-indigo-300 border-indigo-400/25",
+                indigo: "bg-indigo-500/15 text-indigo-300 border-indigo-400/25 light:bg-indigo-500/12 light:text-indigo-700 light:border-indigo-600/30",
                 emerald: "bg-emerald-500/15 text-emerald-300 border-emerald-400/25",
                 amber: "bg-amber-500/15 text-amber-300 border-amber-400/25",
                 cyan: "bg-cyan-500/15 text-cyan-300 border-cyan-400/25",

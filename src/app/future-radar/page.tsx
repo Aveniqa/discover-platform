@@ -130,7 +130,7 @@ export default function FutureRadarPage() {
               aria-pressed={activeCategory === "All"}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
-                  ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/35"
+                  ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/35 light:bg-cyan-500/12 light:text-cyan-700 light:border-cyan-600/30"
                   : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
               }`}
             >
@@ -143,7 +143,7 @@ export default function FutureRadarPage() {
                 aria-pressed={activeCategory === cat}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
-                    ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/35"
+                    ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/35 light:bg-cyan-500/12 light:text-cyan-700 light:border-cyan-600/30"
                     : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
                 }`}
               >
@@ -194,7 +194,7 @@ export default function FutureRadarPage() {
                   <div className="flex items-center gap-2">
                     <CategoryBadge label={getFilterCategory(item)} color="cyan" />
                     {item.developmentStage && (
-                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 light:bg-cyan-500/12 light:text-cyan-700 light:border-cyan-600/30">
                         {item.developmentStage}
                       </span>
                     )}

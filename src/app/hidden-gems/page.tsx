@@ -130,7 +130,7 @@ export default function HiddenGemsPage() {
               aria-pressed={activeCategory === "All"}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
-                  ? "bg-amber-500/20 text-amber-300 border-amber-400/35"
+                  ? "bg-amber-500/20 text-amber-300 border-amber-400/35 light:bg-amber-500/15 light:text-amber-700 light:border-amber-600/35"
                   : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
               }`}
             >
@@ -143,7 +143,7 @@ export default function HiddenGemsPage() {
                 aria-pressed={activeCategory === cat}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
-                    ? "bg-amber-500/20 text-amber-300 border-amber-400/35"
+                    ? "bg-amber-500/20 text-amber-300 border-amber-400/35 light:bg-amber-500/15 light:text-amber-700 light:border-amber-600/35"
                     : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
                 }`}
               >

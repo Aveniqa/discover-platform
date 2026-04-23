@@ -9,6 +9,7 @@ import { SearchTrigger } from "@/components/ui/SearchModal";
 import { BookmarkCount } from "@/components/ui/BookmarkCount";
 import { SurpriseMe } from "@/components/ui/SurpriseMe";
 import { StreakWidget } from "@/components/ui/StreakWidget";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 /** Maps item type slugs (used in URL /item/…) to their parent nav paths */
 const typeToNavPath: Record<string, string> = {
@@ -146,6 +147,9 @@ export function Navbar() {
               {/* Search Trigger */}
               <SearchTrigger />
 
+              {/* Theme Toggle */}
+              <ThemeToggle />
+
               {/* Bookmark Count */}
               <BookmarkCount />
 
@@ -161,7 +165,9 @@ export function Navbar() {
               <button
                 onClick={() => setMobileOpen(!mobileOpen)}
                 className="lg:hidden flex items-center justify-center w-9 h-9 rounded-lg hover:bg-surface-elevated transition-colors cursor-pointer"
-                aria-label="Toggle menu"
+                aria-label={mobileOpen ? "Close menu" : "Open menu"}
+                aria-expanded={mobileOpen}
+                aria-controls="mobile-nav"
               >
                 <div className="flex flex-col gap-1.5">
                   <span
@@ -185,8 +191,8 @@ export function Navbar() {
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="fixed inset-0 z-40 lg:hidden">
-          <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" onClick={() => setMobileOpen(false)} />
+        <div className="fixed inset-0 z-40 lg:hidden" id="mobile-nav">
+          <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" onClick={() => setMobileOpen(false)} aria-hidden="true" />
           <div className="absolute top-16 inset-x-0 glass-strong border-b border-border/50 p-4 animate-fade-in">
             <div className="flex flex-col gap-1">
               {mainNav.map((item) => (
