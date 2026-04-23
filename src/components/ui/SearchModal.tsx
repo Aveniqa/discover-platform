@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { useRouter } from "next/navigation";
 import { getAllItems, getItemTitle, getItemDescription, getItemCategory, getCategoryColor, getCategoryLabel, type AnyItem } from "@/lib/data";
@@ -29,7 +29,7 @@ export function SearchModal() {
     allItems.current = getAllItems();
   }, []);
 
-  // Reset keyboard selection whenever results change
+  // Reset keyboard selection whenever the query changes (new search = fresh highlight)
   useEffect(() => {
     setActiveIndex(-1);
     itemRefs.current = [];
@@ -56,13 +56,13 @@ export function SearchModal() {
 
       if (e.key === "ArrowDown") {
         e.preventDefault();
-        setActiveIndex((i) => Math.min(i + 1, results.length - 1));
+        setActiveIndex((i) => Math.min(i + 1, orderedItems.length - 1));
       } else if (e.key === "ArrowUp") {
         e.preventDefault();
         setActiveIndex((i) => Math.max(i - 1, -1));
-      } else if (e.key === "Enter" && activeIndex >= 0 && results[activeIndex]) {
+      } else if (e.key === "Enter" && activeIndex >= 0 && orderedItems[activeIndex]) {
         e.preventDefault();
-        navigateTo(results[activeIndex].slug);
+        navigateTo(orderedItems[activeIndex].slug);
       }
     };
     document.addEventListener("keydown", handler);
@@ -98,17 +98,21 @@ export function SearchModal() {
     router.push(`/item/${slug}`);
   };
 
+  // Group results by type. Compute both grouped structure and ordered flat list
+  // in the same pass so keyboard-nav indices always match what's displayed.
+  const { grouped, orderedItems } = useMemo(() => {
+    const grp = results.reduce<Record<string, AnyItem[]>>((acc, item) => {
+      const label = getCategoryLabel(item.type);
+      if (!acc[label]) acc[label] = [];
+      acc[label].push(item);
+      return acc;
+    }, {});
+    return { grouped: grp, orderedItems: Object.values(grp).flat() };
+  }, [results]);
+
   if (!open) return null;
 
-  // Group results by type (for display), while maintaining a flat index for keyboard nav
-  const grouped = results.reduce<Record<string, AnyItem[]>>((acc, item) => {
-    const label = getCategoryLabel(item.type);
-    if (!acc[label]) acc[label] = [];
-    acc[label].push(item);
-    return acc;
-  }, {});
-
-  // Build flat index map: grouped display order → results[] index
+  // Running flat index within the JSX — must match orderedItems order
   let flatIdx = 0;
 
   return (
