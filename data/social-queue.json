@@ -1053,7 +1053,100 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "streaks",
+      "title": "streaks",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/21529965/pexels-photo-21529965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: streaks",
+      "productUrl": "https://surfaced-x.pages.dev/item/streaks?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/streaks?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "streaks",
+          "description": " https://surfaced-x.pages.dev/item/streaks?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post #surfaced #daily-tools",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "streaks — Streaks is a to-do list app designed to help users form good habits and break bad ones. You choose up to twelve tasks to complete each day, and the app tracks your progress, encouraging you to maintai\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/streaks?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-24T16:11:10.277Z",
+      "publishedAt": "2026-04-24T16:11:11.864Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "switchbot-curtain-3",
+      "title": "SwitchBot Curtain 3",
+      "category": "products",
+      "imageUrl": "https://images.pexels.com/photos/15226283/pexels-photo-15226283.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "SwitchBot Curtain 3 device attached to a curtain rod, opening curtains.",
+      "productUrl": "https://surfaced-x.pages.dev/item/switchbot-curtain-3?utm_source=social&utm_medium=products&utm_campaign=daily_post",
+      "affiliateUrl": "https://www.amazon.com/s?k=SwitchBot+Curtain+3&tag=vaultvibe-20",
+      "sourceLink": "https://us.switch-bot.com/products/switchbot-curtain-3",
+      "platforms": {
+        "pinterest": {
+          "title": "SwitchBot Curtain 3: Smarten Up Your Existing Curtains",
+          "description": "Upgrade your home with the SwitchBot Curtain 3! Automate your curtains with your phone or voice. Easy setup, no new curtains needed. Great for convenience, security, and better sleep. Plus, a solar panel option for zero maintenance! Affiliate link — I earn a commission on purchases. #smarthome #homeautomation #curtains #techgadgets",
+          "boardName": "Tech Products"
+        },
+        "bluesky": {
+          "text": "Finally, a way to get smart curtains without replacing your actual curtains. This little gadget pulls them open and closed. Seems pretty neat for controlling light and making it look like someone's home.\n\n#tech #gadgets"
+        },
+        "twitter": {
+          "text": "Want smart curtains but don't want to replace them? The SwitchBot Curtain 3 is a clever retrofit that automates your existing ones. Control via app or voice, schedule them for security or sleep. Solar panel accessory available! Affiliate link — I earn a commission on purchases. https://www.amazon.com/s?k=SwitchBot+Curtain+3&tag=vaultvibe-20"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-24T16:11:10.277Z",
+      "publishedAt": "2026-04-24T16:12:23.111Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "pomofocus-io",
+      "title": "pomofocus-io",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/9298337/pexels-photo-9298337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: pomofocus-io",
+      "productUrl": "https://surfaced-x.pages.dev/item/pomofocus-io?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/pomofocus-io?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "pomofocus-io",
+          "description": " https://surfaced-x.pages.dev/item/pomofocus-io?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post #surfaced #daily-tools",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "pomofocus-io — Pomofocus.io is a customizable Pomodoro timer web application designed to help users manage their time effectively by breaking work into focused intervals, separated by short and long breaks. It inclu\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/pomofocus-io?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-24T16:11:10.277Z",
+      "publishedAt": "2026-04-24T16:12:57.752Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-23T17:57:19.174Z"
+  "lastGenerated": "2026-04-24T16:11:10.278Z"
 }
