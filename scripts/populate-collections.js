@@ -41,6 +41,13 @@ function getItemText(item) {
     .toLowerCase();
 }
 
+// Returns true if text (already lowercased) contains the keyword phrase.
+// Simple includes check is correct here because getItemText() lowercases
+// its output and all keywords are lowercase literals.
+function textMatchesKeyword(text, keyword) {
+  return text.includes(keyword);
+}
+
 const collectionKeywords = {
   "work-from-home-essentials": [
     "desk",
