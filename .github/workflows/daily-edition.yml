@@ -54,6 +54,11 @@ jobs:
           PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
         run: node scripts/generate-daily-content.js
 
+      - name: Normalize affiliate links
+        env:
+          AMAZON_AFFILIATE_TAG: ${{ secrets.AMAZON_AFFILIATE_TAG }}
+        run: node scripts/normalize-affiliate-links.js
+
       - name: Validate JSON files
         run: node scripts/validate-data.js
 

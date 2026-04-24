@@ -1,7 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 
-const AMAZON_TAG = "vaultvibe-20";
+const AMAZON_TAG = process.env.AMAZON_AFFILIATE_TAG || (() => {
+  console.error("⚠️  AMAZON_AFFILIATE_TAG env var not set — falling back to placeholder tag.");
+  return "YOUR-AFFILIATE-TAG-HERE";
+})();
 
 const productsPath = path.join(__dirname, "..", "data", "products.json");
 const products = JSON.parse(fs.readFileSync(productsPath, "utf8"));

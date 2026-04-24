@@ -394,15 +394,19 @@ async function main() {
     const directUrl = validatedDirectUrls.get(p) || null;
     const amazonUrl = directUrl || searchUrl;
 
-    // Always set directAmazonUrl (explicit field for rendering)
-    if (!p.directAmazonUrl) {
+    // Set directAmazonUrl for new products, or upgrade a search URL to a
+    // direct ASIN URL when we just validated the ASIN. normalize-affiliate-links.js
+    // (run as the next pipeline step) handles tag corrections on existing URLs.
+    const existingTag = (p.directAmazonUrl || "").match(/[?&]tag=([^&]+)/)?.[1];
+    const canUpgrade = directUrl && p.directAmazonUrl && p.directAmazonUrl.includes("/s?");
+    if (!p.directAmazonUrl || canUpgrade || existingTag !== AMAZON_TAG) {
       p.directAmazonUrl = amazonUrl;
     }
-    if (!p.affiliate || !p.affiliate.enabled) {
+    if (!p.affiliate || !p.affiliate.enabled || p.affiliate.url !== p.directAmazonUrl) {
       p.affiliate = {
         enabled: true,
         provider: "amazon",
-        url: amazonUrl,
+        url: p.directAmazonUrl,
       };
       affiliateCount++;
     }
