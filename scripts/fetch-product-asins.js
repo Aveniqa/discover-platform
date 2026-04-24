@@ -91,20 +91,38 @@ async function validateAsin(asin) {
 }
 
 /**
- * Loose title match: at least 2 significant words from our title appear
- * somewhere in the Amazon page HTML (title + H1 etc.). Guards against the
- * first search result being a completely different product.
+ * Strict brand-first title match.
+ *
+ * Products are almost always "BrandName ModelName...", so the first word is
+ * the brand — the most unique identifier. We require it to appear in the
+ * Amazon page's <title> tag. This correctly rejects false positives like
+ * "Philips SmartSleep" → Hatch Restore 2 (Hatch's title won't contain "philips")
+ * or "Dodow Sleep Aid" → Hatch Restore 2 (won't contain "dodow").
+ *
+ * Fallback: if the brand is very short or generic (≤3 chars) we do a stricter
+ * 3-keyword match in the first 6 kB of the page body instead.
  */
 function titleMatchesPage(productTitle, pageHtml) {
-  const stopWords = new Set(["the","a","an","and","or","for","of","with","in","on","at","to","pro","plus","gen"]);
-  const words = productTitle.toLowerCase()
+  // Extract the Amazon page <title> tag — definitive product identifier
+  const pageTitle = (pageHtml.match(/<title[^>]*>([^<]{4,})<\/title>/i)?.[1] || "").toLowerCase();
+
+  // Primary check: brand name (first word) must appear in the page title
+  const brandWord = productTitle.split(/\s+/)[0].toLowerCase();
+  if (brandWord.length > 3 && pageTitle.includes(brandWord)) return true;
+
+  // Fallback for short/generic brand words: require 3 unique keywords in
+  // the top 6 kB of the page (headline + bullet points, before reviews)
+  const stopWords = new Set([
+    "the","a","an","and","or","for","of","with","in","on","at","to",
+    "pro","plus","gen","new","set","kit","pack","series","smart","size",
+  ]);
+  const keywords = productTitle.toLowerCase()
     .replace(/[^a-z0-9\s]/g, " ")
     .split(/\s+/)
-    .filter(w => w.length > 2 && !stopWords.has(w));
-
-  const hay = pageHtml.toLowerCase();
-  const hits = words.filter(w => hay.includes(w));
-  return hits.length >= Math.min(2, words.length);
+    .filter(w => w.length > 3 && !stopWords.has(w));
+  const topBody = pageHtml.slice(0, 6000).toLowerCase();
+  const hits    = keywords.filter(w => topBody.includes(w));
+  return hits.length >= Math.min(3, keywords.length);
 }
 
 // ── Main ─────────────────────────────────────────────────────────────────────

@@ -59,6 +59,12 @@ jobs:
           AMAZON_AFFILIATE_TAG: ${{ secrets.AMAZON_AFFILIATE_TAG }}
         run: node scripts/normalize-affiliate-links.js
 
+      - name: Upgrade new products to direct ASIN links
+        env:
+          AMAZON_AFFILIATE_TAG: ${{ secrets.AMAZON_AFFILIATE_TAG }}
+        run: node scripts/fetch-product-asins.js
+        continue-on-error: true
+
       - name: Validate JSON files
         run: node scripts/validate-data.js
 
