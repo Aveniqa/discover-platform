@@ -1677,13 +1677,12 @@
     "availableOnAmazon": true,
     "type": "product",
     "dateAdded": "2026-04-15",
-    "directAmazonUrl": "https://www.amazon.com/dp/B0C8VKH1ZH?tag=vaultvibe-20&linkCode=ll1",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Meta%20Quest%203&tag=vaultvibe-20",
     "affiliate": {
       "enabled": true,
       "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0C8VKH1ZH?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "amazonAsin": "B0C8VKH1ZH"
+      "url": "https://www.amazon.com/s?k=Meta%20Quest%203&tag=vaultvibe-20"
+    }
   },
   {
     "id": 147,
@@ -1858,16 +1857,15 @@
     "imageIdea": "ergonomic computer mouse on a desk",
     "estimatedPriceRange": "$99-$119",
     "availableOnAmazon": true,
-    "amazonAsin": "B0CY2Z1B5P",
     "type": "product",
     "dateAdded": "2026-04-19",
-    "directAmazonUrl": "https://www.amazon.com/dp/B0CY2Z1B5P?tag=vaultvibe-20&linkCode=ll1",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech%20MX%20Master%204%20Mouse",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Logitech%20MX%20Master%204%20Mouse&tag=vaultvibe-20",
     "affiliate": {
       "enabled": true,
       "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0CY2Z1B5P?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech%20MX%20Master%204%20Mouse"
+      "url": "https://www.amazon.com/s?k=Logitech%20MX%20Master%204%20Mouse&tag=vaultvibe-20"
+    }
   },
   {
     "id": 158,
@@ -1880,14 +1878,13 @@
     "sourceLink": "https://www.amazon.com/Anker-Charger-PowerCore-Display-Output/dp/B09XMG8W2X",
     "estimatedPriceRange": "$100-$150",
     "availableOnAmazon": true,
-    "amazonAsin": "B09XMG8W2X",
     "type": "product",
     "dateAdded": "2026-04-19",
-    "directAmazonUrl": "https://www.amazon.com/dp/B09XMG8W2X?tag=vaultvibe-20&linkCode=ll1",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Anker%20737%20Power%20Bank%20(PowerCore%2024K%20Hi-Fi)&tag=vaultvibe-20",
     "affiliate": {
       "enabled": true,
       "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B09XMG8W2X?tag=vaultvibe-20&linkCode=ll1"
+      "url": "https://www.amazon.com/s?k=Anker%20737%20Power%20Bank%20(PowerCore%2024K%20Hi-Fi)&tag=vaultvibe-20"
     }
   },
   {
@@ -1901,14 +1898,13 @@
     "sourceLink": "https://store.google.com/product/pixel_8a",
     "estimatedPriceRange": "$499-$549",
     "availableOnAmazon": true,
-    "amazonAsin": "B0CS4XN3T7",
     "type": "product",
     "dateAdded": "2026-04-19",
-    "directAmazonUrl": "https://www.amazon.com/dp/B0CS4XN3T7?tag=vaultvibe-20&linkCode=ll1",
+    "directAmazonUrl": "https://www.amazon.com/s?k=Google%20Pixel%208a&tag=vaultvibe-20",
     "affiliate": {
       "enabled": true,
       "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0CS4XN3T7?tag=vaultvibe-20&linkCode=ll1"
+      "url": "https://www.amazon.com/s?k=Google%20Pixel%208a&tag=vaultvibe-20"
     }
   },
   {
