@@ -26,6 +26,8 @@ import { SocialCTA } from "@/components/SocialCTA";
 import { ShareTodaysPicks } from "@/components/ui/ShareTodaysPicks";
 import { TodayDate } from "@/components/ui/TodayDate";
 import { HeroShowcase } from "@/components/ui/HeroShowcase";
+import { AuroraBackground } from "@/components/ui/AuroraBackground";
+import { BlurText } from "@/components/ui/BlurText";
 import { getStreak } from "@/lib/engagement";
 import { todaysPicks } from "@/lib/data";
 import Link from "next/link";
@@ -124,11 +126,12 @@ export default function HomePage() {
       {/* ============================================
           HERO — Visual showcase + compact headline
           ============================================ */}
-      <section className="relative pt-6 sm:pt-10 pb-8 sm:pb-12 overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-accent/[0.05] blur-[120px]" />
-        </div>
-
+      <AuroraBackground
+        colorA="bg-accent/12"
+        colorB="bg-emerald-500/8"
+        colorC="bg-cyan-500/6"
+        className="relative pt-6 sm:pt-10 pb-8 sm:pb-12"
+      >
         {/* Streak badge */}
         {streakDays > 0 && (
           <div className="text-center mb-4">
@@ -141,7 +144,8 @@ export default function HomePage() {
         {/* Compact headline above the showcase */}
         <div className="relative text-center mb-6 sm:mb-8 px-4">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.1] mb-2">
-            Discover something <span className="gradient-text">remarkable</span>
+            <BlurText as="span" wordDelay={70}>Discover something</BlurText>{" "}
+            <BlurText as="span" wordDelay={70} className="gradient-text">remarkable</BlurText>
           </h1>
           <p className="text-sm sm:text-base text-muted-foreground max-w-lg mx-auto">
             Products, hidden gems, future tech, and discoveries — refreshed daily
@@ -173,7 +177,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </AuroraBackground>
 
       {/* Search strip */}
       <section className="pb-6 px-4 sm:px-6">

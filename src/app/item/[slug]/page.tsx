@@ -35,6 +35,7 @@ import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { PromoCode } from "@/components/ui/PromoCode";
 import { StickyCTA } from "@/components/ui/StickyCTA";
+import { BlurText } from "@/components/ui/BlurText";
 import { LogoImage } from "@/components/ui/LogoImage";
 import { ScreenshotImage } from "@/components/ui/ScreenshotImage";
 import { isPexelsImage } from "@/lib/images";
@@ -402,7 +403,7 @@ export default async function ItemPage({ params }: Props) {
                 <LogoImage domain={logoDomain} className="w-8 h-8 rounded object-contain shrink-0" />
               )}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground leading-[1.1]">
-                {title}
+                <BlurText as="span" wordDelay={45}>{title}</BlurText>
               </h1>
             </div>
 
