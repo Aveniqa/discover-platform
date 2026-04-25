@@ -311,8 +311,8 @@
     },
     "directAmazonUrl": "https://www.amazon.com/dp/B07TS8Y6N8?tag=vaultvibe-20&linkCode=ll1",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=LastObject%20LastSwab%20Reusable%20Swab",
-    "badge": "best-value",
-    "amazonAsin": "B07TS8Y6N8"
+    "amazonAsin": "B07TS8Y6N8",
+    "badge": "best-value"
   },
   {
     "id": 70,
@@ -1277,8 +1277,8 @@
     },
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Gardyn+Home+Kit+3.0",
     "directAmazonUrl": "https://www.amazon.com/dp/B0CFQNMHVL?tag=vaultvibe-20&linkCode=ll1",
-    "badge": "great-gift",
-    "amazonAsin": "B0CFQNMHVL"
+    "amazonAsin": "B0CFQNMHVL",
+    "badge": "great-gift"
   },
   {
     "id": 119,
@@ -1521,13 +1521,14 @@
     "estimatedPriceRange": "$179-$199",
     "type": "product",
     "dateAdded": "2026-04-14",
-    "directAmazonUrl": "https://www.amazon.com/s?k=Philips+SmartSleep+Wake-up+Light&tag=vaultvibe-20",
+    "directAmazonUrl": "https://www.amazon.com/dp/B0093162RM?tag=vaultvibe-20&linkCode=ll1",
     "affiliate": {
       "enabled": true,
       "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Philips+SmartSleep+Wake-up+Light&tag=vaultvibe-20"
+      "url": "https://www.amazon.com/dp/B0093162RM?tag=vaultvibe-20&linkCode=ll1"
     },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Philips+SmartSleep+Wake-up+Light"
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Philips+SmartSleep+Wake-up+Light",
+    "amazonAsin": "B0093162RM"
   },
   {
     "id": 132,
@@ -1581,13 +1582,14 @@
     "estimatedPriceRange": "$199-$249",
     "type": "product",
     "dateAdded": "2026-04-14",
-    "directAmazonUrl": "https://www.amazon.com/s?k=Therabody+SmartGoggles&tag=vaultvibe-20",
+    "directAmazonUrl": "https://www.amazon.com/dp/B0DD1K3HD6?tag=vaultvibe-20&linkCode=ll1",
     "affiliate": {
       "enabled": true,
       "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Therabody+SmartGoggles&tag=vaultvibe-20"
+      "url": "https://www.amazon.com/dp/B0DD1K3HD6?tag=vaultvibe-20&linkCode=ll1"
     },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Therabody+SmartGoggles"
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Therabody+SmartGoggles",
+    "amazonAsin": "B0DD1K3HD6"
   },
   {
     "id": 136,
@@ -1642,13 +1644,14 @@
     "estimatedPriceRange": "$60-$70",
     "type": "product",
     "dateAdded": "2026-04-14",
-    "directAmazonUrl": "https://www.amazon.com/s?k=Dodow+Sleep+Aid+Device&tag=vaultvibe-20",
+    "directAmazonUrl": "https://www.amazon.com/dp/B00ZFOB4BK?tag=vaultvibe-20&linkCode=ll1",
     "affiliate": {
       "enabled": true,
       "provider": "amazon",
-      "url": "https://www.amazon.com/s?k=Dodow+Sleep+Aid+Device&tag=vaultvibe-20"
+      "url": "https://www.amazon.com/dp/B00ZFOB4BK?tag=vaultvibe-20&linkCode=ll1"
     },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Dodow+Sleep+Aid+Device"
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Dodow+Sleep+Aid+Device",
+    "amazonAsin": "B00ZFOB4BK"
   },
   {
     "id": 139,
