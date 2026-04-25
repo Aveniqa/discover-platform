@@ -531,9 +531,17 @@ export default async function ItemPage({ params }: Props) {
                 {/* Promo code */}
                 {item.promoCode && <PromoCode code={item.promoCode} />}
 
-                {/* Affiliate disclosure */}
-                {isAffiliate && (
-                  <p className="text-xs text-white/60 mt-3">
+                {/* Affiliate disclosure — satisfies both FTC and Amazon Associates requirements */}
+                {isAffiliate && item.affiliate?.provider === "amazon" && (
+                  <p className="text-xs text-muted-foreground/60 mt-3">
+                    As an Amazon Associate, Surfaced earns from qualifying purchases — at no extra cost to you.{" "}
+                    <Link href="/affiliate-disclosure" className="text-accent/60 hover:text-accent transition-colors underline underline-offset-2">
+                      Learn more
+                    </Link>
+                  </p>
+                )}
+                {isAffiliate && item.affiliate?.provider !== "amazon" && (
+                  <p className="text-xs text-muted-foreground/60 mt-3">
                     Some links may earn Surfaced a small commission — at no extra cost to you.{" "}
                     <Link href="/affiliate-disclosure" className="text-accent/60 hover:text-accent transition-colors underline underline-offset-2">
                       Learn more

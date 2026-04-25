@@ -156,6 +156,13 @@ export default function AffiliateDisclosurePage() {
                   Each program has its own commission structure, but
                   none of them increase the cost to you.
                 </p>
+                {/* Amazon Associates required disclosure statement */}
+                <p className="text-sm border border-border/50 rounded-xl p-4 bg-surface">
+                  Surfaced is a participant in the Amazon Services LLC Associates
+                  Program, an affiliate advertising program designed to provide a
+                  means for sites to earn advertising fees by advertising and
+                  linking to Amazon.com.
+                </p>
               </div>
             </div>
 
