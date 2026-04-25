@@ -35,6 +35,7 @@ export interface Product {
   directAmazonUrl?: string;
   bestBuyUrl?: string;
   badge?: string;
+  youtubeVideoId?: string;
   type: "product";
 }
 
