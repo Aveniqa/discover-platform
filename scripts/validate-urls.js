@@ -1,9 +1,10 @@
 /**
  * Validates all outbound URLs in data files and removes broken ones.
  *
- * A URL is considered "broken" only if the server responds 404/410/500/502/503
- * or the request times out / DNS fails. Codes like 403/405/429 mean the site
- * blocks bot traffic but is live — those are kept as-is.
+ * A URL is considered "broken" only if the server responds 404/410 or similar
+ * permanent-not-found codes. Codes like 403/405/429/5xx are treated as "alive"
+ * — 5xx are transient server errors (Amazon frequently returns 503 for bot
+ * traffic) and must never trigger URL deletion.
  *
  * Usage:
  *   node scripts/validate-urls.js               # check all items
@@ -56,9 +57,12 @@ async function checkUrl(url) {
     clearTimeout(timer);
     // 200-399: definitely ok
     if (res.status < 400) return { ok: true, status: res.status };
-    // 401/403/405/429: site blocks bots but exists
+    // 401/403/405/429: site blocks bots but the page exists
     if ([401, 403, 405, 429].includes(res.status)) return { ok: true, status: res.status };
-    // Everything else (404, 410, 5xx) is broken
+    // 5xx: transient server errors (Amazon commonly returns 503 for bot traffic).
+    // Never treat these as broken — the resource almost certainly still exists.
+    if (res.status >= 500) return { ok: true, status: res.status };
+    // 404 / 410 and other 4xx: genuinely gone
     return { ok: false, status: res.status };
   } catch (e) {
     return { ok: false, status: e.name === "AbortError" ? "timeout" : "fetch-error" };
