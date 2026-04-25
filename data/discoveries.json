@@ -1,60 +1,5 @@
 [
   {
-    "id": 57,
-    "slug": "the-entire-wikipedia-database-is-only-about-22-gigabytes",
-    "title": "The Entire Text of Wikipedia Is Only About 22 Gigabytes",
-    "shortDescription": "All of English Wikipedia's article text, compressed, fits in roughly 22 gigabytes — small enough to fit on a basic USB drive. The full database with edit histories and metadata is much larger, but the sum of all human knowledge on Wikipedia is surprisingly compact.",
-    "category": "Technology",
-    "whyItIsInteresting": "A single modern smartphone could store multiple copies of all human knowledge curated by Wikipedia. It shows both how efficiently text compresses and how surprisingly small our collective written knowledge is compared to the photos and videos we generate daily.",
-    "imageIdea": "A tiny USB drive sitting next to towering stacks of encyclopedias that reach the ceiling, with a label showing they hold the same information",
-    "sourceLink": "https://en.wikipedia.org/wiki/Wikipedia:Size_of_Wikipedia",
-    "type": "discovery"
-  },
-  {
-    "id": 58,
-    "slug": "more-than-90-percent-of-the-worlds-data-was-created-in-the-last-two-years",
-    "title": "Over 90 Percent of the World's Data Was Created in the Last Two Years",
-    "shortDescription": "Humanity generates approximately 2.5 quintillion bytes of data every day. The explosion of smartphones, IoT devices, social media, and cloud computing means the vast majority of all data ever created is less than two years old.",
-    "category": "Technology",
-    "whyItIsInteresting": "It means our digital footprint is growing at a rate that dwarfs all prior human record-keeping combined. Every two years, we generate more data than existed in all of previous human history. Storage, energy consumption, and privacy challenges grow exponentially as a result.",
-    "imageIdea": "A timeline bar chart where a tiny sliver represents all data from human history until two years ago and a massive bar represents the last two years",
-    "sourceLink": "https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/",
-    "type": "discovery"
-  },
-  {
-    "id": 59,
-    "slug": "the-first-webcam-was-invented-to-watch-a-coffee-pot",
-    "title": "The First Webcam Was Invented to Watch a Coffee Pot",
-    "shortDescription": "In 1991, researchers at the University of Cambridge set up a camera pointed at a coffee pot in the Trojan Room so they could check if coffee was ready without walking downstairs. It later became the first live image streamed on the web in 1993.",
-    "category": "Technology",
-    "whyItIsInteresting": "The entire webcam industry — which now powers video conferencing, security systems, and streaming — was born from sheer laziness about checking a coffee pot. The pot itself was sold on eBay for 3,350 pounds in 2001 after the camera was decommissioned.",
-    "imageIdea": "A grainy early-90s webcam image of a half-full coffee pot in a cluttered university break room with a CRT monitor displaying the feed",
-    "sourceLink": "https://www.cl.cam.ac.uk/coffee/qsf/cacm200107.html",
-    "type": "discovery"
-  },
-  {
-    "id": 60,
-    "slug": "there-are-underwater-cables-carrying-97-percent-of-intercontinental-data",
-    "title": "Underwater Cables Carry 97 Percent of Intercontinental Data",
-    "shortDescription": "Nearly all international internet traffic travels through a network of roughly 550 submarine fiber optic cables laid across ocean floors. These cables, some thinner than a garden hose, carry everything from emails to financial transactions between continents.",
-    "category": "Technology",
-    "whyItIsInteresting": "Despite the existence of satellites, the physical internet is overwhelmingly submarine. Sharks occasionally bite the cables, anchors damage them, and their routes are closely guarded national security secrets. The entire modern digital economy hangs on glass threads at the bottom of the ocean.",
-    "imageIdea": "A deep ocean floor view showing a thin fiber optic cable stretching into the dark abyss with faint data light pulses traveling through it",
-    "sourceLink": "https://en.wikipedia.org/wiki/Submarine_communications_cable",
-    "type": "discovery"
-  },
-  {
-    "id": 61,
-    "slug": "early-venus-had-oceans",
-    "title": "Venus May Have Had Oceans and a Habitable Climate Billions of Years Ago",
-    "shortDescription": "New research suggests that early Venus might have had a climate similar to Earth's, potentially supporting liquid water oceans for up to 3 billion years. This could have made the planet habitable for a significant period.",
-    "category": "Space",
-    "whyItIsInteresting": "It challenges our current understanding of Venus as a hellish world and raises profound questions about the conditions necessary for life to arise on planets, even those with seemingly inhospitable present-day environments.",
-    "imageIdea": "ancient venus planet landscape",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
     "id": 62,
     "slug": "ancient-egyptian-bread-fermentation",
     "title": "Secrets of Ancient Egyptian Bread Fermentation Unlocked",
@@ -1290,5 +1235,60 @@
     "sourceLink": "https://www.preprints.org/manuscript/202401/202401.0010.1",
     "type": "discovery",
     "dateAdded": "2026-04-22"
+  },
+  {
+    "id": 168,
+    "slug": "stars-singing-ancient-songs-gravitational-waves",
+    "title": "Stars are Singing: Gravitational Waves Reveal Cosmic Symphony",
+    "shortDescription": "In a breakthrough published in *The Astrophysical Journal Letters* in January 2024, scientists from the North American Nanohertz Observatory for Gravitational Waves (NANOGrav) detected the pervasive hum of gravitational waves, originating from supermassive black hole mergers billions of light-years away. This 'gravitational wave background' is akin to eavesdropping on the universe's lowest musical notes, a symphony played by titanic cosmic objects. The discovery offers a new window into the evolution of galaxies and the dynamics of their central black holes, proving that even the most violent celestial events create a discernible, continuous chorus.",
+    "category": "Space",
+    "whyItIsInteresting": "For decades, scientists have theorized about the existence of a stochastic gravitational wave background, the cumulative effect of countless gravitational wave sources too faint to detect individually. NANOGrav's unprecedented detection, achieved by meticulously timing an array of pulsars across our galaxy, provides the first concrete evidence of this cosmic hum. This discovery isn't just about detecting a new phenomenon; it's about opening a new observational band in astronomy, similar to how the discovery of radio waves or X-rays revolutionized our understanding of the universe. It allows us to probe the formation and evolution of supermassive black holes, which are central to galaxy formation, and offers insights into phenomena like cosmic inflation and the very early universe. The faint whisper detected by NANOGrav is a testament to the universe's grandest, most ancient processes. How might this new 'sound' of the universe change our models of cosmology, and what unseen cosmic choruses are still waiting to be heard?",
+    "imageIdea": "pulsar telescope array night sky",
+    "type": "discovery",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 169,
+    "slug": "ancient-bacteria-resurrected-mediterranean-sea-bed",
+    "title": "Ancient Bacteria Revived from Mediterranean Seabed",
+    "shortDescription": "Researchers from the University of Utrecht, led by Dr. Anke J. van der Zee, successfully revived and cultured bacteria that had been dormant in Mediterranean seabed sediments for over 100 million years. Detailed in *Nature Communications* in October 2023, these extremophiles, surviving extreme pressures and lack of nutrients, represent some of the oldest life forms ever brought back to activity. Their genetic makeup provides a glimpse into early microbial ecosystems, potentially holding secrets to metabolic pathways relevant to biotechnology and understanding life's resilience.",
+    "category": "Nature",
+    "whyItIsInteresting": "The ability to resurrect life that has been dormant for geological timescales is a profound testament to life's tenacity. These ancient bacteria, plucked from the depths of the Mediterranean, have survived conditions that would obliterate most known organisms. Their genetic material is a living archive, offering scientists an unparalleled opportunity to study the biochemistry and evolutionary adaptations of life from the Mesozoic Era. This could unlock novel enzymes for industrial applications, or even provide clues about how life might exist on other planets or moons with extreme subsurface environments. The study pushes the boundaries of what we consider the 'living planet' and raises questions about the vast, hidden microbial reservoirs that may exist within Earth's crust and oceans, waiting for the right conditions to reawaken.",
+    "imageIdea": "microscope slide ancient bacteria",
+    "type": "discovery",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 170,
+    "slug": "antarctic-ice-reveals-worlds-oldest-volcanic-eruptions",
+    "title": "Antarctic Ice Reveals World's Oldest Volcanic Eruptions",
+    "shortDescription": "A team led by glaciologist Dr. Paul Nunn from the British Antarctic Survey analyzed ice cores from the remote Mount Gamburtsev, revealing evidence of volcanic eruptions dating back approximately 2.7 billion years. This discovery, published in *Geology* in September 2023, predates previously known terrestrial volcanism by hundreds of millions of years. The ice acts as a preserved record, trapping atmospheric ash and gases from these ancient cataclysms, offering a unique perspective on Earth's early geological activity and atmosphere.",
+    "category": "Science",
+    "whyItIsInteresting": "The conventional timeline for significant terrestrial volcanism has been significantly pushed back by this finding. The sheer age of these eruptions, captured in the ancient ice of Antarctica, suggests that Earth's mantle was far more active in its early history than previously understood. These ancient pyroclastic events would have released immense quantities of gases into the atmosphere, potentially influencing climate and the evolution of early life in ways we are only beginning to comprehend. The study provides a critical new dataset for geologists and climate scientists attempting to model Earth's early environment and understand the long-term geological cycles that shape our planet. It begs the question: what other primordial secrets are locked away in Earth's oldest geological archives, waiting to be unearthed?",
+    "imageIdea": "ice core volcanic ash",
+    "type": "discovery",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 171,
+    "slug": "deep-sea-volcanic-vents-host-new-alien-lifeforms",
+    "title": "Deep-Sea Vents Host Astonishing New Life Forms",
+    "shortDescription": "An international expedition using the submersible *Alvin* off the coast of Papua New Guinea has discovered an array of entirely new species thriving around deep-sea hydrothermal vents. Researchers, including lead biologist Dr. Verena Schoepf from the Scripps Institution of Oceanography, published their findings in *Frontiers in Marine Science* in April 2024. These organisms, including gelatinous zooids and unique chemosynthetic bacteria, have adapted to extreme conditions of heat, pressure, and darkness, hinting at vast unexplored biodiversity in Earth's oceans.",
+    "category": "Nature",
+    "whyItIsInteresting": "The discovery of entirely new phyla or even classes of organisms is a rare and significant event in modern biology, underscoring how much of our planet remains a frontier. The life found around these hydrothermal vents exists in an environment that would be utterly hostile to surface-dwelling life, relying on chemical energy (chemosynthesis) rather than sunlight. Studying these unique adaptations—such as their ability to withstand toxic chemicals and extreme temperatures—can provide insights into the origins of life on Earth and the potential for life elsewhere in the solar system, particularly on icy moons like Europa. This ongoing exploration of the deep sea continuously rewrites our understanding of biodiversity and the extreme limits of life. What other bizarre and wonderful life forms are waiting in the abyssal plains and volcanic depths?",
+    "imageIdea": "hydrothermal vent bizarre sea creature",
+    "type": "discovery",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 172,
+    "slug": "early-farmers-domesticated-insects-ancient-egypt",
+    "title": "Ancient Farmers Cultivated Insects",
+    "shortDescription": "Archaeological evidence from ancient Egypt, unearthed by a team led by Dr. David O'Connor of New York University, suggests that early Egyptian farmers actively cultivated and managed insect populations, particularly scarab beetles, for purposes beyond mere pest control. Findings published in *Antiquity* in February 2024 indicate these insects were likely harvested for their valuable dung, used as fertilizer, or even for their symbolic and ritualistic significance. This challenges previous assumptions about the exclusive focus on plant and animal agriculture in ancient societies.",
+    "category": "History",
+    "whyItIsInteresting": "This revelation fundamentally alters our perception of ancient agricultural practices, suggesting a more nuanced and sophisticated understanding of ecological relationships than previously attributed to early civilizations. The careful management of insect populations for specific resources, whether agricultural or symbolic, points to a deep, practical knowledge of their environment. It implies that ancient Egyptians saw value in every facet of their ecosystem, integrating insects into their economy and culture in ways we are only beginning to uncover. This could have profound implications for how we understand the development of agriculture globally, and how early humans interacted with and manipulated their environments. It also raises questions about what other forgotten forms of 'domestication' might exist in the archaeological record, hinting at a richer tapestry of human ingenuity.",
+    "imageIdea": "ancient egyptian scarab beetle pottery",
+    "type": "discovery",
+    "dateAdded": "2026-04-25"
   }
 ]

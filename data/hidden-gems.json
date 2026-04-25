@@ -1,64 +1,5 @@
 [
   {
-    "id": 61,
-    "slug": "lobsters",
-    "name": "Lobsters",
-    "whatItDoes": "An invite-only, technology-focused link aggregation and discussion community. It features transparent moderation, mandatory story tagging, and a tree structure that shows how the community grew.",
-    "category": "Social & Community",
-    "whyItIsUseful": "It provides the technical depth of early Hacker News with significantly less noise and marketing. The invite-only model and transparent moderation create a high signal-to-noise ratio.",
-    "websiteLink": "https://lobste.rs",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Flobste.rs&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "tech news discussion forum upvote"
-  },
-  {
-    "id": 62,
-    "slug": "are-na",
-    "name": "Are.na",
-    "whatItDoes": "A visual bookmarking and research platform where users organize ideas, images, links, and text into interconnected channels. It functions as a collaborative mood board and knowledge garden.",
-    "category": "Social & Community",
-    "whyItIsUseful": "It replaces the chaos of browser bookmarks with a spatial, visual way to collect and connect inspiration. The community aspect means you discover unexpected connections through other people's collections.",
-    "websiteLink": "https://www.are.na",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.are.na&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "visual bookmarks mood board research"
-  },
-  {
-    "id": 63,
-    "slug": "lemmy",
-    "name": "Lemmy",
-    "whatItDoes": "A federated, open-source link aggregator and discussion platform similar to Reddit. It uses ActivityPub, meaning independent servers can communicate with each other and the broader fediverse.",
-    "category": "Social & Community",
-    "whyItIsUseful": "It provides a Reddit-like experience without centralized corporate control or algorithmic manipulation. Communities can self-govern on their own servers while still connecting to the wider network.",
-    "websiteLink": "https://join-lemmy.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fjoin-lemmy.org&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "community forum discussion federated"
-  },
-  {
-    "id": 64,
-    "slug": "polywork",
-    "name": "Polywork",
-    "whatItDoes": "A professional networking platform that lets you showcase all your work and interests, not just job titles. It supports a timeline of projects, side hustles, collaborations, and achievements.",
-    "category": "Social & Community",
-    "whyItIsUseful": "It presents a more honest picture of professional identity than LinkedIn's job-title-centric model. People with portfolio careers and diverse interests can show everything they do in one place.",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.polywork.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "professional portfolio creative collaboration"
-  },
-  {
-    "id": 65,
-    "slug": "meetup",
-    "name": "Meetup",
-    "whatItDoes": "A platform for finding and organizing local in-person and virtual events around shared interests. It covers tech meetups, book clubs, hiking groups, language exchanges, and thousands of other topics.",
-    "category": "Social & Community",
-    "whyItIsUseful": "It remains the most reliable way to find real-world communities in your area around any interest. The low barrier to creating groups means niche interests that lack dedicated platforms still find a home here.",
-    "websiteLink": "https://www.meetup.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.meetup.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "local event gathering community people"
-  },
-  {
     "id": 66,
     "slug": "spacedrive",
     "name": "Spacedrive",
@@ -1209,5 +1150,70 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-22",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcli.github.com%2Ftelemetry&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 175,
+    "slug": "honker-postgres-notify-listen-semantics-for-sqlite",
+    "name": "Honker",
+    "whatItDoes": "Honker brings the powerful `NOTIFY` and `LISTEN` capabilities of PostgreSQL to SQLite databases. This open-source tool allows applications using SQLite to implement real-time event broadcasting and subscription patterns, similar to how you'd use Pub/Sub in larger database systems. It's built by Russell Romney and is particularly useful for developers needing to synchronize state or trigger actions across different parts of an application that rely on a local SQLite database.",
+    "category": "Developer",
+    "whyItIsUseful": "Many developers are familiar with Postgres's `NOTIFY/LISTEN` for building reactive systems, but are constrained to SQLite for local storage. Honker bridges this gap, enabling event-driven architectures even with a lightweight, file-based database. This is incredibly useful for desktop applications, mobile apps, or scenarios where a full-blown database server is overkill but real-time updates are necessary. Power users will appreciate the ability to decouple components and build more responsive user interfaces without complex polling mechanisms.",
+    "imageIdea": "dog barking and other dogs listening",
+    "websiteLink": "https://github.com/russellromney/honker",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-25",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Frussellromney%2Fhonker&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 176,
+    "slug": "tolaria-open-source-macos-app-to-manage-markdown-knowledge-bases",
+    "name": "Tolaria",
+    "whatItDoes": "Tolaria is an open-source macOS application designed specifically for managing Markdown-based knowledge bases. It provides a visually appealing and intuitive interface for organizing notes, documents, and research, enabling users to create a personal wiki or second brain. Developed by the team at refactoringhq, it focuses on a seamless Markdown editing experience and efficient information retrieval.",
+    "category": "Productivity",
+    "whyItIsUseful": "While many note-taking apps exist, Tolaria stands out for its focus on pure Markdown and its commitment to being an open-source, locally controlled knowledge management system. For users who prefer to own their data and work with plain text files, it offers a polished experience often found in proprietary software. Its strength lies in its simplicity and dedication to the Markdown format, making it ideal for writers, researchers, and anyone building a robust personal knowledge management system without vendor lock-in.",
+    "imageIdea": "library bookshelf with neatly organized books",
+    "websiteLink": "https://github.com/refactoringhq/tolaria",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-25",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Frefactoringhq%2Ftolaria&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 177,
+    "slug": "how-llms-work-interactive-visual-guide",
+    "name": "How LLMs Work",
+    "whatItDoes": "This is an interactive visual guide that demystifies the inner workings of Large Language Models (LLMs), based on Andrej Karpathy's influential lecture. It breaks down complex concepts like tokenization, embeddings, attention mechanisms, and transformer architectures into digestible, visual explanations. The tool allows users to explore these concepts dynamically, making the learning process more engaging and intuitive.",
+    "category": "Education",
+    "whyItIsUseful": "Understanding LLMs is becoming increasingly crucial, but the underlying technology can be daunting. This interactive guide offers a far more accessible entry point than dense academic papers or lengthy video lectures alone. Its visual and interactive nature allows users to grasp abstract concepts through manipulation and observation, catering to a wide range of learning styles. It's a perfect resource for developers, AI enthusiasts, or anyone curious about the magic behind AI text generation, offering a clarity that traditional methods often lack.",
+    "imageIdea": "glowing neural network diagram",
+    "websiteLink": "https://ynarwal.github.io/how-llms-work/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-25",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fynarwal.github.io%2Fhow-llms-work%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 178,
+    "slug": "new-10-gbe-usb-adapters-cooler-smaller-cheaper",
+    "name": "New 10 GbE USB Adapters",
+    "whatItDoes": "This article, written by Jeff Geerling, details recent advancements in 10 Gigabit Ethernet (10 GbE) USB adapters. It highlights how new models are becoming more compact, efficient (cooler running), and importantly, more affordable. The piece provides a practical overview for users looking to upgrade their network connectivity for faster data transfers, particularly relevant for home lab enthusiasts, content creators, and small businesses.",
+    "category": "Developer",
+    "whyItIsUseful": "While 10 GbE networking has been around, the cost and bulk of adapters historically limited its adoption outside of enterprise environments. This article points to a significant shift where high-speed networking is becoming accessible and practical for everyday users and enthusiasts. It's useful for anyone experiencing network bottlenecks with large file transfers, high-resolution video editing, or running multiple virtual machines. The focus on 'cooler, smaller, cheaper' makes it a timely and relevant piece for those seeking an easy hardware upgrade to significantly boost their digital workflow.",
+    "imageIdea": "sleek silver ethernet adapter",
+    "websiteLink": "https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-25",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.jeffgeerling.com%2Fblog%2F2026%2Fnew-10-gbe-usb-adapters-cooler-smaller-cheaper%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 179,
+    "slug": "google-plans-to-invest-up-to-40b-in-anthropic",
+    "name": "Google Plans to Invest up to $40B in Anthropic",
+    "whatItDoes": "This Bloomberg article reports on Google's significant planned investment in Anthropic, a leading AI safety and research company. The substantial funding indicates a major strategic move by Google to bolster its position in the rapidly evolving artificial intelligence landscape, likely focusing on advanced AI model development and competitive edge against rivals.",
+    "category": "Finance",
+    "whyItIsUseful": "For individuals and businesses operating within or observing the tech industry, this news represents a critical indicator of future AI development trends and market dynamics. Understanding these large-scale investments helps in forecasting the direction of AI research, potential new product releases, and the competitive pressures shaping the technology sector. It's particularly useful for investors, tech strategists, and anyone interested in the future of artificial intelligence and the major players influencing its trajectory. This is less a tool and more an essential piece of market intelligence.",
+    "imageIdea": "stock market graph trending upwards",
+    "websiteLink": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-25",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.bloomberg.com%2Fnews%2Farticles%2F2026-04-24%2Fgoogle-plans-to-invest-up-to-40-billion-in-anthropic&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

@@ -1,105 +1,5 @@
 [
   {
-    "id": 54,
-    "slug": "timeular-tracker-physical-time-tracker",
-    "title": "Timeular Tracker Physical Time Tracker",
-    "shortDescription": "An 8-sided physical device you flip to track time across different activities. Pairs with a desktop app for automatic time logging and productivity reports.",
-    "category": "Productivity",
-    "whyItIsInteresting": "The physical flipping gesture makes time tracking tangible and habitual instead of forgettable. Freelancers and consultants report billing 20-30% more hours after adopting it.",
-    "imageIdea": "Octagonal tracker device on a desk next to a laptop with time report on screen",
-    "sourceLink": "https://timeular.com",
-    "estimatedPriceRange": "$59–$79",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0DY2PB7RB?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Timeular+Tracker+Physical+Time+Tracker",
-    "directAmazonUrl": "https://www.amazon.com/dp/B0DY2PB7RB?tag=vaultvibe-20&linkCode=ll1",
-    "amazonAsin": "B0DY2PB7RB"
-  },
-  {
-    "id": 55,
-    "slug": "rocketbook-pro-smart-notebook",
-    "title": "Rocketbook Pro Smart Notebook",
-    "shortDescription": "A reusable smart notebook with 20 page styles that wipes clean with water. Scan pages to cloud services with the app and reuse endlessly.",
-    "category": "Productivity",
-    "whyItIsInteresting": "It bridges analog writing and digital organization by instantly sending handwritten notes to your cloud. One notebook replaces hundreds of paper notebooks over its lifetime.",
-    "imageIdea": "Reusable notebook with handwritten notes and phone scanning to cloud app",
-    "sourceLink": "https://getrocketbook.com",
-    "estimatedPriceRange": "$45–$55",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0BG2T9SGV?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B0BG2T9SGV?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Rocketbook+Pro+Smart+Notebook",
-    "amazonAsin": "B0BG2T9SGV"
-  },
-  {
-    "id": 56,
-    "slug": "peloton-guide-strength-training-camera",
-    "title": "Peloton Guide Strength Training Camera",
-    "shortDescription": "An AI-powered camera that tracks your body movements during strength workouts. Counts reps, monitors form, and displays real-time feedback on your TV.",
-    "category": "Fitness",
-    "whyItIsInteresting": "It brings personal trainer-level form feedback into your living room. The rep counting and movement tracking work surprisingly well and prevent common injury-causing mistakes.",
-    "imageIdea": "Camera device next to TV showing body tracking overlay during a workout",
-    "sourceLink": "https://www.onepeloton.com",
-    "estimatedPriceRange": "$199–$295",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0FMS8X5M2?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B0FMS8X5M2?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Peloton+Guide+Strength+Training+Camera",
-    "amazonAsin": "B0FMS8X5M2"
-  },
-  {
-    "id": 57,
-    "slug": "hyperice-hypervolt-2-pro-massager",
-    "title": "Hyperice Hypervolt 2 Pro Massage Gun",
-    "shortDescription": "A professional-grade percussion massage device with 5 speed settings, Bluetooth app connectivity, and pressure sensor feedback. Quiet operation at just 55 dB.",
-    "category": "Fitness",
-    "whyItIsInteresting": "The pressure sensor shows real-time force so you hit the right intensity for each muscle group. Bluetooth-guided routines make recovery sessions more effective than guessing.",
-    "imageIdea": "Professional massage gun with app showing pressure feedback and guided routine",
-    "sourceLink": "https://hyperice.com",
-    "estimatedPriceRange": "$299–$329",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B09JB64T9Z?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B09JB64T9Z?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Hyperice+Hypervolt+2+Pro+Massage+Gun",
-    "amazonAsin": "B09JB64T9Z"
-  },
-  {
-    "id": 58,
-    "slug": "trx-all-in-one-suspension-trainer",
-    "title": "TRX ALL-IN-ONE Suspension Trainer",
-    "shortDescription": "A portable suspension training system with an anchor that attaches to doors, poles, or trees. Includes a workout guide and access to the TRX app with 80+ workouts.",
-    "category": "Fitness",
-    "whyItIsInteresting": "It delivers a full-body gym workout from a device that fits in a small bag. The body-weight exercises are infinitely scalable from beginner to advanced athlete.",
-    "imageIdea": "Suspension straps anchored to a door frame with person doing a row exercise",
-    "sourceLink": "https://www.trxtraining.com",
-    "estimatedPriceRange": "$99–$149",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0829DGFYJ?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B0829DGFYJ?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=TRX+ALL-IN-ONE+Suspension+Trainer",
-    "amazonAsin": "B0829DGFYJ"
-  },
-  {
     "id": 59,
     "slug": "chirp-wheel-plus-back-roller",
     "title": "Chirp Wheel+ Back Roller",
@@ -311,8 +211,7 @@
     },
     "directAmazonUrl": "https://www.amazon.com/dp/B07TS8Y6N8?tag=vaultvibe-20&linkCode=ll1",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=LastObject%20LastSwab%20Reusable%20Swab",
-    "amazonAsin": "B07TS8Y6N8",
-    "badge": "best-value"
+    "amazonAsin": "B07TS8Y6N8"
   },
   {
     "id": 70,
@@ -1277,8 +1176,7 @@
     },
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Gardyn+Home+Kit+3.0",
     "directAmazonUrl": "https://www.amazon.com/dp/B0CFQNMHVL?tag=vaultvibe-20&linkCode=ll1",
-    "amazonAsin": "B0CFQNMHVL",
-    "badge": "great-gift"
+    "amazonAsin": "B0CFQNMHVL"
   },
   {
     "id": 119,
@@ -2000,8 +1898,7 @@
     "amazonAsin": "",
     "type": "product",
     "dateAdded": "2026-04-20",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Jupid",
-    "badge": "best-value"
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Jupid"
   },
   {
     "id": 161,
@@ -2039,7 +1936,9 @@
       "url": "https://www.amazon.com/dp/B09XK8FCHC?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Clear%20Transparent%20Sticky%20Notes",
+    "badge": "best-value"
   },
   {
     "id": 163,
@@ -2049,7 +1948,6 @@
     "category": "Productivity",
     "whyItIsInteresting": "Desk-organisation content on TikTok and YouTube helped these become a staple of the 'clean setup' aesthetic. They grip, don't leave residue, and come in colours that match any cable.",
     "imageIdea": "colourful silicone cable ties wrapping neatly bundled charging cables on desk",
-    "sourceLink": "https://www.amazon.com/s?k=reusable+silicone+cable+ties",
     "estimatedPriceRange": "$3–$5",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=reusable+silicone+cable+ties+pack+20&tag=vaultvibe-20",
@@ -2059,7 +1957,9 @@
       "url": "https://www.amazon.com/s?k=reusable+silicone+cable+ties+pack+20&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Reusable%20Silicone%20Cable%20Ties%20Pack",
+    "badge": "best-value"
   },
   {
     "id": 164,
@@ -2069,7 +1969,6 @@
     "category": "Sustainability",
     "whyItIsInteresting": "One of the original viral eco-swaps, still one of the top-selling sustainability products on Amazon. The cleaning brush makes hygiene easy, and most sets include a travel pouch — making them a sub-$5 gift that feels intentional.",
     "imageIdea": "stainless steel metal straws in glass of water with cleaning brush beside them",
-    "sourceLink": "https://www.amazon.com/s?k=reusable+metal+straws+with+cleaning+brush",
     "estimatedPriceRange": "$3–$6",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=reusable+stainless+steel+metal+straws+cleaning+brush+set&tag=vaultvibe-20",
@@ -2079,7 +1978,8 @@
       "url": "https://www.amazon.com/s?k=reusable+stainless+steel+metal+straws+cleaning+brush+set&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Reusable%20Metal%20Straws%20with%20Cleaning%20Brush"
   },
   {
     "id": 165,
@@ -2089,7 +1989,6 @@
     "category": "Home & Kitchen",
     "whyItIsInteresting": "Home-organisation creators on TikTok have made these a must-have for renters. No holes, no residue — just stick and hang. Strong rare-earth magnets hold up to 5 lbs, making them surprisingly capable for their size.",
     "imageIdea": "adhesive magnetic hooks on white wall holding keys and earphones neatly",
-    "sourceLink": "https://www.amazon.com/s?k=adhesive+magnetic+wall+hooks+no+drill",
     "estimatedPriceRange": "$4–$6",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=adhesive+magnetic+wall+hooks+no+drill+removable&tag=vaultvibe-20",
@@ -2099,7 +1998,8 @@
       "url": "https://www.amazon.com/s?k=adhesive+magnetic+wall+hooks+no+drill+removable&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Adhesive%20Magnetic%20Wall%20Hooks"
   },
   {
     "id": 166,
@@ -2109,7 +2009,6 @@
     "category": "Sustainability",
     "whyItIsInteresting": "A sustainable kitchen swap that appeared in over 50 million TikTok videos under #zerowaste. The wraps are washable, compostable, and last a year with proper care — replacing hundreds of single-use plastic sheets.",
     "imageIdea": "beeswax food wrap folded around half an avocado on kitchen counter",
-    "sourceLink": "https://www.amazon.com/s?k=beeswax+food+wraps+reusable",
     "estimatedPriceRange": "$4–$7",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=beeswax+reusable+food+wraps+set&tag=vaultvibe-20",
@@ -2119,7 +2018,8 @@
       "url": "https://www.amazon.com/s?k=beeswax+reusable+food+wraps+set&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Beeswax%20Reusable%20Food%20Wraps"
   },
   {
     "id": 167,
@@ -2140,7 +2040,8 @@
       "url": "https://www.amazon.com/dp/B082XJJ8DS?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=EVEO%20Screen%20Cleaner%20Spray%20Kit"
   },
   {
     "id": 168,
@@ -2161,7 +2062,8 @@
       "url": "https://www.amazon.com/dp/B08VGHXRVQ?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=TikTok%20Heatless%20Curling%20Rod%20Headband"
   },
   {
     "id": 169,
@@ -2182,7 +2084,8 @@
       "url": "https://www.amazon.com/dp/B09YGKHTQ1?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Transparent%20Sticky%20Notes%20600-Pack"
   },
   {
     "id": 170,
@@ -2203,7 +2106,8 @@
       "url": "https://www.amazon.com/dp/B074512LY1?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Screen%20Mom%20Screen%20Cleaner%20Spray%20(2oz%20%2B%202%20Cloths)"
   },
   {
     "id": 171,
@@ -2213,7 +2117,6 @@
     "category": "Health & Wellness",
     "whyItIsInteresting": "These blew up across #selfcare and #showertok as a way to bring spa energy to a regular shower. Drop one on the floor, and the hot steam activates eucalyptus, menthol, or lavender oils that fill the entire shower. Great for congestion, stress, and decompressing after a long day.",
     "imageIdea": "fizzing blue aromatherapy shower steamer tablet on wet shower floor with steam rising",
-    "sourceLink": "https://www.amazon.com/s?k=aromatherapy+shower+steamers+tablets+essential+oil",
     "estimatedPriceRange": "$8–$12",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=aromatherapy+shower+steamers+essential+oil+tablets+12+pack&tag=vaultvibe-20",
@@ -2223,7 +2126,8 @@
       "url": "https://www.amazon.com/s?k=aromatherapy+shower+steamers+essential+oil+tablets+12+pack&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Aromatherapy%20Shower%20Steamers"
   },
   {
     "id": 172,
@@ -2233,7 +2137,6 @@
     "category": "Productivity",
     "whyItIsInteresting": "BookTok's favourite low-cost discovery: magnetic bookmarks grip both sides of a page and won't fall out when a book is closed or tossed in a bag. Colourful enough to use as category separators in notebooks and planners.",
     "imageIdea": "magnetic bookmark clips on corners of open book with colourful tabs marking pages",
-    "sourceLink": "https://www.amazon.com/s?k=magnetic+page+marker+bookmarks+set",
     "estimatedPriceRange": "$6–$9",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=magnetic+page+marker+bookmarks+metal+set+20+pack&tag=vaultvibe-20",
@@ -2243,7 +2146,8 @@
       "url": "https://www.amazon.com/s?k=magnetic+page+marker+bookmarks+metal+set+20+pack&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Magnetic%20Page%20Marker%20Bookmarks"
   },
   {
     "id": 173,
@@ -2253,7 +2157,6 @@
     "category": "Productivity",
     "whyItIsInteresting": "The most-shared part of every 'clean desk setup' tour on TikTok and YouTube. These self-adhesive clips turn a spaghetti cable pile into a clean, hidden cable run in under ten minutes — no drilling, no tools.",
     "imageIdea": "clean white desk with cables neatly routed through adhesive cable clips along desk edge",
-    "sourceLink": "https://www.amazon.com/s?k=adhesive+cable+management+clips+desk+cord+organiser",
     "estimatedPriceRange": "$7–$10",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=adhesive+cable+management+clips+desk+cord+organizer+set&tag=vaultvibe-20",
@@ -2263,7 +2166,8 @@
       "url": "https://www.amazon.com/s?k=adhesive+cable+management+clips+desk+cord+organizer+set&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Adhesive%20Desk%20Cable%20Management%20Clips"
   },
   {
     "id": 174,
@@ -2284,7 +2188,8 @@
       "url": "https://www.amazon.com/dp/B09R1KX4C2?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BAIMEI%20IcyMe%20Ice%20Roller%20%2B%20Gua%20Sha%20Set"
   },
   {
     "id": 175,
@@ -2305,7 +2210,8 @@
       "url": "https://www.amazon.com/dp/B09BLQ51M4?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Killer%20Kurls%20Heatless%20Curling%20Rod%20Headband"
   },
   {
     "id": 176,
@@ -2326,7 +2232,8 @@
       "url": "https://www.amazon.com/dp/B01054S5FM?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Screen%20Mom%2016oz%20Screen%20Cleaner%20Kit"
   },
   {
     "id": 177,
@@ -2347,7 +2254,8 @@
       "url": "https://www.amazon.com/dp/B07DKHTKP3?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Truweo%20Posture%20Corrector%20Back%20Brace"
   },
   {
     "id": 178,
@@ -2368,7 +2276,8 @@
       "url": "https://www.amazon.com/dp/B08RD6S5HF?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BAIMEI%20Jade%20Roller%20%2B%20Gua%20Sha%20Facial%20Tools"
   },
   {
     "id": 179,
@@ -2389,7 +2298,8 @@
       "url": "https://www.amazon.com/dp/B0B1DC8VLN?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Longmann%20Invisible%20Posture%20Corrector"
   },
   {
     "id": 180,
@@ -2410,7 +2320,8 @@
       "url": "https://www.amazon.com/dp/B0BD3VLL1T?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Transparent%20Sticky%20Notes%201000-Pack%20(6%20Sizes)"
   },
   {
     "id": 181,
@@ -2420,7 +2331,6 @@
     "category": "Productivity",
     "whyItIsInteresting": "The 'reading in bed without waking your partner' solution. BookTok creators popularised these for late-night reading sessions — they're rechargeable (no batteries), the flexible neck aims light exactly at the page, and the lowest brightness setting is gentle enough for 2am reading without disrupting sleep.",
     "imageIdea": "clip-on LED reading light attached to open book glowing warm white light in dark room",
-    "sourceLink": "https://www.amazon.com/s?k=rechargeable+clip+on+book+reading+light+LED",
     "estimatedPriceRange": "$12–$16",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=rechargeable+clip+on+book+reading+light+LED+flexible+neck&tag=vaultvibe-20",
@@ -2430,7 +2340,8 @@
       "url": "https://www.amazon.com/s?k=rechargeable+clip+on+book+reading+light+LED+flexible+neck&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Rechargeable%20Clip-On%20Book%20Reading%20Light"
   },
   {
     "id": 182,
@@ -2440,7 +2351,6 @@
     "category": "Travel & Outdoors",
     "whyItIsInteresting": "Travel creators on TikTok made this a carry-on packing essential. At under $15, it pays for itself the first time it prevents a $50 overweight baggage fee. Most models read up to 110 lbs, have backlit displays, and fit in any toiletry bag.",
     "imageIdea": "digital luggage scale hanging from suitcase handle showing weight reading on display",
-    "sourceLink": "https://www.amazon.com/s?k=digital+handheld+luggage+scale+travel",
     "estimatedPriceRange": "$10–$15",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=digital+handheld+luggage+scale+travel+110lb&tag=vaultvibe-20",
@@ -2450,7 +2360,8 @@
       "url": "https://www.amazon.com/s?k=digital+handheld+luggage+scale+travel+110lb&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Digital%20Handheld%20Luggage%20Scale"
   },
   {
     "id": 183,
@@ -2460,7 +2371,6 @@
     "category": "Health & Wellness",
     "whyItIsInteresting": "Unlike flat masks that press against lashes and smear eye makeup, 3D contoured cups float above the eyelids. Sleep researchers recommend complete darkness to maximise melatonin production, and this style has become the standard recommendation in sleep-optimisation communities.",
     "imageIdea": "3D contoured black sleep eye mask on white pillow showing domed eye cups design",
-    "sourceLink": "https://www.amazon.com/s?k=3d+contoured+sleep+eye+mask+blackout",
     "estimatedPriceRange": "$12–$18",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=3D+contoured+blackout+sleep+eye+mask+comfortable&tag=vaultvibe-20",
@@ -2470,7 +2380,8 @@
       "url": "https://www.amazon.com/s?k=3D+contoured+blackout+sleep+eye+mask+comfortable&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=3D%20Contoured%20Sleep%20Eye%20Mask"
   },
   {
     "id": 184,
@@ -2491,7 +2402,8 @@
       "url": "https://www.amazon.com/dp/B00PBX3L7K?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=COSRX%20Advanced%20Snail%2096%20Mucin%20Power%20Essence"
   },
   {
     "id": 185,
@@ -2501,7 +2413,6 @@
     "category": "Smart Home Automation",
     "whyItIsInteresting": "Smart home adoption exploded with these — the lowest-cost entry into the Alexa/Google ecosystem. Set schedules, timers, and automations for lamps, fans, or any appliance. At $10–14 per plug, it's the most affordable smart home upgrade available.",
     "imageIdea": "small white smart wifi plug in wall outlet with smartphone showing smart home app control",
-    "sourceLink": "https://www.amazon.com/s?k=smart+wifi+mini+plug+2+pack+alexa+google",
     "estimatedPriceRange": "$20–$28",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=smart+wifi+mini+plug+2+pack+alexa+google+home+compatible&tag=vaultvibe-20",
@@ -2511,7 +2422,8 @@
       "url": "https://www.amazon.com/s?k=smart+wifi+mini+plug+2+pack+alexa+google+home+compatible&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Smart%20WiFi%20Mini%20Plug%20(2-Pack)"
   },
   {
     "id": 186,
@@ -2521,7 +2433,6 @@
     "category": "Outdoor Gear & Travel",
     "whyItIsInteresting": "Travel TikTok's favourite packing hack: a water bottle that takes up zero space when empty. Unlike rigid bottles, it rolls up, folds flat, and passes through TSA without counting as a liquid. FDA-approved silicone, BPA-free, and dishwasher safe.",
     "imageIdea": "collapsible silicone water bottle shown flat empty beside fully expanded filled version",
-    "sourceLink": "https://www.amazon.com/s?k=collapsible+silicone+water+bottle+travel",
     "estimatedPriceRange": "$18–$26",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=collapsible+silicone+water+bottle+foldable+travel+BPA+free&tag=vaultvibe-20",
@@ -2531,7 +2442,8 @@
       "url": "https://www.amazon.com/s?k=collapsible+silicone+water+bottle+foldable+travel+BPA+free&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Collapsible%20Silicone%20Water%20Bottle"
   },
   {
     "id": 187,
@@ -2541,7 +2453,6 @@
     "category": "Kitchen & Dining",
     "whyItIsInteresting": "The single most recommended upgrade for anyone who bakes, meal-preps, or tracks macros. Weighing ingredients rather than using cups eliminates the most common source of recipe failure. FoodTok and baking creators on TikTok consistently list this as a non-negotiable kitchen tool.",
     "imageIdea": "digital food kitchen scale with bowl of flour on white kitchen countertop",
-    "sourceLink": "https://www.amazon.com/s?k=digital+food+kitchen+scale+1g+precision",
     "estimatedPriceRange": "$20–$25",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=digital+food+kitchen+scale+1g+precision+pull+out+display&tag=vaultvibe-20",
@@ -2551,7 +2462,8 @@
       "url": "https://www.amazon.com/s?k=digital+food+kitchen+scale+1g+precision+pull+out+display&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Digital%20Food%20Kitchen%20Scale"
   },
   {
     "id": 188,
@@ -2561,7 +2473,6 @@
     "category": "Smart Home Decor",
     "whyItIsInteresting": "A single viral 'bedroom glow-up' TikTok clip drove over 10,000 orders in two weeks in early 2026. These create a full immersive galaxy ceiling effect for under $30, and the rotating motor means no two moments look the same. More calming than fairy lights, more dramatic than a lamp.",
     "imageIdea": "bedroom ceiling covered in galaxy star projector lights showing blue and purple nebula effect in dark room",
-    "sourceLink": "https://www.amazon.com/s?k=galaxy+star+projector+bedroom+app+control+nebula",
     "estimatedPriceRange": "$22–$30",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=galaxy+star+projector+bedroom+app+control+nebula+aurora&tag=vaultvibe-20",
@@ -2571,7 +2482,8 @@
       "url": "https://www.amazon.com/s?k=galaxy+star+projector+bedroom+app+control+nebula+aurora&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Galaxy%20Star%20Projector%20for%20Bedroom"
   },
   {
     "id": 189,
@@ -2581,7 +2493,6 @@
     "category": "Home & Kitchen",
     "whyItIsInteresting": "Cleaning TikTok's favourite transformation product — the before-and-after videos of a pilled sweater turning brand new are some of the most satisfying on the platform. Rechargeable USB models now outperform old battery-powered versions, and they work on wool, cashmere, cotton, and upholstery.",
     "imageIdea": "electric fabric shaver removing lint pills from grey wool sweater showing clean side next to pilled side",
-    "sourceLink": "https://www.amazon.com/s?k=electric+lint+remover+fabric+shaver+rechargeable",
     "estimatedPriceRange": "$20–$28",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=electric+lint+remover+fabric+shaver+rechargeable+USB&tag=vaultvibe-20",
@@ -2591,7 +2502,8 @@
       "url": "https://www.amazon.com/s?k=electric+lint+remover+fabric+shaver+rechargeable+USB&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Electric%20Lint%20Remover%20%26%20Fabric%20Shaver"
   },
   {
     "id": 190,
@@ -2601,7 +2513,6 @@
     "category": "Sustainability",
     "whyItIsInteresting": "Reached viral status on eco-TikTok as the easiest kitchen plastic swap. Unlike beeswax wraps, these work on hot containers and odd shapes, fit everything from a half-cut lemon to a full mixing bowl, and are dishwasher safe. A single $20 set replaces years of cling-film rolls.",
     "imageIdea": "multicolour silicone stretch lids covering various bowls and containers on kitchen counter",
-    "sourceLink": "https://www.amazon.com/s?k=silicone+stretch+lids+food+covers+set+reusable",
     "estimatedPriceRange": "$18–$25",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=silicone+stretch+lids+food+covers+set+reusable+BPA+free&tag=vaultvibe-20",
@@ -2611,7 +2522,8 @@
       "url": "https://www.amazon.com/s?k=silicone+stretch+lids+food+covers+set+reusable+BPA+free&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Silicone%20Stretch%20Lids%20Food%20Cover%20Set"
   },
   {
     "id": 191,
@@ -2621,7 +2533,6 @@
     "category": "Electronics",
     "whyItIsInteresting": "Wireless charging has crossed the 'mainstream' threshold — most phones now support it, but many people still don't own a pad. A flat wireless charger on the nightstand changes the morning routine: phone always charged, no cable fumbling in the dark. The $20 category has gotten good enough to replace more expensive options.",
     "imageIdea": "thin wireless qi charging pad on nightstand with smartphone charging without cable",
-    "sourceLink": "https://www.amazon.com/s?k=wireless+qi+fast+charging+pad+15w+slim",
     "estimatedPriceRange": "$18–$25",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=wireless+qi+fast+charging+pad+15W+slim+compatible+iPhone+Android&tag=vaultvibe-20",
@@ -2631,7 +2542,8 @@
       "url": "https://www.amazon.com/s?k=wireless+qi+fast+charging+pad+15W+slim+compatible+iPhone+Android&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Wireless%20Qi%20Fast%20Charging%20Pad"
   },
   {
     "id": 192,
@@ -2641,7 +2553,6 @@
     "category": "Health & Wellness",
     "whyItIsInteresting": "WellnessTok's favourite 'weird but it works' product — thousands of short plastic spikes stimulate blood flow and trigger a deep relaxation response when you lie on it for 20 minutes. Physical therapists use it as a complement to stretching for lower back and neck tension relief.",
     "imageIdea": "person lying on purple acupressure mat with spikes on yoga mat showing relaxed position",
-    "sourceLink": "https://www.amazon.com/s?k=acupressure+mat+pillow+set+back+pain+relief",
     "estimatedPriceRange": "$25–$35",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=acupressure+mat+pillow+set+back+pain+neck+relief&tag=vaultvibe-20",
@@ -2651,7 +2562,8 @@
       "url": "https://www.amazon.com/s?k=acupressure+mat+pillow+set+back+pain+neck+relief&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Acupressure%20Mat%20and%20Pillow%20Set"
   },
   {
     "id": 193,
@@ -2661,7 +2573,6 @@
     "category": "Health & Wellness",
     "whyItIsInteresting": "UV-C light sanitisation went mainstream post-pandemic and stayed. Hospital-grade UV-C technology at a portable, consumer price: pass it over a keyboard, hotel remote, phone, or cutting board to sterilise without sprays. Studies show UV-C at 254nm wavelength is effective against most pathogens within seconds.",
     "imageIdea": "handheld UV-C sanitizer wand glowing purple light being passed over phone and keyboard on desk",
-    "sourceLink": "https://www.amazon.com/s?k=portable+uv+c+sanitizer+wand+handheld",
     "estimatedPriceRange": "$22–$30",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=portable+UV-C+sanitizer+wand+handheld+rechargeable&tag=vaultvibe-20",
@@ -2671,7 +2582,8 @@
       "url": "https://www.amazon.com/s?k=portable+UV-C+sanitizer+wand+handheld+rechargeable&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Portable%20UV-C%20Sanitizer%20Wand"
   },
   {
     "id": 194,
@@ -2692,7 +2604,8 @@
       "url": "https://www.amazon.com/dp/B0CGDRYJ1X?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Tangram%20Smart%20Jump%20Rope%20Rookie"
   },
   {
     "id": 195,
@@ -2713,7 +2626,8 @@
       "url": "https://www.amazon.com/dp/B08XYBD1B6?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BlissLights%20Sky%20Lite%202.0%20Galaxy%20Projector"
   },
   {
     "id": 196,
@@ -2734,7 +2648,8 @@
       "url": "https://www.amazon.com/dp/B01MDK70V9?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=NEWKEY%20LED%20Light%20Therapy%20Face%20Mask"
   },
   {
     "id": 197,
@@ -2744,7 +2659,6 @@
     "category": "Personal Wellness & Ergonomics",
     "whyItIsInteresting": "Standing desks became mainstream, but standing on hard floors for hours causes its own problems. Ergonomics researchers found that anti-fatigue mats with textured surfaces encourage subtle weight shifting that prevents lower-back pain and foot fatigue. Now a standard recommendation alongside standing desks.",
     "imageIdea": "anti-fatigue standing desk mat with textured surface under standing desk with shoes on it",
-    "sourceLink": "https://www.amazon.com/s?k=anti+fatigue+standing+desk+mat+ergonomic",
     "estimatedPriceRange": "$30–$40",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=anti+fatigue+standing+desk+mat+ergonomic+thick+foam&tag=vaultvibe-20",
@@ -2754,7 +2668,8 @@
       "url": "https://www.amazon.com/s?k=anti+fatigue+standing+desk+mat+ergonomic+thick+foam&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anti-Fatigue%20Standing%20Desk%20Mat"
   },
   {
     "id": 198,
@@ -2764,7 +2679,6 @@
     "category": "Fitness",
     "whyItIsInteresting": "Physical therapists prefer the grid-pattern surface over smooth foam because the varied texture can target specific muscle groups and trigger points. Used by runners, gym goers, and desk workers for IT band relief, thoracic spine mobility, and general muscle recovery — all for the price of one massage.",
     "imageIdea": "high density grid foam roller on yoga mat beside running shoes showing textured surface",
-    "sourceLink": "https://www.amazon.com/s?k=high+density+grid+foam+roller+trigger+point",
     "estimatedPriceRange": "$28–$38",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=high+density+grid+foam+roller+trigger+point+muscle+recovery&tag=vaultvibe-20",
@@ -2774,7 +2688,8 @@
       "url": "https://www.amazon.com/s?k=high+density+grid+foam+roller+trigger+point+muscle+recovery&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=High-Density%20Grid%20Foam%20Roller"
   },
   {
     "id": 199,
@@ -2784,7 +2699,6 @@
     "category": "Travel & Outdoors",
     "whyItIsInteresting": "Travel TikTok's most consistently recommended product: packing cubes transform a disorganised suitcase into a structured wardrobe. The compression feature removes air gaps and lets you fit 30% more clothes than folding loose. Most travellers who try them never pack without them again.",
     "imageIdea": "six colourful packing cubes neatly arranged inside open suitcase showing organised travel packing",
-    "sourceLink": "https://www.amazon.com/s?k=travel+packing+cubes+6+set+compression",
     "estimatedPriceRange": "$30–$38",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=travel+packing+cubes+set+6+compression+luggage+organizer&tag=vaultvibe-20",
@@ -2794,7 +2708,8 @@
       "url": "https://www.amazon.com/s?k=travel+packing+cubes+set+6+compression+luggage+organizer&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Travel%20Packing%20Cubes%206-Pack"
   },
   {
     "id": 200,
@@ -2804,7 +2719,6 @@
     "category": "Coffee & Kitchen Gadgets",
     "whyItIsInteresting": "Cold brew concentrate made at home costs about $0.30 per serving vs. $6+ at a coffee shop. CoffeeTok creators showed that 12 hours of steep time + a quality filter produces a smoother, less bitter cup than hot brewing. The best pitchers also seal tightly for up to 2 weeks of fridge storage.",
     "imageIdea": "glass cold brew coffee maker pitcher filled with dark coffee concentrate beside glass with ice",
-    "sourceLink": "https://www.amazon.com/s?k=cold+brew+coffee+maker+pitcher+glass+filter",
     "estimatedPriceRange": "$28–$38",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=cold+brew+coffee+maker+pitcher+glass+fine+mesh+filter&tag=vaultvibe-20",
@@ -2814,7 +2728,8 @@
       "url": "https://www.amazon.com/s?k=cold+brew+coffee+maker+pitcher+glass+fine+mesh+filter&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Cold%20Brew%20Coffee%20Maker%20Pitcher"
   },
   {
     "id": 201,
@@ -2824,7 +2739,6 @@
     "category": "Fitness",
     "whyItIsInteresting": "The most space-efficient strength training tool available: five bands take up less space than a water bottle and can replicate cable machine exercises, add resistance to bodyweight movements, and assist pull-up progressions. FitTok home-gym creators consistently list these as the single best low-cost purchase for training.",
     "imageIdea": "five colourful resistance loop bands stretched on white background showing graduated resistance levels",
-    "sourceLink": "https://www.amazon.com/s?k=resistance+bands+set+5+pack+loop+graduated",
     "estimatedPriceRange": "$25–$35",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=resistance+bands+set+5+pack+loop+graduated+home+gym+workout&tag=vaultvibe-20",
@@ -2834,7 +2748,8 @@
       "url": "https://www.amazon.com/s?k=resistance+bands+set+5+pack+loop+graduated+home+gym+workout&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Resistance%20Bands%205-Pack%20(Loop%20Style)"
   },
   {
     "id": 202,
@@ -2855,7 +2770,8 @@
       "url": "https://www.amazon.com/dp/B088BJ8B1G?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=RENPHO%20Eyeris%201%20Eye%20Massager%20with%20Heat"
   },
   {
     "id": 203,
@@ -2876,7 +2792,8 @@
       "url": "https://www.amazon.com/dp/B0B4V3JQG9?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BlissLights%20Sky%20Lite%20Evolve%20Galaxy%20Projector"
   },
   {
     "id": 204,
@@ -2897,7 +2814,8 @@
       "url": "https://www.amazon.com/dp/B0BN59KR48?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Auxoliev%204-Color%20LED%20Light%20Therapy%20Face%20Mask"
   },
   {
     "id": 205,
@@ -2907,7 +2825,6 @@
     "category": "Home Appliances",
     "whyItIsInteresting": "Cleaning TikTok transformed this into one of 2024–2025's most viral household purchases. The oscillating brush head replaces scrubbing by hand, the extension arm reaches the bottom of the tub without bending, and the interchangeable heads handle every bathroom surface. Bathroom cleaning goes from 30 minutes to 8.",
     "imageIdea": "electric spin scrubber with extension arm cleaning shower tile and grout showing clean white result",
-    "sourceLink": "https://www.amazon.com/s?k=electric+spin+scrubber+cordless+extension+arm",
     "estimatedPriceRange": "$40–$52",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=electric+spin+scrubber+cordless+extension+arm+bathroom+tile&tag=vaultvibe-20",
@@ -2917,7 +2834,8 @@
       "url": "https://www.amazon.com/s?k=electric+spin+scrubber+cordless+extension+arm+bathroom+tile&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Electric%20Spin%20Scrubber%20with%20Extension%20Arm"
   },
   {
     "id": 206,
@@ -2927,7 +2845,6 @@
     "category": "Health & Wellness",
     "whyItIsInteresting": "Neck and shoulder tension from screen work is among the most common physical complaints of the WFH era. These heated pads use deep-kneading nodes (not just vibration) and optional heat to replicate the action of a manual massage therapist on the exact spot where stress accumulates. Under $50 vs. $80/session for a massage.",
     "imageIdea": "heated neck shoulder massager wrap draped on person's neck showing massage nodes through fabric",
-    "sourceLink": "https://www.amazon.com/s?k=heated+neck+shoulder+massager+shiatsu+kneading+wrap",
     "estimatedPriceRange": "$40–$50",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=heated+neck+shoulder+massager+shiatsu+kneading+wrap+pad&tag=vaultvibe-20",
@@ -2937,7 +2854,8 @@
       "url": "https://www.amazon.com/s?k=heated+neck+shoulder+massager+shiatsu+kneading+wrap+pad&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Heated%20Neck%20%26%20Shoulder%20Massager%20Wrap"
   },
   {
     "id": 207,
@@ -2947,7 +2865,6 @@
     "category": "Wellness & Smart Home Devices",
     "whyItIsInteresting": "Chronobiology research shows that gradual light exposure suppresses melatonin more gently than an abrupt alarm, making the waking process less stressful. Sleep doctors recommend sunrise alarms for people with morning grogginess. This budget-tier option delivers the core functionality — gradual light + nature sounds — for a third of the Hatch Restore price.",
     "imageIdea": "sunrise alarm clock glowing warm orange light on nightstand in darkened bedroom showing gradual sunrise simulation",
-    "sourceLink": "https://www.amazon.com/s?k=sunrise+alarm+clock+wake+up+light+simulation",
     "estimatedPriceRange": "$38–$50",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=sunrise+alarm+clock+wake+up+light+simulation+gradual+natural&tag=vaultvibe-20",
@@ -2957,7 +2874,8 @@
       "url": "https://www.amazon.com/s?k=sunrise+alarm+clock+wake+up+light+simulation+gradual+natural&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sunrise%20Alarm%20Clock%20Wake-Up%20Light"
   },
   {
     "id": 208,
@@ -2967,7 +2885,6 @@
     "category": "Health & Wellness",
     "whyItIsInteresting": "The sit-anywhere massager that TikTok wellness creators promoted for commuters and desk workers. The U-shape cups the neck, the bi-directional nodes reverse to prevent over-stimulation, and the optional heat adds therapeutic benefit. Car adapter included makes it the first 'commute recovery' product that actually works.",
     "imageIdea": "shiatsu neck back massager pillow in use on car seat showing rotating massage nodes and heat indicator",
-    "sourceLink": "https://www.amazon.com/s?k=shiatsu+neck+back+massager+pillow+heat",
     "estimatedPriceRange": "$40–$50",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=shiatsu+neck+back+massager+pillow+heat+deep+kneading&tag=vaultvibe-20",
@@ -2977,7 +2894,8 @@
       "url": "https://www.amazon.com/s?k=shiatsu+neck+back+massager+pillow+heat+deep+kneading&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Shiatsu%20Neck%20%26%20Back%20Massager%20Pillow"
   },
   {
     "id": 209,
@@ -2998,7 +2916,8 @@
       "url": "https://www.amazon.com/dp/B0C2FF4JD1?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ninja%20Blast%20Portable%20Blender"
   },
   {
     "id": 210,
@@ -3019,7 +2938,8 @@
       "url": "https://www.amazon.com/dp/B082F13J55?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=TMY%201080P%20Portable%20Mini%20Projector"
   },
   {
     "id": 211,
@@ -3040,7 +2960,8 @@
       "url": "https://www.amazon.com/dp/B0CR17G9HZ?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=GYH%208-Color%20Wireless%20LED%20Light%20Therapy%20Mask"
   },
   {
     "id": 212,
@@ -3061,7 +2982,8 @@
       "url": "https://www.amazon.com/dp/B0DR7C9MLP?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=RAINPOINT%20Smart%20WiFi%20Plant%20Moisture%20Sensor"
   },
   {
     "id": 213,
@@ -3082,7 +3004,8 @@
       "url": "https://www.amazon.com/dp/B08F3JBB8V?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Netro%20Whisperer%20Smart%20Plant%20Sensor%20(Solar)"
   },
   {
     "id": 214,
@@ -3092,7 +3015,6 @@
     "category": "Fitness",
     "whyItIsInteresting": "RENPHO's Mini is the recovery tool that crosses from 'gym bag' to 'office drawer' — it's quiet enough to use at a desk between meetings, light enough to throw in a backpack, and powerful enough for real post-workout muscle recovery. At a fraction of the Theragun price with comparable functionality.",
     "imageIdea": "RENPHO compact massage gun mini being used on shoulder muscles showing its small portable size",
-    "sourceLink": "https://www.amazon.com/s?k=RENPHO+active+mini+massage+gun+percussion",
     "estimatedPriceRange": "$55–$70",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=RENPHO+active+mini+massage+gun+percussion+therapy+portable&tag=vaultvibe-20",
@@ -3102,7 +3024,8 @@
       "url": "https://www.amazon.com/s?k=RENPHO+active+mini+massage+gun+percussion+therapy+portable&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=RENPHO%20Active%20Massage%20Gun%20Mini"
   },
   {
     "id": 215,
@@ -3123,7 +3046,8 @@
       "url": "https://www.amazon.com/dp/B0C7KCQFBY?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=RENPHO%20Eyeris%203%20Eye%20Massager%20with%20Heat%20%26%20Cooling"
   },
   {
     "id": 216,
@@ -3144,7 +3068,8 @@
       "url": "https://www.amazon.com/dp/B0D7N2KWLH?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=iRestore%20LED%20Light%20Therapy%20Face%20Mask%20(360%20LEDs)"
   },
   {
     "id": 217,
@@ -3165,7 +3090,8 @@
       "url": "https://www.amazon.com/dp/B0DDL8WGH5?tag=vaultvibe-20&linkCode=ll1"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI%20Mic%20Mini%20Wireless%20Lavalier%20Microphone"
   },
   {
     "id": 218,
@@ -3175,7 +3101,6 @@
     "category": "Health & Wellness",
     "whyItIsInteresting": "Foot pain is among the most under-addressed chronic conditions — plantar fasciitis, arch tension, and standing fatigue affect millions of people who can't afford regular podiatry visits. Shiatsu foot massagers replicate the kneading and rolling techniques of reflexology at home, with clinical evidence for pain reduction in plantar fasciitis.",
     "imageIdea": "electric shiatsu foot massager with heat glowing warm light with feet resting inside on carpet",
-    "sourceLink": "https://www.amazon.com/s?k=shiatsu+electric+foot+massager+heat+kneading",
     "estimatedPriceRange": "$70–$90",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=shiatsu+electric+foot+massager+heat+kneading+plantar+fasciitis&tag=vaultvibe-20",
@@ -3185,7 +3110,8 @@
       "url": "https://www.amazon.com/s?k=shiatsu+electric+foot+massager+heat+kneading+plantar+fasciitis&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Shiatsu%20Electric%20Foot%20Massager%20with%20Heat"
   },
   {
     "id": 219,
@@ -3195,7 +3121,6 @@
     "category": "Health & Fitness Wearables",
     "whyItIsInteresting": "Modern smart scales use bioelectrical impedance to estimate body fat %, muscle mass, bone density, and metabolic age alongside weight. Syncing with Apple Health and Google Fit means every weigh-in automatically logs to your health dashboard. Health creators use these to track body recomposition (gaining muscle while losing fat) where regular scales show no progress.",
     "imageIdea": "smart WiFi body composition scale on bathroom floor showing body metrics data syncing to smartphone app",
-    "sourceLink": "https://www.amazon.com/s?k=smart+wifi+body+composition+scale+body+fat+muscle+app",
     "estimatedPriceRange": "$70–$90",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=smart+wifi+body+composition+scale+body+fat+muscle+mass+app+sync&tag=vaultvibe-20",
@@ -3205,7 +3130,8 @@
       "url": "https://www.amazon.com/s?k=smart+wifi+body+composition+scale+body+fat+muscle+mass+app+sync&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Smart%20WiFi%20Body%20Composition%20Scale"
   },
   {
     "id": 220,
@@ -3215,7 +3141,6 @@
     "category": "Health & Wellness",
     "whyItIsInteresting": "Sleeping with standard earbuds causes ear pressure and falling-out problems. Sleep headphone headbands use paper-thin flat speakers that sit beside rather than inside the ear — comfortable for side sleeping, no pressure, and the soft stretch fabric stays in place all night. Used by insomniacs, meditators, and ASMR listeners.",
     "imageIdea": "soft grey wireless sleep headphone headband with flat speakers worn on sleeping person on pillow",
-    "sourceLink": "https://www.amazon.com/s?k=wireless+sleep+headphones+headband+bluetooth+thin+speakers",
     "estimatedPriceRange": "$75–$100",
     "availableOnAmazon": true,
     "directAmazonUrl": "https://www.amazon.com/s?k=wireless+sleep+headphones+headband+bluetooth+thin+flat+speakers&tag=vaultvibe-20",
@@ -3225,6 +3150,65 @@
       "url": "https://www.amazon.com/s?k=wireless+sleep+headphones+headband+bluetooth+thin+flat+speakers&tag=vaultvibe-20"
     },
     "type": "product",
-    "dateAdded": "2026-04-25"
+    "dateAdded": "2026-04-25",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sleep%20Headphones%20Wireless%20Headband"
+  },
+  {
+    "id": 221,
+    "slug": "lg-stanby-me-go-portable-display",
+    "title": "LG StanbyME Go Portable Entertainment Screen",
+    "shortDescription": "The LG StanbyME Go is a revolutionary portable entertainment screen that combines a 27-inch Full HD IPS display with a built-in battery and speakers, all housed in a sleek suitcase design. It offers a unique tabletop viewing experience, ideal for spontaneous movie nights, presentations, or gaming sessions anywhere. With its integrated stand and wireless connectivity, it's designed for ultimate convenience and portability, making it perfect for dorm rooms, outdoor gatherings, or even small office spaces.",
+    "category": "Portable Display",
+    "whyItIsInteresting": "This product redefines portable entertainment by integrating a high-quality display into a stylish, self-contained unit that resembles a vintage suitcase. The 27-inch screen is large enough for a comfortable viewing experience, and it features a built-in battery that provides up to 3 hours of playback, plus integrated speakers for audio. Its key innovation is the all-in-one design that eliminates the need for separate stands, cables, or external speakers, allowing for instant setup. It's perfect for users who want a versatile screen for various settings, from watching movies outdoors to giving informal presentations in a conference room, offering a premium and hassle-free solution.",
+    "imageIdea": "27-inch screen in a suitcase",
+    "estimatedPriceRange": "$999-$1099",
+    "availableOnAmazon": true,
+    "amazonAsin": "B0CLJ2J1R5",
+    "type": "product",
+    "dateAdded": "2026-04-25",
+    "directAmazonUrl": "https://www.amazon.com/dp/B0CLJ2J1R5?tag=vaultvibe-20&linkCode=ll1",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/dp/B0CLJ2J1R5?tag=vaultvibe-20&linkCode=ll1"
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=LG%20StanbyME%20Go%20Portable%20Entertainment%20Screen"
+  },
+  {
+    "id": 222,
+    "slug": "framework-laptop-13-amr6",
+    "title": "Framework Laptop 13 (AMD Ryzen 7040 Series)",
+    "shortDescription": "The Framework Laptop 13 is a highly customizable and repairable laptop that now features the latest AMD Ryzen 7040 series processors, offering exceptional performance and efficiency. Users can configure their laptop from the ground up, choosing their preferred CPU, RAM, storage, and even port modules, ensuring a device tailored to their exact needs. Its commitment to sustainability and longevity through easy upgrades and repairs makes it an ideal choice for environmentally conscious consumers and power users alike.",
+    "category": "Laptop",
+    "whyItIsInteresting": "Framework has revolutionized the laptop market with its 'right to repair' ethos and unparalleled modularity, and the inclusion of AMD's powerful Ryzen 7040 series processors further elevates this compelling offering. This configuration delivers significant boosts in both CPU and integrated graphics performance, making it suitable for demanding tasks like content creation and even light gaming, while maintaining excellent power efficiency. The standout feature remains its design philosophy: every component, from the motherboard to the keyboard and display, is user-replaceable and upgradable. This drastically extends the lifespan of the laptop and reduces e-waste, offering a sustainable alternative to the industry's often disposable approach. The ability to customize expansion cards (USB-A, USB-C, HDMI, etc.) means users can tailor I/O to their specific workflow, making it a truly personalized computing experience.",
+    "imageIdea": "laptop with modular components",
+    "sourceLink": "https://frame.work/laptop-13-amd",
+    "estimatedPriceRange": "$849-$1,599 (depending on configuration)",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-25",
+    "badge": "great-gift"
+  },
+  {
+    "id": 223,
+    "slug": "amazfit-balance-smartwatch",
+    "title": "Amazfit Balance Smartwatch",
+    "shortDescription": "The Amazfit Balance is a premium smartwatch focused on holistic health and wellness tracking, offering advanced features like AI-powered coaching, stress monitoring, and body composition analysis. It boasts a vibrant AMOLED display, long battery life, and a sleek, modern design suitable for both athletic pursuits and everyday wear. This watch is perfect for individuals seeking detailed insights into their physical and mental well-being, integrated into a stylish and feature-rich wearable.",
+    "category": "Smartwatch",
+    "whyItIsInteresting": "The Amazfit Balance stands out in the crowded smartwatch market by offering a suite of advanced health metrics often found in much pricier devices, most notably its built-in body composition analysis. This feature, accessible directly from the wrist, provides a quick snapshot of body fat percentage, muscle mass, and other key indicators, empowering users with a deeper understanding of their physical state. Beyond this, it integrates the proprietary Zepp AI Coach for personalized workout guidance and features robust sleep and stress tracking. The watch also impresses with its bright, always-on AMOLED display and an advertised battery life of up to 14 days with typical use, reducing the need for frequent charging. It's a compelling option for health-conscious consumers looking for comprehensive data and intelligent coaching without the premium price tag of some competitors.",
+    "imageIdea": "smartwatch displaying body composition data",
+    "sourceLink": "https://us.amazfit.com/products/amazfit-balance",
+    "estimatedPriceRange": "$249-$299",
+    "availableOnAmazon": true,
+    "amazonAsin": "B0CH2P83K4",
+    "type": "product",
+    "dateAdded": "2026-04-25",
+    "directAmazonUrl": "https://www.amazon.com/dp/B0CH2P83K4?tag=vaultvibe-20&linkCode=ll1",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/dp/B0CH2P83K4?tag=vaultvibe-20&linkCode=ll1"
+    }
   }
 ]

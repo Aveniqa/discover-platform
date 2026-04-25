@@ -1,61 +1,5 @@
 [
   {
-    "id": 57,
-    "slug": "midjourney",
-    "toolName": "Midjourney",
-    "whatItDoes": "AI image generation tool that creates stunning artwork, photography, and illustrations from text descriptions. Known for particularly aesthetic, detailed, and artistic output across many styles.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It produces consistently beautiful images that often look indistinguishable from professional photography or illustration. The aesthetic quality puts it ahead for creative and marketing use cases.",
-    "websiteLink": "https://www.midjourney.com",
-    "type": "tool",
-    "imageIdea": "ai generated artwork fantasy illustration"
-  },
-  {
-    "id": 58,
-    "slug": "github-copilot",
-    "toolName": "GitHub Copilot",
-    "whatItDoes": "AI pair programmer that suggests code completions, generates entire functions from comments, explains code, writes tests, and answers questions about your codebase directly in your editor.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It eliminates boilerplate coding and reduces time spent searching Stack Overflow. Developers report completing tasks 55% faster, with the biggest gains on repetitive or unfamiliar code.",
-    "websiteLink": "https://github.com/features/copilot",
-    "type": "tool",
-    "imageIdea": "ai code suggestion autocomplete programming"
-  },
-  {
-    "id": 59,
-    "slug": "otter-ai",
-    "toolName": "Otter.ai",
-    "whatItDoes": "AI-powered meeting transcription and note-taking tool that joins your Zoom, Teams, or Google Meet calls automatically. Produces real-time transcripts, identifies speakers, and generates summaries with action items.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It lets you be fully present in meetings instead of frantically scribbling notes. The automated action items and searchable transcripts mean nothing from any meeting is ever lost.",
-    "websiteLink": "https://otter.ai",
-    "type": "tool",
-    "imageIdea": "meeting transcription notes ai recording"
-  },
-  {
-    "id": 60,
-    "slug": "elicit",
-    "toolName": "Elicit",
-    "whatItDoes": "AI research assistant that searches 200 million academic papers, extracts key findings, summarizes methodologies, and organizes results into structured tables. Automates systematic literature reviews.",
-    "category": "AI Tools",
-    "whyItIsUseful": "It turns a week-long literature review into an afternoon task. The ability to extract and compare findings across dozens of papers in a structured table is transformative for researchers.",
-    "websiteLink": "https://elicit.com",
-    "type": "tool",
-    "imageIdea": "research paper search academic ai"
-  },
-  {
-    "id": 61,
-    "slug": "evernote-notes-organizer",
-    "toolName": "Evernote",
-    "whatItDoes": "Evernote is a powerful note-taking and organizational app that allows you to capture ideas, inspiration, and to-dos from anywhere. It supports text, audio, web clips, and images, and synchronizes them across all your devices.",
-    "category": "Productivity",
-    "whyItIsUseful": "It helps declutter your mind by providing a centralized digital space for all your thoughts and important information. This makes it incredibly easy to find what you need, when you need it, boosting both personal and professional efficiency.",
-    "websiteLink": "https://evernote.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-13",
-    "imageIdea": "digital notebook clipping organized green"
-  },
-  {
     "id": 63,
     "slug": "google-calendar-schedule-planner",
     "toolName": "Google Calendar",
@@ -958,5 +902,41 @@
     "websiteLink": "https://github.com/alchaincyf/huashu-design",
     "type": "tool",
     "dateAdded": "2026-04-22"
+  },
+  {
+    "id": 147,
+    "slug": "video-use",
+    "toolName": "video-use",
+    "whatItDoes": "video-use is a fascinating Python library that allows you to edit videos using code. Instead of complex timeline interfaces, you can instruct AI agents to perform actions like cutting, adding effects, or even generating new content within your videos. It's particularly useful for automating repetitive video editing tasks or for those who prefer a programmatic approach. The core value lies in its ability to leverage AI for video manipulation, making advanced edits accessible through simple Python commands.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers and content creators who want to automate video production, video-use offers a powerful, code-driven solution. It's ideal for batch processing videos, creating dynamic video content based on data, or integrating video editing into larger workflows. The project's significant traction on GitHub, indicated by over 4474 stars, suggests a strong community and active development. Users can save considerable time by scripting edits that would be tedious to do manually. This tool is a game-changer for anyone looking to bring AI-powered efficiency to their video content pipeline.",
+    "imageIdea": "python code editing video timeline",
+    "websiteLink": "https://github.com/browser-use/video-use",
+    "type": "tool",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 148,
+    "slug": "obscura",
+    "toolName": "obscura",
+    "whatItDoes": "obscura is a high-performance headless browser built with Rust, designed specifically for AI agents and web scraping. It allows applications to interact with web pages programmatically, rendering them just like a human user would see them, but without a visible graphical interface. This is crucial for tasks that require simulating user interactions, such as filling out forms, clicking buttons, or extracting complex data that relies on JavaScript execution. Its Rust foundation ensures speed and reliability, making it a top choice for demanding scraping and automation projects.",
+    "category": "Developer",
+    "whyItIsUseful": "obscura is an indispensable tool for developers and data scientists engaged in web scraping and AI agent development. Its robust performance, thanks to Rust, means faster data extraction and more reliable automation, saving significant processing time and resources. The ability to handle dynamic web content seamlessly makes it superior for complex scraping tasks where simpler methods fail. With nearly 4000 stars on GitHub, it's a well-regarded solution for building sophisticated web automation tools. It empowers users to build intelligent bots that can navigate and understand the web effectively, crucial for market research, competitive analysis, and data aggregation.",
+    "imageIdea": "headless browser chrome icon code",
+    "websiteLink": "https://github.com/h4ckf0r0day/obscura",
+    "type": "tool",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 149,
+    "slug": "littlebird-ai",
+    "toolName": "Littlebird",
+    "whatItDoes": "Littlebird is an AI assistant designed to deeply understand your work context, providing remarkably relevant assistance. It achieves this by seeing what's on your screen and transcribing your meetings, allowing it to grasp the nuances of your ongoing projects and conversations. This means every answer, draft, and plan it generates is contextualized, saving you the time of repeatedly explaining your situation. Littlebird operates on a freemium model, offering a foundational set of features for free with advanced capabilities available through paid plans.",
+    "category": "Productivity",
+    "whyItIsUseful": "Littlebird revolutionizes how AI assistants integrate into daily workflows by offering true contextual awareness. Unlike generic assistants, it proactively understands your needs based on your real-time activities and past interactions, leading to significantly more efficient support. This is invaluable for professionals who juggle multiple projects and need quick, accurate information or drafts without extensive prompting. Users praise its ability to reduce mental overhead and speed up tasks like summarizing meetings or preparing documents. It's particularly beneficial for those in fast-paced environments, researchers, and project managers who need a reliable AI partner that truly 'gets' their work.",
+    "imageIdea": "ai assistant laptop screen communication",
+    "websiteLink": "https://www.producthunt.com/r/5P6FZ2JTZUBBPB",
+    "type": "tool",
+    "dateAdded": "2026-04-25"
   }
 ]

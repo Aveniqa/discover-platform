@@ -1,65 +1,5 @@
 [
   {
-    "id": 57,
-    "slug": "in-situ-therapeutic-bio-ink-printing",
-    "techName": "In-Situ Therapeutic Bio-Ink Printing",
-    "explanation": "This technology involves delivering specialized bio-inks containing stem cells and growth factors directly into damaged organs within the body. Utilizing miniature, robotically controlled printers or targeted injection systems, it aims to regenerate specific tissues and repair organ function without invasive transplantation surgery.",
-    "industry": "Regenerative Medicine, Bio-Engineering, Healthcare",
-    "whyItMatters": "It could revolutionize organ repair, making complex transplantation procedures obsolete and offering solutions for chronic organ failure. Patients could avoid lengthy waiting lists, immunosuppressant drugs, and the risks associated with major surgery, leading to improved quality of life and longevity.",
-    "developmentStage": "Research",
-    "imageIdea": "A microscopic robotic arm precisely depositing cellular bio-ink onto a damaged kidney surface inside a body, with intricate biological structures forming.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 58,
-    "slug": "orbital-solar-power-beaming",
-    "techName": "Orbital Solar Power Beaming",
-    "explanation": "Large arrays of solar collectors in geosynchronous orbit capture sunlight continuously, unaffected by weather or night cycles. This energy is then converted into microwaves or lasers and safely beamed down to receiving rectennas or photovoltaic arrays on Earth, providing constant, clean baseload power.",
-    "industry": "Energy, Aerospace, Infrastructure",
-    "whyItMatters": "It offers a truly continuous, renewable energy source that can significantly reduce reliance on fossil fuels and mitigate climate change. This technology could provide stable power to remote regions, help stabilize national grids, and dramatically increase global energy security.",
-    "developmentStage": "Prototype",
-    "imageIdea": "Giant solar panel arrays orbiting Earth, with bright energy beams targeting specific rectenna arrays on a bustling city skyline below, visible through a partially cloudy sky.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 59,
-    "slug": "bio-integrated-living-building-materials",
-    "techName": "Bio-Integrated Living Building Materials",
-    "explanation": "These are construction materials embedded with living organisms like bacteria, fungi, or algae, engineered to perform specific functions. Examples include concrete that self-heals cracks using bacteria, bricks that absorb carbon dioxide, or walls that generate electricity from photosynthesis.",
-    "industry": "Construction, Sustainable Architecture, Biotechnology",
-    "whyItMatters": "This innovation promises to create truly sustainable and resilient infrastructure, transforming buildings into active participants in environmental management. It could lead to structures with self-repairing capabilities, reduced carbon footprints, and even energy-generating facades, significantly lowering maintenance and operational costs.",
-    "developmentStage": "Research",
-    "imageIdea": "A building facade with visible, intricate biological networks glowing softly, subtly repairing itself or changing color in response to environmental cues, blending natural elements with urban architecture.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 60,
-    "slug": "personalized-mrna-cancer-vaccines",
-    "techName": "Personalized mRNA Cancer Vaccines",
-    "explanation": "These vaccines are custom-designed for each patient, utilizing their tumor's unique genetic mutations to train the immune system to recognize and destroy cancer cells. They leverage mRNA technology to deliver instructions for producing specific tumor antigens, triggering a targeted immune response.",
-    "industry": "Biotechnology, Oncology",
-    "whyItMatters": "This technology promises to revolutionize cancer treatment by offering highly specific therapies with potentially fewer side effects than traditional chemotherapy or radiation. It could transform previously untreatable cancers into manageable conditions and prevent recurrence.",
-    "developmentStage": "Early Commercialization",
-    "imageIdea": "A microscopic view of T-cells attacking cancer cells, with a stylized mRNA strand in the background. Or a patient receiving an injection, with a holographic display showing personalized genetic sequencing data.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 61,
-    "slug": "enhanced-geothermal-systems",
-    "techName": "Enhanced Geothermal Systems (EGS)",
-    "explanation": "EGS technology taps into hot rock resources far deeper than traditional geothermal by artificially creating or enhancing underground fracture networks. Water is injected, heated by the earth's core, and then brought back to the surface to generate electricity, providing a constant, renewable energy source.",
-    "industry": "Renewable Energy, Utilities",
-    "whyItMatters": "EGS could unlock vast, geographically widespread geothermal energy resources, offering a reliable, baseload renewable power source independent of weather conditions. It provides a stable alternative to fossil fuels with minimal surface footprint and emissions.",
-    "developmentStage": "Prototype",
-    "imageIdea": "A cross-section diagram of the earth showing deep boreholes, injected water circulating through hot rock, and a power plant on the surface. Steam rising from cooling towers in a stark, rocky landscape.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
     "id": 62,
     "slug": "programmable-matter-claytronics",
     "techName": "Programmable Matter (Claytronics)",
@@ -1193,5 +1133,65 @@
     "type": "future-tech",
     "url": "https://cli.github.com/telemetry",
     "dateAdded": "2026-04-22"
+  },
+  {
+    "id": 156,
+    "slug": "google-anthropic-investment",
+    "techName": "Advanced Generative AI",
+    "explanation": "This refers to the development of highly sophisticated artificial intelligence models capable of generating human-like text, code, images, and more. Google's planned $40 billion investment in Anthropic, a leading AI safety and research company, signifies a massive push towards building more capable and potentially safer large language models (LLMs) and multimodal AI systems. Anthropic's work, particularly their focus on 'Constitutional AI' to align AI behavior with human values, is a key aspect of this advancement.",
+    "industry": "Artificial Intelligence",
+    "whyItMatters": "This colossal investment indicates a hyper-competitive race to achieve AI systems that are not only more performant but also more controllable and aligned with ethical principles. It suggests a future where AI assistants are seamlessly integrated into every facet of work and life, from complex problem-solving and creative endeavors to personalized education and advanced scientific research. While the timeline to widespread integration is rapid, significant challenges remain in ensuring AI safety, mitigating bias, and addressing the societal implications of such powerful technology. Eventually, it could revolutionize knowledge work, creative industries, and scientific discovery, making advanced AI capabilities accessible to a broader range of users.",
+    "developmentStage": "Growth",
+    "imageIdea": "abstract neural network visualization",
+    "type": "future-tech",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 157,
+    "slug": "urandom-quantum-replacement",
+    "techName": "Probabilistic Computing",
+    "explanation": "This showcases a novel approach to quantum computing where the randomness inherent in classical computing's `/dev/urandom` device is used to simulate quantum phenomena, rather than relying on complex and error-prone quantum hardware. The project, led by Yadv Deep Singh, demonstrates that fundamental quantum algorithms can be effectively mimicked using accessible classical resources. This breakthrough lies in abstracting the probabilistic nature of quantum mechanics into a purely classical, and thus far more stable and reproducible, computational model.",
+    "industry": "Computer Science",
+    "whyItMatters": "This could democratize access to understanding and experimenting with quantum algorithms without the prohibitive cost and complexity of actual quantum computers. It allows researchers and developers to explore the foundational principles of quantum computation in a more approachable environment, potentially accelerating the development of quantum-inspired classical algorithms and identifying areas where true quantum advantage is most critical. The timeline to mainstream adoption for this specific method might be tied to the research community's adoption, but the underlying concept of leveraging classical randomness for computation has broader implications for scientific simulation and potentially even new forms of computing. Obstacles include the inherent limitations of classical simulation for truly complex quantum problems. In the future, this could lead to more accessible educational tools and novel algorithmic designs.",
+    "developmentStage": "Prototype",
+    "imageIdea": "a computer terminal displaying random characters",
+    "type": "future-tech",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 158,
+    "slug": "10-gbe-usb-adapters",
+    "techName": "High-Speed Networking Hardware",
+    "explanation": "This refers to the miniaturization and cost reduction of network interface controllers (NICs) that enable 10 Gigabit Ethernet (10 GbE) speeds over a USB connection. Jeff Geerling's exploration highlights recent advancements in silicon and enclosure design that have made these adapters significantly more compact, energy-efficient, and affordable. The breakthrough is the widespread availability of these high-performance networking solutions in consumer-friendly form factors.",
+    "industry": "Computer Hardware",
+    "whyItMatters": "This technology drastically increases the accessibility of multi-gigabit networking for home users, small businesses, and prosumers, breaking down a barrier that previously confined such speeds to enterprise environments. It enables faster file transfers, smoother video editing workflows, more responsive network-attached storage (NAS) access, and improved performance for home servers. The timeline to mainstream adoption is already underway, as prices continue to fall and more devices incorporate USB-C ports capable of the necessary bandwidth. Key obstacles are the need for users to upgrade their existing networking infrastructure (routers, switches) and understanding the benefits. Daily life will see seamless, high-speed data sharing within homes and small offices, making remote work and media consumption more fluid.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "a sleek USB-C 10 GbE adapter",
+    "type": "future-tech",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 159,
+    "slug": "paraloid-b-72-conservation",
+    "techName": "Advanced Conservation Materials",
+    "explanation": "Paraloid B-72 is an acrylic resin renowned for its stability and reversibility, making it an exceptional adhesive and consolidant in art and artifact conservation. Recent milestones involve its widespread adoption and refined application techniques in the preservation of delicate historical objects, from ancient pottery to delicate paper manuscripts. This breakthrough isn't a single discovery but a culmination of decades of research and practical application by conservators worldwide, solidifying its status as a go-to material for long-term preservation.",
+    "industry": "Cultural Heritage",
+    "whyItMatters": "Paraloid B-72 is crucial for the preservation of our shared cultural heritage, ensuring that historical artifacts can be stabilized and displayed for future generations without further degradation. Its reversibility is key, meaning that if future conservation techniques prove superior, the Paraloid can be removed without damaging the original object. The timeline to adoption is effectively ongoing, as it's already a standard in the field. Obstacles include the need for specialized knowledge in its application and the fact that it's not a universal solution for all materials. Its widespread use means that future generations will have access to a richer, more intact history, allowing for deeper understanding and appreciation of past civilizations.",
+    "developmentStage": "Mainstream",
+    "imageIdea": "a conservator applying resin to ancient pottery",
+    "type": "future-tech",
+    "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 160,
+    "slug": "sabotaging-projects-overthinking",
+    "techName": "Agile Project Management Refinements",
+    "explanation": "This discusses how common project management pitfalls, such as overthinking, scope creep, and structural diffing (analyzing code at a very granular, structural level without considering the broader context), can inadvertently sabotage even well-intentioned projects. The insight, shared by Kevin Lynagh, highlights a recent realization within the software development community that overly complex analysis and an inability to make timely decisions are significant impediments to progress, even in the era of advanced AI tools. The 'breakthrough' is a heightened awareness and articulation of these insidious issues.",
+    "industry": "Software Development",
+    "whyItMatters": "This reframing of common project failures emphasizes the human and process-oriented challenges that still plague even the most technologically advanced development cycles. It calls for a more pragmatic and focused approach to project execution, even as AI offers powerful tools for automation and analysis. The timeline to widespread adoption of these refined practices is ongoing, as teams continuously strive for better efficiency. Key obstacles include ingrained organizational cultures and the difficulty of shifting mindsets away from perfectionism towards iterative progress. Once widespread, this focus will lead to faster delivery of valuable software, reduced wasted effort, and more successful innovation cycles, where complex problems are tackled effectively without getting lost in unnecessary detail.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "a whiteboard with messy project plans being simplified",
+    "type": "future-tech",
+    "dateAdded": "2026-04-25"
   }
 ]

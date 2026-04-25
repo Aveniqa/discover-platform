@@ -5,407 +5,407 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Apr 2026 00:00:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 14:10:43 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GitHub CLI telemetry</title>
-      <link>https://surfaced-x.pages.dev/item/github-cli-telemetry-collection</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/github-cli-telemetry-collection</guid>
-      <description>This page details GitHub CLI&apos;s pseudoanonymous telemetry collection. It explains that the GitHub Command Line Interface (CLI) now gathers opt-in, anonymized data about how users interact with the tool. This telemetry includes information like command usage, errors encountered, and system configuration. The purpose is to help the GitHub team understand user behavior, identify areas for improvement, and prioritize feature development for the CLI. Users can review the data collected and manage their participation.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GoModel</title>
-      <link>https://surfaced-x.pages.dev/item/go-model-open-source-ai-gateway</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/go-model-open-source-ai-gateway</guid>
-      <description>GoModel is an open-source AI gateway built in Go, designed to simplify the integration and management of various AI models. It acts as a unified interface for different AI services and models, allowing developers to interact with them through a consistent API. This means you can switch between different AI providers or models without rewriting significant parts of your application. It&apos;s particularly useful for backend developers building applications that rely on machine learning capabilities, aiming to reduce complexity and accelerate development.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windows 9x Subsystem for Linux</title>
-      <link>https://surfaced-x.pages.dev/item/windows-9x-subsystem-for-linux</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/windows-9x-subsystem-for-linux</guid>
-      <description>This project aims to bring the functionality of a Linux subsystem to the classic Windows 9x operating system. It allows users to run Linux command-line tools and potentially even graphical applications within a Windows 95/98 environment. The goal is to bridge the gap between legacy Windows systems and modern open-source software, enabling users to access a wider range of utilities and development tools on older hardware. It&apos;s particularly interesting for retro computing enthusiasts and those exploring historical operating system capabilities.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>VidStudio</title>
-      <link>https://surfaced-x.pages.dev/item/vidstudio-browser-video-editor</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vidstudio-browser-video-editor</guid>
-      <description>VidStudio is a powerful, browser-based video editor designed for users who want to create and edit videos without the hassle of uploading large files. It leverages WebAssembly and client-side processing to offer a smooth editing experience directly within your web browser. This means your raw footage stays on your device, enhancing privacy and speed for edits. It&apos;s ideal for quick social media video cuts, simple tutorial creation, or trimming existing footage without requiring desktop software.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>John Ternus to become Apple CEO</title>
-      <link>https://surfaced-x.pages.dev/item/john-ternus-apple-ceo</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/john-ternus-apple-ceo</guid>
-      <description>This news article, originating from Apple&apos;s official newsroom, announces a significant leadership transition within Apple Inc. It details that John Ternus is set to assume the role of Chief Executive Officer, while Tim Cook will move to the position of Executive Chairman. The announcement outlines the effective date of this change and highlights the company&apos;s forward-looking strategy under new leadership.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Laws of Software Engineering</title>
-      <link>https://surfaced-x.pages.dev/item/laws-of-software-engineering</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/laws-of-software-engineering</guid>
-      <description>The Laws of Software Engineering is a curated collection of fundamental principles and best practices that govern the design, development, and maintenance of software systems. It compiles widely accepted axioms and heuristics, presented in a clear and accessible manner, to help engineers build more robust, scalable, and maintainable software. The site serves as a central repository for critical software engineering wisdom.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>MacMind</title>
-      <link>https://surfaced-x.pages.dev/item/macmind</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/macmind</guid>
-      <description>MacMind is a fascinating project that recreates a functional HyperCard environment within a modern web browser, powered by a transformer neural network. It allows users to interact with a simulated 1989 Macintosh experience, complete with the iconic HyperCard interface and its stack-based organization. This tool is built by SeanFDZ and offers a unique way to explore and understand the early days of personal computing and interactive multimedia.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Arctic Permafrost Releases Ancient Viruses, Potent Threat</title>
-      <link>https://surfaced-x.pages.dev/item/arctic-permafrost-releases-ancient-viruses-potent-threat</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/arctic-permafrost-releases-ancient-viruses-potent-threat</guid>
-      <description>In 2024, a team of French and Russian scientists, led by Dr. Jean-Michel Claverie of Aix-Marseille University, successfully revived several strains of ancient viruses that had been frozen in Siberian permafrost for tens of thousands of years. The oldest revived virus, a strain of *Pandoravirus* dating back 48,500 years, was isolated from a sample of permafrost taken from the deepest layer ever studied. This research, published in *Viruses*, highlights the potential for these &apos;zombie viruses&apos; to pose a significant, albeit currently theoretical, threat to public health as global temperatures rise and thaw these ancient ice reserves.</description>
-      <category>Discoveries</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>EU to Force Replaceable Batteries in Phones and Tablets from 2027</title>
-      <link>https://surfaced-x.pages.dev/item/all-phones-eu-replaceable-batteries</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/all-phones-eu-replaceable-batteries</guid>
-      <description>This is an article reporting on a new EU regulation that will require all smartphones and tablets sold within the European Union to have batteries that are easily replaceable by consumers or independent repairers. This directive, set to take effect in 2027, aims to combat e-waste and promote device longevity by moving away from sealed-unit designs. It&apos;s a significant policy shift with potential global implications for consumer electronics manufacturing and repairability.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ancient Chinese Musical Instrument Reveals Complex Notation</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-chinese-musical-instrument-reveals-complex-notation</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-chinese-musical-instrument-reveals-complex-notation</guid>
-      <description>The discovery of a nearly intact 2,400-year-old *se* zither in a tomb in Hubei Province, China, has provided archaeologists and musicologists with an extraordinary glimpse into ancient Chinese musical practices. Unearthed in 2020, the instrument, along with its original strings and protective casing, was accompanied by a detailed musical score inscribed onto bamboo slips. This score, analyzed by researchers including Dr. Li Yu of the Institute of Archaeology, Chinese Academy of Social Sciences, reveals a sophisticated system of musical notation far more advanced than previously assumed for the period.</description>
-      <category>Discoveries</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub&apos;s Fake Star Economy</title>
-      <link>https://surfaced-x.pages.dev/item/github-fake-star-economy-investigation</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/github-fake-star-economy-investigation</guid>
-      <description>This investigative piece delves into the phenomenon of fake stars on GitHub, exploring how metrics like repository stars can be artificially inflated. It examines the mechanisms and motivations behind this practice, which can distort the perceived popularity and quality of open-source projects. The article is crucial for developers, project maintainers, and users who rely on GitHub&apos;s metrics for evaluating software and contributions.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Artificial Wormholes Created in Lab Testing Einstein Theory</title>
-      <link>https://surfaced-x.pages.dev/item/artificial-wormholes-created-in-lab-testing-einstein-theory</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/artificial-wormholes-created-in-lab-testing-einstein-theory</guid>
-      <description>Physicists at the University of Maryland, led by Dr. Christopher Monroe and his team, have successfully created and manipulated what they describe as a &apos;traversable artificial wormhole&apos; in a lab setting. Published in *Nature Physics* in 2022, this groundbreaking experiment used entangled quantum bits (qubits) to simulate the connection between two points in spacetime, a phenomenon theorized by Einstein but never before observed. While not a physical tunnel through space, it replicates the mathematical properties of a wormhole, allowing information to &apos;travel&apos; between seemingly disconnected quantum states.</description>
-      <category>Discoveries</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>All phones sold in the EU to have replaceable batteries from 2027</title>
-      <link>https://surfaced-x.pages.dev/item/eu-replaceable-batteries-news</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/eu-replaceable-batteries-news</guid>
-      <description>This news article reports on a significant legislative change by the European Union mandating that all phones and tablets sold within the EU must feature easily replaceable batteries starting in 2027. The initiative aims to reduce electronic waste and extend the lifespan of devices by empowering consumers to perform common repairs themselves. This policy is a response to growing environmental concerns and the trend of sealed, difficult-to-repair electronics.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ancient Bird Fossil Reveals Unexpected Flight Mechanism</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-bird-fossil-reveals-unexpected-flight-mechanism</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-bird-fossil-reveals-unexpected-flight-mechanism</guid>
-      <description>A remarkably preserved fossil of *Asteriornis maastrichtensis*, a 66-million-year-old bird discovered in Belgium, has provided unprecedented insights into the evolutionary transition from non-avian dinosaurs to modern birds. Published in *Nature* in 2022 by a team led by Albert Chen and Daniel Field from the University of Cambridge, the fossil&apos;s detailed skull anatomy suggests it possessed a &apos;modern&apos; jaw mechanism that allowed for more agile feeding and potentially different flight adaptations than previously thought for birds of this era, just before the K-Pg extinction event.</description>
-      <category>Discoveries</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ithihāsas – a character explorer for Hindu epics</title>
-      <link>https://surfaced-x.pages.dev/item/ithihasas-character-explorer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ithihasas-character-explorer</guid>
-      <description>Ithihāsas is a web application designed to explore and understand the complex characters and relationships within Hindu epics like the Ramayana and Mahabharata. Built in a remarkably short time, it provides an interactive interface to navigate through characters, their lineage, key events, and connections. This tool is perfect for students, scholars, or anyone curious about the rich narratives and intricate character webs of these ancient texts.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Earth&apos;s Core Rotation Slowing: Implications for Day Length</title>
-      <link>https://surfaced-x.pages.dev/item/earths-core-rotation-might-be-slowing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/earths-core-rotation-might-be-slowing</guid>
-      <description>Researchers Yi Yang and Xiaodong Song at Peking University have presented compelling evidence suggesting that the Earth&apos;s inner core&apos;s rotation might have significantly slowed down, or even paused, around 2009-2010, and may now be rotating in the opposite direction relative to the mantle. Analyzing seismic waves from repeating earthquakes over several decades, they observed distinct changes in wave travel times, pointing to a slowdown and potential reversal. This phenomenon could subtly influence the length of our days.</description>
-      <category>Discoveries</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>TRELLIS.2 Image-to-3D generation</title>
-      <link>https://surfaced-x.pages.dev/item/trellis-mac</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/trellis-mac</guid>
-      <description>TRELLIS.2 is a powerful open-source tool that enables users to generate 3D models directly from 2D images, natively on Apple Silicon hardware. Developed by Shivam P. Kumar, it leverages advanced diffusion models to create detailed and accurate 3D representations. This is ideal for artists, game developers, or hobbyists looking to quickly prototype 3D assets from existing imagery without complex manual modeling processes.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ancient Chinese Silk Dyeing Secrets</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-chinese-silk-dyeing-secrets-rediscovered</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-chinese-silk-dyeing-secrets-rediscovered</guid>
-      <description>A team of materials scientists and archaeologists, led by Professor Peiyuan Xu from Peking University, has successfully replicated ancient Chinese silk dyeing techniques from the Tang Dynasty (618–907 CE), as detailed in &apos;Nature Communications&apos; in 2023. Using historical texts and chemical analysis of surviving silk fragments, they rediscovered the complex multi-step processes and specific plant-based mordants used to achieve the vibrant, colorfast hues seen in surviving artifacts. This breakthrough allows for the conservation and recreation of historically significant textiles.</description>
-      <category>Discoveries</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pixel Perfect Editor</title>
-      <link>https://surfaced-x.pages.dev/item/pixel-perfect-editor</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pixel-perfect-editor</guid>
-      <description>Pixel Perfect Editor is a lightweight, web-based image editing tool focused on precise pixel manipulation and color adjustments. It allows users to zoom in to the pixel level, make intricate edits, and apply color grading with fine-grained control, all within the browser. It&apos;s designed for designers and artists who need exactitude in their image work, offering a streamlined interface that avoids the complexity of full-fledged desktop software. Users can import images, make detailed adjustments, and export their modified creations.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Deep-Sea Corals Thrive on Volcanic Heat</title>
-      <link>https://surfaced-x.pages.dev/item/deep-sea-corals-rely-on-volcanic-heat</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deep-sea-corals-rely-on-volcanic-heat</guid>
-      <description>A groundbreaking study published in &apos;Frontiers in Marine Science&apos; in 2022 by researchers from the Woods Hole Oceanographic Institution revealed that certain deep-sea coral species are heavily reliant on hydrothermal vents for their survival. Analyzing a unique community near the Mid-Atlantic Ridge, they found that the corals not only tolerate the extreme temperatures and chemical compositions but actively colonize areas warmed by volcanic activity. This challenges the perception of deep-sea corals as solely dependent on ambient cold ocean currents.</description>
-      <category>Discoveries</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fathom 3.0</title>
-      <link>https://surfaced-x.pages.dev/item/fathom-3-0</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fathom-3-0</guid>
-      <description>Fathom 3.0 is an advanced AI-powered meeting notetaking tool designed to streamline your workflow. This latest version eliminates the need for bots, offering direct integration with popular AI models like ChatGPT and Claude. It provides real-time summaries during meetings and account-wide AI search for insights, making it ideal for professionals who attend numerous virtual or in-person discussions.</description>
+      <title>Amazfit Balance Smartwatch</title>
+      <link>https://surfaced-x.pages.dev/item/amazfit-balance-smartwatch</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/amazfit-balance-smartwatch</guid>
+      <description>The Amazfit Balance is a premium smartwatch focused on holistic health and wellness tracking, offering advanced features like AI-powered coaching, stress monitoring, and body composition analysis. It boasts a vibrant AMOLED display, long battery life, and a sleek, modern design suitable for both athletic pursuits and everyday wear. This watch is perfect for individuals seeking detailed insights into their physical and mental well-being, integrated into a stylish and feature-rich wearable.</description>
       <category>Trending Products</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Opus Token Leaderboard</title>
-      <link>https://surfaced-x.pages.dev/item/opus-token-comparison</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/opus-token-comparison</guid>
-      <description>The Opus Token Leaderboard is a website that anonymously compares the request-token performance of Opus 4.6 and Opus 4.7, two versions of an AI model. It presents data on how these models perform on various tasks, focusing on their token efficiency and output quality. The comparisons are conducted anonymously, providing an objective benchmark for developers and users evaluating different AI model versions. This tool helps users understand which AI model might be more suitable for their specific needs based on empirical performance data.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Early Hominin Tool Use in Africa</title>
-      <link>https://surfaced-x.pages.dev/item/hominin-fossil-reveals-early-tool-use-in-africa</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hominin-fossil-reveals-early-tool-use-in-africa</guid>
-      <description>Paleoanthropologists unearthed stone tools and hominin fossil fragments in Ethiopia, dated to approximately 2.6 million years ago, as reported in &apos;Science&apos; in 2021. The site, known as Bokol Dora 1, revealed remarkably preserved Oldowan tools alongside a mandible fragment. This finding provides some of the earliest definitive evidence of hominin stone tool manufacture and use in East Africa, predating previously accepted sites.</description>
-      <category>Discoveries</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jupid</title>
-      <link>https://surfaced-x.pages.dev/item/jupid-ai-powered-tax-filing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/jupid-ai-powered-tax-filing</guid>
-      <description>Jupid is an innovative financial technology platform designed to bridge the gap between powerful Large Language Models (LLMs) and the complexities of financial transactions. It addresses the common issues of context loss, inconsistent categorization, and lack of memory that plague LLMs when handling financial data. By connecting directly to your bank accounts, Jupid aims to provide a reliable data layer for more accurate and efficient financial management.</description>
+      <title>Framework Laptop 13 (AMD Ryzen 7040 Series)</title>
+      <link>https://surfaced-x.pages.dev/item/framework-laptop-13-amr6</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/framework-laptop-13-amr6</guid>
+      <description>The Framework Laptop 13 is a highly customizable and repairable laptop that now features the latest AMD Ryzen 7040 series processors, offering exceptional performance and efficiency. Users can configure their laptop from the ground up, choosing their preferred CPU, RAM, storage, and even port modules, ensuring a device tailored to their exact needs. Its commitment to sustainability and longevity through easy upgrades and repairs makes it an ideal choice for environmentally conscious consumers and power users alike.</description>
       <category>Trending Products</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>NIST Scientists Create &apos;Any Wavelength&apos; Lasers</title>
-      <link>https://surfaced-x.pages.dev/item/any-wavelength-lasers-nist</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/any-wavelength-lasers-nist</guid>
-      <description>This news article from NIST (National Institute of Standards and Technology) details a breakthrough by their scientists in creating lasers capable of emitting light at virtually any wavelength. This advancement utilizes tiny circuits to manipulate light, offering unprecedented flexibility in laser technology. The development has significant implications for various fields, including telecommunications, sensing, and scientific research, by enabling custom-tailored light sources. This is a scientific discovery rather than a direct tool for end-users, but it highlights groundbreaking technological progress.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ancient Mesopotamian Algebra Uncovered</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-mesopotamian-algebraic-tablet-revealed</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-mesopotamian-algebraic-tablet-revealed</guid>
-      <description>A team led by Dr. Eleanor Robson of the University of Cambridge deciphered a cuneiform tablet from ancient Mesopotamia, dating back to around 1800 BCE, revealing sophisticated algebraic techniques. Published in &apos;Historia Mathematica&apos; in 2022, the tablet demonstrates methods for solving quadratic equations far earlier than previously thought. This finding rewrites the history of mathematics, pushing back the timeline for abstract problem-solving.</description>
-      <category>Discoveries</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google Pixel 8a</title>
-      <link>https://surfaced-x.pages.dev/item/google-pixel-8a</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/google-pixel-8a</guid>
-      <description>The Google Pixel 8a is the latest affordable smartphone from Google, packing flagship-level AI capabilities into a budget-friendly device. It features Google&apos;s powerful Tensor G3 chip, a high-refresh-rate OLED display, and an advanced camera system enhanced by Google&apos;s computational photography. This phone is designed for users who want a premium smartphone experience, including cutting-edge AI features and a superior camera, without the premium price tag.</description>
+      <title>LG StanbyME Go Portable Entertainment Screen</title>
+      <link>https://surfaced-x.pages.dev/item/lg-stanby-me-go-portable-display</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lg-stanby-me-go-portable-display</guid>
+      <description>The LG StanbyME Go is a revolutionary portable entertainment screen that combines a 27-inch Full HD IPS display with a built-in battery and speakers, all housed in a sleek suitcase design. It offers a unique tabletop viewing experience, ideal for spontaneous movie nights, presentations, or gaming sessions anywhere. With its integrated stand and wireless connectivity, it&apos;s designed for ultimate convenience and portability, making it perfect for dorm rooms, outdoor gatherings, or even small office spaces.</description>
       <category>Trending Products</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Track Succession</title>
-      <link>https://surfaced-x.pages.dev/item/track-succession-explore</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/track-succession-explore</guid>
-      <description>Track Succession provides real-time, publicly accessible data on every CEO and CFO change at US public companies, sourced directly from SEC filings. The platform aims to offer transparency into corporate leadership transitions, allowing users to track historical and ongoing executive shifts. It&apos;s a valuable resource for investors, researchers, and anyone interested in the dynamics of corporate governance. The &apos;explore&apos; section allows for detailed filtering and analysis of this data.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vast Antarctic Fungus Network Found</title>
-      <link>https://surfaced-x.pages.dev/item/giant-antarctic-fungus-network-discovered</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/giant-antarctic-fungus-network-discovered</guid>
-      <description>Researchers have discovered a colossal underground fungal network spanning hundreds of square kilometers in Antarctica, identified through extensive soil sampling and DNA analysis. Published in &apos;Nature Ecology &amp; Evolution&apos; in 2023, the findings suggest this ancient mycelial web is a crucial but previously unrecognized component of the continent&apos;s sparse ecosystem. This discovery challenges our understanding of subterranean life and nutrient cycling in extreme environments.</description>
-      <category>Discoveries</category>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Anker 737 Power Bank (PowerCore 24K Hi-Fi)</title>
-      <link>https://surfaced-x.pages.dev/item/anker-737-power-bank-powercore-24k-hifi</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/anker-737-power-bank-powercore-24k-hifi</guid>
-      <description>The Anker 737 Power Bank is a high-capacity portable charger designed for power users and travelers. With a 24,000mAh capacity and 140W total output, it can simultaneously charge multiple devices, including laptops, tablets, and smartphones, at rapid speeds. Its standout feature is the smart digital display that shows power output, input, and estimated recharge time, offering unprecedented transparency into its charging status.</description>
+      <title>Sleep Headphones Wireless Headband</title>
+      <link>https://surfaced-x.pages.dev/item/noise-cancelling-sleep-headphones-headband</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/noise-cancelling-sleep-headphones-headband</guid>
+      <description>A soft Bluetooth headband with ultra-thin flat speakers built in — for sleeping with music, podcasts, or white noise without earbuds.</description>
       <category>Trending Products</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Oberon System 3 Native</title>
-      <link>https://surfaced-x.pages.dev/item/oberon-system-3-native</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/oberon-system-3-native</guid>
-      <description>Oberon System 3 is a compact and efficient operating system and programming environment designed for simplicity and performance. This specific release allows the full Oberon System 3 experience to run natively on a Raspberry Pi 3, eliminating the need for emulation or complex setup. It&apos;s developed by a community of enthusiasts aiming to revive and modernize this powerful, yet often overlooked, computing platform. Users can boot directly into a graphical interface and begin coding or exploring the system&apos;s capabilities immediately.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Underwater Maya City Complex Revealed</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-mayan-city-complex-underwater-reveal</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-mayan-city-complex-underwater-reveal</guid>
-      <description>In 2023, archaeologists announced the discovery of a vast, previously unknown Maya city complex submerged off the coast of Belize, dating back to the Late Classic period (approximately 600-900 CE). Using advanced sonar and underwater surveying techniques, researchers from the Woods Hole Oceanographic Institution identified numerous structures, including pyramids, plazas, and residential buildings, preserved beneath the waves. This astonishing find offers new insights into Maya coastal settlements and their interactions with the marine environment.</description>
-      <category>Discoveries</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Logitech MX Master 4 Mouse</title>
-      <link>https://surfaced-x.pages.dev/item/logitech-mx-master-4-mouse</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/logitech-mx-master-4-mouse</guid>
-      <description>The Logitech MX Master 4 is a wireless, ergonomic mouse designed for ultimate productivity and comfort. It features advanced tracking on virtually any surface, a hyper-fast scroll wheel for navigating long documents or code, and customizable buttons that can be programmed for specific application shortcuts. This mouse is ideal for professionals, creatives, and power users who spend long hours at their computer and demand precision and efficiency.</description>
+      <title>Smart WiFi Body Composition Scale</title>
+      <link>https://surfaced-x.pages.dev/item/wifi-smart-body-composition-scale</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wifi-smart-body-composition-scale</guid>
+      <description>A Bluetooth/WiFi scale that measures weight, BMI, body fat %, muscle mass, and 10+ other metrics — syncs with Apple Health and Fitbit.</description>
       <category>Trending Products</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Claude Design</title>
-      <link>https://surfaced-x.pages.dev/item/claude-design</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/claude-design</guid>
-      <description>Claude Design is an experimental initiative by Anthropic that explores the potential of large language models, like Claude, in the creative process of design. It showcases how AI can be used as a collaborative partner for generating design concepts, iterating on ideas, and even producing visual elements. This tool is aimed at designers, artists, and anyone interested in the intersection of AI and creativity. A product designer could use Claude Design to brainstorm initial interface layouts for a new app, providing prompts to generate various visual directions before committing to a specific path.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lunar Rock Samples Show Water Formed Very Early</title>
-      <link>https://surfaced-x.pages.dev/item/lunar-rock-samples-reveal-water-formed-early</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lunar-rock-samples-reveal-water-formed-early</guid>
-      <description>Analysis of lunar rock samples brought back by China&apos;s Chang&apos;e-5 mission, published in *Nature Geoscience* in 2021, has provided compelling evidence that water existed on the Moon much earlier than previously thought. Researchers, including Dr. Huicun He from the Institute of Geology and Geophysics, Chinese Academy of Sciences, found hydroxyl (OH) embedded within mineral grains, indicating that water-forming processes were active on the Moon as far back as 2 billion years ago, potentially even earlier. This discovery has profound implications for our understanding of the early solar system and the evolution of celestial bodies.</description>
-      <category>Discoveries</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Velo</title>
-      <link>https://surfaced-x.pages.dev/item/velo-share-anything-as-video-messages</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/velo-share-anything-as-video-messages</guid>
-      <description>Velo is a new tool that transforms raw screen recordings into polished, shareable video messages. Leveraging AI, it simplifies the process of creating professional-looking videos from your computer screen. This is perfect for anyone who needs to communicate complex ideas visually, provide software walkthroughs, or offer feedback in a dynamic and engaging format, moving beyond static screenshots or lengthy text explanations.</description>
+      <title>Shiatsu Electric Foot Massager with Heat</title>
+      <link>https://surfaced-x.pages.dev/item/shiatsu-foot-massager-electric</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/shiatsu-foot-massager-electric</guid>
+      <description>A foot-bath-style massager with kneading shiatsu nodes, rolling massage, and optional heat for full-foot and arch relief.</description>
       <category>Trending Products</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>PanicLock</title>
-      <link>https://surfaced-x.pages.dev/item/paniclock</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/paniclock</guid>
-      <description>PanicLock is a macOS utility that enhances security by disabling Touch ID and requiring a full password unlock when your MacBook&apos;s lid is closed. This prevents unauthorized access if your device is stolen or accessed without your knowledge while you&apos;re away from your desk. It&apos;s particularly useful for individuals working with sensitive data who need an extra layer of protection beyond standard lock screen settings. A remote worker at a coffee shop could use PanicLock to ensure that even if their laptop is briefly unattended, it cannot be woken and accessed via fingerprint.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Deep-Sea Microbes Found to Eat Plastic Bottles</title>
-      <link>https://surfaced-x.pages.dev/item/deep-sea-microbes-recycle-plastic-bottles</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deep-sea-microbes-recycle-plastic-bottles</guid>
-      <description>In a groundbreaking discovery published in the journal *Frontiers in Marine Science* in 2021, researchers from the Ocean University of China identified a novel consortium of deep-sea microbes capable of degrading polyethylene terephthalate (PET), the plastic commonly used in beverage bottles. Lead scientist Dr. Jianhua Li noted that these microorganisms, isolated from sediment samples collected at a depth of 2,500 meters in the South China Sea, possess unique enzymes that can break down PET into simpler, non-toxic compounds. This finding opens up significant avenues for tackling global plastic pollution.</description>
-      <category>Discoveries</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Agentplace AI Agents</title>
-      <link>https://surfaced-x.pages.dev/item/agentplace-ai-agents</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/agentplace-ai-agents</guid>
-      <description>Agentplace offers a platform for creating and deploying specialized AI agents designed for specific real-world tasks and workflows. Users can start with pre-built agents for common needs or customize their own within minutes. These agents can handle everything from lead routing and in-depth research to document analysis and appointment scheduling, making them ideal for businesses and professionals looking to automate repetitive and complex processes.</description>
+      <title>DJI Mic Mini Wireless Lavalier Microphone</title>
+      <link>https://surfaced-x.pages.dev/item/dji-mic-mini-wireless-lavalier</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dji-mic-mini-wireless-lavalier</guid>
+      <description>An ultralight 2-transmitter wireless microphone system for creators — 48 hours of use, automatic noise cancelling, and plug-and-play for iPhone, Android, and cameras.</description>
       <category>Trending Products</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Interval Calculator</title>
-      <link>https://surfaced-x.pages.dev/item/interval-calculator</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/interval-calculator</guid>
-      <description>This is a specialized calculator designed to perform operations on disjoint sets of intervals. It allows users to input multiple, non-overlapping ranges and then perform calculations such as union, intersection, difference, and more, outputting the resulting set of intervals. It&apos;s built by Victor Poughon and is useful for anyone working with mathematical or computational problems involving ranges. A researcher analyzing data that is only valid within specific time windows could use this calculator to efficiently find the combined valid periods after several distinct data collection phases.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GitHub CLI Telemetry Collection</title>
-      <link>https://surfaced-x.pages.dev/item/github-cli-telemetry</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/github-cli-telemetry</guid>
-      <description>The GitHub Command Line Interface (CLI) now collects pseudo-anonymous telemetry data to understand user behavior and identify areas for improvement. This means that while usage data is gathered, it&apos;s designed to protect individual user identity and privacy. The breakthrough lies in implementing a privacy-preserving telemetry system that provides valuable insights into tool usage patterns without compromising user anonymity.</description>
-      <category>Future Radar</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Ancient Tree Fossil Found Under Antarctic Ice</title>
-      <link>https://surfaced-x.pages.dev/item/antarctic-ice-sheet-reveals-ancient-tree-fossil</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/antarctic-ice-sheet-reveals-ancient-tree-fossil</guid>
-      <description>A team of paleontologists, led by Dr. Stephen Jones of the British Antarctic Survey, announced in 2023 the discovery of a remarkably well-preserved fossilized tree, estimated to be around 260 million years old, found deep beneath the Antarctic ice sheet. The specimen, a cast of a Glossopteris tree, was unearthed during an ice core drilling expedition in the Transantarctic Mountains. Its existence provides compelling evidence that Antarctica was once a temperate region capable of supporting lush forests, drastically altering our understanding of Earth&apos;s past climate and continental drift.</description>
-      <category>Discoveries</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ProdShort</title>
-      <link>https://surfaced-x.pages.dev/item/prodshort-meeting-to-content</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/prodshort-meeting-to-content</guid>
-      <description>ProdShort transforms spoken content from your meetings into ready-to-post social media shorts and posts, addressing the challenge of creating authentic and time-consuming content. Unlike AI content generators that can sound fake, ProdShort captures the genuine value of your conversations, making them easily shareable. This is an ideal solution for founders, marketers, and teams looking to efficiently leverage their internal discussions for external communication and content marketing.</description>
+      <title>iRestore LED Light Therapy Face Mask (360 LEDs)</title>
+      <link>https://surfaced-x.pages.dev/item/irestore-led-face-mask-360</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/irestore-led-face-mask-360</guid>
+      <description>A 360-LED clinical-grade light therapy mask with red, blue, and near-infrared wavelengths — one of the highest LED densities at this price.</description>
       <category>Trending Products</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Smol machines</title>
-      <link>https://surfaced-x.pages.dev/item/smol-machines</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/smol-machines</guid>
-      <description>Smol machines are incredibly small, portable virtual machines designed for sub-second coldstarts. They allow you to package and run applications with their dependencies in a lightweight, isolated environment, ensuring consistency across different systems. This is particularly beneficial for developers needing to test or deploy applications quickly and reliably. For instance, a developer could package a web server application with its specific runtime and libraries into a smol machine to guarantee it runs identically in development, staging, and production.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>3.4 Million Solar Panels</title>
-      <link>https://surfaced-x.pages.dev/item/3-4m-solar-panels</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/3-4m-solar-panels</guid>
-      <description>This milestone highlights the deployment of an enormous solar farm comprising 3.4 million individual solar panels, representing a significant step in large-scale renewable energy generation. The project, spearheaded by American Solar Farms, aims to harness solar power at an industrial level, contributing substantially to the clean energy grid. It leverages advancements in photovoltaic technology and efficient land utilization for maximum energy capture.</description>
-      <category>Future Radar</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bronze Age City Used Advanced Flood Control Systems</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-chinese-bronze-age-city-flood-controls</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-chinese-bronze-age-city-flood-controls</guid>
-      <description>Archaeologists have unearthed evidence of a sophisticated Bronze Age city in China&apos;s Yellow River valley, dating back approximately 4,000 years, featuring remarkably advanced water management and flood control systems. The discovery, detailed in studies by researchers from the Chinese Academy of Social Sciences, includes a complex network of dikes, channels, and reservoirs designed to protect the settlement from devastating floods. This finding challenges previous assumptions about the technological capabilities of early Chinese civilizations and their understanding of hydraulic engineering.</description>
-      <category>Discoveries</category>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Littlebird</title>
-      <link>https://surfaced-x.pages.dev/item/littlebird-ai-work-assistant</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/littlebird-ai-work-assistant</guid>
-      <description>Littlebird is an AI assistant designed to understand and integrate with your existing work context, providing highly relevant assistance. It gains insight by observing your screen activity and transcribing meetings, allowing it to generate more accurate answers, drafts, and plans. This makes Littlebird a powerful tool for professionals who need an AI assistant that truly grasps their ongoing projects and workflow, enhancing productivity and reducing the need for constant context re-explanation.</description>
+      <title>RENPHO Eyeris 3 Eye Massager with Heat &amp; Cooling</title>
+      <link>https://surfaced-x.pages.dev/item/renpho-eyeris-3-eye-massager</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/renpho-eyeris-3-eye-massager</guid>
+      <description>The upgraded eye massager with both heat and cooling modes, voice control, and Bluetooth music — for premium eye and migraine relief.</description>
       <category>Trending Products</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>boringBar</title>
-      <link>https://surfaced-x.pages.dev/item/boringbar</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/boringbar</guid>
-      <description>boringBar is a lightweight, macOS-native taskbar-style dock replacement that aims to simplify your workflow by presenting open applications and essential system information in a clean, unobtrusive bar at the top of your screen. It&apos;s designed for users who find the default macOS Dock distracting or prefer a more minimalist interface. For example, a graphic designer could use boringBar to keep track of their open Adobe Suite applications and quickly switch between them without cluttering their main desktop space.</description>
+      <title>RENPHO Active Massage Gun Mini</title>
+      <link>https://surfaced-x.pages.dev/item/renpho-mini-massage-gun</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/renpho-mini-massage-gun</guid>
+      <description>A compact 280g percussive therapy gun with five speed settings and four head attachments — quiet enough to use in an office.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Netro Whisperer Smart Plant Sensor (Solar)</title>
+      <link>https://surfaced-x.pages.dev/item/netro-smart-plant-sensor-solar</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/netro-smart-plant-sensor-solar</guid>
+      <description>A solar-powered smart garden sensor that monitors soil moisture, temperature, and sunlight — syncs with the Netro smart irrigation system.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>RAINPOINT Smart WiFi Plant Moisture Sensor</title>
+      <link>https://surfaced-x.pages.dev/item/rainpoint-smart-wifi-plant-sensor</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rainpoint-smart-wifi-plant-sensor</guid>
+      <description>A WiFi-connected soil probe that sends push notifications and emails when your plant is too dry or too wet — app controlled.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GYH 8-Color Wireless LED Light Therapy Mask</title>
+      <link>https://surfaced-x.pages.dev/item/gyh-8-color-led-light-therapy-mask</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/gyh-8-color-led-light-therapy-mask</guid>
+      <description>An FSA/HSA-eligible wireless LED face mask with 8 treatment colours including green for dark spots and near-infrared for deep tissue.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>TMY 1080P Portable Mini Projector</title>
+      <link>https://surfaced-x.pages.dev/item/tmy-1080p-mini-projector</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tmy-1080p-mini-projector</guid>
+      <description>A compact portable projector with full 1080p support, Bluetooth audio, and a 170-inch max screen size — for movies anywhere.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ninja Blast Portable Blender</title>
+      <link>https://surfaced-x.pages.dev/item/ninja-blast-portable-blender</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ninja-blast-portable-blender</guid>
+      <description>A cordless USB-C rechargeable personal blender that makes a protein shake or smoothie directly in its 18oz to-go vessel.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Shiatsu Neck &amp; Back Massager Pillow</title>
+      <link>https://surfaced-x.pages.dev/item/shiatsu-neck-back-massager-pillow</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/shiatsu-neck-back-massager-pillow</guid>
+      <description>A U-shaped massager pillow with four deep-kneading shiatsu nodes and built-in heat — for the car, office chair, or couch.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunrise Alarm Clock Wake-Up Light</title>
+      <link>https://surfaced-x.pages.dev/item/sunrise-alarm-clock-wake-up-light-budget</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sunrise-alarm-clock-wake-up-light-budget</guid>
+      <description>A bedside lamp that simulates a natural sunrise over 30 minutes, gradually brightening to wake you without a jarring alarm sound.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Heated Neck &amp; Shoulder Massager Wrap</title>
+      <link>https://surfaced-x.pages.dev/item/heated-neck-shoulder-massager-pad</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/heated-neck-shoulder-massager-pad</guid>
+      <description>A heated massage pad that drapes over the neck and shoulders with shiatsu nodes that knead tension away hands-free.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Electric Spin Scrubber with Extension Arm</title>
+      <link>https://surfaced-x.pages.dev/item/electric-spin-scrubber-shower</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/electric-spin-scrubber-shower</guid>
+      <description>A cordless rotating brush with an adjustable extension arm for cleaning tile, grout, bathtubs, and toilets without kneeling.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Auxoliev 4-Color LED Light Therapy Face Mask</title>
+      <link>https://surfaced-x.pages.dev/item/auxoliev-4-color-led-face-mask</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/auxoliev-4-color-led-face-mask</guid>
+      <description>An FSA/HSA-eligible LED face mask with four light modes — red, blue, green, and yellow — for a comprehensive at-home facial treatment.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BlissLights Sky Lite Evolve Galaxy Projector</title>
+      <link>https://surfaced-x.pages.dev/item/blisslights-sky-lite-evolve-projector</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/blisslights-sky-lite-evolve-projector</guid>
+      <description>The upgraded Sky Lite with patented nebula cloud technology, WiFi app control, and voice-assistant integration.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>RENPHO Eyeris 1 Eye Massager with Heat</title>
+      <link>https://surfaced-x.pages.dev/item/renpho-eye-massager-eyeris-1</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/renpho-eye-massager-eyeris-1</guid>
+      <description>A wearable eye massager with oscillating compression, built-in heat, and Bluetooth music — FSA and HSA eligible.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Resistance Bands 5-Pack (Loop Style)</title>
+      <link>https://surfaced-x.pages.dev/item/resistance-bands-5-pack-loop</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/resistance-bands-5-pack-loop</guid>
+      <description>Five graduated resistance loop bands — from light to extra-heavy — for home workouts, physical therapy, and warm-ups.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cold Brew Coffee Maker Pitcher</title>
+      <link>https://surfaced-x.pages.dev/item/cold-brew-coffee-maker-pitcher</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cold-brew-coffee-maker-pitcher</guid>
+      <description>A glass or BPA-free pitcher with a fine-mesh steeping filter for making smooth, low-acid cold brew concentrate at home.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Travel Packing Cubes 6-Pack</title>
+      <link>https://surfaced-x.pages.dev/item/travel-packing-cubes-6-pack</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/travel-packing-cubes-6-pack</guid>
+      <description>Six compression packing cubes in different sizes that organise a suitcase by outfit or category — and compress clothes to fit more in.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>High-Density Grid Foam Roller</title>
+      <link>https://surfaced-x.pages.dev/item/high-density-foam-roller-grid</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/high-density-foam-roller-grid</guid>
+      <description>A textured foam roller with a multi-dimensional grid surface that targets muscle knots more precisely than smooth rollers.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Anti-Fatigue Standing Desk Mat</title>
+      <link>https://surfaced-x.pages.dev/item/anti-fatigue-standing-desk-mat</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/anti-fatigue-standing-desk-mat</guid>
+      <description>A thick ergonomic foam mat that cushions feet and encourages micro-movements during standing desk sessions.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NEWKEY LED Light Therapy Face Mask</title>
+      <link>https://surfaced-x.pages.dev/item/newkey-led-light-therapy-face-mask</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/newkey-led-light-therapy-face-mask</guid>
+      <description>A wearable LED face mask with red light (anti-ageing) and blue light (anti-acne) modes — professional phototherapy at home.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BlissLights Sky Lite 2.0 Galaxy Projector</title>
+      <link>https://surfaced-x.pages.dev/item/blisslights-sky-lite-2-galaxy-projector</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/blisslights-sky-lite-2-galaxy-projector</guid>
+      <description>An app-controlled RGB laser star and nebula cloud projector that syncs to music and transforms any room into a galaxy.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tangram Smart Jump Rope Rookie</title>
+      <link>https://surfaced-x.pages.dev/item/tangram-smart-jump-rope-rookie</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tangram-smart-jump-rope-rookie</guid>
+      <description>A Bluetooth jump rope that counts jumps, calories, and duration automatically — synced to an app via Bluetooth.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Portable UV-C Sanitizer Wand</title>
+      <link>https://surfaced-x.pages.dev/item/portable-uv-sanitiser-wand</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/portable-uv-sanitiser-wand</guid>
+      <description>A handheld UV-C light wand that kills 99.9% of bacteria and viruses on surfaces in 10 seconds — no chemicals required.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Acupressure Mat and Pillow Set</title>
+      <link>https://surfaced-x.pages.dev/item/acupressure-mat-pillow-set</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/acupressure-mat-pillow-set</guid>
+      <description>A foam mat covered in thousands of plastic acupressure points that stimulate circulation and relieve back pain when you lie on it.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Wireless Qi Fast Charging Pad</title>
+      <link>https://surfaced-x.pages.dev/item/wireless-qi-phone-charger-pad</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wireless-qi-phone-charger-pad</guid>
+      <description>A slim 15W wireless charging pad for iPhone and Android — just set it down, no cables to plug in.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Silicone Stretch Lids Food Cover Set</title>
+      <link>https://surfaced-x.pages.dev/item/silicone-stretch-lids-food-covers</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/silicone-stretch-lids-food-covers</guid>
+      <description>Expandable silicone lids in multiple sizes that seal any bowl, pot, can, or container — the reusable plastic-wrap alternative.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Electric Lint Remover &amp; Fabric Shaver</title>
+      <link>https://surfaced-x.pages.dev/item/electric-lint-remover-fabric-shaver</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/electric-lint-remover-fabric-shaver</guid>
+      <description>A rechargeable electric shaver that removes fabric pills, fuzz, and lint from sweaters, sofas, and clothes in seconds.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Galaxy Star Projector for Bedroom</title>
+      <link>https://surfaced-x.pages.dev/item/budget-galaxy-star-projector</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/budget-galaxy-star-projector</guid>
+      <description>A compact rotating projector that fills a room with stars, nebula clouds, and aurora effects — with app and voice control.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Digital Food Kitchen Scale</title>
+      <link>https://surfaced-x.pages.dev/item/digital-food-kitchen-scale</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/digital-food-kitchen-scale</guid>
+      <description>A precision kitchen scale accurate to 1 gram, with a pull-out display for easy reading in any bowl or container.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Collapsible Silicone Water Bottle</title>
+      <link>https://surfaced-x.pages.dev/item/collapsible-silicone-water-bottle</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/collapsible-silicone-water-bottle</guid>
+      <description>A food-grade silicone bottle that collapses to 1 inch flat when empty — perfect for travel, hiking, and gym bags.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Smart WiFi Mini Plug (2-Pack)</title>
+      <link>https://surfaced-x.pages.dev/item/smart-wifi-mini-plug-2pack</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/smart-wifi-mini-plug-2pack</guid>
+      <description>Compact smart plugs that turn any outlet into a voice-controlled or app-controlled socket — works with Alexa and Google Home.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>COSRX Advanced Snail 96 Mucin Power Essence</title>
+      <link>https://surfaced-x.pages.dev/item/cosrx-snail-mucin-96-essence</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cosrx-snail-mucin-96-essence</guid>
+      <description>A 96.3% snail secretion filtrate serum that repairs skin barrier damage, fades hyperpigmentation, and delivers intense hydration.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>3D Contoured Sleep Eye Mask</title>
+      <link>https://surfaced-x.pages.dev/item/contoured-3d-sleep-eye-mask</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/contoured-3d-sleep-eye-mask</guid>
+      <description>A moulded eye mask with two contoured cups that create complete darkness without touching the eyelids — comfortable for side and back sleepers.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Digital Handheld Luggage Scale</title>
+      <link>https://surfaced-x.pages.dev/item/handheld-digital-luggage-scale</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/handheld-digital-luggage-scale</guid>
+      <description>A hook-and-lift luggage scale that reads your bag&apos;s weight in under 3 seconds — saves you from airline overweight fees.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rechargeable Clip-On Book Reading Light</title>
+      <link>https://surfaced-x.pages.dev/item/clip-on-book-reading-light</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/clip-on-book-reading-light</guid>
+      <description>A USB-rechargeable LED light that clips onto any book, Kindle, or notebook — three brightness levels and a flexible neck.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Transparent Sticky Notes 1000-Pack (6 Sizes)</title>
+      <link>https://surfaced-x.pages.dev/item/transparent-sticky-notes-1000-pack</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/transparent-sticky-notes-1000-pack</guid>
+      <description>1000 waterproof clear sticky notes across six sizes — from tiny flags to full 3×3 annotation pads.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Longmann Invisible Posture Corrector</title>
+      <link>https://surfaced-x.pages.dev/item/longmann-invisible-posture-corrector</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/longmann-invisible-posture-corrector</guid>
+      <description>An ultra-thin posture brace made from breathable elastic that sits flat under any shirt — genuinely invisible in daily wear.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Google Plans to Invest up to $40B in Anthropic</title>
+      <link>https://surfaced-x.pages.dev/item/google-plans-to-invest-up-to-40b-in-anthropic</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/google-plans-to-invest-up-to-40b-in-anthropic</guid>
+      <description>This Bloomberg article reports on Google&apos;s significant planned investment in Anthropic, a leading AI safety and research company. The substantial funding indicates a major strategic move by Google to bolster its position in the rapidly evolving artificial intelligence landscape, likely focusing on advanced AI model development and competitive edge against rivals.</description>
       <category>Hidden Gems</category>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Making RAM at Home</title>
-      <link>https://surfaced-x.pages.dev/item/making-ram-at-home</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/making-ram-at-home</guid>
-      <description>This refers to a project that demonstrates the feasibility of constructing basic Random Access Memory (RAM) modules using accessible components and a home laboratory setup. The video showcases a step-by-step process, likely involving discrete electronic components like transistors and capacitors, to build functional memory circuits. The achievement is in demystifying and enabling DIY creation of fundamental computing hardware, even if at a rudimentary level.</description>
-      <category>Future Radar</category>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <title>BAIMEI Jade Roller + Gua Sha Facial Tools</title>
+      <link>https://surfaced-x.pages.dev/item/baimei-jade-roller-gua-sha</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/baimei-jade-roller-gua-sha</guid>
+      <description>A classic jade stone roller and gua sha scraping tool set — the skincare ritual that has millions of daily practitioners.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Ancient DNA Reveals Surprising European Migrations</title>
-      <link>https://surfaced-x.pages.dev/item/ancient-dna-reveals-surprising-human-migration-patterns-in-europe</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ancient-dna-reveals-surprising-human-migration-patterns-in-europe</guid>
-      <description>Studies published in journals like Nature in 2018 and 2022, led by researchers such as David Reich at Harvard Medical School and Eske Willerslev at the University of Cambridge, have utilized ancient DNA to reconstruct complex human migration patterns across prehistoric Europe. These findings have revealed significant population turnovers and genetic admixtures, overturning previous assumptions about the stability of early European societies. For instance, it was discovered that the spread of farming from the Near East involved a massive influx of people, and later, the Yamnaya culture from the Pontic-Caspian steppe dramatically reshaped the genetic landscape of Europe.</description>
-      <category>Discoveries</category>
-      <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+      <title>New 10 GbE USB Adapters</title>
+      <link>https://surfaced-x.pages.dev/item/new-10-gbe-usb-adapters-cooler-smaller-cheaper</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/new-10-gbe-usb-adapters-cooler-smaller-cheaper</guid>
+      <description>This article, written by Jeff Geerling, details recent advancements in 10 Gigabit Ethernet (10 GbE) USB adapters. It highlights how new models are becoming more compact, efficient (cooler running), and importantly, more affordable. The piece provides a practical overview for users looking to upgrade their network connectivity for faster data transfers, particularly relevant for home lab enthusiasts, content creators, and small businesses.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Truweo Posture Corrector Back Brace</title>
+      <link>https://surfaced-x.pages.dev/item/truweo-posture-corrector</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/truweo-posture-corrector</guid>
+      <description>A figure-8 back brace that gently pulls the shoulders back, re-training posture while sitting, standing, or working.</description>
+      <category>Trending Products</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How LLMs Work</title>
+      <link>https://surfaced-x.pages.dev/item/how-llms-work-interactive-visual-guide</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/how-llms-work-interactive-visual-guide</guid>
+      <description>This is an interactive visual guide that demystifies the inner workings of Large Language Models (LLMs), based on Andrej Karpathy&apos;s influential lecture. It breaks down complex concepts like tokenization, embeddings, attention mechanisms, and transformer architectures into digestible, visual explanations. The tool allows users to explore these concepts dynamically, making the learning process more engaging and intuitive.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

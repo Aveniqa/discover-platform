@@ -1,46 +1,46 @@
 [
   {
-    "slug": "arctic-permafrost-releases-ancient-viruses-potent-threat",
-    "title": "Arctic Permafrost Releases Ancient Viruses, Potent Threat",
+    "slug": "early-farmers-domesticated-insects-ancient-egypt",
+    "title": "Ancient Farmers Cultivated Insects",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "In 2024, a team of French and Russian scientists, led by Dr. Jean-Michel Claverie of Aix-Marseille University, successfu",
+    "description": "Archaeological evidence from ancient Egypt, unearthed by a team led by Dr. David O'Connor of New York University, sugges",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "fathom-3-0",
-    "title": "Fathom 3.0",
+    "slug": "amazfit-balance-smartwatch",
+    "title": "Amazfit Balance Smartwatch",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "Fathom 3.0 is an advanced AI-powered meeting notetaking tool designed to streamline your workflow. This latest version e",
-    "badge": "best-value",
+    "description": "The Amazfit Balance is a premium smartwatch focused on holistic health and wellness tracking, offering advanced features",
+    "badge": null,
     "type": "product"
   },
   {
-    "slug": "github-cli-telemetry-collection",
-    "title": "GitHub CLI telemetry",
+    "slug": "google-plans-to-invest-up-to-40b-in-anthropic",
+    "title": "Google Plans to Invest up to $40B in Anthropic",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This page details GitHub CLI's pseudoanonymous telemetry collection. It explains that the GitHub Command Line Interface ",
+    "description": "This Bloomberg article reports on Google's significant planned investment in Anthropic, a leading AI safety and research",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "github-cli-telemetry",
-    "title": "GitHub CLI Telemetry Collection",
+    "slug": "sabotaging-projects-overthinking",
+    "title": "Agile Project Management Refinements",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "The GitHub Command Line Interface (CLI) now collects pseudo-anonymous telemetry data to understand user behavior and ide",
+    "description": "This discusses how common project management pitfalls, such as overthinking, scope creep, and structural diffing (analyz",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "huashu-design",
-    "title": "Huashu Design",
+    "slug": "littlebird-ai",
+    "title": "Littlebird",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Huashu Design is a revolutionary approach to creating high-fidelity prototypes, presentations, and animations directly w",
+    "description": "Littlebird is an AI assistant designed to deeply understand your work context, providing remarkably relevant assistance.",
     "badge": null,
     "type": "tool"
   }
