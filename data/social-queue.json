@@ -1146,7 +1146,69 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "alien-mega-structures-in-space",
+      "title": "Alien Mega-Structures: Is Dyson Spheres Possible?",
+      "category": "discoveries",
+      "imageUrl": "https://images.pexels.com/photos/13107929/pexels-photo-13107929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Illustration of a Dyson Sphere surrounding a star, capturing its energy.",
+      "productUrl": "https://surfaced-x.pages.dev/item/alien-mega-structures-in-space?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/alien-mega-structures-in-space?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post",
+      "sourceLink": "https://science.nasa.gov/universe/search-for-life/searching-for-signs-of-intelligent-life-technosignatures/",
+      "platforms": {
+        "pinterest": {
+          "title": "Alien Mega-Structures: Could Dyson Spheres Be Real?",
+          "description": "Are aliens building Dyson Spheres? Scientists are hunting for massive alien megastructures that harness star power. What if we're looking for the wrong thing? #space #aliens #dyson_sphere #astronomy",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "Forget tiny radio signals. What if advanced aliens are building Dyson Spheres? We might spot them by their waste heat.\n\n#science #discovery"
+        },
+        "twitter": {
+          "text": "Could alien civilizations be building Dyson Spheres to capture stellar energy? Scientists are looking for these massive structures by their heat signatures. Mind-blowing possibilities! https://surfaced-x.pages.dev/item/alien-mega-structures-in-space?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-25T15:56:44.015Z",
+      "publishedAt": "2026-04-25T15:56:45.928Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "adaptive-liquid-metal-robotics",
+      "title": "adaptive-liquid-metal-robotics",
+      "category": "future-radar",
+      "imageUrl": "https://images.pexels.com/photos/31233586/pexels-photo-31233586.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "A flowing, metallic robot seamlessly changing its shape.",
+      "productUrl": "https://surfaced-x.pages.dev/item/adaptive-liquid-metal-robotics?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/adaptive-liquid-metal-robotics?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Liquid Metal Robotics: Shape-Shifting Machines",
+          "description": "Imagine robots that can flow, adapt, and reconfigure their shapes on demand. Liquid metal robotics are making this sci-fi concept a reality. These aren't your rigid, clunky bots – they're fluid, adaptable, and could revolutionize fields from medicine to manufacturing. Still early days, but the potential is mind-blowing. #robotics #futuretech #innovation #materials science",
+          "boardName": "Future Tech"
+        },
+        "bluesky": {
+          "text": "Robots that can literally melt and reform? Liquid metal tech is here, and it's changing the game for what a machine can be. Forget fixed forms; these bots adapt and flow. The future is looking pretty fluid.\n\n#futuretech #innovation"
+        },
+        "twitter": {
+          "text": "What if robots could change shape on the fly? Liquid metal robotics are blurring the lines between solid and fluid, opening up incredible possibilities for adaptable machines. Still experimental, but the future is looking very shapeshifting. https://surfaced-x.pages.dev/item/adaptive-liquid-metal-robotics?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-25T15:56:44.015Z",
+      "publishedAt": "2026-04-25T15:58:03.173Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-24T16:11:10.278Z"
+  "lastGenerated": "2026-04-25T15:56:44.016Z"
 }
