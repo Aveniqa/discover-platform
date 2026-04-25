@@ -197,6 +197,9 @@ function DevelopmentStageBar({ currentStage }: { currentStage: string }) {
 
 /* ---- CTA Button Styles ---- */
 const ctaStyles: Record<string, string> = {
+  // Amazon products get the signature amber/orange treatment
+  "product-amazon":
+    "bg-amber-400 hover:bg-amber-300 text-black shadow-[0_0_30px_rgba(251,191,36,0.25)] hover:shadow-[0_0_45px_rgba(251,191,36,0.35)]",
   product:
     "bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 shadow-[0_0_25px_rgba(52,211,153,0.2)] hover:shadow-[0_0_40px_rgba(52,211,153,0.3)]",
   default: "btn-gradient",
@@ -515,11 +518,15 @@ export default async function ItemPage({ params }: Props) {
                     data-item-category={category}
                     data-item-type={item.type}
                     id="main-cta-button"
-                    className={`inline-flex items-center gap-2.5 px-8 py-4 rounded-xl text-white font-bold text-base hover:-translate-y-0.5 transition-all ${
-                      ctaStyles[item.type] || ctaStyles.default
+                    className={`inline-flex items-center gap-2.5 px-8 py-4 rounded-xl font-bold text-base hover:-translate-y-0.5 transition-all ${
+                      item.type === "product" && (isAffiliate && item.affiliate?.provider === "amazon" || outboundUrl?.includes("amazon.com"))
+                        ? ctaStyles["product-amazon"] + " text-black"
+                        : "text-white " + (ctaStyles[item.type] || ctaStyles.default)
                     }`}
                   >
-                    {ctaLabel}
+                    {item.type === "product" && outboundUrl?.includes("amazon.com")
+                      ? "Check Price on Amazon"
+                      : ctaLabel}
                     <span aria-hidden="true">&rarr;</span>
                   </a>
                   {logoDomain && (
@@ -790,6 +797,7 @@ export default async function ItemPage({ params }: Props) {
           ctaUrl={outboundUrl}
           isAffiliate={isAffiliate}
           itemType={item.type}
+          provider={item.affiliate?.provider || (outboundUrl?.includes("amazon.com") ? "amazon" : undefined)}
         />
       )}
     </>
