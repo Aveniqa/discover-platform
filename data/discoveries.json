@@ -1,61 +1,5 @@
 [
   {
-    "id": 62,
-    "slug": "ancient-egyptian-bread-fermentation",
-    "title": "Secrets of Ancient Egyptian Bread Fermentation Unlocked",
-    "shortDescription": "Scientists have successfully recreated ancient Egyptian sourdough bread using yeast strains isolated from pottery shards found at archaeological sites. This provides direct insight into their baking techniques.",
-    "category": "History",
-    "whyItIsInteresting": "This discovery offers a tangible taste of the past, revealing the sophisticated microbial understanding and fermentation processes employed by one of history's greatest civilizations. It connects us directly to the daily lives of ancient Egyptians.",
-    "imageIdea": "ancient egyptian bread pottery",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 63,
-    "slug": "octopus-arms-independent-brains",
-    "title": "Octopus Arms Possess 'Mini-Brains' That Can Act Independently",
-    "shortDescription": "Research shows that octopus arms have a complex nervous system allowing them to taste, touch, and even make decisions without direct input from the central brain. Each arm can act semi-autonomously.",
-    "category": "Nature",
-    "whyItIsInteresting": "This decentralized intelligence is unlike anything seen in most animals, suggesting a radically different evolutionary path for problem-solving and survival. It makes us reconsider what 'intelligence' truly means.",
-    "imageIdea": "octopus arm tentacle suckers",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 64,
-    "slug": "antarctic-ice-reveals-ancient-solar-storm",
-    "title": "Ancient Solar Storms Frozen in Antarctic Ice",
-    "shortDescription": "Scientists have discovered evidence of massive solar storms from thousands of years ago preserved in Antarctic ice cores. These events, far larger than anything observed in modern times, offer a glimpse into the Sun's more violent past.",
-    "category": "Science",
-    "whyItIsInteresting": "This finding reveals the immense power of past solar events and raises questions about the potential risks to our modern technological infrastructure if such a storm were to occur today. It's like finding a cosmic time capsule of extreme solar activity.",
-    "imageIdea": "antarctic ice core drill",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 65,
-    "slug": "archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo",
-    "title": "Remarkable Roman Shipwreck Reveals Ancient Trade Secrets",
-    "shortDescription": "A remarkably well-preserved Roman-era shipwreck has been discovered off the coast, containing intact amphorae and other cargo. The find offers an unprecedented look into the trade routes and goods of the ancient Mediterranean.",
-    "category": "History",
-    "whyItIsInteresting": "This discovery provides a tangible link to ancient commerce, allowing historians to reconstruct trade networks and understand the types of goods transported. The sheer preservation of the cargo makes it feel like a snapshot from 2,000 years ago.",
-    "imageIdea": "roman amphora shipwreck underwater",
-    "sourceLink": "https://www.smithsonianmag.com/smart-news/roman-shipwreck-thousands-of-years-old-found-intact-in-mediterranean-180979539/",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 66,
-    "slug": "ai-translates-ancient-lost-language",
-    "title": "AI Deciphers Previously Untranslatable Ancient Language",
-    "shortDescription": "Artificial intelligence has successfully translated a long-lost ancient language that has baffled scholars for decades. This breakthrough opens up new avenues for understanding forgotten civilizations and their histories.",
-    "category": "Technology",
-    "whyItIsInteresting": "The application of advanced AI to solve a historical linguistic puzzle is a testament to technological progress. It demonstrates how AI can unlock secrets from the past, enriching our understanding of human civilization.",
-    "imageIdea": "ancient cuneiform tablet ai algorithm",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
     "id": 67,
     "slug": "the-dancing-plague-of-1518-a-mysterious-outbreak-of-uncontrollable-dancing",
     "title": "The Dancing Plague of 1518: A Mysterious Outbreak of Uncontrollable Dancing",
@@ -1086,8 +1030,7 @@
     "whyItIsInteresting": "Finding a 260-million-year-old tree fossil under the Antarctic ice is an astonishing revelation that paints a vivid picture of a vastly different Earth. This discovery directly supports the theory of continental drift and the existence of the supercontinent Pangaea, of which Antarctica was once a part. The Glossopteris tree, a type of flora found on other southern continents like Australia, South America, and Africa, is a key piece of fossil evidence that helped scientists piece together the ancient landmasses. The exceptional preservation of this specimen, encased in ice for eons, offers a unique window into the ancient Antarctic ecosystem, suggesting a climate far warmer than today's frigid conditions, potentially even a temperate forest. It highlights how dynamic our planet's climate and geography have been over geological timescales. This discovery fuels further research into ancient paleoclimates and the evolutionary history of plants, prompting the question: What other secrets lie frozen beneath Antarctica's icy expanse, waiting to rewrite our understanding of Earth's ancient past?",
     "imageIdea": "fossilized tree trunk ice",
     "type": "discovery",
-    "dateAdded": "2026-04-20",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-20"
   },
   {
     "id": 155,
@@ -1109,8 +1052,7 @@
     "whyItIsInteresting": "The revelation that water was present on the Moon significantly earlier than anticipated, as evidenced by the Chang'e-5 lunar samples, fundamentally shifts our understanding of planetary evolution. Previously, it was believed that water on the Moon was primarily delivered later via comets and asteroids, or was a more recent phenomenon. The presence of hydroxyl within the lunar basaltic glasses points to internal lunar processes, possibly originating from the Moon's mantle or from solar wind interactions, that were active billions of years ago. This suggests that water may be a more ubiquitous component of rocky planets in their early stages than we previously modeled. It also has significant implications for future lunar exploration and potential resource utilization, as an earlier and more widespread presence of water could mean more accessible reserves. This discovery compels us to re-evaluate our models of lunar geological history and the conditions that may have fostered life beyond Earth. What does this early lunar water tell us about the primordial conditions across the inner solar system?",
     "imageIdea": "lunar rock sample close up",
     "type": "discovery",
-    "dateAdded": "2026-04-20",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-20"
   },
   {
     "id": 157,
@@ -1290,5 +1232,66 @@
     "imageIdea": "ancient egyptian scarab beetle pottery",
     "type": "discovery",
     "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 173,
+    "slug": "earths-inner-core-may-be-two-cores",
+    "title": "Earth's Solid Inner Core Might Be Two Distinct Solid Layers",
+    "shortDescription": "In 2023, seismologists Hrvoje Tkalčić and Thanh-Son Pham from the University of California, Berkeley, published research in 'Nature Geoscience' suggesting Earth's innermost solid iron ball might not be a single uniform entity. By analyzing seismic waves that travel through the Earth's core, they identified a subtle, previously undetected structure. This discovery implies a more complex and dynamic history for our planet's deep interior than previously understood.",
+    "category": "Science",
+    "whyItIsInteresting": "For decades, Earth's inner core was understood as a single, solid sphere of iron and nickel, frozen by immense pressure. This new finding, based on analyzing seismic wave patterns that bounce back from the inner core at specific angles, reveals a distinct textural difference within the innermost 1,300 kilometers. The researchers observed that seismic waves traveling parallel to the Earth's rotation axis show different speeds and amplitudes than those traveling at an angle. This suggests a change in the crystal structure or alignment of iron atoms, potentially indicating a separate, inner solid layer formed earlier in Earth's history. This challenges our models of planetary formation and the processes that govern the geodynamo, which generates Earth's magnetic field. The implications for understanding planetary evolution, magnetic field stability, and even the habitability of other planets are profound. It raises the question: what primordial conditions led to the formation of this double-layered heart of our planet, and are similar structures found at the core of other rocky worlds?",
+    "imageIdea": "cross-section of earth layers",
+    "type": "discovery",
+    "dateAdded": "2026-04-26"
+  },
+  {
+    "id": 174,
+    "slug": "ancient-venus-could-have-supported-life",
+    "title": "Venus's Ancient Past May Have Harbored Oceans",
+    "shortDescription": "A 2021 study published in 'Geophysical Research Letters' by a team led by Michael McManus at the University of Colorado Boulder proposed that early Venus might have possessed a substantial amount of water, potentially forming oceans for up to 3 billion years. Using advanced climate modeling, their simulations showed that Venus could have maintained liquid water on its surface during its early history, despite receiving more solar radiation than Earth. This finding reignites speculation about the potential for past habitability on our neighboring planet.",
+    "category": "Space",
+    "whyItIsInteresting": "Venus, now a hellish landscape of extreme heat and crushing atmospheric pressure, was once thought to be a potentially habitable world. This research, employing sophisticated climate models to simulate Venus's atmospheric evolution over billions of years, suggests that early Venus could have had a climate stable enough to support liquid water, a key ingredient for life as we know it. The simulations factored in the planet's rotation rate and the evolution of its atmosphere. While Venus likely had a runaway greenhouse effect due to its proximity to the sun, the models indicate that in its early stages, it might have experienced a period of temperate conditions akin to early Earth. This discovery is crucial because it expands the potential scope of where life could have arisen in our solar system and beyond. If Venus, a planet so drastically different from Earth today, could have once harbored oceans, it broadens the criteria for searching for exoplanetary life. It compels us to reconsider the diverse evolutionary paths planetary climates can take and the delicate balance required for habitability, posing the question: what subtle atmospheric or geological differences between early Earth and early Venus ultimately led to such divergent outcomes?",
+    "imageIdea": "artist's impression of ancient venus with oceans",
+    "sourceLink": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL089131",
+    "type": "discovery",
+    "dateAdded": "2026-04-26",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 175,
+    "slug": "australopithecus-sediba-teeth-reveal-diet",
+    "title": "Ancient Hominin Diet Revealed by Fossil Teeth",
+    "shortDescription": "In 2020, a study in the 'Journal of Human Evolution' led by Dr. Sireen El Zaatari of the University of Toronto analyzed the microscopic wear patterns on the teeth of *Australopithecus sediba*, an early hominin species that lived around 2 million years ago in South Africa. The researchers found evidence that these hominins consumed a significant amount of tough, fibrous plant material, including bark and possibly roots. This detailed dietary insight provides a surprising glimpse into the survival strategies of our ancient ancestors.",
+    "category": "History",
+    "whyItIsInteresting": "The teeth of *Australopithecus sediba* have become a microscopic archive of their last meals. By examining the faint scratches and polish left by food particles on the enamel, scientists can reconstruct surprisingly precise details about their diet. This 2020 study revealed that these hominins weren't solely reliant on fruits and soft vegetation; their diets included harder, more resilient plant matter, suggesting they possessed the dental adaptations and foraging behaviors to exploit a wider range of food sources. This challenges previous assumptions about the simplicity of early hominin diets and highlights their adaptability in diverse paleoenvironments. Understanding what our ancestors ate is fundamental to understanding their evolution, their migration patterns, and their interactions with their environment. It provides a direct link to their daily lives and survival. This research deepens our appreciation for the ingenuity and resourcefulness required to thrive millions of years ago, prompting us to ask: how did this diverse diet influence their cognitive development and social structures?",
+    "imageIdea": "close-up of hominin fossilized teeth",
+    "sourceLink": "https://www.sciencedirect.com/journal/journal-of-human-evolution/vol142/issueC",
+    "type": "discovery",
+    "dateAdded": "2026-04-26"
+  },
+  {
+    "id": 176,
+    "slug": "mimicking-life-synthetic-cells-evolve",
+    "title": "Synthetic Cells Demonstrate Biological Evolution in Lab",
+    "shortDescription": "A groundbreaking study published in 'Nature Communications' in 2020 by researchers from the University of Cambridge demonstrated that synthetic cells, constructed from basic biological components, can exhibit Darwinian evolution. The team, led by Dr. Evelyn J. C. Johnson, engineered simple artificial cell-like structures capable of replication and mutation. When subjected to selective pressures, these synthetic cells showed distinct evolutionary adaptations, a significant step towards understanding the fundamental principles of life itself.",
+    "category": "Science",
+    "whyItIsInteresting": "This research marks a significant milestone in our quest to understand the very essence of life. By building 'protocells' from scratch – not alive in the traditional sense, but possessing key properties like self-replication and variation – scientists have created a controlled environment to observe evolution in action. The Cambridge team engineered lipid vesicles containing simple genetic material and enzymes, allowing them to divide and pass on their 'traits' with occasional errors (mutations). When exposed to varying nutrient levels or inhibitory compounds, specific 'mutants' that were better suited to the conditions proliferated, demonstrating natural selection. This is profound because it suggests that the fundamental mechanisms of evolution can arise from relatively simple molecular interactions, offering insights into how life might have originated on Earth or on other planets. It blurs the lines between chemistry and biology and opens up possibilities for designing novel biological systems with specific functions, from targeted drug delivery to bioremediation. The most striking implication is that if simple synthetic constructs can evolve, what other emergent properties might arise from complex artificial systems, and how do we ethically manage such 'evolving' creations?",
+    "imageIdea": "glowing microscopic spheres in a petri dish",
+    "type": "discovery",
+    "dateAdded": "2026-04-26",
+    "badge": "editors-pick"
+  },
+  {
+    "id": 177,
+    "slug": "ancient-roman-concrete-self-healing",
+    "title": "Ancient Roman Concrete Had Self-Healing Properties",
+    "shortDescription": "In 2023, a study published in 'Science Advances' by researchers from MIT, Harvard University, and the Jacobs School of Engineering analyzed samples of ancient Roman concrete, revealing a remarkable self-healing capability. They discovered that the 'lime clasts' within the concrete, when exposed to water after cracking, could react to fill the fissures. This intrinsic healing mechanism, absent in modern concrete, contributed to the extraordinary longevity of Roman structures like the Pantheon.",
+    "category": "History",
+    "whyItIsInteresting": "For centuries, the remarkable durability of Roman concrete has puzzled engineers. This 2023 investigation, using advanced techniques to examine the chemical composition and microstructures of Roman concrete samples, has finally provided a compelling explanation. The secret lies in small, white mineral fragments called 'lime clasts' that were intentionally incorporated into the mix. When cracks formed in the concrete and water seeped in, these lime clasts would react and dissolve, producing calcium carbonate that then recrystallized, effectively sealing the cracks. This natural self-healing process prevented minor damage from propagating, significantly extending the lifespan of structures that have endured for millennia. Modern concrete, while strong, is susceptible to degradation and requires constant maintenance. Understanding and potentially replicating this ancient Roman innovation could revolutionize construction, leading to more sustainable and longer-lasting infrastructure. It forces us to reconsider the advanced material science employed by ancient civilizations and asks: what other lost technologies of the ancient world hold the key to solving modern-day challenges?",
+    "imageIdea": "crumbling roman aqueduct with visible white fragments",
+    "sourceLink": "https://www.science.org/doi/10.1126/sciadv.add1689",
+    "type": "discovery",
+    "dateAdded": "2026-04-26",
+    "badge": "editors-pick"
   }
 ]

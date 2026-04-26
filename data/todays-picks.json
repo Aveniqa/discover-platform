@@ -1,46 +1,46 @@
 [
   {
-    "slug": "early-farmers-domesticated-insects-ancient-egypt",
-    "title": "Ancient Farmers Cultivated Insects",
+    "slug": "ancient-roman-concrete-self-healing",
+    "title": "Ancient Roman Concrete Had Self-Healing Properties",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Archaeological evidence from ancient Egypt, unearthed by a team led by Dr. David O'Connor of New York University, sugges",
-    "badge": null,
+    "description": "In 2023, a study published in 'Science Advances' by researchers from MIT, Harvard University, and the Jacobs School of E",
+    "badge": "editors-pick",
     "type": "discovery"
   },
   {
-    "slug": "amazfit-balance-smartwatch",
-    "title": "Amazfit Balance Smartwatch",
+    "slug": "govee-rgb-smart-floor-lamp-corner-light",
+    "title": "Govee RGBIC LED Floor Lamp",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The Amazfit Balance is a premium smartwatch focused on holistic health and wellness tracking, offering advanced features",
+    "description": "The Govee RGBIC LED Floor Lamp is a modern lighting solution that transforms any room with customizable ambient light. F",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "google-plans-to-invest-up-to-40b-in-anthropic",
-    "title": "Google Plans to Invest up to $40B in Anthropic",
+    "slug": "amateur-beats-erdos-problem-with-chatgpt",
+    "title": "Amateur Armed with ChatGPT Solves an Erdős Problem",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This Bloomberg article reports on Google's significant planned investment in Anthropic, a leading AI safety and research",
+    "description": "This article from Scientific American details how an amateur mathematician, using ChatGPT as a sophisticated tool, manag",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "sabotaging-projects-overthinking",
-    "title": "Agile Project Management Refinements",
+    "slug": "usb-cheat-sheet",
+    "title": "Advanced USB Protocol Analysis",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "This discusses how common project management pitfalls, such as overthinking, scope creep, and structural diffing (analyz",
+    "description": "This USB Cheat Sheet provides a deep dive into the technical specifications and protocols underlying Universal Serial Bu",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "littlebird-ai",
-    "title": "Littlebird",
+    "slug": "awesome-gpt-image-2-prompts",
+    "title": "awesome-gpt-image-2-prompts",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Littlebird is an AI assistant designed to deeply understand your work context, providing remarkably relevant assistance.",
+    "description": "This GitHub repository curates a comprehensive collection of prompts specifically designed for generating images using t",
     "badge": null,
     "type": "tool"
   }

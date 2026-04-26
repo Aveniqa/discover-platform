@@ -1,65 +1,5 @@
 [
   {
-    "id": 62,
-    "slug": "programmable-matter-claytronics",
-    "techName": "Programmable Matter (Claytronics)",
-    "explanation": "Programmable matter, often conceptualized as 'claytronics,' consists of swarms of microscopic, reconfigurable robots (catoms) that can change their shape, color, and even thermal properties to form any 3D object. These individual modules communicate and cooperate to physically reconfigure into desired forms.",
-    "industry": "Materials Science, Robotics, Manufacturing",
-    "whyItMatters": "This technology could revolutionize manufacturing, enabling on-demand physical prototyping and the creation of adaptive environments. Imagine devices that morph into different tools or clothing that changes style and function, minimizing waste and maximizing utility.",
-    "developmentStage": "Research",
-    "imageIdea": "A swirling cloud of tiny, glowing nanobots coalescing into the shape of a hand or a complex machine part. A desk with various objects that are clearly composed of small, modular units.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 63,
-    "slug": "in-body-nanorobots-for-targeted-drug-delivery",
-    "techName": "In-Body Nanorobots for Targeted Drug Delivery",
-    "explanation": "Microscopic robots, often biological or bio-hybrid, designed to navigate the human body and deliver therapeutic agents with extreme precision to specific cells or tissues. These nanorobots could drastically reduce side effects by avoiding systemic drug exposure and increase treatment efficacy.",
-    "industry": "Healthcare, Biotechnology, Robotics",
-    "whyItMatters": "This technology promises a revolution in medicine, offering highly targeted treatments for diseases like cancer, autoimmune disorders, and infections. It could lead to cures for currently untreatable conditions by delivering drugs exactly where they are needed, minimizing harm to healthy cells.",
-    "developmentStage": "Research",
-    "imageIdea": "Microscopic robots, depicted as tiny metallic or organic structures, navigating through a bloodstream to deliver glowing medicine to a target cell.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 64,
-    "slug": "atmospheric-carbon-cycle-management-systems",
-    "techName": "Atmospheric Carbon Cycle Management Systems",
-    "explanation": "Integrated, AI-driven systems that monitor, model, and actively intervene in the global atmospheric carbon cycle to stabilize or reduce greenhouse gas concentrations. This goes beyond singular capture methods to encompass dynamic management of emissions, sequestration, and natural carbon sinks.",
-    "industry": "Environmental Science, Climate Tech, AI, Governance",
-    "whyItMatters": "Such systems are crucial for achieving long-term climate stability, potentially preventing catastrophic global warming by intelligently balancing carbon flows. They could optimize natural processes and human interventions to sustain a habitable planet, adapting to complex environmental feedbacks.",
-    "developmentStage": "Research",
-    "imageIdea": "A holographic global map overlayed with real-time data visualizations of carbon emissions, atmospheric concentrations, and geoengineering interventions, controlled by an AI interface.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 65,
-    "slug": "self-evolving-ai-architectures",
-    "techName": "Self-Evolving AI Architectures",
-    "explanation": "AI systems capable of autonomously designing, optimizing, and even generating entirely new neural network architectures or algorithmic structures for specific tasks. Instead of human engineers hand-crafting models, the AI itself iteratively improves its own underlying design.",
-    "industry": "Artificial Intelligence, Computer Science, Machine Learning",
-    "whyItMatters": "This breakthrough could accelerate AI development exponentially, leading to highly efficient and specialized AI models for a vast range of problems that are currently too complex or time-consuming for human design. It represents a significant step towards more autonomous and intelligent software systems.",
-    "developmentStage": "Research",
-    "imageIdea": "neural network architecture diagram code automatically rewriting improving on screen",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 66,
-    "slug": "full-body-haptic-immersion-suits",
-    "techName": "Full-Body Haptic Immersion Suits",
-    "explanation": "These advanced suits provide realistic tactile feedback across the entire body, simulating textures, temperatures, pressure, and even impacts in virtual and augmented realities. Utilizing micro-actuators and thermal elements, they create a truly immersive sensory experience beyond visual and auditory input.",
-    "industry": "Entertainment, Training, Healthcare, Gaming",
-    "whyItMatters": "It will revolutionize VR/AR experiences, making virtual interactions feel physically real for entertainment, remote surgical training, hazardous environment simulations, and social interaction. This vastly enhances presence, learning retention, and emotional engagement.",
-    "developmentStage": "Prototype",
-    "imageIdea": "A person wearing a sleek, form-fitting suit, reaching out to touch a vibrant, shimmering virtual object, with subtle ripples of energy emanating from the point of contact.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
     "id": 67,
     "slug": "autonomous-modular-reconfigurable-spacecraft",
     "techName": "Autonomous Modular Reconfigurable Spacecraft",
@@ -946,8 +886,7 @@
     "developmentStage": "Mainstream",
     "imageIdea": "sleek bullet train arriving at a spotless, modern station",
     "type": "future-tech",
-    "dateAdded": "2026-04-19",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-19"
   },
   {
     "id": 141,
@@ -1193,5 +1132,65 @@
     "imageIdea": "a whiteboard with messy project plans being simplified",
     "type": "future-tech",
     "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 161,
+    "slug": "asahi-linux-progress-7-0",
+    "techName": "Linux for Apple Silicon",
+    "explanation": "Asahi Linux is an ongoing project dedicated to porting Linux to Apple's M-series silicon chips found in modern Macs. The recent 'Progress Report 7.0' highlights significant advancements, particularly in bringing GPU acceleration to the M2 chip, a critical step for desktop usability. This involves reverse-engineering Apple's proprietary hardware and writing open-source drivers, allowing a fully functional Linux desktop experience on hardware previously locked to macOS.",
+    "industry": "Operating Systems & Hardware",
+    "whyItMatters": "This effort democratizes hardware by allowing users to run an open-source operating system on expensive Apple devices, breaking vendor lock-in. It's crucial for developers, researchers, and privacy-conscious users who prefer Linux but are drawn to Apple's hardware quality. While full hardware support, like Thunderbolt and speakers, is still a work in progress, the GPU acceleration breakthrough makes Asahi Linux a viable daily driver for many. The timeline for complete feature parity is likely still a few years out, but it signals a major shift towards hardware freedom.",
+    "developmentStage": "Prototype",
+    "imageIdea": "a MacBook Air with a Linux penguin logo on the screen",
+    "type": "future-tech",
+    "dateAdded": "2026-04-26"
+  },
+  {
+    "id": 162,
+    "slug": "amateur-chatgpt-erdos-problem",
+    "techName": "AI-Assisted Mathematical Discovery",
+    "explanation": "This breakthrough involves an amateur mathematician using ChatGPT, a large language model, to help solve a specific conjecture in combinatorics, a problem that had stumped mathematicians for 60 years. The AI didn't 'solve' it directly but acted as a powerful brainstorming partner, generating hypotheses and exploring avenues that led the mathematician to the solution. This demonstrates LLMs' potential not just for text generation but for aiding complex, creative problem-solving in specialized scientific fields.",
+    "industry": "Artificial Intelligence & Mathematics",
+    "whyItMatters": "This signifies a paradigm shift in how scientific research, particularly in theoretical fields like mathematics, can be conducted. It suggests AI can democratize advanced discovery, allowing individuals without formal training or extensive resources to contribute to cutting-edge problems. The potential for AI to accelerate research across various scientific disciplines is immense, though challenges remain in verifying AI-generated insights and ensuring rigorous mathematical proof. Widespread adoption could lead to faster breakthroughs in fields from physics to computer science.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "a chalkboard filled with complex mathematical equations and a glowing AI chatbot icon",
+    "type": "future-tech",
+    "dateAdded": "2026-04-26"
+  },
+  {
+    "id": 163,
+    "slug": "the-west-forgot-how-to-make-things",
+    "techName": "Reshoring of Advanced Manufacturing",
+    "explanation": "This article discusses the decline of manufacturing expertise and capability in Western economies and the emerging trend to 'reshore' critical production, particularly in areas like semiconductors and advanced materials. The core idea is that a loss of hands-on manufacturing knowledge has led to a dependence on global supply chains, creating vulnerabilities. Recent efforts and discussions revolve around rebuilding domestic industrial capacity and retraining a skilled workforce, a complex undertaking after decades of deindustrialization.",
+    "industry": "Manufacturing & Economics",
+    "whyItMatters": "The potential impact is a significant geopolitical and economic recalibration. Reshoring aims to increase national security by reducing reliance on potentially unstable foreign supply chains, boost domestic economies through job creation, and foster innovation by bringing R&D closer to production. However, it faces immense obstacles, including high labor costs, the need for massive capital investment in new factories, and overcoming decades of ingrained outsourcing practices. If successful, it could lead to more resilient economies, a resurgence in blue-collar skilled labor, and potentially higher consumer prices in the short to medium term as production scales up.",
+    "developmentStage": "Research",
+    "imageIdea": "a robotic arm assembling a microchip on a factory floor",
+    "type": "future-tech",
+    "dateAdded": "2026-04-26"
+  },
+  {
+    "id": 164,
+    "slug": "why-alzheimers-progress",
+    "techName": "AI-Driven Alzheimer's Research",
+    "explanation": "This discussion delves into the reasons behind the slow progress in Alzheimer's disease research, exploring the complexities of the disease itself and the research methodologies employed. While not a specific technical breakthrough, it highlights the ongoing need for innovative approaches. Emerging technologies like advanced imaging, genomics, and particularly AI are being increasingly leveraged to analyze vast datasets, identify novel drug targets, and personalize treatment strategies. The goal is to accelerate the understanding of Alzheimer's pathogenesis and develop effective interventions.",
+    "industry": "Biotechnology & Healthcare",
+    "whyItMatters": "Alzheimer's disease affects millions globally, and a breakthrough would be life-changing. AI's ability to process complex biological data offers a significant advantage in unraveling the disease's intricate mechanisms, which have long eluded conventional research. While significant hurdles remain, including understanding the disease's multifactorial nature and developing drugs that can effectively cross the blood-brain barrier, AI-driven approaches are accelerating the pace. Successful widespread adoption could lead to earlier diagnoses, effective preventative measures, and treatments that significantly improve the quality of life for patients and their families.",
+    "developmentStage": "Research",
+    "imageIdea": "a 3D render of a human brain with glowing neural pathways highlighted by AI analysis",
+    "type": "future-tech",
+    "dateAdded": "2026-04-26"
+  },
+  {
+    "id": 165,
+    "slug": "usb-cheat-sheet",
+    "techName": "Advanced USB Protocol Analysis",
+    "explanation": "This USB Cheat Sheet provides a deep dive into the technical specifications and protocols underlying Universal Serial Bus (USB) connections, a fundamental technology for virtually all modern computing devices. While not a new invention, recent advancements in USB versions (like USB4) and the sophistication of diagnostic tools are enabling deeper analysis of its complex inner workings. This includes understanding power delivery, data transfer modes, and compatibility issues at a level critical for hardware developers and advanced users.",
+    "industry": "Computer Hardware & Networking",
+    "whyItMatters": "USB is the ubiquitous connector for everything from peripherals to high-speed data transfer. As USB speeds and capabilities increase with each generation, understanding its intricate protocols becomes vital for ensuring interoperability, developing new hardware, and troubleshooting complex system integrations. This deep technical knowledge is crucial for the continued evolution of personal computing and the development of high-performance peripherals. The timeline for its continued evolution is ongoing, with each new USB standard building on this foundational understanding. Obstacles include managing complexity and ensuring backwards compatibility.",
+    "developmentStage": "Mainstream",
+    "imageIdea": "a close-up of a complex USB-C port with data streams visualized",
+    "type": "future-tech",
+    "dateAdded": "2026-04-26"
   }
 ]

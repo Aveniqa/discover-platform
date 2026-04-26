@@ -1,99 +1,5 @@
 [
   {
-    "id": 59,
-    "slug": "chirp-wheel-plus-back-roller",
-    "title": "Chirp Wheel+ Back Roller",
-    "shortDescription": "A targeted back roller in 3 sizes that fits between shoulder blades for deep spinal relief. Padded for comfort, supports up to 500 lbs, and relieves tension without a partner.",
-    "category": "Fitness",
-    "whyItIsInteresting": "The narrow profile targets the back muscles alongside the spine that foam rollers miss entirely. Many users report significant back pain relief within the first week of daily use.",
-    "imageIdea": "Person lying on a back roller wheel with relaxed expression showing spine alignment",
-    "sourceLink": "https://chirpwheel.com",
-    "estimatedPriceRange": "$39–$99",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B09M5XC923?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B09M5XC923?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Chirp+Wheel%2B+Back+Roller",
-    "amazonAsin": "B09M5XC923"
-  },
-  {
-    "id": 60,
-    "slug": "bala-bangles-weighted-bracelets",
-    "title": "Bala Bangles Weighted Bracelets",
-    "shortDescription": "Stylish 1-lb wrist and ankle weights with a sleek silicone and stainless steel design. Add resistance to walks, yoga, pilates, and bodyweight exercises.",
-    "category": "Fitness",
-    "whyItIsInteresting": "They make everyday activities like walking and stretching subtly more effective without feeling like a workout. The design is attractive enough that people actually wear them consistently.",
-    "imageIdea": "Colorful weighted bangles on wrists during a yoga pose in a bright studio",
-    "sourceLink": "https://www.balabangles.com",
-    "estimatedPriceRange": "$49–$65",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0BQCHP4ZY?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B0BQCHP4ZY?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Bala+Bangles+Weighted+Bracelets",
-    "amazonAsin": "B0BQCHP4ZY"
-  },
-  {
-    "id": 61,
-    "slug": "vollebak-solar-charged-jacket",
-    "title": "Vollebak Solar Charged Jacket",
-    "shortDescription": "A glow-in-the-dark jacket that absorbs light during the day and emits a green glow at night. Waterproof, windproof, and made with phosphorescent membrane technology.",
-    "category": "Fashion Tech",
-    "whyItIsInteresting": "It is genuinely functional as high-visibility safety gear while looking futuristic. The phosphorescent technology charges in sunlight and glows for up to 12 hours after dark.",
-    "imageIdea": "Glowing green jacket in a dark forest with subtle light emission visible",
-    "sourceLink": "https://www.vollebak.com",
-    "estimatedPriceRange": "$395–$495",
-    "type": "product",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Vollebak+Solar+Charged+Jacket",
-    "availableOnAmazon": false
-  },
-  {
-    "id": 62,
-    "slug": "nadi-x-smart-yoga-pants",
-    "title": "Nadi X Smart Yoga Pants",
-    "shortDescription": "Yoga pants embedded with haptic sensors that vibrate to guide you into correct poses. Connects to a companion app with guided sessions and pose tracking.",
-    "category": "Fashion Tech",
-    "whyItIsInteresting": "Gentle vibrations on your hips, knees, and ankles guide alignment without needing to look at a screen. It is like having a yoga instructor's hands gently correcting your form.",
-    "imageIdea": "Person in yoga pose wearing tech-embedded pants with subtle sensor indicators",
-    "sourceLink": "https://www.wearableexperiments.com",
-    "estimatedPriceRange": "$149–$249",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B08DKKVL3F?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nadi+X+Smart+Yoga+Pants",
-    "directAmazonUrl": "https://www.amazon.com/dp/B08DKKVL3F?tag=vaultvibe-20&linkCode=ll1",
-    "amazonAsin": "B08DKKVL3F"
-  },
-  {
-    "id": 63,
-    "slug": "uv-skinz-hooded-sunshirt-upf-50",
-    "title": "UV Skinz Hooded Sun Shirt UPF 50+",
-    "shortDescription": "A lightweight sun-protective hoodie with UPF 50+ rating, moisture-wicking fabric, and thumb holes for hand coverage. Blocks 98% of UV rays without sunscreen.",
-    "category": "Fashion Tech",
-    "whyItIsInteresting": "It provides better sun protection than sunscreen without reapplication or chemicals on your skin. The moisture-wicking fabric keeps you cool even in direct sunlight.",
-    "imageIdea": "Lightweight hooded shirt on a person at the beach with UV protection graphic overlay",
-    "sourceLink": "https://www.uvskinz.com",
-    "estimatedPriceRange": "$39–$59",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B07S24QM35?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B07S24QM35?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=UV+Skinz+Hooded+Sun+Shirt+UPF+50%2B",
-    "amazonAsin": "B07S24QM35"
-  },
-  {
     "id": 64,
     "slug": "hexoskin-smart-shirt-biometric",
     "title": "Hexoskin Smart Shirt",
@@ -2073,7 +1979,6 @@
     "category": "Productivity",
     "whyItIsInteresting": "The 600-count bulk set is the version that went viral on BookTok and StudyTok — annotate every page of a book with sticky notes that let you read the text underneath. Six sizes means you can flag, annotate, and organise simultaneously.",
     "imageIdea": "600 clear transparent sticky notes scattered across open textbook with highlights visible underneath",
-    "sourceLink": "https://www.amazon.com/dp/B09YGKHTQ1",
     "estimatedPriceRange": "$8–$11",
     "availableOnAmazon": true,
     "amazonAsin": "B09YGKHTQ1",
@@ -3187,8 +3092,7 @@
     "availableOnAmazon": false,
     "amazonAsin": "",
     "type": "product",
-    "dateAdded": "2026-04-25",
-    "badge": "great-gift"
+    "dateAdded": "2026-04-25"
   },
   {
     "id": 223,
@@ -3477,7 +3381,6 @@
     "category": "E-Bikes",
     "whyItIsInteresting": "Aventon's Pace 350 is a top pick for commuters who want a bike that looks like a regular city bike but hides a full electric drivetrain. The step-through frame means anyone can mount and dismount easily, and the integrated rear rack makes grocery runs genuinely practical.",
     "imageIdea": "aventon electric commuter bike on city street with integrated rack and display",
-    "sourceLink": "https://www.amazon.com/dp/B0BRQSJ3JG?tag=vaultvibe-20&linkCode=ll1",
     "estimatedPriceRange": "$999-$1099",
     "amazonAsin": "B0BRQSJ3JG",
     "directAmazonUrl": "https://www.amazon.com/dp/B0BRQSJ3JG?tag=vaultvibe-20&linkCode=ll1",
@@ -3615,7 +3518,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "I4MBCwiu4QI"
+    "youtubeVideoId": "I4MBCwiu4QI",
+    "badge": "great-gift"
   },
   {
     "id": 243,
@@ -3658,7 +3562,8 @@
     "youtubeVideoId": "wt-WPxRHzEM",
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI%20Mini%204%20Pro%20Drone"
   },
   {
     "id": 245,
@@ -3680,7 +3585,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "CqQqtkdLfV4"
+    "youtubeVideoId": "CqQqtkdLfV4",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Holy%20Stone%20HS720E%20GPS%20Drone%20with%204K%20Camera"
   },
   {
     "id": 246,
@@ -3702,7 +3608,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "NxYRbuX8eXY"
+    "youtubeVideoId": "NxYRbuX8eXY",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Holy%20Stone%20HS360%20GPS%20Drone%204K%20Camera"
   },
   {
     "id": 247,
@@ -3724,7 +3631,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "pI1Eah7QKIY"
+    "youtubeVideoId": "pI1Eah7QKIY",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Holy%20Stone%20HS360S%20Drone%20with%204K%20Camera"
   },
   {
     "id": 248,
@@ -3745,7 +3653,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "mvL4gvXN9IM"
+    "youtubeVideoId": "mvL4gvXN9IM",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI%20Mini%203%20Drone"
   },
   {
     "id": 249,
@@ -3766,7 +3675,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "kGbHbApFuyk"
+    "youtubeVideoId": "kGbHbApFuyk",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Potensic%20ATOM%20SE%20GPS%20Drone"
   },
   {
     "id": 250,
@@ -3787,7 +3697,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "UVBa2hbGMD4"
+    "youtubeVideoId": "UVBa2hbGMD4",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ruko%20F11GIM2%20Drone%20with%204K%20Camera"
   },
   {
     "id": 251,
@@ -3808,7 +3719,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "t6yMhoLxvUA"
+    "youtubeVideoId": "t6yMhoLxvUA",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI%20Air%203S%20Drone"
   },
   {
     "id": 252,
@@ -3829,7 +3741,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "MJJJ5SqBYC0"
+    "youtubeVideoId": "MJJJ5SqBYC0",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=SIMREX%20X500%20Mini%20Drone%20for%20Beginners"
   },
   {
     "id": 253,
@@ -3850,7 +3763,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "YRasm-xYN_0"
+    "youtubeVideoId": "YRasm-xYN_0",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Contixo%20F28%20GPS%20Drone%204K%20Camera"
   },
   {
     "id": 254,
@@ -3872,7 +3786,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "gguQ8cFVKEo"
+    "youtubeVideoId": "gguQ8cFVKEo",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=GoPro%20HERO13%20Black%20Action%20Camera"
   },
   {
     "id": 255,
@@ -3894,7 +3809,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "qfBBbsYouVo"
+    "youtubeVideoId": "qfBBbsYouVo",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI%20Osmo%20Action%205%20Pro%20Action%20Camera"
   },
   {
     "id": 256,
@@ -3916,7 +3832,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "91fTTeG6IXk"
+    "youtubeVideoId": "91fTTeG6IXk",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Fujifilm%20Instax%20Mini%2012%20Instant%20Camera"
   },
   {
     "id": 257,
@@ -3938,7 +3855,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "rA4D_crYTlo"
+    "youtubeVideoId": "rA4D_crYTlo",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sony%20ZV-1%20II%20Vlog%20Camera"
   },
   {
     "id": 258,
@@ -3960,7 +3878,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "N83GVsCb7qo"
+    "youtubeVideoId": "N83GVsCb7qo",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Canon%20EOS%20R50%20Mirrorless%20Camera"
   },
   {
     "id": 259,
@@ -3981,7 +3900,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "BQZn8LOG9jU"
+    "youtubeVideoId": "BQZn8LOG9jU",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Polaroid%20Now%2B%20Gen%202%20Instant%20Camera"
   },
   {
     "id": 260,
@@ -4002,7 +3922,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "YaU6ftXvRwc"
+    "youtubeVideoId": "YaU6ftXvRwc",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=DJI%20Pocket%203%20Creator%20Combo"
   },
   {
     "id": 261,
@@ -4023,7 +3944,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "h3kTORZQPjA"
+    "youtubeVideoId": "h3kTORZQPjA",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Insta360%20GO%203S%20Action%20Camera"
   },
   {
     "id": 262,
@@ -4044,7 +3966,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "EDZd6VykwhE"
+    "youtubeVideoId": "EDZd6VykwhE",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ricoh%20GR%20IIIx%20Compact%20Street%20Camera"
   },
   {
     "id": 263,
@@ -4065,7 +3988,8 @@
     "type": "product",
     "dateAdded": "2026-04-25",
     "availableOnAmazon": true,
-    "youtubeVideoId": "7F6gXRoX5ik"
+    "youtubeVideoId": "7F6gXRoX5ik",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Canon%20PowerShot%20V10%20Vlog%20Camera"
   },
   {
     "id": 264,
@@ -4295,7 +4219,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Adhesive%20Cable%20Clips%2040-Pack%20Wire%20Organizer"
   },
   {
     "id": 275,
@@ -4315,7 +4240,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Microfiber%20Cleaning%20Cloths%2024-Pack"
   },
   {
     "id": 276,
@@ -4335,7 +4261,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Silicone%20Finger%20Guards%206-Pack%20for%20Cooking"
   },
   {
     "id": 277,
@@ -4355,7 +4282,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Reusable%20Mesh%20Produce%20Bags%209-Pack"
   },
   {
     "id": 278,
@@ -4375,7 +4303,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Velcro%20Cable%20Ties%20100-Pack%20Reusable"
   },
   {
     "id": 279,
@@ -4395,7 +4324,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Magnetic%20Page%20Marker%20Bookmarks%2024-Pack"
   },
   {
     "id": 280,
@@ -4415,7 +4345,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Luggage%20Tags%20with%20Steel%20Loop%206-Pack"
   },
   {
     "id": 281,
@@ -4435,7 +4366,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Drawer%20Organizer%20Dividers%208-Pack%20Expandable"
   },
   {
     "id": 282,
@@ -4455,7 +4387,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Weekly%20Pill%20Organizer%207-Day%20with%20Snap%20Latch"
   },
   {
     "id": 283,
@@ -4475,7 +4408,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Silicone%20Earbud%20Ear%20Tips%20Replacement%2012-Pack"
   },
   {
     "id": 284,
@@ -4495,7 +4429,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Individually%20Wrapped%20Lens%20Wipes%20100-Pack"
   },
   {
     "id": 285,
@@ -4515,7 +4450,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Fairy%20String%20Lights%20Battery%20Operated%2010ft"
   },
   {
     "id": 286,
@@ -4555,7 +4491,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Silicone%20Ice%20Cube%20Tray%202-Pack%20with%20Lids"
   },
   {
     "id": 288,
@@ -4575,7 +4512,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Mini%20Binder%20Clips%2060-Pack%20Assorted%20Sizes"
   },
   {
     "id": 289,
@@ -4595,7 +4533,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sticky%20Flag%20Tab%20Dividers%20640-Pack"
   },
   {
     "id": 290,
@@ -4655,7 +4594,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Screen%20Cleaning%20Spray%20Kit%20for%20Electronics"
   },
   {
     "id": 293,
@@ -4675,7 +4615,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Phone%20Ring%20Grip%20Stand%20%26%20Pop%20Socket"
   },
   {
     "id": 294,
@@ -4695,7 +4636,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Magnetic%20Digital%20Kitchen%20Timer%20Loud%20Alarm"
   },
   {
     "id": 295,
@@ -4715,7 +4657,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Bamboo%20Toothbrush%204-Pack%20BPA-Free"
   },
   {
     "id": 296,
@@ -4735,7 +4678,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Lacrosse%20Ball%20Massage%20Set%202-Pack"
   },
   {
     "id": 297,
@@ -4755,7 +4699,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Silicone%20Microwave%20Splatter%20Cover%2011-Inch"
   },
   {
     "id": 298,
@@ -4775,7 +4720,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=LED%20Clip-On%20Book%20Light%20Rechargeable"
   },
   {
     "id": 299,
@@ -4795,7 +4741,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Beeswax%20Food%20Wraps%203-Pack%20Reusable"
   },
   {
     "id": 300,
@@ -4815,7 +4762,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Adjustable%20Foldable%20Phone%20Tablet%20Stand"
   },
   {
     "id": 301,
@@ -4835,7 +4783,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Gel%20Toe%20Separators%204-Pack%20Bunion%20Corrector"
   },
   {
     "id": 302,
@@ -4855,7 +4804,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Electric%20Fabric%20Shaver%20%26%20Lint%20Remover"
   },
   {
     "id": 303,
@@ -4875,7 +4825,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Collapsible%20Silicone%20Travel%20Cup%2012oz"
   },
   {
     "id": 304,
@@ -4895,7 +4846,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Stainless%20Steel%20Straws%208-Pack%20with%20Brush"
   },
   {
     "id": 305,
@@ -4915,7 +4867,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Non-Slip%20Yoga%20Grip%20Socks%203-Pack"
   },
   {
     "id": 306,
@@ -4935,7 +4888,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Silicone%20Dish%20Drying%20Mat%20Large%20Kitchen"
   },
   {
     "id": 307,
@@ -4955,7 +4909,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Mini%20Desktop%20Dry%20Erase%20Whiteboard%2011x14"
   },
   {
     "id": 308,
@@ -4975,7 +4930,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Silicone%20XL%20Ice%20Cube%20Tray%20with%20Lid%20%26%20Bin"
   },
   {
     "id": 309,
@@ -4995,7 +4951,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Travel%20Soap%20Dish%20Case%20Silicone%20Leak-Proof"
   },
   {
     "id": 310,
@@ -5015,7 +4972,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Bamboo%20Expandable%20Drawer%20Divider%204-Pack"
   },
   {
     "id": 311,
@@ -5035,7 +4993,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=15W%20Fast%20Wireless%20Charging%20Pad%20Qi2"
   },
   {
     "id": 312,
@@ -5055,7 +5014,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=LED%20Desk%20Lamp%20with%20USB%20Charging%20%26%20Touch%20Control"
   },
   {
     "id": 313,
@@ -5075,7 +5035,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=High-Density%20Foam%20Roller%2012-Inch%20EVA"
   },
   {
     "id": 314,
@@ -5095,7 +5056,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=TPE%20Non-Slip%20Yoga%20Mat%206mm%20Thick"
   },
   {
     "id": 315,
@@ -5115,7 +5077,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Precision%20Digital%20Kitchen%20Scale%2011lb%20Capacity"
   },
   {
     "id": 316,
@@ -5135,7 +5098,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Bamboo%20Cutting%20Board%20Set%203-Piece%20with%20Juice%20Groove"
   },
   {
     "id": 317,
@@ -5155,7 +5119,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Adjustable%20Portable%20Laptop%20Stand%20Aluminum"
   },
   {
     "id": 318,
@@ -5175,7 +5140,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Privacy%20Screen%20Filter%2015.6%22%20Laptop%20Anti-Spy"
   },
   {
     "id": 319,
@@ -5195,7 +5161,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=AirTag%20Holder%20Loop%20Key%20Ring%204-Pack"
   },
   {
     "id": 320,
@@ -5215,7 +5182,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=USB%20Rechargeable%20Portable%20Blender%20450ml"
   },
   {
     "id": 321,
@@ -5235,7 +5203,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Handheld%20Electric%20Milk%20Frother%20Wand"
   },
   {
     "id": 322,
@@ -5255,7 +5224,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Lumbar%20Support%20Pillow%20Memory%20Foam%20Chair%20Car"
   },
   {
     "id": 323,
@@ -5275,7 +5245,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Smart%20RGB%20LED%20Strip%20Lights%2032.8ft%20App%20Control"
   },
   {
     "id": 324,
@@ -5295,7 +5266,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=UV-C%20Phone%20Sanitizer%20Box%20with%20Wireless%20Charging"
   },
   {
     "id": 325,
@@ -5315,7 +5287,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Adjustable%20Dashboard%20Car%20Phone%20Mount"
   },
   {
     "id": 326,
@@ -5335,7 +5308,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Fabric%20Resistance%20Band%20Set%205%20Levels%20Hip%20Loop"
   },
   {
     "id": 327,
@@ -5355,7 +5329,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=3D%20Contoured%20Sleep%20Eye%20Mask%20Total%20Blackout"
   },
   {
     "id": 328,
@@ -5375,7 +5350,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Desktop%20Cable%20Management%20Box%20with%20Outlet"
   },
   {
     "id": 329,
@@ -5395,7 +5371,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Smart%20LED%20Bulb%204-Pack%20RGB%20WiFi%20A19"
   },
   {
     "id": 330,
@@ -5415,7 +5392,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Adjustable%20Aluminum%20Laptop%20Stand%20Dual-Arm"
   },
   {
     "id": 331,
@@ -5435,7 +5413,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=IPX7%20Waterproof%20Bluetooth%20Speaker%2020W"
   },
   {
     "id": 332,
@@ -5455,7 +5434,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Pull-Up%20Bar%20Doorway%20Mount%20No%20Screws%20Required"
   },
   {
     "id": 333,
@@ -5475,7 +5455,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=1080P%20Dash%20Cam%20WiFi%20GPS%20Front%20Camera"
   },
   {
     "id": 334,
@@ -5495,7 +5476,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=10%22%20Ring%20Light%20with%20Phone%20Holder%20%26%20Tripod%20Stand"
   },
   {
     "id": 335,
@@ -5515,7 +5497,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Sonic%20Electric%20Toothbrush%205%20Mode%20Rechargeable"
   },
   {
     "id": 336,
@@ -5535,7 +5518,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Acupressure%20Mat%20%26%20Pillow%20Set%20Linen"
   },
   {
     "id": 337,
@@ -5555,7 +5539,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=WiFi%20Smart%20Plug%204-Pack%20with%20Energy%20Monitor"
   },
   {
     "id": 338,
@@ -5575,7 +5560,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Mini%20Percussion%20Massage%20Gun%20Portable"
   },
   {
     "id": 339,
@@ -5595,7 +5581,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Handheld%20Garment%20Steamer%20Fast%20Heat-Up%2030s"
   },
   {
     "id": 340,
@@ -5615,7 +5602,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=100%25%20Mulberry%20Silk%20Pillowcase%20Standard%20Size"
   },
   {
     "id": 341,
@@ -5635,7 +5623,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=True%20H13%20HEPA%20Air%20Purifier%20Bedroom%20219%20Sq%20Ft"
   },
   {
     "id": 342,
@@ -5655,7 +5644,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=RENPHO%20Smart%20Body%20Fat%20Scale%20Bluetooth%20App"
   },
   {
     "id": 343,
@@ -5675,7 +5665,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anker%20521%20Portable%20Power%20Station%20256Wh"
   },
   {
     "id": 344,
@@ -5695,7 +5686,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ring%20Video%20Doorbell%20Wired%201080p%20HD"
   },
   {
     "id": 345,
@@ -5715,7 +5707,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Shiatsu%20Heated%20Back%20Massager%20Cushion"
   },
   {
     "id": 346,
@@ -5735,7 +5728,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anova%20Culinary%20Sous%20Vide%20Precision%20Cooker%20Nano"
   },
   {
     "id": 347,
@@ -5755,7 +5749,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech%20MX%20Master%203S%20Wireless%20Mouse"
   },
   {
     "id": 348,
@@ -5775,7 +5770,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Solar%20Garden%20Path%20Lights%2012-Pack%20LED"
   },
   {
     "id": 349,
@@ -5795,7 +5791,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Igloo%20Countertop%20Ice%20Maker%2026%20lbs%2FDay"
   },
   {
     "id": 350,
@@ -5815,7 +5812,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Govee%20RGB%20Smart%20Floor%20Lamp%20Corner%20Light"
   },
   {
     "id": 351,
@@ -5835,7 +5833,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Instant%20Pot%20Duo%206-Quart%207-in-1%20Multi-Cooker"
   },
   {
     "id": 352,
@@ -5855,7 +5854,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anker%20Soundcore%20Motion%2B%20Bluetooth%20Speaker"
   },
   {
     "id": 353,
@@ -5875,7 +5875,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anker%20PowerCore%2026800mAh%20Portable%20Charger"
   },
   {
     "id": 354,
@@ -5895,7 +5896,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Tile%20Mate%20Bluetooth%20Tracker%204-Pack%20(2024%20Edition)"
   },
   {
     "id": 355,
@@ -5915,7 +5917,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Cuisinart%20DCC-3200P1%2014-Cup%20Coffee%20Maker"
   },
   {
     "id": 356,
@@ -5935,7 +5938,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ninja%20Nutri%20Pro%20Personal%20Blender%201100W"
   },
   {
     "id": 357,
@@ -5955,7 +5959,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=COSORI%205-Quart%20Air%20Fryer%20TurboBlaze"
   },
   {
     "id": 358,
@@ -5975,7 +5980,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech%20MK470%20Slim%20Wireless%20Keyboard%20%26%20Mouse%20Combo"
   },
   {
     "id": 359,
@@ -5995,7 +6001,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Amazon%20Fire%20TV%20Stick%204K%20Max%20with%20WiFi%206E"
   },
   {
     "id": 360,
@@ -6015,7 +6022,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Shark%20IZ462H%20Vertex%20Cordless%20Stick%20Vacuum"
   },
   {
     "id": 361,
@@ -6035,7 +6043,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Garmin%20Vivosmart%205%20Fitness%20Tracker"
   },
   {
     "id": 362,
@@ -6055,7 +6064,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=LEVOIT%20Core%20200S%20Smart%20Air%20Purifier%20183%20Sq%20Ft"
   },
   {
     "id": 363,
@@ -6075,7 +6085,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Nespresso%20Vertuo%20Pop%20Coffee%20Machine"
   },
   {
     "id": 364,
@@ -6095,7 +6106,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Google%20Chromecast%20with%20Google%20TV%20(4K)"
   },
   {
     "id": 365,
@@ -6115,7 +6127,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=3-in-1%20MagSafe%20Wireless%20Charger%20Stand"
   },
   {
     "id": 366,
@@ -6135,7 +6148,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Anker%20737%20Power%20Bank%2024000mAh%20140W"
   },
   {
     "id": 367,
@@ -6155,7 +6169,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Instant%20Pot%20Pro%206-Quart%2010-in-1%20Multi-Cooker"
   },
   {
     "id": 368,
@@ -6175,7 +6190,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=iRobot%20Roomba%20694%20Wi-Fi%20Robot%20Vacuum"
   },
   {
     "id": 369,
@@ -6195,7 +6211,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Ninja%20DualBrew%20Pro%20Coffee%20System%2012-Cup"
   },
   {
     "id": 370,
@@ -6215,7 +6232,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Echo%20Show%208%203rd%20Gen%20Smart%20Display%20with%20Hub"
   },
   {
     "id": 371,
@@ -6235,7 +6253,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=eufy%20Security%20Indoor%20Cam%204K%20Pan%20%26%20Tilt"
   },
   {
     "id": 372,
@@ -6255,7 +6274,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Logitech%20Brio%204K%20Webcam%20with%20HDR%20RightLight%203"
   },
   {
     "id": 373,
@@ -6275,7 +6295,8 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Hatch%20Restore%202%20Smart%20Sleep%20Clock"
   },
   {
     "id": 374,
@@ -6295,6 +6316,44 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "availableOnAmazon": true
+    "availableOnAmazon": true,
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Kindle%20Paperwhite%2016GB%20(2024)%20Waterproof"
+  },
+  {
+    "id": 375,
+    "slug": "novavoice-ai-voice-os",
+    "title": "NovaVoice",
+    "shortDescription": "NovaVoice is an innovative Voice OS designed to dramatically boost productivity by allowing users to interact with their computer and apps using natural speech. It boasts dictation speeds exceeding 200 words per minute and offers context-aware text generation, minimizing the need for manual typing and app switching. This tool is ideal for writers, developers, and anyone who spends significant time interacting with their computer, enabling them to work at the speed of thought.",
+    "category": "Productivity Software",
+    "whyItIsInteresting": "NovaVoice represents a significant leap forward in human-computer interaction by transforming voice commands into actionable computer control and intelligent text generation. Its core innovation lies in its ability to understand complex commands and context, allowing users to control applications, dictate text, and even perform formatting tasks solely through voice. This offers a powerful alternative to traditional keyboard and mouse input, especially for those who find typing restrictive or time-consuming.  The promise of working at the 'speed of thought' directly addresses the common friction points in digital workflows, making it a compelling tool for professionals seeking peak efficiency. Its high signal on Product Hunt suggests strong early interest and validation from the tech community.",
+    "imageIdea": "woman speaking into microphone connected to laptop",
+    "sourceLink": "https://www.producthunt.com/r/K7EU2IVQNJ6SLT",
+    "estimatedPriceRange": "$20-$30/month (Subscription)",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-26",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=NovaVoice"
+  },
+  {
+    "id": 376,
+    "slug": "govee-rgb-smart-floor-lamp-corner-light",
+    "title": "Govee RGBIC LED Floor Lamp",
+    "shortDescription": "The Govee RGBIC LED Floor Lamp is a modern lighting solution that transforms any room with customizable ambient light. Featuring advanced RGBIC technology, it allows for multiple colors to be displayed simultaneously along the lamp's length, creating dynamic lighting effects. Controlled via the Govee Home app, users can choose from millions of colors, adjust brightness, and select from a vast library of scenes or even sync the lights with their music.",
+    "category": "Home Lighting",
+    "whyItIsInteresting": "This Govee floor lamp elevates home ambiance with its sophisticated RGBIC lighting, which offers a far richer and more customizable experience than traditional RGB lighting. The ability to display multiple colors at once creates fluid gradients and more complex visual effects, making it ideal for setting moods for entertainment, relaxation, or gaming. The extensive app control provides users with granular command over their lighting, from precise color selection to dynamic scene creation and music synchronization. Its sleek, minimalist design ensures it blends seamlessly into modern decor, making it a functional art piece as much as a light source. It's a popular choice for those looking to add a personalized touch and dynamic visual flair to their living spaces.",
+    "imageIdea": "modern floor lamp casting colorful light on a wall",
+    "sourceLink": "https://www.amazon.com/Govee-Controllable-Christmas-Bedroom-Living/dp/B09XX99KXP",
+    "estimatedPriceRange": "$59-$79",
+    "availableOnAmazon": true,
+    "amazonAsin": "B09XX99KXP",
+    "type": "product",
+    "dateAdded": "2026-04-26",
+    "directAmazonUrl": "https://www.amazon.com/dp/B09XX99KXP?tag=vaultvibe-20&linkCode=ll1",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/dp/B09XX99KXP?tag=vaultvibe-20&linkCode=ll1"
+    }
   }
 ]

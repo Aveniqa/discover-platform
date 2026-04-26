@@ -1,65 +1,5 @@
 [
   {
-    "id": 63,
-    "slug": "google-calendar-schedule-planner",
-    "toolName": "Google Calendar",
-    "whatItDoes": "Google Calendar is a free online calendar service that helps you keep track of your appointments, meetings, and events. It allows for easy scheduling, sharing, and synchronization across multiple devices.",
-    "category": "Productivity",
-    "whyItIsUseful": "It is essential for managing your time effectively and coordinating schedules with others. Its integration with other Google services and intuitive interface make it a cornerstone for staying organized and on track with your daily commitments.",
-    "websiteLink": "https://calendar.google.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-13",
-    "imageIdea": "calendar events schedule planner colorful"
-  },
-  {
-    "id": 64,
-    "slug": "todoist-task-management",
-    "toolName": "Todoist",
-    "whatItDoes": "Todoist is a powerful and flexible task management app that helps you organize your life and get things done. It allows you to create tasks, set deadlines, prioritize, and collaborate with others.",
-    "category": "Productivity",
-    "whyItIsUseful": "It provides a clear overview of your commitments, reducing mental clutter and ensuring important tasks don't slip through the cracks. Its intuitive interface makes it easy to manage both personal and professional projects efficiently.",
-    "imageIdea": "task list sticky notes",
-    "websiteLink": "https://todoist.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 65,
-    "slug": "grammarly-writing-assistant",
-    "toolName": "Grammarly",
-    "whatItDoes": "Grammarly is an AI-powered writing assistant that checks your grammar, spelling, punctuation, clarity, engagement, and delivery mistakes in real-time. It offers suggestions to improve your writing across various platforms.",
-    "category": "Writing",
-    "whyItIsUseful": "It significantly enhances the quality and professionalism of your written communication, whether for emails, documents, or social media. By catching errors and suggesting better phrasing, it helps you convey your message more effectively.",
-    "imageIdea": "pen writing on paper",
-    "websiteLink": "https://www.grammarly.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 67,
-    "slug": "readwise",
-    "toolName": "Readwise",
-    "whatItDoes": "Readwise is a powerful tool that syncs your highlights from various sources like Kindle, Pocket, and Instapaper, centralizing your learning. It then uses a spaced repetition system to resurface your best highlights daily, helping you retain information over time.",
-    "category": "Productivity",
-    "whyItIsUseful": "It transforms passive reading into active learning by ensuring that valuable insights from your books and articles aren't forgotten. This daily review process strengthens memory and builds a robust personal knowledge base, making you a more effective learner.",
-    "imageIdea": "A clean, minimalist dashboard showing a 'Daily Review' card with highlighted text excerpts from books and articles.",
-    "websiteLink": "https://readwise.io/",
-    "type": "tool",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 68,
-    "slug": "tally-forms",
-    "toolName": "Tally Forms",
-    "whatItDoes": "Tally is a free online form builder that operates like a document, allowing users to create any type of form, survey, or quiz easily. It supports advanced features like conditional logic, payment collection, and integrations without requiring any coding.",
-    "category": "Productivity",
-    "whyItIsUseful": "It empowers individuals and businesses to collect data efficiently and without cost, democratizing access to powerful form-building capabilities. Its intuitive drag-and-drop interface and extensive features make it a versatile tool for various data collection needs.",
-    "imageIdea": "A sleek, modern web page displaying an online form being built, with a cursor adding new blocks of content.",
-    "websiteLink": "https://tally.so/",
-    "type": "tool",
-    "dateAdded": "2026-04-13"
-  },
-  {
     "id": 69,
     "slug": "scrivener",
     "toolName": "Scrivener",
@@ -938,5 +878,29 @@
     "websiteLink": "https://www.producthunt.com/r/5P6FZ2JTZUBBPB",
     "type": "tool",
     "dateAdded": "2026-04-25"
+  },
+  {
+    "id": 150,
+    "slug": "fathom-ai-meeting-notes",
+    "toolName": "Fathom 3.0",
+    "whatItDoes": "Fathom 3.0 is an AI-powered meeting notetaking tool that streamlines your post-meeting workflow. It offers bot-free capture, meaning it records and transcribes your meetings without needing a separate AI participant. The tool integrates with popular platforms like ChatGPT and Claude, allowing you to generate summaries, action items, and even search across all your past meeting notes. Fathom excels at providing real-time transcription and live summaries during your calls, ensuring you never miss a critical detail. It operates on a freemium model, offering robust features for free with paid tiers for enhanced capabilities.",
+    "category": "Productivity",
+    "whyItIsUseful": "Fathom 3.0 revolutionizes how professionals handle meetings by automating tedious note-taking and follow-up tasks. Its bot-free capture ensures a more natural meeting experience, while the AI integrations with ChatGPT and Claude provide instant, actionable insights. The ability to search across all your past meetings means you can quickly retrieve information without sifting through hours of recordings or scattered notes. Enthusiastic users praise Fathom for saving them significant time and improving meeting accountability. It's invaluable for anyone who attends multiple meetings daily, including sales teams, project managers, and consultants, helping them stay organized and productive.",
+    "imageIdea": "ai robot transcribing meeting",
+    "websiteLink": "https://www.producthunt.com/r/CS4BN7LVLISWRQ",
+    "type": "tool",
+    "dateAdded": "2026-04-26"
+  },
+  {
+    "id": 151,
+    "slug": "awesome-gpt-image-2-prompts",
+    "toolName": "awesome-gpt-image-2-prompts",
+    "whatItDoes": "This GitHub repository curates a comprehensive collection of prompts specifically designed for generating images using the GPT-Image-2 model via the OpenAI API. It provides a wide array of example prompts categorized by use case, such as portraits, posters, UI mockups, character sheets, and even experimental community creations. The primary goal is to offer users a rich resource for exploring and effectively utilizing the capabilities of image generation AI. It's a free, community-driven resource aimed at developers and creatives experimenting with AI-powered visual content.",
+    "category": "Developer",
+    "whyItIsUseful": "For anyone working with or interested in AI image generation, this repository is an indispensable resource for unlocking creative potential. By providing well-crafted and tested prompts, it significantly reduces the guesswork and iteration time required to achieve desired visual outcomes. The diverse examples across various styles and applications demonstrate the versatility of GPT-Image-2, inspiring new project ideas. Developers can directly integrate these prompts into their applications, while artists and designers can use them to quickly prototype visual concepts. It’s particularly useful for those looking to push the boundaries of AI-generated art and design without extensive prompt engineering knowledge.",
+    "imageIdea": "digital art canvas with creative prompts",
+    "websiteLink": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "type": "tool",
+    "dateAdded": "2026-04-26"
   }
 ]

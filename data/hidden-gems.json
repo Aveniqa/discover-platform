@@ -1,65 +1,5 @@
 [
   {
-    "id": 66,
-    "slug": "spacedrive",
-    "name": "Spacedrive",
-    "whatItDoes": "An open-source, cross-platform file manager that unifies files from local drives, cloud services, and network storage into one interface. It creates a virtual distributed filesystem across all your devices.",
-    "category": "File Management",
-    "whyItIsUseful": "It solves the problem of files scattered across multiple cloud services and devices. Instead of remembering where you stored something, you search one unified catalog.",
-    "websiteLink": "https://www.spacedrive.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.spacedrive.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "file manager cross platform organized folders"
-  },
-  {
-    "id": 67,
-    "slug": "cloudconvert",
-    "name": "CloudConvert",
-    "whatItDoes": "An online file conversion service supporting over 200 formats including documents, images, video, audio, and ebooks. It processes files in the cloud and deletes them after conversion.",
-    "category": "File Management",
-    "whyItIsUseful": "It eliminates the need to install specialized software for one-off format conversions. The API support makes it useful for automating conversion workflows in applications.",
-    "websiteLink": "https://cloudconvert.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcloudconvert.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "file conversion format transform document"
-  },
-  {
-    "id": 68,
-    "slug": "syncthing",
-    "name": "Syncthing",
-    "whatItDoes": "An open-source, peer-to-peer file synchronization tool that keeps folders in sync across multiple devices without a central server. All data is encrypted in transit and never stored on third-party infrastructure.",
-    "category": "File Management",
-    "whyItIsUseful": "It provides Dropbox-like syncing without giving any company access to your files. The decentralized architecture means it works on local networks even without internet access.",
-    "websiteLink": "https://syncthing.net",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsyncthing.net&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "file sync peer to peer devices"
-  },
-  {
-    "id": 69,
-    "slug": "filestash",
-    "name": "Filestash",
-    "whatItDoes": "A web-based file manager that connects to any storage backend including S3, SFTP, FTP, Google Drive, Dropbox, and WebDAV. It provides a unified browser interface with file preview and editing capabilities.",
-    "category": "File Management",
-    "whyItIsUseful": "It turns any storage backend into a user-friendly web file manager without migration. Teams can give non-technical users a simple interface to files stored on servers they would otherwise need CLI access to use.",
-    "websiteLink": "https://www.filestash.app",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.filestash.app&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "web file browser cloud storage"
-  },
-  {
-    "id": 70,
-    "slug": "send-tresorit",
-    "name": "Tresorit Send",
-    "whatItDoes": "An end-to-end encrypted file sharing service that lets you send files up to 5 GB with no account required. Links can be password-protected and set to expire automatically.",
-    "category": "File Management",
-    "whyItIsUseful": "It offers a more secure alternative to WeTransfer with genuine end-to-end encryption. The no-account requirement and expiring links make it ideal for sending sensitive files to clients or collaborators.",
-    "websiteLink": "https://send.tresorit.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsend.tresorit.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "encrypted file sharing secure transfer"
-  },
-  {
     "id": 71,
     "slug": "omni-calculator",
     "name": "Omni Calculator",
@@ -1215,5 +1155,44 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-25",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.bloomberg.com%2Fnews%2Farticles%2F2026-04-24%2Fgoogle-plans-to-invest-up-to-40-billion-in-anthropic&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 180,
+    "slug": "wuphf-llm-wiki",
+    "name": "Wuphf: A Karpathy-style LLM wiki your agents maintain",
+    "whatItDoes": "Wuphf is a decentralized knowledge base designed for AI agents, built using Markdown and Git for version control. It allows agents to collaboratively build and maintain a wiki, similar to how Andrej Karpathy's projects are often documented and expanded upon. This tool tackles the challenge of persistent, evolving knowledge for AI systems by leveraging familiar developer tools. Imagine an AI agent tasked with learning about a complex topic, where Wuphf enables it to continuously update and refine its understanding, creating a rich, self-improving knowledge repository.",
+    "category": "Developer",
+    "whyItIsUseful": "This is an exceptionally powerful concept for the future of AI development and knowledge management. While mainstream wiki tools focus on human editors, Wuphf is architected for autonomous agents, making its knowledge evolve dynamically. Its reliance on Markdown and Git means it's inherently version-controlled, auditable, and can be easily integrated into existing development workflows. Power users, particularly those experimenting with AI agent frameworks, will appreciate the foundational structure for creating emergent, agent-driven knowledge systems. It's a glimpse into how AI might self-document and learn in a structured, traceable manner, offering a distinct advantage over static documentation or unstructured data storage.",
+    "imageIdea": "network of connected glowing nodes",
+    "websiteLink": "https://github.com/nex-crm/wuphf",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-26",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fnex-crm%2Fwuphf&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 181,
+    "slug": "asahi-linux-progress-report-7-0",
+    "name": "Asahi Linux Progress Report 7.0",
+    "whatItDoes": "This is a progress report detailing the advancements made in Asahi Linux, a project dedicated to bringing a fully functional Linux experience to Apple's M-series Mac hardware. Progress Report 7.0 specifically highlights key milestones achieved in kernel development, driver support, and overall system stability for these new architectures. It's a vital update for anyone interested in or contributing to the effort of running Linux on modern Apple silicon. For example, a developer wanting to test native Linux applications on their MacBook Pro with an M2 chip would consult this report to understand the current state of hardware compatibility and performance.",
+    "category": "Developer",
+    "whyItIsUseful": "Asahi Linux is a monumental undertaking, and these progress reports are the critical arteries of information for a highly engaged community. What makes it underrated is the sheer technical depth and the dedication of the contributors tackling incredibly complex, proprietary hardware. Unlike generic OS news, these reports offer granular detail on reverse engineering challenges, kernel patches, and driver implementations that are essential for anyone working on or with this specific hardware platform. It's invaluable for engineers, embedded systems developers, and enthusiasts who need to understand the cutting edge of ARM-based hardware support in Linux, often revealing solutions to problems that have broader implications for the Linux ecosystem.",
+    "imageIdea": "stylized circuit board with a Linux penguin",
+    "websiteLink": "https://asahilinux.org/2026/04/progress-report-7-0/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-26",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fasahilinux.org%2F2026%2F04%2Fprogress-report-7-0%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 182,
+    "slug": "amateur-beats-erdos-problem-with-chatgpt",
+    "name": "Amateur Armed with ChatGPT Solves an Erdős Problem",
+    "whatItDoes": "This article from Scientific American details how an amateur mathematician, using ChatGPT as a sophisticated tool, managed to solve a 60-year-old problem posed by the prolific mathematician Paul Erdős. It explores the intersection of human intuition, computational power, and AI assistance in tackling complex theoretical challenges. The piece highlights the evolving nature of mathematical research and how advanced AI can democratize access to solving seemingly intractable problems. It's a testament to how AI can act as a powerful co-pilot in scientific discovery, enabling individuals with deep curiosity but perhaps not formal training to make significant contributions.",
+    "category": "Education",
+    "whyItIsUseful": "This story is a powerful, albeit anecdotal, illustration of how AI is fundamentally changing the landscape of scientific discovery and problem-solving, making it highly underrated as a concept for the general public. It moves beyond the hype of AI chatbots for simple tasks to demonstrate their potential in highly specialized, intellectual domains. The fact that an 'amateur' could achieve this with AI assistance is a signal that traditional barriers to entry in complex fields are being lowered. It's useful for anyone interested in the future of research, the democratization of knowledge, and the collaborative potential between humans and advanced AI, especially those who might feel intimidated by highly specialized academic fields.",
+    "imageIdea": "mathematical symbols intermingled with AI code",
+    "websiteLink": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-26",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.scientificamerican.com%2Farticle%2Famateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]
