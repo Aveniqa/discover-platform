@@ -1208,7 +1208,69 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "resistance-bands-5-pack-loop",
+      "title": "Resistance Bands 5-Pack (Loop Style)",
+      "category": "products",
+      "imageUrl": "https://images.pexels.com/photos/4397831/pexels-photo-4397831.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Resistance Bands 5-Pack (Loop Style)",
+      "productUrl": "https://surfaced-x.pages.dev/item/resistance-bands-5-pack-loop?utm_source=social&utm_medium=products&utm_campaign=daily_post",
+      "affiliateUrl": "https://www.amazon.com/s?k=resistance+bands+set+5+pack+loop+graduated+home+gym+workout&tag=vaultvibe-20",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Resistance Bands 5-Pack (Loop Style)",
+          "description": "Five graduated resistance loop bands — from light to extra-heavy — for home workouts, physical therapy, and warm-ups. https://www.amazon.com/s?k=resistance+bands+set+5+pack+loop+graduated+home+gym+workout&tag=vaultvibe-20 #surfaced #products",
+          "boardName": "Tech Products"
+        },
+        "bluesky": {
+          "text": "Resistance Bands 5-Pack (Loop Style) — Five graduated resistance loop bands — from light to extra-heavy — for home workouts, physical therapy, and warm-ups.\n\n#tech #gadgets"
+        },
+        "twitter": {
+          "text": "Resistance Bands 5-Pack (Loop Style) — Five graduated resistance loop bands — from light to extra-heavy — for home workouts, physical therapy, and warm-ups. https://www.amazon.com/s?k=resistance+bands+set+5+pack+loop+graduated+home+gym+workout&tag=vaultvibe-20"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-26T15:59:32.432Z",
+      "publishedAt": "2026-04-26T15:59:34.096Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "perplexity-ai",
+      "title": "Perplexity AI",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/8148681/pexels-photo-8148681.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Perplexity AI",
+      "productUrl": "https://surfaced-x.pages.dev/item/perplexity-ai?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/perplexity-ai?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Perplexity AI",
+          "description": " https://surfaced-x.pages.dev/item/perplexity-ai?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Perplexity AI — Perplexity AI is an AI-powered conversational search engine that provides direct answers to your questions, complete with sources. Instead of just listing links, it synthesizes information from variou\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/perplexity-ai?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-04-26T15:59:32.432Z",
+      "publishedAt": "2026-04-26T16:00:18.190Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-04-25T15:56:44.016Z"
+  "lastGenerated": "2026-04-26T15:59:32.433Z"
 }
