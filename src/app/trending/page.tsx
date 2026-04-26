@@ -15,6 +15,7 @@ import { QuickViewModal } from "@/components/ui/QuickViewModal";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { TiltCard } from "@/components/ui/TiltCard";
 import { BlurText } from "@/components/ui/BlurText";
+import { AdSlot } from "@/components/ui/AdSlot";
 
 // Parse the lower bound from "estimatedPriceRange" strings like "$299–$349" or "$29"
 function parsePriceLower(range: string | undefined): number {
@@ -252,7 +253,9 @@ export default function TrendingPage() {
           items
         </p>
 
-        {/* AD_ZONE: sidebar */}
+        {/* ── AdSense leaderboard — above product grid ─────── */}
+        {/* Paste your slot ID below once created in AdSense → Ads → By ad unit */}
+        <AdSlot slot="" label="trending-top" format="auto" className="mb-4" />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {paginatedItems.map((item, index) => (

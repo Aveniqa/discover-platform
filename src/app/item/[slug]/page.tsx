@@ -36,6 +36,7 @@ import { ItemImage } from "@/components/ui/ItemImage";
 import { PromoCode } from "@/components/ui/PromoCode";
 import { StickyCTA } from "@/components/ui/StickyCTA";
 import { BlurText } from "@/components/ui/BlurText";
+import { AdSlot } from "@/components/ui/AdSlot";
 import { LogoImage } from "@/components/ui/LogoImage";
 import { ScreenshotImage } from "@/components/ui/ScreenshotImage";
 import { isPexelsImage } from "@/lib/images";
@@ -786,7 +787,9 @@ export default async function ItemPage({ params }: Props) {
             </div>
           </ScrollReveal>
 
-          {/* AD_ZONE: detail-page-bottom */}
+          {/* ── AdSense — below detail content ───────────────── */}
+          {/* Paste your slot ID below once created in AdSense → Ads → By ad unit */}
+          <AdSlot slot="" label="detail-page-bottom" format="auto" />
         </div>
       </section>
 
