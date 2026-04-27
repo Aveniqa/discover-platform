@@ -5,6 +5,10 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
+      "ancient-egyptian-bread-fermentation",
+      "octopus-arms-independent-brains",
+      "archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo",
+      "ai-translates-ancient-lost-language",
       "tardigrades-microscopic-water-bears-that-can-survive-in-space",
       "year-without-a-summer",
       "diamond-rain-on-exoplanets",
@@ -12,11 +16,7 @@
       "exoplanet-wasp-12b-devoured-diamond",
       "roman-concrete-enduring-strength",
       "earth-inner-core-rotates-slower",
-      "placebo-effect-open-label",
-      "antikythera-mechanism-ancient-greek-astronomical-computer",
-      "wood-wide-web-how-trees-communicate-and-share-resources",
-      "overview-effect-astronauts-profound-shift-in-perspective-from-space",
-      "polynesian-wayfinding-ancient-oceanic-navigation"
+      "placebo-effect-open-label"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
+      "nalgene-32oz-sustain-water-bottle",
+      "philips-norelco-oneblade-360",
+      "grid-it-cocoon-organizer",
+      "rocketbook-pro-smart-notebook",
+      "chirp-wheel-plus-back-roller",
+      "bala-bangles-weighted-bracelets",
       "stasher-reusable-silicone-bag-bundle",
       "lastobject-lastswab-reusable-swab",
       "pela-compostable-phone-case",
-      "yeti-rambler-20oz-tumbler",
-      "lego-botanical-collection-orchid",
-      "sawyer-squeeze-water-filter-system",
-      "aeropress-go-portable-coffee-maker",
-      "sea-to-summit-aeros-premium-pillow",
-      "whoop-4-0-recovery-tracker",
-      "humble-bunch-subscription-box-coffee",
-      "brila-one-page-websites-from-google-reviews",
-      "littlebird-ai-work-assistant"
+      "tile-mate-bluetooth-tracker-4-pack",
+      "uv-skinz-hooded-sunshirt-upf-50",
+      "dodow-sleep-aid-device"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "the-dancing-plague-of-1518-a-mysterious-outbreak-of-uncontrollable-dancing",
-      "the-voyager-golden-record-humanitys-message-to-the-cosmos",
-      "year-without-a-summer",
-      "diamond-rain-on-exoplanets",
-      "ketchup-as-medicine-19th-century",
-      "roman-concrete-enduring-strength",
-      "human-bioluminescence-invisible-glow",
-      "antikythera-mechanism-ancient-greek-astronomical-computer",
-      "wood-wide-web-how-trees-communicate-and-share-resources",
-      "polynesian-wayfinding-ancient-oceanic-navigation",
-      "axolotl-limb-regeneration-biological-superpower",
-      "oumuamua-the-first-interstellar-visitor"
+      "claude",
+      "midjourney",
+      "github-copilot",
+      "otter-ai",
+      "elicit",
+      "notebooklm",
+      "perplexity-ai",
+      "deepl-translator",
+      "gamma-app",
+      "motion",
+      "uizard",
+      "grammarly-writing-assistant"
     ]
   },
   {

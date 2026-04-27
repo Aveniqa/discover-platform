@@ -1,46 +1,46 @@
 [
   {
-    "slug": "ancient-roman-concrete-self-healing",
-    "title": "Ancient Roman Concrete Had Self-Healing Properties",
+    "slug": "deep-sea-sponges-ingest-microplastics-natural-biofilters",
+    "title": "Deep-Sea Sponges Act as Natural Biofilters, Ingesting Microplastics in Ocean",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "In 2023, a study published in 'Science Advances' by researchers from MIT, Harvard University, and the Jacobs School of E",
-    "badge": "editors-pick",
+    "description": "A study published in *Marine Biology* by researchers from the University of Victoria has revealed that deep-sea sponges,",
+    "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "govee-rgb-smart-floor-lamp-corner-light",
-    "title": "Govee RGBIC LED Floor Lamp",
+    "slug": "perfect bake pro smart baking scale",
+    "title": "Perfect Bake Pro Smart Baking Scale & App",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The Govee RGBIC LED Floor Lamp is a modern lighting solution that transforms any room with customizable ambient light. F",
+    "description": "Achieve baking perfection every time with the Perfect Bake Pro Smart Baking Scale & App, an innovative system that guide",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "amateur-beats-erdos-problem-with-chatgpt",
-    "title": "Amateur Armed with ChatGPT Solves an Erdős Problem",
+    "slug": "timebloc visual time blocking schedule planner",
+    "title": "TimeBloc",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This article from Scientific American details how an amateur mathematician, using ChatGPT as a sophisticated tool, manag",
+    "description": "TimeBloc is a modern time-blocking and daily schedule planner developed by TimeBloc LLC, designed to help users allocate",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "usb-cheat-sheet",
-    "title": "Advanced USB Protocol Analysis",
+    "slug": "cultivated-meat-from-cell-lines",
+    "title": "Cultivated Meat from Cell Lines",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "This USB Cheat Sheet provides a deep dive into the technical specifications and protocols underlying Universal Serial Bu",
+    "description": "Cultivated meat involves growing real animal muscle and fat cells directly from a small biopsy taken from an animal, byp",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "awesome-gpt-image-2-prompts",
-    "title": "awesome-gpt-image-2-prompts",
+    "slug": "obsidian-knowledge-base-markdown-notes",
+    "title": "Obsidian",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "This GitHub repository curates a comprehensive collection of prompts specifically designed for generating images using t",
+    "description": "Obsidian is a powerful, local-first knowledge base application developed by Shimmering Light, designed to help users bui",
     "badge": null,
     "type": "tool"
   }
