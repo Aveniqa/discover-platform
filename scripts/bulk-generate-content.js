@@ -179,12 +179,17 @@ const VARIETY_HINTS = {
 async function generateBatch(category, existingItems, count, hintIndex) {
   const existingSlugs = getExistingSlugs(existingItems);
 
-  // Use last 60 titles to avoid duplication, but sample from across the list for diversity
-  const allTitles = existingItems.map(i => i.title || i.name || i.toolName || i.techName);
-  const recentTitles = [
-    ...allTitles.slice(-30),
-    ...allTitles.slice(0, 10),
-  ].filter(Boolean).join(", ");
+  // Pass ALL existing titles — critical for avoiding duplicates on large catalogs
+  const allTitles = existingItems
+    .map(i => i.title || i.name || i.toolName || i.techName)
+    .filter(Boolean);
+  // Deduplicate and join; truncate only if truly enormous (>8000 chars)
+  const uniqueTitles = [...new Set(allTitles)];
+  let recentTitles = uniqueTitles.join(", ");
+  if (recentTitles.length > 8000) {
+    // Keep first 200 + last 100 if too long
+    recentTitles = [...uniqueTitles.slice(0, 200), ...uniqueTitles.slice(-100)].join(", ");
+  }
 
   // Pick variety hint
   const hints = VARIETY_HINTS[category] || [];

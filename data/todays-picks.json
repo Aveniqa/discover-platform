@@ -1,46 +1,46 @@
 [
   {
-    "slug": "deep-sea-sponges-ingest-microplastics-natural-biofilters",
-    "title": "Deep-Sea Sponges Act as Natural Biofilters, Ingesting Microplastics in Ocean",
+    "slug": "strongest-lightest-aerogel-metamaterial-ever-created",
+    "title": "Strongest, Lightest Aerogel Metamaterial Ever Created by Researchers",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "A study published in *Marine Biology* by researchers from the University of Victoria has revealed that deep-sea sponges,",
+    "description": "Scientists at ETH Zurich have synthesized the strongest and lightest aerogel metamaterial to date, capable of supporting",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "perfect bake pro smart baking scale",
-    "title": "Perfect Bake Pro Smart Baking Scale & App",
+    "slug": "lectrofan-micro2-sleep-sound-machine",
+    "title": "LectroFan Micro2 Sleep Sound Machine",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "Achieve baking perfection every time with the Perfect Bake Pro Smart Baking Scale & App, an innovative system that guide",
+    "description": "The LectroFan Micro2 is an ultra-portable, personal sleep sound machine and Bluetooth speaker, perfect for travel or sma",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "timebloc visual time blocking schedule planner",
-    "title": "TimeBloc",
+    "slug": "taskheat visual project scheduling",
+    "title": "Taskheat",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "TimeBloc is a modern time-blocking and daily schedule planner developed by TimeBloc LLC, designed to help users allocate",
+    "description": "Taskheat is an intuitive visual task manager and project planner, developed by two independent developers focused on cre",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "cultivated-meat-from-cell-lines",
-    "title": "Cultivated Meat from Cell Lines",
+    "slug": "crispr-cas gene circuitry cell fate engineering",
+    "title": "CRISPR-Cas Gene Circuitry for Cell Fate Engineering",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "Cultivated meat involves growing real animal muscle and fat cells directly from a small biopsy taken from an animal, byp",
-    "badge": null,
+    "description": "This technology employs synthetic gene circuits, built using advanced CRISPR-Cas systems like CRISPRi (interference) and",
+    "badge": "editors-pick",
     "type": "future-tech"
   },
   {
-    "slug": "obsidian-knowledge-base-markdown-notes",
-    "title": "Obsidian",
+    "slug": "pastel-sh-minimalist-code-snippet-sharing",
+    "title": "Pastel.sh",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Obsidian is a powerful, local-first knowledge base application developed by Shimmering Light, designed to help users bui",
+    "description": "Pastel.sh, a lightweight web service created by an independent developer, is a minimalist online tool for sharing code s",
     "badge": null,
     "type": "tool"
   }
