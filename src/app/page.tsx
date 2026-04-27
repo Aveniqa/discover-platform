@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import {
   discoveries,
   products,
@@ -31,6 +31,9 @@ import { BlurText } from "@/components/ui/BlurText";
 import { getStreak } from "@/lib/engagement";
 import { todaysPicks } from "@/lib/data";
 import Link from "next/link";
+import { TiltCard } from "@/components/ui/TiltCard";
+import { SpotlightCard } from "@/components/ui/SpotlightCard";
+import { MarqueeStrip } from "@/components/ui/MarqueeStrip";
 
 /* ---- Helpers ---- */
 
@@ -70,6 +73,31 @@ function accentBar(type: string): string {
   return `bg-gradient-to-r ${m[c] || m.indigo}`;
 }
 
+function CountUp({ to, duration = 1400 }: { to: number; duration?: number }) {
+  const [n, setN] = useState(0);
+  const ref = useRef<HTMLSpanElement>(null);
+  const done = useRef(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const ob = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting && !done.current) {
+        done.current = true;
+        const t0 = performance.now();
+        const tick = (now: number) => {
+          const p = Math.min((now - t0) / duration, 1);
+          setN(Math.round((1 - Math.pow(1 - p, 3)) * to));
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      }
+    }, { threshold: 0.5 });
+    ob.observe(el);
+    return () => ob.disconnect();
+  }, [to, duration]);
+  return <span ref={ref}>{n}</span>;
+}
+
 /* ---- Page Component ---- */
 
 export default function HomePage() {
@@ -81,6 +109,14 @@ export default function HomePage() {
   const openSearch = () => {
     document.dispatchEvent(new KeyboardEvent("keydown", { key: "k", metaKey: true }));
   };
+
+  const heroRef = useRef<HTMLDivElement>(null);
+  function handleHeroMouseMove(e: React.MouseEvent<HTMLDivElement>) {
+    if (!heroRef.current) return;
+    const r = heroRef.current.getBoundingClientRect();
+    heroRef.current.style.setProperty("--hx", `${((e.clientX - r.left) / r.width * 100).toFixed(1)}%`);
+    heroRef.current.style.setProperty("--hy", `${((e.clientY - r.top) / r.height * 100).toFixed(1)}%`);
+  }
 
   useEffect(() => {
     const days = getStreak();
@@ -126,12 +162,17 @@ export default function HomePage() {
       {/* ============================================
           HERO — Visual showcase + compact headline
           ============================================ */}
+      <div ref={heroRef} onMouseMove={handleHeroMouseMove}>
       <AuroraBackground
         colorA="bg-accent/12"
         colorB="bg-emerald-500/8"
         colorC="bg-cyan-500/6"
         className="relative pt-6 sm:pt-10 pb-8 sm:pb-12"
       >
+        {/* Dot grid texture */}
+        <div aria-hidden className="pointer-events-none absolute inset-0" style={{ backgroundImage: "radial-gradient(circle, rgba(168,85,247,0.07) 1px, transparent 1px)", backgroundSize: "32px 32px" }} />
+        {/* Mouse-tracking glow */}
+        <div aria-hidden className="pointer-events-none absolute inset-0" style={{ background: "radial-gradient(500px circle at var(--hx, 50%) var(--hy, 50%), rgba(168,85,247,0.05), transparent 60%)" }} />
         {/* Streak badge */}
         {streakDays > 0 && (
           <div className="text-center mb-4">
@@ -164,20 +205,21 @@ export default function HomePage() {
 
           <div className="flex items-center justify-center gap-6 sm:gap-10 pt-5 border-t border-border/50">
             <div className="text-center">
-              <p className="text-2xl font-bold">{totalItems}+</p>
+              <p className="text-2xl font-bold"><CountUp to={totalItems} />+</p>
               <p className="text-xs text-muted-foreground">Curated items</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl font-bold">5</p>
+              <p className="text-2xl font-bold"><CountUp to={5} /></p>
               <p className="text-xs text-muted-foreground">Categories</p>
             </div>
             <div className="text-center">
-              <p className="text-2xl font-bold">25</p>
+              <p className="text-2xl font-bold"><CountUp to={25} /></p>
               <p className="text-xs text-muted-foreground">New daily</p>
             </div>
           </div>
         </div>
       </AuroraBackground>
+      </div>
 
       {/* Search strip */}
       <section className="pb-6 px-4 sm:px-6">
@@ -197,6 +239,12 @@ export default function HomePage() {
           </button>
         </div>
       </section>
+
+      {/* ── Topic Marquee ────────────────────────────────── */}
+      <div className="py-3 border-y border-border/30 overflow-hidden">
+        <MarqueeStrip speed={40} items={["Science", "AI & ML", "Space", "Biotech", "Research", "Design", "Future Tech", "Hidden Gems", "Daily Tools", "Psychology", "Robotics", "Innovation"]} />
+        <MarqueeStrip reverse speed={32} className="mt-2" items={["Quantum", "Climate Tech", "Neural Nets", "Indie Makers", "Health", "Genomics", "Privacy", "Sustainability", "Creativity", "Gadgets", "Finance", "Culture"]} />
+      </div>
 
       {/* ============================================
           TRENDING THIS WEEK — badged items
@@ -256,7 +304,7 @@ export default function HomePage() {
               { label: "Daily Tools", href: "/tools", emoji: "🛠️", count: dailyTools.length, color: "from-rose-500/20 to-transparent" },
             ].map((cat) => (
               <Link key={cat.href} href={cat.href}
-                className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 transition-all group`}>
+                className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 transition-all group backdrop-blur-sm`}>
                 <span className="text-2xl">{cat.emoji}</span>
                 <p className="font-semibold mt-2 text-sm group-hover:text-accent transition-colors">{cat.label}</p>
                 <p className="text-xs text-muted-foreground">{cat.count} items</p>
@@ -294,12 +342,27 @@ export default function HomePage() {
                 rose: "bg-rose-500/15 text-rose-300 border-rose-400/25",
               };
               const color = colorMap[pick.type] || "indigo";
+              const glowColorMap: Record<string, string> = {
+                indigo: "0 8px 40px rgba(99,102,241,0.15), 0 0 0 1px rgba(99,102,241,0.08)",
+                emerald: "0 8px 40px rgba(52,211,153,0.15), 0 0 0 1px rgba(52,211,153,0.08)",
+                amber: "0 8px 40px rgba(251,191,36,0.15), 0 0 0 1px rgba(251,191,36,0.08)",
+                cyan: "0 8px 40px rgba(34,211,238,0.15), 0 0 0 1px rgba(34,211,238,0.08)",
+                rose: "0 8px 40px rgba(251,113,133,0.15), 0 0 0 1px rgba(251,113,133,0.08)",
+              };
+              const spotlightColorMap: Record<string, string> = {
+                indigo: "rgba(99,102,241,0.1)",
+                emerald: "rgba(52,211,153,0.1)",
+                amber: "rgba(251,191,36,0.1)",
+                cyan: "rgba(34,211,238,0.1)",
+                rose: "rgba(251,113,133,0.1)",
+              };
               const fullItem = getAllItems().find(i => i.slug === pick.slug);
               return (
+                <TiltCard key={pick.slug} maxTilt={5} glowColor={glowColorMap[color]} className="flex flex-col">
+                <SpotlightCard spotlightColor={spotlightColorMap[color]} className="flex-1 h-full">
                 <Link
-                  key={pick.slug}
                   href={`/item/${pick.slug}`}
-                  className="group relative rounded-2xl border border-border/60 bg-surface overflow-hidden hover:border-border card-hover-glow transition-all flex flex-col"
+                  className="group relative rounded-2xl border border-border/60 bg-surface overflow-hidden hover:border-border card-hover-glow transition-all flex flex-col h-full"
                 >
                   {fullItem && (
                     <div className="overflow-hidden">
@@ -318,6 +381,8 @@ export default function HomePage() {
                     </p>
                   </div>
                 </Link>
+                </SpotlightCard>
+                </TiltCard>
               );
             })}
           </div>
@@ -348,7 +413,8 @@ export default function HomePage() {
                 <span className="text-xs text-muted-foreground">{<TodayDate />}</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight">
-                What Surfaced Today
+                <BlurText as="span" wordDelay={50}>What Surfaced</BlurText>{" "}
+                <BlurText as="span" wordDelay={50} className="gradient-text">Today</BlurText>
               </h2>
               <p className="text-sm text-muted mt-1 hidden sm:block">
                 5 standout finds from across the internet
@@ -367,7 +433,9 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-5">
             {/* Lead story — large card */}
-            <div className="sm:col-span-2 xl:row-span-2 gradient-border relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden">
+            <TiltCard maxTilt={4} glowColor="0 8px 40px rgba(168,85,247,0.1), 0 0 0 1px rgba(168,85,247,0.07)" className="sm:col-span-2 xl:row-span-2">
+            <SpotlightCard spotlightColor="rgba(168,85,247,0.08)" className="h-full">
+            <div className="gradient-border relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden h-full">
               <div className={`absolute top-0 left-0 right-0 h-[3px] z-10 ${accentBar(editorsPick.type)}`} />
               <div className="overflow-hidden">
                 <ItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" priority className="group-hover:scale-[1.03] transition-transform duration-500" />
@@ -405,12 +473,15 @@ export default function HomePage() {
               </Link>
               </div>
             </div>
+            </SpotlightCard>
+            </TiltCard>
 
             {/* 4 supporting picks */}
             {topPicksRest.map((item, i) => (
+              <TiltCard key={item.slug} maxTilt={4} glowColor="0 8px 40px rgba(168,85,247,0.1), 0 0 0 1px rgba(168,85,247,0.07)">
+              <SpotlightCard spotlightColor="rgba(168,85,247,0.08)" className="h-full">
               <div
-                key={item.slug}
-                className="relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden"
+                className="relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden h-full"
               >
                 <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                 <div className="overflow-hidden">
@@ -447,6 +518,8 @@ export default function HomePage() {
                 </Link>
                 </div>
               </div>
+              </SpotlightCard>
+              </TiltCard>
             ))}
           </div>
 

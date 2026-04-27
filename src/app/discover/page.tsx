@@ -11,6 +11,9 @@ import { ItemImage } from "@/components/ui/ItemImage";
 import { discoveries, getSubCategories, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
+import { AuroraBackground } from "@/components/ui/AuroraBackground";
+import { BlurText } from "@/components/ui/BlurText";
+import { TiltCard } from "@/components/ui/TiltCard";
 
 export default function DiscoverPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -49,19 +52,19 @@ export default function DiscoverPage() {
   return (
     <>
       {/* ── Hero ──────────────────────────────────────────── */}
-      <section className="relative py-24 sm:py-32 overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute -top-32 left-1/4 w-[480px] h-[480px] rounded-full bg-indigo-500/8 blur-[120px]" />
-          <div className="absolute top-20 right-1/4 w-[360px] h-[360px] rounded-full bg-cyan-500/6 blur-[100px]" />
-        </div>
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+      <AuroraBackground
+        colorA="bg-indigo-500/15"
+        colorB="bg-violet-500/10"
+        colorC="bg-purple-500/6"
+        className="py-24 sm:py-32"
+      >
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-indigo-400 mb-4">
             Discover
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-            Today&apos;s{" "}
-            <span className="gradient-text">Discoveries</span>
+            <BlurText as="span" wordDelay={55}>Today&apos;s</BlurText>{" "}
+            <BlurText as="span" wordDelay={55} className="gradient-text">Discoveries</BlurText>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Breakthroughs, fascinating research, and things you didn&apos;t know
@@ -72,7 +75,7 @@ export default function DiscoverPage() {
             items curated.
           </p>
         </div>
-      </section>
+      </AuroraBackground>
 
       {/* ── Filter Bar ────────────────────────────────────── */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 -mt-6 mb-10">
@@ -163,6 +166,7 @@ export default function DiscoverPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {paginatedItems.map((item, index) => (
             <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />}>
+              <TiltCard maxTilt={6} glowColor="0 8px 40px rgba(99,102,241,0.12), 0 0 0 1px rgba(99,102,241,0.08)" className="h-full">
               <div className="group relative block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden">
                 <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.title} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
@@ -198,6 +202,7 @@ export default function DiscoverPage() {
                   </a>
                 )}
               </div>
+              </TiltCard>
             </ScrollReveal>
           ))}
         </div>

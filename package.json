@@ -10,7 +10,10 @@
     "lint": "eslint",
     "fetch-images": "tsx scripts/fetch-images.ts",
     "generate:social": "node scripts/generate-social-posts.mjs",
-    "publish:social": "node scripts/publish-social-posts.mjs"
+    "publish:social": "node scripts/publish-social-posts.mjs",
+    "bulk:generate": "node scripts/bulk-generate-content.js",
+    "bulk:generate:500": "node scripts/bulk-generate-content.js 500",
+    "enrich": "node scripts/enrich-existing-items.js"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",

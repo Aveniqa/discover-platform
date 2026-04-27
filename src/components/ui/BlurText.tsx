@@ -49,7 +49,7 @@ export function BlurText({
 
   return (
     // @ts-ignore — dynamic tag assignment
-    <Tag ref={ref} className={`inline ${className}`} aria-label={children}>
+    <Tag ref={ref} className={`inline ${className}`} aria-label={children} role={Tag === "span" ? "text" : undefined}>
       {words.map((word, i) => (
         <span
           key={i}

@@ -11,6 +11,9 @@ import { ItemImage } from "@/components/ui/ItemImage";
 import { futureRadar, getSubCategories, getFilterCategory, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
+import { AuroraBackground } from "@/components/ui/AuroraBackground";
+import { BlurText } from "@/components/ui/BlurText";
+import { TiltCard } from "@/components/ui/TiltCard";
 
 export default function FutureRadarPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -49,20 +52,19 @@ export default function FutureRadarPage() {
   return (
     <>
       {/* ── Hero ──────────────────────────────────────────── */}
-      <section className="relative py-24 sm:py-32 overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute -top-32 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-cyan-500/10 blur-[140px]" />
-          <div className="absolute top-24 right-1/3 w-[300px] h-[300px] rounded-full bg-cyan-500/8 blur-[100px]" />
-          <div className="absolute bottom-0 left-1/4 w-[250px] h-[250px] rounded-full bg-cyan-500/6 blur-[80px]" />
-        </div>
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+      <AuroraBackground
+        colorA="bg-cyan-500/18"
+        colorB="bg-blue-500/12"
+        colorC="bg-teal-500/8"
+        className="py-24 sm:py-32"
+      >
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-cyan-400 mb-4">
             Future Radar
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-            Future{" "}
-            <span className="gradient-text">Radar</span>
+            <BlurText as="span" wordDelay={55}>Future</BlurText>{" "}
+            <BlurText as="span" wordDelay={55} className="gradient-text">Radar</BlurText>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Breakthroughs that will reshape the world — tracked with timelines
@@ -73,7 +75,7 @@ export default function FutureRadarPage() {
             signals tracked.
           </p>
         </div>
-      </section>
+      </AuroraBackground>
 
       {/* ── Filter Bar ────────────────────────────────────── */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 -mt-6 mb-10">
@@ -164,6 +166,7 @@ export default function FutureRadarPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {paginatedItems.map((item, index) => (
             <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />}>
+              <TiltCard maxTilt={6} glowColor="0 8px 40px rgba(34,211,238,0.12), 0 0 0 1px rgba(34,211,238,0.08)" className="h-full">
               <Link
                 href={`/item/${item.slug}`}
                 className="group block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden"
@@ -202,6 +205,7 @@ export default function FutureRadarPage() {
                 </p>
                 </div>
               </Link>
+              </TiltCard>
             </ScrollReveal>
           ))}
         </div>
