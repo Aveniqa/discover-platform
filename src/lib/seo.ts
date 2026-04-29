@@ -39,7 +39,16 @@ export function trimDescription(s: string, max = 160): string {
 }
 
 export interface BuildMetadataInput {
+  /** Visible / canonical title — used as the on-page H1 by callers. */
   title: string;
+  /**
+   * Optional SEO-tuned title (≤65 chars, keyword-forward). When present this
+   * is what the browser <title> bar and the OG/Twitter title cards will use,
+   * while `title` stays the visible H1 string. Long, descriptive editorial
+   * titles can therefore stay long on the page while search engines see a
+   * concise, scannable variant.
+   */
+  seoTitle?: string;
   description: string;
   /** Page path, relative to SITE_URL. e.g. "/discover" or "/item/foo" */
   path: string;
@@ -76,16 +85,18 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
   const url = absoluteUrl(input.path);
   const description = trimDescription(input.description);
   const image = input.image || DEFAULT_OG_IMAGE;
-  const titleStr = input.absoluteTitle
-    ? input.title
-    : `${input.title} — ${SITE_NAME}`;
+
+  // SEO-tuned title (when caller provided one) overrides the visible title for
+  // the <title> tag and OG/Twitter cards. Visible H1 is owned by the page.
+  const headTitle = input.seoTitle?.trim() || input.title;
+  const ogTitle = input.absoluteTitle ? headTitle : `${headTitle} — ${SITE_NAME}`;
 
   return {
-    title: input.absoluteTitle ? { absolute: input.title } : input.title,
+    title: input.absoluteTitle ? { absolute: headTitle } : headTitle,
     description,
     alternates: { canonical: url },
     openGraph: {
-      title: titleStr,
+      title: ogTitle,
       description,
       url,
       siteName: SITE_NAME,
@@ -96,7 +107,7 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-      title: input.title,
+      title: headTitle,
       description,
       images: image ? [image] : [],
       creator: TWITTER_HANDLE,

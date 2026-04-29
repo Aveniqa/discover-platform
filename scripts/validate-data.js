@@ -15,27 +15,27 @@ const DATA_DIR = path.join(__dirname, "..", "data");
 const SCHEMAS = {
   discoveries: {
     required: ["id", "slug", "title", "shortDescription", "category", "whyItIsInteresting", "type"],
-    optional: ["imageIdea", "sourceLink", "dateAdded"],
+    optional: ["seoTitle", "imageIdea", "sourceLink", "dateAdded"],
     typeField: "discovery",
   },
   products: {
     required: ["id", "slug", "title", "shortDescription", "category", "whyItIsInteresting", "type"],
-    optional: ["imageIdea", "sourceLink", "estimatedPriceRange", "dateAdded"],
+    optional: ["seoTitle", "imageIdea", "sourceLink", "estimatedPriceRange", "dateAdded"],
     typeField: "product",
   },
   "hidden-gems": {
     required: ["id", "slug", "name", "whatItDoes", "category", "whyItIsUseful", "type"],
-    optional: ["imageIdea", "websiteLink", "dateAdded"],
+    optional: ["seoTitle", "imageIdea", "websiteLink", "dateAdded"],
     typeField: "hidden-gem",
   },
   "future-radar": {
     required: ["id", "slug", "techName", "explanation", "industry", "whyItMatters", "developmentStage", "type"],
-    optional: ["imageIdea", "dateAdded"],
+    optional: ["seoTitle", "imageIdea", "dateAdded"],
     typeField: "future-tech",
   },
   "daily-tools": {
     required: ["id", "slug", "toolName", "whatItDoes", "category", "whyItIsUseful", "type"],
-    optional: ["websiteLink", "imageIdea", "dateAdded"],
+    optional: ["seoTitle", "websiteLink", "imageIdea", "dateAdded"],
     typeField: "tool",
   },
 };

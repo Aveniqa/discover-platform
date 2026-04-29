@@ -114,8 +114,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const priceRange = isProduct ? (item as Product).estimatedPriceRange : undefined;
   const dateAdded = (item as { dateAdded?: string }).dateAdded;
 
+  // Optional SEO-tuned title — populated by scripts/backfill-seo-titles.mjs.
+  // Falls back to `title` when missing. Visible H1 still uses the full title.
+  const seoTitle = (item as { seoTitle?: string }).seoTitle;
+
   const meta = buildMetadata({
     title,
+    seoTitle,
     description: desc,
     path: `/item/${slug}`,
     image: ogImage,

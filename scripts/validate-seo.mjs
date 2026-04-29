@@ -119,8 +119,13 @@ function checkPage(file) {
   /* Title */
   const t = title(html);
   if (!t) errs.push("missing <title>");
-  else if (t.length < TITLE_MIN || t.length > TITLE_MAX)
-    warns.push(`title length ${t.length} (target ${TITLE_MIN}–${TITLE_MAX})`);
+  else if (t.length < TITLE_MIN) warns.push(`title length ${t.length} (under ${TITLE_MIN})`);
+  else if (t.length > TITLE_MAX) {
+    // If buildMetadata had a `seoTitle` ≤65, the rendered <title> would already
+    // be ≤65 (modulo the " — Surfaced" suffix, ~12 chars). When it's still over,
+    // the page either has no seoTitle or its seoTitle is itself too long.
+    warns.push(`title length ${t.length} (target ≤${TITLE_MAX} — set seoTitle on the item)`);
+  }
 
   /* Description */
   const desc = meta(html, "description");
