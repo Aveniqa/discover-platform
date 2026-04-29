@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Affiliate Disclosure",
   description:
     "Transparency about how Surfaced earns revenue through affiliate links and why it never compromises our editorial independence.",
-  openGraph: {
-    title: "Affiliate Disclosure — Surfaced",
-    description:
-      "Transparency about how Surfaced earns revenue through affiliate links.",
-  },
-};
+  path: "/affiliate-disclosure",
+});
 
 export default function AffiliateDisclosurePage() {
   return (

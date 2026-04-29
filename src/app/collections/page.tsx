@@ -1,22 +1,29 @@
 import { collections_data } from "@/lib/data";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import { itemListLd, ldScript } from "@/lib/jsonld";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Collections",
-  description: "Curated themed groups of the best finds across all categories.",
-  alternates: { canonical: "https://surfaced-x.pages.dev/collections" },
-  openGraph: {
-    title: "Collections — Surfaced",
-    description: "Curated themed groups of the best finds across all categories.",
-    url: "https://surfaced-x.pages.dev/collections",
-    siteName: "Surfaced",
-  },
-};
+  description:
+    "Curated themed groups of the best finds across all categories — discoveries, products, hidden gems, future tech, and tools.",
+  path: "/collections",
+});
 
 export default function CollectionsPage() {
+  // ItemList of all collections — helps Google understand the index structure
+  const listLd = itemListLd(
+    collections_data.map((c) => ({
+      url: `/collections/${c.slug}`,
+      name: c.title,
+    })),
+    "Surfaced Collections"
+  );
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(listLd)} />
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-32 left-1/4 w-[480px] h-[480px] rounded-full bg-accent/8 blur-[120px]" />

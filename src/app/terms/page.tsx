@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Terms of Service",
   description:
     "Read the terms and conditions governing your use of the Surfaced platform and services.",
-  openGraph: {
-    title: "Terms of Service — Surfaced",
-    description:
-      "Read the terms and conditions governing your use of the Surfaced platform and services.",
-  },
-};
+  path: "/terms",
+});
 
 export default function TermsPage() {
   return (

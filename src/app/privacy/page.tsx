@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Privacy Policy",
   description:
     "Learn how Surfaced collects, uses, and protects your personal information.",
-  openGraph: {
-    title: "Privacy Policy — Surfaced",
-    description:
-      "Learn how Surfaced collects, uses, and protects your personal information.",
-  },
-};
+  path: "/privacy",
+});
 
 export default function PrivacyPage() {
   return (

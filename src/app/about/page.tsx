@@ -1,16 +1,13 @@
 import type { Metadata } from "next";
 import { SocialCTA } from "@/components/SocialCTA";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "About",
   description:
     "Learn about Surfaced, the daily discovery engine that surfaces what matters from the infinite internet.",
-  openGraph: {
-    title: "About — Surfaced",
-    description:
-      "Learn about Surfaced, the daily discovery engine that surfaces what matters from the infinite internet.",
-  },
-};
+  path: "/about",
+});
 
 const pillars = [
   {

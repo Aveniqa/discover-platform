@@ -1,16 +1,13 @@
 import type { Metadata } from "next";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Premium",
   description:
     "Surfaced Premium is coming soon. Ad-free reading, early access, exclusive tools, saved collections, and weekly deep dives.",
-  openGraph: {
-    title: "Premium — Surfaced",
-    description:
-      "Surfaced Premium is coming soon. Ad-free reading, early access, exclusive tools, and more.",
-  },
-};
+  path: "/premium",
+});
 
 const freeTier = [
   { feature: "Daily discoveries feed", included: true },

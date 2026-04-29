@@ -6,6 +6,8 @@
     "dev": "next dev",
     "prebuild": "node scripts/generate-rss.mjs",
     "build": "next build",
+    "postbuild": "node scripts/validate-seo.mjs --warn",
+    "validate:seo": "node scripts/validate-seo.mjs",
     "start": "next start",
     "lint": "eslint",
     "fetch-images": "tsx scripts/fetch-images.ts",

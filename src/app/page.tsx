@@ -34,6 +34,7 @@ import Link from "next/link";
 import { TiltCard } from "@/components/ui/TiltCard";
 import { SpotlightCard } from "@/components/ui/SpotlightCard";
 import { MarqueeStrip } from "@/components/ui/MarqueeStrip";
+import { itemListLd, ldScript } from "@/lib/jsonld";
 
 /* ---- Helpers ---- */
 
@@ -150,8 +151,17 @@ export default function HomePage() {
   /* Slugs already shown — exclude from category sections */
   const shownSlugs = new Set([editorsPick.slug, ...topPicksRest.map(i => i.slug)]);
 
+  /* JSON-LD: Today's Picks as an ItemList — surfaces the homepage's
+     featured items to Google as a real navigable list */
+  const todaysPicksLd = itemListLd(
+    todaysPicks.map((p) => ({ url: `/item/${p.slug}`, name: p.title })),
+    "Today's Picks"
+  );
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(todaysPicksLd)} />
+
       {/* ── Streak milestone toast ──────────────────────── */}
       {milestoneToast && (
         <div className="fixed top-20 left-1/2 -translate-x-1/2 z-[60] px-6 py-3 rounded-2xl bg-amber-500/20 border border-amber-400/30 text-amber-200 text-sm font-semibold shadow-xl backdrop-blur animate-fade-in-up whitespace-nowrap">

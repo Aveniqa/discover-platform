@@ -1,17 +1,14 @@
 import type { Metadata } from "next";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { SocialCTA } from "@/components/SocialCTA";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Newsletter",
   description:
     "Get the best discoveries, trending products, and hidden internet gems delivered to your inbox every morning. Free, no spam.",
-  openGraph: {
-    title: "Newsletter — Surfaced",
-    description:
-      "Get the best discoveries delivered to your inbox every morning. Free, no spam.",
-  },
-};
+  path: "/newsletter",
+});
 
 const benefits = [
   "Daily curated discoveries you won't find anywhere else",

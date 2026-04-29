@@ -45,6 +45,38 @@ export function getItemImageUrl(
   return sized;
 }
 
+/**
+ * Build a `srcset` of multiple widths from a single cached URL.
+ *
+ * Pexels and Unsplash both honour their query-param sizing endpoints
+ * (`?w=…&h=…`), so we can rewrite a single cached URL into a few
+ * resolution variants without re-fetching from the source.
+ *
+ * Returns null when the slug has no cached image — caller should fall
+ * back to its placeholder.
+ */
+export function getItemImageSrcSet(
+  slug: string,
+  widths: number[] = [400, 700, 940, 1200]
+): { srcSet: string; defaultSrc: string } | null {
+  const url = cache[slug];
+  if (!url) return null;
+
+  const buildVariant = (w: number) => {
+    // Approximate height assuming 16/10 aspect (matches default ItemImage layout)
+    const h = Math.round((w * 10) / 16);
+    let sized = url.replace(/h=\d+&w=\d+/, `h=${h}&w=${w}`);
+    if (!sized.includes("fm=webp")) sized = sized.replace(/fm=jpg/, "fm=webp");
+    return { url: sized, w };
+  };
+
+  const variants = widths.map(buildVariant);
+  return {
+    srcSet: variants.map((v) => `${v.url} ${v.w}w`).join(", "),
+    defaultSrc: variants[Math.min(2, variants.length - 1)].url,
+  };
+}
+
 /** Check if an image URL came from Pexels (for attribution) */
 export function isPexelsImage(slug: string): boolean {
   const url = cache[slug];

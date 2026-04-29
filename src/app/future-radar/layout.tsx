@@ -1,24 +1,17 @@
 import type { Metadata } from "next";
+import { futureRadar } from "@/lib/data";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Future Technology & Emerging Innovations",
-  description:
-    "110 emerging technologies reshaping our world — from gene editing to quantum computing to space tech. Curated daily by Surfaced.",
-  alternates: { canonical: "https://surfaced-x.pages.dev/future-radar" },
-  openGraph: {
-    title: "Future Technology & Emerging Innovations",
-    description:
-      "110 emerging technologies reshaping our world — from gene editing to quantum computing to space tech.",
-    url: "https://surfaced-x.pages.dev/future-radar",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Future Technology & Emerging Innovations",
-    description:
-      "Emerging technologies reshaping our world — gene editing, quantum computing, space tech, and more.",
-  },
-};
+const count = futureRadar.length;
+const title = "Future Technology & Emerging Innovations";
+const description = `${count.toLocaleString()} emerging technologies reshaping our world — from gene editing to quantum computing to space tech. Curated daily by Surfaced.`;
+
+export const metadata: Metadata = buildMetadata({
+  title,
+  description,
+  path: "/future-radar",
+  absoluteTitle: true,
+});
 
 export default function FutureRadarLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;

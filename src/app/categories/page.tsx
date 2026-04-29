@@ -2,18 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { categories } from "@/lib/data";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Browse by Category",
   description: "Explore discoveries, products, tools, and hidden gems organized by topic.",
-  alternates: { canonical: "https://surfaced-x.pages.dev/categories" },
-  openGraph: {
-    title: "Browse by Category — Surfaced",
-    description: "Explore discoveries, products, tools, and hidden gems organized by topic.",
-    url: "https://surfaced-x.pages.dev/categories",
-    siteName: "Surfaced",
-  },
-};
+  path: "/categories",
+});
 
 const colorMap: Record<string, { bg: string; border: string; text: string; glow: string; dot: string }> = {
   indigo: {

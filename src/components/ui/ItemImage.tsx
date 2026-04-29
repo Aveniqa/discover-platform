@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { getItemImageUrl } from "@/lib/images";
+import { getItemImageUrl, getItemImageSrcSet } from "@/lib/images";
 
 interface ItemImageProps {
   slug: string;
@@ -12,6 +12,11 @@ interface ItemImageProps {
   className?: string;
   size?: "sm" | "md" | "lg" | "og";
   priority?: boolean;
+  /**
+   * `sizes` attribute matching the layout. Defaults assume a 3-column-on-
+   * desktop grid; override for hero/lead images.
+   */
+  sizes?: string;
 }
 
 /**
@@ -40,9 +45,20 @@ export function ItemImage({
   className = "",
   size = "md",
   priority = false,
+  sizes,
 }: ItemImageProps) {
   const imageUrl = getItemImageUrl(slug, width, height, size);
+  // Generate srcset variants only for non-OG sizes (OG is fixed 1200×630)
+  const srcSet = size === "og" ? null : getItemImageSrcSet(slug);
   const [errored, setErrored] = useState(false);
+
+  // Default `sizes` covers the most common layout: ~360px on mobile,
+  // ~700px on tablet, ~940px on desktop. Caller can override for hero usage.
+  const defaultSizes =
+    sizes ||
+    (size === "lg"
+      ? "(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 940px"
+      : "(max-width: 640px) 90vw, (max-width: 1024px) 50vw, 400px");
 
   return (
     <div
@@ -54,6 +70,7 @@ export function ItemImage({
       ) : (
         <img
           src={imageUrl}
+          {...(srcSet ? { srcSet: srcSet.srcSet, sizes: defaultSizes } : {})}
           alt={alt}
           width={width}
           height={height}

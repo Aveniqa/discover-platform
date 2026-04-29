@@ -10,6 +10,8 @@ import {
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
 import { ItemImage } from "@/components/ui/ItemImage";
+import { buildMetadata } from "@/lib/seo";
+import { collectionPageLd, breadcrumbLd, ldScript } from "@/lib/jsonld";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -24,18 +26,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const col = collections_data.find((c) => c.slug === slug);
   if (!col) return {};
-  const pageUrl = `https://surfaced-x.pages.dev/collections/${slug}`;
-  return {
+  return buildMetadata({
     title: `${col.title} Collection`,
     description: col.description,
-    alternates: { canonical: pageUrl },
-    openGraph: {
-      title: col.title,
-      description: col.description,
-      url: pageUrl,
-      siteName: "Surfaced",
-    },
-  };
+    path: `/collections/${slug}`,
+  });
 }
 
 export default async function CollectionPage({ params }: Props) {
@@ -47,8 +42,22 @@ export default async function CollectionPage({ params }: Props) {
     .map((s) => getItemBySlug(s))
     .filter(Boolean) as AnyItem[];
 
+  const collectionLd = collectionPageLd({
+    title: col.title,
+    description: col.description,
+    url: `/collections/${slug}`,
+    items: items.map((it) => ({ url: `/item/${it.slug}`, name: getItemTitle(it) })),
+  });
+  const crumbsLd = breadcrumbLd([
+    { name: "Home", href: "/" },
+    { name: "Collections", href: "/collections" },
+    { name: col.title },
+  ]);
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(collectionLd)} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(crumbsLd)} />
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-32 left-1/4 w-[480px] h-[480px] rounded-full bg-accent/6 blur-[120px]" />

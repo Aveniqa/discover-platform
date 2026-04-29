@@ -41,6 +41,8 @@ import { LogoImage } from "@/components/ui/LogoImage";
 import { ScreenshotImage } from "@/components/ui/ScreenshotImage";
 import { isPexelsImage } from "@/lib/images";
 import { getItemImageUrl } from "@/lib/images";
+import { buildMetadata, getBuildDate } from "@/lib/seo";
+import { articleLd, productLd, breadcrumbLd, ldScript } from "@/lib/jsonld";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -107,35 +109,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!item) return { title: "Not Found" };
   const title = getItemTitle(item);
   const desc = getItemDescription(item);
-  const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
   const ogImage = getItemImageUrl(slug, 1200, 630, "og");
   const isProduct = item.type === "product";
   const priceRange = isProduct ? (item as Product).estimatedPriceRange : undefined;
+  const dateAdded = (item as { dateAdded?: string }).dateAdded;
 
-  return {
-    title: title,
+  const meta = buildMetadata({
+    title,
     description: desc,
-    alternates: { canonical: pageUrl },
-    openGraph: {
-      title,
-      description: desc,
-      url: pageUrl,
-      siteName: "Surfaced",
-      type: "article",
-      images: ogImage ? [{ url: ogImage, width: 1200, height: 630, alt: title }] : [],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description: desc,
-      images: ogImage ? [ogImage] : [],
-    },
-    other: {
-      ...(isProduct ? { "og:type": "product" } : {}),
-      ...(isProduct && ogImage ? { "pinterest:media": ogImage } : {}),
-      ...(isProduct && priceRange ? { "product:price:amount": priceRange, "product:price:currency": "USD" } : {}),
-    },
-  };
+    path: `/item/${slug}`,
+    image: ogImage,
+    ogType: "article",
+    publishedTime: dateAdded,
+    modifiedTime: dateAdded || getBuildDate(),
+  });
+
+  // Product-specific OG additions (don't overwrite ogType — product OG type
+  // breaks Twitter card preview on some platforms).
+  if (isProduct) {
+    meta.other = {
+      ...(meta.other || {}),
+      ...(ogImage ? { "pinterest:media": ogImage } : {}),
+      ...(priceRange ? { "product:price:amount": priceRange, "product:price:currency": "USD" } : {}),
+    };
+  }
+  return meta;
 }
 
 /* ---- Development Stage Progress ---- */
@@ -257,7 +255,11 @@ export default async function ItemPage({ params }: Props) {
   const prevItem = currentIndex > 0 ? categoryItems[currentIndex - 1] : null;
   const nextItem = currentIndex < categoryItems.length - 1 ? categoryItems[currentIndex + 1] : null;
   const ctaLabel = getCtaLabel(item);
-  const isAffiliate = item.affiliate?.enabled === true;
+  const isAmazonOutbound = !!outboundUrl && /(?:^|\.)amazon\.[a-z.]+\//i.test(outboundUrl);
+  const isAffiliate = item.affiliate?.enabled === true || isAmazonOutbound;
+  // Amazon links are always sponsored regardless of the schema flag (Google
+  // affiliate disclosure best-practice + Amazon Associates ToS).
+  const ctaRel = isAffiliate ? "sponsored noopener nofollow" : "noopener";
 
   // C1: Reading time estimate
   const readingText = [description, whyText].filter(Boolean).join(" ");
@@ -278,88 +280,44 @@ export default async function ItemPage({ params }: Props) {
   })();
 
   // ── Structured Data (JSON-LD) ──────────────────────
-  const pageUrl = `https://surfaced-x.pages.dev/item/${slug}`;
+  const pageUrl = `/item/${slug}`;
   const imageUrl = getItemImageUrl(slug);
   const categoryPath = getCategoryPath(item.type);
   const dateAdded = (item as { dateAdded?: string }).dateAdded;
 
-  // Price parser for Product schema
-  const parsePrice = (range: string | undefined) => {
-    if (!range) return { low: undefined, high: undefined };
-    const nums = range.replace(/,/g, "").match(/[\d]+(?:\.\d+)?/g);
-    if (!nums || nums.length === 0) return { low: undefined, high: undefined };
-    return { low: nums[0], high: nums[nums.length - 1] };
-  };
+  const itemLd = item.type === "product"
+    ? productLd({
+        title,
+        description,
+        url: pageUrl,
+        image: imageUrl,
+        priceRange: (item as Product).estimatedPriceRange,
+        offerUrl: (item as Product).directAmazonUrl || null,
+        reviewBody: whyText || description,
+      })
+    : articleLd({
+        title,
+        description,
+        url: pageUrl,
+        image: imageUrl,
+        // datePublished only when we have a real authored date; otherwise omit
+        ...(dateAdded ? { datePublished: dateAdded } : {}),
+        // dateModified bucketed to build day — see lib/seo.getBuildDate
+        dateModified: dateAdded || getBuildDate(),
+      });
 
-  // Brand extractor
-  const extractBrand = (t: string) => {
-    const knownBrands = ["Our Place", "Peak Design", "Click & Grow", "Goal Zero", "Sea to Summit", "Grid-It Cocoon"];
-    for (const b of knownBrands) {
-      if (t.toLowerCase().startsWith(b.toLowerCase())) return b;
-    }
-    return t.split(/\s+/)[0];
-  };
-
-  const jsonLd = item.type === "product" ? {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: title,
-    description,
-    url: pageUrl,
-    ...(imageUrl ? { image: imageUrl } : {}),
-    brand: { "@type": "Brand", name: extractBrand(title) },
-    offers: {
-      "@type": "AggregateOffer",
-      priceCurrency: "USD",
-      lowPrice: parsePrice((item as Product).estimatedPriceRange).low,
-      highPrice: parsePrice((item as Product).estimatedPriceRange).high,
-      availability: "https://schema.org/InStock",
-      url: (item as Product).directAmazonUrl,
-    },
-    review: {
-      "@type": "Review",
-      author: { "@type": "Organization", name: "Surfaced" },
-      reviewBody: whyText || description,
-    },
-  } : {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: title,
-    description,
-    url: pageUrl,
-    ...(imageUrl ? { image: imageUrl } : {}),
-    ...(dateAdded ? { datePublished: dateAdded } : {}),
-    dateModified: new Date().toISOString().slice(0, 10),
-    author: { "@type": "Organization", name: "Surfaced Editorial" },
-    publisher: {
-      "@type": "Organization",
-      name: "Surfaced",
-      url: "https://surfaced-x.pages.dev",
-    },
-  };
-
-  const breadcrumbLd = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://surfaced-x.pages.dev" },
-      { "@type": "ListItem", position: 2, name: navLabel, item: `https://surfaced-x.pages.dev${categoryPath}` },
-      { "@type": "ListItem", position: 3, name: title },
-    ],
-  };
+  const crumbsLd = breadcrumbLd([
+    { name: "Home", href: "/" },
+    { name: navLabel, href: categoryPath },
+    { name: title },
+  ]);
 
   return (
     <>
       <ScrollProgress />
       <BackToTop />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(itemLd)} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(crumbsLd)} />
 
       {/* ── Hero image (full-width) ───────────────────── */}
       <div className="w-full overflow-hidden border-b border-border/30 relative">
@@ -513,7 +471,7 @@ export default async function ItemPage({ params }: Props) {
                   <a
                     href={outboundUrl}
                     target="_blank"
-                    rel={isAffiliate ? "sponsored noopener" : "noopener"}
+                    rel={ctaRel}
                     data-affiliate={isAffiliate ? "true" : "false"}
                     data-provider={item.affiliate?.provider || ""}
                     data-item-slug={slug}
@@ -565,7 +523,7 @@ export default async function ItemPage({ params }: Props) {
                 {item.promoCode && <PromoCode code={item.promoCode} />}
 
                 {/* Affiliate disclosure — satisfies both FTC and Amazon Associates requirements */}
-                {isAffiliate && item.affiliate?.provider === "amazon" && (
+                {isAffiliate && (item.affiliate?.provider === "amazon" || isAmazonOutbound) && (
                   <p className="text-xs text-muted-foreground/60 mt-3">
                     As an Amazon Associate, Surfaced earns from qualifying purchases — at no extra cost to you.{" "}
                     <Link href="/affiliate-disclosure" className="text-accent/60 hover:text-accent transition-colors underline underline-offset-2">
@@ -573,7 +531,7 @@ export default async function ItemPage({ params }: Props) {
                     </Link>
                   </p>
                 )}
-                {isAffiliate && item.affiliate?.provider !== "amazon" && (
+                {isAffiliate && item.affiliate?.provider && item.affiliate.provider !== "amazon" && !isAmazonOutbound && (
                   <p className="text-xs text-muted-foreground/60 mt-3">
                     Some links may earn Surfaced a small commission — at no extra cost to you.{" "}
                     <Link href="/affiliate-disclosure" className="text-accent/60 hover:text-accent transition-colors underline underline-offset-2">

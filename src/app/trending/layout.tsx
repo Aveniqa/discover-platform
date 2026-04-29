@@ -1,24 +1,18 @@
 import type { Metadata } from "next";
+import { products } from "@/lib/data";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Trending Products Worth Buying in 2026",
-  description:
-    "135 curated products across tech, home, fitness, and outdoors — each hand-picked with honest reviews and price comparisons. Updated daily by Surfaced.",
-  alternates: { canonical: "https://surfaced-x.pages.dev/trending" },
-  openGraph: {
-    title: "Trending Products Worth Buying in 2026",
-    description:
-      "135 curated products across tech, home, fitness, and outdoors — hand-picked with honest reviews.",
-    url: "https://surfaced-x.pages.dev/trending",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Trending Products Worth Buying",
-    description:
-      "Curated products across tech, home, fitness, and outdoors — with honest reviews and prices.",
-  },
-};
+const count = products.length;
+const year = new Date().getUTCFullYear();
+const title = `Trending Products Worth Buying in ${year}`;
+const description = `${count.toLocaleString()} curated products across tech, home, fitness, and outdoors — each hand-picked with honest reviews and price comparisons. Updated daily by Surfaced.`;
+
+export const metadata: Metadata = buildMetadata({
+  title,
+  description,
+  path: "/trending",
+  absoluteTitle: true,
+});
 
 export default function TrendingLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;

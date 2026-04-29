@@ -6,6 +6,8 @@ import { SearchModal } from "@/components/ui/SearchModal";
 import { Analytics } from "@/components/Analytics";
 import { ServiceWorkerRegistration } from "@/components/ServiceWorkerRegistration";
 import { PrefetchLinks } from "@/components/ui/PrefetchLinks";
+import { SITE_URL, SITE_NAME, TWITTER_HANDLE, DEFAULT_OG_IMAGE } from "@/lib/seo";
+import { organizationLd, websiteLd, ldScript } from "@/lib/jsonld";
 import "./globals.css";
 
 const inter = Inter({
@@ -15,13 +17,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://surfaced-x.pages.dev"),
-  alternates: {
-    canonical: "/",
-  },
+  metadataBase: new URL(SITE_URL),
+  // Root canonical is "/"; every nested page MUST set its own
+  // alternates.canonical or it inherits this value (which would dupe content).
+  alternates: { canonical: "/" },
   title: {
-    default: "Surfaced — What the Internet Surfaced Today",
-    template: "%s — Surfaced",
+    default: `${SITE_NAME} — ${"What the Internet Surfaced Today"}`,
+    template: `%s — ${SITE_NAME}`,
   },
   description:
     "Your daily discovery engine. Fascinating finds, trending products, hidden internet gems, and future technology — curated for the endlessly curious.",
@@ -36,19 +38,23 @@ export const metadata: Metadata = {
     "curated content",
   ],
   openGraph: {
-    title: "Surfaced — What the Internet Surfaced Today",
+    title: `${SITE_NAME} — What the Internet Surfaced Today`,
     description:
       "Fascinating discoveries, trending products, hidden gems, and future technology — curated daily.",
     type: "website",
-    siteName: "Surfaced",
+    siteName: SITE_NAME,
     locale: "en_US",
+    url: SITE_URL,
+    images: [{ url: DEFAULT_OG_IMAGE, width: 512, height: 512, alt: SITE_NAME }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Surfaced — What the Internet Surfaced Today",
+    title: `${SITE_NAME} — What the Internet Surfaced Today`,
     description:
       "Fascinating discoveries, trending products, hidden gems, and future technology — curated daily.",
-    creator: "@xSurfaced",
+    creator: TWITTER_HANDLE,
+    site: TWITTER_HANDLE,
+    images: [DEFAULT_OG_IMAGE],
   },
   verification: {
     google: "6WKQAe4TdWU2yAH-KF_Sivy8NZgZOvxyhHvdDd2bRTQ",
@@ -94,21 +100,8 @@ export default function RootLayout({
         />
       </head>
       <body className="noise">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            name: "Surfaced",
-            url: "https://surfaced-x.pages.dev",
-            description: "Your daily discovery engine. Curated products, hidden gems, future tech, and fascinating finds.",
-            potentialAction: {
-              "@type": "SearchAction",
-              target: "https://surfaced-x.pages.dev/?q={search_term_string}",
-              "query-input": "required name=search_term_string",
-            },
-          }) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(websiteLd())} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(organizationLd())} />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:z-[200] focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded-lg focus:font-semibold focus:text-sm focus:shadow-lg"

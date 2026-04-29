@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Contact & Partnerships",
   description:
     "Get in touch with the Surfaced team. Partnerships, press, advertising, and general inquiries.",
-  openGraph: {
-    title: "Contact & Partnerships",
-    description:
-      "Get in touch with the Surfaced team for partnerships, press, and inquiries.",
-  },
-};
+  path: "/contact",
+});
 
 export default function ContactLayout({
   children,
