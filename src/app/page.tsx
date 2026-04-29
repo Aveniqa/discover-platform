@@ -30,6 +30,7 @@ import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { BlurText } from "@/components/ui/BlurText";
 import { getStreak } from "@/lib/engagement";
 import { todaysPicks } from "@/lib/data";
+import { getSiteStats } from "@/lib/stats";
 import Link from "next/link";
 import { TiltCard } from "@/components/ui/TiltCard";
 import { SpotlightCard } from "@/components/ui/SpotlightCard";
@@ -102,7 +103,8 @@ function CountUp({ to, duration = 1400 }: { to: number; duration?: number }) {
 /* ---- Page Component ---- */
 
 export default function HomePage() {
-  const totalItems = discoveries.length + products.length + hiddenGems.length + futureRadar.length + dailyTools.length;
+  const stats = getSiteStats();
+  const totalItems = stats.total;
   const [milestoneToast, setMilestoneToast] = useState<string | null>(null);
   const [streakDays, setStreakDays] = useState(0);
   const [streakEmoji, setStreakEmoji] = useState("");
@@ -307,11 +309,11 @@ export default function HomePage() {
         <div className="max-w-[90rem] mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
             {[
-              { label: "Discoveries", href: "/discover", emoji: "🔮", count: discoveries.length, color: "from-purple-500/20 to-transparent" },
-              { label: "Products", href: "/trending", emoji: "📈", count: products.length, color: "from-green-500/20 to-transparent" },
-              { label: "Hidden Gems", href: "/hidden-gems", emoji: "💎", count: hiddenGems.length, color: "from-amber-500/20 to-transparent" },
-              { label: "Future Tech", href: "/future-radar", emoji: "🔭", count: futureRadar.length, color: "from-blue-500/20 to-transparent" },
-              { label: "Daily Tools", href: "/tools", emoji: "🛠️", count: dailyTools.length, color: "from-rose-500/20 to-transparent" },
+              { label: "Discoveries", href: "/discover", emoji: "🔮", count: stats.byKey.discoveries, color: "from-purple-500/20 to-transparent" },
+              { label: "Products", href: "/trending", emoji: "📈", count: stats.byKey.products, color: "from-green-500/20 to-transparent" },
+              { label: "Hidden Gems", href: "/hidden-gems", emoji: "💎", count: stats.byKey["hidden-gems"], color: "from-amber-500/20 to-transparent" },
+              { label: "Future Tech", href: "/future-radar", emoji: "🔭", count: stats.byKey["future-radar"], color: "from-blue-500/20 to-transparent" },
+              { label: "Daily Tools", href: "/tools", emoji: "🛠️", count: stats.byKey["daily-tools"], color: "from-rose-500/20 to-transparent" },
             ].map((cat) => (
               <Link key={cat.href} href={cat.href}
                 className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 transition-all group backdrop-blur-sm`}>

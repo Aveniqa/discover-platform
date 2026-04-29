@@ -106,7 +106,21 @@ export const products = productsData as Product[];
 export const hiddenGems = hiddenGemsData as HiddenGem[];
 export const futureRadar = futureRadarData as FutureTech[];
 export const dailyTools = dailyToolsData as DailyTool[];
-export const categories = categoriesData as CategoryMeta[];
+
+// `data/categories.json` is hand-edited (icon, color, copy) but its `count`
+// drifts when the rotation/generate scripts skip an update. Derive count from
+// the live data files at build so every consumer sees the same number.
+const _liveCategoryCounts: Record<string, number> = {
+  discoveries: discoveries.length,
+  products: products.length,
+  "hidden-gems": hiddenGems.length,
+  "future-radar": futureRadar.length,
+  "daily-tools": dailyTools.length,
+};
+export const categories = (categoriesData as CategoryMeta[]).map((c) => ({
+  ...c,
+  count: _liveCategoryCounts[c.key] ?? c.count,
+})) as CategoryMeta[];
 
 export interface TodaysPick {
   slug: string;
