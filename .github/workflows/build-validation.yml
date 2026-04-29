@@ -58,18 +58,28 @@ jobs:
           echo "   Top-level pages:  $TOP_PAGES"
           echo "   Collection pages: $COLLECTION_PAGES"
 
-          # ── Minimum thresholds ──
-          # Total pages: 542 as of 2026-04-17 after deduplication; threshold set 12 below
-          # Item pages: 518 as of 2026-04-17; threshold set 13 below
-          # Top-level pages should be at least 15 (currently 19)
+          # ── Regression thresholds ──
+          # Item pages should track data/*.json + archive item counts within 2%.
+          # Anything bigger means slugs collided, JSON parse failed silently,
+          # or generateStaticParams quietly excluded items.
+          DATA_ITEMS=$(node -e "
+            const f=require('fs');
+            const cats = ['discoveries','products','hidden-gems','future-radar','daily-tools'];
+            let n = 0;
+            for (const c of cats) n += JSON.parse(f.readFileSync('data/'+c+'.json','utf8')).length;
+            n += JSON.parse(f.readFileSync('data/archive.json','utf8')).length;
+            console.log(n);
+          ")
+          # Allow 2% slack (rounded down)
+          MIN_ITEM_PAGES=$(node -e "console.log(Math.floor($DATA_ITEMS * 0.98))")
+
+          echo "   Data-file items:  $DATA_ITEMS"
+          echo "   Min item pages:   $MIN_ITEM_PAGES (98% of data)"
+
           ERRORS=""
 
-          if [ "$TOTAL_HTML" -lt 530 ]; then
-            ERRORS="${ERRORS}❌ Total pages ($TOTAL_HTML) dropped below 530 minimum.\n"
-          fi
-
-          if [ "$ITEM_PAGES" -lt 505 ]; then
-            ERRORS="${ERRORS}❌ Item pages ($ITEM_PAGES) dropped below 505 minimum.\n"
+          if [ "$ITEM_PAGES" -lt "$MIN_ITEM_PAGES" ]; then
+            ERRORS="${ERRORS}❌ Item pages ($ITEM_PAGES) dropped > 2% below data-file count ($DATA_ITEMS).\n"
           fi
 
           if [ "$TOP_PAGES" -lt 15 ]; then
@@ -86,8 +96,16 @@ jobs:
           fi
 
           echo ""
-          echo "✅ All page count thresholds met."
+          echo "✅ Page count tracks data within 2% threshold."
           echo "validation_passed=true" >> "$GITHUB_OUTPUT"
+
+      - name: SEO validator (strict)
+        if: success()
+        run: |
+          echo "🔍 Running SEO validator in strict mode..."
+          # postbuild already ran in --warn mode; this re-runs strict to fail
+          # the job on any error (missing meta/canonical/H1/JSON-LD).
+          npm run validate:seo
 
       - name: Check for broken data files
         if: success()
