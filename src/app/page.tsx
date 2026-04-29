@@ -141,13 +141,13 @@ export default function HomePage() {
     .sort((a, b) => (b.id || 0) - (a.id || 0))
     .slice(0, 12);
 
-  /* What Surfaced Today — 5 standout daily picks */
+  /* Today's Edition — 1 lead + 3 supporting picks. Tools rotate in via the
+     dedicated category carousel below; the cover deliberately stays at 4. */
   const editorsPick = discoveries[0];
   const topPicksRest: AnyItem[] = [
     products[0],
     hiddenGems[0],
     futureRadar[0],
-    dailyTools[0],
   ];
 
   /* Slugs already shown — exclude from category sections */
@@ -172,90 +172,82 @@ export default function HomePage() {
       )}
 
       {/* ============================================
-          HERO — Visual showcase + compact headline
+          HERO — Editorial cover, single CTA
           ============================================ */}
       <div ref={heroRef} onMouseMove={handleHeroMouseMove}>
       <AuroraBackground
         colorA="bg-accent/12"
         colorB="bg-emerald-500/8"
         colorC="bg-cyan-500/6"
-        className="relative pt-6 sm:pt-10 pb-8 sm:pb-12"
+        className="relative pt-8 sm:pt-14 pb-6 sm:pb-10"
       >
         {/* Dot grid texture */}
         <div aria-hidden className="pointer-events-none absolute inset-0" style={{ backgroundImage: "radial-gradient(circle, rgba(168,85,247,0.07) 1px, transparent 1px)", backgroundSize: "32px 32px" }} />
         {/* Mouse-tracking glow */}
         <div aria-hidden className="pointer-events-none absolute inset-0" style={{ background: "radial-gradient(500px circle at var(--hx, 50%) var(--hy, 50%), rgba(168,85,247,0.05), transparent 60%)" }} />
-        {/* Streak badge */}
-        {streakDays > 0 && (
-          <div className="text-center mb-4">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm">
-              {streakEmoji || "🔥"} Day {streakDays} streak
-            </span>
-          </div>
-        )}
 
-        {/* Compact headline above the showcase */}
-        <div className="relative text-center mb-6 sm:mb-8 px-4">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.1] mb-2">
-            <BlurText as="span" wordDelay={70}>Discover something</BlurText>{" "}
-            <BlurText as="span" wordDelay={70} className="gradient-text">remarkable</BlurText>
+        <div className="relative max-w-3xl mx-auto px-4 sm:px-6 text-center">
+          {/* Eyebrow: edition date + optional streak chip */}
+          <div className="flex flex-wrap items-center justify-center gap-2 mb-5">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-[10px] font-bold uppercase tracking-[0.18em] text-accent">
+              <span className="relative flex h-1.5 w-1.5">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-60" />
+                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-accent" />
+              </span>
+              Today&rsquo;s Edition
+            </span>
+            <span className="text-xs text-muted-foreground"><TodayDate /></span>
+            {streakDays > 0 && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-500/10 border border-amber-400/20 text-amber-300 text-xs">
+                {streakEmoji || "🔥"} Day {streakDays}
+              </span>
+            )}
+          </div>
+
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05] mb-4">
+            <BlurText as="span" wordDelay={60}>What the internet</BlurText>{" "}
+            <BlurText as="span" wordDelay={60} className="gradient-text">surfaced today.</BlurText>
           </h1>
-          <p className="text-sm sm:text-base text-muted-foreground max-w-lg mx-auto">
-            Products, hidden gems, future tech, and discoveries — refreshed daily
+          <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
+            Five fresh finds — products, hidden gems, future tech, and discoveries — handpicked every morning.
           </p>
+
+          <div className="mt-7 flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Link
+              href="#today"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent-hover transition-all shadow-[0_0_30px_rgba(139,92,246,0.2)] hover:shadow-[0_0_50px_rgba(139,92,246,0.3)] active:scale-[0.98]"
+            >
+              Read today&rsquo;s edition
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </Link>
+            <button
+              onClick={openSearch}
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-surface border border-border text-sm text-muted hover:border-accent/30 hover:text-foreground transition-all cursor-pointer"
+            >
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5" />
+                <path d="M11 11l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
+              Search {totalItems.toLocaleString()} finds
+              <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-surface-elevated border border-border text-[10px] font-mono text-muted-foreground ml-1">
+                <span className="text-xs">⌘</span>K
+              </kbd>
+            </button>
+          </div>
         </div>
 
-        {/* Image showcase carousel — hover to enlarge */}
-        <HeroShowcase />
-
-        {/* Newsletter + Stats — below the showcase */}
-        <div className="relative max-w-3xl mx-auto px-4 sm:px-6 mt-8">
-          <div className="max-w-md mx-auto mb-4">
-            <NewsletterForm />
-          </div>
-          <p className="text-xs text-muted-foreground text-center mb-6">Join free — no spam, unsubscribe anytime</p>
-
-          <div className="flex items-center justify-center gap-6 sm:gap-10 pt-5 border-t border-border/50">
-            <div className="text-center">
-              <p className="text-2xl font-bold"><CountUp to={totalItems} />+</p>
-              <p className="text-xs text-muted-foreground">Curated items</p>
-            </div>
-            <div className="text-center">
-              <p className="text-2xl font-bold"><CountUp to={5} /></p>
-              <p className="text-xs text-muted-foreground">Categories</p>
-            </div>
-            <div className="text-center">
-              <p className="text-2xl font-bold"><CountUp to={25} /></p>
-              <p className="text-xs text-muted-foreground">New daily</p>
-            </div>
-          </div>
+        {/* Image showcase — wider than the type column for varied rhythm */}
+        <div className="relative mt-10 sm:mt-12">
+          <HeroShowcase />
         </div>
       </AuroraBackground>
       </div>
 
-      {/* Search strip */}
-      <section className="pb-6 px-4 sm:px-6">
-        <div className="max-w-lg mx-auto">
-          <button
-            onClick={openSearch}
-            className="group w-full inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-surface border border-border text-sm text-muted hover:border-accent/30 hover:text-foreground transition-all cursor-pointer"
-          >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="text-muted-foreground group-hover:text-accent transition-colors shrink-0">
-              <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5" />
-              <path d="M11 11l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-            </svg>
-            <span className="flex-1 text-left">Search {totalItems}+ discoveries...</span>
-            <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-surface-elevated border border-border text-[10px] font-mono text-muted-foreground">
-              <span className="text-xs">⌘</span>K
-            </kbd>
-          </button>
-        </div>
-      </section>
-
-      {/* ── Topic Marquee ────────────────────────────────── */}
+      {/* ── Topic Marquee — full-bleed, single strip ─────── */}
       <div className="py-3 border-y border-border/30 overflow-hidden">
-        <MarqueeStrip speed={40} items={["Science", "AI & ML", "Space", "Biotech", "Research", "Design", "Future Tech", "Hidden Gems", "Daily Tools", "Psychology", "Robotics", "Innovation"]} />
-        <MarqueeStrip reverse speed={32} className="mt-2" items={["Quantum", "Climate Tech", "Neural Nets", "Indie Makers", "Health", "Genomics", "Privacy", "Sustainability", "Creativity", "Gadgets", "Finance", "Culture"]} />
+        <MarqueeStrip speed={40} items={["Science", "AI & ML", "Space", "Biotech", "Research", "Design", "Future Tech", "Hidden Gems", "Daily Tools", "Psychology", "Robotics", "Innovation", "Quantum", "Climate Tech", "Indie Makers", "Genomics", "Privacy", "Sustainability"]} />
       </div>
 
       {/* ============================================
@@ -327,84 +319,11 @@ export default function HomePage() {
       </section>
 
       {/* ============================================
-          TODAY'S PICKS — Newest from each category
-          ============================================ */}
-      <section className="pb-6 sm:pb-10 px-4 sm:px-6">
-        <div className="max-w-[90rem] mx-auto">
-          <div className="flex items-center justify-between mb-5">
-            <div>
-              <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">Today&rsquo;s Picks</h2>
-              <p className="text-xs text-muted-foreground mt-0.5">Freshest from each category</p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
-            {todaysPicks.map((pick) => {
-              const colorMap: Record<string, string> = {
-                discovery: "indigo",
-                product: "emerald",
-                "hidden-gem": "amber",
-                "future-tech": "cyan",
-                tool: "rose",
-              };
-              const badgeColors: Record<string, string> = {
-                indigo: "bg-indigo-500/15 text-indigo-300 border-indigo-400/25",
-                emerald: "bg-emerald-500/15 text-emerald-300 border-emerald-400/25",
-                amber: "bg-amber-500/15 text-amber-300 border-amber-400/25",
-                cyan: "bg-cyan-500/15 text-cyan-300 border-cyan-400/25",
-                rose: "bg-rose-500/15 text-rose-300 border-rose-400/25",
-              };
-              const color = colorMap[pick.type] || "indigo";
-              const glowColorMap: Record<string, string> = {
-                indigo: "0 8px 40px rgba(99,102,241,0.15), 0 0 0 1px rgba(99,102,241,0.08)",
-                emerald: "0 8px 40px rgba(52,211,153,0.15), 0 0 0 1px rgba(52,211,153,0.08)",
-                amber: "0 8px 40px rgba(251,191,36,0.15), 0 0 0 1px rgba(251,191,36,0.08)",
-                cyan: "0 8px 40px rgba(34,211,238,0.15), 0 0 0 1px rgba(34,211,238,0.08)",
-                rose: "0 8px 40px rgba(251,113,133,0.15), 0 0 0 1px rgba(251,113,133,0.08)",
-              };
-              const spotlightColorMap: Record<string, string> = {
-                indigo: "rgba(99,102,241,0.1)",
-                emerald: "rgba(52,211,153,0.1)",
-                amber: "rgba(251,191,36,0.1)",
-                cyan: "rgba(34,211,238,0.1)",
-                rose: "rgba(251,113,133,0.1)",
-              };
-              const fullItem = getAllItems().find(i => i.slug === pick.slug);
-              return (
-                <TiltCard key={pick.slug} maxTilt={5} glowColor={glowColorMap[color]} className="flex flex-col">
-                <SpotlightCard spotlightColor={spotlightColorMap[color]} className="flex-1 h-full">
-                <Link
-                  href={`/item/${pick.slug}`}
-                  className="group relative rounded-2xl border border-border/60 bg-surface overflow-hidden hover:border-border card-hover-glow transition-all flex flex-col h-full"
-                >
-                  {fullItem && (
-                    <div className="overflow-hidden">
-                      <ItemImage slug={pick.slug} alt={pick.title} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
-                    </div>
-                  )}
-                  <div className="p-5 flex flex-col flex-1 gap-3">
-                    <span className={`self-start px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider border ${badgeColors[color]}`}>
-                      {pick.categoryLabel}
-                    </span>
-                    <h3 className="text-sm font-semibold text-foreground group-hover:text-accent-hover transition-colors line-clamp-3 leading-snug">
-                      {pick.title}
-                    </h3>
-                    <p className="text-xs text-muted-foreground line-clamp-2 mt-auto">
-                      {pick.description}
-                    </p>
-                  </div>
-                </Link>
-                </SpotlightCard>
-                </TiltCard>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ============================================
           WHAT SURFACED TODAY — Daily Editorial Roundup
+          (Replaces redundant Today's Picks grid; editorial layout
+           is the single canonical "today" surface.)
           ============================================ */}
-      <section className="relative pb-10 sm:pb-20 px-4 sm:px-6">
+      <section id="today" className="relative pb-10 sm:pb-20 px-4 sm:px-6 scroll-mt-20">
         {/* Subtle editorial backdrop */}
         <div className="absolute inset-0 bg-gradient-to-b from-accent/[0.03] via-transparent to-transparent pointer-events-none" />
 
@@ -429,7 +348,7 @@ export default function HomePage() {
                 <BlurText as="span" wordDelay={50} className="gradient-text">Today</BlurText>
               </h2>
               <p className="text-sm text-muted mt-1 hidden sm:block">
-                5 standout finds from across the internet
+                Four standout finds from across the internet
               </p>
             </div>
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-3 shrink-0">
@@ -443,7 +362,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-5">
             {/* Lead story — large card */}
             <TiltCard maxTilt={4} glowColor="0 8px 40px rgba(168,85,247,0.1), 0 0 0 1px rgba(168,85,247,0.07)" className="sm:col-span-2 xl:row-span-2">
             <SpotlightCard spotlightColor="rgba(168,85,247,0.08)" className="h-full">
