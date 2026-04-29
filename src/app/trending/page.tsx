@@ -259,7 +259,7 @@ export default function TrendingPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {paginatedItems.map((item, index) => (
-            <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />}>
+            <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />} className={index === 0 ? "sm:col-span-2 lg:col-span-2 xl:col-span-2" : ""}>
               <TiltCard
                 maxTilt={6}
                 glowColor="0 8px 40px rgba(52,211,153,0.12), 0 0 0 1px rgba(52,211,153,0.08)"
