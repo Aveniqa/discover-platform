@@ -1,46 +1,46 @@
 [
   {
-    "slug": "strongest-lightest-aerogel-metamaterial-ever-created",
-    "title": "Strongest, Lightest Aerogel Metamaterial Ever Created by Researchers",
+    "slug": "quantum-entanglement-used-to-stabilize-fragile-biological-molecules",
+    "title": "Quantum Entanglement Stabilizes Fragile Molecules",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Scientists at ETH Zurich have synthesized the strongest and lightest aerogel metamaterial to date, capable of supporting",
+    "description": "Researchers at the Kavli Institute for Theoretical Physics have demonstrated a novel method of using quantum entanglemen",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "lectrofan-micro2-sleep-sound-machine",
-    "title": "LectroFan Micro2 Sleep Sound Machine",
+    "slug": "dune-context-aware-mac-keypad",
+    "title": "Dune Context-aware Keypad for Mac",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The LectroFan Micro2 is an ultra-portable, personal sleep sound machine and Bluetooth speaker, perfect for travel or sma",
+    "description": "Dune is an innovative, context-aware keypad designed for Mac users, aiming to streamline workflows and meeting managemen",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "taskheat visual project scheduling",
-    "title": "Taskheat",
+    "slug": "tangled-forge-federation",
+    "title": "Tangled – A Federation of Forges",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Taskheat is an intuitive visual task manager and project planner, developed by two independent developers focused on cre",
+    "description": "Tangled proposes a vision for a 'federation of forges,' a decentralized network of interconnected software development p",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "crispr-cas gene circuitry cell fate engineering",
-    "title": "CRISPR-Cas Gene Circuitry for Cell Fate Engineering",
+    "slug": "tangled-federation-of-forges",
+    "title": "Federation of Forges",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "This technology employs synthetic gene circuits, built using advanced CRISPR-Cas systems like CRISPRi (interference) and",
-    "badge": "editors-pick",
+    "description": "Tangled proposes the creation of a 'federation of forges,' a decentralized model for code hosting and collaboration that",
+    "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "pastel-sh-minimalist-code-snippet-sharing",
-    "title": "Pastel.sh",
+    "slug": "kami-content-for-paper",
+    "title": "Kami",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Pastel.sh, a lightweight web service created by an independent developer, is a minimalist online tool for sharing code s",
+    "description": "Kami is a tool designed to help users present their digital content in a way that feels as good as print. It focuses on ",
     "badge": null,
     "type": "tool"
   }

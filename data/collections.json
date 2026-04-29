@@ -5,10 +5,6 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "ancient-egyptian-bread-fermentation-2",
-      "octopus-arms-independent-brains-2",
-      "archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo-2",
-      "ai-translates-ancient-lost-language-2",
       "tardigrades-microscopic-water-bears-that-can-survive-in-space",
       "year-without-a-summer",
       "diamond-rain-on-exoplanets",
@@ -16,7 +12,11 @@
       "exoplanet-wasp-12b-devoured-diamond",
       "roman-concrete-enduring-strength",
       "earth-inner-core-rotates-slower",
-      "placebo-effect-open-label"
+      "placebo-effect-open-label",
+      "antikythera-mechanism-ancient-greek-astronomical-computer",
+      "wood-wide-web-how-trees-communicate-and-share-resources",
+      "overview-effect-astronauts-profound-shift-in-perspective-from-space",
+      "polynesian-wayfinding-ancient-oceanic-navigation"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "ancient-egyptian-bread-fermentation-2",
-      "octopus-arms-independent-brains-2",
-      "antarctic-ice-reveals-ancient-solar-storm-2",
-      "archaeologists-unearth-roman-era-shipwreck-with-preserved-cargo-2",
-      "ai-translates-ancient-lost-language-2",
       "the-dancing-plague-of-1518-a-mysterious-outbreak-of-uncontrollable-dancing",
       "the-voyager-golden-record-humanitys-message-to-the-cosmos",
       "year-without-a-summer",
       "diamond-rain-on-exoplanets",
       "ketchup-as-medicine-19th-century",
       "roman-concrete-enduring-strength",
-      "human-bioluminescence-invisible-glow"
+      "human-bioluminescence-invisible-glow",
+      "antikythera-mechanism-ancient-greek-astronomical-computer",
+      "wood-wide-web-how-trees-communicate-and-share-resources",
+      "polynesian-wayfinding-ancient-oceanic-navigation",
+      "axolotl-limb-regeneration-biological-superpower",
+      "oumuamua-the-first-interstellar-visitor"
     ]
   },
   {
@@ -85,7 +85,6 @@
     "description": "Products and tools to help you feel your best.",
     "emoji": "💪",
     "itemSlugs": [
-      "ancient-egyptian-bread-fermentation-2",
       "the-dancing-plague-of-1518-a-mysterious-outbreak-of-uncontrollable-dancing",
       "more-bacterial-cells-than-human-cells",
       "ketchup-as-medicine-19th-century",
@@ -96,7 +95,8 @@
       "the-great-pacific-garbage-patch",
       "fungi-communicate-through-electrical-signals",
       "ancient-dna-reveals-ice-age-giants",
-      "bacteria-that-eat-plastic-could-clean-oceans"
+      "bacteria-that-eat-plastic-could-clean-oceans",
+      "arctic-permafrost-releases-ancient-viruses-potent-threat"
     ]
   }
 ]

@@ -1,69 +1,5 @@
 [
   {
-    "id": 62,
-    "slug": "programmable-matter-claytronics-2",
-    "techName": "Programmable Matter (Claytronics)",
-    "explanation": "Programmable matter, often conceptualized as 'claytronics,' consists of swarms of microscopic, reconfigurable robots (catoms) that can change their shape, color, and even thermal properties to form any 3D object. These individual modules communicate and cooperate to physically reconfigure into desired forms.",
-    "industry": "Materials Science, Robotics, Manufacturing",
-    "whyItMatters": "This technology could revolutionize manufacturing, enabling on-demand physical prototyping and the creation of adaptive environments. Imagine devices that morph into different tools or clothing that changes style and function, minimizing waste and maximizing utility.",
-    "developmentStage": "Research",
-    "imageIdea": "A swirling cloud of tiny, glowing nanobots coalescing into the shape of a hand or a complex machine part. A desk with various objects that are clearly composed of small, modular units.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13",
-    "sourceLink": "https://www.cs.cmu.edu/~claytronics/"
-  },
-  {
-    "id": 63,
-    "slug": "in-body-nanorobots-for-targeted-drug-delivery-2",
-    "techName": "In-Body Nanorobots for Targeted Drug Delivery",
-    "explanation": "Microscopic robots, often biological or bio-hybrid, designed to navigate the human body and deliver therapeutic agents with extreme precision to specific cells or tissues. These nanorobots could drastically reduce side effects by avoiding systemic drug exposure and increase treatment efficacy.",
-    "industry": "Healthcare, Biotechnology, Robotics",
-    "whyItMatters": "This technology promises a revolution in medicine, offering highly targeted treatments for diseases like cancer, autoimmune disorders, and infections. It could lead to cures for currently untreatable conditions by delivering drugs exactly where they are needed, minimizing harm to healthy cells.",
-    "developmentStage": "Research",
-    "imageIdea": "Microscopic robots, depicted as tiny metallic or organic structures, navigating through a bloodstream to deliver glowing medicine to a target cell.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13",
-    "sourceLink": "https://is.mpg.de/en/research/micro-nano-and-molecular-systems-lab"
-  },
-  {
-    "id": 64,
-    "slug": "atmospheric-carbon-cycle-management-systems-2",
-    "techName": "Atmospheric Carbon Cycle Management Systems",
-    "explanation": "Integrated, AI-driven systems that monitor, model, and actively intervene in the global atmospheric carbon cycle to stabilize or reduce greenhouse gas concentrations. This goes beyond singular capture methods to encompass dynamic management of emissions, sequestration, and natural carbon sinks.",
-    "industry": "Environmental Science, Climate Tech, AI, Governance",
-    "whyItMatters": "Such systems are crucial for achieving long-term climate stability, potentially preventing catastrophic global warming by intelligently balancing carbon flows. They could optimize natural processes and human interventions to sustain a habitable planet, adapting to complex environmental feedbacks.",
-    "developmentStage": "Research",
-    "imageIdea": "A holographic global map overlayed with real-time data visualizations of carbon emissions, atmospheric concentrations, and geoengineering interventions, controlled by an AI interface.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 65,
-    "slug": "self-evolving-ai-architectures-2",
-    "techName": "Self-Evolving AI Architectures",
-    "explanation": "AI systems capable of autonomously designing, optimizing, and even generating entirely new neural network architectures or algorithmic structures for specific tasks. Instead of human engineers hand-crafting models, the AI itself iteratively improves its own underlying design.",
-    "industry": "Artificial Intelligence, Computer Science, Machine Learning",
-    "whyItMatters": "This breakthrough could accelerate AI development exponentially, leading to highly efficient and specialized AI models for a vast range of problems that are currently too complex or time-consuming for human design. It represents a significant step towards more autonomous and intelligent software systems.",
-    "developmentStage": "Research",
-    "imageIdea": "neural network architecture diagram code automatically rewriting improving on screen",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13",
-    "sourceLink": "https://ai.google/research/"
-  },
-  {
-    "id": 66,
-    "slug": "full-body-haptic-immersion-suits-2",
-    "techName": "Full-Body Haptic Immersion Suits",
-    "explanation": "These advanced suits provide realistic tactile feedback across the entire body, simulating textures, temperatures, pressure, and even impacts in virtual and augmented realities. Utilizing micro-actuators and thermal elements, they create a truly immersive sensory experience beyond visual and auditory input.",
-    "industry": "Entertainment, Training, Healthcare, Gaming",
-    "whyItMatters": "It will revolutionize VR/AR experiences, making virtual interactions feel physically real for entertainment, remote surgical training, hazardous environment simulations, and social interaction. This vastly enhances presence, learning retention, and emotional engagement.",
-    "developmentStage": "Prototype",
-    "imageIdea": "A person wearing a sleek, form-fitting suit, reaching out to touch a vibrant, shimmering virtual object, with subtle ripples of energy emanating from the point of contact.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13",
-    "sourceLink": "https://teslasuit.io/"
-  },
-  {
     "id": 67,
     "slug": "autonomous-modular-reconfigurable-spacecraft",
     "techName": "Autonomous Modular Reconfigurable Spacecraft",
@@ -1375,8 +1311,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Cross-section diagram of a salt cavern or depleted gas field, showing hydrogen gas being injected and stored underground, with surface infrastructure like wind turbines and electrolyzers.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://hystorenergy.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 170,
@@ -1531,8 +1466,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A stylized illustration of a quantum wire with Majorana zero modes at its ends, protected by a braid-like pattern.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.microsoft.com/en-us/quantum/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 182,
@@ -1544,8 +1478,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Entangled photons traveling through fiber optics between stylized quantum network nodes.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://qutech.nl/research-quantum-internet/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 183,
@@ -1583,8 +1516,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Atomic model of a diamond lattice with a nitrogen atom and a vacancy highlighted, showing electron spin.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.lukin.physics.harvard.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 186,
@@ -1609,8 +1541,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A quantum circuit superimposed over a stylized representation of a complex protein structure or drug molecule.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.ibm.com/quantum-computing/solutions/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 188,
@@ -1674,8 +1605,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Cross-section diagram of a spherical tokamak reactor with a toroidal plasma glowing within its compact chamber.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://step.ukaea.uk/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 193,
@@ -1687,8 +1617,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Diagram of a hohlraum with multiple laser beams converging, heating the interior to emit X-rays that compress a central fuel capsule.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://lasers.llnl.gov/science/fusion/indirect-drive-icf"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 194,
@@ -1713,8 +1642,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Diagram of a cigar-shaped Field-Reversed Configuration (FRC) plasma, clearly showing its self-generated magnetic field lines within a simple external coil.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://tae.com/technology/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 196,
@@ -1726,8 +1654,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "Visual representation of a proton colliding with a boron-11 nucleus, resulting in the emission of three alpha particles, possibly with laser beams converging on the reaction point.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://tae.com/technology/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 197,
@@ -1765,8 +1692,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Diagram of a fusion reactor exhaust port connected to a series of progressively larger electrostatic grids designed to decelerate and collect charged particles, converting their kinetic energy into electricity.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.helion.com/technology/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 200,
@@ -1804,8 +1730,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Diagram of a human head with a device emitting ultrasound waves, showing precise focal points of energy converging on deep brain regions in vivid color.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://med.stanford.edu/brainstimulationlab.html"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 203,
@@ -1856,8 +1781,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A close-up of a transparent, flexible electrode array conforming perfectly to the folds of a human brain model, with tiny, densely packed electrode dots visible.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.imec-int.com/en/neurotechnology"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 207,
@@ -1869,8 +1793,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A person with a sophisticated robotic arm, seamlessly integrated with their body, reaching out to touch an object, with subtle lines indicating neural feedback loops flowing between brain, arm, and object.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://shenoy.stanford.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 208,
@@ -1947,8 +1870,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Tractor spreading fine dark mineral powder over a green field, with a microscopic inset showing CO2 reacting with mineral grains.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://undocarbon.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 214,
@@ -2025,8 +1947,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Highly intricate, colorful 3D molecular model of a MOF structure with tiny green CO2 molecules trapped within its pores.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.moftechnologies.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 220,
@@ -2103,8 +2024,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Cars, traffic lights, and pedestrians on a street, with invisible wireless signals connecting them, forming a glowing network.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.qualcomm.com/products/automotive/cellular-v2x"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 226,
@@ -2116,8 +2036,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "A close-up of a high-performance chip, with intricate circuits glowing, overlaid on a car's dashboard or under the hood.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.nvidia.com/en-us/self-driving-cars/platform/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 227,
@@ -2129,8 +2048,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "A highly detailed 3D digital map of a city intersection, with different objects (trees, signs, lanes) highlighted in distinct colors and labels.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.here.com/products/location-platform/hd-live-map"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 228,
@@ -2168,8 +2086,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "A cutaway diagram of a car's chassis, highlighting multiple, parallel systems for steering, braking, and computing, with failover paths.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.bosch-mobility.com/en/solutions/automated-driving/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 231,
@@ -2181,8 +2098,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Cross-section of a flexible MXene supercapacitor with layered MXene sheets visible under magnification.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://drexel.edu/materials/research/nanomaterials-institute/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 232,
@@ -2220,8 +2136,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Microscopic view of a concrete crack being filled by white calcium carbonate crystals produced by bacteria.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.tudelft.nl/en/ceg/about-faculty/departments/materials-mechanics-management-m3/sections/materials-and-environment/research/self-healing-materials/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 235,
@@ -2246,8 +2161,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Atomic-scale visualization of borophene's unique puckered or corrugated hexagonal lattice structure.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://hersamgroup.northwestern.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 237,
@@ -2259,8 +2173,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Microscopic image showing the fine, homogeneous grain structure of a high-entropy alloy sample.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.mpie.de/2785/computational-materials-design"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 238,
@@ -2272,8 +2185,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Stylized depiction of a topological insulator, showing electrons flowing freely along the surface while the bulk remains insulating.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.physics.upenn.edu/people/faculty/charles-kane"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 239,
@@ -2376,8 +2288,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Electron microscope image of collagen fibers next to a luxurious cultivated leather handbag.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://vitrolabsinc.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 247,
@@ -2441,8 +2352,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "cross-section diagram of a light-field display projecting multiple focal planes into an eye",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://lightfield.stanford.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 252,
@@ -2454,8 +2364,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "microscopic view of a metasurface lens with nanostructures, light bending",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://capassolab.seas.harvard.edu/research/metasurfaces/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 253,
@@ -2505,8 +2414,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "AR glasses lens transitioning from clear to a dark tint, with a subtle electrical grid visible",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.chalmers.se/en/research/areas-of-advance/materials-science/research/functional-materials/electrochromic-materials/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 257,
@@ -2518,8 +2426,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "multiple AR users in a shared physical space interacting with the same persistent virtual objects overlaid on reality",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://azure.microsoft.com/en-us/products/spatial-anchors/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 258,
@@ -2751,8 +2658,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Cutaway diagram of an RRAM cell showing the resistive switching layer, with a conceptual visualization of computation happening directly within memory.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.research.ibm.com/artificial-intelligence/hardware/in-memory-computing/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 276,
@@ -2764,8 +2670,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "Petri dish with cultured neurons on a multi-electrode array, glowing subtly, connected to microelectronic circuits.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.epfl.ch/labs/biohybrid-systems-lab/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 277,
@@ -2879,8 +2784,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Microchip with a tiny laser beam interacting with trapped atoms (stylized)",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.nist.gov/programs-projects/atomic-clocks"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 286,
@@ -2918,8 +2822,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "Nanoscale metallic structures on a chip, with light patterns interacting",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://capassolab.seas.harvard.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 289,
@@ -2931,8 +2834,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "Close-up of iridescent material with ordered nanoscale spheres, light diffracting",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.chem.utoronto.ca/staff/gozin/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 290,
@@ -2957,8 +2859,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Close-up of a bioprinted kidney scaffold with visible, intricate vascular networks under a microscope.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://unither.com/organ-manufacturing"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 292,
@@ -2970,8 +2871,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "A small, transparent microfluidic chip with colorful dyed liquid flowing through intricate channels, showcasing cultured cells within chambers.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://wyss.harvard.edu/technology/organ-chips/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 293,
@@ -2983,8 +2883,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A transparent, ghost-like outline of a heart or kidney, showing the intricate, preserved vascular network of a decellularized scaffold.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.massgeneral.org/surgery/research/ott-laboratory"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 294,
@@ -2996,8 +2895,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Microscopic image of a spherical brain organoid, showing different cell layers and fluorescently stained neurons firing within it.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.mrc-lmb.cam.ac.uk/groups/mlancaster/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 295,
@@ -3022,8 +2920,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Microscopic view of bioprinted pancreatic islet cells embedded within a hydrogel scaffold, showing their spherical arrangement.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.wakehealth.edu/research/institutes-and-centers/wake-forest-institute-for-regenerative-medicine/research-areas/bioprinting"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 297,
@@ -3035,8 +2932,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Close-up microscopic image of perfectly spherical, uniformly sized liver spheroids in a multi-well plate, some stained for viability.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://insphero.com/applications/liver-toxicity-dili/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 298,
@@ -3048,8 +2944,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A small, handheld bioprinter device depositing a stream of bioink onto a simulated wound on a forearm, with visible cell layers forming.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.wakehealth.edu/research/institutes-and-centers/wake-forest-institute-for-regenerative-medicine/research-areas/bioprinting"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 299,
@@ -3061,8 +2956,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A clear, transparent, dome-shaped bioengineered cornea resting on a petri dish, reflecting light, with a ruler for scale.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.masseyeandear.org/research/schepens/research-areas/cornea-research"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 300,
@@ -3087,8 +2981,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "cross-section diagram of a molten salt reactor core with liquid fuel flowing",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.ornl.gov/division/rnsd/molten-salt-reactors"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 302,
@@ -3139,8 +3032,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "fuel pellet imploded by multiple laser beams inside an ICF chamber",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://lasers.llnl.gov/science/fusion/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 306,
@@ -3165,8 +3057,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "cross-section of a fusion reactor showing blanket modules surrounding the plasma chamber",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.euro-fusion.org/programme/breeding-blankets/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 308,
@@ -3217,8 +3108,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "a high-altitude research aircraft releasing a plume of aerosol particles into a clear blue stratosphere",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://geoengineering.environment.harvard.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 312,
@@ -3230,8 +3120,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "an autonomous ship spraying a fine mist of sea salt particles into the air, creating brighter clouds above",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.apl.uw.edu/project/project.php?id=marine-cloud-brightening"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 313,
@@ -3243,8 +3132,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "a cross-section of the upper atmosphere showing a plane releasing microscopic particles into wispy cirrus clouds, causing larger ice crystals to fall",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.imk-aaf.kit.edu/english/202.php"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 314,
@@ -3269,8 +3157,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "a research vessel dispersing a fine white powder (crushed alkaline minerals) into the ocean surface, with a pH sensor reading",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.geomar.de/en/research/fb2/fb2-mg/research-topics/ocean-alkalinity-enhancement"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 316,
@@ -3282,8 +3169,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "microscopic image of uniform, highly reflective calcium carbonate particles next to an infographic showing them dispersed in the stratosphere",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://geoengineering.environment.harvard.edu/research/stratospheric-aerosol-injection"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 317,
@@ -3295,8 +3181,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "a drone distributing a fine, sparkling white powder over a section of melting Arctic sea ice",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://ice911.org/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 318,
@@ -3308,8 +3193,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "a diagram showing a methane molecule breaking down into CO2 and H2O on the surface of a microscopic catalyst particle in the atmosphere",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.climaterepair.cam.ac.uk/research/methane-removal/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 319,
@@ -3334,8 +3218,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "a high-altitude drone with scientific instruments flying in the stratosphere, with satellite dishes on the ground tracking its data",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://geoengineering.environment.harvard.edu/research/stratospheric-aerosol-injection"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 321,
@@ -3438,8 +3321,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "a concentrated solar power (CSP) tower field with molten salt storage tanks visible at the base",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.nrel.gov/solar/thermal-energy-storage.html"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 330,
@@ -3516,8 +3398,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Flexible electronic skin patch with microscopic bioluminescent cells integrated, wirelessly transmitting data to a smartphone.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://rogers.northwestern.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 336,
@@ -3529,8 +3410,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Large-scale bioreactors glowing with green engineered microalgae, against a backdrop of smokestacks emitting CO2.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://viridos.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 337,
@@ -3555,8 +3435,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Close-up of human cells in a petri dish, with glowing internal 'logic gates' representing active gene circuits, processing inputs.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.bsse.ethz.ch/department/people/professors/prof-dr-martin-fussenegger.html"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 339,
@@ -3672,8 +3551,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Two separated quantum nodes with entangled particles connecting them, with small error correction symbols around the nodes.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://ai.google/research/teams/quantum-ai/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 348,
@@ -3750,8 +3628,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Powerful laser beams converging on a tiny fuel pellet inside an ICF reaction chamber, creating a bright flash.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://lasers.llnl.gov/facilities/nif"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 354,
@@ -3802,8 +3679,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A reactor core schematic showing flowing molten salt fuel within a graphite moderator matrix, glowing faintly.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://terrapower.com/our-work/molten-chloride-fast-reactor/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 358,
@@ -3853,8 +3729,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "stylized cross-section of a human head with ultrasound waves penetrating and highlighting active brain regions in vivid color",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://neuroltyx.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 362,
@@ -3879,8 +3754,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "microscopic view of neurons glowing under targeted light pulses from a tiny implanted wireless device",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://rogersgroup.northwestern.edu/research/bio-integrated-systems/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 364,
@@ -3892,8 +3766,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "person wearing a non-invasive headset, with glowing ultrasound waves targeting a specific brain region (e.g., hippocampus) in a stylized brain",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.ibs.re.kr/ccs/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 365,
@@ -3918,8 +3791,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "a highly realistic bionic arm interacting with objects, with subtle neural pathways visualized connecting to the arm stump",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.sralab.org/research/center-bionic-medicine"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 367,
@@ -3957,8 +3829,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "transparent skull showing an epidural electrode array laid gently on the brain's surface, with neural signals radiating outwards",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.cortec-neuro.com/en/products/brain-interchange/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 370,
@@ -3970,8 +3841,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "microscopic, dust-like sensors glowing within a stylized human brain, with ultrasound waves radiating inwards from outside the skull",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://maharbizlab.berkeley.edu/research/neural-dust/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 371,
@@ -4048,8 +3918,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "intricate network of insulated pipes, heat exchangers, and distillation columns at an industrial plant, with visible frost",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.chartindustries.com/solutions/carbon-capture"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 377,
@@ -4138,8 +4007,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "futuristic car interior with an onboard AI processing unit glowing, showing data flowing directly on the vehicle",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.nvidia.com/en-us/self-driving-cars/drive-platform/drive-agx/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 384,
@@ -4190,8 +4058,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "a highly detailed 3D map overlay with semantic labels (e.g., 'lane divider', 'stop sign') viewed from an AV's perspective",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.mobileye.com/our-technology/road-experience-management-rem/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 388,
@@ -4242,8 +4109,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A flexible, thin film of MXene material being applied to a circuit board, with electromagnetic waves deflecting off it.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://gogotsi.materials.drexel.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 392,
@@ -4255,8 +4121,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "A vibrant, high-resolution display showcasing a complex color spectrum, hinting at the purity of PQD light emission.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://eng.snu.ac.kr/eng/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 393,
@@ -4268,8 +4133,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A composite material visibly repairing a crack, with microscopic healing agents flowing into the damaged area.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://sottos.beckman.illinois.edu/research/self-healing-polymers/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 396,
@@ -4294,8 +4158,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A transparent, flexible electronic film conforming to a human hand, with tiny integrated sensors glowing faintly.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://baogroup.stanford.edu/research/stretchable-electronics/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 398,
@@ -4307,8 +4170,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A modern building with walls that appear to be made of translucent wood, letting diffused light into a bright interior.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.wwsc.se/research/transparent-wood/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 399,
@@ -4320,8 +4182,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A close-up of a shimmering, black carbon nanotube yarn being woven into a fabric, with tiny sparks of electricity visible.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://pasquali.rice.edu/research/carbon-nanotube-fibers"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 400,
@@ -4333,8 +4194,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Bioreactors with bubbling liquid, next to a carton of 'animal-free' milk or cheese.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.newcultureinc.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 401,
@@ -4359,8 +4219,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Microscopic image of yeast cells rich in lipid droplets, next to bottles of 'sustainable' cooking oil.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.zeroacrefarms.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 403,
@@ -4398,8 +4257,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "A lab flask with bubbling liquid, next to a range of food products (e.g., yogurt, soda) advertising 'bio-identical vanilla' or 'fermented orange flavor.'",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.givaudan.com/our-purpose/innovation/biotechnology"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 406,
@@ -4437,8 +4295,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A bowl of pet food that looks like kibble or wet food, with a small graphic of lab-grown cells on the packaging.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://bondpetfoods.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 409,
@@ -4450,8 +4307,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "A delicious-looking plant-based burger with enhanced texture, with a subtle overlay showing microscopic yeast or bacterial cells.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://motiffoodworks.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 410,
@@ -4489,8 +4345,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Close-up of a finger touching a surface with a visible grid of tiny electrodes, showing a simulated texture ripple.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.mccormick.northwestern.edu/mechanical-engineering/research/labs/tactile-display-lab/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 413,
@@ -4528,8 +4383,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A person typing a text prompt into a futuristic interface, and on a screen, a complex 3D scene (e.g., a fantasy forest) is instantly generating itself.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://ai.googleblog.com/2022/10/dreamfusion-text-to-3d-using-2d-diffusion.html"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 416,
@@ -4541,8 +4395,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A person wearing sleek AR glasses with a subtle wristband, interacting with a virtual interface that responds to their unspoken thoughts or subtle hand movements.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://tech.meta.com/reality-labs/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 417,
@@ -4606,8 +4459,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Molecular model showing the FOXO4-DRI peptide interacting with its target protein within a senescent cell.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.erasmusmc.nl/en/research/departments/molecular-genetics/research/peter-de-keizer-group"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 422,
@@ -4657,8 +4509,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Illustrated cell showing damaged mitochondria being engulfed by an autophagosome.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://rubedolifesciences.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 426,
@@ -4746,8 +4597,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "schematic diagram of an analog neuromorphic circuit with neuron/synapse symbols",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.synsense-ai.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 434,
@@ -4823,8 +4673,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "microscopic image of neurons connected to electrodes on a chip",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.biohybrid.iis.u-tokyo.ac.jp/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 440,
@@ -4888,8 +4737,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A sleek, futuristic server rack with glowing optical fibers and intricate light paths instead of dense copper wires, emphasizing speed and efficiency.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.macom.com/products/optical-components/optical-switches"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 445,
@@ -4901,8 +4749,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A highly magnified, colorful image of a photonic crystal lattice with a tiny illuminated cavity, perhaps with a target molecule binding to its surface.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.np.phy.cam.ac.uk/research/photonic-crystal-nanocavities"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 446,
@@ -4927,8 +4774,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "An intricate, geometric pattern of sub-wavelength structures on a chip, with emanating terahertz waves shown as stylized ripples forming a focused beam.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.hhi.fraunhofer.de/en/departments/terahertz-communications.html"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 448,
@@ -4953,8 +4799,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A tiny, glowing chip with a schematic representation of laser beams interacting with trapped atoms, emphasizing the miniaturization of a complex atomic clock.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.nist.gov/programs-projects/chip-scale-optical-clock"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 450,
@@ -4966,8 +4811,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Microscopic image of a translucent vascularized organoid with perfusing red dye",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://wyss.harvard.edu/technology/organ-chips/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 451,
@@ -4979,8 +4823,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Close-up of a 3D bioprinter extruding bio-ink onto a petri dish, forming a complex liver-like structure.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.wakehealth.edu/research/institutes-and-centers/wake-forest-institute-for-regenerative-medicine/research-areas/bioprinting"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 452,
@@ -5005,8 +4848,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Transparent, ghost-like decellularized heart scaffold alongside a syringe injecting cells into its vasculature.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.massgeneral.org/surgery/thoracic/research/ott-lab"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 454,
@@ -5018,8 +4860,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Handheld device scanning over a burn wound, precisely depositing a thin layer of bio-ink onto the affected area.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.wakehealth.edu/research/institutes-and-centers/wake-forest-institute-for-regenerative-medicine/research-areas/bioprinting/skin-bioprinting"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 455,
@@ -5044,8 +4885,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Fluorescent microscopy image of a layered retinal organoid showing different cell types (e.g., photoreceptors, ganglion cells).",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://gamm.wisc.edu/research/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 457,
@@ -5057,8 +4897,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "CT scan image overlaid with a 3D model of a custom bioprinted knee cartilage and bone implant.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.wakehealth.edu/research/institutes-and-centers/wake-forest-institute-for-regenerative-medicine/research-areas/bioprinting-and-biofabrication"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 458,
@@ -5122,8 +4961,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Artistic rendering of the CFS SPARC tokamak reactor with glowing plasma inside, highlighting the high-temperature superconducting magnets.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://cfs.energy/sparc"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 463,
@@ -5148,8 +4986,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Diagram of a pebble-bed HTGR core with TRISO fuel particles, showing helium coolant flow.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://x-energy.com/technology/xe-100"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 465,
@@ -5213,8 +5050,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Schematic showing a nuclear power plant supplying electricity and heat to a large-scale direct air capture facility with visible CO2 capture towers.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.nuscalepower.com/en/our-technology/applications/decarbonization"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 470,
@@ -5226,8 +5062,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "High-altitude research balloon releasing a plume of fine white powder into the blue stratosphere.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://geoengineering.environment.harvard.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 471,
@@ -5239,8 +5074,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A research vessel with a large nozzle spraying a fine mist of seawater upwards towards low-lying marine clouds.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.oceanography.washington.edu/story/Marine_Cloud_Brightening_Project"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 472,
@@ -5277,8 +5111,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Tractor spreading fine gray-green rock dust over a field, with stylized arrows showing CO2 being drawn from the air into the soil.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.lc3m.org/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 475,
@@ -5302,8 +5135,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "A modular, industrial-looking facility at the coastline, drawing in seawater and expelling treated water, with CO2 being captured in tanks.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.captura.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 477,
@@ -5469,8 +5301,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Microscopic view of various engineered bacteria strains interacting within a gut-like environment.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.novome.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 493,
@@ -5521,8 +5352,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "A complex, colorful diagram of a yeast chromosome, highlighting synthetic genes and pathways, with a flask of fermented liquid in the background.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.syntheticyeast.org/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 497,
@@ -5573,8 +5403,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Abstract illustration of braided quantum field lines or Majorana zero modes in a nanowire.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.microsoft.com/en-us/quantum/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 501,
@@ -5820,8 +5649,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Microscopic view of multiple tiny, glowing specks (neural dust sensors) subtly embedded within brain tissue, with ultrasonic waves emanating from an external source.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://maharbiz.berkeley.edu/research/neural-dust/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 522,
@@ -5846,8 +5674,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Microscopic view of individual neurons glowing vibrantly under specific colored light, with fine optical fibers delicately positioned among them.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://deisserothlab.stanford.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 524,
@@ -5859,8 +5686,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Diagram of an arm stump showing regenerated nerves growing into small muscle grafts, with embedded electrodes connected to a highly realistic prosthetic hand.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://chesteck.engin.umich.edu/research/rpni/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 525,
@@ -6027,8 +5853,7 @@
     "developmentStage": "Growth Phase",
     "imageIdea": "large industrial smokestack with a modern, sleek carbon capture facility attached",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.mhi.com/products/energy/co2_capture_plant.html"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 539,
@@ -6040,8 +5865,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "concrete mixer truck with a small CO2 capture unit on top, infusing CO2 into concrete",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.heidelbergmaterials.com/en/sustainability/carbon-capture-utilisation-and-storage"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 540,
@@ -6053,8 +5877,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "cross-section diagram of a solid-state LiDAR chip with tiny mirrors or phased arrays",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.luminartech.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 541,
@@ -6066,8 +5889,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "autonomous car sensors detecting a pedestrian, with overlaid probabilistic prediction cones showing possible future paths",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://waymo.com/technology/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 542,
@@ -6079,8 +5901,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "stylized infographic showing lines of data flowing between autonomous cars, traffic lights, and smartphones",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.nxp.com/applications/automotive/v2x-communication:V2X-COMMUNICATION"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 543,
@@ -6092,8 +5913,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "a holographic overlay of a highly detailed 3D map onto a real-world street scene from an AV's perspective",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.here.com/platform/automotive/hd-live-map"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 544,
@@ -6105,8 +5925,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "schematic diagram of an autonomous car showing multiple redundant sensors, computers, and actuators with highlighted fail-operational pathways",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.aptiv.com/en/our-technology/autonomous-driving"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 545,
@@ -6170,8 +5989,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "autonomous car dashboard displaying a simple, text-based explanation for a recent driving maneuver (e.g., 'Braked due to child detected on sidewalk')",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.mobileye.com/our-technology/responsibility-sensitive-safety/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 550,
@@ -6196,8 +6014,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Polymer material visibly 'healing' a crack over time",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://ams.beckman.illinois.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 554,
@@ -6209,8 +6026,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Cross-section of a high-entropy alloy displaying its complex microstructure",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.mse.nthu.edu.tw/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 555,
@@ -6222,8 +6038,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "Atomic force microscope image of borophene lattice with quantum dots",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://ozkan.engr.ucr.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 556,
@@ -6235,8 +6050,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "A clear, translucent sheet of wood composite material",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.kth.se/en/aktuellt/nyheter/genomskinligt-tra-kan-bli-framtidens-byggmaterial-1.1097275"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 557,
@@ -6248,8 +6062,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Diagram illustrating the asymmetric structure of Janus MoS2 splitting water",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.chem.pku.edu.cn/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 558,
@@ -6261,8 +6074,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "A shiny, complex-shaped metallic glass component",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.materials.caltech.edu/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 559,
@@ -6339,8 +6151,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "cross-section diagram of a zinc-hybrid battery cell showing a zinc anode, aqueous electrolyte, and a layered cathode",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.wanggroupumd.com/research/aqueous-batteries"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 565,
@@ -6352,8 +6163,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "schematic diagram of a flow battery with two large tanks of colored liquid, a central cell stack, and a pump system",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.seas.harvard.edu/research/areas/energy-and-environment/energy-storage-and-conversion"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 566,
@@ -6365,8 +6175,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "microscopic image showing perovskite crystals integrated onto a porous electrode material within a supercapacitor structure",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.ntu.edu.sg/mse/about-us/faculty/qichun-zhang"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 567,
@@ -6378,8 +6187,7 @@
     "developmentStage": "Early Research",
     "imageIdea": "stylized atomic model showing chloride ions moving through a solid electrolyte lattice between electrodes",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://yamada-oishi.t.u-tokyo.ac.jp/en/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 568,
@@ -6391,8 +6199,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "schematic of a thermal energy storage facility with a central crucible of glowing molten silicon, surrounded by heat exchangers",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.sicitech.de/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 569,
@@ -6444,8 +6251,7 @@
     "imageIdea": "microscopic image of a gut bacterium with glowing internal gene circuits, surrounded by inflammatory markers being detected",
     "type": "future-tech",
     "dateAdded": "2026-04-27",
-    "badge": "editors-pick",
-    "sourceLink": "https://wyss.harvard.edu/technology-platform/living-diagnostics-therapeutics/"
+    "badge": "editors-pick"
   },
   {
     "id": 573,
@@ -6458,7 +6264,71 @@
     "imageIdea": "conceptual diagram showing CRISPR-Cas9 proteins binding to DNA within a cell nucleus, with multiple guide RNAs forming a complex circuit to activate and repress genes",
     "type": "future-tech",
     "dateAdded": "2026-04-27",
-    "badge": "editors-pick",
-    "sourceLink": "https://www.qilab.org/"
+    "badge": "editors-pick"
+  },
+  {
+    "id": 574,
+    "slug": "zed-1-0-release",
+    "techName": "Zed 1.0",
+    "seoTitle": "Zed 1.0: High-Performance Code Editor Release",
+    "explanation": "Zed 1.0 is a new, highly performant code editor designed for collaborative software development. Released by Zed, this milestone marks its official launch as a stable, feature-rich application. It leverages a custom rendering engine and a unique architecture that allows for instant collaborative editing, even with large codebases, by intelligently managing processing and network resources. The editor aims to provide a seamless and incredibly fast coding experience, even when multiple developers are working on the same file simultaneously.",
+    "industry": "Software Development",
+    "whyItMatters": "Zed 1.0 directly challenges established code editors like VS Code by prioritizing speed and collaboration. Its ability to handle massive projects and real-time co-editing without lag could significantly boost developer productivity and streamline team workflows. This could lead to faster software development cycles and more efficient remote work environments. The key obstacles involve wider adoption against entrenched user bases and continued development to match feature parity with mature editors. In the future, we might see coding sessions where collaborators feel as though they are in the same room, making complex problem-solving more fluid and immediate.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "multi-person hands typing on glowing keyboards",
+    "type": "future-tech",
+    "dateAdded": "2026-04-29"
+  },
+  {
+    "id": 575,
+    "slug": "mistral-medium-3-5-release",
+    "techName": "Mistral Medium 3.5",
+    "seoTitle": "Mistral Medium 3.5 AI Model",
+    "explanation": "Mistral Medium 3.5, announced by Mistral AI, is a new large language model (LLM) that offers enhanced reasoning and reduced latency for complex tasks. This model demonstrates significant improvements in its ability to understand context and generate more coherent, accurate responses, particularly in scenarios requiring sophisticated planning or problem-solving. It's designed to be more efficient, allowing for faster inference times which is critical for real-time applications and reducing operational costs for AI deployments.",
+    "industry": "Artificial Intelligence",
+    "whyItMatters": "The release of Mistral Medium 3.5 signifies a step towards more capable and accessible AI agents. Its improved performance and efficiency could enable more sophisticated AI applications across various sectors, from customer service bots that can handle complex queries to AI assistants that can perform multi-step tasks reliably. This could accelerate the integration of advanced AI into daily workflows and consumer products. The primary hurdles include ensuring robust safety protocols and mitigating potential misuse. As these models mature, AI will move from simple text generation to more proactive and intelligent task execution, making them indispensable tools.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "neural network pathways with glowing nodes",
+    "type": "future-tech",
+    "dateAdded": "2026-04-29"
+  },
+  {
+    "id": 576,
+    "slug": "government-open-source-platform",
+    "techName": "Open-Source Code Platform for Government",
+    "seoTitle": "Open-Source Code Platform for Government Launch",
+    "explanation": "The Dutch government, through NLdigital government, has soft-launched an open-source code platform aimed at fostering collaboration and transparency in public sector software development. This initiative allows government agencies to share and reuse code, reducing redundant development efforts and improving the quality and security of digital services. The platform is built on open standards, promoting interoperability and allowing external developers and citizens to contribute and inspect the code.",
+    "industry": "Government & Public Sector",
+    "whyItMatters": "This platform represents a significant shift towards more efficient and transparent digital governance. By embracing open source, governments can save taxpayer money, avoid vendor lock-in, and build more secure and trustworthy digital infrastructure. It has the potential to accelerate digital transformation within public services and encourage citizen participation in government tech. The main challenges include ensuring consistent adoption across different agencies and maintaining high security standards for publicly accessible code. In the future, citizens might directly contribute to the improvement of government services through code, fostering a more engaged and accountable public sector.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "stylized blueprint of digital government building",
+    "type": "future-tech",
+    "dateAdded": "2026-04-29"
+  },
+  {
+    "id": 577,
+    "slug": "ghostty-leaving-github",
+    "techName": "Ghostty Terminal Emulator",
+    "seoTitle": "Ghostty Terminal Emulator Independence",
+    "explanation": "Ghostty, a modern terminal emulator developed by Mitchell Hashimoto, is transitioning away from GitHub for its hosting and development. This move signifies a commitment to greater control over its project's future and its open-source ethos. Ghostty is known for its performance, extensibility, and modern feature set, aiming to provide a superior command-line experience compared to traditional terminals.",
+    "industry": "Software Development",
+    "whyItMatters": "Ghostty's departure from GitHub highlights a growing trend of open-source projects seeking greater autonomy and control over their infrastructure and licensing. This can lead to more resilient and independent open-source ecosystems. For developers, it means access to a highly optimized and potentially more innovative terminal that can streamline command-line tasks. Obstacles to widespread adoption include competition from established terminals and the need to build out community support independent of larger platforms. As such tools mature, they can become integral to developer workflows, making complex command-line operations faster and more intuitive.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "glowing command line interface with abstract patterns",
+    "type": "future-tech",
+    "dateAdded": "2026-04-29"
+  },
+  {
+    "id": 578,
+    "slug": "tangled-federation-of-forges",
+    "techName": "Federation of Forges",
+    "seoTitle": "Tangled: Federation of Code Forges",
+    "explanation": "Tangled proposes the creation of a 'federation of forges,' a decentralized model for code hosting and collaboration that moves away from monolithic platforms like GitHub. This approach envisions a network of interconnected, interoperable repositories that allow developers to host their code wherever they choose while still enabling seamless discovery, contribution, and collaboration. The goal is to foster a more resilient, diverse, and community-driven open-source ecosystem.",
+    "industry": "Software Development",
+    "whyItMatters": "A federation of forges could fundamentally alter how open-source software is developed and managed, offering an alternative to the centralized control of major platforms. This decentralization promises increased resilience against single points of failure, greater developer autonomy, and potentially more equitable power distribution within the open-source community. It could foster innovation by lowering barriers to entry for new hosting platforms and encouraging diverse development practices. The key challenges are achieving broad consensus on interoperability standards, motivating platform creators, and convincing developers to adopt a new model. This shift could lead to a more robust and varied open-source landscape, where projects are less susceptible to the decisions of a single corporate entity.",
+    "developmentStage": "Research",
+    "imageIdea": "network of interconnected code repositories",
+    "type": "future-tech",
+    "dateAdded": "2026-04-29"
   }
 ]

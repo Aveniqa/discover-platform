@@ -5,8 +5,40 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 13:44:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 17:08:52 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kami</title>
+      <link>https://surfaced-x.pages.dev/item/kami-content-for-paper</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/kami-content-for-paper</guid>
+      <description>Kami is a tool designed to help users present their digital content in a way that feels as good as print. It focuses on the quality of the final output, ensuring that well-crafted content is delivered with an appropriate and aesthetically pleasing presentation. The specific functionality revolves around transforming digital information into a format that respects its value and impact, akin to high-quality printed materials.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>guizang-ppt-skill</title>
+      <link>https://surfaced-x.pages.dev/item/guizang-ppt-skill</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/guizang-ppt-skill</guid>
+      <description>Guizang PPT Skill is a Claude Code Skill that transforms simple prompts into visually stunning, horizontal-swipe magazine-style HTML presentations. It offers a variety of layouts, curated themes, and even WebGL hero backgrounds, all packaged into a single, easy-to-manage HTML file. This free tool is perfect for anyone who wants to create engaging presentations without the complexity of traditional slideshow software.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>awesome-gpt-image-2-prompts</title>
+      <link>https://surfaced-x.pages.dev/item/awesome-gpt-image-2-prompts</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/awesome-gpt-image-2-prompts</guid>
+      <description>This GitHub repository curates a comprehensive collection of prompts specifically designed for the OpenAI API&apos;s image generation capabilities (GPT-Image-2). It showcases a wide variety of use cases, including detailed examples for portraits, posters, UI mockups, character sheets, and experimental community creations. The prompts are provided in Python, making them easily adaptable for developers integrating image generation into their applications.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fathom 3.0</title>
+      <link>https://surfaced-x.pages.dev/item/fathom-ai-meeting-notes</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fathom-ai-meeting-notes</guid>
+      <description>Fathom 3.0 is an AI-powered meeting notetaker that captures conversations during live calls without requiring a bot to join. It integrates with popular communication platforms and offers features like account-wide AI search, insights, and live summaries. Fathom operates on a freemium model, offering core functionality for free and advanced features through paid tiers, making it an accessible solution for anyone needing to streamline meeting follow-ups.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Pastel.sh</title>
       <link>https://surfaced-x.pages.dev/item/pastel-sh-minimalist-code-snippet-sharing</link>
@@ -372,38 +404,6 @@
       <link>https://surfaced-x.pages.dev/item/standard-notes-encrypted-secure-note-taking</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/standard-notes-encrypted-secure-note-taking</guid>
       <description>Standard Notes, developed by Standard Notes, Inc., is a free, open-source, end-to-end encrypted note-taking application designed for long-term personal privacy and digital preservation. It provides a secure place to store your notes, journals, code snippets, and files, accessible only by you through its robust encryption. The primary workflow involves creating plain text notes, organizing them with tags, and having them automatically sync across all your devices securely. It works across a wide array of platforms including web, iOS, Android, Windows, Mac, Linux, and even as a portable app. Its most used feature is its strict end-to-end encryption, ensuring that all content remains private and unreadable by anyone but the user. All user data, including notes and tags, is encrypted client-side before being synced to the cloud, meaning even Standard Notes themselves cannot read your content.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Signal Private Messenger</title>
-      <link>https://surfaced-x.pages.dev/item/signal-private-messenger-encrypted-communication</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/signal-private-messenger-encrypted-communication</guid>
-      <description>Signal Private Messenger, developed by the Signal Technology Foundation and Signal Messenger LLC, is a free, open-source messaging application renowned for its end-to-end encryption for text, voice calls, and video calls. It allows users to communicate securely with individuals and groups without compromising privacy, ensuring that only the sender and intended recipient can read messages. The primary workflow involves sending messages, making calls, or sharing files just like any other messaging app, but with the underlying security of the Signal Protocol. It works seamlessly across iOS, Android, Windows, macOS, and Linux, with desktop clients tethered to the mobile app. Its most used feature is its &apos;disappearing messages,&apos; which automatically delete communications after a set time, enhancing privacy. All communications are end-to-end encrypted by default, and Signal&apos;s infrastructure is designed to store as little user data as possible, reinforcing its privacy claims.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Aegis Authenticator</title>
-      <link>https://surfaced-x.pages.dev/item/aegis-authenticator-2fa-open-source</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/aegis-authenticator-2fa-open-source</guid>
-      <description>Aegis Authenticator, developed by the community, is a free, open-source two-factor authentication (2FA) app for Android devices, providing a secure way to manage your one-time passcodes (OTP). It stores your 2FA secrets in an encrypted vault, protected by a password or biometric authentication, generating time-based (TOTP) and HMAC-based (HOTP) codes. The primary workflow involves scanning QR codes from websites to add new 2FA entries, then opening the app to retrieve a code when logging into a service. It works exclusively on Android devices, offering a robust and privacy-focused alternative to other authenticator apps. Its most used feature is the ability to export and import encrypted vaults, providing a reliable backup solution for all your 2FA codes. All data is stored locally on your device in an encrypted vault, and the open-source nature ensures transparency and community scrutiny of its security.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Firefox Relay</title>
-      <link>https://surfaced-x.pages.dev/item/firefox-relay-email-alias-privacy</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/firefox-relay-email-alias-privacy</guid>
-      <description>Firefox Relay, created by Mozilla, is a service that generates unique, disposable email aliases to protect your real email address from spam, marketing lists, and data breaches. It acts as an intermediary, forwarding emails sent to your alias to your actual inbox, while masking your primary email. The primary workflow involves using a browser extension or the website to generate a new alias when signing up for a service, then managing these aliases from a central dashboard. It works as a web service and a browser extension for Firefox, Chrome, and Edge, with plans for mobile app integration. Its most used feature is its ability to quickly generate a unique alias directly from signup forms with a single click. Email data is processed by Mozilla&apos;s servers for forwarding, and they clearly state their privacy policy regarding handling and deleting emails.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>KeePass Password Safe</title>
-      <link>https://surfaced-x.pages.dev/item/keepass-password-manager-offline-security</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/keepass-password-manager-offline-security</guid>
-      <description>KeePass Password Safe, developed by Dominik Reichl, is a free, open-source password manager that helps you manage your passwords in a highly encrypted database. It securely stores all your login credentials, notes, and files in one master database file, protected by a single master password or key file. The primary workflow involves opening your local `.kdbx` database file, unlocking it, and then copying usernames or passwords to login forms. It works natively on Windows, with community ports and compatible apps available for macOS, Linux, Android, and iOS. Its most used feature is the robust auto-type function, which automatically fills in credentials into web forms and applications. All data is stored locally on your device in an encrypted file, offering complete control without relying on cloud servers.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>
