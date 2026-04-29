@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { dailyTools, getSubCategories, type AnyItem } from "@/lib/data";
+import { dailyTools, getSubCategories, getItemExcerpt, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { LogoImage } from "@/components/ui/LogoImage";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
@@ -196,7 +196,7 @@ export default function ToolsPage() {
                   </h3>
                 </Link>
                 <p className="text-sm text-muted-foreground line-clamp-1 mb-4">
-                  {item.whatItDoes}
+                  {getItemExcerpt(item)}
                 </p>
                 <div className="mt-auto">
                   <a

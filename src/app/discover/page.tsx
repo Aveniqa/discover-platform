@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { discoveries, getSubCategories, type AnyItem } from "@/lib/data";
+import { discoveries, getSubCategories, getItemExcerpt, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
@@ -191,7 +191,7 @@ export default function DiscoverPage() {
                   {item.title}
                 </h3>
                 <p className="text-sm text-muted-foreground line-clamp-1">
-                  {item.shortDescription}
+                  {getItemExcerpt(item)}
                 </p>
                 </Link>
                 {item.sourceLink && (() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return null; } })() && (

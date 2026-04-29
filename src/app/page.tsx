@@ -10,7 +10,7 @@ import {
   categories,
   getAllItems,
   getItemTitle,
-  getItemDescription,
+  getItemExcerpt,
   getCategoryColor,
   getCategoryLabel,
   type AnyItem,
@@ -291,7 +291,7 @@ export default function HomePage() {
                         {getItemTitle(item)}
                       </h3>
                       <p className="text-xs text-muted leading-relaxed line-clamp-1">
-                        {getItemDescription(item)}
+                        {getItemExcerpt(item)}
                       </p>
                     </div>
                   </div>
@@ -471,7 +471,7 @@ export default function HomePage() {
               </h3>
 
               <p className="text-sm sm:text-base text-muted leading-relaxed mb-6 line-clamp-4 flex-1">
-                {getItemDescription(editorsPick)}
+                {getItemExcerpt(editorsPick, 240)}
               </p>
 
               <Link
@@ -516,7 +516,7 @@ export default function HomePage() {
                 </h3>
 
                 <p className="text-sm text-muted leading-relaxed mb-4 line-clamp-2 flex-1">
-                  {getItemDescription(item)}
+                  {getItemExcerpt(item)}
                 </p>
 
                 <Link
@@ -594,7 +594,7 @@ export default function HomePage() {
                             {getItemTitle(item)}
                           </h3>
                           <p className="text-xs text-muted leading-relaxed line-clamp-1">
-                            {getItemDescription(item)}
+                            {getItemExcerpt(item)}
                           </p>
                         </div>
                       </div>
@@ -661,7 +661,7 @@ export default function HomePage() {
                             {getItemTitle(item)}
                           </h3>
                           <p className="text-xs text-muted leading-relaxed line-clamp-1">
-                            {getItemDescription(item)}
+                            {getItemExcerpt(item)}
                           </p>
                         </div>
                       </div>

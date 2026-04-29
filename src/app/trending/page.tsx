@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { products, getSubCategories, getFilterCategory } from "@/lib/data";
+import { products, getSubCategories, getFilterCategory, getItemExcerpt } from "@/lib/data";
 import { type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
@@ -308,7 +308,7 @@ export default function TrendingPage() {
                   </h3>
                 </Link>
                 <p className="text-sm text-muted-foreground line-clamp-1 mb-2">
-                  {item.shortDescription}
+                  {getItemExcerpt(item)}
                 </p>
                 {item.sourceLink && (() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return null; } })() && (
                   <a href={item.sourceLink} target="_blank" rel="noopener"

@@ -8,7 +8,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { futureRadar, getSubCategories, getFilterCategory, type AnyItem } from "@/lib/data";
+import { futureRadar, getSubCategories, getFilterCategory, getItemExcerpt, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
@@ -201,7 +201,7 @@ export default function FutureRadarPage() {
                   {item.techName}
                 </h3>
                 <p className="text-sm text-muted-foreground line-clamp-1">
-                  {item.explanation}
+                  {getItemExcerpt(item)}
                 </p>
                 </div>
               </Link>

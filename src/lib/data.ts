@@ -170,6 +170,28 @@ export function getItemDescription(item: AnyItem): string {
   return (item as Discovery | Product).shortDescription;
 }
 
+/**
+ * Word-boundary excerpt for listing cards. The full description still renders
+ * on /item/<slug>; listing routes ship a slim version so 50–500 cards per page
+ * don't bloat HTML or invite "thin content" classification when the same body
+ * text repeats across category index + collections + homepage.
+ */
+export function getItemExcerpt(item: AnyItem, max = 160): string {
+  return trimToWordBoundary(getItemDescription(item), max);
+}
+
+function trimToWordBoundary(s: string, max: number): string {
+  if (!s) return "";
+  const cleaned = s.replace(/\s+/g, " ").trim();
+  if (cleaned.length <= max) return cleaned;
+  const cut = cleaned.slice(0, max);
+  const lastSpace = cut.lastIndexOf(" ");
+  return (lastSpace > max - 30 ? cut.slice(0, lastSpace) : cut).replace(
+    /[,.;:\s]+$/,
+    ""
+  ) + "…";
+}
+
 export function getItemCategory(item: AnyItem): string {
   if (item.type === "future-tech") return (item as FutureTech).industry;
   return (item as Discovery | Product | HiddenGem | DailyTool).category;

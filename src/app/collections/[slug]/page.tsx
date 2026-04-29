@@ -3,6 +3,7 @@ import {
   getItemBySlug,
   getItemTitle,
   getItemDescription,
+  getItemExcerpt,
   getCategoryColor,
   getCategoryLabel,
   type AnyItem,
@@ -114,7 +115,7 @@ export default async function CollectionPage({ params }: Props) {
                   {getItemTitle(item)}
                 </h3>
                 <p className="text-xs text-muted-foreground line-clamp-2">
-                  {getItemDescription(item)}
+                  {getItemExcerpt(item)}
                 </p>
               </div>
             </Link>
