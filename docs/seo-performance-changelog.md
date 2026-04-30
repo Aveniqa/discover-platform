@@ -204,13 +204,45 @@ Manual trigger: `node scripts/backfill-date-added.mjs --run`. Default
 (no flag) is dry-run. Audit log written to `docs/date-added-backfill.log`
 (gitignored).
 
-### Known issue (deploy infra)
+### Resolved: deploy infra
 
-After pushing the P1–P10 redesign + UX bundle (commits `a38fddb` →
-`900b5ff`), `surfaced-x.pages.dev` continues to serve the pre-P3 hero
-("Discover something remarkable") rather than the new editorial cover
-("What the internet surfaced today."). The GitHub `Daily Surfaced
-Edition` workflow ran successfully at 16:09 UTC against the new HEAD,
-so the source of truth is correct on `origin/main` — but Cloudflare
-Pages has not picked the deployment up. Requires CF dashboard access
-to inspect the project's branch/build config and trigger a redeploy.
+The P1–P10 push wasn't reaching the live site because every CF Pages
+deploy since the catalog crossed ~2,200 items had been failing at the
+**20,000-files-per-deployment** hard cap. The build itself was clean;
+the deploy step rejected the artifact. Each item page emits 9 files
+(1 HTML + 1 RSC payload + 7 `__next.*.txt` PPR sidecars), so 2,702
+pages → 24,340 files.
+
+| SHA | Change |
+|---|---|
+| `dae2b6a` | `scripts/strip-rsc-payloads.mjs` — walks `out/` post-build and removes the unused PPR sidecars (kept the flat `<slug>.txt` RSC payloads for same-tab Link nav). Wired into `postbuild`. First pass: 24,340 → 5,451 files, 337 MB saved. |
+| `b7a81b6` | First pass over-stripped — Next 16 client runtime prefetches `__next._tree.txt` and `__next._index.txt` per route on hover, which 404'd. Updated strip to keep both patterns (5,402 files retained, 13,487 still removed). Final landing: **10,853 files**. Also widened CSP `connect-src` to allow `ep1.adtrafficquality.google` (AdSense brand-safety pixel that was being CSP-blocked). |
+
+### Live verification (post `b7a81b6` deploy)
+
+| Check | Result |
+|---|---|
+| Homepage / canonical / JSON-LD | 200, self-canonical, 2 LD blocks |
+| `/discover` | 200, self-canonical, 2 LD blocks |
+| `/item/<slug>` (sampled) | 200, self-canonical, Article schema |
+| Hero text | "What the internet surfaced today." ✓ (P3 marker) |
+| Footer | "Recently Archived" column present ✓ (P6 marker) |
+| Lighthouse (cold, mobile, post-`dae2b6a`) | seo 100, a11y 95, best-practices 54, perf 58 |
+
+Best-practices and performance scores reflect known content-data drift
+(some items carry HTTP-only image origins violating CSP `img-src`, plus
+the AdSense CSP gap fixed in `b7a81b6`). A second Lighthouse pass after
+`b7a81b6` redeploys will measure the real ceiling.
+
+### Known content-data drift (separate cleanup)
+
+~25 items in `data/products.json` and `data/hidden-gems.json` carry
+external image URLs over `http://` instead of `https://`, which
+browsers block on the HTTPS site (mixed-content). Affected sources
+include `loopearplugs.com`, `meallogger.com`, `thisworks.com`,
+`storyblok.com`, `carbon.now.sh`, GitHub OG-image endpoints, and a
+handful of indie SaaS sites. None of these are in the cached Pexels/
+Unsplash image pipeline — they're remnants of older imageIdea drift.
+Tracked for a future content-cleanup pass (rewrite the `imageIdea`
+field on those items so the next image-fetch run replaces them with
+Pexels/Unsplash).
