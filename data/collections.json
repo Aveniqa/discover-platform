@@ -5,8 +5,6 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "tardigrades-microscopic-water-bears-that-can-survive-in-space",
-      "year-without-a-summer",
       "diamond-rain-on-exoplanets",
       "ketchup-as-medicine-19th-century",
       "exoplanet-wasp-12b-devoured-diamond",
@@ -16,7 +14,9 @@
       "antikythera-mechanism-ancient-greek-astronomical-computer",
       "wood-wide-web-how-trees-communicate-and-share-resources",
       "overview-effect-astronauts-profound-shift-in-perspective-from-space",
-      "polynesian-wayfinding-ancient-oceanic-navigation"
+      "polynesian-wayfinding-ancient-oceanic-navigation",
+      "axolotl-limb-regeneration-biological-superpower",
+      "crispr-cas9-gene-editing-breakthrough"
     ]
   },
   {
@@ -45,9 +45,6 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "the-dancing-plague-of-1518-a-mysterious-outbreak-of-uncontrollable-dancing",
-      "the-voyager-golden-record-humanitys-message-to-the-cosmos",
-      "year-without-a-summer",
       "diamond-rain-on-exoplanets",
       "ketchup-as-medicine-19th-century",
       "roman-concrete-enduring-strength",
@@ -56,7 +53,10 @@
       "wood-wide-web-how-trees-communicate-and-share-resources",
       "polynesian-wayfinding-ancient-oceanic-navigation",
       "axolotl-limb-regeneration-biological-superpower",
-      "oumuamua-the-first-interstellar-visitor"
+      "oumuamua-the-first-interstellar-visitor",
+      "the-great-emu-war-when-australian-soldiers-declared-war-on-flightless-birds-and-lost",
+      "the-immortal-jellyfish-a-tiny-marine-creature-that-can-revert-to-its-youthful-state",
+      "the-doomsday-vault-safeguarding-the-worlds-plant-diversity-deep-inside-an-arctic-mountain"
     ]
   },
   {
@@ -85,8 +85,6 @@
     "description": "Products and tools to help you feel your best.",
     "emoji": "💪",
     "itemSlugs": [
-      "the-dancing-plague-of-1518-a-mysterious-outbreak-of-uncontrollable-dancing",
-      "more-bacterial-cells-than-human-cells",
       "ketchup-as-medicine-19th-century",
       "human-bioluminescence-invisible-glow",
       "the-great-stink-of-london-revolutionized-sanitation",
@@ -96,7 +94,9 @@
       "fungi-communicate-through-electrical-signals",
       "ancient-dna-reveals-ice-age-giants",
       "bacteria-that-eat-plastic-could-clean-oceans",
-      "arctic-permafrost-releases-ancient-viruses-potent-threat"
+      "arctic-permafrost-releases-ancient-viruses-potent-threat",
+      "global-marine-heatwaves-increased-twentyfold",
+      "ocean-acidification-coral-reef-recovery"
     ]
   }
 ]

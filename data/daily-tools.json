@@ -1,67 +1,5 @@
 [
   {
-    "id": 70,
-    "slug": "pocket",
-    "toolName": "Pocket",
-    "whatItDoes": "Pocket allows users to save articles, videos, and web pages from the internet for later reading or viewing. It strips away clutter, providing a clean, distraction-free reading experience across devices. You can also tag items for better organization.",
-    "category": "Productivity",
-    "whyItIsUseful": "It's incredibly useful for decluttering your browser tabs and ensuring you don't miss out on interesting content due to lack of time. By saving content to Pocket, you can curate your own reading list and catch up whenever you have a moment, even offline.",
-    "imageIdea": "A stylized 'P' logo with a bookmark icon, saving an article to a tidy list on a tablet or phone screen.",
-    "websiteLink": "https://getpocket.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 71,
-    "slug": "inkscape",
-    "toolName": "Inkscape",
-    "whatItDoes": "Inkscape is a free and open-source vector graphics editor used to create or edit vector graphics such as illustrations, diagrams, line arts, charts, logos, and complex paintings. It supports the SVG (Scalable Vector Graphics) format and offers a wide range of tools similar to commercial alternatives.",
-    "category": "Design",
-    "whyItIsUseful": "It provides professional-grade vector editing capabilities without the cost, making it accessible for designers, illustrators, and hobbyists. Its versatility allows users to create scalable graphics for web, print, and digital art, ensuring high quality at any resolution.",
-    "imageIdea": "A stylized depiction of Inkscape's logo (a mountain-like shape with an ink drop) on a computer screen, surrounded by vector design elements.",
-    "websiteLink": "https://inkscape.org/",
-    "type": "tool",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 72,
-    "slug": "hemingway-editor",
-    "toolName": "Hemingway Editor",
-    "whatItDoes": "Hemingway Editor helps writers improve their prose by highlighting common writing issues such as overly long sentences, passive voice, adverbs, and complex words. It provides suggestions to make writing bolder, clearer, and more concise, aiming for simplicity and readability.",
-    "category": "Writing",
-    "whyItIsUseful": "It's an invaluable tool for anyone looking to refine their writing, from students and bloggers to professionals. By simplifying language and structure, it helps convey messages more effectively, ensuring your audience understands your content effortlessly.",
-    "imageIdea": "A quill pen icon with text being analyzed and highlighted in different colors on a digital document, symbolizing readability improvements.",
-    "websiteLink": "https://hemingwayapp.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 121,
-    "slug": "shopify-ecommerce-platform",
-    "toolName": "Shopify",
-    "whatItDoes": "Shopify, developed by Shopify Inc., is a leading all-in-one e-commerce platform that empowers entrepreneurs and businesses to create, manage, and grow their online stores. It supports the entire e-commerce workflow from storefront design, product listing, inventory management, secure payment processing, to shipping and customer relationship management. Primarily a web-based platform accessible via any modern browser, it also has mobile apps for iOS and Android allowing store owners to manage orders and products on the go. Its most-used feature is undoubtedly the storefront builder and product management system, allowing merchants to quickly list products with descriptions, images, and pricing. Shopify hosts all store data, including product catalogs, customer information, order history, and sales analytics, securely in its cloud infrastructure, adhering to PCI DSS compliance for payments.",
-    "category": "E-Commerce",
-    "whyItIsUseful": "Shopify eliminates the technical complexities and high costs traditionally associated with building and maintaining an e-commerce website, allowing anyone to start selling online quickly. A local artisan can launch an online store in a weekend, showcasing handmade goods to a global audience, managing orders, and processing payments seamlessly. A growing apparel brand can scale its operations, integrate with third-party logistics, manage multiple sales channels, and leverage advanced marketing apps from the Shopify App Store. It offers several plans starting from Shopify Basic at $39/month (billed annually) for essential features, up to Shopify Advanced at $399/month, plus transaction fees if not using Shopify Payments. Its unparalleled ease of use, extensive app ecosystem (over 8,000 apps), and robust scalability often make it a more accessible and growth-friendly choice than self-hosted solutions like WooCommerce for non-technical users. Advanced users can leverage Shopify Flow for automated workflows or use the API for custom integrations and headless commerce. The learning curve is moderate; setting up a basic store is straightforward, but customizing themes and integrating apps requires some learning.",
-    "websiteLink": "https://www.shopify.com/",
-    "imageSearchQuery": "Shopify e-commerce platform store dashboard",
-    "type": "tool",
-    "imageIdea": "online store ecommerce shopping cart",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 122,
-    "slug": "shopify-pos-retail",
-    "toolName": "Shopify POS",
-    "whatItDoes": "Shopify POS (Point of Sale), developed by Shopify Inc., is an integrated hardware and software solution that allows merchants to sell products in physical retail locations, seamlessly connected to their online Shopify store. It supports in-person sales by enabling transaction processing, inventory updates, customer profile management, and order fulfillment directly from a physical storefront or pop-up. Available as a dedicated app for iOS and Android tablets/smartphones, it transforms them into a powerful cash register system, often paired with Shopify's branded hardware. Its most-used feature is the unified inventory management, which automatically synchronizes stock levels between online and in-store sales, preventing overselling and ensuring accurate records. All sales data, customer information, and inventory adjustments made through Shopify POS are instantly synchronized with the merchant's cloud-based Shopify admin, providing a single source of truth.",
-    "category": "E-Commerce",
-    "whyItIsUseful": "Shopify POS eliminates the common headache of managing separate inventory systems and customer databases for online and offline sales, ensuring a consistent and accurate view across all channels. A boutique owner can use Shopify POS at their physical shop to process sales, accept various payment methods, track customer preferences, and ensure their online stock updates in real-time. A vendor at a farmers' market or craft fair can use a tablet with Shopify POS to process credit card payments, track sales, and capture customer emails, with all data flowing directly into their main Shopify store. Shopify POS Lite is included with all Shopify plans (starting at $39/month). Shopify POS Pro, with advanced inventory, staff management, and analytics, costs an additional $89/month per location. Its unparalleled integration with the Shopify e-commerce platform provides a truly unified retail experience, unlike many standalone POS systems. Advanced users can leverage features like local pickup options, staff roles and permissions, and detailed in-store analytics. The learning curve is low to moderate; the interface is designed for quick transactions, but advanced features might require a short training period.",
-    "websiteLink": "https://www.shopify.com/pos",
-    "imageSearchQuery": "Shopify POS retail point of sale tablet store",
-    "type": "tool",
-    "imageIdea": "point of sale retail checkout terminal",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 124,
     "slug": "notion-workspace",
     "toolName": "Notion",
@@ -3810,7 +3748,6 @@
     "category": "Finance",
     "whyItIsUseful": "PocketGuard solves the problem of unknowingly overspending or missing opportunities to save by providing a clear, real-time picture of disposable income. For the budget-conscious individual prone to impulse buys, its \"IN MY POCKET\" feature acts as a constant, gentle reminder of their actual spending limit. For someone trying to cut down on unnecessary expenses, PocketGuard automatically detects subscriptions and suggests ways to negotiate better rates or cancel unused services. PocketGuard offers a genuinely useful free tier that includes basic budgeting, transaction tracking, and bill management, with a paid Plus subscription for advanced features like debt payoff planning and custom categories. Compared to more granular budgeting apps like Goodbudget, PocketGuard focuses more on immediate spending control and identifying savings, winning on simplicity and actionable suggestions for reducing expenses. A power feature is its \"negotiate your bills\" service, which helps users find better deals on their existing subscriptions. The learning curve is low; a non-technical person can connect accounts and understand their spending limits in under 10 minutes.",
     "imageIdea": "Mobile app screenshot showing \"IN MY POCKET\" amount, upcoming bills, and identified subscriptions.",
-    "websiteLink": "https://pocketguard.com/",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -4978,7 +4915,6 @@
     "category": "Education",
     "whyItIsUseful": "RemNote effectively eliminates the problem of fragmented study tools, integrating note-taking and active recall into a single seamless workflow. For the university student, it's an indispensable tool for turning lecture notes directly into flashcards, mastering complex subjects like medicine or law. For the lifelong learner, it provides a powerful system for retaining new information from books, articles, and online courses. The free tier is genuinely useful, offering unlimited notes, flashcards, and basic PDF annotation, which is robust enough for most individual users. While it shares some features with Obsidian for note-linking, RemNote's tight integration of spaced repetition *within* the note-taking process makes it superior for active learning and long-term retention. The ability to create \"templates\" for specific note types (e.g., meeting notes, book summaries) is a power feature that separates advanced users, streamlining their knowledge capture. A non-technical person can set up RemNote and start taking notes and generating flashcards in under 5 minutes, though mastering its full potential takes time.",
     "imageIdea": "A split screen showing hierarchical notes on one side and automatically generated flashcards based on those notes on the other.",
-    "websiteLink": "https://www.remnote.com/",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -5325,7 +5261,6 @@
     "category": "Productivity",
     "whyItIsUseful": "Rainy Mood eliminates the struggle of finding a peaceful environment by bringing the soothing sounds of rain directly to the user, blocking out office chatter or noisy neighbors. For a remote software developer needing to concentrate on complex code, the continuous rain sound helps create a focused bubble, enhancing concentration and reducing stress. For a parent attempting to read a book while children play nearby, Rainy Mood provides a gentle auditory shield, allowing for uninterrupted reading and relaxation. The website and apps offer a genuinely useful free experience, with optional premium features in the app for additional soundscapes. Compared to more complex white noise generators, Rainy Mood wins with its simplicity and singular focus on delivering the perfect rain sound without overwhelming options. Its power feature includes the ability to mix with Spotify or YouTube music in the app, allowing for personalized audio layering. A non-technical person can start using Rainy Mood in under 30 seconds by simply visiting the website or opening the app.",
     "imageIdea": "A minimalist web interface showing a play button and volume slider, with a subtle background image of rain on a window.",
-    "websiteLink": "https://www.rainymood.com",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -5803,5 +5738,31 @@
     "websiteLink": "https://github.com/tw93/Kami",
     "type": "tool",
     "dateAdded": "2026-04-29"
+  },
+  {
+    "id": 793,
+    "slug": "open-design",
+    "toolName": "open-design",
+    "seoTitle": "open-design — AI Design System Generator",
+    "whatItDoes": "open-design is a cutting-edge, local-first, open-source tool designed to generate brand-grade design systems powered by AI. It leverages models like Claude Code and Codex to offer a powerful alternative to proprietary design platforms. The tool allows for sandboxed previews of generated designs and supports exporting in multiple formats including HTML, PDF, and PPTX, making it incredibly versatile for designers and developers.",
+    "category": "Design",
+    "whyItIsUseful": "This tool democratizes the creation of high-quality design systems, making sophisticated branding accessible to a wider audience. Its local-first nature ensures privacy and offline functionality, a significant advantage for many workflows. The ability to generate and preview designs within the tool, coupled with export options, significantly streamlines the iterative design process. For individuals and small teams looking to establish a consistent brand identity without hefty software costs or complex setups, open-design offers a revolutionary solution. Its growing community and open-source nature also promise continuous improvement and a wealth of collaborative potential.",
+    "imageIdea": "AI generating design system UI elements on a laptop screen",
+    "websiteLink": "https://github.com/nexu-io/open-design",
+    "type": "tool",
+    "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 794,
+    "slug": "warp",
+    "toolName": "Warp",
+    "seoTitle": "Warp — AI-Powered Terminal Emulator",
+    "whatItDoes": "Warp is a modern, AI-powered terminal emulator designed to make command-line work more efficient and enjoyable. It integrates AI features directly into the terminal experience, offering capabilities like AI-powered command suggestions, error explanations, and code generation. Warp is free to use, with potential for future premium features, and aims to revolutionize how developers interact with their systems by bringing context-aware assistance to every command.",
+    "category": "Developer",
+    "whyItIsUseful": "Warp significantly boosts developer productivity by reducing the cognitive load associated with the command line. Its AI features can help troubleshoot errors faster, suggest the correct commands, and even generate boilerplate code, saving valuable time. The enhanced user interface and built-in features like work-sessions and a robust command history make navigating complex projects much smoother. For developers who spend a significant amount of time in the terminal, Warp offers a substantial upgrade, making their workflow faster, less error-prone, and more intuitive. Its seamless integration of AI assistance is a game-changer for anyone working with servers or complex development environments.",
+    "imageIdea": "modern terminal interface with AI suggestions highlighted",
+    "websiteLink": "https://www.warp.dev/",
+    "type": "tool",
+    "dateAdded": "2026-04-30"
   }
 ]

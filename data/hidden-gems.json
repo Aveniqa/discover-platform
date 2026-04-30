@@ -1,65 +1,5 @@
 [
   {
-    "id": 71,
-    "slug": "omni-calculator",
-    "name": "Omni Calculator",
-    "whatItDoes": "Omni Calculator is an expansive online platform developed by a team of experts, offering a vast library of specialized calculators to solve problems across nearly every domain imaginable. It provides access to over 3,000 free, purpose-built calculators covering an astonishing range of topics, from complex financial models and scientific equations to practical everyday calculations like cooking conversions or fitness metrics. This resource is invaluable for students, professionals, hobbyists, and anyone who needs quick, accurate calculations and wants to understand the principles behind the results, without downloading multiple apps or struggling with spreadsheets. Users can easily search for a specific calculator (e.g., \"mortgage calculator,\" \"BMI calculator,\" \"tip calculator\"), input their values, and instantly receive precise results, often accompanied by detailed explanations of the formulas used. Omni Calculator is a web-based service fully accessible on any device with a browser, and many calculators feature responsive designs for optimal mobile use.",
-    "category": "Utilities",
-    "whyItIsUseful": "It replaces a cluttered desktop with dozens of single-purpose calculator apps, complex Excel spreadsheets for specific formulas, or endless Google searches. It wins by centralizing an incredible breadth of calculations in one place, adding educational value with its explanations. A university student studying physics can use the projectile motion calculator to check homework answers and then read the accompanying explanation to grasp the underlying kinematic equations. A homeowner planning a renovation can use the paint calculator to estimate how much paint is needed for a room, the mortgage calculator to assess refinancing options, and the concrete calculator for a new patio project. Omni Calculator is entirely free to use, supported primarily by advertising; there are no premium tiers or paid features, making its vast collection accessible to everyone. Beyond just providing results, each calculator's detailed explanations, often including definitions, formulas, and real-world examples, turn it into a powerful learning tool, not just a number cruncher. While widely recognized, its sheer volume can sometimes be overwhelming, and users might not realize the depth of its offerings beyond basic math, leading them to search for more specific, less comprehensive tools elsewhere. The team behind Omni Calculator actively develops and expands its collection, adding new calculators and refining existing ones based on user feedback and current trends, ensuring its relevance and accuracy.",
-    "websiteLink": "https://www.omnicalculator.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.omnicalculator.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "scientific calculator math formulas"
-  },
-  {
-    "id": 72,
-    "slug": "temp-mail",
-    "name": "Temp Mail",
-    "whatItDoes": "Temp Mail is a popular and straightforward disposable email service, developed by a team focused on digital privacy and convenience. It instantly generates a temporary, anonymous email address that users can employ to receive emails, protecting their primary inbox from spam, unwanted newsletters, and potential data breaches. This service is ideal for anyone needing a quick email address for one-off registrations, accessing free trials, downloading content, or testing applications, without revealing their real identity or email. Users visit the Temp Mail website or app, automatically receive a temporary email address, use it wherever an email is required, and then view incoming messages directly within the Temp Mail interface before the address self-destructs. Temp Mail is accessible via a web browser, and also offers dedicated mobile apps for Android and iOS, providing a seamless experience across devices.",
-    "category": "Utilities",
-    "whyItIsUseful": "It acts as a superior alternative to giving out your real email address or even setting up complex email aliases for transient purposes. It wins by offering instant, zero-setup privacy, effectively creating a firewall against spam and protecting your digital footprint from numerous online services. A blogger wants to download a free e-book from a new website but doesn't want to subscribe to their newsletter indefinitely. They use a Temp Mail address, receive the download link, and keep their main inbox clean. A software tester needs to create multiple accounts for various service trials to test signup flows and email notifications. Temp Mail allows them to rapidly generate unique addresses for each test case without managing dozens of real accounts. Temp Mail offers a free tier with basic functionality (random addresses, limited inbox history) and a premium subscription that provides custom domains, longer inbox retention, and an ad-free experience. Beyond just receiving emails, some versions allow users to choose from a list of domain names for their temporary address, adding a slight layer of customization or helping bypass services that block common disposable domains. While widely used for its core purpose, some users might be hesitant to use it for anything beyond the most ephemeral tasks due to the lack of long-term account recovery or the perception that disposable emails are only for illicit activities. The service is actively maintained, with regular updates to its infrastructure to counter spam detection mechanisms and improve user experience, ensuring its continued effectiveness.",
-    "websiteLink": "https://temp-mail.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftemp-mail.org&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "temporary email disposable inbox"
-  },
-  {
-    "id": 73,
-    "slug": "tinyurl",
-    "name": "TinyURL",
-    "whatItDoes": "TinyURL is one of the pioneering and most enduring URL shortening services, launched by Kevin Gilbertson in 2002, and has consistently provided a straightforward way to condense web addresses. It transforms lengthy, cumbersome Uniform Resource Locators (URLs) into concise, manageable, and easily shareable short links, making them ideal for platforms with character limits or for print media. TinyURL caters to anyone, from casual internet users to marketers and presenters, who needs to share clean, memorable, or space-efficient links without the overhead of complex analytics. Users simply paste a long URL into the TinyURL website, click a button, and instantly receive a new, shortened link (e.g., tinyurl.com/example). They can also optionally create a custom, human-readable alias for the link. As a web-based service, TinyURL is universally accessible from any browser on any device, and its simplicity has led to its integration into various third-party applications and social media tools over the years.",
-    "category": "Utilities",
-    "whyItIsUseful": "TinyURL effectively replaces the need to manually copy and paste unwieldy URLs, or to use more complex link management platforms. It wins by offering unparalleled simplicity and reliability, having been operational for over two decades without requiring an account for basic functionality, and generally avoiding the extensive tracking inherent in many competitors. A presenter creates a TinyURL with a custom alias (e.g., tinyurl.com/MySurvey2024) for a feedback survey, making it easy for audience members to type and access it from a slide or handout. A social media manager needs to share a link to a detailed blog post on X (formerly Twitter), which has character limits. TinyURL condenses the link, leaving more space for engaging copy, without adding heavy tracking parameters. TinyURL offers a free tier for basic link shortening with optional custom aliases. A premium subscription provides additional features like link editing, detailed analytics, branded domains, and redirect management. While many use it for just shortening, the custom alias feature (e.g., tinyurl.com/YourBrandName) is incredibly powerful for creating memorable, brand-consistent links for offline materials or specific campaigns. Despite its reliability, newer services often offer more robust analytics, QR code generation, or advanced API integrations, which can draw users who need more than just a simple short link, even if TinyURL has since added some of these. As a mature service, its core functionality is stable. While not open-source, the company behind TinyURL maintains its infrastructure and periodically introduces new features and subscription options to keep it competitive.",
-    "websiteLink": "https://tinyurl.com",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftinyurl.com&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "url shortener link clipboard"
-  },
-  {
-    "id": 74,
-    "slug": "carbon",
-    "name": "Carbon",
-    "whatItDoes": "Carbon is an elegant, open-source web application created by the команда (kōmanda) team and maintained by a vibrant community, designed to transform plain source code into visually stunning, shareable images. It allows developers and content creators to paste code snippets into an editor, then instantly generate high-quality images of that code, complete with customizable syntax highlighting, themes, window styles, and shadows. Carbon is indispensable for developers, educators, tech bloggers, and presenters who frequently need to showcase code in a visually appealing and professional manner for articles, presentations, or social media. Users paste their code, select a programming language for accurate syntax highlighting, choose a theme and window style, adjust padding and background, and then export the polished image (e.g., PNG, SVG) for immediate use. As a web-based tool, Carbon is accessible from any modern browser on any operating system, with some community-contributed extensions for code editors like VS Code.",
-    "category": "Utilities",
-    "whyItIsUseful": "It replaces the tedious process of taking raw screenshots of code from an IDE, then manually editing them in image software to add visual flair. Carbon wins by streamlining this into a few clicks, producing professional-grade images consistently and without installing any software. A tech blogger writing an article about a new JavaScript framework can use Carbon to create embeddable, aesthetically pleasing code blocks that perfectly match their blog's design, enhancing readability and engagement. A software instructor preparing lecture slides can use Carbon to generate clear, high-contrast images of Python code examples, ensuring legibility for students viewing from a distance or on smaller screens. Carbon is entirely free and open-source; there are no paid tiers or subscription models, with its development supported by contributions from the community. Beyond basic themes, users can customize gradients for backgrounds, control line numbers, and even add a \"watermark\" or signature, allowing for extensive branding and personalization of code snippets. While popular within developer circles, its niche focus means it's not a tool for general image editing, and some might still default to simpler screenshot tools out of habit, overlooking its specialized advantages. Carbon has an active open-source community on GitHub, receiving regular contributions, bug fixes, and feature enhancements, ensuring it stays current with new programming languages and design trends.",
-    "websiteLink": "https://carbon.now.sh",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcarbon.now.sh&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "source code screenshot syntax highlight"
-  },
-  {
-    "id": 75,
-    "slug": "jqplay",
-    "name": "jqplay",
-    "whatItDoes": "jqplay is an essential online interactive playground for the powerful `jq` command-line JSON processor, developed by a community member to simplify working with JSON data. It provides a browser-based environment where users can paste JSON data and write `jq` filters in real-time, instantly seeing the transformed output, complete with syntax highlighting and automatic formatting for both input and output. This tool is invaluable for developers, data analysts, DevOps engineers, and anyone who frequently works with JSON data and needs to quickly extract, manipulate, or transform it without repetitive command-line execution. Users input raw JSON on one side, type their `jq` query in the middle, and immediately observe the filtered or transformed JSON output on the other side, greatly accelerating the iterative process of crafting complex `jq` expressions. As a web-based application, jqplay is accessible from any modern web browser on any operating system, making it a universal utility for `jq` users.",
-    "category": "Utilities",
-    "whyItIsUseful": "jqplay replaces the cumbersome cycle of typing `jq` commands in a terminal, piping JSON data, and debugging errors by repeatedly executing. It wins by providing instant visual feedback and a highly interactive environment that drastically reduces the trial-and-error associated with `jq`. An API developer debugging a complex JSON response from a third-party service can paste the response into jqplay, quickly write a `jq` filter to extract specific fields (e.g., `.[].items | .[] | select(.status==\"active\")`), and verify the output before implementing it in their code. A DevOps engineer troubleshooting Kubernetes logs (often in JSON format) can use jqplay to craft precise filters to isolate error messages or specific resource statuses, then share the working query link with teammates for collaboration. jqplay is a completely free online service; there are no premium features or subscription models, making it an accessible resource for all `jq` users. The \"share\" feature, which generates a unique URL embedding both the input JSON and the `jq` query, is incredibly powerful for collaboration, allowing teammates to instantly see and modify the exact transformation you're working on. Its utility is largely confined to those who already use `jq` or are willing to learn it. For casual JSON viewing, simpler online formatters might suffice, obscuring jqplay's deep power for complex transformations. While not an open-source project in the same vein as `jq` itself, jqplay is actively maintained and updated to reflect new `jq` features and ensure compatibility, with a responsive maintainer addressing issues.",
-    "websiteLink": "https://jqplay.org",
-    "type": "hidden-gem",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fjqplay.org&screenshot=true&meta=false&embed=screenshot.url",
-    "imageIdea": "json data parser terminal query"
-  },
-  {
     "id": 76,
     "slug": "font-pairwise",
     "name": "Font Pair",
@@ -1407,7 +1347,6 @@
     "category": "Productivity",
     "whyItIsUseful": "Serene goes beyond generic website blockers by integrating a comprehensive deep work session planner, offering a more holistic solution than simple browser extensions. For the writer battling writer's block and social media urges, Serene creates a distraction-free environment, enforcing focus and protecting precious creative time. For the developer needing to solve a complex bug, it ensures uninterrupted coding sessions, preventing context switches that can derail productivity. Serene offers a 10-day free trial, then requires a paid subscription. A hidden gem within Serene is its 'Daily Plan' feature, which helps you structure your entire day around deep work sessions, integrating with your calendar. It's not more popular due to being Mac-only and having a subscription model, which deters casual users who might opt for free, less robust alternatives. The development team provides regular updates and maintains a responsive support channel.",
     "imageIdea": "Serene app interface showing a countdown timer for a deep work session with a list of blocked apps and websites",
-    "websiteLink": "https://sereneapp.com",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsereneapp.com&screenshot=true&meta=false&embed=screenshot.url"
@@ -2760,7 +2699,6 @@
     "category": "Education",
     "whyItIsUseful": "While services like Amazon Kindle offer millions of books, Project Gutenberg provides a vast, completely free archive of foundational literature without DRM restrictions, making it invaluable for education and research. For the student studying Victorian literature, it offers immediate access to hundreds of texts without needing to purchase expensive editions. For the casual reader wanting to explore classics, it's a treasure trove of works by authors like Shakespeare, Austen, and Twain, all available at no cost. Project Gutenberg is entirely free and run by volunteers; there are no paid tiers or subscriptions. A powerful but often overlooked feature is its extensive collection of audiobooks and works in various languages beyond English. Its simple, retro interface and focus on older works mean it lacks the modern features and new releases of commercial platforms, leading to less mainstream appeal. It is continuously updated by a dedicated global volunteer community, ensuring new public domain works are regularly digitized and added.",
     "imageIdea": "Stack of classic digitized books with a subtle vintage aesthetic.",
-    "websiteLink": "https://www.gutenberg.org/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.gutenberg.org%2F&screenshot=true&meta=false&embed=screenshot.url"
@@ -5017,7 +4955,6 @@
     "category": "Finance",
     "whyItIsUseful": "Unlike traditional retirement calculators that use linear projections or simplified averages, FIRECalc leverages historical market data to provide a much more robust and realistic assessment of retirement plan success, making it superior for long-term, dynamic planning. For the young professional aiming to retire by 40, FIRECalc offers confidence by demonstrating that their planned withdrawal rate and portfolio size have a high historical success rate, even through past economic downturns. For the couple nearing their FIRE date, it allows them to fine-tune their spending and investment strategy by testing different scenarios, such as varying their retirement age or adjusting their asset allocation. FIRECalc is entirely free and open for public use, embodying the spirit of the FIRE community. A 'hidden' feature is the ability to adjust for 'pensions' or 'social security' at later ages, providing a more nuanced long-term projection. Its minimalist interface and specific focus on historical simulations rather than active budgeting tools means it appeals mainly to the analytically-minded FIRE community, limiting its mainstream adoption. The tool is maintained by a dedicated group of volunteers and is regularly updated with new data and minor feature improvements.",
     "imageIdea": "graph showing retirement portfolio success rates across historical periods",
-    "websiteLink": "https://www.firecalc.com",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.firecalc.com&screenshot=true&meta=false&embed=screenshot.url"
@@ -5121,7 +5058,6 @@
     "category": "Design",
     "whyItIsUseful": "Inkscape is an excellent open-source replacement for Adobe Illustrator, providing professional-grade vector editing tools without the recurring cost of a subscription. For the small business owner, it's ideal for designing their own branding materials like logos, business cards, and flyers, ensuring consistent quality across different mediums without hiring a professional designer. For the web developer, Inkscape is perfect for crafting SVG icons, responsive graphics, and interactive web elements, allowing them to control every aspect of the visual presentation. Inkscape is completely free and open-source, supported by donations and community contributions. A lesser-known feature is its excellent trace bitmap function, which can convert raster images into editable vector paths with surprising accuracy, a feature often discovered after initial use. Its relative obscurity compared to commercial tools stems from a different interface paradigm and less marketing, but it boasts a strong community, a rich library of extensions, and a consistent update schedule.",
     "imageIdea": "a complex vector logo being designed in Inkscape, showing Bezier curves",
-    "websiteLink": "https://inkscape.org/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Finkscape.org%2F&screenshot=true&meta=false&embed=screenshot.url"
@@ -5957,7 +5893,6 @@
     "category": "Design",
     "whyItIsUseful": "Alva offers a unique, code-driven approach to design system management, directly addressing the hand-off problem that traditional UI design tools often struggle with, leading to more efficient workflows. For the design system architect, it provides an invaluable tool for demonstrating component usage and verifying design consistency without relying on mockups. For the product designer, it allows them to explore layouts and interactions using the exact same components that developers will use, preventing costly reworks. Alva is completely free and open-source, with no hidden costs or premium features. A crucial, often overlooked feature is its \"component sync\" capability, which automatically updates the design environment when changes are made to the underlying code components. It's not more popular because it caters to a very specific, advanced use case within design operations and requires a mature design system to be truly beneficial, making its adoption slower than more general design tools. Being open-source, it benefits from community contributions and a transparent development roadmap.",
     "imageIdea": "Alva interface showing a sidebar of React components being dragged onto a canvas to build a UI",
-    "websiteLink": "https://meetalva.io",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmeetalva.io&screenshot=true&meta=false&embed=screenshot.url"
@@ -6311,5 +6246,75 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-29",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fblog.tangled.org%2Ffederation%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 738,
+    "slug": "auto-architecture-tournament",
+    "name": "Auto-Architecture Tournament",
+    "seoTitle": "Auto-Architecture Tournament — AI explores CPU design",
+    "whatItDoes": "This project explores the automated design of computer architectures using evolutionary algorithms and AI, specifically inspired by Andrej Karpathy's 'The EleutherAI's Vision for AI Agents' and applied to CPU design. It's an open-source tournament aiming to discover novel and efficient architectural designs by letting AI agents compete and evolve. The goal is to push the boundaries of hardware design by leveraging machine learning for complex optimization problems.",
+    "category": "Developer",
+    "whyItIsUseful": "For hardware engineers and researchers, this tool offers a glimpse into the future of automated chip design. It's incredibly useful for those looking to explore non-traditional architectural solutions or to understand how AI can tackle complex optimization in physical design. Unlike manual design processes that are constrained by human intuition, this approach can uncover unexpected and potentially more performant architectures. Power users would find value in the open-source nature and the potential to contribute to or learn from the evolving designs.",
+    "imageIdea": "circuit board with evolving branches",
+    "websiteLink": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-30",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2FFeSens%2Fauto-arch-tournament%2Fblob%2Fmain%2Fdocs%2Fauto-arch-tournament-blog-post.md&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 739,
+    "slug": "lumara-space-dashboard",
+    "name": "Lumara Space Dashboard",
+    "seoTitle": "Lumara Space Dashboard — Live sun and moon",
+    "whatItDoes": "Lumara provides a real-time, interactive dashboard showcasing the current positions and illumination of the sun and moon in space, utilizing data from NASA. It offers a visually stunning and educational way to understand celestial mechanics and our planet's relationship with its star and natural satellite. Users can explore different perspectives and see how light affects the Earth at any given moment.",
+    "category": "Entertainment",
+    "whyItIsUseful": "This is a beautifully executed and surprisingly accurate tool for anyone interested in astronomy, space, or simply the wonder of our solar system. It's far more engaging than static diagrams and offers an immediate, visual understanding of complex concepts. Unlike typical astronomy apps that focus on star charts, Lumara zeroes in on the dynamic interplay of light between Earth, the Sun, and the Moon. It's perfect for educators, amateur astronomers, or anyone who wants a daily dose of cosmic perspective.",
+    "imageIdea": "glowing earth with sun and moon orbiting",
+    "websiteLink": "https://www.lumara-space.app/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-30",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.lumara-space.app%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 740,
+    "slug": "belgium-nuclear-decommissioning-news",
+    "name": "Belgium Stops Nuclear Power Plant Decommissioning",
+    "seoTitle": "Belgium Nuclear Decommissioning Decision News",
+    "whatItDoes": "This news article reports on Belgium's decision to halt the decommissioning process for its nuclear power plants. It details the government's revised energy policy, which includes extending the lifespan of two reactors to ensure energy security amidst geopolitical challenges. The report covers the rationale behind this significant shift and its implications for Belgium's energy landscape.",
+    "category": "Reference",
+    "whyItIsUseful": "While a news item, it represents a significant pivot in national energy policy with global implications. For policymakers, energy analysts, and concerned citizens, this provides crucial, up-to-date information on the evolving global energy debate, particularly concerning nuclear power's role in energy security and climate change mitigation. It's a concrete example of how geopolitical events can directly influence long-term infrastructure decisions, making it a valuable reference point for understanding current energy trends beyond abstract discussions.",
+    "imageIdea": "nuclear power plant silhouette",
+    "websiteLink": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-30",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdpa-international.com%2Fgeneral-news%2Furn%3Anewsml%3Adpa.com%3A20090101%3A260430-930-14717%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 741,
+    "slug": "meta-smart-glasses-incident",
+    "name": "Meta Smart Glasses Users Having Sex Incident",
+    "seoTitle": "Meta Smart Glasses Privacy Incident News",
+    "whatItDoes": "This BBC News article details a sensitive incident where Meta employees, while testing smart glasses, allegedly witnessed users engaging in sexual activity. It reports on the subsequent job losses for those employees involved, highlighting significant privacy concerns and ethical dilemmas surrounding wearable technology that records user environments. The story explores the implications for Meta's product development and user trust.",
+    "category": "Reference",
+    "whyItIsUseful": "This news story is a stark reminder of the complex ethical and privacy issues inherent in emerging technologies like smart glasses. For product developers, privacy advocates, and consumers, it serves as a critical case study on the unforeseen consequences of integrating recording capabilities into everyday devices. It underscores the importance of robust privacy policies, employee training, and user consent in the development and deployment of such technology. It’s a vital piece of context for understanding the real-world challenges of balancing innovation with individual privacy.",
+    "imageIdea": "pair of smart glasses with a red warning symbol",
+    "websiteLink": "https://www.bbc.com/news/articles/c5y7yvgy0w6o",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-30",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.bbc.com%2Fnews%2Farticles%2Fc5y7yvgy0w6o&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 742,
+    "slug": "pixel-perfect-layout-tool",
+    "name": "Pixel Perfect Layout Tool",
+    "seoTitle": "Pixel Perfect Layout Tool — Inspect web designs",
+    "whatItDoes": "This is a browser extension that allows web developers and designers to overlay a static design image (like a mockup from Figma or Photoshop) onto a live website. It helps ensure that the developed website accurately matches the original design specifications down to the pixel. The tool provides controls for opacity, positioning, and zooming, making it incredibly effective for precise visual alignment and quality assurance during the development process.",
+    "category": "Developer",
+    "whyItIsUseful": "For frontend developers and UI/UX designers, this tool is invaluable for bridging the gap between design mockups and the final implementation. It eliminates the subjective 'looks about right' approach and provides objective pixel-level comparison. Unlike manual methods or relying solely on browser developer tools for measurement, Pixel Perfect provides a direct visual overlay, making discrepancies immediately obvious. It significantly speeds up the process of identifying and correcting layout and spacing errors, ensuring a truly faithful reproduction of the design.",
+    "imageIdea": "magnifying glass over a website mockup",
+    "websiteLink": "https://chrome.google.com/webstore/detail/pixel-perfect-px-to-px-o/bkfipckgdebnepgdjanfaoiegbjeeeib",
+    "type": "hidden-gem",
+    "dateAdded": "2026-04-30",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fpixel-perfect-px-to-px-o%2Fbkfipckgdebnepgdjanfaoiegbjeeeib&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

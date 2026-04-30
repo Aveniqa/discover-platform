@@ -17,7 +17,7 @@
     "hex": "#10B981",
     "description": "Products people are actually buying right now",
     "path": "/trending",
-    "count": 485
+    "count": 481
   },
   {
     "key": "hidden-gems",
@@ -47,6 +47,6 @@
     "hex": "#F43F5E",
     "description": "Useful tools and utilities for everyday life",
     "path": "/tools",
-    "count": 482
+    "count": 481
   }
 ]

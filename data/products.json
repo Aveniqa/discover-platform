@@ -1,105 +1,5 @@
 [
   {
-    "id": 64,
-    "slug": "hexoskin-smart-shirt-biometric",
-    "title": "Hexoskin Smart Shirt",
-    "shortDescription": "The Hexoskin Smart Shirt is an advanced biometric garment for comprehensive physiological monitoring. It integrates medical-grade textile sensors directly into the fabric to continuously track vital metrics including heart rate, breathing rate (BPM and volume), activity levels (steps, cadence, calories), and sleep patterns with lab-quality precision. Designed for elite athletes, fitness enthusiasts, and researchers requiring accurate, unobtrusive, and continuous physiological data during training, recovery, and daily life. The shirt wirelessly syncs all collected data via Bluetooth to a powerful companion app and web dashboard, offering in-depth analysis and personalized insights. This comfortable, machine-washable compression shirt houses a small, removable recording device that captures data for up to 14 hours on a single charge.",
-    "category": "Fashion Tech",
-    "whyItIsInteresting": "It eliminates the discomfort and inaccuracy often associated with traditional chest straps or wrist-worn devices, providing highly precise biometric data seamlessly integrated into a garment. The Hexoskin system is validated to provide clinical-grade data, with heart rate accuracy comparable to ECG and breathing rate accuracy within 1 BPM of spirometry. Imagine a marathon runner monitoring their breathing volume and heart rate zones in real-time during a long training run, optimizing their pace and effort to prevent overtraining and improve endurance, all without bulky equipment. Unlike standard fitness trackers that provide basic activity metrics, Hexoskin delivers a comprehensive suite of physiological data, including advanced respiratory insights, directly from the body's core, making it invaluable for performance optimization and health monitoring. It offers a professional-grade, unobtrusive solution for continuous biometric tracking, empowering users with deep insights into their body's performance and recovery, typically reserved for laboratory settings. The system requires the Hexoskin Device (recorder) which needs charging, and the companion app and web dashboard provide ongoing data analysis, potentially with premium features or data storage requiring a subscription.",
-    "imageIdea": "Athletic smart shirt showing embedded sensor lines with biometric data overlay",
-    "sourceLink": "https://www.hexoskin.com",
-    "estimatedPriceRange": "$169–$399",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0CZ6X48GH?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Hexoskin+Smart+Shirt",
-    "directAmazonUrl": "https://www.amazon.com/dp/B0CZ6X48GH?tag=vaultvibe-20&linkCode=ll1",
-    "amazonAsin": "B0CZ6X48GH"
-  },
-  {
-    "id": 65,
-    "slug": "rayneo-air-2s-ar-glasses",
-    "title": "RayNeo Air 2s AR Glasses",
-    "shortDescription": "The RayNeo Air 2s AR Glasses are a cutting-edge wearable display technology. These lightweight smart glasses project a stunning 201-inch virtual display at 6 meters, powered by dual micro-OLED panels, offering an immersive visual experience. Perfect for commuters, travelers, and tech enthusiasts seeking a private, expansive screen for watching movies, navigating with augmented directions, or translating foreign text in real time, anywhere. Featuring advanced electrochromic dimming, the lenses can instantly transition from transparent to dark, optimizing visibility for both indoor and outdoor viewing conditions. Designed to resemble stylish sunglasses, they weigh just 75g, connect to compatible smartphones or devices via a USB-C cable, and include integrated speakers for discreet audio.",
-    "category": "Fashion Tech",
-    "whyItIsInteresting": "They solve the limitation of small device screens, offering a massive, private, and portable display that enhances productivity and entertainment on the go. The virtual 201-inch screen, viewed from 6 meters, provides a cinematic experience equivalent to a large home theater, all within a pair of glasses weighing only 75g. Imagine an international traveler walking through a bustling foreign city; their RayNeo Air 2s instantly translate street signs and restaurant menus in their field of view, while discreet navigation overlays guide them to their destination, all without pulling out a phone. Unlike VR headsets that isolate you from your surroundings, these AR glasses seamlessly blend digital content with the real world, providing a private viewing experience that remains aware of your environment, and are significantly more discreet than previous generation smart glasses. They offer a premium, futuristic solution for mobile entertainment and utility, transforming how users interact with digital content and their surroundings, enhancing convenience and immersion. They are powered by and connect to external devices (smartphones, laptops) via USB-C, leveraging the processing power and content libraries of existing gadgets, with no recurring costs for the glasses themselves.",
-    "imageIdea": "Sleek AR glasses on a person with subtle virtual display content visible in lenses",
-    "sourceLink": "https://www.rayneo.com",
-    "estimatedPriceRange": "$379–$429",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0FFT72CBX?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=RayNeo+Air+2s+AR+Glasses",
-    "directAmazonUrl": "https://www.amazon.com/dp/B0FFT72CBX?tag=vaultvibe-20&linkCode=ll1",
-    "amazonAsin": "B0FFT72CBX"
-  },
-  {
-    "id": 66,
-    "slug": "bluetti-ac180-portable-power-station",
-    "title": "BLUETTI AC180 Portable Power Station",
-    "shortDescription": "The BLUETTI AC180 Portable Power Station is a robust and versatile energy solution. Equipped with a high-capacity 1152Wh LiFePO4 battery, it delivers a powerful 1800W AC output (with 2700W Power Lifting mode), capable of running most essential home and outdoor appliances. Essential for homeowners preparing for power outages, campers seeking off-grid electricity, or professionals needing portable power on job sites for tools and electronics. Its advanced LiFePO4 battery chemistry ensures exceptional longevity, providing over 3,500 full charge cycles before capacity degrades to 80%, equating to more than a decade of daily use. This compact unit features multiple output ports (AC, DC, USB-A, USB-C) and supports various charging methods, including rapid AC wall charging (0-80% in 45 mins) and solar panel input.",
-    "category": "Sustainability",
-    "whyItIsInteresting": "It eliminates the stress and inconvenience of power interruptions, providing a reliable, silent, and emission-free energy source for critical appliances during emergencies or remote adventures. With 1152Wh capacity, it can power a 60W mini-fridge for over 12 hours, charge a laptop 15 times, or run a CPAP machine for multiple nights, ensuring essential services remain operational. During a multi-day power outage, a family can keep their refrigerator running, charge phones, and power a few lights, maintaining comfort and safety, knowing their BLUETTI AC180 will endure for years thanks to its durable battery. Unlike noisy, fume-emitting gas generators, the BLUETTI AC180 operates silently, produces zero emissions, and requires no fuel, making it safe for indoor use and environmentally friendly, while offering superior battery lifespan. It represents a significant long-term investment in energy independence and preparedness, offering peace of mind and versatility for both emergency backup and recreational power needs. Compatible with BLUETTI's range of solar panels for sustainable recharging, and its robust build ensures years of reliable service with no recurring fuel costs.",
-    "imageIdea": "Portable power station at a campsite connected to solar panel and charging devices",
-    "sourceLink": "https://www.bluettipower.com",
-    "estimatedPriceRange": "$649–$799",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0FHWFXYM5?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B0FHWFXYM5?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=BLUETTI%20AC180%20Portable%20Power%20Station",
-    "amazonAsin": "B0FHWFXYM5"
-  },
-  {
-    "id": 67,
-    "slug": "stasher-reusable-silicone-bag-bundle",
-    "title": "Stasher Reusable Silicone Bag Bundle",
-    "shortDescription": "The Stasher Reusable Silicone Bag Bundle offers an eco-friendly alternative to single-use plastics. Crafted from 100% pure food-grade platinum silicone, these versatile bags feature a patented air-tight Pinch-lock™ seal designed to keep contents fresh and prevent leaks. Ideal for environmentally conscious individuals and families seeking a durable, multi-purpose solution for food storage, meal prep, travel organization, and even sous vide cooking. Exceptionally resilient, Stasher bags are safe for use across a wide temperature range, from freezer to microwave, dishwasher, and oven up to 400°F (204°C). This bundle typically includes a variety of popular sizes, such as snack, sandwich, and half-gallon bags, offering solutions for diverse storage needs.",
-    "category": "Sustainability",
-    "whyItIsInteresting": "They directly address the global plastic waste crisis by offering a durable, reusable alternative that can replace thousands of single-use plastic bags and containers over its lifespan. Each Stasher bag is designed to be endlessly reusable, potentially replacing hundreds or even thousands of disposable plastic bags, preventing tons of waste from entering landfills and oceans. Imagine a busy parent using a Stasher bag to pack fresh fruit for their child's lunch, then later that evening using another for sous vide cooking salmon, and finally popping both into the dishwasher for easy cleaning – all with a single, versatile product. Unlike disposable plastic bags that contribute to pollution and often tear, Stasher bags are incredibly robust, non-toxic, and offer unparalleled versatility, performing safely in extreme temperatures for cooking or freezing, which plastic cannot. They offer a sustainable, long-term investment in reducing household waste and promoting healthier food storage, paying for themselves many times over compared to continuous purchases of disposable bags. Available in a wide array of sizes and colors, allowing users to build a complete system for all their food storage and organizational needs, with no recurring costs.",
-    "imageIdea": "Colorful silicone bags with fruits and snacks on a kitchen counter",
-    "sourceLink": "https://www.stasherbag.com",
-    "estimatedPriceRange": "$34–$59",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0CGTDBP1L?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B0CGTDBP1L?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Stasher%20Reusable%20Silicone%20Bag%20Bundle",
-    "amazonAsin": "B0CGTDBP1L"
-  },
-  {
-    "id": 68,
-    "slug": "goalzero-nomad-20-solar-panel",
-    "title": "Goal Zero Nomad 20 Solar Panel",
-    "shortDescription": "The Goal Zero Nomad 20 Solar Panel is a highly portable and efficient power source. This compact 20-watt monocrystalline solar panel efficiently converts sunlight into power, directly charging USB-powered devices like smartphones, tablets, and power banks. An essential companion for backpackers, hikers, campers, and anyone needing reliable off-grid power for their essential electronics during outdoor adventures or emergencies. Its rugged, weather-resistant design ensures durability in harsh outdoor conditions, while a built-in kickstand allows for optimal angle adjustment towards the sun. The panel features a smart, foldable design that collapses flat for easy storage and transport, weighing just 2.2 lbs (1 kg) and measuring 11.2 x 7.3 x 1.25 inches when folded.",
-    "category": "Sustainability",
-    "whyItIsInteresting": "It eliminates the reliance on traditional power outlets and heavy fuel generators, providing a silent, sustainable, and lightweight solution for keeping essential devices charged anywhere the sun shines. With 20 watts of power, it can fully charge a smartphone in about 2-4 hours of direct sunlight or a 10,000mAh power bank in 6-12 hours, ensuring critical communication and navigation tools remain operational. Imagine a backpacker deep in the wilderness, using the Nomad 20 to continuously recharge their GPS device and satellite phone throughout the day, ensuring they remain connected and safe, even days away from civilization. Unlike bulky car chargers or limited-capacity power banks that eventually run out, the Nomad 20 offers an infinite source of power directly from the sun, making it ideal for extended trips where resupply is not an option, and is far more portable than larger, rigid solar panels. It offers invaluable peace of mind and self-sufficiency for outdoor enthusiasts, providing access to renewable energy and extending the utility of their electronic devices far beyond the grid. It seamlessly integrates with Goal Zero's Yeti Portable Power Stations, allowing users to scale up their off-grid power system for larger devices or energy storage. No recurring costs for the panel itself.",
-    "imageIdea": "Foldable solar panel angled toward the sun on a rock charging a phone",
-    "sourceLink": "https://www.goalzero.com",
-    "estimatedPriceRange": "$99–$129",
-    "type": "product",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0CR42CFJ9?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "directAmazonUrl": "https://www.amazon.com/dp/B0CR42CFJ9?tag=vaultvibe-20&linkCode=ll1",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Goal%20Zero%20Nomad%2020%20Solar%20Panel",
-    "amazonAsin": "B0CR42CFJ9"
-  },
-  {
     "id": 69,
     "slug": "lastobject-lastswab-reusable-swab",
     "title": "LastObject LastSwab Reusable Swab",
@@ -2385,8 +2285,7 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Silicone%20Stretch%20Lids%20Food%20Cover%20Set",
-    "sourceLink": "https://foodhuggers.com/products/stretch-lids-set-of-5"
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Silicone%20Stretch%20Lids%20Food%20Cover%20Set"
   },
   {
     "id": 191,
@@ -2554,8 +2453,7 @@
     },
     "type": "product",
     "dateAdded": "2026-04-25",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=High-Density%20Grid%20Foam%20Roller",
-    "sourceLink": "https://www.tptherapy.com/product/grid-foam-roller"
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=High-Density%20Grid%20Foam%20Roller"
   },
   {
     "id": 199,
@@ -6584,8 +6482,7 @@
       "enabled": true,
       "provider": "amazon",
       "url": "https://www.amazon.com/dp/B07YQ8M15N?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "sourceLink": "https://aeropress.com/products/aeropress-go"
+    }
   },
   {
     "id": 383,
@@ -7649,8 +7546,7 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/dp/B09W2Q685C?tag=vaultvibe-20&linkCode=ll1"
     },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Petlibro%20Granary%20WiFi%20Pet%20Feeder",
-    "sourceLink": "https://petlibro.com/products/granary-wifi-pet-feeder"
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Petlibro%20Granary%20WiFi%20Pet%20Feeder"
   },
   {
     "id": 436,
@@ -9677,8 +9573,7 @@
       "provider": "amazon",
       "url": "https://www.amazon.com/dp/B073Z977S9?tag=vaultvibe-20&linkCode=ll1"
     },
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Rocketbook%20Core%20Reusable%20Smart%20Notebook",
-    "sourceLink": "https://getrocketbook.com/products/core-notebook"
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Rocketbook%20Core%20Reusable%20Smart%20Notebook"
   },
   {
     "id": 542,
@@ -10295,5 +10190,21 @@
     "type": "product",
     "dateAdded": "2026-04-29",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Dune%20Context-aware%20Keypad%20for%20Mac"
+  },
+  {
+    "id": 575,
+    "slug": "plurai-ai-guardrails",
+    "title": "Plurai",
+    "seoTitle": "Plurai: AI Agent Vibe Training and Guardrails",
+    "shortDescription": "Plurai offers a unique solution for AI agent reliability by enabling developers to define and enforce specific behaviors.  It allows you to articulate what your AI agent should and should not do, generating tailored training data and deploying a custom model within minutes. This tool is ideal for developers building custom AI agents who need to ensure predictable and safe performance across various applications. By providing explicit guardrails, Plurai helps mitigate unwanted AI behaviors.",
+    "category": "Developer Tools / Artificial Intelligence",
+    "whyItIsInteresting": "Plurai addresses a critical and growing need for AI agent control and reliability.  Unlike general AI development platforms, Plurai focuses specifically on 'vibe training' and guardrails, allowing for precise behavioral tuning. Its ability to generate training data and deploy custom models rapidly is a significant advantage for iterative development. The concept of defining agent 'vibes' and ensuring they adhere to them is a novel approach to AI safety and usability. This makes it particularly compelling for applications where predictable and safe AI interaction is paramount, such as customer service bots or autonomous systems.  The high point/vote count on Product Hunt signifies strong community interest.",
+    "imageIdea": "code editor with guardrail visualizations",
+    "sourceLink": "https://www.producthunt.com/r/2SG5VACZQUBMO7",
+    "estimatedPriceRange": "Contact for Pricing",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-04-30"
   }
 ]

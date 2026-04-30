@@ -5,8 +5,24 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 17:08:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 16:17:26 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warp</title>
+      <link>https://surfaced-x.pages.dev/item/warp</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/warp</guid>
+      <description>Warp is a modern, AI-powered terminal emulator designed to make command-line work more efficient and enjoyable. It integrates AI features directly into the terminal experience, offering capabilities like AI-powered command suggestions, error explanations, and code generation. Warp is free to use, with potential for future premium features, and aims to revolutionize how developers interact with their systems by bringing context-aware assistance to every command.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>open-design</title>
+      <link>https://surfaced-x.pages.dev/item/open-design</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/open-design</guid>
+      <description>open-design is a cutting-edge, local-first, open-source tool designed to generate brand-grade design systems powered by AI. It leverages models like Claude Code and Codex to offer a powerful alternative to proprietary design platforms. The tool allows for sandboxed previews of generated designs and supports exporting in multiple formats including HTML, PDF, and PPTX, making it incredibly versatile for designers and developers.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Kami</title>
       <link>https://surfaced-x.pages.dev/item/kami-content-for-paper</link>
@@ -388,22 +404,6 @@
       <link>https://surfaced-x.pages.dev/item/ublock-origin-ad-blocker-privacy-extension</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ublock-origin-ad-blocker-privacy-extension</guid>
       <description>uBlock Origin, created by Raymond Hill, is a free, open-source, wide-spectrum content blocker that goes beyond traditional ad-blocking to filter out trackers, malware sites, and intrusive elements across the web. It operates efficiently by using minimal CPU and memory, ensuring a smooth browsing experience while enhancing privacy and security. The primary workflow involves installing the browser extension, which then automatically blocks unwanted content based on configurable filter lists, improving page load times and reducing digital distractions. It works as a browser extension for Chrome, Firefox, Edge, Opera, and Safari (via a third-party port). Its most used feature is its default blocking of ads and trackers, which significantly cleans up web pages and protects user privacy. As a local browser extension, it processes filtering rules on your device and does not send your browsing data to any external servers, ensuring your browsing habits remain private.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sync.com</title>
-      <link>https://surfaced-x.pages.dev/item/sync-cloud-storage-zero-knowledge-encryption</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sync-cloud-storage-zero-knowledge-encryption</guid>
-      <description>Sync.com, developed by Sync.com Inc., is a secure cloud storage and file-sharing service that offers true zero-knowledge encryption for all user data. It allows users to store, share, and access their files from anywhere, ensuring that privacy is maintained through end-to-end encryption where only the user holds the keys. The primary workflow involves dragging and dropping files into a Sync folder, which then automatically encrypts and syncs them to the cloud, making them accessible across linked devices or via a web interface. It works seamlessly on Windows, macOS, iOS, Android, and through any web browser. Its most used feature is its secure sharing capabilities, allowing users to send encrypted links to files and folders with granular permission controls. All data is encrypted on your device before it&apos;s uploaded to Sync&apos;s servers, meaning Sync.com has no knowledge of your file contents, ensuring unparalleled privacy.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Standard Notes</title>
-      <link>https://surfaced-x.pages.dev/item/standard-notes-encrypted-secure-note-taking</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/standard-notes-encrypted-secure-note-taking</guid>
-      <description>Standard Notes, developed by Standard Notes, Inc., is a free, open-source, end-to-end encrypted note-taking application designed for long-term personal privacy and digital preservation. It provides a secure place to store your notes, journals, code snippets, and files, accessible only by you through its robust encryption. The primary workflow involves creating plain text notes, organizing them with tags, and having them automatically sync across all your devices securely. It works across a wide array of platforms including web, iOS, Android, Windows, Mac, Linux, and even as a portable app. Its most used feature is its strict end-to-end encryption, ensuring that all content remains private and unreadable by anyone but the user. All user data, including notes and tags, is encrypted client-side before being synced to the cloud, meaning even Standard Notes themselves cannot read your content.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>

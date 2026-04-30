@@ -1,70 +1,5 @@
 [
   {
-    "id": 67,
-    "slug": "autonomous-modular-reconfigurable-spacecraft",
-    "techName": "Autonomous Modular Reconfigurable Spacecraft",
-    "explanation": "These spacecraft consist of interchangeable, self-assembling modules that can autonomously dock and undock in orbit to form new configurations or repair existing ones. This allows for on-demand customization, upgrades, and multi-mission capabilities without costly return missions or ground assembly.",
-    "industry": "Space Exploration, Satellite Services, Defense, Manufacturing",
-    "whyItMatters": "It drastically reduces the cost and complexity of space missions by enabling in-orbit construction, reconfiguration, and maintenance of satellites, telescopes, and habitats. This agility will accelerate deep space exploration and establish persistent lunar/Martian infrastructure with unprecedented flexibility.",
-    "developmentStage": "Research",
-    "imageIdea": "A swarm of hexagonal, robotic modules gracefully docking and interlinking in Earth orbit, forming a larger, complex satellite structure against a backdrop of stars and planets.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13",
-    "sourceLink": "https://ssl.umd.edu/"
-  },
-  {
-    "id": 68,
-    "slug": "genetically-engineered-bio-sentinel-plants",
-    "techName": "Genetically Engineered Bio-Sentinel Plants",
-    "explanation": "These are plants genetically modified to detect specific environmental contaminants, pollutants, or pathogens by changing color, emitting bioluminescence, or altering growth patterns. They act as living, distributed sensor networks, providing real-time, visual alerts in the environment.",
-    "industry": "Environmental Monitoring, Agriculture, Biodefense, Public Health",
-    "whyItMatters": "They offer a low-cost, sustainable, and highly distributed method for early detection of environmental threats like water contamination, air pollution, or disease outbreaks in crops. This proactive monitoring can prevent widespread damage, protect ecosystems, and safeguard human health.",
-    "developmentStage": "Prototype",
-    "imageIdea": "A field of ordinary-looking plants, with a few individual plants glowing faintly or exhibiting distinct color changes in response to an unseen environmental stressor, with a small drone hovering nearby for automated data collection.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-13",
-    "sourceLink": "https://wyss.harvard.edu/"
-  },
-  {
-    "id": 69,
-    "slug": "direct-brain-to-brain-communication-interfaces",
-    "techName": "Direct Brain-to-Brain Communication Interfaces",
-    "explanation": "This technology aims to enable direct transfer of thoughts, emotions, and memories between human brains without external sensory input. It would involve advanced neural decoding and encoding techniques, potentially using focused electromagnetic fields or optogenetics to bridge neural activity.",
-    "industry": "Neuroscience, Communication, Healthcare",
-    "whyItMatters": "It could revolutionize human communication, accelerate learning processes, and offer new therapeutic avenues for neurological disorders. It also raises profound ethical questions regarding privacy, consent, and the very nature of identity.",
-    "developmentStage": "Research",
-    "imageIdea": "Two silhouetted human heads facing each other, with intricate glowing neural pathways connecting them directly, bypassing traditional senses.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-14",
-    "sourceLink": "https://www.cs.washington.edu/people/faculty/rao/"
-  },
-  {
-    "id": 70,
-    "slug": "adaptive-self-assembling-robotics",
-    "techName": "Adaptive Self-Assembling Robotics",
-    "explanation": "This involves robotic systems capable of autonomously reconfiguring and self-assembling into complex structures or tools in dynamic and unpredictable environments. Utilizing decentralized control and swarm intelligence, these robots can adapt to unforeseen challenges and accomplish collaborative tasks.",
-    "industry": "Manufacturing, Construction, Space Exploration, Disaster Response",
-    "whyItMatters": "Could enable rapid deployment of infrastructure in harsh or remote environments, facilitate highly flexible and efficient manufacturing processes, and provide versatile robotic assistance for exploration or emergency relief efforts.",
-    "developmentStage": "Prototype",
-    "imageIdea": "A swarm of small, glowing modular robots assembling a complex, futuristic bridge or building structure in an evolving landscape.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-14",
-    "sourceLink": "https://www.csail.mit.edu/research/distributed-robotics"
-  },
-  {
-    "id": 71,
-    "slug": "holographic-data-storage",
-    "techName": "Holographic Data Storage",
-    "explanation": "This technology stores data by recording information throughout the volume of a medium, rather than just on its surface, using interference patterns generated by laser beams. It offers potential for vastly higher storage densities and faster read/write speeds compared to conventional two-dimensional methods.",
-    "industry": "Data Storage, Computing, Archiving",
-    "whyItMatters": "Could address the ever-growing global demand for massive data storage with unparalleled density, speed, and longevity, crucial for advancing big data analytics, artificial intelligence, and scientific research.",
-    "developmentStage": "Early Commercialization",
-    "imageIdea": "A transparent data cube glowing with intricate, multi-layered laser patterns representing stored information, with light beams entering and exiting.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-14",
-    "sourceLink": "https://optics.arizona.edu/"
-  },
-  {
     "id": 72,
     "slug": "gravity-based-energy-storage-systems",
     "techName": "Gravity-Based Energy Storage Systems",
@@ -1298,8 +1233,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Modular zinc-air battery unit, perhaps a stack of cells, with an air intake vent visible, suitable for grid deployment.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://zinc8energy.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 169,
@@ -3285,8 +3219,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "cutaway diagram of a large zinc-air battery module, showing zinc electrodes and air channels",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://zinc8energy.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 327,
@@ -5255,8 +5188,7 @@
     "developmentStage": "Advanced Research",
     "imageIdea": "Industrial-scale battery modules with tanks of zinc electrolyte, air intake vents, and power conditioning units, emphasizing the flow battery aspect.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://zinc8energy.com/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 488,
@@ -6336,5 +6268,57 @@
     "imageIdea": "network of interconnected code repositories",
     "type": "future-tech",
     "dateAdded": "2026-04-29"
+  },
+  {
+    "id": 579,
+    "slug": "granite-4-1-ibm-8b-model",
+    "techName": "Granite 4.1 - IBM's 8B Model Matching 32B MoE",
+    "seoTitle": "IBM Granite 4.1: 8B Model Performance, Open Source",
+    "explanation": "Granite 4.1 is a family of open-source large language models developed by IBM.  The recent breakthrough highlights their 8 billion parameter models achieving performance comparable to much larger, proprietary models, including some 32 billion parameter Mixture-of-Experts (MoE) architectures.  These models are trained on a diverse dataset, including code and unstructured text, and are designed for enterprise use cases, offering adaptability and cost-effectiveness.",
+    "industry": "Artificial Intelligence",
+    "whyItMatters": "This development is significant because it democratizes access to high-performing LLMs, challenging the dominance of closed-source models. By offering powerful models at a smaller scale and open-source availability, IBM aims to enable businesses of all sizes to integrate advanced AI capabilities without prohibitive costs or vendor lock-in.  This could accelerate innovation in areas like customer service, content generation, and internal knowledge management.  The realistic timeline for mainstream adoption depends on further testing and refinement, but the open-source nature suggests rapid community development and integration. Key obstacles include ensuring robust security and ethical deployment for enterprise-level applications.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "stylized binary code flowing into an IBM logo",
+    "type": "future-tech",
+    "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 580,
+    "slug": "zig-project-anti-ai-policy",
+    "techName": "Zig Project's Anti-AI Contribution Policy",
+    "seoTitle": "Zig Programming Language Restricts AI Contributions",
+    "explanation": "The Zig project, a systems programming language, has established a clear policy to reject contributions generated by AI. This isn't a ban on AI tools for developers, but a stance against submitting AI-generated code directly as contributions to the project's codebase.  The rationale centers on maintaining code quality, ensuring understandability, and preserving the project's intellectual integrity.",
+    "industry": "Software Development",
+    "whyItMatters": "This policy reflects a growing debate within the open-source community about the role of AI in code generation. For Zig, it signifies a commitment to human-authored code, prioritizing developer intent, maintainability, and the nuanced understanding that comes from human problem-solving.  This could influence how other open-source projects approach AI-assisted development, potentially leading to stricter guidelines or alternative review processes. The timeline for broader impact is still unfolding, but it raises questions about the future of collaborative software development and the definition of 'authorship'.  The main obstacle is navigating the evolving capabilities of AI without stifling innovation entirely.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "a programmer's hands typing on a keyboard with a red X over a robotic arm",
+    "type": "future-tech",
+    "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 581,
+    "slug": "openai-where-goblins-came-from",
+    "techName": "OpenAI's 'Goblins' - Novel AI Training Method",
+    "seoTitle": "OpenAI's 'Goblins': AI Model Training Breakthrough",
+    "explanation": "OpenAI has unveiled a novel approach to training AI models, colloquially termed 'Goblins,' which involves an AI agent learning to generate synthetic data that is then used to train another AI model. This self-improvement loop allows the AI to explore and create novel scenarios or problem spaces that might be difficult for humans to conceive or resourcefully generate. The breakthrough lies in the AI's ability to autonomously discover and generate valuable training data.",
+    "industry": "Artificial Intelligence",
+    "whyItMatters": "This 'Goblins' method represents a significant step towards more autonomous AI development, potentially accelerating the pace at which AI models can learn and improve. By having AI generate its own training data, OpenAI could overcome limitations in data availability and curation, leading to more robust and versatile AI systems.  This could revolutionize fields requiring complex simulations or rare event data, such as advanced robotics, scientific discovery, and intricate game AI. The realistic timeline for widespread impact is still years away, as this is a foundational research breakthrough. Key obstacles include ensuring the generated data is truly beneficial and doesn't lead to unintended biases or performance degradation.",
+    "developmentStage": "Research",
+    "imageIdea": "a cascade of intricate digital gears being generated by a glowing neural network",
+    "type": "future-tech",
+    "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 582,
+    "slug": "mozilla-opposition-chrome-prompt-api",
+    "techName": "Mozilla's Opposition to Chrome's Prompt API",
+    "seoTitle": "Mozilla Challenges Chrome's New Prompt API",
+    "explanation": "Mozilla has publicly voiced strong opposition to a proposed Chrome Prompt API, arguing it poses a significant threat to user privacy and web security. The API, if implemented as proposed, would allow websites to programmatically request sensitive user information or permissions in ways that could be easily exploited by malicious actors. Mozilla's stance is rooted in their commitment to user-centric web standards and safeguarding against potential abuses.",
+    "industry": "Internet & Software",
+    "whyItMatters": "This conflict between Mozilla and Google highlights a fundamental tension in the evolution of web standards: balancing user convenience and powerful new features with robust privacy protections. Mozilla's resistance could lead to a more cautious and privacy-preserving approach to future web APIs, potentially influencing the broader web ecosystem. If adopted widely, the current Prompt API could create new vectors for phishing and data harvesting, undermining user trust in web applications. The timeline for resolution depends on ongoing discussions within standards bodies, but a prolonged debate is likely. Key obstacles involve finding a technical middle ground that allows for useful functionalities without compromising user security.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "a lock icon superimposed on a web browser window with a warning symbol",
+    "type": "future-tech",
+    "dateAdded": "2026-04-30"
   }
 ]

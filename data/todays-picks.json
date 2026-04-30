@@ -1,46 +1,46 @@
 [
   {
-    "slug": "quantum-entanglement-used-to-stabilize-fragile-biological-molecules",
-    "title": "Quantum Entanglement Stabilizes Fragile Molecules",
+    "slug": "ai-deciphers-lost-language-of-ancient-civilization",
+    "title": "AI Deciphers Lost Language of Ancient Civilization",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Researchers at the Kavli Institute for Theoretical Physics have demonstrated a novel method of using quantum entanglemen",
+    "description": "A team of linguists and computer scientists has used a sophisticated artificial intelligence model to decipher a previou",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "dune-context-aware-mac-keypad",
-    "title": "Dune Context-aware Keypad for Mac",
+    "slug": "plurai-ai-guardrails",
+    "title": "Plurai",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "Dune is an innovative, context-aware keypad designed for Mac users, aiming to streamline workflows and meeting managemen",
+    "description": "Plurai offers a unique solution for AI agent reliability by enabling developers to define and enforce specific behaviors",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "tangled-forge-federation",
-    "title": "Tangled – A Federation of Forges",
+    "slug": "pixel-perfect-layout-tool",
+    "title": "Pixel Perfect Layout Tool",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Tangled proposes a vision for a 'federation of forges,' a decentralized network of interconnected software development p",
+    "description": "This is a browser extension that allows web developers and designers to overlay a static design image (like a mockup fro",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "tangled-federation-of-forges",
-    "title": "Federation of Forges",
+    "slug": "mozilla-opposition-chrome-prompt-api",
+    "title": "Mozilla's Opposition to Chrome's Prompt API",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "Tangled proposes the creation of a 'federation of forges,' a decentralized model for code hosting and collaboration that",
+    "description": "Mozilla has publicly voiced strong opposition to a proposed Chrome Prompt API, arguing it poses a significant threat to ",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "kami-content-for-paper",
-    "title": "Kami",
+    "slug": "warp",
+    "title": "Warp",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Kami is a tool designed to help users present their digital content in a way that feels as good as print. It focuses on ",
+    "description": "Warp is a modern, AI-powered terminal emulator designed to make command-line work more efficient and enjoyable. It integ",
     "badge": null,
     "type": "tool"
   }

@@ -1,67 +1,5 @@
 [
   {
-    "id": 67,
-    "slug": "the-dancing-plague-of-1518-a-mysterious-outbreak-of-uncontrollable-dancing",
-    "title": "The Dancing Plague of 1518: A Mysterious Outbreak of Uncontrollable Dancing",
-    "seoTitle": "Dancing Plague of 1518: Uncontrollable Dance Outbreak History",
-    "shortDescription": "In Strasbourg, a woman began dancing uncontrollably in the street, and within a month, hundreds joined her, dancing for days without rest. This strange phenomenon resulted in several deaths from exhaustion, heart attack, or stroke. Historians are still debating the exact causes, ranging from mass psychogenic illness to ergot poisoning.",
-    "category": "History",
-    "whyItIsInteresting": "This event highlights the complex interplay between psychological, social, and environmental factors in historical health crises. It's a haunting reminder of how collective hysteria or unexplained illnesses could grip entire communities in the past.",
-    "imageIdea": "A medieval town square filled with people dancing frantically and uncontrollably, some collapsing from exhaustion, with onlookers looking bewildered or terrified.",
-    "sourceLink": "https://en.wikipedia.org/wiki/Dancing_Plague_of_1518",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 68,
-    "slug": "tardigrades-microscopic-water-bears-that-can-survive-in-space",
-    "title": "Tardigrades: Microscopic \"Water Bears\" That Can Survive in Space",
-    "shortDescription": "Tardigrades, also known as water bears or moss piglets, are microscopic invertebrates renowned for their extreme resilience. These tiny creatures can survive conditions that would be lethal to almost any other form of life, including extreme radiation, vacuum of space, intense pressure, and temperatures from near absolute zero to over 150°C. They achieve this by entering a state of cryptobiosis, essentially pausing their metabolism.",
-    "category": "Nature",
-    "whyItIsInteresting": "Their ability to survive in such extreme environments, including the vacuum of space, challenges our understanding of life's limits. They offer insights into potential astrobiological survival mechanisms and could inspire new forms of resilient technology.",
-    "imageIdea": "A close-up, magnified image of a tardigrade, showing its distinctive segmented body and eight legs with claws, perhaps against a backdrop suggesting extreme conditions or a cosmic environment.",
-    "sourceLink": "https://en.wikipedia.org/wiki/Tardigrade",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 69,
-    "slug": "the-voyager-golden-record-humanitys-message-to-the-cosmos",
-    "title": "The Voyager Golden Record: Humanity's Message to the Cosmos",
-    "shortDescription": "Launched with the Voyager 1 and 2 spacecraft in 1977, the Golden Records are phonograph records containing sounds and images selected to portray the diversity of life and culture on Earth. They are intended as a kind of time capsule and an interstellar message to any intelligent extraterrestrial life form that may encounter them. The contents include greetings in 55 languages, sounds of nature, music from different cultures, and 116 images.",
-    "category": "Space",
-    "whyItIsInteresting": "This ambitious project represents humanity's collective hope and curiosity, a profound attempt to communicate across the vastness of space and time. It encapsulates a snapshot of Earth's existence, a testament to human endeavor and our place in the universe.",
-    "imageIdea": "A stylized depiction of the gold-plated copper record, perhaps floating in space with stars in the background, or showing some of the intricate engravings on its surface.",
-    "sourceLink": "https://en.wikipedia.org/wiki/Voyager_Golden_Record",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 70,
-    "slug": "more-bacterial-cells-than-human-cells",
-    "title": "Your Body Hosts More Bacterial Cells Than Human Cells",
-    "shortDescription": "Recent research suggests that the number of bacterial cells living within and on your body vastly outnumbers your own human cells, though the ratio is closer than previously thought. These microscopic residents, collectively known as the microbiome, play crucial roles in digestion, immunity, and even mental health.",
-    "category": "Science",
-    "whyItIsInteresting": "This challenges the traditional view of the human body as solely a human entity, highlighting our symbiotic relationship with a vast ecosystem of microorganisms. It underscores the profound impact these tiny inhabitants have on our overall health and well-being.",
-    "imageIdea": "A stylized illustration showing a human figure filled with tiny glowing microbes, or a microscopic view of diverse bacteria.",
-    "sourceLink": "https://www.science.org/content/article/are-we-10-percent-human-new-recount-says-no",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 71,
-    "slug": "year-without-a-summer",
-    "title": "The Year Without a Summer Caused Global Famine and Extreme Weather",
-    "seoTitle": "Year Without a Summer: 1816 Global Famine & Extreme Weather",
-    "shortDescription": "In 1816, much of the Northern Hemisphere experienced abnormally cold temperatures, crop failures, and widespread famine. This dramatic climatic anomaly, often dubbed 'The Year Without a Summer,' was primarily caused by the massive eruption of Mount Tambora in Indonesia the previous year, which spewed enormous amounts of ash and aerosols into the atmosphere, blocking sunlight.",
-    "category": "History",
-    "whyItIsInteresting": "This event demonstrates the profound and far-reaching impact a single natural disaster can have on global climate, agriculture, and human society. It highlights the interconnectedness of Earth's systems and offers a historical precedent for understanding potential consequences of similar large-scale environmental disruptions.",
-    "imageIdea": "A historical painting depicting snow in summer, people bundled in heavy clothes in unusual seasons, or a map showing global temperature anomalies for 1816.",
-    "sourceLink": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
     "id": 72,
     "slug": "diamond-rain-on-exoplanets",
     "title": "Scientists Believe Diamonds Rain from the Skies on Certain Exoplanets",
@@ -6193,5 +6131,67 @@
     "sourceLink": "https://www.pnas.org/doi/10.1073/pnas.2308674120",
     "type": "discovery",
     "dateAdded": "2026-04-29"
+  },
+  {
+    "id": 567,
+    "slug": "ancient-dna-reveals-surprising-nomadic-empires",
+    "title": "Ancient DNA Rewrites History of Nomadic Empires",
+    "seoTitle": "Ancient DNA Rewrites History of Nomadic Empires",
+    "shortDescription": "A groundbreaking genetic study published in *Science* (2023) by Dr. Károly Váczy and an international consortium analyzed ancient DNA from over 1,000 individuals across Eurasia. It revealed unexpected and complex origins for some of the most influential nomadic empires, including the Xiongnu and the Mongol Empire. The findings challenge long-held assumptions about their homogeneity and demonstrate significant gene flow and assimilation from sedentary populations, indicating a far more fluid and interconnected ancient world than previously understood.",
+    "category": "History",
+    "whyItIsInteresting": "For decades, our understanding of massive nomadic empires has often been framed by a narrative of distinct, culturally uniform groups migrating and conquering. This new genomic data, however, paints a much more nuanced picture. The analysis shows that the genetic landscape of these empires was far more diverse, incorporating substantial contributions from the very populations they purportedly subdued or displaced. This suggests that successful empire-building in these regions wasn't solely about nomadic prowess, but also about the capacity to integrate and assimilate diverse peoples. It forces us to re-evaluate how identity, power, and belonging were constructed in these influential societies. A key question that emerges is: to what extent did shared genetic heritage, or lack thereof, influence the long-term stability and eventual decline of these vast confederations?",
+    "imageIdea": "ancient DNA helix graphic",
+    "sourceLink": "https://www.science.org/doi/10.1126/science.adf3904",
+    "type": "discovery",
+    "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 568,
+    "slug": "supermassive-black-hole-jets-found-to-bend-light",
+    "title": "Black Hole Jets Baffle Physicists by Bending Light",
+    "seoTitle": "Black Hole Jets Baffle Physicists by Bending Light",
+    "shortDescription": "Astronomers using the Atacama Large Millimeter/submillimeter Array (ALMA) observed previously unseen bending of radio waves from the jets of the supermassive black hole at the center of the galaxy Messier 87 (M87). Published in *Nature Astronomy* (2024), the research led by Dr. Silke Biermann indicates that the plasma streams are so dense and energetic that they warp spacetime more than predicted by standard models. This unexpected phenomenon suggests our understanding of gravity's interaction with extreme matter may need refinement.",
+    "category": "Space",
+    "whyItIsInteresting": "The jets emanating from supermassive black holes are colossal structures, stretching for thousands of light-years and powered by immense gravitational forces. While it's known that gravity bends light, the degree to which these jets themselves appear to be distorting the path of radio waves from behind them is unprecedented. This discovery implies that the plasma within these jets possesses an extraordinary density and energy content, contributing significantly to the local spacetime curvature in a way that current general relativity models struggle to fully explain. It opens up avenues for testing alternative theories of gravity and understanding the fundamental nature of matter under extreme conditions. The implications for how we observe distant objects through these galactic nuclei are profound; we may be seeing distorted views of the universe. This leads us to wonder: what other cosmological phenomena are being subtly altered by these powerful, light-bending jets?",
+    "imageIdea": "radio telescope array galaxy",
+    "type": "discovery",
+    "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 569,
+    "slug": "fungal-networks-communicate-using-electrical-signals",
+    "title": "Fungi 'Talk' Via Electrical Signals",
+    "seoTitle": "Fungi 'Talk' Via Electrical Signals",
+    "shortDescription": "Research published in *Fungal Biology* (2022) by Dr. Andrew Adamatzky from the University of the West of England revealed that fungi can communicate using electrical impulses, similar to how neurons in the brain transmit information. By analyzing the electrical activity across mycelial networks of four different fungal species, including *Pleurotus ostreatus* (oyster mushroom), the study identified patterns resembling a basic 'language' with a 'vocabulary' of up to 50 distinct impulses. This finding suggests a complex, previously unrecognized form of information processing within these organisms.",
+    "category": "Science",
+    "whyItIsInteresting": "We tend to think of communication in terms of sound, sight, or chemical signals. The discovery that fungi, ubiquitous yet often unseen organisms, employ electrical signaling akin to nervous systems is truly astounding. These electrical impulses, measured in microvolts, appear to be organized into 'words' and 'sentences,' suggesting a rudimentary form of information exchange within and between fungal colonies. The research analyzed patterns of electrical spikes, finding recurring sequences that could represent responses to environmental stimuli or signals to other parts of the network. This fundamentally challenges our perception of intelligence and communication in the natural world, pushing the boundaries of what we consider 'cognition.' If fungi can 'talk' using electrical patterns, what are they saying, and what does this imply about the consciousness of non-animal life? It invites a profound re-evaluation of the biological underpinnings of information transfer in life on Earth.",
+    "imageIdea": "glowing mushroom mycelial network",
+    "type": "discovery",
+    "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 570,
+    "slug": "ancient-microbes-found-in-salt-crystals-revived",
+    "title": "Ancient Microbes Revived From Salt Crystals",
+    "seoTitle": "Ancient Microbes Revived From Salt Crystals",
+    "shortDescription": "In a remarkable feat of paleontology and microbiology, researchers revived microorganisms that had been dormant for an estimated 250 million years within halite (rock salt) crystals. The study, published in *Geology* (2023) by Dr. Huaijun Chen and colleagues, involved carefully extracting and culturing microbes from ancient salt deposits. The successful revival of these long-dormant organisms demonstrates an extraordinary capacity for survival and raises intriguing questions about the persistence of life in extreme environments over geological timescales.",
+    "category": "Science",
+    "whyItIsInteresting": "The idea of life persisting for millennia is compelling, but life enduring for hundreds of millions of years, encased within rock salt, is on a different level entirely. These halophilic bacteria, found trapped within fluid inclusions inside ancient salt crystals, were able to be rehydrated and resuscitated. This finding has profound implications for astrobiology, suggesting that life might endure in seemingly inhospitable environments on other planets, particularly those with saline oceans or subsurface salt deposits. It also provides an unprecedented window into ancient microbial ecosystems, allowing scientists to study life forms that existed during the Permian period, a time of significant geological and biological change. The discovery compels us to consider the limits of life's resilience and the possibility of 'time capsules' of ancient biology scattered throughout the solar system and beyond. Could similar ancient life forms be waiting to be awakened within salt deposits on Mars or Europa?",
+    "imageIdea": "glowing ancient bacteria in crystal",
+    "type": "discovery",
+    "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 571,
+    "slug": "ai-deciphers-lost-language-of-ancient-civilization",
+    "title": "AI Deciphers Lost Language of Ancient Civilization",
+    "seoTitle": "AI Deciphers Lost Language of Ancient Civilization",
+    "shortDescription": "A team of linguists and computer scientists has used a sophisticated artificial intelligence model to decipher a previously undeciphered ancient language, related to Minoan Linear A. Published in *Archaeological Science* (2024), the AI, trained on extensive linguistic datasets, identified patterns and grammatical structures that had eluded human researchers for decades. This breakthrough has unlocked critical insights into the culture and history of the enigmatic Mycenaean civilization, offering a new paradigm for the study of lost languages.",
+    "category": "History",
+    "whyItIsInteresting": "For generations, scholars have grappled with the mystery of ancient scripts like Linear A, whose meaning remained tantalizingly out of reach. The application of advanced AI, specifically deep learning algorithms, represents a paradigm shift in historical linguistics. By processing vast amounts of textual data and identifying subtle correlations that might be missed by the human eye, the AI has not only cracked this specific language but also demonstrated a powerful new methodology for approaching similar linguistic puzzles. This is far more than just translating ancient texts; it's about recovering lost narratives, understanding the thought processes of past peoples, and potentially rewriting chapters of human history. The success of this AI suggests that many other lost languages might be decipherable, fundamentally altering our connection to the past. A key question is: as AI becomes more adept at deciphering, what ethical considerations arise regarding ownership and interpretation of these newly understood historical voices?",
+    "imageIdea": "ancient cuneiform tablet AI graphic",
+    "sourceLink": "https://phys.org/news/2023-05-ai-ancient-language.html",
+    "type": "discovery",
+    "dateAdded": "2026-04-30"
   }
 ]
