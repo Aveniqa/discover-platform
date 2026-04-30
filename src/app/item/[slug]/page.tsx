@@ -3,6 +3,7 @@ import {
   getItemBySlug,
   getItemTitle,
   getItemDescription,
+  getItemExcerpt,
   getItemCategory,
   getItemWhyText,
   getItemOutboundUrl,
@@ -12,7 +13,6 @@ import {
   getCategoryLabel,
   getCategoryNavLabel,
   getCategoryPath,
-  getRelatedItems,
   discoveries,
   products,
   hiddenGems,
@@ -224,8 +224,7 @@ export default async function ItemPage({ params }: Props) {
   const label = getCategoryLabel(item.type);
   const navLabel = getCategoryNavLabel(item.type);
   const backPath = getCategoryPath(item.type);
-  const relatedItems = getRelatedItems(item, 4);
-  const crossItems = getCrossCategoryItems(item, 4);
+  const crossItems = getCrossCategoryItems(item, 6);
   const outboundUrl = getItemOutboundUrl(item);
 
   // Source article URL (for "Read Original Source" link)
@@ -270,9 +269,9 @@ export default async function ItemPage({ params }: Props) {
   const readingText = [description, whyText].filter(Boolean).join(" ");
   const readingTime = Math.max(1, Math.ceil(readingText.length / 1000));
 
-  // C3: "You Might Also Like" — same category, newest first, excluding current + already shown
-  const shownSlugs = new Set([slug, ...relatedItems.map(i => i.slug), ...crossItems.map(i => i.slug)]);
-  const youMightLike = categoryItems
+  // "More from {Category}" — same-type items, newest first, excluding current + cross-rail
+  const shownSlugs = new Set([slug, ...crossItems.map(i => i.slug)]);
+  const moreFromCategory = categoryItems
     .filter((i) => !shownSlugs.has(i.slug))
     .sort((a, b) => (b.id || 0) - (a.id || 0))
     .slice(0, 6);
@@ -582,79 +581,35 @@ export default async function ItemPage({ params }: Props) {
             </div>
           )}
 
-          {/* ── Related items ───────────────────────────────── */}
-          {relatedItems.length > 0 && (
-            <ScrollReveal delay={200}>
-              <div className="mb-16">
-                <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-8">
-                  More Like This
-                </h2>
-                <div className="grid gap-4 sm:grid-cols-2">
-                  {relatedItems.map((related) => {
-                    const relTitle = getItemTitle(related);
-                    const relDesc = getItemDescription(related);
-                    const relColor = getCategoryColor(related.type);
-                    const relLabel = getCategoryLabel(related.type);
-                    return (
-                      <Link
-                        key={related.slug}
-                        href={`/item/${related.slug}`}
-                        className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow transition-all"
-                      >
-                        <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
-                        <div className="p-5">
-                          <CategoryBadge color={relColor} label={relLabel} className="mb-3" />
-                          <h3 className="font-bold text-foreground group-hover:text-accent-hover transition-colors line-clamp-2 mb-2">
-                            {relTitle}
-                          </h3>
-                          <p className="text-sm text-muted-foreground line-clamp-2">{relDesc}</p>
-                        </div>
-                      </Link>
-                    );
-                  })}
-                </div>
-                <div className="mt-6 text-right">
-                  <Link
-                    href={backPath}
-                    className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-accent transition-colors link-underline"
-                  >
-                    Continue exploring {navLabel} <span>&rarr;</span>
-                  </Link>
-                </div>
-              </div>
-            </ScrollReveal>
-          )}
-
-          {/* ── Cross-category related picks ───────────────── */}
+          {/* ── Related (cross-category) ───────────────────── */}
           {crossItems.length > 0 && (
-            <ScrollReveal delay={220}>
-              <div className="mb-16">
-                <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-2">
-                  Explore Related
-                </h2>
-                <p className="text-sm text-muted-foreground mb-6">
-                  From{" "}
-                  {crossItems.map((i) => getCategoryLabel(i.type)).join(", ")}
-                </p>
-                <div className="grid gap-4 sm:grid-cols-2">
+            <ScrollReveal delay={200}>
+              <div className="mb-14">
+                <div className="flex items-end justify-between gap-4 mb-6">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-foreground">Related</h2>
+                  <span className="text-xs text-muted-foreground hidden sm:block">
+                    From {crossItems.map((i) => getCategoryLabel(i.type)).filter((v, i, a) => a.indexOf(v) === i).join(" · ")}
+                  </span>
+                </div>
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                   {crossItems.map((related) => {
                     const relTitle = getItemTitle(related);
-                    const relDesc = getItemDescription(related);
                     const relColor = getCategoryColor(related.type);
                     const relLabel = getCategoryLabel(related.type);
                     return (
                       <Link
                         key={related.slug}
                         href={`/item/${related.slug}`}
-                        className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow transition-all"
+                        aria-label={`Read ${relTitle}`}
+                        className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow transition-all flex flex-col"
                       >
                         <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
-                        <div className="p-5">
-                          <CategoryBadge color={relColor} label={relLabel} className="mb-3" />
-                          <h3 className="font-bold text-foreground group-hover:text-accent-hover transition-colors line-clamp-2 mb-2">
+                        <div className="p-4 flex flex-col flex-1">
+                          <CategoryBadge color={relColor} label={relLabel} className="mb-2" />
+                          <h3 className="text-sm font-semibold text-foreground group-hover:text-accent-hover transition-colors line-clamp-2 mb-2 flex-1">
                             {relTitle}
                           </h3>
-                          <p className="text-sm text-muted-foreground line-clamp-2">{relDesc}</p>
+                          <p className="text-xs text-muted-foreground line-clamp-2">{getItemExcerpt(related)}</p>
                         </div>
                       </Link>
                     );
@@ -664,16 +619,22 @@ export default async function ItemPage({ params }: Props) {
             </ScrollReveal>
           )}
 
-          {/* ── You Might Also Like (C3) ────────────────────── */}
-          {youMightLike.length > 0 && (
-            <ScrollReveal delay={230}>
+          {/* ── More from {Category} ────────────────────────── */}
+          {moreFromCategory.length > 0 && (
+            <ScrollReveal delay={220}>
               <div className="mb-16">
-                <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-6">
-                  You Might Also Like
-                </h2>
-                {/* Mobile: horizontal scroll; Desktop: 3-column grid */}
+                <div className="flex items-end justify-between gap-4 mb-6">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-foreground">More from {navLabel}</h2>
+                  <Link
+                    href={backPath}
+                    aria-label={`Browse all ${navLabel}`}
+                    className="hidden sm:inline-flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-accent transition-colors link-underline"
+                  >
+                    View all <span>&rarr;</span>
+                  </Link>
+                </div>
                 <div className="hidden sm:grid sm:grid-cols-3 gap-4">
-                  {youMightLike.map((related) => {
+                  {moreFromCategory.map((related) => {
                     const relTitle = getItemTitle(related);
                     const relColor = getCategoryColor(related.type);
                     const relLabel = getCategoryLabel(related.type);
@@ -682,6 +643,7 @@ export default async function ItemPage({ params }: Props) {
                       <Link
                         key={related.slug}
                         href={`/item/${related.slug}`}
+                        aria-label={`Read ${relTitle}`}
                         className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow transition-all flex flex-col"
                       >
                         {hasAmazon && (
@@ -692,18 +654,17 @@ export default async function ItemPage({ params }: Props) {
                         <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
                         <div className="p-4 flex flex-col flex-1">
                           <CategoryBadge color={relColor} label={relLabel} className="mb-2" />
-                          <h3 className="text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-3 flex-1">
+                          <h3 className="text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-2 flex-1">
                             {relTitle}
                           </h3>
-                          <span className="text-xs text-accent font-medium">Explore →</span>
+                          <span className="text-xs text-accent font-medium">Read →</span>
                         </div>
                       </Link>
                     );
                   })}
                 </div>
-                {/* Mobile horizontal scroll */}
                 <div className="sm:hidden flex gap-3 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" } as React.CSSProperties}>
-                  {youMightLike.map((related) => {
+                  {moreFromCategory.map((related) => {
                     const relTitle = getItemTitle(related);
                     const relColor = getCategoryColor(related.type);
                     const relLabel = getCategoryLabel(related.type);
@@ -712,6 +673,7 @@ export default async function ItemPage({ params }: Props) {
                       <Link
                         key={related.slug}
                         href={`/item/${related.slug}`}
+                        aria-label={`Read ${relTitle}`}
                         className="group relative shrink-0 w-[200px] rounded-xl border border-border bg-card overflow-hidden card-hover-glow flex flex-col"
                       >
                         {hasAmazon && (
@@ -725,7 +687,7 @@ export default async function ItemPage({ params }: Props) {
                           <h3 className="text-xs font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-2 flex-1">
                             {relTitle}
                           </h3>
-                          <span className="text-xs text-accent font-medium">Explore →</span>
+                          <span className="text-xs text-accent font-medium">Read →</span>
                         </div>
                       </Link>
                     );
