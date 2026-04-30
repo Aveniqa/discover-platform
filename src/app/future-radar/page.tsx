@@ -169,6 +169,7 @@ export default function FutureRadarPage() {
               <TiltCard maxTilt={6} glowColor="0 8px 40px rgba(34,211,238,0.12), 0 0 0 1px rgba(34,211,238,0.08)" className="h-full">
               <Link
                 href={`/item/${item.slug}`}
+                aria-label={`Read ${item.techName}`}
                 className="group block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden"
               >
                 <div className="overflow-hidden relative">

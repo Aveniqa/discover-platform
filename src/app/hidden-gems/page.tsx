@@ -188,7 +188,7 @@ export default function HiddenGemsPage() {
                   <CategoryBadge label={item.category} color="amber" />
                   <BookmarkButton slug={item.slug} />
                 </div>
-                <Link href={`/item/${item.slug}`} className="block mb-2">
+                <Link href={`/item/${item.slug}`} aria-label={`Read ${item.name}`} className="block mb-2">
                   <h3 className="text-base font-semibold text-foreground group-hover:text-amber-300 transition-colors line-clamp-2 flex items-center gap-1.5">
                     {item.websiteLink && (() => { try { return new URL(item.websiteLink).hostname.replace("www.", ""); } catch { return null; } })() && (
                       <LogoImage domain={(() => { try { return new URL(item.websiteLink).hostname.replace("www.", ""); } catch { return ""; } })()} />

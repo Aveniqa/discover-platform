@@ -1,16 +1,30 @@
 import Link from "next/link";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { discoveries, products, hiddenGems, futureRadar, dailyTools } from "@/lib/data";
-import { getItemTitle } from "@/lib/data";
+import { getItemTitle, type AnyItem } from "@/lib/data";
+import archiveData from "@/../data/archive.json";
 
 export function Footer() {
+  // 8 newest per category — surfaces more internal links to crawlers and to
+  // human visitors using the footer for navigation.
+  const newest = <T extends { id?: number }>(arr: T[]): T[] =>
+    [...arr].sort((a, b) => (b.id || 0) - (a.id || 0)).slice(0, 8);
+
   const columns = [
-    { heading: "Discoveries", items: discoveries.slice(0, 4), path: "/discover" },
-    { heading: "Products", items: products.slice(0, 4), path: "/trending" },
-    { heading: "Hidden Gems", items: hiddenGems.slice(0, 4), path: "/hidden-gems" },
-    { heading: "Future Radar", items: futureRadar.slice(0, 4), path: "/future-radar" },
-    { heading: "Tools", items: dailyTools.slice(0, 4), path: "/tools" },
+    { heading: "Discoveries", items: newest(discoveries), path: "/discover" },
+    { heading: "Products", items: newest(products), path: "/trending" },
+    { heading: "Hidden Gems", items: newest(hiddenGems), path: "/hidden-gems" },
+    { heading: "Future Radar", items: newest(futureRadar), path: "/future-radar" },
+    { heading: "Tools", items: newest(dailyTools), path: "/tools" },
   ];
+
+  // Recently archived items — /item/<slug> stays alive for SEO. Surface 5 in
+  // the footer so they keep ranking + getting human traffic instead of
+  // languishing as orphaned but-still-indexed URLs.
+  const recentlyArchived = (archiveData as (AnyItem & { archivedAt?: string })[])
+    .filter((it) => !!it.archivedAt)
+    .sort((a, b) => (b.archivedAt || "").localeCompare(a.archivedAt || ""))
+    .slice(0, 5);
 
   return (
     <footer className="border-t border-border/40 bg-gradient-to-b from-surface/80 to-background">
@@ -49,7 +63,7 @@ export function Footer() {
           </div>
 
           {/* Category Columns */}
-          <div className="lg:col-span-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-6">
+          <div className="lg:col-span-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 lg:gap-6">
             {columns.map((col) => (
               <div key={col.heading}>
                 <Link
@@ -59,19 +73,46 @@ export function Footer() {
                   {col.heading}
                 </Link>
                 <ul className="space-y-2.5">
-                  {col.items.map((item) => (
-                    <li key={item.slug}>
-                      <Link
-                        href={`/item/${item.slug}`}
-                        className="text-sm text-muted-foreground/70 hover:text-foreground transition-colors line-clamp-1"
-                      >
-                        {getItemTitle(item)}
-                      </Link>
-                    </li>
-                  ))}
+                  {col.items.map((item) => {
+                    const title = getItemTitle(item);
+                    return (
+                      <li key={item.slug}>
+                        <Link
+                          href={`/item/${item.slug}`}
+                          aria-label={`Read ${title}`}
+                          className="text-sm text-muted-foreground/70 hover:text-foreground transition-colors line-clamp-1"
+                        >
+                          {title}
+                        </Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             ))}
+            {recentlyArchived.length > 0 && (
+              <div>
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground/80 mb-4 block">
+                  Recently Archived
+                </span>
+                <ul className="space-y-2.5">
+                  {recentlyArchived.map((item) => {
+                    const title = getItemTitle(item);
+                    return (
+                      <li key={item.slug}>
+                        <Link
+                          href={`/item/${item.slug}`}
+                          aria-label={`Read ${title}`}
+                          className="text-sm text-muted-foreground/60 hover:text-foreground transition-colors line-clamp-1"
+                        >
+                          {title}
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>

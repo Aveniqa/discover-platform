@@ -182,7 +182,7 @@ export default function DiscoverPage() {
                     <span className="px-3 py-1.5 bg-white text-black text-xs font-semibold rounded-full shadow">Quick View</span>
                   </button>
                 </div>
-                <Link href={`/item/${item.slug}`} className="block p-6">
+                <Link href={`/item/${item.slug}`} aria-label={`Read ${item.title}`} className="block p-6">
                 <div className="flex items-start justify-between gap-2 mb-3">
                   <CategoryBadge label={item.category} color="indigo" />
                   <BookmarkButton slug={item.slug} />

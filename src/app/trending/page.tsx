@@ -302,7 +302,7 @@ export default function TrendingPage() {
                   </div>
                   <BookmarkButton slug={item.slug} />
                 </div>
-                <Link href={`/item/${item.slug}`} className="block mb-2">
+                <Link href={`/item/${item.slug}`} aria-label={`Read ${item.title}`} className="block mb-2">
                   <h3 className="text-base font-semibold text-foreground group-hover:text-emerald-300 transition-colors line-clamp-2">
                     {item.title}
                   </h3>
