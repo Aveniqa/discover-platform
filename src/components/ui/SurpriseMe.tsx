@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { getAllItems } from "@/lib/data";
+import { track } from "@/lib/analytics";
 
 export function SurpriseMe({ variant = "button" }: { variant?: "button" | "fab" }) {
   const router = useRouter();
@@ -9,6 +10,7 @@ export function SurpriseMe({ variant = "button" }: { variant?: "button" | "fab" 
   const handleClick = () => {
     const items = getAllItems();
     const random = items[Math.floor(Math.random() * items.length)];
+    track("surprise_me_click", { from: variant === "fab" ? "fab" : "inline", slug: random.slug });
     router.push(`/item/${random.slug}`);
   };
 

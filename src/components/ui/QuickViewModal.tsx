@@ -20,6 +20,7 @@ import {
   type HiddenGem,
   type DailyTool,
 } from "@/lib/data";
+import { track } from "@/lib/analytics";
 
 interface QuickViewModalProps {
   item: AnyItem;
@@ -44,8 +45,9 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
     try { return websiteLink ? new URL(websiteLink).hostname.replace("www.", "") : null; } catch { return null; }
   })();
 
-  // Close on ESC key
+  // Close on ESC key + track open
   useEffect(() => {
+    track("quick_view_open", { slug: item.slug });
     const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); };
     document.addEventListener("keydown", onKey);
     document.body.style.overflow = "hidden";
@@ -53,7 +55,7 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = "";
     };
-  }, [onClose]);
+  }, [onClose, item.slug]);
 
   return (
     <div

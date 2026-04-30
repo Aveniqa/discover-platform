@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { isBookmarked, toggleBookmark } from "@/lib/engagement";
+import { track } from "@/lib/analytics";
 
 export function BookmarkButton({ slug, size = "sm" }: { slug: string; size?: "sm" | "md" }) {
   const [saved, setSaved] = useState(false);
@@ -15,6 +16,7 @@ export function BookmarkButton({ slug, size = "sm" }: { slug: string; size?: "sm
     e.stopPropagation();
     const nowSaved = toggleBookmark(slug);
     setSaved(nowSaved);
+    track("bookmark_toggle", { slug, action: nowSaved ? "add" : "remove" });
     // Dispatch event for header count update
     window.dispatchEvent(new CustomEvent("bookmarkChange"));
   };

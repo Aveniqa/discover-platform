@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@/lib/analytics";
 
 // Buttondown's embed endpoint uses Cloudflare Turnstile bot detection.
 // It requires a real browser form POST — fetch calls are rejected (400).
@@ -43,7 +44,7 @@ export function NewsletterForm({
         action={EMBED_ACTION}
         method="post"
         target="_blank"
-        onSubmit={() => setSubmitted(true)}
+        onSubmit={() => { track("newsletter_submit", { location: captureLocation || formId }); setSubmitted(true); }}
         className="flex gap-2"
       >
         <label htmlFor={inputId} className="sr-only">Email address</label>
@@ -71,7 +72,7 @@ export function NewsletterForm({
       action={EMBED_ACTION}
       method="post"
       target="_blank"
-      onSubmit={() => setSubmitted(true)}
+      onSubmit={() => { track("newsletter_submit", { location: captureLocation || formId }); setSubmitted(true); }}
       className="flex flex-col sm:flex-row gap-3 max-w-md"
     >
       <label htmlFor={inputId} className="sr-only">Email address</label>
