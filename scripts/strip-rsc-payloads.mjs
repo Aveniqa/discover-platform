@@ -9,9 +9,12 @@
  * 20,000-files-per-deployment hard cap.
  *
  * The flat `<slug>.txt` RSC payloads (one per route, ~2,700 files) are kept —
- * those still power same-tab Link navigations. The `__next.*.txt` payloads
- * inside per-route subdirectories are redundant for our case (no PPR, no SSR,
- * no streaming) and safe to remove.
+ * those still power same-tab Link navigations. We also keep `__next._tree.txt`
+ * and `__next._index.txt` per route because the Next 16 client runtime
+ * prefetches both during hover/intersection, and 404ing those tanks the
+ * Lighthouse network-error score. Everything else (`_full.txt`, `_head.txt`,
+ * the `<route>.__PAGE__.txt` payload, etc.) is unused on a static export and
+ * safe to remove.
  *
  * Idempotent. Runs as the second half of `npm run postbuild`.
  *
@@ -24,7 +27,9 @@ import { join } from "node:path";
 
 const ROOT = "out";
 const DRY = process.argv.includes("--dry");
+// Strip pattern: any __next.*.txt EXCEPT _tree.txt and _index.txt (runtime prefetches both)
 const PATTERN = /^__next\..*\.txt$/;
+const KEEP = new Set(["__next._tree.txt", "__next._index.txt"]);
 
 let removed = 0;
 let removedBytes = 0;
@@ -55,7 +60,7 @@ function walk(dir) {
       } catch {
         /* ignore */
       }
-    } else if (entry.isFile() && PATTERN.test(entry.name)) {
+    } else if (entry.isFile() && PATTERN.test(entry.name) && !KEEP.has(entry.name)) {
       try {
         const size = statSync(full).size;
         if (DRY) {
