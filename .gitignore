@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local artifacts — never commit
+*.pdf
+.claude/
+docs/*-backfill.log
+docs/design-refs/
