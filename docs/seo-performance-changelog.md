@@ -6,6 +6,67 @@
 
 ---
 
+## Follow-up pass — 2026-04-29 (post-92c123f redesign + UX)
+
+**Build verified:** 2,685 HTML pages, validator 0 errors, 237 warnings (all
+pre-existing title-length on long editorial titles — see "Skipped" below).
+
+### Phases shipped
+
+| Commit | Phase | Summary |
+|---|---|---|
+| `a38fddb` | P1 | `src/lib/stats.ts` as the single source of truth for site counts. `categories.count` now derived live from data files (was drifting from `categories.json`). `scripts/backfill-date-added.mjs` (manual-trigger only, `--dry` default). |
+| `b412148` | P2 | Listing routes (5 category indexes, /collections/[slug], homepage carousels + editorial picks) ship a ≤160-char word-boundary excerpt instead of the full body. /item/<slug> still renders the full description. New `getItemExcerpt(item, max)` in `lib/data`. |
+| `cfcd3e6` | P3 | Homepage redesign: editorial cover hero with date eyebrow + single primary CTA + secondary search; drops the inline newsletter and 3-stat row. Removes the redundant "Today's Picks" 5-card grid (the editorial "What Surfaced Today" — now `id="today"` — becomes the canonical daily cover, 1 lead + 3 supporting). Drops one of the two duplicated marquee strips. |
+| `7c0c3bd` | P4 | Listing pages: first card per page now spans 2 cols on sm/lg/xl — feature-card rhythm without changing the card component. |
+| `0addbf2` | P5 | Item detail rails dedupe: was 3 overlapping sections (More Like This, Explore Related, You Might Also Like). Now 2 distinct rails — "Related" (6 items, cross-category) + "More from {Category}" (6 items, same-type) — with descriptive `aria-label`s on each card anchor. |
+| `811be94` | P6 | Footer: 4 → 8 items per category column + new "Recently Archived" column linking the 5 most-recently-archived /item/<slug> URLs (preserved for SEO, were drifting toward orphaned-but-indexed). Listing-page card anchors get `aria-label="Read {title}"`. |
+| `40002cd` | P7 | Newsletter dedupe: homepage was rendering 4 forms (today, mid-page inline, big bottom CTA, footer) → now 2 (today's edition inline + footer). `NewsletterForm` takes `formId` + `ariaLabel` so each surface gets unique `<form id>`, `<input id>`, `<label for>`, accessible name. Buttondown action URL preserved. |
+| `0a07986` | P8 | `src/lib/analytics.ts` — Tinybird events with no-op fallback when env missing or DNT enabled. Events: `page_view`, `bookmark_toggle`, `surprise_me_click`, `newsletter_submit`, `quick_view_open`, `outbound_click {host, kind: amazon\|bestbuy\|source\|other}`. Outbound clicks delegated through Analytics.tsx — no per-element wiring. README documents env vars. |
+| `c8ab29b` | P9 | Streak milestones rebalanced to 7/30/100 (was 3/7/14/30). Streak badge gains role + aria-label. /saved empty state offers 3 of today's editorial picks as jumping-off points. Surprise Me scopes to current category route (from /trending → product, from /discover → discovery, etc.) and falls back to the full catalog elsewhere. |
+
+### Files added in this pass
+
+| Path | Purpose |
+|---|---|
+| `src/lib/stats.ts` | `getSiteStats()` — total/per-category/archive counts derived live |
+| `src/lib/analytics.ts` | `track()` / `trackPageView()` / `classifyOutbound()` |
+| `scripts/backfill-date-added.mjs` | Manual-trigger backfill of missing `dateAdded` fields |
+
+### Verification
+
+```bash
+npm run build        # 2,685 pages, validator 0 errors
+npm run validate:seo # strict mode — 0 errors, 237 warnings
+```
+
+Spot-checks via the local static server: /, /discover, /trending,
+/collections, /saved, /newsletter, /item/<sample> — all 200 OK, no
+console errors.
+
+### Skipped / deferred
+
+| Skipped | Reason |
+|---|---|
+| Bento variant on /categories index page | Only 5 cards — breaking the rhythm there is more risky than valuable. Kept the existing 3-col grid. |
+| Hero image enlarge on /item/<slug> | Already 16:7 full-bleed — visually larger would mean cropping or distortion. Left alone. |
+| 237 long-title validator warnings | Same as previous pass — content-side, addressed by `seoTitle` backfill (manual trigger). |
+| Plausible / Tinybird co-existence | Both ship; Plausible only renders when its env var is set, Tinybird only fires when its env vars are set, so they don't conflict. |
+| `npx lhci autorun` | Not executed in this pass; lighthouserc.json is unchanged so previous run's targets still apply. |
+
+### Manual triggers still available
+
+```bash
+# Backfill missing `dateAdded` fields (preview, then apply)
+node scripts/backfill-date-added.mjs           # dry-run
+node scripts/backfill-date-added.mjs --run     # apply
+
+# Backfill `seoTitle` for long-titled items (existing script)
+GEMINI_API_KEY=xxx node scripts/backfill-seo-titles.mjs --dry
+```
+
+---
+
 ## Files added
 
 | Path | Purpose |
