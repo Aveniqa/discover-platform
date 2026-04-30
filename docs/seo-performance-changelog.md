@@ -190,3 +190,27 @@ grep "application/ld+json" out/item/<slug>.html
 # Verify a page's canonical
 grep -oE 'rel="canonical" href="[^"]*"' out/<route>.html
 ```
+
+---
+
+## 2026-04-30 — post-redesign chore pass
+
+| SHA | Change |
+|---|---|
+| `602c02b` | `.gitignore`: PDFs, `.claude/`, `docs/*-backfill.log`, `docs/design-refs/`. |
+| `2f12054` | `dateAdded` backfill: 174 legacy items now carry a stable `YYYY-MM-DD` (12 in products.json from file mtime, 162 in archive.json reusing each item's `archivedAt`). Sitemap + Article schema `datePublished`/`dateModified` are now load-bearing across the full catalogue. Build: 2,702 pages, 0 errors. |
+
+Manual trigger: `node scripts/backfill-date-added.mjs --run`. Default
+(no flag) is dry-run. Audit log written to `docs/date-added-backfill.log`
+(gitignored).
+
+### Known issue (deploy infra)
+
+After pushing the P1–P10 redesign + UX bundle (commits `a38fddb` →
+`900b5ff`), `surfaced-x.pages.dev` continues to serve the pre-P3 hero
+("Discover something remarkable") rather than the new editorial cover
+("What the internet surfaced today."). The GitHub `Daily Surfaced
+Edition` workflow ran successfully at 16:09 UTC against the new HEAD,
+so the source of truth is correct on `origin/main` — but Cloudflare
+Pages has not picked the deployment up. Requires CF dashboard access
+to inspect the project's branch/build config and trigger a redeploy.
