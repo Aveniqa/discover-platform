@@ -1,16 +1,39 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { getAllItems } from "@/lib/data";
+import { usePathname, useRouter } from "next/navigation";
+import { getAllItems, type AnyItem } from "@/lib/data";
 import { track } from "@/lib/analytics";
+
+/** Map a category-route prefix to the item type it lists. */
+const ROUTE_TO_TYPE: Record<string, AnyItem["type"]> = {
+  "/discover": "discovery",
+  "/trending": "product",
+  "/hidden-gems": "hidden-gem",
+  "/future-radar": "future-tech",
+  "/tools": "tool",
+};
 
 export function SurpriseMe({ variant = "button" }: { variant?: "button" | "fab" }) {
   const router = useRouter();
+  const pathname = usePathname();
 
   const handleClick = () => {
-    const items = getAllItems();
-    const random = items[Math.floor(Math.random() * items.length)];
-    track("surprise_me_click", { from: variant === "fab" ? "fab" : "inline", slug: random.slug });
+    // Scope to the current category when viewing one — keeps the surprise
+    // useful: clicking from /trending lands on a product, not a future-tech.
+    let pool = getAllItems();
+    let scope: string = "all";
+    for (const [prefix, type] of Object.entries(ROUTE_TO_TYPE)) {
+      if (pathname === prefix || pathname?.startsWith(`${prefix}/`)) {
+        const filtered = pool.filter((i) => i.type === type);
+        if (filtered.length > 0) {
+          pool = filtered;
+          scope = type;
+        }
+        break;
+      }
+    }
+    const random = pool[Math.floor(Math.random() * pool.length)];
+    track("surprise_me_click", { from: variant === "fab" ? "fab" : "inline", slug: random.slug, scope });
     router.push(`/item/${random.slug}`);
   };
 

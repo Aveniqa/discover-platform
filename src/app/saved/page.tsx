@@ -7,10 +7,13 @@ import {
   getItemBySlug,
   getItemTitle,
   getItemDescription,
+  getItemExcerpt,
   getCategoryColor,
   getCategoryLabel,
+  todaysPicks,
   type AnyItem,
 } from "@/lib/data";
+import { ItemImage } from "@/components/ui/ItemImage";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
@@ -100,7 +103,7 @@ export default function SavedPage() {
 
       {/* Empty State */}
       {savedItems.length === 0 && (
-        <div className="flex flex-col items-center justify-center py-20 text-center">
+        <div className="flex flex-col items-center justify-center py-12 text-center">
           <div className="w-20 h-20 rounded-2xl bg-surface-elevated border border-border flex items-center justify-center mb-6">
             <svg width="28" height="28" viewBox="0 0 16 16" fill="none" className="text-muted-foreground">
               <path
@@ -116,17 +119,49 @@ export default function SavedPage() {
             No saved items yet
           </h2>
           <p className="text-sm text-muted max-w-md mb-6">
-            Bookmark discoveries, products, hidden gems, and tools to build your personal collection. Click the star icon on any item to save it.
+            Bookmark discoveries, products, hidden gems, and tools to build your personal collection. Tap the star on any card to save it.
           </p>
           <Link
             href="/discover"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl btn-gradient text-sm cursor-pointer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl btn-gradient text-sm cursor-pointer mb-12"
           >
             Start Exploring
             <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
               <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </Link>
+
+          {/* Three suggestions from today's editorial picks */}
+          {todaysPicks.length > 0 && (
+            <div className="w-full max-w-4xl text-left">
+              <p className="text-[10px] font-bold uppercase tracking-[0.18em] text-muted-foreground mb-4 text-center">
+                Try one of today&rsquo;s picks
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                {todaysPicks.slice(0, 3).map((pick) => {
+                  const fullItem = getItemBySlug(pick.slug);
+                  if (!fullItem) return null;
+                  return (
+                    <Link
+                      key={pick.slug}
+                      href={`/item/${pick.slug}`}
+                      aria-label={`Read ${pick.title}`}
+                      className="group flex flex-col rounded-xl border border-border/60 bg-surface overflow-hidden hover:border-accent/30 transition-all"
+                    >
+                      <ItemImage slug={pick.slug} alt={pick.title} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                      <div className="p-4 flex flex-col flex-1">
+                        <CategoryBadge color={getCategoryColor(fullItem.type)} label={getCategoryLabel(fullItem.type)} className="mb-2 self-start" />
+                        <h3 className="text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-1">
+                          {pick.title}
+                        </h3>
+                        <p className="text-xs text-muted-foreground line-clamp-2">{getItemExcerpt(fullItem)}</p>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
       )}
 

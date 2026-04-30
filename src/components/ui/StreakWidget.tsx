@@ -3,11 +3,13 @@
 import { useState, useEffect } from "react";
 import { updateStreak } from "@/lib/engagement";
 
+// Milestones at 7/30/100 — sparse enough that hitting one feels earned.
+// The home toast (page.tsx) only fires when a milestone changes, so users
+// don't see the badge daily.
 const MILESTONES = [
-  { days: 30, emoji: "👑", label: "Legendary curator" },
-  { days: 14, emoji: "🏆", label: "Discovery master" },
+  { days: 100, emoji: "👑", label: "Legendary curator" },
+  { days: 30, emoji: "🏆", label: "Discovery master" },
   { days: 7, emoji: "⚡", label: "True explorer" },
-  { days: 3, emoji: "🔥", label: "On a roll" },
 ];
 
 export function getStreakMilestone(days: number) {
@@ -27,9 +29,13 @@ export function StreakWidget() {
   const icon = milestone ? milestone.emoji : "🔥";
 
   return (
-    <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/25 text-xs font-medium text-amber-300 shadow-[0_0_15px_rgba(251,191,36,0.08)]">
-      <span>{icon}</span>
-      <span className="font-medium">Day {streak} streak</span>
+    <div
+      className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/25 text-xs font-medium text-amber-300 shadow-[0_0_15px_rgba(251,191,36,0.08)]"
+      role="status"
+      aria-label={milestone ? `${milestone.label} — day ${streak} streak` : `Day ${streak} streak`}
+    >
+      <span aria-hidden="true">{icon}</span>
+      <span className="font-medium">Day {streak} streak{milestone ? ` · ${milestone.label}` : ""}</span>
     </div>
   );
 }
