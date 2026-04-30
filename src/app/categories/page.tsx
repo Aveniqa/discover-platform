@@ -104,7 +104,7 @@ export default function CategoriesPage() {
             One email. Every category. Five minutes. Zero noise.
           </p>
           <div className="mt-8 flex justify-center">
-            <NewsletterForm />
+            <NewsletterForm formId="newsletter-categories" ariaLabel="Subscribe — categories page" />
           </div>
         </div>
       </section>

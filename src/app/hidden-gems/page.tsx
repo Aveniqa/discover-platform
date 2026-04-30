@@ -285,7 +285,7 @@ export default function HiddenGemsPage() {
             The best hidden corners of the internet, straight to your inbox.
           </p>
           <div className="mt-8 flex justify-center">
-            <NewsletterForm />
+            <NewsletterForm formId="newsletter-hidden-gems" ariaLabel="Subscribe — hidden gems page" />
           </div>
         </div>
       </section>

@@ -190,7 +190,7 @@ export default function PremiumPage() {
           </p>
 
           <div className="max-w-md mx-auto">
-            <NewsletterForm />
+            <NewsletterForm formId="newsletter-premium" ariaLabel="Subscribe — premium page" />
           </div>
 
           <p className="mt-6 text-sm text-muted">

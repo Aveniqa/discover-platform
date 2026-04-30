@@ -707,7 +707,7 @@ export default async function ItemPage({ params }: Props) {
                 Free daily newsletter — zero spam, unsubscribe anytime.
               </p>
               <div className="max-w-sm mx-auto">
-                <NewsletterForm variant="minimal" data-capture-location="detail-page" />
+                <NewsletterForm variant="minimal" formId="newsletter-item" ariaLabel="Subscribe — item page" data-capture-location="detail-page" />
               </div>
             </div>
           </ScrollReveal>

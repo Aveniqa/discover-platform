@@ -461,7 +461,7 @@ export default function HomePage() {
               &mdash; 5 new finds delivered free every morning
             </p>
             <div className="shrink-0 w-full sm:w-auto">
-              <NewsletterForm variant="minimal" data-capture-location="homepage" />
+              <NewsletterForm variant="minimal" formId="newsletter-today" ariaLabel="Subscribe — homepage today's edition" data-capture-location="homepage" />
             </div>
           </div>
         </div>
@@ -526,17 +526,6 @@ export default function HomePage() {
         );
       })}
 
-      {/* ============================================
-          INLINE NEWSLETTER CTA (between carousels 3 & 4)
-          ============================================ */}
-      <section className="py-8 my-2 px-4 sm:px-6">
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="text-lg font-medium mb-1">Enjoying the discoveries?</p>
-          <p className="text-sm text-muted-foreground mb-4">Get the best 5 picks delivered to your inbox every morning.</p>
-          <NewsletterForm variant="minimal" />
-        </div>
-      </section>
-
       {categories.slice(3).map((cat) => {
         const allInCategory = getItemsForCategory(cat.key);
         const items = [...allInCategory]
@@ -592,28 +581,6 @@ export default function HomePage() {
           </section>
         );
       })}
-
-      {/* ============================================
-          NEWSLETTER CTA
-          ============================================ */}
-      <section className="section-divider relative py-12 sm:py-32 px-4 sm:px-6 overflow-hidden">
-        {/* Gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-accent/[0.04] via-surface to-background pointer-events-none" />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-accent/[0.06] blur-[120px] pointer-events-none" />
-
-        <div className="relative z-10 max-w-2xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground tracking-tight mb-4">
-            Get the best discoveries in your inbox every morning
-          </h2>
-          <p className="text-muted text-sm sm:text-base mb-8">
-            Join thousands of curious readers — free, every weekday
-          </p>
-          <div className="flex justify-center">
-            <NewsletterForm />
-          </div>
-          <p className="mt-3 text-xs text-muted-foreground/60">No spam, ever. Unsubscribe anytime.</p>
-        </div>
-      </section>
 
       {/* ============================================
           SOCIAL CTA

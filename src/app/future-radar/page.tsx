@@ -278,7 +278,7 @@ export default function FutureRadarPage() {
             Weekly briefings on the breakthroughs shaping tomorrow.
           </p>
           <div className="mt-8 flex justify-center">
-            <NewsletterForm />
+            <NewsletterForm formId="newsletter-future-radar" ariaLabel="Subscribe — future radar page" />
           </div>
         </div>
       </section>

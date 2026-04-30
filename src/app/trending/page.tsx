@@ -428,7 +428,7 @@ export default function TrendingPage() {
             Weekly product roundups, exclusive deals, and editor&apos;s picks.
           </p>
           <div className="mt-8 flex justify-center">
-            <NewsletterForm />
+            <NewsletterForm formId="newsletter-trending" ariaLabel="Subscribe — trending page" />
           </div>
         </div>
       </section>

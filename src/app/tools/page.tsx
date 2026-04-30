@@ -284,7 +284,7 @@ export default function ToolsPage() {
             Free tools, smart utilities, and life hacks delivered weekly.
           </p>
           <div className="mt-8 flex justify-center">
-            <NewsletterForm />
+            <NewsletterForm formId="newsletter-tools" ariaLabel="Subscribe — tools page" />
           </div>
         </div>
       </section>

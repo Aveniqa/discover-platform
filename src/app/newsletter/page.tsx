@@ -48,7 +48,7 @@ export default function NewsletterPage() {
 
           {/* Newsletter Form */}
           <div className="max-w-md mx-auto mb-4">
-            <NewsletterForm data-capture-location="newsletter-page" />
+            <NewsletterForm formId="newsletter-page-hero" ariaLabel="Subscribe — newsletter page" data-capture-location="newsletter-page" />
           </div>
           <p className="text-center text-xs text-muted-foreground/70 mb-16">No spam, ever. Unsubscribe in one click.</p>
 
@@ -148,7 +148,7 @@ export default function NewsletterPage() {
           {/* Bottom CTA */}
           <div className="mt-16 max-w-md mx-auto">
             <p className="text-muted mb-4">Ready to start discovering?</p>
-            <NewsletterForm variant="minimal" />
+            <NewsletterForm variant="minimal" formId="newsletter-page-bottom" ariaLabel="Subscribe — newsletter page bottom" />
           </div>
         </div>
       </section>

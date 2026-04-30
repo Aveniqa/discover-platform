@@ -274,7 +274,7 @@ export default function DiscoverPage() {
             Join thousands of curious readers. Five minutes every morning, zero spam.
           </p>
           <div className="mt-8 flex justify-center">
-            <NewsletterForm />
+            <NewsletterForm formId="newsletter-discover" ariaLabel="Subscribe — discover page" />
           </div>
         </div>
       </section>

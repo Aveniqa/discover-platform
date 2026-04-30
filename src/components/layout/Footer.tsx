@@ -55,7 +55,7 @@ export function Footer() {
               <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground mb-3">
                 Join the daily newsletter
               </p>
-              <NewsletterForm variant="minimal" data-capture-location="footer" />
+              <NewsletterForm variant="minimal" formId="newsletter-footer" ariaLabel="Subscribe — footer" data-capture-location="footer" />
               <p className="mt-3 text-xs text-muted-foreground/70">
                 No spam, ever. Unsubscribe anytime.
               </p>

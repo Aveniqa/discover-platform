@@ -10,12 +10,19 @@ const EMBED_ACTION = "https://buttondown.email/api/emails/embed-subscribe/surfac
 
 export function NewsletterForm({
   variant = "default",
+  formId = "newsletter",
+  ariaLabel = "Subscribe to the daily Surfaced newsletter",
   "data-capture-location": captureLocation,
 }: {
   variant?: "default" | "minimal";
+  /** Unique id base — feeds the input id and aria-labelledby pairing. */
+  formId?: string;
+  /** Accessible name for the form when no visible label is present. */
+  ariaLabel?: string;
   "data-capture-location"?: string;
 }) {
   const [submitted, setSubmitted] = useState(false);
+  const inputId = `${formId}-email`;
 
   if (submitted) {
     return (
@@ -31,13 +38,17 @@ export function NewsletterForm({
   if (variant === "minimal") {
     return (
       <form
+        id={formId}
+        aria-label={ariaLabel}
         action={EMBED_ACTION}
         method="post"
         target="_blank"
         onSubmit={() => setSubmitted(true)}
         className="flex gap-2"
       >
+        <label htmlFor={inputId} className="sr-only">Email address</label>
         <input
+          id={inputId}
           type="email"
           name="email"
           placeholder="Enter your email"
@@ -55,13 +66,17 @@ export function NewsletterForm({
 
   return (
     <form
+      id={formId}
+      aria-label={ariaLabel}
       action={EMBED_ACTION}
       method="post"
       target="_blank"
       onSubmit={() => setSubmitted(true)}
       className="flex flex-col sm:flex-row gap-3 max-w-md"
     >
+      <label htmlFor={inputId} className="sr-only">Email address</label>
       <input
+        id={inputId}
         type="email"
         name="email"
         placeholder="your@email.com"
