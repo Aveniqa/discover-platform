@@ -1,0 +1,27 @@
+# RSC prefetch stubs — Next 16 client prefetches __next.*.txt sidecars per
+# route, but our static export strips most of them to fit CF Pages' 20,000-file
+# per-deployment cap. Serve an empty 200 (with a minimal valid RSC body) for
+# any stripped sidecar so the runtime falls back silently instead of 404-
+# spamming the console + tanking Lighthouse best-practices.
+#
+# CF Pages allows one splat (*) and any number of placeholders (:name) per
+# redirect rule. Each route prefix needs its own rule.
+
+/__next.* /__rsc-empty.txt 200
+/saved/__next.* /__rsc-empty.txt 200
+/discover/__next.* /__rsc-empty.txt 200
+/trending/__next.* /__rsc-empty.txt 200
+/hidden-gems/__next.* /__rsc-empty.txt 200
+/future-radar/__next.* /__rsc-empty.txt 200
+/tools/__next.* /__rsc-empty.txt 200
+/categories/__next.* /__rsc-empty.txt 200
+/collections/__next.* /__rsc-empty.txt 200
+/about/__next.* /__rsc-empty.txt 200
+/newsletter/__next.* /__rsc-empty.txt 200
+/contact/__next.* /__rsc-empty.txt 200
+/premium/__next.* /__rsc-empty.txt 200
+/privacy/__next.* /__rsc-empty.txt 200
+/terms/__next.* /__rsc-empty.txt 200
+/affiliate-disclosure/__next.* /__rsc-empty.txt 200
+/collections/:slug/__next.* /__rsc-empty.txt 200
+/item/:slug/__next.* /__rsc-empty.txt 200
