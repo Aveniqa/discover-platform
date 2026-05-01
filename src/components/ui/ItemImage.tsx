@@ -68,6 +68,7 @@ export function ItemImage({
       {!imageUrl || errored ? (
         <ImagePlaceholder aspectRatio={aspectRatio} />
       ) : (
+        // eslint-disable-next-line @next/next/no-img-element
         <img
           src={imageUrl}
           {...(srcSet ? { srcSet: srcSet.srcSet, sizes: defaultSizes } : {})}

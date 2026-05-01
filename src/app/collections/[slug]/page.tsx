@@ -2,7 +2,6 @@ import {
   collections_data,
   getItemBySlug,
   getItemTitle,
-  getItemDescription,
   getItemExcerpt,
   getCategoryColor,
   getCategoryLabel,

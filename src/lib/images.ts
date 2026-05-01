@@ -28,8 +28,8 @@ const sizeDims: Record<string, string> = {
  */
 export function getItemImageUrl(
   slug: string,
-  width = 600,
-  height = 400,
+  _width = 600,
+  _height = 400,
   size: "sm" | "md" | "lg" | "og" = "md"
 ): string | null {
   const url = cache[slug];

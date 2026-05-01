@@ -178,7 +178,7 @@ export function GemCard({
   title,
   description,
   url,
-  category,
+  category: _category,
   tag,
   tagColor,
   upvotes,

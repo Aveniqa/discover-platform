@@ -75,31 +75,6 @@ function accentBar(type: string): string {
   return `bg-gradient-to-r ${m[c] || m.indigo}`;
 }
 
-function CountUp({ to, duration = 1400 }: { to: number; duration?: number }) {
-  const [n, setN] = useState(0);
-  const ref = useRef<HTMLSpanElement>(null);
-  const done = useRef(false);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const ob = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting && !done.current) {
-        done.current = true;
-        const t0 = performance.now();
-        const tick = (now: number) => {
-          const p = Math.min((now - t0) / duration, 1);
-          setN(Math.round((1 - Math.pow(1 - p, 3)) * to));
-          if (p < 1) requestAnimationFrame(tick);
-        };
-        requestAnimationFrame(tick);
-      }
-    }, { threshold: 0.5 });
-    ob.observe(el);
-    return () => ob.disconnect();
-  }, [to, duration]);
-  return <span ref={ref}>{n}</span>;
-}
-
 /* ---- Page Component ---- */
 
 export default function HomePage() {

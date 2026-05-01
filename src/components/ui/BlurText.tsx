@@ -48,7 +48,7 @@ export function BlurText({
   const words = children.split(" ");
 
   return (
-    // @ts-ignore — dynamic tag assignment
+    // @ts-expect-error — dynamic tag assignment
     <Tag ref={ref} className={`inline ${className}`} aria-label={children} role={Tag === "span" ? "text" : undefined}>
       {words.map((word, i) => (
         <span

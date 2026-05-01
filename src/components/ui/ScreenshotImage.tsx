@@ -8,7 +8,7 @@ interface ScreenshotImageProps {
   fallbackSlug?: string;
 }
 
-export function ScreenshotImage({ src, alt, fallbackSlug }: ScreenshotImageProps) {
+export function ScreenshotImage({ src, alt, fallbackSlug: _fallbackSlug }: ScreenshotImageProps) {
   const [errored, setErrored] = useState(false);
 
   if (errored) {
