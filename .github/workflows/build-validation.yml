@@ -17,7 +17,7 @@ permissions:
 jobs:
   validate-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -158,6 +158,48 @@ jobs:
           echo ""
           echo "✅ All data files valid."
 
+      - name: Affiliate integrity check
+        if: success()
+        run: |
+          node -e "
+            const products = require('./data/products.json');
+            const bad = products.filter(p => p.availableOnAmazon && !p.amazonAsin);
+            if (bad.length) {
+              console.error('FAIL: ' + bad.length + ' product(s) have availableOnAmazon:true without amazonAsin:');
+              bad.forEach(p => console.error('  - ' + p.slug));
+              process.exit(1);
+            }
+            const good = products.filter(p => p.availableOnAmazon).length;
+            console.log('OK: ' + good + ' Amazon product(s) have valid ASINs');
+          "
+
+      - name: HTTPS outbound link check
+        if: success()
+        run: |
+          node -e "
+            const linkFields = {
+              'daily-tools':  'websiteLink',
+              'hidden-gems':  'websiteLink',
+              'discoveries':  'sourceLink',
+              'products':     'sourceLink',
+              'future-radar': 'sourceLink',
+            };
+            const bad = [];
+            for (const [file, field] of Object.entries(linkFields)) {
+              const items = require('./data/' + file + '.json');
+              items.forEach(i => {
+                if (i[field] && i[field].startsWith('http://'))
+                  bad.push(file + ' / ' + i.slug + ': ' + i[field]);
+              });
+            }
+            if (bad.length) {
+              console.error('FAIL: ' + bad.length + ' outbound link(s) use http:// (must be https://):');
+              bad.forEach(b => console.error('  - ' + b));
+              process.exit(1);
+            }
+            console.log('OK: all outbound links use https://');
+          "
+
       - name: Spot-check critical pages exist
         if: success()
         run: |
@@ -273,7 +315,7 @@ jobs:
 
       - name: Upload Lighthouse reports
         if: always() && steps.lighthouse.outcome != 'skipped'
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v4
         with:
           name: lighthouse-reports
           path: .lighthouseci/
