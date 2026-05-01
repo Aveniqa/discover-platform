@@ -319,3 +319,37 @@ P2 in the original audit and out of scope for this pass.
 | `c97278a` | docs: deploy-unblocked snapshot |
 | `5d2c36c` | fix: stub stripped RSC sidecars via CF _redirects |
 | `b611bdd` | data: strip mixed-content http:// image URLs from cache |
+
+---
+
+## 2026-05-01 — live audit pass
+
+Multi-URL Lighthouse run against the deployed site surfaced two
+clusters of fixable issues, both shipped in `edfc8db`.
+
+### Lighthouse delta (mobile cold, 4G throttle)
+
+| Page | Performance | Accessibility | Best practices | SEO | Console errors |
+|---|---|---|---|---|---|
+| Home  | 71 → **80** (+9) | 95 → 95 | 73 | 100 | **61 → 3** (−58) |
+| Discover | 68 → **82** (+14) | 91 → **97** (+6) | 73 | 100 | 3 → 3 |
+| Trending | 66 (audit) | 91 | 73 | 100 | 3 |
+| Item | 79 | 97 | 73 | 100 | 3 |
+| Collections | 64 | 96 | 73 | 100 | 3 |
+
+### Fixes shipped
+
+| SHA | Change |
+|---|---|
+| `edfc8db` | **Image cache cleanup** — stripped 232 entries from `data/image-cache.json` pointing at HTTPS origins not in our CSP `img-src` allowlist (`opengraph.githubassets.com`, `cdn.prod.website-files.com`, `storyblok.com`, GitHub repository-images, datocms-assets, etc.). Affected slugs render the gradient placeholder until the next image-fetch run repopulates from Pexels/Unsplash. **A11y across listings** — added `aria-label="Sort items"` to all 5 sort `<select>` elements; bumped unselected filter chip contrast from `text-muted-foreground` (#6E6E82, 3:1) to `text-muted` (#8E8EA0, 5:1, passes WCAG AA); promoted card titles from h3 → h2 to fix h1→h3 heading-order skip. |
+
+### Remaining best-practices ceiling (intentional)
+
+73/100 across all pages. Three structural fails:
+
+- **Third-party cookies** — AdSense + Pexels CDN. Can't fix without
+  dropping ads/external imagery.
+- **Missing source maps** — Next 16 production builds skip them by
+  default. Enabling `productionBrowserSourceMaps: true` inflates the
+  bundle ~30-50%; not worth it just for the LH sub-audit.
+- **Issues panel** — rolls up the cookie + remaining CSP flags.
