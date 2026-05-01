@@ -199,6 +199,7 @@ export default function HiddenGemsPage() {
                 <p className="text-sm text-muted-foreground line-clamp-1 mb-4">
                   {getItemExcerpt(item)}
                 </p>
+                {item.websiteLink && (
                 <div className="mt-auto">
                   <a
                     href={item.websiteLink}
@@ -211,6 +212,7 @@ export default function HiddenGemsPage() {
                     Visit Site →
                   </a>
                 </div>
+                )}
                 </div>
               </div>
               </TiltCard>

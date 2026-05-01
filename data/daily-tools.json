@@ -864,7 +864,8 @@
     "whyItIsUseful": "Empower Personal Dashboard eliminates the fragmentation of financial information, allowing users to see their entire financial picture without logging into multiple accounts. For the individual tracking retirement savings across different brokerage accounts, it provides a unified view of their entire portfolio, including asset allocation and performance against benchmarks. For a family managing diverse investments, savings, and debts, it offers a single source of truth for their net worth, helping them make informed long-term financial decisions. The core dashboard and tracking features are completely free, making it incredibly useful for anyone seeking a comprehensive financial overview. While many banks offer their own dashboards, Empower aggregates data from virtually any institution, providing a truly consolidated view and sophisticated investment analysis that individual banks lack. Its fee analyzer, which identifies hidden investment fees, is a powerful feature that can save users significant money over time. Setting up the dashboard, while requiring connecting multiple accounts, is straightforward and generally takes under 10-15 minutes for a non-technical person.",
     "imageIdea": "Empower Personal Dashboard showing a detailed net worth graph and investment portfolio breakdown",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://empower.com"
   },
   {
     "id": 247,
@@ -935,7 +936,8 @@
     "whyItIsUseful": "Dext Prepare solves the headache of manual data entry and reconciliation, ensuring accurate financial records and freeing up valuable time for businesses and their accountants. For a sole proprietor, it means no more shoeboxes full of receipts; every expense is digitized and ready for tax time with minimal effort. For an accounting firm, Dext Prepare automates the tedious process of client bookkeeping, allowing them to focus on advisory services rather than data input. While Dext Prepare primarily offers paid subscription plans for businesses and accountants, its efficiency gains justify the cost, and many accounting firms offer it as part of their service package. Compared to manual data entry or basic OCR tools, Dext Prepare offers robust AI, direct integrations with accounting software, and advanced audit trails. Its intelligent categorization and supplier rules, which learn from user input, are powerful features that further automate the process. A non-technical person can easily upload documents via the mobile app within minutes, though setting up integrations requires some initial configuration.",
     "imageIdea": "Dext Prepare app showing a scanned receipt with automatically extracted data fields",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://dext.com"
   },
   {
     "id": 179,
@@ -994,7 +996,8 @@
     "whyItIsUseful": "QuickBooks Self-Employed solves the unique financial challenges of self-employment, particularly the complexity of tax preparation and managing irregular income. For a freelance web developer, it automatically categorizes project income and software expenses, making quarterly tax estimates accurate and less stressful. For a gig worker, it simplifies tracking mileage and identifying business deductions, potentially saving hundreds or thousands during tax season. QuickBooks Self-Employed offers a 30-day free trial that is genuinely useful for experiencing its full capabilities, followed by a paid monthly subscription. Unlike using separate apps for mileage, expense tracking, and tax estimation, QuickBooks Self-Employed provides a unified platform designed specifically for the self-employed, integrating seamlessly with TurboTax. Its 'Tax Ready' reports, summarizing all income and expenses for Schedule C, are powerful features that streamline tax filing. A non-technical self-employed individual can easily link their accounts and begin tracking expenses and mileage in under 15 minutes.",
     "imageIdea": "QuickBooks Self-Employed app showing a dashboard with income, expenses, and estimated quarterly taxes",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://quickbooks.intuit.com/self-employed/"
   },
   {
     "id": 184,
@@ -1294,7 +1297,8 @@
     "whyItIsUseful": "Flow masterfully eliminates the dual challenge of managing time and resisting digital temptations by integrating a structured timer with an effective blocker. For the designer needing to concentrate on a complex project, Flow ensures that social media and email clients are inaccessible during work sprints, fostering deep creative work. For the freelancer juggling client tasks, it helps them dedicate specific, uninterrupted blocks of time to each project, improving efficiency and meeting deadlines. Flow is a paid application available for purchase on the Mac App Store, often with a trial via Setapp, which allows for thorough evaluation before commitment. Compared to separate Pomodoro timers and blocking apps, Flow excels by providing a cohesive, aesthetically pleasing, and tightly integrated experience tailored for macOS. A power feature is the \"Strict Mode,\" which prevents prematurely stopping a session, offering an additional layer of commitment to focused work. A non-technical person can set up their first focus session in under 3 minutes.",
     "imageIdea": "A sleek macOS interface showing a countdown timer, with a subtle list of blocked websites/apps visible in the background or a pop-up.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://flowapp.info"
   },
   {
     "id": 238,
@@ -1485,7 +1489,8 @@
     "whyItIsUseful": "KitchenPal directly eliminates the common problem of food waste due to forgotten or expired items, saving money and reducing environmental impact. For the household manager aiming for a zero-waste kitchen, it provides a clear overview of all perishables, prompting timely consumption or meal planning. For the budget-conscious shopper, it suggests meals using ingredients already on hand, reducing impulse buys and ensuring groceries are fully utilized. The free tier offers robust pantry tracking and basic recipe suggestions, making it genuinely useful for managing household inventory, with premium unlocking advanced recipe search and family sharing. Compared to generic shopping list apps, KitchenPal's strength lies in its active pantry management and recipe integration, turning ingredients into meals. A power feature is its ability to scan physical grocery receipts to automatically populate your digital pantry. Even a non-technical person can easily add their first few items and start tracking within 5 minutes.",
     "imageIdea": "KitchenPal app interface showing a list of pantry items with expiry dates and suggested recipes",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://kitchenpalapp.com"
   },
   {
     "id": 258,
@@ -1520,7 +1525,8 @@
     "whyItIsUseful": "Productive addresses the challenge of habit consistency by providing a highly structured and visually appealing environment for habit management, reducing the likelihood of forgetting. For the professional aiming to integrate regular learning into their busy schedule, Productive's flexible scheduling and smart reminders ensure they're prompted at the right moment, making consistent progress achievable. For the individual trying to improve their sleep hygiene, the app allows tracking multiple related habits (e.g., 'no screens before bed,' 'bedtime by 10 PM') and offers insights into overall routine adherence. The free tier allows tracking of a limited number of habits with core features, which is useful for basic habit building, while premium unlocks unlimited habits, advanced statistics, and richer customization. Compared to minimalist trackers like Done, Productive wins with its more robust scheduling options, detailed analytics, and a greater emphasis on routine building rather than just streak tracking. A power feature is the ability to create 'chains' of habits, prompting users to complete one habit after another for a seamless routine. A non-technical person can easily set up their first habit and schedule reminders in under 4 minutes, thanks to its user-friendly and guided setup process.",
     "imageIdea": "Modern mobile app interface displaying a list of habits with progress bars, scheduled times, and a vibrant color scheme on a smartphone.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://productiveapp.io"
   },
   {
     "id": 263,
@@ -1567,7 +1573,8 @@
     "whyItIsUseful": "Done solves the problem of overly complex habit trackers by offering a streamlined, aesthetically pleasing experience that gets out of your way. For the digital minimalist who wants to track their daily meditation without bells and whistles, Done offers a simple, effective interface. For the busy parent needing a quick way to log their 'drank water' or 'read to kids' habit amidst a hectic schedule, the intuitive swipe gesture makes tracking effortless. The free version is genuinely useful for tracking up to three habits with full functionality, making it a great lightweight option for basic needs. Compared to feature-rich apps like 'Productive,' Done wins with its sheer simplicity, focusing solely on the core tracking experience without additional distractions or complex settings. A power feature is the ability to export all habit data for personal analysis, giving advanced users full control over their historical information. The app's straightforward design ensures that even a non-technical person can set up their first habit and start tracking in under 30 seconds.",
     "imageIdea": "Done app interface showing a clean list of habits with colorful progress bars and streak counts, against a simple white or dark background.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://apps.apple.com/app/done-a-simple-habit-tracker/id1103961876"
   },
   {
     "id": 269,
@@ -1614,7 +1621,8 @@
     "whyItIsUseful": "SnippetsLab eliminates the common problem of fragmented and hard-to-find code by centralizing and categorizing all your reusable code fragments. For a freelance macOS developer, it's indispensable for storing frequently used Apple API calls, UI components, and project setup scripts, significantly speeding up development. A university student learning multiple programming languages can keep all their syntax examples, algorithm implementations, and common boilerplate code perfectly organized and readily available. The free trial offers full functionality for a limited period, after which a one-time purchase is required, making it a worthwhile investment for dedicated users. While GitHub Gist is great for sharing, SnippetsLab excels in deep local organization and powerful search capabilities within a dedicated desktop application. A power feature is the integration with various IDEs and text editors, allowing for quick snippet insertion without leaving your coding environment. The learning curve is relatively low; a non-technical person could set it up and save their first few snippets with basic tags within 5-10 minutes.",
     "imageIdea": "SnippetsLab macOS application interface showing a list of snippets, a search bar, and a code editor with syntax highlighting.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.renfei.org/snippets-lab/"
   },
   {
     "id": 273,
@@ -1649,7 +1657,8 @@
     "whyItIsUseful": "Lepton solves the problem of managing and finding your GitHub Gists, bringing them to a powerful desktop application instead of relying solely on the web interface. For the developer who frequently shares code via GitHub Gist, Lepton offers a much more pleasant and efficient experience for creating, editing, and searching their shared snippets. For the open-source contributor, it provides a simple way to keep track of useful community-contributed gists by 'starring' them within the app. Lepton is completely free and open-source, offering all its features without any cost, making it an excellent option for developers seeking a robust, no-cost solution. Compared to simply using the GitHub Gist website, Lepton provides a faster, more native experience with advanced search capabilities and offline access. The ability to 'star' gists from other users and easily pull them into your local collection is a powerful feature for leveraging community knowledge. Its clean, intuitive interface ensures that even a relatively non-technical user could set it up and start organizing their snippets within minutes.",
     "imageIdea": "Lepton desktop interface showing a list of snippets, a search bar, and a markdown editor with code blocks.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://github.com/hackjutsu/Lepton"
   },
   {
     "id": 276,
@@ -1660,7 +1669,8 @@
     "whyItIsUseful": "Raycast Snippets eliminates the tedious and error-prone process of manually retyping common phrases, URLs, or complex code structures, boosting daily productivity significantly. For the customer support agent, it's perfect for quickly inserting templated email responses, common troubleshooting steps, or links to help articles with just a few keystrokes. For the developer, it allows for instant expansion of boilerplate code, common Git commands, or frequently used function signatures directly within their IDE or terminal. Raycast offers a generous free tier that includes full snippet functionality, making it genuinely useful without needing a subscription, though Pro plans add cloud sync and AI features. Unlike dedicated snippet managers that require opening an app, Raycast's system-wide text expansion is far more immediate and integrated into your workflow, saving constant context switching. The ability to use dynamic variables within snippets (like current date or clipboard content) is a power feature that unlocks highly customizable and intelligent text expansions. A non-technical person can easily set up their first snippet in under a minute, given Raycast's intuitive interface.",
     "imageIdea": "Raycast command bar open, showing a snippet being expanded in a text editor, or Raycast preferences with a list of snippets and their keywords.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.raycast.com"
   },
   {
     "id": 277,
@@ -1683,7 +1693,8 @@
     "whyItIsUseful": "Boostnote tackles the problem of developers juggling multiple tools for notes, code snippets, and project documentation by offering a unified, developer-friendly solution. For the software architect planning a new system, Boostnote provides an ideal space to outline design decisions in markdown, interspersing diagrams and code examples as needed. For the student learning to code, it's perfect for keeping class notes, project ideas, and practical code snippets organized by course or topic. Boostnote is completely free and open-source, offering full functionality without any paid tiers, making it an excellent and accessible choice for all developers. Unlike general-purpose note apps, Boostnote's focus on markdown and code highlighting, along with its snippet-specific features, makes it a superior tool for technical documentation. The ability to export notes and snippets to various formats (like PDF or HTML) is a power feature for sharing documentation outside the app. Its intuitive markdown editor and folder structure mean a non-technical person could easily set up and start using it for basic note-taking in less than five minutes.",
     "imageIdea": "Boostnote desktop interface showing a list of markdown notes and snippet notes, a preview pane with syntax-highlighted code blocks.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://boostnote.io"
   },
   {
     "id": 279,
@@ -1694,7 +1705,8 @@
     "whyItIsUseful": "Quiver eliminates the fragmentation of developer notes, where code snippets live in one app, markdown explanations in another, and rich text in a third, by unifying them in a flexible notebook. For the software architect creating design documents, Quiver allows them to integrate code examples, architectural diagrams (via markdown image embeds), and detailed explanations all within one cohesive note. For the educator preparing coding lectures, it offers an excellent platform to combine pedagogical explanations with runnable code examples, ensuring clarity and context. Quiver is a paid, one-time purchase application, offering full features without recurring subscriptions, making it a robust, long-term asset for macOS users. Compared to general-purpose note apps, Quiver's cell-based editor and deep developer-centric features like code syntax highlighting and live markdown preview make it far superior for technical documentation. The ability to run code directly within a note (for some languages/environments) is a powerful feature that elevates it beyond a static notebook. Its macOS-native design and intuitive interface mean a non-technical person can easily create simple rich-text notes within five minutes.",
     "imageIdea": "Quiver macOS interface showing a note composed of multiple cells: a markdown cell, a code cell with syntax highlighting, and a rich text cell.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://happenapps.com/#quiver"
   },
   {
     "id": 280,
@@ -1981,7 +1993,8 @@
     "whyItIsUseful": "Snagit eliminates the inefficiency of using multiple disparate tools for capturing, editing, and sharing visual information, consolidating the workflow into one application. For the marketing professional, it's ideal for quickly grabbing website snippets, adding explanatory text, and compiling visual assets for presentations or social media posts. For the IT support specialist, it simplifies troubleshooting by allowing them to record complex software issues or demonstrate solutions with clear annotations. Snagit is a premium, paid application, but its one-time purchase includes updates for a year and provides immense value, making the investment worthwhile for serious users. It outcompetes many basic screenshot tools with its advanced editing capabilities, such as 'Grab Text' from an image or 'Simplify' images by removing distracting elements. A power feature is its ability to extract text from a screenshot, making information instantly editable and reusable. The learning curve is moderate; while basic capture is simple, mastering the editor's full potential takes a bit of exploration, but its intuitive design makes it accessible.",
     "imageIdea": "Snagit Editor interface showing a screenshot with various annotations (arrows, text, blur) applied, and a toolbar visible.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.techsmith.com/screen-capture.html"
   },
   {
     "id": 313,
@@ -2520,7 +2533,8 @@
     "whyItIsUseful": "ShopWell eliminates the overwhelming and time-consuming task of reading tiny nutrition labels in grocery aisles, making informed food choices quick and easy. For the individual with severe food allergies, it acts as a crucial safety net, instantly identifying potential allergens in products and recommending safe alternatives, preventing accidental exposure. For the health-conscious shopper, it provides clear, personalized scores for each product, guiding them towards healthier options that align with their specific dietary goals like reducing sugar or increasing fiber. ShopWell is entirely free to use, making its invaluable health guidance accessible to everyone without any hidden costs or premium subscriptions. Compared to generic nutrition trackers like MyFitnessPal, ShopWell excels in its real-time, in-store product analysis and personalized recommendations, directly assisting with purchasing decisions. A power feature is the ability to receive personalized recommendations for better-suited products when a scanned item doesn't align with your profile. The learning curve is very low; a non-technical person can set up their profile and scan their first product in under 5 minutes.",
     "imageIdea": "Hand holding a smartphone scanning a grocery item with the ShopWell app displaying a health score and ingredient breakdown.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://shopwell.com"
   },
   {
     "id": 414,
@@ -2891,7 +2905,8 @@
     "whyItIsUseful": "Session eliminates the struggle of maintaining consistent focus during work and provides clear insights into how time is spent. For a software developer, Session helps structure coding time into manageable blocks, preventing burnout and ensuring regular, rejuvenating breaks. A graphic designer can use Session to timebox creative bursts for different client projects, ensuring balanced attention across their workload and tracking time for billing. The free tier is genuinely useful, offering full Pomodoro timer functionality and basic analytics, while paid plans unlock advanced analytics, integrations, and optional cloud sync. Compared to simpler web-based Pomodoro timers, Session wins with its robust desktop integration, comprehensive local data tracking, and insightful productivity reports. The detailed analytics dashboard, showing focus trends and completed sessions over time, is a power feature for optimizing one's work habits. The application is straightforward to set up, and a non-technical person can start their first Pomodoro session in under 3 minutes.",
     "imageIdea": "Session app desktop interface showing a running Pomodoro timer and simple analytics graph",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.stayinsession.com"
   },
   {
     "id": 524,
@@ -2974,7 +2989,8 @@
     "whyItIsUseful": "PlateJoy eliminates the immense cognitive load and planning time associated with maintaining a strict or complex diet, making healthy eating sustainable for busy individuals. For the person managing specific health conditions requiring a particular diet (e.g., diabetic, gluten-free), it delivers compliant and delicious meal plans without the stress of constant ingredient checking. For the fitness enthusiast with specific macros and cooking preferences, it constructs tailored menus that align with their training regimen. PlateJoy operates on a subscription model, offering a free trial; its value is in the high degree of personalization, which justifies the cost for those with complex dietary needs. Unlike generic meal planners, PlateJoy's strength lies in its sophisticated algorithm that accounts for ingredient reuse and minimizes waste, a feature often overlooked by competitors. A power feature is the ability to connect with smart scales and fitness trackers to adjust meal plans based on real-time data. While the initial questionnaire takes a few minutes, a non-technical person can easily navigate the setup and receive their first plan.",
     "imageIdea": "PlateJoy app showing a personalized weekly meal plan with diverse, healthy recipes and an ingredient list.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.platejoy.com"
   },
   {
     "id": 549,
@@ -3009,7 +3025,8 @@
     "whyItIsUseful": "Done elegantly solves the problem of information overload in habit tracking, presenting progress in a visually appealing and easy-to-digest format. For the student trying to consistently read for 30 minutes each day, Done provides a simple, satisfying way to log their reading, reinforcing their commitment with a growing streak. For the individual focused on breaking a bad habit like excessive social media use, the app allows them to track 'don't do' habits, making the absence of the behavior feel like a win. The free tier allows tracking of up to 3 habits with full functionality, making it genuinely useful for starting, while premium unlocks unlimited habits and advanced customization. Compared to comprehensive trackers like Habitify, Done wins by focusing on core functionality and visual clarity, making it less overwhelming for new users. A power feature is the ability to choose between building streaks (good habits) or breaking streaks (bad habits), providing flexible tracking for different goals. A non-technical person can download and set up their first habit in under 2 minutes, thanks to its minimalist design and intuitive controls.",
     "imageIdea": "Clean iOS app interface on an iPhone, showing a single habit with a colorful progress bar and a calendar grid highlighting green completed days.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://apps.apple.com/app/done-a-simple-habit-tracker/id1103961876"
   },
   {
     "id": 559,
@@ -3500,7 +3517,8 @@
     "whyItIsUseful": "Blur eliminates the pervasive problem of data breaches and online tracking by creating a protective layer around your personal information, preventing direct exposure. For an online shopper, it allows the creation of virtual credit cards with specific limits, making purchases safer by never exposing their real card number to vendors. A privacy advocate can use Masked Emails to sign up for newsletters or services without revealing their primary email, significantly reducing spam and preventing their address from being sold. Blur offers a robust free tier with unlimited password management and basic email masking, while a premium subscription unlocks advanced features like Masked Cards and phone masking. Blur distinguishes itself from standard password managers by offering a holistic privacy suite, including email and credit card masking, which is a significant advantage over competitors. The power feature, \"Block Trackers,\" automatically blocks advertising and analytics trackers across the web, providing a quieter, more private browsing experience for advanced users. Setting up Blur's browser extension and creating your first masked email takes a non-technical person less than 5 minutes.",
     "imageIdea": "Blur browser extension pop-up showing options for masked email, masked card, and password fill.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.abine.com/blur/"
   },
   {
     "id": 605,
@@ -3655,7 +3673,8 @@
     "whyItIsUseful": "Focus Keeper addresses the challenge of maintaining sustained concentration and preventing burnout by providing a clear, structured framework for focused work and regular breaks. For the entrepreneur working from a coffee shop, Focus Keeper offers a portable and non-intrusive way to manage intense work sprints and ensure necessary mental rests. For the high school student tackling homework, the app provides a simple yet effective method to break down study sessions, making daunting tasks more manageable and improving retention. The app offers a fully functional free version with ads, which is genuinely useful for most users, while a one-time in-app purchase removes ads and unlocks themes. Compared to complex productivity suites, Focus Keeper's strength lies in its singular focus on the Pomodoro Technique, offering an uncluttered and highly effective experience. A power feature is the detailed statistics view, which helps users track their focused time and break patterns over days, weeks, and months. The app is extremely user-friendly; a non-technical person can download it and start their first Pomodoro session in under 1 minute.",
     "imageIdea": "Focus Keeper mobile app interface showing a large, colorful circular timer with 'Work' or 'Break' displayed centrally",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://apps.apple.com/app/focus-keeper-time-management/id867374917"
   },
   {
     "id": 618,
@@ -3702,7 +3721,8 @@
     "whyItIsUseful": "Tiller Money eliminates the frustration of manual data entry for spreadsheet enthusiasts who prefer the ultimate customization of a spreadsheet over a rigid app interface. For the data analyst who loves manipulating numbers and building custom reports, Tiller provides a clean, automated data feed directly into their preferred analytical environment. For a small business owner tracking personal and business expenses separately in spreadsheets, Tiller streamlines the data import process, freeing up time for analysis rather than manual logging. Tiller offers a 30-day free trial, after which it requires a paid annual subscription, meaning the free tier is solely for evaluation. Compared to traditional budgeting apps like Monarch Money or YNAB, Tiller wins by offering unparalleled flexibility and ownership of data, appealing to users who want to build their own budgeting system. A power feature is the vibrant community and template library, allowing users to leverage advanced spreadsheet solutions created by others. The learning curve is moderate to high; while connecting accounts is easy, building or customizing a robust budgeting system in a spreadsheet requires some technical comfort with spreadsheets, likely taking a non-technical person more than 30 minutes to set up effectively.",
     "imageIdea": "Google Sheet or Excel spreadsheet showing categorized financial transactions populated by Tiller, with custom charts.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.tillerhq.com"
   },
   {
     "id": 622,
@@ -3749,7 +3769,8 @@
     "whyItIsUseful": "PocketGuard solves the problem of unknowingly overspending or missing opportunities to save by providing a clear, real-time picture of disposable income. For the budget-conscious individual prone to impulse buys, its \"IN MY POCKET\" feature acts as a constant, gentle reminder of their actual spending limit. For someone trying to cut down on unnecessary expenses, PocketGuard automatically detects subscriptions and suggests ways to negotiate better rates or cancel unused services. PocketGuard offers a genuinely useful free tier that includes basic budgeting, transaction tracking, and bill management, with a paid Plus subscription for advanced features like debt payoff planning and custom categories. Compared to more granular budgeting apps like Goodbudget, PocketGuard focuses more on immediate spending control and identifying savings, winning on simplicity and actionable suggestions for reducing expenses. A power feature is its \"negotiate your bills\" service, which helps users find better deals on their existing subscriptions. The learning curve is low; a non-technical person can connect accounts and understand their spending limits in under 10 minutes.",
     "imageIdea": "Mobile app screenshot showing \"IN MY POCKET\" amount, upcoming bills, and identified subscriptions.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://pocketguard.com"
   },
   {
     "id": 626,
@@ -3771,7 +3792,7 @@
     "category": "Finance",
     "whyItIsUseful": "HomeBank eliminates the need for expensive commercial budgeting software and provides a simple, privacy-focused solution for basic personal accounting. For the retiree who prefers a straightforward, offline method to track their pension and household expenses, HomeBank offers a clear and uncluttered interface. For a student managing a tight budget without wanting to link to online accounts, its manual entry and import features provide full control over their financial data. HomeBank is completely free and open-source, offering its full suite of features without any paid tiers or advertisements, making it genuinely useful for anyone. Compared to GnuCash, HomeBank offers a much simpler interface and a gentler learning curve, winning on ease of use for those who don't need professional double-entry accounting. A power feature is its extensive category management with sub-categories, allowing for detailed organization of income and expenses. The learning curve is low; a non-technical person can download, install, and start tracking their basic income and expenses in under 15 minutes.",
     "imageIdea": "HomeBank desktop interface showing a simple transaction list, category breakdown, and a basic report.",
-    "websiteLink": "http://homebank.free.fr/",
+    "websiteLink": "https://homebank.free.fr/",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -3784,7 +3805,8 @@
     "whyItIsUseful": "Bills Reminder eliminates the stress and financial penalty of forgotten bill payments, providing a simple, dedicated solution for keeping track of all recurring expenses. For the busy parent juggling multiple household responsibilities, Bills Reminder ensures that utilities, school fees, and subscriptions are never overlooked. For a young adult new to managing their own finances, it offers a foundational tool to build good payment habits and avoid unnecessary late fees. The app often offers a genuinely useful free version with basic bill tracking and notifications, with a one-time in-app purchase for advanced features like unlimited bills or customizable themes. Compared to full-fledged budgeting apps like PocketGuard or Monarch Money, Bills Reminder wins by focusing purely on bill management, offering a much simpler interface and a quicker setup for its specific purpose. A power feature is the ability to mark bills as paid and view a payment history, providing a clear record of financial obligations. The learning curve is very low; a non-technical person can add their first bill and set up reminders in under 5 minutes.",
     "imageIdea": "Mobile app screenshot showing a list of upcoming bills with due dates and payment status.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://apps.apple.com/app/bills-reminder-payment-tracker/id1106686858"
   },
   {
     "id": 629,
@@ -3855,7 +3877,8 @@
     "whyItIsUseful": "This tool solves the common problem of scattered recipes and inefficient meal preparation, bringing order to your cooking routine and saving precious time. For the home chef with hundreds of recipes saved across bookmarks, cookbooks, and notes, Recipe Keeper centralizes everything into one searchable, organized database. For a student living independently for the first time, it simplifies meal planning and grocery shopping, helping them cook healthier and budget better. The app offers a free version with limited features, but the paid upgrade unlocks full recipe import, syncing, and meal planning, which is highly recommended for genuine utility. Compared to simple note-taking apps for recipes, Recipe Keeper's specialized import features, planning tools, and nutritional data give it a significant edge. A power feature is the integrated shopping list, which intelligently combines ingredients from your planned meals and lets you check them off as you shop. A non-technical person can download the app and import their first recipe in well under 5 minutes, making it very user-friendly.",
     "imageIdea": "Recipe Keeper app interface showing a recipe with ingredients and steps, next to a meal plan calendar.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.recipekeeperapp.com"
   },
   {
     "id": 635,
@@ -3950,7 +3973,8 @@
     "whyItIsUseful": "Gisto eliminates the hassle of managing GitHub Gists solely through the web interface, offering a much more fluid and desktop-native experience for snippet management. For the open-source contributor or developer who frequently shares code snippets, Gisto provides a robust local client that enhances productivity significantly. For the team lead, it's an excellent way to maintain a shared library of code examples, documentation snippets, and quick fixes that are easily discoverable and version-controlled via GitHub. As an open-source project, Gisto is entirely free to use, making it an incredibly valuable tool without any paywalls. It surpasses the native GitHub Gist web interface by offering offline access, advanced search filters, and a more responsive, feature-rich editing environment. A power feature is the ability to tag gists and organize them into folders directly within the application, extending GitHub's native capabilities. Setting up Gisto and connecting it to your GitHub account takes less than 5 minutes for anyone familiar with GitHub.",
     "imageIdea": "Desktop app interface displaying a list of GitHub Gists on the left, an editor with syntax highlighting on the right, and a search bar.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.gistoapp.com"
   },
   {
     "id": 643,
@@ -3973,7 +3997,8 @@
     "whyItIsUseful": "Snipped.dev addresses the challenge of quickly sharing small pieces of code with teammates or documenting common solutions in a structured way without resorting to chat apps or scattered files. For the team lead, it offers a centralized, searchable repository of team-approved code standards, common functions, and debugging tips, fostering consistency and reducing onboarding time. For the student collaborating on group projects, it provides an easy way to share and consolidate useful code chunks that can be reviewed and reused by everyone. The free tier is genuinely useful, allowing unlimited personal snippets, with paid plans unlocking team collaboration features like shared workspaces and user roles. Compared to general-purpose note-taking apps, Snipped.dev wins with its dedicated code-focused features like syntax highlighting, easy sharing, and collaborative workspaces. A power feature is the \"Teams\" functionality, allowing seamless sharing and management of snippets within a group. The learning curve is extremely low; anyone can create an account and save their first snippet in under 2 minutes.",
     "imageIdea": "Clean web interface showing a code snippet with syntax highlighting, tags, and options for sharing or making it private.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://snipped.dev"
   },
   {
     "id": 645,
@@ -4068,7 +4093,8 @@
     "whyItIsUseful": "ClipMenu eliminates the common frustration of overwriting a crucial piece of copied data, ensuring that valuable information is always retrievable. For the student writing a research paper, it allows them to copy multiple quotes, references, and facts from different sources and then paste them selectively into their document. For the customer support agent, it provides a quick way to store and recall frequently used responses, URLs, or troubleshooting steps without typing them out repeatedly. ClipMenu is entirely free and open-source, offering full functionality without any hidden costs or feature limitations, making it genuinely useful for anyone. While other macOS clipboard managers might offer more advanced features, ClipMenu wins on its lightweight footprint, simplicity, and zero-cost entry, making it an excellent choice for basic needs. A power feature is its \"Snippets\" functionality, which allows users to save permanent, frequently used text snippets for quick insertion. The learning curve is extremely low; it's intuitive to use right after installation, and a non-technical person can set it up and benefit from it in under 1 minute.",
     "imageIdea": "macOS menu bar with ClipMenu icon, showing a dropdown menu displaying a list of recent clipboard items, possibly with sub-menus for different content types.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://github.com/naotaka/ClipMenu"
   },
   {
     "id": 653,
@@ -4102,7 +4128,7 @@
     "category": "Productivity",
     "whyItIsUseful": "WoX eliminates the need to navigate through menus or desktop icons, significantly speeding up daily computer interactions and reducing distractions. For the software developer, it enables quick launching of IDEs, opening project folders, or searching documentation online with custom keywords. For the academic researcher, it offers a swift way to open specific PDF papers, launch analysis software, or perform targeted searches across academic databases via custom plugins. WoX is completely free and open-source, offering a robust set of features that are genuinely useful without any paywalls or premium tiers. Compared to Windows' native search or even other launchers, WoX stands out with its highly extensible plugin architecture and vibrant community support, allowing for deep customization. A power feature is its ability to chain commands using a plugin, for example, \"convert usd to eur\" to get real-time currency conversions, or \"github [repo]\" to search GitHub directly. The learning curve is low for basic app launching; advanced plugin configuration might require some technical comfort, but a non-technical person can start using it effectively within 5 minutes.",
     "imageIdea": "Windows desktop with a clean, dark-themed WoX search bar overlayed in the center, displaying search results for \"calculator\" and plugin suggestions.",
-    "websiteLink": "http://www.wox.one/",
+    "websiteLink": "https://github.com/Wox-launcher/Wox",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -4139,7 +4165,8 @@
     "whyItIsUseful": "Glyphboard eliminates the tedious process of navigating through complex character maps or memorizing obscure keyboard shortcuts for special symbols. For the social media manager, it provides immediate access to a vast array of emojis and decorative symbols to make posts more engaging and visually distinct. For the technical writer or academic, it offers a quick way to insert mathematical symbols, arrows, or unique typographic characters into documents, improving clarity and professionalism. Glyphboard is available for a one-time purchase, offering a free trial period that is genuinely useful for evaluating its comprehensive character library. Compared to the built-in macOS Character Viewer, Glyphboard offers a significantly faster search, more intuitive interface, and better organization, making it far more efficient for frequent use. A power feature is the ability to mark favorite glyphs for even quicker access, creating a personalized collection of frequently used symbols. The learning curve is extremely low; its search and click interface is intuitive, and a non-technical person can set it up and start using it in under 2 minutes.",
     "imageIdea": "macOS menu bar showing Glyphboard icon, with a pop-up window displaying a grid of various emojis and symbols, with a search bar at the top.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://glyphboard.app"
   },
   {
     "id": 659,
@@ -4198,7 +4225,8 @@
     "whyItIsUseful": "Shaarli eliminates the privacy concerns associated with commercial bookmarking services and the fear of losing access to your saved data if a service shuts down. For the privacy-conscious developer, it offers a secure, self-managed solution to archive technical resources and personal research without sending data to external companies. For the small team collaborating on a project, a shared Shaarli instance can serve as a lightweight, internal knowledge base for essential links and documents. Shaarli is free and open-source, making it genuinely useful without any cost beyond hosting, which can be very affordable. Compared to cloud-based bookmark managers, Shaarli wins by offering full data ownership and customization, allowing users to tailor it exactly to their needs. A power feature is its RSS feed generation for tags, allowing users to subscribe to specific categories of their own saved links or even share them selectively. While setting up requires some technical knowledge for self-hosting, using it once installed is extremely simple for any non-technical person.",
     "imageIdea": "shaarli web interface showing a list of tagged bookmarks in a clean, minimalist design",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://github.com/shaarli/Shaarli"
   },
   {
     "id": 664,
@@ -4269,7 +4297,8 @@
     "whyItIsUseful": "Freeform eliminates the friction of starting a brainstorm, providing an immediately accessible, infinite canvas on Apple devices. For the product designer sketching out UI flows, it offers a quick way to combine wireframes, mood board images, and notes on a single page. For the marketing team planning a campaign, it serves as a central hub to gather ideas, mockups, and client feedback in one visual space. Freeform is entirely free and pre-installed on Apple devices, offering robust functionality without any paywalls. Unlike more complex diagramming tools, Freeform excels in its simplicity and deep integration with the Apple ecosystem, making quick ideation effortless. A power feature is its capability to directly embed and annotate PDFs or other documents without leaving the board, perfect for reviewing drafts. Its learning curve is virtually non-existent; anyone familiar with an iPhone or Mac can start using it effectively in seconds.",
     "imageIdea": "Apple Freeform board filled with sticky notes, images, text, and sketches, showing multiple cursors collaborating.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://apps.apple.com/app/freeform/id6443742539"
   },
   {
     "id": 670,
@@ -4916,7 +4945,8 @@
     "whyItIsUseful": "RemNote effectively eliminates the problem of fragmented study tools, integrating note-taking and active recall into a single seamless workflow. For the university student, it's an indispensable tool for turning lecture notes directly into flashcards, mastering complex subjects like medicine or law. For the lifelong learner, it provides a powerful system for retaining new information from books, articles, and online courses. The free tier is genuinely useful, offering unlimited notes, flashcards, and basic PDF annotation, which is robust enough for most individual users. While it shares some features with Obsidian for note-linking, RemNote's tight integration of spaced repetition *within* the note-taking process makes it superior for active learning and long-term retention. The ability to create \"templates\" for specific note types (e.g., meeting notes, book summaries) is a power feature that separates advanced users, streamlining their knowledge capture. A non-technical person can set up RemNote and start taking notes and generating flashcards in under 5 minutes, though mastering its full potential takes time.",
     "imageIdea": "A split screen showing hierarchical notes on one side and automatically generated flashcards based on those notes on the other.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.remnote.com"
   },
   {
     "id": 724,
@@ -5011,7 +5041,8 @@
     "whyItIsUseful": "Hours eliminates the mental overhead and forgotten entries associated with traditional time tracking methods, ensuring accurate billing and better understanding of time allocation. For the freelance consultant, it offers a seamless way to track time spent on various client projects throughout the day, automatically generating reports for billing. For the university student working on multiple assignments, it provides insight into how much time is truly dedicated to each subject, aiding in better study habits. The app offers a fully functional 21-day free trial, after which a subscription is required; however, the free tier is a generous taste, not a paywall tease. Compared to complex project management suites, Hours excels in its singular focus on intuitive time tracking, making it faster and less cumbersome for individuals. A power feature is its ability to round time entries to specific increments, crucial for billing practices, and its visual timeline for easy editing of past entries. A non-technical person can download the app and start tracking their first task in under 2 minutes.",
     "imageIdea": "Hours app interface on an iPhone, showing a list of active and paused timers with a clean timeline view",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.hourstimetracking.com"
   },
   {
     "id": 732,
@@ -5117,9 +5148,9 @@
     "category": "Security",
     "whyItIsUseful": "Firefox Relay eliminates the pervasive problem of exposing your personal email address to potentially untrustworthy websites, drastically reducing spam and the risk of your main inbox being compromised in data breaches. For the online shopper constantly signing up for loyalty programs, it provides a safe way to receive order confirmations and discounts without flooding their primary inbox with marketing emails. For the digital freelancer, it allows them to register for various SaaS tools or client platforms using unique aliases, minimizing their digital footprint and enhancing security. The free tier offers 5 aliases, which is genuinely useful for managing personal sign-ups, while the premium tier offers unlimited aliases and a custom domain. Compared to SimpleLogin, Firefox Relay benefits from the trusted Mozilla brand and its integrated browser experience, making it particularly seamless for Firefox users. A power feature is the ability to easily disable or delete aliases that become compromised or receive too much spam, cutting off unwanted communication instantly. A non-technical person can easily set it up and generate their first alias in under 2 minutes.",
     "imageIdea": "Firefox Relay logo (fox head with an arrow/envelope), showing an email alias being generated in a browser pop-up.",
-    "websiteLink": "https://relay.firefox.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://relay.firefox.com/"
   },
   {
     "id": 741,
@@ -5262,7 +5293,8 @@
     "whyItIsUseful": "Rainy Mood eliminates the struggle of finding a peaceful environment by bringing the soothing sounds of rain directly to the user, blocking out office chatter or noisy neighbors. For a remote software developer needing to concentrate on complex code, the continuous rain sound helps create a focused bubble, enhancing concentration and reducing stress. For a parent attempting to read a book while children play nearby, Rainy Mood provides a gentle auditory shield, allowing for uninterrupted reading and relaxation. The website and apps offer a genuinely useful free experience, with optional premium features in the app for additional soundscapes. Compared to more complex white noise generators, Rainy Mood wins with its simplicity and singular focus on delivering the perfect rain sound without overwhelming options. Its power feature includes the ability to mix with Spotify or YouTube music in the app, allowing for personalized audio layering. A non-technical person can start using Rainy Mood in under 30 seconds by simply visiting the website or opening the app.",
     "imageIdea": "A minimalist web interface showing a play button and volume slider, with a subtle background image of rain on a window.",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.rainymood.com"
   },
   {
     "id": 753,
@@ -5357,7 +5389,8 @@
     "whyItIsUseful": "Allrecipes solves the challenge of finding reliable, home-tested recipes by leveraging a huge community of passionate cooks and their honest feedback. For the aspiring home chef looking to perfect a dish, the extensive user reviews and tips provide invaluable insights and troubleshooting advice. A meal planner struggling with dinner ideas can quickly filter recipes by ingredients on hand or dietary restrictions, simplifying weekly meal prep. Its free tier is incredibly robust, providing full access to millions of recipes, reviews, and basic meal planning tools without any paywalls. While many sites offer recipes, Allrecipes stands out with its truly massive, active community that consistently updates and verifies recipe quality, surpassing generic food blogs. Its \"Recipe Box\" power feature allows users to save, organize, and even add personal notes to their favorite recipes for easy access. Setting up an account and finding your first recipe takes less than 5 minutes, even for a non-technical individual.",
     "imageIdea": "allrecipes website showing a recipe page with user reviews and star ratings",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.allrecipes.com"
   },
   {
     "id": 761,
@@ -5368,7 +5401,8 @@
     "whyItIsUseful": "Carbon Diet Coach eliminates the guesswork and frustration often associated with traditional diet plans by providing personalized, adaptive macro guidance. For the fitness enthusiast aiming for precise body recomposition, the app offers a scientific approach to hitting targets without restrictive meal plans. A competitive athlete can leverage its dynamic adjustments to optimize their nutrition for peak performance or cutting phases, ensuring consistent progress. The app operates on a subscription model, offering a 14-day free trial that is genuinely useful for experiencing its core features and value before committing. Unlike generic calorie trackers, Carbon wins by integrating an intelligent coaching algorithm that adapts to individual metabolic responses, making it more effective than static plans. A power feature is the \"Diet Breaks & Refeeds\" function, allowing advanced users to strategically implement breaks to manage adherence and metabolism. While understanding macro-tracking takes a little effort, setting up the app and starting to log food can be done by a non-technical person in under 5 minutes.",
     "imageIdea": "carbon diet coach app showing a dashboard with macro targets and progress graphs",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.carbondietcoach.com"
   },
   {
     "id": 762,
@@ -5403,7 +5437,8 @@
     "whyItIsUseful": "Perfect Meal eliminates the time-consuming and often overwhelming task of creating balanced, personalized meal plans from scratch, simplifying healthy eating. For the busy professional trying to adhere to a specific diet, this tool provides a complete, custom-generated plan, removing daily decision fatigue. An athlete with strict macro targets can leverage the AI to ensure their meal plan perfectly aligns with their nutritional needs for training and recovery. The free tier offers a highly useful basic meal plan generation and recipe library, making it genuinely functional for casual users, with premium options for advanced customization and features. Unlike manual meal planning apps, Perfect Meal wins by leveraging AI to instantly create fully optimized plans, saving hours of tedious ingredient matching and calculation. A power feature is the \"Ingredient Swap\" option, allowing users to easily substitute specific ingredients within a recipe without disrupting the overall nutritional balance of the plan. A non-technical person can set up their profile and generate a first meal plan in well under 5 minutes.",
     "imageIdea": "perfect meal app showing a generated weekly meal plan with recipes and nutrition breakdown",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://perfectmeal.app"
   },
   {
     "id": 765,
@@ -5486,7 +5521,8 @@
     "whyItIsUseful": "Loop eliminates the privacy concerns associated with many cloud-based habit trackers, offering a secure, offline solution for personal goal tracking. For the data-conscious individual, it provides clear, in-depth statistical analysis of habit strength and consistency, helping to identify patterns and areas for improvement. A developer might appreciate its open-source nature, allowing for inspection of the code and even contributions, ensuring transparency and community-driven features. As a completely free and open-source application, Loop offers full functionality without any paywalls or ads, making it genuinely useful for everyone. Compared to apps that focus solely on streaks, Loop wins by offering a more nuanced \"habit strength\" metric, which provides a deeper understanding of long-term consistency. A power feature is its ability to export data as CSV or SQLite files, allowing advanced users to conduct their own custom analyses and data visualizations. A non-technical person can easily set up their first habits and start tracking within five minutes, thanks to its straightforward interface and clear instructions.",
     "imageIdea": "Loop Habit Tracker Android app interface showing a habit strength graph",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://github.com/iSoron/uhabits"
   },
   {
     "id": 772,
@@ -5521,7 +5557,8 @@
     "whyItIsUseful": "7 Weeks eliminates the problem of short-term commitment by providing a clear, finite 49-day challenge that feels achievable and provides intense motivation to avoid breaking the chain. For someone wanting to establish a new daily routine, like \"meditate for 10 minutes,\" the app offers a compelling visual countdown to solidify the habit quickly. A student preparing for exams can use it to track \"study for 2 hours\" daily for seven weeks, providing a focused burst of effort towards a specific academic goal. The app offers a free version that allows tracking of one habit, which is genuinely useful for testing the method before investing in the premium version for unlimited habits. Compared to open-ended habit trackers, 7 Weeks wins by providing a structured, time-bound challenge, which can be less overwhelming for starting new behaviors. A power feature is the ability to track negative habits (e.g., \"no sugar\") by marking successful days as days you *didn't* perform the undesirable action. A non-technical person can set up their first 7-week challenge in less than two minutes, as the interface is extremely simple and focused on the core method.",
     "imageIdea": "7 Weeks app showing a 7x7 grid with a chain of green checkmarks for completed days",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://apps.apple.com/app/7-weeks-habit-goal-tracker/id567419655"
   },
   {
     "id": 775,
@@ -5532,7 +5569,8 @@
     "whyItIsUseful": "Streaky eliminates the cognitive load associated with feature-heavy productivity apps, providing a clear and focused environment solely for tracking and maintaining habits. For the minimalist who wants to track core habits like \"drink water\" or \"walk 30 minutes,\" Streaky offers a pleasing visual reward without any unnecessary distractions. A busy parent can quickly mark habits complete directly from their Apple Watch complication, making consistency achievable even amidst a hectic schedule. The app offers a free tier allowing tracking of up to three habits, which is genuinely useful for trying out the app's core functionality before upgrading to unlimited habits. Compared to \"all-in-one\" productivity suites, Streaky wins by excelling at its core function: simple, satisfying habit tracking with beautiful streak visualizations. A power feature includes custom icon and color options for each habit, allowing for extensive personalization and easy visual differentiation at a glance. Its learning curve is extremely low; a non-technical person can add their first habit and understand the interface within 60 seconds.",
     "imageIdea": "Streaky app interface on an iPhone showing a list of habits with streak counters",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://streaky.app"
   },
   {
     "id": 776,
@@ -5543,7 +5581,8 @@
     "whyItIsUseful": "Smarter Time eliminates the guesswork and manual effort of traditional time tracking, providing an objective and detailed breakdown of how time is actually spent. For the freelancer struggling with procrastination, it automatically highlights time sinks, enabling them to identify unproductive patterns and schedule habit reminders for focused work. A student can use it to precisely understand how much time they dedicate to studying specific subjects versus distractions, guiding them to build more effective study habits. The free tier offers comprehensive automatic tracking and basic habit features, making it genuinely useful for gaining deep insights into daily routines without any cost. Compared to manual time trackers, Smarter Time wins by offering unparalleled automation and a holistic view of activity across multiple devices, reducing user friction. A power feature is its \"Focus Mode,\" which intelligently detects distractions and can gently nudge users back to their intended tasks, reinforcing desired habits. While initial setup might take a few minutes for permissions, a non-technical person can be tracking automatically within 10 minutes, with insights appearing quickly thereafter.",
     "imageIdea": "Smarter Time app showing a colorful pie chart of time spent across different activities",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.smartertime.com"
   },
   {
     "id": 777,
@@ -5614,7 +5653,8 @@
     "whyItIsUseful": "Snipper App solves the problem of repeatedly searching for or re-typing frequently used code blocks, commands, or boilerplate text on macOS. For the iOS developer, it's invaluable for instantly inserting common Swift patterns, Xcode shortcuts, or debugging commands without breaking their flow. For the macOS-focused DevOps engineer, Snipper App becomes a central hub for managing shell scripts, server configurations, and system commands, accessible right from the menubar. The app is a one-time paid purchase, offering a fully featured and genuinely useful experience without recurring subscriptions or feature limitations after purchase. It differentiates itself from cross-platform solutions like MassCode by offering a truly native, lightweight, and deeply integrated macOS experience, feeling like an extension of the OS itself. The \"smart placeholders\" power feature allows snippets to contain dynamic variables that are prompted upon insertion, making them highly reusable across different contexts. A non-technical person comfortable with macOS apps could easily set it up and start saving snippets in under 5 minutes.",
     "imageIdea": "Snipper App menubar icon dropdown showing a list of code snippets",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.snipper.app"
   },
   {
     "id": 783,
@@ -5685,7 +5725,8 @@
     "whyItIsUseful": "Pastel.sh eliminates the need for cumbersome screenshot tools or pasting raw, unformatted code directly into chat applications, making quick code sharing effortless. For the developer seeking help on a specific error, it provides a clean, readable way to share the problematic code with a colleague or on a forum, ensuring proper formatting. For the instructor demonstrating a quick coding example during a live session, Pastel.sh allows them to share a live, interactive snippet link with students in seconds. As a free, open-source web service, it is genuinely useful for its intended purpose of quick, anonymous sharing, with no paid tiers or feature limitations. It wins against full-featured snippet managers by offering extreme simplicity and speed for ephemeral sharing, without requiring any commitment or setup. The \"language auto-detection\" power feature intelligently guesses the programming language of the pasted code, saving time and ensuring correct syntax highlighting without manual selection. A non-technical person could paste text and generate a shareable link in less than a minute.",
     "imageIdea": "Pastel.sh web page showing a large text area for code input and a 'Share' button",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://pastel.nodejs.dev"
   },
   {
     "id": 789,

@@ -32,6 +32,8 @@ export interface Product {
   imageIdea: string;
   sourceLink: string;
   estimatedPriceRange: string;
+  availableOnAmazon?: boolean;
+  amazonAsin?: string;
   directAmazonUrl?: string;
   bestBuyUrl?: string;
   badge?: string;

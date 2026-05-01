@@ -318,8 +318,9 @@ export default function TrendingPage() {
                   </a>
                 )}
                 <div className="mt-auto flex flex-col gap-2">
+                  {item.availableOnAmazon && ((item as AnyItem).affiliate?.url || item.directAmazonUrl) && (
                   <a
-                    href={(item as AnyItem).affiliate?.url || item.directAmazonUrl || item.sourceLink}
+                    href={(item as AnyItem).affiliate?.url || item.directAmazonUrl}
                     target="_blank"
                     rel="sponsored noopener"
                     data-affiliate="true"
@@ -331,6 +332,7 @@ export default function TrendingPage() {
                     </svg>
                     Check Price on Amazon
                   </a>
+                  )}
                   <button
                     onClick={(e) => { e.stopPropagation(); toggleCompare(item.slug); }}
                     className={`w-full text-[10px] px-2 py-1 rounded-lg border transition-colors ${
@@ -490,6 +492,7 @@ export default function TrendingPage() {
                         </div>
                         <div className="text-2xl font-bold text-emerald-400">{p.estimatedPriceRange || "—"}</div>
                         <p className="text-xs text-muted-foreground leading-relaxed flex-1 line-clamp-4">{p.shortDescription}</p>
+                        {((p as AnyItem).affiliate?.url || p.directAmazonUrl || p.sourceLink) && (
                         <a
                           href={(p as AnyItem).affiliate?.url || p.directAmazonUrl || p.sourceLink}
                           target="_blank"
@@ -498,6 +501,7 @@ export default function TrendingPage() {
                         >
                           Check Price →
                         </a>
+                        )}
                       </div>
                     ))}
                   </div>

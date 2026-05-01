@@ -1025,7 +1025,8 @@
     "whyItIsUseful": "Actual Budget directly competes with mainstream tools like YNAB, offering a fully open-source and local-first approach that many prefer for data privacy and control.\nFor the privacy-conscious individual who wants full ownership of their financial data without cloud reliance, Actual Budget provides peace of mind and robust budgeting features.\nA developer or power user might appreciate its self-hosting capabilities, allowing for complete customization and integration into their personal server setup.\nIt's entirely free and open-source for self-hosting; a hosted version with sync costs $12/month, with a 30-day free trial.\nA lesser-known feature is its powerful reporting engine, which allows deep dives into spending trends and net worth growth far beyond basic category breakdowns.\nIts open-source nature and \"local-first\" design can make it seem more complex to set up initially, deterring those accustomed to instant-access cloud services.\nThe project maintains a very active Discord community, consistent updates, and a transparent development roadmap on GitHub.",
     "imageIdea": "Clean, minimalist budget interface showing categories and allocated funds, possibly with a small padlock icon for privacy.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://actualbudget.org"
   },
   {
     "id": 182,
@@ -1349,7 +1350,8 @@
     "imageIdea": "Serene app interface showing a countdown timer for a deep work session with a list of blocked apps and websites",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsereneapp.com&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsereneapp.com&screenshot=true&meta=false&embed=screenshot.url",
+    "websiteLink": "https://sereneapp.com"
   },
   {
     "id": 208,
@@ -1360,7 +1362,8 @@
     "whyItIsUseful": "Flowstate provides an extreme but highly effective method for overcoming writer's block, a far cry from a standard text editor like Notes or Google Docs. For the novelist struggling with their first draft, it forces them to keep writing, building momentum and generating content without getting bogged down in edits. For the student facing a blank page for an essay, it helps them overcome procrastination and just get words down. Flowstate is a one-time purchase, not a subscription. A surprising feature is the ability to choose how long the 'pause' before deletion is, allowing for some flexibility in intensity. It's not more popular because its aggressive design, while effective for some, is too intimidating for most writers who prefer the safety of constant saving and editing. The app is a mature product with infrequent but stable updates.",
     "imageIdea": "Minimalist text editor in dark mode with a warning message about deletion if typing stops",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://flowstate.app"
   },
   {
     "id": 209,
@@ -1722,7 +1725,8 @@
     "whyItIsUseful": "Diarly offers a more feature-rich and privacy-conscious experience than basic digital notepads or even physical journals, providing a dedicated space for personal reflection. For the individual looking to build a consistent journaling habit, its daily prompts, streak tracking, and customizable reminders provide gentle encouragement and structure. For the privacy-minded user, its optional end-to-end encryption and local storage ensure that sensitive personal thoughts remain absolutely confidential. Diarly offers a free version with core features, with a premium subscription unlocking advanced markdown, custom templates, and enhanced search. A useful feature often discovered later is its \"Mood Tracker\" and \"Tags,\" which allow for powerful analytical insights into personal patterns over time. Its macOS/iOS exclusivity and subscription model, combined with a focus on journaling rather than general note-taking, limit its appeal to a specific audience, preventing broader recognition. The app receives regular updates and has a responsive developer team.",
     "imageIdea": "A minimalist journal app open to a page with a date, markdown text, and a small lock icon.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://diarly.app"
   },
   {
     "id": 239,
@@ -1849,7 +1853,7 @@
     "category": "Developer",
     "whyItIsUseful": "Gnuplot offers unparalleled precision and scripting capabilities for scientific plotting, far surpassing the typical plotting functions in spreadsheet software or even some specialized tools for generating publication-quality figures. For the physicist analyzing experimental data, Gnuplot provides the exact control over axis ranges, labels, and error bars needed for rigorous scientific communication. For the engineering student, it's an invaluable tool for visualizing complex functions and data trends during coursework, enabling rapid iteration on plot designs. It is completely free and open-source, available on virtually all operating systems. A hidden gem often discovered later is its powerful `fit` command, which can perform non-linear regression to fit user-defined functions to data, a feature usually found in dedicated statistical packages. Its steep learning curve due to the command-line interface and scripting requirement makes it less accessible to casual users, who often prefer GUI-based tools. Gnuplot has a long-standing, active community, extensive documentation, and a continuous development cycle, ensuring its role as a bedrock scientific plotting tool.",
     "imageIdea": "a Gnuplot output image showing a complex 3D surface plot of a mathematical function with contour lines and custom color mapping",
-    "websiteLink": "http://www.gnuplot.info/",
+    "websiteLink": "https://www.gnuplot.info/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=http%3A%2F%2Fwww.gnuplot.info%2F&screenshot=true&meta=false&embed=screenshot.url"
@@ -2474,7 +2478,8 @@
     "whyItIsUseful": "While operating systems offer basic clipboard history, Clipboard History 2 provides a more accessible and persistent history within the browser environment, often with better search and pinning capabilities. For the content writer drafting an article, it means effortlessly assembling quotes and facts from various sources without constantly switching tabs to re-copy. For the developer, it allows for quick retrieval of code snippets, variable names, or error messages from their browser-based IDE or documentation. It is completely free and open-source, ensuring transparency and community-driven development. A neat feature often overlooked is the ability to pin frequently used items, ensuring they never leave your history, even across browser restarts. It's not more popular because many users are unaware such an advanced browser-specific clipboard manager exists, often relying on their OS-level solutions or simply re-copying. The open-source nature means a dedicated community regularly contributes updates and bug fixes, ensuring its reliability and longevity.",
     "imageIdea": "A small popup showing a list of recently copied text snippets, ready for selection.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://apps.apple.com/app/clipboard-history-2/id1160187370"
   },
   {
     "id": 315,
@@ -2511,7 +2516,8 @@
     "whyItIsUseful": "While native browser tab groups offer some organization, Toby provides a persistent, visually-driven workspace management system that goes beyond simple grouping, allowing for quick session switching and sharing. For the project manager, it means instantly loading all relevant tools and documents for a specific project with a single click, eliminating setup time. For the content creator, it allows for easy organization of research materials, inspiration boards, and publishing platforms into distinct, accessible collections. Toby is entirely free to use, with no premium features or subscriptions required. A neat feature often overlooked is the ability to share collections with teammates, facilitating collaborative research or project onboarding. Its relative lack of ubiquity compared to basic bookmarking is due to it being a more advanced solution for a problem many users just tolerate rather than actively solve. The team behind Toby regularly releases updates and improvements, ensuring its functionality keeps pace with modern browsing habits.",
     "imageIdea": "A new tab page showing organized collections of website icons and lists of tabs.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.gettoby.com"
   },
   {
     "id": 464,
@@ -2561,7 +2567,8 @@
     "whyItIsUseful": "Around offers a much less fatiguing and more engaging alternative to traditional grid-based video platforms like Zoom or Google Meet, which can feel overwhelming with many faces. For a remote design team, it allows natural visual collaboration, where team members appear as floating heads around shared screens, making feedback and co-creation feel more intuitive. A marketing team can use it for creative brainstorming sessions, leveraging its spatial audio to focus on who is speaking without visual clutter, fostering more fluid conversations. Around offers a generous free tier for unlimited meetings up to 45 minutes, with paid plans unlocking longer meetings, more participants, and advanced team features. A standout feature, often discovered later, is its \"EchoTerminator\" technology, which virtually eliminates echo even in challenging acoustic environments, making multi-speaker calls significantly clearer. Its distinct UI and specific focus on meeting fatigue, rather than being a general-purpose conferencing tool, limit its broader market appeal, despite its excellence in its niche. Around maintains a consistent update schedule, with a focus on AI enhancements and user experience improvements.",
     "imageIdea": "Screenshot of an Around video call with circular participant bubbles floating over a shared screen, minimalist interface.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.around.co"
   },
   {
     "id": 322,
@@ -2624,7 +2631,8 @@
     "whyItIsUseful": "Hypercontext significantly improves upon generic note-taking apps or shared documents for meeting management by providing a structured, collaborative framework that ensures clear objectives and accountability. For the team lead conducting a weekly sprint review, Hypercontext allows every team member to add discussion points beforehand, ensuring all issues are addressed and action items are clearly assigned and tracked. For the remote manager performing a one-on-one, the tool provides a persistent history of discussion topics, goals, and feedback, fostering continuous growth and preventing important points from being forgotten between sessions. Hypercontext offers a free tier for up to 5 users with unlimited meetings and agendas, while paid plans unlock advanced features like meeting templates, analytics, and more integrations for larger teams. A surprisingly useful feature is its AI-powered \"question suggestions\" for one-on-ones, which helps managers ask impactful questions to foster deeper conversations and uncover crucial insights. Its struggle for broader recognition stems from the perception that \"another meeting tool\" is unnecessary, underestimating the profound impact structured agendas and follow-ups have on team efficiency. Hypercontext maintains a regular update schedule, frequently adding new integrations and enhancing its meeting intelligence capabilities.",
     "imageIdea": "A collaborative meeting agenda with bullet points, assigned action items, and attendee avatars.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://hypercontext.com"
   },
   {
     "id": 329,
@@ -2701,7 +2709,8 @@
     "imageIdea": "Stack of classic digitized books with a subtle vintage aesthetic.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.gutenberg.org%2F&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.gutenberg.org%2F&screenshot=true&meta=false&embed=screenshot.url",
+    "websiteLink": "https://www.gutenberg.org"
   },
   {
     "id": 338,
@@ -2725,7 +2734,8 @@
     "whyItIsUseful": "While platforms like Codecademy offer broader programming courses, Grasshopper excels at simplifying JavaScript fundamentals into an engaging, gamified experience, perfect for initial skill development. For the high school student curious about coding, Grasshopper offers a low-friction entry point, guiding them through concepts like functions and variables with visual puzzles. For the adult looking to pivot into tech, it provides a solid, accessible foundation in JavaScript without the overwhelm of complex IDEs or setup. Grasshopper is entirely free to use, without any paid subscriptions or premium features. A powerful but often overlooked feature is the \"Code Playground,\" where users can experiment with their own JavaScript code outside of the structured lessons. Its focus on basic fundamentals and a single language means it won't take users to advanced levels, limiting its appeal to those past the beginner stage. It receives regular updates from Google's team, ensuring content remains relevant and engaging.",
     "imageIdea": "Cartoon grasshopper character guiding a user through simple JavaScript code in a mobile interface.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://grasshopper.app"
   },
   {
     "id": 340,
@@ -2787,7 +2797,7 @@
     "category": "Entertainment",
     "whyItIsUseful": "While services like TuneIn offer extensive radio directories, Radio Garden's unique geographical interface and live, uncurated approach provide a more immersive and serendipitous discovery experience. For the armchair traveler, it's a portal to experience the everyday sounds of a foreign city, from local talk shows to indigenous music. For the language learner, tuning into a regional station offers authentic listening practice that textbook audio simply cannot replicate. Radio Garden is entirely free, funded by the Netherlands Institute for Sound and Vision and occasional grants, ensuring its accessibility. Many users don't realize how quickly they can jump between continents and hear vastly different cultural sounds in mere seconds, making it a unique educational tool. Its non-commercial, public-service nature and minimalist design keep it from mainstream \"app store\" prominence, but it's widely loved in academic and niche communities, with continuous maintenance and occasional feature additions.",
     "imageIdea": "A spinning 3D globe covered in glowing green dots representing radio stations, with a simple play button.",
-    "websiteLink": "http://radio.garden/",
+    "websiteLink": "https://radio.garden/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=http%3A%2F%2Fradio.garden%2F&screenshot=true&meta=false&embed=screenshot.url"
@@ -2918,7 +2928,8 @@
     "whyItIsUseful": "It offers a superior, more customizable alternative to default mail clients like Apple Mail or Thunderbird, providing integrated features like read receipts and link tracking usually found in paid services. Its open-source nature provides transparency not found in proprietary clients. For the sales professional, Mailspring's built-in read receipts and link tracking allow them to gauge engagement with their outreach emails, helping them time follow-ups more effectively. For the developer managing multiple side projects and their day job, the unified inbox and advanced search across all accounts save significant time, allowing them to quickly find specific project-related communications. Mailspring offers a free, fully functional core client, with a \"Pro\" subscription unlocking advanced features like snooze, send later, and customizable signatures. A lesser-known feature is its robust \"Translate\" button for incoming emails, which seamlessly translates messages from over 60 languages directly within the client. Despite being open-source and feature-rich, it's not more popular due to strong competition from proprietary clients like Spark and Superhuman, and its development pace has sometimes been inconsistent. It has an active GitHub community for bug reports and feature requests, with contributions from developers, though core updates from the main team can vary.",
     "imageIdea": "Clean, dark-themed email client interface with multiple inboxes consolidated, showing tracking icons.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://getmailspring.com"
   },
   {
     "id": 355,
@@ -3604,7 +3615,7 @@
     "category": "Finance",
     "whyItIsUseful": "HomeBank provides a straightforward, open-source alternative to commercial personal finance software like Quicken or Microsoft Money, with a strong focus on ease of use and local data storage. For the budget-conscious individual, HomeBank helps them identify spending patterns and stick to financial goals without monthly subscription fees or sharing sensitive data online. For the family trying to manage household expenses, it offers an intuitive way to track shared accounts and identify areas for savings, promoting better financial discipline. HomeBank is entirely free and open-source, relying on donations and community contributions for its development. A valuable feature often discovered later is its powerful 'Budget' module, which allows for detailed budget creation across categories, with visual progress bars that genuinely motivate better spending. Its less widespread adoption compared to web-based tools is due to its desktop-only nature and the general trend towards cloud services, despite its robust offline capabilities. The project has an active community forum, provides regular updates, and maintains comprehensive documentation.",
     "imageIdea": "HomeBank interface showing a ledger of transactions with categories and a simple pie chart report.",
-    "websiteLink": "http://homebank.free.fr/",
+    "websiteLink": "https://homebank.free.fr/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=http%3A%2F%2Fhomebank.free.fr%2F&screenshot=true&meta=false&embed=screenshot.url"
@@ -3644,7 +3655,8 @@
     "whyItIsUseful": "Mercury Reader offers a superior, more consistent, and highly customizable reading experience compared to browser-native \"reader modes,\" which often struggle with complex layouts or lack customization. For the student conducting extensive research, Mercury Reader allows them to process dense academic articles more efficiently, reducing cognitive load and improving comprehension. For the busy professional trying to keep up with industry news, it transforms overwhelming news feeds into manageable, focused reading sessions, saving time by eliminating distractions. Mercury Reader is completely free to use, offering full functionality without any premium tiers. A useful feature often discovered after initial use is its ability to customize font size, typeface, and theme (light/dark), making it adaptable to individual preferences and environments. Its relative obscurity stems from many users not actively seeking solutions for web clutter, or simply tolerating poor reading experiences, unaware that such an elegant and effective tool exists. The extension is stable and reliable, receiving maintenance updates to ensure compatibility with modern web standards.",
     "imageIdea": "Split screen: a chaotic webpage with ads and pop-ups on one side, and the same content in a clean, minimalist, dark-themed reading view on the other.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://mercury.postlight.com"
   },
   {
     "id": 467,
@@ -4409,7 +4421,8 @@
     "whyItIsUseful": "While mainstream tools like Excel or Google Sheets can organize tabular data, Palladio excels at revealing the *relationships* within that data, making it superior for exploratory analysis of interconnected entities. For the historian analyzing correspondence networks, Palladio can map who wrote to whom over time, pinpointing key figures and periods of intense communication. For the literary scholar studying character appearances, it can visualize co-occurrences in texts, showing character clusters and their evolution. Palladio is completely free and open-source, with no paid tiers. A feature often discovered later is its powerful facet and filter system, allowing highly granular exploration of subsets within the visualization. Its niche focus on humanities data, combined with a non-code approach, makes it less popular than broader BI tools, but invaluable for its target audience. It is actively maintained by Stanford and has a supportive community of digital humanities practitioners.",
     "imageIdea": "network graph of historical figures connected by lines, with a timeline slider below",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://hdlab.stanford.edu/palladio/"
   },
   {
     "id": 594,
@@ -4459,7 +4472,8 @@
     "whyItIsUseful": "Unlike static charting libraries, Vizzu's emphasis on animation makes it superior for explaining data evolution or transformations, reducing cognitive load for the audience by guiding their eyes through the changes. For the marketing analyst presenting quarterly sales trends, Vizzu can smoothly transition from a total sales bar chart to a breakdown by region, then to a time-series view, making the narrative clear and impactful. For the educator explaining statistical concepts, it can animate the effect of filtering data or changing aggregation methods in real-time. Vizzu is completely free and open-source. A useful feature often discovered after initial use is its ability to automatically infer optimal animation paths between very different chart types (e.g., from a bar chart to a scatter plot) with minimal configuration. Its relative newness and focus on animation mean it's not as widely known as general-purpose charting libraries, but it offers a unique advantage for narrative visualization. It has a growing community, active development, and regular updates.",
     "imageIdea": "a sequence of animated bar charts smoothly transitioning into a pie chart or scatter plot, with dynamic labels",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://vizzuhq.com"
   },
   {
     "id": 598,
@@ -4739,7 +4753,8 @@
     "whyItIsUseful": "While many AI writers generate content, LongShot AI distinguishes itself with its integrated fact-checking and research capabilities, reducing the need to switch between multiple tools for verification. For the content manager overseeing a team of writers, LongShot ensures all articles are not only well-written but also backed by credible sources, maintaining brand authority. For the SEO specialist aiming to rank high, it provides keyword research, outline generation, and content optimization suggestions, streamlining the entire content pipeline. LongShot offers a free trial with limited credits, with paid plans unlocking unlimited generations, advanced SEO features, and access to more powerful AI models. A feature most users discover later is its 'Related Questions' generator, which surfaces common queries around a topic, invaluable for creating comprehensive and user-centric content. It's not more popular than some competitors partly due to the crowded AI writing market, but its strong emphasis on factual accuracy and long-form SEO makes it a hidden gem for serious content creators. LongShot frequently updates its AI models and content generation features, maintaining a public roadmap and engaging with users through webinars and support channels.",
     "imageIdea": "LongShot AI dashboard showing content brief, generated article, and fact-checking results with source links.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://www.longshot.ai"
   },
   {
     "id": 620,
@@ -4841,7 +4856,8 @@
     "whyItIsUseful": "iMapping offers a unique blend of mind-mapping flexibility and structured outlining, surpassing traditional note-taking apps by allowing infinite zoom and nested maps for unparalleled depth. For a doctoral candidate synthesizing hundreds of research papers, it provides a visual canvas to connect ideas, methodologies, and findings from disparate sources into a coherent overview. For a consultant developing a strategy, it allows them to map client requirements, market analysis, and proposed solutions within a single, navigable knowledge space. iMapping offers a free trial, with a one-time purchase for the full license, making it a sustainable investment. A powerful feature often overlooked is the \"map-in-map\" capability, allowing users to zoom into a card to reveal an entirely new, detailed map, essentially creating a fractal knowledge base. Its desktop-only nature and a steeper learning curve than simpler tools contribute to its niche appeal, despite its power for serious knowledge work. iMapping has an active user forum, detailed tutorials, and receives consistent updates with new features and improvements.",
     "imageIdea": "a sprawling, infinite canvas filled with interconnected cards, some zoomed in to reveal more detailed sub-maps, showcasing a complex knowledge structure",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://imapping.io"
   },
   {
     "id": 628,
@@ -4957,7 +4973,8 @@
     "imageIdea": "graph showing retirement portfolio success rates across historical periods",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.firecalc.com&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.firecalc.com&screenshot=true&meta=false&embed=screenshot.url",
+    "websiteLink": "https://www.firecalc.com"
   },
   {
     "id": 637,
@@ -5060,7 +5077,8 @@
     "imageIdea": "a complex vector logo being designed in Inkscape, showing Bezier curves",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Finkscape.org%2F&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Finkscape.org%2F&screenshot=true&meta=false&embed=screenshot.url",
+    "websiteLink": "https://inkscape.org"
   },
   {
     "id": 645,
@@ -5201,7 +5219,8 @@
     "whyItIsUseful": "Just Read replaces or significantly enhances the built-in reader modes of browsers like Chrome or Firefox by offering deeper customization and more effective clutter removal, making it superior for focused reading. For the busy professional who consumes many online articles for work, it provides an instant, clean environment to absorb information without interruption. For the student researching a complex topic, it ensures they can concentrate solely on the academic content, free from extraneous links or ads that could derail their focus. It is completely free and open-source, with all features available without cost. A powerful feature often overlooked is its \"Always On\" capability for specific domains, automatically applying reader mode to favorite news sites. It's not more popular because many users are content with their browser's native reader mode or simply tolerate web clutter, not realizing how much better the experience can be. It has an active GitHub repository with regular updates and community contributions.",
     "imageIdea": "Before-and-after comparison of a busy news website versus its minimalist, clean \"Just Read\" version",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://justread.link"
   },
   {
     "id": 656,
@@ -5225,7 +5244,8 @@
     "whyItIsUseful": "Page Ruler Redux offers a dedicated, easy-to-use measurement tool that is often more intuitive and quicker than relying solely on the browser's built-in developer tools' inspector, making it better for quick visual checks. For the UX designer who needs to ensure pixel-perfect alignment of UI elements, it provides an instant visual guide without diving into complex code. For the front-end developer replicating a design mockup, it allows them to quickly measure padding, margins, and component sizes directly on the live page, streamlining the coding process. It is entirely free and open-source, providing all functionality without any paid tiers. A lesser-known feature is its ability to \"lock\" the ruler in place and display offset values, which is incredibly useful for comparing element positions. It's not more popular because many developers either use more advanced design tools or rely solely on browser dev tools, overlooking the efficiency of a simple, dedicated ruler. The project is actively maintained on GitHub with community contributions.",
     "imageIdea": "A webpage with an active, transparent ruler overlay measuring the width of a hero image or text block",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal"
   },
   {
     "id": 658,
@@ -5249,7 +5269,8 @@
     "whyItIsUseful": "The Marvellous Suspender offers a robust and secure alternative to built-in browser tab management, which often just reduces CPU for background tabs but doesn't fully unload them from memory, making it superior for resource-intensive browsing. For the power user with a dozen research papers, several work documents, and social media tabs open simultaneously, it prevents their computer from grinding to a halt. For the laptop user who relies on battery life, it significantly extends usage by reducing the power consumption associated with numerous active tabs. It is entirely free and open-source, ensuring transparency and community-driven security. A feature often discovered later is its ability to whitelist specific domains, ensuring critical tabs like webmail or active projects are never suspended. It's not more popular due to the historical controversy surrounding its predecessor, requiring a rebuild of trust, despite its current strong security posture. The project is actively maintained on GitHub, with frequent updates and a strong focus on user privacy.",
     "imageIdea": "Browser window with many tabs, some faded or greyed out to indicate suspension, with a small icon showing memory saved",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://chrome.google.com/webstore/detail/the-marvellous-suspender/noogafoofpebimajpfpamcfhoaifemoa"
   },
   {
     "id": 660,
@@ -5260,7 +5281,8 @@
     "whyItIsUseful": "ContextSearch web-ext significantly streamlines the research process compared to opening new tabs and manually pasting text into different search engines, making it far more efficient for deep dives. For the student researching a complex topic, they can highlight a term and instantly search it across academic databases, Wikipedia, and a general search engine with two clicks. For the developer encountering an error message, they can highlight the error and simultaneously search it on Stack Overflow, official documentation, and GitHub issues. It is completely free and open-source, offering extensive customization without any paid tiers. A powerful, less obvious feature is the ability to create highly specific custom search entries, including POST requests, for internal tools or niche databases. It's not more popular because many users are accustomed to the standard \"Search Google for...\" option and don't realize the power of a highly customized multi-engine search. The project is actively maintained on GitHub with a responsive developer.",
     "imageIdea": "A webpage with selected text, a right-click context menu expanded to show a list of various search engines like Google, Wikipedia, DuckDuckGo, and a custom option",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://github.com/nicowillis/contextsearch"
   },
   {
     "id": 661,
@@ -5284,7 +5306,8 @@
     "whyItIsUseful": "Quick Tab Search significantly outperforms native browser tab search functions or manual tab clicking by offering instant, fuzzy-matched results across all windows, making it far superior for tab navigation efficiency. For the software developer with dozens of documentation, IDE, and testing tabs, it provides a lightning-fast way to jump to the exact resource they need without breaking their flow. For the project manager juggling multiple client projects, each with its own set of tabs, it allows them to instantly pull up the relevant workspace and context. It is entirely free and open-source, offering its full feature set without any cost. A useful feature often discovered later is its ability to also search your browser history and bookmarks, extending its utility beyond just open tabs. It's not more popular because many users are simply accustomed to the less efficient methods of tab switching and don't realize the massive time-saving potential of a dedicated, optimized search. The project is actively maintained on GitHub and receives regular updates.",
     "imageIdea": "A browser window with a small, minimalist search bar overlay in the center, showing fuzzy search results for open tabs as the user types",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb"
   },
   {
     "id": 663,
@@ -5501,7 +5524,8 @@
     "whyItIsUseful": "Git Exercises offers a superior, interactive \"sandbox\" experience compared to merely reading Git documentation or following video tutorials, making learning deeply practical. For a junior developer starting their first job, it provides a safe space to practice complex branching and merging scenarios before working on a real codebase. A curious programmer can use it to explore advanced Git features and understand their effects without risking damage to their projects. The entire platform is completely free and open-source, making it an invaluable resource for self-taught developers globally. A feature often discovered later is the clear visual representation of the Git graph after each command, which helps solidify understanding of how commits and branches interact. Its simple, no-frills interface and focus on a specific, foundational development tool mean it's not as widely publicized as broader coding bootcamps. The project is open-source and maintained by its creator and community contributions, with updates as needed to refine exercises and improve the interface.",
     "imageIdea": "terminal window showing git commands with a visual representation of branching on the side",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://gitexercises.fracz.com"
   },
   {
     "id": 680,
@@ -5525,7 +5549,8 @@
     "whyItIsUseful": "Reflect offers a unique, AI-driven practice environment that goes far beyond role-playing with a friend or reading self-help books, providing instant, objective feedback on nuanced interactions. For a manager preparing to give difficult performance feedback, it allows them to rehearse different approaches and refine their language to be both firm and empathetic. An individual who struggles with confronting bias can use it to practice speaking up effectively in various simulated social scenarios, building confidence. The entire tool is completely free, making high-quality communication training accessible to everyone. A powerful feature users often discover is the detailed breakdown of their conversation choices, highlighting areas like active listening, empathy, and assertiveness, which provides deep insights. Its connection to Google Jigsaw, while reputable, means it's not marketed as a consumer product, leading to its relative obscurity despite its innovative approach. As a Google Jigsaw project, it receives updates and research-backed improvements, though its community interaction is primarily through feedback forms.",
     "imageIdea": "screenshot of a conversational AI interface with multiple choice responses and feedback pop-ups",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://jigsaw.google.com/the-current/difficult-conversations/"
   },
   {
     "id": 682,
@@ -5601,7 +5626,8 @@
     "whyItIsUseful": "Unlike the default Apple Mail, which offers limited built-in tracking prevention, MailTrackerBlocker provides a robust, automatic solution that actively neutralizes a wide range of tracking methods. For the privacy-conscious individual, it offers peace of mind, allowing them to open emails without worrying about being monitored by marketers or spammers. For the professional handling sensitive communications, preventing read receipts and tracking ensures a more secure and confidential exchange. The tool is completely free and open-source, maintained by its developer and community contributions. A less-obvious benefit is its subtle visual indicator within Mail that shows when a tracker has been blocked, providing immediate feedback on its effectiveness. It's not more popular primarily because it's a niche macOS-only plugin and many users are simply unaware that email tracking is so prevalent, let alone that a solution exists. Being open-source, it benefits from community contributions and regular updates to combat new tracking techniques.",
     "imageIdea": "a screenshot of an Apple Mail message with a small, discreet icon indicating a blocked tracker",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://github.com/apparata/MailTrackerBlocker"
   },
   {
     "id": 688,
@@ -5690,7 +5716,8 @@
     "whyItIsUseful": "While many use Google Keep or Apple Reminders for simple lists, Zenkit To Do offers superior collaboration features and a cleaner, more robust interface, making it better for shared household or small project tasks. For the busy parent coordinating family chores and errands, Zenkit To Do's shared lists make delegation and tracking effortless. For the freelance designer managing client feedback rounds, it offers a simple way to create action item lists that clients can also access and update. The basic version is entirely free for personal use, with unlimited lists and items, while paid plans offer more storage and advanced features within the Zenkit Suite. A feature often overlooked is the ability to attach files directly to tasks, which greatly enhances its utility for project-related items. Its relative obscurity stems from being part of a larger suite, with less standalone marketing focus compared to dedicated to-do apps. Zenkit maintains an active blog with updates and offers support through a help center.",
     "imageIdea": "A minimalist screenshot of Zenkit To Do showing a shared grocery list with items checked off and a profile icon indicating collaboration.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://zenkit.com/to-do"
   },
   {
     "id": 695,
@@ -5792,7 +5819,8 @@
     "whyItIsUseful": "Unlike traditional list-based task managers or even basic Gantt charts, Taskheat offers a dynamic, interconnected visual graph of tasks, making it superior for understanding project dependencies at a glance. For the creative professional planning a multi-stage artistic project, Taskheat allows them to visually map out each step, identifying prerequisites and potential parallel workstreams effortlessly. For the student organizing a large group project, it provides a clear overview of who is responsible for what and how each assignment feeds into the final deliverable. Taskheat offers a free trial for a limited number of projects, with a one-time purchase unlocking unlimited projects and full features across all Apple devices. A powerful hidden feature is its \"Critical Path\" highlighting, which visually shows the longest sequence of dependent tasks, helping users focus on key milestones. Its niche visual approach and exclusive availability on Apple platforms limit its broader recognition, keeping it a valuable hidden gem for visual thinkers. Taskheat receives regular updates and improvements, often engaging with users for feedback through its support channels.",
     "imageIdea": "A screenshot of Taskheat on macOS, showing tasks as interconnected nodes on a canvas, with arrows indicating dependencies and some nodes highlighted.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://eyen.fr/taskheat/"
   },
   {
     "id": 703,
@@ -5895,7 +5923,8 @@
     "imageIdea": "Alva interface showing a sidebar of React components being dragged onto a canvas to build a UI",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmeetalva.io&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fmeetalva.io&screenshot=true&meta=false&embed=screenshot.url",
+    "websiteLink": "https://meetalva.io"
   },
   {
     "id": 711,
@@ -6023,7 +6052,8 @@
     "whyItIsUseful": "While Matplotlib or Seaborn require coding for each chart, PyGWalker offers a Tableau-like drag-and-drop interface, making exploratory data analysis significantly faster and more intuitive for interactive discovery. For the business analyst who needs to quickly slice and dice sales data to find trends, PyGWalker allows them to instantly generate interactive bar charts by dragging dimensions and measures. For the student learning data science, it provides a playground to visually understand how different variable combinations affect a plot, without getting bogged down in syntax. PyGWalker is entirely free and open-source. A hidden gem is its \"export to code\" feature, which allows users to generate Python code (using tools like Graphic Walker or Vega-Lite) for the visualizations they create, bridging the gap between no-code exploration and programmatic control. It's not more popular because it's a relatively new project, still gaining traction, and many Python users are deeply entrenched in traditional coding-based plotting workflows. The project is actively developed on GitHub, with a growing community and regular updates.",
     "imageIdea": "a Jupyter Notebook screenshot showing a pandas DataFrame alongside an embedded, interactive drag-and-drop chart interface",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://github.com/Kanaries/pygwalker"
   },
   {
     "id": 721,
@@ -6060,7 +6090,8 @@
     "whyItIsUseful": "While `ls` is a staple, exa significantly improves upon it by offering richer visual feedback, making file inspection faster and more intuitive. For the developer constantly working in Git repositories, exa's integrated Git status display (showing modified, added, or untracked files) eliminates the need to run `git status` separately for every directory. For the system administrator troubleshooting permissions, exa's detailed permission indicators and tree view help diagnose issues at a glance. It's entirely free and open-source, with no paid tiers. A lesser-known feature is its comprehensive tree view (`exa --tree`), which can recursively list directory contents in a hierarchical structure, complete with Git status and icons. Its lack of widespread adoption often comes down to users sticking with the familiar `ls` out of habit, despite exa's clear advantages in clarity and features. It has an active community on GitHub, receiving regular updates and contributions.",
     "imageIdea": "Terminal showing colorful `exa -l` output with file icons and Git status.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://the.exa.website"
   },
   {
     "id": 724,
@@ -6097,7 +6128,8 @@
     "whyItIsUseful": "dog offers a significantly more intuitive interface and visually appealing output compared to `dig`, which often requires parsing dense and technical raw responses. For the web developer debugging a new deployment, dog provides immediate, color-coded feedback on A records or CNAMEs, making it easier to spot misconfigurations. For the network administrator verifying SPF or DKIM records, its clean output simplifies the validation process. dog is completely free and open-source. A powerful, less-known feature is its ability to query specific DNS servers using a concise syntax, e.g., `dog @8.8.8.8 example.com`, which is crucial for testing specific configurations. Its relative newness and the long-standing prevalence of `dig` mean many users haven't discovered this more ergonomic alternative. The project is actively maintained on GitHub, with new features and improvements being added regularly by its community.",
     "imageIdea": "Terminal showing `dog example.com mx` with colorful, structured DNS query results.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "websiteLink": "https://dns.lookup.dog"
   },
   {
     "id": 727,

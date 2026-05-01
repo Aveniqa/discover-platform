@@ -3064,7 +3064,6 @@
     "category": "Geology",
     "whyItIsInteresting": "The identification of a new microplate is significant because it provides a granular understanding of how large tectonic plates deform and interact, especially in regions of diffuse plate boundaries. It refines our understanding of plate kinematics, showing that what appears as a single plate boundary can be composed of smaller, independently moving blocks. This improved knowledge could lead to more accurate seismic hazard assessments for coastal regions affected by these complex interactions within the next 5-10 years. Imagine a jigsaw puzzle where some of the larger pieces are actually made of smaller, subtly shifting sub-pieces. Geologists, seismologists, and oceanographers benefit from this detailed mapping. Could there be many more undiscovered microplates complicating our global tectonic models?",
     "imageIdea": "Satellite map highlighting the Mammerickx Microplate between larger tectonic plates.",
-    "sourceLink": "https://www.adelaide.edu.au/newsroom/news/list/2021/08/04/new-tectonic-microplate-discovered-under-indian-ocean",
     "type": "discovery",
     "dateAdded": "2026-04-27"
   },
@@ -3552,8 +3551,7 @@
     "whyItIsInteresting": "The long-standing challenge in materials science has been creating materials that can repair themselves without human intervention, and this catalyst-driven approach provides a robust solution, significantly extending the service life of products. This technology overturns the traditional \"fix-or-replace\" paradigm for damaged materials, moving towards a more resilient and sustainable material lifecycle. Within 5-10 years, we could see self-healing coatings on cars, aircraft components, or infrastructure, dramatically reducing maintenance costs and improving safety. It's like giving materials their own immune system, allowing them to mend their wounds. Manufacturers, aerospace engineers, civil engineers, and consumers all benefit from more durable and safer products. What new applications become possible when materials can essentially live forever?",
     "imageIdea": "Microscopic view of a crack in polymer being filled by healing agent catalyzed by tiny spheres",
     "type": "discovery",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://news.illinois.edu/view/6367/206927"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 359,
@@ -3754,8 +3752,7 @@
     "whyItIsInteresting": "This innovation addresses the significant issue of material fatigue and damage in electronics, a major cause of product obsolescence. It overturns the notion that material failure in complex systems is irreversible without manual intervention. In the next decade, we could see phones, wearables, and even flexible solar panels that literally fix themselves, drastically reducing electronic waste. Think of it as your body's ability to heal a cut, but for a circuit board. Consumers, manufacturers, and environmental efforts would benefit immensely. Could this technology make planned obsolescence a thing of the past?",
     "imageIdea": "A broken circuit trace visibly mending itself",
     "type": "discovery",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://news.illinois.edu/view/6367/205634"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 375,
@@ -4190,7 +4187,6 @@
     "category": "Science",
     "whyItIsInteresting": "This is genuinely interesting because WIMPs have been a cornerstone of dark matter theory for decades, and XENONnT's non-detection forces a critical re-evaluation of their viability as the sole dark matter component. This result doesn't overturn the existence of dark matter but profoundly challenges the leading WIMP models, directing physicists towards other candidates like axions or primordial black holes. Within 5-10 years, experiments will either need to become even more sensitive, or the focus of the dark matter search will shift more decisively to alternative theoretical frameworks. Imagine looking for a specific, incredibly shy fish in a vast ocean; XENONnT has meticulously searched the clearest waters and found nothing, suggesting the fish might be elsewhere or even a different species entirely. Particle physicists and cosmologists benefit most by getting stronger empirical constraints, narrowing the search for dark matter's true nature. If WIMPs are not dark matter, what other fundamental particles, as yet unknown, could comprise the universe's missing mass? This result stands in contrast to earlier, less sensitive experiments that had hinted at possible WIMP signals, now definitively ruled out.",
     "imageIdea": "Cutaway illustration of the XENONnT detector deep underground, showing the liquid xenon target and photomultiplier tubes.",
-    "sourceLink": "https://news.rice.edu/news/2023/xenonnt-sets-new-limits-dark-matter-interactions",
     "type": "discovery",
     "dateAdded": "2026-04-27"
   },
@@ -5558,7 +5554,6 @@
     "category": "Materials Science",
     "whyItIsInteresting": "This discovery is revolutionary because it introduces a paradigm shift from passive materials that degrade to active materials that can self-repair, much like biological systems. It challenges the traditional understanding of material lifespan, moving beyond one-time use or repair methods. Within 5-10 years, self-healing polymers could be used in critical infrastructure like bridge coatings, aircraft components, consumer electronics, and even medical implants, significantly enhancing safety and durability while reducing replacement frequency. Imagine a car's paint automatically healing scratches or a circuit board mending itself. Engineers, manufacturers, and everyday consumers will benefit from more resilient and longer-lasting products. What if all materials could possess an innate ability to repair damage, mimicking biological regeneration? This offers a fundamentally different approach to material longevity compared to traditional methods of repair or replacement.",
     "imageIdea": "microscopic view of a crack in polymer with healing agent capsules",
-    "sourceLink": "https://news.illinois.edu/view/6367/206584",
     "type": "discovery",
     "dateAdded": "2026-04-27"
   },
@@ -6190,7 +6185,6 @@
     "category": "History",
     "whyItIsInteresting": "For generations, scholars have grappled with the mystery of ancient scripts like Linear A, whose meaning remained tantalizingly out of reach. The application of advanced AI, specifically deep learning algorithms, represents a paradigm shift in historical linguistics. By processing vast amounts of textual data and identifying subtle correlations that might be missed by the human eye, the AI has not only cracked this specific language but also demonstrated a powerful new methodology for approaching similar linguistic puzzles. This is far more than just translating ancient texts; it's about recovering lost narratives, understanding the thought processes of past peoples, and potentially rewriting chapters of human history. The success of this AI suggests that many other lost languages might be decipherable, fundamentally altering our connection to the past. A key question is: as AI becomes more adept at deciphering, what ethical considerations arise regarding ownership and interpretation of these newly understood historical voices?",
     "imageIdea": "ancient cuneiform tablet AI graphic",
-    "sourceLink": "https://phys.org/news/2023-05-ai-ancient-language.html",
     "type": "discovery",
     "dateAdded": "2026-04-30"
   }
