@@ -105,7 +105,7 @@ export default function HiddenGemsPage() {
                 className="w-full rounded-2xl border border-border bg-surface pl-10 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-amber-500/30 focus:border-amber-500/30 transition-all"
               />
             </div>
-            <select
+            <select aria-label="Sort items"
               value={sortMode}
               onChange={(e) => { setSortMode(e.target.value); setPage(1); }}
               className="rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-amber-500/40 transition-all cursor-pointer"
@@ -127,7 +127,7 @@ export default function HiddenGemsPage() {
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
                   ? "bg-amber-500/20 text-amber-300 border-amber-400/35"
-                  : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+                  : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
               }`}
             >
               All
@@ -140,7 +140,7 @@ export default function HiddenGemsPage() {
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
                     ? "bg-amber-500/20 text-amber-300 border-amber-400/35"
-                    : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+                    : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
                 }`}
               >
                 {cat}
@@ -189,12 +189,12 @@ export default function HiddenGemsPage() {
                   <BookmarkButton slug={item.slug} />
                 </div>
                 <Link href={`/item/${item.slug}`} aria-label={`Read ${item.name}`} className="block mb-2">
-                  <h3 className="text-base font-semibold text-foreground group-hover:text-amber-300 transition-colors line-clamp-2 flex items-center gap-1.5">
+                  <h2 className="text-base font-semibold text-foreground group-hover:text-amber-300 transition-colors line-clamp-2 flex items-center gap-1.5">
                     {item.websiteLink && (() => { try { return new URL(item.websiteLink).hostname.replace("www.", ""); } catch { return null; } })() && (
                       <LogoImage domain={(() => { try { return new URL(item.websiteLink).hostname.replace("www.", ""); } catch { return ""; } })()} />
                     )}
                     {item.name}
-                  </h3>
+                  </h2>
                 </Link>
                 <p className="text-sm text-muted-foreground line-clamp-1 mb-4">
                   {getItemExcerpt(item)}

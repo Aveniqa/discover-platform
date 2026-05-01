@@ -143,7 +143,7 @@ export default function TrendingPage() {
                 className="w-full rounded-2xl border border-border bg-surface pl-10 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500/30 transition-all"
               />
             </div>
-            <select
+            <select aria-label="Sort items"
               value={sortMode}
               onChange={(e) => { setSortMode(e.target.value); setPage(1); }}
               className="rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-emerald-500/40 transition-all cursor-pointer"
@@ -190,7 +190,7 @@ export default function TrendingPage() {
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
                   ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
-                  : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+                  : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
               }`}
             >
               All
@@ -203,7 +203,7 @@ export default function TrendingPage() {
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
                     ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
-                    : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+                    : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
                 }`}
               >
                 {cat}
@@ -219,7 +219,7 @@ export default function TrendingPage() {
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 priceFilter === "All"
                   ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
-                  : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+                  : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
               }`}
             >
               All Prices
@@ -231,7 +231,7 @@ export default function TrendingPage() {
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   priceFilter === range.label
                     ? "bg-emerald-500/20 text-emerald-300 border-emerald-400/35"
-                    : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+                    : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
                 }`}
               >
                 {range.label}
@@ -303,9 +303,9 @@ export default function TrendingPage() {
                   <BookmarkButton slug={item.slug} />
                 </div>
                 <Link href={`/item/${item.slug}`} aria-label={`Read ${item.title}`} className="block mb-2">
-                  <h3 className="text-base font-semibold text-foreground group-hover:text-emerald-300 transition-colors line-clamp-2">
+                  <h2 className="text-base font-semibold text-foreground group-hover:text-emerald-300 transition-colors line-clamp-2">
                     {item.title}
-                  </h3>
+                  </h2>
                 </Link>
                 <p className="text-sm text-muted-foreground line-clamp-1 mb-2">
                   {getItemExcerpt(item)}

@@ -104,7 +104,7 @@ export default function FutureRadarPage() {
                 className="w-full rounded-2xl border border-border bg-surface pl-10 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-cyan-500/30 focus:border-cyan-500/30 transition-all"
               />
             </div>
-            <select
+            <select aria-label="Sort items"
               value={sortMode}
               onChange={(e) => { setSortMode(e.target.value); setPage(1); }}
               className="rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-cyan-500/40 transition-all cursor-pointer"
@@ -126,7 +126,7 @@ export default function FutureRadarPage() {
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                 activeCategory === "All"
                   ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/35"
-                  : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+                  : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
               }`}
             >
               All
@@ -139,7 +139,7 @@ export default function FutureRadarPage() {
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
                   activeCategory === cat
                     ? "bg-cyan-500/20 text-cyan-300 border-cyan-400/35"
-                    : "bg-surface text-muted-foreground border-border hover:text-foreground hover:border-border"
+                    : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
                 }`}
               >
                 {cat}
@@ -198,9 +198,9 @@ export default function FutureRadarPage() {
                   </div>
                   <BookmarkButton slug={item.slug} />
                 </div>
-                <h3 className="text-base font-semibold text-foreground group-hover:text-cyan-300 transition-colors line-clamp-2 mb-2">
+                <h2 className="text-base font-semibold text-foreground group-hover:text-cyan-300 transition-colors line-clamp-2 mb-2">
                   {item.techName}
-                </h3>
+                </h2>
                 <p className="text-sm text-muted-foreground line-clamp-1">
                   {getItemExcerpt(item)}
                 </p>
