@@ -246,3 +246,76 @@ Unsplash image pipeline — they're remnants of older imageIdea drift.
 Tracked for a future content-cleanup pass (rewrite the `imageIdea`
 field on those items so the next image-fetch run replaces them with
 Pexels/Unsplash).
+
+### Resolved during the same pass
+
+| SHA | Change |
+|---|---|
+| `5d2c36c` | `public/_redirects` + `public/__rsc-empty.txt` — stub the Next 16 client runtime's `/__next.*.txt` prefetches that we strip. Eliminates 19 prefetch 404s per page-load. |
+| `b611bdd` | `data/image-cache.json` — strip 9 cache entries pointing at `http://` origins (loopearplugs.com, meallogger.com, thisworks.com, etc.). ItemImage now falls back to its CSS gradient placeholder until the next image-fetch run repopulates from Pexels/Unsplash. |
+
+### Tinybird analytics turned on
+
+P8's analytics module shipped with a no-op fallback. Today the live
+pipeline was wired up:
+
+1. `tb init` → `tb deploy` against `Surfaced_Workspace` created the
+   `surfaced_events` data source (Deployment #1) with the schema
+   matching every event `src/lib/analytics.ts` posts (`page_view`,
+   `bookmark_toggle`, `surprise_me_click`, `newsletter_submit`,
+   `outbound_click`, `quick_view_open`).
+2. Append-only token defined inside the `.datasource` file (Tinybird
+   Forward's resource-as-code model — `TOKEN "x" APPEND` syntax)
+   created via Deployment #2.
+3. Cloudflare Pages env vars: `NEXT_PUBLIC_TINYBIRD_TOKEN` (Text
+   type, not Secret — Secrets aren't injected at build time for
+   static exports) and `NEXT_PUBLIC_TINYBIRD_DATASOURCE`
+   (`surfaced_events`). No `NEXT_PUBLIC_TINYBIRD_HOST` needed; region
+   matches the code's default.
+4. End-to-end smoke test: events POSTed to `/v0/events?name=…` land
+   in the data source with `{successful_rows: 1}`. Token-poisoning
+   gotcha caught during verification: `cat token | pbcopy` includes
+   a trailing newline that becomes `%0A` in the request URL,
+   producing `HTTP 403 Invalid token` silently. Re-pasting from the
+   newline-stripped variant (`tr -d '\n'`) fixed it.
+
+### Final Lighthouse delta (homepage, mobile cold, post-deploy)
+
+| Category | Pre-pass (`770358f7`) | Final (`2a9b74f4`) | Delta |
+|---|---|---|---|
+| Performance | 58 | 62 | +4 |
+| Accessibility | 95 | 95 | 0 |
+| Best practices | 54 | 73 | +19 |
+| SEO | 100 | 100 | 0 |
+| Network 404s | 8 | 0 | −8 |
+| LCP | 19.0 s | 18.9 s | flat |
+| CLS | 0.002 | 0.002 | flat |
+
+Performance ceiling is dominated by Lighthouse's mobile-cold-network
+simulation against external Pexels/Unsplash images. Lifting it
+further requires either client→server split (Next.js Server
+Components) or moving images behind an optimized origin — both are
+P2 in the original audit and out of scope for this pass.
+
+### Commits in chronological order (this pass)
+
+| SHA | Title |
+|---|---|
+| `a38fddb` | data: unified stats + dateAdded backfill script |
+| `b412148` | perf/seo: listing excerpts |
+| `cfcd3e6` | design: homepage refresh |
+| `7c0c3bd` | design: category + collection polish |
+| `0addbf2` | design: item detail upgrade |
+| `811be94` | seo/a11y: descriptive anchors + footer linking |
+| `40002cd` | ux: dedupe newsletter forms |
+| `0a07986` | analytics: Tinybird events with safe fallback |
+| `c8ab29b` | ux: saved + streak + quick view + surprise me hardening |
+| `900b5ff` | docs: changelog for the post-92c123f redesign + UX pass |
+| `602c02b` | chore: ignore local artifacts |
+| `2f12054` | data: backfill dateAdded for legacy items |
+| `b68008d` | docs: deploy-gap note |
+| `dae2b6a` | build: strip Next 16 RSC sidecars to fit CF Pages 20k file cap |
+| `b7a81b6` | fix: keep tree/index RSC sidecars + widen CSP for AdSense |
+| `c97278a` | docs: deploy-unblocked snapshot |
+| `5d2c36c` | fix: stub stripped RSC sidecars via CF _redirects |
+| `b611bdd` | data: strip mixed-content http:// image URLs from cache |
