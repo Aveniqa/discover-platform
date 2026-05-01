@@ -111,13 +111,13 @@ export function Navbar() {
             </Link>
 
             {/* Desktop Nav */}
-            <div className="hidden lg:flex items-center gap-1">
+            <div className="hidden lg:flex items-center gap-0.5 xl:gap-1">
               {mainNav.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
                   className={cn(
-                    "relative px-3.5 py-2 rounded-lg text-[13px] font-medium transition-all duration-200",
+                    "relative px-2.5 xl:px-3 py-2 rounded-lg text-[13px] font-medium transition-all duration-200 whitespace-nowrap",
                     activeHref === item.href
                       ? "text-foreground bg-surface-elevated/80 shadow-sm"
                       : "text-muted-foreground hover:text-foreground hover:bg-surface-elevated/40"
@@ -132,14 +132,14 @@ export function Navbar() {
             </div>
 
             {/* Right Actions */}
-            <div className="flex items-center gap-2">
-              {/* Streak Widget — desktop only */}
-              <div className="hidden lg:block">
+            <div className="flex items-center gap-1.5 xl:gap-2">
+              {/* Streak Widget — only at xl+ (compact, but still 90+ px wide) */}
+              <div className="hidden xl:block">
                 <StreakWidget />
               </div>
 
-              {/* Surprise Me — desktop only */}
-              <div className="hidden lg:block">
+              {/* Surprise Me — only at xl+ (the dice icon button) */}
+              <div className="hidden xl:block">
                 <SurpriseMe />
               </div>
 
@@ -152,7 +152,7 @@ export function Navbar() {
               {/* Newsletter CTA */}
               <Link
                 href="/newsletter"
-                className="hidden md:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl btn-gradient text-xs cursor-pointer"
+                className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-xl btn-gradient text-xs whitespace-nowrap cursor-pointer"
               >
                 Subscribe
               </Link>

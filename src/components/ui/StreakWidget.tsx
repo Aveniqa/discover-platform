@@ -28,14 +28,18 @@ export function StreakWidget() {
   const milestone = getStreakMilestone(streak);
   const icon = milestone ? milestone.emoji : "🔥";
 
+  // Compact in navbar (icon + day count only). Full milestone label lives in
+  // the aria-label + native title tooltip so screen readers + hover users get
+  // the context without bloating the navbar at narrow desktop widths.
   return (
     <div
-      className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/25 text-xs font-medium text-amber-300 shadow-[0_0_15px_rgba(251,191,36,0.08)]"
+      className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-500/15 border border-amber-500/25 text-xs font-medium text-amber-300 shadow-[0_0_15px_rgba(251,191,36,0.08)] whitespace-nowrap"
       role="status"
       aria-label={milestone ? `${milestone.label} — day ${streak} streak` : `Day ${streak} streak`}
+      title={milestone ? `${milestone.label} — Day ${streak} streak` : `Day ${streak} streak`}
     >
       <span aria-hidden="true">{icon}</span>
-      <span className="font-medium">Day {streak} streak{milestone ? ` · ${milestone.label}` : ""}</span>
+      <span className="font-medium">Day {streak}</span>
     </div>
   );
 }
