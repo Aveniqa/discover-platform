@@ -131,6 +131,25 @@ async function main() {
     }
   }
 
+  // Soft warning for low-quality sources (never blocks, never removes URLs)
+  const LOW_QUALITY_DOMAINS = ["wikipedia.org", "wikihow.com"];
+  let wikiCount = 0;
+  for (const [category, urlField] of Object.entries(FILES)) {
+    const fp = path.join(DATA_DIR, `${category}.json`);
+    if (!fs.existsSync(fp)) continue;
+    const items = JSON.parse(fs.readFileSync(fp, "utf8"));
+    for (const item of items) {
+      const url = item[urlField] || "";
+      if (LOW_QUALITY_DOMAINS.some((d) => url.includes(d))) {
+        wikiCount++;
+      }
+    }
+  }
+  if (wikiCount > 0) {
+    console.log(`\n⚠️  LOW-QUALITY SOURCE WARNING: ${wikiCount} item(s) still link to wikipedia.org or wikihow.com.`);
+    console.log("   Run: node scripts/retrofit-sources.mjs --dry  (then --run to replace)");
+  }
+
   console.log("\n─────────");
   console.log(`Total broken URLs: ${allBroken.length}`);
   if (isDryRun) {

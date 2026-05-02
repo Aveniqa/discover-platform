@@ -196,6 +196,7 @@ Rules:
 - slug must be kebab-case, unique, derived from the title/name
 - Descriptions should be engaging and informative — add depth, context, and specifics beyond the raw seed blurb
 - Today's date for reference: ${today}
+- SOURCE QUALITY: For sourceLink/websiteLink, strongly prefer authoritative primary sources. Preferred domains: nytimes.com, wsj.com, reuters.com, apnews.com, bloomberg.com, ft.com, bbc.com, theverge.com, wired.com, arstechnica.com, technologyreview.com, scientificamerican.com, nature.com, science.org, theatlantic.com, newyorker.com, economist.com, nationalgeographic.com, smithsonianmag.com, nasa.gov, noaa.gov, nih.gov, arxiv.org, mit.edu, stanford.edu. Also acceptable: direct manufacturer/product pages, official GitHub repos, official tool websites. BANNED sources (never use): wikipedia.org, wikihow.com, blogspot.com, any wordpress.com blog, medium.com (except official brand publications). If no preferred source exists, use the most authoritative primary source available.
 
 Return ONLY the JSON array, no markdown fencing, no explanation.`;
 
