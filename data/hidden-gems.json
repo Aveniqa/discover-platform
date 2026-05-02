@@ -1,70 +1,5 @@
 [
   {
-    "id": 76,
-    "slug": "font-pairwise",
-    "name": "Font Pair",
-    "whatItDoes": "Font Pair is a dedicated web-based utility, likely an independent project, designed to simplify the often-complex task of choosing harmonious typography. Its core feature is providing expertly curated pairings of Google Fonts, showcasing how different typefaces complement each other for optimal readability and aesthetic appeal. This tool is primarily built for graphic designers, web developers, content creators, and anyone needing to make informed font choices for digital or print projects. Users can browse various categories like Headings & Body or Display & Sans Serif, instantly visualizing how specific font duos appear in real-world contexts, such as headlines, body text, or UI elements. As a web-based resource, it focuses exclusively on Google Fonts, which are widely accessible and free for commercial use.",
-    "category": "Design",
-    "whyItIsUseful": "Font Pair effectively replaces the tedious, time-consuming trial-and-error method of manually testing countless font combinations within design software. It offers a streamlined, pre-vetted solution that can save designers hours of experimentation, leading to significantly improved aesthetic quality in their work. For a web designer launching a new client site, Font Pair allows them to quickly find a professional and harmonious pairing (e.g., a strong display font for headings and a readable sans-serif for body text) that aligns with the brand's aesthetic. Similarly, a content creator designing infographics or social media graphics can use it to select visually appealing and legible fonts that enhance their message and brand identity, making their content more engaging. Font Pair is completely free to use, leveraging the open-source nature of Google Fonts. A feature often discovered late is the ability to filter by specific font categories or even search for pairings with a particular font already in mind, making targeted searches incredibly efficient. While excellent, its niche focus means many designers might stick to broader design trend platforms or their established font libraries rather than a dedicated pairing site. Its simplicity is a strength, but also means it doesn't offer complex typography features. The platform likely maintains a stable, low-maintenance update cadence, with its value stemming from its curated content, which might be updated periodically with new Google Fonts or refined pairings.",
-    "imageIdea": "two elegant typewriters side-by-side",
-    "websiteLink": "https://www.fontpair.co/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.fontpair.co%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 77,
-    "slug": "thesaurus-wordhippo",
-    "name": "WordHippo",
-    "whatItDoes": "WordHippo is a comprehensive online thesaurus and dictionary that goes beyond simple synonyms. It offers a wide range of word-finding tools, including antonyms, rhyming words, words with similar meanings, and even words that start or end with specific letters.",
-    "category": "Writing",
-    "whyItIsUseful": "For writers, WordHippo is an invaluable resource for expanding vocabulary and finding the perfect word. Its diverse search functionalities allow for nuanced word selection, helping to craft more precise and evocative language.",
-    "imageIdea": "a vintage dictionary open to a page of many words",
-    "websiteLink": "https://www.wordhippo.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.wordhippo.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 80,
-    "slug": "cold-turkey-blocker-2",
-    "name": "Cold Turkey Blocker",
-    "whatItDoes": "Cold Turkey Blocker is a powerful software designed to eliminate digital distractions by blocking websites and applications. It allows users to create custom blocklists and schedules, and features a 'Cold Turkey' mode that is exceptionally difficult to bypass.",
-    "category": "Productivity",
-    "whyItIsUseful": "For anyone struggling with procrastination or excessive screen time, this tool provides an essential barrier against time-wasting sites and apps. It enforces focus and helps cultivate better concentration habits, leading to increased productivity.",
-    "imageIdea": "A stylized padlock icon overlaid on a web browser or a collection of social media app icons, signifying blocked access.",
-    "websiteLink": "https://getcoldturkey.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgetcoldturkey.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 82,
-    "slug": "simplenote",
-    "name": "Simplenote",
-    "whatItDoes": "Simplenote is a lightweight, cross-platform note-taking application developed by Automattic, the company behind WordPress.com and Tumblr. Its core feature is providing a minimalist, text-focused environment for rapidly capturing, organizing, and syncing notes, lists, and ideas across all devices. This tool is primarily built for individuals who prioritize speed, simplicity, and ubiquitous access to their plain-text notes, from students and writers to busy professionals. Users can quickly jot down thoughts, create to-do lists, or draft ideas, and these notes are instantly synchronized across all connected devices (desktop, mobile, web), making them accessible anytime, anywhere. Simplenote is available as native applications for macOS, Windows, Linux, iOS, and Android, alongside a web-based interface, ensuring comprehensive cross-platform synchronization.",
-    "category": "Productivity",
-    "whyItIsUseful": "Simplenote offers a streamlined alternative to more feature-heavy note-taking apps like Evernote or OneNote, winning with its unparalleled speed, distraction-free interface, and robust cross-platform synchronization for plain text. For example, a student in a lecture can rapidly type notes, create flashcard lists, or outline essay ideas without being distracted by formatting options, knowing everything is instantly saved and accessible on their phone later. A writer can use Simplenote to capture fleeting article ideas, draft outlines, or collect research snippets across various devices, ensuring no idea is lost and all content is easily findable via its simple tagging system. Simplenote is completely free to use, offering all its core features, including unlimited notes and synchronization, without any premium tiers. The revision history feature is often overlooked; it allows users to revert to previous versions of a note, providing a safety net for accidental deletions or edits. Its extreme minimalism, while a strength, can also be perceived as a limitation for users who require rich text formatting, image attachments, or complex organizational structures, which limits its universal appeal. Backed by Automattic, Simplenote benefits from consistent maintenance and updates, ensuring reliability and compatibility across new OS versions, though major feature additions are rare due to its core philosophy.",
-    "imageIdea": "A minimalist notepad icon with a sync symbol.",
-    "websiteLink": "https://simplenote.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsimplenote.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 84,
-    "slug": "codesandbox",
-    "name": "CodeSandbox",
-    "whatItDoes": "CodeSandbox is a powerful online Integrated Development Environment (IDE) and prototyping platform specifically designed for web development, created by a dedicated team aiming to revolutionize browser-based coding. Its core feature allows developers to instantly spin up full-fledged development environments for web projects directly in their browser, complete with live reloading, dependency management, and built-in developer tools. This platform is primarily built for front-end developers, educators, learners, and teams who need to rapidly prototype, experiment, share code snippets, or collaborate on web projects without the overhead of local setup. Users can choose from templates for popular frameworks like React, Vue, Angular, or Svelte, write code, see changes in real-time, invite collaborators, and even deploy their projects with a few clicks, all within a single browser tab. It's a browser-based platform with deep integration for npm packages, Git (GitHub, GitLab, Bitbucket), and various web frameworks, offering a comprehensive development experience without local installation.",
-    "category": "Developer",
-    "whyItIsUseful": "CodeSandbox largely replaces the need for a local development environment setup (VS Code, Node.js, package managers) for initial prototyping and sharing, winning on speed, zero-configuration, and seamless real-time collaboration that traditional setups can't match. For instance, a junior developer learning a new JavaScript framework can use CodeSandbox to immediately start coding and experimenting without the frustration of configuring their local machine, accelerating their learning curve. A team lead can create a minimal reproducible example of a bug or a new feature concept, share it instantly with colleagues, and collaborate in real-time to debug or refine the code, streamlining feedback loops. CodeSandbox offers a generous free tier for individual public projects and basic features; paid plans unlock private sandboxes, increased storage, dedicated team features, and enhanced collaboration. Many users initially use it for simple demos but later discover its full Git integration, allowing them to directly commit changes back to a GitHub repository or even import existing repositories. While popular in specific circles, it hasn't fully replaced local IDEs for large-scale, complex projects due to potential performance limitations for massive codebases or offline work requirements. CodeSandbox has a very active development team, frequently releasing updates, new features, and framework support, and boasts a strong community of users who share projects.",
-    "imageIdea": "A browser window displaying a code editor interface with a play button.",
-    "websiteLink": "https://codesandbox.io/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-13",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcodesandbox.io%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 85,
     "slug": "text-blaze",
     "name": "Text Blaze",
@@ -1026,7 +961,8 @@
     "imageIdea": "Clean, minimalist budget interface showing categories and allocated funds, possibly with a small padlock icon for privacy.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://actualbudget.org"
+    "websiteLink": "https://actualbudget.org",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Factualbudget.org&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 182,
@@ -1362,8 +1298,7 @@
     "whyItIsUseful": "Flowstate provides an extreme but highly effective method for overcoming writer's block, a far cry from a standard text editor like Notes or Google Docs. For the novelist struggling with their first draft, it forces them to keep writing, building momentum and generating content without getting bogged down in edits. For the student facing a blank page for an essay, it helps them overcome procrastination and just get words down. Flowstate is a one-time purchase, not a subscription. A surprising feature is the ability to choose how long the 'pause' before deletion is, allowing for some flexibility in intensity. It's not more popular because its aggressive design, while effective for some, is too intimidating for most writers who prefer the safety of constant saving and editing. The app is a mature product with infrequent but stable updates.",
     "imageIdea": "Minimalist text editor in dark mode with a warning message about deletion if typing stops",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://flowstate.app"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 209,
@@ -1726,7 +1661,8 @@
     "imageIdea": "A minimalist journal app open to a page with a date, markdown text, and a small lock icon.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://diarly.app"
+    "websiteLink": "https://diarly.app",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdiarly.app&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 239,
@@ -1853,7 +1789,6 @@
     "category": "Developer",
     "whyItIsUseful": "Gnuplot offers unparalleled precision and scripting capabilities for scientific plotting, far surpassing the typical plotting functions in spreadsheet software or even some specialized tools for generating publication-quality figures. For the physicist analyzing experimental data, Gnuplot provides the exact control over axis ranges, labels, and error bars needed for rigorous scientific communication. For the engineering student, it's an invaluable tool for visualizing complex functions and data trends during coursework, enabling rapid iteration on plot designs. It is completely free and open-source, available on virtually all operating systems. A hidden gem often discovered later is its powerful `fit` command, which can perform non-linear regression to fit user-defined functions to data, a feature usually found in dedicated statistical packages. Its steep learning curve due to the command-line interface and scripting requirement makes it less accessible to casual users, who often prefer GUI-based tools. Gnuplot has a long-standing, active community, extensive documentation, and a continuous development cycle, ensuring its role as a bedrock scientific plotting tool.",
     "imageIdea": "a Gnuplot output image showing a complex 3D surface plot of a mathematical function with contour lines and custom color mapping",
-    "websiteLink": "https://www.gnuplot.info/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=http%3A%2F%2Fwww.gnuplot.info%2F&screenshot=true&meta=false&embed=screenshot.url"
@@ -2478,8 +2413,7 @@
     "whyItIsUseful": "While operating systems offer basic clipboard history, Clipboard History 2 provides a more accessible and persistent history within the browser environment, often with better search and pinning capabilities. For the content writer drafting an article, it means effortlessly assembling quotes and facts from various sources without constantly switching tabs to re-copy. For the developer, it allows for quick retrieval of code snippets, variable names, or error messages from their browser-based IDE or documentation. It is completely free and open-source, ensuring transparency and community-driven development. A neat feature often overlooked is the ability to pin frequently used items, ensuring they never leave your history, even across browser restarts. It's not more popular because many users are unaware such an advanced browser-specific clipboard manager exists, often relying on their OS-level solutions or simply re-copying. The open-source nature means a dedicated community regularly contributes updates and bug fixes, ensuring its reliability and longevity.",
     "imageIdea": "A small popup showing a list of recently copied text snippets, ready for selection.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://apps.apple.com/app/clipboard-history-2/id1160187370"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 315,
@@ -2517,7 +2451,8 @@
     "imageIdea": "A new tab page showing organized collections of website icons and lists of tabs.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.gettoby.com"
+    "websiteLink": "https://www.gettoby.com",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.gettoby.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 464,
@@ -2568,7 +2503,8 @@
     "imageIdea": "Screenshot of an Around video call with circular participant bubbles floating over a shared screen, minimalist interface.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.around.co"
+    "websiteLink": "https://www.around.co",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.around.co&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 322,
@@ -2631,8 +2567,7 @@
     "whyItIsUseful": "Hypercontext significantly improves upon generic note-taking apps or shared documents for meeting management by providing a structured, collaborative framework that ensures clear objectives and accountability. For the team lead conducting a weekly sprint review, Hypercontext allows every team member to add discussion points beforehand, ensuring all issues are addressed and action items are clearly assigned and tracked. For the remote manager performing a one-on-one, the tool provides a persistent history of discussion topics, goals, and feedback, fostering continuous growth and preventing important points from being forgotten between sessions. Hypercontext offers a free tier for up to 5 users with unlimited meetings and agendas, while paid plans unlock advanced features like meeting templates, analytics, and more integrations for larger teams. A surprisingly useful feature is its AI-powered \"question suggestions\" for one-on-ones, which helps managers ask impactful questions to foster deeper conversations and uncover crucial insights. Its struggle for broader recognition stems from the perception that \"another meeting tool\" is unnecessary, underestimating the profound impact structured agendas and follow-ups have on team efficiency. Hypercontext maintains a regular update schedule, frequently adding new integrations and enhancing its meeting intelligence capabilities.",
     "imageIdea": "A collaborative meeting agenda with bullet points, assigned action items, and attendee avatars.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://hypercontext.com"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 329,
@@ -2734,8 +2669,7 @@
     "whyItIsUseful": "While platforms like Codecademy offer broader programming courses, Grasshopper excels at simplifying JavaScript fundamentals into an engaging, gamified experience, perfect for initial skill development. For the high school student curious about coding, Grasshopper offers a low-friction entry point, guiding them through concepts like functions and variables with visual puzzles. For the adult looking to pivot into tech, it provides a solid, accessible foundation in JavaScript without the overwhelm of complex IDEs or setup. Grasshopper is entirely free to use, without any paid subscriptions or premium features. A powerful but often overlooked feature is the \"Code Playground,\" where users can experiment with their own JavaScript code outside of the structured lessons. Its focus on basic fundamentals and a single language means it won't take users to advanced levels, limiting its appeal to those past the beginner stage. It receives regular updates from Google's team, ensuring content remains relevant and engaging.",
     "imageIdea": "Cartoon grasshopper character guiding a user through simple JavaScript code in a mobile interface.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://grasshopper.app"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 340,
@@ -2929,7 +2863,8 @@
     "imageIdea": "Clean, dark-themed email client interface with multiple inboxes consolidated, showing tracking icons.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://getmailspring.com"
+    "websiteLink": "https://getmailspring.com",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgetmailspring.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 355,
@@ -3095,7 +3030,6 @@
     "category": "Developer",
     "whyItIsUseful": "Pinegrow offers a unique hybrid approach, bridging the gap between no-code visual builders like Webflow and pure code editors, providing the best of both worlds without abstraction layers. For the freelance web designer who needs to quickly build custom, responsive client sites without being locked into a platform's ecosystem, Pinegrow is incredibly versatile. For the WordPress theme developer who wants to visually edit templates and then export clean, standard-compliant code, Pinegrow speeds up their workflow dramatically. Pinegrow offers a free trial, with paid perpetual licenses starting from $129 (for a single platform, with a year of updates), offering various editions for specific frameworks or WordPress. A deeply powerful but often overlooked feature is its \"Master Pages\" concept, allowing users to define common elements (headers, footers) and apply them across multiple pages, ensuring consistency effortlessly. It's not more popular because it requires some understanding of HTML/CSS to fully leverage its power, positioning it between the no-code and pure-code camps, which can confuse potential users. Pinegrow has an active forum, extensive documentation, and provides consistent updates with new framework versions and features.",
     "imageIdea": "Pinegrow interface showing a split view: live website preview on one side, code editor and CSS panel on the other, with a Bootstrap component selected.",
-    "websiteLink": "https://pinegrow.com",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fpinegrow.com&screenshot=true&meta=false&embed=screenshot.url"
@@ -3615,7 +3549,6 @@
     "category": "Finance",
     "whyItIsUseful": "HomeBank provides a straightforward, open-source alternative to commercial personal finance software like Quicken or Microsoft Money, with a strong focus on ease of use and local data storage. For the budget-conscious individual, HomeBank helps them identify spending patterns and stick to financial goals without monthly subscription fees or sharing sensitive data online. For the family trying to manage household expenses, it offers an intuitive way to track shared accounts and identify areas for savings, promoting better financial discipline. HomeBank is entirely free and open-source, relying on donations and community contributions for its development. A valuable feature often discovered later is its powerful 'Budget' module, which allows for detailed budget creation across categories, with visual progress bars that genuinely motivate better spending. Its less widespread adoption compared to web-based tools is due to its desktop-only nature and the general trend towards cloud services, despite its robust offline capabilities. The project has an active community forum, provides regular updates, and maintains comprehensive documentation.",
     "imageIdea": "HomeBank interface showing a ledger of transactions with categories and a simple pie chart report.",
-    "websiteLink": "https://homebank.free.fr/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=http%3A%2F%2Fhomebank.free.fr%2F&screenshot=true&meta=false&embed=screenshot.url"
@@ -3655,8 +3588,7 @@
     "whyItIsUseful": "Mercury Reader offers a superior, more consistent, and highly customizable reading experience compared to browser-native \"reader modes,\" which often struggle with complex layouts or lack customization. For the student conducting extensive research, Mercury Reader allows them to process dense academic articles more efficiently, reducing cognitive load and improving comprehension. For the busy professional trying to keep up with industry news, it transforms overwhelming news feeds into manageable, focused reading sessions, saving time by eliminating distractions. Mercury Reader is completely free to use, offering full functionality without any premium tiers. A useful feature often discovered after initial use is its ability to customize font size, typeface, and theme (light/dark), making it adaptable to individual preferences and environments. Its relative obscurity stems from many users not actively seeking solutions for web clutter, or simply tolerating poor reading experiences, unaware that such an elegant and effective tool exists. The extension is stable and reliable, receiving maintenance updates to ensure compatibility with modern web standards.",
     "imageIdea": "Split screen: a chaotic webpage with ads and pop-ups on one side, and the same content in a clean, minimalist, dark-themed reading view on the other.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://mercury.postlight.com"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 467,
@@ -4422,7 +4354,8 @@
     "imageIdea": "network graph of historical figures connected by lines, with a timeline slider below",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://hdlab.stanford.edu/palladio/"
+    "websiteLink": "https://hdlab.stanford.edu/palladio/",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhdlab.stanford.edu%2Fpalladio%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 594,
@@ -4473,7 +4406,8 @@
     "imageIdea": "a sequence of animated bar charts smoothly transitioning into a pie chart or scatter plot, with dynamic labels",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://vizzuhq.com"
+    "websiteLink": "https://vizzuhq.com",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fvizzuhq.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 598,
@@ -4754,7 +4688,8 @@
     "imageIdea": "LongShot AI dashboard showing content brief, generated article, and fact-checking results with source links.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.longshot.ai"
+    "websiteLink": "https://www.longshot.ai",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.longshot.ai&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 620,
@@ -4856,8 +4791,7 @@
     "whyItIsUseful": "iMapping offers a unique blend of mind-mapping flexibility and structured outlining, surpassing traditional note-taking apps by allowing infinite zoom and nested maps for unparalleled depth. For a doctoral candidate synthesizing hundreds of research papers, it provides a visual canvas to connect ideas, methodologies, and findings from disparate sources into a coherent overview. For a consultant developing a strategy, it allows them to map client requirements, market analysis, and proposed solutions within a single, navigable knowledge space. iMapping offers a free trial, with a one-time purchase for the full license, making it a sustainable investment. A powerful feature often overlooked is the \"map-in-map\" capability, allowing users to zoom into a card to reveal an entirely new, detailed map, essentially creating a fractal knowledge base. Its desktop-only nature and a steeper learning curve than simpler tools contribute to its niche appeal, despite its power for serious knowledge work. iMapping has an active user forum, detailed tutorials, and receives consistent updates with new features and improvements.",
     "imageIdea": "a sprawling, infinite canvas filled with interconnected cards, some zoomed in to reveal more detailed sub-maps, showcasing a complex knowledge structure",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://imapping.io"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 628,
@@ -5220,7 +5154,8 @@
     "imageIdea": "Before-and-after comparison of a busy news website versus its minimalist, clean \"Just Read\" version",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://justread.link"
+    "websiteLink": "https://justread.link",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fjustread.link&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 656,
@@ -5245,7 +5180,8 @@
     "imageIdea": "A webpage with an active, transparent ruler overlay measuring the width of a hero image or text block",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal"
+    "websiteLink": "https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fpage-ruler-redux%2Fgiejhjebcalaheckengmchjekofhhmal&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 658,
@@ -5270,7 +5206,8 @@
     "imageIdea": "Browser window with many tabs, some faded or greyed out to indicate suspension, with a small icon showing memory saved",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://chrome.google.com/webstore/detail/the-marvellous-suspender/noogafoofpebimajpfpamcfhoaifemoa"
+    "websiteLink": "https://chrome.google.com/webstore/detail/the-marvellous-suspender/noogafoofpebimajpfpamcfhoaifemoa",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fthe-marvellous-suspender%2Fnoogafoofpebimajpfpamcfhoaifemoa&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 660,
@@ -5281,8 +5218,7 @@
     "whyItIsUseful": "ContextSearch web-ext significantly streamlines the research process compared to opening new tabs and manually pasting text into different search engines, making it far more efficient for deep dives. For the student researching a complex topic, they can highlight a term and instantly search it across academic databases, Wikipedia, and a general search engine with two clicks. For the developer encountering an error message, they can highlight the error and simultaneously search it on Stack Overflow, official documentation, and GitHub issues. It is completely free and open-source, offering extensive customization without any paid tiers. A powerful, less obvious feature is the ability to create highly specific custom search entries, including POST requests, for internal tools or niche databases. It's not more popular because many users are accustomed to the standard \"Search Google for...\" option and don't realize the power of a highly customized multi-engine search. The project is actively maintained on GitHub with a responsive developer.",
     "imageIdea": "A webpage with selected text, a right-click context menu expanded to show a list of various search engines like Google, Wikipedia, DuckDuckGo, and a custom option",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://github.com/nicowillis/contextsearch"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 661,
@@ -5307,7 +5243,8 @@
     "imageIdea": "A browser window with a small, minimalist search bar overlay in the center, showing fuzzy search results for open tabs as the user types",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb"
+    "websiteLink": "https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fquick-tabs%2Fjnjfeinjfmenlddahdjdmgpbokiacbbb&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 663,
@@ -5525,7 +5462,8 @@
     "imageIdea": "terminal window showing git commands with a visual representation of branching on the side",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://gitexercises.fracz.com"
+    "websiteLink": "https://gitexercises.fracz.com",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgitexercises.fracz.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 680,
@@ -5549,8 +5487,7 @@
     "whyItIsUseful": "Reflect offers a unique, AI-driven practice environment that goes far beyond role-playing with a friend or reading self-help books, providing instant, objective feedback on nuanced interactions. For a manager preparing to give difficult performance feedback, it allows them to rehearse different approaches and refine their language to be both firm and empathetic. An individual who struggles with confronting bias can use it to practice speaking up effectively in various simulated social scenarios, building confidence. The entire tool is completely free, making high-quality communication training accessible to everyone. A powerful feature users often discover is the detailed breakdown of their conversation choices, highlighting areas like active listening, empathy, and assertiveness, which provides deep insights. Its connection to Google Jigsaw, while reputable, means it's not marketed as a consumer product, leading to its relative obscurity despite its innovative approach. As a Google Jigsaw project, it receives updates and research-backed improvements, though its community interaction is primarily through feedback forms.",
     "imageIdea": "screenshot of a conversational AI interface with multiple choice responses and feedback pop-ups",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://jigsaw.google.com/the-current/difficult-conversations/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 682,
@@ -5626,8 +5563,7 @@
     "whyItIsUseful": "Unlike the default Apple Mail, which offers limited built-in tracking prevention, MailTrackerBlocker provides a robust, automatic solution that actively neutralizes a wide range of tracking methods. For the privacy-conscious individual, it offers peace of mind, allowing them to open emails without worrying about being monitored by marketers or spammers. For the professional handling sensitive communications, preventing read receipts and tracking ensures a more secure and confidential exchange. The tool is completely free and open-source, maintained by its developer and community contributions. A less-obvious benefit is its subtle visual indicator within Mail that shows when a tracker has been blocked, providing immediate feedback on its effectiveness. It's not more popular primarily because it's a niche macOS-only plugin and many users are simply unaware that email tracking is so prevalent, let alone that a solution exists. Being open-source, it benefits from community contributions and regular updates to combat new tracking techniques.",
     "imageIdea": "a screenshot of an Apple Mail message with a small, discreet icon indicating a blocked tracker",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://github.com/apparata/MailTrackerBlocker"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 688,
@@ -5717,7 +5653,8 @@
     "imageIdea": "A minimalist screenshot of Zenkit To Do showing a shared grocery list with items checked off and a profile icon indicating collaboration.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://zenkit.com/to-do"
+    "websiteLink": "https://zenkit.com/to-do",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fzenkit.com%2Fto-do&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 695,
@@ -5820,7 +5757,8 @@
     "imageIdea": "A screenshot of Taskheat on macOS, showing tasks as interconnected nodes on a canvas, with arrows indicating dependencies and some nodes highlighted.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://eyen.fr/taskheat/"
+    "websiteLink": "https://eyen.fr/taskheat/",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Feyen.fr%2Ftaskheat%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 703,
@@ -6053,7 +5991,8 @@
     "imageIdea": "a Jupyter Notebook screenshot showing a pandas DataFrame alongside an embedded, interactive drag-and-drop chart interface",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://github.com/Kanaries/pygwalker"
+    "websiteLink": "https://github.com/Kanaries/pygwalker",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2FKanaries%2Fpygwalker&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 721,
@@ -6090,8 +6029,7 @@
     "whyItIsUseful": "While `ls` is a staple, exa significantly improves upon it by offering richer visual feedback, making file inspection faster and more intuitive. For the developer constantly working in Git repositories, exa's integrated Git status display (showing modified, added, or untracked files) eliminates the need to run `git status` separately for every directory. For the system administrator troubleshooting permissions, exa's detailed permission indicators and tree view help diagnose issues at a glance. It's entirely free and open-source, with no paid tiers. A lesser-known feature is its comprehensive tree view (`exa --tree`), which can recursively list directory contents in a hierarchical structure, complete with Git status and icons. Its lack of widespread adoption often comes down to users sticking with the familiar `ls` out of habit, despite exa's clear advantages in clarity and features. It has an active community on GitHub, receiving regular updates and contributions.",
     "imageIdea": "Terminal showing colorful `exa -l` output with file icons and Git status.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://the.exa.website"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 724,
@@ -6128,8 +6066,7 @@
     "whyItIsUseful": "dog offers a significantly more intuitive interface and visually appealing output compared to `dig`, which often requires parsing dense and technical raw responses. For the web developer debugging a new deployment, dog provides immediate, color-coded feedback on A records or CNAMEs, making it easier to spot misconfigurations. For the network administrator verifying SPF or DKIM records, its clean output simplifies the validation process. dog is completely free and open-source. A powerful, less-known feature is its ability to query specific DNS servers using a concise syntax, e.g., `dog @8.8.8.8 example.com`, which is crucial for testing specific configurations. Its relative newness and the long-standing prevalence of `dig` mean many users haven't discovered this more ergonomic alternative. The project is actively maintained on GitHub, with new features and improvements being added regularly by its community.",
     "imageIdea": "Terminal showing `dog example.com mx` with colorful, structured DNS query results.",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://dns.lookup.dog"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 727,
@@ -6348,5 +6285,75 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-30",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fpixel-perfect-px-to-px-o%2Fbkfipckgdebnepgdjanfaoiegbjeeeib&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 743,
+    "slug": "whatcable",
+    "name": "WhatCable",
+    "seoTitle": "WhatCable — Inspect USB-C Cables",
+    "whatItDoes": "WhatCable is a minimalist menu bar application for macOS that provides detailed information about your connected USB-C cables. It helps users understand the capabilities of their cables, such as supported power delivery (PD) wattage, data transfer speeds (USB 2.0, 3.0, 3.1, Thunderbolt), and video output capabilities (DisplayPort Alt Mode). This tool is built for developers, tech enthusiasts, or anyone who frequently works with various USB-C peripherals and wants to ensure they are using the optimal cable for their setup.",
+    "category": "Developer",
+    "whyItIsUseful": "In a world flooded with USB-C cables, differentiating between a basic charging cable and a high-speed Thunderbolt cable can be difficult. WhatCable cuts through the confusion by offering a quick, at-a-glance view directly from your menu bar, eliminating the need to dig through product manuals or guess based on physical markings. Its focus on clarity and simplicity makes it incredibly valuable for users who need to troubleshoot connectivity issues or simply want to maximize the performance of their peripherals. Power users appreciate its unobtrusive nature and the immediate insight it provides into their hardware.",
+    "imageIdea": "USB-C cable diagram",
+    "websiteLink": "https://github.com/darrylmorley/whatcable",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-02",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fdarrylmorley%2Fwhatcable&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 744,
+    "slug": "cua-background-app-launcher",
+    "name": "Drive any macOS app in the background without stealing the cursor",
+    "seoTitle": "CUA — Run macOS Apps Background",
+    "whatItDoes": "CUA (Cursorless User Agent) is a macOS utility designed to allow any application to run in the background without interfering with your active cursor or taking focus away from your current task. This is particularly useful for applications that would normally require user interaction or would steal focus when launched, such as certain installers, background processes, or even specific command-line tools that launch GUIs. It provides a way to automate workflows that involve launching or managing apps that aren't designed for silent background execution.",
+    "category": "Productivity",
+    "whyItIsUseful": "Many macOS users have experienced the frustration of an app unexpectedly stealing focus, interrupting their work flow. CUA elegantly solves this problem by abstracting the application launch process. It’s a lifesaver for anyone trying to script complex tasks or run background jobs on their Mac that might otherwise require manual intervention. Unlike simply running commands in Terminal, CUA allows GUI applications to be launched and managed without disrupting the user's active window, making it a subtle yet powerful tool for automation and efficient multitasking. It's a boon for those who appreciate a seamless computing experience.",
+    "imageIdea": "macOS cursor icon",
+    "websiteLink": "https://github.com/trycua/cua",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-02",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Ftrycua%2Fcua&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 745,
+    "slug": "noctua-black-fan-release-expertise",
+    "name": "Why does it take so long to release black fan versions?",
+    "seoTitle": "Noctua — Black Fan Release Explained",
+    "whatItDoes": "This article from Noctua, a renowned manufacturer of PC cooling solutions, delves into the intricate reasons behind the lengthy development and release cycles for their popular black-colored fan variants. It details the extensive engineering and testing required to achieve the same acoustic and thermal performance as their standard beige/brown fans while using different materials and coatings. The explanation covers challenges in pigment integration, heat dissipation, and maintaining the brand's high standards for durability and quality, aiming to educate consumers on the complexities involved.",
+    "category": "Reference",
+    "whyItIsUseful": "For PC enthusiasts and builders, Noctua's iconic beige and brown fans are a benchmark for performance and quiet operation, but their aesthetic has been a point of contention for those seeking a darker build. This article provides an invaluable, behind-the-scenes look into why the highly anticipated black versions are not simply a cosmetic change. It offers transparency from a leading brand, fostering appreciation for the engineering effort involved. Anyone who has ever wondered about product development timelines or appreciates detailed technical explanations will find this article insightful and genuinely useful for understanding manufacturing processes.",
+    "imageIdea": "Noctua fan profile",
+    "websiteLink": "https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-02",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.noctua.at%2Fen%2Fexpertise%2Fblog%2Fhow-can-it-take-so-long-to-release-black-fan-versions&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 746,
+    "slug": "ti-84-evo-calculator",
+    "name": "Ti-84 Evo",
+    "seoTitle": "TI-84 Evo — Advanced Graphing Calculator",
+    "whatItDoes": "The TI-84 Evo is an advanced graphing calculator designed for high school and college students, offering a modern and enhanced user experience compared to its predecessors. It features a larger, full-color display, a rechargeable battery, and expanded memory, making it easier to visualize complex functions, matrices, and data sets. The calculator supports a wide range of STEM subjects, including algebra, calculus, statistics, and physics, and is compatible with existing TI-84 Plus CE applications and curriculum materials.",
+    "category": "Education",
+    "whyItIsUseful": "While graphing calculators have been around for decades, the TI-84 Evo represents a significant leap in usability and features for students. Its full-color, high-resolution screen transforms abstract mathematical concepts into intuitive visual aids, which is invaluable for learning and problem-solving in STEM fields. The rechargeable battery eliminates the constant need for disposable batteries, offering both cost savings and environmental benefits. For students and educators who rely on powerful graphing capabilities for coursework and exams, the Evo provides a more engaging, efficient, and modern tool that stays relevant with today's educational demands.",
+    "imageIdea": "graphing calculator with colorful display",
+    "websiteLink": "https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-evo",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-02",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Feducation.ti.com%2Fen%2Fproducts%2Fcalculators%2Fgraphing-calculators%2Fti-84-evo&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 747,
+    "slug": "thermodynamics-engineering-textbook",
+    "name": "Free textbook on engineering thermodynamics",
+    "seoTitle": "ThermodynamicsBook.com — Free Engineering Textbook",
+    "whatItDoes": "ThermodynamicsBook.com provides a comprehensive and free online textbook dedicated to engineering thermodynamics. It covers fundamental principles, including the laws of thermodynamics, properties of pure substances, and applications in various cycles like power and refrigeration. The textbook is structured for clarity, featuring numerous examples, problems, and solutions to aid students in understanding complex concepts. It aims to make high-quality engineering education accessible without cost barriers.",
+    "category": "Education",
+    "whyItIsUseful": "Engineering thermodynamics is a foundational subject often accompanied by expensive textbooks that can be a significant financial burden for students. This free online resource offers a complete, well-organized, and high-quality alternative. Its accessibility means that students worldwide can access essential learning material regardless of their financial situation. The inclusion of solved problems and practical examples makes it particularly useful for self-study and exam preparation. It's an invaluable tool for students, educators, and anyone looking to refresh their knowledge in this critical engineering discipline.",
+    "imageIdea": "thermodynamics textbook pages",
+    "websiteLink": "https://thermodynamicsbook.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-02",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fthermodynamicsbook.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

@@ -1,46 +1,46 @@
 [
   {
-    "slug": "ai-deciphers-lost-language-of-ancient-civilization",
-    "title": "AI Deciphers Lost Language of Ancient Civilization",
+    "slug": "new-exoplanet-atmosphere-hints-at-unusual-life-chemistry-2",
+    "title": "New Exoplanet Atmosphere Hints at Unusual Life Chemistry",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "A team of linguists and computer scientists has used a sophisticated artificial intelligence model to decipher a previou",
+    "description": "In a study published in The Astrophysical Journal Letters in 2023, astronomers using the James Webb Space Telescope (JWS",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "plurai-ai-guardrails",
-    "title": "Plurai",
+    "slug": "clera-ai-talent-agent",
+    "title": "Clera AI Talent Agent",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "Plurai offers a unique solution for AI agent reliability by enabling developers to define and enforce specific behaviors",
+    "description": "Clera is an innovative AI talent agent designed to help job seekers find roles they'll genuinely be excited about. It en",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "pixel-perfect-layout-tool",
-    "title": "Pixel Perfect Layout Tool",
+    "slug": "thermodynamics-engineering-textbook",
+    "title": "Free textbook on engineering thermodynamics",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This is a browser extension that allows web developers and designers to overlay a static design image (like a mockup fro",
+    "description": "ThermodynamicsBook.com provides a comprehensive and free online textbook dedicated to engineering thermodynamics. It cov",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "mozilla-opposition-chrome-prompt-api",
-    "title": "Mozilla's Opposition to Chrome's Prompt API",
+    "slug": "noctua-black-fan-release",
+    "title": "High-Performance Black Computer Fans",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "Mozilla has publicly voiced strong opposition to a proposed Chrome Prompt API, arguing it poses a significant threat to ",
+    "description": "Noctua, a renowned manufacturer of PC cooling solutions, has addressed the long development cycles for its black fan var",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "warp",
-    "title": "Warp",
+    "slug": "notion",
+    "title": "Notion",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Warp is a modern, AI-powered terminal emulator designed to make command-line work more efficient and enjoyable. It integ",
+    "description": "Notion is an all-in-one workspace that combines note-taking, project management, and knowledge base functionalities into",
     "badge": null,
     "type": "tool"
   }

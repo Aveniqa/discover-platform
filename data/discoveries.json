@@ -1,70 +1,5 @@
 [
   {
-    "id": 72,
-    "slug": "diamond-rain-on-exoplanets",
-    "title": "Scientists Believe Diamonds Rain from the Skies on Certain Exoplanets",
-    "seoTitle": "Diamonds Rain on Exoplanets: Gas Giant Atmospheric Phenomenon",
-    "shortDescription": "On gas giant planets like Neptune and Uranus, and potentially some exoplanets with similar compositions, extreme pressures and temperatures deep within their atmospheres are thought to transform hydrocarbons into solid diamonds. These diamonds then 'rain' down through the planet's interior.",
-    "category": "Space",
-    "whyItIsInteresting": "This discovery challenges our terrestrial understanding of weather and geology, revealing the incredible and bizarre conditions that exist on other worlds. It opens up fascinating possibilities for planetary composition and the diverse forms matter can take under extreme cosmic conditions.",
-    "imageIdea": "An artistic rendering of a gas giant planet with lightning and sparkling diamonds falling through its atmosphere.",
-    "type": "discovery",
-    "dateAdded": "2026-04-13",
-    "sourceLink": "https://www6.slac.stanford.edu/news/2017-08-21-diamond-rain-giant-راحplanets.aspx"
-  },
-  {
-    "id": 73,
-    "slug": "ketchup-as-medicine-19th-century",
-    "title": "Ketchup's Surprising Past: From Medicinal Tonic to Condiment Staple",
-    "seoTitle": "Ketchup History: From Medicinal Tonic to Condiment Staple",
-    "shortDescription": "Before becoming a beloved condiment, ketchup had a very different role. In the 19th century, it was marketed as a medicinal remedy for various ailments, complete with recipes for 'tomato pills.' This transformation highlights how perceptions of food and medicine have evolved dramatically over time.",
-    "category": "History",
-    "whyItIsInteresting": "It's fascinating to see how common items like ketchup have such a rich and unexpected history, demonstrating shifts in both culinary practices and medical understanding. The idea of taking ketchup as a cure for indigestion seems bizarre to us today, offering a unique glimpse into past health beliefs.",
-    "imageIdea": "A vintage 19th-century advertisement for 'tomato pills' or 'Dr. Miles' Compound Extract of Tomato' with an old-fashioned ketchup bottle.",
-    "sourceLink": "https://en.wikipedia.org/wiki/Ketchup#History",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 74,
-    "slug": "male-seahorses-give-birth",
-    "title": "The Unique Reproductive Strategy of Seahorses: Males Give Birth to Young",
-    "seoTitle": "Seahorses: Males Give Birth to Young in Unique Reproduction",
-    "shortDescription": "In a rare example in the animal kingdom, it is the male seahorse that becomes pregnant and gives birth to live young. The female deposits her eggs into a specialized pouch on the male's abdomen, where he fertilizes and incubates them for several weeks. This remarkable role reversal highlights the diverse and often surprising reproductive strategies found in nature.",
-    "category": "Nature",
-    "whyItIsInteresting": "This biological twist challenges typical mammalian reproductive norms, making seahorses a captivating subject for evolutionary study. It prompts questions about parental investment and sexual selection, showcasing the incredible adaptability and variety of life's strategies for perpetuation.",
-    "imageIdea": "A male seahorse with its swollen brood pouch, possibly with tiny seahorse fry emerging or clinging to it.",
-    "sourceLink": "https://en.wikipedia.org/wiki/Seahorse#Reproduction",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 75,
-    "slug": "exoplanet-wasp-12b-devoured-diamond",
-    "title": "WASP-12b: The Exoplanet Being Devoured by Its Star, Potentially Diamond-Rich",
-    "seoTitle": "WASP-12b: Exoplanet Devoured by Star, Potentially Diamond-Rich",
-    "shortDescription": "WASP-12b is an ultra-hot Jupiter exoplanet so close to its star that it's being stretched into an egg shape and slowly devoured. Its extreme carbon-rich composition and immense pressure suggest that a significant portion of its interior could be exotic carbon forms, potentially including diamond. This scorching hot gas giant offers a glimpse into extreme planetary conditions far beyond our solar system.",
-    "category": "Space",
-    "whyItIsInteresting": "The idea of a planet being literally consumed by its host star, coupled with the possibility of its interior being a giant diamond, is incredibly dramatic and expands our understanding of planetary evolution. It challenges our assumptions about what planets can be made of and how they interact with their host stars under extreme conditions.",
-    "imageIdea": "An artist's impression of WASP-12b, depicted as an egg-shaped, glowing planet with material streaming off it towards its host star.",
-    "type": "discovery",
-    "dateAdded": "2026-04-13",
-    "sourceLink": "https://www.nasa.gov/mission_pages/spitzer/news/spitzer20101208.html"
-  },
-  {
-    "id": 76,
-    "slug": "roman-concrete-enduring-strength",
-    "title": "Ancient Roman Concrete Endures Millennia, Outperforming Modern Mixes",
-    "seoTitle": "Roman Concrete: Ancient Durability Outperforms Modern Mixes",
-    "shortDescription": "Roman concrete, used in structures like the Pantheon and marine piers, has remarkable durability, often lasting thousands of years. Its unique mix, including volcanic ash, creates a material that actually strengthens over time, resisting decay better than many modern equivalents.",
-    "category": "Technology",
-    "whyItIsInteresting": "This discovery challenges our assumptions about ancient engineering, revealing that Romans possessed a sophisticated understanding of materials science. Their innovative use of volcanic ash created self-healing properties, offering valuable lessons for developing more sustainable and long-lasting infrastructure today.",
-    "imageIdea": "A split image showing a cross-section of ancient Roman concrete with visible aggregate next to a modern concrete crumbling, or the Pantheon dome contrasted with a contemporary failing structure.",
-    "sourceLink": "https://en.wikipedia.org/wiki/Roman_concrete",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
     "id": 77,
     "slug": "human-bioluminescence-invisible-glow",
     "title": "Your Body Emits a Faint, Continuous Light That's Invisible to Our Eyes",
@@ -2459,7 +2394,6 @@
     "category": "Climate",
     "whyItIsInteresting": "This intensifying trend of atmospheric rivers is a critical concern for hydrologists and disaster planners, as these events are responsible for significant flood damage and economic losses. The research confirms that a warmer atmosphere directly translates to more potent rainfall events, validating long-standing climate change predictions. Within the next 5-10 years, communities in regions prone to ARs, such as the U.S. West Coast and parts of Europe, will face heightened risks of severe flooding, landslides, and infrastructure damage, necessitating significant upgrades to water management systems. Think of a garden hose with increased water pressure; the same amount of 'hose time' (AR duration) now delivers far more water. Urban planners, emergency services, and agricultural sectors are the primary beneficiaries of this understanding for preparedness. What specific infrastructure improvements are most effective in mitigating the impacts of increasingly intense atmospheric rivers?",
     "imageIdea": "satellite view of a long, narrow atmospheric river cloud band over a continent",
-    "sourceLink": "https://journals.ametsoc.org/view/journals/clim/35/13/JCLI-D-21-0810.1.xml",
     "type": "discovery",
     "dateAdded": "2026-04-27"
   },
@@ -3932,8 +3866,7 @@
     "whyItIsInteresting": "Experts were intrigued by the profound neuroprotective and cognitive benefits observed from a non-pharmacological intervention like intermittent fasting. This bolsters the growing understanding of the gut-brain axis and challenges the notion that constant energy intake is optimal for brain function. In 5-10 years, personalized intermittent fasting protocols could be recommended alongside traditional therapies for neurodegenerative diseases or as a general cognitive enhancer for healthy individuals. It's like giving your brain a regular \"spring cleaning\" that not only clears out clutter but also strengthens its connections. Aging populations, individuals at risk for dementia, and those seeking cognitive optimization could benefit most. Could integrating specific fasting schedules become a standard part of public health recommendations for brain longevity?",
     "imageIdea": "A brain with a subtle glow, next to an empty plate or an hourglass.",
     "type": "discovery",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.nia.nih.gov/news/intermittent-fasting-and-brain-health"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 390,
@@ -6187,5 +6120,68 @@
     "imageIdea": "ancient cuneiform tablet AI graphic",
     "type": "discovery",
     "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 572,
+    "slug": "ancient-antarctic-ice-reveals-surprising-co2-levels",
+    "title": "Ancient Antarctic Ice Reveals Surprising CO2 Levels",
+    "seoTitle": "Antarctic Ice Core Reveals Ancient CO2 Fluctuations",
+    "shortDescription": "A groundbreaking study published in Nature in 2020 by researchers from the University of Bern, Switzerland, analyzed ice cores drilled in Antarctica, reaching back 1.5 million years. This ancient ice has revealed that atmospheric carbon dioxide levels during past glacial periods were significantly lower than previously thought, dipping below 200 parts per million (ppm). This finding challenges existing climate models and offers a new perspective on the Earth's climate sensitivity.",
+    "category": "Science",
+    "whyItIsInteresting": "For decades, climate scientists have relied on the assumption that atmospheric CO2 levels during the last glacial maximum (around 20,000 years ago) hovered around 180-200 ppm, a baseline for understanding past climate dynamics. However, the analysis of these ultra-old ice cores, pushing back to a period known as the Mid-Pleistocene Transition, indicates CO2 levels could have dropped even lower, perhaps to as low as 160-180 ppm. This suggests that the Earth's climate system might be even more sensitive to changes in greenhouse gas concentrations than current models predict. It prompts a crucial question: if the Earth's climate system can operate with such low CO2 concentrations, what are the long-term implications for our current, rapidly rising CO2 levels?",
+    "imageIdea": "ice core sample",
+    "type": "discovery",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 573,
+    "slug": "archaeologists-uncover-largest-roman-mosaic-in-london",
+    "title": "Largest Roman Mosaic Discovered in London",
+    "seoTitle": "London Roman Mosaic Discovery",
+    "shortDescription": "In the summer of 2021, construction workers in London's Southwark district unearthed the largest and most complete Roman mosaic ever found in the UK. Dating back to the 4th century AD, the mosaic, measuring approximately 11 meters by 7 meters (36 by 23 feet), depicts intricate geometric patterns and mythological scenes. The discovery by Museum of London Archaeology (MOLA) offers an unprecedented glimpse into the wealth and artistic sophistication of Roman Britain, suggesting a high-status villa or public building.",
+    "category": "History",
+    "whyItIsInteresting": "The sheer scale and exceptional preservation of this mosaic are astounding. It wasn't just a floor covering; it was a statement of wealth, power, and cultural sophistication. The detailed imagery hints at the stories and beliefs that were important to the inhabitants of Roman Londinium. What's particularly fascinating is its location – found during routine utility work, underscoring how much history lies hidden beneath our feet in modern cities. This find compels us to reconsider the extent of Roman influence and the standard of living for some individuals in what was considered a provincial outpost of the Empire. It raises the question of what other sophisticated Roman structures might still be undiscovered in the heart of modern London.",
+    "imageIdea": "roman mosaic floor pattern",
+    "sourceLink": "https://www.museumoflondon.org.uk/our-stories/roman-mosaic-southwark",
+    "type": "discovery",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 574,
+    "slug": "ai-predicts-protein-structures-with-unprecedented-accuracy",
+    "title": "AI Predicts Protein Structures With Unprecedented Accuracy",
+    "seoTitle": "AI Protein Folding Discovery",
+    "shortDescription": "In late 2020, DeepMind, an AI research lab owned by Google, announced a monumental leap in biology with its AI system, AlphaFold 2. Published in Nature, the system can predict the 3D shape of proteins from their amino acid sequence with accuracy rivaling experimental methods. This breakthrough, which has since been made widely available, has the potential to accelerate drug discovery, disease understanding, and the development of novel enzymes for industrial applications.",
+    "category": "Technology",
+    "whyItIsInteresting": "Proteins are the workhorses of life, and their function is intricately linked to their complex 3D structures. For decades, determining these structures was a painstaking, expensive, and often unsuccessful process. AlphaFold 2's ability to predict these shapes with near-experimental accuracy is a paradigm shift. It democratizes structural biology, making it accessible to a much wider range of researchers. This has profound implications for understanding diseases like Alzheimer's and Parkinson's, for which misfolded proteins are implicated, and for designing new proteins for everything from sustainable materials to personalized medicine. The question that remains is how quickly we can translate these predicted structures into tangible medical and industrial solutions.",
+    "imageIdea": "3d protein molecule model",
+    "sourceLink": "https://www.nature.com/articles/s41586-021-03819-2",
+    "type": "discovery",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 575,
+    "slug": "ancient-cave-paintings-reveal-early-human-hunting-strategies",
+    "title": "Ancient Cave Paintings Reveal Early Human Hunting Strategies",
+    "seoTitle": "Cave Paintings Reveal Ancient Hunting",
+    "shortDescription": "A team of archaeologists and paleoanthropologists, led by researchers from the University of Tubingen, Germany, published findings in Antiquity in 2019 detailing sophisticated hunting strategies depicted in cave paintings dating back to the Upper Paleolithic period (over 30,000 years ago). The analysis of numerous sites across Europe revealed recurring depictions of large game animals like aurochs and mammoths being cornered or driven into natural traps, suggesting a level of planning and communal effort far beyond simple pursuit. These artistic renderings are invaluable records of early human ingenuity and social organization.",
+    "category": "History",
+    "whyItIsInteresting": "For a long time, our understanding of early human subsistence relied heavily on fragmented fossil evidence and basic interpretations of cave art. This research, however, utilizes advanced imaging and statistical analysis of the artwork to reveal complex hunting tactics. The consistent portrayal of animals in specific scenarios, like being funneled towards cliffs or into dense thickets, indicates a deep understanding of animal behavior and landscape manipulation. It implies coordinated group efforts, requiring communication, strategy, and significant social cohesion among early Homo sapiens. This challenges older notions of hunter-gatherers as purely opportunistic foragers and paints a picture of highly intelligent, strategic, and socially organized communities. It begs the question: what other complex cognitive and social behaviors are encoded in the ancient art we have yet to fully decipher?",
+    "imageIdea": "prehistoric cave painting animal hunt",
+    "sourceLink": "https://www.cambridge.org/core/journals/antiquity/article/hunting-strategies-depicted-in-upper-palaeolithic-art-a-case-study-from-the-perigord-region-of-france/E14698A38A443B9AFE7018EF7C152F74",
+    "type": "discovery",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 576,
+    "slug": "new-exoplanet-atmosphere-hints-at-unusual-life-chemistry-2",
+    "title": "New Exoplanet Atmosphere Hints at Unusual Life Chemistry",
+    "seoTitle": "Exoplanet Atmosphere Hints at Life Chemistry",
+    "shortDescription": "In a study published in The Astrophysical Journal Letters in 2023, astronomers using the James Webb Space Telescope (JWST) detected a peculiar mix of gases in the atmosphere of exoplanet K2-18 b, a sub-Neptune orbiting a red dwarf star 120 light-years away. While water vapor and methane were found, the potential detection of dimethyl sulfide (DMS) is particularly intriguing. On Earth, DMS is primarily produced by marine life, leading to speculation about potential biosignatures in this distant world's atmosphere.",
+    "category": "Space",
+    "whyItIsInteresting": "The search for life beyond Earth is a monumental endeavor, and the potential detection of a molecule like dimethyl sulfide on K2-18 b is incredibly exciting. While the detection of DMS is not yet definitive and requires further confirmation, its primary terrestrial source being biological processes—specifically phytoplankton in oceans—makes it a compelling candidate for a biosignature. This finding, if confirmed, would suggest that life on other planets might not follow the same biochemical pathways as life on Earth, potentially utilizing different chemical processes and producing different atmospheric indicators. It pushes the boundaries of our understanding of astrobiology and the diversity of life that might exist in the cosmos. The most profound question it raises is: what other unexpected chemistries could be the hallmark of alien life, and how will we learn to recognize them?",
+    "imageIdea": "artist's concept exoplanet atmosphere",
+    "type": "discovery",
+    "dateAdded": "2026-05-02"
   }
 ]

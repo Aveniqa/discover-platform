@@ -5,10 +5,6 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "diamond-rain-on-exoplanets",
-      "ketchup-as-medicine-19th-century",
-      "exoplanet-wasp-12b-devoured-diamond",
-      "roman-concrete-enduring-strength",
       "earth-inner-core-rotates-slower",
       "placebo-effect-open-label",
       "antikythera-mechanism-ancient-greek-astronomical-computer",
@@ -16,7 +12,11 @@
       "overview-effect-astronauts-profound-shift-in-perspective-from-space",
       "polynesian-wayfinding-ancient-oceanic-navigation",
       "axolotl-limb-regeneration-biological-superpower",
-      "crispr-cas9-gene-editing-breakthrough"
+      "crispr-cas9-gene-editing-breakthrough",
+      "the-great-stink-of-london-revolutionized-sanitation",
+      "oumuamua-the-first-interstellar-visitor",
+      "first-image-of-supermassive-black-hole",
+      "pangaea-ancient-supercontinent"
     ]
   },
   {
@@ -45,9 +45,6 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "diamond-rain-on-exoplanets",
-      "ketchup-as-medicine-19th-century",
-      "roman-concrete-enduring-strength",
       "human-bioluminescence-invisible-glow",
       "antikythera-mechanism-ancient-greek-astronomical-computer",
       "wood-wide-web-how-trees-communicate-and-share-resources",
@@ -56,7 +53,10 @@
       "oumuamua-the-first-interstellar-visitor",
       "the-great-emu-war-when-australian-soldiers-declared-war-on-flightless-birds-and-lost",
       "the-immortal-jellyfish-a-tiny-marine-creature-that-can-revert-to-its-youthful-state",
-      "the-doomsday-vault-safeguarding-the-worlds-plant-diversity-deep-inside-an-arctic-mountain"
+      "the-doomsday-vault-safeguarding-the-worlds-plant-diversity-deep-inside-an-arctic-mountain",
+      "first-image-of-supermassive-black-hole",
+      "pangaea-ancient-supercontinent",
+      "the-rosetta-stone-unlocking-secrets-ancient-egyptian-hieroglyphs"
     ]
   },
   {
@@ -65,18 +65,18 @@
     "description": "Handpicked gifts for the person who has everything.",
     "emoji": "🎁",
     "itemSlugs": [
-      "uncommon-goods-whiskey-peaks-glasses",
-      "yeti-rambler-20oz-tumbler",
-      "lego-botanical-collection-orchid",
-      "meater-2-plus-wireless-meat-thermometer",
-      "sonos-move-2-portable-speaker",
-      "sony-alpha-a7c-ii-mirrorless-camera",
-      "dji-air-3-drone",
-      "ember-mug-2",
-      "steam-deck-oled-handheld",
-      "peak-design-everyday-sling-6l",
-      "insta360-x4-360-camera",
-      "ooni-karu-16-multi-fuel-pizza-oven"
+      "apple-vision-pro",
+      "tonal-intelligent-fitness-system",
+      "sony-alpha-a7s-iii-mirrorless-camera",
+      "the-doomsday-vault-safeguarding-the-worlds-plant-diversity-deep-inside-an-arctic-mountain",
+      "the-lost-legacy-of-the-great-library-of-alexandria",
+      "the-astonishing-glass-frog-transparency",
+      "the-dunning-kruger-effect",
+      "the-great-pacific-garbage-patch",
+      "deep-sea-hydrothermal-vents-new-life",
+      "brain-organoids-learn-play-video-games",
+      "bacteria-that-eat-plastic-could-clean-oceans",
+      "ancient-chinese-bronze-age-city-flood-controls"
     ]
   },
   {
@@ -85,7 +85,6 @@
     "description": "Products and tools to help you feel your best.",
     "emoji": "💪",
     "itemSlugs": [
-      "ketchup-as-medicine-19th-century",
       "human-bioluminescence-invisible-glow",
       "the-great-stink-of-london-revolutionized-sanitation",
       "sandwich-invented-by-earl-gaming-table",
@@ -96,7 +95,8 @@
       "bacteria-that-eat-plastic-could-clean-oceans",
       "arctic-permafrost-releases-ancient-viruses-potent-threat",
       "global-marine-heatwaves-increased-twentyfold",
-      "ocean-acidification-coral-reef-recovery"
+      "ocean-acidification-coral-reef-recovery",
+      "microplastics-found-deepest-ocean-trenches"
     ]
   }
 ]

@@ -1,68 +1,5 @@
 [
   {
-    "id": 124,
-    "slug": "notion-workspace",
-    "toolName": "Notion",
-    "whatItDoes": "Notion, developed by Notion Labs Inc., is a versatile all-in-one workspace that combines note-taking, document creation, project management, and wiki building into a single, highly customizable platform. It supports diverse workflows, from individual knowledge management and task tracking to collaborative team documentation, complex project roadmaps, and public-facing websites. Accessible via web browser, dedicated desktop apps for macOS and Windows, and mobile apps for iOS and Android, it ensures synchronization and access across devices. Its most-used feature is likely the block-based editor, allowing users to effortlessly combine text, images, databases, to-do lists, code snippets, and embeds on any page. All content is stored in Notion's cloud infrastructure, linked to user accounts, and can be shared with various permission levels, from private to public web pages.",
-    "category": "Productivity",
-    "whyItIsUseful": "Notion eliminates the fragmentation and inefficiency of using multiple disparate tools for notes, project tracking, and knowledge sharing, consolidating everything into a single, interconnected system. A student can organize class notes, track assignments, manage study schedules, and collaborate on group projects, creating a comprehensive digital academic hub. A startup founder can manage product roadmaps, build an internal company wiki, track hiring pipelines, and even host their public website, all within Notion. It offers a generous free personal plan. Paid plans start at $8/user/month (billed annually) for Plus, unlocking larger file uploads, version history, and advanced admin controls. Its unparalleled flexibility and modularity, combined with powerful database features and AI integration, allow users to construct highly tailored workflows that are often more adaptable than rigid, purpose-built apps. Advanced users leverage linked databases to create complex dashboards, build custom CRM or ERP systems, or use the API for external integrations. The learning curve is moderate to high; while basic note-taking is easy, mastering databases and advanced page layouts requires significant investment.",
-    "websiteLink": "https://www.notion.so/",
-    "imageSearchQuery": "Notion productivity workspace app dashboard",
-    "type": "tool",
-    "imageIdea": "workspace wiki database kanban board",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 125,
-    "slug": "skillshare-learning",
-    "toolName": "Skillshare",
-    "whatItDoes": "Skillshare, developed by Skillshare, Inc., is an online learning community and subscription service offering thousands of short, project-based video classes primarily focused on creative, business, and technology skills. It supports the workflow of self-paced skill acquisition through practical application, where users watch video lessons and complete accompanying projects to reinforce learning. Accessible via web browser on desktop and mobile, with dedicated mobile apps for iOS and Android that support offline viewing of downloaded lessons. Its most-used feature is likely the vast library of on-demand video lessons, allowing users to explore diverse topics from illustration and photography to marketing and web development. User progress, completed projects, and watch history are stored in Skillshare's cloud, linked to the user's subscription account, enabling seamless learning across devices.",
-    "category": "Education",
-    "whyItIsUseful": "Skillshare eliminates the barriers of high per-course costs and lengthy commitments often associated with traditional online education, offering an accessible platform for continuous creative and professional development. An aspiring graphic designer can take multiple project-based classes on Adobe Illustrator, logo design, and branding, building a portfolio by completing practical assignments. A small business owner can learn social media marketing strategies, video editing for promotions, or basic web design to enhance their online presence without hiring external experts. It offers a free trial (typically 7-30 days) for full access, after which it's a subscription model, usually around $14-19/month or $99-168/year, providing unlimited access to all classes. Its focus on short, actionable, project-based lessons and an all-you-can-learn subscription model often makes it more appealing for exploring new hobbies or quickly picking up specific skills compared to platforms with higher-priced, longer certificate programs. Advanced users can engage with class discussions, receive feedback on their projects from instructors and peers, and even become instructors themselves. The learning curve is low; the platform is very user-friendly, and the short, digestible lessons make it easy to jump in and start learning immediately.",
-    "websiteLink": "https://www.skillshare.com/",
-    "imageSearchQuery": "Skillshare online learning platform creative classes",
-    "type": "tool",
-    "imageIdea": "creative class workshop project hands",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 126,
-    "slug": "fiverr-freelance-marketplace",
-    "toolName": "Fiverr",
-    "whatItDoes": "Fiverr, developed by Fiverr International Ltd., is a leading global online marketplace that connects businesses and individuals with freelance professionals offering a wide array of digital services, known as 'Gigs.' It supports a workflow where buyers browse or search for specific services, purchase 'Gigs' with predefined scopes and prices, and freelancers deliver the work, facilitating quick, project-based engagements. Accessible via web browser on desktop and mobile, with dedicated mobile apps for iOS and Android for both buyers and sellers to manage orders and communications. Its most-used feature is the 'Gig' catalog, where freelancers showcase their services (e.g., 'I will design a modern minimalist logo for your brand starting at $25') with clear pricing and delivery times. All communication, project files, and payment information are handled securely within the Fiverr platform, with funds held in escrow until the buyer approves the work.",
-    "category": "Productivity",
-    "whyItIsUseful": "Fiverr eliminates the traditional complexities and time investment of hiring freelancers, such as extensive vetting, contract negotiation, and payment processing, by offering a streamlined, standardized marketplace. A startup founder can quickly find affordable freelancers to design a logo, write website copy, or create social media graphics, getting essential tasks done without a full-time hire. A marketing manager can outsource specific content creation needs, like blog posts, video testimonials, or ad creatives, leveraging specialized skills without expanding their in-house team. Service prices (Gigs) vary widely, starting from as little as $5, with buyers typically paying a service fee (e.g., 5.5% on orders up to $50) on top of the Gig price. Its 'Gig' based model and focus on micro-services often make it faster and more cost-effective for small, well-defined tasks compared to platforms like Upwork, which tend to favor longer-term, hourly contracts. Advanced users can utilize 'Buyer Requests' to solicit custom proposals for unique projects, or leverage Fiverr Business for team collaboration and dedicated account management. The learning curve is low; the platform is designed for straightforward browsing and purchasing of services, though finding the *right* freelancer might require some time reviewing portfolios and ratings.",
-    "websiteLink": "https://www.fiverr.com/",
-    "imageSearchQuery": "Fiverr freelance marketplace services homepage",
-    "type": "tool",
-    "imageIdea": "freelancer gig marketplace creative services",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 74,
-    "slug": "proton-drive",
-    "toolName": "Proton Drive",
-    "whatItDoes": "Proton Drive, developed by Proton AG (the creators of Proton Mail), is a secure cloud storage service that provides end-to-end encrypted (E2EE) file storage, sharing, and synchronization. It supports the workflow of securely uploading, organizing, accessing, and sharing files and folders, ensuring that data remains private and protected from unauthorized access. Accessible via web browser, with dedicated desktop apps for Windows and macOS, and mobile apps for iOS and Android, ensuring encrypted access across devices. Its most-used feature is likely the secure file upload and storage, where users can simply drag-and-drop files into their encrypted drive, knowing they are protected by E2EE. All files are end-to-end encrypted on the user's device before being uploaded to Proton's servers in Switzerland, meaning Proton itself cannot decrypt or access user data.",
-    "category": "Reference",
-    "whyItIsUseful": "Proton Drive eliminates the significant privacy and security risks associated with traditional cloud storage providers that can access user data, providing true peace of mind through client-side encryption. A privacy-conscious individual can store sensitive personal documents, family photos, and financial records, knowing that only they hold the encryption keys and their data is safe from surveillance. A small business owner handling client contracts, intellectual property, or medical records can use Proton Drive to securely store and share these files, complying with strict data protection regulations. It offers a free tier with 1 GB of storage. Paid plans, often bundled with Proton Mail, VPN, and Calendar, start from €4.99/month for 500 GB (Proton Unlimited). Its unwavering commitment to end-to-end, zero-access encryption sets it apart from major competitors like Google Drive, Dropbox, and OneDrive, which typically use server-side encryption and can technically access user data. Advanced users can leverage secure file sharing with password protection and expiry dates, integrate with other Proton services for a comprehensive privacy ecosystem, and utilize version history for critical documents. The learning curve is low; the interface is clean and intuitive, similar to other cloud storage services, making it easy for anyone to use immediately.",
-    "imageIdea": "A stylized cloud with a prominent lock icon and shield, representing secure storage, set against a modern, minimalist interface backdrop.",
-    "websiteLink": "https://proton.me/drive",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 75,
-    "slug": "keybr-com",
-    "toolName": "Keybr.com",
-    "whatItDoes": "Keybr.com is an adaptive online typing tutor designed to significantly improve your typing speed and accuracy. It uses a smart algorithm that identifies your weakest keys and letter combinations, then customizes lessons to target those specific areas.",
-    "category": "Education",
-    "whyItIsUseful": "Mastering touch typing is a fundamental skill that dramatically boosts productivity across nearly all digital tasks, from writing emails to coding. Keybr.com's data-driven approach ensures efficient practice, quickly building muscle memory for faster, more accurate input without needing to look at the keyboard.",
-    "imageIdea": "A pair of hands typing quickly on a sleek, minimalist keyboard, with a screen displaying highlighted keys and progress charts, suggesting speed and learning.",
-    "websiteLink": "https://www.keybr.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 83,
     "slug": "squoosh",
     "toolName": "Squoosh",
@@ -887,7 +824,6 @@
     "category": "Finance",
     "whyItIsUseful": "Bobby eliminates the common problem of forgetting about recurring subscriptions, preventing unexpected charges and helping users identify services they no longer need. For a student juggling multiple streaming services and academic tools, Bobby offers a clear snapshot of their total monthly outflow, helping them prioritize and cut unnecessary expenses. For a busy professional, it acts as a silent auditor, ensuring they don't overpay for services they've forgotten about or are no longer using. Bobby offers a free tier that allows tracking a limited number of subscriptions (typically 4-5), which is genuinely useful for casual users, with an in-app purchase unlocking unlimited tracking. Unlike a simple spreadsheet, Bobby's design is purpose-built for subscriptions, offering custom icons, renewal notifications, and a clean interface. Its detailed breakdown of spending by category (e.g., entertainment, utilities) is a powerful feature for understanding where recurring money goes. A non-technical person can easily add their subscriptions and get an overview in well under 5 minutes.",
     "imageIdea": "Bobby app interface displaying a list of subscriptions with their costs and next billing dates",
-    "websiteLink": "https://bobbyapp.com",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -899,7 +835,6 @@
     "category": "Finance",
     "whyItIsUseful": "Zeta Joint Cards eliminates the common financial friction points for couples by providing transparency and collaboration in money management. For a newly cohabiting couple, it offers a seamless way to manage shared household expenses like rent and groceries without cumbersome transfers or awkward conversations. For a married couple saving for a major goal like a house or a child's education, Zeta allows them to pool resources, track joint progress, and maintain individual financial autonomy simultaneously. Zeta offers its core joint banking features and budgeting tools completely free, making it a genuinely useful solution without a paywall. Unlike generic joint bank accounts from traditional banks, Zeta is purpose-built with features like shared financial goals, bill pay reminders, and spending insights tailored for couples. Its 'Pots' feature, allowing couples to create virtual envelopes for specific savings goals, is a powerful way to organize shared funds. Setting up Zeta Joint Cards and linking accounts is a straightforward process that a non-technical couple can complete together in under 15 minutes.",
     "imageIdea": "Zeta Joint Cards app interface showing a shared budget, transaction history, and joint account balances",
-    "websiteLink": "https://www.askzeta.com",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -996,8 +931,7 @@
     "whyItIsUseful": "QuickBooks Self-Employed solves the unique financial challenges of self-employment, particularly the complexity of tax preparation and managing irregular income. For a freelance web developer, it automatically categorizes project income and software expenses, making quarterly tax estimates accurate and less stressful. For a gig worker, it simplifies tracking mileage and identifying business deductions, potentially saving hundreds or thousands during tax season. QuickBooks Self-Employed offers a 30-day free trial that is genuinely useful for experiencing its full capabilities, followed by a paid monthly subscription. Unlike using separate apps for mileage, expense tracking, and tax estimation, QuickBooks Self-Employed provides a unified platform designed specifically for the self-employed, integrating seamlessly with TurboTax. Its 'Tax Ready' reports, summarizing all income and expenses for Schedule C, are powerful features that streamline tax filing. A non-technical self-employed individual can easily link their accounts and begin tracking expenses and mileage in under 15 minutes.",
     "imageIdea": "QuickBooks Self-Employed app showing a dashboard with income, expenses, and estimated quarterly taxes",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://quickbooks.intuit.com/self-employed/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 184,
@@ -1356,7 +1290,6 @@
     "category": "Finance",
     "whyItIsUseful": "Bobby eliminates the problem of \"subscription creep,\" where users lose track of numerous recurring payments, leading to wasted money on forgotten services. For the tech enthusiast with many SaaS tools, Bobby provides a single source of truth for all software subscriptions, ensuring timely cancellations or renewals. For the budget-conscious student, it offers a stark visualization of total monthly outgoings on entertainment and educational services, prompting mindful spending adjustments. Bobby offers a free tier that allows tracking of a limited number of subscriptions, which is genuinely useful for basic needs, with a one-time in-app purchase unlocking unlimited subscriptions and themes. It wins against general budgeting apps by its singular focus and clean interface, making subscription tracking incredibly straightforward without unnecessary clutter. The \"Custom Reminders\" power feature allows users to set specific alerts days before a subscription renews, giving ample time to decide on cancellation. A non-technical person can download Bobby and add their first subscription in under 2 minutes.",
     "imageIdea": "Mobile app screen showing a list of subscriptions with their monthly/yearly costs and total sum.",
-    "websiteLink": "https://bobbyapp.com/",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -1693,8 +1626,7 @@
     "whyItIsUseful": "Boostnote tackles the problem of developers juggling multiple tools for notes, code snippets, and project documentation by offering a unified, developer-friendly solution. For the software architect planning a new system, Boostnote provides an ideal space to outline design decisions in markdown, interspersing diagrams and code examples as needed. For the student learning to code, it's perfect for keeping class notes, project ideas, and practical code snippets organized by course or topic. Boostnote is completely free and open-source, offering full functionality without any paid tiers, making it an excellent and accessible choice for all developers. Unlike general-purpose note apps, Boostnote's focus on markdown and code highlighting, along with its snippet-specific features, makes it a superior tool for technical documentation. The ability to export notes and snippets to various formats (like PDF or HTML) is a power feature for sharing documentation outside the app. Its intuitive markdown editor and folder structure mean a non-technical person could easily set up and start using it for basic note-taking in less than five minutes.",
     "imageIdea": "Boostnote desktop interface showing a list of markdown notes and snippet notes, a preview pane with syntax-highlighted code blocks.",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://boostnote.io"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 279,
@@ -1848,7 +1780,6 @@
     "category": "Productivity",
     "whyItIsUseful": "Wallabag tackles the issue of internet ephemerality and intrusive ads by allowing users to create a private, permanent, and clean archive of web content they wish to read. For the privacy-conscious individual, it offers peace of mind, knowing their reading habits and saved articles are not being tracked by third parties. For the digital minimalist, it provides a focused reading environment, free from notifications and visual clutter, promoting deeper engagement with content. The open-source nature means the core software is free, making it genuinely useful if you're willing to self-host, or a modest subscription for their hosted service. Unlike many commercial read-it-later apps, Wallabag's self-hosting option provides unparalleled data ownership and privacy. Its ability to export articles into various formats like EPUB or MOBI is a powerful feature for offline reading on e-readers. While self-hosting requires some technical knowledge, using the hosted service is as simple as signing up and installing an extension, easily done in minutes.",
     "imageIdea": "Wallabag web interface showing a list of saved articles with a clean reading view highlighted.",
-    "websiteLink": "https://www.wallabag.it",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -1872,7 +1803,6 @@
     "category": "Productivity",
     "whyItIsUseful": "Matter eliminates the fragmented experience of reading articles across various websites and newsletters by bringing everything into one unified, elegant interface. For the knowledge worker, it’s an indispensable tool for saving in-depth reports and thought pieces, then extracting key insights through highlighting, which can be seamlessly exported to their personal knowledge base. For the avid reader, it serves as a central hub for all their subscriptions, allowing them to read newsletters without inbox clutter and discover new content through personalized recommendations. Matter offers a comprehensive free tier that includes unlimited saving, highlighting, and read-later features, making it incredibly useful without any pressure to upgrade. Compared to other read-it-later services, Matter excels with its integrated newsletter reader and robust highlight export capabilities, fostering deeper engagement and knowledge retention. A power feature is its \"Propose to PDF\" option, which converts complex web pages into cleaner, more readable PDF formats for archival. Its intuitive design means anyone can download the app and start saving content in less than 3 minutes.",
     "imageIdea": "Matter app interface showing a clean article reading view with highlights and a list of saved newsletters.",
-    "websiteLink": "https://getmatter.com",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -1993,8 +1923,7 @@
     "whyItIsUseful": "Snagit eliminates the inefficiency of using multiple disparate tools for capturing, editing, and sharing visual information, consolidating the workflow into one application. For the marketing professional, it's ideal for quickly grabbing website snippets, adding explanatory text, and compiling visual assets for presentations or social media posts. For the IT support specialist, it simplifies troubleshooting by allowing them to record complex software issues or demonstrate solutions with clear annotations. Snagit is a premium, paid application, but its one-time purchase includes updates for a year and provides immense value, making the investment worthwhile for serious users. It outcompetes many basic screenshot tools with its advanced editing capabilities, such as 'Grab Text' from an image or 'Simplify' images by removing distracting elements. A power feature is its ability to extract text from a screenshot, making information instantly editable and reusable. The learning curve is moderate; while basic capture is simple, mastering the editor's full potential takes a bit of exploration, but its intuitive design makes it accessible.",
     "imageIdea": "Snagit Editor interface showing a screenshot with various annotations (arrows, text, blur) applied, and a toolbar visible.",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.techsmith.com/screen-capture.html"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 313,
@@ -2533,8 +2462,7 @@
     "whyItIsUseful": "ShopWell eliminates the overwhelming and time-consuming task of reading tiny nutrition labels in grocery aisles, making informed food choices quick and easy. For the individual with severe food allergies, it acts as a crucial safety net, instantly identifying potential allergens in products and recommending safe alternatives, preventing accidental exposure. For the health-conscious shopper, it provides clear, personalized scores for each product, guiding them towards healthier options that align with their specific dietary goals like reducing sugar or increasing fiber. ShopWell is entirely free to use, making its invaluable health guidance accessible to everyone without any hidden costs or premium subscriptions. Compared to generic nutrition trackers like MyFitnessPal, ShopWell excels in its real-time, in-store product analysis and personalized recommendations, directly assisting with purchasing decisions. A power feature is the ability to receive personalized recommendations for better-suited products when a scanned item doesn't align with your profile. The learning curve is very low; a non-technical person can set up their profile and scan their first product in under 5 minutes.",
     "imageIdea": "Hand holding a smartphone scanning a grocery item with the ShopWell app displaying a health score and ingredient breakdown.",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://shopwell.com"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 414,
@@ -2989,8 +2917,7 @@
     "whyItIsUseful": "PlateJoy eliminates the immense cognitive load and planning time associated with maintaining a strict or complex diet, making healthy eating sustainable for busy individuals. For the person managing specific health conditions requiring a particular diet (e.g., diabetic, gluten-free), it delivers compliant and delicious meal plans without the stress of constant ingredient checking. For the fitness enthusiast with specific macros and cooking preferences, it constructs tailored menus that align with their training regimen. PlateJoy operates on a subscription model, offering a free trial; its value is in the high degree of personalization, which justifies the cost for those with complex dietary needs. Unlike generic meal planners, PlateJoy's strength lies in its sophisticated algorithm that accounts for ingredient reuse and minimizes waste, a feature often overlooked by competitors. A power feature is the ability to connect with smart scales and fitness trackers to adjust meal plans based on real-time data. While the initial questionnaire takes a few minutes, a non-technical person can easily navigate the setup and receive their first plan.",
     "imageIdea": "PlateJoy app showing a personalized weekly meal plan with diverse, healthy recipes and an ingredient list.",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.platejoy.com"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 549,
@@ -3517,8 +3444,7 @@
     "whyItIsUseful": "Blur eliminates the pervasive problem of data breaches and online tracking by creating a protective layer around your personal information, preventing direct exposure. For an online shopper, it allows the creation of virtual credit cards with specific limits, making purchases safer by never exposing their real card number to vendors. A privacy advocate can use Masked Emails to sign up for newsletters or services without revealing their primary email, significantly reducing spam and preventing their address from being sold. Blur offers a robust free tier with unlimited password management and basic email masking, while a premium subscription unlocks advanced features like Masked Cards and phone masking. Blur distinguishes itself from standard password managers by offering a holistic privacy suite, including email and credit card masking, which is a significant advantage over competitors. The power feature, \"Block Trackers,\" automatically blocks advertising and analytics trackers across the web, providing a quieter, more private browsing experience for advanced users. Setting up Blur's browser extension and creating your first masked email takes a non-technical person less than 5 minutes.",
     "imageIdea": "Blur browser extension pop-up showing options for masked email, masked card, and password fill.",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.abine.com/blur/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 605,
@@ -3792,7 +3718,6 @@
     "category": "Finance",
     "whyItIsUseful": "HomeBank eliminates the need for expensive commercial budgeting software and provides a simple, privacy-focused solution for basic personal accounting. For the retiree who prefers a straightforward, offline method to track their pension and household expenses, HomeBank offers a clear and uncluttered interface. For a student managing a tight budget without wanting to link to online accounts, its manual entry and import features provide full control over their financial data. HomeBank is completely free and open-source, offering its full suite of features without any paid tiers or advertisements, making it genuinely useful for anyone. Compared to GnuCash, HomeBank offers a much simpler interface and a gentler learning curve, winning on ease of use for those who don't need professional double-entry accounting. A power feature is its extensive category management with sub-categories, allowing for detailed organization of income and expenses. The learning curve is low; a non-technical person can download, install, and start tracking their basic income and expenses in under 15 minutes.",
     "imageIdea": "HomeBank desktop interface showing a simple transaction list, category breakdown, and a basic report.",
-    "websiteLink": "https://homebank.free.fr/",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -3877,8 +3802,7 @@
     "whyItIsUseful": "This tool solves the common problem of scattered recipes and inefficient meal preparation, bringing order to your cooking routine and saving precious time. For the home chef with hundreds of recipes saved across bookmarks, cookbooks, and notes, Recipe Keeper centralizes everything into one searchable, organized database. For a student living independently for the first time, it simplifies meal planning and grocery shopping, helping them cook healthier and budget better. The app offers a free version with limited features, but the paid upgrade unlocks full recipe import, syncing, and meal planning, which is highly recommended for genuine utility. Compared to simple note-taking apps for recipes, Recipe Keeper's specialized import features, planning tools, and nutritional data give it a significant edge. A power feature is the integrated shopping list, which intelligently combines ingredients from your planned meals and lets you check them off as you shop. A non-technical person can download the app and import their first recipe in well under 5 minutes, making it very user-friendly.",
     "imageIdea": "Recipe Keeper app interface showing a recipe with ingredients and steps, next to a meal plan calendar.",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.recipekeeperapp.com"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 635,
@@ -3960,7 +3884,6 @@
     "category": "Developer",
     "whyItIsUseful": "RunJS eliminates the need to open a full IDE or browser console for quick JavaScript tests or snippet execution, saving significant time during development. For the web developer needing to quickly test a regex, array method, or small utility function, RunJS offers an unparalleled instant feedback loop. For the technical interviewer, it's perfect for demonstrating small coding concepts or trying out solutions without a complex setup. The free version is highly useful for individual developers, offering full access to the core playground and snippet saving functionality, with paid tiers for advanced integrations like npm package management. Unlike online sandboxes that require internet access or heavier IDEs, RunJS provides a lightweight, offline-capable, and immediately responsive environment. Its power feature lies in its support for npm packages, allowing users to `require` and test modules directly. The learning curve is very low; anyone familiar with JavaScript can start running code and saving snippets within a minute.",
     "imageIdea": "Desktop app interface showing JavaScript code on one side and a live console output on the other, with a \"save snippet\" button.",
-    "websiteLink": "https://runjs.app/",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -3997,8 +3920,7 @@
     "whyItIsUseful": "Snipped.dev addresses the challenge of quickly sharing small pieces of code with teammates or documenting common solutions in a structured way without resorting to chat apps or scattered files. For the team lead, it offers a centralized, searchable repository of team-approved code standards, common functions, and debugging tips, fostering consistency and reducing onboarding time. For the student collaborating on group projects, it provides an easy way to share and consolidate useful code chunks that can be reviewed and reused by everyone. The free tier is genuinely useful, allowing unlimited personal snippets, with paid plans unlocking team collaboration features like shared workspaces and user roles. Compared to general-purpose note-taking apps, Snipped.dev wins with its dedicated code-focused features like syntax highlighting, easy sharing, and collaborative workspaces. A power feature is the \"Teams\" functionality, allowing seamless sharing and management of snippets within a group. The learning curve is extremely low; anyone can create an account and save their first snippet in under 2 minutes.",
     "imageIdea": "Clean web interface showing a code snippet with syntax highlighting, tags, and options for sharing or making it private.",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://snipped.dev"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 645,
@@ -4165,8 +4087,7 @@
     "whyItIsUseful": "Glyphboard eliminates the tedious process of navigating through complex character maps or memorizing obscure keyboard shortcuts for special symbols. For the social media manager, it provides immediate access to a vast array of emojis and decorative symbols to make posts more engaging and visually distinct. For the technical writer or academic, it offers a quick way to insert mathematical symbols, arrows, or unique typographic characters into documents, improving clarity and professionalism. Glyphboard is available for a one-time purchase, offering a free trial period that is genuinely useful for evaluating its comprehensive character library. Compared to the built-in macOS Character Viewer, Glyphboard offers a significantly faster search, more intuitive interface, and better organization, making it far more efficient for frequent use. A power feature is the ability to mark favorite glyphs for even quicker access, creating a personalized collection of frequently used symbols. The learning curve is extremely low; its search and click interface is intuitive, and a non-technical person can set it up and start using it in under 2 minutes.",
     "imageIdea": "macOS menu bar showing Glyphboard icon, with a pop-up window displaying a grid of various emojis and symbols, with a search bar at the top.",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://glyphboard.app"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 659,
@@ -4428,7 +4349,6 @@
     "category": "Developer",
     "whyItIsUseful": "Kap solves the problem of needing a lightweight, flexible, and privacy-focused screen recording tool for macOS that can output to multiple formats without bloat. For the developer creating quick bug reports or feature demos, it offers fast GIF or video generation for easy sharing on platforms like GitHub. For the designer needing to illustrate UI animations or interactions, it provides precise control over capture areas and export settings. Kap is completely free and open-source, making its utility exceptional without any paywalls. Compared to commercial tools like CleanShot X or Zappy, Kap wins with its open-source nature, plugin extensibility, and zero cost, though it might lack some advanced annotation features. Its power feature lies in its plugin architecture, allowing users to extend its functionality with custom exporters or integrations. A non-technical person can download and start recording in under 2 minutes, though exploring plugins might take a bit longer.",
     "imageIdea": "Mac menu bar with Kap icon selected, showing a dropdown with record options and a selection box over a screen.",
-    "websiteLink": "https://kap.tools/",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -5389,8 +5309,7 @@
     "whyItIsUseful": "Allrecipes solves the challenge of finding reliable, home-tested recipes by leveraging a huge community of passionate cooks and their honest feedback. For the aspiring home chef looking to perfect a dish, the extensive user reviews and tips provide invaluable insights and troubleshooting advice. A meal planner struggling with dinner ideas can quickly filter recipes by ingredients on hand or dietary restrictions, simplifying weekly meal prep. Its free tier is incredibly robust, providing full access to millions of recipes, reviews, and basic meal planning tools without any paywalls. While many sites offer recipes, Allrecipes stands out with its truly massive, active community that consistently updates and verifies recipe quality, surpassing generic food blogs. Its \"Recipe Box\" power feature allows users to save, organize, and even add personal notes to their favorite recipes for easy access. Setting up an account and finding your first recipe takes less than 5 minutes, even for a non-technical individual.",
     "imageIdea": "allrecipes website showing a recipe page with user reviews and star ratings",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.allrecipes.com"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 761,
@@ -5437,8 +5356,7 @@
     "whyItIsUseful": "Perfect Meal eliminates the time-consuming and often overwhelming task of creating balanced, personalized meal plans from scratch, simplifying healthy eating. For the busy professional trying to adhere to a specific diet, this tool provides a complete, custom-generated plan, removing daily decision fatigue. An athlete with strict macro targets can leverage the AI to ensure their meal plan perfectly aligns with their nutritional needs for training and recovery. The free tier offers a highly useful basic meal plan generation and recipe library, making it genuinely functional for casual users, with premium options for advanced customization and features. Unlike manual meal planning apps, Perfect Meal wins by leveraging AI to instantly create fully optimized plans, saving hours of tedious ingredient matching and calculation. A power feature is the \"Ingredient Swap\" option, allowing users to easily substitute specific ingredients within a recipe without disrupting the overall nutritional balance of the plan. A non-technical person can set up their profile and generate a first meal plan in well under 5 minutes.",
     "imageIdea": "perfect meal app showing a generated weekly meal plan with recipes and nutrition breakdown",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://perfectmeal.app"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 765,
@@ -5557,8 +5475,7 @@
     "whyItIsUseful": "7 Weeks eliminates the problem of short-term commitment by providing a clear, finite 49-day challenge that feels achievable and provides intense motivation to avoid breaking the chain. For someone wanting to establish a new daily routine, like \"meditate for 10 minutes,\" the app offers a compelling visual countdown to solidify the habit quickly. A student preparing for exams can use it to track \"study for 2 hours\" daily for seven weeks, providing a focused burst of effort towards a specific academic goal. The app offers a free version that allows tracking of one habit, which is genuinely useful for testing the method before investing in the premium version for unlimited habits. Compared to open-ended habit trackers, 7 Weeks wins by providing a structured, time-bound challenge, which can be less overwhelming for starting new behaviors. A power feature is the ability to track negative habits (e.g., \"no sugar\") by marking successful days as days you *didn't* perform the undesirable action. A non-technical person can set up their first 7-week challenge in less than two minutes, as the interface is extremely simple and focused on the core method.",
     "imageIdea": "7 Weeks app showing a 7x7 grid with a chain of green checkmarks for completed days",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://apps.apple.com/app/7-weeks-habit-goal-tracker/id567419655"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 775,
@@ -5725,8 +5642,7 @@
     "whyItIsUseful": "Pastel.sh eliminates the need for cumbersome screenshot tools or pasting raw, unformatted code directly into chat applications, making quick code sharing effortless. For the developer seeking help on a specific error, it provides a clean, readable way to share the problematic code with a colleague or on a forum, ensuring proper formatting. For the instructor demonstrating a quick coding example during a live session, Pastel.sh allows them to share a live, interactive snippet link with students in seconds. As a free, open-source web service, it is genuinely useful for its intended purpose of quick, anonymous sharing, with no paid tiers or feature limitations. It wins against full-featured snippet managers by offering extreme simplicity and speed for ephemeral sharing, without requiring any commitment or setup. The \"language auto-detection\" power feature intelligently guesses the programming language of the pasted code, saving time and ensuring correct syntax highlighting without manual selection. A non-technical person could paste text and generate a shareable link in less than a minute.",
     "imageIdea": "Pastel.sh web page showing a large text area for code input and a 'Share' button",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://pastel.nodejs.dev"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 789,
@@ -5805,5 +5721,57 @@
     "websiteLink": "https://www.warp.dev/",
     "type": "tool",
     "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 795,
+    "slug": "awesome-gpt-image-2",
+    "toolName": "awesome-gpt-image-2",
+    "seoTitle": "Awesome GPT-Image2 — Industrial Prompt Engineering",
+    "whatItDoes": "awesome-gpt-image-2 is an industrial-grade prompt engineering engine and template library designed for AI image generation. It provides over 370 reverse-engineered case studies and 20 sets of industrial-grade templates that are continuously updated. This tool aims to standardize and professionalize the way users interact with AI image models, offering a structured approach to crafting effective prompts for consistent and high-quality results. It's available as a free open-source project.",
+    "category": "Developer",
+    "whyItIsUseful": "For anyone working with AI image generation, especially in a professional or project-based context, awesome-gpt-image-2 offers a significant advantage by demystifying prompt engineering. It saves users countless hours of trial and error by providing proven, robust prompt structures and examples. The extensive library of case studies allows for learning by example, enabling users to understand how specific phrasing and parameters influence output. This is particularly valuable for developers and designers looking to integrate AI image generation into their workflows reliably and efficiently. The open-source nature and active community ensure it remains a cutting-edge resource.",
+    "imageIdea": "abstract ai art prompt",
+    "websiteLink": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "type": "tool",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 796,
+    "slug": "garden-skills",
+    "toolName": "garden-skills",
+    "seoTitle": "Garden Skills — Open Source Knowledge Collection",
+    "whatItDoes": "garden-skills is an open-source collection of skills curated by ConardLi, covering a wide range of topics including web design, knowledge retrieval, image generation, and more. It functions as a repository for valuable insights, techniques, and resources, presented in an accessible format. This project aims to consolidate and share practical knowledge for individuals looking to expand their skillset or find solutions to specific technical challenges. It's a free, community-driven initiative.",
+    "category": "Reference",
+    "whyItIsUseful": "This tool serves as an invaluable learning and reference hub for individuals keen on expanding their technical and creative proficiencies. Its strength lies in its curated nature, offering a reliable source of information on trending and essential skills like web design and AI image generation. By consolidating knowledge from various areas, it saves users the time and effort of searching disparate sources. For developers, designers, and lifelong learners, garden-skills provides a structured pathway to acquiring new abilities and staying updated in fast-evolving fields. The open-source model fosters community contribution and ensures the content remains relevant.",
+    "imageIdea": "open book skills knowledge",
+    "websiteLink": "https://github.com/ConardLi/garden-skills",
+    "type": "tool",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 797,
+    "slug": "todoist",
+    "toolName": "Todoist",
+    "seoTitle": "Todoist — Organize Your Tasks",
+    "whatItDoes": "Todoist is a popular, cross-platform task management application designed to help individuals and teams organize their lives and work. It allows users to create to-do lists, set due dates, prioritize tasks, and collaborate with others. The app boasts a clean, intuitive interface and powerful features like natural language input for task creation, recurring dates, labels, and filters. Todoist operates on a freemium model, offering essential functionality for free and advanced features through a paid subscription.",
+    "category": "Productivity",
+    "whyItIsUseful": "Todoist is a staple for productivity enthusiasts because it strikes an excellent balance between simplicity and power. Its natural language processing for adding tasks, like 'meeting tomorrow at 2 pm #work', makes rapid task entry effortless. The ability to integrate with numerous other services, such as Google Calendar, Slack, and Zapier, allows it to fit seamlessly into existing workflows. Users praise its reliability and the sense of calm it brings by bringing order to chaos. It's ideal for anyone managing multiple projects, personal errands, or team assignments, helping them stay on track and achieve their goals with less stress.",
+    "imageIdea": "digital to-do list organized",
+    "websiteLink": "https://todoist.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 798,
+    "slug": "notion",
+    "toolName": "Notion",
+    "seoTitle": "Notion — All-in-One Workspace",
+    "whatItDoes": "Notion is an all-in-one workspace that combines note-taking, project management, and knowledge base functionalities into a single, highly flexible application. Users can create custom databases, documents, and boards to manage tasks, projects, wikis, and more, tailoring the interface to their specific needs. It supports rich media, collaboration features, and a vast array of templates for diverse use cases. Notion offers a free tier for personal use and paid plans for teams and businesses.",
+    "category": "Productivity",
+    "whyItIsUseful": "Notion's unparalleled flexibility makes it a standout tool for anyone looking to centralize their digital life. Whether you're a student building a study system, a freelancer managing clients, or a team coordinating complex projects, Notion can adapt. Its ability to act as a personal wiki, a task manager, a CRM, and a document editor all at once dramatically reduces the need for multiple single-purpose apps, saving both money and mental overhead. The collaborative features and extensive template community mean you can get started quickly or build a bespoke system from the ground up. It's particularly powerful for those who value customization and a unified approach to information management.",
+    "imageIdea": "digital notebook computer workspace",
+    "websiteLink": "https://www.notion.so/",
+    "type": "tool",
+    "dateAdded": "2026-05-02"
   }
 ]

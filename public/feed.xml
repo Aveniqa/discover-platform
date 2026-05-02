@@ -5,8 +5,40 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2026 16:17:26 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 14:22:34 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notion</title>
+      <link>https://surfaced-x.pages.dev/item/notion</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/notion</guid>
+      <description>Notion is an all-in-one workspace that combines note-taking, project management, and knowledge base functionalities into a single, highly flexible application. Users can create custom databases, documents, and boards to manage tasks, projects, wikis, and more, tailoring the interface to their specific needs. It supports rich media, collaboration features, and a vast array of templates for diverse use cases. Notion offers a free tier for personal use and paid plans for teams and businesses.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Todoist</title>
+      <link>https://surfaced-x.pages.dev/item/todoist</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/todoist</guid>
+      <description>Todoist is a popular, cross-platform task management application designed to help individuals and teams organize their lives and work. It allows users to create to-do lists, set due dates, prioritize tasks, and collaborate with others. The app boasts a clean, intuitive interface and powerful features like natural language input for task creation, recurring dates, labels, and filters. Todoist operates on a freemium model, offering essential functionality for free and advanced features through a paid subscription.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>garden-skills</title>
+      <link>https://surfaced-x.pages.dev/item/garden-skills</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/garden-skills</guid>
+      <description>garden-skills is an open-source collection of skills curated by ConardLi, covering a wide range of topics including web design, knowledge retrieval, image generation, and more. It functions as a repository for valuable insights, techniques, and resources, presented in an accessible format. This project aims to consolidate and share practical knowledge for individuals looking to expand their skillset or find solutions to specific technical challenges. It&apos;s a free, community-driven initiative.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>awesome-gpt-image-2</title>
+      <link>https://surfaced-x.pages.dev/item/awesome-gpt-image-2</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/awesome-gpt-image-2</guid>
+      <description>awesome-gpt-image-2 is an industrial-grade prompt engineering engine and template library designed for AI image generation. It provides over 370 reverse-engineered case studies and 20 sets of industrial-grade templates that are continuously updated. This tool aims to standardize and professionalize the way users interact with AI image models, offering a structured approach to crafting effective prompts for consistent and high-quality results. It&apos;s available as a free open-source project.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Warp</title>
       <link>https://surfaced-x.pages.dev/item/warp</link>
@@ -372,38 +404,6 @@
       <link>https://surfaced-x.pages.dev/item/ticktick-todo-pomodoro-habits</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ticktick-todo-pomodoro-habits</guid>
       <description>TickTick, developed by Appest, is an all-in-one productivity app designed to help individuals and teams manage tasks, set reminders, build habits, and track goals. It combines a robust to-do list manager with calendar integration and a built-in Pomodoro timer, streamlining multiple aspects of daily planning into a single interface. Users can organize tasks with tags, priorities, and due dates, fostering a comprehensive approach to personal and professional organization. It works seamlessly across web, iOS, Android, Mac, Windows, and as a browser extension. The most used feature is its smart parsing for quickly adding tasks with natural language. Data is securely synced across all devices via cloud, ensuring accessibility from anywhere.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Quad9</title>
-      <link>https://surfaced-x.pages.dev/item/quad9-secure-dns-privacy-malware</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/quad9-secure-dns-privacy-malware</guid>
-      <description>Quad9, operated by the Quad9 Foundation, is a free, public DNS (Domain Name System) recursive resolver that provides a crucial layer of security, privacy, and performance for internet users. It automatically blocks access to known malicious websites, including malware, phishing, and spyware domains, before your computer can even connect to them. The primary workflow involves changing your device&apos;s or router&apos;s DNS settings to Quad9&apos;s IP addresses (9.9.9.9 and 149.112.112.112), after which all your internet lookups are routed through their secure servers. It works universally across any device or network that allows custom DNS configuration, including Windows, macOS, Linux, iOS, Android, and home routers. Its most used feature is its proactive blocking of malicious domains, powered by threat intelligence from over 18 different security vendors. Quad9 is a non-profit organization that does not log your IP address or use your DNS data for advertising, ensuring a high standard of user privacy.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SoloKeys (Solo 2)</title>
-      <link>https://surfaced-x.pages.dev/item/solokeys-solo-2-hardware-security-key</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/solokeys-solo-2-hardware-security-key</guid>
-      <description>SoloKeys, developed by SoloKeys, is an open-source, FIDO2 and U2F compliant hardware security key designed to provide robust two-factor authentication (2FA) and passwordless login. It acts as a physical token that verifies your identity when logging into online services, significantly strengthening your account security against phishing and credential theft. The primary workflow involves plugging the key into a USB port (or using NFC for Solo 2), then touching it when prompted by a website to confirm your login. It works with any service that supports FIDO2/WebAuthn or U2F, compatible with major browsers like Chrome, Firefox, Edge, and Safari on Windows, macOS, Linux, and Android. Its most used feature is its ability to protect accounts with a physical, unphishable second factor, making it nearly impossible for attackers to gain access. SoloKeys are open-source hardware, meaning their design and firmware are publicly verifiable, ensuring transparency and trust in their security mechanisms.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mullvad VPN</title>
-      <link>https://surfaced-x.pages.dev/item/mullvad-vpn-private-secure-internet</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mullvad-vpn-private-secure-internet</guid>
-      <description>Mullvad VPN, developed by Amagicom AB based in Sweden, is a highly privacy-focused virtual private network service dedicated to ensuring user anonymity and internet security. It encrypts all your internet traffic and routes it through a server in a country of your choice, masking your IP address and protecting your online activities from surveillance. The primary workflow involves installing their client application, selecting a server location, and connecting to establish a secure VPN tunnel for all your device&apos;s internet traffic. It works on Windows, macOS, Linux, iOS, and Android, and can also be configured on routers. Its most used feature is its robust no-logging policy, which has been independently audited and verified, ensuring user activity is never recorded. Mullvad accepts anonymous payment methods (like cash) and does not require an email or phone number for account creation, further reinforcing its commitment to privacy.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>uBlock Origin</title>
-      <link>https://surfaced-x.pages.dev/item/ublock-origin-ad-blocker-privacy-extension</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ublock-origin-ad-blocker-privacy-extension</guid>
-      <description>uBlock Origin, created by Raymond Hill, is a free, open-source, wide-spectrum content blocker that goes beyond traditional ad-blocking to filter out trackers, malware sites, and intrusive elements across the web. It operates efficiently by using minimal CPU and memory, ensuring a smooth browsing experience while enhancing privacy and security. The primary workflow involves installing the browser extension, which then automatically blocks unwanted content based on configurable filter lists, improving page load times and reducing digital distractions. It works as a browser extension for Chrome, Firefox, Edge, Opera, and Safari (via a third-party port). Its most used feature is its default blocking of ads and trackers, which significantly cleans up web pages and protects user privacy. As a local browser extension, it processes filtering rules on your device and does not send your browsing data to any external servers, ensuring your browsing habits remain private.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>

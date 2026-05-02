@@ -1,69 +1,5 @@
 [
   {
-    "id": 72,
-    "slug": "gravity-based-energy-storage-systems",
-    "techName": "Gravity-Based Energy Storage Systems",
-    "explanation": "These systems store energy by lifting heavy weights (like concrete blocks or sand) to a height using surplus electricity. When energy is needed, the weights are lowered, generating electricity via turbines, offering a robust alternative to chemical batteries.",
-    "industry": "Energy, Infrastructure, Renewable Energy Integration",
-    "whyItMatters": "This technology addresses the intermittency of renewable energy sources, providing long-duration, non-degrading, and environmentally sustainable grid storage. It could revolutionize grid stability and accelerate the transition to 100% renewables worldwide.",
-    "developmentStage": "Early Commercialization",
-    "imageIdea": "A massive tower with cranes lifting and lowering large concrete blocks, surrounded by solar panels or wind turbines, representing renewable energy integration.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-14",
-    "sourceLink": "https://www.energyvault.com/"
-  },
-  {
-    "id": 73,
-    "slug": "personalized-bacteriophage-therapy",
-    "techName": "Personalized Bacteriophage Therapy",
-    "explanation": "This medical approach uses highly specific viruses (bacteriophages) to infect and kill pathogenic bacteria, particularly those resistant to antibiotics. Therapy is personalized by culturing phages effective against a patient's specific bacterial infection.",
-    "industry": "Healthcare, Biotechnology, Pharmaceuticals, Infectious Disease",
-    "whyItMatters": "Phage therapy offers a crucial weapon against the rising threat of antibiotic-resistant 'superbugs,' potentially saving millions of lives where conventional antibiotics fail. It represents a targeted, natural alternative to broad-spectrum drugs with fewer side effects.",
-    "developmentStage": "Early Adoption",
-    "imageIdea": "A microscopic view of various bacteriophages infecting bacterial cells, with overlaid human DNA strands suggesting personalized treatment.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-14",
-    "sourceLink": "https://www.aphage.com/"
-  },
-  {
-    "id": 74,
-    "slug": "bio-integrated-self-healing-concrete",
-    "techName": "Bio-Integrated Self-Healing Concrete",
-    "explanation": "This innovative concrete contains embedded microcapsules or dormant bacteria that activate upon crack formation. The bacteria produce calcium carbonate, effectively sealing the cracks and significantly extending the material's lifespan.",
-    "industry": "Construction, Infrastructure, Materials Science, Civil Engineering",
-    "whyItMatters": "Self-healing concrete significantly reduces maintenance costs and environmental impact of concrete infrastructure by preventing structural degradation and extending its service life. It leads to safer, more durable buildings, bridges, and roads, reducing the need for frequent repairs.",
-    "developmentStage": "Prototype",
-    "imageIdea": "A close-up of a concrete surface with tiny cracks, where glowing or organic-looking material is visibly filling the fissures, possibly showing microscopic bacteria.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-14",
-    "sourceLink": "https://basiliskconcrete.com/"
-  },
-  {
-    "id": 75,
-    "slug": "smart-dust-environmental-monitoring",
-    "techName": "Smart Dust for Environmental Monitoring",
-    "explanation": "Billions of microscopic sensors dispersed over vast areas to collect real-time data on air quality, water pollutants, temperature, and seismic activity. Each mote communicates wirelessly, forming a self-organizing mesh network to provide unprecedented spatial and temporal resolution for environmental data.",
-    "industry": "Environmental, IoT, Sensor Technology",
-    "whyItMatters": "Enables early detection of pollution events, precise climate modeling, and proactive disaster prediction, revolutionizing environmental management and public health. It offers a low-cost, high-density sensor network impossible with current technologies.",
-    "developmentStage": "Research",
-    "imageIdea": "A microscopic dust mote glowing faintly, surrounded by a complex network of data streams, superimposed over a panoramic view of a forest or city.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 76,
-    "slug": "advanced-exoskeletons-public-mobility",
-    "techName": "Advanced Exoskeletons for Public Mobility",
-    "explanation": "Lightweight, unobtrusive exoskeletons designed for everyday use, enhancing strength, endurance, and mobility for people of all ages and abilities. They use AI to anticipate user movements, providing assistance for walking, lifting, and prolonged standing without feeling cumbersome.",
-    "industry": "Robotics, Healthcare, Consumer Electronics, Accessibility",
-    "whyItMatters": "Transforms accessibility for the elderly and disabled, provides occupational support for physically demanding jobs, and boosts general fitness, extending human capabilities in daily life. This moves beyond medical/industrial into mainstream consumer adoption.",
-    "developmentStage": "Early Commercialization",
-    "imageIdea": "A diverse group of people (elderly, young, workers) moving effortlessly with subtle, sleek, futuristic exoskeletons integrated into their clothing, perhaps in a bustling city park.",
-    "type": "future-tech",
-    "dateAdded": "2026-04-14",
-    "sourceLink": "https://myosuit.com/"
-  },
-  {
     "id": 77,
     "slug": "neuromorphic-computing-edge-ai",
     "techName": "Neuromorphic Computing for Edge AI",
@@ -4267,8 +4203,7 @@
     "developmentStage": "Prototype",
     "imageIdea": "Diagram showing a laser light path entering an eye, projecting an image directly onto the retina, with an AR overlay concept.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://www.mojo.vision/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 412,
@@ -5415,8 +5350,7 @@
     "developmentStage": "Early Commercialization",
     "imageIdea": "Satellite beaming entangled photons to two geographically separated ground stations.",
     "type": "future-tech",
-    "dateAdded": "2026-04-27",
-    "sourceLink": "https://en.ustc.edu.cn/"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 507,
@@ -6317,5 +6251,75 @@
     "imageIdea": "a lock icon superimposed on a web browser window with a warning symbol",
     "type": "future-tech",
     "dateAdded": "2026-04-30"
+  },
+  {
+    "id": 583,
+    "slug": "deepseek-v4-ai-model",
+    "techName": "DeepSeek V4",
+    "seoTitle": "DeepSeek V4: Frontier AI Performance at Lower Cost",
+    "explanation": "DeepSeek V4 is a new generation of large language models (LLMs) developed by DeepSeek AI. This breakthrough model achieves performance on par with leading proprietary models, such as those from OpenAI and Google, across various benchmarks. What sets it apart is its significantly lower inference cost, making cutting-edge AI more accessible and affordable.",
+    "industry": "Artificial Intelligence",
+    "whyItMatters": "The development of DeepSeek V4 democratizes access to highly capable AI. By offering comparable performance to top-tier models at a fraction of the cost, it empowers smaller businesses, researchers, and developers to leverage advanced AI without prohibitive expenditure. This could accelerate innovation across diverse fields, from scientific research to creative applications, and foster greater competition in the AI market, potentially leading to faster improvements and more specialized AI tools. While widespread adoption will depend on further optimization and integration into existing workflows, the economic advantage alone suggests a rapid path towards broader accessibility.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "abstract neural network visualization",
+    "type": "future-tech",
+    "sourceLink": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 584,
+    "slug": "ti-84-evo-graphing-calculator",
+    "techName": "TI-84 Evo",
+    "seoTitle": "TI-84 Evo: Next-Gen Graphing Calculator for Education",
+    "explanation": "The TI-84 Evo is the latest iteration of Texas Instruments' popular graphing calculator line, designed to enhance STEM education. It features a higher-resolution color screen, increased processing power, and expanded memory compared to its predecessors. The calculator also boasts a USB-C port for faster data transfer and connectivity, making it more versatile for modern classroom use.",
+    "industry": "Education Technology",
+    "whyItMatters": "This updated calculator aims to bridge the gap between traditional math education tools and the digital demands of contemporary learning. The improved display and connectivity make it easier for students to visualize complex concepts and integrate with digital learning platforms. For educators, it offers greater flexibility in lesson planning and assessment. While the core functionality remains familiar, the enhancements should improve engagement and comprehension for students in mathematics and science, potentially leading to better learning outcomes. Its integration into standardized testing and curriculum is a key factor for widespread adoption.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "modern graphing calculator with color screen",
+    "type": "future-tech",
+    "sourceLink": "https://education.ti.com/en/products/calculators/graphing-calculators/ti-84-evo",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 585,
+    "slug": "dream-learning-research",
+    "techName": "Dream-Based Learning",
+    "seoTitle": "Learning While Dreaming: New Research Breakthroughs",
+    "explanation": "Recent research suggests that it may be possible for individuals to learn and practice skills while in a state of dreaming. Scientists are exploring methods to deliver auditory cues or stimuli during specific sleep stages, which can then be processed by the sleeping brain. The goal is to reinforce memories or even impart new information without conscious awareness.",
+    "industry": "Neuroscience",
+    "whyItMatters": "The ability to learn or practice skills during sleep could revolutionize education and personal development. Imagine mastering a new language or practicing complex procedures without sacrificing waking hours. This could significantly reduce training times for professions requiring extensive skill acquisition and offer new avenues for memory enhancement and cognitive rehabilitation. However, the ethical implications and the long-term effects on sleep quality and cognitive function require extensive study. If proven effective and safe, it could reshape our understanding of learning and unlock unprecedented human potential, though widespread practical application is likely years away.",
+    "developmentStage": "Research",
+    "imageIdea": "stylized human brain with glowing dream sequences",
+    "type": "future-tech",
+    "sourceLink": "https://www.newyorker.com/culture/annals-of-inquiry/its-possible-to-learn-in-our-sleep-should-we",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 586,
+    "slug": "artemis-ii-photo-timeline",
+    "techName": "Artemis II Mission Timeline",
+    "seoTitle": "Artemis II Mission: Photo Timeline & Key Milestones",
+    "explanation": "The Artemis II mission is a crucial step in NASA's program to return humans to the Moon. The Artemis II Photo Timeline website visually chronicles the mission's progress, showcasing key moments from crew selection to mission simulations and hardware preparations. This human lunar flyby mission will carry four astronauts around the Moon and back, testing critical systems for future lunar landings.",
+    "industry": "Aerospace",
+    "whyItMatters": "Artemis II represents a significant leap towards re-establishing a human presence beyond low Earth orbit and paving the way for sustained lunar exploration and potential Mars missions. Successful execution will validate advanced life support, navigation, and communication systems essential for deep space travel. This mission is not just a scientific endeavor but a geopolitical and inspirational milestone, signaling renewed global interest in space exploration. The data and experience gained will inform the design and operation of future lunar bases and deep-space habitats. Its success is critical for the ambitious long-term goals of space agencies and private companies alike.",
+    "developmentStage": "Early Commercialization",
+    "imageIdea": "photo of astronauts in lunar-style spacesuits",
+    "type": "future-tech",
+    "sourceLink": "https://artemistimeline.com/#artemis-ii-walkout-nhq202604010003",
+    "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 587,
+    "slug": "noctua-black-fan-release",
+    "techName": "High-Performance Black Computer Fans",
+    "seoTitle": "Noctua Black Fan Release: Engineering Challenges Explained",
+    "explanation": "Noctua, a renowned manufacturer of PC cooling solutions, has addressed the long development cycles for its black fan variants. The company explains that achieving the desired aesthetic without compromising on their signature performance and acoustics requires extensive material science and engineering adjustments. Pigments can affect thermal conductivity and airflow dynamics, necessitating new formulations and rigorous testing to match the performance of their classic beige fans.",
+    "industry": "Computer Hardware",
+    "whyItMatters": "This seemingly niche issue highlights the complex interplay of performance, aesthetics, and engineering in consumer electronics. For PC enthusiasts and builders, the visual appeal of components is as important as their functionality. Noctua's detailed explanation reveals the engineering challenges in creating visually distinct, high-performance products. The extended development time for black variants signifies a commitment to quality and performance that appeals to a discerning market. While not a revolutionary technology, it underscores the iterative refinement and dedication to user experience that drives innovation in established product categories.",
+    "developmentStage": "Mainstream",
+    "imageIdea": "sleek black computer cooling fan",
+    "type": "future-tech",
+    "sourceLink": "https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions",
+    "dateAdded": "2026-05-02"
   }
 ]
