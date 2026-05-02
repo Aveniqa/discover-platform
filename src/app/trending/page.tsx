@@ -103,8 +103,8 @@ export default function TrendingPage() {
             Trending
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-            <BlurText as="span" wordDelay={55}>Trending</BlurText>{" "}
-            <BlurText as="span" wordDelay={55} className="gradient-text">Products</BlurText>
+            <BlurText as="span" wordDelay={55} onScroll={false}>Trending</BlurText>{" "}
+            <BlurText as="span" wordDelay={55} onScroll={false} className="gradient-text">Products</BlurText>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             The internet&apos;s most-wanted products, vetted and handpicked.{" "}

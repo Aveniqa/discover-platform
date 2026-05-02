@@ -64,8 +64,8 @@ export default function ToolsPage() {
             Tools
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-            <BlurText as="span" wordDelay={55}>Daily</BlurText>{" "}
-            <BlurText as="span" wordDelay={55} className="gradient-text">Tools</BlurText>
+            <BlurText as="span" wordDelay={55} onScroll={false}>Daily</BlurText>{" "}
+            <BlurText as="span" wordDelay={55} onScroll={false} className="gradient-text">Tools</BlurText>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Practical, beautiful, no-sign-up tools for everyday life.{" "}

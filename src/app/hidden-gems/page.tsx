@@ -64,8 +64,8 @@ export default function HiddenGemsPage() {
             Hidden Gems
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-            <BlurText as="span" wordDelay={55}>Hidden</BlurText>{" "}
-            <BlurText as="span" wordDelay={55} className="gradient-text">Gems</BlurText>
+            <BlurText as="span" wordDelay={55} onScroll={false}>Hidden</BlurText>{" "}
+            <BlurText as="span" wordDelay={55} onScroll={false} className="gradient-text">Gems</BlurText>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Remarkable websites, underground tools, and corners of the internet

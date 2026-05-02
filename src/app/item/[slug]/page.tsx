@@ -329,7 +329,7 @@ export default async function ItemPage({ params }: Props) {
           <ScreenshotImage src={(item as HiddenGem).screenshotUrl!} alt={title} />
         ) : (
           <>
-            <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" />
+            <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" priority />
             {isPexelsImage(slug) && (
               <p className="absolute bottom-2 right-3 text-[10px] text-white/60">
                 Photo via Pexels
@@ -366,7 +366,7 @@ export default async function ItemPage({ params }: Props) {
                 <LogoImage domain={logoDomain} className="w-8 h-8 rounded object-contain shrink-0" />
               )}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground leading-[1.1]">
-                <BlurText as="span" wordDelay={45}>{title}</BlurText>
+                <BlurText as="span" wordDelay={45} onScroll={false}>{title}</BlurText>
               </h1>
             </div>
 

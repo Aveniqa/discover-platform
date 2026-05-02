@@ -63,8 +63,8 @@ export default function FutureRadarPage() {
             Future Radar
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-            <BlurText as="span" wordDelay={55}>Future</BlurText>{" "}
-            <BlurText as="span" wordDelay={55} className="gradient-text">Radar</BlurText>
+            <BlurText as="span" wordDelay={55} onScroll={false}>Future</BlurText>{" "}
+            <BlurText as="span" wordDelay={55} onScroll={false} className="gradient-text">Radar</BlurText>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Breakthroughs that will reshape the world — tracked with timelines

@@ -180,8 +180,8 @@ export default function HomePage() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05] mb-4">
-            <BlurText as="span" wordDelay={60}>What the internet</BlurText>{" "}
-            <BlurText as="span" wordDelay={60} className="gradient-text">surfaced today.</BlurText>
+            <BlurText as="span" wordDelay={60} onScroll={false}>What the internet</BlurText>{" "}
+            <BlurText as="span" wordDelay={60} onScroll={false} className="gradient-text">surfaced today.</BlurText>
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
             Five fresh finds — products, hidden gems, future tech, and discoveries — handpicked every morning.

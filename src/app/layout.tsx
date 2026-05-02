@@ -92,6 +92,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://www.google.com" />
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://www.amazon.com" />
+        <link rel="dns-prefetch" href="https://cdn.pixabay.com" />
         {/* Google AdSense — verification + auto ads */}
         <script
           async

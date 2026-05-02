@@ -63,8 +63,8 @@ export default function DiscoverPage() {
             Discover
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-            <BlurText as="span" wordDelay={55}>Today&apos;s</BlurText>{" "}
-            <BlurText as="span" wordDelay={55} className="gradient-text">Discoveries</BlurText>
+            <BlurText as="span" wordDelay={55} onScroll={false}>Today&apos;s</BlurText>{" "}
+            <BlurText as="span" wordDelay={55} onScroll={false} className="gradient-text">Discoveries</BlurText>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Breakthroughs, fascinating research, and things you didn&apos;t know
