@@ -21,6 +21,7 @@ const ONLY_CATEGORY = process.argv[2] || null;
 
 // Items with a primary description field shorter than this get enriched
 const THIN_THRESHOLD = 220; // chars
+const THIN_WORD_THRESHOLD = 150; // body words across description + why text
 const BATCH_SIZE = 10; // items per Gemini call
 
 const FILES = {
@@ -55,9 +56,19 @@ function whyLength(item) {
   return w.length;
 }
 
+function bodyWordCount(item) {
+  const d = item.shortDescription || item.whatItDoes || item.explanation || "";
+  const w = item.whyItIsInteresting || item.whyItIsUseful || item.whyItMatters || "";
+  return `${d} ${w}`.trim().split(/\s+/).filter(Boolean).length;
+}
+
 // Is this item thin enough to need enrichment?
 function isThin(item) {
-  return descLength(item) < THIN_THRESHOLD || whyLength(item) < THIN_THRESHOLD;
+  return (
+    descLength(item) < THIN_THRESHOLD ||
+    whyLength(item) < THIN_THRESHOLD ||
+    bodyWordCount(item) < THIN_WORD_THRESHOLD
+  );
 }
 
 async function callWithRetry(fn, maxRetries = 6) {
@@ -279,7 +290,7 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`\n✨ Enriching thin items — threshold: ${THIN_THRESHOLD} chars`);
+  console.log(`\n✨ Enriching thin items — thresholds: ${THIN_THRESHOLD} chars or ${THIN_WORD_THRESHOLD} body words`);
   if (ONLY_CATEGORY) console.log(`   Category: ${ONLY_CATEGORY}`);
   console.log();
 
