@@ -1797,7 +1797,69 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "petsafe-healthy-pet-simply-feed-automatic-feeder",
+      "title": "PetSafe Healthy Pet Simply Feed Automatic Feeder",
+      "category": "products",
+      "imageUrl": "https://images.pexels.com/photos/17393531/pexels-photo-17393531.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: PetSafe Healthy Pet Simply Feed Automatic Feeder",
+      "productUrl": "https://surfaced-x.pages.dev/item/petsafe-healthy-pet-simply-feed-automatic-feeder?utm_source=social&utm_medium=products&utm_campaign=daily_post",
+      "affiliateUrl": "https://www.amazon.com/dp/B0B5ZGGWBQ?tag=vaultvibe-20&linkCode=ll1",
+      "sourceLink": "https://www.petsafe.com/product/healthy-pet-simply-feed-automatic-feeder/",
+      "platforms": {
+        "pinterest": {
+          "title": "PetSafe Healthy Pet Simply Feed Automatic Feeder",
+          "description": "The PetSafe Healthy Pet Simply Feed Automatic Feeder is a reliable solution for managing your pet's dietary needs with precision and ease. It allows you to schedule up to 12 meals daily, dispensing precise portions from 1/8 cup to 4 cups per meal, ensuring consistent feeding habits. Perfect for busy pet owners, those managing pet weight, or individuals with irregular schedules, it ensures your cat https://www.amazon.com/dp/B0B5ZGGWBQ?tag=vaultvibe-20&linkCode=ll1 #surfaced #products",
+          "boardName": "Tech Products"
+        },
+        "bluesky": {
+          "text": "PetSafe Healthy Pet Simply Feed Automatic Feeder — The PetSafe Healthy Pet Simply Feed Automatic Feeder is a reliable solution for managing your pet's dietary needs with precision and ease. It allows you to schedule up to 12 meals daily, dispensing pr\n\n#tech #gadgets"
+        },
+        "twitter": {
+          "text": "PetSafe Healthy Pet Simply Feed Automatic Feeder — The PetSafe Healthy Pet Simply Feed Automatic Feeder is a reliable solution for managing your pet's dietary needs with precision and ease. It allows y https://www.amazon.com/dp/B0B5ZGGWBQ?tag=vaultvibe-20&linkCode=ll1"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-03T16:02:49.787Z",
+      "publishedAt": "2026-05-03T16:02:51.510Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "bat-cat-clone-syntax-highlighting-2",
+      "title": "bat",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/6424586/pexels-photo-6424586.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Screenshot of a terminal showing a code file with syntax highlighting applied.",
+      "productUrl": "https://surfaced-x.pages.dev/item/bat-cat-clone-syntax-highlighting-2?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/bat-cat-clone-syntax-highlighting-2?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "bat: The Cat Clone with Syntax Highlighting",
+          "description": "Tired of plain text? bat is a `cat` clone that adds syntax highlighting, Git integration, and more to your terminal file viewing. See code and logs like never before. Open-source and free!\n#developer #opensource #terminal #coding",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Forget `cat`. There's a better way to view files in the terminal. Syntax highlighting, Git diffs, paging – it's like `cat` but with super powers. Seriously, why are you still using plain `cat`?\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "Stop squinting at plain text files. `bat` is a `cat` clone that brings syntax highlighting, Git integration, and paging to your terminal. Makes code and log reviews SO much easier. Open source, free, and a huge upgrade. https://surfaced-x.pages.dev/item/bat-cat-clone-syntax-highlighting-2?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-03T16:02:49.787Z",
+      "publishedAt": "2026-05-03T16:03:29.039Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-05-02T16:03:11.020Z"
+  "lastGenerated": "2026-05-03T16:02:49.788Z"
 }
