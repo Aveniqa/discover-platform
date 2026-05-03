@@ -101,8 +101,9 @@ export default function PrivacyPage() {
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
                   We use cookies and similar tracking technologies to collect
-                  usage data and improve our services. Cookies are small data
-                  files stored on your device.
+                  usage data, remember preferences, support advertising, and
+                  improve our services. Cookies are small data files stored on
+                  your device.
                 </p>
                 <p>We use the following types of cookies:</p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
@@ -119,6 +120,13 @@ export default function PrivacyPage() {
                       Preference cookies
                     </span>{" "}
                     — remember your settings and preferences
+                  </li>
+                  <li>
+                    <span className="text-foreground font-medium">
+                      Advertising cookies
+                    </span>{" "}
+                    — help Google and other advertising partners deliver,
+                    measure, limit, and improve ads
                   </li>
                 </ul>
                 <p>
@@ -167,6 +175,13 @@ export default function PrivacyPage() {
                   similar technologies to deliver, measure, and improve ads.
                 </p>
                 <p>
+                  Third-party vendors, including Google, use cookies to serve ads
+                  based on a user&apos;s prior visits to Surfaced and/or other
+                  websites. Google&apos;s use of advertising cookies enables it
+                  and its partners to serve ads based on visits to Surfaced and
+                  other sites on the internet.
+                </p>
+                <p>
                   Third parties may place or read cookies on your browser, or use
                   web beacons and IP addresses to collect information, when ads
                   are served on Surfaced. Google explains how it uses information
@@ -180,9 +195,29 @@ export default function PrivacyPage() {
                   .
                 </p>
                 <p>
-                  You can manage ad personalization through your Google account,
-                  browser cookie settings, and applicable consent controls where
-                  required by law.
+                  You can manage ad personalization through{" "}
+                  <a
+                    href="https://adssettings.google.com/"
+                    className="text-accent hover:text-accent/80 transition-colors"
+                  >
+                    Google Ad Settings
+                  </a>
+                  , your browser cookie settings, and applicable consent controls
+                  where required by law. You can also learn about opting out of
+                  some third-party vendors&apos; personalized advertising at{" "}
+                  <a
+                    href="https://optout.aboutads.info/"
+                    className="text-accent hover:text-accent/80 transition-colors"
+                  >
+                    aboutads.info
+                  </a>
+                  .
+                </p>
+                <p>
+                  For visitors in the European Economic Area, the United Kingdom,
+                  Switzerland, and U.S. states with applicable privacy laws,
+                  Surfaced uses Google&apos;s Privacy & Messaging tools to show
+                  consent or privacy choices when required.
                 </p>
               </div>
             </div>
@@ -261,10 +296,12 @@ export default function PrivacyPage() {
                   </li>
                 </ul>
                 <p>
-                  Our legal basis for processing your data includes: your consent,
-                  our legitimate interests in operating and improving the service,
-                  and compliance with legal obligations. We do not transfer your
-                  data outside the EEA without appropriate safeguards.
+                  Our legal basis for processing your data includes your consent,
+                  our legitimate interests in operating and improving Surfaced,
+                  contractual necessity for services you request, and compliance
+                  with legal obligations. Some service providers may process data
+                  outside your country, subject to their own safeguards and
+                  applicable legal requirements.
                 </p>
               </div>
             </div>
@@ -321,7 +358,8 @@ export default function PrivacyPage() {
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
                   If you have any questions about this Privacy Policy or our data
-                  practices, please contact us:
+                  practices, please contact Surfaced. Surfaced is operated from
+                  New York, United States.
                 </p>
                 <p>
                   Email:{" "}

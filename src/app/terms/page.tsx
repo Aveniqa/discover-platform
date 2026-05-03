@@ -24,7 +24,7 @@ export default function TermsPage() {
                 Service
               </span>
             </h1>
-            <p className="mt-4 text-muted">Last updated: April 2026</p>
+            <p className="mt-4 text-muted">Last updated: May 2026</p>
           </header>
 
           {/* Content */}
@@ -96,9 +96,9 @@ export default function TermsPage() {
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
                   The Service and its original content, features, and
-                  functionality are owned by Surfaced and are protected by
-                  international copyright, trademark, patent, trade secret, and
-                  other intellectual property laws.
+                  functionality are operated under the Surfaced name and are
+                  protected by copyright, trademark, trade secret, and other
+                  intellectual property laws.
                 </p>
                 <p>
                   You may share links to our content freely. However, you may not
@@ -213,10 +213,10 @@ export default function TermsPage() {
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
                   These Terms shall be governed by and construed in accordance
-                  with the laws of the United States, without regard to its
-                  conflict of law provisions. Any disputes arising from these
-                  Terms or your use of the Service shall be resolved in the
-                  courts of competent jurisdiction.
+                  with the laws of the State of New York and the United States,
+                  without regard to conflict of law provisions. Any disputes
+                  arising from these Terms or your use of the Service shall be
+                  resolved in courts of competent jurisdiction.
                 </p>
               </div>
             </div>
