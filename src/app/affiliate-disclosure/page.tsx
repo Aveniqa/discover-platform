@@ -24,7 +24,7 @@ export default function AffiliateDisclosurePage() {
                 Disclosure
               </span>
             </h1>
-            <p className="mt-4 text-muted">Last updated: April 2026</p>
+            <p className="mt-4 text-muted">Last updated: May 2026</p>
           </header>
 
           {/* Content */}
@@ -96,11 +96,12 @@ export default function AffiliateDisclosurePage() {
               </h2>
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
-                  Every product, tool, and service featured on Surfaced has been
-                  personally evaluated by our team. We only recommend things we
-                  would genuinely use ourselves or recommend to a friend. Our
-                  reputation depends on the trust of our readers, and we never
-                  take that for granted.
+                  Every product, tool, and service featured on Surfaced is
+                  evaluated against editorial criteria such as usefulness,
+                  source quality, specificity, availability, and fit for curious
+                  readers. We aim to recommend things we would use ourselves or
+                  point a friend toward. Our reputation depends on reader trust,
+                  and we never take that for granted.
                 </p>
                 <p>
                   If we are featuring a sponsored or paid placement, we will
@@ -185,9 +186,10 @@ export default function AffiliateDisclosurePage() {
                     <span className="flex-shrink-0 mt-1.5 w-1.5 h-1.5 rounded-full bg-accent" />
                     <span>
                       <span className="text-foreground font-medium">
-                        Honest reviews
+                        Useful context
                       </span>{" "}
-                      — We share both pros and cons of every product we feature
+                      — We explain why an item stands out and note meaningful
+                      limitations when they are relevant
                     </span>
                   </li>
                   <li className="flex items-start gap-3">

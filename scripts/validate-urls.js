@@ -65,7 +65,10 @@ async function checkUrl(url) {
     // 404 / 410 and other 4xx: genuinely gone
     return { ok: false, status: res.status };
   } catch (e) {
-    return { ok: false, status: e.name === "AbortError" ? "timeout" : "fetch-error" };
+    // Network failures are inconclusive, not proof that a URL is gone. The
+    // daily workflow may run during DNS, TLS, bot-blocking, or transient origin
+    // failures; deleting sources in that case weakens content trust signals.
+    return { ok: true, status: e.name === "AbortError" ? "timeout" : "fetch-error" };
   }
 }
 

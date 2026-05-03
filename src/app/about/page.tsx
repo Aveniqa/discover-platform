@@ -244,9 +244,13 @@ export default function AboutPage() {
               matters — not just <em>what</em> it is.
             </p>
             <p>
-              Today, Surfaced is read by thousands of curious people every morning.
-              Every item is hand-selected. Every description is written by a
-              human. We never feature anything we would not genuinely recommend.
+              Today, Surfaced publishes a daily catalog for curious readers who
+              want useful context without wading through endless feeds. We use
+              automation to help research, draft, validate, and organize new
+              finds at scale, then apply editorial rules for sourcing, duplicate
+              checks, clarity, and usefulness before publication. We never want
+              an item to be just a link; each one should explain why it is worth
+              a reader&apos;s attention.
             </p>
           </div>
         </div>
