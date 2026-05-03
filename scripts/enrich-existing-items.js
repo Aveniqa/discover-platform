@@ -14,7 +14,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-const MODEL = "gemini-2.0-flash";
+const MODEL = "gemini-2.5-flash";
 const DATA_DIR = path.join(__dirname, "..", "data");
 
 const ONLY_CATEGORY = process.argv[2] || null;
@@ -214,6 +214,7 @@ async function enrichCategory(category, filename) {
     : { [category]: thinItems };
 
   console.log(`\n📝 [${category}] ${thinItems.length} thin items to enrich\n`);
+  let failedBatches = 0;
 
   for (const [promptCategory, groupItems] of Object.entries(groups)) {
     if (groupItems.length === 0) continue;
@@ -263,6 +264,7 @@ async function enrichCategory(category, filename) {
         writeJSON(filename, items);
         console.log(`✓ +${results.length} enriched`);
       } catch (err) {
+        failedBatches++;
         console.log(`FAILED: ${err.message.slice(0, 100)}`);
       }
 
@@ -270,6 +272,10 @@ async function enrichCategory(category, filename) {
         await new Promise(r => setTimeout(r, 5000));
       }
     }
+  }
+
+  if (enriched === 0) {
+    throw new Error(`[${category}] No thin items were enriched across ${failedBatches} failed batch(es). Check the Gemini model/API response before continuing.`);
   }
 
   console.log(`\n  ✅ [${category}] Enriched ${enriched} items.\n`);

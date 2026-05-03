@@ -47,7 +47,7 @@ if (!API_KEY) {
   process.exit(1);
 }
 
-const MODEL = "gemini-2.0-flash";
+const MODEL = "gemini-2.5-flash";
 
 async function callGemini(prompt, retries = 3) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`;
