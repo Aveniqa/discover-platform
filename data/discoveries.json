@@ -1,69 +1,5 @@
 [
   {
-    "id": 77,
-    "slug": "human-bioluminescence-invisible-glow",
-    "title": "Your Body Emits a Faint, Continuous Light That's Invisible to Our Eyes",
-    "seoTitle": "Human Body Emits Faint Invisible Light: Biophoton Emission",
-    "shortDescription": "Despite appearing dark, the human body constantly emits a faint amount of visible light, a phenomenon known as biophoton emission. This glow is thousands of times weaker than what our eyes can detect, but advanced sensitive cameras have captured it, often peaking in the late afternoon.",
-    "category": "Science",
-    "whyItIsInteresting": "This unseen glow isn't just a quirky fact; it's believed to be linked to metabolic processes and cellular energy. Scientists are studying how these biophotons could potentially serve as non-invasive indicators of health, disease, or even brain activity, opening new avenues for medical diagnosis and research.",
-    "imageIdea": "A stylized thermal image of a human body, but instead of heat, it shows faint light emanating from various parts, especially the head and chest.",
-    "sourceLink": "https://en.wikipedia.org/wiki/Biophoton",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 78,
-    "slug": "anechoic-chamber-true-silence",
-    "title": "In an Anechoic Chamber, Silence Becomes a Disturbing Experience",
-    "shortDescription": "Anechoic chambers are rooms designed to completely absorb sound, creating an environment of near-perfect silence. Far from peaceful, spending time in one can be disorienting and even disturbing, as the absence of external noise makes you acutely aware of your own internal bodily sounds.",
-    "category": "Psychology",
-    "whyItIsInteresting": "This unique environment reveals how much we rely on ambient sound to orient ourselves and filter out internal noise. People in these chambers often hear their own heartbeat, blood flowing, or even the ringing in their ears (tinnitus), highlighting the profound impact of our auditory environment on our perception and well-being.",
-    "imageIdea": "soundproofed anechoic chamber room with foam wedge panels silent laboratory",
-    "sourceLink": "https://en.wikipedia.org/wiki/Anechoic_chamber",
-    "type": "discovery",
-    "dateAdded": "2026-04-13"
-  },
-  {
-    "id": 79,
-    "slug": "earth-inner-core-rotates-slower",
-    "title": "Earth's Inner Core Rotates Slower Than Its Surface, Affecting Day Length",
-    "seoTitle": "Earth's Inner Core: Slower Rotation Affects Day Length",
-    "shortDescription": "Recent scientific studies suggest that the Earth's inner core is slowing its rotation relative to the planet's surface. This deceleration can subtly influence various geophysical phenomena, including the length of a day by fractions of a second.",
-    "category": "Global",
-    "whyItIsInteresting": "This phenomenon highlights the dynamic and complex nature of our planet's internal structure, which continues to surprise scientists. Understanding these deep Earth processes is crucial for comprehending Earth's magnetic field and seismic activity.",
-    "imageIdea": "A cutaway diagram of Earth showing its layers, with arrows indicating differential rotation between the inner core and the mantle/crust.",
-    "sourceLink": "https://www.livescience.com/earth/the-planet-is-slowing-down-because-its-inner-core-stopped-spinning-and-may-be-reversing-new-study-finds",
-    "type": "discovery",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 80,
-    "slug": "placebo-effect-open-label",
-    "title": "The Placebo Effect Can Still Work Even When You Know It's a Placebo",
-    "seoTitle": "Placebo Effect Works Even When You Know It's a Placebo",
-    "shortDescription": "Research has shown that the placebo effect, where a patient's belief in a treatment improves their condition, can still be effective even when patients are explicitly told they are receiving a placebo. This challenges traditional understandings of placebo mechanisms and patient expectations.",
-    "category": "Psychology",
-    "whyItIsInteresting": "This 'open-label placebo' effect suggests that the ritual of treatment and the expectation of relief, rather than mere deception, play a significant role. It opens new avenues for integrating placebo principles ethically into clinical care and everyday well-being.",
-    "imageIdea": "A doctor handing a patient a pill bottle, with a thought bubble above the patient showing 'It's a placebo, but I feel better!'",
-    "sourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6685834/",
-    "type": "discovery",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 81,
-    "slug": "ancient-greeks-steam-power",
-    "title": "Ancient Greeks Pioneered Steam Power for Amusements and Temple Rituals",
-    "seoTitle": "Ancient Greek Steam Power: Amusements & Temple Rituals",
-    "shortDescription": "Long before the Industrial Revolution, ancient Greek inventors like Hero of Alexandria developed devices powered by steam. These early applications included self-opening temple doors and the 'aeolipile' engine, primarily for novelty and religious theatrics rather than practical work.",
-    "category": "History",
-    "whyItIsInteresting": "This demonstrates that the fundamental concept of harnessing steam was understood millennia ago, far earlier than commonly believed. It offers a fascinating glimpse into ancient ingenuity and how technological advancements can initially be applied for non-utilitarian purposes.",
-    "imageIdea": "ancient bronze aeolipile sphere steam spinning jets Museum of Alexandria",
-    "sourceLink": "https://en.wikipedia.org/wiki/Hero_of_Alexandria#Aeolipile",
-    "type": "discovery",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 82,
     "slug": "antikythera-mechanism-ancient-greek-astronomical-computer",
     "title": "The Antikythera Mechanism: An Ancient Greek Astronomical Computer",
@@ -6183,5 +6119,68 @@
     "imageIdea": "artist's concept exoplanet atmosphere",
     "type": "discovery",
     "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 577,
+    "slug": "ancient-dna-reveals-neanderthal-influence-on-modern-humans",
+    "title": "Ancient DNA Reveals Unexpected Neanderthal Influence on Modern Humans",
+    "seoTitle": "Ancient DNA Reveals Neanderthal Influence on Modern Humans",
+    "shortDescription": "A groundbreaking study published in *Nature* in 2010 by Svante Pääbo's team at the Max Planck Institute for Evolutionary Anthropology unveiled the complete genome of a Neanderthal. This analysis revealed that modern humans of non-African descent carry between 1% and 4% Neanderthal DNA. This suggests interbreeding occurred between Homo sapiens and Neanderthals after our ancestors migrated out of Africa, a surprising revelation given the long-held view of distinct evolutionary paths.",
+    "category": "History",
+    "whyItIsInteresting": "The discovery that modern humans outside of Africa harbor Neanderthal DNA fundamentally reshaped our understanding of human evolution. It overturned the prevailing model of complete replacement, suggesting a more complex and collaborative history between our species and our extinct hominin relatives. This genetic legacy may influence a range of traits, from immune system responses to susceptibility to certain diseases, though much of this is still under investigation. The finding raises profound questions about what it means to be 'human' and how our evolutionary past continues to manifest in our present biology. The implications extend to anthropology and our understanding of interspecies interaction in deep time.",
+    "imageIdea": "neanderthal fossil skull",
+    "sourceLink": "https://www.nature.com/articles/nature08872",
+    "type": "discovery",
+    "dateAdded": "2026-05-03"
+  },
+  {
+    "id": 578,
+    "slug": "ai-identifies-hidden-signals-in-gravitational-waves",
+    "title": "AI Identifies Hidden Signals in Gravitational Waves",
+    "seoTitle": "AI Finds Hidden Signals in Gravitational Waves",
+    "shortDescription": "Researchers at MIT and Caltech, publishing in *Physical Review Letters* in 2023, developed a novel deep learning algorithm capable of detecting subtle gravitational wave signals previously missed by conventional analysis methods. The AI, trained on simulated gravitational wave data, identified faint whispers of colliding black holes within noise that had confounded human researchers for years. This breakthrough promises to expand the catalog of observed cosmic events and refine our understanding of black hole populations.",
+    "category": "Science",
+    "whyItIsInteresting": "Gravitational wave astronomy is a relatively new window into the universe, allowing us to observe cataclysmic events like black hole and neutron star mergers. However, the signals are incredibly faint and often buried in instrumental noise. This AI discovery represents a significant leap in our ability to extract meaningful information from these challenging datasets. By revealing previously undetectable events, it could drastically increase the number of known black hole mergers, providing more robust statistics for testing general relativity in extreme conditions. The success of this AI also highlights the transformative potential of machine learning in pushing the boundaries of fundamental physics research and opens up new avenues for exploring the most violent phenomena in the cosmos.",
+    "imageIdea": "abstract representation of gravitational waves",
+    "sourceLink": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.130.011102",
+    "type": "discovery",
+    "dateAdded": "2026-05-03"
+  },
+  {
+    "id": 579,
+    "slug": "microbial-life-discovered-in-ancient-antarctic-ice-cores",
+    "title": "Ancient Microbes Revived From Deep Antarctic Ice",
+    "seoTitle": "Ancient Microbes Revived From Antarctic Ice",
+    "shortDescription": "A team led by Dr. John Priscu of Montana State University, in research published in *Nature* in 1998, successfully revived microbes that had been dormant for an estimated 100,000 years within Antarctic ice cores. These ancient microorganisms, extracted from deep glacial ice, demonstrated the remarkable resilience of life and its ability to survive in extreme conditions for millennia. The study provided compelling evidence for the existence of a viable microbial ecosystem preserved within the deep ice sheets.",
+    "category": "Science",
+    "whyItIsInteresting": "The revival of these ancient microbes from 100,000-year-old ice is a testament to life's tenacious grip and its capacity for extreme dormancy. It suggests that vast reservoirs of microbial life may exist, frozen in time, within Earth's polar ice caps and other sub-zero environments. This has significant implications for astrobiology, as it provides a terrestrial analogue for the potential survival of microbial life on icy moons like Europa or Enceladus. Furthermore, studying these organisms could unlock novel enzymes or metabolic pathways with potential biotechnological applications. The discovery compels us to consider the hidden biosphere within our own planet and the possibility of life persisting in seemingly inhospitable frozen worlds beyond Earth.",
+    "imageIdea": "frozen bacteria under microscope",
+    "type": "discovery",
+    "dateAdded": "2026-05-03"
+  },
+  {
+    "id": 580,
+    "slug": "deep-sea-volcanic-vents-host-chemosynthetic-life",
+    "title": "Deep-Sea Vents Host Life Thriving on Chemicals",
+    "seoTitle": "Deep-Sea Vents Host Chemosynthetic Life",
+    "shortDescription": "In 1977, scientists exploring the Galapagos Rift using the submersible *Alvin* discovered dense communities of unique life forms clustered around hydrothermal vents. Dr. Jack Corliss of Oregon State University and his colleagues documented organisms like giant tube worms, clams, and mussels thriving in the complete absence of sunlight. These ecosystems are sustained not by photosynthesis, but by chemosynthesis, where microbes convert chemicals spewing from the vents into energy.",
+    "category": "Nature",
+    "whyItIsInteresting": "The discovery of hydrothermal vent ecosystems was a paradigm shift in biology, demonstrating that life could exist and flourish in environments completely divorced from solar energy. Previously, it was assumed that all life on Earth ultimately depended on sunlight. These chemosynthetic communities, powered by hydrogen sulfide and other chemicals from the Earth's interior, represent an independent origin of life's energy pathways. The unique species found here, often with symbiotic relationships with chemosynthetic bacteria, showcase incredible adaptations to extreme pressure, temperature, and toxicity. This finding has profound implications for our understanding of the conditions under which life can arise and persist, both on Earth and potentially on other planets or moons where sunlight is scarce.",
+    "imageIdea": "hydrothermal vent deep sea",
+    "type": "discovery",
+    "dateAdded": "2026-05-03"
+  },
+  {
+    "id": 581,
+    "slug": "early-human-tools-reveal-complex-cognitive-abilities",
+    "title": "Early Human Tools Show Complex Cognitive Abilities",
+    "seoTitle": "Early Human Tools Show Complex Cognitive Abilities",
+    "shortDescription": "Archaeological findings at sites like Gona, Ethiopia, and the subsequent analysis by researchers such as Dr. Kathy Schick and Dr. Nicholas Toth, dating back to around 2.6 million years ago, have revealed the earliest known stone tools. These Oldowan tools, though simple in appearance, required significant planning, skill, and foresight to manufacture. The consistent design and selection of specific raw materials suggest an understanding of fracture mechanics and intended use, indicating sophisticated cognitive abilities in early hominins.",
+    "category": "History",
+    "whyItIsInteresting": "The creation of the earliest stone tools, known as the Oldowan industry, represents a pivotal moment in human evolution, marking the beginning of our technological lineage. The fact that these tools, dating back to a time when hominins were relatively small-brained, demonstrate evidence of intentionality, foresight, and a conceptual understanding of how to modify materials for a purpose is astonishing. It suggests that complex cognitive abilities, such as planning and problem-solving, emerged much earlier than previously thought. These tools were not just random rocks; they were deliberately shaped to serve specific functions like butchering carcasses, scraping hides, or cracking nuts. This technological leap likely provided crucial advantages, enabling early hominins to access new food sources and expand their ecological niche, ultimately paving the way for future innovations and the eventual dominance of Homo sapiens.",
+    "imageIdea": "oldowan stone tools archaeology",
+    "sourceLink": "https://www.science.org/doi/10.1126/science.1059478",
+    "type": "discovery",
+    "dateAdded": "2026-05-03"
   }
 ]

@@ -1,65 +1,5 @@
 [
   {
-    "id": 83,
-    "slug": "squoosh",
-    "toolName": "Squoosh",
-    "whatItDoes": "Squoosh, developed by Google Chrome Labs, is a free, open-source web-based image compression and optimization tool designed to reduce image file sizes while maintaining visual quality. It supports the workflow of quickly optimizing images for web use by allowing users to upload an image, select various compression codecs (like WebP, AVIF, MozJPEG), adjust quality settings, and preview the results. Primarily a web-based application accessible via any modern browser, it leverages WebAssembly to perform client-side processing, meaning no uploads to a server are required. Its most-used feature is the real-time side-by-side comparison slider, which visually demonstrates the impact of different compression settings and codecs on image quality and file size. Images are processed entirely in the user's browser; no image data is uploaded to Google's servers, ensuring privacy and fast processing directly on the client-side.",
-    "category": "Design",
-    "whyItIsUseful": "Squoosh eliminates the common problem of slow website loading times caused by large image files, significantly improving user experience, SEO rankings, and reducing bandwidth costs. A web developer can quickly optimize all hero images and product photos for a new website, ensuring fast page loads and better Lighthouse scores without compromising visual fidelity. A blogger can compress images before uploading them to their articles, ensuring their blog loads quickly on mobile devices and provides a smooth reading experience for their audience. It is completely free to use, being an open-source project from Google Chrome Labs, with no hidden costs or premium features. Its client-side processing, real-time visual comparison, and comprehensive support for modern image formats (like AVIF which can offer 50% smaller files than JPEG) often make it a more powerful and private option than many online image optimizers that upload files to servers. Advanced users can fine-tune specific settings for each codec (e.g., color quantization, dithering), explore advanced WebP/AVIF options, and even use its command-line interface for batch processing. The learning curve is low; the interface is highly visual and intuitive, making it easy for anyone to upload, adjust, and download optimized images within seconds.",
-    "imageIdea": "A split-screen view of an image, with one side showing the original uncompressed version and the other showing a highly optimized version with compression sliders and format options visible. The background could be a subtle grid pattern.",
-    "websiteLink": "https://squoosh.app/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 88,
-    "slug": "lightshot",
-    "toolName": "Lightshot",
-    "whatItDoes": "Lightshot is a simple yet powerful screenshot tool that allows users to quickly select an area on their screen, edit it with text, arrows, and shapes, and instantly share it online or save it to their computer. It's ideal for quick visual communication.",
-    "category": "Productivity",
-    "whyItIsUseful": "This tool streamlines communication by enabling easy visual explanations and feedback on anything displayed on your screen. It's perfect for quick tutorials, bug reporting, or sharing ideas with colleagues without lengthy text descriptions.",
-    "imageIdea": "A screenshot being taken with a dotted selection box, showing annotation tools like a pen, arrow, and text box overlaid.",
-    "websiteLink": "https://app.prntscr.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 89,
-    "slug": "pomofocus-io",
-    "toolName": "Pomofocus.io",
-    "whatItDoes": "Pomofocus.io is a customizable Pomodoro timer web application designed to help users manage their time effectively by breaking work into focused intervals, separated by short and long breaks. It includes sound notifications and basic task management features.",
-    "category": "Productivity",
-    "whyItIsUseful": "It improves concentration and reduces burnout by encouraging structured work sessions and regular breaks. This tool is excellent for deep work, helping to maintain productivity and prevent multitasking distractions during intense tasks.",
-    "imageIdea": "A minimalist timer interface with '25:00' displayed prominently, surrounded by 'Start,' 'Pause,' and 'Skip' buttons, with a subtle to-do list below.",
-    "websiteLink": "https://pomofocus.io/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 92,
-    "slug": "a-soft-murmur",
-    "toolName": "A Soft Murmur",
-    "whatItDoes": "A Soft Murmur is a free, web-based tool that generates customizable ambient background noise by allowing users to mix different sound elements like rain, thunder, waves, and coffee shop chatter. It helps create a personalized soundscape for various activities.",
-    "category": "Health",
-    "whyItIsUseful": "It helps improve concentration and relaxation by masking distracting environmental noises, making it easier to focus on tasks or unwind during breaks. The ability to fine-tune the sound mix ensures a pleasant and effective auditory environment tailored to individual preferences and needs throughout the day.",
-    "imageIdea": "A minimalist web interface with individual volume sliders for various nature and ambient sounds (e.g., rain, fire, waves), surrounded by a calm, soft-toned background.",
-    "websiteLink": "https://asoftmurmur.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 94,
-    "slug": "zero-fasting-tracker",
-    "toolName": "Zero - Fasting Tracker",
-    "whatItDoes": "Zero helps users track their intermittent fasting periods with precision, offering various fasting protocols from 13-hour clean fasts to 72-hour extended fasts. It provides personalized insights into metabolic health and offers expert-led educational content to guide users on their wellness journey.",
-    "category": "Health",
-    "whyItIsUseful": "This app simplifies the practice of intermittent fasting, making it accessible and sustainable for individuals looking to improve their metabolic health, manage weight, and boost energy. Its robust tracking and educational resources empower users to achieve their health goals effectively.",
-    "imageIdea": "A smartphone screen displaying the Zero app interface with a timer actively counting a fasting period, alongside a graph showing fasting streaks and educational snippets.",
-    "websiteLink": "https://www.zero.app/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 96,
     "slug": "warp-terminal",
     "toolName": "Warp Terminal",
@@ -1684,7 +1624,6 @@
     "category": "Productivity",
     "whyItIsUseful": "Launchy eliminates the time-consuming process of navigating through the Start Menu, desktop icons, or file explorer to open applications and documents. For the busy student juggling multiple assignments, Launchy provides instant access to research papers, lecture slides, and different study applications with just a few keystrokes. For the software tester who needs to quickly open various testing tools, logs, and project folders, Launchy offers unparalleled speed and convenience. Launchy is entirely free and open-source, providing its full range of features without any cost, making it an excellent value proposition. Compared to Windows Search, Launchy wins with its superior speed, configurable indexing, and a cleaner, more focused interface that prioritizes quick launching over broad system search. A power feature is its ability to launch web searches directly from the input bar by defining custom web search keywords. A non-technical person can install Launchy and start launching their favorite applications by typing their names within a couple of minutes.",
     "imageIdea": "Launchy search bar overlaid on a Windows/Linux desktop, showing an application icon and name as a search result.",
-    "websiteLink": "https://www.launchy.net",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -3730,8 +3669,7 @@
     "whyItIsUseful": "Bills Reminder eliminates the stress and financial penalty of forgotten bill payments, providing a simple, dedicated solution for keeping track of all recurring expenses. For the busy parent juggling multiple household responsibilities, Bills Reminder ensures that utilities, school fees, and subscriptions are never overlooked. For a young adult new to managing their own finances, it offers a foundational tool to build good payment habits and avoid unnecessary late fees. The app often offers a genuinely useful free version with basic bill tracking and notifications, with a one-time in-app purchase for advanced features like unlimited bills or customizable themes. Compared to full-fledged budgeting apps like PocketGuard or Monarch Money, Bills Reminder wins by focusing purely on bill management, offering a much simpler interface and a quicker setup for its specific purpose. A power feature is the ability to mark bills as paid and view a payment history, providing a clear record of financial obligations. The learning curve is very low; a non-technical person can add their first bill and set up reminders in under 5 minutes.",
     "imageIdea": "Mobile app screenshot showing a list of upcoming bills with due dates and payment status.",
     "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://apps.apple.com/app/bills-reminder-payment-tracker/id1106686858"
+    "dateAdded": "2026-04-27"
   },
   {
     "id": 629,
@@ -5545,7 +5483,6 @@
     "category": "Developer",
     "whyItIsUseful": "Codever solves the problem of scattered, unorganized code snippets saved in disparate files, notes, or browser tabs, making them difficult to find and reuse. For the freelance full-stack developer, it acts as a personal knowledge base, allowing them to quickly pull up common boilerplate code or tricky solutions for different frameworks. For the small development team, Codever can serve as a shared, private repository for common code patterns, ensuring consistency and accelerating development across projects. The free tier is not applicable as it's open-source; the cost is in hosting it yourself, which is genuinely useful as it provides complete data ownership. It competes with cloud-based snippet managers like Snipit.io, but Codever wins by offering complete control over data privacy and customization as a self-hosted solution. The \"bookmarklet\" power feature allows users to save snippets directly from any webpage with a single click, streamlining the collection process. Setting up Codever requires some technical knowledge for server deployment, so a non-technical person would likely not manage it in under 5 minutes.",
     "imageIdea": "Codever dashboard showing tagged code snippets in a list view",
-    "websiteLink": "https://www.codever.dev/",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -5773,5 +5710,18 @@
     "websiteLink": "https://www.notion.so/",
     "type": "tool",
     "dateAdded": "2026-05-02"
+  },
+  {
+    "id": 799,
+    "slug": "masterhttprelayvpn",
+    "toolName": "MasterHttpRelayVPN",
+    "seoTitle": "MasterHttpRelayVPN — Bypass Censorship Network Traffic",
+    "whatItDoes": "MasterHttpRelayVPN is a sophisticated tool designed to tunnel network traffic through Google Apps Script. It functions as a domain-fronted HTTP/SOCKS5 proxy, enabling users to circumvent network restrictions and censorship by disguising their internet activity. The tool offers advanced features like MITM TLS interception for secure proxying and HTTP/1-2 multiplexing for efficient data transfer. It is particularly effective at evading deep packet inspection (DPI) by making traffic appear as legitimate Google traffic.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is invaluable for individuals who need to access the internet freely in restrictive environments, such as in countries with heavy internet censorship or on networks that block certain websites or services. Its ability to blend traffic with Google's legitimate services makes it a stealthy solution for bypassing network firewalls and DPI. Developers and privacy-conscious users will appreciate the fine-grained control and the robust obfuscation capabilities. It's especially useful for accessing research materials, news, or communication platforms that might otherwise be blocked. The project's popularity on GitHub, with over 2171 stars, indicates strong community adoption and trust.",
+    "imageIdea": "network tunnel server room",
+    "websiteLink": "https://github.com/masterking32/MasterHttpRelayVPN",
+    "type": "tool",
+    "dateAdded": "2026-05-03"
   }
 ]

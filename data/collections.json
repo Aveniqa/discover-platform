@@ -5,8 +5,6 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "earth-inner-core-rotates-slower",
-      "placebo-effect-open-label",
       "antikythera-mechanism-ancient-greek-astronomical-computer",
       "wood-wide-web-how-trees-communicate-and-share-resources",
       "overview-effect-astronauts-profound-shift-in-perspective-from-space",
@@ -16,7 +14,9 @@
       "the-great-stink-of-london-revolutionized-sanitation",
       "oumuamua-the-first-interstellar-visitor",
       "first-image-of-supermassive-black-hole",
-      "pangaea-ancient-supercontinent"
+      "pangaea-ancient-supercontinent",
+      "the-rosetta-stone-unlocking-secrets-ancient-egyptian-hieroglyphs",
+      "terracotta-army-qin-shi-huang"
     ]
   },
   {
@@ -45,7 +45,6 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "human-bioluminescence-invisible-glow",
       "antikythera-mechanism-ancient-greek-astronomical-computer",
       "wood-wide-web-how-trees-communicate-and-share-resources",
       "polynesian-wayfinding-ancient-oceanic-navigation",
@@ -56,7 +55,8 @@
       "the-doomsday-vault-safeguarding-the-worlds-plant-diversity-deep-inside-an-arctic-mountain",
       "first-image-of-supermassive-black-hole",
       "pangaea-ancient-supercontinent",
-      "the-rosetta-stone-unlocking-secrets-ancient-egyptian-hieroglyphs"
+      "the-rosetta-stone-unlocking-secrets-ancient-egyptian-hieroglyphs",
+      "magnetic-resonance-imaging-revolutionizing-medical-diagnostics-without-radiation"
     ]
   },
   {
@@ -85,7 +85,6 @@
     "description": "Products and tools to help you feel your best.",
     "emoji": "💪",
     "itemSlugs": [
-      "human-bioluminescence-invisible-glow",
       "the-great-stink-of-london-revolutionized-sanitation",
       "sandwich-invented-by-earl-gaming-table",
       "ancient-roman-hypocausts-ingenious-underfloor-heating",
@@ -96,7 +95,8 @@
       "arctic-permafrost-releases-ancient-viruses-potent-threat",
       "global-marine-heatwaves-increased-twentyfold",
       "ocean-acidification-coral-reef-recovery",
-      "microplastics-found-deepest-ocean-trenches"
+      "microplastics-found-deepest-ocean-trenches",
+      "arctic-permafrost-thawing-releases-mercury"
     ]
   }
 ]

@@ -5,8 +5,16 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 May 2026 14:22:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 14:21:05 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MasterHttpRelayVPN</title>
+      <link>https://surfaced-x.pages.dev/item/masterhttprelayvpn</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/masterhttprelayvpn</guid>
+      <description>MasterHttpRelayVPN is a sophisticated tool designed to tunnel network traffic through Google Apps Script. It functions as a domain-fronted HTTP/SOCKS5 proxy, enabling users to circumvent network restrictions and censorship by disguising their internet activity. The tool offers advanced features like MITM TLS interception for secure proxying and HTTP/1-2 multiplexing for efficient data transfer. It is particularly effective at evading deep packet inspection (DPI) by making traffic appear as legitimate Google traffic.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Notion</title>
       <link>https://surfaced-x.pages.dev/item/notion</link>
@@ -384,26 +392,18 @@
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
+      <title>Fontshare</title>
+      <link>https://surfaced-x.pages.dev/item/fontshare-font-collection</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fontshare-font-collection</guid>
+      <description>Fontshare is a free, curated collection of fonts designed to be used across various digital platforms. It partners with type foundries to offer high-quality, commercially usable fonts without licensing fees. The platform provides a straightforward way for designers, developers, and content creators to access a diverse range of font styles, from minimalist sans-serifs to expressive serifs.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>SelfControl</title>
       <link>https://surfaced-x.pages.dev/item/selfcontrol-mac-website-mail-blocker</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/selfcontrol-mac-website-mail-blocker</guid>
       <description>SelfControl is a free, open-source macOS application that helps users avoid distractions by blocking access to specified websites, mail servers, or anything else on the internet. Created by Charlie Stigler, its core function is to enforce a period of complete digital isolation for a set duration, even preventing restarts or deleting the app from bypassing the block. Once activated, the block cannot be undone until the timer expires, making it a powerful tool for focused work. It works exclusively on macOS. The most used feature is its ability to block *anything* on the internet, not just websites, ensuring total disconnection from chosen distractions. All configurations are stored locally on the user&apos;s Mac.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>StayFocusd</title>
-      <link>https://surfaced-x.pages.dev/item/stayfocusd-website-blocker-chrome</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/stayfocusd-website-blocker-chrome</guid>
-      <description>StayFocusd, a popular Chrome browser extension, is designed to enhance productivity by limiting the amount of time users can spend on time-wasting websites. Developed by a dedicated team of productivity enthusiasts, its core function is to block or restrict access to specified distracting sites after a pre-set daily time limit is reached. Users can configure a list of blocked sites and define their allowed daily usage duration for each, or for all combined. It primarily works as a Chrome browser extension. Its most used feature is the &quot;Nuclear Option,&quot; which blocks all specified sites for a chosen period. Settings and blocked site lists are stored locally within the browser.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>TickTick</title>
-      <link>https://surfaced-x.pages.dev/item/ticktick-todo-pomodoro-habits</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ticktick-todo-pomodoro-habits</guid>
-      <description>TickTick, developed by Appest, is an all-in-one productivity app designed to help individuals and teams manage tasks, set reminders, build habits, and track goals. It combines a robust to-do list manager with calendar integration and a built-in Pomodoro timer, streamlining multiple aspects of daily planning into a single interface. Users can organize tasks with tags, priorities, and due dates, fostering a comprehensive approach to personal and professional organization. It works seamlessly across web, iOS, Android, Mac, Windows, and as a browser extension. The most used feature is its smart parsing for quickly adding tasks with natural language. Data is securely synced across all devices via cloud, ensuring accessibility from anywhere.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>
