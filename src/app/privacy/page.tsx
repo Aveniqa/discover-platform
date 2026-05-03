@@ -24,7 +24,7 @@ export default function PrivacyPage() {
                 Policy
               </span>
             </h1>
-            <p className="mt-4 text-muted">Last updated: April 2026</p>
+            <p className="mt-4 text-muted">Last updated: May 2026</p>
           </header>
 
           {/* Content */}
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li>
                     <span className="text-foreground font-medium">Email address</span>{" "}
-                    — when you subscribe to our newsletter or create an account
+                    — when you subscribe to our newsletter or contact us
                   </li>
                   <li>
                     <span className="text-foreground font-medium">Usage data</span>{" "}
@@ -87,7 +87,7 @@ export default function PrivacyPage() {
                   <li>Send our newsletter and relevant updates</li>
                   <li>Personalize your experience on Surfaced</li>
                   <li>Analyze usage patterns to improve our platform</li>
-                  <li>Communicate with you about your account or inquiries</li>
+                  <li>Communicate with you about your subscription or inquiries</li>
                   <li>Detect and prevent fraud or abuse</li>
                 </ul>
               </div>
@@ -144,11 +144,45 @@ export default function PrivacyPage() {
                   <li>Analytics providers (for usage insights)</li>
                   <li>Hosting and infrastructure providers</li>
                   <li>Affiliate network partners</li>
+                  <li>Advertising partners, including Google AdSense</li>
                 </ul>
                 <p>
                   These providers are contractually obligated to protect your data
                   and may only use it for the specific purposes we direct. We do
                   not sell your personal information to third parties.
+                </p>
+              </div>
+            </div>
+
+            {/* Advertising */}
+            <div>
+              <h2 className="text-2xl font-bold text-foreground mb-4">
+                Advertising & Google Services
+              </h2>
+              <div className="space-y-4 text-muted leading-relaxed">
+                <p>
+                  Surfaced uses Google AdSense to support the site with
+                  advertising. As part of ad serving, Google and its partners may
+                  use cookies, web beacons, IP addresses, device identifiers, and
+                  similar technologies to deliver, measure, and improve ads.
+                </p>
+                <p>
+                  Third parties may place or read cookies on your browser, or use
+                  web beacons and IP addresses to collect information, when ads
+                  are served on Surfaced. Google explains how it uses information
+                  from partner sites here:{" "}
+                  <a
+                    href="https://policies.google.com/technologies/partner-sites"
+                    className="text-accent hover:text-accent/80 transition-colors"
+                  >
+                    How Google uses data from partner sites
+                  </a>
+                  .
+                </p>
+                <p>
+                  You can manage ad personalization through your Google account,
+                  browser cookie settings, and applicable consent controls where
+                  required by law.
                 </p>
               </div>
             </div>

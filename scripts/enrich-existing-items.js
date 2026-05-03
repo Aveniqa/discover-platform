@@ -5,7 +5,7 @@
  * Usage:
  *   GEMINI_API_KEY=xxx node scripts/enrich-existing-items.js [category]
  *   Default: enriches all categories
- *   Optional: pass "products", "discoveries", "hidden-gems", "future-radar", "daily-tools"
+ *   Optional: pass "products", "discoveries", "hidden-gems", "future-radar", "daily-tools", "archive"
  *
  * Safe to re-run — only updates items below the character threshold.
  */
@@ -21,6 +21,7 @@ const ONLY_CATEGORY = process.argv[2] || null;
 
 // Items with a primary description field shorter than this get enriched
 const THIN_THRESHOLD = 220; // chars
+const THIN_WORD_THRESHOLD = 150; // body words across description + why text
 const BATCH_SIZE = 10; // items per Gemini call
 
 const FILES = {
@@ -29,6 +30,15 @@ const FILES = {
   "hidden-gems": "hidden-gems.json",
   "future-radar": "future-radar.json",
   "daily-tools": "daily-tools.json",
+  archive: "archive.json",
+};
+
+const ARCHIVE_TYPE_TO_CATEGORY = {
+  discovery: "discoveries",
+  product: "products",
+  "hidden-gem": "hidden-gems",
+  "future-tech": "future-radar",
+  tool: "daily-tools",
 };
 
 function readJSON(f) { return JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), "utf8")); }
@@ -46,9 +56,19 @@ function whyLength(item) {
   return w.length;
 }
 
+function bodyWordCount(item) {
+  const d = item.shortDescription || item.whatItDoes || item.explanation || "";
+  const w = item.whyItIsInteresting || item.whyItIsUseful || item.whyItMatters || "";
+  return `${d} ${w}`.trim().split(/\s+/).filter(Boolean).length;
+}
+
 // Is this item thin enough to need enrichment?
 function isThin(item) {
-  return descLength(item) < THIN_THRESHOLD || whyLength(item) < THIN_THRESHOLD;
+  return (
+    descLength(item) < THIN_THRESHOLD ||
+    whyLength(item) < THIN_THRESHOLD ||
+    bodyWordCount(item) < THIN_WORD_THRESHOLD
+  );
 }
 
 async function callWithRetry(fn, maxRetries = 6) {
@@ -180,61 +200,75 @@ async function enrichCategory(category, filename) {
     return;
   }
 
-  const batches = Math.ceil(thinItems.length / BATCH_SIZE);
-  console.log(`\n📝 [${category}] ${thinItems.length} thin items to enrich (${batches} batches)\n`);
-
   // Build a slug → index map for fast lookup
   const slugToIdx = new Map(items.map((item, i) => [item.slug, i]));
-
   let enriched = 0;
 
-  for (let b = 0; b < batches; b++) {
-    const batch = thinItems.slice(b * BATCH_SIZE, (b + 1) * BATCH_SIZE);
-    process.stdout.write(`  Batch ${b + 1}/${batches} (${batch.length} items)... `);
+  const groups = category === "archive"
+    ? Object.fromEntries(
+        Object.entries(ARCHIVE_TYPE_TO_CATEGORY).map(([type, promptCategory]) => [
+          promptCategory,
+          thinItems.filter((item) => item.type === type),
+        ])
+      )
+    : { [category]: thinItems };
 
-    try {
-      const results = await enrichBatch(category, batch);
+  console.log(`\n📝 [${category}] ${thinItems.length} thin items to enrich\n`);
 
-      for (const result of results) {
-        if (typeof result.index !== "number" || result.index < 0 || result.index >= batch.length) continue;
-        const original = batch[result.index];
-        const idx = slugToIdx.get(original.slug);
-        if (idx === undefined) continue;
+  for (const [promptCategory, groupItems] of Object.entries(groups)) {
+    if (groupItems.length === 0) continue;
+    const batches = Math.ceil(groupItems.length / BATCH_SIZE);
+    const label = category === "archive" ? `${category}:${promptCategory}` : category;
+    console.log(`  ${label}: ${groupItems.length} item(s), ${batches} batch(es)`);
 
-        // Apply the enriched fields
-        if (category === "discoveries" || category === "products") {
-          if (result.shortDescription && result.shortDescription.length > descLength(original))
-            items[idx].shortDescription = result.shortDescription;
-          if (result.whyItIsInteresting && result.whyItIsInteresting.length > whyLength(original))
-            items[idx].whyItIsInteresting = result.whyItIsInteresting;
-        } else if (category === "hidden-gems") {
-          if (result.whatItDoes && result.whatItDoes.length > descLength(original))
-            items[idx].whatItDoes = result.whatItDoes;
-          if (result.whyItIsUseful && result.whyItIsUseful.length > whyLength(original))
-            items[idx].whyItIsUseful = result.whyItIsUseful;
-        } else if (category === "future-radar") {
-          if (result.explanation && result.explanation.length > descLength(original))
-            items[idx].explanation = result.explanation;
-          if (result.whyItMatters && result.whyItMatters.length > whyLength(original))
-            items[idx].whyItMatters = result.whyItMatters;
-        } else if (category === "daily-tools") {
-          if (result.whatItDoes && result.whatItDoes.length > descLength(original))
-            items[idx].whatItDoes = result.whatItDoes;
-          if (result.whyItIsUseful && result.whyItIsUseful.length > whyLength(original))
-            items[idx].whyItIsUseful = result.whyItIsUseful;
+    for (let b = 0; b < batches; b++) {
+      const batch = groupItems.slice(b * BATCH_SIZE, (b + 1) * BATCH_SIZE);
+      process.stdout.write(`    Batch ${b + 1}/${batches} (${batch.length} items)... `);
+
+      try {
+        const results = await enrichBatch(promptCategory, batch);
+
+        for (const result of results) {
+          if (typeof result.index !== "number" || result.index < 0 || result.index >= batch.length) continue;
+          const original = batch[result.index];
+          const idx = slugToIdx.get(original.slug);
+          if (idx === undefined) continue;
+
+          // Apply the enriched fields
+          if (promptCategory === "discoveries" || promptCategory === "products") {
+            if (result.shortDescription && result.shortDescription.length > descLength(original))
+              items[idx].shortDescription = result.shortDescription;
+            if (result.whyItIsInteresting && result.whyItIsInteresting.length > whyLength(original))
+              items[idx].whyItIsInteresting = result.whyItIsInteresting;
+          } else if (promptCategory === "hidden-gems") {
+            if (result.whatItDoes && result.whatItDoes.length > descLength(original))
+              items[idx].whatItDoes = result.whatItDoes;
+            if (result.whyItIsUseful && result.whyItIsUseful.length > whyLength(original))
+              items[idx].whyItIsUseful = result.whyItIsUseful;
+          } else if (promptCategory === "future-radar") {
+            if (result.explanation && result.explanation.length > descLength(original))
+              items[idx].explanation = result.explanation;
+            if (result.whyItMatters && result.whyItMatters.length > whyLength(original))
+              items[idx].whyItMatters = result.whyItMatters;
+          } else if (promptCategory === "daily-tools") {
+            if (result.whatItDoes && result.whatItDoes.length > descLength(original))
+              items[idx].whatItDoes = result.whatItDoes;
+            if (result.whyItIsUseful && result.whyItIsUseful.length > whyLength(original))
+              items[idx].whyItIsUseful = result.whyItIsUseful;
+          }
+          enriched++;
         }
-        enriched++;
+
+        // Write after every batch
+        writeJSON(filename, items);
+        console.log(`✓ +${results.length} enriched`);
+      } catch (err) {
+        console.log(`FAILED: ${err.message.slice(0, 100)}`);
       }
 
-      // Write after every batch
-      writeJSON(filename, items);
-      console.log(`✓ +${results.length} enriched`);
-    } catch (err) {
-      console.log(`FAILED: ${err.message.slice(0, 100)}`);
-    }
-
-    if (b < batches - 1) {
-      await new Promise(r => setTimeout(r, 5000));
+      if (b < batches - 1) {
+        await new Promise(r => setTimeout(r, 5000));
+      }
     }
   }
 
@@ -256,7 +290,7 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`\n✨ Enriching thin items — threshold: ${THIN_THRESHOLD} chars`);
+  console.log(`\n✨ Enriching thin items — thresholds: ${THIN_THRESHOLD} chars or ${THIN_WORD_THRESHOLD} body words`);
   if (ONLY_CATEGORY) console.log(`   Category: ${ONLY_CATEGORY}`);
   console.log();
 
