@@ -112,16 +112,13 @@ function headerIncludes(res, headerName, requiredTokens, failures) {
   }
 }
 
-function decodeHtmlEntities(text) {
-  return text
-    .replace(/&amp;/g, "&")
-    .replace(/&#x27;/g, "'")
-    .replace(/&quot;/g, '"')
-    .replace(/&nbsp;/g, " ");
-}
-
 function escapeRegExp(text) {
   return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function containsRequiredText(html, snippet) {
+  const escapedSnippet = snippet.replace(/&/g, "&amp;");
+  return html.includes(snippet) || html.includes(escapedSnippet);
 }
 
 async function main() {
@@ -174,9 +171,8 @@ async function main() {
     const { res, text } = await fetchText(page.path, failures);
     if (!res?.ok) continue;
     headerIncludes(res, "content-security-policy", REQUIRED_CSP_TOKENS, failures);
-    const readableText = decodeHtmlEntities(text);
     for (const snippet of page.requiredText) {
-      if (readableText.includes(snippet)) pass(`${page.label} contains ${snippet}`);
+      if (containsRequiredText(text, snippet)) pass(`${page.label} contains ${snippet}`);
       else fail(failures, `${page.label} missing ${snippet}`);
     }
   }
