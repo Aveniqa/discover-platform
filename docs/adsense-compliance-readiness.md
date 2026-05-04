@@ -19,9 +19,10 @@ formed, public-facing policy pages should use Surfaced or the Surfaced Team and
 ## Ad serving guardrails
 
 AdSense Auto Ads are loaded by `src/components/AdSenseLoader.tsx`, not directly
-from the root layout. The loader intentionally skips:
+from the root layout. Item detail pages are eligible for Auto Ads because the
+strict content audit now requires every active and archived item URL to clear the
+review threshold. The loader intentionally skips:
 
-- `/item/*`
 - `/about`
 - `/privacy`
 - `/terms`
@@ -31,9 +32,10 @@ from the root layout. The loader intentionally skips:
 - `/premium`
 - `/saved`
 
-This keeps Google-served ads away from item detail pages and utility/legal pages
-that are weaker monetization surfaces. The loader also removes the Auto Ads
-script if a client-side navigation lands on an excluded path.
+This keeps Google-served ads away from utility, legal, account-like, and
+site-information pages that are weaker monetization surfaces. The loader also
+removes the Auto Ads script if a client-side navigation lands on an excluded
+path.
 
 ## Google Privacy & messaging
 

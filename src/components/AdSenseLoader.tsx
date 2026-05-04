@@ -7,7 +7,6 @@ const ADSENSE_CLIENT = "ca-pub-8054019783472830";
 const ADSENSE_SCRIPT_ID = "google-adsense-auto-ads";
 
 const NO_AD_PREFIXES = [
-  "/item/",
   "/about",
   "/privacy",
   "/terms",
