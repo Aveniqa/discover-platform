@@ -5,8 +5,16 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2026 00:20:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 02:16:54 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruflo</title>
+      <link>https://surfaced-x.pages.dev/item/ruflo</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ruflo</guid>
+      <description>Ruflo is an open-source agent orchestration platform from RuvNet built around Claude Code, MCP tooling, and coordinated multi-agent workflows. It adds a plugin marketplace, specialized coding agents, persistent memory, swarm coordination, workflow templates, and federation features that let agents collaborate across projects or machines. The repository positions Ruflo as the successor to Claude Flow, with a CLI, Claude Code plugins, MCP server options, Docker-based self-hosting paths, and hosted demos for chat and goal planning. For developers already using Claude Code or experimenting with autonomous coding assistants, Ruflo acts like a coordination layer: instead of running one assistant at a time, it helps route work through agents for testing, documentation, security review, browser automation, architecture decisions, and background maintenance tasks.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>MasterHttpRelayVPN</title>
       <link>https://surfaced-x.pages.dev/item/masterhttprelayvpn</link>
@@ -398,14 +406,6 @@
       <description>Fontshare is a distinguished, free-to-use font service created by Indian Type Foundry (ITF), a renowned type foundry, offering a meticulously curated collection of professional-grade fonts. Its core feature is providing a diverse library of over 300 unique font families, including advanced variable fonts and multiple weights, all available for complimentary download and web embedding without any licensing fees for both commercial and personal projects. The platform is primarily designed for graphic designers, web developers, content creators, and small businesses seeking high-quality, distinctive typography without the typical financial constraints of premium font licenses. Users can seamlessly integrate Fontshare into their creative workflow by browsing and previewing fonts on the website, then downloading desktop files (OTF/TTF) or generating web embed codes for direct use. The fonts are universally compatible with major design software like Adobe Creative Suite, Figma, and Sketch, as well as all modern web platforms.</description>
       <category>Hidden Gems</category>
       <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>SelfControl</title>
-      <link>https://surfaced-x.pages.dev/item/selfcontrol-mac-website-mail-blocker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/selfcontrol-mac-website-mail-blocker</guid>
-      <description>SelfControl is a free, open-source macOS application that helps users avoid distractions by blocking access to specified websites, mail servers, or anything else on the internet. Created by Charlie Stigler, its core function is to enforce a period of complete digital isolation for a set duration, even preventing restarts or deleting the app from bypassing the block. Once activated, the block cannot be undone until the timer expires, making it a powerful tool for focused work. It works exclusively on macOS. The most used feature is its ability to block *anything* on the internet, not just websites, ensuring total disconnection from chosen distractions. All configurations are stored locally on the user&apos;s Mac.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

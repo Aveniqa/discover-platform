@@ -36,11 +36,11 @@
     "type": "future-tech"
   },
   {
-    "slug": "masterhttprelayvpn",
-    "title": "MasterHttpRelayVPN",
+    "slug": "ruflo",
+    "title": "Ruflo",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "MasterHttpRelayVPN is a sophisticated tool designed to tunnel network traffic through Google Apps Script. It functions a",
+    "description": "Ruflo is an open-source agent orchestration platform from RuvNet built around Claude Code, MCP tooling, and coordinated multi-agent workflows.",
     "badge": null,
     "type": "tool"
   }
