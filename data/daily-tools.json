@@ -5723,5 +5723,18 @@
     "websiteLink": "https://github.com/masterking32/MasterHttpRelayVPN",
     "type": "tool",
     "dateAdded": "2026-05-03"
+  },
+  {
+    "id": 800,
+    "slug": "ruflo",
+    "toolName": "Ruflo",
+    "seoTitle": "Ruflo — Multi-Agent Orchestration for Claude Code",
+    "whatItDoes": "Ruflo is an open-source agent orchestration platform from RuvNet built around Claude Code, MCP tooling, and coordinated multi-agent workflows. It adds a plugin marketplace, specialized coding agents, persistent memory, swarm coordination, workflow templates, and federation features that let agents collaborate across projects or machines. The repository positions Ruflo as the successor to Claude Flow, with a CLI, Claude Code plugins, MCP server options, Docker-based self-hosting paths, and hosted demos for chat and goal planning. For developers already using Claude Code or experimenting with autonomous coding assistants, Ruflo acts like a coordination layer: instead of running one assistant at a time, it helps route work through agents for testing, documentation, security review, browser automation, architecture decisions, and background maintenance tasks.",
+    "category": "Developer",
+    "whyItIsUseful": "Ruflo is useful when a coding project has grown past simple one-shot prompts and needs repeatable agent workflows with memory, roles, and guardrails. A solo developer can use it to coordinate test generation, code review, documentation updates, and security checks without manually re-explaining the project context each time. A small engineering team can experiment with its Claude Code plugins and MCP tools to standardize how agents handle implementation, review, and maintenance work across repositories. The federation and memory ideas are especially interesting for teams that want agents to collaborate while keeping work scoped to trust boundaries instead of dumping all context into a single chat. Compared with a plain AI coding session, Ruflo emphasizes orchestration: roles, workflows, tool groups, vector memory, background workers, and reusable plugins. It is still a developer-facing system, so teams should evaluate setup complexity, security posture, and model costs before relying on it for production automation, but it is a strong watchlist project for anyone building agentic engineering systems.",
+    "imageIdea": "developer laptop showing multi-agent workflow dashboard and terminal",
+    "websiteLink": "https://github.com/ruvnet/ruflo",
+    "type": "tool",
+    "dateAdded": "2026-05-04"
   }
 ]
