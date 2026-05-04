@@ -6,6 +6,7 @@ import { SearchModal } from "@/components/ui/SearchModal";
 import { Analytics } from "@/components/Analytics";
 import { ServiceWorkerRegistration } from "@/components/ServiceWorkerRegistration";
 import { PrefetchLinks } from "@/components/ui/PrefetchLinks";
+import { AdSenseLoader } from "@/components/AdSenseLoader";
 import { SITE_URL, SITE_NAME, TWITTER_HANDLE, DEFAULT_OG_IMAGE } from "@/lib/seo";
 import { organizationLd, websiteLd, ldScript } from "@/lib/jsonld";
 import "./globals.css";
@@ -93,16 +94,11 @@ export default function RootLayout({
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://www.amazon.com" />
         <link rel="dns-prefetch" href="https://cdn.pixabay.com" />
-        {/* Google AdSense — verification + auto ads */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8054019783472830"
-          crossOrigin="anonymous"
-        />
       </head>
       <body className="noise">
         <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(websiteLd())} />
         <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(organizationLd())} />
+        <AdSenseLoader />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:z-[200] focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded-lg focus:font-semibold focus:text-sm focus:shadow-lg"

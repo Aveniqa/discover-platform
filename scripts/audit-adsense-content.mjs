@@ -161,6 +161,6 @@ if (STRICT && (thin.length > 0 || duplicateGroups.length > 0 || lowQuality.lengt
 }
 
 console.log("\nRecommended next steps:");
-console.log("  1. Enrich archive pages first: GEMINI_API_KEY=... node scripts/enrich-existing-items.js archive");
-console.log("  2. Replace weak sources: node scripts/retrofit-sources.mjs --dry");
-console.log("  3. Re-run this audit before requesting AdSense review.\n");
+console.log("  1. Enrich all thin pages: GEMINI_API_KEY=... node scripts/enrich-existing-items.js");
+console.log("  2. Replace weak sources: GEMINI_API_KEY=... node scripts/retrofit-sources.mjs --dry");
+console.log("  3. Re-run this audit with --strict before requesting AdSense review.\n");

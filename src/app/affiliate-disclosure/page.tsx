@@ -55,7 +55,7 @@ export default function AffiliateDisclosurePage() {
                 </p>
                 <p>
                   This affiliate revenue is what allows us to keep Surfaced free,
-                  pay our editorial team, and continue discovering amazing
+                  cover operating costs, and continue discovering useful
                   products, tools, and content for you every day.
                 </p>
               </div>
