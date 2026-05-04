@@ -5,7 +5,7 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 May 2026 23:58:14 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 00:20:08 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MasterHttpRelayVPN</title>
@@ -75,7 +75,7 @@
       <title>guizang-ppt-skill</title>
       <link>https://surfaced-x.pages.dev/item/guizang-ppt-skill</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/guizang-ppt-skill</guid>
-      <description>Guizang PPT Skill is a Claude Code Skill that transforms simple prompts into visually stunning, horizontal-swipe magazine-style HTML presentations. It offers a variety of layouts, curated themes, and even WebGL hero backgrounds, all packaged into a single, easy-to-manage HTML file. This free tool is perfect for anyone who wants to create engaging presentations without the complexity of traditional slideshow software.</description>
+      <description>Guizang PPT Skill is an innovative Claude Code Skill, developed to convert straightforward text prompts into elegant, responsive HTML presentations with a distinctive horizontal-swipe, magazine-style layout. It primarily simplifies the process of creating visually rich, web-native presentations, allowing users to focus solely on content while the AI handles design, layout, and interactive elements. As a Claude Code Skill, it operates within the Claude AI environment, generating standard HTML files that are universally viewable in any modern web browser on desktop, tablet, or mobile devices without requiring specific software. Its most popular feature is the automated generation of presentations with curated themes, dynamic layouts, and optional WebGL-powered hero backgrounds, all encapsulated within a single, portable HTML file for easy sharing. Users provide their presentation content as text prompts to the Claude AI, which then processes this input to generate the complete HTML structure and styling; no user data or presentation content is stored long-term by the skill itself, adhering to Claude&apos;s data handling policies.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
     </item>
@@ -83,7 +83,7 @@
       <title>awesome-gpt-image-2-prompts</title>
       <link>https://surfaced-x.pages.dev/item/awesome-gpt-image-2-prompts</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/awesome-gpt-image-2-prompts</guid>
-      <description>This GitHub repository curates a comprehensive collection of prompts specifically designed for the OpenAI API&apos;s image generation capabilities (GPT-Image-2). It showcases a wide variety of use cases, including detailed examples for portraits, posters, UI mockups, character sheets, and experimental community creations. The prompts are provided in Python, making them easily adaptable for developers integrating image generation into their applications.</description>
+      <description>&quot;awesome-gpt-image-2-prompts&quot; is a community-curated GitHub repository containing an extensive collection of optimized text prompts specifically engineered for OpenAI&apos;s DALL-E 2 (formerly referred to as GPT-Image-2) image generation API. It primarily facilitates the efficient creation of high-quality AI-generated images by providing proven prompt structures and examples, enabling users to achieve desired visual outcomes without extensive trial-and-error. As a GitHub repository, its content (text prompts and Python code examples) is accessible via any web browser or Git client, making it platform-agnostic for users interacting with the DALL-E 2 API. Its most utilized feature is the categorized examples, offering ready-to-use prompts for diverse applications such as &apos;photorealistic portraits of a cyborg,&apos; &apos;futuristic cityscapes,&apos; or &apos;minimalist UI icons,&apos; often with variations to explore different styles and artistic directions. The repository itself is static, containing only text and code; it does not process or store user data, but rather provides the input (prompts) that users then feed into the OpenAI DALL-E 2 API, which handles the image generation and associated data processing.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
     </item>
@@ -395,7 +395,7 @@
       <title>Fontshare</title>
       <link>https://surfaced-x.pages.dev/item/fontshare-font-collection</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fontshare-font-collection</guid>
-      <description>Fontshare is a free, curated collection of fonts designed to be used across various digital platforms. It partners with type foundries to offer high-quality, commercially usable fonts without licensing fees. The platform provides a straightforward way for designers, developers, and content creators to access a diverse range of font styles, from minimalist sans-serifs to expressive serifs.</description>
+      <description>Fontshare is a distinguished, free-to-use font service created by Indian Type Foundry (ITF), a renowned type foundry, offering a meticulously curated collection of professional-grade fonts. Its core feature is providing a diverse library of over 300 unique font families, including advanced variable fonts and multiple weights, all available for complimentary download and web embedding without any licensing fees for both commercial and personal projects. The platform is primarily designed for graphic designers, web developers, content creators, and small businesses seeking high-quality, distinctive typography without the typical financial constraints of premium font licenses. Users can seamlessly integrate Fontshare into their creative workflow by browsing and previewing fonts on the website, then downloading desktop files (OTF/TTF) or generating web embed codes for direct use. The fonts are universally compatible with major design software like Adobe Creative Suite, Figma, and Sketch, as well as all modern web platforms.</description>
       <category>Hidden Gems</category>
       <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
     </item>
