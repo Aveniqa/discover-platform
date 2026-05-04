@@ -95,6 +95,11 @@ jobs:
         run: npx tsx scripts/fetch-images.ts
         continue-on-error: true
 
+      - name: Product commerce accuracy gate
+        env:
+          AMAZON_AFFILIATE_TAG: ${{ secrets.AMAZON_AFFILIATE_TAG }}
+        run: node scripts/audit-product-commerce.mjs
+
       - name: Build site
         run: npm run build
 

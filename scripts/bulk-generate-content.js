@@ -287,16 +287,27 @@ async function applyAffiliateLinks() {
   const products = readJSON("products.json");
   let affCount = 0;
   let bbCount = 0;
+  const isAmazonUrl = (url) => {
+    if (!url) return false;
+    try {
+      const host = new URL(url).hostname.toLowerCase();
+      return host === "amazon.com" || host.endsWith(".amazon.com");
+    } catch {
+      return false;
+    }
+  };
 
   for (const p of products) {
-    // Amazon affiliate URL — use ASIN if we have it, else keyword search
-    if (!p.directAmazonUrl || !p.directAmazonUrl.includes("amazon.com")) {
-      const url = p.amazonAsin
-        ? `https://www.amazon.com/dp/${p.amazonAsin}?tag=${TAG}&linkCode=ll1`
-        : `https://www.amazon.com/s?k=${encodeURIComponent(p.title)}&tag=${TAG}`;
-      p.directAmazonUrl = url;
+    // Amazon affiliate URL — only use exact ASIN links. Search-result
+    // affiliate links are too vague for product accuracy/compliance review.
+    if (!p.amazonAsin) {
+      p.availableOnAmazon = false;
+      delete p.directAmazonUrl;
+      delete p.affiliate;
+    } else if (!p.directAmazonUrl || !isAmazonUrl(p.directAmazonUrl)) {
+      p.directAmazonUrl = `https://www.amazon.com/dp/${p.amazonAsin}?tag=${TAG}&linkCode=ll1`;
     }
-    if (!p.affiliate || !p.affiliate.enabled) {
+    if (p.amazonAsin && (!p.affiliate || !p.affiliate.enabled)) {
       p.affiliate = {
         enabled: true,
         provider: "amazon",
