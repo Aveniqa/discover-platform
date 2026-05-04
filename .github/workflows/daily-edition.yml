@@ -68,6 +68,9 @@ jobs:
       - name: Validate JSON files
         run: node scripts/validate-data.js
 
+      - name: AdSense content quality gate
+        run: node scripts/audit-adsense-content.mjs --strict
+
       - name: Validate outbound URLs (recent items)
         run: node scripts/validate-urls.js --recent
         continue-on-error: true

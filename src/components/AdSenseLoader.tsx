@@ -8,10 +8,13 @@ const ADSENSE_SCRIPT_ID = "google-adsense-auto-ads";
 
 const NO_AD_PREFIXES = [
   "/item/",
+  "/about",
   "/privacy",
   "/terms",
   "/affiliate-disclosure",
   "/contact",
+  "/newsletter",
+  "/premium",
   "/saved",
 ];
 
@@ -27,7 +30,17 @@ export function AdSenseLoader() {
   const pathname = usePathname();
 
   useEffect(() => {
-    if (!canShowAds(pathname)) return;
+    if (!canShowAds(pathname)) {
+      document.getElementById(ADSENSE_SCRIPT_ID)?.remove();
+      try {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        delete (window as any).adsbygoogle;
+      } catch {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (window as any).adsbygoogle = [];
+      }
+      return;
+    }
     if (document.getElementById(ADSENSE_SCRIPT_ID)) return;
 
     const script = document.createElement("script");
