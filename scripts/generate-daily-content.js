@@ -33,6 +33,23 @@ const REQUIRED_FIELDS = {
   "daily-tools": ["slug", "toolName", "whatItDoes", "category", "whyItIsUseful", "type"],
 };
 
+const REVIEW_MIN_WORDS = 150;
+
+function wordCount(text) {
+  return String(text || "").trim().split(/\s+/).filter(Boolean).length;
+}
+
+function itemBody(item) {
+  return [
+    item.shortDescription,
+    item.whatItDoes,
+    item.explanation,
+    item.whyItIsInteresting,
+    item.whyItIsUseful,
+    item.whyItMatters,
+  ].filter(Boolean).join(" ");
+}
+
 function readJSON(filename) {
   return JSON.parse(fs.readFileSync(path.join(DATA_DIR, filename), "utf8"));
 }
@@ -237,6 +254,12 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
       }
     }
 
+    const bodyWords = wordCount(itemBody(item));
+    if (bodyWords < REVIEW_MIN_WORDS) {
+      console.warn(`  ⚠ Short item discarded: "${itemName || item.slug || "unknown"}" — ${bodyWords} words`);
+      continue;
+    }
+
     // Skip exact name duplicates entirely
     if (existingNames.has(itemName)) {
       console.warn(`  ⚠ Duplicate name skipped: "${itemName}" (slug: ${item.slug})`);
@@ -277,7 +300,18 @@ async function main() {
       if (seeds.length) {
         console.log(`[${category}] Seeded with ${seeds.length} real trending items (${[...new Set(seeds.map((s) => s.source))].join(", ")})`);
       }
-      const newItems = await generateItems(category, existing, 5, seeds);
+      const newItems = [];
+      for (let attempt = 1; newItems.length < 5 && attempt <= 3; attempt++) {
+        const needed = 5 - newItems.length;
+        const batch = await generateItems(category, [...existing, ...newItems], needed, seeds);
+        newItems.push(...batch);
+        if (newItems.length < 5) {
+          console.warn(`[${category}] ${newItems.length}/5 valid items after attempt ${attempt}; retrying for ${5 - newItems.length} item(s).`);
+        }
+      }
+      if (newItems.length < 5) {
+        throw new Error(`[${category}] only generated ${newItems.length}/5 valid items above ${REVIEW_MIN_WORDS} words`);
+      }
       console.log(
         `[${category}] Generated: ${newItems.map((i) => i.slug).join(", ")}`
       );
