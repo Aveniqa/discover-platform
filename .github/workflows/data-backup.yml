@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Create backup archive
         id: archive
@@ -39,7 +39,7 @@ jobs:
           tar -tzf "$ARCHIVE" | head -20
 
       - name: Upload backup as artifact (90-day retention)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: data-backup-${{ steps.archive.outputs.date }}
           path: ${{ steps.archive.outputs.archive }}
