@@ -17,6 +17,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const productsPath = path.join(ROOT, "data", "products.json");
+const archivePath = path.join(ROOT, "data", "archive.json");
 const imageCachePath = path.join(ROOT, "data", "image-cache.json");
 const shouldFix = process.argv.includes("--fix");
 const CONCURRENCY = Number(process.env.IMAGE_AUDIT_CONCURRENCY || 4);
@@ -59,9 +60,19 @@ const BLOCKED_CANDIDATE_WORDS = [
   "og_image",
   "ogp-image",
   "og-updated",
+  "default-og-image",
+  "carrybag",
+  "carry-bag",
   "collectioncarousel",
+  "floorplan",
+  "interstitial",
   "app-teaser",
   "phone-frame",
+  "patient-monitoring",
+  "mqdefault",
+  "hqdefault",
+  "sddefault",
+  "maxresdefault",
 ];
 
 const STOP_WORDS = new Set([
@@ -97,7 +108,10 @@ const USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
   "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
 
-const products = JSON.parse(fs.readFileSync(productsPath, "utf8"));
+const activeProducts = JSON.parse(fs.readFileSync(productsPath, "utf8"));
+const archivedProducts = JSON.parse(fs.readFileSync(archivePath, "utf8"))
+  .filter((item) => item.type === "product");
+const products = [...activeProducts, ...archivedProducts];
 const imageCache = JSON.parse(fs.readFileSync(imageCachePath, "utf8"));
 
 function decodeEntities(value) {
@@ -191,6 +205,16 @@ function isSearchUrl(url) {
   }
 }
 
+function isHomepageUrl(url) {
+  if (!url) return false;
+  try {
+    const parsed = new URL(url);
+    return parsed.pathname === "" || parsed.pathname === "/";
+  } catch {
+    return false;
+  }
+}
+
 function titleTokens(product) {
   return [...new Set(`${product.title || ""} ${product.slug || ""}`
     .toLowerCase()
@@ -212,10 +236,11 @@ function hasSmallFixedDimensions(url) {
 }
 
 function isBlockedImageUrl(url) {
-  const lowered = String(url || "").toLowerCase();
+  const lowered = String(url || "").replaceAll("&amp;", "&").toLowerCase();
   try {
     const parsed = new URL(url);
     if (/\/i\.png$/i.test(parsed.pathname)) return true;
+    if (parsed.hostname.toLowerCase() === "i.ytimg.com") return true;
   } catch {
     // Fall through to string heuristics.
   }
@@ -245,7 +270,9 @@ function hasSpecificProductMatch(product, ...values) {
 
 function pageCandidates(product) {
   const urls = [
-    product.sourceLink,
+    product.sourceLink && !isSearchUrl(product.sourceLink) && !isHomepageUrl(product.sourceLink)
+      ? product.sourceLink
+      : "",
     isAmazonProductUrl(product.directAmazonUrl) ? product.directAmazonUrl : "",
     product.bestBuyUrl && !isSearchUrl(product.bestBuyUrl) ? product.bestBuyUrl : "",
   ].filter(Boolean);
