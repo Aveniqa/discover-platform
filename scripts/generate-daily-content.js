@@ -382,7 +382,7 @@ async function main() {
           validatedDirectUrls.set(p, `https://www.amazon.com/dp/${p.amazonAsin}?tag=${AMAZON_TAG}&linkCode=ll1`);
           asinDirectCount++;
         } else {
-          console.warn(`  ⚠ Invalid ASIN for "${p.title}": ${p.amazonAsin} — falling back to search`);
+          console.warn(`  ⚠ Invalid ASIN for "${p.title}": ${p.amazonAsin} — skipping Amazon monetization`);
           delete p.amazonAsin;
         }
       })
@@ -395,10 +395,16 @@ async function main() {
       skippedDtc++;
       continue;
     }
-    const query = encodeURIComponent(p.title);
-    const searchUrl = `https://www.amazon.com/s?k=${query}&tag=${AMAZON_TAG}`;
-    const directUrl = validatedDirectUrls.get(p) || null;
-    const amazonUrl = directUrl || searchUrl;
+    const hasValidAsin = p.amazonAsin && ASIN_REGEX.test(p.amazonAsin);
+    const directUrl = validatedDirectUrls.get(p) || (hasValidAsin ? `https://www.amazon.com/dp/${p.amazonAsin}?tag=${AMAZON_TAG}&linkCode=ll1` : null);
+
+    if (!directUrl) {
+      p.availableOnAmazon = false;
+      delete p.directAmazonUrl;
+      delete p.affiliate;
+      skippedDtc++;
+      continue;
+    }
 
     // Set directAmazonUrl for new products, or upgrade a search URL to a
     // direct ASIN URL when we just validated the ASIN. normalize-affiliate-links.js
@@ -406,7 +412,7 @@ async function main() {
     const existingTag = (p.directAmazonUrl || "").match(/[?&]tag=([^&]+)/)?.[1];
     const canUpgrade = directUrl && p.directAmazonUrl && p.directAmazonUrl.includes("/s?");
     if (!p.directAmazonUrl || canUpgrade || existingTag !== AMAZON_TAG) {
-      p.directAmazonUrl = amazonUrl;
+      p.directAmazonUrl = directUrl;
     }
     if (!p.affiliate || !p.affiliate.enabled || p.affiliate.url !== p.directAmazonUrl) {
       p.affiliate = {

@@ -10,6 +10,7 @@
     "validate:seo": "node scripts/validate-seo.mjs",
     "audit:adsense": "node scripts/validate-data.js && node scripts/audit-adsense-content.mjs --strict",
     "audit:adsense:live": "node scripts/audit-live-adsense.mjs",
+    "audit:products": "node scripts/audit-product-commerce.mjs",
     "seo:ping": "node scripts/ping-search-engines.mjs",
     "start": "next start",
     "lint": "eslint",

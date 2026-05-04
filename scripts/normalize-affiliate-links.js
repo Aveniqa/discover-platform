@@ -9,10 +9,10 @@
  * so every new product and every tag change is covered without manual work.
  *
  * URL priority:
- *   1. /dp/ASIN  — when amazonAsin is present and passes the B0... regex
- *   2. /s?k=TITLE — search fallback for all other products
+ *   1. /dp/ASIN  — when amazonAsin is present and passes the ASIN regex
  *
- * Products with availableOnAmazon === false are skipped (DTC / software).
+ * Products without a verified ASIN are treated as non-Amazon until an exact
+ * listing is confirmed. This avoids vague Amazon search affiliate links.
  *
  * Manual usage:
  *   AMAZON_AFFILIATE_TAG=surfacedx-20 node scripts/normalize-affiliate-links.js
@@ -47,10 +47,6 @@ function buildAsinUrl(asin) {
   return `https://www.amazon.com/dp/${asin}?tag=${AMAZON_TAG}&linkCode=ll1`;
 }
 
-function buildSearchUrl(title) {
-  return `https://www.amazon.com/s?k=${encodeURIComponent(title)}&tag=${AMAZON_TAG}`;
-}
-
 /** Replace the tag= param in an existing URL, preserving everything else. */
 function retagUrl(url, newTag) {
   if (TAG_IN_URL_RE.test(url)) {
@@ -74,6 +70,7 @@ let updatedTag    = 0;   // tag corrected in existing URL
 let upgradedAsin  = 0;   // search URL → /dp/ASIN
 let addedNew      = 0;   // product had no URL at all
 let skipped       = 0;   // availableOnAmazon === false
+let removedSearch = 0;   // no verified ASIN, so search monetization was removed
 
 for (const p of products) {
   // DTC / software products — no Amazon URL expected
@@ -84,13 +81,18 @@ for (const p of products) {
 
   const hasValidAsin = p.amazonAsin && ASIN_REGEX.test(p.amazonAsin);
 
-  // Determine what the canonical URL should be
-  let correctUrl;
-  if (hasValidAsin) {
-    correctUrl = buildAsinUrl(p.amazonAsin);
-  } else {
-    correctUrl = buildSearchUrl(p.title);
+  if (!hasValidAsin) {
+    if (p.directAmazonUrl?.includes("amazon.com/s?") || p.affiliate?.url?.includes("amazon.com/s?")) {
+      delete p.directAmazonUrl;
+      delete p.affiliate;
+      removedSearch++;
+    }
+    p.availableOnAmazon = false;
+    skipped++;
+    continue;
   }
+
+  const correctUrl = buildAsinUrl(p.amazonAsin);
 
   let changed = false;
 
@@ -134,5 +136,6 @@ console.log(
   `   🏷️  Tag corrected:    ${updatedTag}\n` +
   `   🎯  Upgraded to ASIN: ${upgradedAsin}\n` +
   `   ➕  Added (new):      ${addedNew}\n` +
+  `   🧹  Removed search:   ${removedSearch}\n` +
   `   ⏭️  Skipped (DTC):    ${skipped}`
 );
