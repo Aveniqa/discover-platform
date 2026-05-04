@@ -32,6 +32,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: AdSense content audit
+        run: npm run audit:adsense
+
       - name: Build site
         id: build
         run: |
@@ -217,7 +220,9 @@ jobs:
             "out/future-radar.html"
             "out/tools.html"
             "out/affiliate-disclosure.html"
+            "out/contact.html"
             "out/privacy.html"
+            "out/premium.html"
             "out/terms.html"
             "out/newsletter.html"
             "out/saved.html"

@@ -155,8 +155,17 @@ if (lowQuality.length > 0) {
   }
 }
 
-if (STRICT && (thin.length > 0 || duplicateGroups.length > 0 || lowQuality.length > 0)) {
+if (STRICT && (needsReview.length > 0 || duplicateGroups.length > 0 || lowQuality.length > 0)) {
   console.log("\nStrict audit failed.");
+  if (needsReview.length > 0) {
+    console.log(`  ${needsReview.length} item page(s) are below the ${REVIEW_WORDS}-word review threshold.`);
+  }
+  if (duplicateGroups.length > 0) {
+    console.log(`  ${duplicateGroups.length} exact duplicate body group(s) found.`);
+  }
+  if (lowQuality.length > 0) {
+    console.log(`  ${lowQuality.length} low-quality source URL(s) found.`);
+  }
   process.exit(1);
 }
 
