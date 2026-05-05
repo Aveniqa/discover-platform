@@ -25,3 +25,9 @@
 /affiliate-disclosure/__next.* /__rsc-empty.txt 200
 /collections/:slug/__next.* /__rsc-empty.txt 200
 /item/:slug/__next.* /__rsc-empty.txt 200
+
+# Next may also request legacy flat dynamic-route RSC payloads after client
+# navigation. These are stripped from `out/` to stay under the Pages file cap.
+/collections/:slug.txt /__rsc-empty.txt 200
+/item/:slug.txt /__rsc-empty.txt 200
+/live/:id.txt /__rsc-empty.txt 200
