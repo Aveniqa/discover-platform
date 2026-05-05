@@ -1,4 +1,5 @@
 import { getAllItems, collections_data } from "@/lib/data";
+import { monitoredCurrentEvents } from "@/lib/current-events";
 import { SITE_URL, getBuildDate } from "@/lib/seo";
 import type { MetadataRoute } from "next";
 
@@ -33,6 +34,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const livePages: MetadataRoute.Sitemap = monitoredCurrentEvents.map((event) => ({
+    url: `${SITE_URL}/live/${event.id}`,
+    lastModified: new Date(event.lastVerifiedAt || getBuildDate()),
+    changeFrequency: "hourly" as const,
+    priority: 0.85,
+  }));
+
   const staticPages: MetadataRoute.Sitemap = [
     { url: SITE_URL, changeFrequency: "daily" as const, priority: 1.0 },
     { url: `${SITE_URL}/discover`, changeFrequency: "daily" as const, priority: 0.9 },
@@ -51,5 +59,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/affiliate-disclosure`, changeFrequency: "yearly" as const, priority: 0.3 },
   ].map((p) => ({ ...p, lastModified: buildDate }));
 
-  return [...staticPages, ...collectionPages, ...itemPages];
+  return [...staticPages, ...livePages, ...collectionPages, ...itemPages];
 }

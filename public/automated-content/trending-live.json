@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-05T00:00:00.000Z",
+  "refreshCadence": "every 3 hours",
+  "editorialThreshold": 82,
+  "mode": "fail-closed",
+  "items": [],
+  "monitoredSignals": [],
+  "decisionLog": [
+    "Phase 4 live feed initialized. Automated items publish only after they clear the editorial threshold and include visible source trails."
+  ]
+}

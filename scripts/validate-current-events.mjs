@@ -3,7 +3,10 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ROOT = join(import.meta.dirname, "..");
-const file = join(ROOT, "data", "current-events.json");
+const fileArg = process.argv.find((arg) => arg.startsWith("--file="));
+const file = fileArg
+  ? join(ROOT, fileArg.slice("--file=".length))
+  : join(ROOT, "automated-content", "current-events.json");
 
 const allowedSourceHosts = new Set([
   "airnow.gov",

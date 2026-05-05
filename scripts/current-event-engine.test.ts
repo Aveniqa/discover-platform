@@ -8,9 +8,11 @@ import {
   isAllowedEventSourceUrl,
   isRejectedRedirect,
   mapWeatherState,
+  rankCurrentEvents,
+  scoreCurrentEventLeadRank,
   type CurrentEventQualityLike,
   type RecommendationQualityLike,
-} from "../src/lib/current-event-intelligence.ts";
+} from "../src/lib/current-event-intelligence";
 
 function recommendation(overrides: Partial<RecommendationQualityLike> = {}): RecommendationQualityLike {
   return {
@@ -181,4 +183,26 @@ test("reduced-motion weather presentation removes effects", () => {
   assert.ok(normal.effects.length > 0);
   assert.ok(normal.effects.length <= 3);
   assert.deepEqual(reduced.effects, []);
+});
+
+test("lead ranking weighs freshness and confidence without letting weak recency jump the queue", () => {
+  const strongReviewed = event({
+    id: "strong-reviewed",
+    priority: 2,
+    editorialStrength: 94,
+    confidence: 94,
+    timelinessScore: 88,
+    lastVerifiedAt: "2026-05-05",
+  });
+  const freshButWeaker = event({
+    id: "fresh-but-weaker",
+    priority: 1,
+    editorialStrength: 84,
+    confidence: 84,
+    timelinessScore: 96,
+    lastVerifiedAt: "2026-05-05",
+  });
+
+  assert.ok(scoreCurrentEventLeadRank(strongReviewed, new Date("2026-05-05T12:00:00.000Z")) > scoreCurrentEventLeadRank(freshButWeaker, new Date("2026-05-05T12:00:00.000Z")));
+  assert.equal(rankCurrentEvents([freshButWeaker, strongReviewed])[0].id, "strong-reviewed");
 });

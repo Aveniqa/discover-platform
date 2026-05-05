@@ -371,8 +371,9 @@ export default function HomePage() {
             <HomeStreakStatus />
           </div>
 
-          <h1 className="mx-auto max-w-4xl text-center text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[0.98] mb-5 text-balance">
-            Discover something <span className="gradient-text">new</span>
+          <h1 className="mx-auto max-w-4xl text-center text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.02] sm:leading-[0.98] mb-5 text-balance">
+            Discover <span className="block sm:inline">something</span>{" "}
+            <span className="block sm:inline gradient-text">new</span>
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed text-balance">
             Products, hidden gems, future tech, and discoveries, refreshed daily with one timely story worth acting on.

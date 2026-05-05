@@ -9,6 +9,8 @@
     "postbuild": "node scripts/strip-rsc-payloads.mjs && node scripts/validate-seo.mjs --warn",
     "validate:seo": "node scripts/validate-seo.mjs",
     "audit:adsense": "node scripts/validate-data.js && node scripts/audit-adsense-content.mjs --strict",
+    "audit:automated": "node scripts/validate-automated-content.mjs && node scripts/validate-current-events.mjs",
+    "audit:all": "npm run audit:adsense && npm run audit:automated && npm run audit:products && npm run audit:product-images",
     "audit:adsense:live": "node scripts/audit-live-adsense.mjs",
     "audit:products": "node scripts/audit-product-commerce.mjs",
     "audit:product-images": "node scripts/audit-product-images.mjs",
@@ -26,6 +28,7 @@
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
+    "framer-motion": "^12.38.0",
     "next": "^16.2.3",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"

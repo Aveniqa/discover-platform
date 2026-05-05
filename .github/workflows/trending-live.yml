@@ -1,0 +1,106 @@
+name: Trending Live Content
+
+on:
+  schedule:
+    # Every 3 hours. The script fails closed unless a signal clears the editorial gate.
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: trending-live-content
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  update-live-content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run automated content brain
+        id: brain
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
+        run: node scripts/automated-content-brain.mjs
+
+      - name: Enrich top-story publisher videos
+        id: videos
+        if: steps.brain.outputs.changed == 'true'
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/enrich-current-event-videos.mjs
+
+      - name: Audit automated update
+        if: steps.brain.outputs.changed == 'true' || steps.videos.outputs.changed == 'true'
+        run: npm run audit:all
+
+      - name: Build static site
+        if: steps.brain.outputs.changed == 'true' || steps.videos.outputs.changed == 'true'
+        run: npm run build
+
+      - name: Create breaking-news email draft
+        if: steps.brain.outputs.major_story == 'true'
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: node scripts/send-breaking-news-draft.mjs
+        continue-on-error: true
+
+      - name: Commit and push content update
+        if: steps.brain.outputs.changed == 'true' || steps.videos.outputs.changed == 'true'
+        run: |
+          git config user.name "Surfaced Bot"
+          git config user.email "bot@surfaced.daily"
+          git add automated-content public/automated-content
+          if git diff --staged --quiet; then
+            echo "No live content changes to commit"
+            exit 0
+          fi
+          git commit -m "Content Update: live signals $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push
+
+  alert-on-failure:
+    runs-on: ubuntu-latest
+    needs: update-live-content
+    if: failure()
+    steps:
+      - name: Create GitHub Issue for failed run
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `Trending Live content failed - ${new Date().toISOString().split('T')[0]}`;
+            const body = [
+              `The **Trending Live Content** workflow failed.`,
+              ``,
+              `Run: https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              `Triggered by: ${context.eventName}`,
+              ``,
+              `The workflow fails closed, so no unvalidated live content was committed.`
+            ].join('\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['bug', 'automation']
+            });

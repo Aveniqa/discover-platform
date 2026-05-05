@@ -871,15 +871,15 @@ export function getWeatherPresentation(
 ): { state: WeatherState; label: string; className: string; effects: string[] } {
   const state = WEATHER_STATES.has(weatherState) ? weatherState : "neutral";
   const effectsByState: Record<WeatherState, string[]> = {
-    sunny: ["bg-amber-300/10", "bg-sky-200/10"],
-    cloudy: ["bg-slate-200/10", "bg-white/5"],
-    drizzle: ["bg-sky-300/10", "bg-cyan-200/10"],
-    "light rain": ["bg-sky-400/10", "bg-blue-200/10"],
-    rain: ["bg-blue-500/10", "bg-cyan-300/10"],
-    "heavy rain": ["bg-blue-700/15", "bg-cyan-300/10", "bg-slate-100/5"],
-    monsoon: ["bg-teal-500/10", "bg-blue-700/15", "bg-emerald-300/10"],
-    tornado: ["bg-zinc-300/10", "bg-stone-500/10", "bg-yellow-200/5"],
-    hurricanes: ["bg-cyan-400/10", "bg-blue-700/15", "bg-white/5"],
+    sunny: ["weather-mask-sun", "weather-mask-warm"],
+    cloudy: ["weather-mask-cloud", "weather-mask-mist"],
+    drizzle: ["weather-mask-drizzle", "weather-mask-mist"],
+    "light rain": ["weather-mask-rain", "weather-mask-mist"],
+    rain: ["weather-mask-rain", "weather-mask-cool"],
+    "heavy rain": ["weather-mask-heavy-rain", "weather-mask-cool", "weather-mask-mist"],
+    monsoon: ["weather-mask-heavy-rain", "weather-mask-tropical", "weather-mask-cool"],
+    tornado: ["weather-mask-tornado", "weather-mask-mist", "weather-mask-warm"],
+    hurricanes: ["weather-mask-hurricane", "weather-mask-cool", "weather-mask-mist"],
     neutral: [],
   };
   const labels: Record<WeatherState, string> = {
@@ -898,7 +898,7 @@ export function getWeatherPresentation(
   return {
     state,
     label: labels[state],
-    className: state === "neutral" ? "bg-surface" : "bg-surface bg-gradient-to-br from-surface via-background to-surface-elevated",
+    className: state === "neutral" ? "bg-surface" : `weather-aware-panel weather-${state.replaceAll(" ", "-")}`,
     effects: options.reducedMotion ? [] : effectsByState[state].slice(0, 3),
   };
 }
@@ -982,11 +982,36 @@ export function rankCurrentEvents<T extends CurrentEventQualityLike>(events: T[]
     if (aDiagnostics.homepageEligible !== bDiagnostics.homepageEligible) {
       return aDiagnostics.homepageEligible ? -1 : 1;
     }
+    const aLeadRank = scoreCurrentEventLeadRank(a);
+    const bLeadRank = scoreCurrentEventLeadRank(b);
+    if (aLeadRank !== bLeadRank) {
+      return bLeadRank - aLeadRank;
+    }
     if (aDiagnostics.editorialStrength !== bDiagnostics.editorialStrength) {
       return bDiagnostics.editorialStrength - aDiagnostics.editorialStrength;
     }
     return a.priority - b.priority;
   });
+}
+
+export function scoreCurrentEventLeadRank(event: CurrentEventQualityLike, now = new Date()): number {
+  const diagnostics = getCurrentEventDiagnostics(event);
+  const confidence = clampScore(event.confidence ?? diagnostics.editorialStrength);
+  const timeliness = clampScore(event.timelinessScore ?? scoreDateFreshness(getEventPublishedAt(event), now));
+  const verifiedFreshness = event.lastVerifiedAt ? scoreDateFreshness(event.lastVerifiedAt, now) : timeliness;
+  const recommendationCoverage = clampScore(
+    (diagnostics.recommendationCount / EVENT_SCORE_THRESHOLDS.maximumRecommendations) * 100,
+  );
+  const priorityScore = clampScore(104 - Math.max(1, event.priority) * 4);
+
+  return clampScore(
+    diagnostics.editorialStrength * 0.38 +
+      confidence * 0.18 +
+      timeliness * 0.16 +
+      verifiedFreshness * 0.16 +
+      recommendationCoverage * 0.07 +
+      priorityScore * 0.05,
+  );
 }
 
 export function normalizeCurrentEvent(event: CurrentEventQualityLike): CurrentEvent {

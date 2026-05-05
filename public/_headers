@@ -90,6 +90,12 @@
 /premium
   Cache-Control: public, no-cache
 
+/live/*
+  Cache-Control: public, no-cache
+
+/automated-content/*
+  Cache-Control: public, no-cache
+
 # Static info pages — cache longer (1 day), they rarely change
 # These don't receive daily content updates, so a longer TTL is fine.
 /privacy

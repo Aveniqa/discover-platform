@@ -7,6 +7,7 @@ import { Analytics } from "@/components/Analytics";
 import { ServiceWorkerRegistration } from "@/components/ServiceWorkerRegistration";
 import { PrefetchLinks } from "@/components/ui/PrefetchLinks";
 import { AdSenseLoader } from "@/components/AdSenseLoader";
+import { PageMorph } from "@/components/ui/PageMorph";
 import { SITE_URL, SITE_NAME, TWITTER_HANDLE, DEFAULT_OG_IMAGE } from "@/lib/seo";
 import { organizationLd, websiteLd, ldScript } from "@/lib/jsonld";
 import "./globals.css";
@@ -107,7 +108,9 @@ export default function RootLayout({
         </a>
         <SearchModal />
         <Navbar />
-        <main id="main-content" className="min-h-screen pt-16">{children}</main>
+        <main id="main-content" className="min-h-screen pt-16">
+          <PageMorph>{children}</PageMorph>
+        </main>
         <Footer />
         <ServiceWorkerRegistration />
         <PrefetchLinks />

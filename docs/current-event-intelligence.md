@@ -73,13 +73,34 @@ If no event clears the gate, the homepage uses the existing fallback state: no v
 
 ## Next Integrations
 
-1. Add a scheduled `discover-current-events` workflow that writes candidate JSON for editorial review, not directly to production.
-2. Add GDELT as a discovery-only source for topic velocity and duplicate-source counts.
-3. Add CPSC/openFDA JSON endpoints for high-trust recall/event categories.
-4. Add Amazon PA-API and Best Buy Product API only after credentials and terms are confirmed.
-5. Add a small topic classifier that maps verified event tags to product/service categories before any LLM expands copy.
+1. Keep `/automated-content/current-events.json` as the homepage and live-brief source of truth. `data/current-events.json` is legacy/editorial source material only.
+2. Use `.github/workflows/trending-live.yml` for the every-3-hours live content loop. It writes `/automated-content/trending-live.json`, mirrors the browser-readable copy to `/public/automated-content/trending-live.json`, runs `npm run audit:all`, builds, and commits only when gated content changes.
+3. Use NewsAPI/GNews only as discovery signals. GitHub API trending signals can publish to the live rail when they clear the threshold, but source trails must remain visible.
+4. Use YouTube enrichment only at build time through `scripts/enrich-current-event-videos.mjs`; embeds stay click-to-load through `youtube-nocookie.com`.
+5. Add Amazon PA-API and Best Buy Product API only after credentials and terms are confirmed.
 
 The repository now includes `npm run discover:current-events` as a dry-run scaffold. It fetches only fixed allowlisted JSON endpoints, rejects redirects and oversized payloads, and prints candidate signals for review rather than editing production data.
+
+## Phase 4 Automated Content Brain
+
+Phase 4 adds a fail-closed live layer rather than a raw news scraper:
+
+```txt
+scheduled workflow -> discovery probes -> editorial score -> automated-content JSON -> audit:all -> build -> content commit
+```
+
+The live rail reads `automated-content/trending-live.json`. Browser sessions poll the public mirror every 15 minutes and offer a refresh when a newer deploy-backed feed is available. Static export stays intact; there is no request-time API dependency.
+
+Optional GitHub Secrets:
+
+| Secret | Purpose |
+|---|---|
+| `GNEWS_API_KEY` | GNews discovery signal |
+| `NEWSAPI_KEY` | NewsAPI discovery signal |
+| `YOUTUBE_API_KEY` | Build-time official publisher video enrichment |
+| `BUTTONDOWN_API_KEY` | Breaking-news email draft creation |
+
+The workflow commits only after the automated content validator, current-event validator, AdSense audit, product commerce audit, product-image audit, and static build pass. Buttondown draft creation is non-fatal and produces drafts for review, never automatic sends.
 
 ## V2 Multi-Source Editorial Engine
 

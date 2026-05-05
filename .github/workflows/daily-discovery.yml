@@ -1,0 +1,52 @@
+name: Daily Discovery Candidates
+
+on:
+  schedule:
+    # Runs before the daily edition so editors can review candidates first.
+    - cron: '30 9 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: daily-discovery-candidates
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate review-only current-event candidates
+        env:
+          PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
+        run: node scripts/daily-discovery.mjs --output=data/current-events-candidates.json
+
+      - name: Candidate smoke tests
+        run: |
+          npx tsx --test scripts/current-event-engine.test.ts scripts/commerce-discovery.test.ts
+          node --test scripts/daily-discovery.test.mjs
+
+      - name: Confirm homepage source remains manually gated
+        run: npm run audit:current-events
+
+      - name: Upload candidate artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: current-events-candidates
+          path: data/current-events-candidates.json
+          retention-days: 14

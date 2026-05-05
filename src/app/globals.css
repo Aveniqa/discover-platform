@@ -305,6 +305,97 @@ body {
 }
 
 /* ============================================
+   Weather-Aware Current Event Backgrounds
+   Static gradients + transform/opacity masks only.
+   ============================================ */
+.weather-aware-panel {
+  --weather-a: rgba(52, 211, 153, 0.08);
+  --weather-b: rgba(34, 211, 238, 0.08);
+  --weather-c: rgba(168, 85, 247, 0.05);
+  background:
+    radial-gradient(circle at 14% 0%, var(--weather-a), transparent 34%),
+    radial-gradient(circle at 86% 12%, var(--weather-b), transparent 36%),
+    linear-gradient(135deg, #0f0f14 0%, #08080c 52%, #17171f 100%);
+  transform: translateZ(0);
+  will-change: opacity, transform;
+  contain: paint;
+}
+
+.weather-sunny {
+  --weather-a: rgba(251, 191, 36, 0.16);
+  --weather-b: rgba(125, 211, 252, 0.12);
+  --weather-c: rgba(251, 146, 60, 0.08);
+}
+
+.weather-cloudy {
+  --weather-a: rgba(226, 232, 240, 0.1);
+  --weather-b: rgba(148, 163, 184, 0.1);
+  --weather-c: rgba(34, 211, 238, 0.05);
+}
+
+.weather-drizzle,
+.weather-light-rain,
+.weather-rain {
+  --weather-a: rgba(56, 189, 248, 0.14);
+  --weather-b: rgba(34, 211, 238, 0.1);
+  --weather-c: rgba(59, 130, 246, 0.08);
+}
+
+.weather-heavy-rain,
+.weather-monsoon {
+  --weather-a: rgba(37, 99, 235, 0.16);
+  --weather-b: rgba(20, 184, 166, 0.1);
+  --weather-c: rgba(148, 163, 184, 0.08);
+}
+
+.weather-tornado {
+  --weather-a: rgba(214, 211, 209, 0.12);
+  --weather-b: rgba(120, 113, 108, 0.12);
+  --weather-c: rgba(250, 204, 21, 0.07);
+}
+
+.weather-hurricanes {
+  --weather-a: rgba(34, 211, 238, 0.14);
+  --weather-b: rgba(29, 78, 216, 0.14);
+  --weather-c: rgba(255, 255, 255, 0.06);
+}
+
+.weather-mask-sun,
+.weather-mask-warm,
+.weather-mask-cloud,
+.weather-mask-mist,
+.weather-mask-drizzle,
+.weather-mask-rain,
+.weather-mask-heavy-rain,
+.weather-mask-cool,
+.weather-mask-tropical,
+.weather-mask-tornado,
+.weather-mask-hurricane {
+  transform: translateZ(0);
+  will-change: opacity, transform;
+  animation: weather-drift 18s ease-out infinite alternate;
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000 0%, transparent 68%);
+  mask-image: radial-gradient(circle at 50% 50%, #000 0%, transparent 68%);
+}
+
+.weather-mask-sun { background: radial-gradient(circle at 22% 16%, rgba(251, 191, 36, 0.28), transparent 24%); }
+.weather-mask-warm { background: linear-gradient(110deg, transparent 0%, rgba(251, 146, 60, 0.16) 44%, transparent 72%); }
+.weather-mask-cloud { background: radial-gradient(ellipse at 62% 20%, rgba(226, 232, 240, 0.16), transparent 36%); }
+.weather-mask-mist { background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent); }
+.weather-mask-drizzle { background: repeating-linear-gradient(105deg, transparent 0 18px, rgba(125, 211, 252, 0.12) 18px 20px); }
+.weather-mask-rain { background: repeating-linear-gradient(105deg, transparent 0 14px, rgba(56, 189, 248, 0.14) 14px 16px); }
+.weather-mask-heavy-rain { background: repeating-linear-gradient(105deg, transparent 0 10px, rgba(96, 165, 250, 0.18) 10px 13px); }
+.weather-mask-cool { background: radial-gradient(circle at 80% 8%, rgba(34, 211, 238, 0.18), transparent 34%); }
+.weather-mask-tropical { background: radial-gradient(circle at 12% 82%, rgba(16, 185, 129, 0.14), transparent 36%); }
+.weather-mask-tornado { background: conic-gradient(from 30deg at 56% 44%, transparent 0deg, rgba(214, 211, 209, 0.16) 86deg, transparent 170deg); }
+.weather-mask-hurricane { background: conic-gradient(from 120deg at 50% 45%, rgba(34, 211, 238, 0.12), transparent 120deg, rgba(96, 165, 250, 0.14), transparent 300deg); }
+
+@keyframes weather-drift {
+  from { transform: translate3d(-1.5%, -1%, 0) scale(1); opacity: 0.72; }
+  to { transform: translate3d(1.5%, 1%, 0) scale(1.03); opacity: 0.94; }
+}
+
+/* ============================================
    Editorial Elements
    ============================================ */
 .editorial-block {
@@ -414,5 +505,19 @@ body {
     scroll-behavior: auto !important;
     transition-delay: 0ms !important;
     transition-duration: 1ms !important;
+  }
+
+  .weather-mask-sun,
+  .weather-mask-warm,
+  .weather-mask-cloud,
+  .weather-mask-mist,
+  .weather-mask-drizzle,
+  .weather-mask-rain,
+  .weather-mask-heavy-rain,
+  .weather-mask-cool,
+  .weather-mask-tropical,
+  .weather-mask-tornado,
+  .weather-mask-hurricane {
+    animation: none !important;
   }
 }

@@ -1,4 +1,4 @@
-import currentEventsData from "../../data/current-events.json";
+import currentEventsData from "../../automated-content/current-events.json";
 import {
   getCurrentEventDiagnostics,
   getPublishableRecommendationsForEvent,
@@ -95,6 +95,10 @@ export interface CurrentEventItem {
   editorialSafeguards?: string[];
   storySignals?: CurrentEventSignal[];
   nextSteps?: CurrentEventNextStep[];
+  youtubeVideoId?: string;
+  youtubeVideoTitle?: string;
+  youtubeChannelTitle?: string;
+  youtubeVideoPublishedAt?: string;
   recommendations: CurrentEventRecommendation[];
 }
 
