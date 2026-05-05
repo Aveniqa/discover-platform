@@ -76,12 +76,17 @@ export function NewsletterForm({
       const payload = await response.json().catch(() => ({}));
 
       if (!response.ok) {
-        const canUseHostedFallback = response.status === 503 || payload?.code === "service_unavailable";
+        const canUseHostedFallback =
+          response.status === 503 || payload?.code === "service_unavailable" || payload?.code === "provider_blocked";
+        const fallbackMessage =
+          payload?.code === "provider_blocked" && typeof payload?.message === "string"
+            ? payload.message
+            : "Newsletter signup is temporarily routing through Buttondown. Use the secure fallback to finish subscribing.";
         setState("error");
         setFallbackAvailable(canUseHostedFallback);
         setMessage(
           canUseHostedFallback
-            ? "Newsletter signup is temporarily routing through Buttondown. Use the secure fallback to finish subscribing."
+            ? fallbackMessage
             : typeof payload?.message === "string"
             ? payload.message
             : "The newsletter service could not process that request. Try again in a moment.",

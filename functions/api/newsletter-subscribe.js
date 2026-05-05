@@ -159,6 +159,17 @@ export async function onRequestPost(context) {
   const buttondownMessage = await parseButtondownError(response);
 
   if (response.status === 400) {
+    if (/blocked|firewall/i.test(buttondownMessage)) {
+      return jsonResponse(
+        {
+          ok: false,
+          code: "provider_blocked",
+          message: "Buttondown blocked this signup in the API path. Use the secure hosted signup to finish subscribing.",
+        },
+        { status: 400 },
+      );
+    }
+
     return jsonResponse(
       {
         ok: false,
