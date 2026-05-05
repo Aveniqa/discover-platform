@@ -18,6 +18,7 @@ import { BlurText } from "@/components/ui/BlurText";
 import { AdSlot } from "@/components/ui/AdSlot";
 import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
 import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
+import { filterLiveOutboundUrl } from "@/lib/dead-links";
 
 // Parse the lower bound from "estimatedPriceRange" strings like "$299–$349" or "$29"
 function parsePriceLower(range: string | undefined): number {
@@ -34,6 +35,14 @@ const PRICE_RANGES = [
 ];
 
 import { type Product } from "@/lib/data";
+
+function getLiveProductUrl(item: Product & { affiliate?: AnyItem["affiliate"] }): string | null {
+  return (
+    filterLiveOutboundUrl(item.affiliate?.url) ||
+    filterLiveOutboundUrl(item.directAmazonUrl) ||
+    filterLiveOutboundUrl(item.sourceLink)
+  );
+}
 
 export default function TrendingPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -320,21 +329,25 @@ export default function TrendingPage() {
                   </div>
                 )}
                 <div className="mt-auto flex flex-col gap-2">
-                  {item.availableOnAmazon && ((item as AnyItem).affiliate?.url || item.directAmazonUrl) && (
-                  <a
-                    href={(item as AnyItem).affiliate?.url || item.directAmazonUrl}
-                    target="_blank"
-                    rel="sponsored noopener noreferrer nofollow"
-                    data-affiliate="true"
-                    onClick={(e) => e.stopPropagation()}
-                    className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-amber-400 hover:bg-amber-300 text-black text-xs font-bold transition-all active:scale-95 shadow-[0_0_15px_rgba(251,191,36,0.15)] hover:shadow-[0_0_25px_rgba(251,191,36,0.3)]"
-                  >
-                    <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 shrink-0" fill="currentColor" aria-hidden="true">
-                      <path d="M18.42 14.58C16.08 16.28 12.7 17.2 9.82 17.2c-4.03 0-7.66-1.49-10.4-3.97-.22-.2-.02-.47.24-.32 2.96 1.72 6.62 2.76 10.4 2.76 2.55 0 5.36-.53 7.94-1.62.39-.17.72.25.42.53zm1.2-1.37c-.3-.38-1.97-.18-2.72-.09-.23.03-.26-.17-.06-.31 1.33-.94 3.52-.67 3.77-.35.25.32-.07 2.51-1.32 3.56-.19.16-.37.08-.29-.14.28-.72.91-2.29.62-2.67z"/>
-                    </svg>
-                    Check Price on Amazon
-                  </a>
-                  )}
+                  {(() => {
+                    const liveProductUrl = getLiveProductUrl(item as Product & { affiliate?: AnyItem["affiliate"] });
+                    if (!item.availableOnAmazon || !liveProductUrl) return null;
+                    return (
+                      <a
+                        href={liveProductUrl}
+                        target="_blank"
+                        rel="sponsored noopener noreferrer nofollow"
+                        data-affiliate="true"
+                        onClick={(e) => e.stopPropagation()}
+                        className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-amber-400 hover:bg-amber-300 text-black text-xs font-bold transition-all active:scale-95 shadow-[0_0_15px_rgba(251,191,36,0.15)] hover:shadow-[0_0_25px_rgba(251,191,36,0.3)]"
+                      >
+                        <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 shrink-0" fill="currentColor" aria-hidden="true">
+                          <path d="M18.42 14.58C16.08 16.28 12.7 17.2 9.82 17.2c-4.03 0-7.66-1.49-10.4-3.97-.22-.2-.02-.47.24-.32 2.96 1.72 6.62 2.76 10.4 2.76 2.55 0 5.36-.53 7.94-1.62.39-.17.72.25.42.53zm1.2-1.37c-.3-.38-1.97-.18-2.72-.09-.23.03-.26-.17-.06-.31 1.33-.94 3.52-.67 3.77-.35.25.32-.07 2.51-1.32 3.56-.19.16-.37.08-.29-.14.28-.72.91-2.29.62-2.67z"/>
+                        </svg>
+                        Check Price on Amazon
+                      </a>
+                    );
+                  })()}
                   <button
                     onClick={(e) => { e.stopPropagation(); toggleCompare(item.slug); }}
                     className={`w-full text-[10px] px-2 py-1 rounded-lg border transition-colors ${
@@ -494,9 +507,9 @@ export default function TrendingPage() {
                         </div>
                         <div className="text-2xl font-bold text-emerald-400">{p.estimatedPriceRange || "—"}</div>
                         <p className="text-xs text-muted-foreground leading-relaxed flex-1 line-clamp-4">{p.shortDescription}</p>
-                        {((p as AnyItem).affiliate?.url || p.directAmazonUrl || p.sourceLink) && (
+                        {getLiveProductUrl(p as Product & { affiliate?: AnyItem["affiliate"] }) && (
                         <a
-                          href={(p as AnyItem).affiliate?.url || p.directAmazonUrl || p.sourceLink}
+                          href={getLiveProductUrl(p as Product & { affiliate?: AnyItem["affiliate"] })!}
                           target="_blank"
                           rel="sponsored noopener noreferrer nofollow"
                           className="mt-auto text-center py-2 px-4 rounded-lg bg-emerald-500/15 text-emerald-400 text-xs font-semibold hover:bg-emerald-500/25 transition-colors"

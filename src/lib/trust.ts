@@ -8,22 +8,24 @@ import {
   getFilterCategory,
   getItemCategory,
 } from "@/lib/data";
+import { filterLiveOutboundUrl } from "@/lib/dead-links";
 
 export function safeHostLabel(url?: string | null): string | null {
-  if (!url) return null;
+  const liveUrl = filterLiveOutboundUrl(url);
+  if (!liveUrl) return null;
   try {
-    return new URL(url).hostname.replace(/^www\./, "");
+    return new URL(liveUrl).hostname.replace(/^www\./, "");
   } catch {
     return null;
   }
 }
 
 export function getItemSourceUrl(item: AnyItem): string | null {
-  if (item.type === "discovery") return (item as Discovery).sourceLink || null;
-  if (item.type === "product") return (item as Product).sourceLink || null;
-  if (item.type === "hidden-gem") return (item as HiddenGem).websiteLink || null;
-  if (item.type === "tool") return (item as DailyTool).websiteLink || null;
-  if (item.type === "future-tech") return (item as FutureTech).sourceLink || null;
+  if (item.type === "discovery") return filterLiveOutboundUrl((item as Discovery).sourceLink);
+  if (item.type === "product") return filterLiveOutboundUrl((item as Product).sourceLink);
+  if (item.type === "hidden-gem") return filterLiveOutboundUrl((item as HiddenGem).websiteLink);
+  if (item.type === "tool") return filterLiveOutboundUrl((item as DailyTool).websiteLink);
+  if (item.type === "future-tech") return filterLiveOutboundUrl((item as FutureTech).sourceLink);
   return null;
 }
 

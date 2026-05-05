@@ -19,7 +19,6 @@ import {
   futureRadar,
   dailyTools,
   type AnyItem,
-  type Discovery,
   type Product,
   type FutureTech,
   type HiddenGem,
@@ -45,7 +44,8 @@ import { isPexelsImage } from "@/lib/images";
 import { getItemImageUrl } from "@/lib/images";
 import { buildMetadata, getBuildDate } from "@/lib/seo";
 import { articleLd, productLd, breadcrumbLd, ldScript } from "@/lib/jsonld";
-import { getItemSourceLabel, getItemTrustSignals, safeHostLabel } from "@/lib/trust";
+import { getItemSourceLabel, getItemSourceUrl, getItemTrustSignals, safeHostLabel } from "@/lib/trust";
+import { filterLiveOutboundUrl } from "@/lib/dead-links";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -229,25 +229,8 @@ export default async function ItemPage({ params }: Props) {
   const backPath = getCategoryPath(item.type);
   const crossItems = getCrossCategoryItems(item, 6);
   const outboundUrl = getItemOutboundUrl(item);
-
-  // Source article URL (for "Read Original Source" link)
-  const sourceUrl = (() => {
-    try {
-      let url: string | null = null;
-      if (item.type === "discovery") url = (item as Discovery).sourceLink;
-      else if (item.type === "product") url = (item as Product).sourceLink;
-      else if (item.type === "hidden-gem") url = (item as HiddenGem).websiteLink;
-      else if (item.type === "tool") url = (item as DailyTool).websiteLink;
-      else if (item.type === "future-tech") {
-        url = (item as FutureTech).sourceLink ?? null;
-      }
-      if (!url) return null;
-      new URL(url); // validate — throws if malformed
-      return url;
-    } catch {
-      return null;
-    }
-  })();
+  const bestBuyUrl = item.type === "product" ? filterLiveOutboundUrl((item as Product).bestBuyUrl) : null;
+  const sourceUrl = getItemSourceUrl(item);
   const sourceHost = safeHostLabel(sourceUrl);
   const sourceLabel = getItemSourceLabel(item);
   const trustSignals = getItemTrustSignals(item);
@@ -283,7 +266,7 @@ export default async function ItemPage({ params }: Props) {
     .slice(0, 6);
 
   // Brand logo domain for hidden gems and tools
-  const websiteLink = (item as HiddenGem | DailyTool).websiteLink as string | undefined;
+  const websiteLink = filterLiveOutboundUrl((item as HiddenGem | DailyTool).websiteLink) ?? undefined;
   const logoDomain = (() => {
     if (item.type !== "hidden-gem" && item.type !== "tool") return null;
     try { return websiteLink ? new URL(websiteLink).hostname.replace("www.", "") : null; } catch { return null; }
@@ -302,7 +285,7 @@ export default async function ItemPage({ params }: Props) {
         url: pageUrl,
         image: imageUrl,
         priceRange: (item as Product).estimatedPriceRange,
-        offerUrl: (item as Product).directAmazonUrl || null,
+        offerUrl: filterLiveOutboundUrl((item as Product).directAmazonUrl),
         reviewBody: whyText || description,
       })
     : articleLd({
@@ -528,7 +511,7 @@ export default async function ItemPage({ params }: Props) {
                 </svg>
                 <a href={sourceUrl} target="_blank" rel="noopener noreferrer"
                    className="text-sm text-accent hover:text-accent/80 transition-colors truncate">
-                  Read full article at {new URL(sourceUrl).hostname.replace("www.", "")} →
+                  Read full article at {sourceHost} →
                 </a>
               </div>
             </ScrollReveal>
@@ -576,9 +559,9 @@ export default async function ItemPage({ params }: Props) {
                 )}
 
                 {/* Also at Best Buy — products only */}
-                {item.type === "product" && (item as Product).bestBuyUrl && (
+                {bestBuyUrl && (
                   <a
-                    href={(item as Product).bestBuyUrl}
+                    href={bestBuyUrl}
                     target="_blank"
                     rel="sponsored noopener noreferrer nofollow"
                     data-affiliate="true"

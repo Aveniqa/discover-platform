@@ -7,6 +7,7 @@ import archiveData from "@/../data/archive.json";
 import categoriesData from "@/../data/categories.json";
 import todaysPicksData from "@/../data/todays-picks.json";
 import collectionsData from "@/../data/collections.json";
+import { filterLiveOutboundUrl } from "@/lib/dead-links";
 
 /* ---- Types ---- */
 export interface Discovery {
@@ -209,17 +210,21 @@ export function getItemWhyText(item: AnyItem): string {
 }
 
 function getItemExternalLink(item: AnyItem): string | null {
-  if (item.type === "product") return (item as Product).sourceLink;
-  if (item.type === "hidden-gem") return (item as HiddenGem).websiteLink;
-  if (item.type === "tool") return (item as DailyTool).websiteLink;
-  if (item.type === "discovery") return (item as Discovery).sourceLink;
+  if (item.type === "product") return filterLiveOutboundUrl((item as Product).sourceLink);
+  if (item.type === "hidden-gem") return filterLiveOutboundUrl((item as HiddenGem).websiteLink);
+  if (item.type === "tool") return filterLiveOutboundUrl((item as DailyTool).websiteLink);
+  if (item.type === "discovery") return filterLiveOutboundUrl((item as Discovery).sourceLink);
   return null;
 }
 
 /** Resolve outbound URL — prefer affiliate URL, then directAmazonUrl, then sourceLink */
 export function getItemOutboundUrl(item: AnyItem): string | null {
-  if (item.affiliate?.enabled && item.affiliate.url) return item.affiliate.url;
-  if (item.type === "product" && (item as Product).directAmazonUrl) return (item as Product).directAmazonUrl!;
+  const affiliateUrl = item.affiliate?.enabled ? filterLiveOutboundUrl(item.affiliate.url) : null;
+  if (affiliateUrl) return affiliateUrl;
+  if (item.type === "product") {
+    const amazonUrl = filterLiveOutboundUrl((item as Product).directAmazonUrl);
+    if (amazonUrl) return amazonUrl;
+  }
   return getItemExternalLink(item);
 }
 

@@ -17,6 +17,17 @@ import { BlurText } from "@/components/ui/BlurText";
 import { TiltCard } from "@/components/ui/TiltCard";
 import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
 import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
+import { filterLiveOutboundUrl } from "@/lib/dead-links";
+
+function hostForLiveUrl(url?: string | null): string | null {
+  const liveUrl = filterLiveOutboundUrl(url);
+  if (!liveUrl) return null;
+  try {
+    return new URL(liveUrl).hostname.replace("www.", "");
+  } catch {
+    return null;
+  }
+}
 
 export default function HiddenGemsPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -193,8 +204,8 @@ export default function HiddenGemsPage() {
                 </div>
                 <Link href={`/item/${item.slug}`} aria-label={`Read ${item.name}`} className="block mb-2">
                   <h2 className="text-base font-semibold text-foreground group-hover:text-amber-300 transition-colors line-clamp-2 flex items-center gap-1.5">
-                    {item.websiteLink && (() => { try { return new URL(item.websiteLink).hostname.replace("www.", ""); } catch { return null; } })() && (
-                      <LogoImage domain={(() => { try { return new URL(item.websiteLink).hostname.replace("www.", ""); } catch { return ""; } })()} />
+                    {hostForLiveUrl(item.websiteLink) && (
+                      <LogoImage domain={hostForLiveUrl(item.websiteLink) || ""} />
                     )}
                     {item.name}
                   </h2>
@@ -202,11 +213,11 @@ export default function HiddenGemsPage() {
                 <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
                   {getItemExcerpt(item)}
                 </p>
-                {item.websiteLink && (
+                {filterLiveOutboundUrl(item.websiteLink) && (
                 <div className="mt-auto flex flex-col gap-3">
-                  <SourceTrailLink href={item.websiteLink} label="Official site" compact />
+                  <SourceTrailLink href={filterLiveOutboundUrl(item.websiteLink)!} label="Official site" compact />
                   <a
-                    href={item.websiteLink}
+                    href={filterLiveOutboundUrl(item.websiteLink)!}
                     target="_blank"
                     rel="noopener noreferrer"
                     data-outbound="true"

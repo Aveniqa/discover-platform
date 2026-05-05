@@ -9,6 +9,7 @@
  */
 import fs from "node:fs/promises";
 import net from "node:net";
+import path from "node:path";
 
 const args = new Map(
   process.argv.slice(2).map((arg) => {
@@ -20,6 +21,10 @@ const args = new Map(
 const BASE_URL = args.get("--base") || "https://surfaced-x.pages.dev";
 const SITEMAP_URL = args.get("--sitemap") || `${BASE_URL}/sitemap.xml`;
 const OUT_PATH = args.get("--output") || "broken-links.txt";
+const DEAD_LINKS_PATH =
+  args.get("--dead-links-output") === "false"
+    ? ""
+    : args.get("--dead-links-output") || (args.has("--max-pages") ? "" : "data/dead-outbound-links.json");
 const SHARED_CONCURRENCY = Number(args.get("--concurrency") || 0);
 const PAGE_CONCURRENCY = Number(args.get("--page-concurrency") || SHARED_CONCURRENCY || 16);
 const OUTBOUND_CONCURRENCY = Number(args.get("--outbound-concurrency") || SHARED_CONCURRENCY || 24);
@@ -319,6 +324,7 @@ async function writeReport({ pages, crawled, outbound, checked, broken }) {
     `Unique outbound links checked: ${outbound.size}`,
     `Inconclusive links (not counted broken): ${inconclusive.length}`,
     `Confirmed broken links: ${broken.length}`,
+    ...(DEAD_LINKS_PATH ? [`Dead-link suppression file: ${DEAD_LINKS_PATH}`] : []),
     "",
   ];
 
@@ -341,6 +347,13 @@ async function writeReport({ pages, crawled, outbound, checked, broken }) {
   }
 
   await fs.writeFile(OUT_PATH, `${lines.join("\n")}\n`);
+}
+
+async function writeDeadLinks(broken) {
+  if (!DEAD_LINKS_PATH) return;
+  const urls = [...new Set(broken.map((item) => item.url))].sort();
+  await fs.mkdir(path.dirname(DEAD_LINKS_PATH), { recursive: true });
+  await fs.writeFile(DEAD_LINKS_PATH, `${JSON.stringify(urls, null, 2)}\n`);
 }
 
 async function main() {
@@ -376,11 +389,13 @@ async function main() {
     },
   );
   const broken = checked.filter((item) => !item.ok);
+  await writeDeadLinks(broken);
   await writeReport({ pages, crawled, outbound, checked, broken });
 
   console.log(`Inconclusive links: ${checked.filter((item) => item.note === "inconclusive").length}`);
   console.log(`Confirmed broken links: ${broken.length}`);
   console.log(`Report: ${OUT_PATH}`);
+  if (DEAD_LINKS_PATH) console.log(`Dead-link suppression file: ${DEAD_LINKS_PATH}`);
   if (broken.length > 0) process.exitCode = 1;
 }
 
