@@ -159,7 +159,18 @@ export async function onRequestPost(context) {
 
   const buttondownMessage = await parseButtondownError(response);
 
-  if (response.status === 400 || response.status === 409) {
+  if (response.status === 400) {
+    return jsonResponse(
+      {
+        ok: false,
+        code: "provider_validation_error",
+        message: buttondownMessage || "That email address could not be subscribed. Check it and try again.",
+      },
+      { status: 400 },
+    );
+  }
+
+  if (response.status === 409) {
     return jsonResponse(
       {
         ok: false,
