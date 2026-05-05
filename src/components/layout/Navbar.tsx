@@ -58,12 +58,12 @@ export function Navbar() {
   }, []);
 
   useEffect(() => {
-    setMobileOpen(false);
+    const frame = requestAnimationFrame(() => {
+      setMobileOpen(false);
 
-    // For /item/ pages, read item-type from the CTA data attribute or breadcrumb
-    if (pathname.startsWith("/item/")) {
-      // Try to read the item type from the main CTA button's data-item-type
-      requestAnimationFrame(() => {
+      // For /item/ pages, read item-type from the CTA data attribute or breadcrumb
+      if (pathname.startsWith("/item/")) {
+        // Try to read the item type from the main CTA button's data-item-type
         const cta = document.getElementById("main-cta-button");
         const itemType = cta?.getAttribute("data-item-type");
         if (itemType && typeToNavPath[itemType]) {
@@ -80,10 +80,11 @@ export function Navbar() {
           }
           setItemParentPath(null);
         }
-      });
-    } else {
-      setItemParentPath(null);
-    }
+      } else {
+        setItemParentPath(null);
+      }
+    });
+    return () => cancelAnimationFrame(frame);
   }, [pathname]);
 
   const activeHref = getActiveHref(pathname) || itemParentPath;
@@ -148,14 +149,6 @@ export function Navbar() {
 
               {/* Bookmark Count */}
               <BookmarkCount />
-
-              {/* Newsletter CTA */}
-              <Link
-                href="/newsletter"
-                className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-xl btn-gradient text-xs whitespace-nowrap cursor-pointer"
-              >
-                Subscribe
-              </Link>
 
               {/* Mobile Menu Toggle */}
               <button

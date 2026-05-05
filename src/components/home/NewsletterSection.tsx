@@ -2,7 +2,7 @@ import { NewsletterForm } from "@/components/ui/NewsletterForm";
 
 export function NewsletterSection() {
   return (
-    <section className="relative py-20 sm:py-28 overflow-hidden">
+    <section className="relative py-14 sm:py-20 overflow-hidden">
       {/* Background treatment */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-accent/[0.03] to-transparent" />
@@ -14,14 +14,12 @@ export function NewsletterSection() {
           <span className="text-xs font-medium text-muted">Free newsletter, no spam, ever.</span>
         </div>
 
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-foreground">
-          Never miss what the
-          <br />
-          <span className="gradient-text">internet surfaced.</span>
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-foreground text-balance">
+          Get tomorrow&rsquo;s useful finds.
         </h2>
 
         <p className="mt-5 text-muted text-lg max-w-lg mx-auto leading-relaxed">
-          Join thousands of curious readers who start their morning with our daily email — the best discoveries, products, and future tech in 5 minutes.
+          A small daily email with the best discoveries, products, tools, and timely product guides Surfaced is tracking.
         </p>
 
         <div className="mt-8 flex justify-center">

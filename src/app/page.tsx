@@ -18,23 +18,22 @@ import {
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
 import { getStreakMilestone } from "@/components/ui/StreakWidget";
-import { SurpriseMe } from "@/components/ui/SurpriseMe";
-import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { Carousel } from "@/components/ui/Carousel";
 import { SocialCTA } from "@/components/SocialCTA";
 import { ShareTodaysPicks } from "@/components/ui/ShareTodaysPicks";
 import { TodayDate } from "@/components/ui/TodayDate";
-import { HeroShowcase } from "@/components/ui/HeroShowcase";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { BlurText } from "@/components/ui/BlurText";
 import { getStreak } from "@/lib/engagement";
 import { todaysPicks } from "@/lib/data";
-import { getSiteStats } from "@/lib/stats";
 import Link from "next/link";
 import { TiltCard } from "@/components/ui/TiltCard";
 import { SpotlightCard } from "@/components/ui/SpotlightCard";
 import { MarqueeStrip } from "@/components/ui/MarqueeStrip";
+import { CurrentEventsEngine } from "@/components/home/CurrentEventsEngine";
+import { HeroShowcase } from "@/components/ui/HeroShowcase";
+import { NewsletterSection } from "@/components/home/NewsletterSection";
 import { itemListLd, ldScript } from "@/lib/jsonld";
 
 /* ---- Helpers ---- */
@@ -78,8 +77,6 @@ function accentBar(type: string): string {
 /* ---- Page Component ---- */
 
 export default function HomePage() {
-  const stats = getSiteStats();
-  const totalItems = stats.total;
   const [milestoneToast, setMilestoneToast] = useState<string | null>(null);
   const [streakDays, setStreakDays] = useState(0);
   const [streakEmoji, setStreakEmoji] = useState("");
@@ -97,17 +94,23 @@ export default function HomePage() {
   }
 
   useEffect(() => {
-    const days = getStreak();
-    setStreakDays(days);
-    const milestone = getStreakMilestone(days);
-    if (milestone) setStreakEmoji(milestone.emoji);
-    if (!milestone) return;
-    const lastShown = localStorage.getItem("surfaced-streak-milestone-shown");
-    if (lastShown === String(milestone.days)) return;
-    localStorage.setItem("surfaced-streak-milestone-shown", String(milestone.days));
-    setMilestoneToast(`${milestone.emoji} ${milestone.label} — ${days}-day streak!`);
-    const t = setTimeout(() => setMilestoneToast(null), 4000);
-    return () => clearTimeout(t);
+    let toastTimer: ReturnType<typeof setTimeout> | undefined;
+    const syncTimer = setTimeout(() => {
+      const days = getStreak();
+      setStreakDays(days);
+      const milestone = getStreakMilestone(days);
+      if (milestone) setStreakEmoji(milestone.emoji);
+      if (!milestone) return;
+      const lastShown = localStorage.getItem("surfaced-streak-milestone-shown");
+      if (lastShown === String(milestone.days)) return;
+      localStorage.setItem("surfaced-streak-milestone-shown", String(milestone.days));
+      setMilestoneToast(`${milestone.emoji} ${milestone.label} — ${days}-day streak!`);
+      toastTimer = setTimeout(() => setMilestoneToast(null), 4000);
+    }, 0);
+    return () => {
+      clearTimeout(syncTimer);
+      if (toastTimer) clearTimeout(toastTimer);
+    };
   }, []);
 
   /* Trending This Week — badged items, newest first (12 for carousel) */
@@ -154,16 +157,16 @@ export default function HomePage() {
         colorA="bg-accent/12"
         colorB="bg-emerald-500/8"
         colorC="bg-cyan-500/6"
-        className="relative pt-8 sm:pt-14 pb-6 sm:pb-10"
+        className="relative pt-16 sm:pt-20 pb-8 sm:pb-12"
       >
         {/* Dot grid texture */}
         <div aria-hidden className="pointer-events-none absolute inset-0" style={{ backgroundImage: "radial-gradient(circle, rgba(168,85,247,0.07) 1px, transparent 1px)", backgroundSize: "32px 32px" }} />
         {/* Mouse-tracking glow */}
         <div aria-hidden className="pointer-events-none absolute inset-0" style={{ background: "radial-gradient(500px circle at var(--hx, 50%) var(--hy, 50%), rgba(168,85,247,0.05), transparent 60%)" }} />
 
-        <div className="relative max-w-3xl mx-auto px-4 sm:px-6 text-center">
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center">
           {/* Eyebrow: edition date + optional streak chip */}
-          <div className="flex flex-wrap items-center justify-center gap-2 mb-5">
+          <div className="flex flex-wrap items-center justify-center gap-2 mb-6">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-[10px] font-bold uppercase tracking-[0.18em] text-accent">
               <span className="relative flex h-1.5 w-1.5">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-60" />
@@ -179,20 +182,19 @@ export default function HomePage() {
             )}
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05] mb-4">
-            <BlurText as="span" wordDelay={60} onScroll={false}>What the internet</BlurText>{" "}
-            <BlurText as="span" wordDelay={60} onScroll={false} className="gradient-text">surfaced today.</BlurText>
+          <h1 className="mx-auto max-w-4xl text-center text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[0.98] mb-5 text-balance">
+            Discover something <span className="gradient-text">new</span>
           </h1>
-          <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            Five fresh finds — products, hidden gems, future tech, and discoveries — handpicked every morning.
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed text-balance">
+            Products, hidden gems, future tech, and discoveries, refreshed daily with one timely story worth acting on.
           </p>
 
           <div className="mt-7 flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link
-              href="#today"
+              href="#featured-story"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent-hover transition-all shadow-[0_0_30px_rgba(139,92,246,0.2)] hover:shadow-[0_0_50px_rgba(139,92,246,0.3)] active:scale-[0.98]"
             >
-              Read today&rsquo;s edition
+              Story of the week
               <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                 <path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
@@ -205,7 +207,7 @@ export default function HomePage() {
                 <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5" />
                 <path d="M11 11l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
               </svg>
-              Search {totalItems.toLocaleString()} finds
+              Search Surfaced
               <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-surface-elevated border border-border text-[10px] font-mono text-muted-foreground ml-1">
                 <span className="text-xs">⌘</span>K
               </kbd>
@@ -213,12 +215,13 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Image showcase — wider than the type column for varied rhythm */}
-        <div className="relative mt-10 sm:mt-12">
+        <div id="discover" className="relative mt-12 sm:mt-14">
           <HeroShowcase />
         </div>
       </AuroraBackground>
       </div>
+
+      <CurrentEventsEngine />
 
       {/* ── Topic Marquee — full-bleed, single strip ─────── */}
       <div className="py-3 border-y border-border/30 overflow-hidden">
@@ -276,17 +279,17 @@ export default function HomePage() {
         <div className="max-w-[90rem] mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3">
             {[
-              { label: "Discoveries", href: "/discover", emoji: "🔮", count: stats.byKey.discoveries, color: "from-purple-500/20 to-transparent" },
-              { label: "Products", href: "/trending", emoji: "📈", count: stats.byKey.products, color: "from-green-500/20 to-transparent" },
-              { label: "Hidden Gems", href: "/hidden-gems", emoji: "💎", count: stats.byKey["hidden-gems"], color: "from-amber-500/20 to-transparent" },
-              { label: "Future Tech", href: "/future-radar", emoji: "🔭", count: stats.byKey["future-radar"], color: "from-blue-500/20 to-transparent" },
-              { label: "Daily Tools", href: "/tools", emoji: "🛠️", count: stats.byKey["daily-tools"], color: "from-rose-500/20 to-transparent" },
+              { label: "Discoveries", href: "/discover", emoji: "🔮", description: "Curious facts and science", color: "from-purple-500/20 to-transparent" },
+              { label: "Products", href: "/trending", emoji: "📈", description: "Useful things to buy", color: "from-green-500/20 to-transparent" },
+              { label: "Hidden Gems", href: "/hidden-gems", emoji: "💎", description: "Underrated web tools", color: "from-amber-500/20 to-transparent" },
+              { label: "Future Tech", href: "/future-radar", emoji: "🔭", description: "What is coming next", color: "from-blue-500/20 to-transparent" },
+              { label: "Daily Tools", href: "/tools", emoji: "🛠️", description: "Apps for everyday work", color: "from-rose-500/20 to-transparent" },
             ].map((cat) => (
               <Link key={cat.href} href={cat.href}
                 className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 transition-all group backdrop-blur-sm`}>
                 <span className="text-2xl">{cat.emoji}</span>
                 <p className="font-semibold mt-2 text-sm group-hover:text-accent transition-colors">{cat.label}</p>
-                <p className="text-xs text-muted-foreground">{cat.count} items</p>
+                <p className="text-xs text-muted-foreground">{cat.description}</p>
               </Link>
             ))}
           </div>
@@ -429,16 +432,6 @@ export default function HomePage() {
             ))}
           </div>
 
-          {/* Inline newsletter nudge */}
-          <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 p-5 rounded-xl bg-surface-elevated/50 border border-border/60">
-            <p className="text-sm text-muted-foreground">
-              <span className="text-foreground font-medium">Tomorrow&rsquo;s edition</span>{" "}
-              &mdash; 5 new finds delivered free every morning
-            </p>
-            <div className="shrink-0 w-full sm:w-auto">
-              <NewsletterForm variant="minimal" formId="newsletter-today" ariaLabel="Subscribe — homepage today's edition" data-capture-location="homepage" />
-            </div>
-          </div>
         </div>
       </section>
 
@@ -459,7 +452,6 @@ export default function HomePage() {
                   <span className="text-xl">{cat.icon}</span>
                   <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">
                     {cat.name}
-                    <span className="text-sm text-muted-foreground font-normal ml-2">{cat.count} items</span>
                   </h2>
                 </div>
                 <Link href={cat.path} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">
@@ -515,7 +507,6 @@ export default function HomePage() {
                   <span className="text-xl">{cat.icon}</span>
                   <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">
                     {cat.name}
-                    <span className="text-sm text-muted-foreground font-normal ml-2">{cat.count} items</span>
                   </h2>
                 </div>
                 <Link href={cat.path} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">
@@ -566,10 +557,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ============================================
-          SURPRISE ME FAB
-          ============================================ */}
-      <SurpriseMe variant="fab" />
+      <NewsletterSection />
+
     </>
   );
 }

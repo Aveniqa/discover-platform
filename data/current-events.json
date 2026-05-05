@@ -1,0 +1,169 @@
+[
+  {
+    "id": "tick-season-er-visits-2026",
+    "status": "active",
+    "priority": 1,
+    "label": "Public health",
+    "title": "Tick-bite ER visits are higher than usual",
+    "summary": "CDC reported on April 23, 2026 that emergency room visits for tick bites are higher than normal in many parts of the United States. The useful response is prevention-first: EPA-registered repellents, protective clothing or treated gear, tick checks, and prompt removal if a tick is attached.",
+    "whyNow": "CDC says weekly ER-visit rates are the highest for this time of year since 2017 in all U.S. regions except the South Central region.",
+    "sourceName": "CDC Newsroom",
+    "sourceUrl": "https://www.cdc.gov/media/releases/2026/2026-cdc-data-show-weekly-er-visits-for-tick-bites-higher-than-usual.html",
+    "sourcePublishedAt": "2026-04-23",
+    "lastVerifiedAt": "2026-05-04",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=82",
+    "imageAlt": "A sunlit forest trail with dense grass and brush where ticks may live",
+    "imageCredit": "Unsplash",
+    "responseTags": ["ticks", "repellent", "protective-clothing", "tick-removal", "yard-care"],
+    "recommendations": [
+      {
+        "id": "epa-registered-repellent",
+        "title": "EPA-registered tick repellent",
+        "kind": "product",
+        "matchReason": "CDC recommends EPA-registered repellents with active ingredients such as DEET, picaridin, IR3535, OLE, PMD, or 2-undecanone.",
+        "sourceName": "EPA repellent finder",
+        "sourceUrl": "https://www.epa.gov/insect-repellents/find-repellent-right-you",
+        "shoppingUrl": "https://www.amazon.com/s?k=EPA+registered+tick+repellent+DEET+picaridin&tag=vaultvibe-20",
+        "affiliate": true,
+        "ctaLabel": "Shop repellent"
+      },
+      {
+        "id": "permethrin-treated-gear",
+        "title": "Permethrin-treated clothing or gear",
+        "kind": "product",
+        "matchReason": "CDC says 0.5% permethrin can be used on boots, clothing, and camping gear, or users can buy pre-treated gear.",
+        "sourceName": "CDC prevention guidance",
+        "sourceUrl": "https://www.cdc.gov/ticks/prevention/index.html",
+        "shoppingUrl": "https://www.amazon.com/s?k=permethrin+treated+clothing+tick+protection&tag=vaultvibe-20",
+        "affiliate": true,
+        "ctaLabel": "Shop treated gear"
+      },
+      {
+        "id": "fine-tipped-tweezers",
+        "title": "Fine-tipped tweezers",
+        "kind": "product",
+        "matchReason": "CDC says attached ticks should be removed as soon as possible, and clean fine-tipped tweezers work well for removal.",
+        "sourceName": "CDC after-bite guidance",
+        "sourceUrl": "https://www.cdc.gov/ticks/after-a-tick-bite/",
+        "shoppingUrl": "https://www.amazon.com/s?k=fine+tipped+tweezers+tick+removal&tag=vaultvibe-20",
+        "affiliate": true,
+        "ctaLabel": "Shop tweezers"
+      },
+      {
+        "id": "yard-risk-reduction",
+        "title": "Yard tick-risk reduction",
+        "kind": "service",
+        "matchReason": "CDC lists mowing, clearing tall grass, removing leaf litter, and creating barriers as ways to reduce tick exposure near the home.",
+        "sourceName": "CDC prevention guidance",
+        "sourceUrl": "https://www.cdc.gov/ticks/prevention/index.html",
+        "shoppingUrl": "https://www.cdc.gov/ticks/prevention/index.html",
+        "affiliate": false,
+        "ctaLabel": "Review yard steps"
+      }
+    ]
+  },
+  {
+    "id": "hurricane-preparedness-week-2026",
+    "status": "active",
+    "priority": 2,
+    "label": "Weather readiness",
+    "title": "Hurricane Preparedness Week is underway",
+    "summary": "The National Weather Service preparedness calendar lists Hurricane Preparedness Week for May 3-9, 2026 in several hurricane-prone regions. The practical move is to refresh alerts, evacuation plans, water, power, medication, documents, and pet supplies before the season accelerates.",
+    "whyNow": "Atlantic hurricane season begins June 1, and official preparedness campaigns are running now so households can build kits before storms are approaching.",
+    "sourceName": "National Weather Service",
+    "sourceUrl": "https://www.weather.gov/safety/events_calendar",
+    "sourcePublishedAt": "2026-05-03",
+    "lastVerifiedAt": "2026-05-04",
+    "imageUrl": "https://images.unsplash.com/photo-1500674425229-f692875b0ab7?auto=format&fit=crop&w=1400&q=82",
+    "imageAlt": "A dramatic storm cloud over a road at dusk",
+    "imageCredit": "Unsplash",
+    "responseTags": ["hurricane", "power", "alerts", "water", "emergency-kit"],
+    "recommendations": [
+      {
+        "id": "noaa-weather-radio",
+        "title": "NOAA weather radio",
+        "kind": "product",
+        "matchReason": "Preparedness guidance commonly includes a battery-powered or hand-crank radio so alerts still work during outages.",
+        "sourceName": "Ready.gov kit guidance",
+        "sourceUrl": "https://www.ready.gov/kit",
+        "shoppingUrl": "https://www.amazon.com/s?k=NOAA+weather+radio+hand+crank&tag=vaultvibe-20",
+        "affiliate": true,
+        "ctaLabel": "Shop radios"
+      },
+      {
+        "id": "portable-power",
+        "title": "Portable power and charging",
+        "kind": "product",
+        "matchReason": "Storm prep should account for phone charging, flashlights, radios, and essential devices when electricity is interrupted.",
+        "sourceName": "Ready.gov kit guidance",
+        "sourceUrl": "https://www.ready.gov/kit",
+        "shoppingUrl": "https://www.amazon.com/s?k=portable+power+bank+emergency+kit&tag=vaultvibe-20",
+        "affiliate": true,
+        "ctaLabel": "Shop backup power"
+      },
+      {
+        "id": "water-storage",
+        "title": "Water storage and basic supplies",
+        "kind": "product",
+        "matchReason": "Preparedness campaigns emphasize having enough water, non-perishable food, medication, and household basics for several days.",
+        "sourceName": "Ready.gov kit guidance",
+        "sourceUrl": "https://www.ready.gov/kit",
+        "shoppingUrl": "https://www.amazon.com/s?k=emergency+water+storage+container&tag=vaultvibe-20",
+        "affiliate": true,
+        "ctaLabel": "Shop water storage"
+      }
+    ]
+  },
+  {
+    "id": "air-quality-awareness-week-2026",
+    "status": "active",
+    "priority": 3,
+    "label": "Air quality",
+    "title": "Air Quality Awareness Week begins May 4",
+    "summary": "Air Quality Awareness Week runs May 4-8, 2026, with EPA-linked resources focused on wildland smoke, asthma, indoor air quality, and knowing local air conditions. The practical response is to monitor AQI and improve filtration where it is useful.",
+    "whyNow": "May 4 starts the week with wildland fires and smoke, and federal/state resources point users toward AirNow and smoke-readiness guidance.",
+    "sourceName": "Hawaii Department of Health / EPA",
+    "sourceUrl": "https://health.hawaii.gov/cab/air-quality-awareness-week-2026/",
+    "sourcePublishedAt": "2026-05-04",
+    "lastVerifiedAt": "2026-05-04",
+    "imageUrl": "https://images.pexels.com/photos/32079707/pexels-photo-32079707.jpeg?auto=compress&cs=tinysrgb&h=900&w=1400",
+    "imageAlt": "A home air purifier in a bright room",
+    "imageCredit": "Pexels",
+    "responseTags": ["air-quality", "wildfire-smoke", "indoor-air", "filtration", "aqi"],
+    "recommendations": [
+      {
+        "id": "hepa-air-purifier",
+        "title": "HEPA room air purifier",
+        "kind": "product",
+        "matchReason": "For indoor air quality planning, a properly sized purifier can help reduce airborne particles in a room when used as directed.",
+        "sourceName": "EPA indoor air quality topic",
+        "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq",
+        "shoppingUrl": "https://www.amazon.com/s?k=HEPA+air+purifier+bedroom&tag=vaultvibe-20",
+        "affiliate": true,
+        "ctaLabel": "Shop purifiers"
+      },
+      {
+        "id": "hvac-filter",
+        "title": "MERV-rated HVAC filters",
+        "kind": "product",
+        "matchReason": "Filtration planning is one of the practical household steps people revisit when smoke, pollen, or poor AQI is in the news.",
+        "sourceName": "EPA indoor air quality topic",
+        "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq",
+        "shoppingUrl": "https://www.amazon.com/s?k=MERV+13+HVAC+filter&tag=vaultvibe-20",
+        "affiliate": true,
+        "ctaLabel": "Shop filters"
+      },
+      {
+        "id": "airnow-aqi",
+        "title": "AirNow AQI checks",
+        "kind": "service",
+        "matchReason": "EPA-linked AirNow resources help users check local AQI and smoke information before changing outdoor plans.",
+        "sourceName": "AirNow",
+        "sourceUrl": "https://www.airnow.gov/",
+        "shoppingUrl": "https://www.airnow.gov/",
+        "affiliate": false,
+        "ctaLabel": "Check AirNow"
+      }
+    ]
+  }
+]
