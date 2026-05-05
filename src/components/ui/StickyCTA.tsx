@@ -48,6 +48,8 @@ export function StickyCTA({ title, priceRange, ctaUrl, isAffiliate, itemType, pr
         href={ctaUrl}
         target="_blank"
         rel={isAffiliate ? "sponsored noopener noreferrer nofollow" : "noopener noreferrer"}
+        data-affiliate={isAffiliate ? "true" : "false"}
+        data-provider={provider || ""}
         className={`shrink-0 min-w-0 max-w-[52vw] px-4 sm:px-5 py-2.5 rounded-xl text-sm font-bold transition-all active:scale-95 flex items-center justify-center gap-2 ${
           isAmazon
             ? "bg-amber-400 hover:bg-amber-300 text-black shadow-[0_0_20px_rgba(251,191,36,0.2)]"

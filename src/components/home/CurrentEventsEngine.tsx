@@ -362,9 +362,9 @@ export function CurrentEventsEngine() {
 
         <TrendingLiveRail events={currentEvents} />
 
-        <div className="grid gap-4 lg:grid-cols-[minmax(0,1.35fr)_minmax(320px,0.65fr)]">
+        <div className="grid min-h-[fit-content] auto-rows-min items-start gap-4 lg:grid-cols-[minmax(0,1.35fr)_minmax(320px,0.65fr)]">
           <article
-            className={`relative overflow-hidden rounded-xl border border-emerald-300/20 ${weatherPresentation.className}`}
+            className={`relative h-fit min-h-[fit-content] self-start overflow-hidden rounded-xl border border-emerald-300/20 ${weatherPresentation.className}`}
             data-weather-state={weatherPresentation.state}
           >
             {weatherPresentation.effects.length > 0 && (
@@ -377,8 +377,8 @@ export function CurrentEventsEngine() {
                 ))}
               </div>
             )}
-            <div className="relative grid sm:grid-cols-[minmax(12rem,18rem)_1fr]">
-              <div className="relative h-48 sm:h-full sm:min-h-[20rem]">
+            <div className="relative grid min-h-[fit-content] items-start gap-4 sm:grid-cols-[minmax(12rem,18rem)_minmax(0,1fr)] sm:items-stretch sm:gap-0">
+              <div className="relative h-48 sm:h-auto sm:min-h-[20rem] sm:self-stretch">
                 <Image
                   src={getCurrentEventDisplayImageUrl(leadCurrentEvent, 760, 72)}
                   alt={leadCurrentEvent.imageAlt}
@@ -389,7 +389,7 @@ export function CurrentEventsEngine() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent sm:bg-gradient-to-r" />
               </div>
 
-              <div className="relative flex flex-col p-5 sm:p-6 lg:p-7">
+              <div className="relative flex min-h-0 flex-col p-5 sm:p-6 lg:p-7">
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="rounded-full bg-emerald-300 px-3 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-black">
                     Featured
@@ -441,7 +441,7 @@ export function CurrentEventsEngine() {
             </div>
           </article>
 
-          <div className="grid gap-4">
+          <div className="grid min-h-[fit-content] content-start gap-4">
             <div className="rounded-xl border border-border bg-surface p-5">
               <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
                 Why now
@@ -474,7 +474,7 @@ export function CurrentEventsEngine() {
           </div>
         </div>
 
-        <div className="mt-4 grid gap-4 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+        <div className="mt-4 grid min-h-[fit-content] auto-rows-min gap-4 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
           {nextSteps.length > 0 && (
             <div className="rounded-xl border border-border bg-surface p-5">
               <div className="flex items-end justify-between gap-4">
@@ -521,7 +521,7 @@ export function CurrentEventsEngine() {
         </div>
 
         {supportingEvents.length > 0 && (
-          <div className="mt-4 grid gap-4 lg:grid-cols-[0.34fr_0.66fr]">
+          <div className="mt-4 grid min-h-[fit-content] auto-rows-min gap-4 lg:grid-cols-[0.34fr_0.66fr]">
             <div className="rounded-xl border border-border bg-surface p-5">
               <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
                 Also watching

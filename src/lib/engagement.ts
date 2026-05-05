@@ -78,12 +78,11 @@ export function getNewsletterEmail(): string | null {
 const SITE_URL = "https://surfaced-x.pages.dev";
 
 export function getShareUrl(slug: string): string {
-  const origin = typeof window !== "undefined" ? window.location.origin : SITE_URL;
-  return `${origin}/item/${slug}`;
+  return `${SITE_URL}/item/${slug}`;
 }
 
 export function getSiteUrl(): string {
-  return typeof window !== "undefined" ? window.location.origin : SITE_URL;
+  return SITE_URL;
 }
 
 export function getShareText(title: string): string {
