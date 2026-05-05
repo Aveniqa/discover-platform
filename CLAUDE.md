@@ -78,6 +78,9 @@ This version may have breaking changes vs. your training data. Read `node_module
 - Site-wide editorial trust polish is now intentional: category heroes, cards, item detail pages, source pills, ad labels, and outbound link rel attributes were tightened.
 - Keep the homepage current-event module as the richest, most source-heavy feature. Other pages should feel editorial and trustworthy, but should not claim to be official product/source pages.
 - Use `SourceTrailLink`, `EditorialTrustBar`, and `src/lib/trust.ts` for source/trust UI instead of duplicating URL-host parsing in page components.
+- The current-event commerce layer is now scored in `src/lib/current-event-intelligence.ts`; homepage events must pass source, legitimacy, safety, and recommendation gates before rendering.
+- `data/current-events.json` now carries topic, geography, confidence, source trail, editorial safeguards, and recommendation-quality scores. Keep source URLs allowlisted in `scripts/validate-current-events.mjs`.
+- See `docs/current-event-intelligence.md` before adding feeds, APIs, or product-matching automation.
 - AdSense safety rules for future edits: do not encourage ad clicks, do not make ads look like navigation/content, keep ad containers labeled "Advertisement", and keep commerce links visually distinct from editorial text.
 - Affiliate link policy: prefer direct product URLs. Amazon affiliate links should use direct `/dp/{ASIN}` or `/gp/product/{ASIN}` URLs whenever an ASIN is known; search pages are only acceptable when no reliable direct product target exists.
 - Security changes in this release: CSP now includes `object-src 'none'`, Buttondown `form-action`, `upgrade-insecure-requests`, and `report-uri /api/csp-report`; the CSP report endpoint no longer stores user-agent strings; build validation workflow keeps write access only on the failure-alert issue job.

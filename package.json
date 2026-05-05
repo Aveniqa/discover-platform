@@ -13,6 +13,7 @@
     "audit:products": "node scripts/audit-product-commerce.mjs",
     "audit:product-images": "node scripts/audit-product-images.mjs",
     "audit:current-events": "node scripts/validate-current-events.mjs",
+    "discover:current-events": "node scripts/discover-current-events.mjs",
     "seo:ping": "node scripts/ping-search-engines.mjs",
     "start": "next start",
     "lint": "eslint",

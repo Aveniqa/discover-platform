@@ -1,13 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
-import { currentEvents, formatCurrentEventDate, leadCurrentEvent } from "@/lib/current-events";
+import {
+  currentEvents,
+  formatCurrentEventDate,
+  getCurrentEventDiagnostics,
+  getCurrentEventRecommendations,
+  getCurrentEventSourceTrail,
+  getCurrentEventTrustSummary,
+  getHost,
+  leadCurrentEvent,
+} from "@/lib/current-events";
 
 function hostLabel(url: string): string {
-  try {
-    return new URL(url).hostname.replace(/^www\./, "");
-  } catch {
-    return "source";
-  }
+  return getHost(url) || "source";
 }
 
 function linkRel(isAffiliate: boolean): string {
@@ -31,15 +36,10 @@ export function CurrentEventsEngine() {
   }
 
   const supportingEvents = currentEvents.slice(1);
-  const sourceTrail = Array.from(
-    new Map(
-      [
-        [leadCurrentEvent.sourceUrl, leadCurrentEvent.sourceName],
-        ...leadCurrentEvent.recommendations.map((item) => [item.sourceUrl, item.sourceName] as const),
-        ...(leadCurrentEvent.nextSteps?.map((step) => [step.sourceUrl, step.sourceName] as const) ?? []),
-      ],
-    ).entries(),
-  ).slice(0, 4);
+  const leadRecommendations = getCurrentEventRecommendations(leadCurrentEvent);
+  const leadDiagnostics = getCurrentEventDiagnostics(leadCurrentEvent);
+  const trustSummary = getCurrentEventTrustSummary(leadCurrentEvent);
+  const sourceTrail = getCurrentEventSourceTrail(leadCurrentEvent);
 
   return (
     <section id="featured-story" aria-labelledby="featured-story-heading" className="relative py-10 sm:py-16 px-4 sm:px-6 text-left">
@@ -50,11 +50,11 @@ export function CurrentEventsEngine() {
               Story of the week
             </p>
             <h2 id="featured-story-heading" className="mt-1 text-3xl sm:text-4xl font-black tracking-tight text-foreground">
-              Tick season is the practical one to watch
+              Source-backed response guide
             </h2>
           </div>
           <p className="max-w-xl text-sm text-muted-foreground">
-            A weekly current-events feature that connects trusted reporting to useful, clearly disclosed products and services.
+            Trusted current events matched to practical recommendations, with source trails and commerce safeguards visible before every click.
           </p>
         </div>
 
@@ -106,14 +106,14 @@ export function CurrentEventsEngine() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-lg bg-white text-black px-4 py-2.5 text-sm font-bold hover:bg-white/90 transition-colors"
                 >
-                  Read the CDC source
+                  Read the source
                 </a>
                 <span className="text-xs text-muted-foreground">
                   {leadCurrentEvent.sourceName} · {hostLabel(leadCurrentEvent.sourceUrl)}
                 </span>
               </div>
               <p className="mt-5 text-[11px] leading-relaxed text-muted-foreground">
-                Photo: {leadCurrentEvent.imageCredit}. Informational only, not medical advice. Follow CDC guidance and contact a qualified clinician for personal health concerns.
+                Photo: {leadCurrentEvent.imageCredit}. Informational only; follow the linked source guidance for decisions that affect health, safety, or property.
               </p>
 
               {!!leadCurrentEvent.storySignals?.length && (
@@ -139,7 +139,7 @@ export function CurrentEventsEngine() {
                         Before you shop
                       </p>
                       <h4 className="mt-1 text-xl font-black tracking-tight text-foreground">
-                        A CDC-backed action plan
+                        A source-backed action plan
                       </h4>
                     </div>
                     <span className="text-[11px] text-muted-foreground">
@@ -183,7 +183,7 @@ export function CurrentEventsEngine() {
                     Practical response kit
                   </p>
                   <h4 className="mt-1 text-2xl font-black tracking-tight text-foreground">
-                    Products and services tied to the source
+                    Useful recommendations with source trail
                   </h4>
                 </div>
                 <Link href="/affiliate-disclosure" className="text-xs font-medium text-muted-foreground hover:text-accent transition-colors link-underline">
@@ -192,12 +192,12 @@ export function CurrentEventsEngine() {
               </div>
 
               <div className="mt-5 grid gap-3 sm:grid-cols-2">
-                {leadCurrentEvent.recommendations.map((item) => (
+                {leadRecommendations.map((item) => (
                   <article key={item.id} className="rounded-xl border border-border/70 bg-background/40 p-4">
                     <div className="flex items-start justify-between gap-3">
                       <div>
                         <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-emerald-300">
-                          {item.kind}
+                          {item.category}
                         </span>
                         <h5 className="mt-1 text-base font-bold leading-snug text-foreground">
                           {item.title}
@@ -211,6 +211,9 @@ export function CurrentEventsEngine() {
                     </div>
                     <p className="mt-2 text-xs leading-relaxed text-muted">
                       {item.matchReason}
+                    </p>
+                    <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+                      {item.whyItHelps}
                     </p>
                     <div className="mt-4 flex flex-wrap items-center gap-3">
                       <a
@@ -236,15 +239,21 @@ export function CurrentEventsEngine() {
               </div>
 
               <div className="mt-6 rounded-2xl border border-white/10 bg-background/35 p-4 sm:p-5">
-                <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
-                  Why these made the cut
-                </p>
-                <div className="mt-3 grid gap-3 sm:grid-cols-3">
-                  {[
-                    "Directly tied to CDC or EPA guidance",
-                    "Useful before, during, or after outdoor exposure",
-                    "No cure claims, panic language, or unrelated impulse buys",
-                  ].map((rule) => (
+                <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                  <div>
+                    <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
+                      Editorial safeguards
+                    </p>
+                    <p className="mt-1 text-sm font-bold text-foreground">
+                      Strength {leadDiagnostics.editorialStrength}/100 · {leadDiagnostics.label}
+                    </p>
+                  </div>
+                  <span className="text-[11px] text-muted-foreground">
+                    {leadDiagnostics.recommendationCount} recommendations passed
+                  </span>
+                </div>
+                <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                  {trustSummary.map((rule) => (
                     <div key={rule} className="rounded-xl border border-border/60 bg-surface/40 p-3">
                       <p className="text-xs leading-relaxed text-muted">
                         {rule}
@@ -259,17 +268,17 @@ export function CurrentEventsEngine() {
                   Source trail
                 </p>
                 <div className="mt-3 grid gap-2 sm:grid-cols-2">
-                  {sourceTrail.map(([url, name]) => (
+                  {sourceTrail.map((source) => (
                     <a
-                      key={url}
-                      href={url}
+                      key={source.url}
+                      href={source.url}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="rounded-xl border border-border/60 bg-surface/35 p-3 text-xs font-semibold text-foreground hover:border-emerald-300/40 hover:text-emerald-200 transition-colors"
                     >
-                      {name}
+                      {source.name}
                       <span className="mt-1 block text-[11px] font-normal text-muted-foreground">
-                        {hostLabel(url)}
+                        {hostLabel(source.url)}
                       </span>
                     </a>
                   ))}
@@ -292,7 +301,9 @@ export function CurrentEventsEngine() {
               </div>
             </div>
             <div className="grid gap-4 md:grid-cols-2">
-              {supportingEvents.map((event) => (
+              {supportingEvents.map((event) => {
+                const recommendations = getCurrentEventRecommendations(event);
+                return (
                 <article key={event.id} className="overflow-hidden rounded-xl border border-border bg-surface">
                   <div className="relative h-48">
                     <Image
@@ -317,7 +328,7 @@ export function CurrentEventsEngine() {
                       {event.summary}
                     </p>
                     <div className="mt-4 grid gap-2 sm:grid-cols-3">
-                      {event.recommendations.slice(0, 3).map((item) => (
+                      {recommendations.slice(0, 3).map((item) => (
                         <a
                           key={item.id}
                           href={item.shoppingUrl}
@@ -340,7 +351,8 @@ export function CurrentEventsEngine() {
                     </a>
                   </div>
                 </article>
-              ))}
+                );
+              })}
             </div>
           </div>
         )}

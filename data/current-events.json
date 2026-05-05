@@ -4,17 +4,59 @@
     "status": "active",
     "priority": 1,
     "label": "Public health",
+    "topic": "public-health.tick-borne-disease",
+    "geography": ["US"],
+    "confidence": 94,
+    "editorialStrength": 94,
+    "sourceQualityScore": 96,
+    "legitimacyScore": 94,
+    "timelinessScore": 88,
+    "safetyScore": 95,
+    "matchingRationale": "The product set maps directly to CDC prevention and after-bite guidance, with prevention steps shown before affiliate links.",
     "title": "Tick-bite ER visits are higher than usual",
     "summary": "CDC reported on April 23, 2026 that emergency room visits for tick bites are higher than normal in many parts of the United States. The useful response is prevention-first: EPA-registered repellents, protective clothing or treated gear, tick checks, and prompt removal if a tick is attached.",
     "whyNow": "CDC says weekly ER-visit rates are the highest for this time of year since 2017 in all U.S. regions except the South Central region.",
     "sourceName": "CDC Newsroom",
     "sourceUrl": "https://www.cdc.gov/media/releases/2026/2026-cdc-data-show-weekly-er-visits-for-tick-bites-higher-than-usual.html",
     "sourcePublishedAt": "2026-04-23",
-    "lastVerifiedAt": "2026-05-04",
+    "lastVerifiedAt": "2026-05-05",
     "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1600&q=82",
     "imageAlt": "A sunlit forest trail with dense grass and brush where ticks may live",
     "imageCredit": "Unsplash",
-    "responseTags": ["ticks", "repellent", "protective-clothing", "tick-removal", "yard-care"],
+    "responseTags": [
+      "ticks",
+      "repellent",
+      "protective-clothing",
+      "tick-removal",
+      "yard-care"
+    ],
+    "sourceTrail": [
+      {
+        "name": "CDC newsroom release",
+        "url": "https://www.cdc.gov/media/releases/2026/2026-cdc-data-show-weekly-er-visits-for-tick-bites-higher-than-usual.html",
+        "role": "event-source"
+      },
+      {
+        "name": "CDC tick prevention",
+        "url": "https://www.cdc.gov/ticks/prevention/index.html",
+        "role": "guidance"
+      },
+      {
+        "name": "CDC after-bite guidance",
+        "url": "https://www.cdc.gov/ticks/after-a-tick-bite/",
+        "role": "guidance"
+      },
+      {
+        "name": "EPA repellent finder",
+        "url": "https://www.epa.gov/insect-repellents/find-repellent-right-you",
+        "role": "product-evidence"
+      }
+    ],
+    "editorialSafeguards": [
+      "Primary event source is CDC, with EPA used only for repellent-selection evidence.",
+      "Recommendations are prevention, checking, removal, or yard-risk reduction steps tied to source guidance.",
+      "Medical guidance stays with CDC, and the shopping copy avoids alarmist or treatment language."
+    ],
     "storySignals": [
       {
         "value": "Since 2017",
@@ -54,45 +96,114 @@
         "id": "epa-registered-repellent",
         "title": "EPA-registered tick repellent",
         "kind": "product",
+        "category": "Outdoor prevention",
         "matchReason": "CDC recommends EPA-registered repellents with active ingredients such as DEET, picaridin, IR3535, OLE, PMD, or 2-undecanone.",
+        "whyItHelps": "Repellent is a direct prevention step before outdoor exposure in grassy, brushy, or wooded areas.",
         "sourceName": "EPA repellent finder",
         "sourceUrl": "https://www.epa.gov/insect-repellents/find-repellent-right-you",
         "shoppingUrl": "https://www.amazon.com/s?k=EPA+registered+tick+repellent+DEET+picaridin&tag=vaultvibe-20",
         "affiliate": true,
-        "ctaLabel": "Shop repellent"
+        "ctaLabel": "Shop repellent",
+        "destinationType": "affiliate-search",
+        "usefulnessScore": 94,
+        "buyerIntentScore": 88,
+        "safetyScore": 92,
+        "availabilityScore": 82,
+        "neutralityScore": 84,
+        "misleadingRiskScore": 90,
+        "sourceTrail": [
+          {
+            "name": "CDC prevention guidance",
+            "url": "https://www.cdc.gov/ticks/prevention/index.html",
+            "role": "guidance"
+          },
+          {
+            "name": "EPA repellent finder",
+            "url": "https://www.epa.gov/insect-repellents/find-repellent-right-you",
+            "role": "product-evidence"
+          }
+        ]
       },
       {
         "id": "permethrin-treated-gear",
         "title": "Permethrin-treated clothing or gear",
         "kind": "product",
+        "category": "Protective gear",
         "matchReason": "CDC says 0.5% permethrin can be used on boots, clothing, and camping gear, or users can buy pre-treated gear.",
+        "whyItHelps": "Treated footwear, clothing, or gear can reduce exposure before hikes, yard work, camping, or outdoor jobs.",
         "sourceName": "CDC prevention guidance",
         "sourceUrl": "https://www.cdc.gov/ticks/prevention/index.html",
         "shoppingUrl": "https://www.amazon.com/s?k=permethrin+treated+clothing+tick+protection&tag=vaultvibe-20",
         "affiliate": true,
-        "ctaLabel": "Shop treated gear"
+        "ctaLabel": "Shop treated gear",
+        "destinationType": "affiliate-search",
+        "usefulnessScore": 90,
+        "buyerIntentScore": 82,
+        "safetyScore": 90,
+        "availabilityScore": 78,
+        "neutralityScore": 84,
+        "misleadingRiskScore": 88,
+        "sourceTrail": [
+          {
+            "name": "CDC prevention guidance",
+            "url": "https://www.cdc.gov/ticks/prevention/index.html",
+            "role": "guidance"
+          }
+        ]
       },
       {
         "id": "fine-tipped-tweezers",
         "title": "Fine-tipped tweezers",
         "kind": "product",
+        "category": "Tick removal",
         "matchReason": "CDC says attached ticks should be removed as soon as possible, and clean fine-tipped tweezers work well for removal.",
+        "whyItHelps": "Tweezers support the after-exposure step CDC names, without implying treatment or diagnosis.",
         "sourceName": "CDC after-bite guidance",
         "sourceUrl": "https://www.cdc.gov/ticks/after-a-tick-bite/",
         "shoppingUrl": "https://www.amazon.com/s?k=fine+tipped+tweezers+tick+removal&tag=vaultvibe-20",
         "affiliate": true,
-        "ctaLabel": "Shop tweezers"
+        "ctaLabel": "Shop tweezers",
+        "destinationType": "affiliate-search",
+        "usefulnessScore": 88,
+        "buyerIntentScore": 78,
+        "safetyScore": 93,
+        "availabilityScore": 90,
+        "neutralityScore": 90,
+        "misleadingRiskScore": 92,
+        "sourceTrail": [
+          {
+            "name": "CDC after-bite guidance",
+            "url": "https://www.cdc.gov/ticks/after-a-tick-bite/",
+            "role": "guidance"
+          }
+        ]
       },
       {
         "id": "yard-risk-reduction",
         "title": "Yard tick-risk reduction",
         "kind": "service",
+        "category": "Home prevention",
         "matchReason": "CDC lists mowing, clearing tall grass, removing leaf litter, and creating barriers as ways to reduce tick exposure near the home.",
+        "whyItHelps": "This is a non-affiliate service/action path for readers who need environmental steps more than products.",
         "sourceName": "CDC prevention guidance",
         "sourceUrl": "https://www.cdc.gov/ticks/prevention/index.html",
         "shoppingUrl": "https://www.cdc.gov/ticks/prevention/index.html",
         "affiliate": false,
-        "ctaLabel": "Review yard steps"
+        "ctaLabel": "Review yard steps",
+        "destinationType": "official-guide",
+        "usefulnessScore": 86,
+        "buyerIntentScore": 58,
+        "safetyScore": 94,
+        "availabilityScore": 96,
+        "neutralityScore": 98,
+        "misleadingRiskScore": 96,
+        "sourceTrail": [
+          {
+            "name": "CDC prevention guidance",
+            "url": "https://www.cdc.gov/ticks/prevention/index.html",
+            "role": "guidance"
+          }
+        ]
       }
     ]
   },
@@ -101,50 +212,130 @@
     "status": "active",
     "priority": 2,
     "label": "Weather readiness",
+    "topic": "weather.hurricane-preparedness",
+    "geography": ["US", "Gulf Coast", "Atlantic Coast"],
+    "confidence": 90,
+    "editorialStrength": 90,
+    "sourceQualityScore": 95,
+    "legitimacyScore": 89,
+    "timelinessScore": 96,
+    "safetyScore": 93,
+    "matchingRationale": "The recommendation set is limited to preparedness basics supported by NWS and Ready.gov, with no storm-intensity predictions.",
     "title": "Hurricane Preparedness Week is underway",
     "summary": "The National Weather Service preparedness calendar lists Hurricane Preparedness Week for May 3-9, 2026 in several hurricane-prone regions. The practical move is to refresh alerts, evacuation plans, water, power, medication, documents, and pet supplies before the season accelerates.",
     "whyNow": "Atlantic hurricane season begins June 1, and official preparedness campaigns are running now so households can build kits before storms are approaching.",
     "sourceName": "National Weather Service",
     "sourceUrl": "https://www.weather.gov/safety/events_calendar",
     "sourcePublishedAt": "2026-05-03",
-    "lastVerifiedAt": "2026-05-04",
+    "lastVerifiedAt": "2026-05-05",
     "imageUrl": "https://images.unsplash.com/photo-1500674425229-f692875b0ab7?auto=format&fit=crop&w=1400&q=82",
     "imageAlt": "A dramatic storm cloud over a road at dusk",
     "imageCredit": "Unsplash",
-    "responseTags": ["hurricane", "power", "alerts", "water", "emergency-kit"],
+    "responseTags": [
+      "hurricane",
+      "power",
+      "alerts",
+      "water",
+      "emergency-kit"
+    ],
+    "sourceTrail": [
+      {
+        "name": "National Weather Service preparedness calendar",
+        "url": "https://www.weather.gov/safety/events_calendar",
+        "role": "event-source"
+      },
+      {
+        "name": "Ready.gov kit guidance",
+        "url": "https://www.ready.gov/kit",
+        "role": "guidance"
+      }
+    ],
+    "editorialSafeguards": [
+      "Preparedness recommendations are evergreen basics, not storm-specific predictions.",
+      "The commerce set is limited to alerts, power, and water-storage needs tied to official guidance.",
+      "Official guidance links remain visible beside monetized destinations."
+    ],
     "recommendations": [
       {
         "id": "noaa-weather-radio",
         "title": "NOAA weather radio",
         "kind": "product",
+        "category": "Emergency alerts",
         "matchReason": "Preparedness guidance commonly includes a battery-powered or hand-crank radio so alerts still work during outages.",
+        "whyItHelps": "A radio is useful when mobile networks or home power fail and households still need official alerts.",
         "sourceName": "Ready.gov kit guidance",
         "sourceUrl": "https://www.ready.gov/kit",
         "shoppingUrl": "https://www.amazon.com/s?k=NOAA+weather+radio+hand+crank&tag=vaultvibe-20",
         "affiliate": true,
-        "ctaLabel": "Shop radios"
+        "ctaLabel": "Shop radios",
+        "destinationType": "affiliate-search",
+        "usefulnessScore": 91,
+        "buyerIntentScore": 84,
+        "safetyScore": 92,
+        "availabilityScore": 86,
+        "neutralityScore": 86,
+        "misleadingRiskScore": 92,
+        "sourceTrail": [
+          {
+            "name": "Ready.gov kit guidance",
+            "url": "https://www.ready.gov/kit",
+            "role": "guidance"
+          }
+        ]
       },
       {
         "id": "portable-power",
         "title": "Portable power and charging",
         "kind": "product",
+        "category": "Backup power",
         "matchReason": "Storm prep should account for phone charging, flashlights, radios, and essential devices when electricity is interrupted.",
+        "whyItHelps": "Backup charging supports communication and alerts without implying a specific product is required.",
         "sourceName": "Ready.gov kit guidance",
         "sourceUrl": "https://www.ready.gov/kit",
         "shoppingUrl": "https://www.amazon.com/s?k=portable+power+bank+emergency+kit&tag=vaultvibe-20",
         "affiliate": true,
-        "ctaLabel": "Shop backup power"
+        "ctaLabel": "Shop backup power",
+        "destinationType": "affiliate-search",
+        "usefulnessScore": 88,
+        "buyerIntentScore": 82,
+        "safetyScore": 90,
+        "availabilityScore": 86,
+        "neutralityScore": 84,
+        "misleadingRiskScore": 90,
+        "sourceTrail": [
+          {
+            "name": "Ready.gov kit guidance",
+            "url": "https://www.ready.gov/kit",
+            "role": "guidance"
+          }
+        ]
       },
       {
         "id": "water-storage",
         "title": "Water storage and basic supplies",
         "kind": "product",
+        "category": "Emergency kit",
         "matchReason": "Preparedness campaigns emphasize having enough water, non-perishable food, medication, and household basics for several days.",
+        "whyItHelps": "Water storage is a practical kit item that can be bought ahead of a storm instead of during last-minute demand.",
         "sourceName": "Ready.gov kit guidance",
         "sourceUrl": "https://www.ready.gov/kit",
         "shoppingUrl": "https://www.amazon.com/s?k=emergency+water+storage+container&tag=vaultvibe-20",
         "affiliate": true,
-        "ctaLabel": "Shop water storage"
+        "ctaLabel": "Shop water storage",
+        "destinationType": "affiliate-search",
+        "usefulnessScore": 86,
+        "buyerIntentScore": 80,
+        "safetyScore": 92,
+        "availabilityScore": 84,
+        "neutralityScore": 84,
+        "misleadingRiskScore": 91,
+        "sourceTrail": [
+          {
+            "name": "Ready.gov kit guidance",
+            "url": "https://www.ready.gov/kit",
+            "role": "guidance"
+          }
+        ]
       }
     ]
   },
@@ -153,50 +344,135 @@
     "status": "active",
     "priority": 3,
     "label": "Air quality",
+    "topic": "environment.air-quality-awareness",
+    "geography": ["US", "Hawaii"],
+    "confidence": 86,
+    "editorialStrength": 86,
+    "sourceQualityScore": 91,
+    "legitimacyScore": 84,
+    "timelinessScore": 96,
+    "safetyScore": 88,
+    "matchingRationale": "The guide uses EPA-linked awareness resources and keeps product claims to monitoring and filtration, not health outcomes.",
     "title": "Air Quality Awareness Week begins May 4",
     "summary": "Air Quality Awareness Week runs May 4-8, 2026, with EPA-linked resources focused on wildland smoke, asthma, indoor air quality, and knowing local air conditions. The practical response is to monitor AQI and improve filtration where it is useful.",
     "whyNow": "May 4 starts the week with wildland fires and smoke, and federal/state resources point users toward AirNow and smoke-readiness guidance.",
     "sourceName": "Hawaii Department of Health / EPA",
     "sourceUrl": "https://health.hawaii.gov/cab/air-quality-awareness-week-2026/",
     "sourcePublishedAt": "2026-05-04",
-    "lastVerifiedAt": "2026-05-04",
+    "lastVerifiedAt": "2026-05-05",
     "imageUrl": "https://images.pexels.com/photos/32079707/pexels-photo-32079707.jpeg?auto=compress&cs=tinysrgb&h=900&w=1400",
     "imageAlt": "A home air purifier in a bright room",
     "imageCredit": "Pexels",
-    "responseTags": ["air-quality", "wildfire-smoke", "indoor-air", "filtration", "aqi"],
+    "responseTags": [
+      "air-quality",
+      "wildfire-smoke",
+      "indoor-air",
+      "filtration",
+      "aqi"
+    ],
+    "sourceTrail": [
+      {
+        "name": "Air Quality Awareness Week notice",
+        "url": "https://health.hawaii.gov/cab/air-quality-awareness-week-2026/",
+        "role": "event-source"
+      },
+      {
+        "name": "EPA indoor air quality topic",
+        "url": "https://www.epa.gov/indoor-air-quality-iaq",
+        "role": "guidance"
+      },
+      {
+        "name": "AirNow AQI service",
+        "url": "https://www.airnow.gov/",
+        "role": "service-destination"
+      }
+    ],
+    "editorialSafeguards": [
+      "The event source is a state public-health page tied to EPA awareness resources.",
+      "Recommendations focus on checking AQI and filtration planning, not medical claims.",
+      "AirNow is included as a non-affiliate service path before purchase decisions."
+    ],
     "recommendations": [
       {
         "id": "hepa-air-purifier",
         "title": "HEPA room air purifier",
         "kind": "product",
+        "category": "Indoor filtration",
         "matchReason": "For indoor air quality planning, a properly sized purifier can help reduce airborne particles in a room when used as directed.",
+        "whyItHelps": "A purifier is relevant only when indoor filtration is useful for the room, household, and local AQI context.",
         "sourceName": "EPA indoor air quality topic",
         "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq",
         "shoppingUrl": "https://www.amazon.com/s?k=HEPA+air+purifier+bedroom&tag=vaultvibe-20",
         "affiliate": true,
-        "ctaLabel": "Shop purifiers"
+        "ctaLabel": "Shop purifiers",
+        "destinationType": "affiliate-search",
+        "usefulnessScore": 82,
+        "buyerIntentScore": 76,
+        "safetyScore": 84,
+        "availabilityScore": 86,
+        "neutralityScore": 80,
+        "misleadingRiskScore": 82,
+        "sourceTrail": [
+          {
+            "name": "EPA indoor air quality topic",
+            "url": "https://www.epa.gov/indoor-air-quality-iaq",
+            "role": "guidance"
+          }
+        ]
       },
       {
         "id": "hvac-filter",
         "title": "MERV-rated HVAC filters",
         "kind": "product",
+        "category": "Indoor filtration",
         "matchReason": "Filtration planning is one of the practical household steps people revisit when smoke, pollen, or poor AQI is in the news.",
+        "whyItHelps": "A filter can be relevant when compatible with the home system and changed according to manufacturer guidance.",
         "sourceName": "EPA indoor air quality topic",
         "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq",
         "shoppingUrl": "https://www.amazon.com/s?k=MERV+13+HVAC+filter&tag=vaultvibe-20",
         "affiliate": true,
-        "ctaLabel": "Shop filters"
+        "ctaLabel": "Shop filters",
+        "destinationType": "affiliate-search",
+        "usefulnessScore": 78,
+        "buyerIntentScore": 72,
+        "safetyScore": 82,
+        "availabilityScore": 84,
+        "neutralityScore": 82,
+        "misleadingRiskScore": 82,
+        "sourceTrail": [
+          {
+            "name": "EPA indoor air quality topic",
+            "url": "https://www.epa.gov/indoor-air-quality-iaq",
+            "role": "guidance"
+          }
+        ]
       },
       {
         "id": "airnow-aqi",
         "title": "AirNow AQI checks",
         "kind": "service",
+        "category": "Local conditions",
         "matchReason": "EPA-linked AirNow resources help users check local AQI and smoke information before changing outdoor plans.",
+        "whyItHelps": "Checking local AQI is a non-affiliate first step that can prevent unnecessary product purchases.",
         "sourceName": "AirNow",
         "sourceUrl": "https://www.airnow.gov/",
         "shoppingUrl": "https://www.airnow.gov/",
         "affiliate": false,
-        "ctaLabel": "Check AirNow"
+        "ctaLabel": "Check AirNow",
+        "destinationType": "service-page",
+        "usefulnessScore": 92,
+        "buyerIntentScore": 40,
+        "safetyScore": 96,
+        "availabilityScore": 98,
+        "neutralityScore": 98,
+        "misleadingRiskScore": 96,
+        "sourceTrail": [
+          {
+            "name": "AirNow AQI service",
+            "url": "https://www.airnow.gov/",
+            "role": "service-destination"
+          }
+        ]
       }
     ]
   }
