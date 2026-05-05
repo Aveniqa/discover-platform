@@ -1,19 +1,17 @@
-// Surfaced Service Worker — stale-while-revalidate for all pages
+// Surfaced Service Worker — network-first for HTML, cache-first for assets
 //
 // CDN headers are set to no-cache (revalidate on every request), so
-// CF Pages’ edge always serves fresh content after a deploy. The SW
-// is the *only* layer providing instant loads for returning visitors:
-//   1. Serve cached version immediately (≈0ms)
-//   2. Fetch fresh version from edge in background
-//   3. Update SW cache for next visit
+// CF Pages' edge always serves fresh content after a deploy. HTML navigations
+// must also be network-first in the SW so returning visitors do not keep seeing
+// an older cached homepage after a production release.
 //
 // On activation, old caches are purged automatically.
 
-const CACHE_VERSION = 'surfaced-v2';
+const CACHE_VERSION = 'surfaced-v3';
 const CACHE_NAME = `${CACHE_VERSION}-pages`;
 
-// Routes that benefit from SW caching (HTML navigations)
-const SWR_PATTERNS = [
+// Routes that can use an offline fallback when the network is unavailable.
+const NAVIGATION_PATTERNS = [
   /^\/$/,               // homepage
   /^\/item\//,          // all 500+ item detail pages
   /^\/discover(\/|$)/,  // discovery category + pagination
@@ -29,38 +27,22 @@ const SWR_PATTERNS = [
 const STATIC_PATTERN = /\/_next\/static\//;
 
 /**
- * Stale-While-Revalidate strategy:
- * 1. Serve from cache immediately (instant load for returning visitors)
- * 2. Fetch fresh version from network in background
- * 3. Update cache with fresh version for next visit
- * 4. If no cache exists, fetch from network (first visit)
+ * Network-first strategy:
+ * 1. Fetch fresh HTML from Cloudflare Pages.
+ * 2. Cache it only as an offline fallback.
+ * 3. Use cache only when the network is unavailable.
  */
-async function staleWhileRevalidate(request) {
+async function networkFirst(request) {
   const cache = await caches.open(CACHE_NAME);
-  const cachedResponse = await cache.match(request);
-
-  // Always fetch in background to keep cache fresh
-  const fetchPromise = fetch(request)
-    .then((networkResponse) => {
-      // Only cache successful responses
-      if (networkResponse.ok) {
-        cache.put(request, networkResponse.clone());
-      }
-      return networkResponse;
-    })
-    .catch(() => {
-      // Network failed — cachedResponse is our only hope
-      return null;
-    });
-
-  // Return cached version instantly, or wait for network if no cache
-  if (cachedResponse) {
-    return cachedResponse;
-  }
-
-  const networkResponse = await fetchPromise;
-  if (networkResponse) {
+  try {
+    const networkResponse = await fetch(request);
+    if (networkResponse.ok) {
+      cache.put(request, networkResponse.clone());
+    }
     return networkResponse;
+  } catch {
+    const cachedResponse = await cache.match(request);
+    if (cachedResponse) return cachedResponse;
   }
 
   // Both cache and network failed — return offline fallback
@@ -125,12 +107,12 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // HTML navigations — stale-while-revalidate
+  // HTML navigations — network-first so deploys are visible immediately.
   const isNavigation = request.mode === 'navigate';
-  const matchesSWR = SWR_PATTERNS.some((pattern) => pattern.test(url.pathname));
+  const matchesNavigation = NAVIGATION_PATTERNS.some((pattern) => pattern.test(url.pathname));
 
-  if (isNavigation && matchesSWR) {
-    event.respondWith(staleWhileRevalidate(request));
+  if (isNavigation && matchesNavigation) {
+    event.respondWith(networkFirst(request));
     return;
   }
 });
@@ -153,6 +135,14 @@ self.addEventListener('message', (event) => {
   }
 
   if (event.data === 'CLEAR_CACHE') {
-    caches.delete(CACHE_NAME);
+    event.waitUntil(
+      caches.keys().then((keys) =>
+        Promise.all(
+          keys
+            .filter((key) => key.startsWith('surfaced-'))
+            .map((key) => caches.delete(key))
+        )
+      )
+    );
   }
 });
