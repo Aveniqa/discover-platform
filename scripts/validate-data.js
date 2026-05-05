@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Pre-deploy validation for all JSON data files.
  * Checks: duplicate slugs, missing required fields, empty values, id gaps.
@@ -7,9 +8,12 @@
  */
 
 const fs = require("fs");
+const net = require("net");
 const path = require("path");
 
 const DATA_DIR = path.join(__dirname, "..", "data");
+const ARCHIVE_FILE = "archive";
+const URL_FIELDS = ["sourceLink", "websiteLink", "directAmazonUrl", "bestBuyUrl"];
 
 // Required fields per category (field name → human label)
 const SCHEMAS = {
@@ -42,6 +46,7 @@ const SCHEMAS = {
 
 let totalErrors = 0;
 let totalWarnings = 0;
+const slugLocations = new Map();
 
 function error(cat, msg) {
   console.error(`  ❌ [${cat}] ${msg}`);
@@ -51,6 +56,73 @@ function error(cat, msg) {
 function warn(cat, msg) {
   console.warn(`  ⚠  [${cat}] ${msg}`);
   totalWarnings++;
+}
+
+function rememberSlug(cat, item) {
+  if (!item.slug) return;
+  const locations = slugLocations.get(item.slug) || [];
+  locations.push(cat);
+  slugLocations.set(item.slug, locations);
+}
+
+function isUnsafeHostname(hostname) {
+  const host = String(hostname || "").toLowerCase().replace(/\.$/, "");
+  if (
+    host === "localhost" ||
+    host.endsWith(".localhost") ||
+    host === "metadata.google.internal"
+  ) {
+    return true;
+  }
+
+  const ipVersion = net.isIP(host);
+  if (ipVersion === 4) {
+    const parts = host.split(".").map(Number);
+    const [a, b] = parts;
+    return (
+      a === 0 ||
+      a === 10 ||
+      a === 127 ||
+      (a === 100 && b >= 64 && b <= 127) ||
+      (a === 169 && b === 254) ||
+      (a === 172 && b >= 16 && b <= 31) ||
+      (a === 192 && b === 168) ||
+      a >= 224
+    );
+  }
+
+  if (ipVersion === 6) {
+    return (
+      host === "::1" ||
+      host === "::" ||
+      host.startsWith("fc") ||
+      host.startsWith("fd") ||
+      host.startsWith("fe80:")
+    );
+  }
+
+  return false;
+}
+
+function validatePublicHttpsUrl(cat, label, field, value) {
+  if (!value) return;
+  let url;
+  try {
+    url = new URL(value);
+  } catch {
+    error(cat, `'${label}' has invalid URL in '${field}'`);
+    return;
+  }
+
+  if (url.protocol !== "https:") {
+    error(cat, `'${label}' URL '${field}' must use https`);
+  }
+  if (url.username || url.password) {
+    error(cat, `'${label}' URL '${field}' must not include credentials`);
+  }
+  if (isUnsafeHostname(url.hostname)) {
+    error(cat, `'${label}' URL '${field}' points to a private or reserved host`);
+  }
 }
 
 console.log("\n🔍 Validating data files...\n");
@@ -122,6 +194,7 @@ for (const [cat, schema] of Object.entries(SCHEMAS)) {
   for (let i = 0; i < items.length; i++) {
     const item = items[i];
     const label = item.slug || `index ${i}`;
+    rememberSlug(cat, item);
 
     // Required fields: must exist and be non-empty
     for (const field of schema.required) {
@@ -149,6 +222,40 @@ for (const [cat, schema] of Object.entries(SCHEMAS)) {
         warn(cat, `'${label}' (id=${item.id}) missing dateAdded`);
       }
     }
+
+    for (const field of URL_FIELDS) {
+      validatePublicHttpsUrl(cat, label, field, item[field]);
+    }
+    validatePublicHttpsUrl(cat, label, "affiliate.url", item.affiliate?.url);
+  }
+}
+
+const archivePath = path.join(DATA_DIR, `${ARCHIVE_FILE}.json`);
+if (fs.existsSync(archivePath)) {
+  try {
+    const archivedItems = JSON.parse(fs.readFileSync(archivePath, "utf8"));
+    if (!Array.isArray(archivedItems)) {
+      error(ARCHIVE_FILE, "Root value is not an array");
+    } else {
+      console.log(`[${ARCHIVE_FILE}] ${archivedItems.length} archived items`);
+      for (let i = 0; i < archivedItems.length; i++) {
+        const item = archivedItems[i];
+        const label = item.slug || `index ${i}`;
+        rememberSlug(ARCHIVE_FILE, item);
+        for (const field of URL_FIELDS) {
+          validatePublicHttpsUrl(ARCHIVE_FILE, label, field, item[field]);
+        }
+        validatePublicHttpsUrl(ARCHIVE_FILE, label, "affiliate.url", item.affiliate?.url);
+      }
+    }
+  } catch (e) {
+    error(ARCHIVE_FILE, `Invalid JSON: ${e.message}`);
+  }
+}
+
+for (const [slug, locations] of slugLocations) {
+  if (locations.length > 1) {
+    error("slugs", `Slug '${slug}' appears across files: ${locations.join(", ")}`);
   }
 }
 

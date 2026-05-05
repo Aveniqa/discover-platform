@@ -16,6 +16,8 @@
  */
 
 const MAX_STORED = 200;
+const MAX_BODY_BYTES = 16 * 1024;
+const MAX_FIELD_CHARS = 200;
 const RATE_LIMIT_WINDOW = 60_000; // 1 minute
 const RATE_LIMIT_MAX = 30; // max reports per IP per minute
 const RATE_LIMIT_MAP_CAP = 1000; // prune when map exceeds this size
@@ -31,6 +33,12 @@ const CACHE_TTL = 60 * 60 * 24 * 7;
 
 // In-memory rate limiter (resets per isolate lifecycle)
 const rateLimitMap = new Map();
+
+const NO_STORE_HEADERS = {
+  "Cache-Control": "no-store",
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": "no-referrer",
+};
 
 function isRateLimited(ip) {
   const now = Date.now();
@@ -65,6 +73,65 @@ function timingSafeEquals(a, b) {
     mismatch |= a.charCodeAt(i) ^ b.charCodeAt(i);
   }
   return mismatch === 0;
+}
+
+function noStoreResponse(body, init = {}) {
+  return new Response(body, {
+    ...init,
+    headers: {
+      ...NO_STORE_HEADERS,
+      ...(init.headers || {}),
+    },
+  });
+}
+
+function clampField(value, max = MAX_FIELD_CHARS) {
+  if (value === undefined || value === null) return "";
+  return String(value).trim().slice(0, max);
+}
+
+function sanitizeDirective(value) {
+  return clampField(value, 120).replace(/[^\w\s:;.'*-]/g, "");
+}
+
+function sanitizeLineNumber(value) {
+  const n = Number(value);
+  if (!Number.isFinite(n) || n < 0) return 0;
+  return Math.min(Math.floor(n), 1_000_000);
+}
+
+function sanitizeReportUrl(value, requestUrl, detail = "origin") {
+  const raw = clampField(value);
+  if (!raw) return "";
+
+  const lower = raw.toLowerCase();
+  if (
+    lower === "inline" ||
+    lower === "eval" ||
+    lower === "wasm-eval" ||
+    lower === "self" ||
+    lower.startsWith("data:") ||
+    lower.startsWith("blob:") ||
+    lower.startsWith("about:")
+  ) {
+    return lower.split(":")[0];
+  }
+
+  try {
+    const current = new URL(requestUrl);
+    const parsed = new URL(raw, current.origin);
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+      return parsed.protocol.replace(":", "");
+    }
+
+    if (parsed.origin === current.origin) {
+      return `${parsed.pathname || "/"}`;
+    }
+
+    return detail === "path" ? `${parsed.origin}${parsed.pathname || "/"}` : parsed.origin;
+  } catch {
+    return raw.replace(/[?#].*$/, "").slice(0, 80);
+  }
 }
 
 // ── Storage helpers ─────────────────────────────────────────────────
@@ -136,12 +203,22 @@ export async function onRequestPost(context) {
   const ip = request.headers.get("CF-Connecting-IP") || "unknown";
 
   if (isRateLimited(ip)) {
-    return new Response("Too many reports", { status: 429 });
+    return noStoreResponse("Too many reports", { status: 429 });
   }
 
   let report;
   try {
-    const body = await request.json();
+    const contentLength = Number(request.headers.get("content-length") || 0);
+    if (contentLength > MAX_BODY_BYTES) {
+      return noStoreResponse("Report too large", { status: 413 });
+    }
+
+    const text = await request.text();
+    if (text.length > MAX_BODY_BYTES) {
+      return noStoreResponse("Report too large", { status: 413 });
+    }
+
+    const body = JSON.parse(text);
     // Browsers send either {"csp-report": {...}} or [{"type":"csp-violation","body":{...}}]
     report =
       body["csp-report"] ||
@@ -149,18 +226,32 @@ export async function onRequestPost(context) {
       (Array.isArray(body) ? body[0]?.body : null) ||
       body;
   } catch {
-    return new Response("Invalid JSON", { status: 400 });
+    return noStoreResponse("Invalid JSON", { status: 400 });
+  }
+
+  if (!report || typeof report !== "object") {
+    return noStoreResponse("Invalid report", { status: 400 });
   }
 
   const violation = {
     ts: new Date().toISOString(),
-    blockedUri: report["blocked-uri"] || report.blockedURL || "",
+    blockedUri: sanitizeReportUrl(
+      report["blocked-uri"] || report.blockedURL,
+      request.url
+    ),
     violatedDirective:
-      report["violated-directive"] || report.effectiveDirective || "",
-    documentUri: report["document-uri"] || report.documentURL || "",
-    sourceFile: report["source-file"] || report.sourceFile || "",
-    lineNumber: report["line-number"] || report.lineNumber || 0,
-    disposition: report.disposition || "enforce",
+      sanitizeDirective(report["violated-directive"] || report.effectiveDirective),
+    documentUri: sanitizeReportUrl(
+      report["document-uri"] || report.documentURL,
+      request.url,
+      "path"
+    ),
+    sourceFile: sanitizeReportUrl(
+      report["source-file"] || report.sourceFile,
+      request.url
+    ),
+    lineNumber: sanitizeLineNumber(report["line-number"] || report.lineNumber),
+    disposition: clampField(report.disposition || "enforce", 20),
   };
 
   console.log(
@@ -175,7 +266,7 @@ export async function onRequestPost(context) {
   if (violations.length > MAX_STORED) violations.length = MAX_STORED;
   await writeViolations(env, violations, context);
 
-  return new Response(null, { status: 204 });
+  return noStoreResponse(null, { status: 204 });
 }
 
 // ── GET: Retrieve stored violations ─────────────────────────────────
@@ -191,13 +282,17 @@ export async function onRequestGet(context) {
     console.warn("[CSP] GET request but CSP_ADMIN_TOKEN not configured");
     return Response.json(
       { error: "CSP_ADMIN_TOKEN not configured in environment variables." },
-      { status: 503 }
+      { status: 503, headers: NO_STORE_HEADERS }
     );
   }
 
-  if (!timingSafeEquals(token || "", expectedToken)) {
+  const auth = request.headers.get("Authorization") || "";
+  const bearerToken = auth.startsWith("Bearer ") ? auth.slice(7) : "";
+  const suppliedToken = bearerToken || token || "";
+
+  if (!timingSafeEquals(suppliedToken, expectedToken)) {
     console.warn("[CSP] Unauthorized GET attempt from:", ip);
-    return new Response("Unauthorized", { status: 401 });
+    return noStoreResponse("Unauthorized", { status: 401 });
   }
 
   const { violations, source } = await readViolations(env);
@@ -225,8 +320,7 @@ export async function onRequestGet(context) {
     {
       headers: {
         "Content-Type": "application/json",
-        "Cache-Control": "no-store",
-        "X-Content-Type-Options": "nosniff",
+        ...NO_STORE_HEADERS,
       },
     }
   );

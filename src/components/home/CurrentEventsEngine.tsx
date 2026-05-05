@@ -7,6 +7,7 @@ import {
   getCurrentEventRecommendations,
   getCurrentEventSourceTrail,
   getCurrentEventTrustSummary,
+  getCurrentEventWeatherPresentation,
   getHost,
   leadCurrentEvent,
 } from "@/lib/current-events";
@@ -40,6 +41,7 @@ export function CurrentEventsEngine() {
   const leadDiagnostics = getCurrentEventDiagnostics(leadCurrentEvent);
   const trustSummary = getCurrentEventTrustSummary(leadCurrentEvent);
   const sourceTrail = getCurrentEventSourceTrail(leadCurrentEvent);
+  const weatherPresentation = getCurrentEventWeatherPresentation(leadCurrentEvent);
 
   return (
     <section id="featured-story" aria-labelledby="featured-story-heading" className="relative py-10 sm:py-16 px-4 sm:px-6 text-left">
@@ -58,7 +60,20 @@ export function CurrentEventsEngine() {
           </p>
         </div>
 
-        <article className="overflow-hidden rounded-[1.75rem] border border-emerald-300/20 bg-surface shadow-[0_28px_100px_rgba(0,0,0,0.34)]">
+        <article
+          className={`relative overflow-hidden rounded-[1.75rem] border border-emerald-300/20 ${weatherPresentation.className} shadow-[0_28px_100px_rgba(0,0,0,0.34)]`}
+          data-weather-state={weatherPresentation.state}
+        >
+          {weatherPresentation.effects.length > 0 && (
+            <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden motion-reduce:hidden">
+              {weatherPresentation.effects.map((effect, index) => (
+                <div
+                  key={`${weatherPresentation.state}-${effect}`}
+                  className={`absolute inset-0 ${effect} ${index === 0 ? "opacity-75" : index === 1 ? "opacity-50" : "opacity-35"}`}
+                />
+              ))}
+            </div>
+          )}
           <div className="relative min-h-[34rem] sm:min-h-[34rem] lg:min-h-[39rem]">
             <Image
               src={leadCurrentEvent.imageUrl}
@@ -80,6 +95,11 @@ export function CurrentEventsEngine() {
                 <span className="text-xs text-white/70">
                   Verified {formatCurrentEventDate(leadCurrentEvent.lastVerifiedAt)}
                 </span>
+                {weatherPresentation.state !== "neutral" && (
+                  <span className="rounded-full bg-white/10 border border-white/15 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.14em] text-white">
+                    {weatherPresentation.label}
+                  </span>
+                )}
               </div>
 
               <h3 className="max-w-5xl text-3xl sm:text-5xl lg:text-6xl font-black leading-[1.02] tracking-tight text-white text-balance">

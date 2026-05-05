@@ -1,6 +1,3 @@
-"use client";
-
-import { useState, useEffect, useRef } from "react";
 import {
   discoveries,
   products,
@@ -16,26 +13,19 @@ import {
   getCategoryLabel,
   type AnyItem,
 } from "@/lib/data";
+import type { CSSProperties, ReactNode } from "react";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
-import { getStreakMilestone } from "@/components/ui/StreakWidget";
-import { ItemImage } from "@/components/ui/ItemImage";
-import { Carousel } from "@/components/ui/Carousel";
 import { SocialCTA } from "@/components/SocialCTA";
 import { ShareTodaysPicks } from "@/components/ui/ShareTodaysPicks";
-import { TodayDate } from "@/components/ui/TodayDate";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
-import { BlurText } from "@/components/ui/BlurText";
-import { getStreak } from "@/lib/engagement";
 import { todaysPicks } from "@/lib/data";
 import Link from "next/link";
-import { TiltCard } from "@/components/ui/TiltCard";
-import { SpotlightCard } from "@/components/ui/SpotlightCard";
-import { MarqueeStrip } from "@/components/ui/MarqueeStrip";
 import { CurrentEventsEngine } from "@/components/home/CurrentEventsEngine";
-import { HeroShowcase } from "@/components/ui/HeroShowcase";
+import { HomeStreakStatus, SearchSurfacedButton } from "@/components/home/HomeHeroActions";
 import { NewsletterSection } from "@/components/home/NewsletterSection";
 import { itemListLd, ldScript } from "@/lib/jsonld";
+import { getItemImageSrcSet, getItemImageUrl } from "@/lib/images";
 
 /* ---- Helpers ---- */
 
@@ -83,46 +73,239 @@ function trimText(s: string, max: number): string {
   return `${(lastSpace > max - 40 ? cut.slice(0, lastSpace) : cut).replace(/[,.;:\s]+$/, "")}…`;
 }
 
+function formatEditionDate(): string {
+  return new Intl.DateTimeFormat("en-US", {
+    timeZone: "America/New_York",
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  }).format(new Date());
+}
+
+function StaticItemImage({
+  slug,
+  alt,
+  width = 600,
+  height = 400,
+  aspectRatio = "16/10",
+  className = "",
+  size = "md",
+  priority = false,
+  sizes,
+}: {
+  slug: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  aspectRatio?: string;
+  className?: string;
+  size?: "sm" | "md" | "lg" | "og";
+  priority?: boolean;
+  sizes?: string;
+}) {
+  const imageUrl = getItemImageUrl(slug, width, height, size);
+  const srcSet = size === "og" ? null : getItemImageSrcSet(slug);
+  const defaultSizes =
+    sizes ||
+    (size === "lg"
+      ? "(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 940px"
+      : "(max-width: 640px) 90vw, (max-width: 1024px) 50vw, 400px");
+
+  return (
+    <div
+      className={`relative overflow-hidden bg-white/[0.03] ${className}`}
+      style={{ aspectRatio }}
+    >
+      {!imageUrl ? (
+        <div
+          className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-transparent to-cyan-500/10 flex items-center justify-center"
+          style={{ aspectRatio }}
+        >
+          <span className="text-xs text-white/50 uppercase tracking-widest font-medium select-none">
+            Surfaced
+          </span>
+        </div>
+      ) : (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={imageUrl}
+          {...(srcSet ? { srcSet: srcSet.srcSet, sizes: defaultSizes } : {})}
+          alt={alt}
+          width={width}
+          height={height}
+          loading={priority ? "eager" : "lazy"}
+          decoding="async"
+          fetchPriority={priority ? "high" : "auto"}
+          className="w-full h-full object-cover"
+        />
+      )}
+    </div>
+  );
+}
+
+function StaticCarousel({
+  items,
+  renderCard,
+  cardWidthClass = "w-[300px] sm:w-[320px]",
+}: {
+  items: AnyItem[];
+  renderCard: (item: AnyItem, index: number) => ReactNode;
+  cardWidthClass?: string;
+}) {
+  return (
+    <div className="relative">
+      <div
+        className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 -mx-4 px-4 sm:mx-0 sm:px-0"
+        style={{ scrollbarWidth: "none", WebkitOverflowScrolling: "touch" } as CSSProperties}
+      >
+        {items.map((item, index) => (
+          <div key={item.slug} className={`snap-start shrink-0 ${cardWidthClass}`}>
+            {renderCard(item, index)}
+          </div>
+        ))}
+      </div>
+      <div className="absolute right-0 top-0 bottom-2 w-16 bg-gradient-to-l from-background to-transparent pointer-events-none" />
+    </div>
+  );
+}
+
+function getShowcaseItems(): AnyItem[] {
+  const all = getAllItems();
+  const byType: Record<string, AnyItem[]> = {};
+  for (const item of all) {
+    if (!byType[item.type]) byType[item.type] = [];
+    byType[item.type].push(item);
+  }
+
+  const result: AnyItem[] = [];
+  const seen = new Set<string>();
+  const types = Object.keys(byType);
+
+  for (const type of types) {
+    const badged = byType[type]
+      .filter((i) => !!(i as { badge?: string }).badge)
+      .sort((a, b) => (b.id || 0) - (a.id || 0));
+    for (const item of badged) {
+      if (seen.has(item.slug)) continue;
+      seen.add(item.slug);
+      result.push(item);
+      if (result.length >= 30) return result;
+    }
+  }
+
+  let round = 0;
+  while (result.length < 30 && round < 20) {
+    for (const type of types) {
+      const newest = [...byType[type]].sort((a, b) => (b.id || 0) - (a.id || 0));
+      const pick = newest.filter((i) => !seen.has(i.slug))[round];
+      if (pick) {
+        seen.add(pick.slug);
+        result.push(pick);
+        if (result.length >= 30) return result;
+      }
+    }
+    round++;
+  }
+  return result;
+}
+
+const colorAccent: Record<string, string> = {
+  emerald: "bg-emerald-500/80",
+  cyan: "bg-cyan-500/80",
+  amber: "bg-amber-500/80",
+  rose: "bg-rose-500/80",
+  indigo: "bg-indigo-500/80",
+};
+
+function StaticHeroShowcase() {
+  const items = getShowcaseItems();
+  return (
+    <div className="relative">
+      <div
+        className="flex gap-2 sm:gap-3 h-[220px] sm:h-[340px] lg:h-[400px] overflow-x-auto px-2 sm:px-4 snap-x snap-mandatory"
+        style={{ scrollbarWidth: "none", WebkitOverflowScrolling: "touch" } as CSSProperties}
+      >
+        {items.map((item, idx) => {
+          const title = getItemTitle(item);
+          const desc = getItemExcerpt(item, 180);
+          const label = getCategoryLabel(item.type);
+          const color = getCategoryColor(item.type);
+
+          return (
+            <Link
+              key={item.slug}
+              href={`/item/${item.slug}`}
+              className="relative block rounded-xl overflow-hidden cursor-pointer group w-[160px] sm:w-[220px] lg:w-[260px] shrink-0 snap-start"
+            >
+              <StaticItemImage
+                slug={item.slug}
+                alt={title}
+                width={520}
+                height={400}
+                size="md"
+                priority={idx < 4}
+                className="h-full"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-transparent" />
+              <div className={`absolute top-3 left-3 h-1.5 w-10 rounded-full ${colorAccent[color] || colorAccent.indigo}`} />
+              <div className="absolute inset-x-0 bottom-0 p-4">
+                <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-white/65">
+                  {label}
+                </p>
+                <h3 className="mt-1 text-sm sm:text-base font-bold leading-snug text-white line-clamp-2">
+                  {title}
+                </h3>
+                <p className="mt-2 hidden sm:block text-xs leading-relaxed text-white/70 line-clamp-2">
+                  {desc}
+                </p>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+      <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-background to-transparent pointer-events-none" />
+    </div>
+  );
+}
+
+function StaticMarqueeStrip({ items, speed = 40 }: { items: string[]; speed?: number }) {
+  const doubled = [...items, ...items];
+  return (
+    <>
+      <style>{`
+        @keyframes marquee-ltr {
+          from { transform: translateX(0); }
+          to { transform: translateX(-50%); }
+        }
+      `}</style>
+      <div className="overflow-hidden">
+        <div
+          className="flex gap-2.5 whitespace-nowrap"
+          style={{
+            animation: `marquee-ltr ${speed}s linear infinite`,
+            width: "max-content",
+          }}
+        >
+          {doubled.map((item, i) => (
+            <span
+              key={i}
+              className="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-medium bg-surface border border-border/50 text-muted shrink-0"
+            >
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+}
+
 /* ---- Page Component ---- */
 
 export default function HomePage() {
-  const [milestoneToast, setMilestoneToast] = useState<string | null>(null);
-  const [streakDays, setStreakDays] = useState(0);
-  const [streakEmoji, setStreakEmoji] = useState("");
-
-  const openSearch = () => {
-    document.dispatchEvent(new KeyboardEvent("keydown", { key: "k", metaKey: true }));
-  };
-
-  const heroRef = useRef<HTMLDivElement>(null);
-  function handleHeroMouseMove(e: React.MouseEvent<HTMLDivElement>) {
-    if (!heroRef.current) return;
-    const r = heroRef.current.getBoundingClientRect();
-    heroRef.current.style.setProperty("--hx", `${((e.clientX - r.left) / r.width * 100).toFixed(1)}%`);
-    heroRef.current.style.setProperty("--hy", `${((e.clientY - r.top) / r.height * 100).toFixed(1)}%`);
-  }
-
-  useEffect(() => {
-    let toastTimer: ReturnType<typeof setTimeout> | undefined;
-    const syncTimer = setTimeout(() => {
-      const days = getStreak();
-      setStreakDays(days);
-      const milestone = getStreakMilestone(days);
-      if (milestone) setStreakEmoji(milestone.emoji);
-      if (!milestone) return;
-      const lastShown = localStorage.getItem("surfaced-streak-milestone-shown");
-      if (lastShown === String(milestone.days)) return;
-      localStorage.setItem("surfaced-streak-milestone-shown", String(milestone.days));
-      setMilestoneToast(`${milestone.emoji} ${milestone.label} — ${days}-day streak!`);
-      toastTimer = setTimeout(() => setMilestoneToast(null), 4000);
-    }, 0);
-    return () => {
-      clearTimeout(syncTimer);
-      if (toastTimer) clearTimeout(toastTimer);
-    };
-  }, []);
-
   const allItems = getAllItems();
+  const editionDate = formatEditionDate();
 
   /* Trending This Week — badged items, newest first (12 for carousel) */
   const trendingItems = [...allItems]
@@ -159,17 +342,10 @@ export default function HomePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(todaysPicksLd)} />
 
-      {/* ── Streak milestone toast ──────────────────────── */}
-      {milestoneToast && (
-        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-[60] px-6 py-3 rounded-2xl bg-amber-500/20 border border-amber-400/30 text-amber-200 text-sm font-semibold shadow-xl backdrop-blur animate-fade-in-up whitespace-nowrap">
-          {milestoneToast}
-        </div>
-      )}
-
       {/* ============================================
           HERO — Editorial cover, single CTA
           ============================================ */}
-      <div ref={heroRef} onMouseMove={handleHeroMouseMove}>
+      <div>
       <AuroraBackground
         colorA="bg-accent/12"
         colorB="bg-emerald-500/8"
@@ -191,12 +367,8 @@ export default function HomePage() {
               </span>
               Today&rsquo;s Edition
             </span>
-            <span className="text-xs text-muted-foreground"><TodayDate /></span>
-            {streakDays > 0 && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-500/10 border border-amber-400/20 text-amber-300 text-xs">
-                {streakEmoji || "🔥"} Day {streakDays}
-              </span>
-            )}
+            <span className="text-xs text-muted-foreground">{editionDate}</span>
+            <HomeStreakStatus />
           </div>
 
           <h1 className="mx-auto max-w-4xl text-center text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[0.98] mb-5 text-balance">
@@ -216,24 +388,12 @@ export default function HomePage() {
                 <path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </Link>
-            <button
-              onClick={openSearch}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-surface border border-border text-sm text-muted hover:border-accent/30 hover:text-foreground transition-all cursor-pointer"
-            >
-              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <circle cx="7" cy="7" r="5" stroke="currentColor" strokeWidth="1.5" />
-                <path d="M11 11l3 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-              </svg>
-              Search Surfaced
-              <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-surface-elevated border border-border text-[10px] font-mono text-muted-foreground ml-1">
-                <span className="text-xs">⌘</span>K
-              </kbd>
-            </button>
+            <SearchSurfacedButton />
           </div>
         </div>
 
         <div id="discover" className="relative mt-12 sm:mt-14">
-          <HeroShowcase />
+          <StaticHeroShowcase />
         </div>
       </AuroraBackground>
       </div>
@@ -242,7 +402,7 @@ export default function HomePage() {
 
       {/* ── Topic Marquee — full-bleed, single strip ─────── */}
       <div className="py-3 border-y border-border/30 overflow-hidden">
-        <MarqueeStrip speed={40} items={["Science", "AI & ML", "Space", "Biotech", "Research", "Design", "Future Tech", "Hidden Gems", "Daily Tools", "Psychology", "Robotics", "Innovation", "Quantum", "Climate Tech", "Indie Makers", "Genomics", "Privacy", "Sustainability"]} />
+        <StaticMarqueeStrip speed={40} items={["Science", "AI & ML", "Space", "Biotech", "Research", "Design", "Future Tech", "Hidden Gems", "Daily Tools", "Psychology", "Robotics", "Innovation", "Quantum", "Climate Tech", "Indie Makers", "Genomics", "Privacy", "Sustainability"]} />
       </div>
 
       {/* ============================================
@@ -258,14 +418,14 @@ export default function HomePage() {
               </div>
               <Link href="/trending" className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">See all <span>&rarr;</span></Link>
             </div>
-            <Carousel
+            <StaticCarousel
               items={trendingItems}
               renderCard={(item, idx) => (
                 <Link href={`/item/${item.slug}`} className="group block w-full">
                   <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                     <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                     <div className="overflow-hidden relative">
-                      <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" priority={idx < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                      <StaticItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" priority={idx < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
                       {!!(item as { badge?: string }).badge && (
                         <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-amber-500 text-white rounded-full">
                           {(item as { badge?: string }).badge}
@@ -336,11 +496,11 @@ export default function HomePage() {
                   </span>
                   Today&rsquo;s Edition
                 </span>
-                <span className="text-xs text-muted-foreground">{<TodayDate />}</span>
+                <span className="text-xs text-muted-foreground">{editionDate}</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight">
-                <BlurText as="span" wordDelay={50}>What Surfaced</BlurText>{" "}
-                <BlurText as="span" wordDelay={50} className="gradient-text">Today</BlurText>
+                <span>What Surfaced</span>{" "}
+                <span className="gradient-text">Today</span>
               </h2>
               <p className="text-sm text-muted mt-1 hidden sm:block">
                 One lead story and five standout finds from across the internet
@@ -359,12 +519,12 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-5">
             {/* Lead story — large card */}
-            <TiltCard maxTilt={4} glowColor="0 8px 40px rgba(168,85,247,0.1), 0 0 0 1px rgba(168,85,247,0.07)" className="sm:col-span-2 xl:row-span-2">
-            <SpotlightCard spotlightColor="rgba(168,85,247,0.08)" className="h-full">
+            <div className="sm:col-span-2 xl:row-span-2">
+            <div className="h-full">
             <div className="gradient-border relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden h-full">
               <div className={`absolute top-0 left-0 right-0 h-[3px] z-10 ${accentBar(editorsPick.type)}`} />
               <div className="overflow-hidden">
-                <ItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" priority className="group-hover:scale-[1.03] transition-transform duration-500" />
+                <StaticItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" priority className="group-hover:scale-[1.03] transition-transform duration-500" />
               </div>
               <div className="p-7 sm:p-8 flex flex-col flex-1">
               <div className="flex items-start justify-between mb-5">
@@ -404,19 +564,19 @@ export default function HomePage() {
               </Link>
               </div>
             </div>
-            </SpotlightCard>
-            </TiltCard>
+            </div>
+            </div>
 
             {/* 4 supporting picks */}
             {topPicksRest.map((item, i) => (
-              <TiltCard key={item.slug} maxTilt={4} glowColor="0 8px 40px rgba(168,85,247,0.1), 0 0 0 1px rgba(168,85,247,0.07)">
-              <SpotlightCard spotlightColor="rgba(168,85,247,0.08)" className="h-full">
+              <div key={item.slug}>
+              <div className="h-full">
               <div
                 className="relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden h-full"
               >
                 <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                 <div className="overflow-hidden">
-                  <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="md" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  <StaticItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="md" className="group-hover:scale-[1.03] transition-transform duration-500" />
                 </div>
                 <div className="p-5 sm:p-6 flex flex-col flex-1">
                 <div className="flex items-start justify-between mb-3">
@@ -449,8 +609,8 @@ export default function HomePage() {
                 </Link>
                 </div>
               </div>
-              </SpotlightCard>
-              </TiltCard>
+              </div>
+              </div>
             ))}
           </div>
 
@@ -480,7 +640,7 @@ export default function HomePage() {
                   See All <span>&rarr;</span>
                 </Link>
               </div>
-              <Carousel
+              <StaticCarousel
                 items={items}
                 renderCard={(item) => {
                   const isNew = isNewToday(item, allInCategory);
@@ -489,7 +649,7 @@ export default function HomePage() {
                       <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                         <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                         <div className="overflow-hidden relative">
-                          <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                          <StaticItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
                           {isNew && (
                             <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
                               New
@@ -535,7 +695,7 @@ export default function HomePage() {
                   See All <span>&rarr;</span>
                 </Link>
               </div>
-              <Carousel
+              <StaticCarousel
                 items={items}
                 renderCard={(item) => {
                   const isNew = isNewToday(item, allInCategory);
@@ -544,7 +704,7 @@ export default function HomePage() {
                       <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                         <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                         <div className="overflow-hidden relative">
-                          <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                          <StaticItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
                           {isNew && (
                             <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-blue-500 text-white rounded-full">
                               New

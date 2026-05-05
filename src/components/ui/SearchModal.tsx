@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { useRouter } from "next/navigation";
-import { getAllItems, getItemTitle, getItemDescription, getItemCategory, getCategoryColor, getCategoryLabel, type AnyItem } from "@/lib/data";
+import type { AnyItem } from "@/lib/data";
 
 const colorMap: Record<string, string> = {
   indigo: "bg-indigo-500/20 text-indigo-300 border-indigo-400/30",
@@ -22,9 +22,17 @@ export function SearchModal() {
   const router = useRouter();
 
   const allItems = useRef<AnyItem[]>([]);
+  const dataRef = useRef<Pick<
+    typeof import("@/lib/data"),
+    "getAllItems" | "getItemTitle" | "getItemDescription" | "getItemCategory" | "getCategoryColor" | "getCategoryLabel"
+  > | null>(null);
 
-  useEffect(() => {
-    allItems.current = getAllItems();
+  const ensureData = useCallback(async () => {
+    if (dataRef.current) return dataRef.current;
+    const mod = await import("@/lib/data");
+    dataRef.current = mod;
+    allItems.current = mod.getAllItems();
+    return mod;
   }, []);
 
   useEffect(() => {
@@ -41,25 +49,27 @@ export function SearchModal() {
 
   useEffect(() => {
     if (open) {
+      ensureData().catch(() => {});
       setTimeout(() => inputRef.current?.focus(), 50);
     } else {
       setQuery("");
       setResults([]);
     }
-  }, [open]);
+  }, [ensureData, open]);
 
-  const handleSearch = useCallback((q: string) => {
+  const handleSearch = useCallback(async (q: string) => {
     setQuery(q);
     if (q.length < 2) { setResults([]); return; }
+    const data = dataRef.current || await ensureData();
     const lower = q.toLowerCase();
     const filtered = allItems.current.filter((item) => {
-      const title = getItemTitle(item).toLowerCase();
-      const desc = getItemDescription(item).toLowerCase();
-      const cat = getItemCategory(item).toLowerCase();
+      const title = data.getItemTitle(item).toLowerCase();
+      const desc = data.getItemDescription(item).toLowerCase();
+      const cat = data.getItemCategory(item).toLowerCase();
       return title.includes(lower) || desc.includes(lower) || cat.includes(lower);
     });
     setResults(filtered.slice(0, 20));
-  }, []);
+  }, [ensureData]);
 
   const navigateTo = (slug: string) => {
     setOpen(false);
@@ -69,8 +79,9 @@ export function SearchModal() {
   if (!open) return null;
 
   // Group results by type
+  const data = dataRef.current;
   const grouped = results.reduce<Record<string, AnyItem[]>>((acc, item) => {
-    const label = getCategoryLabel(item.type);
+    const label = data?.getCategoryLabel(item.type) || item.type;
     if (!acc[label]) acc[label] = [];
     acc[label].push(item);
     return acc;
@@ -115,7 +126,7 @@ export function SearchModal() {
                   {label} ({items.length})
                 </div>
                 {items.map((item) => {
-                  const color = getCategoryColor(item.type);
+                  const color = data?.getCategoryColor(item.type) || "indigo";
                   return (
                     <button
                       key={item.slug}
@@ -123,11 +134,11 @@ export function SearchModal() {
                       className="w-full flex items-center gap-3 px-6 py-3.5 hover:bg-surface-hover transition-colors text-left cursor-pointer"
                     >
                       <span className={`shrink-0 text-[9px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full border ${colorMap[color]}`}>
-                        {getCategoryLabel(item.type)}
+                        {data?.getCategoryLabel(item.type) || item.type}
                       </span>
                       <div className="min-w-0 flex-1">
-                        <p className="text-sm font-medium text-foreground truncate">{getItemTitle(item)}</p>
-                        <p className="text-xs text-muted-foreground truncate">{getItemDescription(item).slice(0, 80)}...</p>
+                        <p className="text-sm font-medium text-foreground truncate">{data?.getItemTitle(item) || item.slug}</p>
+                        <p className="text-xs text-muted-foreground truncate">{(data?.getItemDescription(item) || "").slice(0, 80)}...</p>
                       </div>
                       <svg width="14" height="14" viewBox="0 0 16 16" fill="none" className="text-muted-foreground shrink-0">
                         <path d="M6 3l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -152,12 +163,10 @@ export function SearchModal() {
 }
 
 export function SearchTrigger() {
-  const [shortcutLabel, setShortcutLabel] = useState("⌘K");
-
-  useEffect(() => {
-    const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
-    setShortcutLabel(isMac ? "⌘K" : "Ctrl+K");
-  }, []);
+  const shortcutLabel =
+    typeof navigator !== "undefined" && navigator.platform.toUpperCase().indexOf("MAC") < 0
+      ? "Ctrl+K"
+      : "⌘K";
 
   return (
     <button

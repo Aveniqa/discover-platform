@@ -7,8 +7,10 @@
 //
 // On activation, old caches are purged automatically.
 
-const CACHE_VERSION = 'surfaced-v3';
+const CACHE_VERSION = 'surfaced-v4';
 const CACHE_NAME = `${CACHE_VERSION}-pages`;
+const CACHED_AT_HEADER = 'X-Surfaced-SW-Cached-At';
+const NAVIGATION_FALLBACK_MAX_AGE = 1000 * 60 * 60 * 24; // 24 hours
 
 // Routes that can use an offline fallback when the network is unavailable.
 const NAVIGATION_PATTERNS = [
@@ -26,6 +28,22 @@ const NAVIGATION_PATTERNS = [
 // Static assets that should be cached aggressively (immutable)
 const STATIC_PATTERN = /\/_next\/static\//;
 
+function stampCachedResponse(response) {
+  const headers = new Headers(response.headers);
+  headers.set(CACHED_AT_HEADER, String(Date.now()));
+  headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
+}
+
+function isFreshNavigationFallback(response) {
+  const cachedAt = Number(response.headers.get(CACHED_AT_HEADER) || 0);
+  return cachedAt > 0 && Date.now() - cachedAt <= NAVIGATION_FALLBACK_MAX_AGE;
+}
+
 /**
  * Network-first strategy:
  * 1. Fetch fresh HTML from Cloudflare Pages.
@@ -37,12 +55,12 @@ async function networkFirst(request) {
   try {
     const networkResponse = await fetch(request);
     if (networkResponse.ok) {
-      cache.put(request, networkResponse.clone());
+      cache.put(request, stampCachedResponse(networkResponse.clone())).catch(() => {});
     }
     return networkResponse;
   } catch {
     const cachedResponse = await cache.match(request);
-    if (cachedResponse) return cachedResponse;
+    if (cachedResponse && isFreshNavigationFallback(cachedResponse)) return cachedResponse;
   }
 
   // Both cache and network failed — return offline fallback
@@ -71,7 +89,7 @@ async function cacheFirst(request) {
 }
 
 // ── Install ─────────────────────────────────────────
-self.addEventListener('install', (event) => {
+self.addEventListener('install', () => {
   // Skip waiting so the new SW activates immediately
   self.skipWaiting();
 });

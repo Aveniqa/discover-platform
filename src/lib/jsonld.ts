@@ -259,5 +259,27 @@ export function collectionPageLd(input: CollectionPageLdInput) {
  * Use as: <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(obj)} />
  */
 export function ldScript(obj: object): { __html: string } {
-  return { __html: JSON.stringify(obj) };
+  return { __html: JSON.stringify(sanitizeJsonLd(obj)) };
+}
+
+function sanitizeJsonLd(value: unknown): unknown {
+  if (typeof value === "number") {
+    return Number.isFinite(value) ? value : undefined;
+  }
+
+  if (Array.isArray(value)) {
+    return value
+      .map((item) => sanitizeJsonLd(item))
+      .filter((item) => item !== undefined);
+  }
+
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value as Record<string, unknown>)
+        .map(([key, item]) => [key, sanitizeJsonLd(item)] as const)
+        .filter(([, item]) => item !== undefined)
+    );
+  }
+
+  return value;
 }

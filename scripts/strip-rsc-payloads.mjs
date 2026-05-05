@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Strip Next.js 16 RSC tree-payload sidecars from `out/` after build.
+ * Strip only bulky or legacy Next.js 16 RSC payloads from `out/` after build.
  *
  * Next 16 emits 7 `__next.*.txt` files per static-exported route — used by
  * Cache Components / Partial Prerendering for instant client-side route
@@ -8,13 +8,17 @@
  * this multiplies into ~19,000 sidecar files and pushes us past the CF Pages
  * 20,000-files-per-deployment hard cap.
  *
- * The flat `<slug>.txt` RSC payloads (one per route, ~2,700 files) are kept —
- * those still power same-tab Link navigations. We also keep `__next._tree.txt`
- * and `__next._index.txt` per route because the Next 16 client runtime
- * prefetches both during hover/intersection, and 404ing those tanks the
- * Lighthouse network-error score. Everything else (`_full.txt`, `_head.txt`,
- * the `<route>.__PAGE__.txt` payload, etc.) is unused on a static export and
- * safe to remove.
+ * Keep:
+ *   - every `__next.*.txt` sidecar except `__next._full.txt`
+ *   - this preserves `_tree`, `_index`, `_head`, route, and `__PAGE__`
+ *     payloads that the Next client requests during hover/intersection
+ * Remove:
+ *   - `__next._full.txt` sidecars, which are not requested in observed traces
+ *   - legacy flat `/item/<slug>.txt` payloads
+ *
+ * 404ing the kept sidecars logs browser console errors and drags Lighthouse
+ * Best Practices. Removing the denied payloads keeps the Cloudflare Pages
+ * deploy under the 20,000-file cap.
  *
  * Idempotent. Runs as the second half of `npm run postbuild`.
  *
@@ -27,9 +31,8 @@ import { join } from "node:path";
 
 const ROOT = "out";
 const DRY = process.argv.includes("--dry");
-// Strip pattern: any __next.*.txt EXCEPT _tree.txt and _index.txt (runtime prefetches both)
-const PATTERN = /^__next\..*\.txt$/;
-const KEEP = new Set(["__next._tree.txt", "__next._index.txt"]);
+const FULL_SIDECAR = "__next._full.txt";
+const ITEM_FLAT_PAYLOAD = /^out\/item\/[^/]+\.txt$/;
 
 let removed = 0;
 let removedBytes = 0;
@@ -60,7 +63,10 @@ function walk(dir) {
       } catch {
         /* ignore */
       }
-    } else if (entry.isFile() && PATTERN.test(entry.name) && !KEEP.has(entry.name)) {
+    } else if (
+      entry.isFile() &&
+      (entry.name === FULL_SIDECAR || ITEM_FLAT_PAYLOAD.test(full))
+    ) {
       try {
         const size = statSync(full).size;
         if (DRY) {
@@ -81,5 +87,5 @@ walk(ROOT);
 
 const mb = (removedBytes / 1024 / 1024).toFixed(1);
 console.log(
-  `${DRY ? "[dry] would remove" : "Removed"} ${removed} __next.*.txt sidecar(s) (${mb} MB), ${dirsCleaned} now-empty dir(s)`
+  `${DRY ? "[dry] would remove" : "Removed"} ${removed} static-export payload file(s) (${mb} MB), ${dirsCleaned} now-empty dir(s)`
 );

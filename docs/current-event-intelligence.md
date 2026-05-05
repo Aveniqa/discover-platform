@@ -80,3 +80,125 @@ If no event clears the gate, the homepage uses the existing fallback state: no v
 5. Add a small topic classifier that maps verified event tags to product/service categories before any LLM expands copy.
 
 The repository now includes `npm run discover:current-events` as a dry-run scaffold. It fetches only fixed allowlisted JSON endpoints, rejects redirects and oversized payloads, and prints candidate signals for review rather than editing production data.
+
+## V2 Multi-Source Editorial Engine
+
+The current implementation extends the V1 static-build model into a reusable fail-closed pipeline:
+
+```txt
+discover -> normalize -> verify -> score -> match -> filter -> publish
+```
+
+Production rendering still reads from `data/current-events.json`; discovery scripts only emit review candidates. A candidate must be promoted by a human, carry a valid source trail, pass `scripts/validate-current-events.mjs`, and then clear the runtime gates in `src/lib/current-event-intelligence.ts`.
+
+### Normalized Event Shape
+
+Runtime helpers expose the normalized event model without forcing the production JSON to abandon existing display fields:
+
+```ts
+type CurrentEvent = {
+  id: string
+  topic: string
+  title: string
+  summary: string
+  sourceUrl: string
+  publisher: string
+  sourceType: "discovery" | "official" | "corroboration"
+  geography?: string
+  publishedAt: string
+  confidence: number
+  legitimacyScore: number
+  timelinessScore: number
+  safetyScore: number
+  sourceQualityScore: number
+  editorialStrength: number
+  sourceTrail: Array<{ label: string; url: string }>
+  matchingRationale: string
+}
+```
+
+Homepage eligibility requires:
+
+- `confidence >= 82`
+- `editorialStrength >= 82`
+- `sourceQualityScore >= 80`
+- `legitimacyScore >= 78`
+- `timelinessScore >= 60`
+- `safetyScore >= 82`
+- at least one allowlisted source-trail entry
+- at least one official source
+- corroboration when the primary source is a discovery or corroboration source
+- at least three recommendations that pass relevance, destination, and safety gates
+
+### Normalized Recommendation Shape
+
+The commerce layer normalizes existing recommendation records into:
+
+```ts
+type Recommendation = {
+  id: string
+  label: string
+  category: "product" | "service"
+  reason: string
+  destinationUrl: string
+  affiliateLabel?: string
+  sourceTrail: Array<{ label: string; url: string }>
+  matchScore: number
+  safetyScore: number
+  relevanceScore: number
+}
+```
+
+Recommendation filtering is event-aware. A product or service must have an allowlisted evidence source, an allowlisted destination, safe language, a high enough match score, and a direct relationship to the event by source trail or topic tokens. Category/search affiliate destinations now require an explicit `destinationJustification`; direct Amazon product URLs remain preferred whenever an ASIN or PA-API match is available.
+
+### Source Priority
+
+Discovery now probes these inputs in priority order:
+
+| Source | Role | Current behavior |
+|---|---|---|
+| NWS API | official weather/severe-alert layer | Fetches active alerts from `api.weather.gov`; candidates can map to subtle weather UI states after review. |
+| CPSC Recalls API | official consumer-safety layer | Fetches recent JSON recalls from `saferproducts.gov`; commerce must never recommend recalled products. |
+| openFDA | official food/drug/device safety layer | Fetches recent food and drug enforcement records from `api.fda.gov`; recommendations should start with official recall steps. |
+| GDELT | discovery signal only | Fetches publisher-volume signals when available; never publish without official verification. |
+| Google News RSS | corroboration signal | Finds publisher coverage; Google redirect URLs are not final source URLs. |
+| Amazon PA-API / Best Buy | commerce matching | Not called yet; next step is exact product URL resolution, availability checks, and affiliate compliance. |
+
+The discovery script rejects non-HTTPS URLs, non-allowlisted hosts, redirects, unsupported content types, and oversized payloads. API failures are reported in the JSON output instead of causing production data writes.
+
+### Weather-Aware Presentation
+
+Weather states are constrained to:
+
+```txt
+sunny, cloudy, drizzle, light rain, rain, heavy rain, monsoon, tornado, hurricanes, neutral
+```
+
+The UI uses a weather state only when the event topic or source trail proves a weather basis through NWS/NOAA/weather.gov-style sources. The treatment is background-only, static, capped at three effects, and hidden for reduced-motion preferences. If proof is missing, the state is `neutral`.
+
+### Validation Coverage
+
+Focused tests live in `scripts/current-event-engine.test.ts` and cover:
+
+- source allowlisting
+- rejected redirects
+- stale and weak event rejection
+- unrelated recommendation rejection
+- confidence thresholds
+- weather-state mapping
+- reduced-motion fallback
+
+Run:
+
+```bash
+npx tsx --test scripts/current-event-engine.test.ts
+npm run audit:current-events
+```
+
+### Residual Risks
+
+- GDELT can rate-limit discovery runs; it remains a non-fatal signal source.
+- Google News RSS links are redirect/corroboration surfaces, not final publisher or official source URLs.
+- openFDA records often need an FDA detail page or recall page before production copy is reader-friendly.
+- Category-level Amazon search links are allowed only with rationale. The monetization roadmap should replace them with direct PA-API or retailer product URLs where reliable.
+- Static current-event pages can become stale; the daily workflow must keep rotating and validating the dataset.

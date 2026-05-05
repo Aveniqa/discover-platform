@@ -4,6 +4,20 @@ export type EventSourceCategory =
   | "trend-signal"
   | "commerce";
 
+export type NormalizedEventSourceType = "discovery" | "official" | "corroboration";
+
+export type WeatherState =
+  | "sunny"
+  | "cloudy"
+  | "drizzle"
+  | "light rain"
+  | "rain"
+  | "heavy rain"
+  | "monsoon"
+  | "tornado"
+  | "hurricanes"
+  | "neutral";
+
 export interface EventSourceProfile {
   id: string;
   name: string;
@@ -21,21 +35,33 @@ export interface EventSourceProfile {
 }
 
 export interface SourceTrailEntry {
-  name: string;
+  name?: string;
+  label?: string;
   url: string;
   role: "event-source" | "guidance" | "product-evidence" | "service-destination" | "signal";
+  sourceType?: NormalizedEventSourceType;
+  publisher?: string;
 }
 
 export interface RecommendationQualityLike {
+  id?: string;
+  label?: string;
   title: string;
   kind: "product" | "service";
   matchReason: string;
+  reason?: string;
   sourceUrl: string;
   shoppingUrl: string;
+  destinationUrl?: string;
+  affiliateLabel?: string;
   affiliate: boolean;
   category?: string;
   whyItHelps?: string;
   destinationType?: "direct-product" | "affiliate-search" | "official-guide" | "service-page";
+  destinationJustification?: string;
+  sourceTrail?: SourceTrailEntry[];
+  matchScore?: number;
+  relevanceScore?: number;
   usefulnessScore?: number;
   buyerIntentScore?: number;
   safetyScore?: number;
@@ -45,13 +71,19 @@ export interface RecommendationQualityLike {
 }
 
 export interface CurrentEventQualityLike {
+  id?: string;
   status: "active" | "paused" | "expired";
   priority: number;
+  topic: string;
   title: string;
   summary: string;
   whyNow: string;
   sourceUrl: string;
+  sourceName?: string;
+  publisher?: string;
+  sourceType?: NormalizedEventSourceType;
   sourcePublishedAt: string;
+  publishedAt?: string;
   lastVerifiedAt: string;
   confidence?: number;
   editorialStrength?: number;
@@ -60,6 +92,11 @@ export interface CurrentEventQualityLike {
   timelinessScore?: number;
   safetyScore?: number;
   matchingRationale?: string;
+  geography?: string | string[];
+  responseTags?: string[];
+  sourceTrail?: SourceTrailEntry[];
+  corroborationRequired?: boolean;
+  weatherState?: WeatherState;
   recommendations: RecommendationQualityLike[];
 }
 
@@ -68,13 +105,73 @@ export interface EventDiagnostics {
   label: "Strong" | "Usable" | "Needs review" | "Rejected";
   homepageEligible: boolean;
   reasons: string[];
+  rejectionReasons: string[];
   recommendationCount: number;
+  sourceTrailValid: boolean;
+  sourceType: NormalizedEventSourceType;
+  weatherState: WeatherState;
+}
+
+export interface CurrentEvent {
+  id: string;
+  topic: string;
+  title: string;
+  summary: string;
+  sourceUrl: string;
+  publisher: string;
+  sourceType: NormalizedEventSourceType;
+  geography?: string;
+  publishedAt: string;
+  confidence: number;
+  legitimacyScore: number;
+  timelinessScore: number;
+  safetyScore: number;
+  sourceQualityScore: number;
+  editorialStrength: number;
+  sourceTrail: Array<{ label: string; url: string }>;
+  matchingRationale: string;
+}
+
+export interface Recommendation {
+  id: string;
+  label: string;
+  category: "product" | "service";
+  reason: string;
+  destinationUrl: string;
+  affiliateLabel?: string;
+  sourceTrail: Array<{ label: string; url: string }>;
+  matchScore: number;
+  safetyScore: number;
+  relevanceScore: number;
+}
+
+export interface PipelineIssue {
+  code:
+    | "weak-source"
+    | "missing-source-trail"
+    | "stale-event"
+    | "missing-corroboration"
+    | "low-confidence"
+    | "low-editorial-strength"
+    | "unsafe-event"
+    | "unrelated-recommendation"
+    | "unsafe-recommendation"
+    | "weak-recommendation-destination"
+    | "too-few-recommendations";
+  message: string;
+}
+
+export interface CurrentEventPipelineResult<T extends CurrentEventQualityLike> {
+  published: T[];
+  rejected: Array<{ event: T; issues: PipelineIssue[] }>;
 }
 
 export const EVENT_SCORE_THRESHOLDS = {
   homepage: 82,
+  confidence: 82,
   sourceQuality: 80,
   legitimacy: 78,
+  timeliness: 60,
   safety: 82,
   recommendation: 72,
   minimumRecommendations: 3,
@@ -101,7 +198,7 @@ export const TRUSTED_EVENT_SOURCE_PROFILES: EventSourceProfile[] = [
     id: "nws-noaa",
     name: "National Weather Service / NOAA",
     category: "official",
-    hosts: ["weather.gov", "noaa.gov", "nhc.noaa.gov"],
+    hosts: ["weather.gov", "api.weather.gov", "noaa.gov", "nhc.noaa.gov"],
     trustLevel: 95,
     timeliness: 94,
     geographicRelevance: 96,
@@ -188,19 +285,19 @@ export const TRUSTED_EVENT_SOURCE_PROFILES: EventSourceProfile[] = [
     recommendedUse: "discover",
   },
   {
-    id: "newsapi",
-    name: "NewsAPI",
+    id: "google-news-rss",
+    name: "Google News RSS",
     category: "trusted-publisher",
-    hosts: ["newsapi.org"],
+    hosts: ["news.google.com"],
     trustLevel: 78,
     timeliness: 88,
     geographicRelevance: 82,
     topicRelevance: 82,
     reproducibility: 78,
     automationEase: 82,
-    licensingNote: "Free tier is development-only; production use requires a paid plan.",
-    failureModes: ["Licensing cost", "Partial article content", "Publisher quality varies"],
-    recommendedUse: "discover",
+    licensingNote: "Use as publisher discovery/corroboration signal only; link to primary publisher or official source for truth.",
+    failureModes: ["Google redirect URLs", "Publisher quality varies", "Syndicated duplicate coverage"],
+    recommendedUse: "corroborate",
   },
   {
     id: "bestbuy",
@@ -215,6 +312,66 @@ export const TRUSTED_EVENT_SOURCE_PROFILES: EventSourceProfile[] = [
     automationEase: 76,
     licensingNote: "Product, price, availability, image, and direct URL data are API-key gated.",
     failureModes: ["Retailer-specific catalog", "Availability changes quickly"],
+    recommendedUse: "match-products",
+  },
+  {
+    id: "walmart",
+    name: "Walmart product feed",
+    category: "commerce",
+    hosts: ["walmart.com"],
+    trustLevel: 78,
+    timeliness: 82,
+    geographicRelevance: 82,
+    topicRelevance: 74,
+    reproducibility: 76,
+    automationEase: 62,
+    licensingNote: "Use only if feed/API terms provide direct product URLs and affiliate tracking is approved.",
+    failureModes: ["Feed reliability varies", "Availability changes quickly"],
+    recommendedUse: "match-products",
+  },
+  {
+    id: "target",
+    name: "Target product feed",
+    category: "commerce",
+    hosts: ["target.com"],
+    trustLevel: 78,
+    timeliness: 82,
+    geographicRelevance: 82,
+    topicRelevance: 74,
+    reproducibility: 76,
+    automationEase: 62,
+    licensingNote: "Use only when direct product URLs and affiliate terms are reliable.",
+    failureModes: ["Feed reliability varies", "Availability changes quickly"],
+    recommendedUse: "match-products",
+  },
+  {
+    id: "home-depot",
+    name: "Home Depot product feed",
+    category: "commerce",
+    hosts: ["homedepot.com"],
+    trustLevel: 78,
+    timeliness: 82,
+    geographicRelevance: 82,
+    topicRelevance: 76,
+    reproducibility: 76,
+    automationEase: 62,
+    licensingNote: "Use for storm, home-repair, and household preparedness matches only when direct URLs are available.",
+    failureModes: ["Regional inventory drift", "Feed reliability varies"],
+    recommendedUse: "match-products",
+  },
+  {
+    id: "rei",
+    name: "REI product feed",
+    category: "commerce",
+    hosts: ["rei.com"],
+    trustLevel: 78,
+    timeliness: 80,
+    geographicRelevance: 78,
+    topicRelevance: 76,
+    reproducibility: 76,
+    automationEase: 60,
+    licensingNote: "Use for outdoor safety/preparedness categories only when direct product URLs are available.",
+    failureModes: ["Category scope is narrow", "Inventory drift"],
     recommendedUse: "match-products",
   },
   {
@@ -233,6 +390,52 @@ export const TRUSTED_EVENT_SOURCE_PROFILES: EventSourceProfile[] = [
     recommendedUse: "match-products",
   },
 ];
+
+export const ALLOWED_DISCOVERY_SOURCE_HOSTS = new Set([
+  "api.gdeltproject.org",
+  "gdeltproject.org",
+  "news.google.com",
+]);
+
+export const ALLOWED_OFFICIAL_SOURCE_HOSTS = new Set([
+  "airnow.gov",
+  "api.fda.gov",
+  "api.weather.gov",
+  "cdc.gov",
+  "cpsc.gov",
+  "epa.gov",
+  "fda.gov",
+  "fema.gov",
+  "health.hawaii.gov",
+  "nhc.noaa.gov",
+  "noaa.gov",
+  "open.fda.gov",
+  "ready.gov",
+  "saferproducts.gov",
+  "weather.gov",
+]);
+
+export const ALLOWED_COMMERCE_HOSTS = new Set([
+  "amazon.com",
+  "bestbuy.com",
+  "homedepot.com",
+  "rei.com",
+  "target.com",
+  "walmart.com",
+]);
+
+const WEATHER_STATES = new Set<WeatherState>([
+  "sunny",
+  "cloudy",
+  "drizzle",
+  "light rain",
+  "rain",
+  "heavy rain",
+  "monsoon",
+  "tornado",
+  "hurricanes",
+  "neutral",
+]);
 
 const unsafeClaimTerms = [
   "miracle",
@@ -258,6 +461,46 @@ export function getHost(value: string): string {
   }
 }
 
+function isHttpsUrl(value: string): boolean {
+  try {
+    return new URL(value).protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
+function hostMatches(host: string, allowedHost: string): boolean {
+  return host === allowedHost || host.endsWith(`.${allowedHost}`);
+}
+
+export function isAllowedSourceHost(host: string): boolean {
+  return [...ALLOWED_OFFICIAL_SOURCE_HOSTS, ...ALLOWED_DISCOVERY_SOURCE_HOSTS].some((allowedHost) =>
+    hostMatches(host, allowedHost),
+  );
+}
+
+export function isAllowedCommerceHost(host: string): boolean {
+  return [...ALLOWED_COMMERCE_HOSTS].some((allowedHost) => hostMatches(host, allowedHost));
+}
+
+export function isAllowedEventSourceUrl(value: string): boolean {
+  const host = getHost(value);
+  return isHttpsUrl(value) && Boolean(host) && isAllowedSourceHost(host);
+}
+
+export function isAllowedFetchUrl(
+  value: string,
+  allowedHosts: Set<string> = new Set([...ALLOWED_OFFICIAL_SOURCE_HOSTS, ...ALLOWED_DISCOVERY_SOURCE_HOSTS]),
+): boolean {
+  const host = getHost(value);
+  return isHttpsUrl(value) && Boolean(host) && [...allowedHosts].some((allowedHost) => hostMatches(host, allowedHost));
+}
+
+export function isRejectedRedirect(originalUrl: string, resolvedUrl: string): boolean {
+  if (!isAllowedFetchUrl(originalUrl) || !isAllowedFetchUrl(resolvedUrl)) return true;
+  return originalUrl !== resolvedUrl;
+}
+
 export function getSourceProfileForUrl(url: string): EventSourceProfile | null {
   const host = getHost(url);
   if (!host) return null;
@@ -271,12 +514,97 @@ export function hasTrustedSource(url: string): boolean {
   return Boolean(profile && profile.trustLevel >= EVENT_SCORE_THRESHOLDS.sourceQuality);
 }
 
+export function getSourceTrailLabel(entry: SourceTrailEntry): string {
+  return entry.label || entry.name || getHost(entry.url) || "Source";
+}
+
+export function getSourceTypeForUrl(url: string): NormalizedEventSourceType {
+  const profile = getSourceProfileForUrl(url);
+  if (!profile) return "discovery";
+  if (profile.category === "official") return "official";
+  if (profile.category === "trend-signal" || profile.recommendedUse === "discover") return "discovery";
+  return "corroboration";
+}
+
+export function getEventSourceType(event: CurrentEventQualityLike): NormalizedEventSourceType {
+  return event.sourceType ?? getSourceTypeForUrl(event.sourceUrl);
+}
+
+function uniqueTrailEntries(entries: SourceTrailEntry[]): SourceTrailEntry[] {
+  return Array.from(new Map(entries.filter((entry) => entry.url).map((entry) => [entry.url, entry] as const)).values());
+}
+
+export function getNormalizedSourceTrail(event: CurrentEventQualityLike): SourceTrailEntry[] {
+  const sourceEntry: SourceTrailEntry = {
+    label: event.sourceName || event.publisher || getHost(event.sourceUrl) || "Primary source",
+    name: event.sourceName || event.publisher || getHost(event.sourceUrl) || "Primary source",
+    url: event.sourceUrl,
+    role: "event-source",
+    sourceType: getEventSourceType(event),
+    publisher: event.publisher || event.sourceName,
+  };
+
+  return uniqueTrailEntries([sourceEntry, ...(event.sourceTrail ?? [])]).map((entry) => ({
+    ...entry,
+    name: getSourceTrailLabel(entry),
+    label: getSourceTrailLabel(entry),
+    sourceType: entry.sourceType ?? getSourceTypeForUrl(entry.url),
+  }));
+}
+
+export function hasValidSourceTrail(event: CurrentEventQualityLike): boolean {
+  const rawTrailUrls = (event.sourceTrail ?? []).map((entry) => entry.url);
+  if (new Set(rawTrailUrls).size !== rawTrailUrls.length) return false;
+
+  const trail = getNormalizedSourceTrail(event);
+  if (trail.length < 1 || trail.length > 8) return false;
+  if (!isAllowedEventSourceUrl(event.sourceUrl)) return false;
+
+  const seen = new Set<string>();
+  for (const entry of trail) {
+    if (!isAllowedEventSourceUrl(entry.url)) return false;
+    if (seen.has(entry.url)) return false;
+    seen.add(entry.url);
+  }
+
+  return trail.some((entry) => entry.url === event.sourceUrl || entry.role === "event-source");
+}
+
+export function hasOfficialSource(event: CurrentEventQualityLike): boolean {
+  return getNormalizedSourceTrail(event).some((entry) => {
+    const profile = getSourceProfileForUrl(entry.url);
+    return profile?.category === "official" || entry.sourceType === "official";
+  });
+}
+
+export function requiresCorroboration(event: CurrentEventQualityLike): boolean {
+  const sourceProfile = getSourceProfileForUrl(event.sourceUrl);
+  return Boolean(
+    event.corroborationRequired ||
+      getEventSourceType(event) !== "official" ||
+      sourceProfile?.recommendedUse === "discover" ||
+      (sourceProfile?.trustLevel ?? 0) < EVENT_SCORE_THRESHOLDS.sourceQuality,
+  );
+}
+
+export function passesCorroborationRules(event: CurrentEventQualityLike): boolean {
+  if (!hasValidSourceTrail(event) || !hasOfficialSource(event)) return false;
+  if (!requiresCorroboration(event)) return true;
+
+  const validTrail = getNormalizedSourceTrail(event).filter((entry) => isAllowedEventSourceUrl(entry.url));
+  const officialCount = validTrail.filter((entry) => entry.sourceType === "official").length;
+  const corroborationCount = validTrail.filter((entry) => entry.sourceType === "corroboration").length;
+  const discoveryCount = validTrail.filter((entry) => entry.sourceType === "discovery").length;
+
+  return officialCount >= 1 && validTrail.length >= 2 && (corroborationCount >= 1 || discoveryCount >= 1);
+}
+
 function hasUnsafeClaimText(value: string): boolean {
   const lower = value.toLowerCase();
   return unsafeClaimTerms.some((term) => lower.includes(term));
 }
 
-function scoreDateFreshness(sourcePublishedAt: string, now = new Date()): number {
+export function scoreDateFreshness(sourcePublishedAt: string, now = new Date()): number {
   const published = new Date(`${sourcePublishedAt}T00:00:00.000Z`);
   if (Number.isNaN(published.getTime())) return 0;
   const ageDays = Math.max(0, (now.getTime() - published.getTime()) / 86_400_000);
@@ -287,7 +615,135 @@ function scoreDateFreshness(sourcePublishedAt: string, now = new Date()): number
   return 35;
 }
 
+export function getEventPublishedAt(event: CurrentEventQualityLike): string {
+  return event.publishedAt || event.sourcePublishedAt;
+}
+
+export function isStaleEvent(event: CurrentEventQualityLike, now = new Date()): boolean {
+  const timelinessScore = event.timelinessScore ?? scoreDateFreshness(getEventPublishedAt(event), now);
+  return timelinessScore < EVENT_SCORE_THRESHOLDS.timeliness;
+}
+
+const stopWords = new Set([
+  "about",
+  "after",
+  "alert",
+  "also",
+  "and",
+  "are",
+  "before",
+  "can",
+  "direct",
+  "during",
+  "event",
+  "for",
+  "from",
+  "guide",
+  "helps",
+  "into",
+  "local",
+  "more",
+  "need",
+  "official",
+  "only",
+  "product",
+  "products",
+  "service",
+  "shop",
+  "source",
+  "step",
+  "the",
+  "this",
+  "use",
+  "users",
+  "when",
+  "with",
+]);
+
+function tokenize(value: string): Set<string> {
+  return new Set(
+    value
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, " ")
+      .split(/[\s-]+/)
+      .map((token) => token.trim())
+      .filter((token) => token.length > 2 && !stopWords.has(token)),
+  );
+}
+
+function sharedTokenCount(a: Set<string>, b: Set<string>): number {
+  let count = 0;
+  for (const token of a) {
+    if (b.has(token)) count += 1;
+  }
+  return count;
+}
+
+function eventTokenText(event: CurrentEventQualityLike): string {
+  return [
+    event.topic,
+    event.title,
+    event.summary,
+    event.whyNow,
+    event.matchingRationale ?? "",
+    Array.isArray(event.geography) ? event.geography.join(" ") : event.geography ?? "",
+    event.responseTags?.join(" ") ?? "",
+  ].join(" ");
+}
+
+function recommendationTokenText(recommendation: RecommendationQualityLike): string {
+  return [
+    recommendation.label ?? "",
+    recommendation.title,
+    recommendation.category ?? "",
+    recommendation.matchReason,
+    recommendation.reason ?? "",
+    recommendation.whyItHelps ?? "",
+  ].join(" ");
+}
+
+export function isRecommendationRelatedToEvent(
+  event: CurrentEventQualityLike,
+  recommendation: RecommendationQualityLike,
+): boolean {
+  const eventTrailUrls = new Set(getNormalizedSourceTrail(event).map((entry) => entry.url));
+  const recTrailUrls = new Set([
+    recommendation.sourceUrl,
+    ...(recommendation.sourceTrail ?? []).map((entry) => entry.url),
+  ]);
+  const sharesSource = [...recTrailUrls].some((url) => eventTrailUrls.has(url));
+  if (sharesSource) return true;
+
+  const eventTokens = tokenize(eventTokenText(event));
+  const recommendationTokens = tokenize(recommendationTokenText(recommendation));
+  return sharedTokenCount(eventTokens, recommendationTokens) >= 2;
+}
+
+export function hasAllowedRecommendationDestination(recommendation: RecommendationQualityLike): boolean {
+  const destination = recommendation.destinationUrl || recommendation.shoppingUrl;
+  if (!isHttpsUrl(destination)) return false;
+
+  const host = getHost(destination);
+  if (!host) return false;
+
+  if (recommendation.affiliate) {
+    if (!isAllowedCommerceHost(host)) return false;
+    if (hostMatches(host, "amazon.com")) {
+      const url = new URL(destination);
+      const isDirectProduct = /^\/(dp|gp\/product)\//.test(url.pathname);
+      const isSearch = url.pathname === "/s" && recommendation.destinationType === "affiliate-search";
+      return Boolean(url.searchParams.get("tag")) && (isDirectProduct || isSearch);
+    }
+    return recommendation.destinationType === "direct-product";
+  }
+
+  return isAllowedEventSourceUrl(destination) || isAllowedCommerceHost(host);
+}
+
 export function scoreRecommendationMatch(recommendation: RecommendationQualityLike): number {
+  if (Number.isInteger(recommendation.matchScore)) return clampScore(recommendation.matchScore ?? 0);
+  if (Number.isInteger(recommendation.relevanceScore)) return clampScore(recommendation.relevanceScore ?? 0);
+
   const profile = getSourceProfileForUrl(recommendation.sourceUrl);
   const sourceScore = profile?.trustLevel ?? 0;
   const usefulnessScore = recommendation.usefulnessScore ?? 70;
@@ -326,18 +782,45 @@ export function getEligibleRecommendations<T extends RecommendationQualityLike>(
     .map(({ recommendation }) => recommendation);
 }
 
+export function getPublishableRecommendationsForEvent<T extends RecommendationQualityLike>(
+  event: CurrentEventQualityLike,
+  recommendations: T[] = event.recommendations as T[],
+): T[] {
+  return recommendations
+    .map((recommendation) => ({
+      recommendation,
+      score: scoreRecommendationMatch(recommendation),
+    }))
+    .filter(({ recommendation, score }) => {
+      if (score < EVENT_SCORE_THRESHOLDS.recommendation) return false;
+      if ((recommendation.safetyScore ?? 0) < 80) return false;
+      if (hasUnsafeClaimText(`${recommendation.title} ${recommendation.matchReason} ${recommendation.whyItHelps ?? ""}`)) {
+        return false;
+      }
+      if (!isAllowedEventSourceUrl(recommendation.sourceUrl)) return false;
+      if (!hasAllowedRecommendationDestination(recommendation)) return false;
+      return isRecommendationRelatedToEvent(event, recommendation);
+    })
+    .sort((a, b) => b.score - a.score)
+    .slice(0, EVENT_SCORE_THRESHOLDS.maximumRecommendations)
+    .map(({ recommendation }) => recommendation);
+}
+
 export function scoreCurrentEvent(event: CurrentEventQualityLike): number {
   const sourceProfile = getSourceProfileForUrl(event.sourceUrl);
   const sourceQualityScore = event.sourceQualityScore ?? sourceProfile?.trustLevel ?? 0;
   const legitimacyScore = event.legitimacyScore ?? (sourceProfile ? sourceProfile.reproducibility : 0);
-  const timelinessScore = event.timelinessScore ?? scoreDateFreshness(event.sourcePublishedAt);
+  const timelinessScore = event.timelinessScore ?? scoreDateFreshness(getEventPublishedAt(event));
   const safetyScore = event.safetyScore ?? 70;
-  const recommendationScores = event.recommendations.map(scoreRecommendationMatch);
+  const recommendationScores = getPublishableRecommendationsForEvent(event).map(scoreRecommendationMatch);
   const recommendationAverage =
     recommendationScores.length > 0
       ? recommendationScores.reduce((sum, score) => sum + score, 0) / recommendationScores.length
       : 0;
   const unsafePenalty = hasUnsafeClaimText(`${event.title} ${event.summary} ${event.whyNow}`) ? 30 : 0;
+  const sourceTrailPenalty = hasValidSourceTrail(event) ? 0 : 35;
+  const corroborationPenalty = passesCorroborationRules(event) ? 0 : 25;
+  const stalePenalty = isStaleEvent(event) ? 20 : 0;
 
   return clampScore(
     sourceQualityScore * 0.23 +
@@ -345,35 +828,131 @@ export function scoreCurrentEvent(event: CurrentEventQualityLike): number {
       timelinessScore * 0.15 +
       safetyScore * 0.2 +
       recommendationAverage * 0.22 -
-      unsafePenalty,
+      unsafePenalty -
+      sourceTrailPenalty -
+      corroborationPenalty -
+      stalePenalty,
   );
+}
+
+function hasWeatherSourceProof(event: CurrentEventQualityLike): boolean {
+  if (event.topic.toLowerCase().includes("weather")) return true;
+  return getNormalizedSourceTrail(event).some((entry) => {
+    const host = getHost(entry.url);
+    return (
+      hostMatches(host, "weather.gov") ||
+      hostMatches(host, "api.weather.gov") ||
+      hostMatches(host, "noaa.gov") ||
+      hostMatches(host, "nhc.noaa.gov")
+    );
+  });
+}
+
+export function mapWeatherState(event: CurrentEventQualityLike): WeatherState {
+  if (!hasWeatherSourceProof(event)) return "neutral";
+  if (event.weatherState && WEATHER_STATES.has(event.weatherState)) return event.weatherState;
+
+  const text = `${event.topic} ${event.title} ${event.summary} ${event.responseTags?.join(" ") ?? ""}`.toLowerCase();
+  if (/\b(hurricane|tropical storm|cyclone)\b/.test(text)) return "hurricanes";
+  if (/\b(tornado|twister)\b/.test(text)) return "tornado";
+  if (/\bmonsoon\b/.test(text)) return "monsoon";
+  if (/\b(flash flood|flooding|heavy rain|atmospheric river)\b/.test(text)) return "heavy rain";
+  if (/\b(light rain|showers)\b/.test(text)) return "light rain";
+  if (/\bdrizzle\b/.test(text)) return "drizzle";
+  if (/\brain\b/.test(text)) return "rain";
+  if (/\b(cloud|cloudy|overcast)\b/.test(text)) return "cloudy";
+  if (/\b(sunny|heat|extreme heat)\b/.test(text)) return "sunny";
+  return "neutral";
+}
+
+export function getWeatherPresentation(
+  weatherState: WeatherState,
+  options: { reducedMotion?: boolean } = {},
+): { state: WeatherState; label: string; className: string; effects: string[] } {
+  const state = WEATHER_STATES.has(weatherState) ? weatherState : "neutral";
+  const effectsByState: Record<WeatherState, string[]> = {
+    sunny: ["bg-amber-300/10", "bg-sky-200/10"],
+    cloudy: ["bg-slate-200/10", "bg-white/5"],
+    drizzle: ["bg-sky-300/10", "bg-cyan-200/10"],
+    "light rain": ["bg-sky-400/10", "bg-blue-200/10"],
+    rain: ["bg-blue-500/10", "bg-cyan-300/10"],
+    "heavy rain": ["bg-blue-700/15", "bg-cyan-300/10", "bg-slate-100/5"],
+    monsoon: ["bg-teal-500/10", "bg-blue-700/15", "bg-emerald-300/10"],
+    tornado: ["bg-zinc-300/10", "bg-stone-500/10", "bg-yellow-200/5"],
+    hurricanes: ["bg-cyan-400/10", "bg-blue-700/15", "bg-white/5"],
+    neutral: [],
+  };
+  const labels: Record<WeatherState, string> = {
+    sunny: "Sunny conditions",
+    cloudy: "Cloudy conditions",
+    drizzle: "Drizzle conditions",
+    "light rain": "Light rain conditions",
+    rain: "Rain conditions",
+    "heavy rain": "Heavy rain conditions",
+    monsoon: "Monsoon conditions",
+    tornado: "Tornado conditions",
+    hurricanes: "Hurricane readiness",
+    neutral: "Neutral background",
+  };
+
+  return {
+    state,
+    label: labels[state],
+    className: state === "neutral" ? "bg-surface" : "bg-surface bg-gradient-to-br from-surface via-background to-surface-elevated",
+    effects: options.reducedMotion ? [] : effectsByState[state].slice(0, 3),
+  };
 }
 
 export function getCurrentEventDiagnostics(event: CurrentEventQualityLike): EventDiagnostics {
   const editorialStrength = clampScore(event.editorialStrength ?? event.confidence ?? scoreCurrentEvent(event));
-  const eligibleRecommendations = getEligibleRecommendations(event.recommendations);
+  const eligibleRecommendations = getPublishableRecommendationsForEvent(event);
   const reasons: string[] = [];
+  const rejectionReasons: string[] = [];
   const sourceQualityScore = event.sourceQualityScore ?? getSourceProfileForUrl(event.sourceUrl)?.trustLevel ?? 0;
   const legitimacyScore = event.legitimacyScore ?? 0;
+  const timelinessScore = event.timelinessScore ?? scoreDateFreshness(getEventPublishedAt(event));
   const safetyScore = event.safetyScore ?? 0;
+  const confidence = event.confidence ?? editorialStrength;
+  const sourceTrailValid = hasValidSourceTrail(event);
+  const sourceType = getEventSourceType(event);
+  const weatherState = mapWeatherState(event);
 
   if (sourceQualityScore >= EVENT_SCORE_THRESHOLDS.sourceQuality) {
     reasons.push("Primary source is allowlisted and high-trust.");
+  } else {
+    rejectionReasons.push("Primary source is weak or not allowlisted.");
   }
   if (legitimacyScore >= EVENT_SCORE_THRESHOLDS.legitimacy) {
     reasons.push("Event is specific, dated, and reproducible from the source trail.");
+  } else {
+    rejectionReasons.push("Legitimacy score is below the editorial gate.");
+  }
+  if (confidence < EVENT_SCORE_THRESHOLDS.confidence) rejectionReasons.push("Confidence is below the homepage gate.");
+  if (timelinessScore < EVENT_SCORE_THRESHOLDS.timeliness || isStaleEvent(event)) {
+    rejectionReasons.push("Event is stale for current-event placement.");
+  }
+  if (safetyScore < EVENT_SCORE_THRESHOLDS.safety) rejectionReasons.push("Safety score is below the homepage gate.");
+  if (!sourceTrailValid) rejectionReasons.push("Source trail is missing, duplicated, or not allowlisted.");
+  if (!passesCorroborationRules(event)) {
+    rejectionReasons.push("Official-source or corroboration rules were not satisfied.");
   }
   if (eligibleRecommendations.length >= EVENT_SCORE_THRESHOLDS.minimumRecommendations) {
     reasons.push("Recommendations passed relevance and safety gates.");
+  } else {
+    rejectionReasons.push("Fewer than three useful recommendations passed the gates.");
   }
   if (event.matchingRationale) reasons.push(event.matchingRationale);
 
   const homepageEligible =
     event.status === "active" &&
+    confidence >= EVENT_SCORE_THRESHOLDS.confidence &&
     editorialStrength >= EVENT_SCORE_THRESHOLDS.homepage &&
     sourceQualityScore >= EVENT_SCORE_THRESHOLDS.sourceQuality &&
     legitimacyScore >= EVENT_SCORE_THRESHOLDS.legitimacy &&
+    timelinessScore >= EVENT_SCORE_THRESHOLDS.timeliness &&
     safetyScore >= EVENT_SCORE_THRESHOLDS.safety &&
+    sourceTrailValid &&
+    passesCorroborationRules(event) &&
     eligibleRecommendations.length >= EVENT_SCORE_THRESHOLDS.minimumRecommendations;
 
   return {
@@ -384,11 +963,15 @@ export function getCurrentEventDiagnostics(event: CurrentEventQualityLike): Even
         : homepageEligible
           ? "Usable"
           : editorialStrength >= 70
-            ? "Needs review"
+          ? "Needs review"
             : "Rejected",
     homepageEligible,
     reasons: reasons.slice(0, 4),
+    rejectionReasons: rejectionReasons.slice(0, 6),
     recommendationCount: eligibleRecommendations.length,
+    sourceTrailValid,
+    sourceType,
+    weatherState,
   };
 }
 
@@ -406,3 +989,109 @@ export function rankCurrentEvents<T extends CurrentEventQualityLike>(events: T[]
   });
 }
 
+export function normalizeCurrentEvent(event: CurrentEventQualityLike): CurrentEvent {
+  const sourceQualityScore = event.sourceQualityScore ?? getSourceProfileForUrl(event.sourceUrl)?.trustLevel ?? 0;
+  const legitimacyScore = event.legitimacyScore ?? 0;
+  const timelinessScore = event.timelinessScore ?? scoreDateFreshness(getEventPublishedAt(event));
+  const safetyScore = event.safetyScore ?? 0;
+  const editorialStrength = clampScore(event.editorialStrength ?? event.confidence ?? scoreCurrentEvent(event));
+  const geography = Array.isArray(event.geography) ? event.geography.join(", ") : event.geography;
+
+  return {
+    id: event.id ?? event.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""),
+    topic: event.topic,
+    title: event.title,
+    summary: event.summary,
+    sourceUrl: event.sourceUrl,
+    publisher: event.publisher || event.sourceName || getHost(event.sourceUrl) || "Unknown publisher",
+    sourceType: getEventSourceType(event),
+    geography,
+    publishedAt: getEventPublishedAt(event),
+    confidence: clampScore(event.confidence ?? editorialStrength),
+    legitimacyScore: clampScore(legitimacyScore),
+    timelinessScore: clampScore(timelinessScore),
+    safetyScore: clampScore(safetyScore),
+    sourceQualityScore: clampScore(sourceQualityScore),
+    editorialStrength,
+    sourceTrail: getNormalizedSourceTrail(event).map((entry) => ({
+      label: getSourceTrailLabel(entry),
+      url: entry.url,
+    })),
+    matchingRationale: event.matchingRationale ?? "",
+  };
+}
+
+export function normalizeRecommendation(recommendation: RecommendationQualityLike): Recommendation {
+  const score = scoreRecommendationMatch(recommendation);
+  return {
+    id: recommendation.id ?? recommendation.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""),
+    label: recommendation.label || recommendation.title,
+    category: recommendation.kind,
+    reason: recommendation.reason || recommendation.matchReason,
+    destinationUrl: recommendation.destinationUrl || recommendation.shoppingUrl,
+    affiliateLabel: recommendation.affiliateLabel ?? (recommendation.affiliate ? "Affiliate link" : undefined),
+    sourceTrail: (recommendation.sourceTrail ?? [
+      { label: recommendation.sourceUrl, url: recommendation.sourceUrl, role: "product-evidence" as const },
+    ]).map((entry) => ({
+      label: getSourceTrailLabel(entry),
+      url: entry.url,
+    })),
+    matchScore: score,
+    safetyScore: clampScore(recommendation.safetyScore ?? 0),
+    relevanceScore: clampScore(recommendation.relevanceScore ?? recommendation.usefulnessScore ?? score),
+  };
+}
+
+export function getCurrentEventPipelineIssues(event: CurrentEventQualityLike): PipelineIssue[] {
+  const issues: PipelineIssue[] = [];
+  const diagnostics = getCurrentEventDiagnostics(event);
+  const sourceQualityScore = event.sourceQualityScore ?? getSourceProfileForUrl(event.sourceUrl)?.trustLevel ?? 0;
+  const confidence = event.confidence ?? diagnostics.editorialStrength;
+
+  if (sourceQualityScore < EVENT_SCORE_THRESHOLDS.sourceQuality) {
+    issues.push({ code: "weak-source", message: "Primary event source is weak or not allowlisted." });
+  }
+  if (!diagnostics.sourceTrailValid) {
+    issues.push({ code: "missing-source-trail", message: "Event does not have a valid, allowlisted source trail." });
+  }
+  if (isStaleEvent(event)) {
+    issues.push({ code: "stale-event", message: "Event is too old for current-event placement." });
+  }
+  if (!passesCorroborationRules(event)) {
+    issues.push({ code: "missing-corroboration", message: "Official-source preference or corroboration rule failed." });
+  }
+  if (confidence < EVENT_SCORE_THRESHOLDS.confidence) {
+    issues.push({ code: "low-confidence", message: "Confidence is below the homepage threshold." });
+  }
+  if (diagnostics.editorialStrength < EVENT_SCORE_THRESHOLDS.homepage) {
+    issues.push({ code: "low-editorial-strength", message: "Editorial strength is below the homepage threshold." });
+  }
+  if ((event.safetyScore ?? 0) < EVENT_SCORE_THRESHOLDS.safety || hasUnsafeClaimText(`${event.title} ${event.summary}`)) {
+    issues.push({ code: "unsafe-event", message: "Event copy or safety score failed the safety gate." });
+  }
+
+  const publishable = getPublishableRecommendationsForEvent(event);
+  if (publishable.length < EVENT_SCORE_THRESHOLDS.minimumRecommendations) {
+    issues.push({ code: "too-few-recommendations", message: "Fewer than three recommendations passed relevance and safety gates." });
+  }
+
+  return issues;
+}
+
+export function runCurrentEventEditorialPipeline<T extends CurrentEventQualityLike>(
+  events: T[],
+): CurrentEventPipelineResult<T> {
+  const rejected: Array<{ event: T; issues: PipelineIssue[] }> = [];
+  const published: T[] = [];
+
+  for (const event of rankCurrentEvents(events)) {
+    const issues = getCurrentEventPipelineIssues(event);
+    if (getCurrentEventDiagnostics(event).homepageEligible && issues.length === 0) {
+      published.push(event);
+    } else {
+      rejected.push({ event, issues });
+    }
+  }
+
+  return { published, rejected };
+}

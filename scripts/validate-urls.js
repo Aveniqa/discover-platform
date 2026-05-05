@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Validates all outbound URLs in data files and removes broken ones.
  *
@@ -16,6 +17,8 @@
  * but the CTA/Source block won't render.
  */
 const fs = require("fs");
+const dns = require("dns").promises;
+const net = require("net");
 const path = require("path");
 const { writeJsonSafe } = require("./lib/write-safe");
 
@@ -41,20 +44,106 @@ const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
   "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
 
+function isPrivateIp(address) {
+  const ipVersion = net.isIP(address);
+  if (ipVersion === 4) {
+    const parts = address.split(".").map(Number);
+    const [a, b] = parts;
+    return (
+      a === 0 ||
+      a === 10 ||
+      a === 127 ||
+      (a === 100 && b >= 64 && b <= 127) ||
+      (a === 169 && b === 254) ||
+      (a === 172 && b >= 16 && b <= 31) ||
+      (a === 192 && b === 168) ||
+      a >= 224
+    );
+  }
+
+  if (ipVersion === 6) {
+    const normalized = address.toLowerCase();
+    return (
+      normalized === "::" ||
+      normalized === "::1" ||
+      normalized.startsWith("fc") ||
+      normalized.startsWith("fd") ||
+      normalized.startsWith("fe80:")
+    );
+  }
+
+  return false;
+}
+
+function parsePublicHttpsUrl(value) {
+  let url;
+  try {
+    url = new URL(value);
+  } catch {
+    return { ok: false, reason: "invalid-url" };
+  }
+
+  const host = url.hostname.toLowerCase().replace(/\.$/, "");
+  if (url.protocol !== "https:") return { ok: false, reason: "non-https-url" };
+  if (url.username || url.password) return { ok: false, reason: "credentialed-url" };
+  if (host === "localhost" || host.endsWith(".localhost") || host === "metadata.google.internal") {
+    return { ok: false, reason: "reserved-host" };
+  }
+  if (net.isIP(host) && isPrivateIp(host)) return { ok: false, reason: "private-ip" };
+
+  return { ok: true, url };
+}
+
+async function assertPublicDestination(value) {
+  const parsed = parsePublicHttpsUrl(value);
+  if (!parsed.ok) return parsed;
+
+  try {
+    const addresses = await dns.lookup(parsed.url.hostname, { all: true, verbatim: true });
+    if (addresses.some(({ address }) => isPrivateIp(address))) {
+      return { ok: false, reason: "private-dns" };
+    }
+  } catch {
+    // DNS failures are handled by fetch below as inconclusive network failures.
+  }
+
+  return parsed;
+}
+
 async function checkUrl(url) {
   try {
+    let currentUrl = url;
+    let safety = await assertPublicDestination(currentUrl);
+    if (!safety.ok) return { ok: false, status: safety.reason };
+
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
-    const res = await fetch(url, {
-      method: "GET",
-      signal: ctrl.signal,
-      redirect: "follow",
-      headers: {
-        "User-Agent": UA,
-        Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      },
-    });
+    let res;
+    for (let redirects = 0; redirects <= 5; redirects++) {
+      res = await fetch(currentUrl, {
+        method: "GET",
+        signal: ctrl.signal,
+        redirect: "manual",
+        headers: {
+          "User-Agent": UA,
+          Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        },
+      });
+
+      if (![301, 302, 303, 307, 308].includes(res.status)) break;
+      const location = res.headers.get("location");
+      if (!location) break;
+      currentUrl = new URL(location, currentUrl).toString();
+      safety = await assertPublicDestination(currentUrl);
+      if (!safety.ok) {
+        clearTimeout(timer);
+        return { ok: false, status: `redirect-${safety.reason}` };
+      }
+    }
     clearTimeout(timer);
+
+    if (!res) return { ok: true, status: "fetch-error" };
+    if ([301, 302, 303, 307, 308].includes(res.status)) return { ok: true, status: "redirect-loop" };
     // 200-399: definitely ok
     if (res.status < 400) return { ok: true, status: res.status };
     // 401/403/405/429: site blocks bots but the page exists

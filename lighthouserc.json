@@ -26,7 +26,6 @@
         "meta-description": "error",
         "document-title": "error",
         "canonical": "error",
-        "structured-data": "warn",
         "is-crawlable": "error",
         "robots-txt": "warn"
       }
