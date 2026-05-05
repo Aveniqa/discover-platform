@@ -43,5 +43,10 @@ next-env.d.ts
 # local artifacts — never commit
 *.pdf
 .claude/
+.obsidian/
+.tinyb
+.lighthouseci/
+test-results/
+data/current-events-candidates.json
 docs/*-backfill.log
 docs/design-refs/
