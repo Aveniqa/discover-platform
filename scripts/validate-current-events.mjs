@@ -86,6 +86,32 @@ for (const [index, event] of events.entries()) {
   if (imageUrl && !allowedImageHosts.has(host(imageUrl))) fail(`${label}.imageUrl host is not allowlisted: ${host(imageUrl)}`);
   validateText(event.imageAlt, `${label}.imageAlt`, 5, 22);
 
+  if (event.storySignals !== undefined) {
+    if (!Array.isArray(event.storySignals) || event.storySignals.length < 2 || event.storySignals.length > 4) {
+      fail(`${label}.storySignals must contain 2 to 4 items when present`);
+    } else {
+      for (const [signalIndex, signal] of event.storySignals.entries()) {
+        const signalLabel = `${label}.storySignals[${signalIndex}]`;
+        validateText(signal.value, `${signalLabel}.value`, 1, 5);
+        validateText(signal.label, `${signalLabel}.label`, 5, 16);
+      }
+    }
+  }
+
+  if (event.nextSteps !== undefined) {
+    if (!Array.isArray(event.nextSteps) || event.nextSteps.length < 2 || event.nextSteps.length > 4) {
+      fail(`${label}.nextSteps must contain 2 to 4 items when present`);
+    } else {
+      for (const [stepIndex, step] of event.nextSteps.entries()) {
+        const stepLabel = `${label}.nextSteps[${stepIndex}]`;
+        validateText(step.title, `${stepLabel}.title`, 2, 7);
+        validateText(step.body, `${stepLabel}.body`, 13, 35);
+        const stepSource = parseHttpsUrl(step.sourceUrl, `${stepLabel}.sourceUrl`);
+        if (stepSource && !allowedSourceHosts.has(host(stepSource))) fail(`${stepLabel}.sourceUrl host is not allowlisted: ${host(stepSource)}`);
+      }
+    }
+  }
+
   if (!Array.isArray(event.recommendations) || event.recommendations.length < 3 || event.recommendations.length > 5) {
     fail(`${label}.recommendations must contain 3 to 5 items`);
     continue;

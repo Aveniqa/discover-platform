@@ -31,6 +31,15 @@ export function CurrentEventsEngine() {
   }
 
   const supportingEvents = currentEvents.slice(1);
+  const sourceTrail = Array.from(
+    new Map(
+      [
+        [leadCurrentEvent.sourceUrl, leadCurrentEvent.sourceName],
+        ...leadCurrentEvent.recommendations.map((item) => [item.sourceUrl, item.sourceName] as const),
+        ...(leadCurrentEvent.nextSteps?.map((step) => [step.sourceUrl, step.sourceName] as const) ?? []),
+      ],
+    ).entries(),
+  ).slice(0, 4);
 
   return (
     <section id="featured-story" aria-labelledby="featured-story-heading" className="relative py-10 sm:py-16 px-4 sm:px-6 text-left">
@@ -83,7 +92,7 @@ export function CurrentEventsEngine() {
           </div>
 
           <div className="grid gap-0 lg:grid-cols-[minmax(0,0.95fr)_minmax(360px,1.05fr)]">
-            <div className="border-t border-white/10 bg-background/40 p-5 sm:p-8 lg:p-10">
+            <div className="flex flex-col border-t border-white/10 bg-background/40 p-5 sm:p-8 lg:p-10">
               <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-emerald-300">
                 Why it matters now
               </p>
@@ -106,9 +115,68 @@ export function CurrentEventsEngine() {
               <p className="mt-5 text-[11px] leading-relaxed text-muted-foreground">
                 Photo: {leadCurrentEvent.imageCredit}. Informational only, not medical advice. Follow CDC guidance and contact a qualified clinician for personal health concerns.
               </p>
+
+              {!!leadCurrentEvent.storySignals?.length && (
+                <div className="mt-6 grid gap-3 sm:grid-cols-3">
+                  {leadCurrentEvent.storySignals.map((signal) => (
+                    <div key={`${signal.value}-${signal.label}`} className="rounded-xl border border-emerald-300/15 bg-emerald-300/[0.06] p-4">
+                      <p className="text-lg font-black leading-tight text-emerald-200">
+                        {signal.value}
+                      </p>
+                      <p className="mt-2 text-[11px] leading-relaxed text-muted">
+                        {signal.label}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {!!leadCurrentEvent.nextSteps?.length && (
+                <div className="mt-6 rounded-2xl border border-white/10 bg-surface-elevated/45 p-4 sm:p-5">
+                  <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
+                    <div>
+                      <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
+                        Before you shop
+                      </p>
+                      <h4 className="mt-1 text-xl font-black tracking-tight text-foreground">
+                        A CDC-backed action plan
+                      </h4>
+                    </div>
+                    <span className="text-[11px] text-muted-foreground">
+                      Prevention first, products second
+                    </span>
+                  </div>
+
+                  <div className="mt-4 grid gap-3">
+                    {leadCurrentEvent.nextSteps.map((step, index) => (
+                      <article key={step.title} className="grid grid-cols-[2rem_1fr] gap-3 rounded-xl border border-border/60 bg-background/35 p-3">
+                        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-300 text-xs font-black text-black">
+                          {index + 1}
+                        </div>
+                        <div>
+                          <h5 className="text-sm font-bold leading-snug text-foreground">
+                            {step.title}
+                          </h5>
+                          <p className="mt-1 text-xs leading-relaxed text-muted">
+                            {step.body}
+                          </p>
+                          <a
+                            href={step.sourceUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-2 inline-flex text-[11px] font-medium text-muted-foreground hover:text-accent transition-colors link-underline"
+                          >
+                            Source: {step.sourceName}
+                          </a>
+                        </div>
+                      </article>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
 
-            <div className="border-t lg:border-l border-white/10 bg-surface-elevated/45 p-5 sm:p-8 lg:p-10">
+            <div className="flex flex-col border-t lg:border-l border-white/10 bg-surface-elevated/45 p-5 sm:p-8 lg:p-10">
               <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
                 <div>
                   <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
@@ -165,6 +233,47 @@ export function CurrentEventsEngine() {
                     </div>
                   </article>
                 ))}
+              </div>
+
+              <div className="mt-6 rounded-2xl border border-white/10 bg-background/35 p-4 sm:p-5">
+                <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
+                  Why these made the cut
+                </p>
+                <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                  {[
+                    "Directly tied to CDC or EPA guidance",
+                    "Useful before, during, or after outdoor exposure",
+                    "No cure claims, panic language, or unrelated impulse buys",
+                  ].map((rule) => (
+                    <div key={rule} className="rounded-xl border border-border/60 bg-surface/40 p-3">
+                      <p className="text-xs leading-relaxed text-muted">
+                        {rule}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-4 rounded-2xl border border-white/10 bg-background/25 p-4 sm:p-5">
+                <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
+                  Source trail
+                </p>
+                <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                  {sourceTrail.map(([url, name]) => (
+                    <a
+                      key={url}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-xl border border-border/60 bg-surface/35 p-3 text-xs font-semibold text-foreground hover:border-emerald-300/40 hover:text-emerald-200 transition-colors"
+                    >
+                      {name}
+                      <span className="mt-1 block text-[11px] font-normal text-muted-foreground">
+                        {hostLabel(url)}
+                      </span>
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

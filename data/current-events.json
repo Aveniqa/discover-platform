@@ -15,6 +15,40 @@
     "imageAlt": "A sunlit forest trail with dense grass and brush where ticks may live",
     "imageCredit": "Unsplash",
     "responseTags": ["ticks", "repellent", "protective-clothing", "tick-removal", "yard-care"],
+    "storySignals": [
+      {
+        "value": "Since 2017",
+        "label": "Highest weekly ER-visit rate for this point in the season"
+      },
+      {
+        "value": "Most regions",
+        "label": "CDC reports elevated tick-bite ER visits across much of the U.S."
+      },
+      {
+        "value": "Act early",
+        "label": "Prevention, checks, and quick removal matter more than alarm"
+      }
+    ],
+    "nextSteps": [
+      {
+        "title": "Before going outside",
+        "body": "Use an EPA-registered repellent and consider 0.5% permethrin-treated boots, socks, clothing, or camping gear where appropriate.",
+        "sourceName": "CDC prevention guidance",
+        "sourceUrl": "https://www.cdc.gov/ticks/prevention/index.html"
+      },
+      {
+        "title": "After coming inside",
+        "body": "Check clothing, pets, and skin after time in grassy, brushy, or wooded areas; showering soon after being outdoors can help with tick checks.",
+        "sourceName": "CDC prevention guidance",
+        "sourceUrl": "https://www.cdc.gov/ticks/prevention/index.html"
+      },
+      {
+        "title": "If a tick is attached",
+        "body": "Remove it promptly with clean, fine-tipped tweezers, then follow CDC after-bite guidance and watch for symptoms.",
+        "sourceName": "CDC after-bite guidance",
+        "sourceUrl": "https://www.cdc.gov/ticks/after-a-tick-bite/"
+      }
+    ],
     "recommendations": [
       {
         "id": "epa-registered-repellent",

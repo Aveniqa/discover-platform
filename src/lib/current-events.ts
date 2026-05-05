@@ -15,6 +15,18 @@ export interface CurrentEventRecommendation {
   ctaLabel: string;
 }
 
+export interface CurrentEventSignal {
+  value: string;
+  label: string;
+}
+
+export interface CurrentEventNextStep {
+  title: string;
+  body: string;
+  sourceName: string;
+  sourceUrl: string;
+}
+
 export interface CurrentEventItem {
   id: string;
   status: CurrentEventStatus;
@@ -31,6 +43,8 @@ export interface CurrentEventItem {
   imageAlt: string;
   imageCredit: string;
   responseTags: string[];
+  storySignals?: CurrentEventSignal[];
+  nextSteps?: CurrentEventNextStep[];
   recommendations: CurrentEventRecommendation[];
 }
 
