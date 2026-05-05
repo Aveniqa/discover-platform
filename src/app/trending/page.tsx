@@ -16,6 +16,8 @@ import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { TiltCard } from "@/components/ui/TiltCard";
 import { BlurText } from "@/components/ui/BlurText";
 import { AdSlot } from "@/components/ui/AdSlot";
+import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
+import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
 
 // Parse the lower bound from "estimatedPriceRange" strings like "$299–$349" or "$29"
 function parsePriceLower(range: string | undefined): number {
@@ -107,12 +109,14 @@ export default function TrendingPage() {
             <BlurText as="span" wordDelay={55} onScroll={false} className="gradient-text">Products</BlurText>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-            The internet&apos;s most-wanted products, vetted and handpicked.{" "}
-            <span className="font-semibold text-foreground">
-              {products.length}
-            </span>{" "}
-            products curated.
+            Useful products with source links, price context, and affiliate disclosures
+            kept visible before you leave Surfaced.
           </p>
+          <EditorialTrustBar
+            tone="emerald"
+            className="mt-6"
+            items={["Affiliate links disclosed", "Source checked", "Prices may change"]}
+          />
         </div>
       </AuroraBackground>
 
@@ -265,7 +269,7 @@ export default function TrendingPage() {
                 glowColor="0 8px 40px rgba(52,211,153,0.12), 0 0 0 1px rgba(52,211,153,0.08)"
                 className="h-full"
               >
-              <div className="group rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
+              <div className="official-card group relative rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
                 <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.title} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
                   <button
@@ -307,22 +311,20 @@ export default function TrendingPage() {
                     {item.title}
                   </h2>
                 </Link>
-                <p className="text-sm text-muted-foreground line-clamp-1 mb-2">
+                <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
                   {getItemExcerpt(item)}
                 </p>
-                {item.sourceLink && (() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return null; } })() && (
-                  <a href={item.sourceLink} target="_blank" rel="noopener"
-                     onClick={(e) => e.stopPropagation()}
-                     className="block text-[11px] text-muted-foreground hover:text-accent transition-colors truncate mb-3">
-                    📰 {(() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return ""; } })()}
-                  </a>
+                {item.sourceLink && (
+                  <div className="mb-3">
+                    <SourceTrailLink href={item.sourceLink} label="Source" compact />
+                  </div>
                 )}
                 <div className="mt-auto flex flex-col gap-2">
                   {item.availableOnAmazon && ((item as AnyItem).affiliate?.url || item.directAmazonUrl) && (
                   <a
                     href={(item as AnyItem).affiliate?.url || item.directAmazonUrl}
                     target="_blank"
-                    rel="sponsored noopener"
+                    rel="sponsored noopener noreferrer nofollow"
                     data-affiliate="true"
                     onClick={(e) => e.stopPropagation()}
                     className="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-amber-400 hover:bg-amber-300 text-black text-xs font-bold transition-all active:scale-95 shadow-[0_0_15px_rgba(251,191,36,0.15)] hover:shadow-[0_0_25px_rgba(251,191,36,0.3)]"
@@ -496,7 +498,7 @@ export default function TrendingPage() {
                         <a
                           href={(p as AnyItem).affiliate?.url || p.directAmazonUrl || p.sourceLink}
                           target="_blank"
-                          rel="sponsored noopener"
+                          rel="sponsored noopener noreferrer nofollow"
                           className="mt-auto text-center py-2 px-4 rounded-lg bg-emerald-500/15 text-emerald-400 text-xs font-semibold hover:bg-emerald-500/25 transition-colors"
                         >
                           Check Price →

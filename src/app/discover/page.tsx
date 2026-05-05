@@ -14,6 +14,8 @@ import { QuickViewModal } from "@/components/ui/QuickViewModal";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { BlurText } from "@/components/ui/BlurText";
 import { TiltCard } from "@/components/ui/TiltCard";
+import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
+import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
 
 export default function DiscoverPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -68,12 +70,13 @@ export default function DiscoverPage() {
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Breakthroughs, fascinating research, and things you didn&apos;t know
-            you needed to know.{" "}
-            <span className="font-semibold text-foreground">
-              {discoveries.length}
-            </span>{" "}
-            items curated.
+            you needed to know, presented with source links and editorial context.
           </p>
+          <EditorialTrustBar
+            tone="indigo"
+            className="mt-6"
+            items={["Source-linked", "Context summarized", "No medical or financial advice"]}
+          />
         </div>
       </AuroraBackground>
 
@@ -167,7 +170,7 @@ export default function DiscoverPage() {
           {paginatedItems.map((item, index) => (
             <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />} className={index === 0 ? "sm:col-span-2 lg:col-span-2 xl:col-span-2" : ""}>
               <TiltCard maxTilt={6} glowColor="0 8px 40px rgba(99,102,241,0.12), 0 0 0 1px rgba(99,102,241,0.08)" className="h-full">
-              <div className="group relative block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden">
+              <div className="official-card group relative block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden">
                 <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.title} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
                   {item.badge === "editors-pick" && (
@@ -190,16 +193,14 @@ export default function DiscoverPage() {
                 <h2 className="text-base font-semibold text-foreground group-hover:text-indigo-300 transition-colors line-clamp-2 mb-2">
                   {item.title}
                 </h2>
-                <p className="text-sm text-muted-foreground line-clamp-1">
+                <p className="text-sm text-muted-foreground line-clamp-2">
                   {getItemExcerpt(item)}
                 </p>
                 </Link>
-                {item.sourceLink && (() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return null; } })() && (
-                  <a href={item.sourceLink} target="_blank" rel="noopener"
-                     onClick={(e) => e.stopPropagation()}
-                     className="block px-6 pb-4 text-[11px] text-muted-foreground hover:text-accent transition-colors truncate -mt-2">
-                    📰 {(() => { try { return new URL(item.sourceLink).hostname.replace("www.", ""); } catch { return ""; } })()}
-                  </a>
+                {item.sourceLink && (
+                  <div className="px-6 pb-4 -mt-2">
+                    <SourceTrailLink href={item.sourceLink} label="Source" compact />
+                  </div>
                 )}
               </div>
               </TiltCard>

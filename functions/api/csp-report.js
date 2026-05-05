@@ -161,10 +161,13 @@ export async function onRequestPost(context) {
     sourceFile: report["source-file"] || report.sourceFile || "",
     lineNumber: report["line-number"] || report.lineNumber || 0,
     disposition: report.disposition || "enforce",
-    userAgent: request.headers.get("User-Agent") || "",
   };
 
-  console.log("[CSP Violation]", JSON.stringify(violation));
+  console.log(
+    "[CSP Violation]",
+    violation.violatedDirective || "unknown-directive",
+    violation.blockedUri || "unknown-blocked-uri"
+  );
 
   // Read → prepend → trim → write
   const { violations } = await readViolations(env);

@@ -44,6 +44,7 @@ export function NewsletterForm({
         action={EMBED_ACTION}
         method="post"
         target="_blank"
+        rel="noopener noreferrer"
         onSubmit={() => { track("newsletter_submit", { location: captureLocation || formId }); setSubmitted(true); }}
         className="flex gap-2"
       >
@@ -72,6 +73,7 @@ export function NewsletterForm({
       action={EMBED_ACTION}
       method="post"
       target="_blank"
+      rel="noopener noreferrer"
       onSubmit={() => { track("newsletter_submit", { location: captureLocation || formId }); setSubmitted(true); }}
       className="flex flex-col sm:flex-row gap-3 max-w-md"
     >

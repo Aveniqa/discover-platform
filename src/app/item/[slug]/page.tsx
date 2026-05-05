@@ -39,10 +39,13 @@ import { BlurText } from "@/components/ui/BlurText";
 import { AdSlot } from "@/components/ui/AdSlot";
 import { LogoImage } from "@/components/ui/LogoImage";
 import { ScreenshotImage } from "@/components/ui/ScreenshotImage";
+import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
+import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
 import { isPexelsImage } from "@/lib/images";
 import { getItemImageUrl } from "@/lib/images";
 import { buildMetadata, getBuildDate } from "@/lib/seo";
 import { articleLd, productLd, breadcrumbLd, ldScript } from "@/lib/jsonld";
+import { getItemSourceLabel, getItemTrustSignals, safeHostLabel } from "@/lib/trust";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -245,6 +248,9 @@ export default async function ItemPage({ params }: Props) {
       return null;
     }
   })();
+  const sourceHost = safeHostLabel(sourceUrl);
+  const sourceLabel = getItemSourceLabel(item);
+  const trustSignals = getItemTrustSignals(item);
 
   // Prev / next within the same type array
   const typeArrayMap: Record<string, AnyItem[]> = {
@@ -263,7 +269,7 @@ export default async function ItemPage({ params }: Props) {
   const isAffiliate = item.affiliate?.enabled === true || isAmazonOutbound;
   // Amazon links are always sponsored regardless of the schema flag (Google
   // affiliate disclosure best-practice + Amazon Associates ToS).
-  const ctaRel = isAffiliate ? "sponsored noopener nofollow" : "noopener";
+  const ctaRel = isAffiliate ? "sponsored noopener noreferrer nofollow" : "noopener noreferrer";
 
   // C1: Reading time estimate
   const readingText = [description, whyText].filter(Boolean).join(" ");
@@ -404,14 +410,75 @@ export default async function ItemPage({ params }: Props) {
               <p className="text-lg sm:text-xl text-muted-foreground leading-[1.8]">
                 {description}
               </p>
+              <EditorialTrustBar
+                className="mt-6 justify-start"
+                items={trustSignals}
+                tone={color as "emerald" | "cyan" | "amber" | "rose" | "indigo"}
+              />
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal delay={80}>
+            <div className="official-panel mb-12 rounded-2xl border p-5 sm:p-7">
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-emerald-300">
+                    Editorial check
+                  </p>
+                  <h2 className="mt-1 text-xl sm:text-2xl font-black tracking-tight text-foreground">
+                    How this page is checked
+                  </h2>
+                </div>
+                {sourceUrl && (
+                  <SourceTrailLink href={sourceUrl} label={sourceLabel} />
+                )}
+              </div>
+              <div className="mt-5 grid gap-3 sm:grid-cols-3">
+                <div className="rounded-xl border border-border/60 bg-background/35 p-4">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-muted-foreground">
+                    Source trail
+                  </p>
+                  <p className="mt-2 text-sm font-semibold text-foreground">
+                    {sourceHost || "Editorial source pending"}
+                  </p>
+                  <p className="mt-1 text-xs leading-relaxed text-muted">
+                    External links are separated from Surfaced commentary.
+                  </p>
+                </div>
+                <div className="rounded-xl border border-border/60 bg-background/35 p-4">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-muted-foreground">
+                    Reader safety
+                  </p>
+                  <p className="mt-2 text-sm font-semibold text-foreground">
+                    Context before clicks
+                  </p>
+                  <p className="mt-1 text-xs leading-relaxed text-muted">
+                    Product links and external services are not presented as guarantees.
+                  </p>
+                </div>
+                <div className="rounded-xl border border-border/60 bg-background/35 p-4">
+                  <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-muted-foreground">
+                    Monetization
+                  </p>
+                  <p className="mt-2 text-sm font-semibold text-foreground">
+                    {isAffiliate ? "Affiliate link disclosed" : "No affiliate flag"}
+                  </p>
+                  <p className="mt-1 text-xs leading-relaxed text-muted">
+                    Ads and commerce links are kept distinct from editorial text.
+                  </p>
+                </div>
+              </div>
             </div>
           </ScrollReveal>
 
           {/* ── Why section ─────────────────────────────────── */}
           {whyText && (
             <ScrollReveal delay={100}>
-              <div className="mb-12 rounded-xl border border-border bg-card p-7 sm:p-10 editorial-block">
-                <h2 className="text-xl sm:text-2xl font-bold text-foreground mb-4">
+              <div className="official-panel mb-12 rounded-2xl border p-7 sm:p-10 editorial-block">
+                <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground mb-2">
+                  Surfaced take
+                </p>
+                <h2 className="text-xl sm:text-2xl font-black text-foreground mb-4">
                   {getWhyHeading(item.type)}
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">{whyText}</p>
@@ -459,7 +526,7 @@ export default async function ItemPage({ params }: Props) {
                 <svg className="w-4 h-4 text-muted-foreground shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
-                <a href={sourceUrl} target="_blank" rel="noopener"
+                <a href={sourceUrl} target="_blank" rel="noopener noreferrer"
                    className="text-sm text-accent hover:text-accent/80 transition-colors truncate">
                   Read full article at {new URL(sourceUrl).hostname.replace("www.", "")} →
                 </a>
@@ -513,7 +580,7 @@ export default async function ItemPage({ params }: Props) {
                   <a
                     href={(item as Product).bestBuyUrl}
                     target="_blank"
-                    rel="sponsored noopener"
+                    rel="sponsored noopener noreferrer nofollow"
                     data-affiliate="true"
                     data-provider="bestbuy"
                     data-item-slug={slug}

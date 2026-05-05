@@ -43,7 +43,7 @@ export function SocialEcosystem() {
               key={ch.platform}
               href={ch.url}
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className={`group relative rounded-xl border border-border bg-card p-6 transition-all duration-300 ${ch.border} card-hover-glow`}
             >
               <div

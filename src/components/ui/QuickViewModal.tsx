@@ -119,7 +119,7 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
               <a
                 href={outboundUrl}
                 target="_blank"
-                rel={isAffiliate ? "sponsored noopener" : "noopener"}
+                rel={isAffiliate ? "sponsored noopener noreferrer nofollow" : "noopener noreferrer"}
                 className="flex-1 text-center py-3 px-6 rounded-xl bg-gradient-to-r from-accent to-accent/80 text-white font-semibold text-sm hover:opacity-90 transition-opacity"
               >
                 {ctaLabel} →

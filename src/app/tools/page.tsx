@@ -15,6 +15,8 @@ import { QuickViewModal } from "@/components/ui/QuickViewModal";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { BlurText } from "@/components/ui/BlurText";
 import { TiltCard } from "@/components/ui/TiltCard";
+import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
+import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
 
 export default function ToolsPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -68,12 +70,14 @@ export default function ToolsPage() {
             <BlurText as="span" wordDelay={55} onScroll={false} className="gradient-text">Tools</BlurText>
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-            Practical, beautiful, no-sign-up tools for everyday life.{" "}
-            <span className="font-semibold text-foreground">
-              {dailyTools.length}
-            </span>{" "}
-            tools ready to use.
+            Practical tools for everyday work, with official site links and clear
+            notes about why each one earns a spot.
           </p>
+          <EditorialTrustBar
+            tone="rose"
+            className="mt-6"
+            items={["Official site linked", "Use-case reviewed", "External services noted"]}
+          />
         </div>
       </AuroraBackground>
 
@@ -167,7 +171,7 @@ export default function ToolsPage() {
           {paginatedItems.map((item, index) => (
             <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />} className={index === 0 ? "sm:col-span-2 lg:col-span-2 xl:col-span-2" : ""}>
               <TiltCard maxTilt={6} glowColor="0 8px 40px rgba(244,63,94,0.12), 0 0 0 1px rgba(244,63,94,0.08)" className="h-full">
-              <div className="group rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
+              <div className="official-card group relative rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
                 <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.toolName} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
                   {item.badge === "editors-pick" && (
@@ -195,15 +199,16 @@ export default function ToolsPage() {
                     {item.toolName}
                   </h2>
                 </Link>
-                <p className="text-sm text-muted-foreground line-clamp-1 mb-4">
+                <p className="text-sm text-muted-foreground line-clamp-2 mb-4">
                   {getItemExcerpt(item)}
                 </p>
                 {item.websiteLink && (
-                <div className="mt-auto">
+                <div className="mt-auto flex flex-col gap-3">
+                  <SourceTrailLink href={item.websiteLink} label="Official site" compact />
                   <a
                     href={item.websiteLink}
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     data-outbound="true"
                     onClick={(e) => e.stopPropagation()}
                     className="inline-flex items-center text-xs font-semibold text-rose-400 hover:text-rose-300 transition-colors"

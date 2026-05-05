@@ -14,6 +14,8 @@ import { QuickViewModal } from "@/components/ui/QuickViewModal";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { BlurText } from "@/components/ui/BlurText";
 import { TiltCard } from "@/components/ui/TiltCard";
+import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
+import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
 
 export default function FutureRadarPage() {
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -68,12 +70,13 @@ export default function FutureRadarPage() {
           </h1>
           <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
             Breakthroughs that will reshape the world — tracked with timelines
-            and impact analysis.{" "}
-            <span className="font-semibold text-foreground">
-              {futureRadar.length}
-            </span>{" "}
-            signals tracked.
+            and impact analysis, with stage labels separated from confirmed outcomes.
           </p>
+          <EditorialTrustBar
+            tone="cyan"
+            className="mt-6"
+            items={["Stage-aware", "Evidence linked when available", "No investment advice"]}
+          />
         </div>
       </AuroraBackground>
 
@@ -167,11 +170,7 @@ export default function FutureRadarPage() {
           {paginatedItems.map((item, index) => (
             <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />} className={index === 0 ? "sm:col-span-2 lg:col-span-2 xl:col-span-2" : ""}>
               <TiltCard maxTilt={6} glowColor="0 8px 40px rgba(34,211,238,0.12), 0 0 0 1px rgba(34,211,238,0.08)" className="h-full">
-              <Link
-                href={`/item/${item.slug}`}
-                aria-label={`Read ${item.techName}`}
-                className="group block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden"
-              >
+              <div className="official-card group relative flex flex-col rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden">
                 <div className="overflow-hidden relative">
                   <ItemImage slug={item.slug} alt={item.techName} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
                   {item.badge === "editors-pick" && (
@@ -186,7 +185,7 @@ export default function FutureRadarPage() {
                     <span className="px-3 py-1.5 bg-white text-black text-xs font-semibold rounded-full shadow">Quick View</span>
                   </button>
                 </div>
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-1">
                 <div className="flex items-start justify-between gap-2 mb-3">
                   <div className="flex items-center gap-2">
                     <CategoryBadge label={getFilterCategory(item)} color="cyan" />
@@ -198,14 +197,19 @@ export default function FutureRadarPage() {
                   </div>
                   <BookmarkButton slug={item.slug} />
                 </div>
-                <h2 className="text-base font-semibold text-foreground group-hover:text-cyan-300 transition-colors line-clamp-2 mb-2">
-                  {item.techName}
-                </h2>
-                <p className="text-sm text-muted-foreground line-clamp-1">
+                <Link href={`/item/${item.slug}`} aria-label={`Read ${item.techName}`} className="block mb-2">
+                  <h2 className="text-base font-semibold text-foreground group-hover:text-cyan-300 transition-colors line-clamp-2">
+                    {item.techName}
+                  </h2>
+                </Link>
+                <p className="text-sm text-muted-foreground line-clamp-2 mb-3">
                   {getItemExcerpt(item)}
                 </p>
+                {item.sourceLink && (
+                  <SourceTrailLink href={item.sourceLink} label="Source" compact />
+                )}
                 </div>
-              </Link>
+              </div>
               </TiltCard>
             </ScrollReveal>
           ))}

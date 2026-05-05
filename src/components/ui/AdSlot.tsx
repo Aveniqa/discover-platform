@@ -47,12 +47,16 @@ export function AdSlot({ slot, format = "auto", label, className = "" }: AdSlotP
 
   return (
     <div
-      className={`adsense-slot my-6 flex justify-center overflow-hidden ${className}`}
-      aria-hidden="true"
+      className={`adsense-slot my-6 overflow-hidden ${className}`}
+      role="complementary"
+      aria-label="Advertisement"
     >
+      <p className="mb-2 text-center text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+        Advertisement
+      </p>
       <ins
         ref={insRef}
-        className="adsbygoogle"
+        className="adsbygoogle mx-auto"
         style={{ display: "block", minWidth: "250px", width: "100%" }}
         data-ad-client={PUB_ID}
         data-ad-slot={slot}
