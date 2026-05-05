@@ -163,10 +163,7 @@ export function SearchModal() {
 }
 
 export function SearchTrigger() {
-  const shortcutLabel =
-    typeof navigator !== "undefined" && navigator.platform.toUpperCase().indexOf("MAC") < 0
-      ? "Ctrl+K"
-      : "⌘K";
+  const shortcutLabel = "⌘K";
 
   return (
     <button
