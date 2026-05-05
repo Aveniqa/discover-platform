@@ -1,0 +1,93 @@
+# Surfaced Broken Link Audit
+
+Generated: 2026-05-05T18:21:29.265Z
+Base URL: https://surfaced-x.pages.dev
+Page concurrency: 24
+Outbound concurrency: 48
+Timeout: 8000ms
+Failure policy: 401/403/429/5xx/timeouts/fetch errors are inconclusive, not broken.
+Pages from sitemap: 2741
+Pages crawled: 2741
+Page fetch issues: 0
+Unique outbound links checked: 13383
+Inconclusive links (not counted broken): 11389
+Confirmed broken links: 27
+
+## Inconclusive Status Summary
+
+- fetch-error: 10380
+- timeout: 898
+- 403: 54
+- 503: 32
+- 200 head, 404 get: 14
+- 502: 4
+- 500: 3
+- 429: 2
+- 403 head, 500 get: 1
+- 405 head, 404 get: 1
+
+## Confirmed Broken Links
+
+- 404 [source] https://www.scientificamerican.com/article/the-wood-wide-web-reveals-the-secrets-of-trees/
+  source: https://surfaced-x.pages.dev/discover
+  source: https://surfaced-x.pages.dev/item/wood-wide-web-how-trees-communicate-and-share-resources
+- 404 [source] https://www.scientificamerican.com/article/the-science-of-polynesian-wayfinding/
+  source: https://surfaced-x.pages.dev/discover
+  source: https://surfaced-x.pages.dev/item/polynesian-wayfinding-ancient-oceanic-navigation
+- 404 [source] https://www.scientificamerican.com/article/how-do-axolotls-regenerate/
+  source: https://surfaced-x.pages.dev/discover
+  source: https://surfaced-x.pages.dev/item/axolotl-limb-regeneration-biological-superpower
+- 404 [source] https://www.genome.gov/about-genomics/policy-issues/what-is-crispr
+  source: https://surfaced-x.pages.dev/discover
+  source: https://surfaced-x.pages.dev/item/crispr-cas9-gene-editing-breakthrough
+- 404 [source] https://www.nationalgeographic.com/history/article/great-stink-london-cholera-sewers
+  source: https://surfaced-x.pages.dev/discover
+  source: https://surfaced-x.pages.dev/item/the-great-stink-of-london-revolutionized-sanitation
+- 404 [source] https://www.scientificamerican.com/article/the-immortal-jellyfish-biologists-discover-how-a-tiny-creature-can-live-forever/
+  source: https://surfaced-x.pages.dev/discover
+  source: https://surfaced-x.pages.dev/item/the-immortal-jellyfish-a-tiny-marine-creature-that-can-revert-to-its-youthful-state
+- 404 [source] https://www.nationalgeographic.com/science/article/pangaea
+  source: https://surfaced-x.pages.dev/discover
+  source: https://surfaced-x.pages.dev/item/pangaea-ancient-supercontinent
+- 404 [source] https://www.nationalgeographic.com/history/article/terra-cotta-army
+  source: https://surfaced-x.pages.dev/discover
+  source: https://surfaced-x.pages.dev/item/terracotta-army-qin-shi-huang
+- 404 [source] https://www.nationalgeographic.com/history/article/baghdad-battery
+  source: https://surfaced-x.pages.dev/discover
+  source: https://surfaced-x.pages.dev/item/the-enigmatic-baghdad-battery-ancient-electrical-mystery
+- 404 [source] https://www.bbc.com/news/magazine-12163901
+  source: https://surfaced-x.pages.dev/item/the-hum-mysterious-low-frequency-sound
+- 404 [source] https://www.nationalgeographic.com/history/article/gobekli-tepe-first-temple-history-turkey
+  source: https://surfaced-x.pages.dev/item/gobekli-tepe-worlds-oldest-known-temple
+- 404 [source] https://www.nationalgeographic.com/animals/article/glass-frogs-sleep-transparent-blood
+  source: https://surfaced-x.pages.dev/item/the-astonishing-glass-frog-transparency
+- 404 [source] https://www.bbc.com/future/article/20190227-the-uncanny-valley-why-human-like-robots-can-be-creepy
+  source: https://surfaced-x.pages.dev/item/the-uncanny-valley-disturbing-replicas
+- 404 [source] https://www.nationalgeographic.com/animals/article/mimic-octopus-ultimate-impersonator
+  source: https://surfaced-x.pages.dev/item/marvelous-mimic-octopus-master-disguise
+- 404 [source] https://www.scientificamerican.com/article/the-dunning-kruger-effect-shows-why-people-think-theyre-great-even-when-they-arent/
+  source: https://surfaced-x.pages.dev/item/the-dunning-kruger-effect
+- 404 [source] https://www.nationalgeographic.com/animals/article/corpse-flower-bloom-titan-arum-rare-photos
+  source: https://surfaced-x.pages.dev/item/titan-arum-corpse-flower
+- 404 [source] https://nautiluslive.org/discoveries
+  source: https://surfaced-x.pages.dev/item/deep-sea-hydrothermal-vents-new-life
+- 404 [source] https://www.scientificamerican.com/article/how-ancient-dna-is-changing-our-understanding-of-history/
+  source: https://surfaced-x.pages.dev/item/ancient-human-migration-patterns-rewritten
+- 404 [source] https://www.uc.edu/news/articles/2012/08/uc-archaeologist-discovers-ancient-maya-water-system-at-tikal.html
+  source: https://surfaced-x.pages.dev/item/ancient-maya-water-management-complex-discovered
+- 404 [source] https://www.scientificamerican.com/article/what-is-survivorship-bias-and-how-does-it-affect-our-thinking/
+  source: https://surfaced-x.pages.dev/item/survivorship-bias-wartime-aircraft-analysis-hidden-data
+- 404 [source] https://www.scientificamerican.com/article/the-gamblers-fallacy/
+  source: https://surfaced-x.pages.dev/item/gamblers-fallacy-past-events-future-independent-outcomes
+- 404 [source] https://le.ac.uk/chemistry/research/green-and-sustainable-chemistry/deep-eutectic-solvents
+  source: https://surfaced-x.pages.dev/item/deep-eutectic-solvents-emerge-sustainable-alternative-organic
+- 404 [source] https://www.deere.com/en/precision-ag/
+  source: https://surfaced-x.pages.dev/item/advanced-robotics-for-precision-agriculture
+- 404 [source] https://is.mpg.de/en/research/micro-nano-and-molecular-systems-lab
+  source: https://surfaced-x.pages.dev/item/in-body-nanorobots-for-targeted-drug-delivery-2
+- 404 [source] https://science.nasa.gov/mission/voyager/voyager-golden-record/
+  source: https://surfaced-x.pages.dev/item/the-voyager-golden-record-humanitys-message-to-the-cosmos
+- 404 [source] https://www.csail.mit.edu/research/distributed-robotics
+  source: https://surfaced-x.pages.dev/item/adaptive-self-assembling-robotics
+- 404 [source] https://www.livescience.com/earth/the-planet-is-slowing-down-because-its-inner-core-stopped-spinning-and-may-be-reversing-new-study-finds
+  source: https://surfaced-x.pages.dev/item/earth-inner-core-rotates-slower

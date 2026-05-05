@@ -42,12 +42,44 @@ export function AdSenseLoader() {
     }
     if (document.getElementById(ADSENSE_SCRIPT_ID)) return;
 
-    const script = document.createElement("script");
-    script.id = ADSENSE_SCRIPT_ID;
-    script.async = true;
-    script.crossOrigin = "anonymous";
-    script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`;
-    document.head.appendChild(script);
+    let cancelled = false;
+    let timeoutId: ReturnType<typeof setTimeout> | undefined;
+    let idleId: number | undefined;
+
+    const appendScript = () => {
+      if (cancelled || document.getElementById(ADSENSE_SCRIPT_ID)) return;
+      const script = document.createElement("script");
+      script.id = ADSENSE_SCRIPT_ID;
+      script.async = true;
+      script.crossOrigin = "anonymous";
+      script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`;
+      document.head.appendChild(script);
+    };
+
+    const scheduleScript = () => {
+      if ("requestIdleCallback" in window) {
+        idleId = (window as unknown as {
+          requestIdleCallback: (cb: () => void, options?: { timeout: number }) => number;
+        }).requestIdleCallback(appendScript, { timeout: 4000 });
+        return;
+      }
+      timeoutId = setTimeout(appendScript, 2500);
+    };
+
+    if (document.readyState === "complete") {
+      scheduleScript();
+    } else {
+      window.addEventListener("load", scheduleScript, { once: true });
+    }
+
+    return () => {
+      cancelled = true;
+      window.removeEventListener("load", scheduleScript);
+      if (timeoutId) clearTimeout(timeoutId);
+      if (idleId && "cancelIdleCallback" in window) {
+        (window as unknown as { cancelIdleCallback: (id: number) => void }).cancelIdleCallback(idleId);
+      }
+    };
   }, [pathname]);
 
   return null;

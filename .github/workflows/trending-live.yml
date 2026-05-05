@@ -58,6 +58,10 @@ jobs:
         if: steps.brain.outputs.changed == 'true' || steps.videos.outputs.changed == 'true'
         run: npm run build
 
+      - name: Notify IndexNow of fresh sitemap
+        if: steps.brain.outputs.changed == 'true' || steps.videos.outputs.changed == 'true'
+        run: npm run seo:ping
+
       - name: Create breaking-news email draft
         if: steps.brain.outputs.major_story == 'true'
         env:

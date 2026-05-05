@@ -3,7 +3,16 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import { useRouter } from "next/navigation";
-import type { AnyItem } from "@/lib/data";
+
+interface SearchIndexItem {
+  slug: string;
+  type: string;
+  title: string;
+  description: string;
+  category: string;
+  categoryLabel: string;
+  color: string;
+}
 
 const colorMap: Record<string, string> = {
   indigo: "bg-indigo-500/20 text-indigo-300 border-indigo-400/30",
@@ -16,23 +25,20 @@ const colorMap: Record<string, string> = {
 export function SearchModal() {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<AnyItem[]>([]);
+  const [results, setResults] = useState<SearchIndexItem[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
   const trapRef = useFocusTrap(open);
   const router = useRouter();
 
-  const allItems = useRef<AnyItem[]>([]);
-  const dataRef = useRef<Pick<
-    typeof import("@/lib/data"),
-    "getAllItems" | "getItemTitle" | "getItemDescription" | "getItemCategory" | "getCategoryColor" | "getCategoryLabel"
-  > | null>(null);
+  const allItems = useRef<SearchIndexItem[]>([]);
 
   const ensureData = useCallback(async () => {
-    if (dataRef.current) return dataRef.current;
-    const mod = await import("@/lib/data");
-    dataRef.current = mod;
-    allItems.current = mod.getAllItems();
-    return mod;
+    if (allItems.current.length > 0) return allItems.current;
+    const res = await fetch("/search-index.json", { cache: "force-cache" });
+    if (!res.ok) throw new Error(`Search index failed: ${res.status}`);
+    const items = (await res.json()) as SearchIndexItem[];
+    allItems.current = items;
+    return items;
   }, []);
 
   useEffect(() => {
@@ -50,22 +56,26 @@ export function SearchModal() {
   useEffect(() => {
     if (open) {
       ensureData().catch(() => {});
-      setTimeout(() => inputRef.current?.focus(), 50);
-    } else {
+      const focusTimer = setTimeout(() => inputRef.current?.focus(), 50);
+      return () => clearTimeout(focusTimer);
+    }
+
+    const frame = requestAnimationFrame(() => {
       setQuery("");
       setResults([]);
-    }
+    });
+    return () => cancelAnimationFrame(frame);
   }, [ensureData, open]);
 
   const handleSearch = useCallback(async (q: string) => {
     setQuery(q);
     if (q.length < 2) { setResults([]); return; }
-    const data = dataRef.current || await ensureData();
+    const items = await ensureData();
     const lower = q.toLowerCase();
-    const filtered = allItems.current.filter((item) => {
-      const title = data.getItemTitle(item).toLowerCase();
-      const desc = data.getItemDescription(item).toLowerCase();
-      const cat = data.getItemCategory(item).toLowerCase();
+    const filtered = items.filter((item) => {
+      const title = item.title.toLowerCase();
+      const desc = item.description.toLowerCase();
+      const cat = item.category.toLowerCase();
       return title.includes(lower) || desc.includes(lower) || cat.includes(lower);
     });
     setResults(filtered.slice(0, 20));
@@ -79,9 +89,8 @@ export function SearchModal() {
   if (!open) return null;
 
   // Group results by type
-  const data = dataRef.current;
-  const grouped = results.reduce<Record<string, AnyItem[]>>((acc, item) => {
-    const label = data?.getCategoryLabel(item.type) || item.type;
+  const grouped = results.reduce<Record<string, SearchIndexItem[]>>((acc, item) => {
+    const label = item.categoryLabel || item.type;
     if (!acc[label]) acc[label] = [];
     acc[label].push(item);
     return acc;
@@ -103,7 +112,7 @@ export function SearchModal() {
               type="text"
               value={query}
               onChange={(e) => handleSearch(e.target.value)}
-              placeholder="Search 320+ discoveries, products, tools..."
+              placeholder="Search 2,700+ discoveries, products, tools..."
               className="flex-1 bg-transparent text-foreground text-sm placeholder:text-muted-foreground outline-none"
             />
             <kbd className="hidden sm:inline-flex px-2 py-0.5 rounded text-[10px] bg-surface border border-border text-muted-foreground font-mono">
@@ -126,7 +135,7 @@ export function SearchModal() {
                   {label} ({items.length})
                 </div>
                 {items.map((item) => {
-                  const color = data?.getCategoryColor(item.type) || "indigo";
+                  const color = item.color || "indigo";
                   return (
                     <button
                       key={item.slug}
@@ -134,11 +143,11 @@ export function SearchModal() {
                       className="w-full flex items-center gap-3 px-6 py-3.5 hover:bg-surface-hover transition-colors text-left cursor-pointer"
                     >
                       <span className={`shrink-0 text-[9px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full border ${colorMap[color]}`}>
-                        {data?.getCategoryLabel(item.type) || item.type}
+                        {item.categoryLabel || item.type}
                       </span>
                       <div className="min-w-0 flex-1">
-                        <p className="text-sm font-medium text-foreground truncate">{data?.getItemTitle(item) || item.slug}</p>
-                        <p className="text-xs text-muted-foreground truncate">{(data?.getItemDescription(item) || "").slice(0, 80)}...</p>
+                        <p className="text-sm font-medium text-foreground truncate">{item.title || item.slug}</p>
+                        <p className="text-xs text-muted-foreground truncate">{item.description.slice(0, 80)}...</p>
                       </div>
                       <svg width="14" height="14" viewBox="0 0 16 16" fill="none" className="text-muted-foreground shrink-0">
                         <path d="M6 3l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -151,7 +160,7 @@ export function SearchModal() {
 
             {query.length < 2 && (
               <div className="px-5 py-8 text-center">
-                <p className="text-muted-foreground text-sm mb-1">Search 320+ curated finds</p>
+                <p className="text-muted-foreground text-sm mb-1">Search 2,700+ curated finds</p>
                 <p className="text-muted-foreground/70 text-xs">Try &quot;AI&quot;, &quot;productivity&quot;, &quot;biotech&quot;, or &quot;design tools&quot;</p>
               </div>
             )}

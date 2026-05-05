@@ -4,6 +4,7 @@ import {
   currentEvents,
   formatCurrentEventDate,
   getCurrentEventDiagnostics,
+  getCurrentEventDisplayImageUrl,
   getCurrentEventRecommendations,
   getCurrentEventSourceTrail,
   getCurrentEventTrustSummary,
@@ -264,7 +265,7 @@ function SupportingEventCard({ event }: { event: CurrentEventItem }) {
       <div className="grid grid-cols-[7rem_1fr] sm:grid-cols-[8.5rem_1fr]">
         <div className="relative min-h-full">
           <Image
-            src={event.imageUrl}
+            src={getCurrentEventDisplayImageUrl(event, 360, 70)}
             alt={event.imageAlt}
             fill
             sizes="140px"
@@ -379,7 +380,7 @@ export function CurrentEventsEngine() {
             <div className="relative grid sm:grid-cols-[minmax(12rem,18rem)_1fr]">
               <div className="relative h-48 sm:h-full sm:min-h-[20rem]">
                 <Image
-                  src={leadCurrentEvent.imageUrl}
+                  src={getCurrentEventDisplayImageUrl(leadCurrentEvent, 760, 72)}
                   alt={leadCurrentEvent.imageAlt}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 40vw, 320px"

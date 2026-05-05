@@ -236,6 +236,7 @@ function StaticHeroShowcase() {
             <Link
               key={item.slug}
               href={`/item/${item.slug}`}
+              prefetch={false}
               className="relative block rounded-xl overflow-hidden cursor-pointer group w-[160px] sm:w-[220px] lg:w-[260px] shrink-0 snap-start"
             >
               <StaticItemImage
@@ -244,7 +245,7 @@ function StaticHeroShowcase() {
                 width={520}
                 height={400}
                 size="md"
-                priority={idx < 4}
+                priority={idx === 0}
                 className="h-full"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-transparent" />
@@ -417,16 +418,16 @@ export default function HomePage() {
                 <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">Trending This Week</h2>
                 <p className="text-xs text-muted-foreground mt-0.5">Editor&rsquo;s picks and top finds</p>
               </div>
-              <Link href="/trending" className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">See all <span>&rarr;</span></Link>
+              <Link href="/trending" prefetch={false} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">See all <span>&rarr;</span></Link>
             </div>
             <StaticCarousel
               items={trendingItems}
               renderCard={(item, idx) => (
-                <Link href={`/item/${item.slug}`} className="group block w-full">
+                <Link href={`/item/${item.slug}`} prefetch={false} className="group block w-full">
                   <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                     <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                     <div className="overflow-hidden relative">
-                      <StaticItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" priority={idx < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                      <StaticItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="sm" priority={idx === 0} className="group-hover:scale-[1.03] transition-transform duration-500" />
                       {!!(item as { badge?: string }).badge && (
                         <span className="absolute top-2 right-2 z-10 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-amber-500 text-white rounded-full">
                           {(item as { badge?: string }).badge}
@@ -463,7 +464,7 @@ export default function HomePage() {
               { label: "Future Tech", href: "/future-radar", emoji: "🔭", description: "What is coming next", color: "from-blue-500/20 to-transparent" },
               { label: "Daily Tools", href: "/tools", emoji: "🛠️", description: "Apps for everyday work", color: "from-rose-500/20 to-transparent" },
             ].map((cat) => (
-              <Link key={cat.href} href={cat.href}
+              <Link key={cat.href} href={cat.href} prefetch={false}
                 className={`p-4 rounded-xl bg-gradient-to-br ${cat.color} border border-border/50 hover:border-accent/30 transition-all group backdrop-blur-sm`}>
                 <span className="text-2xl">{cat.emoji}</span>
                 <p className="font-semibold mt-2 text-sm group-hover:text-accent transition-colors">{cat.label}</p>
@@ -525,7 +526,7 @@ export default function HomePage() {
             <div className="gradient-border relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden h-full">
               <div className={`absolute top-0 left-0 right-0 h-[3px] z-10 ${accentBar(editorsPick.type)}`} />
               <div className="overflow-hidden">
-                <StaticItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" priority className="group-hover:scale-[1.03] transition-transform duration-500" />
+                <StaticItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" className="group-hover:scale-[1.03] transition-transform duration-500" />
               </div>
               <div className="p-7 sm:p-8 flex flex-col flex-1">
               <div className="flex items-start justify-between mb-5">
@@ -556,6 +557,7 @@ export default function HomePage() {
 
               <Link
                 href={`/item/${editorsPick.slug}`}
+                prefetch={false}
                 className="inline-flex items-center gap-2.5 text-sm font-semibold text-accent hover:text-accent-hover transition-colors mt-auto"
               >
                 Read the full story
@@ -601,6 +603,7 @@ export default function HomePage() {
 
                 <Link
                   href={`/item/${item.slug}`}
+                  prefetch={false}
                   className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:text-accent-hover transition-colors mt-auto"
                 >
                   Explore
@@ -637,7 +640,7 @@ export default function HomePage() {
                     {cat.name}
                   </h2>
                 </div>
-                <Link href={cat.path} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">
+                <Link href={cat.path} prefetch={false} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">
                   See All <span>&rarr;</span>
                 </Link>
               </div>
@@ -646,7 +649,7 @@ export default function HomePage() {
                 renderCard={(item) => {
                   const isNew = isNewToday(item, allInCategory);
                   return (
-                    <Link href={`/item/${item.slug}`} className="group block w-full">
+                    <Link href={`/item/${item.slug}`} prefetch={false} className="group block w-full">
                       <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                         <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                         <div className="overflow-hidden relative">
@@ -692,7 +695,7 @@ export default function HomePage() {
                     {cat.name}
                   </h2>
                 </div>
-                <Link href={cat.path} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">
+                <Link href={cat.path} prefetch={false} className="inline-flex items-center gap-1 text-sm font-medium text-muted hover:text-accent transition-colors link-underline">
                   See All <span>&rarr;</span>
                 </Link>
               </div>
@@ -701,7 +704,7 @@ export default function HomePage() {
                 renderCard={(item) => {
                   const isNew = isNewToday(item, allInCategory);
                   return (
-                    <Link href={`/item/${item.slug}`} className="group block w-full">
+                    <Link href={`/item/${item.slug}`} prefetch={false} className="group block w-full">
                       <div className="flex flex-col bg-surface border border-border rounded-xl card-hover-glow h-full overflow-hidden relative">
                         <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                         <div className="overflow-hidden relative">

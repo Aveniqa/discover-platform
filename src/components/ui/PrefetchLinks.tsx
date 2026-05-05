@@ -4,17 +4,12 @@ import { useEffect } from "react";
 
 /**
  * Prefetches visible internal links using requestIdleCallback + IntersectionObserver.
- * Only prefetches /item/* and category pages to avoid wasting bandwidth.
+ * Only prefetches lightweight directory pages to avoid pulling heavy category
+ * or item data into the homepage before the visitor asks for it.
  * Uses <link rel="prefetch"> which is low-priority and non-blocking.
  */
 const PREFETCH_PATTERNS = [
-  /^\/item\//,
-  /^\/discover(\/|$)/,
-  /^\/trending(\/|$)/,
-  /^\/hidden-gems(\/|$)/,
-  /^\/future-radar(\/|$)/,
-  /^\/tools(\/|$)/,
-  /^\/collections(\/|$)/,
+  /^\/categories(\/|$)/,
 ];
 
 export function PrefetchLinks() {
@@ -66,8 +61,9 @@ export function PrefetchLinks() {
       { rootMargin: "200px" } // Start prefetching slightly before links enter viewport
     );
 
-    // Observe all internal links on the page
-    const links = document.querySelectorAll<HTMLAnchorElement>('a[href^="/item/"], a[href^="/discover"], a[href^="/trending"], a[href^="/hidden-gems"], a[href^="/future-radar"], a[href^="/tools"], a[href^="/collections"]');
+    // Observe light internal links only. Item pages carry large static data
+    // chunks, so those wait for explicit navigation.
+    const links = document.querySelectorAll<HTMLAnchorElement>('a[href^="/categories"]');
     links.forEach((link) => observer.observe(link));
 
     return () => observer.disconnect();

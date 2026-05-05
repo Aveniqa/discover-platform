@@ -94,7 +94,7 @@ export default function DailyInsightQuiz({ quiz }: { quiz: DailyInsightQuizData 
             Daily Insight
           </h4>
         </div>
-        <span className="rounded-full border border-cyan-300/20 bg-background/35 px-2.5 py-1 text-[11px] font-semibold text-muted-foreground">
+        <span className="min-w-[8.75rem] rounded-full border border-cyan-300/20 bg-background/35 px-2.5 py-1 text-center text-[11px] font-semibold text-muted-foreground">
           {statusText}
         </span>
       </div>
@@ -102,7 +102,7 @@ export default function DailyInsightQuiz({ quiz }: { quiz: DailyInsightQuizData 
       <p className="mt-3 text-sm font-semibold leading-snug text-foreground">
         {quiz.question}
       </p>
-      <div className="mt-4 grid gap-2">
+      <div className="mt-4 grid gap-2" role="group" aria-label={quiz.question}>
         {quiz.options.map((option, index) => {
           const answered = Boolean(completed);
           const isCorrect = index === quiz.answerIndex;
@@ -117,6 +117,7 @@ export default function DailyInsightQuiz({ quiz }: { quiz: DailyInsightQuizData 
               key={option}
               type="button"
               onClick={() => answer(index)}
+              aria-pressed={isSelected}
               className={`rounded-lg border px-3 py-2.5 text-left text-xs font-semibold leading-snug transition-colors ${stateClass}`}
               disabled={answered}
             >

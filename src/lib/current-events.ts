@@ -158,6 +158,33 @@ export function getCurrentEventWeatherPresentation(event: CurrentEventItem) {
   return getWeatherPresentation(mapWeatherState(event));
 }
 
+export function getCurrentEventDisplayImageUrl(
+  event: CurrentEventItem,
+  width = 960,
+  quality = 72,
+): string {
+  try {
+    const url = new URL(event.imageUrl);
+    const host = url.hostname.toLowerCase();
+    if (host.includes("images.unsplash.com")) {
+      url.searchParams.set("auto", "format");
+      url.searchParams.set("fit", "crop");
+      url.searchParams.set("w", String(width));
+      url.searchParams.set("q", String(quality));
+      return url.toString();
+    }
+    if (host.includes("images.pexels.com")) {
+      url.searchParams.set("auto", "compress");
+      url.searchParams.set("cs", "tinysrgb");
+      url.searchParams.set("w", String(width));
+      return url.toString();
+    }
+  } catch {
+    return event.imageUrl;
+  }
+  return event.imageUrl;
+}
+
 export function formatCurrentEventDate(value: string): string {
   const [year, month, day] = value.split("-").map(Number);
   if (!year || !month || !day) return value;

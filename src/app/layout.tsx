@@ -91,10 +91,10 @@ export default function RootLayout({
         {/* Preconnect to image CDNs for faster above-the-fold loads */}
         <link rel="preconnect" href="https://images.pexels.com" />
         <link rel="preconnect" href="https://images.unsplash.com" />
-        <link rel="preconnect" href="https://www.google.com" />
-        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://www.amazon.com" />
         <link rel="dns-prefetch" href="https://cdn.pixabay.com" />
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
       </head>
       <body className="noise">
         <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(websiteLd())} />

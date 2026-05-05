@@ -19,6 +19,8 @@ const typeToNavPath: Record<string, string> = {
   tool: "/tools",
 };
 
+const lightPrefetchPaths = new Set(["/categories"]);
+
 /**
  * Determine which nav item is active.
  * - Exact path match on category/collection pages
@@ -117,6 +119,7 @@ export function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
+                  prefetch={lightPrefetchPaths.has(item.href) ? null : false}
                   className={cn(
                     "relative px-2.5 xl:px-3 py-2 rounded-lg text-[13px] font-medium transition-all duration-200 whitespace-nowrap",
                     activeHref === item.href
@@ -186,6 +189,7 @@ export function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
+                  prefetch={lightPrefetchPaths.has(item.href) ? null : false}
                   className={cn(
                     "flex items-center justify-between px-4 py-3 rounded-lg text-[13px] font-medium transition-colors",
                     activeHref === item.href

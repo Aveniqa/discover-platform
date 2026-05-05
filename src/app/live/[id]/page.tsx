@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import {
   formatCurrentEventDate,
   getCurrentEventDiagnostics,
+  getCurrentEventDisplayImageUrl,
   getCurrentEventRecommendations,
   getCurrentEventSourceTrail,
   getHost,
@@ -82,7 +83,7 @@ export default async function LiveBriefPage({ params }: Props) {
               <div className="overflow-hidden rounded-xl border border-border bg-surface">
                 <div className="relative aspect-[16/8] min-h-[18rem]">
                   <Image
-                    src={event.imageUrl}
+                    src={getCurrentEventDisplayImageUrl(event, 960, 72)}
                     alt={event.imageAlt}
                     fill
                     priority
