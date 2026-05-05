@@ -11,6 +11,7 @@ import {
   getAllItems,
   getItemTitle,
   getItemExcerpt,
+  getItemWhyText,
   getCategoryColor,
   getCategoryLabel,
   type AnyItem,
@@ -74,6 +75,14 @@ function accentBar(type: string): string {
   return `bg-gradient-to-r ${m[c] || m.indigo}`;
 }
 
+function trimText(s: string, max: number): string {
+  const cleaned = s.replace(/\s+/g, " ").trim();
+  if (cleaned.length <= max) return cleaned;
+  const cut = cleaned.slice(0, max);
+  const lastSpace = cut.lastIndexOf(" ");
+  return `${(lastSpace > max - 40 ? cut.slice(0, lastSpace) : cut).replace(/[,.;:\s]+$/, "")}…`;
+}
+
 /* ---- Page Component ---- */
 
 export default function HomePage() {
@@ -113,20 +122,28 @@ export default function HomePage() {
     };
   }, []);
 
+  const allItems = getAllItems();
+
   /* Trending This Week — badged items, newest first (12 for carousel) */
-  const trendingItems = [...getAllItems()]
+  const trendingItems = [...allItems]
     .filter((i) => !!(i as { badge?: string }).badge)
     .sort((a, b) => (b.id || 0) - (a.id || 0))
     .slice(0, 12);
 
-  /* Today's Edition — 1 lead + 3 supporting picks. Tools rotate in via the
-     dedicated category carousel below; the cover deliberately stays at 4. */
+  /* Today's Edition — 1 lead + 5 supporting picks, filling the editorial grid. */
   const editorsPick = discoveries[0];
-  const topPicksRest: AnyItem[] = [
+  const leadStoryContinuation = trimText(getItemWhyText(editorsPick), 520);
+  const primarySupportingPicks = [
     products[0],
     hiddenGems[0],
     futureRadar[0],
-  ];
+    dailyTools[0],
+  ].filter(Boolean) as AnyItem[];
+  const usedTodaySlugs = new Set([editorsPick.slug, ...primarySupportingPicks.map((item) => item.slug)]);
+  const extraTodayPick = allItems.find(
+    (item) => todaysPicks.some((pick) => pick.slug === item.slug) && !usedTodaySlugs.has(item.slug)
+  ) ?? allItems.find((item) => !usedTodaySlugs.has(item.slug));
+  const topPicksRest = [...primarySupportingPicks, extraTodayPick].filter(Boolean) as AnyItem[];
 
   /* Slugs already shown — exclude from category sections */
   const shownSlugs = new Set([editorsPick.slug, ...topPicksRest.map(i => i.slug)]);
@@ -326,7 +343,7 @@ export default function HomePage() {
                 <BlurText as="span" wordDelay={50} className="gradient-text">Today</BlurText>
               </h2>
               <p className="text-sm text-muted mt-1 hidden sm:block">
-                Four standout finds from across the internet
+                One lead story and five standout finds from across the internet
               </p>
             </div>
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-3 shrink-0">
@@ -367,9 +384,14 @@ export default function HomePage() {
                 {getItemTitle(editorsPick)}
               </h3>
 
-              <p className="text-sm sm:text-base text-muted leading-relaxed mb-6 line-clamp-4 flex-1">
-                {getItemExcerpt(editorsPick, 240)}
-              </p>
+              <div className="text-sm sm:text-base text-muted leading-relaxed mb-6 flex-1 space-y-3">
+                <p>
+                  {getItemExcerpt(editorsPick, 520)}
+                </p>
+                <p className="hidden lg:block text-muted-foreground">
+                  {leadStoryContinuation}
+                </p>
+              </div>
 
               <Link
                 href={`/item/${editorsPick.slug}`}
