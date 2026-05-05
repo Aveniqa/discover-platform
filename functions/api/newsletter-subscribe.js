@@ -142,7 +142,6 @@ export async function onRequestPost(context) {
       email_address: email,
       tags: ["surfaced", location].filter(Boolean),
       referrer_url: referrerUrl,
-      ip_address: ip === "unknown" ? undefined : ip,
       metadata: {
         form_id: formId,
         capture_location: location,
