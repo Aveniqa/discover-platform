@@ -1,6 +1,13 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import {
+  dateDeltaDays,
+  readSurfacedScoreState,
+  surfacedScoreCompletionKey,
+  SURFACED_SCORE_STORAGE_KEY,
+  type SurfacedScoreState,
+} from "@/lib/surfaced-score";
 
 export interface DailyInsightQuizData {
   storyId: string;
@@ -14,43 +21,10 @@ export interface DailyInsightQuizData {
   sourceUrl: string;
 }
 
-interface SurfacedScoreState {
-  version: 1;
-  score: number;
-  streak: number;
-  lastCompletedDate: string | null;
-  completed: Record<string, { storyId: string; correct: boolean; completedAt: string }>;
-}
-
-const STORAGE_KEY = "surfaced-score-v1";
-
-function blankState(): SurfacedScoreState {
-  return { version: 1, score: 0, streak: 0, lastCompletedDate: null, completed: {} };
-}
-
-function readScoreState(): SurfacedScoreState {
-  if (typeof window === "undefined") return blankState();
-  try {
-    const parsed = JSON.parse(window.localStorage.getItem(STORAGE_KEY) || "");
-    if (parsed?.version === 1 && typeof parsed.completed === "object") return parsed;
-  } catch {
-    return blankState();
-  }
-  return blankState();
-}
-
-function dateDeltaDays(a: string | null, b: string): number {
-  if (!a) return 999;
-  const previous = new Date(`${a}T00:00:00.000Z`).getTime();
-  const next = new Date(`${b}T00:00:00.000Z`).getTime();
-  if (!Number.isFinite(previous) || !Number.isFinite(next)) return 999;
-  return Math.round((next - previous) / 86_400_000);
-}
-
 export default function DailyInsightQuiz({ quiz }: { quiz: DailyInsightQuizData }) {
-  const [scoreState, setScoreState] = useState<SurfacedScoreState>(() => readScoreState());
+  const [scoreState, setScoreState] = useState<SurfacedScoreState>(() => readSurfacedScoreState());
   const [selected, setSelected] = useState<number | null>(null);
-  const completeKey = `${quiz.dateKey}:${quiz.storyId}`;
+  const completeKey = surfacedScoreCompletionKey(quiz.dateKey, quiz.storyId);
   const completed = scoreState.completed[completeKey];
 
   const statusText = useMemo(() => {
@@ -78,7 +52,7 @@ export default function DailyInsightQuiz({ quiz }: { quiz: DailyInsightQuizData 
         },
       },
     };
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(nextState));
+    window.localStorage.setItem(SURFACED_SCORE_STORAGE_KEY, JSON.stringify(nextState));
     setSelected(index);
     setScoreState(nextState);
   }

@@ -15,6 +15,7 @@ import { buildMetadata, getBuildDate } from "@/lib/seo";
 import { articleLd, breadcrumbLd, ldScript } from "@/lib/jsonld";
 import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
 import { LazyPublisherVideo } from "@/components/home/LazyPublisherVideo";
+import { LiveBriefShare } from "@/components/live/LiveBriefShare";
 
 type Props = { params: Promise<{ id: string }> };
 
@@ -184,6 +185,16 @@ export default async function LiveBriefPage({ params }: Props) {
                   ))}
                 </div>
               </div>
+              <LiveBriefShare
+                eventId={event.id}
+                dateKey={event.lastVerifiedAt}
+                title={event.title}
+                summary={event.summary}
+                label={event.label}
+                sourceName={event.sourceName}
+                editorialStrength={diagnostics.editorialStrength}
+                editorialLabel={diagnostics.label}
+              />
               <div className="rounded-xl border border-border bg-surface p-5">
                 <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">Editorial safeguards</p>
                 <div className="mt-3 grid gap-2">
