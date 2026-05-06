@@ -166,7 +166,7 @@ async function expandShortItem(category, item, bodyWords) {
   const currentBody = bodyFields
     .map((field) => `${field}: ${item[field] || ""}`)
     .join("\n");
-  const prompt = `You are tightening a Surfaced daily-edition JSON item that is too concise for review.
+  const prompt = `You are tightening a Surfaced daily-edition JSON item that is too concise or incomplete for review.
 
 Category: ${category}
 Item identity:
@@ -377,9 +377,19 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
     // Validate required fields — discard incomplete Gemini responses
     const requiredFields = REQUIRED_FIELDS[category];
     if (requiredFields) {
-      const missing = requiredFields.filter(
+      let missing = requiredFields.filter(
         (f) => item[f] === undefined || item[f] === null || (typeof item[f] === "string" && item[f].trim() === "")
       );
+      const bodyFields = BODY_FIELDS_BY_CATEGORY[category] || [];
+      const missingBodyFields = missing.filter((field) => bodyFields.includes(field));
+      const missingNonBodyFields = missing.filter((field) => !bodyFields.includes(field));
+      if (missingBodyFields.length > 0 && missingNonBodyFields.length === 0) {
+        const expanded = await expandShortItem(category, item, wordCount(itemBody(item)));
+        Object.assign(item, expanded);
+        missing = requiredFields.filter(
+          (f) => item[f] === undefined || item[f] === null || (typeof item[f] === "string" && item[f].trim() === "")
+        );
+      }
       if (missing.length > 0) {
         console.warn(`  ⚠ Incomplete item discarded: "${itemName || item.slug || "unknown"}" — missing: ${missing.join(", ")}`);
         continue;
