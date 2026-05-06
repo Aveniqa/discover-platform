@@ -56,6 +56,34 @@ function wordCount(text) {
   return String(text || "").trim().split(/\s+/).filter(Boolean).length;
 }
 
+function slugify(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 90);
+}
+
+function comparableName(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isLikelyDuplicateName(candidate, existingNames) {
+  const name = comparableName(candidate);
+  if (!name) return false;
+  return existingNames.some((existing) => {
+    if (!existing) return false;
+    if (existing === name) return true;
+    return name.length >= 5 && (existing.includes(name) || name.includes(existing));
+  });
+}
+
 function itemBody(item) {
   return [
     item.shortDescription,
@@ -118,6 +146,9 @@ function normalizeGeneratedItem(category, item) {
       normalized.sourceLink = firstString(normalized.sourceLink, normalized.websiteLink, normalized.url);
       break;
   }
+
+  const displayName = firstString(normalized.title, normalized.name, normalized.toolName, normalized.techName);
+  normalized.slug = slugify(firstString(normalized.slug, displayName));
 
   return normalized;
 }
@@ -231,13 +262,12 @@ async function generateItems(category, existingItems, count, seeds = []) {
       .map((i) => (i.websiteLink || i.sourceLink || "").replace(/\/$/, "").toLowerCase())
       .filter(Boolean)
   );
-  const existingNamesLower = new Set(
-    existingItems.map((i) => (i.title || i.name || i.toolName || i.techName || "").toLowerCase())
-  );
+  const existingNamesComparable = existingItems
+    .map((i) => comparableName(i.title || i.name || i.toolName || i.techName || ""))
+    .filter(Boolean);
   const filteredSeeds = seeds.filter((s) => {
     const u = (s.url || "").replace(/\/$/, "").toLowerCase();
-    const n = (s.title || "").toLowerCase();
-    return !existingUrls.has(u) && !existingNamesLower.has(n);
+    return !existingUrls.has(u) && !isLikelyDuplicateName(s.title, existingNamesComparable);
   });
 
   const schemas = {
@@ -365,14 +395,14 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
   });
 
   // Assign IDs and reject true duplicates (same name as existing item)
-  const existingNames = new Set(
-    existingItems.map((i) => (i.title || i.name || i.toolName || i.techName || "").toLowerCase())
-  );
+  const existingNames = existingItems
+    .map((i) => comparableName(i.title || i.name || i.toolName || i.techName || ""))
+    .filter(Boolean);
   let nextId = getNextId(existingItems);
   const validItems = [];
   for (const rawItem of items) {
     const item = normalizeGeneratedItem(category, rawItem);
-    const itemName = (item.title || item.name || item.toolName || item.techName || "").toLowerCase();
+    const itemName = item.title || item.name || item.toolName || item.techName || "";
 
     // Validate required fields — discard incomplete Gemini responses
     const requiredFields = REQUIRED_FIELDS[category];
@@ -415,7 +445,7 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
     }
 
     // Skip exact name duplicates entirely
-    if (existingNames.has(itemName)) {
+    if (isLikelyDuplicateName(itemName, existingNames)) {
       console.warn(`  ⚠ Duplicate name skipped: "${itemName}" (slug: ${item.slug})`);
       continue;
     }
@@ -430,7 +460,7 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
     item.dateAdded = today;
     validItems.push(item);
     existingSlugs.add(item.slug);
-    existingNames.add(itemName);
+    existingNames.push(comparableName(itemName));
   }
 
   return validItems;
@@ -457,7 +487,11 @@ async function main() {
       const newItems = [];
       for (let attempt = 1; newItems.length < 5 && attempt <= 3; attempt++) {
         const needed = 5 - newItems.length;
-        const batch = await generateItems(category, [...existing, ...newItems], needed, seeds);
+        const seedsForAttempt = attempt === 1 ? seeds : [];
+        if (attempt === 2 && seeds.length) {
+          console.warn(`[${category}] Falling back to unseeded generation for remaining item(s).`);
+        }
+        const batch = await generateItems(category, [...existing, ...newItems], needed, seedsForAttempt);
         newItems.push(...batch);
         if (newItems.length < 5) {
           console.warn(`[${category}] ${newItems.length}/5 valid items after attempt ${attempt}; retrying for ${5 - newItems.length} item(s).`);
