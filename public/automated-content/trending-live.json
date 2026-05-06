@@ -1,10 +1,192 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-06T16:55:51.987Z",
+  "generatedAt": "2026-05-06T20:02:47.840Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-3cc45201cc06bc0375ce192c999cf9da6a8d5526-001-",
+      "type": "current-event",
+      "title": "Tornado Watch issued May 6 at 2:15PM CDT until May 6 at 11:00PM CDT by NWS New Orleans...",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 186 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS IN LOUISIANA THIS WATCH INCLUDES 6 PARISHES IN SOUTHEAST LOUISIANA EAST FELICIANA POINTE COUPEE ST. HELENA TANGIPAHOA WASHINGTON WEST FELICIANA IN MISSISSIPPI THIS WATCH INCLUDES 5 COUNTIES IN...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3cc45201cc06bc0375ce192c999cf9da6a8d5526.001.1",
+      "detectedAt": "2026-05-06T20:02:47.840Z",
+      "publishedAt": "2026-05-06",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3cc45201cc06bc0375ce192c999cf9da6a8d5526.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-d9b907f5f5ae17fcbf1f763de320bf088aa71bb0-001-",
+      "type": "current-event",
+      "title": "Tornado Watch issued May 6 at 2:17PM CDT until May 6 at 11:00PM CDT by NWS Jackson MS",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 186 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS IN LOUISIANA THIS WATCH INCLUDES 5 PARISHES IN NORTHEAST LOUISIANA CATAHOULA CONCORDIA FRANKLIN MADISON TENSAS IN MISSISSIPPI THIS WATCH INCLUDES 35 COUNTIES IN CENTRAL MISSISSIPPI ATTALA CHOCTAW...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9b907f5f5ae17fcbf1f763de320bf088aa71bb0.001.1",
+      "detectedAt": "2026-05-06T20:02:47.840Z",
+      "publishedAt": "2026-05-06",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9b907f5f5ae17fcbf1f763de320bf088aa71bb0.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-495b88fa77c7d62b253add1bb461c01b2bcbb285-001-",
+      "type": "current-event",
+      "title": "Tornado Watch issued May 6 at 2:18PM CDT until May 6 at 11:00PM CDT by NWS Shreveport LA",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 186 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS IN LOUISIANA THIS WATCH INCLUDES 6 PARISHES IN NORTH CENTRAL LOUISIANA CALDWELL GRANT LA SALLE WINN IN NORTHWEST LOUISIANA NATCHITOCHES SABINE IN TEXAS THIS WATCH INCLUDES 1 COUNTY IN NORTHEAST...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.495b88fa77c7d62b253add1bb461c01b2bcbb285.001.1",
+      "detectedAt": "2026-05-06T20:02:47.840Z",
+      "publishedAt": "2026-05-06",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.495b88fa77c7d62b253add1bb461c01b2bcbb285.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-82a754f0c7c5dae33e7ea78969d240cefa0755a1-001-",
+      "type": "current-event",
+      "title": "Tornado Watch issued May 6 at 2:19PM CDT until May 6 at 11:00PM CDT by NWS Lake Charles...",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 186 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS IN LOUISIANA THIS WATCH INCLUDES 7 PARISHES IN CENTRAL LOUISIANA AVOYELLES EVANGELINE RAPIDES ST. LANDRY IN SOUTHWEST LOUISIANA ALLEN BEAUREGARD IN WEST CENTRAL LOUISIANA VERNON IN TEXAS THIS WATCH...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82a754f0c7c5dae33e7ea78969d240cefa0755a1.001.1",
+      "detectedAt": "2026-05-06T20:02:47.840Z",
+      "publishedAt": "2026-05-06",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82a754f0c7c5dae33e7ea78969d240cefa0755a1.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-12dee357bba94538ecd48789a7ca108e69b4d38f-001-",
+      "type": "current-event",
+      "title": "Tornado Watch issued May 6 at 2:39PM CDT until May 6 at 11:00PM CDT by NWS Huntsville AL",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 187 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS IN ALABAMA THIS WATCH INCLUDES 4 COUNTIES IN NORTH CENTRAL ALABAMA CULLMAN MORGAN IN NORTHEAST ALABAMA DEKALB MARSHALL THIS INCLUDES THE CITIES OF ALBERTVILLE, ARAB, BOAZ, CULLMAN, DECATUR, FORT...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12dee357bba94538ecd48789a7ca108e69b4d38f.001.1",
+      "detectedAt": "2026-05-06T20:02:47.840Z",
+      "publishedAt": "2026-05-06",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.12dee357bba94538ecd48789a7ca108e69b4d38f.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-cd292230bf311684c3f977da7f710c3ab1ff7429-001-",
+      "type": "current-event",
+      "title": "Tornado Watch issued May 6 at 2:39PM CDT until May 6 at 11:00PM CDT by NWS Mobile AL",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 187 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS IN ALABAMA THIS WATCH INCLUDES 8 COUNTIES IN SOUTH CENTRAL ALABAMA BUTLER CONECUH CRENSHAW MONROE WILCOX IN SOUTHWEST ALABAMA CHOCTAW CLARKE WASHINGTON THIS INCLUDES THE CITIES OF BRANTLEY, BUTLER,...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd292230bf311684c3f977da7f710c3ab1ff7429.001.1",
+      "detectedAt": "2026-05-06T20:02:47.840Z",
+      "publishedAt": "2026-05-06",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd292230bf311684c3f977da7f710c3ab1ff7429.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-2511b177d0fa43483199c23ee57feb9aad42e56c-001-",
+      "type": "current-event",
+      "title": "Tornado Watch issued May 6 at 2:39PM CDT until May 6 at 11:00PM CDT by NWS Birmingham AL",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 187 IN EFFECT UNTIL 11 PM CDT THIS EVENING FOR THE FOLLOWING AREAS IN ALABAMA THIS WATCH INCLUDES 30 COUNTIES IN CENTRAL ALABAMA AUTAUGA BIBB BLOUNT CALHOUN CHEROKEE CHILTON CLAY COOSA DALLAS ELMORE ETOWAH FAYETTE GREENE HALE JEFFERSON LAMAR LOWNDES MARENGO MARION...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2511b177d0fa43483199c23ee57feb9aad42e56c.001.1",
+      "detectedAt": "2026-05-06T20:02:47.840Z",
+      "publishedAt": "2026-05-06",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2511b177d0fa43483199c23ee57feb9aad42e56c.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
     {
       "id": "candidate-cpsc-26444",
       "type": "current-event",
@@ -13,7 +195,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards",
-      "detectedAt": "2026-05-06T16:55:51.987Z",
+      "detectedAt": "2026-05-06T20:02:47.840Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -27,188 +209,6 @@
         {
           "name": "CPSC Recalls API",
           "url": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26446",
-      "type": "current-event",
-      "title": "Segmart 4-Drawer Dressers Recalled Due to Risk of Serious Injury or Death from Tip-Over and Entrapment; Violate...",
-      "summary": "Segmart 4-Drawer Dressers: The recalled dressers are unstable if they are not anchored to the wall, posing tip-over and entrapment hazards that can result in risks of serious injuries or death to children. The dressers violate the mandatory safety standard as required by the STURDY Act.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT",
-      "detectedAt": "2026-05-06T16:55:51.987Z",
-      "publishedAt": "2026-04-30",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26450",
-      "type": "current-event",
-      "title": "Residential Elevators Recalls Elevator StrikeLock Hoistway Door Locking Device Due to Risk of Serious Injury or Death...",
-      "summary": "Residential Elevators StrikeLock Hoistway Door Locking Device: The elevator's StrikeLock hoistway door locking device can allow the elevator cab to move with a landing door open, posing a risk of serious injury or death due to fall and injury hazards.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
-      "detectedAt": "2026-05-06T16:55:51.987Z",
-      "publishedAt": "2026-04-30",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26454",
-      "type": "current-event",
-      "title": "Qumeney Bicycle Light Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory...",
-      "summary": "Qumeney Bicycle Light Sets: The recalled bicycle lights violate the mandatory standard for consumer products with button cell and coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the bicycle lights do not have the warnings...",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
-      "detectedAt": "2026-05-06T16:55:51.987Z",
-      "publishedAt": "2026-04-30",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26452",
-      "type": "current-event",
-      "title": "Pressure Washers Recalled Due to Serious Risk of Injury or Death from Shock and Electrocution Hazards; Imported by...",
-      "summary": "DGIVOVO US Electric Pressure Washers: The recalled pressure washers lack an integral ground-fault circuit-interrupter (GFCI), posing a serious risk of injury or death from shock and electrocution hazards.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US",
-      "detectedAt": "2026-05-06T16:55:51.987Z",
-      "publishedAt": "2026-04-30",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26447",
-      "type": "current-event",
-      "title": "Malker Bicycle Light Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion Hazard; Violates...",
-      "summary": "Malker Bicycle Light Sets: The recalled bicycle lights violate the mandatory standard for consumer products with button cell and coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the bicycle lights do not have the warnings...",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect",
-      "detectedAt": "2026-05-06T16:55:51.987Z",
-      "publishedAt": "2026-04-30",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26451",
-      "type": "current-event",
-      "title": "Earthtec Pool Drain Covers Recalled Due to Risk of Serious Injury or Death from Entrapment and Drowning Hazards;...",
-      "summary": "Earthtec 7 3/8 Inch Pool Drain Covers: The recalled drain covers violate the entrapment protection standards of the Virginia Graeme Baker Pool and Spa Safety Act (VGBA), posing entrapment and drowning hazards to swimmers and bathers.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Earthtec-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Manufactured-by-Tonyidea",
-      "detectedAt": "2026-05-06T16:55:51.987Z",
-      "publishedAt": "2026-04-30",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Earthtec-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Manufactured-by-Tonyidea",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26456",
-      "type": "current-event",
-      "title": "CBC Group Recalls Stephan Baby Boo Bunnie and Friends Children's Toys Due to Risk of Serious Injury from...",
-      "summary": "Stephan Baby Boo Bunnie and Friends Children's Toys: The toys' plastic cube can break into small parts or sharp edges, posing a risk of serious injury from choking and laceration hazards.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/CBC-Group-Recalls-Stephan-Baby-Boo-Bunnie-and-Friends-Childrens-Toys-Due-to-Risk-of-Serious-Injury-from-Choking-and-Laceration-Hazards",
-      "detectedAt": "2026-05-06T16:55:51.987Z",
-      "publishedAt": "2026-04-30",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/CBC-Group-Recalls-Stephan-Baby-Boo-Bunnie-and-Friends-Childrens-Toys-Due-to-Risk-of-Serious-Injury-from-Choking-and-Laceration-Hazards",
           "role": "event-source"
         }
       ]
