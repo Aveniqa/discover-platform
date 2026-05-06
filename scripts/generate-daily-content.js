@@ -252,8 +252,8 @@ Requirements:
 async function generateItems(category, existingItems, count, seeds = []) {
   const existingSlugs = getExistingSlugs(existingItems);
   const existingTitles = existingItems
-    .slice(-30)
     .map((i) => i.title || i.name || i.toolName || i.techName)
+    .filter(Boolean)
     .join(", ");
 
   // De-dupe seeds against items we already have (by URL host+path or name)
@@ -485,14 +485,15 @@ async function main() {
         console.log(`[${category}] Seeded with ${seeds.length} real trending items (${[...new Set(seeds.map((s) => s.source))].join(", ")})`);
       }
       const newItems = [];
-      for (let attempt = 1; newItems.length < 5 && attempt <= 3; attempt++) {
+      for (let attempt = 1; newItems.length < 5 && attempt <= 5; attempt++) {
         const needed = 5 - newItems.length;
         const seedsForAttempt = attempt === 1 ? seeds : [];
         if (attempt === 2 && seeds.length) {
           console.warn(`[${category}] Falling back to unseeded generation for remaining item(s).`);
         }
-        const batch = await generateItems(category, [...existing, ...newItems], needed, seedsForAttempt);
-        newItems.push(...batch);
+        const requestCount = seedsForAttempt.length ? needed : Math.min(5, Math.max(needed, 3));
+        const batch = await generateItems(category, [...existing, ...newItems], requestCount, seedsForAttempt);
+        newItems.push(...batch.slice(0, needed));
         if (newItems.length < 5) {
           console.warn(`[${category}] ${newItems.length}/5 valid items after attempt ${attempt}; retrying for ${5 - newItems.length} item(s).`);
         }
