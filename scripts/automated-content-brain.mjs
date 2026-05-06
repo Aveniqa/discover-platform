@@ -282,7 +282,16 @@ function runCurrentEventDiscovery() {
       apiStatus: payload.apiStatus || {},
     };
   } catch (error) {
-    return { ok: false, error: `daily discovery JSON parse failed: ${error.message}`, candidates: [] };
+    // Spawned script exited 0 but stdout is not valid JSON. Surface stderr
+    // and a stdout snippet so the trending-live decisionLog is self-diagnosing.
+    const stderrTail = (result.stderr || "").trim().slice(-300);
+    const stdoutHead = (result.stdout || "").trim().slice(0, 200);
+    const detail = [
+      `daily discovery JSON parse failed: ${error.message}`,
+      stderrTail && `stderr: ${stderrTail}`,
+      stdoutHead && `stdout[0..200]: ${stdoutHead}`,
+    ].filter(Boolean).join(" | ").slice(0, 500);
+    return { ok: false, error: detail, candidates: [] };
   }
 }
 

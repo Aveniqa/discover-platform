@@ -509,12 +509,23 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
 async function main() {
   console.log(`\n📰 Generating daily content for ${today}\n`);
 
-  // Snapshot all data files before generation so we can restore on failure
+  // Snapshot all data files before generation so we can restore on failure.
+  // The snapshot covers every step that can mutate data/*.json: the generation
+  // loop, cross-category slug dedup, affiliate/Best Buy URL processing, and
+  // the final pre-commit schema validation. A failure in any of those is rolled
+  // back so the pipeline never leaves the repo in a partially-mutated state.
   const backups = {};
   for (const filename of Object.values(FILES)) {
     const fp = path.join(DATA_DIR, filename);
     backups[fp] = fs.readFileSync(fp, "utf8");
   }
+  const restoreBackups = () => {
+    console.log("Restoring data files from backup...");
+    for (const [fp, content] of Object.entries(backups)) {
+      fs.writeFileSync(fp, content);
+    }
+    console.log("Data files restored to pre-generation state.");
+  };
 
   try {
     for (const [category, filename] of Object.entries(FILES)) {
@@ -553,15 +564,13 @@ async function main() {
     }
   } catch (err) {
     console.error(`\n❌ Generation failed: ${err.message}`);
-    console.log("Restoring data files from backup...");
-    for (const [fp, content] of Object.entries(backups)) {
-      fs.writeFileSync(fp, content);
-    }
-    console.log("Data files restored to pre-generation state.");
+    restoreBackups();
     throw err;
   }
 
   console.log("✅ All categories updated.\n");
+
+  try {
 
   // Cross-category slug deduplication — all 5 files share the /item/<slug> route
   // Seed with archive slugs so new items never collide with archived URLs
@@ -722,7 +731,12 @@ async function main() {
   }
 
   console.log("🔍 Running pre-commit schema validation...");
-  runSchemaValidation();
+    runSchemaValidation();
+  } catch (err) {
+    console.error(`\n❌ Post-generation step failed: ${err.message}`);
+    restoreBackups();
+    throw err;
+  }
 }
 
 main().catch((err) => {
