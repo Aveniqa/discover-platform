@@ -1,140 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-06T14:49:35.751Z",
+  "generatedAt": "2026-05-06T16:55:51.987Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-165e2a1f8d1daaa5976a86f44137ba363ebd68bc-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Watch issued May 6 at 8:32AM CDT until May 6 at 1:00PM CDT by NWS Fort...",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH 185 IN EFFECT UNTIL 1 PM CDT THIS AFTERNOON FOR THE FOLLOWING AREAS IN TEXAS THIS WATCH INCLUDES 3 COUNTIES IN CENTRAL TEXAS BELL CORYELL LAMPASAS THIS INCLUDES THE CITIES OF COPPERAS COVE, FORT HOOD, GATESVILLE, KILLEEN, LAMPASAS, AND TEMPLE.",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.165e2a1f8d1daaa5976a86f44137ba363ebd68bc.001.1",
-      "detectedAt": "2026-05-06T14:49:35.751Z",
-      "publishedAt": "2026-05-06",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.165e2a1f8d1daaa5976a86f44137ba363ebd68bc.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-4115cd8db5d39f78da7650c5d5edd057b600ccb4-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Watch issued May 6 at 8:32AM CDT until May 6 at 1:00PM CDT by NWS Austin/San...",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH 185 IN EFFECT UNTIL 1 PM CDT THIS AFTERNOON FOR THE FOLLOWING AREAS IN TEXAS THIS WATCH INCLUDES 15 COUNTIES IN SOUTH CENTRAL TEXAS BANDERA BASTROP BLANCO BURNET CALDWELL COMAL EDWARDS GILLESPIE HAYS KENDALL KERR LLANO REAL TRAVIS WILLIAMSON THIS...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4115cd8db5d39f78da7650c5d5edd057b600ccb4.001.1",
-      "detectedAt": "2026-05-06T14:49:35.751Z",
-      "publishedAt": "2026-05-06",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4115cd8db5d39f78da7650c5d5edd057b600ccb4.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-15c73c1fd4fac108a425c8bcf6ef670a29876862-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Watch issued May 6 at 8:38AM CDT until May 6 at 1:00PM CDT by NWS San...",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH 185 IN EFFECT UNTIL 1 PM CDT THIS AFTERNOON FOR THE FOLLOWING AREAS IN TEXAS THIS WATCH INCLUDES 5 COUNTIES IN WEST CENTRAL TEXAS KIMBLE MASON MENARD SAN SABA SUTTON THIS INCLUDES THE CITIES OF CHAPPEL, CHEROKEE, CLEO, ERNA, FORT MCKAVETT, FREDONIA,...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15c73c1fd4fac108a425c8bcf6ef670a29876862.001.1",
-      "detectedAt": "2026-05-06T14:49:35.751Z",
-      "publishedAt": "2026-05-06",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15c73c1fd4fac108a425c8bcf6ef670a29876862.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-f61b12ff3a267decf9c07c7288443c8feac139fb-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 6 at 9:33AM CDT until May 6 at 10:30AM CDT by NWS Austin/San...",
-      "summary": "SVREWX The National Weather Service in Austin San Antonio has issued a * Severe Thunderstorm Warning for... Eastern Llano County in south central Texas... Burnet County in south central Texas... * Until 1030 AM CDT. * At 933 AM CDT, a severe thunderstorm was located over Longhorn Cavern State Park, or near Kingsland,...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f61b12ff3a267decf9c07c7288443c8feac139fb.001.1",
-      "detectedAt": "2026-05-06T14:49:35.751Z",
-      "publishedAt": "2026-05-06",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f61b12ff3a267decf9c07c7288443c8feac139fb.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-283607a080f2df5bbecbbc8c5df5a757b6040aeb-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 6 at 9:46AM CDT until May 6 at 10:30AM CDT by NWS Austin/San...",
-      "summary": "SVREWX The National Weather Service in Austin San Antonio has issued a * Severe Thunderstorm Warning for... Northeastern Gillespie County in south central Texas... * Until 1030 AM CDT. * At 946 AM CDT, a severe thunderstorm was located over Cherry Spring, or 14 miles northwest of Fredericksburg, moving east at 40...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.283607a080f2df5bbecbbc8c5df5a757b6040aeb.001.1",
-      "detectedAt": "2026-05-06T14:49:35.751Z",
-      "publishedAt": "2026-05-06",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.283607a080f2df5bbecbbc8c5df5a757b6040aeb.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
     {
       "id": "candidate-cpsc-26444",
       "type": "current-event",
@@ -143,7 +13,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards",
-      "detectedAt": "2026-05-06T14:49:35.751Z",
+      "detectedAt": "2026-05-06T16:55:51.987Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -169,7 +39,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT",
-      "detectedAt": "2026-05-06T14:49:35.751Z",
+      "detectedAt": "2026-05-06T16:55:51.987Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -195,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
-      "detectedAt": "2026-05-06T14:49:35.751Z",
+      "detectedAt": "2026-05-06T16:55:51.987Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -209,6 +79,136 @@
         {
           "name": "CPSC Recalls API",
           "url": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26454",
+      "type": "current-event",
+      "title": "Qumeney Bicycle Light Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory...",
+      "summary": "Qumeney Bicycle Light Sets: The recalled bicycle lights violate the mandatory standard for consumer products with button cell and coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the bicycle lights do not have the warnings...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
+      "detectedAt": "2026-05-06T16:55:51.987Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26452",
+      "type": "current-event",
+      "title": "Pressure Washers Recalled Due to Serious Risk of Injury or Death from Shock and Electrocution Hazards; Imported by...",
+      "summary": "DGIVOVO US Electric Pressure Washers: The recalled pressure washers lack an integral ground-fault circuit-interrupter (GFCI), posing a serious risk of injury or death from shock and electrocution hazards.",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US",
+      "detectedAt": "2026-05-06T16:55:51.987Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26447",
+      "type": "current-event",
+      "title": "Malker Bicycle Light Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion Hazard; Violates...",
+      "summary": "Malker Bicycle Light Sets: The recalled bicycle lights violate the mandatory standard for consumer products with button cell and coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the bicycle lights do not have the warnings...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect",
+      "detectedAt": "2026-05-06T16:55:51.987Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26451",
+      "type": "current-event",
+      "title": "Earthtec Pool Drain Covers Recalled Due to Risk of Serious Injury or Death from Entrapment and Drowning Hazards;...",
+      "summary": "Earthtec 7 3/8 Inch Pool Drain Covers: The recalled drain covers violate the entrapment protection standards of the Virginia Graeme Baker Pool and Spa Safety Act (VGBA), posing entrapment and drowning hazards to swimmers and bathers.",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Earthtec-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Manufactured-by-Tonyidea",
+      "detectedAt": "2026-05-06T16:55:51.987Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Earthtec-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Manufactured-by-Tonyidea",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26456",
+      "type": "current-event",
+      "title": "CBC Group Recalls Stephan Baby Boo Bunnie and Friends Children's Toys Due to Risk of Serious Injury from...",
+      "summary": "Stephan Baby Boo Bunnie and Friends Children's Toys: The toys' plastic cube can break into small parts or sharp edges, posing a risk of serious injury from choking and laceration hazards.",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/CBC-Group-Recalls-Stephan-Baby-Boo-Bunnie-and-Friends-Childrens-Toys-Due-to-Risk-of-Serious-Injury-from-Choking-and-Laceration-Hazards",
+      "detectedAt": "2026-05-06T16:55:51.987Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-06",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/CBC-Group-Recalls-Stephan-Baby-Boo-Bunnie-and-Friends-Childrens-Toys-Due-to-Risk-of-Serious-Injury-from-Choking-and-Laceration-Hazards",
           "role": "event-source"
         }
       ]
