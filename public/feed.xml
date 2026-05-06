@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Surfaced — Discover What's Next</title>
     <link>https://surfaced-x.pages.dev</link>
@@ -14,6 +14,9 @@
       <description>Readwise is a popular service that consolidates your highlights and notes from various reading platforms like Kindle, Instapaper, Pocket, and even PDFs into a single, searchable database. It then resurfaces these highlights daily via email or its own app, helping you retain what you&apos;ve learned. Readwise operates on a freemium model, offering a limited free trial before requiring a paid subscription.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/28485962/pexels-photo-28485962.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/28485962/pexels-photo-28485962.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/28485962/pexels-photo-28485962.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>React Developer Tools</title>
@@ -22,6 +25,9 @@
       <description>React Developer Tools is a browser extension for Chrome and Firefox that allows you to inspect and debug React component hierarchies, props, and state. It enables developers to efficiently identify performance bottlenecks, understand component relationships, and trace the flow of data within their React applications. This tool is an essential part of the React development workflow and is completely free to use.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37085303/pexels-photo-37085303.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37085303/pexels-photo-37085303.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37085303/pexels-photo-37085303.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>copy-fail-CVE-2026-31431</title>
@@ -30,6 +36,9 @@
       <description>copy-fail-CVE-2026-31431 is a demonstration and proof-of-concept project detailing a critical Local Privilege Escalation (LPE) vulnerability discovered in the Linux kernel. This vulnerability, identified by Theori&apos;s Xint Code, exploits a flaw that has existed for approximately nine years. The project provides the necessary code and explanations for security researchers and system administrators to understand, reproduce, and potentially mitigate this significant security risk. It is hosted on GitHub and written in Python.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6190327/pexels-photo-6190327.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6190327/pexels-photo-6190327.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6190327/pexels-photo-6190327.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>mhr-cfw</title>
@@ -38,6 +47,9 @@
       <description>mhr-cfw is a Python-based Domain-Fronting Relay designed to bypass network censorship and surveillance by routing traffic through seemingly legitimate services. It acts as a relay, forwarding your internet requests through Google Apps Script (GAS) to Cloudflare Workers. This technique masks the true destination of your traffic, making it appear as though you are accessing a common cloud service rather than a blocked website or application. The project is freely available on GitHub.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34635212/pexels-photo-34635212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34635212/pexels-photo-34635212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34635212/pexels-photo-34635212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>mike</title>
@@ -46,6 +58,9 @@
       <description>Mike is an open-source AI platform designed to democratize access to legal information and services. It leverages artificial intelligence to help users understand legal documents, generate legal text, and research legal precedents.  The platform aims to provide a free and accessible alternative for individuals and small businesses who might otherwise struggle with the cost and complexity of legal counsel. It offers features such as document summarization, contract analysis, and legal query answering, with a focus on clarity and user-friendliness.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7841822/pexels-photo-7841822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7841822/pexels-photo-7841822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7841822/pexels-photo-7841822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Ruflo</title>
@@ -62,6 +77,9 @@
       <description>MasterHttpRelayVPN is a sophisticated tool designed to tunnel network traffic through Google Apps Script. It functions as a domain-fronted HTTP/SOCKS5 proxy, enabling users to circumvent network restrictions and censorship by disguising their internet activity. The tool offers advanced features like MITM TLS interception for secure proxying and HTTP/1-2 multiplexing for efficient data transfer. It is particularly effective at evading deep packet inspection (DPI) by making traffic appear as legitimate Google traffic.</description>
       <category>Daily Tools</category>
       <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Notion</title>
@@ -70,6 +88,9 @@
       <description>Notion is an all-in-one workspace that combines note-taking, project management, and knowledge base functionalities into a single, highly flexible application. Users can create custom databases, documents, and boards to manage tasks, projects, wikis, and more, tailoring the interface to their specific needs. It supports rich media, collaboration features, and a vast array of templates for diverse use cases. Notion offers a free tier for personal use and paid plans for teams and businesses.</description>
       <category>Daily Tools</category>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12954746/pexels-photo-12954746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12954746/pexels-photo-12954746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12954746/pexels-photo-12954746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Todoist</title>
@@ -78,6 +99,9 @@
       <description>Todoist is a popular, cross-platform task management application designed to help individuals and teams organize their lives and work. It allows users to create to-do lists, set due dates, prioritize tasks, and collaborate with others. The app boasts a clean, intuitive interface and powerful features like natural language input for task creation, recurring dates, labels, and filters. Todoist operates on a freemium model, offering essential functionality for free and advanced features through a paid subscription.</description>
       <category>Daily Tools</category>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1642132652798-ae887edb9e9d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MzE3NTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1642132652798-ae887edb9e9d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MzE3NTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1642132652798-ae887edb9e9d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc3MzE3NTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>garden-skills</title>
@@ -86,6 +110,9 @@
       <description>garden-skills is an open-source collection of skills curated by ConardLi, covering a wide range of topics including web design, knowledge retrieval, image generation, and more. It functions as a repository for valuable insights, techniques, and resources, presented in an accessible format. This project aims to consolidate and share practical knowledge for individuals looking to expand their skillset or find solutions to specific technical challenges. It&apos;s a free, community-driven initiative.</description>
       <category>Daily Tools</category>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/144671/pexels-photo-144671.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/144671/pexels-photo-144671.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/144671/pexels-photo-144671.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>awesome-gpt-image-2</title>
@@ -94,6 +121,9 @@
       <description>awesome-gpt-image-2 is an industrial-grade prompt engineering engine and template library designed for AI image generation. It provides over 370 reverse-engineered case studies and 20 sets of industrial-grade templates that are continuously updated. This tool aims to standardize and professionalize the way users interact with AI image models, offering a structured approach to crafting effective prompts for consistent and high-quality results. It&apos;s available as a free open-source project.</description>
       <category>Daily Tools</category>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30187974/pexels-photo-30187974.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30187974/pexels-photo-30187974.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30187974/pexels-photo-30187974.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Warp</title>
@@ -102,6 +132,9 @@
       <description>Warp is a modern, AI-powered terminal emulator designed to make command-line work more efficient and enjoyable. It integrates AI features directly into the terminal experience, offering capabilities like AI-powered command suggestions, error explanations, and code generation. Warp is free to use, with potential for future premium features, and aims to revolutionize how developers interact with their systems by bringing context-aware assistance to every command.</description>
       <category>Daily Tools</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g375c851326e16500ac73a9f91d2cf75f1cc66cd915cac1f37b497e285616f762f66ba291168fbff343a243c13330b5fa6fca8209db89b6fcf7d727946d91419c_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g375c851326e16500ac73a9f91d2cf75f1cc66cd915cac1f37b497e285616f762f66ba291168fbff343a243c13330b5fa6fca8209db89b6fcf7d727946d91419c_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g375c851326e16500ac73a9f91d2cf75f1cc66cd915cac1f37b497e285616f762f66ba291168fbff343a243c13330b5fa6fca8209db89b6fcf7d727946d91419c_1280.jpg" />
     </item>
     <item>
       <title>open-design</title>
@@ -110,6 +143,9 @@
       <description>open-design is a cutting-edge, local-first, open-source tool designed to generate brand-grade design systems powered by AI. It leverages models like Claude Code and Codex to offer a powerful alternative to proprietary design platforms. The tool allows for sandboxed previews of generated designs and supports exporting in multiple formats including HTML, PDF, and PPTX, making it incredibly versatile for designers and developers.</description>
       <category>Daily Tools</category>
       <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1678227547327-ec5745559b29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NjU4NDN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1678227547327-ec5745559b29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NjU4NDN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1678227547327-ec5745559b29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc1NjU4NDN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Kami</title>
@@ -118,6 +154,9 @@
       <description>Kami is a tool designed to help users present their digital content in a way that feels as good as print. It focuses on the quality of the final output, ensuring that well-crafted content is delivered with an appropriate and aesthetically pleasing presentation. The specific functionality revolves around transforming digital information into a format that respects its value and impact, akin to high-quality printed materials.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8407025/pexels-photo-8407025.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8407025/pexels-photo-8407025.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8407025/pexels-photo-8407025.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>guizang-ppt-skill</title>
@@ -126,6 +165,9 @@
       <description>Guizang PPT Skill is an innovative Claude Code Skill, developed to convert straightforward text prompts into elegant, responsive HTML presentations with a distinctive horizontal-swipe, magazine-style layout. It primarily simplifies the process of creating visually rich, web-native presentations, allowing users to focus solely on content while the AI handles design, layout, and interactive elements. As a Claude Code Skill, it operates within the Claude AI environment, generating standard HTML files that are universally viewable in any modern web browser on desktop, tablet, or mobile devices without requiring specific software. Its most popular feature is the automated generation of presentations with curated themes, dynamic layouts, and optional WebGL-powered hero backgrounds, all encapsulated within a single, portable HTML file for easy sharing. Users provide their presentation content as text prompts to the Claude AI, which then processes this input to generate the complete HTML structure and styling; no user data or presentation content is stored long-term by the skill itself, adhering to Claude&apos;s data handling policies.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8075918/pexels-photo-8075918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8075918/pexels-photo-8075918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8075918/pexels-photo-8075918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>awesome-gpt-image-2-prompts</title>
@@ -134,6 +176,9 @@
       <description>&quot;awesome-gpt-image-2-prompts&quot; is a community-curated GitHub repository containing an extensive collection of optimized text prompts specifically engineered for OpenAI&apos;s DALL-E 2 (formerly referred to as GPT-Image-2) image generation API. It primarily facilitates the efficient creation of high-quality AI-generated images by providing proven prompt structures and examples, enabling users to achieve desired visual outcomes without extensive trial-and-error. As a GitHub repository, its content (text prompts and Python code examples) is accessible via any web browser or Git client, making it platform-agnostic for users interacting with the DALL-E 2 API. Its most utilized feature is the categorized examples, offering ready-to-use prompts for diverse applications such as &apos;photorealistic portraits of a cyborg,&apos; &apos;futuristic cityscapes,&apos; or &apos;minimalist UI icons,&apos; often with variations to explore different styles and artistic directions. The repository itself is static, containing only text and code; it does not process or store user data, but rather provides the input (prompts) that users then feed into the OpenAI DALL-E 2 API, which handles the image generation and associated data processing.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30461822/pexels-photo-30461822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30461822/pexels-photo-30461822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30461822/pexels-photo-30461822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Fathom 3.0</title>
@@ -142,6 +187,9 @@
       <description>Fathom 3.0 is an AI-powered meeting notetaker that captures conversations during live calls without requiring a bot to join. It integrates with popular communication platforms and offers features like account-wide AI search, insights, and live summaries. Fathom operates on a freemium model, offering core functionality for free and advanced features through paid tiers, making it an accessible solution for anyone needing to streamline meeting follow-ups.</description>
       <category>Daily Tools</category>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Pastel.sh</title>
@@ -150,6 +198,9 @@
       <description>Pastel.sh, a lightweight web service created by an independent developer, is a minimalist online tool for sharing code snippets quickly and elegantly. It allows users to paste code, select a programming language for syntax highlighting, and generate a unique, shareable URL for their snippet. The tool focuses on simplicity and speed, making it ideal for temporary sharing or quick demonstrations without the overhead of account creation. It functions entirely as a web application, accessible from any browser on any device. Its most used feature is the rapid generation of a beautiful, syntax-highlighted link for instant code sharing. Pastel.sh does not require user accounts and stores snippets temporarily on its server for a limited time, prioritizing privacy and ephemeral sharing.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/16023919/pexels-photo-16023919.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/16023919/pexels-photo-16023919.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/16023919/pexels-photo-16023919.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Snipit.io</title>
@@ -158,6 +209,9 @@
       <description>Snipit.io, developed by a dedicated software company, is a cloud-based code snippet manager designed for both individual developers and collaborative teams. It provides a secure platform to store, organize, and retrieve code snippets with features like syntax highlighting, tagging, and powerful search capabilities. Users can create private snippets for personal use or share them publicly or with specific team members. The tool is primarily a web application, accessible via any modern browser, and also offers desktop clients for Windows and macOS. Its most used feature is the ability to quickly save and categorize code snippets, making them easily discoverable across projects. All user data, including code snippets and organizational structures, is stored and synchronized securely in the cloud.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Carbon</title>
@@ -166,6 +220,9 @@
       <description>Carbon, an open-source project developed by Dawn Labs, is a web-based tool designed to create and share beautiful images of your source code. It allows users to paste code, choose from various syntax themes, adjust window styles (padding, shadows, backgrounds), and export high-resolution images. The tool&apos;s primary purpose is to make code snippets aesthetically pleasing for social media, presentations, and documentation. It operates entirely within a web browser, making it universally accessible without any software installation. Its most used feature is the instant transformation of raw code into a shareable, professional-looking image with customizable aesthetics. Carbon does not store user code or images on its servers; everything is processed client-side in the browser, ensuring privacy.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1713944183387-6b23343c4c2a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI2NjR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1713944183387-6b23343c4c2a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI2NjR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1713944183387-6b23343c4c2a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI2NjR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Hoppscotch</title>
@@ -174,6 +231,9 @@
       <description>Hoppscotch, an open-source project created by Liyas Thomas and maintained by a community, is a free, fast, and beautiful API development ecosystem delivered as a web application. It functions as an alternative to Postman, allowing developers to send requests, inspect responses, and manage API collections. While primarily an API client, it includes robust features for saving and organizing code snippets related to API requests, authentication headers, and response parsing. The tool is entirely web-based, accessible via any modern browser, and also offers desktop clients for Windows, macOS, and Linux. Its most used feature is the ability to quickly test REST, GraphQL, and WebSocket APIs directly from the browser. User data, including saved requests and snippets, can be synchronized to the cloud via optional login or stored locally in the browser&apos;s indexedDB for privacy.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gd05ddabdc065d845d786f96f88678fbbcf504b97a075c85bc3e5bcfc860ecc22ad14957594970c39da5a9aaced9354c5568a71058aaa82ee697f9cddfc064f92_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gd05ddabdc065d845d786f96f88678fbbcf504b97a075c85bc3e5bcfc860ecc22ad14957594970c39da5a9aaced9354c5568a71058aaa82ee697f9cddfc064f92_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gd05ddabdc065d845d786f96f88678fbbcf504b97a075c85bc3e5bcfc860ecc22ad14957594970c39da5a9aaced9354c5568a71058aaa82ee697f9cddfc064f92_1280.jpg" />
     </item>
     <item>
       <title>CodeRunner 4</title>
@@ -182,6 +242,9 @@
       <description>CodeRunner 4, developed by Nikolai Krill, is a powerful and versatile macOS application designed to run code snippets and files in over 25 programming languages directly on your Mac. It features a lightweight IDE-like interface with syntax highlighting, code completion, and a sophisticated debugging system. Developers can write, test, and execute code snippets or entire scripts without needing to set up complex development environments. The application is exclusive to macOS, providing optimized performance and a native user experience. Its most used feature is the instant execution of code in virtually any language, making it ideal for rapid prototyping and testing. CodeRunner 4 stores user projects and snippets locally on the Mac, with options for saving them to any file system location, offering complete control over data.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>QuickCode.io</title>
@@ -190,6 +253,9 @@
       <description>QuickCode.io, a minimalist web-based tool developed by a small team, serves as a simple and efficient online snippet manager designed for quick access and organization. It allows users to store code snippets with syntax highlighting, add descriptions, and organize them into folders for easy retrieval. The platform operates entirely in the browser, making it accessible from any device with an internet connection, without requiring any downloads or installations. Its most used feature is the rapid creation and storage of snippets, enabling developers to save useful code on the fly. User data and snippets are stored securely in the cloud, providing persistent access and cross-device synchronization.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g04fdf8a00d94315903cc34b1b30aed172f1992061da02d647b0b720b17ab78b7fd56c46c155b5c10c9b058753ae57c2e8a386f119234475abbef014a55a96da0_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g04fdf8a00d94315903cc34b1b30aed172f1992061da02d647b0b720b17ab78b7fd56c46c155b5c10c9b058753ae57c2e8a386f119234475abbef014a55a96da0_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g04fdf8a00d94315903cc34b1b30aed172f1992061da02d647b0b720b17ab78b7fd56c46c155b5c10c9b058753ae57c2e8a386f119234475abbef014a55a96da0_1280.jpg" />
     </item>
     <item>
       <title>Snipper App</title>
@@ -198,6 +264,9 @@
       <description>Snipper App, a native macOS application developed by independent creators, is a lightweight and elegant code snippet manager designed specifically for Mac users. It lives in the menubar, providing quick access to your organized collection of code, notes, and commands. Users can store snippets with syntax highlighting for various languages, add tags, and quickly search through their library. The application runs exclusively on macOS, offering a seamless native experience and integration with the operating system. Its most used feature is the ability to quickly paste a previously saved snippet into any application with a simple keyboard shortcut. Snipper App stores all user data locally on your Mac, ensuring privacy and offline access, with an option to sync via iCloud for multi-device consistency.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Snippyly</title>
@@ -206,6 +275,9 @@
       <description>Snippyly, developed by a team focused on real-time collaboration, is a browser-based tool for capturing screenshots, recording screen videos, and sharing code snippets collaboratively. It allows users to annotate screenshots, highlight code, and share these assets instantly with team members, facilitating quick feedback loops. The tool functions as a web application and offers a Chrome browser extension for direct capture from webpages. Its most used feature is the real-time collaborative annotation of screenshots and code snippets, making communication effortless. All shared content, including snippets and visual feedback, is synchronized and stored in the cloud, enabling persistent access and discussions.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Codever</title>
@@ -214,6 +286,9 @@
       <description>Codever, an open-source project maintained by its community, is a self-hostable web application for organizing and sharing code snippets. It provides a robust system for tagging, searching, and categorizing code, supporting public and private snippets. Developers can save code from various sources, add descriptions, and easily retrieve them later through a powerful search function. The tool is primarily a web application, designed to be deployed on your own server or a cloud provider. Its most used feature is the ability to quickly tag and save snippets for future reference, making them searchable by language or custom tags. Data is stored in your chosen database (e.g., PostgreSQL, MySQL) on your own infrastructure, ensuring full control over your code snippets.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1614028480987-73081d86a38b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1614028480987-73081d86a38b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1614028480987-73081d86a38b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Snappify</title>
@@ -222,6 +297,9 @@
       <description>Snappify, created by a team focused on developer tools, is a web-based application designed to transform code snippets into visually appealing images for sharing. It allows developers to customize themes, fonts, backgrounds, and add elements like annotations or device mockups around their code. The tool operates entirely on the web, accessible from any browser, and it also offers a VS Code extension for seamless integration. Its most used feature is the ability to quickly generate a beautiful code image from a simple paste, complete with syntax highlighting. All user-created &quot;snaps&quot; are stored securely in the cloud, allowing for easy access and sharing.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1642132652795-4a46f8ce789e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1642132652795-4a46f8ce789e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1642132652795-4a46f8ce789e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Insight Timer: Meditation App</title>
@@ -230,6 +308,9 @@
       <description>Insight Timer, developed by the same team, is the world&apos;s largest free meditation app, offering thousands of guided meditations, talks, and ambient sounds from renowned teachers. Users can discover diverse meditation practices, participate in live sessions, track their meditation streaks and milestones, and connect with a global community of practitioners. It is available on iOS, Android, and via web browser, making it widely accessible for anyone looking to cultivate a meditation or mindfulness habit. Its most used feature is the vast library of free guided meditations, catering to various needs from sleep to anxiety, available in multiple languages. User data, including meditation history and streaks, is securely stored in the cloud, syncing across devices to maintain a continuous record of personal practice.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4114778/pexels-photo-4114778.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4114778/pexels-photo-4114778.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4114778/pexels-photo-4114778.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Finch: Self Care Pet</title>
@@ -238,6 +319,9 @@
       <description>Finch, developed by Finch Inc., is a unique self-care app that gamifies mental wellness and habit formation by allowing users to nurture a virtual pet through self-care activities. Users set and complete daily self-care goals and habits, like journaling or exercise, which in turn helps their Finch pet grow, evolve, and explore new areas. It is available on iOS and Android devices, offering a mobile-first experience for engaging with self-care and mental well-being on the go. Its most used feature is the interactive pet, which provides delightful visual feedback and encouragement as users complete their daily self-care journeys. Data, including journal entries and habit progress, is stored securely in the cloud, syncing across devices and offering options for data export, prioritizing user privacy.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30316271/pexels-photo-30316271.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30316271/pexels-photo-30316271.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30316271/pexels-photo-30316271.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Smarter Time - Automatic Time Tracker</title>
@@ -246,6 +330,9 @@
       <description>Smarter Time, developed by Smarter Time Inc., is an automatic time tracking and habit coaching app that intelligently logs user activities across devices without manual input. It continuously monitors phone usage, calendar events, and computer activities, then categorizes them, allowing users to see where their time goes and integrate habit reminders. It is available on Android, iOS, and as a desktop app for Windows and Mac, offering comprehensive activity tracking across the most common platforms. Its most used feature is the &quot;Activity Map,&quot; a visual representation of how time is spent, automatically generated from detected activities and app usage. All collected data is stored securely in the cloud, syncing across devices to provide a unified overview of time usage, with privacy controls available to the user.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7948067/pexels-photo-7948067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7948067/pexels-photo-7948067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7948067/pexels-photo-7948067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Streaky - Simple Habit Tracker</title>
@@ -254,6 +341,9 @@
       <description>Streaky, developed by Michael Furtak, is a straightforward and aesthetically clean habit tracker available for iOS, designed for users who prefer simplicity over complex features. Users create custom habits, then simply tap to mark them complete each day, with the app prominently displaying current and longest streaks to encourage consistency. It is exclusively available on iOS, iPadOS, and watchOS, providing a native and optimized experience within the Apple ecosystem. The most used feature is its intuitive one-tap completion system directly from the main habit list, making daily tracking quick and frictionless. All habit data is securely synchronized via iCloud, ensuring that progress is backed up and accessible across all of the user&apos;s Apple devices.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1730890803006-569b3806773f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTQ1MTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1730890803006-569b3806773f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTQ1MTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1730890803006-569b3806773f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTQ1MTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>7 Weeks - Habit &amp; Goal Tracker</title>
@@ -262,6 +352,9 @@
       <description>7 Weeks, developed by Geeky Lemon, is a habit and goal tracking app inspired by Jerry Seinfeld&apos;s &quot;Don&apos;t Break the Chain&quot; method, focusing on building a 49-day streak. Users select a habit they want to form or break and then mark each day&apos;s success on a calendar grid, aiming to complete a full seven-week chain without any breaks. It is available exclusively on iOS and Android devices, providing a focused mobile experience for building short-term, intense habit streaks. Its most used feature is the visual 7x7 grid, which clearly displays the entire 49-day challenge, making the progress and the goal intensely visible. Data is primarily stored locally on the device, with options for cloud backup (e.g., Google Drive for Android) to restore habits across devices, ensuring personal control.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/20279300/pexels-photo-20279300.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/20279300/pexels-photo-20279300.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/20279300/pexels-photo-20279300.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Coach.me</title>
@@ -270,6 +363,9 @@
       <description>Coach.me, formerly Lift, developed by the same team, is a habit-tracking platform that combines personal goal setting with community support and optional one-on-one coaching. Users choose from a library of habits or create their own, then track their daily progress, ask questions, and offer encouragement within a supportive community, or hire a coach. It is available on the web, iOS, and Android, ensuring users can access their goals and interact with the community from nearly anywhere. Its most used feature is the ability to &quot;cheer&quot; others&apos; progress and receive cheers, fostering a sense of accountability and shared motivation among users. All user data, including habit progress and coaching interactions, is stored securely in the cloud, allowing for seamless synchronization across all devices.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/3850250/pexels-photo-3850250.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/3850250/pexels-photo-3850250.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/3850250/pexels-photo-3850250.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Everyday.app</title>
@@ -278,6 +374,9 @@
       <description>Everyday.app, created by Alex Muench and Simon M. Stöckl, is a minimalist habit tracking application designed to help users build and maintain streaks across various platforms. Users add habits to a simple grid, marking each day&apos;s completion with a tap, visually building a calendar of successful days and highlighting current streaks. It&apos;s available on web browsers, iOS, Android, and as a Mac app, providing a consistent experience across different devices. The most used feature is its visually clean calendar grid, which provides an immediate, satisfying overview of all habits and their ongoing streaks. All data is stored securely in the cloud and synced across devices, ensuring that habit progress is always up-to-date and accessible from any platform.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/760718/pexels-photo-760718.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/760718/pexels-photo-760718.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/760718/pexels-photo-760718.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Loop Habit Tracker</title>
@@ -286,6 +385,9 @@
       <description>Loop Habit Tracker, developed by Soron, is a free and open-source habit tracking app primarily for Android, emphasizing simplicity, privacy, and data visualization. Users define habits, then mark them as completed or missed daily, with the app generating detailed statistics and charts to illustrate habit strength and progress over time. It is available on Android (F-Droid, Google Play) and offers a desktop version for Windows, Linux, and macOS (currently in beta/development), with future plans for iOS. Its most used feature is the habit strength algorithm, which intelligently calculates and visualizes how ingrained a habit is, rather than just showing consecutive streaks. All data is stored locally on the user&apos;s device, ensuring maximum privacy, with optional local backups to external storage, and no cloud synchronization by default.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Habitica: Gamify Your Life</title>
@@ -294,6 +396,9 @@
       <description>Habitica, an open-source project, transforms habit building and to-do list management into a role-playing game, turning real-life tasks into quests and challenges. Users create an avatar, add daily habits, to-dos, and recurring tasks, then earn gold, experience points, and items for completing them, while losing health for missed tasks. It is available on the web, iOS, Android, and offers a robust API for third-party integrations, providing broad accessibility. The most used feature is its quest system, where users can team up with friends to defeat monsters, adding a social and cooperative element to productivity. User data is stored in the cloud, offering seamless sync across devices, and as an open-source platform, its code is publicly auditable for transparency.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5090681/pexels-photo-5090681.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5090681/pexels-photo-5090681.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5090681/pexels-photo-5090681.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Streaks</title>
@@ -302,6 +407,9 @@
       <description>Streaks, developed by Crunchy Bagel, is a visually elegant habit tracker for iOS, iPadOS, and watchOS designed to help users form positive habits and break negative ones by focusing on consistency. Users choose up to 12 habits, then mark them complete daily, aiming to maintain a continuous streak of successful days, with reminders and statistics to aid progress. It works seamlessly across Apple devices, including iPhone, iPad, Apple Watch, and Mac, with iCloud synchronization. Its most used feature is the intuitive circle-based interface, where tapping a habit marks it done, making daily tracking effortless and satisfying. All habit data is securely synced via iCloud, ensuring privacy and accessibility across a user&apos;s Apple ecosystem, with no external cloud services involved.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1697032354273-92fa42a04f53?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0ODI1Mjh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1697032354273-92fa42a04f53?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0ODI1Mjh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1697032354273-92fa42a04f53?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0ODI1Mjh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>MealLogger</title>
@@ -310,6 +418,9 @@
       <description>MealLogger, developed by Wellness Interactive Technologies, is a photo-based food journaling app designed to help users track their meals and connect with dietitians or coaches. Users simply snap photos of their food before and after eating, add quick notes, and can share their logs privately with a professional for feedback and guidance. The app is available for both iOS and Android smartphones, providing an intuitive mobile logging experience. Its most used feature is the quick and easy photo logging, which makes tracking meals far less tedious than manual data entry. All meal photos, notes, and communications are securely stored in the cloud, ensuring privacy and allowing coaches to access client data remotely.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8951603/pexels-photo-8951603.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8951603/pexels-photo-8951603.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8951603/pexels-photo-8951603.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Cooklist</title>
@@ -318,6 +429,9 @@
       <description>Cooklist, developed by Cooklist Labs, is an innovative app that combines recipe discovery with smart pantry management and automated grocery list creation. It allows users to scan barcodes of groceries, link loyalty programs for automatic syncing, and then suggests recipes based on ingredients currently in their pantry and fridge, while also building shopping lists for missing items. The app is available for iOS and Android devices, with a companion web interface for recipe browsing. Its most used feature is the &quot;Pantry Sync,&quot; which automatically updates your inventory from grocery store purchases and suggests recipes accordingly. All pantry data, recipes, and shopping lists are securely stored and synced in the cloud, providing a unified and always-updated view of your kitchen inventory.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17627339/pexels-photo-17627339.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/17627339/pexels-photo-17627339.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/17627339/pexels-photo-17627339.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>FoodHero</title>
@@ -326,6 +440,9 @@
       <description>FoodHero, a Canadian-based company, is a mobile application designed to combat food waste by connecting consumers with grocery stores offering discounted surplus food items nearing their expiration dates. Users can browse deals from participating local stores, reserve items through the app, and then pick them up, getting quality food at a reduced price. The app is available on both iOS and Android devices, making it accessible for a wide range of smartphone users. Its most used feature is the real-time notification system, alerting users to new deals from their favorite local grocery stores. All transaction data, user preferences, and store partnerships are securely managed and synced in the cloud, ensuring an efficient and reliable service.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6389973/pexels-photo-6389973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6389973/pexels-photo-6389973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6389973/pexels-photo-6389973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>MealPrepPro</title>
@@ -334,6 +451,9 @@
       <description>MealPrepPro, developed by the team behind Shreddy, is a comprehensive meal planning and grocery list app tailored for individuals with fitness and health goals. It allows users to choose from various diet types (e.g., high protein, vegan, keto), set caloric goals, and receive customized weekly meal plans with recipes and automated grocery lists. The app is available for download on both iOS and Android platforms, providing a focused mobile experience. Its most used feature is the personalized weekly meal plan delivery, which automatically adjusts to dietary preferences and caloric needs. All user data, including meal preferences, health stats, and purchased plans, is stored and synced securely in the cloud to ensure continuity across devices.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8844383/pexels-photo-8844383.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8844383/pexels-photo-8844383.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8844383/pexels-photo-8844383.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Perfect Meal</title>
@@ -342,6 +462,9 @@
       <description>Perfect Meal, created by Perfect Meal Inc., is an AI-powered meal planning tool designed to generate personalized meal plans tailored to individual dietary needs, preferences, and health goals. Users input their caloric targets, macros, allergies, and food preferences, and the AI generates complete meal plans with recipes and grocery lists for the week. It is primarily available as a web application, accessible from any browser on desktop or mobile devices. Its most used feature is the &quot;Instant Meal Plan Generator,&quot; which creates a full week&apos;s worth of meals in seconds based on user criteria. All user profiles, preferences, and generated meal plans are stored securely in the cloud, allowing for easy access and modifications from anywhere.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/2377165/pexels-photo-2377165.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/2377165/pexels-photo-2377165.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/2377165/pexels-photo-2377165.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Kitchen Stories</title>
@@ -350,6 +473,9 @@
       <description>Kitchen Stories, developed by a Berlin-based team, is an award-winning recipe app and website that brings high-quality cooking videos and beautiful photography to home cooks. It offers a curated collection of recipes, ranging from everyday meals to gourmet dishes, accompanied by step-by-step photo instructions and engaging video tutorials for techniques. The platform is fully available on web, iOS, and Android devices, ensuring a seamless cooking experience across screens. Its most used feature is the integrated &quot;How-To Videos&quot; section, which visually teaches various cooking techniques like knife skills or baking fundamentals. All recipe data, user favorites, and shopping lists are synchronized to the cloud, providing easy access and personalized content across all connected devices.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8357267/pexels-photo-8357267.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8357267/pexels-photo-8357267.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8357267/pexels-photo-8357267.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>HappyCow</title>
@@ -358,6 +484,9 @@
       <description>HappyCow, an independent global platform, helps users find vegan, vegetarian, and plant-based friendly restaurants and stores worldwide. It allows individuals to search for dining options by location, filter by dietary preferences (vegan, vegetarian, gluten-free), and read reviews from a community of conscious eaters. The service is accessible via its comprehensive website, dedicated iOS and Android applications, and even some in-car navigation systems. Its most used feature is the interactive map, which pinpoints nearby plant-based eateries with ratings and directions. User-contributed restaurant data, reviews, and personal favorites are stored securely in the cloud, fostering a dynamic and always-updated global database.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5444631/pexels-photo-5444631.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5444631/pexels-photo-5444631.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5444631/pexels-photo-5444631.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Carbon Diet Coach</title>
@@ -366,6 +495,9 @@
       <description>Carbon Diet Coach, developed by bodybuilding and nutrition expert Andy Morgan and the team at MacroFactor, is an AI-powered nutrition coaching app designed for flexible dieting and achieving body composition goals. It guides users to track their food intake, primarily macros (protein, carbs, fats), and adjusts their daily targets dynamically based on progress and weigh-ins to ensure consistent results. The app is available on both iOS and Android platforms, providing a comprehensive mobile coaching experience. Its most used feature is the dynamic macro adjustment algorithm, which intelligently adapts targets to break plateaus or accelerate progress. All user data, including food logs, weight, and progress photos, is securely stored and synced in the cloud, ensuring privacy and continuity across devices.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7947851/pexels-photo-7947851.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7947851/pexels-photo-7947851.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7947851/pexels-photo-7947851.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Allrecipes</title>
@@ -374,6 +506,9 @@
       <description>Allrecipes, a Dotdash Meredith brand, is a massive community-driven online recipe platform featuring millions of recipes contributed and reviewed by home cooks worldwide. It allows users to search for recipes by ingredient, cuisine, meal type, or dietary need, offering detailed instructions, nutritional information, and user ratings. The platform is accessible via web, iOS, Android apps, and offers specific features for smart home devices. The most used feature is its robust search and filtering capabilities, coupled with genuine user reviews and photos. Recipe data, user profiles, and saved collections are stored in the cloud, enabling seamless access and personalized recipe suggestions.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/16675634/pexels-photo-16675634.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/16675634/pexels-photo-16675634.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/16675634/pexels-photo-16675634.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Tasty</title>
@@ -382,6 +517,9 @@
       <description>Tasty, created by BuzzFeed, is a popular digital food network and recipe app offering thousands of video-led recipes for home cooks. Users can browse diverse culinary categories, save favorites, and follow step-by-step video instructions to prepare meals from scratch. It&apos;s available on web, iOS, Android, and popular smart display devices like Google Nest Hub. Its most used feature is the short, overhead-view recipe videos that quickly demonstrate cooking processes. Recipe data and user preferences are synced to the cloud, allowing access across all devices and personalized recommendations.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6726611/pexels-photo-6726611.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6726611/pexels-photo-6726611.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6726611/pexels-photo-6726611.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Defonic: Relaxing Sounds</title>
@@ -390,6 +528,9 @@
       <description>Defonic, developed by the Defonic team, is an online ambient sound mixer designed to help users create personalized soundscapes for relaxation, focus, or sleep. Its core function is to allow users to combine various high-quality environmental sounds, such as rain, thunder, forest, coffee shop, and more, at customizable volumes. Users select from a diverse library of sounds, adjust their individual levels, and save their favorite mixes for future use. It primarily works on the web, with a straightforward and intuitive interface. The most used feature is the ability to mix multiple sounds simultaneously to create a unique and immersive auditory environment. Sound preferences are typically stored locally in the browser&apos;s cookies or session storage for quick recall.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/18466433/pexels-photo-18466433.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/18466433/pexels-photo-18466433.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/18466433/pexels-photo-18466433.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>LeechBlock NG</title>
@@ -398,6 +539,9 @@
       <description>LeechBlock NG, an open-source browser extension maintained by James Anderson, is designed to help Firefox users manage and reduce time spent on distracting websites. Its core function is to block or restrict access to specified sites during designated time periods or after a cumulative daily limit has been reached. Users can create multiple block sets with different rules, schedules, and duration limits, offering highly customizable control over their browsing habits. It works exclusively as a Firefox browser extension. The most used feature is its flexible scheduling, allowing users to define specific days and times for blocking. Block lists and settings are stored locally within the Firefox browser.</description>
       <category>Daily Tools</category>
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/16708226/pexels-photo-16708226.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/16708226/pexels-photo-16708226.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/16708226/pexels-photo-16708226.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Cloudflare Agents</title>
@@ -406,6 +550,9 @@
       <description>This Cloudflare blog post details the exciting advancement where agents can now autonomously create Cloudflare accounts, purchase domains, and deploy services. This signifies a significant leap in automation capabilities, allowing AI agents to perform complex infrastructure management tasks. By leveraging tools like Stripe for payments and deploying applications on Cloudflare&apos;s platform, these agents can essentially build and manage web presences from scratch. This technology is geared towards developers, DevOps engineers, and anyone interested in the future of AI-driven infrastructure and autonomous systems.</description>
       <category>Hidden Gems</category>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17489152/pexels-photo-17489152.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/17489152/pexels-photo-17489152.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/17489152/pexels-photo-17489152.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
