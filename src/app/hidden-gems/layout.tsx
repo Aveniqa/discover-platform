@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { hiddenGems } from "@/lib/data";
 import { buildMetadata } from "@/lib/seo";
+import { breadcrumbLd, itemListLd, ldScript } from "@/lib/jsonld";
 
 const count = hiddenGems.length;
 const title = "Hidden Gem Apps & Tools Most People Don't Know About";
@@ -13,6 +14,25 @@ export const metadata: Metadata = buildMetadata({
   absoluteTitle: true,
 });
 
+const HUB_NAME = "Hidden Gems";
+const breadcrumbsLd = breadcrumbLd([
+  { name: "Home", href: "/" },
+  { name: HUB_NAME },
+]);
+const listLd = itemListLd(
+  [...hiddenGems]
+    .sort((a, b) => (b.id || 0) - (a.id || 0))
+    .slice(0, 30)
+    .map((i) => ({ url: `/item/${i.slug}`, name: i.name })),
+  HUB_NAME,
+);
+
 export default function HiddenGemsLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(breadcrumbsLd)} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(listLd)} />
+      {children}
+    </>
+  );
 }

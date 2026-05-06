@@ -3,12 +3,18 @@ import Link from "next/link";
 import { categories } from "@/lib/data";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { buildMetadata } from "@/lib/seo";
+import { breadcrumbLd, ldScript } from "@/lib/jsonld";
 
 export const metadata: Metadata = buildMetadata({
   title: "Browse by Category",
   description: "Explore discoveries, products, tools, and hidden gems organized by topic.",
   path: "/categories",
 });
+
+const breadcrumbsLd = breadcrumbLd([
+  { name: "Home", href: "/" },
+  { name: "Categories" },
+]);
 
 const colorMap: Record<string, { bg: string; border: string; text: string; glow: string; dot: string }> = {
   indigo: {
@@ -38,6 +44,7 @@ export default function CategoriesPage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(breadcrumbsLd)} />
       <section className="relative py-20 sm:py-28 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-[560px] h-[560px] rounded-full bg-accent/8 blur-[130px]" />

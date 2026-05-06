@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { products } from "@/lib/data";
 import { buildMetadata } from "@/lib/seo";
+import { breadcrumbLd, itemListLd, ldScript } from "@/lib/jsonld";
 
 const count = products.length;
 const year = new Date().getUTCFullYear();
@@ -14,6 +15,25 @@ export const metadata: Metadata = buildMetadata({
   absoluteTitle: true,
 });
 
+const HUB_NAME = "Trending Products";
+const breadcrumbsLd = breadcrumbLd([
+  { name: "Home", href: "/" },
+  { name: HUB_NAME },
+]);
+const listLd = itemListLd(
+  [...products]
+    .sort((a, b) => (b.id || 0) - (a.id || 0))
+    .slice(0, 30)
+    .map((i) => ({ url: `/item/${i.slug}`, name: i.title })),
+  HUB_NAME,
+);
+
 export default function TrendingLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(breadcrumbsLd)} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(listLd)} />
+      {children}
+    </>
+  );
 }
