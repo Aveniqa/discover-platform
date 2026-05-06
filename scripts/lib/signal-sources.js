@@ -249,7 +249,7 @@ async function getSeedsForCategory(category) {
       return fetchHackerNews({ limit: 6, minScore: 150 });
     }
     case "products": {
-      return fetchProductHunt({ limit: 6 });
+      return fetchProductHunt({ limit: 18 });
     }
     case "discoveries":
     default:

@@ -340,7 +340,7 @@ async function generateItems(category, existingItems, count, seeds = []) {
     discoveries:
       "Find 3 genuinely fascinating, surprising real-world facts, scientific discoveries, or historical revelations. Prioritize recent findings but timeless mind-blowing facts work too. Write with the depth and specificity of a science journalist — name the researchers, the journal, the year, the numbers. Descriptions must be long enough that a curious reader learns something substantial.",
     products:
-      "Find 3 real, currently available consumer products that are trending or newly launched. They must be real products you can actually buy. Include accurate pricing, exact model names, and enough detail that someone reading could make an informed purchase decision.",
+      "Find 3 real, currently available consumer products that are trending or newly launched. They must be real products you can actually buy. Prefer newer, useful, lower-profile products from independent or specialist brands over already-covered mainstream devices. Avoid Apple, Samsung, Google, Framework, LG, Steam Deck, and other common consumer-tech defaults unless a supplied seed explicitly requires them. Include accurate pricing, exact model names, and enough detail that someone reading could make an informed purchase decision.",
     "hidden-gems":
       "Find 3 real, lesser-known websites or web tools that are genuinely useful. They must have real, working URLs. Focus on tools most people haven't heard of. Write descriptions detailed enough that a reader knows exactly whether this tool fits their workflow. CRITICAL: The websiteLink field MUST be a real, working URL to the tool's actual website (e.g., 'https://obsidian.md'). Never use placeholder or example URLs.",
     "future-radar":
@@ -491,7 +491,7 @@ async function main() {
         if (attempt === 2 && seeds.length) {
           console.warn(`[${category}] Falling back to unseeded generation for remaining item(s).`);
         }
-        const requestCount = seedsForAttempt.length ? needed : Math.min(5, Math.max(needed, 3));
+        const requestCount = seedsForAttempt.length ? needed : 5;
         const batch = await generateItems(category, [...existing, ...newItems], requestCount, seedsForAttempt);
         newItems.push(...batch.slice(0, needed));
         if (newItems.length < 5) {
