@@ -42,6 +42,15 @@ const TYPE_BY_CATEGORY = {
 };
 
 const REVIEW_MIN_WORDS = 150;
+const REVIEW_TARGET_WORDS = 170;
+
+const BODY_FIELDS_BY_CATEGORY = {
+  discoveries: ["shortDescription", "whyItIsInteresting"],
+  products: ["shortDescription", "whyItIsInteresting"],
+  "hidden-gems": ["whatItDoes", "whyItIsUseful"],
+  "future-radar": ["explanation", "whyItMatters"],
+  "daily-tools": ["whatItDoes", "whyItIsUseful"],
+};
 
 function wordCount(text) {
   return String(text || "").trim().split(/\s+/).filter(Boolean).length;
@@ -147,6 +156,65 @@ async function callWithRetry(fn, maxRetries = 3) {
         throw err;
       }
     }
+  }
+}
+
+async function expandShortItem(category, item, bodyWords) {
+  const bodyFields = BODY_FIELDS_BY_CATEGORY[category] || [];
+  if (bodyFields.length === 0) return item;
+
+  const currentBody = bodyFields
+    .map((field) => `${field}: ${item[field] || ""}`)
+    .join("\n");
+  const prompt = `You are tightening a Surfaced daily-edition JSON item that is too concise for review.
+
+Category: ${category}
+Item identity:
+${JSON.stringify({
+  slug: item.slug,
+  title: item.title,
+  name: item.name,
+  toolName: item.toolName,
+  techName: item.techName,
+  sourceLink: item.sourceLink,
+  websiteLink: item.websiteLink,
+}, null, 2)}
+
+Current body fields (${bodyWords} words):
+${currentBody}
+
+Rewrite ONLY these fields with richer, factual editorial copy:
+${bodyFields.join(", ")}
+
+Requirements:
+- Combined word count across those fields must be ${REVIEW_TARGET_WORDS}-${REVIEW_TARGET_WORDS + 60} words.
+- Keep the same product/tool/topic and do not invent awards, pricing, specs, researchers, or claims not supported by the existing text.
+- Preserve a neutral, useful Surfaced voice for AdSense-safe editorial review.
+- Return ONLY a JSON object with these exact keys: ${bodyFields.join(", ")}.`;
+
+  try {
+    const expandedFields = await callWithRetry(async () => {
+      const response = await ai.models.generateContent({
+        model: MODEL,
+        contents: prompt,
+      });
+      const cleaned = response.text.trim().replace(/^```json?\n?/, "").replace(/\n?```$/, "");
+      try {
+        return JSON.parse(cleaned);
+      } catch (parseErr) {
+        throw new Error(`JSON parse failed: ${parseErr.message} — raw: ${cleaned.slice(0, 200)}`);
+      }
+    });
+    const expanded = { ...item };
+    for (const field of bodyFields) {
+      if (typeof expandedFields[field] === "string" && expandedFields[field].trim()) {
+        expanded[field] = expandedFields[field].trim();
+      }
+    }
+    return normalizeGeneratedItem(category, expanded);
+  } catch (err) {
+    console.warn(`  ⚠ Could not expand short item "${item.slug || item.title || "unknown"}": ${err.message}`);
+    return item;
   }
 }
 
@@ -274,7 +342,7 @@ Rules:
 - All URLs must be real, publicly accessible websites${filteredSeeds.length ? " — use the EXACT URL from the seed you picked" : ""}
 - imageIdea must be a concrete visual noun (e.g. "espresso machine coffee barista"), NEVER abstract concepts
 - slug must be kebab-case, unique, derived from the title/name
-- Descriptions should be engaging and informative — add depth, context, and specifics beyond the raw seed blurb
+- Descriptions should be engaging and informative — add depth, context, and specifics beyond the raw seed blurb. Use at least ${REVIEW_TARGET_WORDS} combined words across the description and why fields.
 - Today's date for reference: ${today}
 - SOURCE QUALITY: For sourceLink/websiteLink, strongly prefer authoritative primary sources. Preferred domains: nytimes.com, wsj.com, reuters.com, apnews.com, bloomberg.com, ft.com, bbc.com, theverge.com, wired.com, arstechnica.com, technologyreview.com, scientificamerican.com, nature.com, science.org, theatlantic.com, newyorker.com, economist.com, nationalgeographic.com, smithsonianmag.com, nasa.gov, noaa.gov, nih.gov, arxiv.org, mit.edu, stanford.edu. Also acceptable: direct manufacturer/product pages, official GitHub repos, official tool websites. BANNED sources (never use): wikipedia.org, wikihow.com, blogspot.com, any wordpress.com blog, medium.com (except official brand publications). If no preferred source exists, use the most authoritative primary source available.
 
@@ -318,10 +386,22 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
       }
     }
 
-    const bodyWords = wordCount(itemBody(item));
+    let bodyWords = wordCount(itemBody(item));
     if (bodyWords < REVIEW_MIN_WORDS) {
-      console.warn(`  ⚠ Short item discarded: "${itemName || item.slug || "unknown"}" — ${bodyWords} words`);
-      continue;
+      const expanded = await expandShortItem(category, item, bodyWords);
+      const expandedWords = wordCount(itemBody(expanded));
+      if (expandedWords > bodyWords) {
+        Object.assign(item, expanded);
+        bodyWords = expandedWords;
+        console.warn(`  ⚠ Short item expanded: "${itemName || item.slug || "unknown"}" — ${bodyWords} words`);
+      }
+      if (bodyWords < REVIEW_MIN_WORDS) {
+        console.warn(`  ⚠ Short item discarded: "${itemName || item.slug || "unknown"}" — ${bodyWords} words`);
+        continue;
+      }
+    }
+    if (bodyWords < REVIEW_TARGET_WORDS) {
+      console.warn(`  ⚠ Concise item accepted: "${itemName || item.slug || "unknown"}" — ${bodyWords}/${REVIEW_TARGET_WORDS} target words`);
     }
 
     // Skip exact name duplicates entirely
@@ -374,7 +454,7 @@ async function main() {
         }
       }
       if (newItems.length < 5) {
-        throw new Error(`[${category}] only generated ${newItems.length}/5 valid items above ${REVIEW_MIN_WORDS} words`);
+        throw new Error(`[${category}] only generated ${newItems.length}/5 valid items with at least ${REVIEW_MIN_WORDS} body words`);
       }
       console.log(
         `[${category}] Generated: ${newItems.map((i) => i.slug).join(", ")}`

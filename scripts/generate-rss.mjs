@@ -19,6 +19,7 @@ const futureRadar = JSON.parse(readFileSync(join(root, "data/future-radar.json")
 const dailyTools = JSON.parse(readFileSync(join(root, "data/daily-tools.json"), "utf-8"));
 
 const SITE_URL = "https://surfaced-x.pages.dev";
+const FALLBACK_PUB_DATE = "2025-01-01";
 
 function getTitle(item) {
   return item.title || item.name || item.techName || item.toolName || "Untitled";
@@ -49,6 +50,12 @@ function escapeXml(s) {
     .replace(/'/g, "&apos;");
 }
 
+function parseItemDate(item) {
+  const value = item.dateAdded || item.archivedAt || FALLBACK_PUB_DATE;
+  const date = new Date(`${value}T00:00:00.000Z`);
+  return Number.isNaN(date.getTime()) ? new Date(`${FALLBACK_PUB_DATE}T00:00:00.000Z`) : date;
+}
+
 // Tag each item with its type
 const allItems = [
   ...discoveries.map((i) => ({ ...i, type: "discovery" })),
@@ -61,7 +68,10 @@ const allItems = [
 // Sort by id descending (newest first), take latest 50
 const sorted = allItems.sort((a, b) => (b.id || 0) - (a.id || 0)).slice(0, 50);
 
-const now = new Date().toUTCString();
+const lastBuildDate = sorted
+  .map(parseItemDate)
+  .reduce((latest, date) => (date > latest ? date : latest), new Date(`${FALLBACK_PUB_DATE}T00:00:00.000Z`))
+  .toUTCString();
 
 const rssItems = sorted
   .map((item) => {
@@ -69,9 +79,7 @@ const rssItems = sorted
     const desc = escapeXml(getDescription(item));
     const link = `${SITE_URL}/item/${item.slug}`;
     const category = escapeXml(getCategoryLabel(item.type));
-    const pubDate = item.dateAdded
-      ? new Date(item.dateAdded).toUTCString()
-      : new Date().toUTCString();
+    const pubDate = parseItemDate(item).toUTCString();
     return `    <item>
       <title>${title}</title>
       <link>${link}</link>
@@ -90,7 +98,7 @@ const rss = `<?xml version="1.0" encoding="UTF-8"?>
     <link>${SITE_URL}</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>${now}</lastBuildDate>
+    <lastBuildDate>${lastBuildDate}</lastBuildDate>
     <atom:link href="${SITE_URL}/feed.xml" rel="self" type="application/rss+xml" />
 ${rssItems}
   </channel>
