@@ -15,6 +15,9 @@ const EDITORIAL_THRESHOLD = Number(process.env.TRENDING_EDITORIAL_THRESHOLD || 8
 const MAX_ITEMS = 8;
 const MAX_MONITORED = 8;
 const USER_AGENT = "SurfacedAutomatedContentBrain/1.0 (https://surfaced-x.pages.dev/contact)";
+const API_RETRY_ATTEMPTS = 3;
+const API_RETRY_BASE_DELAY_MS = 1500;
+const API_RETRY_MAX_DELAY_MS = 12000;
 const dryRun = process.argv.includes("--dry-run");
 
 const now = process.env.AUTOMATED_CONTENT_NOW
@@ -78,6 +81,47 @@ function hostLabel(value) {
   }
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function httpError(status, statusText = "") {
+  const error = new Error(`${status} ${statusText}`.trim());
+  error.status = status;
+  return error;
+}
+
+function isRetryableStatus(status) {
+  return [408, 409, 425, 429, 500, 502, 503, 504].includes(Number(status));
+}
+
+function isRetryableError(error) {
+  const message = error?.message || "";
+  return (
+    error?.name === "AbortError" ||
+    isRetryableStatus(error?.status) ||
+    /ECONNRESET|ETIMEDOUT|EAI_AGAIN|fetch failed|network/i.test(message)
+  );
+}
+
+function retryDelayMs(attempt) {
+  const exponential = API_RETRY_BASE_DELAY_MS * Math.pow(2, attempt - 1);
+  return Math.min(exponential, API_RETRY_MAX_DELAY_MS) + Math.floor(Math.random() * 500);
+}
+
+async function withRetry(fn, { label = "API request", retries = API_RETRY_ATTEMPTS } = {}) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      if (!isRetryableError(error) || attempt >= retries) throw error;
+      const delay = retryDelayMs(attempt);
+      console.warn(`${label} failed (${error.message}); retry ${attempt}/${retries} in ${Math.round(delay / 1000)}s`);
+      await sleep(delay);
+    }
+  }
+}
+
 function scoreGithubRepo(repo) {
   const stars = Number(repo.stargazers_count || 0);
   const forks = Number(repo.forks_count || 0);
@@ -92,23 +136,25 @@ function scoreGithubRepo(repo) {
 }
 
 async function fetchJson(url, headers = {}) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 12_000);
-  try {
-    const response = await fetch(url, {
-      headers: {
-        accept: "application/json",
-        "user-agent": USER_AGENT,
-        ...headers,
-      },
-      redirect: "error",
-      signal: controller.signal,
-    });
-    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-    return await response.json();
-  } finally {
-    clearTimeout(timeout);
-  }
+  return withRetry(async () => {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12_000);
+    try {
+      const response = await fetch(url, {
+        headers: {
+          accept: "application/json",
+          "user-agent": USER_AGENT,
+          ...headers,
+        },
+        redirect: "error",
+        signal: controller.signal,
+      });
+      if (!response.ok) throw httpError(response.status, response.statusText);
+      return await response.json();
+    } finally {
+      clearTimeout(timeout);
+    }
+  }, { label: new URL(url).hostname });
 }
 
 async function fetchGithubTrending() {

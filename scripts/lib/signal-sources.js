@@ -21,20 +21,67 @@ const GH_SEARCH = "https://api.github.com/search/repositories";
 const PH_GQL = "https://api.producthunt.com/v2/api/graphql";
 
 const UA = "Surfaced-SignalFetcher/1.0 (https://surfaced-x.pages.dev)";
+const API_RETRY_ATTEMPTS = 3;
+const API_RETRY_BASE_DELAY_MS = 1500;
+const API_RETRY_MAX_DELAY_MS = 12000;
 
 async function fetchJson(url, opts = {}) {
-  const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), opts.timeout || 10000);
-  try {
-    const res = await fetch(url, {
-      ...opts,
-      signal: ctrl.signal,
-      headers: { "User-Agent": UA, Accept: "application/json", ...(opts.headers || {}) },
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.json();
-  } finally {
-    clearTimeout(timer);
+  const { timeout = 10000, retries = API_RETRY_ATTEMPTS, label, ...fetchOpts } = opts;
+  return withRetry(async () => {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), timeout);
+    try {
+      const res = await fetch(url, {
+        ...fetchOpts,
+        signal: ctrl.signal,
+        headers: { "User-Agent": UA, Accept: "application/json", ...(fetchOpts.headers || {}) },
+      });
+      if (!res.ok) throw httpError(res.status);
+      return await res.json();
+    } finally {
+      clearTimeout(timer);
+    }
+  }, { label: label || new URL(url).hostname, retries });
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function httpError(status) {
+  const error = new Error(`HTTP ${status}`);
+  error.status = status;
+  return error;
+}
+
+function isRetryableStatus(status) {
+  return [408, 409, 425, 429, 500, 502, 503, 504].includes(Number(status));
+}
+
+function isRetryableError(error) {
+  const message = error?.message || "";
+  return (
+    error?.name === "AbortError" ||
+    isRetryableStatus(error?.status) ||
+    /ECONNRESET|ETIMEDOUT|EAI_AGAIN|fetch failed|network/i.test(message)
+  );
+}
+
+function retryDelayMs(attempt) {
+  const exponential = API_RETRY_BASE_DELAY_MS * Math.pow(2, attempt - 1);
+  return Math.min(exponential, API_RETRY_MAX_DELAY_MS) + Math.floor(Math.random() * 500);
+}
+
+async function withRetry(fn, { label = "API request", retries = API_RETRY_ATTEMPTS } = {}) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      if (!isRetryableError(error) || attempt >= retries) throw error;
+      const delay = retryDelayMs(attempt);
+      console.warn(`  ⚠ ${label} failed (${error.message}); retry ${attempt}/${retries} in ${Math.round(delay / 1000)}s`);
+      await sleep(delay);
+    }
   }
 }
 
@@ -177,17 +224,21 @@ async function fetchProductHunt({ limit = 8 } = {}) {
           }
         }
       }`;
-    const res = await fetch(PH_GQL, {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json",
-        "User-Agent": UA,
-      },
-      body: JSON.stringify({ query }),
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const res = await withRetry(async () => {
+      const response = await fetch(PH_GQL, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+          "User-Agent": UA,
+        },
+        body: JSON.stringify({ query }),
+      });
+      if (!response.ok) throw httpError(response.status);
+      return response;
+    }, { label: "Product Hunt API" });
     const data = await res.json();
+    if (data.errors?.length) throw new Error(`GraphQL error: ${data.errors.map((e) => e.message).join("; ")}`);
     const edges = data?.data?.posts?.edges || [];
     const items = edges.slice(0, limit).map(({ node }) => ({
       title: node.name,

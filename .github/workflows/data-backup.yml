@@ -7,16 +7,18 @@ on:
   workflow_dispatch: # Manual backup button
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   backup:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 30
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
 
       - name: Create backup archive
         id: archive
@@ -39,7 +41,7 @@ jobs:
           tar -tzf "$ARCHIVE" | head -20
 
       - name: Upload backup as artifact (90-day retention)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: data-backup-${{ steps.archive.outputs.date }}
           path: ${{ steps.archive.outputs.archive }}

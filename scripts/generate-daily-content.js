@@ -1,4 +1,5 @@
 const { GoogleGenAI } = require("@google/genai");
+const { spawnSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 const { writeJsonSafe } = require("./lib/write-safe");
@@ -43,6 +44,9 @@ const TYPE_BY_CATEGORY = {
 
 const REVIEW_MIN_WORDS = 150;
 const REVIEW_TARGET_WORDS = 170;
+const API_RETRY_ATTEMPTS = 3;
+const API_RETRY_BASE_DELAY_MS = 5000;
+const API_RETRY_MAX_DELAY_MS = 45000;
 
 const BODY_FIELDS_BY_CATEGORY = {
   discoveries: ["shortDescription", "whyItIsInteresting"],
@@ -169,24 +173,60 @@ function getExistingSlugs(items) {
   return new Set(items.map((i) => i.slug));
 }
 
-async function callWithRetry(fn, maxRetries = 3) {
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function retryDelayMs(attempt) {
+  const exponential = API_RETRY_BASE_DELAY_MS * Math.pow(2, attempt - 1);
+  return Math.min(exponential, API_RETRY_MAX_DELAY_MS) + Math.floor(Math.random() * 1000);
+}
+
+function isRetryableGenerationError(err) {
+  const msg = err?.message || "";
+  return (
+    err?.name === "AbortError" ||
+    msg.includes("429") ||
+    msg.includes("408") ||
+    msg.includes("500") ||
+    msg.includes("502") ||
+    msg.includes("503") ||
+    msg.includes("504") ||
+    msg.includes("UNAVAILABLE") ||
+    msg.includes("RESOURCE_EXHAUSTED") ||
+    msg.includes("high demand") ||
+    msg.includes("ECONNRESET") ||
+    msg.includes("ETIMEDOUT") ||
+    msg.includes("JSON parse failed")
+  );
+}
+
+async function callWithRetry(fn, options = {}) {
+  const maxRetries = typeof options === "number" ? options : options.maxRetries || API_RETRY_ATTEMPTS;
+  const label = typeof options === "object" && options.label ? options.label : "Gemini request";
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     try {
       return await fn();
     } catch (err) {
-      const msg = err.message || "";
-      const is503 = msg.includes("503") || msg.includes("UNAVAILABLE") || msg.includes("high demand");
-      const is429 = msg.includes("429") || msg.includes("RESOURCE_EXHAUSTED");
-      const isJsonErr = msg.includes("JSON parse failed");
-      if ((is503 || is429 || isJsonErr) && attempt < maxRetries) {
-        const delay = attempt * 15000; // 15s, 30s, 45s
-        const reason = is503 ? "capacity" : is429 ? "rate limit" : "bad JSON";
-        console.log(`  ⏳ Retry ${attempt}/${maxRetries} in ${delay / 1000}s (${reason})...`);
-        await new Promise((r) => setTimeout(r, delay));
+      if (isRetryableGenerationError(err) && attempt < maxRetries) {
+        const delay = retryDelayMs(attempt);
+        console.log(`  ⏳ ${label} retry ${attempt}/${maxRetries} in ${Math.round(delay / 1000)}s (${err.message})...`);
+        await sleep(delay);
       } else {
         throw err;
       }
     }
+  }
+}
+
+function runSchemaValidation() {
+  const result = spawnSync(process.execPath, [path.join(__dirname, "validate-data.js")], {
+    cwd: path.join(__dirname, ".."),
+    stdio: "inherit",
+  });
+  if (result.error) throw result.error;
+  if (result.status !== 0) {
+    throw new Error(`Pre-commit schema validation failed with exit code ${result.status}`);
   }
 }
 
@@ -680,6 +720,9 @@ async function main() {
   if (bestBuyCount > 0) {
     console.log(`🏬 Applied Best Buy search URLs to ${bestBuyCount} products.`);
   }
+
+  console.log("🔍 Running pre-commit schema validation...");
+  runSchemaValidation();
 }
 
 main().catch((err) => {

@@ -19,6 +19,9 @@ const MAX_PAYLOAD_BYTES = 1_800_000;
 const MAX_REVIEW_CANDIDATES = 14;
 const MAX_REJECTED_CANDIDATES = 30;
 const REVIEW_THRESHOLD = 82;
+const API_RETRY_ATTEMPTS = 3;
+const API_RETRY_BASE_DELAY_MS = 1500;
+const API_RETRY_MAX_DELAY_MS = 12000;
 
 const args = new Set(process.argv.slice(2));
 const outputArg = process.argv.find((arg) => arg.startsWith("--output="));
@@ -199,28 +202,71 @@ function parseAllowedFetchUrl(value) {
   return url;
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function httpError(status, statusText = "") {
+  const error = new Error(`${status} ${statusText}`.trim());
+  error.status = status;
+  return error;
+}
+
+function isRetryableStatus(status) {
+  return [408, 409, 425, 429, 500, 502, 503, 504].includes(Number(status));
+}
+
+function isRetryableError(error) {
+  const message = error?.message || "";
+  return (
+    error?.name === "AbortError" ||
+    isRetryableStatus(error?.status) ||
+    /ECONNRESET|ETIMEDOUT|EAI_AGAIN|fetch failed|network/i.test(message)
+  );
+}
+
+function retryDelayMs(attempt) {
+  const exponential = API_RETRY_BASE_DELAY_MS * Math.pow(2, attempt - 1);
+  return Math.min(exponential, API_RETRY_MAX_DELAY_MS) + Math.floor(Math.random() * 500);
+}
+
+async function withRetry(fn, { label = "API request", retries = API_RETRY_ATTEMPTS } = {}) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      if (!isRetryableError(error) || attempt >= retries) throw error;
+      const delay = retryDelayMs(attempt);
+      console.warn(`${label} failed (${error.message}); retry ${attempt}/${retries} in ${Math.round(delay / 1000)}s`);
+      await sleep(delay);
+    }
+  }
+}
+
 async function fetchPayload(feed) {
   const url = parseAllowedFetchUrl(feed.url);
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 12_000);
-  try {
-    const response = await fetch(url, {
-      headers: {
-        accept: feed.format === "json" ? "application/json" : "application/rss+xml, application/xml;q=0.9",
-        "user-agent": USER_AGENT,
-      },
-      redirect: "error",
-      signal: controller.signal,
-    });
-    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-    const contentLength = Number(response.headers.get("content-length") || 0);
-    if (contentLength > MAX_PAYLOAD_BYTES) throw new Error(`Payload too large: ${contentLength}`);
-    const text = await response.text();
-    if (Buffer.byteLength(text, "utf8") > MAX_PAYLOAD_BYTES) throw new Error("Payload exceeded size limit");
-    return feed.format === "json" ? JSON.parse(text) : text;
-  } finally {
-    clearTimeout(timeout);
-  }
+  return withRetry(async () => {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12_000);
+    try {
+      const response = await fetch(url, {
+        headers: {
+          accept: feed.format === "json" ? "application/json" : "application/rss+xml, application/xml;q=0.9",
+          "user-agent": USER_AGENT,
+        },
+        redirect: "error",
+        signal: controller.signal,
+      });
+      if (!response.ok) throw httpError(response.status, response.statusText);
+      const contentLength = Number(response.headers.get("content-length") || 0);
+      if (contentLength > MAX_PAYLOAD_BYTES) throw new Error(`Payload too large: ${contentLength}`);
+      const text = await response.text();
+      if (Buffer.byteLength(text, "utf8") > MAX_PAYLOAD_BYTES) throw new Error("Payload exceeded size limit");
+      return feed.format === "json" ? JSON.parse(text) : text;
+    } finally {
+      clearTimeout(timeout);
+    }
+  }, { label: feed.id });
 }
 
 function sourceTrailEntry(feed, url = feed.url, role = feed.role, sourceType = feed.sourceType) {
@@ -589,17 +635,21 @@ async function fetchProductHuntSignals(limit = 10) {
         edges { node { name tagline description url website votesCount createdAt } }
       }
     }`;
-  const response = await fetch("https://api.producthunt.com/v2/api/graphql", {
-    method: "POST",
-    headers: {
-      authorization: `Bearer ${process.env.PRODUCT_HUNT_TOKEN}`,
-      "content-type": "application/json",
-      "user-agent": USER_AGENT,
-    },
-    body: JSON.stringify({ query }),
-  });
-  if (!response.ok) throw new Error(`Product Hunt HTTP ${response.status}`);
+  const response = await withRetry(async () => {
+    const result = await fetch("https://api.producthunt.com/v2/api/graphql", {
+      method: "POST",
+      headers: {
+        authorization: `Bearer ${process.env.PRODUCT_HUNT_TOKEN}`,
+        "content-type": "application/json",
+        "user-agent": USER_AGENT,
+      },
+      body: JSON.stringify({ query }),
+    });
+    if (!result.ok) throw httpError(result.status, result.statusText || "Product Hunt");
+    return result;
+  }, { label: "product-hunt" });
   const payload = await response.json();
+  if (payload.errors?.length) throw new Error(`Product Hunt GraphQL error: ${payload.errors.map((error) => error.message).join("; ")}`);
   return (payload.data?.posts?.edges || [])
     .map((edge) => edge.node)
     .filter((post) => post?.name && post?.url && (post.votesCount || 0) >= 25)

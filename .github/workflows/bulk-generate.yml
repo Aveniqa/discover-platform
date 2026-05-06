@@ -14,19 +14,21 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   bulk-generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '22'
           cache: 'npm'
@@ -78,5 +80,5 @@ jobs:
             exit 0
           fi
           git commit -m "📦 Bulk content: +${ITEMS_PER_CATEGORY} items per category"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push

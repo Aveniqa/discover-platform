@@ -12,6 +12,9 @@ const DRAFTS_FILE = join(AUTOMATED_DIR, "newsletter-drafts.json");
 const API_KEY = process.env.BUTTONDOWN_API_KEY;
 const BASE_URL = "https://surfaced-x.pages.dev";
 const MAJOR_STORY_THRESHOLD = Number(process.env.BREAKING_NEWS_THRESHOLD || 92);
+const API_RETRY_ATTEMPTS = 3;
+const API_RETRY_BASE_DELAY_MS = 1500;
+const API_RETRY_MAX_DELAY_MS = 12000;
 
 function readJson(path, fallback) {
   if (!existsSync(path)) return fallback;
@@ -24,6 +27,47 @@ function escapeHtml(value) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function httpError(status, statusText = "") {
+  const error = new Error(`Buttondown API error ${status}${statusText ? ` ${statusText}` : ""}`);
+  error.status = status;
+  return error;
+}
+
+function isRetryableStatus(status) {
+  return [408, 409, 425, 429, 500, 502, 503, 504].includes(Number(status));
+}
+
+function isRetryableError(error) {
+  const message = error?.message || "";
+  return (
+    error?.name === "AbortError" ||
+    isRetryableStatus(error?.status) ||
+    /ECONNRESET|ETIMEDOUT|EAI_AGAIN|fetch failed|network/i.test(message)
+  );
+}
+
+function retryDelayMs(attempt) {
+  const exponential = API_RETRY_BASE_DELAY_MS * Math.pow(2, attempt - 1);
+  return Math.min(exponential, API_RETRY_MAX_DELAY_MS) + Math.floor(Math.random() * 500);
+}
+
+async function withRetry(fn, { label = "API request", retries = API_RETRY_ATTEMPTS } = {}) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      if (!isRetryableError(error) || attempt >= retries) throw error;
+      const delay = retryDelayMs(attempt);
+      console.warn(`${label} failed (${error.message}); retry ${attempt}/${retries} in ${Math.round(delay / 1000)}s`);
+      await sleep(delay);
+    }
+  }
 }
 
 function pickMajorStory() {
@@ -107,14 +151,18 @@ async function main() {
 
   const subject = `Surfaced breaking draft: ${story.title}`;
   const body = buildDraftHtml(story);
-  const response = await fetch("https://api.buttondown.email/v1/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Token ${API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ subject, body, status: "draft" }),
-  });
+  const response = await withRetry(async () => {
+    const result = await fetch("https://api.buttondown.email/v1/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Token ${API_KEY}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ subject, body, status: "draft" }),
+    });
+    if (!result.ok && isRetryableStatus(result.status)) throw httpError(result.status, result.statusText);
+    return result;
+  }, { label: "Buttondown draft" });
 
   if (!response.ok) {
     throw new Error(`Buttondown API error ${response.status}: ${await response.text()}`);

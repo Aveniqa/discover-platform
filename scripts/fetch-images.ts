@@ -11,6 +11,10 @@ dotenv.config({ path: ".env.local" });
 const PEXELS_KEY = process.env.PEXELS_API_KEY || "";
 const UNSPLASH_KEY = process.env.UNSPLASH_ACCESS_KEY || "";
 const PIXABAY_KEY = process.env.PIXABAY_API_KEY || "";
+const API_RETRY_ATTEMPTS = 3;
+const API_RETRY_BASE_DELAY_MS = 1500;
+const API_RETRY_MAX_DELAY_MS = 30000;
+const RETRYABLE_STATUS = new Set([408, 409, 425, 429, 500, 502, 503, 504]);
 
 const availableProviders = [
   PEXELS_KEY && "Pexels",
@@ -36,17 +40,59 @@ async function fetchWithTimeout(url: string, opts: RequestInit, ms = 8000): Prom
   }
 }
 
-async function fetchPexelsImage(query: string, page = 1, retry = true): Promise<string | null> {
-  try {
-    const res = await fetchWithTimeout(
-      `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=1&page=${page}&orientation=landscape`,
-      { headers: { Authorization: PEXELS_KEY } }
-    );
-    if (res.status === 429) {
-      console.log("\n  ⏳ Pexels rate limited — backing off 60s...");
-      await new Promise((r) => setTimeout(r, 60000));
-      return retry ? fetchPexelsImage(query, page, false) : null;
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function retryDelayMs(attempt: number, response?: Response): number {
+  const retryAfter = response?.headers.get("retry-after");
+  if (retryAfter) {
+    const seconds = Number(retryAfter);
+    if (Number.isFinite(seconds) && seconds > 0) return Math.min(seconds * 1000, 60000);
+  }
+  const exponential = API_RETRY_BASE_DELAY_MS * Math.pow(2, attempt - 1);
+  return Math.min(exponential, API_RETRY_MAX_DELAY_MS) + Math.floor(Math.random() * 500);
+}
+
+function isRetryableError(error: unknown): boolean {
+  const err = error as Error;
+  return (
+    err?.name === "AbortError" ||
+    /ECONNRESET|ETIMEDOUT|EAI_AGAIN|fetch failed|network/i.test(err?.message || "")
+  );
+}
+
+async function requestWithRetry(label: string, fetcher: () => Promise<Response>): Promise<Response> {
+  for (let attempt = 1; attempt <= API_RETRY_ATTEMPTS; attempt++) {
+    try {
+      const response = await fetcher();
+      if (RETRYABLE_STATUS.has(response.status) && attempt < API_RETRY_ATTEMPTS) {
+        const delay = retryDelayMs(attempt, response);
+        console.log(`\n  ⏳ ${label} returned ${response.status}; retry ${attempt}/${API_RETRY_ATTEMPTS} in ${Math.round(delay / 1000)}s...`);
+        await sleep(delay);
+        continue;
+      }
+      return response;
+    } catch (error) {
+      if (!isRetryableError(error) || attempt >= API_RETRY_ATTEMPTS) throw error;
+      const delay = retryDelayMs(attempt);
+      console.log(`\n  ⏳ ${label} failed; retry ${attempt}/${API_RETRY_ATTEMPTS} in ${Math.round(delay / 1000)}s...`);
+      await sleep(delay);
     }
+  }
+  throw new Error(`${label} exhausted retries`);
+}
+
+async function fetchPexelsImage(query: string, page = 1): Promise<string | null> {
+  if (!PEXELS_KEY) return null;
+  try {
+    const res = await requestWithRetry(
+      `Pexels "${query}"`,
+      () => fetchWithTimeout(
+        `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}&per_page=1&page=${page}&orientation=landscape`,
+        { headers: { Authorization: PEXELS_KEY } }
+      )
+    );
     if (!res.ok) {
       console.log(`\n  ⚠ Pexels ${res.status} for "${query}"`);
       return null;
@@ -58,17 +104,16 @@ async function fetchPexelsImage(query: string, page = 1, retry = true): Promise<
   }
 }
 
-async function fetchUnsplashImage(query: string, retry = true): Promise<string | null> {
+async function fetchUnsplashImage(query: string): Promise<string | null> {
+  if (!UNSPLASH_KEY) return null;
   try {
-    const res = await fetchWithTimeout(
-      `https://api.unsplash.com/photos/random?query=${encodeURIComponent(query)}&orientation=landscape`,
-      { headers: { Authorization: `Client-ID ${UNSPLASH_KEY}` } }
+    const res = await requestWithRetry(
+      `Unsplash "${query}"`,
+      () => fetchWithTimeout(
+        `https://api.unsplash.com/photos/random?query=${encodeURIComponent(query)}&orientation=landscape`,
+        { headers: { Authorization: `Client-ID ${UNSPLASH_KEY}` } }
+      )
     );
-    if (res.status === 429) {
-      console.log("\n  ⏳ Unsplash rate limited — backing off 60s...");
-      await new Promise((r) => setTimeout(r, 60000));
-      return retry ? fetchUnsplashImage(query, false) : null;
-    }
     if (!res.ok) {
       console.log(`\n  ⚠ Unsplash ${res.status} for "${query}"`);
       return null;
@@ -80,18 +125,16 @@ async function fetchUnsplashImage(query: string, retry = true): Promise<string |
   }
 }
 
-async function fetchPixabayImage(query: string, retry = true): Promise<string | null> {
+async function fetchPixabayImage(query: string): Promise<string | null> {
   if (!PIXABAY_KEY) return null;
   try {
-    const res = await fetchWithTimeout(
-      `https://pixabay.com/api/?key=${PIXABAY_KEY}&q=${encodeURIComponent(query)}&image_type=photo&orientation=horizontal&per_page=3`,
-      {}
+    const res = await requestWithRetry(
+      `Pixabay "${query}"`,
+      () => fetchWithTimeout(
+        `https://pixabay.com/api/?key=${PIXABAY_KEY}&q=${encodeURIComponent(query)}&image_type=photo&orientation=horizontal&per_page=3`,
+        {}
+      )
     );
-    if (res.status === 429) {
-      console.log("\n  ⏳ Pixabay rate limited — backing off 60s...");
-      await new Promise((r) => setTimeout(r, 60000));
-      return retry ? fetchPixabayImage(query, false) : null;
-    }
     if (!res.ok) {
       console.log(`\n  ⚠ Pixabay ${res.status} for "${query}"`);
       return null;
@@ -456,11 +499,11 @@ async function buildImageCache() {
   }
 
   const allItems = [
-    ...discoveries.map((i: any) => ({ ...i, type: "discovery" })),
-    ...products.map((i: any) => ({ ...i, type: "product" })),
-    ...gems.map((i: any) => ({ ...i, type: "hidden-gem" })),
-    ...future.map((i: any) => ({ ...i, type: "future-tech" })),
-    ...tools.map((i: any) => ({ ...i, type: "tool" })),
+    ...discoveries.map((i) => ({ ...(i as Record<string, unknown>), type: "discovery" })),
+    ...products.map((i) => ({ ...(i as Record<string, unknown>), type: "product" })),
+    ...gems.map((i) => ({ ...(i as Record<string, unknown>), type: "hidden-gem" })),
+    ...future.map((i) => ({ ...(i as Record<string, unknown>), type: "future-tech" })),
+    ...tools.map((i) => ({ ...(i as Record<string, unknown>), type: "tool" })),
   ] as Record<string, unknown>[];
 
   console.log(`Fetching images for ${allItems.length} items...\n`);

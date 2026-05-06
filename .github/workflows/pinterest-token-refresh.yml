@@ -8,12 +8,13 @@ on:
 
 permissions:
   contents: read
-  issues: write
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 30
+    permissions:
+      contents: read
     steps:
       - name: Refresh Pinterest access token
         env:
@@ -79,11 +80,15 @@ jobs:
 
   alert-on-failure:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     needs: refresh
     if: failure()
+    permissions:
+      contents: read
+      issues: write
     steps:
       - name: Create GitHub Issue for failed refresh
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
             const title = `⚠️ Pinterest token refresh failed — ${new Date().toISOString().split('T')[0]}`;
@@ -107,3 +112,17 @@ jobs:
               body,
               labels: ['bug', 'automation']
             });
+
+      - name: Notify Slack webhook
+        continue-on-error: true
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          WORKFLOW_NAME: Refresh Pinterest Token
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "SLACK_WEBHOOK_URL not configured; GitHub issue notification created."
+            exit 0
+          fi
+          node -e 'process.stdout.write(JSON.stringify({ text: `Surfaced automation failed: ${process.env.WORKFLOW_NAME}\n${process.env.RUN_URL}` }))' \
+            | curl -fsS -X POST -H "Content-Type: application/json" --data @- "$SLACK_WEBHOOK_URL"

@@ -8,17 +8,16 @@
 
 import { readFileSync } from "fs";
 import { join, dirname } from "path";
-import { fileURLToPath } from "url";
+import { fileURLToPath, pathToFileURL } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, "..", "data");
 const BASE_URL = "https://surfaced-x.pages.dev";
+const BUTTONDOWN_EMAILS_URL = "https://api.buttondown.email/v1/emails";
 const API_KEY = process.env.BUTTONDOWN_API_KEY;
-
-if (!API_KEY) {
-  console.error("❌ BUTTONDOWN_API_KEY is not set");
-  process.exit(1);
-}
+const API_RETRY_ATTEMPTS = 3;
+const API_RETRY_BASE_DELAY_MS = 1500;
+const API_RETRY_MAX_DELAY_MS = 12000;
 
 const today = new Date().toISOString().slice(0, 10);
 const formattedDate = new Date().toLocaleDateString("en-US", {
@@ -120,7 +119,114 @@ function buildEmailHtml(sections) {
 </html>`;
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isRetryableStatus(status) {
+  return [408, 409, 425, 429, 500, 502, 503, 504].includes(Number(status));
+}
+
+function isRetryableError(error) {
+  const message = error?.message || "";
+  return error?.name === "AbortError" || /ECONNRESET|ETIMEDOUT|EAI_AGAIN|fetch failed|network/i.test(message);
+}
+
+function retryDelayMs(attempt, response) {
+  const retryAfter = response?.headers?.get?.("retry-after");
+  if (retryAfter) {
+    const seconds = Number(retryAfter);
+    if (Number.isFinite(seconds) && seconds > 0) return Math.min(seconds * 1000, 60000);
+  }
+  const exponential = API_RETRY_BASE_DELAY_MS * Math.pow(2, attempt - 1);
+  return Math.min(exponential, API_RETRY_MAX_DELAY_MS) + Math.floor(Math.random() * 500);
+}
+
+async function fetchWithRetry(label, fetchImpl, url, options) {
+  for (let attempt = 1; attempt <= API_RETRY_ATTEMPTS; attempt++) {
+    try {
+      const response = await fetchImpl(url, options);
+      if (isRetryableStatus(response.status) && attempt < API_RETRY_ATTEMPTS) {
+        const delay = retryDelayMs(attempt, response);
+        console.warn(`${label} returned ${response.status}; retry ${attempt}/${API_RETRY_ATTEMPTS} in ${Math.round(delay / 1000)}s`);
+        await sleep(delay);
+        continue;
+      }
+      return response;
+    } catch (error) {
+      if (!isRetryableError(error) || attempt >= API_RETRY_ATTEMPTS) throw error;
+      const delay = retryDelayMs(attempt);
+      console.warn(`${label} failed (${error.message}); retry ${attempt}/${API_RETRY_ATTEMPTS} in ${Math.round(delay / 1000)}s`);
+      await sleep(delay);
+    }
+  }
+}
+
+export async function postButtondownEmail({ subject, body, status, apiKey, live = false, fetchImpl = fetch }) {
+  const headers = {
+    Authorization: `Token ${apiKey}`,
+    "Content-Type": "application/json",
+  };
+  if (live) headers["X-Buttondown-Live-Dangerously"] = "true";
+
+  let response;
+  try {
+    response = await fetchWithRetry(`Buttondown ${status}`, fetchImpl, BUTTONDOWN_EMAILS_URL, {
+      method: "POST",
+      headers,
+      body: JSON.stringify({ subject, body, status }),
+    });
+  } catch (error) {
+    return { ok: false, status: 0, text: error.message, payload: null };
+  }
+
+  const text = await response.text();
+  let payload = null;
+  if (text) {
+    try {
+      payload = JSON.parse(text);
+    } catch {
+      payload = { raw: text };
+    }
+  }
+  return { ok: response.ok, status: response.status, text, payload };
+}
+
+export async function sendNewsletterToButtondown({ subject, body, apiKey, fetchImpl = fetch }) {
+  const liveResult = await postButtondownEmail({
+    subject,
+    body,
+    status: "about_to_send",
+    apiKey,
+    live: true,
+    fetchImpl,
+  });
+  if (liveResult.ok) return { mode: "live", payload: liveResult.payload };
+
+  console.error(`❌ Buttondown live-send failed (${liveResult.status}): ${liveResult.text}`);
+  console.log("📝 Falling back to a Buttondown draft...");
+
+  const draftResult = await postButtondownEmail({
+    subject,
+    body,
+    status: "draft",
+    apiKey,
+    live: false,
+    fetchImpl,
+  });
+  if (draftResult.ok) {
+    return { mode: "draft", payload: draftResult.payload, liveError: liveResult };
+  }
+
+  throw new Error(`Buttondown live-send failed (${liveResult.status}); draft fallback failed (${draftResult.status}): ${draftResult.text}`);
+}
+
 async function main() {
+  if (!API_KEY) {
+    console.error("❌ BUTTONDOWN_API_KEY is not set");
+    process.exit(1);
+  }
+
   console.log(`\n📧 Building newsletter for ${today}\n`);
 
   const sections = [];
@@ -144,29 +250,20 @@ async function main() {
 
   console.log(`\n📨 Sending "${subject}" to Buttondown...`);
 
-  const res = await fetch("https://api.buttondown.email/v1/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Token ${API_KEY}`,
-      "Content-Type": "application/json",
-      "X-Buttondown-Live-Dangerously": "true",
-    },
-    body: JSON.stringify({ subject, body, status: "about_to_send" }),
-  });
-
-  if (!res.ok) {
-    const err = await res.text();
-    console.error(`❌ Buttondown API error (${res.status}): ${err}`);
-    process.exit(1);
+  const result = await sendNewsletterToButtondown({ subject, body, apiKey: API_KEY });
+  const data = result.payload || {};
+  if (result.mode === "live") {
+    console.log(`✅ Newsletter sent! ID: ${data.id}`);
+  } else {
+    console.log(`✅ Newsletter draft created after live-send fallback. ID: ${data.id}`);
   }
-
-  const data = await res.json();
-  console.log(`✅ Newsletter sent! ID: ${data.id}`);
   console.log(`   Subject: ${subject}`);
   console.log(`   Items: ${totalItems}`);
 }
 
-main().catch((err) => {
-  console.error("❌ Unexpected error:", err.message);
-  process.exit(1);
-});
+if (import.meta.url === pathToFileURL(process.argv[1] || "").href) {
+  main().catch((err) => {
+    console.error("❌ Unexpected error:", err.message);
+    process.exit(1);
+  });
+}

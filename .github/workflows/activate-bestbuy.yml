@@ -5,24 +5,26 @@ on:
     types: [opened]
 
 permissions:
-  contents: write
-  issues: write
+  contents: read
 
 jobs:
   activate:
     # Only run when the issue title matches the template
     if: contains(github.event.issue.title, 'Activate Best Buy Impact affiliate URLs')
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      issues: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '22'
           cache: 'npm'
@@ -32,7 +34,7 @@ jobs:
 
       - name: Extract form data from issue body
         id: extract
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
             const body = context.payload.issue.body || '';
@@ -90,7 +92,7 @@ jobs:
             exit 0
           fi
           git commit -m "🏬 Activate Best Buy Impact affiliate tracking (${{ steps.extract.outputs.tracking_id }})"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
 
       - name: Store tracking IDs as secrets reminder
@@ -99,7 +101,7 @@ jobs:
           echo "note=Remember to add BESTBUY_TRACKING_ID and BESTBUY_PROGRAM_ID as GitHub Secrets for the daily workflow." >> $GITHUB_OUTPUT
 
       - name: Comment on issue with results
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
             const fs = require('fs');
@@ -149,11 +151,15 @@ jobs:
 
   alert-on-failure:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     needs: activate
     if: failure()
+    permissions:
+      contents: read
+      issues: write
     steps:
       - name: Comment failure on issue
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
             await github.rest.issues.createComment({
@@ -169,3 +175,17 @@ jobs:
                 `Check that the Tracking ID and Program ID are correct and try again by opening a new issue.`,
               ].join('\n'),
             });
+
+      - name: Notify Slack webhook
+        continue-on-error: true
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          WORKFLOW_NAME: Activate Best Buy Affiliate
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "SLACK_WEBHOOK_URL not configured; GitHub issue notification created."
+            exit 0
+          fi
+          node -e 'process.stdout.write(JSON.stringify({ text: `Surfaced automation failed: ${process.env.WORKFLOW_NAME}\n${process.env.RUN_URL}` }))' \
+            | curl -fsS -X POST -H "Content-Type: application/json" --data @- "$SLACK_WEBHOOK_URL"
