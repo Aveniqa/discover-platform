@@ -2014,7 +2014,100 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "visbug-web-design-debug",
+      "title": "VisBug",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/7479056/pexels-photo-7479056.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: VisBug",
+      "productUrl": "https://surfaced-x.pages.dev/item/visbug-web-design-debug?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/visbug-web-design-debug?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "VisBug",
+          "description": " https://surfaced-x.pages.dev/item/visbug-web-design-debug?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "VisBug — VisBug is an open-source browser extension developed by Google's design team, specifically Adam Argyle, acting as a visual debugger and design tool for the web. It allows designers and developers to i\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/visbug-web-design-debug?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-06T18:04:48.925Z",
+      "publishedAt": "2026-05-06T18:04:50.649Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "precision-fermentation-bio-identical-human-milk",
+      "title": "precision-fermentation-bio-identical-human-milk",
+      "category": "future-radar",
+      "imageUrl": "https://images.pexels.com/photos/36029500/pexels-photo-36029500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "A laboratory setting with a bioreactor tank, hinting at milk production.",
+      "productUrl": "https://surfaced-x.pages.dev/item/precision-fermentation-bio-identical-human-milk?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/precision-fermentation-bio-identical-human-milk?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "sourceLink": "https://www.biomilq.com/",
+      "platforms": {
+        "pinterest": {
+          "title": "Bio-Identical Human Milk Made Through Precision Fermentation",
+          "description": "What if we could make human milk without cows or humans? Precision fermentation is getting closer, creating bio-identical milk proteins. It's not quite the whole package yet, but a fascinating step towards sustainable alternatives. #futureofmilk #precisionfermentation #biotechnology #foodtech",
+          "boardName": "Future Tech"
+        },
+        "bluesky": {
+          "text": "Imagine human milk, not from a breast or a cow, but from a vat. Precision fermentation is making this a reality, replicating milk proteins. Still early days, but a wild peek into the future of infant nutrition.\n\n#futuretech #innovation"
+        },
+        "twitter": {
+          "text": "Human milk, made via precision fermentation. Biomilq is creating bio-identical milk proteins, bypassing cows and humans. Still some way to go before it's a complete substitute, but a huge leap for sustainable alternatives. https://surfaced-x.pages.dev/item/precision-fermentation-bio-identical-human-milk?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-06T18:04:48.925Z",
+      "publishedAt": "2026-05-06T18:06:04.206Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "link-to-text-fragment",
+      "title": "Link to Text Fragment",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/6611925/pexels-photo-6611925.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Link to Text Fragment",
+      "productUrl": "https://surfaced-x.pages.dev/item/link-to-text-fragment?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/link-to-text-fragment?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Link to Text Fragment",
+          "description": " https://surfaced-x.pages.dev/item/link-to-text-fragment?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Link to Text Fragment — Link to Text Fragment is an official browser extension from Google's Chrome team that simplifies sharing specific portions of web pages. It generates a special URL that, when clicked, automatically sc\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/link-to-text-fragment?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-06T18:04:48.925Z",
+      "publishedAt": "2026-05-06T18:07:00.579Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-05-05T18:01:47.668Z"
+  "lastGenerated": "2026-05-06T18:04:48.926Z"
 }
