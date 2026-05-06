@@ -149,8 +149,9 @@ async function main() {
     headers: {
       Authorization: `Token ${API_KEY}`,
       "Content-Type": "application/json",
+      "X-Buttondown-Live-Dangerously": "true",
     },
-    body: JSON.stringify({ subject, body, status: "sent" }),
+    body: JSON.stringify({ subject, body, status: "about_to_send" }),
   });
 
   if (!res.ok) {
