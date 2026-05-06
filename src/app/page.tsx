@@ -519,16 +519,16 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-5">
+          <div className="grid min-h-[fit-content] auto-rows-min grid-cols-1 items-start gap-4 sm:grid-cols-2 xl:grid-cols-3 xl:gap-5">
             {/* Lead story — large card */}
-            <div className="sm:col-span-2 xl:row-span-2">
-            <div className="h-full">
-            <div className="gradient-border relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden h-full">
+            <div className="min-h-[fit-content] self-start sm:col-span-2">
+            <div className="min-h-[fit-content]">
+            <div className="gradient-border relative group flex min-h-[fit-content] flex-col overflow-hidden rounded-2xl border border-border bg-surface card-hover-glow">
               <div className={`absolute top-0 left-0 right-0 h-[3px] z-10 ${accentBar(editorsPick.type)}`} />
               <div className="overflow-hidden">
                 <StaticItemImage slug={editorsPick.slug} alt={getItemTitle(editorsPick)} size="lg" className="group-hover:scale-[1.03] transition-transform duration-500" />
               </div>
-              <div className="p-7 sm:p-8 flex flex-col flex-1">
+              <div className="p-7 sm:p-8 flex min-h-[fit-content] flex-col">
               <div className="flex items-start justify-between mb-5">
                 <div className="flex items-center gap-2.5">
                   <span className="inline-flex items-center gap-1 text-[9px] font-bold uppercase tracking-[0.12em] text-accent bg-accent/15 border border-accent/20 px-2.5 py-1 rounded-full">
@@ -546,7 +546,7 @@ export default function HomePage() {
                 {getItemTitle(editorsPick)}
               </h3>
 
-              <div className="text-sm sm:text-base text-muted leading-relaxed mb-6 flex-1 space-y-3">
+              <div className="text-sm sm:text-base text-muted leading-relaxed mb-6 space-y-3">
                 <p>
                   {getItemExcerpt(editorsPick, 520)}
                 </p>
@@ -558,7 +558,7 @@ export default function HomePage() {
               <Link
                 href={`/item/${editorsPick.slug}`}
                 prefetch={false}
-                className="inline-flex items-center gap-2.5 text-sm font-semibold text-accent hover:text-accent-hover transition-colors mt-auto"
+                className="inline-flex items-center gap-2.5 text-sm font-semibold text-accent hover:text-accent-hover transition-colors"
               >
                 Read the full story
                 <span className="transition-transform group-hover:translate-x-1 text-base">
@@ -570,18 +570,18 @@ export default function HomePage() {
             </div>
             </div>
 
-            {/* 4 supporting picks */}
+            {/* Supporting picks */}
             {topPicksRest.map((item, i) => (
-              <div key={item.slug}>
-              <div className="h-full">
+              <div key={item.slug} className="min-h-[fit-content] self-start">
+              <div className="min-h-[fit-content]">
               <div
-                className="relative group flex flex-col bg-surface border border-border rounded-2xl card-hover-glow overflow-hidden h-full"
+                className="relative group flex min-h-[fit-content] flex-col overflow-hidden rounded-2xl border border-border bg-surface card-hover-glow"
               >
                 <div className={`absolute top-0 left-0 right-0 h-[2px] z-10 ${accentBar(item.type)}`} />
                 <div className="overflow-hidden">
                   <StaticItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="3/2" width={400} height={267} size="md" className="group-hover:scale-[1.03] transition-transform duration-500" />
                 </div>
-                <div className="p-5 sm:p-6 flex flex-col flex-1">
+                <div className="p-5 sm:p-6 flex min-h-[fit-content] flex-col">
                 <div className="flex items-start justify-between mb-3">
                   <div className="flex items-center gap-2">
                     <span className="text-[9px] font-bold text-accent/50 tabular-nums">0{i + 2}</span>
@@ -597,14 +597,14 @@ export default function HomePage() {
                   {getItemTitle(item)}
                 </h3>
 
-                <p className="text-sm text-muted leading-relaxed mb-4 line-clamp-2 flex-1">
+                <p className="text-sm text-muted leading-relaxed mb-4 line-clamp-2">
                   {getItemExcerpt(item)}
                 </p>
 
                 <Link
                   href={`/item/${item.slug}`}
                   prefetch={false}
-                  className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:text-accent-hover transition-colors mt-auto"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:text-accent-hover transition-colors"
                 >
                   Explore
                   <span className="transition-transform group-hover:translate-x-1">

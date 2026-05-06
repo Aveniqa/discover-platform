@@ -362,86 +362,121 @@ export function CurrentEventsEngine() {
 
         <TrendingLiveRail events={currentEvents} />
 
-        <div className="grid min-h-[fit-content] auto-rows-min items-start gap-4 lg:grid-cols-[minmax(0,1.35fr)_minmax(320px,0.65fr)]">
-          <article
-            className={`relative h-fit min-h-[fit-content] self-start overflow-hidden rounded-xl border border-emerald-300/20 ${weatherPresentation.className}`}
-            data-weather-state={weatherPresentation.state}
-          >
-            {weatherPresentation.effects.length > 0 && (
-              <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden motion-reduce:hidden">
-                {weatherPresentation.effects.map((effect, index) => (
-                  <div
-                    key={`${weatherPresentation.state}-${effect}`}
-                    className={`absolute inset-0 ${effect} ${index === 0 ? "opacity-45" : "opacity-25"}`}
+        <div
+          className="grid min-h-[fit-content] auto-rows-min items-start gap-4 lg:grid-cols-[minmax(0,1.35fr)_minmax(320px,0.65fr)]"
+          data-current-event-layout="lead-and-rail"
+        >
+          <div className="grid min-h-[fit-content] content-start gap-4 lg:self-start">
+            <article
+              className={`relative h-fit min-h-[fit-content] self-start overflow-hidden rounded-xl border border-emerald-300/20 ${weatherPresentation.className}`}
+              data-current-event-lead="true"
+              data-weather-state={weatherPresentation.state}
+            >
+              {weatherPresentation.effects.length > 0 && (
+                <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden motion-reduce:hidden">
+                  {weatherPresentation.effects.map((effect, index) => (
+                    <div
+                      key={`${weatherPresentation.state}-${effect}`}
+                      className={`absolute inset-0 ${effect} ${index === 0 ? "opacity-45" : "opacity-25"}`}
+                    />
+                  ))}
+                </div>
+              )}
+              <div className="relative grid min-h-[fit-content] items-start gap-4 sm:grid-cols-[minmax(12rem,18rem)_minmax(0,1fr)] sm:gap-0">
+                <div className="relative h-48 min-h-[fit-content] sm:min-h-[20rem]">
+                  <Image
+                    src={getCurrentEventDisplayImageUrl(leadCurrentEvent, 760, 72)}
+                    alt={leadCurrentEvent.imageAlt}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 40vw, 320px"
+                    className="h-full w-full object-cover"
                   />
-                ))}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent sm:bg-gradient-to-r" />
+                </div>
+
+                <div className="relative flex min-h-[fit-content] flex-col p-5 sm:p-6 lg:p-7">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-full bg-emerald-300 px-3 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-black">
+                      Featured
+                    </span>
+                    <span className="rounded-full border border-border bg-background/35 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.14em] text-muted-foreground">
+                      {leadCurrentEvent.label}
+                    </span>
+                  </div>
+
+                  <h3 className="mt-4 max-w-3xl text-2xl font-black leading-[1.06] tracking-tight text-foreground text-balance sm:text-3xl lg:text-4xl">
+                    {leadCurrentEvent.title}
+                  </h3>
+                  <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted sm:text-base">
+                    {leadCurrentEvent.summary}
+                  </p>
+
+                  {storySignals.length > 0 && (
+                    <div className="mt-5 grid gap-2 sm:grid-cols-3">
+                      {storySignals.map((signal) => (
+                        <SignalPill key={`${signal.value}-${signal.label}`} signal={signal} />
+                      ))}
+                    </div>
+                  )}
+
+                  <div className="mt-5 flex flex-wrap items-center gap-3">
+                    <a
+                      href={leadCurrentEvent.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center rounded-lg bg-white px-4 py-2.5 text-sm font-bold text-black transition-colors hover:bg-white/90"
+                    >
+                      Read the source
+                    </a>
+                    <Link
+                      href={`/live/${leadCurrentEvent.id}`}
+                      className="inline-flex items-center justify-center rounded-lg border border-border bg-background/35 px-4 py-2.5 text-sm font-bold text-foreground transition-colors hover:border-emerald-300/35"
+                    >
+                      Open live brief
+                    </Link>
+                    <span className="text-xs text-muted-foreground">
+                      {leadCurrentEvent.sourceName} · {hostLabel(leadCurrentEvent.sourceUrl)}
+                    </span>
+                  </div>
+
+                  <p className="mt-5 text-[11px] leading-relaxed text-muted-foreground">
+                    Photo: {leadCurrentEvent.imageCredit}. Informational only; follow linked source guidance for health, safety, or property decisions.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            {nextSteps.length > 0 && (
+              <div
+                className="min-h-[fit-content] rounded-xl border border-border bg-surface p-5"
+                data-current-event-actions="true"
+              >
+                <div className="flex items-end justify-between gap-4">
+                  <div>
+                    <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
+                      Before you shop
+                    </p>
+                    <h4 className="mt-1 text-lg font-black tracking-tight text-foreground">
+                      Prevention first, products second
+                    </h4>
+                  </div>
+                  <span className="hidden text-[11px] text-muted-foreground sm:inline">
+                    {nextSteps.length} source-backed steps
+                  </span>
+                </div>
+                <div className="mt-4">
+                  {nextSteps.map((step, index) => (
+                    <ActionStep key={step.title} step={step} index={index} />
+                  ))}
+                </div>
               </div>
             )}
-            <div className="relative grid min-h-[fit-content] items-start gap-4 sm:grid-cols-[minmax(12rem,18rem)_minmax(0,1fr)] sm:items-stretch sm:gap-0">
-              <div className="relative h-48 sm:h-auto sm:min-h-[20rem] sm:self-stretch">
-                <Image
-                  src={getCurrentEventDisplayImageUrl(leadCurrentEvent, 760, 72)}
-                  alt={leadCurrentEvent.imageAlt}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 40vw, 320px"
-                  className="h-full w-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-transparent to-transparent sm:bg-gradient-to-r" />
-              </div>
+          </div>
 
-              <div className="relative flex min-h-0 flex-col p-5 sm:p-6 lg:p-7">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="rounded-full bg-emerald-300 px-3 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-black">
-                    Featured
-                  </span>
-                  <span className="rounded-full border border-border bg-background/35 px-3 py-1 text-[10px] font-bold uppercase tracking-[0.14em] text-muted-foreground">
-                    {leadCurrentEvent.label}
-                  </span>
-                </div>
-
-                <h3 className="mt-4 max-w-3xl text-2xl font-black leading-[1.06] tracking-tight text-foreground text-balance sm:text-3xl lg:text-4xl">
-                  {leadCurrentEvent.title}
-                </h3>
-                <p className="mt-3 max-w-3xl text-sm leading-relaxed text-muted sm:text-base">
-                  {leadCurrentEvent.summary}
-                </p>
-
-                {storySignals.length > 0 && (
-                  <div className="mt-5 grid gap-2 sm:grid-cols-3">
-                    {storySignals.map((signal) => (
-                      <SignalPill key={`${signal.value}-${signal.label}`} signal={signal} />
-                    ))}
-                  </div>
-                )}
-
-                <div className="mt-5 flex flex-wrap items-center gap-3">
-                  <a
-                    href={leadCurrentEvent.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center rounded-lg bg-white px-4 py-2.5 text-sm font-bold text-black transition-colors hover:bg-white/90"
-                  >
-                    Read the source
-                  </a>
-                  <Link
-                    href={`/live/${leadCurrentEvent.id}`}
-                    className="inline-flex items-center justify-center rounded-lg border border-border bg-background/35 px-4 py-2.5 text-sm font-bold text-foreground transition-colors hover:border-emerald-300/35"
-                  >
-                    Open live brief
-                  </Link>
-                  <span className="text-xs text-muted-foreground">
-                    {leadCurrentEvent.sourceName} · {hostLabel(leadCurrentEvent.sourceUrl)}
-                  </span>
-                </div>
-
-                <p className="mt-auto pt-5 text-[11px] leading-relaxed text-muted-foreground">
-                  Photo: {leadCurrentEvent.imageCredit}. Informational only; follow linked source guidance for health, safety, or property decisions.
-                </p>
-              </div>
-            </div>
-          </article>
-
-          <div className="grid min-h-[fit-content] content-start gap-4">
+          <div
+            className="grid min-h-[fit-content] content-start gap-4 lg:self-start"
+            data-current-event-rail="true"
+          >
             <div className="rounded-xl border border-border bg-surface p-5">
               <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
                 Why now
@@ -474,31 +509,8 @@ export function CurrentEventsEngine() {
           </div>
         </div>
 
-        <div className="mt-4 grid min-h-[fit-content] auto-rows-min gap-4 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
-          {nextSteps.length > 0 && (
-            <div className="rounded-xl border border-border bg-surface p-5">
-              <div className="flex items-end justify-between gap-4">
-                <div>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">
-                    Before you shop
-                  </p>
-                  <h4 className="mt-1 text-lg font-black tracking-tight text-foreground">
-                    Prevention first, products second
-                  </h4>
-                </div>
-                <span className="hidden text-[11px] text-muted-foreground sm:inline">
-                  {nextSteps.length} source-backed steps
-                </span>
-              </div>
-              <div className="mt-4">
-                {nextSteps.map((step, index) => (
-                  <ActionStep key={step.title} step={step} index={index} />
-                ))}
-              </div>
-            </div>
-          )}
-
-          <div>
+        <div className="mt-4 min-h-[fit-content]">
+          <div className="min-h-[fit-content]">
             <div className="mb-3 flex items-end justify-between gap-4">
               <div>
                 <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground">

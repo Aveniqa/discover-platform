@@ -33,6 +33,14 @@ const REQUIRED_FIELDS = {
   "daily-tools": ["slug", "toolName", "whatItDoes", "category", "whyItIsUseful", "type"],
 };
 
+const TYPE_BY_CATEGORY = {
+  discoveries: "discovery",
+  products: "product",
+  "hidden-gems": "hidden-gem",
+  "future-radar": "future-tech",
+  "daily-tools": "tool",
+};
+
 const REVIEW_MIN_WORDS = 150;
 
 function wordCount(text) {
@@ -48,6 +56,61 @@ function itemBody(item) {
     item.whyItIsUseful,
     item.whyItMatters,
   ].filter(Boolean).join(" ");
+}
+
+function firstString(...values) {
+  return values.find((value) => typeof value === "string" && value.trim())?.trim();
+}
+
+function normalizeGeneratedItem(category, item) {
+  const normalized = { ...item };
+  normalized.type = TYPE_BY_CATEGORY[category];
+
+  switch (category) {
+    case "products":
+      normalized.title = firstString(normalized.title, normalized.name, normalized.toolName);
+      normalized.shortDescription = firstString(
+        normalized.shortDescription,
+        normalized.whatItDoes,
+        normalized.explanation,
+        normalized.description,
+      );
+      normalized.whyItIsInteresting = firstString(
+        normalized.whyItIsInteresting,
+        normalized.whyItIsUseful,
+        normalized.whyItMatters,
+        normalized.matchReason,
+      );
+      normalized.sourceLink = firstString(normalized.sourceLink, normalized.websiteLink, normalized.url);
+      if (normalized.availableOnAmazon === undefined) normalized.availableOnAmazon = false;
+      if (normalized.amazonAsin === undefined) normalized.amazonAsin = "";
+      break;
+    case "hidden-gems":
+      normalized.name = firstString(normalized.name, normalized.title, normalized.toolName);
+      normalized.whatItDoes = firstString(normalized.whatItDoes, normalized.shortDescription, normalized.description);
+      normalized.whyItIsUseful = firstString(normalized.whyItIsUseful, normalized.whyItIsInteresting, normalized.whyItMatters);
+      normalized.websiteLink = firstString(normalized.websiteLink, normalized.sourceLink, normalized.url);
+      break;
+    case "daily-tools":
+      normalized.toolName = firstString(normalized.toolName, normalized.name, normalized.title);
+      normalized.whatItDoes = firstString(normalized.whatItDoes, normalized.shortDescription, normalized.description);
+      normalized.whyItIsUseful = firstString(normalized.whyItIsUseful, normalized.whyItIsInteresting, normalized.whyItMatters);
+      normalized.websiteLink = firstString(normalized.websiteLink, normalized.sourceLink, normalized.url);
+      break;
+    case "future-radar":
+      normalized.techName = firstString(normalized.techName, normalized.title, normalized.name);
+      normalized.explanation = firstString(normalized.explanation, normalized.shortDescription, normalized.description);
+      normalized.whyItMatters = firstString(normalized.whyItMatters, normalized.whyItIsInteresting, normalized.whyItIsUseful);
+      break;
+    case "discoveries":
+      normalized.title = firstString(normalized.title, normalized.name, normalized.techName);
+      normalized.shortDescription = firstString(normalized.shortDescription, normalized.explanation, normalized.description);
+      normalized.whyItIsInteresting = firstString(normalized.whyItIsInteresting, normalized.whyItIsUseful, normalized.whyItMatters);
+      normalized.sourceLink = firstString(normalized.sourceLink, normalized.websiteLink, normalized.url);
+      break;
+  }
+
+  return normalized;
 }
 
 function readJSON(filename) {
@@ -239,7 +302,8 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
   );
   let nextId = getNextId(existingItems);
   const validItems = [];
-  for (const item of items) {
+  for (const rawItem of items) {
+    const item = normalizeGeneratedItem(category, rawItem);
     const itemName = (item.title || item.name || item.toolName || item.techName || "").toLowerCase();
 
     // Validate required fields — discard incomplete Gemini responses

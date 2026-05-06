@@ -47,6 +47,12 @@ function trimText(value, max) {
   return `${text.slice(0, max - 1).replace(/\s+\S*$/, "")}...`;
 }
 
+function trimWords(value, maxWords) {
+  const words = String(value || "").replace(/\s+/g, " ").trim().split(" ").filter(Boolean);
+  if (words.length <= maxWords) return words.join(" ");
+  return `${words.slice(0, maxWords).join(" ")}...`;
+}
+
 function readJson(path, fallback) {
   if (!existsSync(path)) return fallback;
   return JSON.parse(readFileSync(path, "utf8"));
@@ -295,7 +301,7 @@ function uniqueSignals(signals) {
 function cleanForValidation(item) {
   return {
     ...item,
-    title: trimText(item.title, 120),
+    title: trimWords(trimText(item.title, 120), 18),
     summary: trimText(item.summary, 320),
     sourceTrail: (item.sourceTrail || []).filter((entry) => /^https:\/\//.test(entry.url)).slice(0, 6),
   };

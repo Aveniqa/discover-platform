@@ -12,6 +12,23 @@ interface AdSlotProps {
   /** Optional label for the ad region (used by AdSense for analytics) */
   label?: string;
   className?: string;
+  /** Reserved height in px once a real ad slot exists, reducing ad-load layout shift. */
+  minHeight?: number;
+}
+
+function getDefaultMinHeight(format: NonNullable<AdSlotProps["format"]>): number {
+  switch (format) {
+    case "horizontal":
+      return 96;
+    case "rectangle":
+      return 280;
+    case "vertical":
+      return 320;
+    case "fluid":
+      return 180;
+    default:
+      return 120;
+  }
 }
 
 /**
@@ -26,10 +43,11 @@ interface AdSlotProps {
  * Renders nothing if `slot` is empty — safe to deploy before units are created.
  * Auto Ads (enabled in the AdSense dashboard) work independently of this component.
  */
-export function AdSlot({ slot, format = "auto", label, className = "" }: AdSlotProps) {
+export function AdSlot({ slot, format = "auto", label, className = "", minHeight }: AdSlotProps) {
   const insRef = useRef<HTMLModElement>(null);
   const pushed = useRef(false);
   const hasSlot = !!slot && slot.length >= 6;
+  const reservedHeight = minHeight ?? getDefaultMinHeight(format);
 
   useEffect(() => {
     if (!hasSlot || pushed.current || !insRef.current) return;
@@ -50,6 +68,7 @@ export function AdSlot({ slot, format = "auto", label, className = "" }: AdSlotP
       className={`adsense-slot my-6 overflow-hidden ${className}`}
       role="complementary"
       aria-label="Advertisement"
+      style={{ minHeight: reservedHeight }}
     >
       <p className="mb-2 text-center text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
         Advertisement
@@ -57,7 +76,12 @@ export function AdSlot({ slot, format = "auto", label, className = "" }: AdSlotP
       <ins
         ref={insRef}
         className="adsbygoogle mx-auto"
-        style={{ display: "block", minWidth: "250px", width: "100%" }}
+        style={{
+          display: "block",
+          minHeight: Math.max(1, reservedHeight - 24),
+          minWidth: "250px",
+          width: "100%",
+        }}
         data-ad-client={PUB_ID}
         data-ad-slot={slot}
         data-ad-format={format}
