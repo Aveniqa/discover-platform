@@ -1,70 +1,5 @@
 [
   {
-    "id": 97,
-    "slug": "hooktheory",
-    "name": "Hooktheory",
-    "whatItDoes": "Hooktheory is an innovative educational platform and suite of interactive tools for music theory, chord progressions, and song composition, developed by a team of musicians and educators focused on making music accessible. Its core feature offers a structured, interactive curriculum that simplifies complex music theory concepts, combined with Hookpad, a browser-based songwriting scratchpad that visually represents chord progressions and melodies. This platform is ideal for aspiring songwriters, musicians of all skill levels (from beginners to experienced composers), producers, and educators who want to understand, analyze, and create music more intuitively. Users learn theory through interactive lessons, then apply that knowledge in Hookpad to experiment with chord progressions, build melodies, and analyze popular songs by visualizing their harmonic structure, making composition more logical and less intimidating. The entire platform, including lessons and Hookpad, is web-based, accessible from any modern browser on desktop or tablet, and it features a vast database of popular song analyses.",
-    "category": "Education",
-    "whyItIsUseful": "Hooktheory demystifies traditional, often abstract music theory textbooks and complex Digital Audio Workstations (DAWs) by offering an intuitive, visual, and hands-on approach, winning on accessibility and immediate feedback for musical experimentation. For example, an aspiring songwriter with limited music theory knowledge can use Hooktheory to understand why certain chord progressions sound good together, then apply these principles in Hookpad to compose original melodies and harmonies, overcoming writer's block. A music producer looking to analyze the harmonic structure of a hit song can use Hooktheory's database to visualize its chord progressions and melodic patterns, gaining insights for their own productions or remixes. Hooktheory offers free introductory lessons and a limited version of Hookpad; a premium subscription unlocks all advanced lessons, unlimited Hookpad features, and access to the complete song database. The 'TheoryTabs' feature, which allows users to view and contribute to a database of popular song analyses with interactive chord progressions and melodic lines, is incredibly powerful for understanding real-world music theory applications. While highly effective, music theory itself is a niche interest, and many musicians learn by ear or through traditional methods, limiting its broader popularity. Hooktheory has an active community of users who contribute to the TheoryTabs database and engage in forums, and the platform receives regular updates, new lessons, and feature enhancements to Hookpad.",
-    "imageIdea": "music theory chord progression piano keyboard laptop browser interface notation",
-    "websiteLink": "https://www.hooktheory.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.hooktheory.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 98,
-    "slug": "motion",
-    "name": "Motion",
-    "whatItDoes": "Motion is an AI-powered calendar and task manager developed by a team focused on productivity automation. It autonomously schedules tasks, meetings, and appointments, dynamically adjusting your day based on priorities and deadlines. Primarily built for busy professionals, entrepreneurs, and teams struggling with manual scheduling overhead, it fits into a workflow by allowing users to input tasks with deadlines and priorities, connect their calendars, and then Motion allocates time blocks, protecting focus time. It integrates with Google Calendar, Outlook Calendar, Zoom, and offers native desktop apps for macOS/Windows, and mobile apps for iOS/Android.",
-    "category": "Productivity",
-    "whyItIsUseful": "Motion significantly outperforms traditional calendar apps (e.g., Google Calendar, Outlook) and manual to-do lists by actively scheduling and rescheduling, rather than just displaying events, saving its users an average of 8 hours per week in planning. A freelance designer can input client projects with deadlines, and Motion will automatically block out deep work sessions, ensuring design sprints are completed on time while accommodating client calls. A team lead can use Motion to manage their own tasks and meetings, ensuring dedicated time for strategic planning and 1:1s, even when last-minute meetings arise. Motion operates on a subscription model, typically offering monthly or annual plans with a free trial, as its advanced AI capabilities require significant infrastructure. Many users initially don't realize the power of its 'smart meeting assistant,' which can automatically find mutual free slots and send invites, eliminating calendar back-and-forth entirely. Its premium pricing model and the initial learning curve associated with trusting an AI to manage one's schedule can be barriers for some, despite its high utility. Motion boasts a responsive support team and frequent updates, with an active user community forum discussing best practices and feature requests.",
-    "imageIdea": "A smart calendar interface with tasks and meetings dynamically arranged, perhaps with AI elements or a robot arm pointing to an optimized schedule.",
-    "websiteLink": "https://www.usemotion.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.usemotion.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 99,
-    "slug": "roam-research",
-    "name": "Roam Research",
-    "whatItDoes": "Roam Research is a revolutionary note-taking and knowledge management tool developed by Conor White-Sullivan and his team, pioneering the 'graph database' approach for personal knowledge. It allows users to create bi-directional links between notes, where every page is a node in a dynamic knowledge graph, promoting non-linear thinking and serendipitous discovery. It's primarily built for academics, researchers, writers, consultants, and complex problem-solvers who need to connect disparate ideas and build a robust 'second brain.' Users jot down daily notes, create new pages for concepts, and link them using `[[page name]]` syntax, gradually building an interconnected web of knowledge. Primarily a web-based application, it offers offline capabilities and can integrate with various export/import tools for data portability.",
-    "category": "Writing",
-    "whyItIsUseful": "Roam Research goes beyond traditional linear note-taking apps like Evernote or Notion by emphasizing relationships over rigid hierarchies, making it superior for synthesizing complex information and generating new insights; studies suggest it can reduce information retrieval time by up to 30%. A Ph.D. student can link research papers, experimental results, and theoretical concepts, easily seeing how different ideas connect and identifying gaps in their thesis argument. An author can use Roam to outline plot points, develop character arcs, and track world-building details, linking them together to ensure consistency and discover new narrative possibilities. Roam Research operates on a subscription model, with a free trial available. Many users initially overlook the power of 'block references' and 'query blocks,' which allow for dynamic retrieval and display of specific pieces of information across the database, creating powerful dashboards. Its unconventional interface and initial learning curve can be daunting for users accustomed to hierarchical folders, leading some to miss its profound benefits despite its powerful 'networked thought' paradigm. Roam has a highly dedicated and active community, often referred to as 'Roamans,' who share workflows and tips, and the developers maintain a steady update cadence, often pushing experimental features.",
-    "imageIdea": "A network graph visualization of interconnected notes, with lines linking different ideas and concepts, set within a clean user interface.",
-    "websiteLink": "https://roamresearch.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Froamresearch.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 105,
-    "slug": "flux",
-    "name": "f.lux",
-    "whatItDoes": "f.lux is a popular, free software application developed by Michael Herf and Lorna Herf, designed to improve digital well-being. Its core feature is automatically and subtly adjusting the color temperature of your computer's display throughout the day, transitioning from a brighter, bluer light during daylight hours to a warmer, amber hue as evening approaches. It's built for anyone who spends significant time in front of a computer screen, particularly in the evenings or late at night, including office workers, students, and gamers. Once installed, f.lux runs silently in the background, detecting your location and time zone to apply appropriate screen adjustments without user intervention. It's available for Windows, macOS, Linux, and previously iOS, with many modern operating systems having integrated similar features inspired by f.lux.",
-    "category": "Health",
-    "whyItIsUseful": "f.lux offers a superior and automated solution compared to manually adjusting screen brightness or wearing blue-light filtering glasses, which can be cumbersome or less effective; research indicates blue light suppression can improve sleep latency by 10-15 minutes. A software developer working late on a project can use f.lux to reduce eye strain during long coding sessions, preventing fatigue and ensuring they can wind down more easily after work. An online student studying into the night can benefit from f.lux by minimizing the disruption to their circadian rhythm, helping them maintain a healthy sleep schedule despite late-night assignments. f.lux is entirely free to download and use, relying on donations for its continued development, making it highly accessible. Many users don't immediately realize its 'movie mode' or 'disable for an hour' options, which are crucial for tasks requiring accurate color representation (e.g., photo editing) or for short breaks from the warm tint. While widely adopted, its core functionality has been integrated into operating systems like Windows (Night Light) and macOS (Night Shift), making a dedicated third-party app less 'necessary' for some, though f.lux often offers more granular control. f.lux has a long-standing, stable presence with infrequent but impactful updates, reflecting its mature and effective design, and maintains a community forum for support and discussions.",
-    "imageIdea": "A computer screen transitioning from a bright blue-tinted display to a warm, orange-tinted display, with a clock icon showing progression from day to night.",
-    "websiteLink": "https://justgetflux.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fjustgetflux.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 106,
-    "slug": "scribblemaps",
-    "name": "Scribble Maps",
-    "whatItDoes": "Scribble Maps is a versatile, web-based mapping application designed to provide intuitive tools for drawing, measuring, and annotating geographical data, developed by a team focused on user-friendly geospatial visualization. Its core feature allows users to easily create custom maps by drawing shapes, lines, and markers, adding text labels, importing data, and calculating distances or areas directly onto a base map (like Google Maps or satellite imagery). This tool is ideal for educators, urban planners, real estate agents, field service managers, event organizers, and anyone who needs to visualize geographical information, plan routes, define zones, or create custom territories. Users can select a base map, then utilize an array of drawing tools to highlight areas, plot points of interest, measure distances for route planning, import KML/GPX files, or overlay custom images, then save or share their personalized maps. As a web-based tool, it runs in any modern browser, integrates with various map providers (Google Maps, OpenStreetMap), and supports importing/exporting data in formats like KML, GPX, and CSV.",
-    "category": "Reference",
-    "whyItIsUseful": "Scribble Maps democratizes mapping by replacing complex, expensive Geographical Information System (GIS) software (like ArcGIS or QGIS) for most common tasks, winning on ease of use, instant accessibility, and a much lower barrier to entry for creating rich, interactive maps. For example, a geography teacher can create an interactive map for students, highlighting historical routes, marking climate zones, or illustrating population density, making lessons more engaging and visually impactful. A real estate agent can use Scribble Maps to define specific neighborhood boundaries for clients, mark properties of interest, calculate distances to amenities, or draw service areas for property management, enhancing client presentations. Scribble Maps offers a free tier with basic drawing tools and limited saving options; paid plans unlock advanced features like unlimited layers, custom icons, data import/export, and collaboration. Beyond simple drawing, the ability to import large datasets from CSV or Excel files and visualize them as points or heatmaps on the map is incredibly powerful for data analysis without needing specialized software. While excellent, it's a niche tool; many users might default to simpler Google My Maps for basic needs or jump straight to professional GIS software for complex projects, overlooking this powerful middle-ground solution. Scribble Maps maintains a consistent update schedule, improving features and ensuring compatibility, and they have a responsive support team and extensive documentation, catering to a growing user base.",
-    "imageIdea": "A screenshot of a world map with various colorful annotations, lines, and custom markers.",
-    "websiteLink": "https://www.scribblemaps.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.scribblemaps.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 107,
     "slug": "gamma-app",
     "name": "Gamma App",
@@ -361,8 +296,7 @@
     "websiteLink": "https://archive.org/web/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-17",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Farchive.org%2Fweb%2F&screenshot=true&meta=false&embed=screenshot.url",
-    "badge": "editors-pick"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Farchive.org%2Fweb%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 152,
@@ -375,8 +309,7 @@
     "websiteLink": "https://readlang.com/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-17",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Freadlang.com%2F&screenshot=true&meta=false&embed=screenshot.url",
-    "badge": "editors-pick"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Freadlang.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 153,
@@ -6346,5 +6279,75 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-03",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.fontshare.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 752,
+    "slug": "red-squares",
+    "name": "Red Squares",
+    "seoTitle": "Red Squares — GitHub outages as contributions",
+    "whatItDoes": "Red Squares visualizes GitHub outages as contributions, offering a unique and thought-provoking perspective on platform reliability. It aggregates data on GitHub's downtime and translates it into a graphical representation, allowing users to see periods of unreliability as if they were active code contributions. This tool is built by Cian.lol and provides a novel way to understand and discuss the impact of service disruptions on developers and projects that rely on GitHub's infrastructure. It's particularly useful for developers, project managers, and anyone interested in the operational health of major software development platforms.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is a genuinely novel way to look at a common frustration for developers: platform downtime. Instead of just reporting outages, Red Squares reframes them as 'contributions,' which is a powerful conceptual shift. It prompts deeper thinking about what constitutes value and reliability in the software development ecosystem. Power users will appreciate the stark visualization that bypasses traditional uptime metrics and directly illustrates the 'lost time' or 'unavailable time' for the platform. It's an excellent conversation starter for teams discussing dependencies or for anyone building tools on top of cloud services. This is ideal for engineers, SREs, and tech enthusiasts who appreciate creative data visualization and a critical look at service reliability.",
+    "imageIdea": "red square grid",
+    "websiteLink": "https://red-squares.cian.lol/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fred-squares.cian.lol%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 753,
+    "slug": "palette-inspiration",
+    "name": "Palette Inspiration",
+    "seoTitle": "Palette Inspiration — Master painter color palettes",
+    "whatItDoes": "Palette Inspiration allows users to explore and discover color palettes derived from the artworks of master painters throughout history. By analyzing thousands of famous paintings, the website extracts harmonious and aesthetically pleasing color combinations. Users can browse by artist, era, or even specific moods, making it an invaluable resource for designers, artists, and anyone seeking visual inspiration for their projects. The tool helps translate the timeless color theories of art into practical applications for digital design, branding, and more.",
+    "category": "Design",
+    "whyItIsUseful": "While many tools offer color palette generation, Palette Inspiration's unique angle is its direct link to art history. It moves beyond algorithmic color generation by leveraging the curated aesthetic choices of legendary artists. This provides a rich source of proven, time-tested color combinations that can inspire more sophisticated and nuanced designs. It's particularly useful for those who find inspiration in traditional art but need to apply it to modern digital mediums. Designers looking to break away from generic palettes or achieve a classic, refined look will find immense value here, as will individuals who simply appreciate art and color theory.",
+    "imageIdea": "artist easel palette",
+    "websiteLink": "https://paletteinspiration.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fpaletteinspiration.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 754,
+    "slug": "ml-sharp-web",
+    "name": "ML SHARP Web",
+    "seoTitle": "ML SHARP Web — Apple's SHARP in browser",
+    "whatItDoes": "ML SHARP Web is a fascinating project that brings Apple's SHARP (Speech, Hearing, and Recognition Processing) technology to the web browser. It utilizes ONNX Runtime Web, a JavaScript API that allows running ONNX models directly in the browser, enabling powerful machine learning capabilities without server-side processing. This means you can experiment with advanced speech and audio processing features, like those found in Apple's ecosystem, directly from your web development environment. It's primarily for developers and researchers interested in exploring on-device ML for audio applications.",
+    "category": "Developer",
+    "whyItIsUseful": "This is a highly technical but incredibly useful tool for developers pushing the boundaries of browser-based AI. The ability to run sophisticated models like SHARP directly in the browser dramatically reduces latency, enhances privacy by keeping data local, and opens up new possibilities for real-time audio analysis in web applications. Most people are unaware that complex ML tasks can be executed client-side with such efficiency. Developers specializing in audio processing, AI, or those looking to create offline-first web applications will find this tool invaluable for prototyping and experimentation.",
+    "imageIdea": "browser window speech bubble",
+    "websiteLink": "https://github.com/bring-shrubbery/ml-sharp-web",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fbring-shrubbery%2Fml-sharp-web&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 755,
+    "slug": "hnup-sota",
+    "name": "HN UP - State of the Art of Coding Models",
+    "seoTitle": "HN UP — Coding models state of the art",
+    "whatItDoes": "HN UP (Hacker News Up) is a tool that analyzes Hacker News comments to identify and present the 'state of the art' in coding models. It aggregates discussions and sentiments from the Hacker News community to provide insights into which AI models for code generation, completion, and understanding are currently considered most effective or promising by experienced developers. This resource is invaluable for anyone looking to stay updated on the rapidly evolving landscape of AI in software development, offering a community-driven perspective on cutting-edge tools.",
+    "category": "Developer",
+    "whyItIsUseful": "In the fast-paced world of AI, staying informed about the best tools can be a challenge. HN UP cuts through the noise by leveraging the collective intelligence of the Hacker News community, a group known for its technical expertise and critical evaluation of new technologies. It's more than just a list; it reflects real-world developer opinions and practical experiences with coding models. This is particularly useful for developers, researchers, and product managers who need to make informed decisions about which AI tools to integrate into their workflows or products. It provides a grounded, peer-validated perspective on what's truly effective.",
+    "imageIdea": "laptop code screen",
+    "websiteLink": "https://hnup.date/hn-sota",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhnup.date%2Fhn-sota&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 756,
+    "slug": "cloudflare-agents",
+    "name": "Cloudflare Agents",
+    "seoTitle": "Cloudflare Agents — Deploy agents to Cloudflare",
+    "whatItDoes": "This Cloudflare blog post details the exciting advancement where agents can now autonomously create Cloudflare accounts, purchase domains, and deploy services. This signifies a significant leap in automation capabilities, allowing AI agents to perform complex infrastructure management tasks. By leveraging tools like Stripe for payments and deploying applications on Cloudflare's platform, these agents can essentially build and manage web presences from scratch. This technology is geared towards developers, DevOps engineers, and anyone interested in the future of AI-driven infrastructure and autonomous systems.",
+    "category": "Developer",
+    "whyItIsUseful": "The ability for agents to handle account creation, domain acquisition, and deployment represents a fundamental shift in how infrastructure can be managed. It moves beyond simple scripting to true autonomous operational capabilities. For developers and DevOps teams, this means the potential for highly automated workflows, faster deployment cycles, and the ability to offload complex, repetitive tasks to intelligent agents. It’s a glimpse into a future where managing cloud infrastructure becomes significantly more accessible and efficient. Those who are early adopters of automation and interested in the practical applications of AI in real-world infrastructure management will find this groundbreaking.",
+    "imageIdea": "server rack robot",
+    "websiteLink": "https://blog.cloudflare.com/agents-stripe-projects/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fblog.cloudflare.com%2Fagents-stripe-projects%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

@@ -1,46 +1,46 @@
 [
   {
-    "slug": "early-human-tools-reveal-complex-cognitive-abilities",
-    "title": "Early Human Tools Show Complex Cognitive Abilities",
+    "slug": "venus-phosphine-detection-re-evaluation",
+    "title": "Venus's Atmosphere: Phosphine Signal Re-evaluated",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Archaeological findings at sites like Gona, Ethiopia, and the subsequent analysis by researchers such as Dr. Kathy Schic",
+    "description": "In 2020, astronomers announced the detection of phosphine in Venus's atmosphere, a gas that on Earth is strongly associa",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "nutr-nutr-machine-pro",
-    "title": "Nutr Machine Pro",
+    "slug": "offsite-human-agent-teams",
+    "title": "Offsite: Build Teams of Humans and Agents",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The Nutr Machine Pro is an advanced, all-in-one appliance for creating fresh, homemade plant-based milks in minutes, fro",
+    "description": "Offsite introduces a new paradigm for collaboration by enabling the creation of unified teams composed of both human emp",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "fontshare-font-collection",
-    "title": "Fontshare",
+    "slug": "cloudflare-agents",
+    "title": "Cloudflare Agents",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Fontshare is a free, curated collection of fonts designed to be used across various digital platforms. It partners with ",
+    "description": "This Cloudflare blog post details the exciting advancement where agents can now autonomously create Cloudflare accounts,",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "donottrack-privacy-browser-extension",
-    "title": "Do_not_track Browser Extension",
+    "slug": "dnssec-disruption-de-domains",
+    "title": "DNSSEC Disruption and Resolution",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "Do_not_track is a browser extension designed to enhance user privacy by actively blocking trackers and preventing websit",
+    "description": "This incident involved a significant disruption to DNS Security Extensions (DNSSEC) impacting the .de domain namespace. ",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "ruflo",
-    "title": "Ruflo",
+    "slug": "readwise-read-it-later",
+    "title": "Readwise",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Ruflo is an open-source agent orchestration platform from RuvNet built around Claude Code, MCP tooling, and coordinated multi-agent workflows.",
+    "description": "Readwise is a popular service that consolidates your highlights and notes from various reading platforms like Kindle, In",
     "badge": null,
     "type": "tool"
   }

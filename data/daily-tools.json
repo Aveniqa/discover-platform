@@ -1,65 +1,5 @@
 [
   {
-    "id": 96,
-    "slug": "warp-terminal",
-    "toolName": "Warp Terminal",
-    "whatItDoes": "Warp is a modern, AI-powered command-line terminal developed by Warp, Inc., designed for developers to enhance productivity and collaboration in the terminal environment. It primarily supports software development workflows, enabling users to execute commands, write scripts, and manage projects with enhanced speed and fewer errors. Currently available for macOS, Linux, and Windows, it provides a consistent experience across major desktop operating systems. Its most utilized feature is the AI Command Suggestions, which intelligently autocompletes commands and provides contextual help, significantly reducing the need to consult documentation. Warp processes commands locally, but its AI features leverage cloud-based models for suggestions, with a strong emphasis on user privacy and data security, often anonymizing command history for model improvement.",
-    "category": "Developer",
-    "whyItIsUseful": "Warp eliminates the common frustrations of traditional terminals, such as obscure syntax, difficulty in recalling complex commands, and the lack of collaborative features, which often lead to developer slowdown and errors. A backend developer can use Warp to quickly scaffold a new project, deploy code to a server using `ssh`, and manage `git` repositories, benefiting from AI suggestions that prevent typos and accelerate common tasks. A DevOps engineer can leverage Warp's block-based output to easily review log files from Kubernetes clusters, share live terminal sessions with colleagues for debugging, and script complex deployment pipelines with greater clarity. Warp offers a free tier for individual use, with paid plans available for teams that require advanced collaboration features, administrative controls, and priority support. It significantly surpasses traditional terminals like iTerm2 or Windows Terminal by integrating AI directly into the workflow, providing a more intuitive, text-editor-like experience with features like multi-cursor editing and block-based output that enhance readability and interaction. Advanced users can utilize its custom workflows feature to define and execute complex sequences of commands with a single alias, saving significant time on repetitive setup or deployment tasks. The learning curve is surprisingly low for existing terminal users, as it enhances familiar features while introducing new ones that feel intuitive, making the transition smooth and beneficial.",
-    "imageIdea": "A screenshot of the Warp Terminal interface, showcasing a command being typed with an AI-powered suggestion dropdown, and previously executed commands displayed in distinct, scrollable blocks.",
-    "websiteLink": "https://www.warp.dev/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 99,
-    "slug": "convertio",
-    "toolName": "Convertio",
-    "whatItDoes": "Convertio is a comprehensive online file conversion service developed by Convertio, s.r.o., designed to transform files from one format to another across a vast spectrum of media types. It primarily supports a workflow where users need to quickly convert documents, images, audio, video, archives, or presentations for compatibility, sharing, or specific application requirements. As a purely web-based service, Convertio is accessible from any device with a web browser, including desktops, laptops, tablets, and smartphones, without requiring any software installation. Its most utilized feature is the \"Drag & Drop\" interface for uploading files and selecting from over 3700 supported conversion options, such as converting a PDF to DOCX or a JPEG to PNG. Convertio ensures user data privacy by deleting uploaded files and converted outputs from its servers shortly after conversion (typically within 24 hours), and does not store or share user content.",
-    "category": "Reference",
-    "whyItIsUseful": "Convertio eliminates the common problem of file incompatibility, preventing users from needing to download and install multiple, often complex, software applications just to open or use a file in a different format. A student can quickly convert a lecture recording from MP4 to MP3 for easier playback on a mobile device or transform a research paper from DOCX to PDF for submission, ensuring universal readability. A marketing professional can use Convertio to resize and change the format of multiple images from PNG to WebP for faster website loading, or convert a video from MOV to MP4 for wider social media platform compatibility. Convertio operates on a freemium model, offering a limited number of conversions and file size limits for free, with various paid subscription plans providing unlimited conversions, larger file support, and faster processing. It outperforms many single-purpose converters by supporting an unparalleled breadth of over 3700 conversion types across nearly every major file category, eliminating the need for multiple specialized tools. Advanced users can batch convert multiple files simultaneously, upload files directly from cloud storage services like Google Drive or Dropbox, and even set advanced conversion options for specific formats. The learning curve is virtually non-existent; its clean, intuitive interface makes file conversion straightforward for anyone with basic computer literacy.",
-    "imageIdea": "file format conversion drag and drop PDF JPG MP4 conversion tool browser",
-    "websiteLink": "https://convertio.co/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 104,
-    "slug": "worldcat",
-    "toolName": "WorldCat",
-    "whatItDoes": "WorldCat is the world's largest online catalog of library materials, operated by OCLC (Online Computer Library Center), serving as a global database to locate books, articles, music, and other library resources. Its primary workflow involves users searching for specific titles or subjects and then identifying which libraries, both local and international, hold those items, facilitating interlibrary loans and physical visits. Accessible primarily via its web portal, WorldCat.org, it is designed for use on any web-enabled device, including desktops, tablets, and smartphones, ensuring broad accessibility. The most utilized feature is its comprehensive search engine, allowing users to find a specific book like \"Sapiens: A Brief History of Humankind\" and then pinpoint the nearest library, often within a few miles, that has a copy available. WorldCat aggregates bibliographic data from thousands of libraries worldwide, creating a massive, centralized index, but it does not store personal user data beyond basic search analytics.",
-    "category": "Reference",
-    "whyItIsUseful": "WorldCat eliminates the fragmented and often frustrating process of searching individual library catalogs, solving the problem of knowing *if* a resource exists and *where* it can be accessed physically or digitally. A university student researching a thesis can use WorldCat to find obscure academic journals or out-of-print books, quickly identifying which university libraries across the globe possess the required materials for interlibrary loan. A genealogist can leverage WorldCat to locate rare historical documents, local histories, or family records held in small town libraries or archives, expanding their research beyond local resources. WorldCat.org is generally free for end-users, with OCLC's revenue primarily coming from library memberships and services provided to institutions. It significantly surpasses general search engines or individual library websites by offering a single, unified interface to search the collections of over 17,900 libraries in 123 countries and territories, boasting over 530 million bibliographic records. Advanced users can utilize its extensive filtering options, including language, format, and publication year, to refine searches, and explore related works through its authority control and subject headings features. The learning curve is moderate; while basic searches are intuitive, mastering its advanced search operators and filters to navigate its vast database effectively requires some practice.",
-    "imageIdea": "A stylized globe surrounded by open books and library shelves, with a magnifying glass icon.",
-    "websiteLink": "https://www.worldcat.org/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 105,
-    "slug": "trello",
-    "toolName": "Trello",
-    "whatItDoes": "Trello, developed by Atlassian, is a visual collaboration and project management tool that organizes tasks and workflows using a Kanban-inspired system of boards, lists, and cards. It primarily supports agile project management, task tracking, content planning, and team collaboration, allowing users to visualize progress from \"To Do\" to \"Done.\" Available as a web application, desktop apps for Windows and macOS, and mobile apps for iOS and Android, it ensures seamless access across devices. Its most utilized feature is the drag-and-drop functionality of cards between lists, such as moving a \"Design Mockup\" card from the \"In Progress\" list to the \"Awaiting Review\" list on a project board. Trello stores user data, including tasks, comments, and attachments, on its secure cloud servers, with options for organizations to manage data residency and comply with various privacy regulations.",
-    "category": "Productivity",
-    "whyItIsUseful": "Trello eliminates the chaos and miscommunication often associated with traditional project management methods, providing a clear, real-time visual overview of who is doing what and where each task stands. A marketing team can use Trello to plan and track a new campaign, with lists for \"Idea Backlog,\" \"Content Creation,\" \"Scheduled,\" and \"Published,\" assigning tasks to team members and setting deadlines on cards. A freelance graphic designer can manage multiple client projects on separate Trello boards, using cards to track design phases, client feedback, and invoicing, ensuring no deadlines are missed. Trello offers a generous free tier suitable for individuals and small teams, with paid plans (Standard, Premium, Enterprise) providing advanced features like unlimited boards, integrations, and enhanced administration. It often beats more complex project management tools like Jira for teams prioritizing visual simplicity and ease of use, making it quicker to onboard new users and less intimidating for non-technical teams. Advanced users leverage \"Power-Ups\" (integrations with other apps like Slack, Google Drive, or Calendar) and automation rules to streamline repetitive tasks, such as automatically moving cards or notifying team members. The learning curve is exceptionally low; its intuitive drag-and-drop interface and visual metaphor make it accessible and easy to understand for almost anyone, regardless of technical proficiency.",
-    "imageIdea": "A clean, digital Kanban board with colorful cards moving between 'To Do,' 'Doing,' and 'Done' columns.",
-    "websiteLink": "https://trello.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 108,
-    "slug": "khan-academy",
-    "toolName": "Khan Academy",
-    "whatItDoes": "Khan Academy, a non-profit organization founded by Salman Khan, is a vast online learning platform offering free, world-class educational content across a wide array of subjects. It supports a self-paced learning workflow, allowing students to watch instructional videos, complete practice exercises, and track their progress through personalized dashboards to master specific concepts. Accessible globally via its robust web platform, Khan Academy also offers mobile apps for iOS and Android, providing flexible learning opportunities on various devices. Its most utilized feature is the extensive library of short, digestible video tutorials (e.g., explaining algebraic equations or the principles of physics) paired with interactive practice problems that provide immediate feedback. Khan Academy collects user progress data to personalize learning paths but emphasizes privacy, particularly for younger learners, and does not sell or share personal information with third parties.",
-    "category": "Education",
-    "whyItIsUseful": "Khan Academy eliminates financial and geographical barriers to education, providing high-quality learning resources that might otherwise be inaccessible, thereby democratizing knowledge for millions worldwide. A high school student struggling with calculus can use Khan Academy to review specific topics, watch alternative explanations, and complete practice problems until they achieve mastery, supplementing their classroom learning. An adult learner looking to refresh their understanding of economics for a career change can follow a structured course on macroeconomics, gaining foundational knowledge at their own pace without enrolling in a formal program. Khan Academy is entirely free for all users, supported by philanthropic donations and grants, making its educational content universally accessible without subscription fees. It surpasses many paid online course platforms by offering a comprehensive, curriculum-aligned educational experience across K-12 and early college subjects, completely free of charge, with a focus on mastery-based learning. Advanced users can utilize the \"Coach\" features to monitor the progress of multiple students, assign specific content, and identify areas where learners need additional support, making it invaluable for teachers and homeschooling parents. The learning curve is minimal; its user-friendly interface, clear navigation, and bite-sized lessons make it easy for learners of all ages to get started and progress through subjects.",
-    "imageIdea": "A diverse group of students of various ages collaboratively learning around a globe icon, with digital screens displaying educational content. The Khan Academy logo is prominent.",
-    "websiteLink": "https://www.khanacademy.org/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 112,
     "slug": "toby",
     "toolName": "Toby",
@@ -201,8 +141,7 @@
     "imageIdea": "python code editor with a running web application",
     "websiteLink": "https://streamlit.io/",
     "type": "tool",
-    "dateAdded": "2026-04-17",
-    "badge": "editors-pick"
+    "dateAdded": "2026-04-17"
   },
   {
     "id": 133,
@@ -5736,5 +5675,70 @@
     "websiteLink": "https://github.com/ruvnet/ruflo",
     "type": "tool",
     "dateAdded": "2026-05-04"
+  },
+  {
+    "id": 801,
+    "slug": "mike-oss-ai-legal-platform",
+    "toolName": "mike",
+    "seoTitle": "mike — OSS AI Legal Platform",
+    "whatItDoes": "Mike is an open-source AI platform designed to democratize access to legal information and services. It leverages artificial intelligence to help users understand legal documents, generate legal text, and research legal precedents.  The platform aims to provide a free and accessible alternative for individuals and small businesses who might otherwise struggle with the cost and complexity of legal counsel. It offers features such as document summarization, contract analysis, and legal query answering, with a focus on clarity and user-friendliness.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers and legal tech enthusiasts, mike represents a significant step towards building more accessible legal tools. Its open-source nature allows for community contributions and rapid development, fostering innovation in an often-inaccessible field.  Users can integrate its AI capabilities into their own projects, creating bespoke legal assistance applications.  The platform tackles the overwhelming nature of legal jargon and processes, offering a more streamlined and understandable approach.  This is particularly valuable for those needing to navigate legal complexities without extensive prior knowledge, saving time and reducing the anxiety associated with legal matters.  It empowers a wider audience to engage with legal resources, making it a valuable asset for anyone seeking to understand or generate legal content.",
+    "imageIdea": "abstract legal document AI network",
+    "websiteLink": "https://github.com/willchen96/mike",
+    "type": "tool",
+    "dateAdded": "2026-05-06"
+  },
+  {
+    "id": 802,
+    "slug": "mhr-cfw-domain-fronting-relay",
+    "toolName": "mhr-cfw",
+    "seoTitle": "mhr-cfw — Domain-Fronting Relay",
+    "whatItDoes": "mhr-cfw is a Python-based Domain-Fronting Relay designed to bypass network censorship and surveillance by routing traffic through seemingly legitimate services. It acts as a relay, forwarding your internet requests through Google Apps Script (GAS) to Cloudflare Workers. This technique masks the true destination of your traffic, making it appear as though you are accessing a common cloud service rather than a blocked website or application. The project is freely available on GitHub.",
+    "category": "Developer",
+    "whyItIsUseful": "In an era of increasing internet restrictions and monitoring, mhr-cfw offers a vital tool for maintaining digital freedom and privacy. Its clever use of domain fronting, routing traffic through widely recognized services like Google Apps Script and Cloudflare Workers, makes it exceptionally difficult for censors to detect and block the actual destination. This is crucial for individuals in restrictive regimes, journalists, activists, and anyone concerned about their online anonymity. By obfuscating traffic patterns, it allows for more open access to information and communication channels that might otherwise be inaccessible. The underlying Python code also makes it an interesting project for developers interested in network security and privacy techniques, offering a practical example of advanced circumvention strategies.",
+    "imageIdea": "network traffic obfuscation diagram",
+    "websiteLink": "https://github.com/denuitt1/mhr-cfw",
+    "type": "tool",
+    "dateAdded": "2026-05-06"
+  },
+  {
+    "id": 803,
+    "slug": "copy-fail-cve-2026-31431-linux-kernel-lpe",
+    "toolName": "copy-fail-CVE-2026-31431",
+    "seoTitle": "copy-fail-CVE-2026-31431 — Linux Kernel LPE",
+    "whatItDoes": "copy-fail-CVE-2026-31431 is a demonstration and proof-of-concept project detailing a critical Local Privilege Escalation (LPE) vulnerability discovered in the Linux kernel. This vulnerability, identified by Theori's Xint Code, exploits a flaw that has existed for approximately nine years. The project provides the necessary code and explanations for security researchers and system administrators to understand, reproduce, and potentially mitigate this significant security risk. It is hosted on GitHub and written in Python.",
+    "category": "Developer",
+    "whyItIsUseful": "For cybersecurity professionals and system administrators, copy-fail-CVE-2026-31431 is an indispensable resource for understanding and defending against a long-standing and critical Linux kernel vulnerability. The availability of a working proof-of-concept allows for practical testing and verification of the exploit's behavior, which is crucial for developing effective patches and defensive measures. By shedding light on such deep-seated issues, it encourages proactive security practices and highlights the importance of continuous kernel auditing. This tool empowers security teams to assess their systems' exposure and implement necessary updates or workarounds, thereby significantly reducing the risk of unauthorized access and data breaches. Its existence contributes to a more robust and secure Linux ecosystem.",
+    "imageIdea": "abstract linux kernel exploit code",
+    "websiteLink": "https://github.com/theori-io/copy-fail-CVE-2026-31431",
+    "type": "tool",
+    "dateAdded": "2026-05-06"
+  },
+  {
+    "id": 804,
+    "slug": "react-developer-tools",
+    "toolName": "React Developer Tools",
+    "seoTitle": "React Developer Tools — Debug React applications",
+    "whatItDoes": "React Developer Tools is a browser extension for Chrome and Firefox that allows you to inspect and debug React component hierarchies, props, and state. It enables developers to efficiently identify performance bottlenecks, understand component relationships, and trace the flow of data within their React applications. This tool is an essential part of the React development workflow and is completely free to use.",
+    "category": "Developer",
+    "whyItIsUseful": "For any developer building applications with the React JavaScript library, React Developer Tools is indispensable. It provides unparalleled visibility into the virtual DOM, allowing for rapid troubleshooting and optimization. You can easily see how components are rendering, what props they are receiving, and what their internal state looks like at any given moment. This direct insight drastically reduces debugging time and helps in building more performant and robust applications. The ability to record performance profiles further aids in identifying and fixing slow-downs, making it a must-have for efficient React development.",
+    "imageIdea": "browser extension inspect panel showing component tree",
+    "websiteLink": "https://react.dev/learn/react-developer-tools",
+    "type": "tool",
+    "dateAdded": "2026-05-06"
+  },
+  {
+    "id": 805,
+    "slug": "readwise-read-it-later",
+    "toolName": "Readwise",
+    "seoTitle": "Readwise — Consolidate highlights and notes",
+    "whatItDoes": "Readwise is a popular service that consolidates your highlights and notes from various reading platforms like Kindle, Instapaper, Pocket, and even PDFs into a single, searchable database. It then resurfaces these highlights daily via email or its own app, helping you retain what you've learned. Readwise operates on a freemium model, offering a limited free trial before requiring a paid subscription.",
+    "category": "Productivity",
+    "whyItIsUseful": "In today's information-saturated world, retaining knowledge from the content we consume can be challenging. Readwise brilliantly solves this by acting as your personal knowledge reinforcement system. By intelligently resurfacing your highlights at spaced intervals, it combats the forgetting curve, making learning more effective and lasting. Its seamless integration with numerous reading apps means you don't have to manually export anything. This makes it an ideal tool for students, lifelong learners, and professionals who want to maximize the value derived from their reading. It transforms passive consumption into active learning, building a strong foundation of recalled information.",
+    "imageIdea": "digital journal displaying highlighted text from books",
+    "websiteLink": "https://readwise.io/",
+    "type": "tool",
+    "dateAdded": "2026-05-06"
   }
 ]

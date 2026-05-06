@@ -5,8 +5,48 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readwise</title>
+      <link>https://surfaced-x.pages.dev/item/readwise-read-it-later</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/readwise-read-it-later</guid>
+      <description>Readwise is a popular service that consolidates your highlights and notes from various reading platforms like Kindle, Instapaper, Pocket, and even PDFs into a single, searchable database. It then resurfaces these highlights daily via email or its own app, helping you retain what you&apos;ve learned. Readwise operates on a freemium model, offering a limited free trial before requiring a paid subscription.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>React Developer Tools</title>
+      <link>https://surfaced-x.pages.dev/item/react-developer-tools</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/react-developer-tools</guid>
+      <description>React Developer Tools is a browser extension for Chrome and Firefox that allows you to inspect and debug React component hierarchies, props, and state. It enables developers to efficiently identify performance bottlenecks, understand component relationships, and trace the flow of data within their React applications. This tool is an essential part of the React development workflow and is completely free to use.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>copy-fail-CVE-2026-31431</title>
+      <link>https://surfaced-x.pages.dev/item/copy-fail-cve-2026-31431-linux-kernel-lpe</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/copy-fail-cve-2026-31431-linux-kernel-lpe</guid>
+      <description>copy-fail-CVE-2026-31431 is a demonstration and proof-of-concept project detailing a critical Local Privilege Escalation (LPE) vulnerability discovered in the Linux kernel. This vulnerability, identified by Theori&apos;s Xint Code, exploits a flaw that has existed for approximately nine years. The project provides the necessary code and explanations for security researchers and system administrators to understand, reproduce, and potentially mitigate this significant security risk. It is hosted on GitHub and written in Python.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>mhr-cfw</title>
+      <link>https://surfaced-x.pages.dev/item/mhr-cfw-domain-fronting-relay</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mhr-cfw-domain-fronting-relay</guid>
+      <description>mhr-cfw is a Python-based Domain-Fronting Relay designed to bypass network censorship and surveillance by routing traffic through seemingly legitimate services. It acts as a relay, forwarding your internet requests through Google Apps Script (GAS) to Cloudflare Workers. This technique masks the true destination of your traffic, making it appear as though you are accessing a common cloud service rather than a blocked website or application. The project is freely available on GitHub.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>mike</title>
+      <link>https://surfaced-x.pages.dev/item/mike-oss-ai-legal-platform</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mike-oss-ai-legal-platform</guid>
+      <description>Mike is an open-source AI platform designed to democratize access to legal information and services. It leverages artificial intelligence to help users understand legal documents, generate legal text, and research legal precedents.  The platform aims to provide a free and accessible alternative for individuals and small businesses who might otherwise struggle with the cost and complexity of legal counsel. It offers features such as document summarization, contract analysis, and legal query answering, with a focus on clarity and user-friendliness.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Ruflo</title>
       <link>https://surfaced-x.pages.dev/item/ruflo</link>
@@ -360,52 +400,12 @@
       <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Cold Turkey Writer</title>
-      <link>https://surfaced-x.pages.dev/item/cold-turkey-writer-distraction-free-writing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cold-turkey-writer-distraction-free-writing</guid>
-      <description>Cold Turkey Writer, developed by Felix Systems, is an extreme distraction-blocking application designed to force users into a focus state for writing. Its core function is to provide an unyielding, full-screen writing environment that blocks access to the entire computer until a set word count or time duration is met. Users configure their writing goal, start the session, and are then locked into the minimalist editor until the goal is achieved. It is available on Windows and macOS. The most used feature is its uncompromising lock-down, preventing users from exiting the application or accessing other programs until their writing target is reached. Documents are saved locally to the user&apos;s computer.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Focus Booster</title>
-      <link>https://surfaced-x.pages.dev/item/focus-booster-pomodoro-time-tracker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/focus-booster-pomodoro-time-tracker</guid>
-      <description>Focus Booster, developed by the Focus Booster team, is a straightforward Pomodoro timer and time-tracking application specifically designed for freelancers and knowledge workers. Its core function is to help users manage their time more effectively by implementing the Pomodoro Technique and accurately tracking their work sessions for client billing and productivity analysis. Users can start Pomodoro sessions, take breaks, and automatically record the time spent on specific clients or projects. It is available on web, Mac, and Windows desktops. The most used feature is its simple one-click Pomodoro timer that automatically logs sessions against chosen clients. Data is securely synced to the cloud, providing access to detailed timesheets and reports across devices.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Things 3</title>
-      <link>https://surfaced-x.pages.dev/item/things-3-todo-list-manager-mac-ios</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/things-3-todo-list-manager-mac-ios</guid>
-      <description>Things 3, developed by Culture Code GmbH, is a highly acclaimed task manager designed for Apple&apos;s ecosystem, focusing on beautiful design and intuitive user experience. Its core function is to help users organize their thoughts, tasks, and projects into a clear, actionable system, enabling them to focus on what matters. Users can create projects, add individual tasks, set deadlines, and categorize items with tags, all within a streamlined interface. It works exclusively on iOS, iPadOS, and macOS. The most used feature is the &quot;Today&quot; view, which intelligently gathers all tasks and scheduled items that need attention now, simplifying daily focus. Data is synced securely and reliably across all Apple devices using Things Cloud.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Focus To-Do: Pomodoro Timer &amp; To-Do List</title>
-      <link>https://surfaced-x.pages.dev/item/focus-to-do-pomodoro-timer-tasklist</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/focus-to-do-pomodoro-timer-tasklist</guid>
-      <description>Focus To-Do, developed by Pomodoro &amp; To-Do List Labs, is a versatile productivity application that integrates a Pomodoro timer with a comprehensive to-do list and task manager. Its core function is to help users manage their time effectively by breaking down work into focused intervals, while simultaneously organizing and prioritizing their tasks. Users can create tasks, categorize them into projects, set reminders, and then apply the Pomodoro technique directly within the app to tackle them. It is available across web, iOS, Android, Mac, and Windows. The most used feature is the seamless integration of starting a Pomodoro timer directly from a task on the to-do list. Data is synced securely across all devices via cloud storage, ensuring consistency and accessibility.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rainy Mood</title>
-      <link>https://surfaced-x.pages.dev/item/rainy-mood-relaxing-rain-sound</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rainy-mood-relaxing-rain-sound</guid>
-      <description>Rainy Mood, created by the team at RainyMood.com, is an online ambient sound generator designed to help users relax, sleep, or focus by providing high-quality rain sounds. Its core function is to deliver a continuous, natural rain soundscape that can mask distracting noises and create a calming environment. The website features a simple interface where users can play, pause, and adjust the volume of the rain, often accompanied by optional background music. It primarily works on the web, with dedicated iOS and Android apps also available. The most used feature is its single, perfectly looped rain sound, which is praised for its realism and effectiveness. The tool operates locally through browser playback or app, with no user data handled.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Fontshare</title>
-      <link>https://surfaced-x.pages.dev/item/fontshare-font-collection</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fontshare-font-collection</guid>
-      <description>Fontshare is a distinguished, free-to-use font service created by Indian Type Foundry (ITF), a renowned type foundry, offering a meticulously curated collection of professional-grade fonts. Its core feature is providing a diverse library of over 300 unique font families, including advanced variable fonts and multiple weights, all available for complimentary download and web embedding without any licensing fees for both commercial and personal projects. The platform is primarily designed for graphic designers, web developers, content creators, and small businesses seeking high-quality, distinctive typography without the typical financial constraints of premium font licenses. Users can seamlessly integrate Fontshare into their creative workflow by browsing and previewing fonts on the website, then downloading desktop files (OTF/TTF) or generating web embed codes for direct use. The fonts are universally compatible with major design software like Adobe Creative Suite, Figma, and Sketch, as well as all modern web platforms.</description>
+      <title>Cloudflare Agents</title>
+      <link>https://surfaced-x.pages.dev/item/cloudflare-agents</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cloudflare-agents</guid>
+      <description>This Cloudflare blog post details the exciting advancement where agents can now autonomously create Cloudflare accounts, purchase domains, and deploy services. This signifies a significant leap in automation capabilities, allowing AI agents to perform complex infrastructure management tasks. By leveraging tools like Stripe for payments and deploying applications on Cloudflare&apos;s platform, these agents can essentially build and manage web presences from scratch. This technology is geared towards developers, DevOps engineers, and anyone interested in the future of AI-driven infrastructure and autonomous systems.</description>
       <category>Hidden Gems</category>
-      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
