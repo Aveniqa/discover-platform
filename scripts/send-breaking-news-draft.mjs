@@ -23,21 +23,35 @@ const API_RETRY_BASE_DELAY_MS = 1500;
 const API_RETRY_MAX_DELAY_MS = 12000;
 
 /**
+ * Hostname-bounded URL match. Avoids the substring-sanitization pitfall where
+ * `https://attacker.com/?fake=weather.gov`.includes("weather.gov") would be
+ * true. We require an exact hostname match or a proper subdomain (suffix
+ * preceded by a dot).
+ */
+function urlHostMatches(url, hostSuffix) {
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    const target = hostSuffix.toLowerCase();
+    return host === target || host.endsWith("." + target);
+  } catch {
+    return false;
+  }
+}
+
+/**
  * Weather alert detection — matches NWS-issued alerts based on source identity.
  * Source URL is the most reliable signal (api.weather.gov / weather.gov), with
- * sourceName + title heuristics as belt-and-braces.
+ * sourceName heuristics as belt-and-braces.
  */
 function isWeatherAlert(item) {
-  const sourceUrl = String(item.sourceUrl || "").toLowerCase();
-  if (sourceUrl.includes("weather.gov")) return true;
+  if (urlHostMatches(item.sourceUrl, "weather.gov")) return true;
   const sourceName = String(item.sourceName || "").toLowerCase();
   if (sourceName.includes("national weather service") || sourceName === "nws") return true;
   // Source-trail entries can also identify NWS even if the primary source
   // was rewritten by enrichment.
   for (const entry of item.sourceTrail || []) {
-    const url = String(entry?.url || "").toLowerCase();
+    if (urlHostMatches(entry?.url, "weather.gov")) return true;
     const name = String(entry?.name || entry?.label || "").toLowerCase();
-    if (url.includes("weather.gov")) return true;
     if (name.includes("national weather service")) return true;
   }
   return false;
