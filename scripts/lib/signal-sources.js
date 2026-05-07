@@ -293,8 +293,16 @@ async function getSeedsForCategory(category) {
       return [...show, ...hn].slice(0, 8);
     }
     case "daily-tools": {
-      const [gh, ph] = await Promise.all([fetchGitHubTrending({ limit: 6 }), fetchProductHunt({ limit: 4 })]);
-      return [...gh, ...ph].slice(0, 8);
+      // Widen the GitHub seed pool: more candidates (10 vs 6) over a longer
+      // window (30 vs 14 days) so daily generation has alternatives when the
+      // last week's trending repos are already covered. The 479-item dataset
+      // saturates common-tool space quickly, so a broader signal pool reduces
+      // the duplicate-skip rate and the resulting retry exhaustion.
+      const [gh, ph] = await Promise.all([
+        fetchGitHubTrending({ limit: 10, daysBack: 30 }),
+        fetchProductHunt({ limit: 4 }),
+      ]);
+      return [...gh, ...ph].slice(0, 12);
     }
     case "future-radar": {
       return fetchHackerNews({ limit: 6, minScore: 150 });
