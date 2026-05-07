@@ -2107,7 +2107,100 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "direct-ocean-alkalinity-enhancement",
+      "title": "direct-ocean-alkalinity-enhancement",
+      "category": "future-radar",
+      "imageUrl": "https://images.pexels.com/photos/37166127/pexels-photo-37166127.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Chemical solution being added to the ocean surface, creating ripples.",
+      "productUrl": "https://surfaced-x.pages.dev/item/direct-ocean-alkalinity-enhancement?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/direct-ocean-alkalinity-enhancement?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "sourceLink": "https://www.ebbcarbon.com/",
+      "platforms": {
+        "pinterest": {
+          "title": "Direct Ocean Alkalinity Enhancement: A Climate Solution?",
+          "description": "Could adding alkalinity directly to the ocean be a way to combat climate change? This method aims to increase the ocean's capacity to absorb CO2. Still early days, but fascinating to watch. Learn more about the science and potential impact. #ocean #climatechange #carboncapture #geoengineering",
+          "boardName": "Future Tech"
+        },
+        "bluesky": {
+          "text": "Is dumping alkalinity into the ocean the next big climate fix? It's a bold idea to boost CO2 absorption, but what are the real-world effects? Curiosity piqued.\n\n#futuretech #innovation"
+        },
+        "twitter": {
+          "text": "Direct Ocean Alkalinity Enhancement: A new approach to carbon capture. By increasing ocean alkalinity, the goal is to enhance CO2 absorption. Still experimental, but potentially impactful. What are your thoughts? 🤔 https://surfaced-x.pages.dev/item/direct-ocean-alkalinity-enhancement?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-07T15:17:56.108Z",
+      "publishedAt": "2026-05-07T15:17:57.415Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "open-design",
+      "title": "open-design",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/4909474/pexels-photo-4909474.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: open-design",
+      "productUrl": "https://surfaced-x.pages.dev/item/open-design?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/open-design?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "open-design",
+          "description": " https://surfaced-x.pages.dev/item/open-design?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post #surfaced #daily-tools",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "open-design — open-design is a cutting-edge, local-first, open-source tool designed to generate brand-grade design systems powered by AI. It leverages models like Claude Code and Codex to offer a powerful alternati\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/open-design?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-07T15:17:56.108Z",
+      "publishedAt": "2026-05-07T15:18:51.337Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "integrated-carbon-capture-cement",
+      "title": "integrated-carbon-capture-cement",
+      "category": "future-radar",
+      "imageUrl": "https://images.pexels.com/photos/37125625/pexels-photo-37125625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "A close-up of concrete with subtle green veins, symbolizing carbon capture.",
+      "productUrl": "https://surfaced-x.pages.dev/item/integrated-carbon-capture-cement?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/integrated-carbon-capture-cement?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Cement That Eats CO2? Revolutionary Building Material",
+          "description": "Imagine buildings that actively clean the air. This new cement integrates carbon capture directly into its production. It's not quite mass-market yet, but the implications for sustainable construction are huge. Could this be the future of building? #sustainablebuilding #carboncapture #greentech #constructiontech",
+          "boardName": "Future Tech"
+        },
+        "bluesky": {
+          "text": "This cement actually sucks CO2 out of the air as it's made. Mind. Blown. Still early days, but this could be a game-changer for reducing the carbon footprint of construction. Curious to see how it scales.\n\n#futuretech #innovation"
+        },
+        "twitter": {
+          "text": "Building materials that clean the air? This integrated carbon capture cement is a wild idea becoming reality. It pulls CO2 directly out of the atmosphere during production. Still has limitations for widespread use, but the potential is enormous. https://surfaced-x.pages.dev/item/integrated-carbon-capture-cement?utm_source=social&utm_medium=future-radar&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-07T15:17:56.108Z",
+      "publishedAt": "2026-05-07T15:19:34.252Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-05-06T18:04:48.926Z"
+  "lastGenerated": "2026-05-07T15:17:56.109Z"
 }
