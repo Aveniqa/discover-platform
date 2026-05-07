@@ -47,6 +47,13 @@ const REVIEW_TARGET_WORDS = 170;
 const API_RETRY_ATTEMPTS = 3;
 const API_RETRY_BASE_DELAY_MS = 5000;
 const API_RETRY_MAX_DELAY_MS = 45000;
+// Daily target per category. If retries exhaust without hitting TARGET_PER_CATEGORY,
+// publish what we have as long as it's at least MIN_PER_CATEGORY — the alternative
+// is the entire daily edition rolling back, which means no fresh content for any
+// category. Datasets are large enough (~480 items each) that a 3-or-4-item day
+// is a small dent vs. losing all five categories.
+const TARGET_PER_CATEGORY = 5;
+const MIN_PER_CATEGORY = 3;
 
 const BODY_FIELDS_BY_CATEGORY = {
   discoveries: ["shortDescription", "whyItIsInteresting"],
@@ -291,7 +298,15 @@ Requirements:
 
 async function generateItems(category, existingItems, count, seeds = []) {
   const existingSlugs = getExistingSlugs(existingItems);
-  const existingTitles = existingItems
+  // Send only the 100 most-recent existing titles to Gemini. Older items in
+  // archive/data are still enforced via the JS-side duplicate-name check below;
+  // this just prevents a 6KB+ token wall that the model down-weights anyway,
+  // and concentrates the "do not repeat" signal on the items most likely to
+  // collide with the model's regenerate-prone priors.
+  const recentExisting = [...existingItems]
+    .sort((a, b) => (b.id || 0) - (a.id || 0))
+    .slice(0, 100);
+  const existingTitles = recentExisting
     .map((i) => i.title || i.name || i.toolName || i.techName)
     .filter(Boolean)
     .join(", ");
@@ -403,7 +418,7 @@ ${formatSeeds(filteredSeeds)}
 
   const prompt = `${categoryPrompts[category]}
 ${seedBlock}
-EXISTING items to AVOID duplicating (these already exist): ${existingTitles}
+DO NOT propose any item whose name matches or closely resembles any of these — they are already published and will be rejected: ${existingTitles}
 
 Return EXACTLY ${count} items as a JSON array. Each item must match this exact schema:
 ${schemas[category]}
@@ -527,30 +542,39 @@ async function main() {
     console.log("Data files restored to pre-generation state.");
   };
 
+  const partialCategories = [];
   try {
     for (const [category, filename] of Object.entries(FILES)) {
-      console.log(`[${category}] Generating 5 new items...`);
+      console.log(`[${category}] Generating ${TARGET_PER_CATEGORY} new items...`);
       const existing = readJSON(filename);
       const seeds = await getSeedsForCategory(category);
       if (seeds.length) {
         console.log(`[${category}] Seeded with ${seeds.length} real trending items (${[...new Set(seeds.map((s) => s.source))].join(", ")})`);
       }
       const newItems = [];
-      for (let attempt = 1; newItems.length < 5 && attempt <= 5; attempt++) {
-        const needed = 5 - newItems.length;
+      for (let attempt = 1; newItems.length < TARGET_PER_CATEGORY && attempt <= 5; attempt++) {
+        const needed = TARGET_PER_CATEGORY - newItems.length;
         const seedsForAttempt = attempt === 1 ? seeds : [];
         if (attempt === 2 && seeds.length) {
           console.warn(`[${category}] Falling back to unseeded generation for remaining item(s).`);
         }
-        const requestCount = seedsForAttempt.length ? needed : 5;
+        const requestCount = seedsForAttempt.length ? needed : TARGET_PER_CATEGORY;
         const batch = await generateItems(category, [...existing, ...newItems], requestCount, seedsForAttempt);
         newItems.push(...batch.slice(0, needed));
-        if (newItems.length < 5) {
-          console.warn(`[${category}] ${newItems.length}/5 valid items after attempt ${attempt}; retrying for ${5 - newItems.length} item(s).`);
+        if (newItems.length < TARGET_PER_CATEGORY) {
+          console.warn(`[${category}] ${newItems.length}/${TARGET_PER_CATEGORY} valid items after attempt ${attempt}; retrying for ${TARGET_PER_CATEGORY - newItems.length} item(s).`);
         }
       }
-      if (newItems.length < 5) {
-        throw new Error(`[${category}] only generated ${newItems.length}/5 valid items with at least ${REVIEW_MIN_WORDS} body words`);
+      if (newItems.length < MIN_PER_CATEGORY) {
+        // Below floor — failure mode unchanged: throw, restore backups, alert.
+        throw new Error(`[${category}] only generated ${newItems.length}/${TARGET_PER_CATEGORY} valid items (floor is ${MIN_PER_CATEGORY}) with at least ${REVIEW_MIN_WORDS} body words`);
+      }
+      if (newItems.length < TARGET_PER_CATEGORY) {
+        // Between floor and target — accept partial run instead of failing the
+        // whole edition. This category is saturated for today; tomorrow's run
+        // will try again with rotated seeds.
+        partialCategories.push({ category, generated: newItems.length });
+        console.warn(`[${category}] ⚠ Accepting partial run: ${newItems.length}/${TARGET_PER_CATEGORY} valid items (≥${MIN_PER_CATEGORY} floor). Dataset will shrink by ${TARGET_PER_CATEGORY - newItems.length} item(s) this run.`);
       }
       console.log(
         `[${category}] Generated: ${newItems.map((i) => i.slug).join(", ")}`
@@ -568,6 +592,14 @@ async function main() {
     throw err;
   }
 
+  if (partialCategories.length > 0) {
+    console.log(
+      `⚠ ${partialCategories.length} categor${partialCategories.length === 1 ? "y" : "ies"} accepted with partial item counts:`,
+    );
+    for (const { category, generated } of partialCategories) {
+      console.log(`   - ${category}: ${generated}/${TARGET_PER_CATEGORY}`);
+    }
+  }
   console.log("✅ All categories updated.\n");
 
   try {
