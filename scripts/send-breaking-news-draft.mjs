@@ -12,9 +12,50 @@ const DRAFTS_FILE = join(AUTOMATED_DIR, "newsletter-drafts.json");
 const API_KEY = process.env.BUTTONDOWN_API_KEY;
 const BASE_URL = "https://surfaced-x.pages.dev";
 const MAJOR_STORY_THRESHOLD = Number(process.env.BREAKING_NEWS_THRESHOLD || 92);
+// NWS weather alerts routinely score >=92 (Tornado / Flash Flood / Severe
+// Thunderstorm / Red Flag / Extreme Heat / etc.) and were creating multiple
+// breaking-news drafts per day for events that don't fit Surfaced's
+// discovery/products/gems editorial voice. Filtered out by default; set
+// BREAKING_NEWS_ALLOW_WEATHER=true to re-enable.
+const ALLOW_WEATHER_DRAFTS = process.env.BREAKING_NEWS_ALLOW_WEATHER === "true";
 const API_RETRY_ATTEMPTS = 3;
 const API_RETRY_BASE_DELAY_MS = 1500;
 const API_RETRY_MAX_DELAY_MS = 12000;
+
+/**
+ * Hostname-bounded URL match. Avoids the substring-sanitization pitfall where
+ * `https://attacker.com/?fake=weather.gov`.includes("weather.gov") would be
+ * true. We require an exact hostname match or a proper subdomain (suffix
+ * preceded by a dot).
+ */
+function urlHostMatches(url, hostSuffix) {
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    const target = hostSuffix.toLowerCase();
+    return host === target || host.endsWith("." + target);
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Weather alert detection — matches NWS-issued alerts based on source identity.
+ * Source URL is the most reliable signal (api.weather.gov / weather.gov), with
+ * sourceName heuristics as belt-and-braces.
+ */
+function isWeatherAlert(item) {
+  if (urlHostMatches(item.sourceUrl, "weather.gov")) return true;
+  const sourceName = String(item.sourceName || "").toLowerCase();
+  if (sourceName.includes("national weather service") || sourceName === "nws") return true;
+  // Source-trail entries can also identify NWS even if the primary source
+  // was rewritten by enrichment.
+  for (const entry of item.sourceTrail || []) {
+    if (urlHostMatches(entry?.url, "weather.gov")) return true;
+    const name = String(entry?.name || entry?.label || "").toLowerCase();
+    if (name.includes("national weather service")) return true;
+  }
+  return false;
+}
 
 function readJson(path, fallback) {
   if (!existsSync(path)) return fallback;
@@ -96,9 +137,17 @@ function pickMajorStory() {
       sourceUrl: item.sourceUrl,
       sourceTrail: item.sourceTrail || [],
     }));
-  return [...events, ...trending]
-    .filter((item) => item.score >= MAJOR_STORY_THRESHOLD)
-    .sort((a, b) => b.score - a.score)[0] || null;
+  const candidates = [...events, ...trending].filter(
+    (item) => item.score >= MAJOR_STORY_THRESHOLD,
+  );
+  const filtered = ALLOW_WEATHER_DRAFTS
+    ? candidates
+    : candidates.filter((item) => !isWeatherAlert(item));
+  const skipped = candidates.length - filtered.length;
+  if (skipped > 0) {
+    console.log(`Filtered ${skipped} weather alert(s) from breaking-news draft pool. Set BREAKING_NEWS_ALLOW_WEATHER=true to allow.`);
+  }
+  return filtered.sort((a, b) => b.score - a.score)[0] || null;
 }
 
 function buildDraftHtml(story) {
