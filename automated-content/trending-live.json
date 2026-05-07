@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-07T04:07:33.704Z",
+  "generatedAt": "2026-05-07T08:48:49.692Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-225565bb6e400e7c505ee7b939fdc7c4c16d5ae5-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-ab63b1ddafb66ada7015ab4884dc20837f5de115-001-",
       "type": "current-event",
-      "title": "Flash Flood Warning issued May 6 at 8:43PM CDT until May 6 at 11:45PM CDT by NWS Birmingham...",
-      "summary": "FFWBMX The National Weather Service in Birmingham has issued a * Flash Flood Warning for... Southern Perry County in central Alabama... Central Dallas County in south central Alabama... Northern Marengo County in southwestern Alabama... Southern Greene County in west central Alabama... Southern Hale County in west...",
+      "title": "Red Flag Warning issued May 6 at 8:20PM EDT until May 7 at 8:00PM EDT by NWS Jacksonville...",
+      "summary": "...RED FLAG WARNING ON THURSDAY AFTERNOON AND EARLY EVENING FOR PORTIONS OF NORTHEAST AND NORTH CENTRAL FLORIDA... * AFFECTED AREA...In Florida, Inland Nassau, Inland Flagler, Coastal Nassau, Coastal Duval, Eastern Clay, Eastern Putnam, Coastal Flagler, Eastern Marion, Trout River, Western Clay, Northeast Coastal St....",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.225565bb6e400e7c505ee7b939fdc7c4c16d5ae5.001.1",
-      "detectedAt": "2026-05-07T04:07:33.704Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab63b1ddafb66ada7015ab4884dc20837f5de115.001.2",
+      "detectedAt": "2026-05-07T08:48:49.692Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,20 +26,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.225565bb6e400e7c505ee7b939fdc7c4c16d5ae5.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab63b1ddafb66ada7015ab4884dc20837f5de115.001.2",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-dccc438d8c3f72687b0dfc38b22adeb2b0df93c5-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-3b38021e4b2b8365056298eb7a4c547036203fd7-001-",
       "type": "current-event",
-      "title": "Flash Flood Warning issued May 6 at 9:09PM CDT until May 7 at 12:15AM CDT by NWS Birmingham...",
-      "summary": "FFWBMX The National Weather Service in Birmingham has issued a * Flash Flood Warning for... Central Autauga County in central Alabama... Southwestern Elmore County in east central Alabama... Northern Lowndes County in south central Alabama... Northern Montgomery County in south central Alabama... Northern Bullock...",
+      "title": "Flash Flood Warning issued May 7 at 2:02AM EDT until May 7 at 8:00AM EDT by NWS Peachtree...",
+      "summary": "FFWFFC The National Weather Service in Peachtree City has issued a * Flash Flood Warning for... Southern Harris County in west central Georgia... Northern Muscogee County in west central Georgia... * Until 800 AM EDT. * At 202 AM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area....",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dccc438d8c3f72687b0dfc38b22adeb2b0df93c5.001.1",
-      "detectedAt": "2026-05-07T04:07:33.704Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b38021e4b2b8365056298eb7a4c547036203fd7.001.1",
+      "detectedAt": "2026-05-07T08:48:49.692Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -52,20 +52,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dccc438d8c3f72687b0dfc38b22adeb2b0df93c5.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b38021e4b2b8365056298eb7a4c547036203fd7.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-cb37384147222f51a89efc7a46b22f4b87b07fa9-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-47d591c8c54ca19f99b346022c62a2a6b5cda85b-002-",
       "type": "current-event",
-      "title": "Flash Flood Warning issued May 6 at 9:34PM CDT until May 6 at 11:30PM CDT by NWS Jackson...",
-      "summary": "FFWJAN The National Weather Service in Jackson has issued a * Flash Flood Warning for... Northwestern Jefferson Davis County in south central Mississippi... Northeastern Lawrence County in south central Mississippi... Northwestern Covington County in southeastern Mississippi... * Until 1130 PM CDT. * At 934 PM CDT,...",
+      "title": "Tornado Watch issued May 7 at 2:58AM EDT until May 7 at 10:00AM EDT by NWS Tallahassee FL",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 190 IN EFFECT UNTIL 9 AM CDT THIS MORNING FOR THE FOLLOWING AREAS THIS WATCH INCLUDES THE FOLLOWING ADJACENT COASTAL WATERS ST. ANDREWS BAY WATERWAYS",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb37384147222f51a89efc7a46b22f4b87b07fa9.001.1",
-      "detectedAt": "2026-05-07T04:07:33.704Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47d591c8c54ca19f99b346022c62a2a6b5cda85b.002.1",
+      "detectedAt": "2026-05-07T08:48:49.692Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -78,20 +78,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb37384147222f51a89efc7a46b22f4b87b07fa9.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47d591c8c54ca19f99b346022c62a2a6b5cda85b.002.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-0aa0d8180e8a2f376534c8027b1f8d61dcbb370f-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-47d591c8c54ca19f99b346022c62a2a6b5cda85b-001-",
       "type": "current-event",
-      "title": "Flash Flood Warning issued May 6 at 10:03PM CDT until May 7 at 12:15AM CDT by NWS Jackson...",
-      "summary": "FFWJAN The National Weather Service in Jackson has issued a * Flash Flood Warning for... Northwestern Lawrence County in south central Mississippi... Central Lincoln County in south central Mississippi... Northeastern Franklin County in southwestern Mississippi... * Until 1215 AM CDT. * At 1003 PM CDT, Doppler radar...",
+      "title": "Tornado Watch issued May 7 at 2:58AM EDT until May 7 at 10:00AM EDT by NWS Tallahassee FL",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 190 IN EFFECT UNTIL 10 AM EDT /9 AM CDT/ THIS MORNING FOR THE FOLLOWING AREAS IN ALABAMA THIS WATCH INCLUDES 5 COUNTIES IN SOUTHEAST ALABAMA COFFEE DALE GENEVA HENRY HOUSTON IN FLORIDA THIS WATCH INCLUDES 13 COUNTIES IN BIG BEND FLORIDA FRANKLIN GADSDEN JEFFERSON...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0aa0d8180e8a2f376534c8027b1f8d61dcbb370f.001.1",
-      "detectedAt": "2026-05-07T04:07:33.704Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47d591c8c54ca19f99b346022c62a2a6b5cda85b.001.1",
+      "detectedAt": "2026-05-07T08:48:49.692Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -104,20 +104,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0aa0d8180e8a2f376534c8027b1f8d61dcbb370f.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47d591c8c54ca19f99b346022c62a2a6b5cda85b.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-6164b9f7d449e875f9a3c3f6c7c91242ae2a3a6f-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-9599dc014dba97f53702324c03b03f97f5cc6847-001-",
       "type": "current-event",
-      "title": "Flash Flood Warning issued May 6 at 10:09PM CDT until May 7 at 12:15AM CDT by NWS Jackson...",
-      "summary": "FFWJAN The National Weather Service in Jackson has issued a * Flash Flood Warning for... Northeastern Covington County in southeastern Mississippi... Northern Jones County in southeastern Mississippi... * Until 1215 AM CDT. * At 1009 PM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned...",
+      "title": "Severe Thunderstorm Warning issued May 7 at 3:39AM CDT until May 7 at 4:45AM CDT by NWS Jackson...",
+      "summary": "SVRJAN The National Weather Service in Jackson has issued a * Severe Thunderstorm Warning for... Northern Forrest County in southeastern Mississippi... Northeastern Lamar County in southeastern Mississippi... Southwestern Jones County in southeastern Mississippi... * Until 445 AM CDT. * At 338 AM CDT, a severe...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6164b9f7d449e875f9a3c3f6c7c91242ae2a3a6f.001.1",
-      "detectedAt": "2026-05-07T04:07:33.704Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9599dc014dba97f53702324c03b03f97f5cc6847.001.1",
+      "detectedAt": "2026-05-07T08:48:49.692Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -130,85 +130,85 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6164b9f7d449e875f9a3c3f6c7c91242ae2a3a6f.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9599dc014dba97f53702324c03b03f97f5cc6847.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-e692fbeece2392ff6266c868dc60a472271635e9-001-",
+      "id": "candidate-cpsc-26444",
       "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 6 at 10:43PM CDT until May 6 at 11:30PM CDT by NWS Mobile...",
-      "summary": "SVRMOB The National Weather Service in Mobile has issued a * Severe Thunderstorm Warning for... Southwestern Choctaw County in southwestern Alabama... Northeastern Wayne County in southeastern Mississippi... * Until 1130 PM CDT. * At 1043 PM CDT, a severe thunderstorm was located 10 miles southeast of Shubuta, or 10...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e692fbeece2392ff6266c868dc60a472271635e9.001.1",
-      "detectedAt": "2026-05-07T04:07:33.704Z",
-      "publishedAt": "2026-05-07",
+      "title": "Thermos Recalls 8.2 Million Stainless King Food Jars and Bottles Due to Serious Impact Injury and Laceration Hazards",
+      "summary": "Thermos Stainless King 3000 and 3020 Food Jars and Thermos Sportsman 3010 Food & Beverage Bottles: If perishable food or beverages are stored in the container for an extended period of time, the stopper can forcefully eject when opened, which can result in serious impact injury and laceration hazards to the consumer.",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards",
+      "detectedAt": "2026-05-07T08:48:49.692Z",
+      "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
           "role": "event-source"
         },
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e692fbeece2392ff6266c868dc60a472271635e9.001.1",
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-8a5c80f0cc2b32ef69d5424b37b7ffbb81076d8f-001-",
+      "id": "candidate-cpsc-26446",
       "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 6 at 10:55PM CDT until May 6 at 11:45PM CDT by NWS Mobile...",
-      "summary": "SVRMOB The National Weather Service in Mobile has issued a * Severe Thunderstorm Warning for... Southeastern Butler County in south central Alabama... Southern Crenshaw County in south central Alabama... * Until 1145 PM CDT. * At 1055 PM CDT, a severe thunderstorm was located near Georgiana, or 16 miles south of...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a5c80f0cc2b32ef69d5424b37b7ffbb81076d8f.001.1",
-      "detectedAt": "2026-05-07T04:07:33.704Z",
-      "publishedAt": "2026-05-07",
+      "title": "Segmart 4-Drawer Dressers Recalled Due to Risk of Serious Injury or Death from Tip-Over and Entrapment; Violate...",
+      "summary": "Segmart 4-Drawer Dressers: The recalled dressers are unstable if they are not anchored to the wall, posing tip-over and entrapment hazards that can result in risks of serious injuries or death to children. The dressers violate the mandatory safety standard as required by the STURDY Act.",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT",
+      "detectedAt": "2026-05-07T08:48:49.692Z",
+      "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
           "role": "event-source"
         },
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a5c80f0cc2b32ef69d5424b37b7ffbb81076d8f.001.1",
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-f0bcdcd3d98ab430cb9e35903ecf2952b8ebaf1f-002-",
+      "id": "candidate-cpsc-26450",
       "type": "current-event",
-      "title": "Tornado Watch issued May 6 at 10:58PM CDT until May 7 at 6:00AM CDT by NWS Mobile AL",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 189 UNTIL 6 AM CDT THURSDAY WHICH REPLACES A PORTION OF TORNADO WATCH 186. THE NEW WATCH IS VALID FOR THE FOLLOWING AREAS IN MISSISSIPPI THE NEW WATCH INCLUDES 3 COUNTIES IN SOUTHEAST MISSISSIPPI GREENE PERRY WAYNE THIS INCLUDES THE CITIES OF BEAUMONT,...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0bcdcd3d98ab430cb9e35903ecf2952b8ebaf1f.002.2",
-      "detectedAt": "2026-05-07T04:07:33.704Z",
-      "publishedAt": "2026-05-07",
+      "title": "Residential Elevators Recalls Elevator StrikeLock Hoistway Door Locking Device Due to Risk of Serious Injury or Death...",
+      "summary": "Residential Elevators StrikeLock Hoistway Door Locking Device: The elevator's StrikeLock hoistway door locking device can allow the elevator cab to move with a landing door open, posing a risk of serious injury or death due to fall and injury hazards.",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
+      "detectedAt": "2026-05-07T08:48:49.692Z",
+      "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
           "role": "event-source"
         },
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0bcdcd3d98ab430cb9e35903ecf2952b8ebaf1f.002.2",
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
           "role": "event-source"
         }
       ]
