@@ -9,6 +9,7 @@ import { SearchTrigger } from "@/components/ui/SearchModal";
 import { BookmarkCount } from "@/components/ui/BookmarkCount";
 import { SurpriseMe } from "@/components/ui/SurpriseMe";
 import { StreakWidget } from "@/components/ui/StreakWidget";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 /** Maps item type slugs (used in URL /item/…) to their parent nav paths */
 const typeToNavPath: Record<string, string> = {
@@ -152,6 +153,9 @@ export function Navbar() {
 
               {/* Bookmark Count */}
               <BookmarkCount />
+
+              {/* Theme Toggle */}
+              <ThemeToggle />
 
               {/* Mobile Menu Toggle */}
               <button
