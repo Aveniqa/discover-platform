@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-07T08:48:49.692Z",
+  "generatedAt": "2026-05-07T11:20:43.894Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-ab63b1ddafb66ada7015ab4884dc20837f5de115-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-84bb58d6d8d8691c00323df8846b1ecb8928e69b-001-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 6 at 8:20PM EDT until May 7 at 8:00PM EDT by NWS Jacksonville...",
-      "summary": "...RED FLAG WARNING ON THURSDAY AFTERNOON AND EARLY EVENING FOR PORTIONS OF NORTHEAST AND NORTH CENTRAL FLORIDA... * AFFECTED AREA...In Florida, Inland Nassau, Inland Flagler, Coastal Nassau, Coastal Duval, Eastern Clay, Eastern Putnam, Coastal Flagler, Eastern Marion, Trout River, Western Clay, Northeast Coastal St....",
+      "title": "Severe Thunderstorm Warning issued May 7 at 6:05AM CDT until May 7 at 7:15AM CDT by NWS Tallahassee...",
+      "summary": "SVRTAE The National Weather Service in Tallahassee has issued a * Severe Thunderstorm Warning for... Western Dale County in southeastern Alabama... Coffee County in southeastern Alabama... * Until 715 AM CDT. * At 605 AM CDT, severe thunderstorms were located along a line extending from 7 miles west of Ariton to...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab63b1ddafb66ada7015ab4884dc20837f5de115.001.2",
-      "detectedAt": "2026-05-07T08:48:49.692Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84bb58d6d8d8691c00323df8846b1ecb8928e69b.001.1",
+      "detectedAt": "2026-05-07T11:20:43.894Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,111 +26,7 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab63b1ddafb66ada7015ab4884dc20837f5de115.001.2",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-3b38021e4b2b8365056298eb7a4c547036203fd7-001-",
-      "type": "current-event",
-      "title": "Flash Flood Warning issued May 7 at 2:02AM EDT until May 7 at 8:00AM EDT by NWS Peachtree...",
-      "summary": "FFWFFC The National Weather Service in Peachtree City has issued a * Flash Flood Warning for... Southern Harris County in west central Georgia... Northern Muscogee County in west central Georgia... * Until 800 AM EDT. * At 202 AM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area....",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b38021e4b2b8365056298eb7a4c547036203fd7.001.1",
-      "detectedAt": "2026-05-07T08:48:49.692Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b38021e4b2b8365056298eb7a4c547036203fd7.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-47d591c8c54ca19f99b346022c62a2a6b5cda85b-002-",
-      "type": "current-event",
-      "title": "Tornado Watch issued May 7 at 2:58AM EDT until May 7 at 10:00AM EDT by NWS Tallahassee FL",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 190 IN EFFECT UNTIL 9 AM CDT THIS MORNING FOR THE FOLLOWING AREAS THIS WATCH INCLUDES THE FOLLOWING ADJACENT COASTAL WATERS ST. ANDREWS BAY WATERWAYS",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47d591c8c54ca19f99b346022c62a2a6b5cda85b.002.1",
-      "detectedAt": "2026-05-07T08:48:49.692Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47d591c8c54ca19f99b346022c62a2a6b5cda85b.002.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-47d591c8c54ca19f99b346022c62a2a6b5cda85b-001-",
-      "type": "current-event",
-      "title": "Tornado Watch issued May 7 at 2:58AM EDT until May 7 at 10:00AM EDT by NWS Tallahassee FL",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 190 IN EFFECT UNTIL 10 AM EDT /9 AM CDT/ THIS MORNING FOR THE FOLLOWING AREAS IN ALABAMA THIS WATCH INCLUDES 5 COUNTIES IN SOUTHEAST ALABAMA COFFEE DALE GENEVA HENRY HOUSTON IN FLORIDA THIS WATCH INCLUDES 13 COUNTIES IN BIG BEND FLORIDA FRANKLIN GADSDEN JEFFERSON...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47d591c8c54ca19f99b346022c62a2a6b5cda85b.001.1",
-      "detectedAt": "2026-05-07T08:48:49.692Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47d591c8c54ca19f99b346022c62a2a6b5cda85b.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-9599dc014dba97f53702324c03b03f97f5cc6847-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 7 at 3:39AM CDT until May 7 at 4:45AM CDT by NWS Jackson...",
-      "summary": "SVRJAN The National Weather Service in Jackson has issued a * Severe Thunderstorm Warning for... Northern Forrest County in southeastern Mississippi... Northeastern Lamar County in southeastern Mississippi... Southwestern Jones County in southeastern Mississippi... * Until 445 AM CDT. * At 338 AM CDT, a severe...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9599dc014dba97f53702324c03b03f97f5cc6847.001.1",
-      "detectedAt": "2026-05-07T08:48:49.692Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9599dc014dba97f53702324c03b03f97f5cc6847.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.84bb58d6d8d8691c00323df8846b1ecb8928e69b.001.1",
           "role": "event-source"
         }
       ]
@@ -143,7 +39,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards",
-      "detectedAt": "2026-05-07T08:48:49.692Z",
+      "detectedAt": "2026-05-07T11:20:43.894Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -169,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT",
-      "detectedAt": "2026-05-07T08:48:49.692Z",
+      "detectedAt": "2026-05-07T11:20:43.894Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -195,7 +91,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
-      "detectedAt": "2026-05-07T08:48:49.692Z",
+      "detectedAt": "2026-05-07T11:20:43.894Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -209,6 +105,110 @@
         {
           "name": "CPSC Recalls API",
           "url": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26454",
+      "type": "current-event",
+      "title": "Qumeney Bicycle Light Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory...",
+      "summary": "Qumeney Bicycle Light Sets: The recalled bicycle lights violate the mandatory standard for consumer products with button cell and coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the bicycle lights do not have the warnings...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
+      "detectedAt": "2026-05-07T11:20:43.894Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26452",
+      "type": "current-event",
+      "title": "Pressure Washers Recalled Due to Serious Risk of Injury or Death from Shock and Electrocution Hazards; Imported by...",
+      "summary": "DGIVOVO US Electric Pressure Washers: The recalled pressure washers lack an integral ground-fault circuit-interrupter (GFCI), posing a serious risk of injury or death from shock and electrocution hazards.",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US",
+      "detectedAt": "2026-05-07T11:20:43.894Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26447",
+      "type": "current-event",
+      "title": "Malker Bicycle Light Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion Hazard; Violates...",
+      "summary": "Malker Bicycle Light Sets: The recalled bicycle lights violate the mandatory standard for consumer products with button cell and coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the bicycle lights do not have the warnings...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect",
+      "detectedAt": "2026-05-07T11:20:43.894Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26451",
+      "type": "current-event",
+      "title": "Earthtec Pool Drain Covers Recalled Due to Risk of Serious Injury or Death from Entrapment and Drowning Hazards;...",
+      "summary": "Earthtec 7 3/8 Inch Pool Drain Covers: The recalled drain covers violate the entrapment protection standards of the Virginia Graeme Baker Pool and Spa Safety Act (VGBA), posing entrapment and drowning hazards to swimmers and bathers.",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Earthtec-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Manufactured-by-Tonyidea",
+      "detectedAt": "2026-05-07T11:20:43.894Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Earthtec-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Manufactured-by-Tonyidea",
           "role": "event-source"
         }
       ]
