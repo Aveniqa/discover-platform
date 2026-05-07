@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-07T15:05:53.246Z",
+  "generatedAt": "2026-05-07T17:05:55.568Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-54895357529d5b2b2dae7f0d2ff3c0ec0c0787cb-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-1594d883e8e81b2fa7909b9569363ff0261df08f-001-",
       "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 7 at 9:36AM CDT until May 7 at 10:15AM CDT by NWS Tallahassee...",
-      "summary": "SVRTAE The National Weather Service in Tallahassee has issued a * Severe Thunderstorm Warning for... Northern Walton County in the Panhandle of Florida... Holmes County in the Panhandle of Florida... North central Washington County in the Panhandle of Florida... * Until 1015 AM CDT. * At 935 AM CDT, a severe...",
+      "title": "Severe Thunderstorm Warning issued May 7 at 12:11PM EDT until May 7 at 1:15PM EDT by NWS Tallahassee...",
+      "summary": "SVRTAE The National Weather Service in Tallahassee has issued a * Severe Thunderstorm Warning for... Southeastern Jackson County in the Panhandle of Florida... Northeastern Calhoun County in the Panhandle of Florida... Gadsden County in Big Bend Florida... Northern Liberty County in Big Bend Florida... Southern...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.54895357529d5b2b2dae7f0d2ff3c0ec0c0787cb.001.1",
-      "detectedAt": "2026-05-07T15:05:53.246Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1594d883e8e81b2fa7909b9569363ff0261df08f.001.1",
+      "detectedAt": "2026-05-07T17:05:55.568Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,20 +26,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.54895357529d5b2b2dae7f0d2ff3c0ec0c0787cb.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1594d883e8e81b2fa7909b9569363ff0261df08f.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-bcdf70a47954a726b646512ca5be16a2b7349a2a-002-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-80d99452a688872778692d043e77eaa259aca24d-001-",
       "type": "current-event",
-      "title": "Tornado Watch issued May 7 at 9:50AM CDT until May 7 at 12:00PM CDT by NWS Mobile AL",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 191 IN EFFECT UNTIL NOON CDT TODAY FOR THE FOLLOWING AREAS THIS WATCH INCLUDES THE FOLLOWING ADJACENT COASTAL WATERS PERDIDO BAY PENSACOLA BAY SYSTEM WESTERN CHOCTAWHATCHEE BAY",
+      "title": "Air Quality Alert issued May 7 at 9:30AM MST by NWS Phoenix AZ",
+      "summary": "AQAPSR The Arizona Department of Environmental Quality (ADEQ) has issued an Ozone High Pollution Advisory for the Phoenix Metro Area on Thursday. This means that forecast weather conditions combined with existing ozone levels are expected to result in local maximum 8-hour ozone concentrations that pose a health risk....",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bcdf70a47954a726b646512ca5be16a2b7349a2a.002.1",
-      "detectedAt": "2026-05-07T15:05:53.246Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80d99452a688872778692d043e77eaa259aca24d.001.1",
+      "detectedAt": "2026-05-07T17:05:55.568Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -52,20 +52,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bcdf70a47954a726b646512ca5be16a2b7349a2a.002.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80d99452a688872778692d043e77eaa259aca24d.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-bcdf70a47954a726b646512ca5be16a2b7349a2a-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-a5b242a09d6e0c281738707e510da71c6dc72fce-001-",
       "type": "current-event",
-      "title": "Tornado Watch issued May 7 at 9:50AM CDT until May 7 at 12:00PM CDT by NWS Mobile AL",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED TORNADO WATCH 191 IN EFFECT UNTIL NOON CDT TODAY FOR THE FOLLOWING AREAS IN FLORIDA THIS WATCH INCLUDES 3 COUNTIES IN NORTHWEST FLORIDA ESCAMBIA OKALOOSA SANTA ROSA THIS INCLUDES THE CITIES OF BELLVIEW, BRENT, CRESTVIEW, DESTIN, EGLIN AFB, ENSLEY, FERRY PASS, FORT WALTON BEACH,...",
+      "title": "Severe Thunderstorm Warning issued May 7 at 12:54PM EDT until May 7 at 2:00PM EDT by NWS Tallahassee...",
+      "summary": "SVRTAE The National Weather Service in Tallahassee has issued a * Severe Thunderstorm Warning for... Eastern Gadsden County in Big Bend Florida... Northwestern Jefferson County in Big Bend Florida... Leon County in Big Bend Florida... Southeastern Decatur County in southwestern Georgia... Southern Grady County in...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bcdf70a47954a726b646512ca5be16a2b7349a2a.001.1",
-      "detectedAt": "2026-05-07T15:05:53.246Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5b242a09d6e0c281738707e510da71c6dc72fce.001.1",
+      "detectedAt": "2026-05-07T17:05:55.568Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -78,20 +78,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bcdf70a47954a726b646512ca5be16a2b7349a2a.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a5b242a09d6e0c281738707e510da71c6dc72fce.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-bb66f854573d6bc55d888d36344135c86c2a1350-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-b24e8826140154c70d0692741a5df5a4f3d23108-001-",
       "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 7 at 9:56AM CDT until May 7 at 10:45AM CDT by NWS Mobile...",
-      "summary": "SVRMOB The National Weather Service in Mobile has issued a * Severe Thunderstorm Warning for... Southeastern Baldwin County in southwestern Alabama... Southern Santa Rosa County in northwestern Florida... Southeastern Escambia County in northwestern Florida... * Until 1045 AM CDT. * At 956 AM CDT, a severe...",
+      "title": "Severe Thunderstorm Warning issued May 7 at 11:55AM CDT until May 7 at 12:30PM CDT by NWS San...",
+      "summary": "SVRSJT The National Weather Service in San Angelo has issued a * Severe Thunderstorm Warning for... Northeastern Schleicher County in west central Texas... * Until 1230 PM CDT. * At 1155 AM CDT, a severe thunderstorm was located near The Intersection Of Us-190 And Ranch Road 2084, or 9 miles east of Eldorado, moving...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb66f854573d6bc55d888d36344135c86c2a1350.001.1",
-      "detectedAt": "2026-05-07T15:05:53.246Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b24e8826140154c70d0692741a5df5a4f3d23108.001.1",
+      "detectedAt": "2026-05-07T17:05:55.568Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -104,33 +104,7 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bb66f854573d6bc55d888d36344135c86c2a1350.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-096dbffc8763dfe22be29cfd09e685292c1981c2-001-",
-      "type": "current-event",
-      "title": "Tornado Warning issued May 7 at 10:03AM CDT until May 7 at 10:30AM CDT by NWS Tallahassee FL",
-      "summary": "TORTAE The National Weather Service in Tallahassee has issued a * Tornado Warning for... Central Walton County in the Panhandle of Florida... Southwestern Holmes County in the Panhandle of Florida... Northwestern Washington County in the Panhandle of Florida... * Until 1030 AM CDT. * At 1002 AM CDT, a severe...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.096dbffc8763dfe22be29cfd09e685292c1981c2.001.1",
-      "detectedAt": "2026-05-07T15:05:53.246Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.096dbffc8763dfe22be29cfd09e685292c1981c2.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b24e8826140154c70d0692741a5df5a4f3d23108.001.1",
           "role": "event-source"
         }
       ]
@@ -143,7 +117,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards",
-      "detectedAt": "2026-05-07T15:05:53.246Z",
+      "detectedAt": "2026-05-07T17:05:55.568Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -169,7 +143,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT",
-      "detectedAt": "2026-05-07T15:05:53.246Z",
+      "detectedAt": "2026-05-07T17:05:55.568Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -195,7 +169,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
-      "detectedAt": "2026-05-07T15:05:53.246Z",
+      "detectedAt": "2026-05-07T17:05:55.568Z",
       "publishedAt": "2026-04-30",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -209,6 +183,32 @@
         {
           "name": "CPSC Recalls API",
           "url": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-cpsc-26454",
+      "type": "current-event",
+      "title": "Qumeney Bicycle Light Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory...",
+      "summary": "Qumeney Bicycle Light Sets: The recalled bicycle lights violate the mandatory standard for consumer products with button cell and coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the bicycle lights do not have the warnings...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
+      "detectedAt": "2026-05-07T17:05:55.568Z",
+      "publishedAt": "2026-04-30",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
           "role": "event-source"
         }
       ]
