@@ -108,9 +108,41 @@ export const monitoredCurrentEvents = rankCurrentEvents(
   allCurrentEvents.filter((event) => event.status === "active"),
 );
 
-export const currentEvents = monitoredCurrentEvents.filter(
+const homepageEligible = monitoredCurrentEvents.filter(
   (event) => getCurrentEventDiagnostics(event).homepageEligible,
 );
+
+/**
+ * Day-of-year (UTC) — gives us a deterministic 0..365 bucket that's stable
+ * across multiple builds on the same calendar day but rotates at midnight UTC.
+ * Used to cycle the homepage lead event through the homepage-eligible pool
+ * so readers don't see the same "Today's response guide" hero for two weeks
+ * in a row when several evergreen events are active simultaneously.
+ */
+function dayOfYearUTC(date = new Date()): number {
+  const start = Date.UTC(date.getUTCFullYear(), 0, 0);
+  const ms = Date.UTC(
+    date.getUTCFullYear(),
+    date.getUTCMonth(),
+    date.getUTCDate(),
+  ) - start;
+  return Math.floor(ms / 86_400_000);
+}
+
+/**
+ * Rotate the homepage-eligible events so the lead changes daily. Original
+ * priority order is preserved as the tie-breaker — items further down stay
+ * lower in the rotation. Build-time only; the static export freezes the
+ * order until the next build (daily-edition / trending-live workflows
+ * rebuild within hours of UTC midnight).
+ */
+function rotateForToday<T>(items: T[]): T[] {
+  if (items.length < 2) return items;
+  const offset = dayOfYearUTC() % items.length;
+  return [...items.slice(offset), ...items.slice(0, offset)];
+}
+
+export const currentEvents = rotateForToday(homepageEligible);
 
 export const leadCurrentEvent = currentEvents[0] ?? null;
 
