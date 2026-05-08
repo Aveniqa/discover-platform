@@ -1,214 +1,214 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-07T22:17:51.527Z",
+  "generatedAt": "2026-05-08T03:55:31.363Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-8d00ba5b4b01b17d2a4b70c80a9bb1304d30c93d-001-",
+      "id": "candidate-cpsc-26466",
       "type": "current-event",
-      "title": "Extreme Heat Watch issued May 7 at 11:47AM PDT until May 12 at 8:00PM PDT by NWS San...",
-      "summary": "* WHAT...Dangerously hot conditions with temperatures 104 to 109 degrees possible. * WHERE...Coachella Valley, San Diego County Deserts, and San Gorgonio Pass near Banning. * WHEN...From Sunday morning through Tuesday evening. * IMPACTS...Heat related illnesses increase significantly during extreme heat events. *...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d00ba5b4b01b17d2a4b70c80a9bb1304d30c93d.001.1",
-      "detectedAt": "2026-05-07T22:17:51.527Z",
+      "title": "ZMC Group Recalls Multiple Light Up Toys Due to Risk of Serious Injury or Death from Battery Ingestion;...",
+      "summary": "Various Battery-operated Light Up Toys: The recalled toys violate the mandatory safety standard for children's toys because the toy contains button cell batteries that can be easily accessed by children. If button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, including...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
+      "detectedAt": "2026-05-08T03:55:31.363Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
           "role": "event-source"
         },
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d00ba5b4b01b17d2a4b70c80a9bb1304d30c93d.001.1",
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-94748f61bb377a611872e8095accf40884765572-001-",
+      "id": "candidate-cpsc-26468",
       "type": "current-event",
-      "title": "Extreme Heat Watch issued May 7 at 12:36PM PDT until May 11 at 8:00PM PDT by NWS Phoenix...",
-      "summary": "* WHAT...Dangerously hot conditions possible. Afternoon temperatures 105 to 112 degrees. Major Heat Risk. * WHERE...Western Imperial County and Salton Sea. * WHEN...From Sunday morning through Monday evening. * IMPACTS...Heat related illnesses increase significantly during extreme heat events. Overexposure can cause...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.94748f61bb377a611872e8095accf40884765572.001.1",
-      "detectedAt": "2026-05-07T22:17:51.527Z",
+      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
+      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
+      "detectedAt": "2026-05-08T03:55:31.363Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
           "role": "event-source"
         },
         {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.94748f61bb377a611872e8095accf40884765572.001.1",
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-cpsc-26444",
+      "id": "candidate-cpsc-26472",
       "type": "current-event",
-      "title": "Thermos Recalls 8.2 Million Stainless King Food Jars and Bottles Due to Serious Impact Injury and Laceration Hazards",
-      "summary": "Thermos Stainless King 3000 and 3020 Food Jars and Thermos Sportsman 3010 Food & Beverage Bottles: If perishable food or beverages are stored in the container for an extended period of time, the stopper can forcefully eject when opened, which can result in serious impact injury and laceration hazards to the consumer.",
+      "title": "Rainbow Wall Toys Recalled Due to Risk of Serious Injury or Death from Choking Hazard; Violate Mandatory Standard...",
+      "summary": "Justforjoyful Rainbow Wall Toys: The recalled toys violate the mandatory safety standard for children's toys because the drumstick that is attached to the xylophone component has a spherical end that can pose a choking hazard.",
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards",
-      "detectedAt": "2026-05-07T22:17:51.527Z",
-      "publishedAt": "2026-04-30",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Rainbow-Wall-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Mandatory-Standard-for-Childrens-Toys-Sold-on-Amazon-by-Justforjoyful",
+      "detectedAt": "2026-05-08T03:55:31.363Z",
+      "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
           "role": "event-source"
         },
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards",
+          "url": "https://www.cpsc.gov/Recalls/2026/Rainbow-Wall-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Mandatory-Standard-for-Childrens-Toys-Sold-on-Amazon-by-Justforjoyful",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-cpsc-26446",
+      "id": "candidate-cpsc-26469",
       "type": "current-event",
-      "title": "Segmart 4-Drawer Dressers Recalled Due to Risk of Serious Injury or Death from Tip-Over and Entrapment; Violate...",
-      "summary": "Segmart 4-Drawer Dressers: The recalled dressers are unstable if they are not anchored to the wall, posing tip-over and entrapment hazards that can result in risks of serious injuries or death to children. The dressers violate the mandatory safety standard as required by the STURDY Act.",
+      "title": "Natural Pigments Recalls Rublev Colours Gum Turpentine and Mineral Spirits Bottles Due to Risk of Serious Injury or...",
+      "summary": "Rublev Colours Gum Turpentine and Mineral Spirits Bottles: The gum turpentine and mineral spirits contain turpentine and low-viscosity hydrocarbons, respectively, which must be in child-resistant packaging, as required by the Poison Prevention Packaging Act. The bottles are not child-resistant, posing a risk of...",
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT",
-      "detectedAt": "2026-05-07T22:17:51.527Z",
-      "publishedAt": "2026-04-30",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Natural-Pigments-Recalls-Rublev-Colours-Gum-Turpentine-and-Mineral-Spirits-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
+      "detectedAt": "2026-05-08T03:55:31.363Z",
+      "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
           "role": "event-source"
         },
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT",
+          "url": "https://www.cpsc.gov/Recalls/2026/Natural-Pigments-Recalls-Rublev-Colours-Gum-Turpentine-and-Mineral-Spirits-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-cpsc-26450",
+      "id": "candidate-cpsc-26470",
       "type": "current-event",
-      "title": "Residential Elevators Recalls Elevator StrikeLock Hoistway Door Locking Device Due to Risk of Serious Injury or Death...",
-      "summary": "Residential Elevators StrikeLock Hoistway Door Locking Device: The elevator's StrikeLock hoistway door locking device can allow the elevator cab to move with a landing door open, posing a risk of serious injury or death due to fall and injury hazards.",
+      "title": "Multi-Purpose Helmets Recalled Due to Risk of Serious Injury or Death from Head Injury; Violates Mandatory Standard...",
+      "summary": "Multi-Purpose Helmets: The recalled helmets violate the mandatory safety standard for bicycle helmets because the helmets do not comply with the positional stability and certification requirements. The helmets can fail to protect the user in the event of a crash, posing a serious risk of injury or death due to head...",
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
-      "detectedAt": "2026-05-07T22:17:51.527Z",
-      "publishedAt": "2026-04-30",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Multi-Purpose-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Temu-by-Foubeaka-and-Geniuss",
+      "detectedAt": "2026-05-08T03:55:31.363Z",
+      "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
           "role": "event-source"
         },
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards",
+          "url": "https://www.cpsc.gov/Recalls/2026/Multi-Purpose-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Temu-by-Foubeaka-and-Geniuss",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-cpsc-26454",
+      "id": "candidate-cpsc-26467",
       "type": "current-event",
-      "title": "Qumeney Bicycle Light Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion; Violates Mandatory...",
-      "summary": "Qumeney Bicycle Light Sets: The recalled bicycle lights violate the mandatory standard for consumer products with button cell and coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the bicycle lights do not have the warnings...",
+      "title": "Favoto Bicycle Helmets Recalled Due to Risk of Serious Head Injury; Violate Mandatory Standard for Bicycle Helmets;...",
+      "summary": "Favoto Bike Helmets: The recalled helmets violate the mandatory safety standard for bicycle helmets because they do not comply with the positional stability, labeling and certification requirements. The helmets can fail to protect the user in the event of a crash, posing a serious risk of injury or death due to head...",
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
-      "detectedAt": "2026-05-07T22:17:51.527Z",
-      "publishedAt": "2026-04-30",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Favoto-Bicycle-Helmets-Recalled-Due-to-Risk-of-Serious-Head-Injury-Violate-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Amazon-by-Favoto",
+      "detectedAt": "2026-05-08T03:55:31.363Z",
+      "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
           "role": "event-source"
         },
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus",
+          "url": "https://www.cpsc.gov/Recalls/2026/Favoto-Bicycle-Helmets-Recalled-Due-to-Risk-of-Serious-Head-Injury-Violate-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Amazon-by-Favoto",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-cpsc-26452",
+      "id": "candidate-cpsc-26478",
       "type": "current-event",
-      "title": "Pressure Washers Recalled Due to Serious Risk of Injury or Death from Shock and Electrocution Hazards; Imported by...",
-      "summary": "DGIVOVO US Electric Pressure Washers: The recalled pressure washers lack an integral ground-fault circuit-interrupter (GFCI), posing a serious risk of injury or death from shock and electrocution hazards.",
+      "title": "EVLWZL and Gunugu Mattresses Recalled Due to Risk of Serious Injury or Death from Fire Hazard; Violates Mandatory...",
+      "summary": "EVLWZL and Gunugu Mattresses: The mattresses violate the mandatory flammability standard for mattresses, posing a risk of serious injury or death from fire.",
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US",
-      "detectedAt": "2026-05-07T22:17:51.527Z",
-      "publishedAt": "2026-04-30",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/EVLWZL-and-Gunugu-Mattresses-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violates-Mandatory-Standard-for-Mattress-Flammability",
+      "detectedAt": "2026-05-08T03:55:31.363Z",
+      "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
           "role": "event-source"
         },
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US",
+          "url": "https://www.cpsc.gov/Recalls/2026/EVLWZL-and-Gunugu-Mattresses-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violates-Mandatory-Standard-for-Mattress-Flammability",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-cpsc-26447",
+      "id": "candidate-cpsc-26465",
       "type": "current-event",
-      "title": "Malker Bicycle Light Sets Recalled Due to Risk of Serious Injury or Death from Battery Ingestion Hazard; Violates...",
-      "summary": "Malker Bicycle Light Sets: The recalled bicycle lights violate the mandatory standard for consumer products with button cell and coin batteries because they contain button cell batteries that can be accessed easily by children, posing an ingestion hazard. Additionally, the bicycle lights do not have the warnings...",
+      "title": "EEMB USA Recalls Battery Pouches Due to Risk of Serious Injury or Death from Battery Ingestion; Violate Federal...",
+      "summary": "EEMB Lithium Battery Packs: The lithium coin batteries are in pouches that are not child-resistant as required under Reese's Law. If a child swallows button cell or coin batteries, the ingested batteries can cause serious injuries, including internal chemical burns and death.",
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect",
-      "detectedAt": "2026-05-07T22:17:51.527Z",
-      "publishedAt": "2026-04-30",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/EEMB-USA-Recalls-Battery-Pouches-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Federal-Statute-for-Child-Resistant-Packaging-of-Coin-Batteries",
+      "detectedAt": "2026-05-08T03:55:31.363Z",
+      "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-07",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
           "role": "event-source"
         },
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect",
+          "url": "https://www.cpsc.gov/Recalls/2026/EEMB-USA-Recalls-Battery-Pouches-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Federal-Statute-for-Child-Resistant-Packaging-of-Coin-Batteries",
           "role": "event-source"
         }
       ]
