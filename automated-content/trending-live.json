@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T10:50:11.715Z",
+  "generatedAt": "2026-05-08T14:18:31.566Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-181315af3281e9c2e71d506e3b369ef4a93dc52a-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-fb012763333b0b220bb58f0eb19009a9b91ea4c1-001-",
       "type": "current-event",
-      "title": "Extreme Heat Watch issued May 7 at 11:33PM MST until May 11 at 8:00PM MST by NWS Phoenix...",
-      "summary": "* WHAT...Dangerously hot conditions possible. Afternoon temperatures 104 to 110. Major Heat Risk. * WHERE...The Northwest Valley of the Phoenix Metro Area, The East Valley of the Phoenix Metro Area, Buckeye/Avondale, Deer Valley, Central Phoenix, North Phoenix/Glendale, Scottsdale/Paradise Valley, South...",
+      "title": "Red Flag Warning issued May 8 at 7:30AM CDT until May 8 at 6:00PM CDT by NWS Grand...",
+      "summary": "The National Weather Service in Grand Forks has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 1 PM this afternoon to 6 PM CDT this evening. * AFFECTED AREA...In Minnesota, Norman, Clay, Mahnomen, West Becker, East Becker, Wilkin, West Otter Tail, East Otter Tail, Wadena and...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.181315af3281e9c2e71d506e3b369ef4a93dc52a.001.1",
-      "detectedAt": "2026-05-08T10:50:11.715Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb012763333b0b220bb58f0eb19009a9b91ea4c1.001.1",
+      "detectedAt": "2026-05-08T14:18:31.566Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,20 +26,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.181315af3281e9c2e71d506e3b369ef4a93dc52a.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb012763333b0b220bb58f0eb19009a9b91ea4c1.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-87c317514430303da9579e9fc657e4218b7bfe58-002-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-9012b0261cf7185dfe30079eca3247f16317a4a5-001-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 8 at 2:58AM CDT until May 8 at 10:00PM CDT by NWS Bismarck...",
-      "summary": "...RED FLAG WARNINGS FOR FAR NORTHWEST AND PARTS OF SOUTH CENTRAL NORTH DAKOTA TODAY... .There are two separate areas of critical fire weather conditions expected late this morning through this evening. One includes the James River Valley and adjacent areas to the west, and the other is in far northwest North Dakota....",
+      "title": "Red Flag Warning issued May 8 at 7:31AM CDT until May 8 at 6:00PM CDT by NWS Twin...",
+      "summary": "...CRITICAL FIRE WEATHER CONDITIONS EXPECTED THIS AFTERNOON IN WESTERN, CENTRAL MINNESOTA... .Clearing skies and a deep mixing layer will promote increasing wind gusts heading into the afternoon, with gusts from 30-35mph expected from early afternoon to early evening. Relative humidity will be in the upper teens to...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87c317514430303da9579e9fc657e4218b7bfe58.002.2",
-      "detectedAt": "2026-05-08T10:50:11.715Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9012b0261cf7185dfe30079eca3247f16317a4a5.001.1",
+      "detectedAt": "2026-05-08T14:18:31.566Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -52,20 +52,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87c317514430303da9579e9fc657e4218b7bfe58.002.2",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9012b0261cf7185dfe30079eca3247f16317a4a5.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-87c317514430303da9579e9fc657e4218b7bfe58-003-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-57c045c58fc9318962713172d6bf393d94d22466-001-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 8 at 2:58AM CDT until May 8 at 8:00PM CDT by NWS Bismarck...",
-      "summary": "...RED FLAG WARNINGS FOR FAR NORTHWEST AND PARTS OF SOUTH CENTRAL NORTH DAKOTA TODAY... .There are two separate areas of critical fire weather conditions expected late this morning through this evening. One includes the James River Valley and adjacent areas to the west, and the other is in far northwest North Dakota....",
+      "title": "Red Flag Warning issued May 8 at 7:40AM CDT until May 8 at 6:00PM CDT by NWS Duluth...",
+      "summary": "...CRITICAL FIRE WEATHER CONDITIONS EXPECTED THIS AFTERNOON IN NORTH CENTRAL MINNESOTA... The National Weather Service in Duluth has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 1 PM this afternoon to 6 PM CDT this evening. * AFFECTED AREA...In Minnesota, South Cass and Crow...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87c317514430303da9579e9fc657e4218b7bfe58.003.1",
-      "detectedAt": "2026-05-08T10:50:11.715Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57c045c58fc9318962713172d6bf393d94d22466.001.1",
+      "detectedAt": "2026-05-08T14:18:31.566Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -78,20 +78,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87c317514430303da9579e9fc657e4218b7bfe58.003.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57c045c58fc9318962713172d6bf393d94d22466.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-7aac9b9d724dceb798d537b3e49da8ffe5062374-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-e497aa5167d6e0b3e649019c5d8b0c95a1f9f1e7-001-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 8 at 3:20AM CDT until May 8 at 8:00PM CDT by NWS Grand...",
-      "summary": "The National Weather Service in Grand Forks has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 11 AM this morning to 8 PM CDT this evening. * AFFECTED AREA...In North Dakota, Eddy, Griggs, Steele, Traill, Barnes, Cass, Ransom, Sargent and Richland. * WINDS...Northwest 20 to 30...",
+      "title": "Red Flag Warning issued May 8 at 7:59AM CDT until May 8 at 8:00PM CDT by NWS Aberdeen...",
+      "summary": "The National Weather Service in Aberdeen has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 1 PM this afternoon to 8 PM CDT this evening. * AFFECTED AREA...In Minnesota, Traverse and Big Stone. In South Dakota, Brown, Marshall, Roberts, Day, Spink, Clark, Codington, Grant,...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7aac9b9d724dceb798d537b3e49da8ffe5062374.001.1",
-      "detectedAt": "2026-05-08T10:50:11.715Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e497aa5167d6e0b3e649019c5d8b0c95a1f9f1e7.001.1",
+      "detectedAt": "2026-05-08T14:18:31.566Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -104,7 +104,59 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7aac9b9d724dceb798d537b3e49da8ffe5062374.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e497aa5167d6e0b3e649019c5d8b0c95a1f9f1e7.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-7b2abc27e5d760e5734fd1a3ea5159282ea05f4e-001-",
+      "type": "current-event",
+      "title": "Flash Flood Warning issued May 8 at 8:56AM CDT until May 8 at 3:00PM CDT by NWS Lake...",
+      "summary": "FFWLCH The National Weather Service in Lake Charles has issued a * Flash Flood Warning for... Avoyelles Parish in central Louisiana... Northern Evangeline Parish in central Louisiana... Rapides Parish in central Louisiana... Vernon Parish in west central Louisiana... * Until 300 PM CDT Friday. * At 856 AM CDT,...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b2abc27e5d760e5734fd1a3ea5159282ea05f4e.001.1",
+      "detectedAt": "2026-05-08T14:18:31.566Z",
+      "publishedAt": "2026-05-08",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b2abc27e5d760e5734fd1a3ea5159282ea05f4e.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-9b46e7e8a13dc81d1c648cba327f3ddee8ef1bdc-001-",
+      "type": "current-event",
+      "title": "Severe Thunderstorm Warning issued May 8 at 9:12AM CDT until May 8 at 10:00AM CDT by NWS New...",
+      "summary": "SVRLIX The National Weather Service in New Orleans has issued a * Severe Thunderstorm Warning for... East central West Feliciana Parish in southeastern Louisiana... Central East Feliciana Parish in southeastern Louisiana... * Until 1000 AM CDT. * At 912 AM CDT, a severe thunderstorm was located near St. Francisville,...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b46e7e8a13dc81d1c648cba327f3ddee8ef1bdc.001.1",
+      "detectedAt": "2026-05-08T14:18:31.566Z",
+      "publishedAt": "2026-05-08",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b46e7e8a13dc81d1c648cba327f3ddee8ef1bdc.001.1",
           "role": "event-source"
         }
       ]
@@ -117,7 +169,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-08T10:50:11.715Z",
+      "detectedAt": "2026-05-08T14:18:31.566Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -143,7 +195,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-      "detectedAt": "2026-05-08T10:50:11.715Z",
+      "detectedAt": "2026-05-08T14:18:31.566Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -157,58 +209,6 @@
         {
           "name": "CPSC Recalls API",
           "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26472",
-      "type": "current-event",
-      "title": "Rainbow Wall Toys Recalled Due to Risk of Serious Injury or Death from Choking Hazard; Violate Mandatory Standard...",
-      "summary": "Justforjoyful Rainbow Wall Toys: The recalled toys violate the mandatory safety standard for children's toys because the drumstick that is attached to the xylophone component has a spherical end that can pose a choking hazard.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Rainbow-Wall-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Mandatory-Standard-for-Childrens-Toys-Sold-on-Amazon-by-Justforjoyful",
-      "detectedAt": "2026-05-08T10:50:11.715Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Rainbow-Wall-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Mandatory-Standard-for-Childrens-Toys-Sold-on-Amazon-by-Justforjoyful",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26469",
-      "type": "current-event",
-      "title": "Natural Pigments Recalls Rublev Colours Gum Turpentine and Mineral Spirits Bottles Due to Risk of Serious Injury or...",
-      "summary": "Rublev Colours Gum Turpentine and Mineral Spirits Bottles: The gum turpentine and mineral spirits contain turpentine and low-viscosity hydrocarbons, respectively, which must be in child-resistant packaging, as required by the Poison Prevention Packaging Act. The bottles are not child-resistant, posing a risk of...",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Natural-Pigments-Recalls-Rublev-Colours-Gum-Turpentine-and-Mineral-Spirits-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
-      "detectedAt": "2026-05-08T10:50:11.715Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Natural-Pigments-Recalls-Rublev-Colours-Gum-Turpentine-and-Mineral-Spirits-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
           "role": "event-source"
         }
       ]
