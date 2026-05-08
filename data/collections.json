@@ -5,10 +5,6 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "crispr-cas9-gene-editing-breakthrough",
-      "bioluminescence-natures-living-light",
-      "oumuamua-the-first-interstellar-visitor",
-      "the-great-emu-war-when-australian-soldiers-declared-war-on-flightless-birds-and-lost",
       "the-immortal-jellyfish-a-tiny-marine-creature-that-can-revert-to-its-youthful-state",
       "sandwich-invented-by-earl-gaming-table",
       "first-image-of-supermassive-black-hole",
@@ -16,7 +12,11 @@
       "the-rosetta-stone-unlocking-secrets-ancient-egyptian-hieroglyphs",
       "earth-great-oxygenation-event-ancient-ecological-revolution",
       "magnetic-resonance-imaging-revolutionizing-medical-diagnostics-without-radiation",
-      "terracotta-army-qin-shi-huang"
+      "terracotta-army-qin-shi-huang",
+      "hydrothermal-vents-chemosynthesis",
+      "accidental-discovery-penicillin",
+      "rogue-planets-wander-universe-without-star",
+      "the-enigmatic-baghdad-battery-ancient-electrical-mystery"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "crispr-cas9-gene-editing-breakthrough",
-      "the-great-stink-of-london-revolutionized-sanitation",
-      "bioluminescence-natures-living-light",
-      "oumuamua-the-first-interstellar-visitor",
-      "the-great-emu-war-when-australian-soldiers-declared-war-on-flightless-birds-and-lost",
       "the-immortal-jellyfish-a-tiny-marine-creature-that-can-revert-to-its-youthful-state",
       "the-doomsday-vault-safeguarding-the-worlds-plant-diversity-deep-inside-an-arctic-mountain",
       "sandwich-invented-by-earl-gaming-table",
       "pangaea-ancient-supercontinent",
       "the-rosetta-stone-unlocking-secrets-ancient-egyptian-hieroglyphs",
       "earth-great-oxygenation-event-ancient-ecological-revolution",
-      "magnetic-resonance-imaging-revolutionizing-medical-diagnostics-without-radiation"
+      "magnetic-resonance-imaging-revolutionizing-medical-diagnostics-without-radiation",
+      "terracotta-army-qin-shi-huang",
+      "hydrothermal-vents-chemosynthesis",
+      "accidental-discovery-penicillin",
+      "rogue-planets-wander-universe-without-star",
+      "the-enigmatic-baghdad-battery-ancient-electrical-mystery"
     ]
   },
   {
@@ -68,15 +68,15 @@
       "apple-vision-pro",
       "tonal-intelligent-fitness-system",
       "sony-alpha-a7s-iii-mirrorless-camera",
-      "crispr-cas9-gene-editing-breakthrough",
-      "oumuamua-the-first-interstellar-visitor",
-      "the-great-emu-war-when-australian-soldiers-declared-war-on-flightless-birds-and-lost",
       "the-lost-legacy-of-the-great-library-of-alexandria",
       "the-accidental-echo-proof-of-the-big-bangs-fiery-afterglow",
       "gobekli-tepe-worlds-oldest-known-temple",
       "ancient-roman-hypocausts-ingenious-underfloor-heating",
       "the-dunning-kruger-effect",
-      "the-great-pacific-garbage-patch"
+      "the-great-pacific-garbage-patch",
+      "ancient-babylonian-astronomy-mathematics",
+      "titan-arum-corpse-flower",
+      "new-venus-atmosphere-gas-signal"
     ]
   },
   {
@@ -85,7 +85,6 @@
     "description": "Products and tools to help you feel your best during everyday routines.",
     "emoji": "💪",
     "itemSlugs": [
-      "the-great-stink-of-london-revolutionized-sanitation",
       "sandwich-invented-by-earl-gaming-table",
       "accidental-discovery-penicillin",
       "the-hum-mysterious-low-frequency-sound",
@@ -96,7 +95,8 @@
       "fungi-communicate-through-electrical-signals",
       "ancient-dna-reveals-ice-age-giants",
       "bacteria-that-eat-plastic-could-clean-oceans",
-      "arctic-permafrost-releases-ancient-viruses-potent-threat"
+      "arctic-permafrost-releases-ancient-viruses-potent-threat",
+      "global-marine-heatwaves-increased-twentyfold"
     ]
   }
 ]

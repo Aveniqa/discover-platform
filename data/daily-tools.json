@@ -1,65 +1,5 @@
 [
   {
-    "id": 112,
-    "slug": "toby",
-    "toolName": "Toby",
-    "whatItDoes": "Toby is a popular browser extension developed by Toby Technologies Inc., designed to help users organize, save, and manage their browser tabs into structured collections or workspaces. It primarily supports knowledge workers, researchers, and anyone dealing with numerous open tabs by enabling them to quickly save entire sessions, categorize tabs by project, and access them with a single click. Available as a browser extension for Google Chrome, Microsoft Edge, and Brave, it integrates directly into the browser's functionality. Its most utilized feature is the ability to drag and drop currently open tabs into named collections (e.g., \"Client X Research,\" \"Marketing Campaign 2024\") on a new tab page, instantly clearing tab clutter while preserving access. Toby stores your saved tab collections locally in your browser by default, with an optional cloud sync feature that allows you to access your organized tabs across multiple devices securely.",
-    "category": "Productivity",
-    "whyItIsUseful": "Toby eliminates \"tab overload\" – the common issue of having dozens of open tabs that slow down the browser, consume memory, and make it impossible to find critical information, leading to reduced productivity and digital fatigue. A researcher working on multiple papers can create separate Toby collections for each project, saving all relevant articles, databases, and resources, and instantly switch between research contexts without losing track. A web designer can organize tabs for different client websites, design inspirations, and coding references into distinct collections, ensuring all necessary resources are readily available for each project. Toby offers a free core version with essential tab organization features, while a paid \"Toby Pro\" subscription provides advanced functionalities like cloud sync, collaboration, and custom themes. It often surpasses native browser tab groups or simple bookmarking by providing a highly visual, drag-and-drop interface on a dedicated new tab page, making it far more intuitive and efficient for managing dynamic workspaces. Advanced users can share entire tab collections with colleagues, collaborate on shared workspaces, and integrate Toby with other tools via its API, enhancing team productivity and knowledge sharing. The learning curve is extremely low; its intuitive drag-and-drop interface and clear visual organization make it easy for anyone to start managing their tabs effectively within minutes.",
-    "imageIdea": "A stylized browser window showcasing organized tab collections, with distinct icons representing various projects or themes.",
-    "websiteLink": "https://www.gettoby.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 113,
-    "slug": "dynalist",
-    "toolName": "Dynalist",
-    "whatItDoes": "Dynalist is a powerful outliner and note-taking application developed by Dynalist, Inc., designed to organize thoughts, notes, and tasks in a deeply hierarchical and flexible list format. It supports workflows ranging from brainstorming and project planning to detailed note-taking and task management, allowing users to break down complex ideas into manageable, nested points. Available as a web application, desktop apps for Windows, macOS, and Linux, and mobile apps for iOS and Android, it ensures consistent access and synchronization across devices. Its most utilized feature is \"zooming\" into any item to focus solely on its sub-items, effectively creating an infinite canvas for detailing thoughts, such as drilling down from a \"Project Alpha\" item to its \"Phase 1 Tasks\" list. Dynalist securely stores user data, including outlines, notes, and attachments, in the cloud, offering robust backup and version history features to prevent data loss.",
-    "category": "Writing",
-    "whyItIsUseful": "Dynalist eliminates the cognitive overload and disorganization that comes with managing complex information, providing a structured yet flexible environment to capture, organize, and refine ideas without getting lost in details. A writer planning a novel can use Dynalist to outline plot points, character arcs, and chapter structures, zooming into each section to elaborate on scenes and dialogue without losing sight of the overall narrative. A software developer can manage project requirements, technical specifications, and bug lists in Dynalist, using nested items to break down complex features into actionable tasks and track progress. Dynalist offers a free basic version with core outlining features, while \"Dynalist Pro\" provides advanced functionalities like unlimited file attachments, version history, and Google Calendar integration for a monthly or annual fee. It often surpasses traditional note-taking apps like Evernote or simple to-do lists by offering an infinitely nestable, zoomable outlining structure that is superior for handling complex, hierarchical information and deeply interconnected ideas. Advanced users leverage its powerful search and tagging system, internal linking (`[[item name]]`), and markdown support to create interconnected knowledge bases, manage complex projects, and even build personal wikis. The learning curve is moderate; while basic outlining is straightforward, mastering its full potential for advanced organization, shortcuts, and custom workflows requires some dedicated exploration.",
-    "imageIdea": "A clean, minimalist interface displaying nested bullet points with some sections expanded or 'zoomed-in' to reveal deeper levels of detail.",
-    "websiteLink": "https://dynalist.io/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 114,
-    "slug": "eagle-app",
-    "toolName": "Eagle App",
-    "whatItDoes": "Eagle App, developed by Eagle App, is a robust digital asset management (DAM) tool specifically tailored for designers, artists, and creative professionals to collect, organize, and browse a vast array of creative assets. It supports a workflow where creatives gather inspiration, manage project-specific assets (e.g., UI kits, textures, fonts), and maintain a searchable library of completed works across various design disciplines. Available as a desktop application for macOS and Windows, Eagle provides a native and highly performant experience for managing large local asset libraries. Its most utilized feature is the intelligent tagging and powerful search engine, allowing a designer to instantly find, for example, \"blue UI icons\" or \"minimalist website layouts\" from a library containing tens of thousands of images and videos. Eagle stores all assets locally on the user's computer or network drive, giving users full control over their data, and only stores metadata within the application for organization and search, ensuring privacy.",
-    "category": "Design",
-    "whyItIsUseful": "Eagle eliminates the common pain points of disorganized creative assets – lost files, endless folder digging, and inability to quickly find inspiration – dramatically streamlining the workflow and saving countless hours for creative professionals. A UI/UX designer can use Eagle to collect screenshots of inspiring interfaces, save component libraries, and categorize iconography, allowing them to quickly pull relevant assets for new projects and maintain design consistency. An illustrator can store thousands of brush presets, texture packs, reference images, and their completed artworks in Eagle, leveraging its robust tagging and smart folders to rapidly locate specific styles or client projects. Eagle is a one-time purchase software, offering a perpetual license for a fixed fee, which includes lifetime updates, without recurring subscription costs. It significantly surpasses generic file managers or cloud storage solutions by offering specialized features like intelligent tagging, color-based search, advanced previewers for over 90 file types (including fonts, 3D models, and video), and instant browsing speed for massive local libraries. Advanced users can create \"Smart Folders\" that automatically categorize assets based on custom rules (e.g., all images with \"minimalist\" tag and \"blue\" color), and integrate with design tools via browser extensions for quick saving. The learning curve is moderate; while its interface is intuitive, mastering its powerful tagging, filtering, and smart folder features to build an efficient asset library requires some initial setup and exploration.",
-    "imageIdea": "A visually rich interface showcasing various design assets (e.g., mood boards, icons, fonts, patterns) neatly categorized and tagged, with a prominent search bar and filtering options.",
-    "websiteLink": "https://en.eagle.cool/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 115,
-    "slug": "online-stopwatch",
-    "toolName": "Online Stopwatch",
-    "whatItDoes": "Online Stopwatch is a free, web-based utility that offers a simple, accessible stopwatch, countdown timer, and alarm clock functionality directly within a web browser. It supports quick, on-demand time measurement workflows, whether for tracking productivity sessions, managing cooking times, or setting reminders for breaks or appointments. As a purely web-based tool, it is universally accessible from any device with a modern web browser, including desktops, laptops, tablets, and smartphones, without requiring any installation. Its most utilized feature is the \"Start/Stop\" functionality of the stopwatch, allowing users to precisely measure the duration of tasks, such as a 25-minute Pomodoro session or a 100-meter sprint. Online Stopwatch operates client-side and does not collect or store any personal user data or timing information, ensuring complete privacy and anonymity.",
-    "category": "Productivity",
-    "whyItIsUseful": "This tool eliminates the friction of needing a physical timer or launching a dedicated application for simple timing needs, solving the problem of immediate, hassle-free time management. A student can use the countdown timer to manage study blocks, setting a 45-minute timer for focused work followed by a 15-minute break, enhancing time management during exam preparation. A home cook can quickly set multiple alarm timers for different dishes simultaneously, ensuring various components of a meal are perfectly cooked and ready at the same time. Online Stopwatch is entirely free to use, supported primarily by non-intrusive advertisements displayed on the website. It often surpasses built-in operating system timers or mobile apps by offering immediate, no-install access from any browser, making it incredibly convenient for shared computers or quick, ad-hoc timing requirements. Advanced users can utilize specialized timers like \"Interval Timers\" for workouts, \"Egg Timers\" for specific cooking durations, or \"Presentation Timers\" with visual cues, expanding its utility beyond basic stopwatch functions. The learning curve is virtually non-existent; its straightforward interface with large, clear buttons makes it instantly usable for anyone, regardless of technical skill.",
-    "imageIdea": "A digital display showing '00:00:00' with prominent 'Start', 'Stop', and 'Reset' buttons, against a clean, minimal browser interface.",
-    "websiteLink": "https://www.online-stopwatch.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 116,
-    "slug": "eyeleo",
-    "toolName": "EyeLeo",
-    "whatItDoes": "EyeLeo is a free, open-source desktop application designed to prevent digital eye strain and promote eye health by reminding users to take regular breaks from their computer screens. It supports a health-conscious workflow by periodically interrupting computer usage with mandatory short micro-breaks and longer, more substantial breaks, optionally presenting eye exercises and relaxation tips. EyeLeo is available exclusively as a desktop application for Windows operating systems, integrating directly with the system to enforce breaks. Its most utilized feature is the enforced screen block during longer breaks, which darkens the screen for a set duration (e.g., 5 minutes every hour), compelling users to look away and rest their eyes or stand up. EyeLeo operates entirely locally on the user's computer and does not collect, store, or transmit any personal data, usage statistics, or screen activity, ensuring complete user privacy.",
-    "category": "Health",
-    "whyItIsUseful": "EyeLeo directly addresses the pervasive problem of digital eye strain, dry eyes, headaches, and the broader computer vision syndrome caused by prolonged, uninterrupted screen time, safeguarding users' long-term ocular health. An office worker spending 8+ hours daily in front of a monitor can rely on EyeLeo to gently enforce a 20-second micro-break every 10 minutes (using the 20-20-20 rule) and a 5-minute break every hour, reducing fatigue and improving focus. A gamer engaging in long sessions can use EyeLeo to ensure they take necessary breaks, preventing eye discomfort and maintaining visual acuity, which can even improve performance during extended play. EyeLeo is entirely free and open-source, available for download and use without any cost or subscription fees. It often surpasses simple timer apps by offering a more assertive \"screen blocking\" feature that truly enforces breaks, rather than just suggesting them, making it more effective at breaking unhealthy habits, and includes specific eye exercises. Advanced users can customize break durations, intervals, and the specific eye exercises displayed, or even set a \"Smart Pause\" feature that detects user inactivity and postpones breaks, ensuring minimal disruption during critical tasks. The learning curve is extremely low; after a quick installation, users can customize settings easily, and the application runs unobtrusively in the background, making it simple to adopt.",
-    "imageIdea": "A stylized eye icon with a small clock or timer overlay, superimposed on a blurred desktop screen background, indicating a break is due.",
-    "websiteLink": "https://eyeleo.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 117,
     "slug": "lorem-ipsum-generator",
     "toolName": "Lorem Ipsum Generator",
@@ -5740,5 +5680,57 @@
     "websiteLink": "https://readwise.io/",
     "type": "tool",
     "dateAdded": "2026-05-06"
+  },
+  {
+    "id": 806,
+    "slug": "design-md",
+    "toolName": "design.md",
+    "seoTitle": "design.md — visual identity to coding agents",
+    "whatItDoes": "DESIGN.md is a novel format specification designed to bridge the gap between visual design and code generation, particularly for AI agents. It provides a structured, persistent, and machine-readable way to define a visual identity and design system. This allows coding agents to understand and consistently apply brand guidelines, UI elements, and design principles to their output. The format aims to create a shared language for designers and AI developers, ensuring that AI-generated code accurately reflects intended visual aesthetics. It's currently an open specification with significant interest from the developer community.",
+    "category": "Developer",
+    "whyItIsUseful": "DESIGN.md is incredibly useful for teams looking to scale their design implementation through AI. It offers a standardized way to communicate complex visual identities to AI coding assistants, drastically reducing the manual effort and potential for inconsistencies in translating design concepts into code. For developers working with AI, it provides a clear, structured input that minimizes ambiguity, leading to faster and more accurate code generation that adheres to brand standards. This tool is particularly valuable for organizations with established design systems or those aiming to build AI-powered design tools. Its ambition is to become the de facto standard for AI-driven design communication.",
+    "imageIdea": "graphic designer laptop code interface",
+    "websiteLink": "https://github.com/google-labs-code/design.md",
+    "type": "tool",
+    "dateAdded": "2026-05-08"
+  },
+  {
+    "id": 807,
+    "slug": "daily-tool-grammarly-writing-assistant",
+    "toolName": "Grammarly",
+    "seoTitle": "Grammarly — AI Writing Assistant",
+    "whatItDoes": "Grammarly is an AI-powered writing assistant that helps users improve their writing by checking for grammar, spelling, punctuation, clarity, engagement, and delivery errors. It provides real-time suggestions and explanations to help users learn and become better writers. Grammarly offers a free version with essential checks and a premium subscription for advanced features like tone detection, style suggestions, and plagiarism detection. It integrates seamlessly with various platforms, including web browsers, email clients, and document editors.",
+    "category": "Writing",
+    "whyItIsUseful": "In today's digital communication landscape, clear and error-free writing is paramount, and Grammarly is an indispensable tool for achieving it. It acts as a personal editor, catching mistakes that might otherwise be overlooked, thus enhancing credibility and professionalism. The AI goes beyond basic spell-checking, offering insights into sentence structure, word choice, and even the emotional tone of your writing, which is crucial for effective communication. Its ubiquitous browser extension means it's always there to help, whether you're drafting an email, writing a social media post, or working on a critical document. Professionals, students, and anyone who communicates in writing will find Grammarly saves them time and significantly boosts the quality and impact of their message.",
+    "imageIdea": "writing keyboard computer screen",
+    "websiteLink": "https://www.grammarly.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-08"
+  },
+  {
+    "id": 808,
+    "slug": "google-keep-note-taking",
+    "toolName": "Google Keep",
+    "seoTitle": "Google Keep — Quick Notes App",
+    "whatItDoes": "Google Keep is a free, simple, and versatile note-taking application that allows users to quickly capture ideas, create to-do lists, record voice memos, and add images. Notes are organized using color-coding and labels, and they sync automatically across all devices signed into a Google account. It's designed for rapid capture and easy retrieval of information, making it ideal for everyday reminders and spontaneous thoughts. Google Keep's strength lies in its intuitive interface and seamless integration with the Google ecosystem.",
+    "category": "Productivity",
+    "whyItIsUseful": "Google Keep is a go-to tool for anyone needing a straightforward way to jot down quick thoughts, grocery lists, or reminders without the overhead of more complex note-taking applications. Its simplicity is its superpower; you can create a note in seconds and access it from any device, thanks to Google's reliable synchronization. The ability to set time-based or location-based reminders is incredibly useful for ensuring tasks aren't forgotten. Its color-coding system provides a visual way to categorize notes, and the ability to share notes with others makes it great for collaborative lists or quick project planning. For students, busy parents, or anyone who needs a reliable digital sticky note, Google Keep is an indispensable, no-fuss solution.",
+    "imageIdea": "sticky notes organized desk",
+    "websiteLink": "https://keep.google.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-08"
+  },
+  {
+    "id": 809,
+    "slug": "slack-communication-platform",
+    "toolName": "Slack",
+    "seoTitle": "Slack — Team Communication App",
+    "whatItDoes": "Slack is a widely used business communication platform that replaces email for internal team communication. It organizes conversations into channels based on projects, teams, or topics, allowing for more focused discussions and easier knowledge sharing. Slack supports direct messaging, voice and video calls, and integrates with a vast array of third-party applications, creating a centralized hub for workflow. It offers a free tier with limitations on message history and integrations, alongside paid plans for businesses requiring more robust features and support.",
+    "category": "Productivity",
+    "whyItIsUseful": "Slack fundamentally changes how teams collaborate by moving conversations out of cluttered email inboxes and into organized, searchable channels. This dramatically improves the speed and clarity of communication, ensuring everyone stays informed without missing crucial updates. Its integration capabilities are a major draw, allowing users to connect project management tools, file-sharing services, and other essential apps directly into Slack, creating a streamlined workflow. This reduces context switching and keeps all relevant information in one place. For remote teams, hybrid workforces, or even co-located teams looking to boost efficiency, Slack is invaluable. It fosters a sense of connection and transparency, making it easier for colleagues to ask questions, share progress, and work together effectively, saving countless hours lost to inefficient communication methods.",
+    "imageIdea": "team collaboration workspace chat",
+    "websiteLink": "https://slack.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-08"
   }
 ]

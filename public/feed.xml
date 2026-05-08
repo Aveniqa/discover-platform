@@ -5,8 +5,52 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slack</title>
+      <link>https://surfaced-x.pages.dev/item/slack-communication-platform</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/slack-communication-platform</guid>
+      <description>Slack is a widely used business communication platform that replaces email for internal team communication. It organizes conversations into channels based on projects, teams, or topics, allowing for more focused discussions and easier knowledge sharing. Slack supports direct messaging, voice and video calls, and integrates with a vast array of third-party applications, creating a centralized hub for workflow. It offers a free tier with limitations on message history and integrations, alongside paid plans for businesses requiring more robust features and support.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1690192079529-9fd57e5b24d0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTA4Mjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1690192079529-9fd57e5b24d0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTA4Mjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1690192079529-9fd57e5b24d0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTA4Mjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Google Keep</title>
+      <link>https://surfaced-x.pages.dev/item/google-keep-note-taking</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/google-keep-note-taking</guid>
+      <description>Google Keep is a free, simple, and versatile note-taking application that allows users to quickly capture ideas, create to-do lists, record voice memos, and add images. Notes are organized using color-coding and labels, and they sync automatically across all devices signed into a Google account. It&apos;s designed for rapid capture and easy retrieval of information, making it ideal for everyday reminders and spontaneous thoughts. Google Keep&apos;s strength lies in its intuitive interface and seamless integration with the Google ecosystem.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6991838/pexels-photo-6991838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6991838/pexels-photo-6991838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6991838/pexels-photo-6991838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Grammarly</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-grammarly-writing-assistant</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-grammarly-writing-assistant</guid>
+      <description>Grammarly is an AI-powered writing assistant that helps users improve their writing by checking for grammar, spelling, punctuation, clarity, engagement, and delivery errors. It provides real-time suggestions and explanations to help users learn and become better writers. Grammarly offers a free version with essential checks and a premium subscription for advanced features like tone detection, style suggestions, and plagiarism detection. It integrates seamlessly with various platforms, including web browsers, email clients, and document editors.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6405641/pexels-photo-6405641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6405641/pexels-photo-6405641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6405641/pexels-photo-6405641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>design.md</title>
+      <link>https://surfaced-x.pages.dev/item/design-md</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/design-md</guid>
+      <description>DESIGN.md is a novel format specification designed to bridge the gap between visual design and code generation, particularly for AI agents. It provides a structured, persistent, and machine-readable way to define a visual identity and design system. This allows coding agents to understand and consistently apply brand guidelines, UI elements, and design principles to their output. The format aims to create a shared language for designers and AI developers, ensuring that AI-generated code accurately reflects intended visual aesthetics. It&apos;s currently an open specification with significant interest from the developer community.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Readwise</title>
       <link>https://surfaced-x.pages.dev/item/readwise-read-it-later</link>
@@ -489,6 +533,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/5444631/pexels-photo-5444631.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Canvas Data Breach</title>
+      <link>https://surfaced-x.pages.dev/item/canvas-learning-management-system-data-breach</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/canvas-learning-management-system-data-breach</guid>
+      <description>This article from The Verge reports on a significant data breach affecting Canvas, a widely used learning management system (LMS) in educational institutions. The breach was attributed to a hacking group known as ShinyHunters, which threatened to leak sensitive student and staff data. The report details the potential implications for schools and universities using Canvas, including identity theft and privacy concerns. It outlines how the incident unfolded, the types of data potentially compromised, and the immediate responses from the involved parties. For example, the article might describe the scramble by affected institutions to notify their communities and implement enhanced security measures following the threat.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5380618/pexels-photo-5380618.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5380618/pexels-photo-5380618.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5380618/pexels-photo-5380618.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Carbon Diet Coach</title>
       <link>https://surfaced-x.pages.dev/item/carbon-diet-coach-macro-tracking</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/carbon-diet-coach-macro-tracking</guid>
@@ -498,61 +553,6 @@
       <enclosure url="https://images.pexels.com/photos/7947851/pexels-photo-7947851.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7947851/pexels-photo-7947851.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7947851/pexels-photo-7947851.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Allrecipes</title>
-      <link>https://surfaced-x.pages.dev/item/allrecipes-community-shared-recipes</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/allrecipes-community-shared-recipes</guid>
-      <description>Allrecipes, a Dotdash Meredith brand, is a massive community-driven online recipe platform featuring millions of recipes contributed and reviewed by home cooks worldwide. It allows users to search for recipes by ingredient, cuisine, meal type, or dietary need, offering detailed instructions, nutritional information, and user ratings. The platform is accessible via web, iOS, Android apps, and offers specific features for smart home devices. The most used feature is its robust search and filtering capabilities, coupled with genuine user reviews and photos. Recipe data, user profiles, and saved collections are stored in the cloud, enabling seamless access and personalized recipe suggestions.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/16675634/pexels-photo-16675634.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/16675634/pexels-photo-16675634.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/16675634/pexels-photo-16675634.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Tasty</title>
-      <link>https://surfaced-x.pages.dev/item/tasty-recipes-video-ideas</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tasty-recipes-video-ideas</guid>
-      <description>Tasty, created by BuzzFeed, is a popular digital food network and recipe app offering thousands of video-led recipes for home cooks. Users can browse diverse culinary categories, save favorites, and follow step-by-step video instructions to prepare meals from scratch. It&apos;s available on web, iOS, Android, and popular smart display devices like Google Nest Hub. Its most used feature is the short, overhead-view recipe videos that quickly demonstrate cooking processes. Recipe data and user preferences are synced to the cloud, allowing access across all devices and personalized recommendations.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6726611/pexels-photo-6726611.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6726611/pexels-photo-6726611.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6726611/pexels-photo-6726611.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Defonic: Relaxing Sounds</title>
-      <link>https://surfaced-x.pages.dev/item/defonic-custom-ambient-sound-mixer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/defonic-custom-ambient-sound-mixer</guid>
-      <description>Defonic, developed by the Defonic team, is an online ambient sound mixer designed to help users create personalized soundscapes for relaxation, focus, or sleep. Its core function is to allow users to combine various high-quality environmental sounds, such as rain, thunder, forest, coffee shop, and more, at customizable volumes. Users select from a diverse library of sounds, adjust their individual levels, and save their favorite mixes for future use. It primarily works on the web, with a straightforward and intuitive interface. The most used feature is the ability to mix multiple sounds simultaneously to create a unique and immersive auditory environment. Sound preferences are typically stored locally in the browser&apos;s cookies or session storage for quick recall.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/18466433/pexels-photo-18466433.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/18466433/pexels-photo-18466433.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/18466433/pexels-photo-18466433.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>LeechBlock NG</title>
-      <link>https://surfaced-x.pages.dev/item/leechblock-ng-firefox-site-blocker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/leechblock-ng-firefox-site-blocker</guid>
-      <description>LeechBlock NG, an open-source browser extension maintained by James Anderson, is designed to help Firefox users manage and reduce time spent on distracting websites. Its core function is to block or restrict access to specified sites during designated time periods or after a cumulative daily limit has been reached. Users can create multiple block sets with different rules, schedules, and duration limits, offering highly customizable control over their browsing habits. It works exclusively as a Firefox browser extension. The most used feature is its flexible scheduling, allowing users to define specific days and times for blocking. Block lists and settings are stored locally within the Firefox browser.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/16708226/pexels-photo-16708226.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/16708226/pexels-photo-16708226.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/16708226/pexels-photo-16708226.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Cloudflare Agents</title>
-      <link>https://surfaced-x.pages.dev/item/cloudflare-agents</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cloudflare-agents</guid>
-      <description>This Cloudflare blog post details the exciting advancement where agents can now autonomously create Cloudflare accounts, purchase domains, and deploy services. This signifies a significant leap in automation capabilities, allowing AI agents to perform complex infrastructure management tasks. By leveraging tools like Stripe for payments and deploying applications on Cloudflare&apos;s platform, these agents can essentially build and manage web presences from scratch. This technology is geared towards developers, DevOps engineers, and anyone interested in the future of AI-driven infrastructure and autonomous systems.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17489152/pexels-photo-17489152.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/17489152/pexels-photo-17489152.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/17489152/pexels-photo-17489152.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

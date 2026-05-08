@@ -1,46 +1,46 @@
 [
   {
-    "slug": "venus-phosphine-detection-re-evaluation",
-    "title": "Venus's Atmosphere: Phosphine Signal Re-evaluated",
+    "slug": "early-mars-had-vast-liquid-water-ocean",
+    "title": "Early Mars Had Vast Liquid Water Ocean",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "In 2020, astronomers announced the detection of phosphine in Venus's atmosphere, a gas that on Earth is strongly associa",
+    "description": "In 2015, NASA's Mars Atmosphere and Volatile Evolution (MAVEN) mission provided compelling evidence that early Mars, app",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "offsite-human-agent-teams",
-    "title": "Offsite: Build Teams of Humans and Agents",
+    "slug": "postiz",
+    "title": "Postiz",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "Offsite introduces a new paradigm for collaboration by enabling the creation of unified teams composed of both human emp",
+    "description": "Postiz is an agentic social media scheduler designed to work with personal AI agents like OpenClaw, Claude, and others. ",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "cloudflare-agents",
-    "title": "Cloudflare Agents",
+    "slug": "canvas-learning-management-system-data-breach",
+    "title": "Canvas Data Breach",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This Cloudflare blog post details the exciting advancement where agents can now autonomously create Cloudflare accounts,",
+    "description": "This article from The Verge reports on a significant data breach affecting Canvas, a widely used learning management sys",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "dnssec-disruption-de-domains",
-    "title": "DNSSEC Disruption and Resolution",
+    "slug": "compact-fusion-reactor-milestone",
+    "title": "Compact Fusion Reactor",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "This incident involved a significant disruption to DNS Security Extensions (DNSSEC) impacting the .de domain namespace. ",
+    "description": "Compact fusion reactors aim to replicate the sun's energy-generating process by fusing atomic nuclei, releasing vast amo",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "readwise-read-it-later",
-    "title": "Readwise",
+    "slug": "slack-communication-platform",
+    "title": "Slack",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Readwise is a popular service that consolidates your highlights and notes from various reading platforms like Kindle, In",
+    "description": "Slack is a widely used business communication platform that replaces email for internal team communication. It organizes",
     "badge": null,
     "type": "tool"
   }
