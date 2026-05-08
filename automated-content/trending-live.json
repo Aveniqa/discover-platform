@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T07:59:41.847Z",
+  "generatedAt": "2026-05-08T10:50:11.715Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
@@ -13,7 +13,7 @@
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
       "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.181315af3281e9c2e71d506e3b369ef4a93dc52a.001.1",
-      "detectedAt": "2026-05-08T07:59:41.847Z",
+      "detectedAt": "2026-05-08T10:50:11.715Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -32,32 +32,6 @@
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-87c317514430303da9579e9fc657e4218b7bfe58-003-",
-      "type": "current-event",
-      "title": "Red Flag Warning issued May 8 at 2:58AM CDT until May 8 at 8:00PM CDT by NWS Bismarck...",
-      "summary": "...RED FLAG WARNINGS FOR FAR NORTHWEST AND PARTS OF SOUTH CENTRAL NORTH DAKOTA TODAY... .There are two separate areas of critical fire weather conditions expected late this morning through this evening. One includes the James River Valley and adjacent areas to the west, and the other is in far northwest North Dakota....",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87c317514430303da9579e9fc657e4218b7bfe58.003.1",
-      "detectedAt": "2026-05-08T07:59:41.847Z",
-      "publishedAt": "2026-05-08",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87c317514430303da9579e9fc657e4218b7bfe58.003.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "candidate-nws-urn-oid-2-49-0-1-840-0-87c317514430303da9579e9fc657e4218b7bfe58-002-",
       "type": "current-event",
       "title": "Red Flag Warning issued May 8 at 2:58AM CDT until May 8 at 10:00PM CDT by NWS Bismarck...",
@@ -65,7 +39,7 @@
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
       "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87c317514430303da9579e9fc657e4218b7bfe58.002.2",
-      "detectedAt": "2026-05-08T07:59:41.847Z",
+      "detectedAt": "2026-05-08T10:50:11.715Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -84,6 +58,58 @@
       ]
     },
     {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-87c317514430303da9579e9fc657e4218b7bfe58-003-",
+      "type": "current-event",
+      "title": "Red Flag Warning issued May 8 at 2:58AM CDT until May 8 at 8:00PM CDT by NWS Bismarck...",
+      "summary": "...RED FLAG WARNINGS FOR FAR NORTHWEST AND PARTS OF SOUTH CENTRAL NORTH DAKOTA TODAY... .There are two separate areas of critical fire weather conditions expected late this morning through this evening. One includes the James River Valley and adjacent areas to the west, and the other is in far northwest North Dakota....",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87c317514430303da9579e9fc657e4218b7bfe58.003.1",
+      "detectedAt": "2026-05-08T10:50:11.715Z",
+      "publishedAt": "2026-05-08",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87c317514430303da9579e9fc657e4218b7bfe58.003.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-7aac9b9d724dceb798d537b3e49da8ffe5062374-001-",
+      "type": "current-event",
+      "title": "Red Flag Warning issued May 8 at 3:20AM CDT until May 8 at 8:00PM CDT by NWS Grand...",
+      "summary": "The National Weather Service in Grand Forks has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 11 AM this morning to 8 PM CDT this evening. * AFFECTED AREA...In North Dakota, Eddy, Griggs, Steele, Traill, Barnes, Cass, Ransom, Sargent and Richland. * WINDS...Northwest 20 to 30...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7aac9b9d724dceb798d537b3e49da8ffe5062374.001.1",
+      "detectedAt": "2026-05-08T10:50:11.715Z",
+      "publishedAt": "2026-05-08",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7aac9b9d724dceb798d537b3e49da8ffe5062374.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
       "id": "candidate-cpsc-26466",
       "type": "current-event",
       "title": "ZMC Group Recalls Multiple Light Up Toys Due to Risk of Serious Injury or Death from Battery Ingestion;...",
@@ -91,7 +117,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-08T07:59:41.847Z",
+      "detectedAt": "2026-05-08T10:50:11.715Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -117,7 +143,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-      "detectedAt": "2026-05-08T07:59:41.847Z",
+      "detectedAt": "2026-05-08T10:50:11.715Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -143,7 +169,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Rainbow-Wall-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Mandatory-Standard-for-Childrens-Toys-Sold-on-Amazon-by-Justforjoyful",
-      "detectedAt": "2026-05-08T07:59:41.847Z",
+      "detectedAt": "2026-05-08T10:50:11.715Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -169,7 +195,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Natural-Pigments-Recalls-Rublev-Colours-Gum-Turpentine-and-Mineral-Spirits-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
-      "detectedAt": "2026-05-08T07:59:41.847Z",
+      "detectedAt": "2026-05-08T10:50:11.715Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -183,32 +209,6 @@
         {
           "name": "CPSC Recalls API",
           "url": "https://www.cpsc.gov/Recalls/2026/Natural-Pigments-Recalls-Rublev-Colours-Gum-Turpentine-and-Mineral-Spirits-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-cpsc-26470",
-      "type": "current-event",
-      "title": "Multi-Purpose Helmets Recalled Due to Risk of Serious Injury or Death from Head Injury; Violates Mandatory Standard...",
-      "summary": "Multi-Purpose Helmets: The recalled helmets violate the mandatory safety standard for bicycle helmets because the helmets do not comply with the positional stability and certification requirements. The helmets can fail to protect the user in the event of a crash, posing a serious risk of injury or death due to head...",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Multi-Purpose-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Temu-by-Foubeaka-and-Geniuss",
-      "detectedAt": "2026-05-08T07:59:41.847Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Multi-Purpose-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Temu-by-Foubeaka-and-Geniuss",
           "role": "event-source"
         }
       ]
