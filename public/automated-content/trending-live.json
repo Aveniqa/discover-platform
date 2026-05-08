@@ -1,88 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T14:18:31.566Z",
+  "generatedAt": "2026-05-08T16:46:37.090Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-fb012763333b0b220bb58f0eb19009a9b91ea4c1-001-",
-      "type": "current-event",
-      "title": "Red Flag Warning issued May 8 at 7:30AM CDT until May 8 at 6:00PM CDT by NWS Grand...",
-      "summary": "The National Weather Service in Grand Forks has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 1 PM this afternoon to 6 PM CDT this evening. * AFFECTED AREA...In Minnesota, Norman, Clay, Mahnomen, West Becker, East Becker, Wilkin, West Otter Tail, East Otter Tail, Wadena and...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb012763333b0b220bb58f0eb19009a9b91ea4c1.001.1",
-      "detectedAt": "2026-05-08T14:18:31.566Z",
-      "publishedAt": "2026-05-08",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb012763333b0b220bb58f0eb19009a9b91ea4c1.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-9012b0261cf7185dfe30079eca3247f16317a4a5-001-",
-      "type": "current-event",
-      "title": "Red Flag Warning issued May 8 at 7:31AM CDT until May 8 at 6:00PM CDT by NWS Twin...",
-      "summary": "...CRITICAL FIRE WEATHER CONDITIONS EXPECTED THIS AFTERNOON IN WESTERN, CENTRAL MINNESOTA... .Clearing skies and a deep mixing layer will promote increasing wind gusts heading into the afternoon, with gusts from 30-35mph expected from early afternoon to early evening. Relative humidity will be in the upper teens to...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9012b0261cf7185dfe30079eca3247f16317a4a5.001.1",
-      "detectedAt": "2026-05-08T14:18:31.566Z",
-      "publishedAt": "2026-05-08",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9012b0261cf7185dfe30079eca3247f16317a4a5.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-57c045c58fc9318962713172d6bf393d94d22466-001-",
-      "type": "current-event",
-      "title": "Red Flag Warning issued May 8 at 7:40AM CDT until May 8 at 6:00PM CDT by NWS Duluth...",
-      "summary": "...CRITICAL FIRE WEATHER CONDITIONS EXPECTED THIS AFTERNOON IN NORTH CENTRAL MINNESOTA... The National Weather Service in Duluth has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 1 PM this afternoon to 6 PM CDT this evening. * AFFECTED AREA...In Minnesota, South Cass and Crow...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57c045c58fc9318962713172d6bf393d94d22466.001.1",
-      "detectedAt": "2026-05-08T14:18:31.566Z",
-      "publishedAt": "2026-05-08",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.57c045c58fc9318962713172d6bf393d94d22466.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
     {
       "id": "candidate-nws-urn-oid-2-49-0-1-840-0-e497aa5167d6e0b3e649019c5d8b0c95a1f9f1e7-001-",
       "type": "current-event",
@@ -91,7 +13,7 @@
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
       "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e497aa5167d6e0b3e649019c5d8b0c95a1f9f1e7.001.1",
-      "detectedAt": "2026-05-08T14:18:31.566Z",
+      "detectedAt": "2026-05-08T16:46:37.090Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -117,7 +39,7 @@
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
       "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7b2abc27e5d760e5734fd1a3ea5159282ea05f4e.001.1",
-      "detectedAt": "2026-05-08T14:18:31.566Z",
+      "detectedAt": "2026-05-08T16:46:37.090Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -136,32 +58,6 @@
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-9b46e7e8a13dc81d1c648cba327f3ddee8ef1bdc-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 8 at 9:12AM CDT until May 8 at 10:00AM CDT by NWS New...",
-      "summary": "SVRLIX The National Weather Service in New Orleans has issued a * Severe Thunderstorm Warning for... East central West Feliciana Parish in southeastern Louisiana... Central East Feliciana Parish in southeastern Louisiana... * Until 1000 AM CDT. * At 912 AM CDT, a severe thunderstorm was located near St. Francisville,...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b46e7e8a13dc81d1c648cba327f3ddee8ef1bdc.001.1",
-      "detectedAt": "2026-05-08T14:18:31.566Z",
-      "publishedAt": "2026-05-08",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9b46e7e8a13dc81d1c648cba327f3ddee8ef1bdc.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "candidate-cpsc-26466",
       "type": "current-event",
       "title": "ZMC Group Recalls Multiple Light Up Toys Due to Risk of Serious Injury or Death from Battery Ingestion;...",
@@ -169,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-08T14:18:31.566Z",
+      "detectedAt": "2026-05-08T16:46:37.090Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -188,28 +84,56 @@
       ]
     },
     {
-      "id": "candidate-cpsc-26468",
-      "type": "current-event",
-      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
-      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-      "detectedAt": "2026-05-08T14:18:31.566Z",
-      "publishedAt": "2026-05-07",
+      "id": "github-sindresorhus-awesome",
+      "type": "github-trending",
+      "title": "sindresorhus/awesome is trending on GitHub",
+      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,025 stars and recent pushes visible through the GitHub API.",
+      "topic": "github.software",
+      "sourceName": "GitHub API",
+      "sourceUrl": "https://github.com/sindresorhus/awesome",
+      "detectedAt": "2026-05-08T16:46:37.090Z",
+      "publishedAt": "2014-07-11",
       "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
+      "velocityLabel": "464,025 stars",
+      "ctaLabel": "Open repository",
+      "url": "https://github.com/sindresorhus/awesome",
       "sourceTrail": [
         {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
-          "role": "event-source"
+          "name": "GitHub repository",
+          "url": "https://github.com/sindresorhus/awesome",
+          "role": "signal"
         },
         {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-          "role": "event-source"
+          "name": "GitHub API search",
+          "url": "https://api.github.com/search/repositories",
+          "role": "signal"
+        }
+      ]
+    },
+    {
+      "id": "github-freecodecamp-freecodecamp",
+      "type": "github-trending",
+      "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,354 stars and recent pushes visible through the GitHub API.",
+      "topic": "github.typescript",
+      "sourceName": "GitHub API",
+      "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "detectedAt": "2026-05-08T16:46:37.090Z",
+      "publishedAt": "2014-12-24",
+      "score": 100,
+      "velocityLabel": "444,354 stars",
+      "ctaLabel": "Open repository",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "sourceTrail": [
+        {
+          "name": "GitHub repository",
+          "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+          "role": "signal"
+        },
+        {
+          "name": "GitHub API search",
+          "url": "https://api.github.com/search/repositories",
+          "role": "signal"
         }
       ]
     }
@@ -220,7 +144,8 @@
     "github returned 12 signal(s).",
     "gnews returned 0 signal(s).",
     "newsapi returned 0 signal(s).",
-    "8 signal(s) cleared the editorial threshold.",
+    "5 signal(s) cleared the editorial threshold.",
+    "21 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
     "0 near-threshold signal(s) kept as monitors."
   ]
 }
