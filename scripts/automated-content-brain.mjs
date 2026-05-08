@@ -362,6 +362,43 @@ function cleanForValidation(item) {
   };
 }
 
+function sourceHostKey(item) {
+  try {
+    return new URL(item.sourceUrl).hostname.toLowerCase().replace(/^www\./, "");
+  } catch {
+    return "unknown";
+  }
+}
+
+/**
+ * Apply diversity caps so the homepage Trending Live rail doesn't show six
+ * near-identical NWS Red Flag Warnings on a busy weather day. Items are
+ * already ranked by score (descending); we walk the list and skip anything
+ * that would push a host or type past its cap. Within a cap, the highest-
+ * scoring items still win.
+ */
+function diversifyByHostAndType(rankedItems, { perHostMax = 2, perTypeMax = 3 } = {}) {
+  const hostCounts = new Map();
+  const typeCounts = new Map();
+  const overflow = [];
+  const kept = [];
+  for (const item of rankedItems) {
+    const host = sourceHostKey(item);
+    const hostN = hostCounts.get(host) || 0;
+    const typeN = typeCounts.get(item.type) || 0;
+    if (hostN >= perHostMax || typeN >= perTypeMax) {
+      overflow.push(item);
+      continue;
+    }
+    hostCounts.set(host, hostN + 1);
+    typeCounts.set(item.type, typeN + 1);
+    kept.push(item);
+  }
+  // If the diversity caps left us with too few items, top up from overflow
+  // (preserving rank order) so the rail never goes empty on a saturated day.
+  return { kept, overflow };
+}
+
 async function main() {
   mkdirSync(AUTOMATED_DIR, { recursive: true });
   mkdirSync(PUBLIC_AUTOMATED_DIR, { recursive: true });
@@ -383,7 +420,20 @@ async function main() {
     .filter((item) => item.sourceTrail.length > 0)
     .sort((a, b) => b.score - a.score);
 
-  const items = ranked.filter((item) => item.score >= EDITORIAL_THRESHOLD).slice(0, MAX_ITEMS);
+  const aboveThreshold = ranked.filter((item) => item.score >= EDITORIAL_THRESHOLD);
+  // Diversity pass: cap items per host/type so the homepage rail isn't a
+  // wall of near-identical entries on a busy day (e.g. 6 NWS Red Flag
+  // Warnings). The diversity floor (4) protects against quiet days when
+  // diversity caps would leave the rail too sparse — in that case we top
+  // up from overflow and accept some same-host repetition rather than
+  // showing an under-populated rail.
+  const DIVERSITY_FLOOR = 4;
+  const { kept, overflow } = diversifyByHostAndType(aboveThreshold);
+  const needsTopup = kept.length < DIVERSITY_FLOOR;
+  const items = needsTopup
+    ? [...kept, ...overflow.slice(0, DIVERSITY_FLOOR - kept.length)].slice(0, MAX_ITEMS)
+    : kept.slice(0, MAX_ITEMS);
+  const cappedCount = aboveThreshold.length - items.length;
   const monitoredSignals = ranked.filter((item) => item.score < EDITORIAL_THRESHOLD).slice(0, MAX_MONITORED);
 
   const next = {
@@ -397,6 +447,9 @@ async function main() {
     decisionLog: [
       ...decisionLog,
       `${items.length} signal(s) cleared the editorial threshold.`,
+      cappedCount > 0
+        ? `${cappedCount} near-duplicate signal(s) deferred to monitors via host/type diversity caps.`
+        : `Diversity caps had no effect (no host/type saturation today).`,
       `${monitoredSignals.length} near-threshold signal(s) kept as monitors.`,
     ],
   };

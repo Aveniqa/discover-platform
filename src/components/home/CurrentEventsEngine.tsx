@@ -184,17 +184,81 @@ function buildDailyInsightQuiz(event: CurrentEventItem): DailyInsightQuizData | 
   };
 }
 
-function TrendingLiveCard({ item }: { item: TrendingLiveItem }) {
+/**
+ * Visual styling per signal type. Keeps cards visually distinct so a screen
+ * full of trending items doesn't look like 6 copies of the same NWS warning.
+ */
+const TRENDING_LIVE_TYPE_STYLES: Record<
+  TrendingLiveItem["type"],
+  { label: string; pillClass: string; accentClass: string; icon: string }
+> = {
+  "current-event": {
+    label: "Live brief",
+    pillClass: "border-cyan-300/30 bg-cyan-300/[0.08] text-cyan-200",
+    accentClass: "hover:border-cyan-300/35 hover:shadow-[0_8px_30px_rgba(34,211,238,0.08)]",
+    icon: "📡",
+  },
+  "github-trending": {
+    label: "GitHub",
+    pillClass: "border-violet-300/30 bg-violet-300/[0.08] text-violet-200",
+    accentClass: "hover:border-violet-300/35 hover:shadow-[0_8px_30px_rgba(167,139,250,0.08)]",
+    icon: "✦",
+  },
+  "news-trending": {
+    label: "News",
+    pillClass: "border-amber-300/30 bg-amber-300/[0.08] text-amber-200",
+    accentClass: "hover:border-amber-300/35 hover:shadow-[0_8px_30px_rgba(252,211,77,0.08)]",
+    icon: "❖",
+  },
+};
+
+/** Tier-style coloring for the score badge — gives the eye something to scan. */
+function scoreBadgeClass(score: number): string {
+  if (score >= 95) return "border-amber-300/40 bg-amber-300/[0.12] text-amber-200";
+  if (score >= 88) return "border-emerald-300/35 bg-emerald-300/[0.08] text-emerald-200";
+  return "border-border/70 bg-background/40 text-muted-foreground";
+}
+
+/**
+ * Compact relative-time formatter that's stable at build time.
+ * Returns "Just now", "Nm ago", "Nh ago", or "Nd ago" — nothing fancier
+ * because static-export pages bake in build-time values; "minutes ago"
+ * would already be stale by the time a reader sees it.
+ */
+function formatRelativeAge(detectedAt: string, now: Date): string {
+  const detected = new Date(detectedAt);
+  if (Number.isNaN(detected.getTime())) return "";
+  const diffMs = Math.max(0, now.getTime() - detected.getTime());
+  const minutes = Math.floor(diffMs / 60000);
+  if (minutes < 5) return "Just now";
+  if (minutes < 60) return `${minutes}m ago`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours}h ago`;
+  const days = Math.floor(hours / 24);
+  return `${days}d ago`;
+}
+
+function TrendingLiveCard({ item, now }: { item: TrendingLiveItem; now: Date }) {
   const source = item.sourceTrail[0] ?? { name: item.sourceName, url: item.sourceUrl };
   const href = item.url || item.sourceUrl;
+  const style = TRENDING_LIVE_TYPE_STYLES[item.type] ?? TRENDING_LIVE_TYPE_STYLES["current-event"];
+  const age = formatRelativeAge(item.detectedAt, now);
 
   return (
-    <article className="rounded-xl border border-border bg-surface p-4">
+    <article
+      className={`group relative rounded-xl border border-border bg-surface p-4 transition-all duration-200 ${style.accentClass}`}
+    >
       <div className="flex items-start justify-between gap-3">
-        <span className="rounded-full border border-border/70 bg-background/35 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.12em] text-muted-foreground">
-          {item.type === "github-trending" ? "GitHub" : item.type === "news-trending" ? "News" : "Live guide"}
+        <span
+          className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.12em] ${style.pillClass}`}
+        >
+          <span aria-hidden="true">{style.icon}</span>
+          {style.label}
         </span>
-        <span className="text-[11px] font-black text-emerald-200">
+        <span
+          className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-black ${scoreBadgeClass(item.score)}`}
+          title={`Editorial score ${item.score}/100`}
+        >
           {item.score}
         </span>
       </div>
@@ -204,7 +268,7 @@ function TrendingLiveCard({ item }: { item: TrendingLiveItem }) {
       <p className="mt-2 text-xs leading-relaxed text-muted line-clamp-3">
         {item.summary}
       </p>
-      <div className="mt-4 flex flex-wrap items-center gap-3">
+      <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1.5">
         <a
           href={href}
           target={href.startsWith("http") ? "_blank" : undefined}
@@ -221,6 +285,14 @@ function TrendingLiveCard({ item }: { item: TrendingLiveItem }) {
         >
           Source: {source.name}
         </a>
+        {age && (
+          <span
+            className="ml-auto text-[10px] font-semibold uppercase tracking-[0.1em] text-muted-foreground/80"
+            title={`Detected ${item.detectedAt}`}
+          >
+            {age}
+          </span>
+        )}
       </div>
     </article>
   );
@@ -229,6 +301,24 @@ function TrendingLiveCard({ item }: { item: TrendingLiveItem }) {
 function TrendingLiveRail({ events }: { events: CurrentEventItem[] }) {
   const items = getTrendingLiveItems(events, 6);
   if (!items.length) return null;
+
+  // Build-time "now" used to format relative ages on the cards. Static export
+  // bakes this in; the page is rebuilt every 3h via the trending-live workflow,
+  // so "Nh ago" stays accurate within that cadence. Client-side mismatch is a
+  // non-issue because the timestamps come from the same JSON the cards read.
+  const generatedAt = getTrendingLiveGeneratedAt();
+  const now = new Date(generatedAt);
+  if (Number.isNaN(now.getTime())) now.setTime(Date.now());
+
+  // Type breakdown helps the rail header advertise diversity at a glance.
+  const typeCounts = items.reduce<Record<string, number>>((acc, item) => {
+    acc[item.type] = (acc[item.type] || 0) + 1;
+    return acc;
+  }, {});
+  const breakdownParts = Object.entries(typeCounts).map(([type, n]) => {
+    const label = TRENDING_LIVE_TYPE_STYLES[type as TrendingLiveItem["type"]]?.label || type;
+    return `${n} ${label.toLowerCase()}`;
+  });
 
   return (
     <div className="mb-5 rounded-xl border border-cyan-300/15 bg-cyan-300/[0.035] p-4 sm:p-5">
@@ -240,17 +330,22 @@ function TrendingLiveRail({ events }: { events: CurrentEventItem[] }) {
           <h3 className="mt-1 text-lg font-black tracking-tight text-foreground">
             Signals with source trails
           </h3>
+          {breakdownParts.length > 0 && (
+            <p className="mt-1 text-[11px] text-muted-foreground">
+              {breakdownParts.join(" · ")}
+            </p>
+          )}
         </div>
         <div className="flex flex-wrap gap-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-muted-foreground">
           <span className="rounded-full border border-border bg-surface px-3 py-1">
-            Refreshed {formatCurrentEventDate(getTrendingLiveGeneratedAt().slice(0, 10))}
+            Refreshed {formatCurrentEventDate(generatedAt.slice(0, 10))}
           </span>
-          <TrendingLiveAutoRefresh generatedAt={getTrendingLiveGeneratedAt()} />
+          <TrendingLiveAutoRefresh generatedAt={generatedAt} />
         </div>
       </div>
       <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
         {items.map((item) => (
-          <TrendingLiveCard key={item.id} item={item} />
+          <TrendingLiveCard key={item.id} item={item} now={now} />
         ))}
       </div>
     </div>
