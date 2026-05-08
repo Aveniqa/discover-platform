@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T19:46:27.393Z",
+  "generatedAt": "2026-05-08T22:12:29.120Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-36cc196f8890c8dcb17450ec0ee8864f5d38844f-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-c188cdf597c2eb4aa0688a79f715cd8794f02c12-001-",
       "type": "current-event",
-      "title": "Flash Flood Warning issued May 8 at 12:47PM CDT until May 8 at 3:00PM CDT by NWS New...",
-      "summary": "FFWLIX The National Weather Service in New Orleans has issued a * Flash Flood Warning for... Northwestern Iberville Parish in southeastern Louisiana... Southern Pointe Coupee Parish in southeastern Louisiana... Northwestern West Baton Rouge Parish in southeastern Louisiana... * Until 300 PM CDT. * At 1247 PM CDT,...",
+      "title": "Severe Thunderstorm Warning issued May 8 at 5:52PM EDT until May 8 at 6:15PM EDT by NWS Jacksonville...",
+      "summary": "SVRJAX The National Weather Service in Jacksonville has issued a * Severe Thunderstorm Warning for... East central Flagler County in northeastern Florida... * Until 615 PM EDT. * At 552 PM EDT, a severe thunderstorm was located over Bunnell, moving east at 15 mph. HAZARD...60 mph wind gusts and penny size hail....",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.36cc196f8890c8dcb17450ec0ee8864f5d38844f.001.1",
-      "detectedAt": "2026-05-08T19:46:27.393Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c188cdf597c2eb4aa0688a79f715cd8794f02c12.001.1",
+      "detectedAt": "2026-05-08T22:12:29.120Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,20 +26,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.36cc196f8890c8dcb17450ec0ee8864f5d38844f.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c188cdf597c2eb4aa0688a79f715cd8794f02c12.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-0cf208f01a62ba323f3677be063854156377cb29-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-3fbaadb1a4df06d3707e577ceda3b9a07f5f3f49-001-",
       "type": "current-event",
-      "title": "Flash Flood Warning issued May 8 at 1:54PM CDT until May 8 at 4:30PM CDT by NWS New...",
-      "summary": "FFWLIX The National Weather Service in New Orleans has issued a * Flash Flood Warning for... Northwestern St. Tammany Parish in southeastern Louisiana... Central Tangipahoa Parish in southeastern Louisiana... Southern Washington Parish in southeastern Louisiana... * Until 430 PM CDT. * At 154 PM CDT, Doppler radar...",
+      "title": "Severe Thunderstorm Warning issued May 8 at 4:54PM CDT until May 8 at 5:45PM CDT by NWS Norman...",
+      "summary": "SVROUN The National Weather Service in Norman has issued a * Severe Thunderstorm Warning for... Northwestern Lincoln County in central Oklahoma... Northeastern Logan County in central Oklahoma... Southwestern Payne County in central Oklahoma... * Until 545 PM CDT. * At 454 PM CDT, severe thunderstorms were located...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cf208f01a62ba323f3677be063854156377cb29.001.1",
-      "detectedAt": "2026-05-08T19:46:27.393Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fbaadb1a4df06d3707e577ceda3b9a07f5f3f49.001.1",
+      "detectedAt": "2026-05-08T22:12:29.120Z",
       "publishedAt": "2026-05-08",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -52,7 +52,7 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0cf208f01a62ba323f3677be063854156377cb29.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fbaadb1a4df06d3707e577ceda3b9a07f5f3f49.001.1",
           "role": "event-source"
         }
       ]
@@ -65,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-08T19:46:27.393Z",
+      "detectedAt": "2026-05-08T22:12:29.120Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -87,14 +87,14 @@
       "id": "github-sindresorhus-awesome",
       "type": "github-trending",
       "title": "sindresorhus/awesome is trending on GitHub",
-      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,068 stars and recent pushes visible through the GitHub API.",
+      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,104 stars and recent pushes visible through the GitHub API.",
       "topic": "github.software",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/sindresorhus/awesome",
-      "detectedAt": "2026-05-08T19:46:27.393Z",
+      "detectedAt": "2026-05-08T22:12:29.120Z",
       "publishedAt": "2014-07-11",
       "score": 100,
-      "velocityLabel": "464,068 stars",
+      "velocityLabel": "464,104 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/sindresorhus/awesome",
       "sourceTrail": [
@@ -118,7 +118,7 @@
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-08T19:46:27.393Z",
+      "detectedAt": "2026-05-08T22:12:29.120Z",
       "publishedAt": "2014-12-24",
       "score": 100,
       "velocityLabel": "444,354 stars",
