@@ -49,6 +49,9 @@ jobs:
         if: steps.brain.outputs.changed == 'true'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        # YouTube API has a daily quota and occasional capacity flakes.
+        # Enrichment is opportunistic — items still publish without videos.
+        continue-on-error: true
         run: node scripts/enrich-current-event-videos.mjs
 
       - name: Audit automated update
@@ -61,6 +64,10 @@ jobs:
 
       - name: Notify IndexNow of fresh sitemap
         if: steps.brain.outputs.changed == 'true' || steps.videos.outputs.changed == 'true'
+        # IndexNow is a best-effort search-engine ping. A 5xx from Bing/Yandex
+        # must not invalidate an otherwise-clean live update — the sitemap is
+        # still available for crawlers via the next polite poll.
+        continue-on-error: true
         run: npm run seo:ping
 
       - name: Create breaking-news email draft
@@ -73,17 +80,30 @@ jobs:
       - name: Commit and push content update
         if: steps.brain.outputs.changed == 'true' || steps.videos.outputs.changed == 'true'
         run: |
+          # The "Audit automated update" step earlier in this workflow already
+          # ran `npm run audit:all` (which includes audit:automated). Re-running
+          # it here would be redundant — the data hasn't changed since.
           git config user.name "Surfaced Bot"
           git config user.email "bot@surfaced.daily"
-          npm run audit:automated
           git add automated-content public/automated-content
           if git diff --staged --quiet; then
             echo "No live content changes to commit"
             exit 0
           fi
           git commit -m "Content Update: live signals $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase --autostash origin main
-          git push
+          # Retry push up to 3x — the bot pushes from multiple workflows so
+          # a transient race against a parallel commit shouldn't waste a run.
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin main
+            if git push; then
+              echo "Push succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying in $((attempt * 5))s..."
+            sleep $((attempt * 5))
+          done
+          echo "Push failed after 3 attempts"
+          exit 1
 
   alert-on-failure:
     runs-on: ubuntu-latest
