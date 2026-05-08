@@ -26,12 +26,17 @@ const FILES = {
 
 // Required fields per category that Gemini must return.
 // id and dateAdded are assigned post-generation, so they're excluded here.
+// URL fields are required for products / hidden-gems / daily-tools because the
+// item is fundamentally a click-through to that destination — items without a
+// valid HTTPS URL in those categories are dropped and the retry loop replaces
+// them. discoveries and future-radar tolerate URL-less items (matches the
+// pre-existing data shape; many academic discoveries lack a citation URL).
 const REQUIRED_FIELDS = {
   discoveries: ["slug", "title", "shortDescription", "category", "whyItIsInteresting", "type"],
-  products: ["slug", "title", "shortDescription", "category", "whyItIsInteresting", "type"],
-  "hidden-gems": ["slug", "name", "whatItDoes", "category", "whyItIsUseful", "type"],
+  products: ["slug", "title", "shortDescription", "category", "whyItIsInteresting", "type", "sourceLink"],
+  "hidden-gems": ["slug", "name", "whatItDoes", "category", "whyItIsUseful", "type", "websiteLink"],
   "future-radar": ["slug", "techName", "explanation", "industry", "whyItMatters", "developmentStage", "type"],
-  "daily-tools": ["slug", "toolName", "whatItDoes", "category", "whyItIsUseful", "type"],
+  "daily-tools": ["slug", "toolName", "whatItDoes", "category", "whyItIsUseful", "type", "websiteLink"],
 };
 
 const TYPE_BY_CATEGORY = {
@@ -110,6 +115,46 @@ function firstString(...values) {
   return values.find((value) => typeof value === "string" && value.trim())?.trim();
 }
 
+/**
+ * Returns true when value is a syntactically valid https:// URL with a public
+ * hostname (not localhost / private / reserved / credentialed). Mirrors the
+ * gate in scripts/validate-data.js so non-HTTPS or unsafe URLs are rejected
+ * during generation rather than at the end-of-pipeline schema validation,
+ * which would otherwise roll back the entire daily edition.
+ */
+function isPublicHttpsUrl(value) {
+  if (typeof value !== "string" || !value) return false;
+  let url;
+  try {
+    url = new URL(value);
+  } catch {
+    return false;
+  }
+  if (url.protocol !== "https:") return false;
+  if (url.username || url.password) return false;
+  const host = url.hostname.toLowerCase();
+  if (!host) return false;
+  if (host === "localhost" || host.endsWith(".localhost")) return false;
+  // Bare IPs, private ranges, and reserved literals are not public destinations.
+  if (/^\d+\.\d+\.\d+\.\d+$/.test(host)) return false;
+  if (host.startsWith("[") || host.includes(":")) return false;
+  return true;
+}
+
+/**
+ * URL field name that validate-data.js will check for each category.
+ * normalize functions populate this field; if Gemini returned an http://
+ * URL we drop it here so the item gets retried instead of crashing the
+ * pipeline at the final pre-commit gate.
+ */
+const URL_FIELD_BY_CATEGORY = {
+  discoveries: "sourceLink",
+  products: "sourceLink",
+  "hidden-gems": "websiteLink",
+  "future-radar": null,
+  "daily-tools": "websiteLink",
+};
+
 function normalizeGeneratedItem(category, item) {
   const normalized = { ...item };
   normalized.type = TYPE_BY_CATEGORY[category];
@@ -160,6 +205,15 @@ function normalizeGeneratedItem(category, item) {
 
   const displayName = firstString(normalized.title, normalized.name, normalized.toolName, normalized.techName);
   normalized.slug = slugify(firstString(normalized.slug, displayName));
+
+  // Drop URL fields that wouldn't pass scripts/validate-data.js so the retry
+  // loop can replace the item, instead of letting the bad URL slip through to
+  // the end-of-pipeline schema gate (which rolls back the whole daily edition).
+  const urlField = URL_FIELD_BY_CATEGORY[category];
+  if (urlField && normalized[urlField] && !isPublicHttpsUrl(normalized[urlField])) {
+    normalized[`__rejectedUrl`] = normalized[urlField];
+    delete normalized[urlField];
+  }
 
   return normalized;
 }
@@ -424,7 +478,7 @@ Return EXACTLY ${count} items as a JSON array. Each item must match this exact s
 ${schemas[category]}
 
 Rules:
-- All URLs must be real, publicly accessible websites${filteredSeeds.length ? " — use the EXACT URL from the seed you picked" : ""}
+- All URLs MUST start with "https://" — http:// URLs are rejected. They must be real, publicly accessible websites${filteredSeeds.length ? " — use the EXACT URL from the seed you picked" : ""}
 - imageIdea must be a concrete visual noun (e.g. "espresso machine coffee barista"), NEVER abstract concepts
 - slug must be kebab-case, unique, derived from the title/name
 - Descriptions should be engaging and informative — add depth, context, and specifics beyond the raw seed blurb. Use at least ${REVIEW_TARGET_WORDS} combined words across the description and why fields.
@@ -476,9 +530,13 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
         );
       }
       if (missing.length > 0) {
-        console.warn(`  ⚠ Incomplete item discarded: "${itemName || item.slug || "unknown"}" — missing: ${missing.join(", ")}`);
+        const rejectedUrl = item.__rejectedUrl ? ` (dropped non-HTTPS URL: ${item.__rejectedUrl})` : "";
+        console.warn(`  ⚠ Incomplete item discarded: "${itemName || item.slug || "unknown"}" — missing: ${missing.join(", ")}${rejectedUrl}`);
         continue;
       }
+      // Item passed required-field check; clean up the diagnostic field
+      // so it doesn't end up in the persisted JSON.
+      delete item.__rejectedUrl;
     }
 
     let bodyWords = wordCount(itemBody(item));
