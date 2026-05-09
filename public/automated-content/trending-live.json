@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-09T19:35:52.835Z",
+  "generatedAt": "2026-05-09T22:03:32.606Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-a7d9d35fb156fe8c3741bb87a4af1d29b94eebfa-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-32da295309b0de57430190855d3bc5b2570b7ec3-002-",
       "type": "current-event",
-      "title": "Flash Flood Warning issued May 9 at 1:08PM CDT until May 9 at 4:15PM CDT by NWS Lake...",
-      "summary": "FFWLCH The National Weather Service in Lake Charles has issued a * Flash Flood Warning for... Southern Lafayette Parish in south central Louisiana... West Central St. Martin Parish in south central Louisiana... Northern Vermilion Parish in southwestern Louisiana... * Until 415 PM CDT. * At 108 PM CDT, Doppler radar...",
+      "title": "Severe Thunderstorm Watch issued May 9 at 5:41PM EDT until May 9 at 11:00PM EDT by NWS Cleveland...",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH 195 IN EFFECT UNTIL 11 PM EDT THIS EVENING FOR THE FOLLOWING AREAS THIS WATCH INCLUDES THE FOLLOWING ADJACENT COASTAL WATERS VERMILION TO AVON POINT OH AVON POINT TO WILLOWICK OH WILLOWICK TO GENEVA-ON-THE LAKE OH GENEVA-ON-THE-LAKE TO CONNEAUT OH...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7d9d35fb156fe8c3741bb87a4af1d29b94eebfa.001.1",
-      "detectedAt": "2026-05-09T19:35:52.835Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32da295309b0de57430190855d3bc5b2570b7ec3.002.1",
+      "detectedAt": "2026-05-09T22:03:32.606Z",
       "publishedAt": "2026-05-09",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,7 +26,33 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7d9d35fb156fe8c3741bb87a4af1d29b94eebfa.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32da295309b0de57430190855d3bc5b2570b7ec3.002.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-e45f680acfe945a300e87967a50261037e52f62a-001-",
+      "type": "current-event",
+      "title": "Severe Thunderstorm Watch issued May 9 at 5:41PM EDT until May 9 at 11:00PM EDT by NWS State...",
+      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH 195 IN EFFECT UNTIL 11 PM EDT THIS EVENING FOR THE FOLLOWING AREAS IN PENNSYLVANIA THIS WATCH INCLUDES 1 COUNTY IN CENTRAL PENNSYLVANIA WARREN THIS INCLUDES THE CITIES OF WARREN.",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e45f680acfe945a300e87967a50261037e52f62a.001.1",
+      "detectedAt": "2026-05-09T22:03:32.606Z",
+      "publishedAt": "2026-05-09",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e45f680acfe945a300e87967a50261037e52f62a.001.1",
           "role": "event-source"
         }
       ]
@@ -39,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-09T19:35:52.835Z",
+      "detectedAt": "2026-05-09T22:03:32.606Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -58,43 +84,17 @@
       ]
     },
     {
-      "id": "candidate-cpsc-26468",
-      "type": "current-event",
-      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
-      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-      "detectedAt": "2026-05-09T19:35:52.835Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-09",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "github-sindresorhus-awesome",
       "type": "github-trending",
       "title": "sindresorhus/awesome is trending on GitHub",
-      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,473 stars and recent pushes visible through the GitHub API.",
+      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,520 stars and recent pushes visible through the GitHub API.",
       "topic": "github.software",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/sindresorhus/awesome",
-      "detectedAt": "2026-05-09T19:35:52.835Z",
+      "detectedAt": "2026-05-09T22:03:32.606Z",
       "publishedAt": "2014-07-11",
       "score": 100,
-      "velocityLabel": "464,473 stars",
+      "velocityLabel": "464,520 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/sindresorhus/awesome",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,404 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,406 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-09T19:35:52.835Z",
+      "detectedAt": "2026-05-09T22:03:32.606Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,404 stars",
+      "velocityLabel": "444,406 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
