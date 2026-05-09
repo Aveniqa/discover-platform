@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-09T08:12:54.164Z",
+  "generatedAt": "2026-05-09T10:17:56.859Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-ec652d27fd6b45c89873ebdd84ff41f8af4681a8-002-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-c18b99691638121eecf2540ea609250878697307-001-",
       "type": "current-event",
-      "title": "Extreme Heat Warning issued May 9 at 12:32AM MST until May 11 at 8:00PM MST by NWS Phoenix...",
-      "summary": "* WHAT...Dangerously hot conditions. Afternoon temperatures 101 to 112 expected. Major Heat Risk. * WHERE...Southwest corner of Imperial County, Western Imperial County, and Salton Sea. * WHEN...From 10 AM Sunday to 8 PM PDT Monday. * IMPACTS...Heat related illnesses increase significantly during extreme heat events....",
+      "title": "Severe Thunderstorm Warning issued May 9 at 5:16AM CDT until May 9 at 6:00AM CDT by NWS New...",
+      "summary": "SVRLIX The National Weather Service in New Orleans has issued a * Severe Thunderstorm Warning for... Southwestern Walthall County in southern Mississippi... Southern Pike County in southern Mississippi... Southeastern Amite County in southern Mississippi... * Until 600 AM CDT. * At 516 AM CDT, a severe thunderstorm...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec652d27fd6b45c89873ebdd84ff41f8af4681a8.002.1",
-      "detectedAt": "2026-05-09T08:12:54.164Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c18b99691638121eecf2540ea609250878697307.001.1",
+      "detectedAt": "2026-05-09T10:17:56.859Z",
       "publishedAt": "2026-05-09",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,33 +26,7 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec652d27fd6b45c89873ebdd84ff41f8af4681a8.002.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-ec652d27fd6b45c89873ebdd84ff41f8af4681a8-001-",
-      "type": "current-event",
-      "title": "Extreme Heat Warning issued May 9 at 12:32AM MST until May 11 at 8:00PM MST by NWS Phoenix...",
-      "summary": "* WHAT...Dangerously hot conditions. Afternoon temperatures 105 to 109 expected. Major Heat Risk. * WHERE...The Northwest Valley of the Phoenix Metro Area, The East Valley of the Phoenix Metro Area, Buckeye/Avondale, Deer Valley, Central Phoenix, North Phoenix/Glendale, Scottsdale/Paradise Valley, South...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec652d27fd6b45c89873ebdd84ff41f8af4681a8.001.1",
-      "detectedAt": "2026-05-09T08:12:54.164Z",
-      "publishedAt": "2026-05-09",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec652d27fd6b45c89873ebdd84ff41f8af4681a8.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c18b99691638121eecf2540ea609250878697307.001.1",
           "role": "event-source"
         }
       ]
@@ -65,7 +39,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-09T08:12:54.164Z",
+      "detectedAt": "2026-05-09T10:17:56.859Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -84,17 +58,43 @@
       ]
     },
     {
+      "id": "candidate-cpsc-26468",
+      "type": "current-event",
+      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
+      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
+      "detectedAt": "2026-05-09T10:17:56.859Z",
+      "publishedAt": "2026-05-07",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-09",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
       "id": "github-sindresorhus-awesome",
       "type": "github-trending",
       "title": "sindresorhus/awesome is trending on GitHub",
-      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,246 stars and recent pushes visible through the GitHub API.",
+      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,272 stars and recent pushes visible through the GitHub API.",
       "topic": "github.software",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/sindresorhus/awesome",
-      "detectedAt": "2026-05-09T08:12:54.164Z",
+      "detectedAt": "2026-05-09T10:17:56.859Z",
       "publishedAt": "2014-07-11",
       "score": 100,
-      "velocityLabel": "464,246 stars",
+      "velocityLabel": "464,272 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/sindresorhus/awesome",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,378 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,384 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-09T08:12:54.164Z",
+      "detectedAt": "2026-05-09T10:17:56.859Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,378 stars",
+      "velocityLabel": "444,384 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
