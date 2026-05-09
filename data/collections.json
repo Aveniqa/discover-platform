@@ -5,10 +5,6 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "the-immortal-jellyfish-a-tiny-marine-creature-that-can-revert-to-its-youthful-state",
-      "sandwich-invented-by-earl-gaming-table",
-      "first-image-of-supermassive-black-hole",
-      "pangaea-ancient-supercontinent",
       "the-rosetta-stone-unlocking-secrets-ancient-egyptian-hieroglyphs",
       "earth-great-oxygenation-event-ancient-ecological-revolution",
       "magnetic-resonance-imaging-revolutionizing-medical-diagnostics-without-radiation",
@@ -16,7 +12,11 @@
       "hydrothermal-vents-chemosynthesis",
       "accidental-discovery-penicillin",
       "rogue-planets-wander-universe-without-star",
-      "the-enigmatic-baghdad-battery-ancient-electrical-mystery"
+      "the-enigmatic-baghdad-battery-ancient-electrical-mystery",
+      "the-lost-legacy-of-the-great-library-of-alexandria",
+      "the-hum-mysterious-low-frequency-sound",
+      "nazca-lines-gigantic-geoglyphs-peru-desert",
+      "mimicry-nature-deceive-predators-prey"
     ]
   },
   {
@@ -45,10 +45,6 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "the-immortal-jellyfish-a-tiny-marine-creature-that-can-revert-to-its-youthful-state",
-      "the-doomsday-vault-safeguarding-the-worlds-plant-diversity-deep-inside-an-arctic-mountain",
-      "sandwich-invented-by-earl-gaming-table",
-      "pangaea-ancient-supercontinent",
       "the-rosetta-stone-unlocking-secrets-ancient-egyptian-hieroglyphs",
       "earth-great-oxygenation-event-ancient-ecological-revolution",
       "magnetic-resonance-imaging-revolutionizing-medical-diagnostics-without-radiation",
@@ -56,7 +52,11 @@
       "hydrothermal-vents-chemosynthesis",
       "accidental-discovery-penicillin",
       "rogue-planets-wander-universe-without-star",
-      "the-enigmatic-baghdad-battery-ancient-electrical-mystery"
+      "the-enigmatic-baghdad-battery-ancient-electrical-mystery",
+      "the-lost-legacy-of-the-great-library-of-alexandria",
+      "the-hum-mysterious-low-frequency-sound",
+      "nazca-lines-gigantic-geoglyphs-peru-desert",
+      "mimicry-nature-deceive-predators-prey"
     ]
   },
   {
@@ -85,7 +85,6 @@
     "description": "Products and tools to help you feel your best during everyday routines.",
     "emoji": "💪",
     "itemSlugs": [
-      "sandwich-invented-by-earl-gaming-table",
       "accidental-discovery-penicillin",
       "the-hum-mysterious-low-frequency-sound",
       "the-astonishing-glass-frog-transparency",
@@ -96,7 +95,8 @@
       "ancient-dna-reveals-ice-age-giants",
       "bacteria-that-eat-plastic-could-clean-oceans",
       "arctic-permafrost-releases-ancient-viruses-potent-threat",
-      "global-marine-heatwaves-increased-twentyfold"
+      "global-marine-heatwaves-increased-twentyfold",
+      "ocean-acidification-coral-reef-recovery"
     ]
   }
 ]

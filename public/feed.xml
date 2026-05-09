@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evernote</title>
+      <link>https://surfaced-x.pages.dev/item/evernote-note-taking-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/evernote-note-taking-app</guid>
+      <description>Evernote is a powerful note-taking and organization app that allows users to capture ideas, to-do lists, photos, voice memos, and web clippings in a single, searchable database. It supports rich text formatting, tagging, and notebook organization to keep information structured and accessible. Evernote operates on a freemium model, offering a robust free tier with limitations on monthly uploads and device syncing, and paid tiers that unlock advanced features and unlimited usage. It excels at rapidly capturing and finding any piece of information you&apos;ve stored, making it a digital brain for your personal and professional life.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/574084/pexels-photo-574084.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/574084/pexels-photo-574084.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/574084/pexels-photo-574084.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Martha</title>
+      <link>https://surfaced-x.pages.dev/item/martha-ai-research-assistant</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/martha-ai-research-assistant</guid>
+      <description>Martha is an AI-powered research and writing assistant designed to help users gather information, synthesize complex topics, and generate initial drafts of written content. It allows you to input a topic, and Martha will scour the web for relevant sources, present them in an organized manner, and help you understand the key arguments and evidence. The tool operates on a freemium model, offering basic research capabilities for free with premium subscriptions unlocking more extensive search parameters, advanced synthesis tools, and longer output limits. Martha&apos;s strength lies in its ability to quickly provide a structured overview of a subject, saving immense time in the initial research phase.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/18465017/pexels-photo-18465017.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/18465017/pexels-photo-18465017.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/18465017/pexels-photo-18465017.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Arc Browser</title>
+      <link>https://surfaced-x.pages.dev/item/arc-browser</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/arc-browser</guid>
+      <description>Arc Browser is a reimagined web browser built for a more organized and efficient online experience. It features a unique sidebar interface that keeps your tabs, bookmarks, and downloads neatly organized, allowing for quick switching between tasks and projects. Instead of traditional tabs, Arc uses &apos;spaces&apos; and &apos;pinnable&apos; tabs to categorize your browsing. It offers a freemium model with core features available at no cost, while advanced functionalities might be part of future paid tiers. Arc&apos;s standout feature is its intuitive tab management system, which significantly reduces tab clutter and enhances focus.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1727828157772-2656934a5197?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNjV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1727828157772-2656934a5197?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNjV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1727828157772-2656934a5197?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNjV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Fireflies.ai</title>
+      <link>https://surfaced-x.pages.dev/item/firefliesai-meeting-assistant</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/firefliesai-meeting-assistant</guid>
+      <description>Fireflies.ai is an AI-powered assistant that automatically records, transcribes, and summarizes your meetings across various platforms like Zoom, Google Meet, and Microsoft Teams. It integrates with your calendar to join scheduled calls and takes detailed notes, identifying action items and key decisions. The tool offers a freemium model, with paid tiers unlocking more advanced features like in-depth analytics and custom integrations. It excels at providing searchable transcripts and concise summaries, saving significant time on post-meeting follow-up.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/32021560/pexels-photo-32021560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/32021560/pexels-photo-32021560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/32021560/pexels-photo-32021560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Plurai</title>
+      <link>https://surfaced-x.pages.dev/item/plurai</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/plurai</guid>
+      <description>Plurai is an AI development tool designed to ensure the reliability and safety of AI agents. It allows users to define specific behaviors and constraints for their AI agents, acting as guardrails. Plurai then generates training data based on these specifications, validates the data to ensure it aligns with the intended guidelines, and deploys a custom-trained model in mere minutes. This streamlined process accelerates the development and deployment of dependable AI agents for various use cases. The service operates on a freemium model, offering basic features for free with paid tiers for advanced capabilities and higher usage limits.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7681137/pexels-photo-7681137.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7681137/pexels-photo-7681137.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7681137/pexels-photo-7681137.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Slack</title>
       <link>https://surfaced-x.pages.dev/item/slack-communication-platform</link>
@@ -478,6 +533,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/17627339/pexels-photo-17627339.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Diagrams: Code for Visuals</title>
+      <link>https://surfaced-x.pages.dev/item/diagrams-as-code-tool</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/diagrams-as-code-tool</guid>
+      <description>Diagrams is a Python library that allows you to programmatically create cloud system architecture diagrams. Instead of manually dragging and dropping shapes in a GUI tool, you write Python code to define your infrastructure, and Diagrams generates the visual representation. It supports a wide range of cloud providers and services, making it incredibly useful for documenting complex systems. Developers and architects can use it to version control their diagrams, automatically update them with infrastructure changes, and integrate diagram generation into CI/CD pipelines.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1705077031869-51b60754302a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1705077031869-51b60754302a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1705077031869-51b60754302a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>FoodHero</title>
       <link>https://surfaced-x.pages.dev/item/foodhero-reduce-food-waste-discounts</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/foodhero-reduce-food-waste-discounts</guid>
@@ -487,72 +553,6 @@
       <enclosure url="https://images.pexels.com/photos/6389973/pexels-photo-6389973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/6389973/pexels-photo-6389973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/6389973/pexels-photo-6389973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>MealPrepPro</title>
-      <link>https://surfaced-x.pages.dev/item/mealpreppro-healthy-fitness-meal-plans</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mealpreppro-healthy-fitness-meal-plans</guid>
-      <description>MealPrepPro, developed by the team behind Shreddy, is a comprehensive meal planning and grocery list app tailored for individuals with fitness and health goals. It allows users to choose from various diet types (e.g., high protein, vegan, keto), set caloric goals, and receive customized weekly meal plans with recipes and automated grocery lists. The app is available for download on both iOS and Android platforms, providing a focused mobile experience. Its most used feature is the personalized weekly meal plan delivery, which automatically adjusts to dietary preferences and caloric needs. All user data, including meal preferences, health stats, and purchased plans, is stored and synced securely in the cloud to ensure continuity across devices.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8844383/pexels-photo-8844383.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8844383/pexels-photo-8844383.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8844383/pexels-photo-8844383.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Perfect Meal</title>
-      <link>https://surfaced-x.pages.dev/item/perfect-meal-ai-meal-planner</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/perfect-meal-ai-meal-planner</guid>
-      <description>Perfect Meal, created by Perfect Meal Inc., is an AI-powered meal planning tool designed to generate personalized meal plans tailored to individual dietary needs, preferences, and health goals. Users input their caloric targets, macros, allergies, and food preferences, and the AI generates complete meal plans with recipes and grocery lists for the week. It is primarily available as a web application, accessible from any browser on desktop or mobile devices. Its most used feature is the &quot;Instant Meal Plan Generator,&quot; which creates a full week&apos;s worth of meals in seconds based on user criteria. All user profiles, preferences, and generated meal plans are stored securely in the cloud, allowing for easy access and modifications from anywhere.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/2377165/pexels-photo-2377165.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/2377165/pexels-photo-2377165.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/2377165/pexels-photo-2377165.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Kitchen Stories</title>
-      <link>https://surfaced-x.pages.dev/item/kitchen-stories-video-recipes-cooking</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/kitchen-stories-video-recipes-cooking</guid>
-      <description>Kitchen Stories, developed by a Berlin-based team, is an award-winning recipe app and website that brings high-quality cooking videos and beautiful photography to home cooks. It offers a curated collection of recipes, ranging from everyday meals to gourmet dishes, accompanied by step-by-step photo instructions and engaging video tutorials for techniques. The platform is fully available on web, iOS, and Android devices, ensuring a seamless cooking experience across screens. Its most used feature is the integrated &quot;How-To Videos&quot; section, which visually teaches various cooking techniques like knife skills or baking fundamentals. All recipe data, user favorites, and shopping lists are synchronized to the cloud, providing easy access and personalized content across all connected devices.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8357267/pexels-photo-8357267.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8357267/pexels-photo-8357267.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8357267/pexels-photo-8357267.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>HappyCow</title>
-      <link>https://surfaced-x.pages.dev/item/happycow-vegan-vegetarian-restaurant-finder</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/happycow-vegan-vegetarian-restaurant-finder</guid>
-      <description>HappyCow, an independent global platform, helps users find vegan, vegetarian, and plant-based friendly restaurants and stores worldwide. It allows individuals to search for dining options by location, filter by dietary preferences (vegan, vegetarian, gluten-free), and read reviews from a community of conscious eaters. The service is accessible via its comprehensive website, dedicated iOS and Android applications, and even some in-car navigation systems. Its most used feature is the interactive map, which pinpoints nearby plant-based eateries with ratings and directions. User-contributed restaurant data, reviews, and personal favorites are stored securely in the cloud, fostering a dynamic and always-updated global database.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5444631/pexels-photo-5444631.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5444631/pexels-photo-5444631.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5444631/pexels-photo-5444631.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Canvas Data Breach</title>
-      <link>https://surfaced-x.pages.dev/item/canvas-learning-management-system-data-breach</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/canvas-learning-management-system-data-breach</guid>
-      <description>This article from The Verge reports on a significant data breach affecting Canvas, a widely used learning management system (LMS) in educational institutions. The breach was attributed to a hacking group known as ShinyHunters, which threatened to leak sensitive student and staff data. The report details the potential implications for schools and universities using Canvas, including identity theft and privacy concerns. It outlines how the incident unfolded, the types of data potentially compromised, and the immediate responses from the involved parties. For example, the article might describe the scramble by affected institutions to notify their communities and implement enhanced security measures following the threat.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5380618/pexels-photo-5380618.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5380618/pexels-photo-5380618.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5380618/pexels-photo-5380618.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Carbon Diet Coach</title>
-      <link>https://surfaced-x.pages.dev/item/carbon-diet-coach-macro-tracking</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/carbon-diet-coach-macro-tracking</guid>
-      <description>Carbon Diet Coach, developed by bodybuilding and nutrition expert Andy Morgan and the team at MacroFactor, is an AI-powered nutrition coaching app designed for flexible dieting and achieving body composition goals. It guides users to track their food intake, primarily macros (protein, carbs, fats), and adjusts their daily targets dynamically based on progress and weigh-ins to ensure consistent results. The app is available on both iOS and Android platforms, providing a comprehensive mobile coaching experience. Its most used feature is the dynamic macro adjustment algorithm, which intelligently adapts targets to break plateaus or accelerate progress. All user data, including food logs, weight, and progress photos, is securely stored and synced in the cloud, ensuring privacy and continuity across devices.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7947851/pexels-photo-7947851.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7947851/pexels-photo-7947851.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7947851/pexels-photo-7947851.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

@@ -1,65 +1,5 @@
 [
   {
-    "id": 117,
-    "slug": "lorem-ipsum-generator",
-    "toolName": "Lorem Ipsum Generator",
-    "whatItDoes": "A 'Lorem Ipsum Generator' is a ubiquitous online utility that quickly produces traditional Latin-like placeholder text, commonly known as 'Lorem Ipsum', which has been a staple in the design and printing industries since the 1500s. It primarily streamlines the initial stages of design and content layout by providing instantly available, non-distracting text to fill visual spaces. As an online tool, it is universally accessible via any web browser on desktop or mobile devices, requiring no installation. Its most utilized feature is the ability to generate specific quantities of text, such as 5 paragraphs, 100 words, or 500 bytes, often with concrete options for HTML formatting like `<p>` tags for structured output. This tool processes user input (desired length, format) locally or server-side to generate the text, but it does not store or analyze any user content or personal data, functioning purely as a text generation utility.",
-    "category": "Design",
-    "whyItIsUseful": "This tool efficiently eliminates the time-consuming and distracting process of creating or finding meaningful temporary content during the design phase, allowing focus to remain squarely on visual aesthetics and layout. For instance, a UI/UX designer can quickly populate a new website mockup with 3 paragraphs of HTML-formatted Lorem Ipsum to evaluate typography, spacing, and component arrangement before actual content is ready. Similarly, a front-end developer can use it to test the responsiveness and overflow behavior of text containers in a new web application, ensuring the layout scales correctly with varying text lengths. Lorem Ipsum generators are almost universally free-to-use, often supported by minimal advertising or offered as a public service by web development resource sites. While one could manually type random letters, this tool provides semantically structured, paragraph-based text that mimics real language flow, offering a more realistic visual representation than gibberish. A power feature for advanced users includes options for starting with specific phrases, choosing different 'Lorem Ipsum' variations from classical texts, or even including specific punctuation and formatting for precise layout testing. The learning curve is virtually non-existent; users typically just select desired parameters and click a 'generate' button, making it accessible to anyone in seconds.",
-    "imageIdea": "A block of text styled like a newspaper column, with the iconic 'Lorem Ipsum' phrase highlighted at the top, on a web browser interface.",
-    "websiteLink": "https://www.lipsum.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 118,
-    "slug": "figma-2",
-    "toolName": "Figma",
-    "whatItDoes": "Figma, developed by Figma, Inc., is a leading cloud-based interface design and prototyping tool that enables real-time collaborative creation of digital products. It supports the entire product design lifecycle, from initial ideation and wireframing through detailed UI design, high-fidelity prototyping, and seamless developer handoff. Entirely browser-based, Figma is accessible on any operating system (Windows, macOS, Linux) via a web browser, with optional desktop apps for improved performance and font access, and a mobile app for viewing prototypes. Its most used feature is multi-user real-time editing, allowing teams to simultaneously work on the same design file, seeing each other's cursors and changes instantly, much like Google Docs for design. All design files and assets are stored securely in the cloud, offering automatic version history, asset management, and easy sharing without local file management, while ensuring data integrity and accessibility across team members.",
-    "category": "Design",
-    "whyItIsUseful": "Figma completely eliminates the traditional headaches of design file sharing, version control conflicts, and asynchronous feedback loops that plague desktop-based design software. For instance, a product designer can create a complete user flow for a new feature, build interactive prototypes, and share a live link with stakeholders to gather instant feedback, all within a single file. Concurrently, a front-end developer can inspect design elements, copy CSS snippets, export assets (e.g., SVGs, PNGs) directly from the design file, and collaborate with designers on implementation details, significantly speeding up development handoff. Figma operates on a freemium model; individuals and small teams can use a robust free tier, while larger teams and enterprises subscribe to paid plans (e.g., Professional at $15/editor/month, Organization at $45/editor/month) for advanced features like unlimited projects, shared libraries, and SSO. Unlike Adobe XD or Sketch (which traditionally required specific OS and local file management), Figma's browser-native, real-time collaboration and cross-platform accessibility make it vastly superior for distributed teams and rapid iteration. Figma's 'Components' and 'Variants' systems allow for building highly scalable and consistent design systems, where changes to a master component instantly update across hundreds of instances, saving countless hours in large projects. Figma has a moderate learning curve for beginners due to its extensive feature set, but its intuitive UI and vast online community resources (tutorials, plugins) make it relatively easy to master the basics quickly, with advanced features taking more time to fully leverage.",
-    "imageIdea": "A browser window showing multiple cursors on a design canvas, with colorful UI elements and connected lines indicating a user flow, emphasizing collaboration.",
-    "websiteLink": "https://www.figma.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 127,
-    "slug": "google-docs",
-    "toolName": "Google Docs",
-    "whatItDoes": "Google Docs, developed by Google, is a free, web-based word processor that enables users to create, edit, and format text documents online, integrated within the Google Workspace suite. It primarily supports the workflow of document creation and real-time collaborative editing, allowing multiple users to work on the same document simultaneously from different locations. Accessible via any web browser, with dedicated mobile apps for iOS and Android, and offline access capabilities on all platforms, ensuring ubiquitous access. Its most-used feature is undoubtedly the real-time collaborative editing, where users can see changes as they happen, leave comments, and suggest edits, streamlining teamwork. Documents are automatically saved to Google Drive in the cloud, linked to the user's Google account, providing version history and easy sharing with granular permissions.",
-    "category": "Productivity",
-    "whyItIsUseful": "Google Docs eliminates the frustration of version control issues, emailing document attachments back and forth, and the risk of losing unsaved work, making collaborative writing effortless and secure. A student can collaborate on a group project essay with classmates in real-time, easily tracking changes and providing feedback, without worrying about file compatibility or saving issues. A marketing team can draft campaign copy, review press releases, and finalize content strategies together, using comments and suggestions to iterate quickly and efficiently. It is completely free for individual use with a Google account. Business features, including enhanced security and administrative controls, are part of Google Workspace subscriptions, starting around $6/user/month. Its superior real-time collaboration capabilities and seamless integration with the Google ecosystem (Drive, Meet, Calendar) often make it a more agile and user-friendly choice for team projects than traditional desktop word processors like Microsoft Word. Advanced users can leverage add-ons from the Workspace Marketplace for enhanced functionality or integrate with Google Apps Script for custom automation. The learning curve is low; the interface is familiar to anyone who has used a word processor, making it very easy to pick up and use for basic document creation and editing.",
-    "imageIdea": "document editor laptop screen",
-    "websiteLink": "https://docs.google.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 129,
-    "slug": "spotify",
-    "toolName": "Spotify",
-    "whatItDoes": "Spotify, founded by Daniel Ek and Martin Lorentzon, is the world's leading digital audio streaming service, offering on-demand access to over 100 million songs, 5 million podcast titles, and a growing library of audiobooks. Users typically browse curated playlists, search for specific artists or tracks, or discover new content through personalized recommendations, then stream audio directly to their device. It is widely available across web browsers, dedicated desktop applications (Windows, macOS), mobile apps (iOS, Android), smart TVs, gaming consoles, and smart speakers. Its most iconic feature is 'Discover Weekly,' an AI-powered playlist that refreshes every Monday with 30 new songs tailored to the user's listening habits. Spotify primarily streams audio content from its cloud servers, minimizing local storage needs, but premium users can download tracks and podcasts for offline listening, with metadata and user preferences synced across devices.",
-    "category": "Entertainment",
-    "whyItIsUseful": "Spotify solves the problem of limited music libraries, expensive individual track purchases, and the hassle of physical media, offering an expansive, accessible, and personalized audio experience. A daily commuter can effortlessly switch between a motivating workout playlist during their morning run and an engrossing true-crime podcast on their bus ride, all without ad interruptions if they're a premium subscriber. A party host can instantly create a dynamic playlist for their gathering, seamlessly blending genres and artists, or even collaborate with guests on a shared queue, ensuring the perfect ambiance. Spotify operates on a freemium model, offering a free tier with ads and limited skips, alongside various premium subscription plans (Individual, Duo, Family, Student) that provide ad-free listening, offline downloads, and unlimited skips. Compared to Apple Music, Spotify often boasts superior music discovery algorithms and a more robust social sharing ecosystem, making it easier to find new artists and share listening experiences. Advanced users leverage 'Spotify Connect' to seamlessly control playback across multiple compatible devices (speakers, TVs, cars) from their phone, or use 'Blend' to create shared playlists with friends that evolve based on combined tastes. The learning curve is very low; its intuitive interface allows new users to start streaming their favorite content within minutes of signing up.",
-    "imageIdea": "headphones listening music",
-    "websiteLink": "https://www.spotify.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 130,
-    "slug": "evernote-web-clipper",
-    "toolName": "Evernote Web Clipper",
-    "whatItDoes": "The Evernote Web Clipper, developed by Evernote Corporation, is a versatile browser extension designed to capture and save web content directly into a user's Evernote account for later reference and organization. Users navigate to a webpage of interest, click the Clipper icon in their browser toolbar, select their desired save format (e.g., full article, simplified article, screenshot), add tags or a notebook, and then save it instantly to their cloud-synced Evernote notes. It functions as a browser extension for popular desktop browsers like Chrome, Firefox, Edge, and Safari, seamlessly integrating with the web-based, desktop, and mobile Evernote applications. Its most utilized feature is the 'Simplified Article' clipping mode, which intelligently extracts only the main text and images from a webpage, stripping away ads, sidebars, and navigation for a clean, readable save. All clipped content is uploaded to Evernote's secure cloud servers, where it is indexed, made searchable, and synchronized across all of the user's devices that have the Evernote app installed.",
-    "category": "Productivity",
-    "whyItIsUseful": "The Web Clipper solves the pervasive problem of information overload and the difficulty of organizing disparate web content, transforming fleeting online discoveries into structured, searchable knowledge. A university researcher can quickly save relevant academic articles, blog posts, and data visualizations from various websites into a dedicated research notebook, adding notes and highlights directly on the clipped content for future citation. A home cook can effortlessly clip recipes from food blogs, saving them as simplified articles that are easy to read offline, and tag them by cuisine or dietary preference, building a personal digital cookbook. While Evernote itself has a free tier with limited uploads and features, the Web Clipper is free to use but requires an Evernote account. Premium Evernote subscriptions (Personal, Professional) offer increased storage, larger note sizes, and more robust search capabilities across clipped content. Compared to browser-native bookmarking or simple 'read-it-later' services like Pocket, Evernote Web Clipper offers superior organization with notebooks and tags, advanced search within clipped content, and the ability to annotate and edit saved articles directly. Advanced users can utilize the 'Annotate' feature to highlight text, draw arrows, or add comments directly onto a screenshot or a clipped webpage before saving, making it highly effective for collaborative feedback or detailed analysis. The learning curve is very low; most users can effectively clip and organize content within minutes, with advanced features like annotation requiring minimal exploration.",
-    "imageIdea": "browser tab clipping a webpage",
-    "websiteLink": "https://evernote.com/features/web-clipper",
-    "type": "tool",
-    "dateAdded": "2026-04-17"
-  },
-  {
     "id": 131,
     "slug": "calm",
     "toolName": "Calm",
@@ -5732,5 +5672,70 @@
     "websiteLink": "https://slack.com/",
     "type": "tool",
     "dateAdded": "2026-05-08"
+  },
+  {
+    "id": 810,
+    "slug": "plurai",
+    "toolName": "Plurai",
+    "seoTitle": "Plurai — AI agent training and validation",
+    "whatItDoes": "Plurai is an AI development tool designed to ensure the reliability and safety of AI agents. It allows users to define specific behaviors and constraints for their AI agents, acting as guardrails. Plurai then generates training data based on these specifications, validates the data to ensure it aligns with the intended guidelines, and deploys a custom-trained model in mere minutes. This streamlined process accelerates the development and deployment of dependable AI agents for various use cases. The service operates on a freemium model, offering basic features for free with paid tiers for advanced capabilities and higher usage limits.",
+    "category": "Developer",
+    "whyItIsUseful": "Plurai significantly reduces the time and effort required to build robust AI agents. By automating the generation and validation of training data, it eliminates a common bottleneck in AI development. This tool is particularly valuable for developers building complex AI systems that require strict adherence to specific operational parameters, preventing undesirable or harmful outputs. Its ability to rapidly iterate on agent behavior and deployment makes it a powerful asset for startups and established companies alike. Users praise its intuitive interface and the confidence it instills in the reliability of their AI creations. Plurai is ideal for anyone developing AI agents, from individual developers to large engineering teams, looking to ensure predictable and safe AI performance.",
+    "imageIdea": "ai agent training dashboard",
+    "websiteLink": "https://www.producthunt.com/r/2SG5VACZQUBMO7",
+    "type": "tool",
+    "dateAdded": "2026-05-09"
+  },
+  {
+    "id": 811,
+    "slug": "firefliesai-meeting-assistant",
+    "toolName": "Fireflies.ai",
+    "seoTitle": "Fireflies.ai — AI Meeting Assistant & Recorder",
+    "whatItDoes": "Fireflies.ai is an AI-powered assistant that automatically records, transcribes, and summarizes your meetings across various platforms like Zoom, Google Meet, and Microsoft Teams. It integrates with your calendar to join scheduled calls and takes detailed notes, identifying action items and key decisions. The tool offers a freemium model, with paid tiers unlocking more advanced features like in-depth analytics and custom integrations. It excels at providing searchable transcripts and concise summaries, saving significant time on post-meeting follow-up.",
+    "category": "Productivity",
+    "whyItIsUseful": "This tool is invaluable for anyone who attends frequent online meetings and struggles with information overload or remembering critical details. Fireflies.ai eliminates the need for manual note-taking, allowing participants to focus entirely on the discussion. Its AI-generated summaries are remarkably accurate, quickly highlighting the most important takeaways and action items, which can then be easily shared. The searchable transcripts make it effortless to revisit specific parts of a conversation. It integrates seamlessly with popular CRMs and collaboration tools like Salesforce and Asana, streamlining workflows. Users consistently praise its accuracy and the time saved in processing meeting information, making it a favorite among sales teams, project managers, and remote workers.",
+    "imageIdea": "meeting transcription AI assistant",
+    "websiteLink": "https://fireflies.ai",
+    "type": "tool",
+    "dateAdded": "2026-05-09"
+  },
+  {
+    "id": 812,
+    "slug": "arc-browser",
+    "toolName": "Arc Browser",
+    "seoTitle": "Arc Browser — Innovative Internet Browser",
+    "whatItDoes": "Arc Browser is a reimagined web browser built for a more organized and efficient online experience. It features a unique sidebar interface that keeps your tabs, bookmarks, and downloads neatly organized, allowing for quick switching between tasks and projects. Instead of traditional tabs, Arc uses 'spaces' and 'pinnable' tabs to categorize your browsing. It offers a freemium model with core features available at no cost, while advanced functionalities might be part of future paid tiers. Arc's standout feature is its intuitive tab management system, which significantly reduces tab clutter and enhances focus.",
+    "category": "Productivity",
+    "whyItIsUseful": "Arc Browser fundamentally changes how users interact with the web, moving away from the overwhelming grid of tabs found in traditional browsers. Its 'spaces' feature allows users to create distinct browsing environments for different projects or aspects of their lives, preventing context switching fatigue. The ability to pin frequently used sites and organize them makes essential resources readily accessible. This browser is a game-changer for power users, researchers, and anyone who juggles multiple online tasks. By minimizing digital distractions and streamlining navigation, Arc helps users reclaim focus and boost their overall productivity, making it an essential tool for a cleaner, more efficient digital life.",
+    "imageIdea": "modern web browser interface",
+    "websiteLink": "https://arc.net",
+    "type": "tool",
+    "dateAdded": "2026-05-09"
+  },
+  {
+    "id": 813,
+    "slug": "martha-ai-research-assistant",
+    "toolName": "Martha",
+    "seoTitle": "Martha — AI Research and Writing Assistant",
+    "whatItDoes": "Martha is an AI-powered research and writing assistant designed to help users gather information, synthesize complex topics, and generate initial drafts of written content. It allows you to input a topic, and Martha will scour the web for relevant sources, present them in an organized manner, and help you understand the key arguments and evidence. The tool operates on a freemium model, offering basic research capabilities for free with premium subscriptions unlocking more extensive search parameters, advanced synthesis tools, and longer output limits. Martha's strength lies in its ability to quickly provide a structured overview of a subject, saving immense time in the initial research phase.",
+    "category": "Writing",
+    "whyItIsUseful": "For students, academics, journalists, and content creators, Martha can be a revolutionary tool for overcoming the initial hurdles of research and writing. It demystifies complex subjects by providing concise summaries and curated sources, significantly reducing the time spent on literature reviews. The AI's ability to identify key themes and opposing viewpoints across multiple documents is particularly useful for building a robust argument. Martha integrates with common citation managers and can export research notes, further streamlining the writing process. Its intuitive interface makes sophisticated research accessible to users of all technical backgrounds, making it an indispensable ally in any writing-intensive endeavor.",
+    "imageIdea": "AI research synthesis document",
+    "websiteLink": "https://martha.ai",
+    "type": "tool",
+    "dateAdded": "2026-05-09"
+  },
+  {
+    "id": 814,
+    "slug": "evernote-note-taking-app",
+    "toolName": "Evernote",
+    "seoTitle": "Evernote — Digital Note Taking App",
+    "whatItDoes": "Evernote is a powerful note-taking and organization app that allows users to capture ideas, to-do lists, photos, voice memos, and web clippings in a single, searchable database. It supports rich text formatting, tagging, and notebook organization to keep information structured and accessible. Evernote operates on a freemium model, offering a robust free tier with limitations on monthly uploads and device syncing, and paid tiers that unlock advanced features and unlimited usage. It excels at rapidly capturing and finding any piece of information you've stored, making it a digital brain for your personal and professional life.",
+    "category": "Productivity",
+    "whyItIsUseful": "Evernote acts as a central hub for all your thoughts, inspirations, and important documents, eliminating the need to juggle multiple apps or notebooks. Its powerful search functionality means you can find that obscure note from years ago in seconds, a feat unmatched by many simpler note-taking tools. The ability to clip entire web pages, save PDFs, and record voice notes makes it incredibly versatile for students, researchers, writers, and anyone who needs to gather and retain information. Integrations with other productivity tools and its cross-platform availability ensure that your information is always at your fingertips, whether you're on a desktop, tablet, or smartphone. Users rave about how Evernote has helped them declutter their minds and streamline their research processes.",
+    "imageIdea": "digital notebook laptop organization",
+    "websiteLink": "https://evernote.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-09"
   }
 ]
