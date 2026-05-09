@@ -1,62 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T22:12:29.120Z",
+  "generatedAt": "2026-05-09T03:58:05.299Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-c188cdf597c2eb4aa0688a79f715cd8794f02c12-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 8 at 5:52PM EDT until May 8 at 6:15PM EDT by NWS Jacksonville...",
-      "summary": "SVRJAX The National Weather Service in Jacksonville has issued a * Severe Thunderstorm Warning for... East central Flagler County in northeastern Florida... * Until 615 PM EDT. * At 552 PM EDT, a severe thunderstorm was located over Bunnell, moving east at 15 mph. HAZARD...60 mph wind gusts and penny size hail....",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c188cdf597c2eb4aa0688a79f715cd8794f02c12.001.1",
-      "detectedAt": "2026-05-08T22:12:29.120Z",
-      "publishedAt": "2026-05-08",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c188cdf597c2eb4aa0688a79f715cd8794f02c12.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-3fbaadb1a4df06d3707e577ceda3b9a07f5f3f49-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 8 at 4:54PM CDT until May 8 at 5:45PM CDT by NWS Norman...",
-      "summary": "SVROUN The National Weather Service in Norman has issued a * Severe Thunderstorm Warning for... Northwestern Lincoln County in central Oklahoma... Northeastern Logan County in central Oklahoma... Southwestern Payne County in central Oklahoma... * Until 545 PM CDT. * At 454 PM CDT, severe thunderstorms were located...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fbaadb1a4df06d3707e577ceda3b9a07f5f3f49.001.1",
-      "detectedAt": "2026-05-08T22:12:29.120Z",
-      "publishedAt": "2026-05-08",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fbaadb1a4df06d3707e577ceda3b9a07f5f3f49.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
     {
       "id": "candidate-cpsc-26466",
       "type": "current-event",
@@ -65,7 +13,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-08T22:12:29.120Z",
+      "detectedAt": "2026-05-09T03:58:05.299Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -73,7 +21,7 @@
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-08",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-09",
           "role": "event-source"
         },
         {
@@ -84,17 +32,43 @@
       ]
     },
     {
+      "id": "candidate-cpsc-26468",
+      "type": "current-event",
+      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
+      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
+      "detectedAt": "2026-05-09T03:58:05.299Z",
+      "publishedAt": "2026-05-07",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-09",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
       "id": "github-sindresorhus-awesome",
       "type": "github-trending",
       "title": "sindresorhus/awesome is trending on GitHub",
-      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,104 stars and recent pushes visible through the GitHub API.",
+      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,185 stars and recent pushes visible through the GitHub API.",
       "topic": "github.software",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/sindresorhus/awesome",
-      "detectedAt": "2026-05-08T22:12:29.120Z",
+      "detectedAt": "2026-05-09T03:58:05.299Z",
       "publishedAt": "2014-07-11",
       "score": 100,
-      "velocityLabel": "464,104 stars",
+      "velocityLabel": "464,185 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/sindresorhus/awesome",
       "sourceTrail": [
@@ -114,14 +88,14 @@
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,354 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,364 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-08T22:12:29.120Z",
+      "detectedAt": "2026-05-09T03:58:05.299Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,354 stars",
+      "velocityLabel": "444,364 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -144,8 +118,8 @@
     "github returned 12 signal(s).",
     "gnews returned 0 signal(s).",
     "newsapi returned 0 signal(s).",
-    "5 signal(s) cleared the editorial threshold.",
-    "21 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
+    "4 signal(s) cleared the editorial threshold.",
+    "22 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
     "0 near-threshold signal(s) kept as monitors."
   ]
 }
