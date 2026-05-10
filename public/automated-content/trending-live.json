@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-09T22:03:32.606Z",
+  "generatedAt": "2026-05-10T04:17:53.997Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-32da295309b0de57430190855d3bc5b2570b7ec3-002-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-35852521a93db90fac1c601f095adc44350bda7a-001-",
       "type": "current-event",
-      "title": "Severe Thunderstorm Watch issued May 9 at 5:41PM EDT until May 9 at 11:00PM EDT by NWS Cleveland...",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH 195 IN EFFECT UNTIL 11 PM EDT THIS EVENING FOR THE FOLLOWING AREAS THIS WATCH INCLUDES THE FOLLOWING ADJACENT COASTAL WATERS VERMILION TO AVON POINT OH AVON POINT TO WILLOWICK OH WILLOWICK TO GENEVA-ON-THE LAKE OH GENEVA-ON-THE-LAKE TO CONNEAUT OH...",
+      "title": "Severe Thunderstorm Warning issued May 9 at 11:03PM CDT until May 9 at 11:45PM CDT by NWS Norman...",
+      "summary": "SVROUN The National Weather Service in Norman has issued a * Severe Thunderstorm Warning for... Southeastern Jefferson County in southern Oklahoma... Love County in southern Oklahoma... Southern Carter County in southern Oklahoma... West central Marshall County in southeastern Oklahoma... East central Clay County in...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32da295309b0de57430190855d3bc5b2570b7ec3.002.1",
-      "detectedAt": "2026-05-09T22:03:32.606Z",
-      "publishedAt": "2026-05-09",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.35852521a93db90fac1c601f095adc44350bda7a.001.1",
+      "detectedAt": "2026-05-10T04:17:53.997Z",
+      "publishedAt": "2026-05-10",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
@@ -26,21 +26,21 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.32da295309b0de57430190855d3bc5b2570b7ec3.002.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.35852521a93db90fac1c601f095adc44350bda7a.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-e45f680acfe945a300e87967a50261037e52f62a-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-d779c806effd502c2dfb12bfd1cb893dfc58f05c-001-",
       "type": "current-event",
-      "title": "Severe Thunderstorm Watch issued May 9 at 5:41PM EDT until May 9 at 11:00PM EDT by NWS State...",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH 195 IN EFFECT UNTIL 11 PM EDT THIS EVENING FOR THE FOLLOWING AREAS IN PENNSYLVANIA THIS WATCH INCLUDES 1 COUNTY IN CENTRAL PENNSYLVANIA WARREN THIS INCLUDES THE CITIES OF WARREN.",
+      "title": "Severe Thunderstorm Warning issued May 9 at 11:06PM CDT until May 10 at 12:00AM CDT by NWS Fort...",
+      "summary": "SVRFWD The National Weather Service in Fort Worth has issued a * Severe Thunderstorm Warning for... Northeastern Montague County in north central Texas... Central Cooke County in north central Texas... * Until midnight CDT. * At 1106 PM CDT, a severe thunderstorm was located near Ringling, or 18 miles east of...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e45f680acfe945a300e87967a50261037e52f62a.001.1",
-      "detectedAt": "2026-05-09T22:03:32.606Z",
-      "publishedAt": "2026-05-09",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d779c806effd502c2dfb12bfd1cb893dfc58f05c.001.1",
+      "detectedAt": "2026-05-10T04:17:53.997Z",
+      "publishedAt": "2026-05-10",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
@@ -52,7 +52,7 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e45f680acfe945a300e87967a50261037e52f62a.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d779c806effd502c2dfb12bfd1cb893dfc58f05c.001.1",
           "role": "event-source"
         }
       ]
@@ -65,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-09T22:03:32.606Z",
+      "detectedAt": "2026-05-10T04:17:53.997Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -73,7 +73,7 @@
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-09",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-10",
           "role": "event-source"
         },
         {
@@ -87,14 +87,14 @@
       "id": "github-sindresorhus-awesome",
       "type": "github-trending",
       "title": "sindresorhus/awesome is trending on GitHub",
-      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,520 stars and recent pushes visible through the GitHub API.",
+      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 464,623 stars and recent pushes visible through the GitHub API.",
       "topic": "github.software",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/sindresorhus/awesome",
-      "detectedAt": "2026-05-09T22:03:32.606Z",
+      "detectedAt": "2026-05-10T04:17:53.997Z",
       "publishedAt": "2014-07-11",
       "score": 100,
-      "velocityLabel": "464,520 stars",
+      "velocityLabel": "464,623 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/sindresorhus/awesome",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,406 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,410 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-09T22:03:32.606Z",
+      "detectedAt": "2026-05-10T04:17:53.997Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,406 stars",
+      "velocityLabel": "444,410 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
