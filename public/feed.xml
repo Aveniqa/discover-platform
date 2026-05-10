@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bevy</title>
+      <link>https://surfaced-x.pages.dev/item/bevy-game-engine-rust</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bevy-game-engine-rust</guid>
+      <description>Bevy is a free, open-source, data-driven game engine built in Rust, designed for rapid development and performance. It leverages the power of the Rust programming language for safety and speed, while its architecture is inspired by data-oriented design principles. Bevy focuses on providing a modular and extensible framework, making it approachable for beginners while offering the depth needed for complex projects. It&apos;s an excellent choice for indie game developers, hobbyists, and anyone interested in exploring modern game development paradigms without the cost of proprietary engines. Bevy is particularly adept at creating efficient and scalable game logic through its robust entity-component-system (ECS) architecture.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g6dd5172195bbaab17195847145b818e6f0d4dacfb7c1b8f5eb3c0d9f9949209bacb3914fefe9c9980bf76edc5694dc2e93a10d574a33532890b7d6d5801e4b6f_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g6dd5172195bbaab17195847145b818e6f0d4dacfb7c1b8f5eb3c0d9f9949209bacb3914fefe9c9980bf76edc5694dc2e93a10d574a33532890b7d6d5801e4b6f_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g6dd5172195bbaab17195847145b818e6f0d4dacfb7c1b8f5eb3c0d9f9949209bacb3914fefe9c9980bf76edc5694dc2e93a10d574a33532890b7d6d5801e4b6f_1280.jpg" />
+    </item>
+    <item>
+      <title>Google Docs</title>
+      <link>https://surfaced-x.pages.dev/item/google-docs-collaboration</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/google-docs-collaboration</guid>
+      <description>Google Docs is a free, web-based word processor that allows users to create, edit, and collaborate on documents in real-time. It offers a familiar interface with robust formatting tools, templates, and the ability to insert images, tables, and drawings. The key differentiator is its seamless real-time collaboration feature, allowing multiple users to work on the same document simultaneously, with changes visible instantly. Documents are automatically saved to Google Drive, ensuring they are accessible from any device. It’s particularly effective for group projects and co-authoring, making remote teamwork effortless.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8636637/pexels-photo-8636637.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8636637/pexels-photo-8636637.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8636637/pexels-photo-8636637.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Typefully</title>
+      <link>https://surfaced-x.pages.dev/item/typefully-writing-platform</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typefully-writing-platform</guid>
+      <description>Typefully is a streamlined writing platform specifically built for crafting engaging social media content, particularly for Twitter (X). It provides a distraction-free environment with advanced writing tools like AI-powered suggestions, readability checks, and character count optimization, ensuring your message is clear and impactful. Typefully focuses on helping users write better threads, individual posts, and schedule them efficiently. It operates on a freemium model, offering core writing features for free and paid tiers for advanced analytics, unlimited scheduling, and team collaboration. Its strength lies in its specialized focus on making social media writing effective and efficient.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/15595294/pexels-photo-15595294.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/15595294/pexels-photo-15595294.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/15595294/pexels-photo-15595294.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Memoria</title>
+      <link>https://surfaced-x.pages.dev/item/memoria-calendar-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/memoria-calendar-app</guid>
+      <description>Memoria is a private and secure digital journaling application designed to help users capture and reflect on their daily lives. It goes beyond simple text entries by allowing users to enrich their journal with photos, videos, location data, and even mood tracking. The app prioritizes user privacy with end-to-end encryption and local storage options, ensuring personal thoughts remain confidential. Memoria offers a one-time purchase for full functionality, with no subscriptions. It is particularly adept at creating rich, multimedia-filled journal entries that serve as a comprehensive personal archive.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6687738/pexels-photo-6687738.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6687738/pexels-photo-6687738.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6687738/pexels-photo-6687738.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Vivaldi Browser</title>
+      <link>https://surfaced-x.pages.dev/item/arc-browser-alternative</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/arc-browser-alternative</guid>
+      <description>Vivaldi is a highly customizable web browser built for power users, offering unparalleled control over your browsing experience. It goes far beyond basic tab management with features like tab stacking, tiling, and a command chain system for automating tasks. Vivaldi is free to use and runs on Chromium, ensuring compatibility with most websites and extensions. It&apos;s particularly adept at managing complex browsing sessions with numerous open tabs, allowing users to organize and switch between them efficiently and without performance degradation, a task many simpler browsers struggle with.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gb9fae474d4a71de1f4b534dc7ded99f84bbc487fa400a1c86a33bcf0c3af60c77ba56487b85ea7bc48e1fc83f8f678e3d0b71ea9e9e18b62bb5f2e3d019ab815_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gb9fae474d4a71de1f4b534dc7ded99f84bbc487fa400a1c86a33bcf0c3af60c77ba56487b85ea7bc48e1fc83f8f678e3d0b71ea9e9e18b62bb5f2e3d019ab815_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gb9fae474d4a71de1f4b534dc7ded99f84bbc487fa400a1c86a33bcf0c3af60c77ba56487b85ea7bc48e1fc83f8f678e3d0b71ea9e9e18b62bb5f2e3d019ab815_1280.jpg" />
+    </item>
     <item>
       <title>Evernote</title>
       <link>https://surfaced-x.pages.dev/item/evernote-note-taking-app</link>
@@ -478,6 +533,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/760718/pexels-photo-760718.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Project Jupyter</title>
+      <link>https://surfaced-x.pages.dev/item/project-jupyter</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/project-jupyter</guid>
+      <description>Project Jupyter provides open-source software, interactive computing environments, and data science tools. Its flagship product, Jupyter Notebook, allows users to create and share documents that contain live code, equations, visualizations, and narrative text. This makes it incredibly powerful for data exploration, statistical modeling, machine learning, and scientific research, enabling reproducible workflows. Data scientists, researchers, and educators use it daily to analyze data and communicate findings.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7856673/pexels-photo-7856673.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7856673/pexels-photo-7856673.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7856673/pexels-photo-7856673.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Loop Habit Tracker</title>
       <link>https://surfaced-x.pages.dev/item/loop-habit-tracker-android</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/loop-habit-tracker-android</guid>
@@ -487,72 +553,6 @@
       <enclosure url="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Habitica: Gamify Your Life</title>
-      <link>https://surfaced-x.pages.dev/item/habitica-gamify-your-life</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/habitica-gamify-your-life</guid>
-      <description>Habitica, an open-source project, transforms habit building and to-do list management into a role-playing game, turning real-life tasks into quests and challenges. Users create an avatar, add daily habits, to-dos, and recurring tasks, then earn gold, experience points, and items for completing them, while losing health for missed tasks. It is available on the web, iOS, Android, and offers a robust API for third-party integrations, providing broad accessibility. The most used feature is its quest system, where users can team up with friends to defeat monsters, adding a social and cooperative element to productivity. User data is stored in the cloud, offering seamless sync across devices, and as an open-source platform, its code is publicly auditable for transparency.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5090681/pexels-photo-5090681.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5090681/pexels-photo-5090681.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5090681/pexels-photo-5090681.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Streaks</title>
-      <link>https://surfaced-x.pages.dev/item/streaks-habit-tracker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/streaks-habit-tracker</guid>
-      <description>Streaks, developed by Crunchy Bagel, is a visually elegant habit tracker for iOS, iPadOS, and watchOS designed to help users form positive habits and break negative ones by focusing on consistency. Users choose up to 12 habits, then mark them complete daily, aiming to maintain a continuous streak of successful days, with reminders and statistics to aid progress. It works seamlessly across Apple devices, including iPhone, iPad, Apple Watch, and Mac, with iCloud synchronization. Its most used feature is the intuitive circle-based interface, where tapping a habit marks it done, making daily tracking effortless and satisfying. All habit data is securely synced via iCloud, ensuring privacy and accessibility across a user&apos;s Apple ecosystem, with no external cloud services involved.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1697032354273-92fa42a04f53?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0ODI1Mjh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1697032354273-92fa42a04f53?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0ODI1Mjh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1697032354273-92fa42a04f53?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc0ODI1Mjh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>MealLogger</title>
-      <link>https://surfaced-x.pages.dev/item/meallogger-photo-food-journal-coach</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/meallogger-photo-food-journal-coach</guid>
-      <description>MealLogger, developed by Wellness Interactive Technologies, is a photo-based food journaling app designed to help users track their meals and connect with dietitians or coaches. Users simply snap photos of their food before and after eating, add quick notes, and can share their logs privately with a professional for feedback and guidance. The app is available for both iOS and Android smartphones, providing an intuitive mobile logging experience. Its most used feature is the quick and easy photo logging, which makes tracking meals far less tedious than manual data entry. All meal photos, notes, and communications are securely stored in the cloud, ensuring privacy and allowing coaches to access client data remotely.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8951603/pexels-photo-8951603.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8951603/pexels-photo-8951603.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8951603/pexels-photo-8951603.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Cooklist</title>
-      <link>https://surfaced-x.pages.dev/item/cooklist-recipes-pantry-grocery-list</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cooklist-recipes-pantry-grocery-list</guid>
-      <description>Cooklist, developed by Cooklist Labs, is an innovative app that combines recipe discovery with smart pantry management and automated grocery list creation. It allows users to scan barcodes of groceries, link loyalty programs for automatic syncing, and then suggests recipes based on ingredients currently in their pantry and fridge, while also building shopping lists for missing items. The app is available for iOS and Android devices, with a companion web interface for recipe browsing. Its most used feature is the &quot;Pantry Sync,&quot; which automatically updates your inventory from grocery store purchases and suggests recipes accordingly. All pantry data, recipes, and shopping lists are securely stored and synced in the cloud, providing a unified and always-updated view of your kitchen inventory.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17627339/pexels-photo-17627339.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/17627339/pexels-photo-17627339.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/17627339/pexels-photo-17627339.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Diagrams: Code for Visuals</title>
-      <link>https://surfaced-x.pages.dev/item/diagrams-as-code-tool</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/diagrams-as-code-tool</guid>
-      <description>Diagrams is a Python library that allows you to programmatically create cloud system architecture diagrams. Instead of manually dragging and dropping shapes in a GUI tool, you write Python code to define your infrastructure, and Diagrams generates the visual representation. It supports a wide range of cloud providers and services, making it incredibly useful for documenting complex systems. Developers and architects can use it to version control their diagrams, automatically update them with infrastructure changes, and integrate diagram generation into CI/CD pipelines.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1705077031869-51b60754302a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1705077031869-51b60754302a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1705077031869-51b60754302a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>FoodHero</title>
-      <link>https://surfaced-x.pages.dev/item/foodhero-reduce-food-waste-discounts</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/foodhero-reduce-food-waste-discounts</guid>
-      <description>FoodHero, a Canadian-based company, is a mobile application designed to combat food waste by connecting consumers with grocery stores offering discounted surplus food items nearing their expiration dates. Users can browse deals from participating local stores, reserve items through the app, and then pick them up, getting quality food at a reduced price. The app is available on both iOS and Android devices, making it accessible for a wide range of smartphone users. Its most used feature is the real-time notification system, alerting users to new deals from their favorite local grocery stores. All transaction data, user preferences, and store partnerships are securely managed and synced in the cloud, ensuring an efficient and reliable service.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6389973/pexels-photo-6389973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6389973/pexels-photo-6389973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6389973/pexels-photo-6389973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

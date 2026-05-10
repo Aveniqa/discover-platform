@@ -1,65 +1,5 @@
 [
   {
-    "id": 131,
-    "slug": "calm",
-    "toolName": "Calm",
-    "whatItDoes": "Calm, founded by Alex Tew and Michael Acton Smith, is a leading mindfulness and mental wellness application designed to help users reduce stress, improve sleep quality, and cultivate greater presence through guided meditation, sleep-inducing audio, and relaxation techniques. Users typically open the app, choose from categories like 'Sleep,' 'Meditate,' or 'Music,' select a program or track, and then follow audio instructions or listen to calming sounds, often for a set duration. Calm is primarily available as a mobile application for iOS and Android devices, with some content accessible via its website, and integrations with smart speakers like Google Home and Amazon Alexa. Its most iconic and popular feature is 'Sleep Stories,' a collection of soothing bedtime tales narrated by calming voices (including celebrities like Matthew McConaughey), designed to gently lull listeners to sleep. Calm streams audio content from its cloud platform to users' devices, tracking user progress (e.g., meditation streaks, completed sessions) and preferences, which are then synced across devices to personalize the user experience.",
-    "category": "Health",
-    "whyItIsUseful": "Calm directly addresses the widespread challenges of insomnia, chronic stress, and anxiety in modern life, offering accessible, evidence-based tools to improve mental and emotional well-being without requiring prior experience in mindfulness. A busy professional can use Calm's 'Daily Calm' — a 10-minute guided meditation – each morning to center themselves before a demanding workday, improving focus and reducing reactivity to workplace stressors. A parent struggling with evening winding down can play a 'Sleep Story' for themselves or their children, helping to establish a calming bedtime routine and promote deeper, more restorative sleep for the entire family. Calm operates on a freemium model, offering a limited selection of free content (e.g., a few meditations, a single sleep story), but the vast majority of its library, including all 'Sleep Stories' and full meditation programs, requires a paid annual subscription, often around $70. While Headspace focuses heavily on structured meditation courses, Calm offers a broader appeal with its extensive 'Sleep Stories' library and diverse relaxing music, making it a more comprehensive solution for both sleep and general stress reduction. Advanced users can delve into specialized meditation programs for specific goals like 'Breaking Habits' or 'Self-Esteem,' or utilize the 'Calm Body' section for mindful movement and stretching routines. The learning curve is very low, as its intuitive interface and gentle guidance make it easy for beginners to start meditating or using sleep aids immediately.",
-    "imageIdea": "person meditating by a serene lake",
-    "websiteLink": "https://www.calm.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-17"
-  },
-  {
-    "id": 132,
-    "slug": "streamlit-python-data-apps",
-    "toolName": "Streamlit",
-    "whatItDoes": "Streamlit is an open-source Python library, incubated by Google and now part of Snowflake, designed to simplify and accelerate the creation of custom, interactive web applications specifically for machine learning and data science projects. Data scientists write standard Python scripts, embed Streamlit commands to add interactive widgets and display data visualizations, and then run a single command to instantly transform their script into a shareable web application. Streamlit apps run in web browsers and can be deployed on various cloud platforms (e.g., AWS, GCP, Azure, Heroku, or Streamlit Community Cloud) accessible from any device with a web browser. Its most impactful feature is the ability to turn a simple data script into a dynamic web app with interactive widgets (sliders, text inputs, checkboxes) using just a few lines of Python code, enabling rapid prototyping and iteration. Streamlit apps execute Python code on a server, processing data and generating visualizations which are then rendered in the user's web browser; it supports various data sources like local files, databases, and APIs.",
-    "category": "Developer",
-    "whyItIsUseful": "Streamlit eradicates the common bottleneck for data scientists: the complex and time-consuming process of building a web interface to showcase models or interactive dashboards, which traditionally required deep knowledge of front-end web development frameworks. A data scientist can quickly build an interactive dashboard to visualize the performance metrics of a new machine learning model, allowing non-technical stakeholders to upload their own data and explore predictions in real-time. A university professor can create an intuitive educational tool for students to interact with complex algorithms, adjusting parameters and observing immediate results, thereby enhancing learning and experimentation without needing to write any HTML or JavaScript. Streamlit is an open-source library and completely free to use. Deployment can be done on free tiers of cloud providers or via Streamlit Community Cloud, which offers free hosting for public apps, with paid options for private apps and enterprise features through Snowflake. Unlike more complex frameworks like Flask or Django which require extensive web development knowledge, Streamlit offers unparalleled speed and simplicity for building data apps, often reducing development time from days to hours by leveraging pure Python. Advanced users can leverage `st.cache_data` and `st.cache_resource` decorators for intelligent caching, significantly speeding up app performance by preventing re-execution of expensive data loads or computations on every interaction. The learning curve is remarkably low for Python users; basic interactive apps can be built with just a few lines of code and a fundamental understanding of Python, making it highly accessible.",
-    "imageIdea": "python code editor with a running web application",
-    "websiteLink": "https://streamlit.io/",
-    "type": "tool",
-    "dateAdded": "2026-04-17"
-  },
-  {
-    "id": 133,
-    "slug": "mempalace",
-    "toolName": "mempalace",
-    "whatItDoes": "mempalace is an open-source AI memory system designed to store, retrieve, and organize vast amounts of information, acting as an external brain for users. It aims to provide a highly efficient and benchmarked solution for managing personal knowledge, research, or creative project data. The system is free to use, offering a powerful alternative to proprietary solutions for those who value data ownership and customizability. It excels at enabling rapid recall and contextual linking of information, making it a standout for deep research dives.",
-    "category": "Productivity",
-    "whyItIsUseful": "mempalace offers unparalleled control and performance for individuals managing extensive digital knowledge bases. Its open-source nature means it's constantly being improved by a community, ensuring it stays at the cutting edge of AI memory technology without recurring costs. Users can integrate it with their existing workflows, creating a seamless extension of their own cognitive processes. Enthusiasts highlight its ability to connect seemingly disparate pieces of information, leading to novel insights and accelerating creative output. It's particularly valuable for academics, researchers, writers, and anyone who needs to synthesize and access large volumes of complex data efficiently.",
-    "imageIdea": "digital brain data network",
-    "websiteLink": "https://github.com/MemPalace/mempalace",
-    "type": "tool",
-    "dateAdded": "2026-04-18"
-  },
-  {
-    "id": 134,
-    "slug": "nuwa-skill",
-    "toolName": "nuwa-skill",
-    "whatItDoes": "nuwa-skill is a groundbreaking AI tool that allows you to distill and replicate the thinking patterns and cognitive models of any individual. Instead of just learning information, it helps you understand *how* someone arrives at their conclusions, their decision-making heuristics, and their unique communication style. This is achieved through advanced AI analysis, creating a digital 'mind model' that can be studied and applied. It's particularly adept at capturing complex strategic thinking and problem-solving approaches, offering a unique way to learn from experts.",
-    "category": "Education",
-    "whyItIsUseful": "This tool provides an unprecedented opportunity to learn from the best minds in any field, not just by consuming their output, but by understanding their underlying thought processes. Imagine being able to internalize the strategic genius of a business leader, the creative methodology of an artist, or the analytical rigor of a scientist. nuwa-skill facilitates this deep learning, allowing users to enhance their own decision-making, problem-solving, and communication skills. It’s invaluable for aspiring professionals, students seeking advanced learning, and anyone looking to elevate their cognitive abilities by deconstructing expert thinking.",
-    "imageIdea": "human brain with gears",
-    "websiteLink": "https://github.com/alchaincyf/nuwa-skill",
-    "type": "tool",
-    "dateAdded": "2026-04-18"
-  },
-  {
-    "id": 135,
-    "slug": "gbrain",
-    "toolName": "gbrain",
-    "whatItDoes": "gbrain is an opinionated, open-source agent brain built on the OpenClaw/Hermes framework, designed to empower advanced AI agents. It provides a structured and intelligent core for agents to process information, make decisions, and execute tasks within complex environments. Developed with specific design choices in mind, gbrain aims to offer a robust and efficient foundation for building sophisticated AI assistants and autonomous systems. Its strength lies in providing a coherent and opinionated architecture that simplifies the development of highly capable AI agents.",
-    "category": "Developer",
-    "whyItIsUseful": "For developers working on cutting-edge AI agents, gbrain offers a powerful, pre-architected 'brain' that significantly accelerates development time. Instead of building a decision-making and processing core from scratch, developers can leverage gbrain's well-defined structure and intelligent capabilities. This allows them to focus on higher-level agent behaviors and specific task implementations. Its opinionated design means it comes with built-in best practices, reducing the chances of common pitfalls. Gbrain is ideal for researchers, AI enthusiasts, and professional developers looking to create sophisticated, autonomous agents for various applications.",
-    "imageIdea": "ai robot circuit board",
-    "websiteLink": "https://github.com/garrytan/gbrain",
-    "type": "tool",
-    "dateAdded": "2026-04-18"
-  },
-  {
     "id": 136,
     "slug": "brila",
     "toolName": "Brila",
@@ -5437,7 +5377,8 @@
     "imageIdea": "magazine spread digital presentation",
     "websiteLink": "https://github.com/op7418/guizang-ppt-skill",
     "type": "tool",
-    "dateAdded": "2026-04-29"
+    "dateAdded": "2026-04-29",
+    "badge": "editors-pick"
   },
   {
     "id": 792,
@@ -5737,5 +5678,70 @@
     "websiteLink": "https://evernote.com/",
     "type": "tool",
     "dateAdded": "2026-05-09"
+  },
+  {
+    "id": 815,
+    "slug": "arc-browser-alternative",
+    "toolName": "Vivaldi Browser",
+    "seoTitle": "Vivaldi Browser — Customizable power user browser",
+    "whatItDoes": "Vivaldi is a highly customizable web browser built for power users, offering unparalleled control over your browsing experience. It goes far beyond basic tab management with features like tab stacking, tiling, and a command chain system for automating tasks. Vivaldi is free to use and runs on Chromium, ensuring compatibility with most websites and extensions. It's particularly adept at managing complex browsing sessions with numerous open tabs, allowing users to organize and switch between them efficiently and without performance degradation, a task many simpler browsers struggle with.",
+    "category": "Productivity",
+    "whyItIsUseful": "Vivaldi is for anyone who feels constrained by mainstream browsers. Its extensive customization options, from appearance to shortcuts and even mouse gestures, allow users to tailor the browser precisely to their workflow. The built-in tools like a note-taker, web panel for keeping sites open in a sidebar, and robust history explorer reduce the need for numerous plugins. For professionals who juggle many projects and research concurrently, Vivaldi's ability to tile tabs, stack them logically, and quickly navigate between them is a significant time-saver. It also offers advanced privacy features and syncs settings across devices. Enthusiasts often highlight how it evolves with their needs, providing a stable yet adaptable platform for deep web immersion.",
+    "imageIdea": "web browser user interface customization",
+    "websiteLink": "https://vivaldi.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-10"
+  },
+  {
+    "id": 816,
+    "slug": "memoria-calendar-app",
+    "toolName": "Memoria",
+    "seoTitle": "Memoria — Digital journaling memory keeper.",
+    "whatItDoes": "Memoria is a private and secure digital journaling application designed to help users capture and reflect on their daily lives. It goes beyond simple text entries by allowing users to enrich their journal with photos, videos, location data, and even mood tracking. The app prioritizes user privacy with end-to-end encryption and local storage options, ensuring personal thoughts remain confidential. Memoria offers a one-time purchase for full functionality, with no subscriptions. It is particularly adept at creating rich, multimedia-filled journal entries that serve as a comprehensive personal archive.",
+    "category": "Productivity",
+    "whyItIsUseful": "In an era of constant digital distraction, Memoria offers a sanctuary for personal reflection and memory preservation. Its emphasis on privacy means users can be completely open with their entries, fostering genuine self-discovery and emotional processing. The ability to attach media to entries transforms static text into vivid recollections, making reviewing past moments a truly immersive experience. Memoria acts as a personal time capsule, allowing users to track personal growth, document life events, and revisit cherished memories with unparalleled detail. It's perfect for anyone seeking to cultivate mindfulness, improve self-awareness, or simply ensure their life's stories are beautifully and securely preserved.",
+    "imageIdea": "journaling app personal reflection",
+    "websiteLink": "https://memoria.app",
+    "type": "tool",
+    "dateAdded": "2026-05-10"
+  },
+  {
+    "id": 817,
+    "slug": "typefully-writing-platform",
+    "toolName": "Typefully",
+    "seoTitle": "Typefully — Write better social media.",
+    "whatItDoes": "Typefully is a streamlined writing platform specifically built for crafting engaging social media content, particularly for Twitter (X). It provides a distraction-free environment with advanced writing tools like AI-powered suggestions, readability checks, and character count optimization, ensuring your message is clear and impactful. Typefully focuses on helping users write better threads, individual posts, and schedule them efficiently. It operates on a freemium model, offering core writing features for free and paid tiers for advanced analytics, unlimited scheduling, and team collaboration. Its strength lies in its specialized focus on making social media writing effective and efficient.",
+    "category": "Writing",
+    "whyItIsUseful": "Typefully empowers individuals and businesses to significantly elevate their social media presence by making the writing process more deliberate and effective. The AI assistance helps overcome writer's block and refine messaging for maximum engagement, while the thread composer simplifies the creation of longer-form narratives. For content creators, marketers, and thought leaders, this tool translates into saved time and increased impact, as well-crafted posts are more likely to resonate with audiences and achieve communication goals. Integrations with social media platforms allow for seamless publishing. Typefully is invaluable for anyone who relies on social media for communication, branding, or influence, transforming it from a chore into a strategic advantage.",
+    "imageIdea": "social media writing app content creation",
+    "websiteLink": "https://typefully.com",
+    "type": "tool",
+    "dateAdded": "2026-05-10"
+  },
+  {
+    "id": 818,
+    "slug": "google-docs-collaboration",
+    "toolName": "Google Docs",
+    "seoTitle": "Google Docs — Free Online Document Editor",
+    "whatItDoes": "Google Docs is a free, web-based word processor that allows users to create, edit, and collaborate on documents in real-time. It offers a familiar interface with robust formatting tools, templates, and the ability to insert images, tables, and drawings. The key differentiator is its seamless real-time collaboration feature, allowing multiple users to work on the same document simultaneously, with changes visible instantly. Documents are automatically saved to Google Drive, ensuring they are accessible from any device. It’s particularly effective for group projects and co-authoring, making remote teamwork effortless.",
+    "category": "Writing",
+    "whyItIsUseful": "Google Docs revolutionizes collaborative writing by enabling simultaneous editing with clear visibility of who is working where. This feature alone saves immense time and reduces confusion compared to traditional document sharing methods. Its cloud-based nature means no lost work due to crashes, and documents are accessible from any internet-connected device. The extensive revision history allows users to track changes and revert to previous versions if needed. Integrations with other Google Workspace apps like Sheets and Slides create a cohesive productivity suite. It’s an essential tool for students, teams, and anyone who needs to write and share documents efficiently with others.",
+    "imageIdea": "people collaborating online document",
+    "websiteLink": "https://docs.google.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-10"
+  },
+  {
+    "id": 819,
+    "slug": "bevy-game-engine-rust",
+    "toolName": "Bevy",
+    "seoTitle": "Bevy — Open-Source Data-Driven Game Engine",
+    "whatItDoes": "Bevy is a free, open-source, data-driven game engine built in Rust, designed for rapid development and performance. It leverages the power of the Rust programming language for safety and speed, while its architecture is inspired by data-oriented design principles. Bevy focuses on providing a modular and extensible framework, making it approachable for beginners while offering the depth needed for complex projects. It's an excellent choice for indie game developers, hobbyists, and anyone interested in exploring modern game development paradigms without the cost of proprietary engines. Bevy is particularly adept at creating efficient and scalable game logic through its robust entity-component-system (ECS) architecture.",
+    "category": "Developer",
+    "whyItIsUseful": "Bevy offers a compelling alternative in the game development landscape, prioritizing developer experience and modern architectural patterns. Its foundation in Rust ensures memory safety and high performance, critical for demanding game applications. The data-driven ECS architecture promotes a clean separation of concerns, leading to more maintainable and scalable codebases. For developers frustrated with the complexity or licensing of other engines, Bevy provides a refreshing, community-driven, and transparent path to creating games. The engine's rapid iteration cycle and growing community support mean it's constantly improving, making it an exciting choice for those looking to build innovative 2D and 3D experiences. Its focus on emergent behavior and component-based design makes it particularly powerful for prototyping and complex simulations.",
+    "imageIdea": "video game development code engine interface",
+    "websiteLink": "https://bevyengine.org/",
+    "type": "tool",
+    "dateAdded": "2026-05-10"
   }
 ]

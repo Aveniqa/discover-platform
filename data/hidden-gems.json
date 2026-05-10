@@ -1,70 +1,5 @@
 [
   {
-    "id": 127,
-    "slug": "polypane",
-    "name": "Polypane",
-    "whatItDoes": "Polypane is a purpose-built browser for web development and design, created by Kilian Valkhof, specifically engineered to streamline responsive testing workflows. It simultaneously displays multiple synchronized viewports, emulating various device sizes, resolutions, and orientations (e.g., iPhone 13, iPad Pro, desktop) in a single window, allowing real-time, side-by-side responsive testing. It's primarily built for front-end developers, web designers, QA testers, and agencies focused on building high-quality, responsive websites and web applications. Developers open their project in Polypane, which then renders it across multiple device panels; changes made in code are instantly reflected across all viewports, and interactions in one panel are mirrored across others, drastically accelerating the testing feedback loop. Available for Windows, macOS, and Linux, it integrates with popular development tools, offers extensive debugging capabilities, and includes built-in accessibility checks, color contrast analysis, and screenshot tools.",
-    "category": "Developer",
-    "whyItIsUseful": "Polypane dramatically outperforms traditional browser developer tools (e.g., Chrome DevTools' device mode) and manual resizing by offering a synchronized, multi-viewport environment, reducing responsive testing time by up to 80%; it eliminates the need for endless tab switching and manual refresh. A freelance web designer can use Polypane to ensure their client's new portfolio site looks pixel-perfect on mobile, tablet, and desktop simultaneously, catching layout issues instantly. A front-end team lead can integrate Polypane into their QA process, using its comprehensive accessibility and performance checks to maintain high standards across all device breakpoints. Polypane is a premium software, offering a free trial period, with its advanced features and continuous development supported by a subscription model. Many users are drawn to the multi-viewport feature but later discover its powerful 'debug tools' like the element inspector that highlights elements across all viewports simultaneously, or its comprehensive 'accessibility panel' that checks for WCAG compliance. Its specialized nature means it's a niche tool for professional web developers and designers, and its premium pricing might also be a barrier for casual users, despite the significant productivity gains it offers to its target audience. Kilian Valkhof actively maintains Polypane, providing frequent updates with new features, device emulators, and performance improvements, and there's a dedicated user community and responsive support.",
-    "imageIdea": "A browser window split into many smaller windows, each showing a website at a different viewport size, with developer tools visible.",
-    "websiteLink": "https://polypane.app/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fpolypane.app%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 129,
-    "slug": "endel",
-    "name": "Endel",
-    "whatItDoes": "Endel is an AI-powered soundscape generator developed by the Endel team. Its core feature is creating personalized, non-looping audio environments tailored to enhance specific cognitive states like focus, relaxation, and sleep. It's primarily built for individuals seeking a scientifically-backed solution to improve their daily well-being and productivity. Users integrate Endel into their daily routines by selecting a desired mode, and the app dynamically adapts its soundscapes in real-time based on factors such as time of day, weather, and even biometric data like heart rate from connected wearables. Available across iOS, Android, macOS, Apple Watch, and Amazon Alexa, Endel provides a pervasive sonic environment.",
-    "category": "Health",
-    "whyItIsUseful": "Endel surpasses traditional ambient sound apps or static white noise generators by leveraging AI and scientific principles like psychoacoustics and circadian rhythms. This dynamic adaptation prevents 'ear fatigue' and measurably enhances cognitive states, with users often reporting up to 20% improved focus. For a professional, using Endel's 'Focus' soundscape during deep work sessions can significantly boost concentration and output. Meanwhile, a new parent might find its 'Sleep' soundscape invaluable for calming an infant or achieving personal relaxation after a demanding day. Endel typically offers a limited free trial, with full access requiring a subscription, usually around $5.99/month or $49.99/year. A powerful feature often overlooked is its deep integration with personal biometrics, such as heart rate data from Apple Health, allowing for truly personalized and hyper-adaptive audio experiences beyond simple environmental cues. Despite its scientific backing and efficacy, the subscription model and a general perception as 'just another sound app' can limit its broader adoption, overshadowing its advanced AI capabilities. The Endel team maintains an active development cycle, releasing regular updates with new soundscapes and features, and engaging with its community across various platforms.",
-    "imageIdea": "sleep focus audio app waveform display phone screen calm bedroom night",
-    "websiteLink": "https://endel.io/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fendel.io%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 131,
-    "slug": "kap",
-    "name": "Kap",
-    "whatItDoes": "Kap is a free, open-source screen recording application developed by the team at Wulkano, built entirely with web technologies (Electron, React, etc.) specifically for macOS. It enables users to effortlessly capture high-quality video recordings of their screen, including selected areas or full desktop, along with simultaneous system audio and microphone input. Primarily targeted at developers, designers, educators, and anyone on macOS needing to create clear, concise screen recordings for bug reports, tutorials, presentations, or quick demonstrations. Users can quickly activate Kap from their menu bar, select the recording area, hit record, and then utilize its intuitive post-recording options to trim, annotate, and export the video, streamlining communication. It is exclusively available for macOS.",
-    "category": "Developer",
-    "whyItIsUseful": "Kap serves as a lightweight, more flexible alternative to macOS's built-in QuickTime Player or more complex tools like OBS Studio, winning with its elegant user experience, open-source transparency, and powerful plugin architecture for custom exports. A software developer encountering a bug can record a precise, short video demonstrating the issue with system audio, then instantly export it as a GIF or MP4 to attach to a Jira ticket, saving time on written explanations. An online educator can quickly record a segment of their screen to illustrate a coding concept or software feature, adding voiceover via the microphone, and then easily export it to their learning management system. Kap is completely free and open-source, with all features available without any cost or subscription. Many users discover its robust plugin ecosystem, which allows for custom export formats (e.g., uploading directly to Gfycat, Vimeo, or even custom S3 buckets) beyond the standard MP4, GIF, and WebM. Its macOS-only restriction limits its user base, and it lacks the broader market visibility of commercial alternatives. Being open-source, Kap benefits from an active developer community on GitHub, with regular updates, bug fixes, and feature additions driven by contributions.",
-    "imageIdea": "A sleek macOS interface showing a screen recording in progress, with a small control panel and export options like GIF, MP4, and WebM visible. Focus on the clean design.",
-    "websiteLink": "https://getkap.co/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgetkap.co%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 134,
-    "slug": "appflowy",
-    "name": "AppFlowy",
-    "whatItDoes": "AppFlowy is a free, open-source knowledge management and workspace platform, developed by a global community of contributors, designed as a robust alternative to proprietary tools like Notion. It empowers users to build highly customizable personal and team workspaces, integrating notes, wikis, task lists, and databases with a 'local-first' approach, ensuring complete data ownership and privacy. Ideal for individuals, developers, privacy-conscious teams, and organizations who require flexible productivity tools but prioritize data sovereignty, customization, and open-source principles over cloud dependency. Users can create project documentation, personal knowledge bases, CRM systems, or task boards, storing all data locally or syncing it via their own chosen cloud solutions, integrating deeply into various personal and professional workflows. It's available as native desktop applications for macOS, Windows, and Linux, with plans for web and mobile versions.",
-    "category": "Productivity",
-    "whyItIsUseful": "AppFlowy directly competes with Notion, Coda, and Obsidian, winning by offering a similar block-based editing experience and database functionality but with the critical advantage of being open-source and local-first, eliminating vendor lock-in and enhancing data privacy. A privacy-conscious developer can use AppFlowy to manage their project documentation, code snippets, and personal notes, confident that sensitive information is stored on their local machine, not on a third-party server, or synced via their own private cloud. A small business owner can set up a team wiki and task management system for their employees, customizing it precisely to their workflow without paying per-user fees, ensuring their operational data remains under their control. AppFlowy is entirely free and open-source, with no hidden costs or premium features. Many users eventually discover its powerful plugin system and API, allowing for extensive customization, integration with other tools, and the creation of entirely new block types or functionalities. As a relatively newer open-source project, it still requires more community adoption and development to reach the feature parity and polish of established commercial giants, and its 'self-hosted' nature might be a barrier for less technical users. AppFlowy boasts a vibrant and rapidly growing community on GitHub, Discord, and its forum, with frequent updates, bug fixes, and new features being pushed multiple times a month.",
-    "imageIdea": "A split screen showing AppFlowy's clean interface with a database view on one side and a document on the other.",
-    "websiteLink": "https://www.appflowy.io/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.appflowy.io%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 135,
-    "slug": "windy-com",
-    "name": "Windy.com",
-    "whatItDoes": "Windy.com is a powerful, interactive weather forecasting and visualization platform, founded by Ivo Lukačovič, known for its stunning and highly detailed meteorological data displays. It provides real-time and forecast data for a comprehensive range of atmospheric and oceanic phenomena, including wind patterns, temperature, precipitation, cloud cover, waves, and air quality, presented on an animated global map. Essential for professionals and enthusiasts in aviation, marine sports (sailing, surfing), paragliding, hiking, meteorology, emergency services, and anyone requiring precise, granular weather data for planning and safety. Users can effortlessly pan and zoom across the globe, switch between various forecast models (e.g., ECMWF, GFS, ICON), and layer different weather parameters to gain a comprehensive understanding of current and future conditions. It's available as a highly responsive web application and robust mobile apps for both iOS and Android.",
-    "category": "Reference",
-    "whyItIsUseful": "Windy.com far surpasses standard weather apps (like Apple Weather or AccuWeather) by offering professional-grade data, multiple forecast models, and unparalleled visualization, allowing users to make critical decisions based on detailed, multi-layered information rather than simplified summaries. A competitive sailor planning a regatta can use Windy.com to analyze wind speed and direction at various altitudes, wave height, and potential squalls over the next 7-10 days, optimizing their route and sail selection. A private pilot can check cloud base, visibility, atmospheric pressure, and even icing conditions across their flight path, using multiple models to cross-reference data and ensure flight safety. The core Windy.com service with most features is free, while a premium subscription (Windy Premium, around $20/year) offers higher resolution forecast data, 1-hour forecast steps, and extended forecast horizons. Many users eventually discover the 'Compare forecast models' feature, which allows them to overlay and contrast predictions from ECMWF, GFS, and ICON side-by-side, revealing potential discrepancies. Its sheer depth of data can be intimidating for casual users who only need a simple 'is it raining?' answer, and its advanced features require a slight learning curve. Windy.com maintains an active forum and blog, with a dedicated team of meteorologists and developers who frequently update the platform, integrate new forecast models, and enhance visualizations.",
-    "imageIdea": "wind weather atmospheric clouds",
-    "websiteLink": "https://www.windy.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-14",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.windy.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 136,
     "slug": "blobmaker",
     "name": "Blobmaker",
@@ -179,7 +114,8 @@
     "websiteLink": "https://readlang.com/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-17",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Freadlang.com%2F&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Freadlang.com%2F&screenshot=true&meta=false&embed=screenshot.url",
+    "badge": "editors-pick"
   },
   {
     "id": 153,
@@ -6359,5 +6295,75 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-09",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdiagrams.mingrammer.com&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 767,
+    "slug": "internet-archive-switzerland",
+    "name": "Internet Archive Switzerland",
+    "seoTitle": "Internet Archive Switzerland — Global Knowledge Preservation",
+    "whatItDoes": "The Internet Archive has announced the establishment of a new data center in Switzerland, marking a significant expansion of its global mission to preserve digital knowledge. This move is a direct response to growing concerns about data sovereignty and the long-term accessibility of digital archives. The Swiss facility will host a duplicate copy of the Internet Archive's vast collection, ensuring redundancy and resilience against potential censorship or data loss in other locations. This initiative is crucial for safeguarding cultural heritage, research data, and historical web content for future generations.",
+    "category": "Reference",
+    "whyItIsUseful": "This initiative is a vital, yet often overlooked, effort in ensuring the permanence of our digital history. While many users are familiar with the Internet Archive's Wayback Machine, the establishment of regional data centers like this Switzerland hub signifies a more robust, decentralized approach to preservation. It's a proactive measure against potential geopolitical risks and data access challenges. For researchers, historians, archivists, and anyone concerned about digital preservation, this expansion is a testament to the Internet Archive's commitment to its mission. It offers a layer of security and accessibility that is increasingly important in our data-driven world, making the vast repository of human knowledge more resilient than ever.",
+    "imageIdea": "server racks in a data center",
+    "websiteLink": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fblog.archive.org%2F2026%2F05%2F06%2Finternet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 768,
+    "slug": "let-go-clojure-go-lang",
+    "name": "let-go",
+    "seoTitle": "let-go — Clojure-like language in Go",
+    "whatItDoes": "let-go is a fascinating project that implements a Clojure-like programming language entirely in Go. The primary goal is to achieve exceptionally fast startup times, boasting boots in as little as 7 milliseconds. It offers functional programming paradigms inspired by Clojure, such as immutability and first-class functions, but within the Go ecosystem. This makes it suitable for developers who appreciate functional approaches and need rapid execution for certain types of applications, like scripting or embedded systems where quick initialization is paramount.",
+    "category": "Developer",
+    "whyItIsUseful": "This project is a hidden gem for developers interested in exploring language design and performance optimization without abandoning the familiar Go environment. While Clojure is known for its JVM strengths, let-go brings a similar expressive, functional style to Go's efficient compilation and deployment. Its standout feature is the incredibly low boot time, making it an attractive option for tasks that require instant startup, such as command-line tools or serverless functions. It's a proof of concept that demonstrates the power of language implementation and how familiar paradigms can be adapted to different runtime environments, appealing to language enthusiasts and performance-critical developers alike.",
+    "imageIdea": "code editor with abstract syntax tree",
+    "websiteLink": "https://github.com/nooga/let-go",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fnooga%2Flet-go&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 769,
+    "slug": "trust-rust-1989",
+    "name": "TRUST",
+    "seoTitle": "TRUST — Rust like it's 1989",
+    "whatItDoes": "TRUST is an experimental project that aims to make coding Rust feel like programming in the late 1980s, reminiscent of languages like C. It achieves this by imposing certain constraints and offering a different syntax and development experience compared to modern Rust. The project focuses on low-level control and a more direct interaction with hardware, stripping away some of Rust's higher-level abstractions. This is an exploration into retro-computing aesthetics and programming styles within a contemporary language.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers who have a nostalgic inclination towards older programming paradigms or who need to understand systems programming at a more fundamental level, TRUST offers a unique perspective. It's an educational tool that challenges conventional Rust development by reintroducing concepts and a feel from a bygone era. While not intended for mainstream production use, it allows programmers to experiment with the underlying mechanics of Rust in a way that might be obscured by its modern features. This project is particularly valuable for those interested in systems programming history, embedded development, or simply exploring different ways to interact with a powerful language like Rust.",
+    "imageIdea": "vintage computer terminal screen",
+    "websiteLink": "https://github.com/wojtczyk/trust",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fwojtczyk%2Ftrust&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 770,
+    "slug": "ymawky-assembly-web-server",
+    "name": "ymawky",
+    "seoTitle": "ymawky — Web server in assembly",
+    "whatItDoes": "ymawky is an ambitious project that demonstrates the construction of a functional web server written entirely in assembly language. This endeavor pushes the boundaries of low-level programming, requiring deep understanding of system architecture, network protocols, and instruction sets. The primary motivation is often to explore the absolute limits of performance and control, or simply as a testament to the programmer's dedication and skill. It allows for a hyper-optimized and fundamental approach to web serving, far removed from the abstractions of modern languages.",
+    "category": "Developer",
+    "whyItIsUseful": "This project is a deep dive into the fundamental building blocks of computing and networking. While most developers rely on high-level languages and frameworks for web development, ymawky showcases what's possible when you go down to the bare metal. It’s an incredibly niche but powerful learning tool for understanding how web servers actually operate at their most basic level. For those fascinated by computer architecture, operating systems, or extreme performance tuning, this project offers unparalleled insight. It’s a testament to the fact that even for complex tasks like web serving, assembly language can still be a viable, albeit challenging, choice, revealing the intricate dance of bits and bytes that powers the internet.",
+    "imageIdea": "circuit board with glowing lines",
+    "websiteLink": "https://github.com/imtomt/ymawky",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fimtomt%2Fymawky&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 771,
+    "slug": "project-jupyter",
+    "name": "Project Jupyter",
+    "seoTitle": "Project Jupyter — Interactive Notebooks for Data",
+    "whatItDoes": "Project Jupyter provides open-source software, interactive computing environments, and data science tools. Its flagship product, Jupyter Notebook, allows users to create and share documents that contain live code, equations, visualizations, and narrative text. This makes it incredibly powerful for data exploration, statistical modeling, machine learning, and scientific research, enabling reproducible workflows. Data scientists, researchers, and educators use it daily to analyze data and communicate findings.",
+    "category": "Developer",
+    "whyItIsUseful": "While many in the tech industry know of Jupyter Notebooks, the broader Project Jupyter ecosystem and its underlying philosophy are often overlooked. It's more than just a notebook; it's a community-driven initiative fostering open standards for interactive computing. Its true power lies in its extensibility with kernels for numerous programming languages (not just Python) and its integration into various workflows, including cloud platforms and CI/CD pipelines. For anyone working with data who wants a highly interactive and shareable way to experiment and document their work, Jupyter is an indispensable, yet often underestimated, tool that promotes collaboration and transparency in computational science and beyond.",
+    "imageIdea": "glowing digital notebook",
+    "websiteLink": "https://jupyter.org/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fjupyter.org%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]

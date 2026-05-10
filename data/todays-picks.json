@@ -1,46 +1,46 @@
 [
   {
-    "slug": "ancient-roman-coins-reveal-economic-secrets",
-    "title": "Ancient Roman Coins Reveal Economic Secrets",
+    "slug": "ancient-cave-paintings-resonate-deeply",
+    "title": "Ancient Cave Paintings Acted as Acoustic Resonators",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "An analysis of over 2,000 years of ancient Roman coins, a project led by the Coinage and Monetary Policy in the Roman Re",
+    "description": "Researchers at Griffith University, led by Dr. Liam Smith, revealed in *Archaeology in Oceania* (2023) that ancient Abor",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "shadow-2-0-meeting-automation",
-    "title": "Shadow 2.0",
+    "slug": "rocket-book-beeline",
+    "title": "Rocketbook Beeline Smart Planner",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "Shadow 2.0 is an advanced productivity tool designed to automate the output of online meetings before they conclude. Thi",
+    "description": "The Rocketbook Beeline is a smart digital planner designed to bridge the gap between analog note-taking and digital orga",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "diagrams-as-code-tool",
-    "title": "Diagrams: Code for Visuals",
+    "slug": "project-jupyter",
+    "title": "Project Jupyter",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Diagrams is a Python library that allows you to programmatically create cloud system architecture diagrams. Instead of m",
+    "description": "Project Jupyter provides open-source software, interactive computing environments, and data science tools. Its flagship ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "david-attenborough-100th-birthday-tribute",
-    "title": "David Attenborough's 100th Birthday Tributes",
+    "slug": "i-have-banned-query-strings",
+    "title": "Banning Query Strings",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "This article commemorates Sir David Attenborough's 100th birthday, highlighting the extensive tributes and reflections o",
+    "description": "This article discusses a web development strategy of eliminating query strings (the part of a URL after a '?') in favor ",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "evernote-note-taking-app",
-    "title": "Evernote",
+    "slug": "bevy-game-engine-rust",
+    "title": "Bevy",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Evernote is a powerful note-taking and organization app that allows users to capture ideas, to-do lists, photos, voice m",
+    "description": "Bevy is a free, open-source, data-driven game engine built in Rust, designed for rapid development and performance. It l",
     "badge": null,
     "type": "tool"
   }
