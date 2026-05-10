@@ -2355,7 +2355,69 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "handheld-digital-luggage-scale",
+      "title": "Digital Handheld Luggage Scale",
+      "category": "products",
+      "imageUrl": "https://images.pexels.com/photos/14305368/pexels-photo-14305368.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Close-up of a digital handheld luggage scale weighing a suitcase handle.",
+      "productUrl": "https://surfaced-x.pages.dev/item/handheld-digital-luggage-scale?utm_source=social&utm_medium=products&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/handheld-digital-luggage-scale?utm_source=social&utm_medium=products&utm_campaign=daily_post",
+      "sourceLink": "https://www.bestbuy.com/site/searchpage.jsp?st=Digital%20Handheld%20Luggage%20Scale",
+      "platforms": {
+        "pinterest": {
+          "title": "Digital Handheld Luggage Scale: Avoid Overweight Bag Fees",
+          "description": "Never pay surprise airline baggage fees again! This compact digital scale weighs your luggage accurately in seconds. Essential for smart travelers. Priced under $15, it pays for itself on the first trip. #lugggagescale #travelhacks #airporttips #travelgear",
+          "boardName": "Tech Products"
+        },
+        "bluesky": {
+          "text": "Stop guessing your bag weight. This tiny digital scale is a game-changer for avoiding those brutal overweight baggage fees. Seriously, why aren't you using one yet?\n\n#tech #gadgets"
+        },
+        "twitter": {
+          "text": "Anxiety-inducing overweight baggage fees? Solved. This digital luggage scale is a travel essential that's paid for itself many times over. Get accurate weights in seconds for under $15. https://surfaced-x.pages.dev/item/handheld-digital-luggage-scale?utm_source=social&utm_medium=products&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-10T14:37:11.823Z",
+      "publishedAt": "2026-05-10T14:37:14.100Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
+    },
+    {
+      "id": "bookstack-open-source-documentation-wiki",
+      "title": "BookStack",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/35962860/pexels-photo-35962860.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: BookStack",
+      "productUrl": "https://surfaced-x.pages.dev/item/bookstack-open-source-documentation-wiki?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/bookstack-open-source-documentation-wiki?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "BookStack",
+          "description": " https://surfaced-x.pages.dev/item/bookstack-open-source-documentation-wiki?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "BookStack — BookStack is a free and open-source platform for organizing and storing documentation, built by Dan Brown, designed to be a simple and opinionated wiki-like system. It allows users to create structure\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/bookstack-open-source-documentation-wiki?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-10T14:37:11.823Z",
+      "publishedAt": "2026-05-10T14:38:19.711Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": false,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-05-09T16:13:27.949Z"
+  "lastGenerated": "2026-05-10T14:37:11.824Z"
 }
