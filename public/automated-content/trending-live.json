@@ -1,62 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-11T04:38:19.712Z",
+  "generatedAt": "2026-05-11T10:01:18.103Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-4163d629a80eeacefaff09c67b80ef7651294848-001-",
-      "type": "current-event",
-      "title": "Blizzard Warning issued May 10 at 5:43PM AKDT until May 11 at 4:00PM AKDT by NWS Fairbanks AK",
-      "summary": "* WHAT...Blowing snow. Winds gusting as high as 40 mph. * WHERE...Point Lay. * WHEN...Until 4 PM AKDT Monday. * IMPACTS...Travel could be difficult. Areas of blowing snow could reduce visibility to a quarter mile or less at times. * ADDITIONAL DETAILS...No falling snow is expected. The blowing snow is low to the...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4163d629a80eeacefaff09c67b80ef7651294848.001.2",
-      "detectedAt": "2026-05-11T04:38:19.712Z",
-      "publishedAt": "2026-05-11",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4163d629a80eeacefaff09c67b80ef7651294848.001.2",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-4d7d9790029976edb99e3e8807581379e9370838-001-",
-      "type": "current-event",
-      "title": "Severe Thunderstorm Watch issued May 10 at 10:28PM CDT until May 11 at 5:00AM CDT by NWS Houston/Galveston...",
-      "summary": "The National Weather Service has issued Severe Thunderstorm Watch 198 in effect until 5 AM CDT Monday for the following areas In Texas this watch includes 15 counties In south central Texas Jackson In southeast Texas Austin Brazoria Brazos Burleson Colorado Fort Bend Galveston Grimes Harris Matagorda Montgomery...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d7d9790029976edb99e3e8807581379e9370838.001.1",
-      "detectedAt": "2026-05-11T04:38:19.712Z",
-      "publishedAt": "2026-05-11",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d7d9790029976edb99e3e8807581379e9370838.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
     {
       "id": "candidate-cpsc-26466",
       "type": "current-event",
@@ -65,7 +13,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-11T04:38:19.712Z",
+      "detectedAt": "2026-05-11T10:01:18.103Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -84,17 +32,43 @@
       ]
     },
     {
+      "id": "candidate-cpsc-26468",
+      "type": "current-event",
+      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
+      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
+      "detectedAt": "2026-05-11T10:01:18.103Z",
+      "publishedAt": "2026-05-07",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-11",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
       "id": "github-sindresorhus-awesome",
       "type": "github-trending",
       "title": "sindresorhus/awesome is trending on GitHub",
-      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 465,019 stars and recent pushes visible through the GitHub API.",
+      "summary": "😎 Awesome lists about all kinds of interesting topics The repository is active this week, with 465,107 stars and recent pushes visible through the GitHub API.",
       "topic": "github.software",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/sindresorhus/awesome",
-      "detectedAt": "2026-05-11T04:38:19.712Z",
+      "detectedAt": "2026-05-11T10:01:18.103Z",
       "publishedAt": "2014-07-11",
       "score": 100,
-      "velocityLabel": "465,019 stars",
+      "velocityLabel": "465,107 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/sindresorhus/awesome",
       "sourceTrail": [
@@ -114,14 +88,14 @@
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,467 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,481 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-11T04:38:19.712Z",
+      "detectedAt": "2026-05-11T10:01:18.103Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,467 stars",
+      "velocityLabel": "444,481 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -144,8 +118,8 @@
     "github returned 12 signal(s).",
     "gnews returned 0 signal(s).",
     "newsapi returned 0 signal(s).",
-    "5 signal(s) cleared the editorial threshold.",
-    "21 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
+    "4 signal(s) cleared the editorial threshold.",
+    "22 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
     "0 near-threshold signal(s) kept as monitors."
   ]
 }
