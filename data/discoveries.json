@@ -1,70 +1,5 @@
 [
   {
-    "id": 102,
-    "slug": "accidental-discovery-penicillin",
-    "title": "The Accidental Discovery of Penicillin: Revolutionizing Medicine and Saving Millions",
-    "seoTitle": "Penicillin: Accidental Discovery Revolutionized Medicine",
-    "shortDescription": "In 1928, Scottish bacteriologist Alexander Fleming, working at St. Mary's Hospital in London, serendipitously discovered penicillin. He observed that a common mold, *Penicillium notatum*, contaminating a staphylococcal culture plate, created a clear, bacteria-free ring of about 1-2 centimeters around itself. This keen observation, made after returning from a vacation, revealed a potent antibacterial agent. This accidental finding led to the isolation and development of the world's first widely effective antibiotic, fundamentally altering the course of infectious disease treatment.",
-    "category": "Science",
-    "whyItIsInteresting": "Experts were astonished by penicillin's ability to eradicate bacterial infections that had previously been untreatable and often fatal. Its advent overturned millennia of medical understanding, where illnesses like pneumonia, tuberculosis, and sepsis claimed millions of lives annually with no effective recourse beyond basic hygiene or folk remedies. In the next 5-10 years, research into penicillin's mechanisms continues to inform the development of novel antimicrobial compounds, crucial for staying ahead of evolving resistance. For the non-expert, penicillin was like discovering a magic bullet that could selectively disarm and destroy bacterial invaders without harming human cells. Patients suffering from previously deadly infections, and indeed global public health, have benefited immeasurably. This raises the critical question: how can we prevent the rise of 'superbugs' and ensure antibiotics remain effective for future generations?",
-    "imageIdea": "A close-up of a petri dish showing a clear zone of inhibition around a fuzzy patch of green mold, with bacterial colonies growing normally further away.",
-    "sourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7392271/",
-    "type": "discovery",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 103,
-    "slug": "rogue-planets-wander-universe-without-star",
-    "title": "Rogue Planets: The Mysterious Worlds Wandering Our Galaxy Without a Host Star",
-    "seoTitle": "Rogue Planets: Mysterious Worlds Without a Host Star",
-    "shortDescription": "Astronomers are increasingly detecting 'rogue planets,' or free-floating planets, that drift through interstellar space without orbiting a host star. Using techniques like gravitational microlensing, surveys such as OGLE (Optical Gravitational Lensing Experiment) have identified dozens, leading to estimates that our Milky Way galaxy alone could harbor billions – potentially 20 times more rogue planets than stars. This detection method involves observing transient brightening of a background star as a foreground rogue planet passes in front of it, magnifying its light. The existence of these starless worlds profoundly challenges traditional models of planetary formation and evolution, suggesting a far more chaotic early universe than previously conceived.",
-    "category": "Space",
-    "whyItIsInteresting": "Experts were initially surprised by the sheer prevalence of rogue planets, as traditional planetary formation theories primarily focused on worlds bound to a star. This discovery fundamentally overturns the long-held understanding that planets are inherently defined by their stellar orbit, revealing a universe potentially teeming with billions of unbound worlds. In the next 5-10 years, missions like the Nancy Grace Roman Space Telescope are expected to detect thousands more rogue planets, providing crucial data to refine our models of planetary system dynamics and stellar nurseries. For a non-expert, imagine our solar system as a family, and rogue planets are like children who were ejected from their homes during a chaotic period and now wander independently through the vast emptiness of space. Planetary scientists and astrobiologists benefit most, gaining new insights into the diversity of planetary environments and the potential for life in extreme conditions. This raises a profound question: if life can arise in such starless, frigid conditions, what does that imply about the resilience and ubiquity of life in the cosmos?",
-    "imageIdea": "A lonely, dark planet, possibly with faint aurora-like glow from internal heat, against a backdrop of distant galaxies and nebulae, with no visible star nearby.",
-    "sourceLink": "https://www.science.org/content/article/rogue-planets-vastly-outnumber-stars-new-survey-hints",
-    "type": "discovery",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 104,
-    "slug": "the-enigmatic-baghdad-battery-ancient-electrical-mystery",
-    "title": "The Enigmatic Baghdad Battery: An Ancient Artifact Suggesting Early Electrical Knowledge",
-    "seoTitle": "Baghdad Battery: Ancient Artifact of Early Electricity",
-    "shortDescription": "In 1938, German archaeologist Wilhelm König discovered an enigmatic artifact near Baghdad, now known as the Baghdad Battery. Dating back to the Parthian era, between 250 BC and AD 224, it consists of a 13-centimeter-tall clay jar encasing a copper cylinder, which itself holds an iron rod, all sealed with asphalt. The arrangement strongly resembles a simple galvanic cell, capable of generating a small electrical current when filled with an electrolyte like vinegar or grape juice. This ancient device, if indeed used for electrical purposes, suggests a surprising and precocious understanding of electrochemistry millennia before its formal discovery.",
-    "category": "Technology",
-    "whyItIsInteresting": "Experts were initially skeptical, as the existence of a functional battery from the Parthian period dramatically predates Alessandro Volta's 11-cell voltaic pile of 1800 by over two millennia. This artifact fundamentally overturns the conventional timeline of electrical discovery, suggesting ancient civilizations might have possessed a rudimentary understanding of electrochemistry. In the next 5-10 years, advanced non-invasive material analysis could potentially identify residual traces of ancient electrolytes within similar unearthed artifacts, providing definitive proof of their operational function. For a non-expert, discovering the Baghdad Battery is like finding a working calculator among hieroglyphs, completely upending our assumptions about ancient technological capabilities. Archaeologists and historians of science benefit most, prompting a re-evaluation of ancient ingenuity. This raises a profound question: what other 'lost' technologies might ancient cultures have developed, and how might our historical narrative change if we uncover more such 'out-of-place artifacts'?",
-    "imageIdea": "A close-up photograph of the reconstructed Baghdad Battery, showing the clay jar, copper cylinder, and iron rod, perhaps with a faint blue glow to symbolize electricity, set against an ancient Mesopotamian backdrop.",
-    "sourceLink": "https://www.nationalgeographic.com/history/article/baghdad-battery",
-    "type": "discovery",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 105,
-    "slug": "the-lost-legacy-of-the-great-library-of-alexandria",
-    "title": "The Lost Legacy: Unraveling the Grandeur and Tragic Demise of the Library of Alexandria",
-    "seoTitle": "Library of Alexandria: Ancient World's Lost Legacy",
-    "shortDescription": "Founded in the 3rd century BC by Ptolemy I Soter, the Library of Alexandria was the unparalleled intellectual heart of the ancient world, situated within the Mouseion (Temple of the Muses) complex. At its peak, it is estimated to have housed between 400,000 and 700,000 papyrus scrolls, representing the vast majority of documented human knowledge from across the Hellenistic world. Its scholars systematically collected, copied, and translated texts, making Alexandria a global center for research in mathematics, astronomy, medicine, and philosophy. The library's gradual decline and eventual destruction, though debated, represent one of history's most tragic losses of intellectual heritage, irrevocably erasing countless irreplaceable ancient texts.",
-    "category": "History",
-    "whyItIsInteresting": "Experts are continually amazed by the sheer scale and systematic ambition of the Library of Alexandria, which aimed to collect 'all the books of the world,' a feat unprecedented in antiquity. Its existence overturns any simplistic notion of ancient civilizations as intellectually limited, showcasing a sophisticated approach to knowledge acquisition, preservation, and scholarly endeavor that rivaled modern institutions. In the next 5-10 years, advanced archaeological imaging and underwater exploration could potentially uncover more submerged ruins or textual fragments near Alexandria, shedding new light on its layout and contents. For a non-expert, the loss of the Library of Alexandria is akin to losing the entire historical record of human achievement up to the Renaissance, including all scientific papers, philosophical treatises, and literary masterpieces, in one catastrophic event. Historians, classicists, and indeed all fields of human inquiry benefit from understanding its legacy. This prompts a critical question: what invaluable scientific breakthroughs, philosophical insights, or literary masterpieces were lost forever with its demise, and how might that absence have shaped the course of human history?",
-    "imageIdea": "A grand, anachronistic rendering of the ancient Library of Alexandria, perhaps with scholars poring over scrolls, and a subtle, symbolic element of smoke or decay hinting at its eventual fate. Or a detailed architectural reconstruction.",
-    "sourceLink": "https://www.smithsonianmag.com/science-innovation/the-lost-library-of-alexandria-was-it-really-lost-121288033/",
-    "type": "discovery",
-    "dateAdded": "2026-04-14"
-  },
-  {
-    "id": 106,
-    "slug": "the-hum-mysterious-low-frequency-sound",
-    "title": "The Hum: A Mysterious Low-Frequency Sound Heard by a Select Few Worldwide",
-    "seoTitle": "The Hum: Mysterious Low-Frequency Sound Phenomenon",
-    "shortDescription": "'The Hum' refers to a persistent, low-frequency sound reported by a small percentage of the population in various locations worldwide, including Taos, New Mexico, and Bristol, England. This elusive phenomenon, typically described as a droning or rumbling, is generally inaudible to most people and often undetectable by standard acoustic equipment, usually registering below 100 Hz. Studies suggest that in affected areas, only about 2-4% of residents can perceive it, often experiencing it as a debilitating 'torture' that interferes with sleep and daily life. The inability to consistently pinpoint an external source for this sound challenges our understanding of human auditory perception, environmental acoustics, and the potential for subtle, widespread geological or industrial vibrations.",
-    "category": "Global",
-    "whyItIsInteresting": "Experts are particularly puzzled by 'The Hum' due to the stark disconnect between its vivid perception by a significant minority and its elusiveness to most objective scientific instruments. This phenomenon challenges the conventional understanding that sound is a purely external, universally measurable phenomenon, suggesting complex interactions between environmental factors and individual physiology. In the next 5-10 years, advancements in extremely low-frequency acoustic detection and neuro-auditory imaging could potentially identify the subtle environmental sources or the neurological pathways responsible for its perception. For a non-expert, experiencing 'The Hum' is like being the only person in a room who can hear a constant, low-frequency refrigerator hum that no one else acknowledges, making you question your own senses. Those who experience the debilitating effects of 'The Hum,' along with acousticians, neurologists, and environmental health researchers, stand to benefit most from its elucidation. This mystery raises a profound question: how much of our perceived reality is shaped by individual biological differences, and what hidden sensory landscapes exist beyond our common understanding?",
-    "imageIdea": "A person cupping their ear, looking puzzled, in a quiet, rural setting, with subtle, low-frequency sound waves visually emanating from the ground or horizon.",
-    "sourceLink": "https://www.bbc.com/news/magazine-12163901",
-    "type": "discovery",
-    "dateAdded": "2026-04-14"
-  },
-  {
     "id": 107,
     "slug": "nazca-lines-gigantic-geoglyphs-peru-desert",
     "title": "The Nazca Lines: Gigantic Geoglyphs Etched into Peru's Desert Floor",
@@ -6244,5 +6179,67 @@
     "sourceLink": "https://www.griffith.edu.au/news/2023/ancient-aboriginal-paintings-found-to-have-acoustic-qualities-that-amplified-sound",
     "type": "discovery",
     "dateAdded": "2026-05-10"
+  },
+  {
+    "id": 602,
+    "slug": "deep-sea-microbes-plastic-degradation-pressure",
+    "title": "Deep-Sea Microbes Devour Plastic at Extreme Pressure",
+    "seoTitle": "Deep-Sea Microbes Eat Plastic Under Extreme Pressure",
+    "shortDescription": "Researchers have identified novel bacteria residing in the deep ocean capable of degrading common plastic components like polyethylene terephthalate (PET). These microbes, discovered at depths exceeding 1,000 meters where pressures are immense and temperatures are frigid, possess unique enzymes that break down plastic much faster than previously known biological processes. The discovery, detailed in the journal *Frontiers in Microbiology* in 2023, offers a glimmer of hope for tackling plastic pollution in one of Earth's most inaccessible environments. This breakthrough suggests a potential natural solution for a pervasive man-made problem.",
+    "category": "Science",
+    "whyItIsInteresting": "The sheer tenacity of life in the deep sea continues to astound. Finding organisms that have evolved to consume a relatively recent pollutant like PET plastic is remarkable. These newly discovered bacteria, thriving under pressures hundreds of times that of the surface and in near-freezing temperatures, demonstrate an incredible adaptability. Scientists, including those from the Ocean University of China, were initially skeptical that such degradation could occur effectively in these harsh conditions. The implications are significant: could these microbes or their enzymes be harnessed for large-scale bioremediation of microplastics accumulating in the ocean's deepest trenches? It challenges our assumptions about the limits of biodegradation and raises profound questions about how quickly life can adapt to anthropogenic changes, even in the most remote corners of our planet.",
+    "imageIdea": "deep-sea bacteria glowing on plastic",
+    "type": "discovery",
+    "dateAdded": "2026-05-11"
+  },
+  {
+    "id": 603,
+    "slug": "ancient-dna-rewrites-human-migration-asia",
+    "title": "Ancient DNA Rewrites Early Human Migration in Asia",
+    "seoTitle": "Ancient DNA Reveals New Human Migration Routes in Asia",
+    "shortDescription": "Analysis of ancient human genomes has dramatically reshaped our understanding of early migrations across East Asia. A landmark study published in *Nature* in 2023, led by researchers from the Max Planck Institute for Evolutionary Anthropology, analyzed DNA from individuals who lived as far back as 40,000 years ago. The findings reveal previously unknown population movements and interactions, suggesting a more complex mosaic of human dispersal than previously thought. This genetic tapestry indicates that early East Asian populations were not monolithic but comprised diverse groups with distinct lineages that intermingled over millennia, challenging linear models of migration.",
+    "category": "History",
+    "whyItIsInteresting": "For decades, models of early human dispersal in Asia relied heavily on archaeological evidence, which can be sparse and open to interpretation. The advent of ancient DNA analysis, however, provides a direct genetic record, offering unprecedented clarity. This research overturns simplistic narratives by revealing multiple waves of migration and significant admixture events. For instance, the study identified a distinct ancient population that contributed substantially to modern East Asians, but whose existence was not strongly suggested by the fossil record alone. It forces a reconsideration of how different groups met, interbred, and shaped the genetic landscape of the region over tens of thousands of years. What remains fascinating is the sheer resilience and adaptability of these early humans as they navigated vast continents and diverse environments, leaving an indelible genetic legacy we are only now beginning to fully decipher.",
+    "imageIdea": "ancient human skull fragment with DNA strands",
+    "sourceLink": "https://www.nature.com/articles/s41586-023-06794-x",
+    "type": "discovery",
+    "dateAdded": "2026-05-11"
+  },
+  {
+    "id": 604,
+    "slug": "supermassive-black-hole-jets-fastest-ever",
+    "title": "Supermassive Black Hole Jets Achieve Record Speeds",
+    "seoTitle": "Fastest Supermassive Black Hole Jets Ever Recorded",
+    "shortDescription": "Astronomers using the Event Horizon Telescope (EHT) collaboration have captured unprecedentedly detailed images of the supermassive black hole at the center of the galaxy M87, revealing its powerful relativistic jets to be moving at speeds incredibly close to the speed of light. The research, published in *The Astrophysical Journal Letters* in 2023, indicates that these jets are launched from a region very close to the black hole's event horizon, challenging some existing theoretical models of jet formation. The near-light speeds of the material ejected from M87's core provide a direct probe into the extreme physics governing these cosmic phenomena.",
+    "category": "Space",
+    "whyItIsInteresting": "The energy output from the jets of supermassive black holes like M87 is staggering, capable of influencing star formation and the evolution of entire galaxies. Previously, the precise mechanism by which these jets are accelerated to such immense velocities, sometimes exceeding 99.9% of the speed of light, remained a subject of intense theoretical debate. The EHT's ability to resolve features within the jet launching region, thanks to its global network of radio telescopes effectively creating an Earth-sized aperture, has provided crucial observational data. This new evidence suggests that the magnetic fields threading the accretion disk around the black hole play a dominant role in collimating and accelerating the plasma. It’s a spectacular demonstration of Einstein’s theories in action under the most extreme conditions and opens up new avenues for testing our understanding of gravity, plasma physics, and the life cycle of galaxies.",
+    "imageIdea": "artist's impression of black hole jet emitting from galaxy center",
+    "type": "discovery",
+    "dateAdded": "2026-05-11"
+  },
+  {
+    "id": 605,
+    "slug": "ancient-roman-glass-production-secrets",
+    "title": "Ancient Roman Glass Production Secrets Revealed",
+    "seoTitle": "Ancient Roman Glassmaking Secrets Uncovered",
+    "shortDescription": "A comprehensive analysis of ancient Roman glass artifacts and raw materials has unveiled sophisticated techniques and supply chain complexities previously underestimated. Researchers, publishing in *PLOS ONE* in 2023, examined the chemical composition of glass from various Roman sites, including mosaics and vessels, and traced its origins. They discovered that Roman glassmakers utilized a diverse range of silica sources and fluxing agents, demonstrating a nuanced understanding of material properties. This study challenges the notion of a single, uniform Roman glassmaking tradition and highlights a far more intricate network of production and trade than commonly acknowledged.",
+    "category": "History",
+    "whyItIsInteresting": "The sheer volume and variety of glass objects surviving from the Roman Empire are testament to its technological prowess. This new research goes beyond simply cataloging artifacts; it delves into the 'how' and 'where' of their creation. By meticulously analyzing the elemental fingerprints of glass samples, scientists, such as those from the University of Oxford, have been able to differentiate between various production centers and identify the specific raw materials used. The findings reveal that Romans were not just skilled craftspeople but also astute resource managers and traders, sourcing materials from across their vast empire. The complexity of their supply chains, involving different types of sand (quartz) and alkalis (like natron or plant ashes) depending on regional availability and desired glass properties, paints a picture of a remarkably organized and adaptable industry. This shifts our perception from a few centralized workshops to a more distributed and dynamic system, raising questions about the economic and social structures that supported such widespread artisanal production.",
+    "imageIdea": "fragment of ancient Roman mosaic glass",
+    "sourceLink": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0280449",
+    "type": "discovery",
+    "dateAdded": "2026-05-11"
+  },
+  {
+    "id": 606,
+    "slug": "single-atom-catalyst-converts-methane-to-useful-chemicals",
+    "title": "Single-Atom Catalyst Converts Methane to Chemicals",
+    "seoTitle": "Single-Atom Catalyst Converts Methane to Chemicals",
+    "shortDescription": "Researchers at the University of California, Berkeley, have developed a groundbreaking single-atom catalyst capable of efficiently converting methane, a potent greenhouse gas, into more useful chemicals like methanol. Published in 'Nature Catalysis' in 2022, this innovation utilizes an atomically dispersed metal (palladium) on a ceria support. The breakthrough lies in its unprecedented selectivity and low-temperature operation, offering a potential pathway to simultaneously mitigate climate change and produce valuable industrial feedstocks.",
+    "category": "Technology",
+    "whyItIsInteresting": "Methane is a significant component of natural gas and a major contributor to global warming. Its direct conversion into valuable products like methanol, a versatile chemical used in fuels and manufacturing, has been a long-standing challenge due to the high energy required to break its strong carbon-hydrogen bonds. This single-atom catalyst achieves this conversion with remarkable efficiency at much lower temperatures than conventional methods. This could revolutionize petrochemical processes, making them more sustainable and reducing the direct release of methane into the atmosphere. The implications for carbon capture and utilization technologies are immense, potentially turning a harmful byproduct into a valuable resource.",
+    "imageIdea": "single palladium atom on ceria support",
+    "type": "discovery",
+    "dateAdded": "2026-05-11"
   }
 ]

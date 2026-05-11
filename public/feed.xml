@@ -5,8 +5,60 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Muse</title>
+      <link>https://surfaced-x.pages.dev/item/muse-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/muse-app</guid>
+      <description>Muse is a visually oriented note-taking and idea-capture app that uses an infinite canvas. It allows users to combine text, images, drawings, audio, and links in a freeform space, making it ideal for brainstorming, mind mapping, and visual organization. Muse offers a freemium model. It stands out for its intuitive drag-and-drop interface and the ability to freely arrange elements, fostering a more natural and creative approach to capturing and developing ideas than traditional linear note formats.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7964034/pexels-photo-7964034.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7964034/pexels-photo-7964034.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7964034/pexels-photo-7964034.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Ark (Desktop App)</title>
+      <link>https://surfaced-x.pages.dev/item/ark-desktop</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ark-desktop</guid>
+      <description>Ark is a desktop application that acts as a central hub for managing your digital assets, such as photos, videos, documents, and creative projects. It provides powerful tools for organizing, tagging, searching, and previewing files across different locations on your computer. Ark employs a freemium model, with advanced features available in paid tiers. Its primary value lies in its ability to create a unified, searchable library of all your digital content, regardless of where it&apos;s stored, significantly reducing the time spent hunting for files.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Canny</title>
+      <link>https://surfaced-x.pages.dev/item/canny-feedback</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/canny-feedback</guid>
+      <description>Canny is a comprehensive platform designed for collecting, prioritizing, and organizing product feedback. It allows companies to create a public or private feedback portal where users can submit ideas, vote on existing suggestions, and track the status of features. Canny operates on a paid subscription model. Its standout feature is the seamless integration of user feedback into the product development lifecycle, providing a clear roadmap of what users genuinely want.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10029877/pexels-photo-10029877.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10029877/pexels-photo-10029877.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10029877/pexels-photo-10029877.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>codeburn</title>
+      <link>https://surfaced-x.pages.dev/item/codeburn-ai-cost-tracker</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/codeburn-ai-cost-tracker</guid>
+      <description>codeburn is an interactive Terminal User Interface (TUI) dashboard designed to provide cost observability for AI coding tools like Claude Code, Codex, and Cursor. It helps developers understand exactly where their AI token usage is going, allowing them to monitor and manage expenses associated with AI-powered coding assistance. The tool offers a clear, visual breakdown of token consumption, enabling users to identify areas of potential overspending or inefficient usage. codeburn is a free, open-source project hosted on GitHub, built with TypeScript. It addresses the growing concern of rising AI service costs by bringing transparency to LLM interactions within the development workflow.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDcyNzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDcyNzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDcyNzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>ds4</title>
+      <link>https://surfaced-x.pages.dev/item/deepseek-4-flash</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepseek-4-flash</guid>
+      <description>ds4 (DeepSeek 4 Flash) is a highly optimized local inference engine designed specifically for Apple Silicon Macs with Metal GPU support. It allows users to run large language models (LLMs) directly on their own hardware, bypassing cloud dependencies and offering enhanced privacy and speed. This open-source tool is written in C, prioritizing efficiency and performance. Its primary value lies in its ability to leverage the unique architecture of Apple Silicon for rapid LLM execution, making advanced AI capabilities accessible without dedicated servers or expensive cloud subscriptions. The tool is freely available on GitHub.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Bevy</title>
       <link>https://surfaced-x.pages.dev/item/bevy-game-engine-rust</link>
@@ -478,6 +530,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/30316271/pexels-photo-30316271.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Docforge</title>
+      <link>https://surfaced-x.pages.dev/item/code-documentation-doc-without-code</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/code-documentation-doc-without-code</guid>
+      <description>Docforge is an AI-driven platform designed to automatically generate comprehensive documentation for your codebase. It analyzes your code, identifies key functions, classes, and modules, and produces clear, concise, and human-readable explanations. This tool addresses the common pain point of maintaining up-to-date documentation, especially in large or rapidly evolving projects. Developers can use Docforge to quickly generate initial documentation drafts, significantly reducing the manual effort involved in explaining their code to colleagues or future maintainers. It supports multiple programming languages, making it a versatile solution for diverse development teams.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37397323/pexels-photo-37397323.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37397323/pexels-photo-37397323.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37397323/pexels-photo-37397323.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Smarter Time - Automatic Time Tracker</title>
       <link>https://surfaced-x.pages.dev/item/smarter-time-automatic-tracker</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/smarter-time-automatic-tracker</guid>
@@ -487,72 +550,6 @@
       <enclosure url="https://images.pexels.com/photos/7948067/pexels-photo-7948067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7948067/pexels-photo-7948067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7948067/pexels-photo-7948067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Streaky - Simple Habit Tracker</title>
-      <link>https://surfaced-x.pages.dev/item/streaky-simple-habit-tracker-ios</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/streaky-simple-habit-tracker-ios</guid>
-      <description>Streaky, developed by Michael Furtak, is a straightforward and aesthetically clean habit tracker available for iOS, designed for users who prefer simplicity over complex features. Users create custom habits, then simply tap to mark them complete each day, with the app prominently displaying current and longest streaks to encourage consistency. It is exclusively available on iOS, iPadOS, and watchOS, providing a native and optimized experience within the Apple ecosystem. The most used feature is its intuitive one-tap completion system directly from the main habit list, making daily tracking quick and frictionless. All habit data is securely synchronized via iCloud, ensuring that progress is backed up and accessible across all of the user&apos;s Apple devices.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1730890803006-569b3806773f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTQ1MTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1730890803006-569b3806773f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTQ1MTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1730890803006-569b3806773f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzczNTQ1MTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>7 Weeks - Habit &amp; Goal Tracker</title>
-      <link>https://surfaced-x.pages.dev/item/7-weeks-habit-goal-tracker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/7-weeks-habit-goal-tracker</guid>
-      <description>7 Weeks, developed by Geeky Lemon, is a habit and goal tracking app inspired by Jerry Seinfeld&apos;s &quot;Don&apos;t Break the Chain&quot; method, focusing on building a 49-day streak. Users select a habit they want to form or break and then mark each day&apos;s success on a calendar grid, aiming to complete a full seven-week chain without any breaks. It is available exclusively on iOS and Android devices, providing a focused mobile experience for building short-term, intense habit streaks. Its most used feature is the visual 7x7 grid, which clearly displays the entire 49-day challenge, making the progress and the goal intensely visible. Data is primarily stored locally on the device, with options for cloud backup (e.g., Google Drive for Android) to restore habits across devices, ensuring personal control.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/20279300/pexels-photo-20279300.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/20279300/pexels-photo-20279300.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/20279300/pexels-photo-20279300.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Coach.me</title>
-      <link>https://surfaced-x.pages.dev/item/coach-me-habit-coaching</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/coach-me-habit-coaching</guid>
-      <description>Coach.me, formerly Lift, developed by the same team, is a habit-tracking platform that combines personal goal setting with community support and optional one-on-one coaching. Users choose from a library of habits or create their own, then track their daily progress, ask questions, and offer encouragement within a supportive community, or hire a coach. It is available on the web, iOS, and Android, ensuring users can access their goals and interact with the community from nearly anywhere. Its most used feature is the ability to &quot;cheer&quot; others&apos; progress and receive cheers, fostering a sense of accountability and shared motivation among users. All user data, including habit progress and coaching interactions, is stored securely in the cloud, allowing for seamless synchronization across all devices.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3850250/pexels-photo-3850250.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3850250/pexels-photo-3850250.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3850250/pexels-photo-3850250.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Everyday.app</title>
-      <link>https://surfaced-x.pages.dev/item/everyday-app-streak-calendar</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/everyday-app-streak-calendar</guid>
-      <description>Everyday.app, created by Alex Muench and Simon M. Stöckl, is a minimalist habit tracking application designed to help users build and maintain streaks across various platforms. Users add habits to a simple grid, marking each day&apos;s completion with a tap, visually building a calendar of successful days and highlighting current streaks. It&apos;s available on web browsers, iOS, Android, and as a Mac app, providing a consistent experience across different devices. The most used feature is its visually clean calendar grid, which provides an immediate, satisfying overview of all habits and their ongoing streaks. All data is stored securely in the cloud and synced across devices, ensuring that habit progress is always up-to-date and accessible from any platform.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/760718/pexels-photo-760718.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/760718/pexels-photo-760718.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/760718/pexels-photo-760718.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Project Jupyter</title>
-      <link>https://surfaced-x.pages.dev/item/project-jupyter</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/project-jupyter</guid>
-      <description>Project Jupyter provides open-source software, interactive computing environments, and data science tools. Its flagship product, Jupyter Notebook, allows users to create and share documents that contain live code, equations, visualizations, and narrative text. This makes it incredibly powerful for data exploration, statistical modeling, machine learning, and scientific research, enabling reproducible workflows. Data scientists, researchers, and educators use it daily to analyze data and communicate findings.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7856673/pexels-photo-7856673.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7856673/pexels-photo-7856673.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7856673/pexels-photo-7856673.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Loop Habit Tracker</title>
-      <link>https://surfaced-x.pages.dev/item/loop-habit-tracker-android</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/loop-habit-tracker-android</guid>
-      <description>Loop Habit Tracker, developed by Soron, is a free and open-source habit tracking app primarily for Android, emphasizing simplicity, privacy, and data visualization. Users define habits, then mark them as completed or missed daily, with the app generating detailed statistics and charts to illustrate habit strength and progress over time. It is available on Android (F-Droid, Google Play) and offers a desktop version for Windows, Linux, and macOS (currently in beta/development), with future plans for iOS. Its most used feature is the habit strength algorithm, which intelligently calculates and visualizes how ingrained a habit is, rather than just showing consecutive streaks. All data is stored locally on the user&apos;s device, ensuring maximum privacy, with optional local backups to external storage, and no cloud synchronization by default.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6298479/pexels-photo-6298479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

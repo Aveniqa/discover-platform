@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "accidental-discovery-penicillin",
-      "rogue-planets-wander-universe-without-star",
-      "the-enigmatic-baghdad-battery-ancient-electrical-mystery",
-      "the-lost-legacy-of-the-great-library-of-alexandria",
-      "the-hum-mysterious-low-frequency-sound",
       "nazca-lines-gigantic-geoglyphs-peru-desert",
       "mimicry-nature-deceive-predators-prey",
       "the-accidental-echo-proof-of-the-big-bangs-fiery-afterglow",
       "the-voynich-manuscript-a-centuries-old-riddle-wrapped-in-an-enigma",
       "the-useless-glue-that-stuck-around-the-accidental-birth-of-post-it-notes",
       "gobekli-tepe-worlds-oldest-known-temple",
-      "the-astonishing-glass-frog-transparency"
+      "the-astonishing-glass-frog-transparency",
+      "the-uncanny-valley-disturbing-replicas",
+      "marvelous-mimic-octopus-master-disguise",
+      "ancient-roman-hypocausts-ingenious-underfloor-heating",
+      "the-dunning-kruger-effect",
+      "the-great-pacific-garbage-patch"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "accidental-discovery-penicillin",
-      "rogue-planets-wander-universe-without-star",
-      "the-enigmatic-baghdad-battery-ancient-electrical-mystery",
-      "the-lost-legacy-of-the-great-library-of-alexandria",
-      "the-hum-mysterious-low-frequency-sound",
       "nazca-lines-gigantic-geoglyphs-peru-desert",
       "mimicry-nature-deceive-predators-prey",
       "the-accidental-echo-proof-of-the-big-bangs-fiery-afterglow",
       "the-voynich-manuscript-a-centuries-old-riddle-wrapped-in-an-enigma",
       "the-useless-glue-that-stuck-around-the-accidental-birth-of-post-it-notes",
       "the-astonishing-glass-frog-transparency",
-      "the-uncanny-valley-disturbing-replicas"
+      "the-uncanny-valley-disturbing-replicas",
+      "marvelous-mimic-octopus-master-disguise",
+      "ancient-roman-hypocausts-ingenious-underfloor-heating",
+      "echoes-spacetime-detecting-gravitational-waves",
+      "the-dunning-kruger-effect",
+      "the-great-pacific-garbage-patch"
     ]
   },
   {
@@ -68,7 +68,6 @@
       "apple-vision-pro",
       "tonal-intelligent-fitness-system",
       "sony-alpha-a7s-iii-mirrorless-camera",
-      "the-lost-legacy-of-the-great-library-of-alexandria",
       "the-accidental-echo-proof-of-the-big-bangs-fiery-afterglow",
       "gobekli-tepe-worlds-oldest-known-temple",
       "ancient-roman-hypocausts-ingenious-underfloor-heating",
@@ -76,7 +75,8 @@
       "the-great-pacific-garbage-patch",
       "ancient-babylonian-astronomy-mathematics",
       "titan-arum-corpse-flower",
-      "new-venus-atmosphere-gas-signal"
+      "new-venus-atmosphere-gas-signal",
+      "deep-sea-hydrothermal-vents-new-life"
     ]
   },
   {
@@ -85,8 +85,6 @@
     "description": "Products and tools to help you feel your best during everyday routines.",
     "emoji": "💪",
     "itemSlugs": [
-      "accidental-discovery-penicillin",
-      "the-hum-mysterious-low-frequency-sound",
       "the-astonishing-glass-frog-transparency",
       "ancient-roman-hypocausts-ingenious-underfloor-heating",
       "the-great-pacific-garbage-patch",
@@ -96,7 +94,9 @@
       "bacteria-that-eat-plastic-could-clean-oceans",
       "arctic-permafrost-releases-ancient-viruses-potent-threat",
       "global-marine-heatwaves-increased-twentyfold",
-      "ocean-acidification-coral-reef-recovery"
+      "ocean-acidification-coral-reef-recovery",
+      "microplastics-found-deepest-ocean-trenches",
+      "arctic-permafrost-thawing-releases-mercury"
     ]
   }
 ]

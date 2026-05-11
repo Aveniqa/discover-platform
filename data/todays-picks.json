@@ -1,46 +1,46 @@
 [
   {
-    "slug": "ancient-cave-paintings-resonate-deeply",
-    "title": "Ancient Cave Paintings Acted as Acoustic Resonators",
+    "slug": "single-atom-catalyst-converts-methane-to-useful-chemicals",
+    "title": "Single-Atom Catalyst Converts Methane to Chemicals",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Researchers at Griffith University, led by Dr. Liam Smith, revealed in *Archaeology in Oceania* (2023) that ancient Abor",
+    "description": "Researchers at the University of California, Berkeley, have developed a groundbreaking single-atom catalyst capable of e",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "rocket-book-beeline",
-    "title": "Rocketbook Beeline Smart Planner",
+    "slug": "flow-water-filter-pitcher-with-uv-purification",
+    "title": "Flow Water Filter Pitcher",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The Rocketbook Beeline is a smart digital planner designed to bridge the gap between analog note-taking and digital orga",
+    "description": "The Flow Water Filter Pitcher is an innovative solution for cleaner drinking water, featuring a multi-stage filtration s",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "project-jupyter",
-    "title": "Project Jupyter",
+    "slug": "code-documentation-doc-without-code",
+    "title": "Docforge",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Project Jupyter provides open-source software, interactive computing environments, and data science tools. Its flagship ",
+    "description": "Docforge is an AI-driven platform designed to automatically generate comprehensive documentation for your codebase. It a",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "i-have-banned-query-strings",
-    "title": "Banning Query Strings",
+    "slug": "graphene-based-thermoelectric-generator",
+    "title": "Graphene-Enhanced Thermoelectric Generators",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "This article discusses a web development strategy of eliminating query strings (the part of a URL after a '?') in favor ",
+    "description": "Graphene-Enhanced Thermoelectric Generators (TEGs) are devices that convert heat directly into electricity. A recent bre",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "bevy-game-engine-rust",
-    "title": "Bevy",
+    "slug": "muse-app",
+    "title": "Muse",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Bevy is a free, open-source, data-driven game engine built in Rust, designed for rapid development and performance. It l",
+    "description": "Muse is a visually oriented note-taking and idea-capture app that uses an infinite canvas. It allows users to combine te",
     "badge": null,
     "type": "tool"
   }

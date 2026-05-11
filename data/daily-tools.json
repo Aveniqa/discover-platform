@@ -1,65 +1,5 @@
 [
   {
-    "id": 136,
-    "slug": "brila",
-    "toolName": "Brila",
-    "whatItDoes": "Brila is an innovative website builder that generates one-page websites directly from your real Google Maps reviews. Unlike traditional website builders that rely on generic templates and require extensive content creation, Brila leverages authentic customer feedback to craft compelling narratives. It intelligently analyzes reviews to highlight key customer sentiments and reasons for choosing your business, ensuring your website speaks directly to potential clients. Brila offers a unique, content-first approach to web design, making it incredibly efficient for small businesses wanting a professional online presence without the hassle.",
-    "category": "Design",
-    "whyItIsUseful": "Brila solves the common problem of creating a business website that feels authentic and persuasive. By using actual customer testimonials and insights from Google Maps, it builds trust and credibility from the outset, which is far more effective than fabricated copy. This means businesses can launch a professional-looking, content-rich website in a fraction of the time and cost typically associated with web development. Users benefit from a site that automatically highlights their unique selling propositions as perceived by their customers. It's perfect for local businesses, service providers, and restaurants that rely heavily on word-of-mouth and online reviews.",
-    "imageIdea": "website template with customer reviews",
-    "websiteLink": "https://www.producthunt.com/r/2ENSJE4L7JILGP",
-    "type": "tool",
-    "dateAdded": "2026-04-18"
-  },
-  {
-    "id": 137,
-    "slug": "stitch-2-0",
-    "toolName": "Stitch 2.0 by Google",
-    "whatItDoes": "Stitch 2.0 is an AI-native design partner that enables the creation of beautiful, production-ready UI in seconds. It allows designers and developers to express their vision using natural language, voice commands, and context-aware agents. Stitch 2.0 facilitates seamless iteration and collaboration across images, code, and text, streamlining the entire UI design and development workflow. Its core value proposition is turning design concepts into high-fidelity interfaces with unprecedented speed and intelligence, effectively acting as a creative co-pilot.",
-    "category": "Design",
-    "whyItIsUseful": "Stitch 2.0 revolutionizes UI design by dramatically reducing the time and effort required to bring digital products to life. Its AI capabilities understand design intent, allowing users to generate complex interfaces from simple prompts, and iterate rapidly based on feedback. The tool bridges the gap between design and development by producing production-ready code, minimizing handoff friction. This makes it invaluable for startups, design agencies, and development teams aiming for agile workflows and faster product launches. Users can explore more design possibilities and refine their interfaces with greater ease and efficiency.",
-    "imageIdea": "ui design mockup with ai interface",
-    "websiteLink": "https://www.producthunt.com/r/FCKF6O6HKHV32R",
-    "type": "tool",
-    "dateAdded": "2026-04-18"
-  },
-  {
-    "id": 138,
-    "slug": "puremac",
-    "toolName": "PureMac",
-    "whatItDoes": "PureMac is a free and open-source macOS cleaner designed to be a privacy-conscious alternative to paid software like CleanMyMac. It offers robust system cleaning capabilities, including removing unwanted cache files, old application data, and build artifacts from tools like Xcode and Homebrew. Its native SwiftUI interface provides a modern and intuitive user experience, and it supports scheduled auto-cleaning for continuous system maintenance. PureMac operates with zero telemetry, ensuring your data remains private.",
-    "category": "Developer",
-    "whyItIsUseful": "For Mac users, especially developers, PureMac is invaluable for reclaiming disk space and maintaining optimal system performance without compromising privacy. Its ability to target specific caches from development tools means you can free up gigabytes of storage that might otherwise be tied up in temporary build files. The scheduled cleaning feature automates a crucial maintenance task, saving users the manual effort of regularly tidying up their system. Its open-source nature and lack of telemetry give users confidence in its integrity, making it a trustworthy companion for keeping macOS lean and efficient. Developers, designers, and anyone who values a clean system will find immense benefit.",
-    "imageIdea": "macOS system cleaner dashboard",
-    "websiteLink": "https://github.com/momenbasel/PureMac",
-    "type": "tool",
-    "dateAdded": "2026-04-19"
-  },
-  {
-    "id": 139,
-    "slug": "fireworks-tech-graph",
-    "toolName": "fireworks-tech-graph",
-    "whatItDoes": "fireworks-tech-graph is a specialized AI skill that generates professional-looking technical diagrams using Claude Code. It supports the creation of eight distinct diagram types, including flowcharts, sequence diagrams, and architecture diagrams, with five different visual styles to choose from. Leveraging deep AI and agent domain knowledge, it can translate complex technical concepts into clear, visual representations. The output can be generated as both SVG and PNG files, making them easily embeddable in documentation, presentations, or code repositories. It's a free, open-source tool.",
-    "category": "Developer",
-    "whyItIsUseful": "Creating clear and accurate technical diagrams can be a time-consuming and often tedious process. fireworks-tech-graph automates this by allowing users to describe their technical architecture or workflow, and the AI generates a polished visual representation. This significantly speeds up the documentation process for software projects, makes it easier to communicate complex ideas to team members, and improves the overall clarity of technical materials. Its ability to generate production-quality graphics in multiple formats makes it a versatile asset for developers, project managers, and technical writers. Users praise its speed and the quality of the generated diagrams, often surpassing manual efforts.",
-    "imageIdea": "technical architecture diagram flowchart",
-    "websiteLink": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
-    "type": "tool",
-    "dateAdded": "2026-04-19"
-  },
-  {
-    "id": 140,
-    "slug": "codeburn",
-    "toolName": "codeburn",
-    "whatItDoes": "codeburn is an interactive terminal UI (TUI) dashboard designed for cost observability of AI coding tokens. It provides insights into where your AI tokens are being consumed when using services like Claude Code, Codex, and Cursor. The tool helps users understand and manage their spending on AI-powered coding assistance, presenting the data in a clear, real-time visual format within the terminal. This allows for quick identification of usage patterns and potential cost overruns. It's an open-source project.",
-    "category": "Developer",
-    "whyItIsUseful": "As AI coding assistants become more integrated into developer workflows, understanding the associated costs is crucial. codeburn directly addresses this by offering transparency into AI token usage. Developers can easily see which actions or features are consuming the most tokens, enabling them to optimize their usage and budget effectively. This tool is particularly useful for teams or individuals who are heavily reliant on AI for coding tasks and need to keep track of their expenses. By providing this visibility, codeburn empowers users to make informed decisions about their AI tool adoption and ensures that costs remain manageable. It's a must-have for anyone serious about controlling their AI development expenditures.",
-    "imageIdea": "terminal dashboard code spending",
-    "websiteLink": "https://github.com/getagentseal/codeburn",
-    "type": "tool",
-    "dateAdded": "2026-04-19"
-  },
-  {
     "id": 141,
     "slug": "khazix-skills",
     "toolName": "khazix-skills",
@@ -5743,5 +5683,70 @@
     "websiteLink": "https://bevyengine.org/",
     "type": "tool",
     "dateAdded": "2026-05-10"
+  },
+  {
+    "id": 820,
+    "slug": "deepseek-4-flash",
+    "toolName": "ds4",
+    "seoTitle": "ds4 — Local AI Inference Engine",
+    "whatItDoes": "ds4 (DeepSeek 4 Flash) is a highly optimized local inference engine designed specifically for Apple Silicon Macs with Metal GPU support. It allows users to run large language models (LLMs) directly on their own hardware, bypassing cloud dependencies and offering enhanced privacy and speed. This open-source tool is written in C, prioritizing efficiency and performance. Its primary value lies in its ability to leverage the unique architecture of Apple Silicon for rapid LLM execution, making advanced AI capabilities accessible without dedicated servers or expensive cloud subscriptions. The tool is freely available on GitHub.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers and AI enthusiasts working with Apple Silicon Macs, ds4 offers a powerful way to experiment with and deploy LLMs locally. Its deep integration with the Metal graphics API ensures that users can harness the full computational power of their Mac's GPU for inference, leading to significantly faster response times compared to CPU-based processing or less optimized GPU implementations. This is particularly beneficial for tasks like code generation, text summarization, and creative writing directly on a personal machine, providing a tangible performance boost and cost savings by eliminating cloud inference fees. The open-source nature fosters community collaboration and allows for deep customization, making it an invaluable asset for those pushing the boundaries of on-device AI. Its efficiency means more complex models can be run locally, democratizing access to cutting-edge AI.",
+    "imageIdea": "apple macbook pro with code on screen",
+    "websiteLink": "https://github.com/antirez/ds4",
+    "type": "tool",
+    "dateAdded": "2026-05-11"
+  },
+  {
+    "id": 821,
+    "slug": "codeburn-ai-cost-tracker",
+    "toolName": "codeburn",
+    "seoTitle": "codeburn — AI Coding Token Cost Tracker",
+    "whatItDoes": "codeburn is an interactive Terminal User Interface (TUI) dashboard designed to provide cost observability for AI coding tools like Claude Code, Codex, and Cursor. It helps developers understand exactly where their AI token usage is going, allowing them to monitor and manage expenses associated with AI-powered coding assistance. The tool offers a clear, visual breakdown of token consumption, enabling users to identify areas of potential overspending or inefficient usage. codeburn is a free, open-source project hosted on GitHub, built with TypeScript. It addresses the growing concern of rising AI service costs by bringing transparency to LLM interactions within the development workflow.",
+    "category": "Developer",
+    "whyItIsUseful": "As AI coding assistants become more integrated into developer workflows, managing the associated costs is crucial. codeburn provides an essential layer of transparency, allowing developers to see precisely how their AI token budget is being utilized. This insight is invaluable for optimizing prompts, refining workflows, and making informed decisions about which AI tools to employ for specific tasks. The TUI interface is intuitive and efficient, fitting seamlessly into a developer's command-line environment. By highlighting potential cost sinks, codeburn empowers developers to save money and use AI coding tools more strategically. It's particularly useful for teams or individuals who rely heavily on AI for coding and want to maintain budgetary control without sacrificing productivity.",
+    "imageIdea": "terminal window showing code costs",
+    "websiteLink": "https://github.com/getagentseal/codeburn",
+    "type": "tool",
+    "dateAdded": "2026-05-11"
+  },
+  {
+    "id": 822,
+    "slug": "canny-feedback",
+    "toolName": "Canny",
+    "seoTitle": "Canny — Product feedback management",
+    "whatItDoes": "Canny is a comprehensive platform designed for collecting, prioritizing, and organizing product feedback. It allows companies to create a public or private feedback portal where users can submit ideas, vote on existing suggestions, and track the status of features. Canny operates on a paid subscription model. Its standout feature is the seamless integration of user feedback into the product development lifecycle, providing a clear roadmap of what users genuinely want.",
+    "category": "Productivity",
+    "whyItIsUseful": "Canny is invaluable for product teams looking to truly understand and act on user needs. By centralizing feedback from various channels into a single, searchable database, it eliminates scattered spreadsheets and lost emails. The voting system helps identify high-impact feature requests, ensuring development efforts are focused on what matters most to the user base. Its ability to automatically update users on the status of their submitted ideas fosters transparency and builds stronger customer relationships. Canny streamlines the entire feedback loop, saving product managers countless hours and reducing the risk of building features that won't resonate. Companies of all sizes, from startups to enterprises, leverage Canny to build better products by listening effectively to their customers.",
+    "imageIdea": "user feedback dashboard interface",
+    "websiteLink": "https://www.canny.io/",
+    "type": "tool",
+    "dateAdded": "2026-05-11"
+  },
+  {
+    "id": 823,
+    "slug": "ark-desktop",
+    "toolName": "Ark (Desktop App)",
+    "seoTitle": "Ark — Digital asset management app",
+    "whatItDoes": "Ark is a desktop application that acts as a central hub for managing your digital assets, such as photos, videos, documents, and creative projects. It provides powerful tools for organizing, tagging, searching, and previewing files across different locations on your computer. Ark employs a freemium model, with advanced features available in paid tiers. Its primary value lies in its ability to create a unified, searchable library of all your digital content, regardless of where it's stored, significantly reducing the time spent hunting for files.",
+    "category": "Productivity",
+    "whyItIsUseful": "Ark transforms the often-chaotic experience of managing digital files into an organized and efficient process. For creatives, researchers, or anyone dealing with a large volume of digital assets, Ark offers a much-needed solution to declutter and streamline. Its intelligent tagging and metadata capabilities allow for incredibly granular searching, making it far superior to standard operating system search functions. The universal preview feature means you can quickly get a sense of any file type without needing to open individual applications. Integrations with cloud storage services further enhance its utility, creating a cohesive digital workspace. Ark saves users significant time and reduces frustration by making every digital asset instantly discoverable and manageable, becoming an indispensable tool for digital organization.",
+    "imageIdea": "digital asset management interface",
+    "websiteLink": "https://arkdesktop.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-11"
+  },
+  {
+    "id": 824,
+    "slug": "muse-app",
+    "toolName": "Muse",
+    "seoTitle": "Muse — Visual note-taking and idea board",
+    "whatItDoes": "Muse is a visually oriented note-taking and idea-capture app that uses an infinite canvas. It allows users to combine text, images, drawings, audio, and links in a freeform space, making it ideal for brainstorming, mind mapping, and visual organization. Muse offers a freemium model. It stands out for its intuitive drag-and-drop interface and the ability to freely arrange elements, fostering a more natural and creative approach to capturing and developing ideas than traditional linear note formats.",
+    "category": "Productivity",
+    "whyItIsUseful": "Muse revolutionizes how individuals brainstorm and organize their thoughts by moving beyond the limitations of linear text. Its infinite canvas empowers users to create rich, interconnected boards that mimic the way the brain naturally makes associations. This visual approach is incredibly beneficial for anyone who thinks in a non-linear fashion, such as designers, writers, students, and strategists. The ability to seamlessly integrate various media types – from sketches and photos to web links and audio notes – makes it a dynamic tool for capturing inspiration and developing complex projects. Muse saves time by consolidating disparate ideas into a single, easily navigable visual space, preventing the loss of creative sparks and making the ideation process more enjoyable and productive. Its simplicity and flexibility make it a go-to for those who need to think outside the box.",
+    "imageIdea": "infinite canvas visual brainstorming",
+    "websiteLink": "https://museapp.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-11"
   }
 ]
