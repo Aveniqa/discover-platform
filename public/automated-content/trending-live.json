@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-12T20:11:11.890Z",
+  "generatedAt": "2026-05-12T22:37:04.858Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-b492719efbf085120d316f9fb37d87629d0681f5-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-9ab2a980f2b6f9aabbcd8ed58bd467bf50731db1-001-",
       "type": "current-event",
-      "title": "Air Quality Alert issued May 12 at 2:25PM CDT by NWS Austin/San Antonio TX",
-      "summary": "AQAEWX Atmospheric conditions are expected to be favorable for producing high levels of ozone air pollution in the Austin area on Wednesday. You can help prevent ozone pollution by sharing a ride, walking or riding a bicycle, taking your lunch to work, avoiding drive through lanes, conserving energy, and keeping your...",
+      "title": "Air Quality Alert issued May 12 at 4:45PM CDT by NWS Fort Worth TX",
+      "summary": "AQAFWD The Texas Commission on Environmental Quality (TCEQ) has issued an Ozone Action Day for the Dallas-Fort Worth area for Wednesday, May 13, 2026. Atmospheric conditions are expected to be favorable for producing high levels of ozone air pollution in the Dallas-Fort Worth area on Wednesday. You can help prevent...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b492719efbf085120d316f9fb37d87629d0681f5.001.1",
-      "detectedAt": "2026-05-12T20:11:11.890Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ab2a980f2b6f9aabbcd8ed58bd467bf50731db1.001.1",
+      "detectedAt": "2026-05-12T22:37:04.858Z",
       "publishedAt": "2026-05-12",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,33 +26,7 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b492719efbf085120d316f9fb37d87629d0681f5.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-426586f9a595f17528a0d9692b96bf2981155718-001-",
-      "type": "current-event",
-      "title": "Air Quality Alert issued May 12 at 2:26PM CDT by NWS Austin/San Antonio TX",
-      "summary": "AQAEWX The Texas Commission on Environmental Quality (TCEQ) has issued an Ozone Action Day for the San Antonio area for Wednesday, May 13, 2026. Atmospheric conditions are expected to be favorable for producing high levels of ozone air pollution in the San Antonio area on Wednesday. You can help prevent ozone...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.426586f9a595f17528a0d9692b96bf2981155718.001.1",
-      "detectedAt": "2026-05-12T20:11:11.890Z",
-      "publishedAt": "2026-05-12",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.426586f9a595f17528a0d9692b96bf2981155718.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ab2a980f2b6f9aabbcd8ed58bd467bf50731db1.001.1",
           "role": "event-source"
         }
       ]
@@ -65,7 +39,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-12T20:11:11.890Z",
+      "detectedAt": "2026-05-12T22:37:04.858Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -84,17 +58,43 @@
       ]
     },
     {
+      "id": "candidate-cpsc-26468",
+      "type": "current-event",
+      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
+      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
+      "detectedAt": "2026-05-12T22:37:04.858Z",
+      "publishedAt": "2026-05-07",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-12",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,571 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,575 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-12T20:11:11.890Z",
+      "detectedAt": "2026-05-12T22:37:04.858Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,571 stars",
+      "velocityLabel": "444,575 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 434,475 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 434,491 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-12T20:11:11.890Z",
+      "detectedAt": "2026-05-12T22:37:04.858Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "434,475 stars",
+      "velocityLabel": "434,491 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
@@ -145,7 +145,7 @@
     "gnews returned 0 signal(s).",
     "newsapi returned 0 signal(s).",
     "5 signal(s) cleared the editorial threshold.",
-    "21 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
+    "19 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
     "0 near-threshold signal(s) kept as monitors."
   ]
 }
