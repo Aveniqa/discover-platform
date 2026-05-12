@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Superhuman</title>
+      <link>https://surfaced-x.pages.dev/item/superhuman-email</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/superhuman-email</guid>
+      <description>Superhuman is an email client designed for speed and efficiency, aiming to help you achieve Inbox Zero faster than ever. It employs keyboard shortcuts for virtually every action, intelligent sorting, and features like &apos;undo send&apos; and &apos;scheduled send&apos;. It&apos;s a premium, paid service focused on delivering a premium user experience for professionals who rely heavily on email communication and want to reclaim their time.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/27128551/pexels-photo-27128551.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/27128551/pexels-photo-27128551.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/27128551/pexels-photo-27128551.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Todo.txt</title>
+      <link>https://surfaced-x.pages.dev/item/todo-txt</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/todo-txt</guid>
+      <description>Todo.txt is a minimalist, command-line-based to-do list manager that emphasizes simplicity and portability. It allows users to manage tasks using a plain text file, making it accessible from virtually any device or operating system. Tasks can be organized using contexts (e.g., @work) and projects (e.g., +home), with support for due dates, priorities, and recurring tasks. The tool is free and open-source, with a philosophy of keeping the core functionality lightweight and easy to understand.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1649451844897-8699a1d6d96d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1649451844897-8699a1d6d96d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1649451844897-8699a1d6d96d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>lingbot-map</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-lingbot-map</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-lingbot-map</guid>
+      <description>lingbot-map is a sophisticated feed-forward 3D foundation model designed for reconstructing complex scenes from streaming data. It excels at taking continuous inputs, such as from sensors or video feeds, and building a coherent, three-dimensional representation of the environment in real-time. This Python-based project focuses on efficiency and accuracy, making it suitable for applications in robotics, augmented reality, and autonomous systems where understanding spatial context is paramount. The project is open-source, promoting accessibility and further development.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/29738255/pexels-photo-29738255.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/29738255/pexels-photo-29738255.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/29738255/pexels-photo-29738255.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>browser-harness</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-browser-harness</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-browser-harness</guid>
+      <description>browser-harness is a self-healing harness designed to empower Large Language Models (LLMs) to complete any task by enabling them to interact with web browsers effectively. It provides a robust framework for LLMs to navigate websites, extract information, and perform actions, overcoming common issues like broken selectors or unexpected page changes through its self-healing capabilities. This open-source Python project aims to bridge the gap between LLM intelligence and real-world web interaction. It operates on a free, open-source model, encouraging broad adoption and contribution.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1719253480609-579ad1622c65?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1719253480609-579ad1622c65?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1719253480609-579ad1622c65?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>OpenMythos</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-openmythos</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-openmythos</guid>
+      <description>OpenMythos is a theoretical reconstruction of the Claude Mythos architecture, built from first principles using available research literature. It aims to demystify the inner workings of advanced AI models by providing a framework that can be understood and experimented with by developers and researchers.  The project is released under an open-source model, fostering community collaboration and advancement in AI understanding.  Its primary function is to serve as an educational and experimental tool for understanding complex AI systems.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6424590/pexels-photo-6424590.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6424590/pexels-photo-6424590.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6424590/pexels-photo-6424590.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Muse</title>
       <link>https://surfaced-x.pages.dev/item/muse-app</link>
@@ -475,6 +530,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Contrast Ratio</title>
+      <link>https://surfaced-x.pages.dev/item/color-contrast-checker</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/color-contrast-checker</guid>
+      <description>Contrast Ratio is a simple, web-based tool that calculates the color contrast ratio between two selected colors. It&apos;s built by Accessibility, a platform focused on digital inclusion. The tool helps designers and developers ensure their web content meets accessibility standards, specifically WCAG (Web Content Accessibility Guidelines) for text readability. For example, a designer could use it to test if the chosen font color on a particular background color provides sufficient contrast for visually impaired users to read easily.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/268460/pexels-photo-268460.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/268460/pexels-photo-268460.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/268460/pexels-photo-268460.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Snippyly</title>
       <link>https://surfaced-x.pages.dev/item/snippyly-collaborative-screenshot-code-sharing</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/snippyly-collaborative-screenshot-code-sharing</guid>
@@ -484,72 +550,6 @@
       <enclosure url="https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
       <media:content url="https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Codever</title>
-      <link>https://surfaced-x.pages.dev/item/codever-self-hostable-snippet-manager</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/codever-self-hostable-snippet-manager</guid>
-      <description>Codever, an open-source project maintained by its community, is a self-hostable web application for organizing and sharing code snippets. It provides a robust system for tagging, searching, and categorizing code, supporting public and private snippets. Developers can save code from various sources, add descriptions, and easily retrieve them later through a powerful search function. The tool is primarily a web application, designed to be deployed on your own server or a cloud provider. Its most used feature is the ability to quickly tag and save snippets for future reference, making them searchable by language or custom tags. Data is stored in your chosen database (e.g., PostgreSQL, MySQL) on your own infrastructure, ensuring full control over your code snippets.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1614028480987-73081d86a38b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1614028480987-73081d86a38b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1614028480987-73081d86a38b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Snappify</title>
-      <link>https://surfaced-x.pages.dev/item/snappify-beautiful-code-images</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/snappify-beautiful-code-images</guid>
-      <description>Snappify, created by a team focused on developer tools, is a web-based application designed to transform code snippets into visually appealing images for sharing. It allows developers to customize themes, fonts, backgrounds, and add elements like annotations or device mockups around their code. The tool operates entirely on the web, accessible from any browser, and it also offers a VS Code extension for seamless integration. Its most used feature is the ability to quickly generate a beautiful code image from a simple paste, complete with syntax highlighting. All user-created &quot;snaps&quot; are stored securely in the cloud, allowing for easy access and sharing.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1642132652795-4a46f8ce789e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1642132652795-4a46f8ce789e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1642132652795-4a46f8ce789e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI1OTJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Insight Timer: Meditation App</title>
-      <link>https://surfaced-x.pages.dev/item/insight-timer-meditation-app</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/insight-timer-meditation-app</guid>
-      <description>Insight Timer, developed by the same team, is the world&apos;s largest free meditation app, offering thousands of guided meditations, talks, and ambient sounds from renowned teachers. Users can discover diverse meditation practices, participate in live sessions, track their meditation streaks and milestones, and connect with a global community of practitioners. It is available on iOS, Android, and via web browser, making it widely accessible for anyone looking to cultivate a meditation or mindfulness habit. Its most used feature is the vast library of free guided meditations, catering to various needs from sleep to anxiety, available in multiple languages. User data, including meditation history and streaks, is securely stored in the cloud, syncing across devices to maintain a continuous record of personal practice.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4114778/pexels-photo-4114778.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4114778/pexels-photo-4114778.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4114778/pexels-photo-4114778.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Finch: Self Care Pet</title>
-      <link>https://surfaced-x.pages.dev/item/finch-self-care-pet</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/finch-self-care-pet</guid>
-      <description>Finch, developed by Finch Inc., is a unique self-care app that gamifies mental wellness and habit formation by allowing users to nurture a virtual pet through self-care activities. Users set and complete daily self-care goals and habits, like journaling or exercise, which in turn helps their Finch pet grow, evolve, and explore new areas. It is available on iOS and Android devices, offering a mobile-first experience for engaging with self-care and mental well-being on the go. Its most used feature is the interactive pet, which provides delightful visual feedback and encouragement as users complete their daily self-care journeys. Data, including journal entries and habit progress, is stored securely in the cloud, syncing across devices and offering options for data export, prioritizing user privacy.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/30316271/pexels-photo-30316271.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/30316271/pexels-photo-30316271.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/30316271/pexels-photo-30316271.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Docforge</title>
-      <link>https://surfaced-x.pages.dev/item/code-documentation-doc-without-code</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/code-documentation-doc-without-code</guid>
-      <description>Docforge is an AI-driven platform designed to automatically generate comprehensive documentation for your codebase. It analyzes your code, identifies key functions, classes, and modules, and produces clear, concise, and human-readable explanations. This tool addresses the common pain point of maintaining up-to-date documentation, especially in large or rapidly evolving projects. Developers can use Docforge to quickly generate initial documentation drafts, significantly reducing the manual effort involved in explaining their code to colleagues or future maintainers. It supports multiple programming languages, making it a versatile solution for diverse development teams.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37397323/pexels-photo-37397323.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37397323/pexels-photo-37397323.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37397323/pexels-photo-37397323.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Smarter Time - Automatic Time Tracker</title>
-      <link>https://surfaced-x.pages.dev/item/smarter-time-automatic-tracker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/smarter-time-automatic-tracker</guid>
-      <description>Smarter Time, developed by Smarter Time Inc., is an automatic time tracking and habit coaching app that intelligently logs user activities across devices without manual input. It continuously monitors phone usage, calendar events, and computer activities, then categorizes them, allowing users to see where their time goes and integrate habit reminders. It is available on Android, iOS, and as a desktop app for Windows and Mac, offering comprehensive activity tracking across the most common platforms. Its most used feature is the &quot;Activity Map,&quot; a visual representation of how time is spent, automatically generated from detected activities and app usage. All collected data is stored securely in the cloud, syncing across devices to provide a unified overview of time usage, with privacy controls available to the user.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7948067/pexels-photo-7948067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7948067/pexels-photo-7948067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7948067/pexels-photo-7948067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

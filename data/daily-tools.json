@@ -1,65 +1,5 @@
 [
   {
-    "id": 141,
-    "slug": "khazix-skills",
-    "toolName": "khazix-skills",
-    "whatItDoes": "khazix-skills is an open-source collection of AI skills developed by 'digital life Khazix'. This repository serves as a hub for various AI capabilities that can be integrated into different AI agent frameworks or used independently. The skills are designed to enhance the functionality and intelligence of AI agents, allowing them to perform a wider range of tasks more effectively. It's a Python-based project, making it accessible to a broad range of developers. The project is actively maintained and has garnered significant community interest.",
-    "category": "Developer",
-    "whyItIsUseful": "For developers and AI enthusiasts looking to build or enhance AI agents, khazix-skills offers a valuable library of pre-built functionalities. Instead of reinventing the wheel for common AI tasks, developers can leverage these existing skills to accelerate their development process. This collection promotes modularity and reusability in AI agent design, making it easier to create sophisticated and versatile AI systems. The active community and high star count on GitHub indicate a well-supported and appreciated resource. This tool is ideal for anyone involved in AI research, development, or the creation of custom AI assistants.",
-    "imageIdea": "ai agent skill tree",
-    "websiteLink": "https://github.com/KKKKhazix/khazix-skills",
-    "type": "tool",
-    "dateAdded": "2026-04-19"
-  },
-  {
-    "id": 142,
-    "slug": "tobira-ai",
-    "toolName": "Tobira.ai",
-    "whatItDoes": "Tobira.ai is a network where AI agents connect and discover business opportunities for their human users. Each AI agent gets a public address within this network, enabling it to find founders, investors, partners, and clients by interacting with other agents. The platform facilitates negotiation and deal-making on behalf of the user, with the user retaining full control over their agent's actions. It aims to streamline business development and networking through intelligent automation.",
-    "category": "Productivity",
-    "whyItIsUseful": "Tobira.ai offers a novel approach to business development and networking by harnessing the power of AI agents. For founders and entrepreneurs, it can act as a tireless scout, constantly searching for potential collaborations, funding opportunities, or strategic partnerships. The automated discovery and initial negotiation process can save significant time and effort compared to manual outreach. By allowing users to maintain control and set boundaries for their agents, it ensures that the AI acts as a powerful assistant rather than an uncontrolled entity. This tool is particularly beneficial for startups, small businesses, and individuals looking to expand their network and secure new opportunities efficiently.",
-    "imageIdea": "ai agent business network connection",
-    "websiteLink": "https://www.producthunt.com/r/G5JOBDQ3XBHBER",
-    "type": "tool",
-    "dateAdded": "2026-04-19"
-  },
-  {
-    "id": 143,
-    "slug": "openmythos",
-    "toolName": "OpenMythos",
-    "whatItDoes": "OpenMythos is a theoretical reconstruction of the Claude Mythos architecture, built from first principles using available research literature. It aims to provide an open-source framework for understanding and replicating advanced AI language model architectures. The project is currently in its early stages, focusing on the foundational elements of AI model design. While not a ready-to-use application, it serves as a crucial educational and research tool for AI developers and academics. Its primary value lies in its transparency and its contribution to the open-source AI community.",
-    "category": "Developer",
-    "whyItIsUseful": "For AI researchers and developers looking to deeply understand the inner workings of large language models, OpenMythos offers an unprecedented level of detail and a first-principles approach. Unlike proprietary models, it breaks down complex architectures into understandable components, fostering innovation and education. Its open-source nature means it benefits from community contributions and is a valuable resource for anyone building or experimenting with advanced AI. Enthusiasts and professionals alike can leverage its insights to contribute to the future of AI development, making it a foundational tool for advanced AI exploration.",
-    "imageIdea": "AI mythology story generation interface laptop screen ancient narrative text",
-    "websiteLink": "https://github.com/kyegomez/OpenMythos",
-    "type": "tool",
-    "dateAdded": "2026-04-20"
-  },
-  {
-    "id": 144,
-    "slug": "browser-harness",
-    "toolName": "browser-harness",
-    "whatItDoes": "browser-harness is a self-healing browser harness designed to enable Large Language Models (LLMs) to complete any task within a web browser. It provides a robust framework for LLMs to interact with web pages, simulate user actions, and extract information. This tool addresses the challenge of reliably integrating LLMs into web-based workflows by automatically handling common browser issues and ensuring task completion. It's an open-source project primarily aimed at developers and researchers looking to build sophisticated AI agents and automation tools. The pricing model is free and open-source.",
-    "category": "Developer",
-    "whyItIsUseful": "This tool is a game-changer for anyone looking to automate complex web-based tasks using AI. Its 'self-healing' nature means it's far more resilient to website changes and unexpected errors than traditional automation scripts, saving countless hours of debugging. LLMs can leverage browser-harness to perform intricate operations like form filling, data scraping, and even complex user journey simulations with high reliability. It empowers developers to build intelligent agents that can navigate and interact with the internet as a human would, but with machine speed and precision, opening up new possibilities for web automation and AI-driven services.",
-    "imageIdea": "browser window with AI assistant overlay",
-    "websiteLink": "https://github.com/browser-use/browser-harness",
-    "type": "tool",
-    "dateAdded": "2026-04-20"
-  },
-  {
-    "id": 145,
-    "slug": "lingbot-map",
-    "toolName": "lingbot-map",
-    "whatItDoes": "lingbot-map is a feed-forward 3D foundation model for reconstructing scenes from streaming data. It excels at creating accurate and detailed 3D representations of environments in real-time, making it ideal for applications that require dynamic spatial understanding. The model processes sensor data, such as from cameras or LiDAR, to build a coherent 3D map. This open-source project is geared towards developers and researchers in robotics, augmented reality, and autonomous systems who need robust scene reconstruction capabilities. It is free to use under its open-source license.",
-    "category": "Developer",
-    "whyItIsUseful": "For developers working with robotics, AR/VR, or any application that requires real-time 3D environmental understanding, lingbot-map provides a powerful and efficient solution. Its ability to reconstruct scenes from streaming data means it can adapt to changing environments dynamically, which is critical for autonomous navigation and interactive experiences. This foundation model significantly reduces the complexity of building sophisticated 3D mapping systems. Users benefit from its potential to enable more intelligent robots, immersive AR experiences, and accurate simulations, making it a vital component for cutting-edge spatial computing projects.",
-    "imageIdea": "3D reconstruction of a room",
-    "websiteLink": "https://github.com/Robbyant/lingbot-map",
-    "type": "tool",
-    "dateAdded": "2026-04-20"
-  },
-  {
     "id": 146,
     "slug": "huashu-design",
     "toolName": "Huashu Design",
@@ -5748,5 +5688,70 @@
     "websiteLink": "https://museapp.com/",
     "type": "tool",
     "dateAdded": "2026-05-11"
+  },
+  {
+    "id": 825,
+    "slug": "daily-tool-openmythos",
+    "toolName": "OpenMythos",
+    "seoTitle": "OpenMythos — Reconstructs AI Architecture From Research",
+    "whatItDoes": "OpenMythos is a theoretical reconstruction of the Claude Mythos architecture, built from first principles using available research literature. It aims to demystify the inner workings of advanced AI models by providing a framework that can be understood and experimented with by developers and researchers.  The project is released under an open-source model, fostering community collaboration and advancement in AI understanding.  Its primary function is to serve as an educational and experimental tool for understanding complex AI systems.",
+    "category": "Developer",
+    "whyItIsUseful": "For AI enthusiasts and developers looking to grasp the foundational concepts behind large language models, OpenMythos offers an unparalleled, hands-on approach. Unlike opaque, proprietary AI systems, this tool provides a transparent, code-based exploration of architectural principles, allowing users to learn by doing. Its detailed reconstruction from academic research means it's grounded in solid theoretical understanding.  The Python codebase is accessible for modification and experimentation, making it ideal for students, researchers, and hobbyists who want to delve deeper into AI without needing access to proprietary models. The project's popularity on GitHub, with over 12,000 stars, highlights its significant community interest and perceived value.",
+    "imageIdea": "python code on a laptop screen",
+    "websiteLink": "https://github.com/kyegomez/OpenMythos",
+    "type": "tool",
+    "dateAdded": "2026-05-12"
+  },
+  {
+    "id": 826,
+    "slug": "daily-tool-browser-harness",
+    "toolName": "browser-harness",
+    "seoTitle": "browser-harness — LLM Browser Automation For Any Task",
+    "whatItDoes": "browser-harness is a self-healing harness designed to empower Large Language Models (LLMs) to complete any task by enabling them to interact with web browsers effectively. It provides a robust framework for LLMs to navigate websites, extract information, and perform actions, overcoming common issues like broken selectors or unexpected page changes through its self-healing capabilities. This open-source Python project aims to bridge the gap between LLM intelligence and real-world web interaction. It operates on a free, open-source model, encouraging broad adoption and contribution.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is a game-changer for developers and researchers looking to leverage LLMs for complex web automation tasks that go beyond simple scraping. The 'self-healing' aspect is crucial, significantly reducing the maintenance overhead typically associated with web automation scripts. Imagine an LLM being able to book flights, fill out forms, or perform customer support tasks on a website autonomously – browser-harness makes this a reality by ensuring the LLM's interactions are resilient to website changes. Its extensive GitHub star count (over 12,000) indicates a strong community recognition of its utility and potential. It's particularly valuable for building AI agents that need to perform multi-step operations across the web.",
+    "imageIdea": "computer screen showing code and browser interface",
+    "websiteLink": "https://github.com/browser-use/browser-harness",
+    "type": "tool",
+    "dateAdded": "2026-05-12"
+  },
+  {
+    "id": 827,
+    "slug": "daily-tool-lingbot-map",
+    "toolName": "lingbot-map",
+    "seoTitle": "lingbot-map — 3D Scene Reconstruction From Streaming Data",
+    "whatItDoes": "lingbot-map is a sophisticated feed-forward 3D foundation model designed for reconstructing complex scenes from streaming data. It excels at taking continuous inputs, such as from sensors or video feeds, and building a coherent, three-dimensional representation of the environment in real-time. This Python-based project focuses on efficiency and accuracy, making it suitable for applications in robotics, augmented reality, and autonomous systems where understanding spatial context is paramount. The project is open-source, promoting accessibility and further development.",
+    "category": "Developer",
+    "whyItIsUseful": "For anyone working with spatial computing, robotics, or advanced sensor data, lingbot-map offers a powerful and efficient solution for real-time 3D scene understanding. Its ability to process streaming data means it can continuously update its understanding of an environment, which is critical for dynamic situations like a robot navigating a moving space or an AR application overlaying virtual objects onto a changing real world. The 'foundation model' aspect suggests it can be adapted and fine-tuned for specific tasks, offering a versatile starting point. The high star count on GitHub (over 6,000) reflects its significant impact and interest within the computer vision and robotics communities. It allows for the creation of more intelligent and context-aware AI systems.",
+    "imageIdea": "3d rendering of a cityscape",
+    "websiteLink": "https://github.com/Robbyant/lingbot-map",
+    "type": "tool",
+    "dateAdded": "2026-05-12"
+  },
+  {
+    "id": 828,
+    "slug": "todo-txt",
+    "toolName": "Todo.txt",
+    "seoTitle": "Todo.txt — Simple Command-Line To-Do List Manager",
+    "whatItDoes": "Todo.txt is a minimalist, command-line-based to-do list manager that emphasizes simplicity and portability. It allows users to manage tasks using a plain text file, making it accessible from virtually any device or operating system. Tasks can be organized using contexts (e.g., @work) and projects (e.g., +home), with support for due dates, priorities, and recurring tasks. The tool is free and open-source, with a philosophy of keeping the core functionality lightweight and easy to understand.",
+    "category": "Productivity",
+    "whyItIsUseful": "Todo.txt offers a refreshing alternative to feature-heavy to-do apps by providing a highly efficient and flexible way to manage tasks for those who are comfortable with the command line. Its strength lies in its simplicity and the fact that all your tasks are stored in a single, human-readable text file. This means your data is incredibly portable and future-proof; you can open your to-do list with any text editor or use various companion apps and plugins that interface with the .txt file. For developers, system administrators, or anyone who spends a lot of time in a terminal, Todo.txt seamlessly integrates into their existing workflow without requiring a separate GUI application. It saves time by allowing rapid task entry and manipulation via keyboard commands, and its open-source nature ensures it remains free and adaptable.",
+    "imageIdea": "terminal window with a to-do list",
+    "websiteLink": "https://github.com/todotxt/todo.txt",
+    "type": "tool",
+    "dateAdded": "2026-05-12"
+  },
+  {
+    "id": 829,
+    "slug": "superhuman-email",
+    "toolName": "Superhuman",
+    "seoTitle": "Superhuman — Fast Email Inbox",
+    "whatItDoes": "Superhuman is an email client designed for speed and efficiency, aiming to help you achieve Inbox Zero faster than ever. It employs keyboard shortcuts for virtually every action, intelligent sorting, and features like 'undo send' and 'scheduled send'. It's a premium, paid service focused on delivering a premium user experience for professionals who rely heavily on email communication and want to reclaim their time.",
+    "category": "Productivity",
+    "whyItIsUseful": "For professionals drowning in emails, Superhuman offers a radical solution to regain control. Its lightning-fast interface, driven by extensive keyboard shortcuts, allows seasoned users to process hundreds of emails in minutes. Features like 'Triage' help you swiftly decide what to do with each email, while 'Smart Search' finds anything instantly. The ability to schedule emails and 'undo' sends adds a layer of polish and confidence to your communication. Superhuman users often report a significant reduction in email-related stress and a substantial increase in their responsiveness, making it a transformative tool for busy executives, entrepreneurs, and anyone whose productivity hinges on effective email management.",
+    "imageIdea": "speedometer email inbox",
+    "websiteLink": "https://superhuman.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-12"
   }
 ]

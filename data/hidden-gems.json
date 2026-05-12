@@ -1,71 +1,5 @@
 [
   {
-    "id": 149,
-    "slug": "diagrams-net",
-    "name": "diagrams.net (formerly draw.io)",
-    "whatItDoes": "diagrams.net, previously known as draw.io, is a robust, open-source online diagramming software developed by JGraph Ltd. It provides a comprehensive platform for creating a vast array of professional-grade diagrams, including flowcharts, mind maps, network topologies, UML diagrams, ER models, and wireframes, all within a web browser. Ideal for software developers, project managers, business analysts, educators, and students who need to visualize complex information or processes. Users can start from templates or a blank canvas, drag-and-drop shapes, connect elements, and export their diagrams in various formats, streamlining documentation and communication workflows. It boasts deep integrations with popular cloud storage services like Google Drive, Dropbox, OneDrive, and even GitHub, allowing for seamless saving, sharing, and collaborative editing of diagrams, and also offers desktop applications for Windows, macOS, and Linux.",
-    "category": "Productivity",
-    "whyItIsUseful": "diagrams.net directly competes with expensive, proprietary software like Microsoft Visio, Lucidchart, and OmniGraffle. Its key advantage is being completely free, open-source, and platform-agnostic, offering nearly identical functionality without any subscription costs or installation hurdles. A software developer designing a new system architecture can quickly prototype database schemas, API flowcharts, and component diagrams, saving them potentially hundreds of dollars a year compared to a Visio license, while collaborating with team members in real-time. A project manager planning a new initiative can create detailed Gantt charts, swimlane diagrams, and organizational structures to clarify roles and processes, ensuring all stakeholders are aligned and reducing miscommunication. The core diagrams.net web application and desktop versions are entirely free to use, with no hidden costs or feature limitations. Many users don't realize the extent of its shape libraries beyond the defaults, including specific libraries for AWS, Azure, GCP architecture, floor plans, and even infographic elements, which significantly broadens its utility. Its former name, 'draw.io,' might have implied a simpler, less professional tool, and its browser-first nature can sometimes deter users accustomed to desktop-only applications. As an open-source project, diagrams.net benefits from a strong community of contributors and users, undergoing frequent updates and feature additions with a transparent development roadmap.",
-    "imageIdea": "blueprint blueprinting drafting table",
-    "websiteLink": "https://www.diagrams.net/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-17",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.diagrams.net%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 150,
-    "slug": "this-is-today",
-    "name": "This is Today",
-    "whatItDoes": "'This is Today' is an elegantly minimalist website designed by Andrew Kim, focusing on simplicity and present-moment awareness. It serves as a digital anchor, displaying the current date prominently in a clean, large typeface, often accompanied by a concise, insightful quote or a brief historical note related to the specific day. It appeals to individuals seeking a moment of calm, a break from digital clutter, or a gentle reminder to practice mindfulness and appreciate the present. Users visit the site for a quick glance, a moment of reflection, or as a default homepage to start their day with a clear, uncluttered perspective, offering a refreshing contrast to information-dense interfaces. As a web-based experience, it is accessible on any device with a browser, designed for universal simplicity without integrations.",
-    "category": "Productivity",
-    "whyItIsUseful": "In an era dominated by news feeds, social media, and productivity apps vying for attention, 'This is Today' replaces the overwhelming digital noise with serene simplicity. It wins by *not* adding features, instead offering a unique space for mental decluttering, unlike any traditional calendar or news aggregator. A remote worker feeling overwhelmed by constant notifications can open 'This is Today' as a quick mental reset between tasks, using its minimalist display as a visual cue to breathe and refocus before diving into the next project. Someone practicing daily mindfulness might use it as a digital prompt, taking a moment each morning to acknowledge the date and the accompanying thought, integrating a simple reflective practice into their digital routine. 'This is Today' is entirely free to use, embodying its philosophy of universal accessibility and simplicity without any premium features or subscriptions. While seemingly straightforward, the subtle changes in the accompanying text – sometimes a philosophical quote, sometimes a historical event, sometimes a simple affirmation – are often appreciated more deeply after repeated visits, revealing a quiet depth beyond just the date. Its extreme minimalism is its strength but also its limitation; it doesn't offer 'utility' in the traditional sense of productivity tools, making it less likely to be actively sought out by those focused solely on task completion. As a static, conceptual project, 'This is Today' doesn't have a traditional community or frequent updates, but its content subtly changes daily, reflecting its timeless, present-moment focus.",
-    "imageIdea": "sundial calendar page",
-    "websiteLink": "https://www.thisistoday.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-17",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.thisistoday.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 151,
-    "slug": "wayback-machine-archive",
-    "name": "The Wayback Machine",
-    "whatItDoes": "The Wayback Machine is a monumental digital archive developed and maintained by the Internet Archive, a non-profit organization dedicated to preserving web history. It allows users to access and browse billions of archived web pages, capturing snapshots of websites at various points in time, from their inception to the present day. It's an indispensable resource for researchers, historians, journalists, legal professionals, web developers, and anyone interested in the historical evolution of the internet or needing to retrieve lost content. Users simply enter a URL, and the Wayback Machine presents a timeline of available captures, enabling them to navigate through past versions of websites as they appeared on specific dates, aiding in historical research, content recovery, and trend analysis. As a web-based service, it's accessible via any browser; the Internet Archive also offers APIs for developers to integrate its vast data into other applications, and browser extensions are available for quick archiving.",
-    "category": "Reference",
-    "whyItIsUseful": "Unlike search engines that only show current live content, or personal bookmarks that expire, the Wayback Machine provides an unparalleled historical record of the internet. It wins by offering persistent access to ephemeral web content, acting as a digital time capsule that no other mainstream tool can replicate in scope or scale. An academic studying the evolution of online political discourse can use the Wayback Machine to access news articles, forum discussions, and campaign websites from 10-15 years ago, providing primary source material for their analysis, even if the original sites are long defunct. A web developer tasked with redesigning an old company website can consult the Wayback Machine to understand previous design iterations, content structures, and brand messaging, ensuring continuity or identifying areas for improvement based on past approaches. The Wayback Machine is entirely free to use for browsing and accessing its vast archive, supported by donations and grants to the non-profit Internet Archive. Beyond just browsing individual pages, many users don't realize they can use the 'Changes' feature to visualize the differences between two versions of a page, or the 'Collections' feature to explore curated sets of archived websites on specific topics. While globally recognized, some users might find its interface a bit clunky or assume it only archives major websites, not realizing its incredible breadth (over 866 billion web pages). The Internet Archive is a massive, ongoing project with a dedicated team and a global community of supporters and archivists, and the Wayback Machine is continuously updated with new captures (millions daily) and undergoes regular technical maintenance and feature enhancements.",
-    "imageIdea": "old computer monitor",
-    "websiteLink": "https://archive.org/web/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-17",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Farchive.org%2Fweb%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 152,
-    "slug": "readlang-translate-text",
-    "name": "Readlang",
-    "whatItDoes": "Readlang is an innovative language learning tool available as a browser extension, created by Steve Hanov. It transforms any web page into an interactive language lesson, allowing users to instantly translate individual words or entire phrases by clicking or highlighting them, and then save these new vocabulary items for spaced repetition practice. It's designed for language learners of all levels who want to immerse themselves in authentic content, expand their vocabulary, and improve comprehension while browsing the internet. As users read articles, news, or blogs in their target language, they can seamlessly look up unfamiliar words, hear their pronunciation, and add them to a personalized flashcard deck, turning passive reading into active learning. Primarily a Chrome extension, it works across virtually any website and also offers a dedicated web application for reviewing saved vocabulary through spaced repetition flashcards.",
-    "category": "Education",
-    "whyItIsUseful": "Unlike traditional dictionary apps that require constant switching between tabs, or formal language courses that might lack real-world context, Readlang integrates learning directly into native content. It wins by making language acquisition frictionless and highly contextual, leveraging the vastness of the internet as a living textbook. An intermediate Spanish learner reading a Spanish news site can click on unfamiliar idioms or technical terms to get instant translations, building their contextual vocabulary without interrupting their reading flow, and later reviewing these terms in flashcards. An English as a Second Language (ESL) student struggling with complex English texts can use Readlang to quickly grasp the meaning of difficult words and phrases, accelerating their reading comprehension and making academic or professional documents more accessible. Readlang offers a robust free tier that includes unlimited word translations and basic flashcard functionality; a 'Readlang Unlimited' premium subscription (around $5/month) unlocks unlimited phrase translations, advanced flashcard features, and the ability to import entire e-books for interactive reading. Many users initially focus only on word translation but later discover the power of 'Reader Mode,' which simplifies web pages for focused reading, and the ability to import entire texts or e-books (PDF, EPUB) directly into Readlang for an even richer immersive learning experience. Despite its effectiveness, some language learners might not be aware of browser extensions as a learning tool, or might prefer more structured, gamified apps. Readlang has a dedicated user base and is actively maintained by its developer, receiving regular updates to improve translation accuracy, add new features, and enhance user experience.",
-    "imageIdea": "stack of foreign language books",
-    "websiteLink": "https://readlang.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-17",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Freadlang.com%2F&screenshot=true&meta=false&embed=screenshot.url",
-    "badge": "editors-pick"
-  },
-  {
-    "id": 153,
-    "slug": "boringbar",
-    "name": "boringBar",
-    "whatItDoes": "boringBar is a lightweight, macOS-native taskbar-style dock replacement that aims to simplify your workflow by presenting open applications and essential system information in a clean, unobtrusive bar at the top of your screen. It's designed for users who find the default macOS Dock distracting or prefer a more minimalist interface. For example, a graphic designer could use boringBar to keep track of their open Adobe Suite applications and quickly switch between them without cluttering their main desktop space.",
-    "category": "Productivity",
-    "whyItIsUseful": "This tool is particularly useful for macOS users who want a more efficient and less visually demanding way to manage their open applications. Unlike the default Dock which can become crowded, boringBar offers a streamlined, taskbar-like experience reminiscent of other operating systems. Its simplicity is its strength, allowing for quick glances and application switching without taking up prime screen real estate. Power users appreciate its minimal impact on system resources and its unobtrusive design, making it ideal for those who prioritize focus and efficiency in their digital workspace. It's a refreshing alternative for anyone tired of the default macOS aesthetic.",
-    "imageIdea": "minimalist black bar on a macbook screen",
-    "websiteLink": "https://boringbar.app/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-18",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fboringbar.app%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 154,
     "slug": "smol-machines",
     "name": "Smol machines",
@@ -5838,7 +5772,8 @@
     "websiteLink": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
     "type": "hidden-gem",
     "dateAdded": "2026-04-30",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2FFeSens%2Fauto-arch-tournament%2Fblob%2Fmain%2Fdocs%2Fauto-arch-tournament-blog-post.md&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2FFeSens%2Fauto-arch-tournament%2Fblob%2Fmain%2Fdocs%2Fauto-arch-tournament-blog-post.md&screenshot=true&meta=false&embed=screenshot.url",
+    "badge": "editors-pick"
   },
   {
     "id": 739,
@@ -6370,5 +6305,73 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-11",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdocforge.dev%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 777,
+    "slug": "screenshots-of-old-desktop-oses",
+    "name": "Screenshots of Old Desktop OSes",
+    "seoTitle": "Screenshots Old OSes — Digital Nostalgia Archive",
+    "whatItDoes": "This is a meticulously curated archive of screenshots from various vintage desktop operating systems. It serves as a digital museum, preserving the visual history of computing interfaces from eras past. You can browse through images of operating systems that were once cutting-edge, offering a glimpse into the evolution of user experience and design aesthetics in computing. It's a fascinating resource for anyone interested in the history of technology or simply for a dose of digital nostalgia.",
+    "category": "Reference",
+    "whyItIsUseful": "This site offers a unique and often overlooked perspective on technological evolution. While many resources discuss OS history, the sheer volume and variety of visual examples here make it invaluable for designers, developers, and historians. It’s particularly useful for understanding the design constraints and innovations of different periods, which can inform modern UI/UX decisions or simply serve as inspiration. Power users and researchers appreciate the deep dive into visual heritage, providing a tangible connection to how users interacted with computers decades ago. It's a hidden gem for anyone feeling the pull of retro computing or studying the aesthetics of digital interfaces.",
+    "imageIdea": "vintage computer monitor",
+    "websiteLink": "https://www.typewritten.org/Media/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.typewritten.org%2FMedia%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 778,
+    "slug": "graphics-graphic",
+    "name": "Graphics graphic",
+    "seoTitle": "Graphics graphic — Data Visualization Tools",
+    "whatItDoes": "Graphics graphic is a comprehensive hub and collection of tools and libraries for data visualization. It aims to bring together various approaches to creating charts, graphs, and interactive visual representations of data, catering to developers and data scientists. The platform showcases a wide range of charting technologies, from simple bar charts to complex network diagrams, often providing examples and links to their respective projects. Its purpose is to simplify the process of finding and integrating effective data visualization solutions into projects.",
+    "category": "Developer",
+    "whyItIsUseful": "In a world awash with data, effective visualization is key, and this site cuts through the noise to present a curated selection of powerful tools. Unlike generic lists, it often highlights more specialized or cutting-edge libraries that might not be on the radar of mainstream developers. It's a fantastic resource for finding the perfect charting library for a specific need, whether it's for web-based interactive dashboards, scientific plotting, or complex geospatial data. Developers who want to go beyond basic charts and explore sophisticated visual storytelling with data will find immense value here. It champions tools that offer both flexibility and performance, often appreciated by seasoned practitioners.",
+    "imageIdea": "abstract geometric data visualization",
+    "websiteLink": "https://www.graphics.graphic/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.graphics.graphic%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 779,
+    "slug": "terminal-image-viewer",
+    "name": "viu",
+    "seoTitle": "viu — Terminal Image Viewer",
+    "whatItDoes": "viu is a command-line tool that allows you to display images directly within your terminal emulator. It uses Unicode characters and ANSI escape codes to render images in a pixelated but recognizable format. Developed by a community of open-source contributors, it aims to provide a quick way to preview images without leaving the terminal environment. For example, a developer could use `viu your_image.png` to instantly see a thumbnail of an icon or a generated plot before opening a full image viewer application.",
+    "category": "Developer",
+    "whyItIsUseful": "viu is a delightful utility for anyone who spends significant time in the command line. While many terminals now support image rendering to some extent, viu offers a robust and often higher-fidelity experience than basic inline image support. It's particularly useful for quickly inspecting images generated by scripts, checking image dimensions, or previewing assets without disrupting your workflow. Power users appreciate its speed and the minimal overhead it introduces. It also supports various image formats and can be configured for different terminal capabilities. For instance, a web designer could use it to check the visual appearance of a logo file directly after saving it from an editor, making iterative design much faster.",
+    "imageIdea": "pixelated landscape painting",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-12"
+  },
+  {
+    "id": 780,
+    "slug": "zen-writing-app",
+    "name": "FocusWriter",
+    "seoTitle": "FocusWriter — Distraction-Free Writing",
+    "whatItDoes": "FocusWriter is a free and open-source word processor designed to minimize distractions and help you concentrate on writing. It features a simple, uncluttered interface that hides menus and toolbars until you move your mouse to the edge of the screen. Developed by the GYV Software team, it aims to replicate the experience of writing on a typewriter in a digital age. Writers can use it to draft essays, novels, or any long-form content without the temptation of internet browsing or other application notifications.",
+    "category": "Writing",
+    "whyItIsUseful": "In a world saturated with feature-rich, often overwhelming, word processors, FocusWriter offers a refreshing return to the core act of writing. Its minimalist design is its greatest strength, forcing users to focus solely on their text. Unlike some other distraction-free editors that might still have subtle UI elements, FocusWriter's approach is more absolute, making it ideal for deep work sessions. It supports basic formatting, spell checking, and allows users to set goals for word count or time spent writing. Many authors and students find its portable nature (it can run from a USB drive) and its plain-text compatibility invaluable for ensuring their work is always accessible and future-proof.",
+    "imageIdea": "antique typewriter keys",
+    "websiteLink": "https://focuswriter.sourceforge.io/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ffocuswriter.sourceforge.io%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 781,
+    "slug": "color-contrast-checker",
+    "name": "Contrast Ratio",
+    "seoTitle": "Contrast Ratio — Accessibility Color Checker",
+    "whatItDoes": "Contrast Ratio is a simple, web-based tool that calculates the color contrast ratio between two selected colors. It's built by Accessibility, a platform focused on digital inclusion. The tool helps designers and developers ensure their web content meets accessibility standards, specifically WCAG (Web Content Accessibility Guidelines) for text readability. For example, a designer could use it to test if the chosen font color on a particular background color provides sufficient contrast for visually impaired users to read easily.",
+    "category": "Design",
+    "whyItIsUseful": "Ensuring web accessibility is crucial, and tools like Contrast Ratio make this task straightforward. While many design suites have built-in contrast checkers, this standalone web tool is incredibly accessible and easy to use, requiring no software installation. It provides immediate feedback on whether a color combination meets AA or AAA contrast requirements, a key factor for WCAG compliance. It's invaluable for anyone creating websites, user interfaces, or digital documents who wants to avoid common accessibility pitfalls. Developers often use it as a quick reference during mock-up stages, and content creators can verify their choice of text and background colors for blog posts or presentations.",
+    "imageIdea": "magnifying glass over color swatches",
+    "websiteLink": "https://contrast-ratio.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fcontrast-ratio.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]
