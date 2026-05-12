@@ -1,10 +1,36 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-12T11:28:00.309Z",
+  "generatedAt": "2026-05-12T15:09:54.916Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-876b78a0801ec04a5afa535994a9c3cbc47af2ed-001-",
+      "type": "current-event",
+      "title": "Red Flag Warning issued May 12 at 7:29AM CDT until May 12 at 9:00PM CDT by NWS Aberdeen...",
+      "summary": "The National Weather Service in Aberdeen has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 11 AM this morning to 9 PM CDT this evening. * AFFECTED AREA...In South Dakota, Day, Clark, Codington, Grant, Hamlin and Deuel. * WINDS...Northwest 20 to 30 mph with gusts up to...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.876b78a0801ec04a5afa535994a9c3cbc47af2ed.001.1",
+      "detectedAt": "2026-05-12T15:09:54.916Z",
+      "publishedAt": "2026-05-12",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.876b78a0801ec04a5afa535994a9c3cbc47af2ed.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
     {
       "id": "candidate-cpsc-26466",
       "type": "current-event",
@@ -13,7 +39,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-12T11:28:00.309Z",
+      "detectedAt": "2026-05-12T15:09:54.916Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -39,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-      "detectedAt": "2026-05-12T11:28:00.309Z",
+      "detectedAt": "2026-05-12T15:09:54.916Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -58,38 +84,17 @@
       ]
     },
     {
-      "id": "candidate-openfda-device-enforcement-z-2030-2026",
-      "type": "current-event",
-      "title": "Medline Industries, LP recall or enforcement update",
-      "summary": "Medline medical procedure kits, containing Medline Neuro Sponges, labeled as follows: 1. MICRODISECTOMY PACK, Medline Kit Number/SKU DYNJ80585B; 2. MICRODISECTOMY PACK, Medline Kit Number/SKU DYNJ80585C; 3, MICRODISECTOMY PACK, Medline Kit Number/SKU DYNJ80585D.: During an internal review, Medline identified...",
-      "topic": "health-safety.device-enforcement",
-      "sourceName": "openFDA device enforcement",
-      "sourceUrl": "https://api.fda.gov/device/enforcement.json?limit=15&sort=report_date:desc",
-      "detectedAt": "2026-05-12T11:28:00.309Z",
-      "publishedAt": "2026-05-06",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "openFDA device enforcement",
-          "url": "https://api.fda.gov/device/enforcement.json?limit=15&sort=report_date:desc",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,546 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,559 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-12T11:28:00.309Z",
+      "detectedAt": "2026-05-12T15:09:54.916Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,546 stars",
+      "velocityLabel": "444,559 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -109,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 434,295 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 434,378 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-12T11:28:00.309Z",
+      "detectedAt": "2026-05-12T15:09:54.916Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "434,295 stars",
+      "velocityLabel": "434,378 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
@@ -140,7 +145,7 @@
     "gnews returned 0 signal(s).",
     "newsapi returned 0 signal(s).",
     "5 signal(s) cleared the editorial threshold.",
-    "18 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
+    "19 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
     "0 near-threshold signal(s) kept as monitors."
   ]
 }
