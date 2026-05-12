@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-12T15:09:54.916Z",
+  "generatedAt": "2026-05-12T17:24:44.932Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-876b78a0801ec04a5afa535994a9c3cbc47af2ed-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-e06ec8f73cc422c9908b6da474ba0b983af8fbb1-001-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 12 at 7:29AM CDT until May 12 at 9:00PM CDT by NWS Aberdeen...",
-      "summary": "The National Weather Service in Aberdeen has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 11 AM this morning to 9 PM CDT this evening. * AFFECTED AREA...In South Dakota, Day, Clark, Codington, Grant, Hamlin and Deuel. * WINDS...Northwest 20 to 30 mph with gusts up to...",
+      "title": "Red Flag Warning issued May 12 at 10:38AM MDT until May 13 at 9:00PM MDT by NWS Missoula...",
+      "summary": "...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT WEDNESDAY DUE TO WIND AND LOW RELATIVE HUMIDITY FOR DEERLODGE/WEST BEAVERHEAD AND EAST BEAVERHEAD... The National Weather Service in Missoula MT has issued a Red Flag Warning in effect from noon to 9 PM MDT Wednesday. * AFFECTED AREA...Fire Weather Zones 110 and...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.876b78a0801ec04a5afa535994a9c3cbc47af2ed.001.1",
-      "detectedAt": "2026-05-12T15:09:54.916Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e06ec8f73cc422c9908b6da474ba0b983af8fbb1.001.2",
+      "detectedAt": "2026-05-12T17:24:44.932Z",
       "publishedAt": "2026-05-12",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,7 +26,33 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.876b78a0801ec04a5afa535994a9c3cbc47af2ed.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e06ec8f73cc422c9908b6da474ba0b983af8fbb1.001.2",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-a22a29e5475ba44a6db8fcc5c4f33089fd4056ef-001-",
+      "type": "current-event",
+      "title": "Red Flag Warning issued May 12 at 9:52AM PDT until May 12 at 10:00PM PDT by NWS Hanford...",
+      "summary": "The National Weather Service in Hanford has issued a Red Flag Warning, which is in effect until 10 PM PDT this evening. * AFFECTED AREA...Fire weather zone 298 Indian Wells Valley. Fire weather zone 299 Kern County Desert. Fire weather zone 579 West Side Hills. Fire weather zone 596 Tehachapi Area. Fire weather zone...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a22a29e5475ba44a6db8fcc5c4f33089fd4056ef.001.1",
+      "detectedAt": "2026-05-12T17:24:44.932Z",
+      "publishedAt": "2026-05-12",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a22a29e5475ba44a6db8fcc5c4f33089fd4056ef.001.1",
           "role": "event-source"
         }
       ]
@@ -39,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-12T15:09:54.916Z",
+      "detectedAt": "2026-05-12T17:24:44.932Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -58,43 +84,17 @@
       ]
     },
     {
-      "id": "candidate-cpsc-26468",
-      "type": "current-event",
-      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
-      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-      "detectedAt": "2026-05-12T15:09:54.916Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-12",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,559 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,568 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-12T15:09:54.916Z",
+      "detectedAt": "2026-05-12T17:24:44.932Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,559 stars",
+      "velocityLabel": "444,568 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 434,378 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 434,434 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-12T15:09:54.916Z",
+      "detectedAt": "2026-05-12T17:24:44.932Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "434,378 stars",
+      "velocityLabel": "434,434 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
@@ -145,7 +145,7 @@
     "gnews returned 0 signal(s).",
     "newsapi returned 0 signal(s).",
     "5 signal(s) cleared the editorial threshold.",
-    "19 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
+    "21 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
     "0 near-threshold signal(s) kept as monitors."
   ]
 }
