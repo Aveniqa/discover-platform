@@ -357,7 +357,7 @@ function cleanForValidation(item) {
   return {
     ...item,
     title: trimWords(trimText(item.title, 120), 18),
-    summary: trimText(item.summary, 320),
+    summary: trimWords(trimText(item.summary, 320), 55),
     sourceTrail: (item.sourceTrail || []).filter((entry) => /^https:\/\//.test(entry.url)).slice(0, 6),
   };
 }
