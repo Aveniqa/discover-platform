@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-13T20:12:24.311Z",
+  "generatedAt": "2026-05-13T22:39:50.662Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-49a3f34b252c456fe090a9e8c1ad2d6a09fc6858-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-7ebacf0439c902e02bbe5ace115cc6b288f2e0b3-001-",
       "type": "current-event",
-      "title": "Severe Thunderstorm Watch issued May 13 at 1:52PM MDT until May 13 at 8:00PM MDT by NWS Pocatello...",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH 200 IN EFFECT UNTIL 8 PM MDT THIS EVENING FOR THE FOLLOWING AREAS IN IDAHO THIS WATCH INCLUDES 18 COUNTIES IN CENTRAL IDAHO BLAINE BUTTE IN EASTERN IDAHO CLARK TETON IN SOUTH CENTRAL IDAHO FREMONT LINCOLN MINIDOKA IN SOUTHEAST IDAHO BANNOCK BEAR LAKE...",
+      "title": "Severe Thunderstorm Warning issued May 13 at 6:33PM EDT until May 13 at 7:30PM EDT by NWS Blacksburg...",
+      "summary": "SVRRNK The National Weather Service in BLACKSBURG has issued a * Severe Thunderstorm Warning for... Western Alleghany County in west central Virginia... Southeastern Greenbrier County in southeastern West Virginia... Northeastern Monroe County in southeastern West Virginia... * Until 730 PM EDT. * At 633 PM EDT, a...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.49a3f34b252c456fe090a9e8c1ad2d6a09fc6858.001.1",
-      "detectedAt": "2026-05-13T20:12:24.311Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ebacf0439c902e02bbe5ace115cc6b288f2e0b3.001.1",
+      "detectedAt": "2026-05-13T22:39:50.662Z",
       "publishedAt": "2026-05-13",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,20 +26,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.49a3f34b252c456fe090a9e8c1ad2d6a09fc6858.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ebacf0439c902e02bbe5ace115cc6b288f2e0b3.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-9c5ca0388f71d9df045fc779cbb16f6fe79fd18b-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-f0ddf3daa09a46ecf29ed09659c1e68995200469-001-",
       "type": "current-event",
-      "title": "Severe Thunderstorm Watch issued May 13 at 1:52PM MDT until May 13 at 8:00PM MDT by NWS Salt...",
-      "summary": "THE NATIONAL WEATHER SERVICE HAS ISSUED SEVERE THUNDERSTORM WATCH 200 IN EFFECT UNTIL 8 PM MDT THIS EVENING FOR THE FOLLOWING AREAS IN UTAH THIS WATCH INCLUDES 13 COUNTIES IN CENTRAL UTAH JUAB IN NORTHERN UTAH BOX ELDER CACHE DAVIS DUCHESNE MORGAN RICH SALT LAKE SUMMIT TOOELE UTAH WASATCH WEBER IN WYOMING THIS WATCH...",
+      "title": "Severe Thunderstorm Warning issued May 13 at 6:37PM EDT until May 13 at 7:00PM EDT by NWS Baltimore...",
+      "summary": "SVRLWX The National Weather Service in Sterling Virginia has issued a * Severe Thunderstorm Warning for... Frederick County in northwestern Virginia... Northwestern Clarke County in northwestern Virginia... The City of Winchester in northwestern Virginia... Central Jefferson County in the Panhandle of West...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c5ca0388f71d9df045fc779cbb16f6fe79fd18b.001.1",
-      "detectedAt": "2026-05-13T20:12:24.311Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0ddf3daa09a46ecf29ed09659c1e68995200469.001.1",
+      "detectedAt": "2026-05-13T22:39:50.662Z",
       "publishedAt": "2026-05-13",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -52,7 +52,7 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c5ca0388f71d9df045fc779cbb16f6fe79fd18b.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0ddf3daa09a46ecf29ed09659c1e68995200469.001.1",
           "role": "event-source"
         }
       ]
@@ -65,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-13T20:12:24.311Z",
+      "detectedAt": "2026-05-13T22:39:50.662Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -87,14 +87,14 @@
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,634 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,636 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-13T20:12:24.311Z",
+      "detectedAt": "2026-05-13T22:39:50.662Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,634 stars",
+      "velocityLabel": "444,636 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 434,831 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 434,840 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-13T20:12:24.311Z",
+      "detectedAt": "2026-05-13T22:39:50.662Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "434,831 stars",
+      "velocityLabel": "434,840 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
@@ -145,7 +145,7 @@
     "gnews returned 0 signal(s).",
     "newsapi returned 0 signal(s).",
     "5 signal(s) cleared the editorial threshold.",
-    "21 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
+    "20 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
     "0 near-threshold signal(s) kept as monitors."
   ]
 }
