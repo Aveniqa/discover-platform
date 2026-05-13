@@ -1,65 +1,5 @@
 [
   {
-    "id": 146,
-    "slug": "huashu-design",
-    "toolName": "Huashu Design",
-    "whatItDoes": "Huashu Design is a revolutionary approach to creating high-fidelity prototypes, presentations, and animations directly within Claude Code, leveraging HTML as its native design language. It empowers users to build complex visual elements, design systems, and even interactive animations with a focus on design philosophy and review processes. The tool offers features like 5-dimensional reviews and MP4 export, and importantly, it is agent-agnostic, meaning it's not tied to a specific AI assistant. It operates on a free and open-source model.",
-    "category": "Design",
-    "whyItIsUseful": "This tool is a game-changer for designers and developers looking to bridge the gap between ideation and execution, especially when working with AI coding assistants. By treating HTML as a first-class design citizen, Huashu Design allows for incredibly precise and interactive mockups that are closer to production-ready code. Its emphasis on design philosophy and structured review processes elevates the collaborative aspect of design. For anyone who needs to rapidly iterate on UI/UX, create dynamic presentations, or simply visualize complex ideas before coding, Huashu Design offers an unparalleled workflow. It’s particularly beneficial for those working with AI to generate code, ensuring the visual output aligns perfectly with functional requirements. The agent-agnostic nature makes it highly versatile.",
-    "imageIdea": "html code building a sleek digital interface",
-    "websiteLink": "https://github.com/alchaincyf/huashu-design",
-    "type": "tool",
-    "dateAdded": "2026-04-22"
-  },
-  {
-    "id": 147,
-    "slug": "video-use",
-    "toolName": "video-use",
-    "whatItDoes": "video-use is a fascinating Python library that allows you to edit videos using code. Instead of complex timeline interfaces, you can instruct AI agents to perform actions like cutting, adding effects, or even generating new content within your videos. It's particularly useful for automating repetitive video editing tasks or for those who prefer a programmatic approach. The core value lies in its ability to leverage AI for video manipulation, making advanced edits accessible through simple Python commands.",
-    "category": "Developer",
-    "whyItIsUseful": "For developers and content creators who want to automate video production, video-use offers a powerful, code-driven solution. It's ideal for batch processing videos, creating dynamic video content based on data, or integrating video editing into larger workflows. The project's significant traction on GitHub, indicated by over 4474 stars, suggests a strong community and active development. Users can save considerable time by scripting edits that would be tedious to do manually. This tool is a game-changer for anyone looking to bring AI-powered efficiency to their video content pipeline.",
-    "imageIdea": "python code editing video timeline",
-    "websiteLink": "https://github.com/browser-use/video-use",
-    "type": "tool",
-    "dateAdded": "2026-04-25"
-  },
-  {
-    "id": 148,
-    "slug": "obscura",
-    "toolName": "obscura",
-    "whatItDoes": "obscura is a high-performance headless browser built with Rust, designed specifically for AI agents and web scraping. It allows applications to interact with web pages programmatically, rendering them just like a human user would see them, but without a visible graphical interface. This is crucial for tasks that require simulating user interactions, such as filling out forms, clicking buttons, or extracting complex data that relies on JavaScript execution. Its Rust foundation ensures speed and reliability, making it a top choice for demanding scraping and automation projects.",
-    "category": "Developer",
-    "whyItIsUseful": "obscura is an indispensable tool for developers and data scientists engaged in web scraping and AI agent development. Its robust performance, thanks to Rust, means faster data extraction and more reliable automation, saving significant processing time and resources. The ability to handle dynamic web content seamlessly makes it superior for complex scraping tasks where simpler methods fail. With nearly 4000 stars on GitHub, it's a well-regarded solution for building sophisticated web automation tools. It empowers users to build intelligent bots that can navigate and understand the web effectively, crucial for market research, competitive analysis, and data aggregation.",
-    "imageIdea": "headless browser chrome icon code",
-    "websiteLink": "https://github.com/h4ckf0r0day/obscura",
-    "type": "tool",
-    "dateAdded": "2026-04-25"
-  },
-  {
-    "id": 149,
-    "slug": "littlebird-ai",
-    "toolName": "Littlebird",
-    "whatItDoes": "Littlebird is an AI assistant designed to deeply understand your work context, providing remarkably relevant assistance. It achieves this by seeing what's on your screen and transcribing your meetings, allowing it to grasp the nuances of your ongoing projects and conversations. This means every answer, draft, and plan it generates is contextualized, saving you the time of repeatedly explaining your situation. Littlebird operates on a freemium model, offering a foundational set of features for free with advanced capabilities available through paid plans.",
-    "category": "Productivity",
-    "whyItIsUseful": "Littlebird revolutionizes how AI assistants integrate into daily workflows by offering true contextual awareness. Unlike generic assistants, it proactively understands your needs based on your real-time activities and past interactions, leading to significantly more efficient support. This is invaluable for professionals who juggle multiple projects and need quick, accurate information or drafts without extensive prompting. Users praise its ability to reduce mental overhead and speed up tasks like summarizing meetings or preparing documents. It's particularly beneficial for those in fast-paced environments, researchers, and project managers who need a reliable AI partner that truly 'gets' their work.",
-    "imageIdea": "ai assistant laptop screen communication",
-    "websiteLink": "https://www.producthunt.com/r/5P6FZ2JTZUBBPB",
-    "type": "tool",
-    "dateAdded": "2026-04-25"
-  },
-  {
-    "id": 309,
-    "slug": "mindnode-native-mac-ios-mind-mapping",
-    "toolName": "MindNode",
-    "whatItDoes": "MindNode is an intuitive mind mapping application developed by IdeasOnCanvas GmbH, exclusively designed for Apple platforms to help users brainstorm, organize, and present their ideas. It offers a clean, native interface for creating visually appealing mind maps, outlining thoughts, and connecting concepts with ease. The primary workflow involves starting with a central thought, then expanding it with branches, adding text, images, tasks, and notes, all while benefiting from a fluid, responsive user experience. It is available as a native application for macOS, iOS, and iPadOS, providing a deeply integrated experience within the Apple ecosystem. Its most used feature is the 'Focus Mode,' which helps users concentrate on specific branches of their mind map by temporarily hiding others. All mind map data is stored locally and can be synchronized across Apple devices using iCloud, ensuring privacy and seamless access.",
-    "category": "Productivity",
-    "whyItIsUseful": "MindNode eliminates the clunkiness of web-based or cross-platform tools, offering a truly native and highly optimized mind mapping experience for Apple users. For the student outlining an essay, MindNode provides a structured yet flexible way to organize arguments, research points, and citations, making the writing process smoother. For the creative professional planning a new project, it allows for a fluid exploration of ideas, linking inspiration, tasks, and deadlines within a cohesive visual structure. MindNode offers a free viewer for existing maps and a limited free trial for editing; the full feature set requires a subscription, which is genuinely useful if you are an Apple-centric user. Compared to multi-platform mind mapping tools, MindNode wins with its superior native performance, thoughtful design, and deep integration with macOS and iOS features like Quick Entry and Share Sheet. A power feature is the 'Visual Tags,' allowing users to add icons and colors to branches for quick categorization and filtering of ideas. The learning curve is very low; a non-technical person can create a beautiful and functional mind map in under 5 minutes, benefiting from its intuitive gestures and native controls.",
-    "imageIdea": "MindNode interface on a Mac, showing a visually appealing, colorful mind map with various branches and icons.",
-    "websiteLink": "https://mindnode.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 358,
     "slug": "bear-app-markdown-notes-mac-ios",
     "toolName": "Bear App",
@@ -5753,5 +5693,70 @@
     "websiteLink": "https://superhuman.com/",
     "type": "tool",
     "dateAdded": "2026-05-12"
+  },
+  {
+    "id": 830,
+    "slug": "daily-tool-huashu-design",
+    "toolName": "Huashu Design",
+    "seoTitle": "Huashu Design — HTML-native AI design",
+    "whatItDoes": "Huashu Design is a groundbreaking tool that leverages HTML as its native design language for AI code generation. It enables users to create high-fidelity prototypes, presentations, and even animations directly from code. The system incorporates over 20 design philosophies, a 5-dimensional review process, and supports MP4 export, making it an agent-agnostic solution for rapid visual development. It's particularly effective for translating complex ideas into visual formats with remarkable precision.",
+    "category": "Design",
+    "whyItIsUseful": "This tool is revolutionary for anyone working with AI code generation and visual design. By treating HTML as the native format, Huashu Design bridges the gap between functional code and polished visual output, something many other tools struggle with. Its ability to generate high-fidelity prototypes, slides, and animations streamlines the creative process significantly, saving immense amounts of time. The integrated design philosophies and review system ensure that outputs are not just visually appealing but also adhere to strong design principles. This is invaluable for developers, designers, and product managers who need to quickly iterate on concepts and present them effectively. It excels at turning abstract code concepts into tangible visual assets with unparalleled speed.",
+    "imageIdea": "abstract code flowing into animated user interface",
+    "websiteLink": "https://github.com/alchaincyf/huashu-design",
+    "type": "tool",
+    "dateAdded": "2026-05-13"
+  },
+  {
+    "id": 831,
+    "slug": "open-codesign",
+    "toolName": "Open-codesign",
+    "seoTitle": "Open-codesign — AI code to prototype",
+    "whatItDoes": "Open-codesign is an open-source alternative to proprietary AI design tools, designed to convert prompts into interactive prototypes, slides, and PDFs. It offers a one-click import for your Claude Code or Codex API key, allowing seamless integration with powerful AI models. Supporting a multi-model approach, it works with Claude, GPT, Gemini, Kimi, GLM, and Ollama. The platform emphasizes Bring Your Own Key (BYOK) and local-first functionality for enhanced privacy and control, making it a versatile and secure option for prompt-based design generation.",
+    "category": "Design",
+    "whyItIsUseful": "Open-codesign empowers users to transform their ideas into visual designs with unprecedented ease, leveraging the power of multiple leading AI models. Its ability to generate prototypes, presentations, and PDFs directly from textual prompts dramatically accelerates the design iteration cycle. For individuals and teams who rely on rapid prototyping and visual communication, this tool is a game-changer. The support for various AI models offers flexibility, while the BYOK and local-first approach ensures data privacy and security, which is crucial in professional settings. It’s particularly beneficial for those who want to experiment with different AI engines without being locked into a single ecosystem, and for users who prioritize having more control over their design generation process.",
+    "imageIdea": "AI chatbot interface generating website mockups",
+    "websiteLink": "https://github.com/OpenCoworkAI/open-codesign",
+    "type": "tool",
+    "dateAdded": "2026-05-13"
+  },
+  {
+    "id": 832,
+    "slug": "affine-collaboration-workspace",
+    "toolName": "Affine",
+    "seoTitle": "Affine — All-in-One Workspace App",
+    "whatItDoes": "Affine is a versatile productivity application designed to be an all-in-one workspace for individuals and teams. It combines note-taking, project management, and document creation into a single, intuitive interface. Affine offers a free tier with generous features for personal use, with paid plans for advanced collaboration and storage. Its strength lies in its seamless integration of different productivity tools, allowing you to manage tasks, write documents, and organize information without context switching.",
+    "category": "Productivity",
+    "whyItIsUseful": "Affine streamlines daily workflows by centralizing essential productivity functions. Users can create detailed notes, manage projects with Kanban boards and to-do lists, and even build collaborative documents, all within one application. The clean, user-friendly interface reduces the learning curve, making it accessible to a wide range of users. Its ability to foster collaboration for small teams is a significant advantage, allowing for shared project spaces and real-time document editing. Affine is ideal for students managing coursework, freelancers juggling multiple clients, and small businesses seeking an integrated system for planning and communication.",
+    "imageIdea": "digital whiteboard team collaboration",
+    "websiteLink": "https://affine.pro/",
+    "type": "tool",
+    "dateAdded": "2026-05-13"
+  },
+  {
+    "id": 833,
+    "slug": "photomath-math-solver",
+    "toolName": "PhotoMath",
+    "seoTitle": "PhotoMath — Solve Math Problems Instantly",
+    "whatItDoes": "PhotoMath is a mobile application that uses your device's camera to instantly solve mathematical problems. Simply point your camera at a math equation – from basic arithmetic to calculus – and PhotoMath will provide the answer, along with step-by-step explanations. The core scanning and solving functionality is free, with an optional premium subscription for more advanced features and ad-free experience. It's unparalleled in its ability to quickly and accurately decipher handwritten or printed math problems and offer clear, guided solutions.",
+    "category": "Education",
+    "whyItIsUseful": "PhotoMath serves as an invaluable educational aid for students and anyone needing to brush up on their math skills. It demystifies complex equations by breaking them down into understandable steps, fostering a deeper comprehension of mathematical concepts rather than just providing answers. This is particularly useful for homework help, exam preparation, or for adult learners returning to education. The app's instant feedback and clear guidance make difficult math problems feel more approachable and less intimidating. It saves significant time compared to manual calculation or searching for similar problems online, making it a go-to tool for quick math assistance.",
+    "imageIdea": "smartphone scanning math textbook",
+    "websiteLink": "https://www.photomath.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-13"
+  },
+  {
+    "id": 834,
+    "slug": "streamlaide-video-editing",
+    "toolName": "Streamlaide",
+    "seoTitle": "Streamlaide — AI Video Creation Tool",
+    "whatItDoes": "Streamlaide is an AI-powered platform designed to simplify video creation for content creators. It allows users to generate videos from text or existing content, automatically adding visuals, music, and voiceovers. The tool offers a freemium model, providing basic video generation for free with tiered paid plans for more extensive features, higher resolution exports, and longer video lengths. Streamlaide excels at rapidly transforming written content into engaging video formats, significantly reducing the time and technical skill typically required for video production.",
+    "category": "Creative",
+    "whyItIsUseful": "In an era where video content dominates online engagement, Streamlaide democratizes video creation. It empowers individuals and businesses to produce professional-looking videos without needing advanced editing software or specialized skills. Content creators can quickly repurpose blog posts, articles, or scripts into shareable video content for social media, marketing, or educational purposes. The AI handles the heavy lifting of selecting appropriate visuals, generating captions, and even adding fitting background music, making the entire process remarkably efficient. This tool is a game-changer for anyone looking to expand their content strategy into video, saving valuable time and resources.",
+    "imageIdea": "ai generating video from text prompt",
+    "websiteLink": "https://www.streamlaide.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-13"
   }
 ]

@@ -1,46 +1,46 @@
 [
   {
-    "slug": "extreme-depth-snailfish-record",
-    "title": "Snailfish Filmed at Record-Breaking 8,336 Meters",
+    "slug": "archaeologists-uncover-vast-roman-era-wine-production-facility",
+    "title": "Vast Roman Wine Production Facility Unearthed",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "In a remarkable feat of deep-sea exploration, scientists filmed a species of snailfish at a staggering depth of 8,336 me",
+    "description": "Archaeologists in Spain, working near the city of Carmona, have unearthed an exceptionally well-preserved Roman-era wine",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "flexi-desk-ultrawide-monitor-arm-with-wireless-charger",
-    "title": "Flexi-Desk Ultrawide Monitor Arm with Wireless Charger",
+    "slug": "atomos-ninjaw-v-plus-external-recorder-monitor",
+    "title": "Atomos Ninja V+ External Recorder and Monitor",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The Flexi-Desk Ultrawide Monitor Arm with Wireless Charger is an ergonomic workspace solution designed to optimize desk ",
+    "description": "The Atomos Ninja V+ is a professional-grade 5-inch 4K HDR monitor and recorder designed for filmmakers and content creat",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "color-contrast-checker",
-    "title": "Contrast Ratio",
+    "slug": "webgl-path-tracing",
+    "title": "WebGL Path Tracing",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Contrast Ratio is a simple, web-based tool that calculates the color contrast ratio between two selected colors. It's bu",
+    "description": "This project demonstrates real-time path tracing directly in the web browser using WebGL. It allows users to load simple",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "learning-software-architecture",
-    "title": "Learning Software Architecture",
+    "slug": "monokai-digital-stack-europe",
+    "title": "Migrating Digital Stack to Europe",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "This resource delves into the principles and practices of learning software architecture, a critical discipline for desi",
+    "description": "This article details a practical, step-by-step migration of a personal and professional digital infrastructure to Europe",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "superhuman-email",
-    "title": "Superhuman",
+    "slug": "streamlaide-video-editing",
+    "title": "Streamlaide",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Superhuman is an email client designed for speed and efficiency, aiming to help you achieve Inbox Zero faster than ever.",
+    "description": "Streamlaide is an AI-powered platform designed to simplify video creation for content creators. It allows users to gener",
     "badge": null,
     "type": "tool"
   }
