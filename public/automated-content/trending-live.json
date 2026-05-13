@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-12T22:37:04.858Z",
+  "generatedAt": "2026-05-13T04:14:45.195Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-9ab2a980f2b6f9aabbcd8ed58bd467bf50731db1-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-b7c6fdf5af4c51a8ead07d52d9f8da1def44f9a7-001-",
       "type": "current-event",
-      "title": "Air Quality Alert issued May 12 at 4:45PM CDT by NWS Fort Worth TX",
-      "summary": "AQAFWD The Texas Commission on Environmental Quality (TCEQ) has issued an Ozone Action Day for the Dallas-Fort Worth area for Wednesday, May 13, 2026. Atmospheric conditions are expected to be favorable for producing high levels of ozone air pollution in the Dallas-Fort Worth area on Wednesday. You can help prevent...",
+      "title": "Flash Flood Warning issued May 12 at 11:53PM EDT until May 13 at 3:00AM EDT by NWS Tallahassee...",
+      "summary": "FFWTAE The National Weather Service in Tallahassee has issued a * Flash Flood Warning for... Northwestern Brooks County in south central Georgia... East Central Thomas County in south central Georgia... * Until 300 AM EDT. * At 1153 PM EDT, Doppler radar indicated thunderstorms producing heavy rain across the warned...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ab2a980f2b6f9aabbcd8ed58bd467bf50731db1.001.1",
-      "detectedAt": "2026-05-12T22:37:04.858Z",
-      "publishedAt": "2026-05-12",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7c6fdf5af4c51a8ead07d52d9f8da1def44f9a7.001.1",
+      "detectedAt": "2026-05-13T04:14:45.195Z",
+      "publishedAt": "2026-05-13",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
@@ -26,7 +26,33 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ab2a980f2b6f9aabbcd8ed58bd467bf50731db1.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7c6fdf5af4c51a8ead07d52d9f8da1def44f9a7.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-21ea86817a7e0abcda33e2280eef20c460252a3d-001-",
+      "type": "current-event",
+      "title": "Red Flag Warning issued May 12 at 10:11PM MDT until May 14 at 8:00PM MDT by NWS Grand...",
+      "summary": "The National Weather Service in Grand Junction has issued a Red Flag Warning for gusty winds, low relative humidity and dry fuels, which is in effect from noon to 8 PM MDT Thursday. * AFFECTED AREA...In Colorado, Fire Weather Zone 293 Gunnison Basin Forecast Area. * TIMING...From noon to 8 PM MDT Thursday. *...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.21ea86817a7e0abcda33e2280eef20c460252a3d.001.1",
+      "detectedAt": "2026-05-13T04:14:45.195Z",
+      "publishedAt": "2026-05-13",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.21ea86817a7e0abcda33e2280eef20c460252a3d.001.1",
           "role": "event-source"
         }
       ]
@@ -39,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-12T22:37:04.858Z",
+      "detectedAt": "2026-05-13T04:14:45.195Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -47,7 +73,7 @@
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-12",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-13",
           "role": "event-source"
         },
         {
@@ -58,43 +84,17 @@
       ]
     },
     {
-      "id": "candidate-cpsc-26468",
-      "type": "current-event",
-      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
-      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-      "detectedAt": "2026-05-12T22:37:04.858Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-12",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,575 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,589 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-12T22:37:04.858Z",
+      "detectedAt": "2026-05-13T04:14:45.195Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,575 stars",
+      "velocityLabel": "444,589 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 434,491 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 434,598 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-12T22:37:04.858Z",
+      "detectedAt": "2026-05-13T04:14:45.195Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "434,491 stars",
+      "velocityLabel": "434,598 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
@@ -145,7 +145,7 @@
     "gnews returned 0 signal(s).",
     "newsapi returned 0 signal(s).",
     "5 signal(s) cleared the editorial threshold.",
-    "19 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
+    "20 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
     "0 near-threshold signal(s) kept as monitors."
   ]
 }
