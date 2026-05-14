@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awesome Self-Hosted</title>
+      <link>https://surfaced-x.pages.dev/item/awesome-self-hosted</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/awesome-self-hosted</guid>
+      <description>Awesome Self-Hosted is a meticulously curated list of free and open-source software that can be installed and run on one&apos;s own server infrastructure. It covers a vast array of categories, including productivity, media, communication, and security tools, providing links to projects and essential setup information. This resource is invaluable for individuals and organizations looking to gain more control over their data, avoid subscription fees, and customize their digital environments. It helps users discover and evaluate self-hostable alternatives to popular proprietary services, with a strong emphasis on privacy and ownership.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MjB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MjB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MjB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>LLM Course</title>
+      <link>https://surfaced-x.pages.dev/item/llm-course</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/llm-course</guid>
+      <description>LLM Course is a comprehensive, open-source educational resource dedicated to teaching the fundamentals and advanced concepts of Large Language Models (LLMs). It covers topics ranging from the underlying transformer architecture and training methodologies to practical applications and ethical considerations. The course material is freely accessible, providing lectures, code examples, and reading materials for self-paced learning. It stands out by offering a structured and in-depth curriculum designed by experts in the field, making complex LLM topics digestible for students and professionals alike.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8199151/pexels-photo-8199151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8199151/pexels-photo-8199151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8199151/pexels-photo-8199151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Stable Diffusion Web UI Docker</title>
+      <link>https://surfaced-x.pages.dev/item/stable-diffusion-webui-docker</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/stable-diffusion-webui-docker</guid>
+      <description>Stable Diffusion Web UI Docker is a pre-configured Docker image that simplifies the setup and deployment of the popular Stable Diffusion Web UI, an open-source graphical interface for generating AI art. It packages all necessary dependencies and configurations, allowing users to run a powerful image generation model with minimal technical hassle. This solution is free to use and leverages Docker&apos;s containerization technology to ensure a consistent and reproducible environment across different systems. Its strength lies in making the complex process of installing and running Stable Diffusion accessible to a wider audience.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1648134859179-ed0c98f54519?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1648134859179-ed0c98f54519?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1648134859179-ed0c98f54519?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>rebuild-openai-api-wrapper</title>
+      <link>https://surfaced-x.pages.dev/item/rebuild-openai-api-wrapper</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rebuild-openai-api-wrapper</guid>
+      <description>This project provides a simplified Python wrapper for interacting with the OpenAI API, making it easier for developers to integrate advanced AI capabilities like natural language processing, text generation, and image creation into their applications. It abstracts away much of the complexity of direct API calls, offering a more intuitive interface for common tasks. The wrapper is open-source and free to use, aiming to lower the barrier to entry for developers wanting to leverage cutting-edge AI models. It excels at providing a clean and efficient way to handle API requests and responses for common generative AI use cases.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1751448582395-27fc57293f1a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1751448582395-27fc57293f1a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1751448582395-27fc57293f1a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>nature-skills</title>
+      <link>https://surfaced-x.pages.dev/item/nature-skills</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nature-skills</guid>
+      <description>nature-skills is a Python library designed to help researchers and academics create publication-quality figures and visualizations that adhere to the stylistic standards of top scientific journals like Nature. It streamlines the process of generating complex scientific plots, offering pre-built templates and functions for common chart types used in fields such as biology, chemistry, and physics. The library is free to use and open-source, with its primary value lying in its ability to simplify and standardize the visual communication of scientific data, saving researchers significant time and effort in data visualization.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Streamlaide</title>
       <link>https://surfaced-x.pages.dev/item/streamlaide-video-editing</link>
@@ -475,6 +530,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/8407025/pexels-photo-8407025.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Text-to-Diagrams</title>
+      <link>https://surfaced-x.pages.dev/item/text-to-diagrams</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/text-to-diagrams</guid>
+      <description>Text-to-Diagrams is a web-based tool that allows you to generate various types of diagrams, including flowcharts, sequence diagrams, and state diagrams, simply by writing plain text descriptions. It leverages Mermaid syntax, a popular markdown-like scripting language for generating diagrams. This tool is perfect for developers, technical writers, or anyone who needs to quickly visualize processes or systems without wrestling with complex graphical interfaces. You can easily embed these diagrams into markdown documents or share them directly.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7695375/pexels-photo-7695375.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7695375/pexels-photo-7695375.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7695375/pexels-photo-7695375.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>guizang-ppt-skill</title>
       <link>https://surfaced-x.pages.dev/item/guizang-ppt-skill</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/guizang-ppt-skill</guid>
@@ -484,72 +550,6 @@
       <enclosure url="https://images.pexels.com/photos/8075918/pexels-photo-8075918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/8075918/pexels-photo-8075918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/8075918/pexels-photo-8075918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>awesome-gpt-image-2-prompts</title>
-      <link>https://surfaced-x.pages.dev/item/awesome-gpt-image-2-prompts</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/awesome-gpt-image-2-prompts</guid>
-      <description>&quot;awesome-gpt-image-2-prompts&quot; is a community-curated GitHub repository containing an extensive collection of optimized text prompts specifically engineered for OpenAI&apos;s DALL-E 2 (formerly referred to as GPT-Image-2) image generation API. It primarily facilitates the efficient creation of high-quality AI-generated images by providing proven prompt structures and examples, enabling users to achieve desired visual outcomes without extensive trial-and-error. As a GitHub repository, its content (text prompts and Python code examples) is accessible via any web browser or Git client, making it platform-agnostic for users interacting with the DALL-E 2 API. Its most utilized feature is the categorized examples, offering ready-to-use prompts for diverse applications such as &apos;photorealistic portraits of a cyborg,&apos; &apos;futuristic cityscapes,&apos; or &apos;minimalist UI icons,&apos; often with variations to explore different styles and artistic directions. The repository itself is static, containing only text and code; it does not process or store user data, but rather provides the input (prompts) that users then feed into the OpenAI DALL-E 2 API, which handles the image generation and associated data processing.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/30461822/pexels-photo-30461822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/30461822/pexels-photo-30461822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/30461822/pexels-photo-30461822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Fathom 3.0</title>
-      <link>https://surfaced-x.pages.dev/item/fathom-ai-meeting-notes</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fathom-ai-meeting-notes</guid>
-      <description>Fathom 3.0 is an AI-powered meeting notetaker that captures conversations during live calls without requiring a bot to join. It integrates with popular communication platforms and offers features like account-wide AI search, insights, and live summaries. Fathom operates on a freemium model, offering core functionality for free and advanced features through paid tiers, making it an accessible solution for anyone needing to streamline meeting follow-ups.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Pastel.sh</title>
-      <link>https://surfaced-x.pages.dev/item/pastel-sh-minimalist-code-snippet-sharing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pastel-sh-minimalist-code-snippet-sharing</guid>
-      <description>Pastel.sh, a lightweight web service created by an independent developer, is a minimalist online tool for sharing code snippets quickly and elegantly. It allows users to paste code, select a programming language for syntax highlighting, and generate a unique, shareable URL for their snippet. The tool focuses on simplicity and speed, making it ideal for temporary sharing or quick demonstrations without the overhead of account creation. It functions entirely as a web application, accessible from any browser on any device. Its most used feature is the rapid generation of a beautiful, syntax-highlighted link for instant code sharing. Pastel.sh does not require user accounts and stores snippets temporarily on its server for a limited time, prioritizing privacy and ephemeral sharing.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/16023919/pexels-photo-16023919.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/16023919/pexels-photo-16023919.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/16023919/pexels-photo-16023919.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Snipit.io</title>
-      <link>https://surfaced-x.pages.dev/item/snipit-io-cloud-based-snippet-manager</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/snipit-io-cloud-based-snippet-manager</guid>
-      <description>Snipit.io, developed by a dedicated software company, is a cloud-based code snippet manager designed for both individual developers and collaborative teams. It provides a secure platform to store, organize, and retrieve code snippets with features like syntax highlighting, tagging, and powerful search capabilities. Users can create private snippets for personal use or share them publicly or with specific team members. The tool is primarily a web application, accessible via any modern browser, and also offers desktop clients for Windows and macOS. Its most used feature is the ability to quickly save and categorize code snippets, making them easily discoverable across projects. All user data, including code snippets and organizational structures, is stored and synchronized securely in the cloud.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
-      <media:content url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
-      <media:thumbnail url="https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>WebGL Path Tracing</title>
-      <link>https://surfaced-x.pages.dev/item/webgl-path-tracing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/webgl-path-tracing</guid>
-      <description>This project demonstrates real-time path tracing directly in the web browser using WebGL. It allows users to load simple 3D scenes and observe photorealistic rendering effects like reflections, refractions, and global illumination updated dynamically as you interact with the scene. The core technology leverages the power of modern GPUs via WebGL, pushing the boundaries of what&apos;s possible for interactive 3D graphics on the web. It&apos;s a testament to the advancements in web graphics capabilities and offers a glimpse into the future of browser-based rendering for applications ranging from architectural visualization to game development prototyping.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/32489613/pexels-photo-32489613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/32489613/pexels-photo-32489613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/32489613/pexels-photo-32489613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Carbon</title>
-      <link>https://surfaced-x.pages.dev/item/carbon-beautiful-code-images-generator</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/carbon-beautiful-code-images-generator</guid>
-      <description>Carbon, an open-source project developed by Dawn Labs, is a web-based tool designed to create and share beautiful images of your source code. It allows users to paste code, choose from various syntax themes, adjust window styles (padding, shadows, backgrounds), and export high-resolution images. The tool&apos;s primary purpose is to make code snippets aesthetically pleasing for social media, presentations, and documentation. It operates entirely within a web browser, making it universally accessible without any software installation. Its most used feature is the instant transformation of raw code into a shareable, professional-looking image with customizable aesthetics. Carbon does not store user code or images on its servers; everything is processed client-side in the browser, ensuring privacy.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1713944183387-6b23343c4c2a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI2NjR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1713944183387-6b23343c4c2a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI2NjR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1713944183387-6b23343c4c2a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2NjI2NjR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
   </channel>
 </rss>

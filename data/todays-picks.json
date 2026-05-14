@@ -1,46 +1,46 @@
 [
   {
-    "slug": "archaeologists-uncover-vast-roman-era-wine-production-facility",
-    "title": "Vast Roman Wine Production Facility Unearthed",
+    "slug": "deep-eutectic-solvents-sustainable-chemistry",
+    "title": "Deep Eutectic Solvents: Sustainable Chemistry Breakthrough",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Archaeologists in Spain, working near the city of Carmona, have unearthed an exceptionally well-preserved Roman-era wine",
+    "description": "A revolutionary class of solvents known as Deep Eutectic Solvents (DESs) is emerging as a highly promising sustainable a",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "atomos-ninjaw-v-plus-external-recorder-monitor",
-    "title": "Atomos Ninja V+ External Recorder and Monitor",
+    "slug": "axiom-audio-stomp-micro-volume-pedal",
+    "title": "Axiom Audio Stomp Micro Volume Pedal",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The Atomos Ninja V+ is a professional-grade 5-inch 4K HDR monitor and recorder designed for filmmakers and content creat",
+    "description": "The Axiom Audio Stomp Micro Volume Pedal is a compact and rugged solution for guitarists and bassists needing precise vo",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "webgl-path-tracing",
-    "title": "WebGL Path Tracing",
+    "slug": "text-to-diagrams",
+    "title": "Text-to-Diagrams",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This project demonstrates real-time path tracing directly in the web browser using WebGL. It allows users to load simple",
+    "description": "Text-to-Diagrams is a web-based tool that allows you to generate various types of diagrams, including flowcharts, sequen",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "monokai-digital-stack-europe",
-    "title": "Migrating Digital Stack to Europe",
+    "slug": "google-ide-history",
+    "title": "History of Integrated Development Environments at Google",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "This article details a practical, step-by-step migration of a personal and professional digital infrastructure to Europe",
+    "description": "This historical account by Laurent Le Brun explores the evolution of Integrated Development Environments (IDEs) within G",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "streamlaide-video-editing",
-    "title": "Streamlaide",
+    "slug": "awesome-self-hosted",
+    "title": "Awesome Self-Hosted",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Streamlaide is an AI-powered platform designed to simplify video creation for content creators. It allows users to gener",
+    "description": "Awesome Self-Hosted is a meticulously curated list of free and open-source software that can be installed and run on one",
     "badge": null,
     "type": "tool"
   }

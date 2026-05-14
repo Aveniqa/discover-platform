@@ -5,9 +5,6 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "the-dunning-kruger-effect",
-      "the-great-pacific-garbage-patch",
-      "tardigrades-earths-indestructible-micro-animals",
       "the-pioneer-anomaly-unexplained-spacecraft-force",
       "rediscovering-pompeii-herculaneum-vesuvius",
       "ancient-babylonian-astronomy-mathematics",
@@ -16,7 +13,10 @@
       "ancient-african-civilization-advanced-metallurgy",
       "alien-mega-structures-in-space",
       "ancient-dna-rewrites-human-history",
-      "fungi-communicate-through-electrical-signals"
+      "fungi-communicate-through-electrical-signals",
+      "deep-sea-hydrothermal-vents-new-life",
+      "ancient-roman-concrete-durability-secrets",
+      "brain-organoids-learn-play-video-games"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "echoes-spacetime-detecting-gravitational-waves",
-      "the-dunning-kruger-effect",
-      "the-great-pacific-garbage-patch",
-      "the-world-wide-web",
-      "tardigrades-earths-indestructible-micro-animals",
       "the-pioneer-anomaly-unexplained-spacecraft-force",
       "rediscovering-pompeii-herculaneum-vesuvius",
       "ancient-babylonian-astronomy-mathematics",
       "titan-arum-corpse-flower",
       "milgram-experiment-obedience-authority",
       "new-venus-atmosphere-gas-signal",
-      "ai-solves-protein-folding-problem"
+      "ai-solves-protein-folding-problem",
+      "ancient-african-civilization-advanced-metallurgy",
+      "alien-mega-structures-in-space",
+      "ancient-dna-rewrites-human-history",
+      "fungi-communicate-through-electrical-signals",
+      "ancient-egyptian-beer-brewery-discovery"
     ]
   },
   {
@@ -68,15 +68,15 @@
       "apple-vision-pro",
       "tonal-intelligent-fitness-system",
       "sony-alpha-a7s-iii-mirrorless-camera",
-      "the-dunning-kruger-effect",
-      "the-great-pacific-garbage-patch",
       "ancient-babylonian-astronomy-mathematics",
       "titan-arum-corpse-flower",
       "new-venus-atmosphere-gas-signal",
       "deep-sea-hydrothermal-vents-new-life",
       "brain-organoids-learn-play-video-games",
       "venus-phosphine-detection-re-examined",
-      "bacteria-that-eat-plastic-could-clean-oceans"
+      "bacteria-that-eat-plastic-could-clean-oceans",
+      "ancient-chinese-bronze-age-city-flood-controls",
+      "deep-sea-microbes-recycle-plastic-bottles"
     ]
   },
   {
@@ -85,8 +85,6 @@
     "description": "Products and tools to help you feel your best during everyday routines.",
     "emoji": "💪",
     "itemSlugs": [
-      "the-great-pacific-garbage-patch",
-      "tardigrades-earths-indestructible-micro-animals",
       "fungi-communicate-through-electrical-signals",
       "ancient-dna-reveals-ice-age-giants",
       "bacteria-that-eat-plastic-could-clean-oceans",
@@ -96,7 +94,9 @@
       "microplastics-found-deepest-ocean-trenches",
       "arctic-permafrost-thawing-releases-mercury",
       "ocean-plastics-leach-toxic-chemicals",
-      "bioluminescent-organisms-ocean-health-indicators"
+      "bioluminescent-organisms-ocean-health-indicators",
+      "microplastics-cross-fish-blood-brain-barrier",
+      "drone-collected-whale-snot-health-indicator"
     ]
   }
 ]

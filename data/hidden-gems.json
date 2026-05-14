@@ -1,70 +1,5 @@
 [
   {
-    "id": 159,
-    "slug": "track-succession-explore",
-    "name": "Track Succession",
-    "whatItDoes": "Track Succession provides real-time, publicly accessible data on every CEO and CFO change at US public companies, sourced directly from SEC filings. The platform aims to offer transparency into corporate leadership transitions, allowing users to track historical and ongoing executive shifts. It's a valuable resource for investors, researchers, and anyone interested in the dynamics of corporate governance. The 'explore' section allows for detailed filtering and analysis of this data.",
-    "category": "Finance",
-    "whyItIsUseful": "This tool fills a significant niche by consolidating and presenting crucial executive change data that is otherwise scattered across regulatory filings. It offers a more accessible and digestible way to understand leadership turnover than navigating raw SEC documents. For financial analysts and investors, tracking these changes can be a leading indicator of potential strategic shifts or instability within a company. Its live updates and comprehensive historical data make it a powerful, yet often underutilized, resource for informed decision-making. Individuals keen on detailed corporate intelligence will find this indispensable.",
-    "imageIdea": "stock market ticker with changing names",
-    "websiteLink": "https://tracksuccession.com/explore",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-19",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftracksuccession.com%2Fexplore&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 160,
-    "slug": "any-wavelength-lasers-nist",
-    "name": "NIST Scientists Create 'Any Wavelength' Lasers",
-    "whatItDoes": "This news article from NIST (National Institute of Standards and Technology) details a breakthrough by their scientists in creating lasers capable of emitting light at virtually any wavelength. This advancement utilizes tiny circuits to manipulate light, offering unprecedented flexibility in laser technology. The development has significant implications for various fields, including telecommunications, sensing, and scientific research, by enabling custom-tailored light sources. This is a scientific discovery rather than a direct tool for end-users, but it highlights groundbreaking technological progress.",
-    "category": "Reference",
-    "whyItIsUseful": "While not a tool one can 'use' directly, the information provided by NIST about this 'any wavelength' laser technology is profoundly important for understanding future technological capabilities. It signifies a leap beyond the limitations of current laser systems, which are often restricted to specific frequencies. This innovation promises to unlock new applications in fields requiring highly specific light interactions, from advanced medical diagnostics to quantum computing. For anyone in research, engineering, or even just interested in cutting-edge science, this represents a significant potential paradigm shift, making current laser limitations obsolete.",
-    "imageIdea": "prismatic light spectrum",
-    "websiteLink": "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-19",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.nist.gov%2Fnews-events%2Fnews%2F2026%2F04%2Fany-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 161,
-    "slug": "opus-token-comparison",
-    "name": "Opus Token Leaderboard",
-    "whatItDoes": "The Opus Token Leaderboard is a website that anonymously compares the request-token performance of Opus 4.6 and Opus 4.7, two versions of an AI model. It presents data on how these models perform on various tasks, focusing on their token efficiency and output quality. The comparisons are conducted anonymously, providing an objective benchmark for developers and users evaluating different AI model versions. This tool helps users understand which AI model might be more suitable for their specific needs based on empirical performance data.",
-    "category": "Developer",
-    "whyItIsUseful": "This is an invaluable, under-the-radar resource for anyone working with or evaluating large language models, particularly those based on the Opus architecture. It provides concrete, comparative data on model performance that is difficult to obtain elsewhere. Unlike general benchmarks, this focuses on the practical aspect of token usage and its impact on output quality, which is crucial for cost and efficiency. Power users appreciate its transparent, anonymous methodology and the clear insights it offers into model evolution. Developers and researchers looking to optimize AI integration and performance will find this an essential diagnostic tool.",
-    "imageIdea": "AI model comparison dashboard table token cost pricing API laptop",
-    "websiteLink": "https://tokens.billchambers.me/leaderboard",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-19",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftokens.billchambers.me%2Fleaderboard&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 163,
-    "slug": "trellis-mac",
-    "name": "TRELLIS.2 Image-to-3D generation",
-    "whatItDoes": "TRELLIS.2 is a powerful open-source tool developed by Shivam P. Kumar. Its core feature is the ability to generate detailed 3D models directly from single 2D images, leveraging advanced diffusion models. This application is primarily built for artists, game developers, and hobbyists who work on Apple Silicon hardware and need to quickly prototype or create 3D assets. Users integrate TRELLIS.2 into their workflow by simply inputting a 2D image, and the tool processes it locally to output a 3D model, significantly streamlining the asset creation process. Exclusively optimized for Apple Silicon Macs (M1, M2, M3 chips), it outputs standard 3D file formats like OBJ or GLB, ensuring compatibility with popular 3D software such as Blender, Unity, and Unreal Engine.",
-    "category": "Developer",
-    "whyItIsUseful": "TRELLIS.2 offers a compelling alternative to laborious manual 3D modeling or reliance on expensive, often slower, cloud-based 3D reconstruction services. It wins by providing a fast, private, and highly efficient local solution on common Apple hardware, democratizing access to complex 3D generation. An indie game developer can rapidly prototype environmental assets or unique props by converting photos of real-world objects into game-ready 3D models within minutes, potentially reducing asset creation time by 80%. Similarly, a digital artist can quickly generate base meshes for sculptures or scene elements from concept art, saving hours of initial modeling work and allowing more focus on artistic refinement. As an open-source project, TRELLIS.2 is completely free to download and use. A powerful feature often discovered late is its potential for integration into automated asset pipelines, allowing for batch processing of multiple images into 3D models, ideal for larger projects. Its niche appeal to Apple Silicon users and the specific single-image input method (versus multi-view photogrammetry) mean it's not as broadly adopted as general 3D software, despite its impressive performance within its target demographic. Shivam P. Kumar actively maintains TRELLIS.2, with updates and community contributions often shared on GitHub, ensuring ongoing refinement and support.",
-    "imageIdea": "3D rendered product model generated from single flat photo on computer screen",
-    "websiteLink": "https://github.com/shivampkumar/trellis-mac",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-20",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fshivampkumar%2Ftrellis-mac&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 164,
-    "slug": "ithihasas-character-explorer",
-    "name": "Ithihāsas – a character explorer for Hindu epics",
-    "whatItDoes": "Ithihāsas is a web application designed to be an interactive character explorer for Hindu epics, built with remarkable speed. Its core feature is providing an intuitive, visual interface to navigate and understand the complex characters, their lineages, key events, and intricate relationships within monumental texts like the Ramayana and Mahabharata. This tool is primarily built for students, scholars, and anyone curious about the rich narratives of these ancient texts, offering an accessible entry point. Users engage with Ithihāsas by clicking on characters to view detailed profiles, trace family trees, and grasp the interconnectedness of major plot points and figures, making vast narratives digestible. As a browser-based web application, it is universally accessible on any device with an internet connection.",
-    "category": "Education",
-    "whyItIsUseful": "Ithihāsas offers an unparalleled advantage over traditional methods of studying Hindu epics, such as dense textbooks or static, overwhelming family tree charts. It wins by providing a dynamic, interconnected exploration that makes complex narratives significantly more accessible and engaging, potentially improving comprehension by up to 50% for new learners. A university student studying comparative mythology could use Ithihāsas to quickly map the intricate relationships between figures like Arjuna, Krishna, and Karna, significantly aiding in essay writing and exam preparation. For a general reader new to the Ramayana, the tool allows them to visually follow Rama's lineage and understand his connections to Sita and Ravana, preventing the feeling of being overwhelmed. Ithihāsas is a free-to-use web application, making it widely available for educational and personal exploration. Beyond simple character profiles, a powerful late discovery is the depth of its event linkages, allowing users to see how specific characters' actions directly influenced major turning points, providing richer narrative context. Its highly specialized niche, focusing on specific ancient texts, limits its broader appeal compared to general educational tools, despite its exceptional utility for its target audience. While specific update cadences are not detailed, such valuable educational projects often benefit from academic interest and community feedback, with potential for future expansions or deeper textual integration.",
-    "imageIdea": "genealogy tree of mythological figures",
-    "websiteLink": "https://www.ithihasas.in",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-20",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.ithihasas.in&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 165,
     "slug": "eu-replaceable-batteries-news",
     "name": "All phones sold in the EU to have replaceable batteries from 2027",
@@ -5847,7 +5782,8 @@
     "websiteLink": "https://ladybird.org/newsletter/2026-04-30/",
     "type": "hidden-gem",
     "dateAdded": "2026-05-03",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fladybird.org%2Fnewsletter%2F2026-04-30%2F&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fladybird.org%2Fnewsletter%2F2026-04-30%2F&screenshot=true&meta=false&embed=screenshot.url",
+    "badge": "editors-pick"
   },
   {
     "id": 749,
@@ -6376,5 +6312,73 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-13",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.jeremy-an.com%2Fwebgl-path-tracing%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 787,
+    "slug": "index-fyi",
+    "name": "An index of indie web/blog indexes",
+    "seoTitle": "The Index — discover indie blogs online",
+    "whatItDoes": "The Index is a curated directory that aggregates and showcases indexes of indie blogs and personal websites. It aims to surface independent content creators and their work, providing a central point for discovering a diverse range of voices and perspectives outside of mainstream social media algorithms. Users can browse through various categories and find links to personal blogs, often featuring unique insights, hobbies, and reflections that might otherwise go unnoticed. It's built to foster a more connected and discoverable web.",
+    "category": "Reference",
+    "whyItIsUseful": "In an era dominated by algorithmic feeds, The Index is a refreshing counter-movement, championing the original spirit of the indie web. It's incredibly useful for anyone seeking genuine, unfiltered content and diverse viewpoints that aren't driven by virality. The value here is in the sheer variety of discoverable content – from deeply personal essays and niche hobbyist blogs to expert analyses in obscure fields. It’s ideal for writers, researchers, and curious individuals who want to escape the echo chambers and find authentic online communities and thought leaders. It helps users rediscover the joy of stumbling upon unexpected gems, promoting a richer, more varied online experience.",
+    "imageIdea": "stack of open books with diverse covers",
+    "websiteLink": "https://theindex.fyi",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftheindex.fyi&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 788,
+    "slug": "claude-for-small-business",
+    "name": "Claude for Small Business",
+    "seoTitle": "Claude for Small Business — AI assistant",
+    "whatItDoes": "Claude for Small Business is a tailored offering from Anthropic, making their advanced AI assistant accessible and practical for small business operations. It provides tools and features designed to assist with common business tasks such as customer service, content creation, market research, and internal communications. The goal is to empower small enterprises with powerful AI capabilities that were previously more accessible to larger corporations, helping them streamline operations, improve efficiency, and enhance customer engagement without requiring extensive technical expertise.",
+    "category": "Productivity",
+    "whyItIsUseful": "This initiative is significant because it democratizes access to cutting-edge AI for the segment of the economy that often lacks dedicated tech departments. Claude's strengths in natural language understanding, summarization, and creative generation are directly applicable to the day-to-day challenges of small businesses. For instance, a small retailer could use it to draft personalized marketing emails, generate product descriptions, or analyze customer feedback for trends. It’s particularly useful for solopreneurs or small teams looking to punch above their weight in terms of output and customer responsiveness, offering a competitive edge without the hefty price tag or complexity of enterprise solutions.",
+    "imageIdea": "small storefront with AI chatbot icon",
+    "websiteLink": "https://www.anthropic.com/news/claude-for-small-business",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.anthropic.com%2Fnews%2Fclaude-for-small-business&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 789,
+    "slug": "andreaturchet-website-index-html",
+    "name": "TikTok but for scientific papers",
+    "seoTitle": "Sci-Tok — science papers as short videos",
+    "whatItDoes": "This tool, 'TikTok but for scientific papers,' is an experimental project that visualizes and presents scientific research papers in a format akin to short-form video platforms. It aims to break down complex research into digestible, engaging visual summaries, making scientific findings more accessible to a broader audience. By transforming dense academic content into a dynamic, scrollable feed, it offers a novel way to explore and understand scientific breakthroughs, from theoretical concepts to experimental results.",
+    "category": "Education",
+    "whyItIsUseful": "The inherent complexity and accessibility barriers of scientific literature often deter the general public and even researchers outside specific fields from engaging with cutting-edge discoveries. This project tackles that by leveraging a familiar and highly engaging format. It's a powerful tool for science communication, allowing researchers to share their work more broadly and for students or enthusiasts to grasp key findings quickly. The short, visual nature makes it ideal for understanding the core concepts of a paper at a glance, potentially sparking deeper interest and understanding in complex scientific topics that might otherwise remain obscure. It's a bridge between academic silos and public curiosity.",
+    "imageIdea": "magnifying glass over a smartphone screen displaying scientific graphs",
+    "websiteLink": "https://andreaturchet.github.io/website/index.html",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fandreaturchet.github.io%2Fwebsite%2Findex.html&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 790,
+    "slug": "ai-paper-summarizer-demo",
+    "name": "AI Paper Summarizer Demo",
+    "seoTitle": "AI Paper Summarizer — research paper summaries",
+    "whatItDoes": "This AI Paper Summarizer Demo is a web-based tool that uses artificial intelligence to condense lengthy research papers into concise summaries. Users can input the text of a scientific article, a URL to a PDF, or sometimes even a DOI, and the AI will process it to extract the core arguments, methodologies, findings, and conclusions. The primary goal is to save researchers, students, and anyone interested in staying current with academic literature significant time and effort by providing quick overviews of complex studies.",
+    "category": "Reference",
+    "whyItIsUseful": "The sheer volume of academic research published daily makes it nearly impossible for individuals to keep up with all relevant developments in their field. This AI summarizer democratizes access to knowledge by making it significantly faster to triage papers and identify those most critical to one's interests. It’s not just about saving time; it’s about enhancing comprehension and discovery. Power users, such as graduate students or academics with broad research interests, can quickly scan dozens of papers, identifying key methodologies or results that might inspire new research directions. While not a replacement for in-depth reading, it serves as an invaluable first pass, ensuring important findings aren’t missed due to information overload.",
+    "imageIdea": "stack of academic papers with one highlighted summary",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-14"
+  },
+  {
+    "id": 791,
+    "slug": "text-to-diagrams",
+    "name": "Text-to-Diagrams",
+    "seoTitle": "Text-to-Diagrams — Generate diagrams from text",
+    "whatItDoes": "Text-to-Diagrams is a web-based tool that allows you to generate various types of diagrams, including flowcharts, sequence diagrams, and state diagrams, simply by writing plain text descriptions. It leverages Mermaid syntax, a popular markdown-like scripting language for generating diagrams. This tool is perfect for developers, technical writers, or anyone who needs to quickly visualize processes or systems without wrestling with complex graphical interfaces. You can easily embed these diagrams into markdown documents or share them directly.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is a hidden gem for anyone who finds graphical diagramming tools cumbersome. The power lies in its simplicity and speed; you can iterate on a diagram's logic and structure just by editing text, which is far more efficient for complex systems. Unlike visual editors where you might spend time aligning boxes and arrows, Text-to-Diagrams lets you focus solely on the logical flow. Developers appreciate its integration with markdown and its ability to version control diagram changes alongside code. It's ideal for technical documentation, API documentation, or even quick brainstorming sessions where visualizing a process is key.",
+    "imageIdea": "open book with flowing arrows",
+    "websiteLink": "https://text-to-diagrams.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-14",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftext-to-diagrams.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]
