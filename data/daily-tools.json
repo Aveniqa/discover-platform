@@ -1,65 +1,5 @@
 [
   {
-    "id": 221,
-    "slug": "1password-secure-digital-vault",
-    "toolName": "1Password",
-    "whatItDoes": "1Password is a comprehensive password manager developed by AgileBits, offering a secure digital vault for all your sensitive information, from passwords and credit cards to secure notes and software licenses. It focuses on simplifying security by generating and storing strong, unique passwords while enabling secure auto-fill across platforms. The primary workflow involves saving new login credentials as you create them, or importing existing ones, then using the browser extension or mobile app to automatically fill login forms. It is available on iOS, Android, Windows, Mac, Linux, Chrome OS, and as browser extensions for all major browsers. Its most used feature is Watchtower, which alerts users to vulnerable passwords, inactive 2FA, and compromised websites. All data is end-to-end encrypted locally on your device and synced securely through 1Password's cloud infrastructure, maintaining privacy and accessibility.",
-    "category": "Productivity",
-    "whyItIsUseful": "1Password solves the widespread problem of remembering countless complex passwords and the associated security risks of using weak or reused ones. For the busy professional, it streamlines access to dozens of work-related applications, ensuring quick and secure logins without compromising security. For families, it offers secure sharing of critical information like Wi-Fi passwords or streaming service logins without resorting to insecure methods. 1Password operates on a subscription model with a 14-day free trial, but no perpetual free tier, focusing on premium features and support. Compared to Bitwarden, 1Password often wins on user interface polish and advanced features like travel mode, making it slightly more intuitive for less tech-savvy users. Its power feature, 'Travel Mode,' allows users to remove sensitive vaults from their devices when crossing borders, enhancing privacy. Setting up 1Password is straightforward for non-technical users and typically takes less than 5 minutes.",
-    "imageIdea": "1Password mobile app showing a secure note and a password entry with a green checkmark.",
-    "websiteLink": "https://1password.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 461,
-    "slug": "coolors-super-fast-color-palette-generator",
-    "toolName": "Coolors",
-    "whatItDoes": "Coolors is an incredibly fast color palette generator created by Fabrizio Bianchi, designed to help designers and artists quickly create, save, and export beautiful color schemes. It functions by generating five random colors which can then be locked, adjusted, or replaced with new suggestions until a perfect palette is achieved. The primary workflow involves pressing the spacebar to generate new colors, locking favorites, and then fine-tuning shades or exploring alternatives using its intuitive sliders and tools. Coolors is primarily a web-based application but also offers iOS and Android apps, along with an Adobe add-on and Chrome extension. Its most used feature is the spacebar-driven generation, allowing rapid exploration of countless combinations. All generated palettes can be saved to your account in the cloud for easy access across devices.",
-    "category": "Design",
-    "whyItIsUseful": "Coolors solves the common design block of finding harmonious color combinations, replacing hours of manual trial-and-error with instant suggestions. For the branding designer developing a new identity, it allows rapid iteration through countless brand-appropriate palettes to find the perfect feel. For the social media manager creating visual content, it ensures brand consistency and aesthetic appeal across all posts with readily available color schemes. The free tier offers extensive functionality, including generating, saving, and exporting palettes, making it genuinely useful without pressure to upgrade. Unlike more complex tools like Adobe Color, Coolors excels in speed and simplicity, winning on immediate usability for quick inspiration. A power feature is the \"pick color from image\" tool, which extracts a palette directly from any uploaded photo. A non-technical person can generate and save their first palette in under 2 minutes.",
-    "imageIdea": "Coolors web interface showing five distinct color swatches, with option to lock and generate new ones.",
-    "websiteLink": "https://coolors.co/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 509,
-    "slug": "rescuetime-productivity-time-management-software",
-    "toolName": "RescueTime",
-    "whatItDoes": "RescueTime, developed by RescueTime, Inc., is an automatic time tracking and productivity management tool designed to help individuals and teams understand and improve how they spend their digital time. It works silently in the background, categorizing all website and application usage, then provides detailed reports and productivity scores without manual data entry. The tool aims to help users block distractions, set focus goals, and gain insights into their work habits. It is available as desktop apps (Mac, Windows, Linux), Android app, and browser extensions for Chrome and Firefox. Its most used feature is its automatic classification of activities into productive and distracting categories. All data is securely stored in the cloud, with a strong emphasis on user privacy and data analysis for personal improvement.",
-    "category": "Productivity",
-    "whyItIsUseful": "It eliminates the guesswork and self-deception about how time is actually spent online, providing objective data for genuine productivity improvement. For a remote professional, it offers a clear breakdown of time spent on productive tasks versus distractions, helping them identify patterns and optimize their work blocks. For a student, it highlights which applications and websites are most detrimental to study focus, enabling them to set healthier digital boundaries and improve concentration. The free tier is genuinely useful, offering automatic time tracking, basic reporting, and weekly email summaries of activity. Compared to manual time trackers, RescueTime focuses on *analyzing* how time is spent rather than just logging it, providing actionable insights into productivity. A power feature is FocusTime, which allows users to block distracting websites for a set period, creating an uninterrupted work environment. A non-technical person can easily install the desktop client and start getting insights within 5-10 minutes, with the learning curve mainly for interpreting detailed reports.",
-    "imageIdea": "RescueTime dashboard showing productivity score and categories of time spent",
-    "websiteLink": "https://www.rescuetime.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 223,
-    "slug": "protonmail-secure-encrypted-email",
-    "toolName": "ProtonMail",
-    "whatItDoes": "ProtonMail is an encrypted email service developed by CERN scientists, based in Switzerland, offering end-to-end encryption to protect email communications. It ensures that only the sender and intended recipient can read the contents of an email, even ProtonMail itself cannot access your messages. The primary workflow involves sending and receiving emails as usual, with the added security that all communications between ProtonMail users are automatically encrypted, and emails to external recipients can be sent with optional password protection. It is accessible via web, iOS, and Android applications, as well as any standard email client through the ProtonMail Bridge. Its most used feature is the ability to send self-destructing messages, adding an extra layer of privacy. All emails are stored encrypted on ProtonMail's servers in Switzerland, which has strong privacy laws, and user data remains private and secure.",
-    "category": "Communication",
-    "whyItIsUseful": "ProtonMail eliminates the pervasive problem of email surveillance and data breaches that compromise the privacy of traditional email services. For journalists and activists, it provides a secure channel for sensitive communications, protecting sources and critical information from interception. For healthcare professionals, it offers a HIPAA-compliant email solution for patient communication, ensuring data privacy and regulatory adherence. ProtonMail offers a robust free tier with 500MB storage and limited messages, genuinely useful for personal use, with paid plans offering more storage and features. Compared to Gmail, ProtonMail's core winning feature is its unwavering commitment to end-to-end encryption and user privacy by default, rather than as an add-on. A power feature is its integrated VPN service (ProtonVPN) with certain paid plans, further enhancing user anonymity. A non-technical person can create an account and start sending encrypted emails in under 5 minutes due to its user-friendly interface.",
-    "imageIdea": "ProtonMail web interface showing an encrypted email composer with a padlock icon.",
-    "websiteLink": "https://proton.me/mail",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 168,
-    "slug": "raycast-blazing-fast-mac-launcher",
-    "toolName": "Raycast",
-    "whatItDoes": "Raycast is a powerful, extensible launcher and productivity tool for macOS developed by Raycast Technologies Inc., designed to boost user efficiency through keyboard-driven commands. Its core function replaces the default Spotlight search with a highly customizable interface for searching files, launching applications, running scripts, and interacting with various services. The application is exclusively available on macOS, deeply integrating with the operating system for a seamless experience. The most utilized feature is its 'Quicklink' creation, allowing users to define custom shortcuts for frequently accessed files, folders, or web URLs. All user data, including custom commands and preferences, is stored locally and can optionally be synchronized across devices via their cloud-based sync service.",
-    "category": "Productivity",
-    "whyItIsUseful": "Raycast eliminates the time wasted navigating menus, clicking icons, and manually searching for files, significantly accelerating daily workflows. For a developer, it means quickly opening specific projects in their IDE, running local scripts, or searching documentation without ever touching the mouse. A content creator can use Raycast to instantly launch their editing software, search their asset library, or trigger complex multi-app workflows with a few keystrokes. The free tier is genuinely useful, offering core launcher functionality, powerful extensions, and custom scripts, making it a robust free tool. While Alfred is a long-standing competitor, Raycast often wins for its modern interface, native integrations, and rapidly growing open-source extension ecosystem. The 'Snippets' feature, allowing users to expand short abbreviations into full text, is a power user staple for repetitive typing tasks. A non-technical person can install Raycast and start using basic app launching and file search within five minutes, though its advanced features take time to explore.",
-    "imageIdea": "Raycast search bar overlayed on a macOS desktop, showing search results and suggested actions.",
-    "websiteLink": "https://www.raycast.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 433,
     "slug": "instapaper-classic-read-later-app",
     "toolName": "Instapaper",
@@ -5760,5 +5700,70 @@
     "websiteLink": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "type": "tool",
     "dateAdded": "2026-05-14"
+  },
+  {
+    "id": 840,
+    "slug": "daily-tool-clera-ai-talent-agent",
+    "toolName": "Clera",
+    "seoTitle": "Clera — AI talent agent for roles",
+    "whatItDoes": "Clera is an AI-powered talent agent designed to help individuals find job opportunities that genuinely align with their aspirations. It operates through conversational interfaces like iMessage and WhatsApp, learning your career goals, preferences, and desired work environments. Clera then proactively surfaces relevant job openings, acting as a personalized recruiter to streamline your job search. It's particularly adept at filtering out irrelevant listings and presenting you with roles you'd be truly excited about, a feat often challenging with traditional job boards. Clera offers a freemium model, with core functionalities available at no cost.",
+    "category": "Productivity",
+    "whyItIsUseful": "In today's crowded job market, Clera offers a refreshing and highly personalized approach to career advancement. By leveraging AI to understand your unique career trajectory and desires, it significantly reduces the time and effort spent sifting through countless unsuitable job postings. Its integration with popular messaging apps makes it incredibly accessible and convenient to use on the go. Enthusiastic users praise Clera for its ability to uncover hidden gem opportunities and for the intelligent way it matches skills to roles. This tool is invaluable for job seekers who are tired of generic alerts and are looking for a more curated, efficient, and engaging job search experience, ultimately helping them land roles that offer better long-term career satisfaction.",
+    "imageIdea": "ai robot speaking with person on phone",
+    "websiteLink": "https://www.producthunt.com/r/MHJ73XCI7VH4JY",
+    "type": "tool",
+    "dateAdded": "2026-05-15"
+  },
+  {
+    "id": 841,
+    "slug": "figma-collaborative-design-tool",
+    "toolName": "Figma",
+    "seoTitle": "Figma — Collaborative interface design tool",
+    "whatItDoes": "Figma is a cloud-based design tool primarily used for user interface (UI) and user experience (UX) design, but it's also versatile enough for wireframing, prototyping, and even graphic design. Its standout feature is real-time collaboration, allowing multiple designers to work on the same file simultaneously, making it ideal for team projects. Figma offers a free tier with generous features for individual designers and small teams, with paid plans providing more advanced capabilities for larger organizations. It simplifies the design process by offering a unified platform for creation, prototyping, and handoff to developers.",
+    "category": "Design",
+    "whyItIsUseful": "Figma has revolutionized collaborative design by enabling live co-editing, akin to Google Docs for designers. This eliminates version control issues and streamlines feedback loops, significantly speeding up the design iteration process. Its browser-based nature means no downloads are required for basic use, making it accessible from any computer. The platform's robust prototyping features allow designers to create interactive mockups that accurately represent the user flow, which is invaluable for client presentations and developer handoffs. Designers praise its clean interface, powerful vector editing tools, and its extensive plugin ecosystem that further extends its functionality, making it an indispensable tool for modern design workflows.",
+    "imageIdea": "team collaborating on digital design project",
+    "websiteLink": "https://www.figma.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-15"
+  },
+  {
+    "id": 842,
+    "slug": "libreoffice-office-suite",
+    "toolName": "LibreOffice",
+    "seoTitle": "LibreOffice — Free Office Productivity Suite",
+    "whatItDoes": "LibreOffice is a comprehensive, free, and open-source office productivity suite that provides powerful alternatives to proprietary software. It includes applications for word processing (Writer), spreadsheets (Calc), presentations (Impress), vector graphics and flowcharts (Draw), database management (Base), and formula editing (Math). LibreOffice is compatible with a wide range of document formats, including Microsoft Office files, ensuring seamless collaboration. It offers a robust set of features suitable for both personal and professional use, without any cost or licensing fees.",
+    "category": "Productivity",
+    "whyItIsUseful": "LibreOffice offers a complete, cost-free solution for essential office tasks, making it incredibly useful for individuals, students, and organizations looking to reduce software expenses. Its applications are feature-rich and performant, rivaling paid alternatives for most common workflows. For instance, Calc provides advanced spreadsheet functions that can handle complex data analysis and financial modeling, while Writer offers extensive formatting and layout tools for professional document creation. The broad compatibility with popular file formats means you can easily share documents with users of other office suites, eliminating potential workflow disruptions. Its open-source nature also means it benefits from continuous development and community support, ensuring it remains a reliable and evolving productivity tool.",
+    "imageIdea": "computer screen office software",
+    "websiteLink": "https://www.libreoffice.org/",
+    "type": "tool",
+    "dateAdded": "2026-05-15"
+  },
+  {
+    "id": 843,
+    "slug": "retool-app-builder",
+    "toolName": "Retool",
+    "seoTitle": "Retool — Internal Tools Builder",
+    "whatItDoes": "Retool is a low-code platform that allows you to build custom internal tools and applications quickly. You can drag and drop pre-built components like tables, forms, and charts, and connect them to your databases and APIs with minimal coding. Retool offers a free tier for individuals and small teams, with paid plans scaling based on usage and features. It's exceptionally good at creating dashboards and data management interfaces that would otherwise require significant development time.",
+    "category": "Developer",
+    "whyItIsUseful": "For businesses that rely on data but lack extensive development resources, Retool is a game-changer. It empowers non-developers or those with limited coding experience to create sophisticated internal applications, such as customer support portals, inventory management systems, and sales dashboards, in a fraction of the time it would take with traditional development. The platform's extensive library of UI components and its ability to connect to virtually any data source (SQL databases, REST APIs, GraphQL) makes it incredibly versatile. Retool significantly reduces the cost and time associated with building and maintaining internal tools, freeing up engineering teams to focus on core product development. Its visual interface and JavaScript integration strike a powerful balance between speed and customization, making it a favorite for operational efficiency.",
+    "imageIdea": "user interface builder software on a laptop",
+    "websiteLink": "https://retool.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-15"
+  },
+  {
+    "id": 844,
+    "slug": "davinci-resolve-editing",
+    "toolName": "DaVinci Resolve",
+    "seoTitle": "DaVinci Resolve — Video Editing Software",
+    "whatItDoes": "DaVinci Resolve is a professional, all-in-one video editing, color correction, visual effects, and audio post-production software. It offers an incredibly powerful free version that many professionals use, with an optional paid Studio version for advanced features. The software's industry-leading color grading tools are particularly renowned, allowing for precise and cinematic color manipulation that is difficult to achieve elsewhere.",
+    "category": "Creative",
+    "whyItIsUseful": "DaVinci Resolve democratizes professional-grade video production. Its free version is so feature-rich that it rivals many paid competitors, making it an accessible yet powerful tool for aspiring filmmakers, content creators, and even established professionals. The integrated nature of its modules—editing, color, fusion (VFX), and fairlight (audio)—creates a seamless workflow, eliminating the need to bounce between multiple applications. The advanced color correction and grading capabilities are a standout, enabling users to achieve cinematic looks and precise emotional tones in their projects. This is invaluable for anyone looking to elevate their video content beyond basic cuts. Whether you're editing a YouTube video, a short film, or a corporate presentation, Resolve offers the depth and control to produce polished, professional results.",
+    "imageIdea": "film editing suite computer setup",
+    "websiteLink": "https://www.blackmagicdesign.com/products/davinciresolve/",
+    "type": "tool",
+    "dateAdded": "2026-05-15"
   }
 ]
