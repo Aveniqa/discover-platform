@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-15T17:01:55.376Z",
+  "generatedAt": "2026-05-15T19:55:40.739Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-5dc03416db9989df28905c31677f11f5d75d3e10-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-b7d4177df89d4a638ed174c24f3c54d02211d0a0-001-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 15 at 11:11AM CDT until May 15 at 9:00PM CDT by NWS Amarillo...",
-      "summary": "The National Weather Service in Amarillo has issued a Red Flag Warning for dry and windy conditions, which is in effect until 9 PM CDT this evening. * WINDS...Prevailing northwest 10 to 15 mph gusting to 25 mph. Strong erratic wind gusts from thunderstorms may exceed 40 mph and higher. * RELATIVE HUMIDITY...As low as...",
+      "title": "Red Flag Warning issued May 15 at 1:19PM MDT until May 16 at 8:00PM MDT by NWS Pueblo...",
+      "summary": "The National Weather Service in Pueblo has issued a Red Flag Warning for gusty winds and low relative humidity, which is in effect from 11 AM to 8 PM MDT Saturday. A Fire Weather Watch has also been issued. This Fire Weather Watch for gusty winds and low relative humidity is in effect from Sunday...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dc03416db9989df28905c31677f11f5d75d3e10.001.1",
-      "detectedAt": "2026-05-15T17:01:55.376Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7d4177df89d4a638ed174c24f3c54d02211d0a0.001.2",
+      "detectedAt": "2026-05-15T19:55:40.739Z",
       "publishedAt": "2026-05-15",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,20 +26,20 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dc03416db9989df28905c31677f11f5d75d3e10.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7d4177df89d4a638ed174c24f3c54d02211d0a0.001.2",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-2b0098ec28c4317d934b6e8c25e031716d30f545-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-b7d4177df89d4a638ed174c24f3c54d02211d0a0-002-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 15 at 11:11AM CDT until May 15 at 9:00PM CDT by NWS Norman...",
-      "summary": "The National Weather Service in Norman has issued a Red Flag Warning, which is in effect from noon today to 9 PM CDT this evening. * WINDS...South 20 to 30 mph with gusts up to 40 mph. * RELATIVE HUMIDITY...As low as 15 percent. * TEMPERATURES...Up to 104. * IMPACTS...Any fires that develop will likely...",
+      "title": "Red Flag Warning issued May 15 at 1:19PM MDT until May 16 at 8:00PM MDT by NWS Pueblo...",
+      "summary": "The National Weather Service in Pueblo has issued a Red Flag Warning for gusty winds and low relative humidity, which is in effect from 11 AM to 8 PM MDT Saturday. A Fire Weather Watch has also been issued. This Fire Weather Watch for gusty winds and low relative humidity is in effect from Sunday...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2b0098ec28c4317d934b6e8c25e031716d30f545.001.1",
-      "detectedAt": "2026-05-15T17:01:55.376Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7d4177df89d4a638ed174c24f3c54d02211d0a0.002.1",
+      "detectedAt": "2026-05-15T19:55:40.739Z",
       "publishedAt": "2026-05-15",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -52,21 +52,21 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2b0098ec28c4317d934b6e8c25e031716d30f545.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b7d4177df89d4a638ed174c24f3c54d02211d0a0.002.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-cpsc-26466",
+      "id": "candidate-cpsc-26489",
       "type": "current-event",
-      "title": "ZMC Group Recalls Multiple Light Up Toys Due to Risk of Serious Injury or Death from Battery Ingestion;...",
-      "summary": "Various Battery-operated Light Up Toys: The recalled toys violate the mandatory safety standard for children's toys because the toy contains button cell batteries that can be easily accessed by children. If button cell or coin batteries are swallowed, the ingested batteries can cause serious injuries, including...",
+      "title": "ZWILLING J. A. Henckels Aktiengesellschaft Recalls Electric Water Kettles Due to Risk of Serious Injury Due to Burn...",
+      "summary": "Electric Kettles (ENFINIGY 1.5 l and ENFINIGY Pro 1.5 l): The kettle's handle can loosen and separate from the kettle, causing hot contents to spill, posing a risk of serious injury due to a burn hazard.",
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-15T17:01:55.376Z",
-      "publishedAt": "2026-05-07",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZWILLING-JA-Henckels-Aktiengesellschaft-Recalls-Electric-Water-Kettles-Due-to-Risk-of-Serious-Injury-Due-to-Burn-Hazard",
+      "detectedAt": "2026-05-15T19:55:40.739Z",
+      "publishedAt": "2026-05-14",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
@@ -78,7 +78,7 @@
         },
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
+          "url": "https://www.cpsc.gov/Recalls/2026/ZWILLING-JA-Henckels-Aktiengesellschaft-Recalls-Electric-Water-Kettles-Due-to-Risk-of-Serious-Injury-Due-to-Burn-Hazard",
           "role": "event-source"
         }
       ]
@@ -87,14 +87,14 @@
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,789 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,805 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-15T17:01:55.376Z",
+      "detectedAt": "2026-05-15T19:55:40.739Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,789 stars",
+      "velocityLabel": "444,805 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 435,145 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 435,153 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-15T17:01:55.376Z",
+      "detectedAt": "2026-05-15T19:55:40.739Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "435,145 stars",
+      "velocityLabel": "435,153 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
