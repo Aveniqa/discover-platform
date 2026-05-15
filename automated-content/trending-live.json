@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-15T09:25:09.552Z",
+  "generatedAt": "2026-05-15T14:37:47.148Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-72871d476f392bce53b8ff755434277505147418-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-3f5e68ca16fa0871f3c7d51af9457d7b79508d1e-001-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 15 at 2:09AM MDT until May 15 at 8:00PM MDT by NWS Albuquerque...",
-      "summary": "...RED FLAG WARNING IN EFFECT FROM NOON TODAY TO 8 PM MDT THIS EVENING DUE TO STRONG WINDS AND LOW RELATIVE HUMIDITY FOR THE EAST CENTRAL PLAINS... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM SATURDAY AFTERNOON THROUGH SATURDAY EVENING DUE TO STRONG WINDS AND LOW RELATIVE HUMIDITY FOR THE EAST CENTRAL PLAINS, THE...",
+      "title": "Red Flag Warning issued May 15 at 5:59AM MDT until May 15 at 9:00PM MDT by NWS Glasgow...",
+      "summary": "* AFFECTED AREA...Fire weather zones 120, 122, 134, 135, 136, and 137. * WIND...West 20 to 35 mph with gusts to 50 mph today. * HUMIDITY...As low as 20 percent today. * THUNDERSTORMS...Isolated thunderstorms north of HWY 2. * IMPACTS...Any fires that develop will likely spread rapidly. Outdoor burning is not...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72871d476f392bce53b8ff755434277505147418.001.1",
-      "detectedAt": "2026-05-15T09:25:09.552Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f5e68ca16fa0871f3c7d51af9457d7b79508d1e.001.1",
+      "detectedAt": "2026-05-15T14:37:47.148Z",
       "publishedAt": "2026-05-15",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,7 +26,33 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.72871d476f392bce53b8ff755434277505147418.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f5e68ca16fa0871f3c7d51af9457d7b79508d1e.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-11188e2fbaf8f24b86f66b37a2b5c7d26d38f915-001-",
+      "type": "current-event",
+      "title": "Red Flag Warning issued May 15 at 9:03AM CDT until May 15 at 9:00PM CDT by NWS Aberdeen...",
+      "summary": "* AFFECTED AREA...In Minnesota, Traverse and Big Stone. In South Dakota, Corson, Campbell, McPherson, Brown, Marshall, Roberts, Walworth, Edmunds, Day, Dewey, Potter, Faulk and Grant. * WINDS...West 15 to 25 mph with gusts up to 45 mph. * RELATIVE HUMIDITY...As low as 16 percent. * IMPACTS...Any fires that ignite...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11188e2fbaf8f24b86f66b37a2b5c7d26d38f915.001.1",
+      "detectedAt": "2026-05-15T14:37:47.148Z",
+      "publishedAt": "2026-05-15",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11188e2fbaf8f24b86f66b37a2b5c7d26d38f915.001.1",
           "role": "event-source"
         }
       ]
@@ -39,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys",
-      "detectedAt": "2026-05-15T09:25:09.552Z",
+      "detectedAt": "2026-05-15T14:37:47.148Z",
       "publishedAt": "2026-05-07",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -58,43 +84,17 @@
       ]
     },
     {
-      "id": "candidate-cpsc-26468",
-      "type": "current-event",
-      "title": "Svnntaa Bed Rails Recalled Due to Risk of Serious Injury or Death from Entrapment and Asphyxiation Hazards; Violates...",
-      "summary": "Svnntaa Bed Rails: The recalled bed rails violate the mandatory standard for adult portable bed rails because users can become entrapped within the bed rail or between the bed rail and the side of the mattress, posing a serious entrapment hazard and risk of death by asphyxiation. The bed rails do not meet structural...",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-      "detectedAt": "2026-05-15T09:25:09.552Z",
-      "publishedAt": "2026-05-07",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-15",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,769 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,788 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-15T09:25:09.552Z",
+      "detectedAt": "2026-05-15T14:37:47.148Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,769 stars",
+      "velocityLabel": "444,788 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 435,093 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 435,135 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-15T09:25:09.552Z",
+      "detectedAt": "2026-05-15T14:37:47.148Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "435,093 stars",
+      "velocityLabel": "435,135 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
@@ -145,7 +145,7 @@
     "gnews returned 0 signal(s).",
     "newsapi returned 0 signal(s).",
     "5 signal(s) cleared the editorial threshold.",
-    "19 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
+    "21 near-duplicate signal(s) deferred to monitors via host/type diversity caps.",
     "0 near-threshold signal(s) kept as monitors."
   ]
 }
