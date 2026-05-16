@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-16T14:01:20.972Z",
+  "generatedAt": "2026-05-16T16:11:46.634Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-056206475875ee27c13849eb35f9da696a253bd1-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-f5331a5366331e9eed5210c07342d00b4615f6b8-001-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 16 at 9:29AM EDT until May 16 at 8:00PM EDT by NWS Gaylord...",
-      "summary": "...High Fire Danger this Afternoon... .Critically dry air will move in this afternoon behind a frontal passage. Southwest winds will strengthen around midday to 10 to 15 mph with frequent gusts up to 20 to 25 mph. Winds will turn west this afternoon, remaining gusty. Skies will become clear this afternoon and...",
+      "title": "Air Quality Alert issued May 16 at 7:47AM MST by NWS Phoenix AZ",
+      "summary": "* WHAT...The Imperial County APCD has extended an air quality alert due to harmful levels of particle pollution from windblown dust. Visit https://www.aqmd.gov/alertinfo to check current and forecasted air quality levels. * WHERE...the Imperial Valley. Levels of particle pollution can vary by time and location...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.056206475875ee27c13849eb35f9da696a253bd1.001.2",
-      "detectedAt": "2026-05-16T14:01:20.972Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5331a5366331e9eed5210c07342d00b4615f6b8.001.1",
+      "detectedAt": "2026-05-16T16:11:46.634Z",
       "publishedAt": "2026-05-16",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,7 +26,33 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.056206475875ee27c13849eb35f9da696a253bd1.001.2",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5331a5366331e9eed5210c07342d00b4615f6b8.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-f0ce2c826841238bb30a0672e131b62bd92ea36a-001-",
+      "type": "current-event",
+      "title": "Red Flag Warning issued May 16 at 9:54AM CDT until May 16 at 9:00PM CDT by NWS Duluth...",
+      "summary": "The National Weather Service in Duluth has issued a Red Flag Warning for wind and low relative humidity, which is in effect until 9 PM CDT this evening. * AFFECTED AREA...In Minnesota, South Cass, Crow Wing, Northern Aitkin, South Aitkin, Carlton and South St. Louis and Pine. * WINDS...Northwest 10 to 20 mph with...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0ce2c826841238bb30a0672e131b62bd92ea36a.001.1",
+      "detectedAt": "2026-05-16T16:11:46.634Z",
+      "publishedAt": "2026-05-16",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f0ce2c826841238bb30a0672e131b62bd92ea36a.001.1",
           "role": "event-source"
         }
       ]
@@ -39,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZWILLING-JA-Henckels-Aktiengesellschaft-Recalls-Electric-Water-Kettles-Due-to-Risk-of-Serious-Injury-Due-to-Burn-Hazard",
-      "detectedAt": "2026-05-16T14:01:20.972Z",
+      "detectedAt": "2026-05-16T16:11:46.634Z",
       "publishedAt": "2026-05-14",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -58,43 +84,17 @@
       ]
     },
     {
-      "id": "candidate-cpsc-26485",
-      "type": "current-event",
-      "title": "World Bright International Limited Recalls Agio Menlo Woven Patio Swings Due to Risk of Serious Injury or Death...",
-      "summary": "Agio Menlo Woven Patio Swings: The swing seat can detach from the frame while in use, posing a risk of serious injury or death from a fall hazard.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
-      "detectedAt": "2026-05-16T14:01:20.972Z",
-      "publishedAt": "2026-05-14",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-16",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,889 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,907 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-16T14:01:20.972Z",
+      "detectedAt": "2026-05-16T16:11:46.634Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,889 stars",
+      "velocityLabel": "444,907 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 435,265 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 435,282 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-16T14:01:20.972Z",
+      "detectedAt": "2026-05-16T16:11:46.634Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "435,265 stars",
+      "velocityLabel": "435,282 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
