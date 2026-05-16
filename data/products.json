@@ -1,92 +1,5 @@
 [
   {
-    "id": 144,
-    "slug": "phantom-stereo-bluetooth-headphones",
-    "title": "Devialet Mania",
-    "shortDescription": "The Devialet Mania is a premium portable smart speaker from the renowned French audio innovator, Devialet. It delivers an immersive, high-fidelity sound experience with a remarkable 360-degree stereo soundstage, powered by 4 aluminum full-range drivers and 2 woofers. Perfect for audiophiles and design enthusiasts who demand uncompromising sound quality whether relaxing at home or exploring the outdoors. Its patented ASC (Active Stereo Calibration) technology intelligently adapts the audio rendering in real-time to the room's acoustics, ensuring optimized sound no matter the environment. This spherical, acoustically engineered speaker boasts up to 10 hours of battery life and an IPX4 splash resistance rating, making it a robust companion for any adventure.",
-    "category": "Audio",
-    "whyItIsInteresting": "The Devialet Mania solves the dilemma of sacrificing audio quality for portability, offering a truly high-end listening experience without being tethered to a power outlet or a fixed setup. Weighing just 2.3 kg (5.1 lbs), it's surprisingly robust for its sonic output, capable of reaching an impressive 95 dB SPL. Imagine hosting an impromptu rooftop gathering, and with a single Devialet Mania, the entire space is filled with rich, dynamic sound that feels perfectly tuned to the open air, unlike tinny portable alternatives. Unlike typical portable Bluetooth speakers that often compromise on bass and clarity, the Mania leverages Devialet's signature ADH (Analog Digital Hybrid) amplification and SAM (Speaker Active Matching) processing, ensuring deep bass down to 30Hz and crystal-clear highs. Devialet is celebrated globally for its innovative audio engineering, with products consistently earning accolades from tech and audiophile publications. While premium, its sophisticated acoustic architecture and adaptive technology justify the investment for those seeking a genuinely high-fidelity portable sound system that rivals larger, non-portable setups. It operates via Wi-Fi and Bluetooth, supporting AirPlay 2 and Spotify Connect, with no recurring subscription costs for core functionality, though optional accessories like carrying cases are available.",
-    "imageIdea": "portable speaker on patio table",
-    "estimatedPriceRange": "$790-$990",
-    "availableOnAmazon": false,
-    "type": "product",
-    "dateAdded": "2026-04-14",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Devialet%20Mania",
-    "sourceLink": "https://help.devialet.com/hc/en-us/articles/7938643405714-Discover-Devialet-Mania"
-  },
-  {
-    "id": 145,
-    "slug": "humane-ai-pin",
-    "title": "Humane AI Pin",
-    "shortDescription": "Humane AI Pin was an ambitious screenless wearable AI device, but it is no longer a live consumer product. Humane wound down the Ai Pin business, stopped new sales, and shut off the device's cloud-connected features on February 28, 2025. The page is kept here as a technology case study rather than a purchase recommendation.",
-    "category": "Discontinued AI Wearable",
-    "whyItIsInteresting": "Humane AI Pin remains useful to understand because it shows both the appeal and risk of cloud-dependent AI hardware. The device tried to replace phone interactions with voice control, a camera, cellular connectivity, and a laser projection interface on the user's palm. That idea attracted attention because it promised ambient computing without another screen, but the product depended heavily on Humane's servers and subscription service. Once the company wound down the consumer Ai Pin, calling, messaging, AI queries, cloud access, and related services stopped working. For Surfaced readers, the lesson is practical: AI gadgets should be evaluated not only by hardware novelty, but by service durability, refund policy, repairability, and whether core features continue working if the vendor changes direction.",
-    "imageIdea": "human hand with glowing holographic projection",
-    "estimatedPriceRange": "Discontinued",
-    "availableOnAmazon": false,
-    "type": "product",
-    "dateAdded": "2026-04-15",
-    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Humane%20AI%20Pin",
-    "sourceLink": "https://support.humane.com/hc/en-us/articles/34243204841997-Ai-Pin-Consumers-FAQ"
-  },
-  {
-    "id": 146,
-    "slug": "meta-quest-3",
-    "title": "Meta Quest 3",
-    "shortDescription": "The Meta Quest 3 is Meta's cutting-edge virtual and mixed reality headset, pushing the boundaries of immersive digital experiences. It features a next-gen Snapdragon XR2 Gen 2 processor, delivering double the GPU processing power of its predecessor for incredibly fluid graphics and faster load times. Ideal for gamers seeking unparalleled VR immersion, professionals leveraging mixed reality for productivity, and social users exploring virtual worlds. Its revolutionary high-fidelity color passthrough, powered by dual 4MP RGB cameras, allows for a seamless blend of virtual objects with your physical surroundings, creating compelling mixed reality applications. The headset boasts a slimmer profile, a 40% thinner optical stack, and includes redesigned Touch Plus controllers with TruTouch haptics for enhanced realism.",
-    "category": "Virtual Reality Headset",
-    "whyItIsInteresting": "The Quest 3 overcomes the limitations of previous VR headsets by offering truly convincing mixed reality, allowing users to stay present in their physical environment while interacting with digital content, eliminating isolation. With a resolution of 2064x2208 pixels per eye, it offers a nearly 30% increase in visual clarity compared to the Quest 2, significantly reducing the 'screen door' effect. Imagine designing a new kitchen, placing virtual cabinets and appliances directly into your real living room, or playing a board game where digital pieces interact physically on your coffee table – all without leaving your couch. Unlike earlier VR-only headsets, the Quest 3's advanced mixed reality capabilities and robust standalone power make it a versatile platform for both pure VR and groundbreaking AR experiences, without needing a high-end PC. Praised by publications like The Verge and CNET for setting a new benchmark in mainstream mixed reality, it's often cited as the most compelling consumer-grade MR device to date. Offering premium-tier performance and innovative mixed reality features at a starting price accessible to a broad consumer market, it delivers exceptional value for a standalone spatial computing device. While there are no recurring subscription costs for the headset itself, users can purchase games and apps from the Meta Quest Store, and a wide array of official and third-party accessories exist for comfort and extended functionality.",
-    "imageIdea": "person wearing VR headset interacting with holographic cityscape",
-    "sourceLink": "https://www.meta.com/quest/products/quest-3/",
-    "estimatedPriceRange": "$499-$649",
-    "availableOnAmazon": true,
-    "type": "product",
-    "dateAdded": "2026-04-15",
-    "directAmazonUrl": "https://www.amazon.com/dp/B0CD1JTBSC?tag=vaultvibe-20&linkCode=ll1",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0CD1JTBSC?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "amazonAsin": "B0CD1JTBSC"
-  },
-  {
-    "id": 147,
-    "slug": "google-pixel-watch-3",
-    "title": "Google Pixel Watch 3",
-    "shortDescription": "The Google Pixel Watch 3 is the latest generation of Google's flagship smartwatch, offering a comprehensive and stylish wearable experience. Its most important feature is the advanced health tracking, seamlessly integrated with Fitbit's renowned ecosystem, providing enhanced metrics like 24/7 heart rate accuracy within 1 BPM. This watch is ideal for tech-savvy Android users who desire robust fitness and wellness tracking, smart notifications, and contactless payments directly from their wrist. A key differentiating aspect is its deep integration with Wear OS, ensuring a fluid user experience and access to a vast array of Google services and third-party apps. The device is expected to come in multiple sizes (e.g., 41mm and 45mm), featuring a sleek circular design with a haptic crown and a wide selection of interchangeable bands.",
-    "category": "Smartwatch",
-    "whyItIsInteresting": "The Pixel Watch 3 aims to eliminate the fragmentation of health data and provide a seamless, unified experience for Android users, all within an elegant form factor. It's anticipated to offer a 24-hour battery life with the always-on display, improved water resistance (5 ATM), and a faster processor for smoother performance. Imagine tracking your sleep stages and blood oxygen levels every night, receiving a personalized 'Daily Readiness Score' in the morning, then using Google Wallet to pay for your coffee with a tap, all while managing your calendar and messages discreetly. Unlike some competitors, the Pixel Watch 3 leverages Google's AI and Fitbit's deep health expertise to offer a cohesive and intuitive Android-centric wearable. While specific awards for the 3rd generation are yet to come, the Pixel Watch series has consistently been praised for its design and deep integration with the Android ecosystem. It positions itself as a premium Android smartwatch, offering a compelling balance of sophisticated features and elegant design at a competitive price point. Users can further enhance their health insights with an optional Fitbit Premium subscription and personalize their device with an extensive range of first-party and third-party bands.",
-    "imageIdea": "smartwatch on a wrist displaying detailed health metrics",
-    "sourceLink": "https://store.google.com/us/product/pixel_watch_3",
-    "estimatedPriceRange": "$399-$449",
-    "availableOnAmazon": true,
-    "type": "product",
-    "dateAdded": "2026-04-15",
-    "directAmazonUrl": "https://www.amazon.com/dp/B0D9138ZXM?tag=vaultvibe-20&linkCode=ll1",
-    "affiliate": {
-      "enabled": true,
-      "provider": "amazon",
-      "url": "https://www.amazon.com/dp/B0D9138ZXM?tag=vaultvibe-20&linkCode=ll1"
-    },
-    "amazonAsin": "B0D9138ZXM"
-  },
-  {
-    "id": 148,
-    "slug": "apple-vision-pro",
-    "title": "Apple Vision Pro",
-    "shortDescription": "Apple Vision Pro is Apple's spatial computing headset, built to blend apps, media, and communication into the physical room around you. The current model pairs Apple's M5 chip with the dedicated R1 sensor-processing chip, a custom micro-OLED display system, eye and hand input, spatial audio, Optic ID, and an external battery pack for immersive work, entertainment, and creative workflows.",
-    "category": "Spatial Computing Headset",
-    "whyItIsInteresting": "Vision Pro stands out because it treats mixed reality as a full computing environment rather than a controller-led VR accessory. Apple's current hardware uses M5 for app, graphics, and visionOS performance while R1 processes camera, sensor, and microphone input for a low-latency view of the real world. It supports natural eye, hand, and voice input, high-resolution displays, spatial video, immersive environments, Mac Virtual Display, Apple Intelligence features, and up to 3 hours of video playback. The tradeoff remains clear: it is a premium Apple device for early adopters, developers, and professionals, so the most accurate purchase path is Apple's own Vision store rather than an unrelated marketplace search.",
-    "imageIdea": "Apple Vision Pro headset with external battery pack",
-    "sourceLink": "https://www.apple.com/shop/buy-vision/apple-vision-pro",
-    "estimatedPriceRange": "$3499+",
-    "availableOnAmazon": false,
-    "type": "product",
-    "dateAdded": "2026-04-17",
-    "badge": "great-gift"
-  },
-  {
     "id": 149,
     "slug": "samsung-galaxy-ring",
     "title": "Samsung Galaxy Ring",
@@ -4335,7 +4248,8 @@
     "type": "product",
     "dateAdded": "2026-04-27",
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Eight%20Sleep%20Pod%203%20Cover",
-    "sourceLink": "https://www.bestbuy.com/site/searchpage.jsp?st=Eight%20Sleep%20Pod%203%20Cover"
+    "sourceLink": "https://www.bestbuy.com/site/searchpage.jsp?st=Eight%20Sleep%20Pod%203%20Cover",
+    "badge": "great-gift"
   },
   {
     "id": 386,
@@ -8791,5 +8705,104 @@
       "url": "https://www.amazon.com/dp/B0CG62F5T1?tag=vaultvibe-20&linkCode=ll1"
     },
     "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Flexi-Desk%20Ultrawide%20Monitor%20Arm%20with%20Integrated%20Wireless%20Charger"
+  },
+  {
+    "id": 625,
+    "slug": "sonoff-zbbridge-pro-zigbee-3-0-gateway",
+    "title": "SONOFF ZBBridge-P Zigbee 3.0 Gateway",
+    "seoTitle": "SONOFF ZBBridge-P Zigbee 3.0 Gateway - Smart Home Hub",
+    "shortDescription": "The SONOFF ZBBridge-P is a compact and powerful Zigbee 3.0 gateway that bridges your Zigbee devices to your Wi-Fi network, enabling control via the eWeLink app and integration with voice assistants like Alexa and Google Assistant. It supports a wide range of Zigbee sensors and devices, making it an ideal central hub for building a comprehensive smart home ecosystem. This gateway is designed for users looking to expand their smart home capabilities beyond Wi-Fi-only devices.",
+    "category": "Smart Home Hub",
+    "whyItIsInteresting": "This Zigbee 3.0 gateway from SONOFF offers a cost-effective and robust solution for integrating a vast array of Zigbee sensors and smart devices into your home network. Its key advantage lies in its ability to translate Zigbee signals to Wi-Fi, allowing seamless control through the popular eWeLink app and compatibility with major voice assistants. Unlike some more expensive hubs, the ZBBridge-P provides excellent value, supporting up to 128 sub-devices, which is ample for most homes. It's particularly useful for users who have accumulated various Zigbee-enabled door/window sensors, motion detectors, or smart lights and want a centralized control point without needing multiple brand-specific hubs. The device is also firmware-upgradable, ensuring it stays current with evolving smart home standards. For those looking to build a responsive and interconnected smart home without breaking the bank, the SONOFF ZBBridge-P is a compelling choice.",
+    "imageIdea": "zigbee gateway connected to smart sensors",
+    "estimatedPriceRange": "$25-$35",
+    "availableOnAmazon": true,
+    "amazonAsin": "B0CJX56B36",
+    "type": "product",
+    "dateAdded": "2026-05-16",
+    "directAmazonUrl": "https://www.amazon.com/dp/B0CJX56B36?tag=vaultvibe-20&linkCode=ll1",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/dp/B0CJX56B36?tag=vaultvibe-20&linkCode=ll1"
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=SONOFF%20ZBBridge-P%20Zigbee%203.0%20Gateway"
+  },
+  {
+    "id": 626,
+    "slug": "twiggy-plants-smart-planter-pro",
+    "title": "Twiggy Plants Smart Planter Pro",
+    "seoTitle": "Twiggy Plants Smart Planter Pro - Self-Watering Planter",
+    "shortDescription": "The Twiggy Plants Smart Planter Pro is an intelligent self-watering planter designed for busy plant enthusiasts. It features an integrated water reservoir, an automated watering system, and an app that monitors soil moisture levels, light exposure, and ambient temperature. The planter aims to take the guesswork out of plant care, ensuring your greenery thrives with minimal intervention. It's perfect for those who love plants but struggle with consistent watering schedules.",
+    "category": "Smart Home / Gardening",
+    "whyItIsInteresting": "For anyone who's ever lamented a withered houseplant, the Twiggy Plants Smart Planter Pro offers a high-tech solution. This isn't just a self-watering pot; it's an actively managed plant environment. The built-in sensors continuously track crucial metrics like soil moisture, ambient temperature, and even light levels, relaying this data to a user-friendly app. Based on this information, the planter's automated system delivers the precise amount of water needed, preventing both over and under-watering – common pitfalls for even experienced plant owners. The large water reservoir means you can go away for weeks at a time without worrying about your plants. It's a sophisticated blend of horticultural science and IoT technology, making it ideal for urban dwellers, frequent travelers, or anyone seeking to cultivate a thriving indoor jungle with reduced effort.",
+    "imageIdea": "modern planter with a smartphone displaying plant health data",
+    "sourceLink": "https://twiggyplants.com/products/smart-planter-pro",
+    "estimatedPriceRange": "$99-$129",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-05-16",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Twiggy%20Plants%20Smart%20Planter%20Pro"
+  },
+  {
+    "id": 627,
+    "slug": "hypers-hyperdrive-gan-chargers",
+    "title": "Hypers HyperDrive GAN Chargers",
+    "seoTitle": "Hypers HyperDrive GaN Chargers - Compact Power Adapters",
+    "shortDescription": "Hypers' HyperDrive GaN chargers are a line of ultra-compact and powerful USB-C wall adapters that utilize Gallium Nitride (GaN) technology. These chargers offer multiple ports and high wattage output, allowing you to charge multiple devices, including laptops, tablets, and smartphones, simultaneously and rapidly. Their small form factor makes them ideal for travel or minimizing clutter on your desk. Hypers focuses on providing efficient and portable power solutions for modern professionals.",
+    "category": "Electronics Accessories",
+    "whyItIsInteresting": "The HyperDrive GaN chargers from Hypers represent a significant step forward in portable power delivery. By leveraging Gallium Nitride (GaN) transistors, these chargers achieve much higher power densities compared to traditional silicon-based adapters, resulting in smaller sizes for equivalent or even greater wattage. This means you can carry a charger capable of powering a MacBook Pro and an iPhone simultaneously, yet it's barely larger than a standard phone charger. Hypers offers various configurations, from single-port 65W chargers to multi-port 100W+ units, all designed with travel and desk organization in mind. Their robust build quality and adherence to safety standards make them a reliable choice for powering your essential devices on the go or consolidating your charging setup at home. The efficiency of GaN technology also means less wasted energy as heat.",
+    "imageIdea": "compact white usb-c gaN charger plugged into a wall outlet",
+    "estimatedPriceRange": "$30-$70",
+    "availableOnAmazon": true,
+    "amazonAsin": "B0BN4QKL4J",
+    "type": "product",
+    "dateAdded": "2026-05-16",
+    "directAmazonUrl": "https://www.amazon.com/dp/B0BN4QKL4J?tag=vaultvibe-20&linkCode=ll1",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/dp/B0BN4QKL4J?tag=vaultvibe-20&linkCode=ll1"
+    },
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=Hypers%20HyperDrive%20GAN%20Chargers"
+  },
+  {
+    "id": 628,
+    "slug": "keychron-v1-max-barebone-mechanical-keyboard",
+    "title": "Keychron V1 Max Barebone Mechanical Keyboard",
+    "seoTitle": "Keychron V1 Max Barebone Mechanical Keyboard - QMK/VIA",
+    "shortDescription": "The Keychron V1 Max is a customizable, compact 75% layout mechanical keyboard designed for enthusiasts who want to build their own typing experience. As a barebone kit, it comes without keycaps or switches, allowing users to select their preferred components for a truly personalized feel and sound. It features QMK/VIA support for extensive key remapping and macro programming, making it highly adaptable for various workflows and gaming setups. This keyboard is aimed at users who appreciate tactile feedback and are looking for a robust, programmable input device.",
+    "category": "Computer Peripherals",
+    "whyItIsInteresting": "For keyboard aficionados seeking ultimate customization, the Keychron V1 Max Barebone offers an exceptional entry point into the world of bespoke mechanical keyboards. Its 75% layout strikes a balance between compactness and functionality, retaining essential keys like F-row and navigation cluster while minimizing desk real estate. The true power lies in its QMK/VIA compatibility, enabling deep customization of key mappings and macros directly through intuitive software – a feature often found in much pricier keyboards. Users can select their preferred switches (e.g., Cherry MX, Gateron) and keycaps to craft a typing sensation and aesthetic that is uniquely theirs. The V1 Max also boasts features like a premium aluminum knob for volume control or scrolling, hot-swappable switch sockets for easy experimentation, and a gasket mount design for a softer, more refined typing feel. This makes it a standout option for users who value both performance and personalization in their peripherals.",
+    "imageIdea": "disassembled mechanical keyboard with switches and keycaps laid out",
+    "estimatedPriceRange": "$85-$105",
+    "availableOnAmazon": true,
+    "amazonAsin": "B0CVH7V1J3",
+    "type": "product",
+    "dateAdded": "2026-05-16",
+    "directAmazonUrl": "https://www.amazon.com/dp/B0CVH7V1J3?tag=vaultvibe-20&linkCode=ll1",
+    "affiliate": {
+      "enabled": true,
+      "provider": "amazon",
+      "url": "https://www.amazon.com/dp/B0CVH7V1J3?tag=vaultvibe-20&linkCode=ll1"
+    }
+  },
+  {
+    "id": 629,
+    "slug": "puresight-vision-labs-luminara-smart-glasses",
+    "title": "PureSight Vision Labs Luminara Smart Glasses",
+    "seoTitle": "PureSight Vision Labs Luminara Smart Glasses - AR Display",
+    "shortDescription": "The PureSight Vision Labs Luminara Smart Glasses integrate a discreet augmented reality (AR) display directly into stylish eyewear. These glasses project information like navigation prompts, incoming notifications, and fitness stats into the wearer's field of vision without obscuring their view of the real world. Designed for everyday use, they aim to provide glanceable information and hands-free interaction for a more connected and informed lifestyle. They are targeted at early adopters and tech-savvy individuals seeking a seamless AR experience.",
+    "category": "Wearable Technology",
+    "whyItIsInteresting": "The Luminara Smart Glasses from PureSight Vision Labs represent a significant step towards practical, everyday augmented reality. Unlike bulky AR headsets, these glasses blend advanced display technology into a form factor that closely resembles conventional eyewear, making them socially acceptable and comfortable for extended wear. The core innovation is the unobtrusive AR projection system, which overlays contextually relevant digital information – such as turn-by-turn directions, calendar alerts, or fitness metrics – directly into the wearer's line of sight. This allows users to stay informed and connected without constantly needing to pull out their phone, enhancing situational awareness and convenience. While still a nascent technology, the Luminara aims to be a more integrated and less intrusive AR solution, appealing to those who want the benefits of smart information access without sacrificing style or comfort.",
+    "imageIdea": "stylish eyeglasses with a subtle blue holographic projection",
+    "sourceLink": "https://www.puresightvision.com/luminara",
+    "estimatedPriceRange": "$300-$400",
+    "availableOnAmazon": false,
+    "amazonAsin": "",
+    "type": "product",
+    "dateAdded": "2026-05-16",
+    "bestBuyUrl": "https://www.bestbuy.com/site/searchpage.jsp?st=PureSight%20Vision%20Labs%20Luminara%20Smart%20Glasses"
   }
 ]

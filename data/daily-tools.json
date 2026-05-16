@@ -1,65 +1,5 @@
 [
   {
-    "id": 433,
-    "slug": "instapaper-classic-read-later-app",
-    "toolName": "Instapaper",
-    "whatItDoes": "Instapaper, now owned by Instant Paper, is a pioneering read-it-later service that focuses on providing a clean, minimalist, and highly customizable reading experience for web articles. It strips away extraneous elements like ads and complex formatting, presenting text in a simple, elegant layout optimized for readability. The primary workflow involves saving articles from any web browser or app using its share extension, then accessing and reading them offline within the Instapaper app, highlighting key sections, and organizing them. It works on web, iOS, Android, Kindle, and as a browser extension for Chrome, Firefox, Safari, and Edge. Its most used feature is its \"Text-to-Speech\" function, which reads articles aloud, perfect for multitasking. Instapaper uses cloud synchronization to ensure all your saved articles and reading progress are consistent across all your devices.",
-    "category": "Productivity",
-    "whyItIsUseful": "Instapaper eliminates the visual clutter and digital distractions that often plague online reading, allowing users to truly focus on content. For the busy professional commuting daily, Instapaper enables downloading articles for offline reading, turning wasted travel time into productive learning or catching up on news. An avid reader can use it to curate a personal library of long-form articles, essays, and reports, ensuring they never lose track of interesting content to delve into later. The free tier is incredibly useful, offering unlimited article saving, offline reading, and up to 10 highlights per month, making it a powerful tool for most users. Compared to Matter, Instapaper excels in its pure focus on a distraction-free reading experience and superior text-to-speech, rather than content discovery. Its \"Send to Kindle\" power feature allows advanced users to send articles directly to their Kindle device for a truly dedicated reading experience. A non-technical person can install the browser extension and mobile app in under 2 minutes.",
-    "imageIdea": "Instapaper's clean article reading interface on a tablet, showing minimalist text and adjustable fonts.",
-    "websiteLink": "https://www.instapaper.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 362,
-    "slug": "harvest-time-tracking-invoicing-software",
-    "toolName": "Harvest",
-    "whatItDoes": "Harvest, developed by Harvest, is a powerful and intuitive time tracking and invoicing software designed for businesses and freelancers to manage project time and expenses. Its primary workflow involves employees or contractors logging their hours against specific projects and tasks, which then feeds directly into robust reporting and integrated invoicing capabilities. Harvest is accessible via its web application, dedicated desktop apps (Mac, Windows), mobile apps (iOS, Android), and browser extensions (Chrome, Safari, Firefox). The most used feature is its seamless integration between time tracking and generating professional invoices, simplifying client billing. All project data, time entries, and invoices are securely stored and synchronized in the cloud.",
-    "category": "Finance",
-    "whyItIsUseful": "It eliminates the significant administrative overhead of manually calculating billable hours and creating invoices, freeing up valuable time for core work. For the creative agency, it ensures accurate billing for client projects, providing transparency and preventing under-billing due to forgotten hours or expenses. For the independent consultant, it streamlines the entire client lifecycle from tracking initial project hours to sending professional, branded invoices and accepting payments. While it offers a free trial, the paid tiers are where Harvest truly shines, providing comprehensive project budgeting, expense tracking, and invoicing. Compared to generic accounting software, Harvest's strength lies in its deep focus on project-based time and expense tracking that directly feeds into invoicing, making it superior for service-based businesses. Its \"budget vs. actuals\" reporting is a power feature that helps project managers proactively manage scope and profitability. A non-technical user can easily set up projects and start tracking time, with invoicing setup taking slightly longer but still intuitive.",
-    "imageIdea": "Harvest invoice generation interface showing tracked time being converted to billable items",
-    "websiteLink": "https://www.getharvest.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 366,
-    "slug": "timely-ai-powered-automatic-time-tracking-3",
-    "toolName": "Timely",
-    "whatItDoes": "Timely, developed by Memory.ai, is an AI-powered automatic time tracking software designed to capture every minute of your work without manual input. Its primary workflow involves running in the background, discreetly recording all your activities across various applications, websites, and documents, then presenting these as a timeline for easy review and allocation to projects. Timely is available as a web application, desktop apps (Mac, Windows), and mobile apps (iOS, Android), ensuring comprehensive activity capture. The most used feature is its \"Memory\" capture, which logs all your computer and phone activity automatically, allowing you to focus purely on work. All captured data is private by default and stored securely in the cloud, with users having full control over what information is shared.",
-    "category": "Productivity",
-    "whyItIsUseful": "It eliminates the constant interruption and mental burden of manual time tracking, ensuring that not a single billable minute is missed and providing an accurate record of work. For the busy consultant juggling multiple clients, it automatically logs all time spent in meetings, emails, and project work, allowing for precise billing without ever needing to start or stop a timer. For the R&D team member, it provides an objective record of time spent on different research tasks, aiding in grant reporting and internal project analysis. Timely offers a 14-day free trial, and while it's a paid tool, the value comes from its unparalleled accuracy and the time saved from manual logging. Compared to traditional manual time trackers like Toggl Track, Timely's AI automation offers a hands-off approach that guarantees comprehensive data capture, eliminating human error and forgetfulness. Its \"AI-powered suggestions\" feature, which automatically drafts time entries based on your activities, is a power feature that transforms time logging from a chore into a quick review. A non-technical person can install the app and start recording their activities immediately, with minimal setup.",
-    "imageIdea": "Timely's Memory timeline interface showing different apps and documents used throughout the day",
-    "websiteLink": "https://timelyapp.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 217,
-    "slug": "invoice-ninja-open-source-invoicing-2",
-    "toolName": "Invoice Ninja",
-    "whatItDoes": "Invoice Ninja, developed by a community of contributors, is a powerful open-source invoicing and expense tracking platform designed for freelancers and businesses seeking a customizable and cost-effective solution. It allows users to create and send professional invoices, track payments, manage clients, and log expenses, with options for recurring invoices and proposals. The platform is available as a web application, desktop apps (Windows, Mac, Linux), and mobile apps (iOS, Android), with self-hosting options for ultimate control. Its most used feature is the ability to generate unlimited invoices and quotes for unlimited clients completely free on its hosted version. All data, whether self-hosted or using their cloud service, offers robust privacy controls, with self-hosted instances providing complete local data ownership.",
-    "category": "Finance",
-    "whyItIsUseful": "Invoice Ninja eliminates vendor lock-in and high subscription fees associated with proprietary invoicing software, giving users full control over their data and customization. For the privacy-conscious developer, it offers a self-hosted solution that ensures all client and financial data remains on their own servers, meeting specific compliance needs. For a small business with specific branding requirements, its open-source nature allows for deep customization of invoice templates and client portals, enhancing brand consistency. The free tier (cloud-hosted) is genuinely useful, supporting unlimited invoices, clients, and core features, while the self-hosted version offers even more flexibility at no software cost. Compared to Wave or FreshBooks, Invoice Ninja wins with its open-source nature, offering unparalleled customization and data ownership for those with technical savvy. Its 'Client Portal' feature enables advanced users to provide clients with a secure area to view invoices, make payments, and manage projects. A non-technical person can use the hosted version to send their first invoice within 10 minutes, but self-hosting requires technical expertise.",
-    "imageIdea": "Invoice Ninja client portal interface with list of invoices.",
-    "websiteLink": "https://www.invoiceninja.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 363,
-    "slug": "wave-apps-free-accounting-invoicing-2",
-    "toolName": "Wave",
-    "whatItDoes": "Wave, developed by Wave Financial Inc., is a comprehensive suite of free financial software tailored for small businesses and freelancers, offering accounting, invoicing, and receipt scanning. Its primary workflow allows users to connect bank accounts, categorize transactions automatically, create professional invoices, and track payments, all within a unified platform. Wave is available as a web application and offers mobile apps (iOS, Android) for receipt scanning and basic invoicing on the go. The most used feature is its truly free and robust accounting and invoicing tools, enabling businesses to manage finances without monthly fees. All financial data, including invoices and transactions, is securely stored and synchronized in the cloud.",
-    "category": "Finance",
-    "whyItIsUseful": "Wave eliminates the financial burden and complexity of traditional accounting software, making professional financial management accessible to even the smallest ventures. For the sole proprietor running an Etsy shop, it provides an easy way to track income and expenses, reconcile bank accounts, and prepare for tax season without costly subscriptions. For the freelance graphic designer, it offers a seamless way to send unlimited professional invoices, track payment statuses, and manage client records, all for free. The core accounting and invoicing features are genuinely useful and completely free, with paid services only for payroll, payment processing, and bookkeeping support. While QuickBooks is more feature-rich for larger businesses, Wave wins for its zero-cost, user-friendly approach perfectly suited for micro-businesses and freelancers. Its ability to create recurring invoices and automatic payment reminders is a power feature that saves significant administrative time. A non-technical person can easily set up their business profile and send their first invoice within minutes.",
-    "imageIdea": "Wave dashboard showing income, expenses, and outstanding invoices summary",
-    "websiteLink": "https://www.waveapps.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 368,
     "slug": "freshbooks-cloud-accounting-invoicing-expenses",
     "toolName": "FreshBooks",
@@ -5765,5 +5705,44 @@
     "websiteLink": "https://www.blackmagicdesign.com/products/davinciresolve/",
     "type": "tool",
     "dateAdded": "2026-05-15"
+  },
+  {
+    "id": 845,
+    "slug": "claude-for-legal",
+    "toolName": "claude-for-legal",
+    "seoTitle": "Claude for Legal — AI tools for law",
+    "whatItDoes": "claude-for-legal is a curated suite of plugins and extensions designed to integrate Anthropic's Claude AI into existing legal workflows. It focuses on automating repetitive tasks, enhancing legal research, and improving document analysis for legal professionals. The project aims to leverage the power of large language models to streamline processes that traditionally require significant human effort and time. It is an open-source project, with contributions and improvements encouraged from the legal tech community. A key strength is its ability to process and summarize lengthy legal documents with remarkable accuracy, identifying key clauses and potential risks.",
+    "category": "Productivity",
+    "whyItIsUseful": "For legal professionals, claude-for-legal offers a significant productivity boost by automating time-consuming tasks. Imagine reducing hours spent reviewing contracts to mere minutes, or instantly summarizing complex case law. This tool empowers lawyers, paralegals, and legal researchers to focus on higher-value strategic work rather than getting bogged down in manual data processing. Its integration with Claude's advanced AI capabilities means it can understand nuanced legal language and provide contextually relevant insights. The open-source nature also suggests a future of continuous improvement driven by community expertise, making it an adaptable and evolving asset for any legal department or firm looking to modernize its operations. Users can expect faster turnaround times on casework and more efficient client service.",
+    "imageIdea": "lawyer at desk with ai interface",
+    "websiteLink": "https://github.com/anthropics/claude-for-legal",
+    "type": "tool",
+    "dateAdded": "2026-05-16"
+  },
+  {
+    "id": 846,
+    "slug": "bear-writing-app",
+    "toolName": "Bear",
+    "seoTitle": "Bear — Markdown notes, writing app",
+    "whatItDoes": "Bear is a beautifully designed note-taking and writing app that focuses on speed, simplicity, and Markdown. It allows you to craft beautiful prose and organize your thoughts using tags and a hierarchical structure, all while enjoying a distraction-free writing environment. Bear is available on Apple devices (Mac, iPhone, iPad) and operates on a freemium model, with a subscription unlocking advanced features like sync across devices and more themes. Its elegant interface makes writing enjoyable, and its robust tagging system ensures you can easily retrieve notes when you need them, making it perfect for everything from quick notes to longer essays and journaling.",
+    "category": "Writing",
+    "whyItIsUseful": "Bear stands out for its exquisite user interface and its commitment to a clean, Markdown-based writing experience. It strikes an ideal balance between being a powerful note-taking tool and a delightful writing environment, reducing friction for capturing ideas and drafting content. The tag-based organization is incredibly intuitive and powerful, allowing for flexible categorization without rigid folder structures. Enthusiastic users often highlight how Bear has improved their writing habits and made managing their digital notes a pleasure rather than a chore. Its integration with Apple's ecosystem ensures a seamless experience for users of Macs and iOS devices. Whether you're drafting a novel, keeping a personal journal, or managing project notes, Bear provides a serene and efficient space to do so.",
+    "imageIdea": "minimalist writing app laptop screen",
+    "websiteLink": "https://bearblog.dev/",
+    "type": "tool",
+    "dateAdded": "2026-05-16"
+  },
+  {
+    "id": 847,
+    "slug": "visual-studio-code",
+    "toolName": "Visual Studio Code",
+    "seoTitle": "Visual Studio Code — Code Editor",
+    "whatItDoes": "Visual Studio Code (VS Code) is a free, powerful, and versatile source-code editor developed by Microsoft. It supports a wide range of programming languages and offers intelligent code completion, debugging capabilities, and built-in Git control. Its extensive marketplace of extensions allows for customization to suit virtually any development workflow. VS Code is renowned for its performance, extensive feature set, and user-friendly interface, making it a top choice for developers of all skill levels.",
+    "category": "Developer",
+    "whyItIsUseful": "VS Code is an indispensable tool for anyone involved in software development. Its intuitive interface, coupled with lightning-fast performance, makes coding a more efficient and enjoyable experience. The integrated debugger streamlines the process of finding and fixing errors, saving countless hours. The sheer volume and quality of extensions available, from language support and linters to Git integration and Docker management, mean you can tailor VS Code precisely to your needs. It's particularly useful for its seamless Git integration, allowing for easy version control directly within the editor. From beginners learning to code to seasoned professionals building complex applications, VS Code is a cornerstone of modern development.",
+    "imageIdea": "computer screen with code editor interface",
+    "websiteLink": "https://code.visualstudio.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-16"
   }
 ]

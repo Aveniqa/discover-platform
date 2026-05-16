@@ -1,46 +1,46 @@
 [
   {
-    "slug": "mars-early-atmosphere-preserved-in-ancient-rock",
-    "title": "Mars's Ancient Atmosphere Preserved in Rock",
+    "slug": "ancient-egyptian-beer-discovery",
+    "title": "Ancient Egyptian Brewery Uncovered: Grains for 22,400 Liters of Beer",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Analysis of ancient Martian rock samples collected by NASA's Perseverance rover has provided unprecedented insights into",
+    "description": "Archaeologists have unearthed a massive ancient Egyptian brewery at the Abydos site, dating back to the Predynastic peri",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "flexidesk-ultrawide-monitor-arm-wireless-charger",
-    "title": "Flexi-Desk Ultrawide Monitor Arm with Integrated Wireless Charger",
+    "slug": "puresight-vision-labs-luminara-smart-glasses",
+    "title": "PureSight Vision Labs Luminara Smart Glasses",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "This monitor arm from Flexi-Desk is engineered to support ultrawide monitors while incorporating a convenient wireless c",
+    "description": "The PureSight Vision Labs Luminara Smart Glasses integrate a discreet augmented reality (AR) display directly into styli",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "visual-diff-tool-code",
-    "title": "Visual Diff Tool for Code",
+    "slug": "ethical-ad-blocker-manager",
+    "title": "AdNauseam",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This web-based tool provides a visual comparison of two versions of code, highlighting the differences between them in a",
+    "description": "AdNauseam is a browser extension that functions as a powerful ad blocker while also acting as a privacy tool that 'click",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "tristan-da-cunha-airdrop-details",
-    "title": "Remote Drone Delivery Systems",
+    "slug": "project-gutenberg-enhancement",
+    "title": "Digital Library Curation and Accessibility",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "The government of Tristan da Cunha has provided details about a recent daring airdrop operation. While the specifics of ",
+    "description": "Project Gutenberg, the long-standing initiative dedicated to digitizing and archiving vast collections of books, continu",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "davinci-resolve-editing",
-    "title": "DaVinci Resolve",
+    "slug": "visual-studio-code",
+    "title": "Visual Studio Code",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "DaVinci Resolve is a professional, all-in-one video editing, color correction, visual effects, and audio post-production",
+    "description": "Visual Studio Code (VS Code) is a free, powerful, and versatile source-code editor developed by Microsoft. It supports a",
     "badge": null,
     "type": "tool"
   }
