@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-16T10:39:22.399Z",
+  "generatedAt": "2026-05-16T14:01:20.972Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-50dd72e4230c88e9d72dc3e7fa0eb840a5143916-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-056206475875ee27c13849eb35f9da696a253bd1-001-",
       "type": "current-event",
-      "title": "Winter Storm Watch issued May 16 at 2:58AM MDT until May 18 at 6:00PM MDT by NWS Riverton...",
-      "summary": "* WHAT...Heavy snow possible. Total snow accumulations between 8 and 16 inches possible. Winds could gust as high as 45 mph. * WHERE...Wind River Mountains East. * WHEN...From Sunday evening through Monday afternoon. * IMPACTS...Travel could be very difficult. The hazardous conditions could impact the Monday morning...",
+      "title": "Red Flag Warning issued May 16 at 9:29AM EDT until May 16 at 8:00PM EDT by NWS Gaylord...",
+      "summary": "...High Fire Danger this Afternoon... .Critically dry air will move in this afternoon behind a frontal passage. Southwest winds will strengthen around midday to 10 to 15 mph with frequent gusts up to 20 to 25 mph. Winds will turn west this afternoon, remaining gusty. Skies will become clear this afternoon and...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50dd72e4230c88e9d72dc3e7fa0eb840a5143916.001.1",
-      "detectedAt": "2026-05-16T10:39:22.399Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.056206475875ee27c13849eb35f9da696a253bd1.001.2",
+      "detectedAt": "2026-05-16T14:01:20.972Z",
       "publishedAt": "2026-05-16",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,33 +26,7 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50dd72e4230c88e9d72dc3e7fa0eb840a5143916.001.1",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-50dd72e4230c88e9d72dc3e7fa0eb840a5143916-002-",
-      "type": "current-event",
-      "title": "Winter Storm Watch issued May 16 at 2:58AM MDT until May 18 at 6:00PM MDT by NWS Riverton...",
-      "summary": "* WHAT...Heavy snow possible. Total snow accumulations between 5 and 10 inches possible. Winds could gust as high as 50 mph. * WHERE...Green Mountains and Rattlesnake Range. * WHEN...From Sunday evening through Monday afternoon. * IMPACTS...Travel could be difficult. The hazardous conditions could impact the Monday...",
-      "topic": "weather.severe-alert",
-      "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50dd72e4230c88e9d72dc3e7fa0eb840a5143916.002.1",
-      "detectedAt": "2026-05-16T10:39:22.399Z",
-      "publishedAt": "2026-05-16",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
-          "role": "event-source"
-        },
-        {
-          "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.50dd72e4230c88e9d72dc3e7fa0eb840a5143916.002.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.056206475875ee27c13849eb35f9da696a253bd1.001.2",
           "role": "event-source"
         }
       ]
@@ -65,7 +39,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZWILLING-JA-Henckels-Aktiengesellschaft-Recalls-Electric-Water-Kettles-Due-to-Risk-of-Serious-Injury-Due-to-Burn-Hazard",
-      "detectedAt": "2026-05-16T10:39:22.399Z",
+      "detectedAt": "2026-05-16T14:01:20.972Z",
       "publishedAt": "2026-05-14",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -84,17 +58,43 @@
       ]
     },
     {
+      "id": "candidate-cpsc-26485",
+      "type": "current-event",
+      "title": "World Bright International Limited Recalls Agio Menlo Woven Patio Swings Due to Risk of Serious Injury or Death...",
+      "summary": "Agio Menlo Woven Patio Swings: The swing seat can detach from the frame while in use, posing a risk of serious injury or death from a fall hazard.",
+      "topic": "consumer-safety.recall",
+      "sourceName": "CPSC Recalls API",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
+      "detectedAt": "2026-05-16T14:01:20.972Z",
+      "publishedAt": "2026-05-14",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-16",
+          "role": "event-source"
+        },
+        {
+          "name": "CPSC Recalls API",
+          "url": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,865 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,889 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-16T10:39:22.399Z",
+      "detectedAt": "2026-05-16T14:01:20.972Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,865 stars",
+      "velocityLabel": "444,889 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 435,234 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 435,265 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-16T10:39:22.399Z",
+      "detectedAt": "2026-05-16T14:01:20.972Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "435,234 stars",
+      "velocityLabel": "435,265 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
