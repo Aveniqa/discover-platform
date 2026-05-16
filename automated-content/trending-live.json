@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-16T19:34:58.210Z",
+  "generatedAt": "2026-05-16T22:06:47.855Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-cf96e811097ab4d87a69768b0b90cb13cde3331c-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-4a2f6ce47850483043774d58b2ba50188f725d41-001-",
       "type": "current-event",
-      "title": "Red Flag Warning issued May 16 at 1:51PM CDT until May 17 at 9:00PM CDT by NWS Dodge...",
-      "summary": "...HIGH END CRITICAL TO EXTREME FIRE WEATHER CONDITIONS SUNDAY... The National Weather Service in Dodge City has issued a Red Flag Warning for wind and low relative humidity, which is in effect from 1 PM to 9 PM CDT Sunday. * AFFECTED AREA...Fire Weather Zone 089 Comanche. * TIMING...From 1 PM to 9 PM CDT...",
+      "title": "Severe Thunderstorm Warning issued May 16 at 4:51PM CDT until May 16 at 5:30PM CDT by NWS North...",
+      "summary": "SVRLBF The National Weather Service in North Platte has issued a * Severe Thunderstorm Warning for... North central Lincoln County in southwestern Nebraska... * Until 530 PM CDT. * At 451 PM CDT, a severe thunderstorm was located over North Platte, moving northeast at 30 mph. HAZARD...Quarter size hail....",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf96e811097ab4d87a69768b0b90cb13cde3331c.001.1",
-      "detectedAt": "2026-05-16T19:34:58.210Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a2f6ce47850483043774d58b2ba50188f725d41.001.1",
+      "detectedAt": "2026-05-16T22:06:47.855Z",
       "publishedAt": "2026-05-16",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,7 +26,33 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cf96e811097ab4d87a69768b0b90cb13cde3331c.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a2f6ce47850483043774d58b2ba50188f725d41.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-d28cbe768d970f65ad06ca757e2e2f0287df514d-001-",
+      "type": "current-event",
+      "title": "Severe Thunderstorm Warning issued May 16 at 4:53PM CDT until May 16 at 5:45PM CDT by NWS North...",
+      "summary": "SVRLBF The National Weather Service in North Platte has issued a * Severe Thunderstorm Warning for... Southeastern Custer County in central Nebraska... * Until 545 PM CDT. * At 453 PM CDT, a severe thunderstorm was located near Eddyville, or 19 miles north of Lexington, moving north at 25 mph. HAZARD...Golf ball size...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d28cbe768d970f65ad06ca757e2e2f0287df514d.001.1",
+      "detectedAt": "2026-05-16T22:06:47.855Z",
+      "publishedAt": "2026-05-16",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d28cbe768d970f65ad06ca757e2e2f0287df514d.001.1",
           "role": "event-source"
         }
       ]
@@ -39,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZWILLING-JA-Henckels-Aktiengesellschaft-Recalls-Electric-Water-Kettles-Due-to-Risk-of-Serious-Injury-Due-to-Burn-Hazard",
-      "detectedAt": "2026-05-16T19:34:58.210Z",
+      "detectedAt": "2026-05-16T22:06:47.855Z",
       "publishedAt": "2026-05-14",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -58,43 +84,17 @@
       ]
     },
     {
-      "id": "candidate-cpsc-26485",
-      "type": "current-event",
-      "title": "World Bright International Limited Recalls Agio Menlo Woven Patio Swings Due to Risk of Serious Injury or Death...",
-      "summary": "Agio Menlo Woven Patio Swings: The swing seat can detach from the frame while in use, posing a risk of serious injury or death from a fall hazard.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
-      "detectedAt": "2026-05-16T19:34:58.210Z",
-      "publishedAt": "2026-05-14",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-16",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,925 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,929 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-16T19:34:58.210Z",
+      "detectedAt": "2026-05-16T22:06:47.855Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,925 stars",
+      "velocityLabel": "444,929 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 435,304 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 435,323 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-16T19:34:58.210Z",
+      "detectedAt": "2026-05-16T22:06:47.855Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "435,304 stars",
+      "velocityLabel": "435,323 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
