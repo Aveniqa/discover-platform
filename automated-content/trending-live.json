@@ -1,20 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-16T22:06:47.855Z",
+  "generatedAt": "2026-05-17T04:33:53.590Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-4a2f6ce47850483043774d58b2ba50188f725d41-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-66800bcb8462b281360ea510d575e36a060e6748-001-",
       "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 16 at 4:51PM CDT until May 16 at 5:30PM CDT by NWS North...",
-      "summary": "SVRLBF The National Weather Service in North Platte has issued a * Severe Thunderstorm Warning for... North central Lincoln County in southwestern Nebraska... * Until 530 PM CDT. * At 451 PM CDT, a severe thunderstorm was located over North Platte, moving northeast at 30 mph. HAZARD...Quarter size hail....",
+      "title": "Severe Thunderstorm Warning issued May 16 at 10:51PM CDT until May 16 at 11:45PM CDT by NWS Hastings...",
+      "summary": "SVRGID The National Weather Service in Hastings has issued a * Severe Thunderstorm Warning for... Mitchell County in north central Kansas... * Until 1145 PM CDT. * At 1050 PM CDT, severe thunderstorms were located along a line extending from near Cawker City to 8 miles west of Hunter, moving east at 40 mph....",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a2f6ce47850483043774d58b2ba50188f725d41.001.1",
-      "detectedAt": "2026-05-16T22:06:47.855Z",
-      "publishedAt": "2026-05-16",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66800bcb8462b281360ea510d575e36a060e6748.001.1",
+      "detectedAt": "2026-05-17T04:33:53.590Z",
+      "publishedAt": "2026-05-17",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
@@ -26,21 +26,21 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a2f6ce47850483043774d58b2ba50188f725d41.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66800bcb8462b281360ea510d575e36a060e6748.001.1",
           "role": "event-source"
         }
       ]
     },
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-d28cbe768d970f65ad06ca757e2e2f0287df514d-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-10694021ee4d58c9ad898f5d92303110fb9887aa-001-",
       "type": "current-event",
-      "title": "Severe Thunderstorm Warning issued May 16 at 4:53PM CDT until May 16 at 5:45PM CDT by NWS North...",
-      "summary": "SVRLBF The National Weather Service in North Platte has issued a * Severe Thunderstorm Warning for... Southeastern Custer County in central Nebraska... * Until 545 PM CDT. * At 453 PM CDT, a severe thunderstorm was located near Eddyville, or 19 miles north of Lexington, moving north at 25 mph. HAZARD...Golf ball size...",
+      "title": "Severe Thunderstorm Warning issued May 16 at 10:52PM CDT until May 16 at 11:45PM CDT by NWS Omaha/Valley...",
+      "summary": "SVROAX The National Weather Service in Omaha has issued a * Severe Thunderstorm Warning for... Jefferson County in southeastern Nebraska... Southern Saline County in southeastern Nebraska... West central Gage County in southeastern Nebraska... * Until 1145 PM CDT. * At 1052 PM CDT, a severe thunderstorm was located 3...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d28cbe768d970f65ad06ca757e2e2f0287df514d.001.1",
-      "detectedAt": "2026-05-16T22:06:47.855Z",
-      "publishedAt": "2026-05-16",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.10694021ee4d58c9ad898f5d92303110fb9887aa.001.1",
+      "detectedAt": "2026-05-17T04:33:53.590Z",
+      "publishedAt": "2026-05-17",
       "score": 100,
       "velocityLabel": "100/100 review score",
       "ctaLabel": "Review candidate",
@@ -52,7 +52,7 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d28cbe768d970f65ad06ca757e2e2f0287df514d.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.10694021ee4d58c9ad898f5d92303110fb9887aa.001.1",
           "role": "event-source"
         }
       ]
@@ -65,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZWILLING-JA-Henckels-Aktiengesellschaft-Recalls-Electric-Water-Kettles-Due-to-Risk-of-Serious-Injury-Due-to-Burn-Hazard",
-      "detectedAt": "2026-05-16T22:06:47.855Z",
+      "detectedAt": "2026-05-17T04:33:53.590Z",
       "publishedAt": "2026-05-14",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -73,7 +73,7 @@
       "sourceTrail": [
         {
           "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-16",
+          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-17",
           "role": "event-source"
         },
         {
@@ -87,14 +87,14 @@
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,929 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 444,950 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-16T22:06:47.855Z",
+      "detectedAt": "2026-05-17T04:33:53.590Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "444,929 stars",
+      "velocityLabel": "444,950 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 435,323 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 435,367 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-16T22:06:47.855Z",
+      "detectedAt": "2026-05-17T04:33:53.590Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "435,323 stars",
+      "velocityLabel": "435,367 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
