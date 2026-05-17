@@ -5,8 +5,41 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calibre</title>
+      <link>https://surfaced-x.pages.dev/item/calibre-ebook-manager</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/calibre-ebook-manager</guid>
+      <description>Calibre is a free and open-source e-book management application. It allows users to organize, convert, and manage their e-book collection across various devices and formats. You can use it to edit metadata, convert between formats like EPUB, MOBI, and PDF, and even download news from the web to read on your e-reader. Calibre is entirely free to use, with a vibrant community contributing to its ongoing development. It stands out for its comprehensive format conversion capabilities and its ability to handle very large libraries efficiently.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6214934/pexels-photo-6214934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6214934/pexels-photo-6214934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6214934/pexels-photo-6214934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Reshot</title>
+      <link>https://surfaced-x.pages.dev/item/reshot-com</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/reshot-com</guid>
+      <description>Reshot provides a curated collection of high-quality, free-to-use stock photos, icons, and illustrations that are not found on larger, more crowded stock photo sites. Their focus is on authentic, non-stocky imagery that stands out. You can download and use their assets for commercial and non-commercial projects without attribution, making it a reliable resource for designers and creators on a budget. The entire collection is free to use.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/2250136/pexels-photo-2250136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/2250136/pexels-photo-2250136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/2250136/pexels-photo-2250136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Webflow</title>
+      <link>https://surfaced-x.pages.dev/item/webflow-website-builder</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/webflow-website-builder</guid>
+      <description>Webflow is a visual web design tool that allows users to create professional, responsive websites without writing code. It offers a robust set of design controls, similar to graphic design software, combined with powerful CMS capabilities and hosting. Webflow operates on a freemium model, offering a free tier for learning and small projects, with paid plans for custom domains, e-commerce, and increased site performance. It stands out for giving designers complete creative control over every aspect of their website&apos;s look and feel, from animations to layouts, all while generating clean, semantic code.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Visual Studio Code</title>
       <link>https://surfaced-x.pages.dev/item/visual-studio-code</link>
@@ -456,6 +489,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/6405641/pexels-photo-6405641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>log-viewer</title>
+      <link>https://surfaced-x.pages.dev/item/simple-command-line-log-viewer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/simple-command-line-log-viewer</guid>
+      <description>log-viewer is a minimalist, command-line tool designed for quickly and efficiently viewing log files. It provides features such as live tailing of files, colored output for syntax highlighting or severity levels, and basic filtering capabilities directly in the terminal. Unlike more complex log management systems, log-viewer focuses on providing a simple, fast, and unobtrusive way to inspect logs as they are generated or to quickly search through historical data. This is particularly useful for developers, system administrators, or anyone working with server logs who needs immediate insights without the overhead of graphical interfaces or extensive configurations.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1600695268275-1a6468700bd5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMTkyMTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1600695268275-1a6468700bd5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMTkyMTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1600695268275-1a6468700bd5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMTkyMTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>design.md</title>
       <link>https://surfaced-x.pages.dev/item/design-md</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/design-md</guid>
@@ -465,6 +509,17 @@
       <enclosure url="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Mozilla to UK regulators: VPNs are essential privacy and security tools</title>
+      <link>https://surfaced-x.pages.dev/item/mozilla-vpn-advocacy-uk-regulators</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mozilla-vpn-advocacy-uk-regulators</guid>
+      <description>This article from Mozilla&apos;s Net Policy blog details their official submission to UK regulators regarding the importance of VPNs. Mozilla argues strongly that Virtual Private Networks are critical tools for online privacy and security and should not be undermined by regulatory measures. The submission likely outlines the benefits of VPNs for protecting user data from surveillance, censorship, and tracking, particularly in the context of modern internet usage. It serves as an important statement from a prominent privacy advocate on the role of VPNs in safeguarding digital freedoms. This piece is relevant for individuals concerned about their online privacy and policymakers involved in internet regulation.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/3949101/pexels-photo-3949101.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/3949101/pexels-photo-3949101.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/3949101/pexels-photo-3949101.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Readwise</title>
@@ -478,6 +533,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/28485962/pexels-photo-28485962.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Watch a neural net learn to play Snake</title>
+      <link>https://surfaced-x.pages.dev/item/neural-net-snake-game-visualization</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/neural-net-snake-game-visualization</guid>
+      <description>This interactive web tool, &apos;Watch a neural net learn to play Snake,&apos; provides a fascinating visual demonstration of reinforcement learning in action. It allows users to observe a neural network progressively learn the game of Snake through trial and error. As the game progresses, users can see how the neural network&apos;s strategies evolve, from random movements to more sophisticated play, all within their web browser. The visualization typically includes elements showing the game state, the network&apos;s decision-making process (e.g., weights and biases), and performance metrics. It&apos;s a direct, engaging way to understand the fundamental principles of how AI learns complex tasks through experience.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/31123901/pexels-photo-31123901.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/31123901/pexels-photo-31123901.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/31123901/pexels-photo-31123901.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>React Developer Tools</title>
       <link>https://surfaced-x.pages.dev/item/react-developer-tools</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/react-developer-tools</guid>
@@ -487,69 +553,6 @@
       <enclosure url="https://images.pexels.com/photos/37085303/pexels-photo-37085303.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/37085303/pexels-photo-37085303.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/37085303/pexels-photo-37085303.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>copy-fail-CVE-2026-31431</title>
-      <link>https://surfaced-x.pages.dev/item/copy-fail-cve-2026-31431-linux-kernel-lpe</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/copy-fail-cve-2026-31431-linux-kernel-lpe</guid>
-      <description>copy-fail-CVE-2026-31431 is a demonstration and proof-of-concept project detailing a critical Local Privilege Escalation (LPE) vulnerability discovered in the Linux kernel. This vulnerability, identified by Theori&apos;s Xint Code, exploits a flaw that has existed for approximately nine years. The project provides the necessary code and explanations for security researchers and system administrators to understand, reproduce, and potentially mitigate this significant security risk. It is hosted on GitHub and written in Python.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6190327/pexels-photo-6190327.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6190327/pexels-photo-6190327.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6190327/pexels-photo-6190327.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>mhr-cfw</title>
-      <link>https://surfaced-x.pages.dev/item/mhr-cfw-domain-fronting-relay</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mhr-cfw-domain-fronting-relay</guid>
-      <description>mhr-cfw is a Python-based Domain-Fronting Relay designed to bypass network censorship and surveillance by routing traffic through seemingly legitimate services. It acts as a relay, forwarding your internet requests through Google Apps Script (GAS) to Cloudflare Workers. This technique masks the true destination of your traffic, making it appear as though you are accessing a common cloud service rather than a blocked website or application. The project is freely available on GitHub.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/34635212/pexels-photo-34635212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/34635212/pexels-photo-34635212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/34635212/pexels-photo-34635212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>AdNauseam</title>
-      <link>https://surfaced-x.pages.dev/item/ethical-ad-blocker-manager</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ethical-ad-blocker-manager</guid>
-      <description>AdNauseam is a browser extension that functions as a powerful ad blocker while also acting as a privacy tool that &apos;clicks&apos; on every ad shown to you, effectively obscuring your browsing habits from advertisers. It aims to disrupt the ad-tracking industry by anonymously overwhelming advertising networks with fake clicks. It&apos;s developed by privacy advocates who believe in actively pushing back against invasive online advertising practices.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/33430720/pexels-photo-33430720.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/33430720/pexels-photo-33430720.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/33430720/pexels-photo-33430720.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>mike</title>
-      <link>https://surfaced-x.pages.dev/item/mike-oss-ai-legal-platform</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mike-oss-ai-legal-platform</guid>
-      <description>Mike is an open-source AI platform designed to democratize access to legal information and services. It leverages artificial intelligence to help users understand legal documents, generate legal text, and research legal precedents.  The platform aims to provide a free and accessible alternative for individuals and small businesses who might otherwise struggle with the cost and complexity of legal counsel. It offers features such as document summarization, contract analysis, and legal query answering, with a focus on clarity and user-friendliness.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7841822/pexels-photo-7841822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7841822/pexels-photo-7841822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7841822/pexels-photo-7841822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Semantic Scholar</title>
-      <link>https://surfaced-x.pages.dev/item/academic-paper-search-engine</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/academic-paper-search-engine</guid>
-      <description>Semantic Scholar is an AI-powered research tool designed to help scientists and academics discover and understand scientific literature. It goes beyond keyword matching to understand the context and meaning of research papers, providing direct links to PDFs, citation analysis, and summaries of key findings. Developed by the Allen Institute for Artificial Intelligence, it aims to accelerate scientific discovery by making research more accessible and insightful.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3109168/pexels-photo-3109168.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3109168/pexels-photo-3109168.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3109168/pexels-photo-3109168.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Ruflo</title>
-      <link>https://surfaced-x.pages.dev/item/ruflo</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ruflo</guid>
-      <description>Ruflo is an open-source agent orchestration platform from RuvNet built around Claude Code, MCP tooling, and coordinated multi-agent workflows. It adds a plugin marketplace, specialized coding agents, persistent memory, swarm coordination, workflow templates, and federation features that let agents collaborate across projects or machines. The repository positions Ruflo as the successor to Claude Flow, with a CLI, Claude Code plugins, MCP server options, Docker-based self-hosting paths, and hosted demos for chat and goal planning. For developers already using Claude Code or experimenting with autonomous coding assistants, Ruflo acts like a coordination layer: instead of running one assistant at a time, it helps route work through agents for testing, documentation, security review, browser automation, architecture decisions, and background maintenance tasks.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

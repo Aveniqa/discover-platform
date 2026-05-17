@@ -1,65 +1,5 @@
 [
   {
-    "id": 368,
-    "slug": "freshbooks-cloud-accounting-invoicing-expenses",
-    "toolName": "FreshBooks",
-    "whatItDoes": "FreshBooks, developed by 2ndSite Inc., is a cloud-based accounting software designed specifically for small business owners and freelancers, simplifying invoicing, expense tracking, and time management. Its primary workflow involves clients creating and sending professional invoices, tracking expenses by snapping receipt photos, and monitoring project time, all contributing to a clear financial overview. FreshBooks is accessible via its web application, robust mobile apps (iOS, Android), and integrates with numerous third-party business tools. The most used feature is its intuitive invoice creation and customization, making it easy to bill clients professionally and accept online payments. All financial data, including invoices, expenses, and client information, is securely stored and synchronized in the cloud.",
-    "category": "Finance",
-    "whyItIsUseful": "It eliminates the complexity and headache of managing business finances, providing an intuitive platform that makes accounting less daunting and more efficient for non-accountants. For the freelance consultant, it allows them to quickly create and send branded invoices, track billable hours, and manage recurring expenses, ensuring they get paid accurately and on time. For the small creative agency, it simplifies client project management, enabling team members to track time against projects, which then seamlessly converts into billable items on invoices. FreshBooks offers a free trial, and while it's a paid subscription, its comprehensive features justify the cost for growing businesses, offering significant time savings and professional credibility. Compared to general accounting solutions like QuickBooks, FreshBooks is renowned for its user-friendly interface and focus on the specific needs of service-based businesses, making it easier for non-accountants to navigate. Its \"payment reminders\" and \"late fees\" automation are power features that help maintain healthy cash flow and reduce the effort of chasing payments. A non-technical person can easily set up their profile and send their first invoice within 10-15 minutes, with full feature utilization taking a bit longer.",
-    "imageIdea": "FreshBooks mobile app interface showing expense tracking with a camera icon for receipts",
-    "websiteLink": "https://www.freshbooks.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 158,
-    "slug": "stripe-invoicing-simplified-online-billing",
-    "toolName": "Stripe Invoicing",
-    "whatItDoes": "Stripe Invoicing is a robust invoicing and payment collection platform provided by Stripe, specifically designed to help businesses bill customers and get paid faster. Its core function is to create and send professional invoices, manage subscriptions, and collect payments directly through Stripe's powerful payment infrastructure. Primarily a web-based service integrated within the broader Stripe dashboard, it also offers APIs for custom integrations. The most utilized feature is its ability to accept payments via various methods, including credit cards, bank transfers, and digital wallets, all seamlessly integrated. All invoice data, customer details, and payment records are securely handled and stored within Stripe's PCI-compliant cloud environment, ensuring maximum security and compliance.",
-    "category": "Finance",
-    "whyItIsUseful": "Stripe Invoicing eliminates the complexities of payment processing and manual invoice reconciliation, streamlining the entire billing cycle. For an SaaS startup, it means effortlessly managing recurring subscriptions, sending automated invoices, and handling global payments without building custom infrastructure. A developer selling digital products can use it to issue one-off invoices, track payment statuses, and ensure a smooth transaction experience for their customers. Stripe Invoicing operates on a 'pay-as-you-go' model, with a small percentage fee per successful transaction, making it genuinely useful for businesses of all sizes without upfront costs. While dedicated accounting software like FreshBooks offers broader features, Stripe Invoicing wins for its unparalleled payment processing power, global reach, and developer-friendly APIs. The 'Smart Retries' feature, which intelligently retries failed payments, is a powerful tool to minimize churn for subscription businesses. A non-technical person familiar with online services can easily set up a Stripe account and issue their first invoice in under fifteen minutes.",
-    "imageIdea": "Stripe Invoicing dashboard showing a list of invoices, payment statuses, and revenue trends.",
-    "websiteLink": "https://stripe.com/invoicing",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 505,
-    "slug": "bonsai-freelance-business-management-software",
-    "toolName": "Bonsai",
-    "whatItDoes": "Bonsai, developed by Hello Bonsai, Inc., is an all-in-one business management solution specifically tailored for freelancers and small agencies, covering contracts, proposals, time tracking, invoicing, and accounting. It allows users to streamline their entire workflow from client acquisition to payment, offering legally vetted contract templates, project management tools, and automated expense tracking. The platform is primarily web-based, with robust integration capabilities and a mobile app (iOS, Android) for on-the-go tasks. Its most used feature is its seamless integration of contracts, projects, time tracking, and invoicing into one fluid workflow. All data is securely stored in the cloud, providing a centralized hub for all freelance business operations.",
-    "category": "Productivity",
-    "whyItIsUseful": "It eliminates the fragmented mess of using multiple tools for different aspects of a freelance business, providing a single, coherent platform. For a freelance content writer, it means generating a professional proposal, drafting a contract, tracking time on articles, and sending an invoice all from one dashboard, drastically reducing administrative overhead. For a web design solopreneur, it simplifies client onboarding with customizable proposals and contracts, then seamlessly transitions into project management and automated billing. The free tier is a 14-day trial, allowing full access to test all features before committing, which is useful for evaluating its comprehensive offering. Compared to standalone invoicing tools, Bonsai wins by providing a holistic ecosystem that covers the entire client lifecycle, from lead to payment. A power feature is its integrated tax planning, helping freelancers estimate and manage their quarterly tax obligations based on income and expenses. While comprehensive, a non-technical person can easily set up a project and send their first invoice within 10-15 minutes, leveraging its intuitive templates.",
-    "imageIdea": "Bonsai dashboard showing project pipeline, contracts, and invoices",
-    "websiteLink": "https://www.hellobonsai.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 160,
-    "slug": "clickup-all-in-one-productivity-platform",
-    "toolName": "ClickUp",
-    "whatItDoes": "ClickUp is an all-in-one productivity platform developed by ClickUp, designed to replace multiple work apps with a single, highly customizable solution for teams of all sizes. Its core functionality includes task management, project management, document creation, goal tracking, and time tracking, all within a flexible hierarchy. The platform is exceptionally versatile, available on Web, iOS, Android, Windows, Mac, Linux, and as a browser extension. A widely used feature is its customizable 'Views' (List, Board, Calendar, Gantt, etc.), which allows users to visualize their work in the way that best suits them. All project data, tasks, and documents are securely stored and synchronized in the cloud, facilitating real-time collaboration and access.",
-    "category": "Productivity",
-    "whyItIsUseful": "ClickUp eliminates the common problem of tool sprawl and fragmented workflows, centralizing all work into one powerful hub. For a marketing team, it means managing campaign planning, content creation, and social media scheduling all within one platform, enhancing collaboration and visibility. A software development team can use ClickUp to manage agile sprints, track bugs, and collaborate on code documentation, keeping everyone aligned. The free tier is genuinely useful, offering core features with generous storage, making it a viable option for individuals and small teams. While tools like Asana and Monday.com are strong competitors, ClickUp often wins for its extreme customizability and feature depth, allowing users to tailor it precisely to their unique workflows. The 'Automations' feature, which allows users to set up rules to automate routine tasks, is a powerful asset for advanced users. A non-technical person can set up a workspace and start managing basic tasks in ClickUp within ten minutes, though mastering its full potential requires more time.",
-    "imageIdea": "ClickUp dashboard showing a customizable project board with tasks, statuses, and team members.",
-    "websiteLink": "https://clickup.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 219,
-    "slug": "plutio-all-in-one-business-management-2",
-    "toolName": "Plutio",
-    "whatItDoes": "Plutio, developed by Plutio Ltd., is an all-in-one business management platform designed for freelancers, small businesses, and teams to manage projects, clients, invoices, and proposals from a single workspace. It allows users to create tasks, organize projects, track time, send invoices, and collaborate with clients through a unified portal, eliminating the need for multiple subscriptions. The platform is accessible via its web application, desktop apps (Windows, Mac, Linux), and mobile apps (iOS, Android), offering comprehensive coverage. Its most used feature is the integrated client portal, which centralizes communication, file sharing, and project updates, fostering transparent collaboration. All project data, client information, and financial records are securely stored and synchronized in the cloud, providing a robust and accessible business hub.",
-    "category": "Productivity",
-    "whyItIsUseful": "Plutio eliminates the fragmentation and inefficiency of juggling multiple tools for project management, client communication, and billing, creating a cohesive operational flow. For the solo agency owner, it provides a comprehensive system to manage client projects from proposal to payment, ensuring nothing falls through the cracks. For a small consulting firm, it enables seamless team collaboration, transparent project tracking, and professional client interactions, all within one intuitive interface. Plutio offers a 7-day free trial that unlocks all features, allowing users to fully test its capabilities before subscribing to a paid plan. Compared to specialized tools like Trello (project management) or FreshBooks (invoicing), Plutio wins by offering a deeply integrated suite of features that cater to the entire business lifecycle, reducing overhead. Its 'Custom Branding' feature allows advanced users to fully white-label their client portal and invoices, enhancing their professional image. A non-technical person can set up a new project and invite a client within 10 minutes.",
-    "imageIdea": "Plutio dashboard with project tasks, client messages, and upcoming invoices.",
-    "websiteLink": "https://www.plutio.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 162,
     "slug": "calendly-meeting-scheduling-automation",
     "toolName": "Calendly",
@@ -5744,5 +5684,44 @@
     "websiteLink": "https://code.visualstudio.com/",
     "type": "tool",
     "dateAdded": "2026-05-16"
+  },
+  {
+    "id": 848,
+    "slug": "webflow-website-builder",
+    "toolName": "Webflow",
+    "seoTitle": "Webflow — Design professional websites visually",
+    "whatItDoes": "Webflow is a visual web design tool that allows users to create professional, responsive websites without writing code. It offers a robust set of design controls, similar to graphic design software, combined with powerful CMS capabilities and hosting. Webflow operates on a freemium model, offering a free tier for learning and small projects, with paid plans for custom domains, e-commerce, and increased site performance. It stands out for giving designers complete creative control over every aspect of their website's look and feel, from animations to layouts, all while generating clean, semantic code.",
+    "category": "Design",
+    "whyItIsUseful": "For designers and entrepreneurs, Webflow is a game-changer, bridging the gap between design and development. It empowers individuals to build stunning, custom websites that truly reflect their brand, without needing to hire a developer or learn complex coding languages. Its visual interface is intuitive yet powerful, offering fine-grained control over responsive design, interactions, and animations. The integrated CMS makes managing content a breeze, perfect for blogs, portfolios, and marketing sites. Many small businesses and freelancers leverage Webflow to create high-quality online presences efficiently and affordably, saving significant time and money compared to traditional web development workflows. Its exportable code also appeals to developers looking for a faster prototyping tool.",
+    "imageIdea": "website design interface laptop",
+    "websiteLink": "https://webflow.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-17"
+  },
+  {
+    "id": 849,
+    "slug": "reshot-com",
+    "toolName": "Reshot",
+    "seoTitle": "Reshot — Free Stock Photos",
+    "whatItDoes": "Reshot provides a curated collection of high-quality, free-to-use stock photos, icons, and illustrations that are not found on larger, more crowded stock photo sites. Their focus is on authentic, non-stocky imagery that stands out. You can download and use their assets for commercial and non-commercial projects without attribution, making it a reliable resource for designers and creators on a budget. The entire collection is free to use.",
+    "category": "Design",
+    "whyItIsUseful": "In the world of content creation, visuals are paramount, but licensing fees for premium stock imagery can be prohibitive. Reshot offers a refreshing alternative by providing a large library of unique and modern assets that feel more authentic than typical stock photos. This saves creators significant money and time that would otherwise be spent searching through generic libraries or negotiating licenses. The curated nature of Reshot means you're more likely to find something distinctive that elevates your project, whether it's a website, social media post, or presentation. Designers, marketers, and small business owners particularly benefit from the ability to access professional-grade visuals without any cost or complex licensing, allowing them to maintain a high aesthetic standard even with limited resources. The 'no attribution required' policy further simplifies the workflow.",
+    "imageIdea": "modern graphic design assets catalog",
+    "websiteLink": "https://www.res-hot.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-17"
+  },
+  {
+    "id": 850,
+    "slug": "calibre-ebook-manager",
+    "toolName": "Calibre",
+    "seoTitle": "Calibre — E-book management software",
+    "whatItDoes": "Calibre is a free and open-source e-book management application. It allows users to organize, convert, and manage their e-book collection across various devices and formats. You can use it to edit metadata, convert between formats like EPUB, MOBI, and PDF, and even download news from the web to read on your e-reader. Calibre is entirely free to use, with a vibrant community contributing to its ongoing development. It stands out for its comprehensive format conversion capabilities and its ability to handle very large libraries efficiently.",
+    "category": "Reference",
+    "whyItIsUseful": "For anyone who owns multiple e-readers or collects digital books, Calibre is an indispensable tool. It bridges the gap between different e-book formats, ensuring you can read your books on any device without hassle. Its metadata editing features allow for perfect library organization, making searching and browsing a pleasure. The news download feature is a unique bonus, transforming online articles into e-book format for comfortable reading. It saves users from the frustration of incompatible file types and the limitations of device-specific ecosystems, making it a cornerstone for digital book enthusiasts.",
+    "imageIdea": "digital library bookshelf organized",
+    "websiteLink": "https://calibre-ebook.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-17"
   }
 ]

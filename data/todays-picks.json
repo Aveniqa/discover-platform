@@ -1,46 +1,46 @@
 [
   {
-    "slug": "ancient-egyptian-beer-discovery",
-    "title": "Ancient Egyptian Brewery Uncovered: Grains for 22,400 Liters of Beer",
+    "slug": "ancient-river-channels-on-mars-hint-at-long-lived-water",
+    "title": "Ancient Martian Riverbeds Suggest Long-Term Water Presence",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Archaeologists have unearthed a massive ancient Egyptian brewery at the Abydos site, dating back to the Predynastic peri",
+    "description": "Data from NASA's Mars Reconnaissance Orbiter has revealed extensive ancient river channel systems on Mars, suggesting th",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "puresight-vision-labs-luminara-smart-glasses",
-    "title": "PureSight Vision Labs Luminara Smart Glasses",
+    "slug": "audient-evo-4-usb-audio-interface",
+    "title": "Audient EVO 4 USB Audio Interface",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The PureSight Vision Labs Luminara Smart Glasses integrate a discreet augmented reality (AR) display directly into styli",
+    "description": "The Audient EVO 4 is an ultra-compact and versatile USB audio interface designed for aspiring podcasters, musicians, and",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "ethical-ad-blocker-manager",
-    "title": "AdNauseam",
+    "slug": "simple-command-line-log-viewer",
+    "title": "log-viewer",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "AdNauseam is a browser extension that functions as a powerful ad blocker while also acting as a privacy tool that 'click",
+    "description": "log-viewer is a minimalist, command-line tool designed for quickly and efficiently viewing log files. It provides featur",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "project-gutenberg-enhancement",
-    "title": "Digital Library Curation and Accessibility",
+    "slug": "openai-malta-chatgpt-partnership",
+    "title": "OpenAI and Malta Partnership",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "Project Gutenberg, the long-standing initiative dedicated to digitizing and archiving vast collections of books, continu",
+    "description": "OpenAI has partnered with the government of Malta to provide ChatGPT Plus access to all citizens, a significant initiati",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "visual-studio-code",
-    "title": "Visual Studio Code",
+    "slug": "calibre-ebook-manager",
+    "title": "Calibre",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Visual Studio Code (VS Code) is a free, powerful, and versatile source-code editor developed by Microsoft. It supports a",
+    "description": "Calibre is a free and open-source e-book management application. It allows users to organize, convert, and manage their ",
     "badge": null,
     "type": "tool"
   }
