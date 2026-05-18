@@ -1,66 +1,5 @@
 [
   {
-    "id": 137,
-    "slug": "any-wavelength-lasers",
-    "techName": "Any Wavelength Lasers",
-    "explanation": "Scientists at NIST have developed a groundbreaking method to create lasers capable of emitting light at virtually any desired wavelength. This breakthrough utilizes a compact, chip-scale platform that can be precisely tuned to generate specific frequencies, overcoming the limitations of traditional lasers which are typically fixed to a narrow band of wavelengths. The core innovation lies in controlling the interactions within a specially designed semiconductor material to achieve this broad tunability.",
-    "industry": "Photonics & Optics",
-    "whyItMatters": "This 'any wavelength' laser technology has profound implications across numerous scientific and industrial fields. For instance, in spectroscopy, it allows for more precise identification and analysis of materials by matching laser wavelengths to specific molecular absorption patterns, a critical advancement for environmental monitoring and chemical analysis. In telecommunications, it could enable denser data transmission by utilizing a wider spectrum of light. The ability to customize laser wavelengths on-demand could also revolutionize medical diagnostics and therapeutic applications, from highly targeted laser surgery to advanced imaging techniques. While still in the early stages, widespread adoption hinges on scaling production and ensuring long-term stability and cost-effectiveness. Ultimately, it promises a future where light itself is a more versatile and programmable tool.",
-    "developmentStage": "Research",
-    "imageIdea": "close-up of a tiny laser chip emitting rainbow light",
-    "type": "future-tech",
-    "dateAdded": "2026-04-19",
-    "sourceLink": "https://www.nist.gov/"
-  },
-  {
-    "id": 138,
-    "slug": "instructor-curbs-ai-writing-with-typewriters",
-    "techName": "AI-Resistant Assessment Methods",
-    "explanation": "A college instructor has turned to using typewriters as an unconventional method to mitigate the use of AI-generated text in student assignments. This approach forces students to produce work manually, making it significantly more challenging to pass off AI-generated content as their own. Beyond simply preventing plagiarism, the instructor aims to foster critical thinking and deeper engagement with the material, emphasizing the process of learning over the final output.",
-    "industry": "Education",
-    "whyItMatters": "The rise of sophisticated AI writing tools presents a significant challenge to traditional educational assessment methods, forcing a re-evaluation of how learning is measured. This typewriter initiative, while seemingly retro, highlights a broader trend towards developing more robust and AI-resistant assessment strategies. It underscores the need for educational institutions to adapt by focusing on higher-order thinking skills, in-person evaluations, and unique, process-oriented assignments that are difficult for AI to replicate. The timeline for mainstream adoption of such methods will likely be gradual, involving pilot programs and curriculum redesigns within educational systems. Key obstacles include the potential for resistance from students accustomed to digital workflows and the logistical challenges of implementing non-digital assessments on a large scale. Ultimately, this move signals a potential future where education emphasizes human creativity, critical thinking, and a deeper, more tangible connection to the learning process.",
-    "developmentStage": "Early Adoption",
-    "imageIdea": "student hands typing on a vintage typewriter",
-    "type": "future-tech",
-    "dateAdded": "2026-04-19"
-  },
-  {
-    "id": 139,
-    "slug": "b-52-star-tracker-angle-computer",
-    "techName": "Electromechanical Angle Computers",
-    "explanation": "The article delves into the electromechanical angle computer found within the B-52 bomber's star tracker, a sophisticated analog computing device. This system uses intricate mechanical linkages and sensors to precisely calculate angular positions based on celestial input, effectively performing complex navigational computations without digital processing. It's a testament to the ingenuity of analog computation and its historical role in critical systems.",
-    "industry": "Aerospace & Defense / Computing",
-    "whyItMatters": "This exploration of electromechanical angle computers in legacy systems like the B-52 highlights the enduring relevance and elegance of analog computation, particularly in environments where digital systems might be vulnerable or impractical. While modern systems predominantly rely on digital processors, understanding these analog predecessors offers valuable insights into fundamental principles of computation and control. This knowledge could inspire new hybrid approaches or novel analog computing architectures for specialized applications, such as in high-radiation environments or for ultra-low-power embedded systems where digital components struggle. The realistic timeline for widespread 're-adoption' of pure analog computing is long, but its principles are continuously being re-examined for niche applications. Key obstacles include the inherent precision limitations of analog systems compared to digital ones and the difficulty in reprogramming or updating them. However, the principles demonstrated could lead to future specialized computational devices that are more resilient and efficient for specific tasks, impacting areas from niche aerospace applications to specialized sensor processing.",
-    "developmentStage": "Historical/Research",
-    "imageIdea": "detailed photograph of intricate gears and levers within an analog computer",
-    "type": "future-tech",
-    "dateAdded": "2026-04-19"
-  },
-  {
-    "id": 140,
-    "slug": "japanese-railway-excellence",
-    "techName": "Integrated High-Speed Rail Networks",
-    "explanation": "The article explores the multifaceted reasons behind Japan's exceptionally efficient and punctual railway system. It goes beyond simply discussing Shinkansen (bullet trains) to examine the comprehensive ecosystem that supports this excellence, including advanced operational management, meticulous maintenance, a culture of punctuality, robust infrastructure investment, and seamless integration between different modes of transport. This holistic approach ensures reliability and passenger satisfaction.",
-    "industry": "Transportation & Infrastructure",
-    "whyItMatters": "Japan's railway system serves as a global benchmark for efficient, reliable, and high-capacity public transportation. Its success offers critical lessons for cities and countries aiming to develop or improve their own transit infrastructure, particularly in the face of increasing urbanization and environmental concerns. The integrated nature of Japan's system, from the scheduling and maintenance to the passenger experience, demonstrates that technological advancement must be paired with operational excellence and societal commitment. The realistic timeline for other regions to achieve similar integration is long, requiring significant political will, sustained investment, and a cultural shift towards prioritizing public transit. Key obstacles include the immense cost of infrastructure upgrades, complex regulatory environments, and the challenge of coordinating diverse stakeholders. However, the widespread adoption of such integrated networks could lead to drastically reduced traffic congestion, lower carbon emissions, and more livable, interconnected urban environments globally.",
-    "developmentStage": "Mainstream",
-    "imageIdea": "sleek bullet train arriving at a spotless, modern station",
-    "type": "future-tech",
-    "dateAdded": "2026-04-19"
-  },
-  {
-    "id": 141,
-    "slug": "eu-replaceable-batteries-phones-tablets",
-    "techName": "Mandatory Replaceable Batteries for Consumer Electronics",
-    "explanation": "Starting in 2027, all smartphones and tablets sold in the European Union will be legally required to have user-replaceable batteries. This directive, driven by the EU, aims to combat electronic waste and promote a more sustainable product lifecycle. The goal is to empower consumers to easily swap out degraded batteries themselves, rather than being forced to replace entire devices.",
-    "industry": "Consumer Electronics",
-    "whyItMatters": "This regulation directly challenges the 'throwaway culture' prevalent in the consumer electronics industry, forcing manufacturers to redesign devices for longevity and repairability. It could significantly reduce the mountains of e-waste generated annually, leading to fewer hazardous materials entering landfills. While initially met with resistance, the realistic timeline for mainstream adoption globally is within the next 5-10 years as other regions consider similar legislation. The key obstacle is redesigning devices for accessibility without compromising on sleekness or performance. Daily life will see consumers keeping devices longer, saving money, and contributing to a healthier planet.",
-    "developmentStage": "Early Commercialization",
-    "imageIdea": "smartphone with a battery being slid out",
-    "type": "future-tech",
-    "dateAdded": "2026-04-20"
-  },
-  {
     "id": 142,
     "slug": "atlassian-ai-data-collection-defaults",
     "techName": "AI Training Data Collection by Default",
@@ -6372,5 +6311,70 @@
     "imageIdea": "stylized Maltese flag with AI chatbot icon",
     "type": "future-tech",
     "dateAdded": "2026-05-17"
+  },
+  {
+    "id": 648,
+    "slug": "automating-data-broker-opt-outs",
+    "techName": "Automated Data Broker Opt-Outs",
+    "seoTitle": "Automated Data Broker Opt-Outs Open Source Tool",
+    "explanation": "This project, `auto-identity-remove` on GitHub, provides an open-source solution to automate the tedious process of opting out of data broker sites. The developer, Stephen L. Thorn, has successfully automated opt-outs for over 500 data broker websites. The tool works by programmatically navigating these sites, filling out forms, and initiating the opt-out process, thereby reclaiming a degree of personal data privacy. It addresses the growing concern over the widespread collection and sale of personal information by companies.",
+    "industry": "Privacy Tech",
+    "whyItMatters": "In an era where personal data is a valuable commodity, data brokers collect and sell information about individuals without their explicit consent. Manually opting out of hundreds of sites is an overwhelming and time-consuming task. This open-source tool democratizes privacy by providing a free, accessible method for individuals to regain control over their digital footprint. Its success indicates a growing demand for privacy-enhancing technologies and could pressure data brokers to adopt more transparent and consent-driven practices. While widespread adoption requires technical proficiency, it sets a precedent for future privacy tools and may inspire legislation to curb data broker practices. The timeline for mainstream impact depends on user adoption and potential integrations into broader privacy platforms, but it directly addresses a pervasive privacy issue affecting daily online life.",
+    "developmentStage": "Prototype",
+    "imageIdea": "a lock icon overlaying a digital data stream",
+    "type": "future-tech",
+    "dateAdded": "2026-05-18"
+  },
+  {
+    "id": 649,
+    "slug": "gen-cad-gene-circuitry-design",
+    "techName": "GenCAD",
+    "seoTitle": "GenCAD: Gene Circuitry Design Platform",
+    "explanation": "GenCAD is a novel platform designed for the design and simulation of genetic circuits, enabling the engineering of cells with predictable behaviors. The project's recent progress, highlighted on its GitHub page, showcases its development as a powerful tool for synthetic biology. It allows researchers to model complex biological systems, predict how engineered DNA sequences will function, and test these designs virtually before costly and time-consuming laboratory experiments. This facilitates the creation of custom biological functionalities for various applications.",
+    "industry": "Biotechnology",
+    "whyItMatters": "The ability to precisely engineer biological systems has profound implications across medicine, agriculture, and environmental science. GenCAD represents a significant step towards making synthetic biology more accessible and efficient, akin to how CAD software revolutionized electronic circuit design. It has the potential to accelerate the development of new therapeutics, biosensors, and sustainable industrial processes. Overcoming challenges in biological complexity and unpredictable cellular environments are key to its widespread adoption. In the long term, this could lead to 'designer cells' that can diagnose diseases, produce novel materials, or clean up pollution, fundamentally altering how we approach biological challenges and opening new avenues for innovation.",
+    "developmentStage": "Research",
+    "imageIdea": "a stylized DNA helix intertwined with electronic circuit board traces",
+    "type": "future-tech",
+    "dateAdded": "2026-05-18"
+  },
+  {
+    "id": 650,
+    "slug": "rk3562-android-to-linux-workstation",
+    "techName": "RK3562 Android Tablet to Debian Linux Workstation",
+    "seoTitle": "Android Tablet to Linux Workstation Conversion",
+    "explanation": "This project, detailed on GitHub by tech4bot, demonstrates how an inexpensive RK3562 Android tablet can be transformed into a functional Debian Linux workstation. By flashing a custom Linux distribution and configuring the hardware, the developer has unlocked the full potential of the tablet's processing power for more demanding tasks than typically offered by Android. This repurposing highlights the versatility of modern mobile hardware and the power of open-source operating systems.",
+    "industry": "Hardware Hacking",
+    "whyItMatters": "This breakthrough is significant because it democratizes access to powerful computing capabilities by repurposing affordable consumer electronics. It challenges the notion that dedicated, expensive workstations are necessary for serious development or productivity. This approach promotes sustainability by extending the life of electronic devices and reducing e-waste. The timeline for mainstream adoption is immediate for tech-savvy individuals and enthusiasts, potentially inspiring manufacturers to offer more flexible firmware options. Obstacles include hardware driver compatibility and user-friendliness for less technical users. Once widespread, it could lead to a surge in low-cost, customizable computing devices for education, remote work, and specialized applications, making powerful computing accessible to a broader global population.",
+    "developmentStage": "Prototype",
+    "imageIdea": "a tablet computer with a Linux desktop environment displayed",
+    "type": "future-tech",
+    "dateAdded": "2026-05-18"
+  },
+  {
+    "id": 651,
+    "slug": "jank-custom-ir",
+    "techName": "Jank Custom IR",
+    "seoTitle": "Jank Programming Language Custom IR",
+    "explanation": "Jank, a programming language described on its official blog, has recently introduced its own custom Intermediate Representation (IR). This IR is a crucial step in optimizing the performance of the Jank language, allowing for more sophisticated compiler optimizations. By defining its own IR, Jank can tailor the compilation process precisely to its language features and target architectures, leading to more efficient code generation and faster program execution than relying on generic IRs.",
+    "industry": "Software Development",
+    "whyItMatters": "The performance of software is paramount, especially as applications become more complex and data-intensive. A custom IR allows a programming language to achieve superior performance by enabling highly specific optimizations that are not possible with general-purpose IRs. This is particularly relevant for systems programming, game development, and high-performance computing where every cycle counts. The development of Jank's custom IR signals a commitment to pushing the boundaries of programming language performance, potentially influencing how other languages approach compilation. While it's still in the early stages of adoption, it represents a forward-thinking approach to language design that could lead to faster, more efficient software across various domains, impacting everything from mobile apps to scientific simulations.",
+    "developmentStage": "Research",
+    "imageIdea": "a compiler abstract syntax tree diagram",
+    "type": "future-tech",
+    "dateAdded": "2026-05-18"
+  },
+  {
+    "id": 652,
+    "slug": "askanastronaut-qa-footage",
+    "techName": "Ask an Astronaut Q&A Footage",
+    "seoTitle": "Ask an Astronaut: Astronaut Q&A Footage",
+    "explanation": "The `askanastronaut.issinrealtime.org` website offers an unprecedented archive of 333 hours of Q&A footage with astronauts. This extensive collection provides direct insights into life, work, and experiences aboard the International Space Station. By making this raw footage publicly accessible, it allows for a deeper and more authentic understanding of space exploration than traditional documentaries or curated interviews. Users can search and explore these conversations to learn directly from those who have lived and worked in space.",
+    "industry": "Space Exploration",
+    "whyItMatters": "This archive is invaluable for education, inspiring future generations of scientists and engineers, and fostering public engagement with space exploration. It moves beyond polished presentations to offer unfiltered human perspectives on the challenges and wonders of space travel. Such accessibility can demystify spaceflight and make it more relatable. The insights contained within this footage could inform future mission planning, astronaut training, and even inspire new scientific research questions. The direct human element is crucial for maintaining public support and enthusiasm for costly space endeavors. This resource democratizes astronaut knowledge, allowing anyone to 'ask an astronaut' and learn directly, shaping a more informed and engaged public regarding humanity's presence in space.",
+    "developmentStage": "Early Adoption",
+    "imageIdea": "an astronaut speaking into a microphone on the ISS",
+    "type": "future-tech",
+    "dateAdded": "2026-05-18"
   }
 ]

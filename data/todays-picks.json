@@ -1,46 +1,46 @@
 [
   {
-    "slug": "ancient-river-channels-on-mars-hint-at-long-lived-water",
-    "title": "Ancient Martian Riverbeds Suggest Long-Term Water Presence",
+    "slug": "synthetic-diamond-replicates-ancient-venus-atmosphere",
+    "title": "Synthetic Diamond Replicates Ancient Venus Atmosphere",
     "category": "discoveries",
     "categoryLabel": "Discovery",
-    "description": "Data from NASA's Mars Reconnaissance Orbiter has revealed extensive ancient river channel systems on Mars, suggesting th",
+    "description": "Scientists have created a novel synthetic diamond capable of replicating the extreme atmospheric conditions of early Ven",
     "badge": null,
     "type": "discovery"
   },
   {
-    "slug": "audient-evo-4-usb-audio-interface",
-    "title": "Audient EVO 4 USB Audio Interface",
+    "slug": "onyx-boox-tab-ultra-c-pro",
+    "title": "Onyx BOOX Tab Ultra C Pro",
     "category": "products",
     "categoryLabel": "Trending Product",
-    "description": "The Audient EVO 4 is an ultra-compact and versatile USB audio interface designed for aspiring podcasters, musicians, and",
+    "description": "The Onyx BOOX Tab Ultra C Pro is a professional-grade e-ink tablet that combines a 10.3-inch color E Ink Kaleido 3 displ",
     "badge": null,
     "type": "product"
   },
   {
-    "slug": "simple-command-line-log-viewer",
-    "title": "log-viewer",
+    "slug": "hidden-gem-taskade",
+    "title": "Taskade",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "log-viewer is a minimalist, command-line tool designed for quickly and efficiently viewing log files. It provides featur",
+    "description": "Taskade is a unified platform designed to streamline team collaboration and project management. It combines task lists, ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "openai-malta-chatgpt-partnership",
-    "title": "OpenAI and Malta Partnership",
+    "slug": "askanastronaut-qa-footage",
+    "title": "Ask an Astronaut Q&A Footage",
     "category": "future-radar",
     "categoryLabel": "Future Tech",
-    "description": "OpenAI has partnered with the government of Malta to provide ChatGPT Plus access to all citizens, a significant initiati",
+    "description": "The `askanastronaut.issinrealtime.org` website offers an unprecedented archive of 333 hours of Q&A footage with astronau",
     "badge": null,
     "type": "future-tech"
   },
   {
-    "slug": "calibre-ebook-manager",
-    "title": "Calibre",
+    "slug": "firefly-ai",
+    "title": "Adobe Firefly",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Calibre is a free and open-source e-book management application. It allows users to organize, convert, and manage their ",
+    "description": "Adobe Firefly is a family of creative generative AI models designed to be safe for commercial use. It empowers users to ",
     "badge": null,
     "type": "tool"
   }

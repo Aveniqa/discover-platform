@@ -1,65 +1,5 @@
 [
   {
-    "id": 162,
-    "slug": "calendly-meeting-scheduling-automation",
-    "toolName": "Calendly",
-    "whatItDoes": "Calendly is an intelligent scheduling automation platform developed by Calendly LLC, designed to eliminate the back-and-forth emails involved in finding a meeting time. Its core function is to allow users to set their availability preferences, share a personalized booking link, and let others schedule meetings directly into their calendar. The service is primarily web-based, with integrations available for popular calendar applications like Google Calendar, Outlook Calendar, and iCloud Calendar. Its most utilized feature is the ability to create different 'Event Types' for various meeting scenarios, such as 15-minute intro calls or 1-hour consultations. All scheduled meeting data is securely synchronized with connected calendars and stored in the cloud, ensuring accurate and up-to-date availability.",
-    "category": "Communication",
-    "whyItIsUseful": "Calendly eliminates the frustrating and time-consuming process of coordinating schedules, saving countless emails and improving efficiency. For a sales professional, it means easily allowing prospects to book demos directly, increasing conversion rates by removing friction from the scheduling process. A recruiter can use Calendly to streamline interview scheduling, making it easier for candidates to book slots that work for them without manual coordination. The free tier is genuinely useful, offering basic one-on-one meeting scheduling, which is sufficient for many individual users. While tools like Doodle Poll offer group polling, Calendly shines in its direct booking capabilities and seamless integration with personal calendars. The 'Workflows' feature, which automates pre- and post-meeting actions like sending reminders or follow-up emails, is a powerful asset for advanced users. A non-technical person can set up their Calendly account and share their first booking link in under five minutes.",
-    "imageIdea": "Calendly interface showing available time slots on a calendar and a customizable booking page.",
-    "websiteLink": "https://calendly.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 310,
-    "slug": "loom-async-video-messaging-screen-recorder",
-    "toolName": "Loom",
-    "whatItDoes": "Loom, developed by Loom, Inc., is a video messaging tool designed for quick, asynchronous communication through screen recordings, webcam videos, or both. It simplifies explaining complex ideas or providing feedback by allowing users to record, annotate, and instantly share videos with unique links. The primary workflow involves launching the desktop app or browser extension, selecting capture areas, recording your message, and then automatically receiving a shareable URL once complete. It operates seamlessly across web browsers, dedicated desktop applications for Windows and Mac, and mobile apps for iOS and Android. Its most used feature is the ability to record a screen and webcam simultaneously, adding a personal touch to explanations. All videos are cloud-synced and hosted on Loom's platform, offering secure sharing and team collaboration features.",
-    "category": "Communication",
-    "whyItIsUseful": "Loom eliminates the pain of endless text-based explanations and unnecessary meetings, streamlining communication in remote and hybrid work environments. For the product manager, it allows for quick demonstration of a bug or a new feature to the dev team without scheduling a meeting. For the customer support agent, it enables personalized video replies to common queries, showing step-by-step solutions directly on screen. Loom offers a generous free tier for personal use, allowing up to 25 videos of 5 minutes each, making it genuinely useful before considering a paid plan. Compared to traditional video conferencing tools, Loom shines by being asynchronous, allowing recipients to watch on their own time, making it far more efficient than a live meeting. A power feature is its 'call to action' button which can be added to videos, guiding viewers to a specific next step. The learning curve is incredibly low; anyone can record and share their first Loom in under two minutes.",
-    "imageIdea": "Loom desktop app showing a recording in progress, with webcam bubble and screen sharing.",
-    "websiteLink": "https://www.loom.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 166,
-    "slug": "spark-mail-smart-email-client-2",
-    "toolName": "Spark Mail",
-    "whatItDoes": "Spark Mail is an intelligent email client developed by Readdle Inc., designed to help users focus on important emails and achieve 'Inbox Zero' faster. Its core functionality includes a 'Smart Inbox' that automatically categorizes emails (Personal, Notifications, Newsletters), email scheduling, and collaboration features for teams. The application is widely available across Apple platforms (iOS, iPadOS, macOS), Android, and Windows, offering a consistent and powerful email experience. Users frequently utilize its 'Send Later' feature to schedule emails to be sent at an optimal time, improving communication and timing. All email data is securely processed and synchronized through Spark's servers to enable its smart features, while respecting user privacy and adhering to strict security protocols.",
-    "category": "Communication",
-    "whyItIsUseful": "Spark Mail eliminates the overwhelming feeling of a cluttered inbox and the constant distraction of non-essential emails, allowing users to prioritize their communication. For a busy professional, it means quickly triaging important emails from notifications, ensuring critical messages are never missed. A small team collaborating on a project can use Spark to share drafts, discuss emails privately, and assign emails as tasks directly within the client. The free tier is genuinely useful for individuals, offering the Smart Inbox, Send Later, and basic email templates. While Outlook and Gmail are pervasive, Spark Mail often wins for its cleaner interface, advanced smart features, and focus on productivity, making email management less stressful. The 'Shared Drafts' feature is a power user favorite, enabling multiple team members to collaborate on a single email before sending. A non-technical person can download Spark, connect their email account, and start experiencing its smart features in under five minutes.",
-    "imageIdea": "Spark Mail 'Smart Inbox' interface showing emails categorized into distinct sections like Personal, Notifications, and Newsletters.",
-    "websiteLink": "https://sparkmailapp.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 167,
-    "slug": "setapp-curated-mac-app-subscription",
-    "toolName": "Setapp",
-    "whatItDoes": "Setapp is a unique subscription service for macOS and iOS apps developed by MacPaw Inc., offering a curated collection of over 240 high-quality applications for a single monthly fee. Its core function is to provide users with instant access to a diverse range of productivity, creativity, maintenance, and utility tools without individual purchases or in-app ads. The service operates as a desktop application on Mac, from which users can browse, install, and manage their apps, with a growing selection also available for iOS. A most utilized feature is its 'Discovery' interface, which helps users find new and useful applications they might not have encountered otherwise. Application data and user preferences are managed locally by each app, while Setapp securely handles subscription and app access through its cloud-based license management.",
-    "category": "Productivity",
-    "whyItIsUseful": "Setapp eliminates the pain points of app discovery, individual purchases, and subscription fatigue by consolidating a vast library of premium apps into one simple payment. For a new Mac user, it provides an immediate toolkit of essential software, saving hundreds of dollars compared to buying each app separately. A power user can use Setapp to experiment with niche utilities and creative tools without commitment, broadening their digital capabilities risk-free. Setapp offers a 7-day free trial, which is highly useful for exploring the extensive catalog, but there is no permanent free tier. While the Apple App Store requires individual purchases, Setapp wins by offering a 'Netflix for apps' model, providing continuous value and access to updates. The 'Setapp for Teams' feature, allowing businesses to manage multiple licenses, is a powerful asset for organizations. A non-technical person can download and install the Setapp client, and begin installing premium apps in under ten minutes.",
-    "imageIdea": "Setapp desktop app interface showing a grid of various Mac app icons and categories.",
-    "websiteLink": "https://setapp.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 170,
-    "slug": "you-need-a-budget",
-    "toolName": "You Need A Budget (YNAB)",
-    "whatItDoes": "You Need A Budget, or YNAB, developed by Jesse Mecham and his team, is a popular personal budgeting software designed to help users gain total control over their money by giving every dollar a job. It operates on four core rules: Give Every Dollar a Job, Embrace Your True Expenses, Roll With the Punches, and Age Your Money. YNAB connects to your bank accounts to import transactions, which you then categorize and assign to your budget. It is available on web, iOS, Android, and offers a browser extension for quick entry. The most used feature is its 'Ready to Assign' balance, which guides users to allocate every incoming dollar. All budget data is securely cloud-synced across devices, ensuring your financial picture is always up-to-date.",
-    "category": "Finance",
-    "whyItIsUseful": "YNAB solves the problem of feeling overwhelmed by finances and living paycheck-to-paycheck, transforming anxiety into clarity and control. For the freelancer managing variable income, YNAB helps smooth out cash flow by setting aside money for future expenses and taxes, ensuring financial stability even in lean months. For a young couple saving for a down payment, YNAB provides a clear, shared roadmap, allowing them to track progress towards their housing goal while managing daily expenses. YNAB offers a fully functional 34-day free trial, after which it's a paid subscription, but the free trial is robust enough to prove its value. While Mint offers a free way to track spending, YNAB excels with its proactive, forward-looking budgeting methodology that empowers users to make intentional spending decisions, rather than just reporting past activity. Its 'Age Your Money' rule is a powerful feature, pushing users to spend money that is 30+ days old, breaking the paycheck-to-paycheck cycle. A non-technical person can certainly set up YNAB in under 5 minutes, especially with its guided onboarding.",
-    "imageIdea": "YNAB's budget dashboard showing categories with assigned funds and 'Ready to Assign' balance",
-    "websiteLink": "https://www.ynab.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 241,
     "slug": "expensify-smart-expense-reports",
     "toolName": "Expensify",
@@ -5723,5 +5663,70 @@
     "websiteLink": "https://calibre-ebook.com/",
     "type": "tool",
     "dateAdded": "2026-05-17"
+  },
+  {
+    "id": 851,
+    "slug": "deepseek-reasonix",
+    "toolName": "DeepSeek-Reasonix",
+    "seoTitle": "DeepSeek-Reasonix — AI coding agent terminal",
+    "whatItDoes": "DeepSeek-Reasonix is a cutting-edge AI coding agent designed to operate directly within your terminal. It leverages the power of DeepSeek models, engineered for exceptional stability through prefix-cache management, allowing you to leave it running continuously. This tool excels at understanding and generating code, assisting developers in tasks like code completion, debugging suggestions, and even generating boilerplate code, significantly speeding up the development cycle. It's a free, open-source project available on GitHub, empowering individual developers and teams to integrate advanced AI into their command-line workflows.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers who live in their terminals, DeepSeek-Reasonix offers a powerful, always-on AI assistant. Its core strength lies in its ability to maintain context over long coding sessions, a common pain point with other AI tools. This persistent state allows it to offer more relevant and nuanced suggestions as you work. It's particularly useful for complex projects where understanding the broader codebase is crucial. The seamless integration into the terminal environment means no context switching, saving valuable time and mental energy. Users can expect a significant boost in coding speed and code quality, as the agent can help identify potential errors or suggest more efficient implementations. Its open-source nature also fosters community contributions and rapid evolution, making it a compelling tool for any modern development stack.",
+    "imageIdea": "terminal screen with glowing code",
+    "websiteLink": "https://github.com/esengine/DeepSeek-Reasonix",
+    "type": "tool",
+    "dateAdded": "2026-05-18"
+  },
+  {
+    "id": 852,
+    "slug": "daily-tool-trello",
+    "toolName": "Trello",
+    "seoTitle": "Trello — project management boards",
+    "whatItDoes": "Trello is a visual collaboration tool that uses a board, list, and card system to help individuals and teams organize projects and tasks. Users can create boards for different projects, set up lists to represent stages of a workflow (e.g., To Do, Doing, Done), and create cards for individual tasks. These cards can hold details like descriptions, checklists, due dates, attachments, and comments. Trello offers a generous free tier, making it accessible for personal use and small teams, with paid plans for advanced features and larger organizations. It's particularly effective for managing workflows that benefit from a clear, visual representation.",
+    "category": "Productivity",
+    "whyItIsUseful": "Trello's intuitive visual interface makes project management incredibly accessible and engaging. Its drag-and-drop functionality allows for effortless task management and workflow adjustments, making it easy to see at a glance where every project stands. This visual clarity is a significant advantage for teams trying to coordinate efforts and for individuals looking to keep track of personal goals. Integrations with numerous other popular productivity tools, like Google Drive, Slack, and Calendar, further streamline workflows. Trello is exceptionally useful for anyone who benefits from seeing their tasks laid out clearly, from managing a complex event, to tracking a content calendar, or simply organizing household chores. It transforms daunting projects into manageable steps.",
+    "imageIdea": "kanban board with colorful cards",
+    "websiteLink": "https://trello.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-18"
+  },
+  {
+    "id": 853,
+    "slug": "vlc-media-player",
+    "toolName": "VLC Media Player",
+    "seoTitle": "VLC Media Player — play any media",
+    "whatItDoes": "VLC Media Player is a free and open-source, cross-platform multimedia player that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols. Its primary advantage is its remarkable codec support, meaning it can play virtually any audio or video file format without requiring additional downloads or plugins. VLC is available for Windows, macOS, Linux, Android, and iOS, making it a universal solution for media playback across devices. It's completely free to use with no ads or user tracking.",
+    "category": "Entertainment",
+    "whyItIsUseful": "In a world saturated with countless media file formats, VLC Media Player stands out as the ultimate 'it just works' solution. Its unparalleled ability to play almost any audio or video file out-of-the-box eliminates the frustration of encountering incompatible formats. This means you can stop searching for specific codecs or converters and simply enjoy your content. For anyone who downloads videos, streams from various sources, or works with diverse media types, VLC is an essential tool that saves time and hassle. Its cross-platform availability ensures a consistent experience whether you're on your desktop, laptop, or mobile device. As a free, ad-free, and privacy-respecting application, it's a no-brainer for anyone who consumes digital media.",
+    "imageIdea": "media player interface with play button",
+    "websiteLink": "https://www.videolan.org/vlc/",
+    "type": "tool",
+    "dateAdded": "2026-05-18"
+  },
+  {
+    "id": 854,
+    "slug": "cyberduck-ftp-sftp-client",
+    "toolName": "Cyberduck",
+    "seoTitle": "Cyberduck — FTP/SFTP file transfer",
+    "whatItDoes": "Cyberduck is a free and open-source client for transferring and managing files on remote servers. It supports a wide range of protocols, including FTP, SFTP, WebDAV, Amazon S3, and more, making it a versatile tool for web developers, system administrators, and anyone who needs to interact with cloud storage or web servers. Its user-friendly interface simplifies the process of uploading, downloading, and organizing files, even for those less familiar with command-line interfaces.  It's entirely free to use.",
+    "category": "Developer",
+    "whyItIsUseful": "For anyone who regularly works with websites or cloud storage, Cyberduck is a lifesaver. It streamlines the often-tedious task of file management across different hosting services and cloud platforms. Its ability to connect to various services through a single, intuitive interface saves considerable time and frustration. Features like bookmarking frequently accessed servers, synchronizing local and remote directories, and seamless integration with external editors for direct file modification make it incredibly efficient. It’s particularly valuable for developers deploying websites, designers uploading assets, and users managing backups on services like Amazon S3. The peace of mind from having a reliable, free tool for essential file transfers is immense.",
+    "imageIdea": "ftp client server connection",
+    "websiteLink": "https://cyberduck.io/",
+    "type": "tool",
+    "dateAdded": "2026-05-18"
+  },
+  {
+    "id": 855,
+    "slug": "firefly-ai",
+    "toolName": "Adobe Firefly",
+    "seoTitle": "Adobe Firefly — Generative AI for creatives",
+    "whatItDoes": "Adobe Firefly is a family of creative generative AI models designed to be safe for commercial use. It empowers users to generate images, text effects, and other creative assets from simple text prompts, making advanced AI tools accessible to a broader audience. Firefly is integrated into Adobe Creative Cloud applications like Photoshop and Illustrator, and also available as a standalone web app. It operates on a credit-based system, with a generous free tier and subscription plans that offer more credits and features. Firefly is particularly adept at producing high-quality, commercially viable imagery that respects copyright.",
+    "category": "Design",
+    "whyItIsUseful": "Firefly democratizes sophisticated AI-powered content creation. For designers and marketers, it's an invaluable tool for rapid prototyping, generating mood boards, and creating unique visual assets that would otherwise require significant time and resources. Its integration with Photoshop, for instance, allows for seamless inpainting and outpainting, letting you expand images or remove objects with stunning realism using simple text prompts. The focus on commercial safety means creators can use its outputs with confidence, fostering a more ethical approach to AI art. It’s a powerful ally for anyone looking to push creative boundaries and accelerate their design process.",
+    "imageIdea": "ai image generation canvas",
+    "websiteLink": "https://firefly.adobe.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-18"
   }
 ]

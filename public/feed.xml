@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adobe Firefly</title>
+      <link>https://surfaced-x.pages.dev/item/firefly-ai</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/firefly-ai</guid>
+      <description>Adobe Firefly is a family of creative generative AI models designed to be safe for commercial use. It empowers users to generate images, text effects, and other creative assets from simple text prompts, making advanced AI tools accessible to a broader audience. Firefly is integrated into Adobe Creative Cloud applications like Photoshop and Illustrator, and also available as a standalone web app. It operates on a credit-based system, with a generous free tier and subscription plans that offer more credits and features. Firefly is particularly adept at producing high-quality, commercially viable imagery that respects copyright.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Cyberduck</title>
+      <link>https://surfaced-x.pages.dev/item/cyberduck-ftp-sftp-client</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cyberduck-ftp-sftp-client</guid>
+      <description>Cyberduck is a free and open-source client for transferring and managing files on remote servers. It supports a wide range of protocols, including FTP, SFTP, WebDAV, Amazon S3, and more, making it a versatile tool for web developers, system administrators, and anyone who needs to interact with cloud storage or web servers. Its user-friendly interface simplifies the process of uploading, downloading, and organizing files, even for those less familiar with command-line interfaces.  It&apos;s entirely free to use.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37605911/pexels-photo-37605911.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37605911/pexels-photo-37605911.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37605911/pexels-photo-37605911.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>VLC Media Player</title>
+      <link>https://surfaced-x.pages.dev/item/vlc-media-player</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vlc-media-player</guid>
+      <description>VLC Media Player is a free and open-source, cross-platform multimedia player that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols. Its primary advantage is its remarkable codec support, meaning it can play virtually any audio or video file format without requiring additional downloads or plugins. VLC is available for Windows, macOS, Linux, Android, and iOS, making it a universal solution for media playback across devices. It&apos;s completely free to use with no ads or user tracking.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Trello</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-trello</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-trello</guid>
+      <description>Trello is a visual collaboration tool that uses a board, list, and card system to help individuals and teams organize projects and tasks. Users can create boards for different projects, set up lists to represent stages of a workflow (e.g., To Do, Doing, Done), and create cards for individual tasks. These cards can hold details like descriptions, checklists, due dates, attachments, and comments. Trello offers a generous free tier, making it accessible for personal use and small teams, with paid plans for advanced features and larger organizations. It&apos;s particularly effective for managing workflows that benefit from a clear, visual representation.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6804077/pexels-photo-6804077.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6804077/pexels-photo-6804077.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6804077/pexels-photo-6804077.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>DeepSeek-Reasonix</title>
+      <link>https://surfaced-x.pages.dev/item/deepseek-reasonix</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepseek-reasonix</guid>
+      <description>DeepSeek-Reasonix is a cutting-edge AI coding agent designed to operate directly within your terminal. It leverages the power of DeepSeek models, engineered for exceptional stability through prefix-cache management, allowing you to leave it running continuously. This tool excels at understanding and generating code, assisting developers in tasks like code completion, debugging suggestions, and even generating boilerplate code, significantly speeding up the development cycle. It&apos;s a free, open-source project available on GitHub, empowering individual developers and teams to integrate advanced AI into their command-line workflows.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gdc826c918c279dd1a17253e25a0aab3e8542864b3845b25b40a871ee0a5b6ce7dd2fbd11d878abe6c9e3e551a550e6773dc88c2006f295ac76b61aa0ee6f85c6_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gdc826c918c279dd1a17253e25a0aab3e8542864b3845b25b40a871ee0a5b6ce7dd2fbd11d878abe6c9e3e551a550e6773dc88c2006f295ac76b61aa0ee6f85c6_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gdc826c918c279dd1a17253e25a0aab3e8542864b3845b25b40a871ee0a5b6ce7dd2fbd11d878abe6c9e3e551a550e6773dc88c2006f295ac76b61aa0ee6f85c6_1280.jpg" />
+    </item>
     <item>
       <title>Calibre</title>
       <link>https://surfaced-x.pages.dev/item/calibre-ebook-manager</link>
@@ -434,6 +489,17 @@
       <media:thumbnail url="https://images.unsplash.com/photo-1727828157772-2656934a5197?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgzMjczNjV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
+      <title>Taskade</title>
+      <link>https://surfaced-x.pages.dev/item/hidden-gem-taskade</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hidden-gem-taskade</guid>
+      <description>Taskade is a unified platform designed to streamline team collaboration and project management. It combines task lists, mind maps, notes, and chat into a single, intuitive interface, reducing the need to juggle multiple applications. This tool is ideal for remote teams, startups, and individuals looking to organize their work more effectively. For example, a marketing team could use Taskade to plan a campaign, assigning tasks, attaching relevant documents, and discussing progress within the same project space.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17713947/pexels-photo-17713947.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/17713947/pexels-photo-17713947.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/17713947/pexels-photo-17713947.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Fireflies.ai</title>
       <link>https://surfaced-x.pages.dev/item/firefliesai-meeting-assistant</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/firefliesai-meeting-assistant</guid>
@@ -443,6 +509,17 @@
       <enclosure url="https://images.pexels.com/photos/32021560/pexels-photo-32021560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/32021560/pexels-photo-32021560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/32021560/pexels-photo-32021560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Burn, baby, burn (those tokens)</title>
+      <link>https://surfaced-x.pages.dev/item/burn-baby-burn</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/burn-baby-burn</guid>
+      <description>This project, &apos;Burn, baby, burn (those tokens)&apos; by D.T. Newman, is a humorous yet practical exploration of reducing token usage in AI models. It provides insights and potentially code snippets or strategies for optimizing prompts and model interactions to achieve better results with fewer tokens. This is particularly relevant in the context of large language models (LLMs) where token count directly impacts cost and processing time.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10185581/pexels-photo-10185581.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10185581/pexels-photo-10185581.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10185581/pexels-photo-10185581.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Plurai</title>
@@ -456,6 +533,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/7681137/pexels-photo-7681137.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>GenCAD</title>
+      <link>https://surfaced-x.pages.dev/item/gencad</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/gencad</guid>
+      <description>GenCAD is an open-source framework for generative design, enabling users to create complex CAD models through programmatic means. Built by GenCAD contributors, it allows for the exploration of design spaces by defining parameters and constraints, which the system then uses to generate a multitude of potential designs. This is particularly useful for engineers and designers looking to optimize parts for performance, material usage, or manufacturing processes.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/11940942/pexels-photo-11940942.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/11940942/pexels-photo-11940942.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/11940942/pexels-photo-11940942.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Slack</title>
       <link>https://surfaced-x.pages.dev/item/slack-communication-platform</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/slack-communication-platform</guid>
@@ -465,94 +553,6 @@
       <enclosure url="https://images.unsplash.com/photo-1690192079529-9fd57e5b24d0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTA4Mjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
       <media:content url="https://images.unsplash.com/photo-1690192079529-9fd57e5b24d0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTA4Mjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.unsplash.com/photo-1690192079529-9fd57e5b24d0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgyNTA4Mjl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Google Keep</title>
-      <link>https://surfaced-x.pages.dev/item/google-keep-note-taking</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/google-keep-note-taking</guid>
-      <description>Google Keep is a free, simple, and versatile note-taking application that allows users to quickly capture ideas, create to-do lists, record voice memos, and add images. Notes are organized using color-coding and labels, and they sync automatically across all devices signed into a Google account. It&apos;s designed for rapid capture and easy retrieval of information, making it ideal for everyday reminders and spontaneous thoughts. Google Keep&apos;s strength lies in its intuitive interface and seamless integration with the Google ecosystem.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6991838/pexels-photo-6991838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6991838/pexels-photo-6991838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6991838/pexels-photo-6991838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Grammarly</title>
-      <link>https://surfaced-x.pages.dev/item/daily-tool-grammarly-writing-assistant</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-grammarly-writing-assistant</guid>
-      <description>Grammarly is an AI-powered writing assistant that helps users improve their writing by checking for grammar, spelling, punctuation, clarity, engagement, and delivery errors. It provides real-time suggestions and explanations to help users learn and become better writers. Grammarly offers a free version with essential checks and a premium subscription for advanced features like tone detection, style suggestions, and plagiarism detection. It integrates seamlessly with various platforms, including web browsers, email clients, and document editors.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6405641/pexels-photo-6405641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6405641/pexels-photo-6405641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6405641/pexels-photo-6405641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>log-viewer</title>
-      <link>https://surfaced-x.pages.dev/item/simple-command-line-log-viewer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/simple-command-line-log-viewer</guid>
-      <description>log-viewer is a minimalist, command-line tool designed for quickly and efficiently viewing log files. It provides features such as live tailing of files, colored output for syntax highlighting or severity levels, and basic filtering capabilities directly in the terminal. Unlike more complex log management systems, log-viewer focuses on providing a simple, fast, and unobtrusive way to inspect logs as they are generated or to quickly search through historical data. This is particularly useful for developers, system administrators, or anyone working with server logs who needs immediate insights without the overhead of graphical interfaces or extensive configurations.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1600695268275-1a6468700bd5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMTkyMTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1600695268275-1a6468700bd5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMTkyMTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1600695268275-1a6468700bd5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzkwMTkyMTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>design.md</title>
-      <link>https://surfaced-x.pages.dev/item/design-md</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/design-md</guid>
-      <description>DESIGN.md is a novel format specification designed to bridge the gap between visual design and code generation, particularly for AI agents. It provides a structured, persistent, and machine-readable way to define a visual identity and design system. This allows coding agents to understand and consistently apply brand guidelines, UI elements, and design principles to their output. The format aims to create a shared language for designers and AI developers, ensuring that AI-generated code accurately reflects intended visual aesthetics. It&apos;s currently an open specification with significant interest from the developer community.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/34600/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Mozilla to UK regulators: VPNs are essential privacy and security tools</title>
-      <link>https://surfaced-x.pages.dev/item/mozilla-vpn-advocacy-uk-regulators</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mozilla-vpn-advocacy-uk-regulators</guid>
-      <description>This article from Mozilla&apos;s Net Policy blog details their official submission to UK regulators regarding the importance of VPNs. Mozilla argues strongly that Virtual Private Networks are critical tools for online privacy and security and should not be undermined by regulatory measures. The submission likely outlines the benefits of VPNs for protecting user data from surveillance, censorship, and tracking, particularly in the context of modern internet usage. It serves as an important statement from a prominent privacy advocate on the role of VPNs in safeguarding digital freedoms. This piece is relevant for individuals concerned about their online privacy and policymakers involved in internet regulation.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3949101/pexels-photo-3949101.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3949101/pexels-photo-3949101.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3949101/pexels-photo-3949101.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Readwise</title>
-      <link>https://surfaced-x.pages.dev/item/readwise-read-it-later</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/readwise-read-it-later</guid>
-      <description>Readwise is a popular service that consolidates your highlights and notes from various reading platforms like Kindle, Instapaper, Pocket, and even PDFs into a single, searchable database. It then resurfaces these highlights daily via email or its own app, helping you retain what you&apos;ve learned. Readwise operates on a freemium model, offering a limited free trial before requiring a paid subscription.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/28485962/pexels-photo-28485962.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/28485962/pexels-photo-28485962.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/28485962/pexels-photo-28485962.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Watch a neural net learn to play Snake</title>
-      <link>https://surfaced-x.pages.dev/item/neural-net-snake-game-visualization</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/neural-net-snake-game-visualization</guid>
-      <description>This interactive web tool, &apos;Watch a neural net learn to play Snake,&apos; provides a fascinating visual demonstration of reinforcement learning in action. It allows users to observe a neural network progressively learn the game of Snake through trial and error. As the game progresses, users can see how the neural network&apos;s strategies evolve, from random movements to more sophisticated play, all within their web browser. The visualization typically includes elements showing the game state, the network&apos;s decision-making process (e.g., weights and biases), and performance metrics. It&apos;s a direct, engaging way to understand the fundamental principles of how AI learns complex tasks through experience.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/31123901/pexels-photo-31123901.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/31123901/pexels-photo-31123901.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/31123901/pexels-photo-31123901.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>React Developer Tools</title>
-      <link>https://surfaced-x.pages.dev/item/react-developer-tools</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/react-developer-tools</guid>
-      <description>React Developer Tools is a browser extension for Chrome and Firefox that allows you to inspect and debug React component hierarchies, props, and state. It enables developers to efficiently identify performance bottlenecks, understand component relationships, and trace the flow of data within their React applications. This tool is an essential part of the React development workflow and is completely free to use.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37085303/pexels-photo-37085303.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37085303/pexels-photo-37085303.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37085303/pexels-photo-37085303.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
