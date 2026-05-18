@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-18T15:57:31.092Z",
+  "generatedAt": "2026-05-18T20:03:05.784Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-8d10ef32cd9c5bc73958d48616a36fb26a75ac93-003-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-b5c2530ff95bf3ceb4fb9970c4116bceeed47547-001-",
       "type": "current-event",
-      "title": "Air Quality Alert issued May 18 at 11:18AM EDT by NWS Boston/Norton MA",
-      "summary": "The Rhode Island Department of Environmental Management has issued an Air Quality Action Day for Ground Level Ozone and Fine Particulates, from 11 AM to 11 PM EDT Tuesday. An Air Quality Action day means that Ground Level Ozone and Fine Particulates concentrations within the region may approach or exceed unhealthy...",
+      "title": "Severe Thunderstorm Warning issued May 18 at 2:54PM CDT until May 18 at 4:00PM CDT by NWS Omaha/Valley...",
+      "summary": "SVROAX The National Weather Service in Omaha has issued a * Severe Thunderstorm Warning for... South central Lancaster County in southeastern Nebraska... Southwestern Johnson County in southeastern Nebraska... Eastern Jefferson County in southeastern Nebraska... Northwestern Pawnee County in southeastern Nebraska......",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d10ef32cd9c5bc73958d48616a36fb26a75ac93.003.1",
-      "detectedAt": "2026-05-18T15:57:31.092Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5c2530ff95bf3ceb4fb9970c4116bceeed47547.001.1",
+      "detectedAt": "2026-05-18T20:03:05.784Z",
       "publishedAt": "2026-05-18",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,7 +26,33 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d10ef32cd9c5bc73958d48616a36fb26a75ac93.003.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b5c2530ff95bf3ceb4fb9970c4116bceeed47547.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-f761fcf763f73399a8411068cd461ec8131b6688-001-",
+      "type": "current-event",
+      "title": "Severe Thunderstorm Warning issued May 18 at 3:55PM EDT until May 18 at 4:45PM EDT by NWS Grand...",
+      "summary": "SVRGRR The National Weather Service in Grand Rapids has issued a * Severe Thunderstorm Warning for... Jackson County in south central Michigan... Eastern Ingham County in south central Michigan... * Until 445 PM EDT. * At 355 PM EDT, severe thunderstorms were located along a line extending from 5 miles northeast of...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f761fcf763f73399a8411068cd461ec8131b6688.001.1",
+      "detectedAt": "2026-05-18T20:03:05.784Z",
+      "publishedAt": "2026-05-18",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f761fcf763f73399a8411068cd461ec8131b6688.001.1",
           "role": "event-source"
         }
       ]
@@ -39,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZWILLING-JA-Henckels-Aktiengesellschaft-Recalls-Electric-Water-Kettles-Due-to-Risk-of-Serious-Injury-Due-to-Burn-Hazard",
-      "detectedAt": "2026-05-18T15:57:31.092Z",
+      "detectedAt": "2026-05-18T20:03:05.784Z",
       "publishedAt": "2026-05-14",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -58,43 +84,17 @@
       ]
     },
     {
-      "id": "candidate-cpsc-26485",
-      "type": "current-event",
-      "title": "World Bright International Limited Recalls Agio Menlo Woven Patio Swings Due to Risk of Serious Injury or Death...",
-      "summary": "Agio Menlo Woven Patio Swings: The swing seat can detach from the frame while in use, posing a risk of serious injury or death from a fall hazard.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
-      "detectedAt": "2026-05-18T15:57:31.092Z",
-      "publishedAt": "2026-05-14",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-18",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 445,075 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 445,088 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-18T15:57:31.092Z",
+      "detectedAt": "2026-05-18T20:03:05.784Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "445,075 stars",
+      "velocityLabel": "445,088 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 435,666 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 435,692 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-18T15:57:31.092Z",
+      "detectedAt": "2026-05-18T20:03:05.784Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "435,666 stars",
+      "velocityLabel": "435,692 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
