@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-19T15:51:37.419Z",
+  "generatedAt": "2026-05-19T20:05:25.738Z",
   "refreshCadence": "every 3 hours",
   "editorialThreshold": 82,
   "mode": "fail-closed",
   "items": [
     {
-      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-8d63b3e091763bbafee08a98076ac4a073a56ad6-001-",
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-eaab486db22effa80ded39583c1deeb982259ffa-001-",
       "type": "current-event",
-      "title": "Flash Flood Warning issued May 19 at 10:41AM CDT until May 19 at 1:45PM CDT by NWS Midland/Odessa...",
-      "summary": "FFWMAF The National Weather Service in Midland/Odessa has issued a * Flash Flood Warning for... Southeastern Mitchell County in western Texas... * Until 145 PM CDT. * At 1041 AM CDT, Doppler radar indicated thunderstorms producing heavy rain across the warned area. Between 1 and 2 inches of rain have fallen during...",
+      "title": "Air Quality Alert issued May 19 at 3:38PM EDT by NWS Greenville-Spartanburg SC",
+      "summary": "The Forsyth County Environmental Affairs Department in Winston Salem NC has issued a Code Orange Air Quality Action Day for Ground Level Ozone for the Davie County Triad area, from midnight tonight to midnight EDT Wednesday night. An Air Quality Action Day means that Ground Level Ozone concentrations within the...",
       "topic": "weather.severe-alert",
       "sourceName": "National Weather Service",
-      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d63b3e091763bbafee08a98076ac4a073a56ad6.001.1",
-      "detectedAt": "2026-05-19T15:51:37.419Z",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eaab486db22effa80ded39583c1deeb982259ffa.001.1",
+      "detectedAt": "2026-05-19T20:05:25.738Z",
       "publishedAt": "2026-05-19",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -26,7 +26,33 @@
         },
         {
           "name": "National Weather Service",
-          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8d63b3e091763bbafee08a98076ac4a073a56ad6.001.1",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eaab486db22effa80ded39583c1deeb982259ffa.001.1",
+          "role": "event-source"
+        }
+      ]
+    },
+    {
+      "id": "candidate-nws-urn-oid-2-49-0-1-840-0-0085d767214e80163a4eb12f6b0d7f6a3d87416a-001-",
+      "type": "current-event",
+      "title": "Air Quality Alert issued May 19 at 3:44PM EDT by NWS Raleigh NC",
+      "summary": "The Forsyth County Office of Environmental Assistance and Protection in Winston Salem NC has issued a Code Orange Air Quality Action Day for Ground Level Ozone, until midnight EDT Wednesday night. An Air Quality Action Day means that Ground Level Ozone concentrations within the region may approach or exceed unhealthy...",
+      "topic": "weather.severe-alert",
+      "sourceName": "National Weather Service",
+      "sourceUrl": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0085d767214e80163a4eb12f6b0d7f6a3d87416a.001.1",
+      "detectedAt": "2026-05-19T20:05:25.738Z",
+      "publishedAt": "2026-05-19",
+      "score": 100,
+      "velocityLabel": "100/100 review score",
+      "ctaLabel": "Review candidate",
+      "sourceTrail": [
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/active?status=actual&message_type=alert",
+          "role": "event-source"
+        },
+        {
+          "name": "National Weather Service",
+          "url": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0085d767214e80163a4eb12f6b0d7f6a3d87416a.001.1",
           "role": "event-source"
         }
       ]
@@ -39,7 +65,7 @@
       "topic": "consumer-safety.recall",
       "sourceName": "CPSC Recalls API",
       "sourceUrl": "https://www.cpsc.gov/Recalls/2026/ZWILLING-JA-Henckels-Aktiengesellschaft-Recalls-Electric-Water-Kettles-Due-to-Risk-of-Serious-Injury-Due-to-Burn-Hazard",
-      "detectedAt": "2026-05-19T15:51:37.419Z",
+      "detectedAt": "2026-05-19T20:05:25.738Z",
       "publishedAt": "2026-05-14",
       "score": 100,
       "velocityLabel": "100/100 review score",
@@ -58,43 +84,17 @@
       ]
     },
     {
-      "id": "candidate-cpsc-26485",
-      "type": "current-event",
-      "title": "World Bright International Limited Recalls Agio Menlo Woven Patio Swings Due to Risk of Serious Injury or Death...",
-      "summary": "Agio Menlo Woven Patio Swings: The swing seat can detach from the frame while in use, posing a risk of serious injury or death from a fall hazard.",
-      "topic": "consumer-safety.recall",
-      "sourceName": "CPSC Recalls API",
-      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
-      "detectedAt": "2026-05-19T15:51:37.419Z",
-      "publishedAt": "2026-05-14",
-      "score": 100,
-      "velocityLabel": "100/100 review score",
-      "ctaLabel": "Review candidate",
-      "sourceTrail": [
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-04-19",
-          "role": "event-source"
-        },
-        {
-          "name": "CPSC Recalls API",
-          "url": "https://www.cpsc.gov/Recalls/2026/World-Bright-International-Limited-Recalls-Agio-Menlo-Woven-Patio-Swings-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Sold-at-Costco",
-          "role": "event-source"
-        }
-      ]
-    },
-    {
       "id": "github-freecodecamp-freecodecamp",
       "type": "github-trending",
       "title": "freeCodeCamp/freeCodeCamp is trending on GitHub",
-      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 445,145 stars and recent pushes visible through the GitHub API.",
+      "summary": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free. The repository is active this week, with 445,154 stars and recent pushes visible through the GitHub API.",
       "topic": "github.typescript",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/freeCodeCamp/freeCodeCamp",
-      "detectedAt": "2026-05-19T15:51:37.419Z",
+      "detectedAt": "2026-05-19T20:05:25.738Z",
       "publishedAt": "2014-12-24",
       "score": 100,
-      "velocityLabel": "445,145 stars",
+      "velocityLabel": "445,154 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "sourceTrail": [
@@ -114,14 +114,14 @@
       "id": "github-public-apis-public-apis",
       "type": "github-trending",
       "title": "public-apis/public-apis is trending on GitHub",
-      "summary": "A collective list of free APIs The repository is active this week, with 435,860 stars and recent pushes visible through the GitHub API.",
+      "summary": "A collective list of free APIs The repository is active this week, with 435,893 stars and recent pushes visible through the GitHub API.",
       "topic": "github.python",
       "sourceName": "GitHub API",
       "sourceUrl": "https://github.com/public-apis/public-apis",
-      "detectedAt": "2026-05-19T15:51:37.419Z",
+      "detectedAt": "2026-05-19T20:05:25.738Z",
       "publishedAt": "2016-03-20",
       "score": 100,
-      "velocityLabel": "435,860 stars",
+      "velocityLabel": "435,893 stars",
       "ctaLabel": "Open repository",
       "url": "https://github.com/public-apis/public-apis",
       "sourceTrail": [
