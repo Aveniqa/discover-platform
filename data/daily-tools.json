@@ -1,63 +1,5 @@
 [
   {
-    "id": 241,
-    "slug": "expensify-smart-expense-reports",
-    "toolName": "Expensify",
-    "whatItDoes": "Expensify, developed by David Barrett, is a cloud-based expense management platform designed to automate the entire expense report process for businesses of all sizes, from freelancers to large enterprises. It aims to eliminate manual data entry and streamline reconciliation by intelligently capturing receipts and categorizing transactions. The primary workflow involves taking photos of receipts with a mobile device or forwarding e-receipts, which SmartScan technology then automatically transcribes into expense entries, ready for review and approval. Expensify is accessible via web, iOS, and Android apps, and offers integrations with accounting software. Its most used feature is SmartScan, which accurately digitizes receipt data and eliminates manual entry. All expense data, receipts, and reports are securely stored and synced in the cloud, ensuring accessibility and compliance.",
-    "category": "Finance",
-    "whyItIsUseful": "Expensify completely removes the tedious and error-prone process of manually creating expense reports and attaching physical receipts, saving countless hours for employees and accounting departments. For the sales professional on the go, it means simply snapping a photo of a meal receipt, knowing it will be automatically added to their expense report without further effort. For the small business owner managing contractor invoices, Expensify centralizes all spending, making tax season and client billing significantly easier. Expensify offers a free plan for individual users to manage up to 25 SmartScans per month, which is genuinely useful for freelancers, with paid tiers for teams unlocking unlimited scans and advanced features. It surpasses generic accounting software expense modules by focusing exclusively on expense management, offering superior receipt capture and policy enforcement. The \"Corporate Card Reconciliation\" power feature automatically matches company card transactions to submitted receipts, drastically simplifying month-end closing. A non-technical person can easily download the app and start scanning receipts in under 5 minutes.",
-    "imageIdea": "Mobile app showing a receipt being scanned with SmartScan overlay.",
-    "websiteLink": "https://www.expensify.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 172,
-    "slug": "empower-personal-dashboard",
-    "toolName": "Empower Personal Dashboard (formerly Personal Capital)",
-    "whatItDoes": "Empower Personal Dashboard, previously known as Personal Capital, developed by Empower, is a comprehensive financial tracking tool that provides a holistic view of your financial life. It aggregates all your financial accounts—banking, investments, credit cards, mortgages—into a single dashboard, offering insights into net worth, cash flow, and investment performance. Users connect their various financial institutions, and the platform automatically updates account balances and transaction data. It is available on web, iOS, and Android platforms. The most used feature is the Net Worth tracker, which dynamically updates as your assets and liabilities change. All financial data is aggregated and stored securely in the cloud, with read-only access to connected accounts.",
-    "category": "Finance",
-    "whyItIsUseful": "Empower Personal Dashboard eliminates the fragmentation of financial information, allowing users to see their entire financial picture without logging into multiple accounts. For the individual tracking retirement savings across different brokerage accounts, it provides a unified view of their entire portfolio, including asset allocation and performance against benchmarks. For a family managing diverse investments, savings, and debts, it offers a single source of truth for their net worth, helping them make informed long-term financial decisions. The core dashboard and tracking features are completely free, making it incredibly useful for anyone seeking a comprehensive financial overview. While many banks offer their own dashboards, Empower aggregates data from virtually any institution, providing a truly consolidated view and sophisticated investment analysis that individual banks lack. Its fee analyzer, which identifies hidden investment fees, is a powerful feature that can save users significant money over time. Setting up the dashboard, while requiring connecting multiple accounts, is straightforward and generally takes under 10-15 minutes for a non-technical person.",
-    "imageIdea": "Empower Personal Dashboard showing a detailed net worth graph and investment portfolio breakdown",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://empower.com"
-  },
-  {
-    "id": 247,
-    "slug": "undebt-it-debt-payoff-planner-2",
-    "toolName": "Undebt.it",
-    "whatItDoes": "Undebt.it, created by Karl Stjernstrom, is a free, web-based debt payoff planner designed to help individuals visualize and accelerate their journey out of debt using various popular strategies. It provides powerful tools to manage multiple debts, calculate optimal payment plans, and project debt-free dates. The primary workflow involves inputting details for each debt (balance, interest rate, minimum payment), after which Undebt.it generates detailed amortization schedules and compares different payoff methods like snowball, avalanche, or custom approaches. Undebt.it is primarily a web application accessible via any browser, offering a focused and desktop-friendly interface for complex debt scenarios. Its most used feature is the \"Payoff Calculator,\" which instantly shows the impact of extra payments on interest saved and debt-free dates. All user data, including debt details, is stored locally in the browser's storage by default, with an optional cloud sync feature for registered users, ensuring privacy and control.",
-    "category": "Finance",
-    "whyItIsUseful": "Undebt.it eliminates the overwhelming feeling of managing multiple debts by providing a clear, actionable roadmap to becoming debt-free, turning a daunting task into a manageable project. For the recent graduate burdened with student loans and credit card debt, Undebt.it helps them choose the most effective payoff strategy (e.g., avalanche for maximum interest savings) and visualize their progress. For the financially savvy individual consolidating various debts, it allows for \"what-if\" scenarios, instantly showing how different payment allocations impact their debt-free timeline. Undebt.it's core functionality is completely free, providing immense value without any hidden costs or paywalls, making it genuinely accessible to everyone. It excels over generic spreadsheet templates by offering dynamic calculations, strategy comparisons, and a visual progress tracker specifically tailored for debt management. The \"Debt Snowball/Avalanche Visualizer\" power feature graphically illustrates the difference in interest paid and time saved between strategies. A non-technical person can input their debts and see their first payoff plan in under 5 minutes.",
-    "imageIdea": "Web interface showing a debt payoff plan with multiple debts listed, a progress graph, and projected debt-free date.",
-    "websiteLink": "https://undebt.it/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 174,
-    "slug": "bobby-subscription-tracker",
-    "toolName": "Bobby – Track subscriptions",
-    "whatItDoes": "Bobby – Track subscriptions, developed by the independent developer Yummygum, is a minimalist mobile app designed to help users keep track of all their recurring subscriptions and bills. It provides a clear overview of monthly and yearly expenses from services like Netflix, Spotify, gym memberships, and more. Users manually add each subscription with its cost, billing cycle, and renewal date to create a comprehensive list. Bobby is exclusively available on iOS and Android devices. The most used feature is its intuitive dashboard that summarizes total monthly and yearly subscription costs. All data is stored locally on the user's device, with an option to back up to iCloud or Google Drive.",
-    "category": "Finance",
-    "whyItIsUseful": "Bobby eliminates the common problem of forgetting about recurring subscriptions, preventing unexpected charges and helping users identify services they no longer need. For a student juggling multiple streaming services and academic tools, Bobby offers a clear snapshot of their total monthly outflow, helping them prioritize and cut unnecessary expenses. For a busy professional, it acts as a silent auditor, ensuring they don't overpay for services they've forgotten about or are no longer using. Bobby offers a free tier that allows tracking a limited number of subscriptions (typically 4-5), which is genuinely useful for casual users, with an in-app purchase unlocking unlimited tracking. Unlike a simple spreadsheet, Bobby's design is purpose-built for subscriptions, offering custom icons, renewal notifications, and a clean interface. Its detailed breakdown of spending by category (e.g., entertainment, utilities) is a powerful feature for understanding where recurring money goes. A non-technical person can easily add their subscriptions and get an overview in well under 5 minutes.",
-    "imageIdea": "Bobby app interface displaying a list of subscriptions with their costs and next billing dates",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 175,
-    "slug": "zeta-joint-cards-for-couples",
-    "toolName": "Zeta Joint Cards",
-    "whatItDoes": "Zeta Joint Cards is a banking platform designed specifically for couples to manage their shared finances, developed by Zeta. It provides FDIC-insured joint bank accounts, debit cards, and budgeting tools all in one place, aiming to simplify money management for partners. The primary workflow involves setting up shared accounts, linking existing individual accounts, and then using Zeta's tools to budget, track spending, and pay bills collaboratively. Zeta Joint Cards is available on web, iOS, and Android. The most used feature is the ability to easily categorize joint spending and receive real-time notifications on transactions. All financial data is securely stored and synced in the cloud, with bank-level security protocols.",
-    "category": "Finance",
-    "whyItIsUseful": "Zeta Joint Cards eliminates the common financial friction points for couples by providing transparency and collaboration in money management. For a newly cohabiting couple, it offers a seamless way to manage shared household expenses like rent and groceries without cumbersome transfers or awkward conversations. For a married couple saving for a major goal like a house or a child's education, Zeta allows them to pool resources, track joint progress, and maintain individual financial autonomy simultaneously. Zeta offers its core joint banking features and budgeting tools completely free, making it a genuinely useful solution without a paywall. Unlike generic joint bank accounts from traditional banks, Zeta is purpose-built with features like shared financial goals, bill pay reminders, and spending insights tailored for couples. Its 'Pots' feature, allowing couples to create virtual envelopes for specific savings goals, is a powerful way to organize shared funds. Setting up Zeta Joint Cards and linking accounts is a straightforward process that a non-technical couple can complete together in under 15 minutes.",
-    "imageIdea": "Zeta Joint Cards app interface showing a shared budget, transaction history, and joint account balances",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 539,
     "slug": "zoho-books-small-business-accounting-software",
     "toolName": "Zoho Books",
@@ -5728,5 +5670,70 @@
     "websiteLink": "https://firefly.adobe.com/",
     "type": "tool",
     "dateAdded": "2026-05-18"
+  },
+  {
+    "id": 856,
+    "slug": "terax-ai",
+    "toolName": "terax-ai",
+    "seoTitle": "terax-ai — AI terminal emulator for devs",
+    "whatItDoes": "Terax-AI is a lightweight, open-source AI terminal emulator designed for developers. Built with Rust, Tauri, and React, it aims to streamline command-line workflows by integrating AI assistance directly into your terminal environment. It offers features like intelligent command completion, natural language command generation, and contextual help, all within a clean and responsive user interface. Terax-AI is currently free and open-source, making it an accessible tool for anyone looking to enhance their terminal productivity.",
+    "category": "Developer",
+    "whyItIsUseful": "Terax-AI provides a significant productivity boost for developers and power users who spend a lot of time in the command line. Its AI capabilities can help users discover and execute complex commands more efficiently, reducing the cognitive load and learning curve associated with unfamiliar tools or syntax. The intelligent auto-completion feature goes beyond simple string matching, offering context-aware suggestions that anticipate user needs. For those who frequently work across different projects or operating systems, Terax-AI's ability to translate natural language queries into executable commands can save valuable time and reduce errors. The tool's small footprint (7MB) also ensures it won't bog down system resources, making it an ideal companion for both local development and remote server management. Enthusiasts of command-line interfaces, particularly those using advanced shell features or scripting, will find Terax-AI an invaluable addition to their toolkit.",
+    "imageIdea": "developer coding in a minimalist terminal interface",
+    "websiteLink": "https://github.com/crynta/terax-ai",
+    "type": "tool",
+    "dateAdded": "2026-05-19"
+  },
+  {
+    "id": 857,
+    "slug": "framer-design-tool",
+    "toolName": "Framer",
+    "seoTitle": "Framer — Design and prototype websites",
+    "whatItDoes": "Framer is an all-in-one design tool that allows you to create interactive prototypes and even publish live websites directly from your browser. It bridges the gap between design and development, enabling designers to build complex interactions without needing to write code. Framer uses a freemium model, with a generous free plan for individuals and small projects, and paid tiers for teams and advanced functionalities. It's particularly powerful for creating high-fidelity prototypes that precisely mimic real-world app or website behavior, making user testing incredibly accurate.",
+    "category": "Design",
+    "whyItIsUseful": "Framer empowers designers to go from concept to clickable prototype to a live, production-ready website with unprecedented speed and control. Its component-based system and powerful animation tools allow for sophisticated interactions that were once only achievable by developers. The integration of design and prototyping means there's no need to constantly switch between different tools, streamlining the entire design workflow. Many designers use Framer to not only create realistic prototypes but also to build and host their own portfolios and marketing sites. It's an indispensable tool for product designers, UI/UX professionals, and anyone who needs to quickly visualize and launch interactive digital experiences.",
+    "imageIdea": "website wireframe interactive prototype",
+    "websiteLink": "https://www.framer.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-19"
+  },
+  {
+    "id": 858,
+    "slug": "obsidian-vault-sync",
+    "toolName": "Syncthing",
+    "seoTitle": "Syncthing — Open, secure, decentralized sync",
+    "whatItDoes": "Syncthing is a free and open-source continuous file synchronization program. It synchronizes files between two or more computers in real time, safely and privately. Unlike cloud-based services, Syncthing is decentralized; there is no central server, and you control your data at all times. It's ideal for synchronizing large volumes of files, including entire project folders or digital asset libraries, across multiple devices without relying on third-party cloud storage. The tool is highly configurable and excellent for ensuring that your important data is consistently backed up and accessible across your personal devices.",
+    "category": "Productivity",
+    "whyItIsUseful": "Syncthing offers a robust and secure alternative to traditional cloud synchronization services, putting users firmly in control of their data. Its decentralized architecture means your files are never uploaded to a third-party server, enhancing privacy and security, especially for sensitive information. The tool excels at keeping large folders or entire directories synchronized across multiple computers, whether they are in the same local network or spread across the globe. Users appreciate its reliability, its ability to resume interrupted transfers, and its fine-grained control over sync settings. For individuals and teams who need to manage distributed file systems, ensure consistent access to project assets, or simply want a more private way to keep their devices in sync, Syncthing is an invaluable and indispensable tool.",
+    "imageIdea": "network of connected computers files syncing",
+    "websiteLink": "https://syncthing.net/",
+    "type": "tool",
+    "dateAdded": "2026-05-19"
+  },
+  {
+    "id": 859,
+    "slug": "revolt-chat",
+    "toolName": "Revolt",
+    "seoTitle": "Revolt — Open-source chat platform",
+    "whatItDoes": "Revolt is a free and open-source chat platform that prioritizes user privacy and control, offering an alternative to mainstream messaging services. It allows users to create servers, join communities, and communicate through text and voice channels, much like other popular platforms. Revolt's core value lies in its decentralized architecture and commitment to data ownership, ensuring your conversations remain yours. It's entirely free to use, with development funded by donations and community contributions.",
+    "category": "Social",
+    "whyItIsUseful": "In an era where data privacy is increasingly a concern, Revolt offers a refreshing and empowering approach to online communication. As an open-source project, it's transparent in its operations and actively community-driven, meaning users can trust that their data is not being exploited for advertising. Its feature set is robust, supporting servers, channels, direct messages, and voice calls, making it a viable replacement for many proprietary chat applications. The ability to self-host or join community-hosted instances provides an unparalleled level of control. It’s perfect for communities, groups of friends, or individuals who want a secure, customizable, and ad-free communication experience without compromising on functionality.",
+    "imageIdea": "speech bubbles connected network dark background",
+    "websiteLink": "https://revolt.chat/",
+    "type": "tool",
+    "dateAdded": "2026-05-19"
+  },
+  {
+    "id": 860,
+    "slug": "clipdrop-by-stability-ai",
+    "toolName": "Clipdrop",
+    "seoTitle": "Clipdrop — AI Image Editing Tools",
+    "whatItDoes": "Clipdrop is a suite of AI-powered tools designed to enhance and manipulate images with remarkable ease. It offers features like background removal, object removal, upscaling, relighting, and even generating images from text prompts. These tools leverage advanced artificial intelligence to perform complex editing tasks in seconds, making professional-level image manipulation accessible to everyone. Clipdrop offers a freemium model, with a limited number of free uses for each tool and subscription tiers for unlimited access and higher resolutions. It's exceptionally good at quickly achieving polished visual results without technical expertise.",
+    "category": "Design",
+    "whyItIsUseful": "Clipdrop democratizes image editing and creation, putting powerful AI tools at your fingertips. Whether you're a small business owner needing product photos with clean backgrounds, a content creator looking to enhance visuals, or simply someone who wants to quickly edit personal photos, Clipdrop streamlines the process. Its background removal is exceptionally precise, and the object removal feature can salvage otherwise imperfect shots. The ability to upscale images without significant quality loss is invaluable for repurposing older or lower-resolution assets. For those exploring creative ideas, the text-to-image generation opens up new avenues for visual expression. It dramatically reduces the time and cost associated with traditional graphic design software and services, empowering individuals and small teams to produce professional-looking visuals efficiently.",
+    "imageIdea": "laptop screen showing photo editing software",
+    "websiteLink": "https://clipdrop.co/",
+    "type": "tool",
+    "dateAdded": "2026-05-19"
   }
 ]
