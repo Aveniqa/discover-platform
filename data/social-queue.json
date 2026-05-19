@@ -1,99 +1,6 @@
 {
   "posts": [
     {
-      "id": "scrimba",
-      "title": "Scrimba",
-      "category": "hidden-gems",
-      "imageUrl": "https://images.pexels.com/photos/8217425/pexels-photo-8217425.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "imageAltText": "Image related to: Scrimba",
-      "productUrl": "https://surfaced-x.pages.dev/item/scrimba?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
-      "affiliateUrl": "https://surfaced-x.pages.dev/item/scrimba?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
-      "sourceLink": "",
-      "platforms": {
-        "pinterest": {
-          "title": "Scrimba",
-          "description": " https://surfaced-x.pages.dev/item/scrimba?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
-          "boardName": "Hidden Gems"
-        },
-        "bluesky": {
-          "text": "Scrimba — An interactive coding education platform where you can pause video tutorials and edit the code directly inside the screencast. It covers front-end development, React, and other web technologies.\n\n#hiddenGem #apps"
-        },
-        "twitter": {
-          "text": "undefined —  https://surfaced-x.pages.dev/item/scrimba?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
-        }
-      },
-      "status": "published",
-      "generatedAt": "2026-04-14T16:43:29.968Z",
-      "publishedAt": "2026-04-14T16:44:14.301Z",
-      "publishResults": {
-        "bluesky": true,
-        "pinterest": false,
-        "twitter": false
-      }
-    },
-    {
-      "id": "there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth",
-      "title": "There Are More Stars in the Universe Than Grains of Sand on Earth",
-      "category": "discoveries",
-      "imageUrl": "https://images.pexels.com/photos/14661399/pexels-photo-14661399.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "imageAltText": "Image related to: There Are More Stars in the Universe Than Grains of Sand on Earth",
-      "productUrl": "https://surfaced-x.pages.dev/item/there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post",
-      "affiliateUrl": "https://surfaced-x.pages.dev/item/there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post",
-      "sourceLink": "https://www.esa.int",
-      "platforms": {
-        "pinterest": {
-          "title": "There Are More Stars in the Universe Than Grains of Sand on Earth",
-          "description": "Astronomers estimate there are roughly 200 sextillion stars in the observable universe (2 x 10^23). Earth has approximately 7.5 x 10^18 grains of sand, making stars outnumber sand grains by a factor of about 26,000. https://surfaced-x.pages.dev/item/there-are-more-stars-in-the-universe-than-grains-of-sand-on-earth?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post #surfaced #discoveries",
-          "boardName": "New Discoveries"
-        },
-        "bluesky": {
-          "text": "There Are More Stars in the Universe Than Grains of Sand on Earth — Astronomers estimate there are roughly 200 sextillion stars in the observable universe (2 x 10^23). Earth has approximately 7.5 x 10^18 grains of sand, making stars outnumber sand grains by a factor o\n\n#science #discovery"
-        },
-        "twitter": {
-          "text": "There Are More Stars in the Universe Than Grains of Sand on Earth — Astronomers estimate there are roughly 200 sextillion stars in the observable universe (2 x 10^23). Earth has approximately 7.5 x 10^18 grains of sand https://surfaced-x.pages.dev/item/there-are-more-stars-in-the"
-        }
-      },
-      "status": "published",
-      "generatedAt": "2026-04-14T16:43:32.200Z",
-      "publishedAt": "2026-04-14T16:44:55.169Z",
-      "publishResults": {
-        "bluesky": true,
-        "pinterest": false,
-        "twitter": false
-      }
-    },
-    {
-      "id": "lemmy",
-      "title": "Lemmy",
-      "category": "hidden-gems",
-      "imageUrl": "https://images.pexels.com/photos/30018095/pexels-photo-30018095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-      "imageAltText": "Image related to: Lemmy",
-      "productUrl": "https://surfaced-x.pages.dev/item/lemmy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
-      "affiliateUrl": "https://surfaced-x.pages.dev/item/lemmy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
-      "sourceLink": "",
-      "platforms": {
-        "pinterest": {
-          "title": "Lemmy",
-          "description": " https://surfaced-x.pages.dev/item/lemmy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
-          "boardName": "Hidden Gems"
-        },
-        "bluesky": {
-          "text": "Lemmy — A federated, open-source link aggregator and discussion platform similar to Reddit. It uses ActivityPub, meaning independent servers can communicate with each other and the broader fediverse.\n\n#hiddenGem #apps"
-        },
-        "twitter": {
-          "text": "undefined —  https://surfaced-x.pages.dev/item/lemmy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
-        }
-      },
-      "status": "published",
-      "generatedAt": "2026-04-15T16:14:23.846Z",
-      "publishedAt": "2026-04-15T16:14:30.680Z",
-      "publishResults": {
-        "bluesky": true,
-        "pinterest": false,
-        "twitter": false
-      }
-    },
-    {
       "id": "full-body-haptic-immersion-suits",
       "title": "full-body-haptic-immersion-suits",
       "category": "future-radar",
@@ -2789,7 +2696,100 @@
         "pinterest": false,
         "twitter": false
       }
+    },
+    {
+      "id": "ancient-trees-genetic-diversity-climate-resilience",
+      "title": "Ancient Trees Possess Greater Genetic Diversity for Climate Resilience",
+      "category": "discoveries",
+      "imageUrl": "https://images.pexels.com/photos/33244470/pexels-photo-33244470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Ancient Trees Possess Greater Genetic Diversity for Climate Resilience",
+      "productUrl": "https://surfaced-x.pages.dev/item/ancient-trees-genetic-diversity-climate-resilience?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/ancient-trees-genetic-diversity-climate-resilience?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Ancient Trees Possess Greater Genetic Diversity for Climate Resilience",
+          "description": "Researchers at the University of Birmingham have discovered that ancient oak trees exhibit significantly greater genetic diversity, enabling enhanced resilience to climate change. Their analysis of over 1,000 oak trees across Europe revealed that old-growth individuals possess up to 30% more unique genetic markers associated with stress tolerance compared to younger trees. This was determined by s https://surfaced-x.pages.dev/item/ancient-trees-genetic-diversity-climate-resilience?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post #surfaced #discoveries",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "Ancient Trees Possess Greater Genetic Diversity for Climate Resilience — Researchers at the University of Birmingham have discovered that ancient oak trees exhibit significantly greater genetic diversity, enabling enhanced resilience to climate change. Their analysis of ov\n\n#science #disco"
+        },
+        "twitter": {
+          "text": "Ancient Trees Possess Greater Genetic Diversity for Climate Resilience — Researchers at the University of Birmingham have discovered that ancient oak trees exhibit significantly greater genetic diversity, enabling enhanced  https://surfaced-x.pages.dev/item/ancient-trees-genetic-"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-19T16:02:57.925Z",
+      "publishedAt": "2026-05-19T16:02:59.550Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
+    },
+    {
+      "id": "soundtrap-online-collaborative-music-studio",
+      "title": "Soundtrap",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/205317/pexels-photo-205317.png?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Soundtrap",
+      "productUrl": "https://surfaced-x.pages.dev/item/soundtrap-online-collaborative-music-studio?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/soundtrap-online-collaborative-music-studio?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Soundtrap",
+          "description": " https://surfaced-x.pages.dev/item/soundtrap-online-collaborative-music-studio?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Soundtrap — Soundtrap is an online collaborative music and podcast studio, acquired by Spotify. It provides a complete digital audio workstation (DAW) experience directly in a web browser. Its core features inclu\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/soundtrap-online-collaborative-music-studio?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-19T16:02:57.925Z",
+      "publishedAt": "2026-05-19T16:03:35.975Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
+    },
+    {
+      "id": "ancient-arctic-plants-resurrected-from-permafrost",
+      "title": "Ancient Arctic Plants Resurrected From Permafrost Bloom",
+      "category": "discoveries",
+      "imageUrl": "https://images.pexels.com/photos/19073638/pexels-photo-19073638.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Ancient Arctic Plants Resurrected From Permafrost Bloom",
+      "productUrl": "https://surfaced-x.pages.dev/item/ancient-arctic-plants-resurrected-from-permafrost?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/ancient-arctic-plants-resurrected-from-permafrost?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post",
+      "sourceLink": "https://www.cell.com/current-biology/fulltext/S0960-9822(15)00013-9",
+      "platforms": {
+        "pinterest": {
+          "title": "Ancient Arctic Plants Resurrected From Permafrost Bloom",
+          "description": "Researchers have successfully revived ancient plants, some estimated to be over 30,000 years old, from permafrost in Siberia. These plants, specifically the Silene stenophylla (narrow-leafed campion), were found frozen deep within the ice. After thawing and careful cultivation, they grew and produced viable seeds, demonstrating an extraordinary resilience and capacity for regeneration. https://surfaced-x.pages.dev/item/ancient-arctic-plants-resurrected-from-permafrost?utm_source=social&utm_medium=discoveries&utm_campaign=daily_post #surfaced #discoveries",
+          "boardName": "New Discoveries"
+        },
+        "bluesky": {
+          "text": "Ancient Arctic Plants Resurrected From Permafrost Bloom — Researchers have successfully revived ancient plants, some estimated to be over 30,000 years old, from permafrost in Siberia. These plants, specifically the Silene stenophylla (narrow-leafed campion),\n\n#science #discovery"
+        },
+        "twitter": {
+          "text": "Ancient Arctic Plants Resurrected From Permafrost Bloom — Researchers have successfully revived ancient plants, some estimated to be over 30,000 years old, from permafrost in Siberia. These plants, specifical https://surfaced-x.pages.dev/item/ancient-arctic-plants-resurrected-fro"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-05-19T16:02:57.925Z",
+      "publishedAt": "2026-05-19T16:04:57.576Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-05-18T16:00:42.710Z"
+  "lastGenerated": "2026-05-19T16:02:57.926Z"
 }
