@@ -49,6 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/future-radar`, changeFrequency: "daily" as const, priority: 0.9 },
     { url: `${SITE_URL}/tools`, changeFrequency: "daily" as const, priority: 0.9 },
     { url: `${SITE_URL}/workflows`, changeFrequency: "weekly" as const, priority: 0.85 },
+    { url: `${SITE_URL}/roulette`, changeFrequency: "weekly" as const, priority: 0.8 },
     { url: `${SITE_URL}/collections`, changeFrequency: "weekly" as const, priority: 0.8 },
     { url: `${SITE_URL}/categories`, changeFrequency: "weekly" as const, priority: 0.8 },
     { url: `${SITE_URL}/editorial-standards`, changeFrequency: "monthly" as const, priority: 0.7 },
