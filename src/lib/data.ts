@@ -171,8 +171,25 @@ export function getAllItems(): AnyItem[] {
   return [...discoveries, ...products, ...hiddenGems, ...futureRadar, ...dailyTools, ...archive];
 }
 
+/**
+ * Returns only the items in the live niche (hidden-gems + daily-tools, not
+ * archived). Use this for surfaces that should not surface archived content —
+ * homepage carousels, search results, listing pages, cross-category
+ * recommendations. Archived items keep their /item/<slug> URLs alive for SEO
+ * via getAllItems(), but they shouldn't be promoted in ranked discovery flows.
+ */
+export function getLiveItems(): AnyItem[] {
+  return [...hiddenGems, ...dailyTools];
+}
+
 export function getItemBySlug(slug: string): AnyItem | undefined {
   return getAllItems().find((item) => item.slug === slug);
+}
+
+export function isLiveItem(slug: string): boolean {
+  return (
+    hiddenGems.some((i) => i.slug === slug) || dailyTools.some((i) => i.slug === slug)
+  );
 }
 
 export function getItemTitle(item: AnyItem): string {
@@ -182,21 +199,30 @@ export function getItemTitle(item: AnyItem): string {
     item.type === "tool" ? (item as DailyTool).toolName :
     (item as Discovery | Product).title;
 
+  // Helper: detects strings shaped like a slug ("nature-skills",
+  // "guizang-ppt-skill") so we don't render them in a UI surface.
+  const isSlugShaped = (s: string | null | undefined): boolean =>
+    !!s && /^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(s.trim());
+
+  const titleCase = (s: string): string =>
+    s
+      .split("-")
+      .map((part) => (part.length <= 3 ? part.toUpperCase() : part.charAt(0).toUpperCase() + part.slice(1)))
+      .join(" ");
+
   // Some catalog items were generated with the slug duplicated into the
   // title field (e.g. toolName: "guizang-ppt-skill"). When that happens,
-  // prefer the seoTitle if it exists and is actually human-readable.
-  const looksLikeSlug = !!raw && /^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(raw.trim());
-  if (looksLikeSlug) {
+  // prefer the seoTitle's first segment if it is human-readable; otherwise
+  // title-case the slug.
+  if (isSlugShaped(raw)) {
     const seo = (item as { seoTitle?: string }).seoTitle;
     if (seo && seo.length > 0) {
-      // Drop trailing " — descriptor" so the H1 stays compact
-      return seo.split(/\s+[—–-]\s+/)[0] || seo;
+      const firstSegment = seo.split(/\s+[—–-]\s+/)[0] || seo;
+      // If the first segment is still slug-shaped (e.g. "nature-skills — Python"),
+      // title-case it so the H1 reads like a real product name.
+      return isSlugShaped(firstSegment) ? titleCase(firstSegment) : firstSegment;
     }
-    // Last-resort: title-case the slug
-    return raw
-      .split("-")
-      .map((s) => s.charAt(0).toUpperCase() + s.slice(1))
-      .join(" ");
+    return titleCase(raw);
   }
   return raw;
 }
@@ -327,13 +353,25 @@ export function getCategoryPath(itemType: string): string {
 }
 
 export function getRelatedItems(item: AnyItem, count = 4): AnyItem[] {
+  // Recommendations always draw from the live niche so an archived item-page
+  // sends readers forward to current content, and a live item-page never
+  // pulls readers into archive. Live pool may be smaller, but a focused
+  // experience beats a deep pool full of stale content.
+  const pool = getLiveItems();
   const cat = getItemCategory(item);
-  const allSameType = getAllItems().filter(
+
+  // Prefer same-type + same-category
+  const sameTypeCat = pool.filter(
     (i) => i.type === item.type && i.slug !== item.slug && getItemCategory(i) === cat
   );
-  if (allSameType.length >= count) return allSameType.slice(0, count);
-  const allType = getAllItems().filter((i) => i.type === item.type && i.slug !== item.slug);
-  return allType.slice(0, count);
+  if (sameTypeCat.length >= count) return sameTypeCat.slice(0, count);
+
+  // Fall back to same-type, any category
+  const sameType = pool.filter((i) => i.type === item.type && i.slug !== item.slug);
+  if (sameType.length >= count) return sameType.slice(0, count);
+
+  // Final fallback: any live item that isn't this one
+  return pool.filter((i) => i.slug !== item.slug).slice(0, count);
 }
 
 /* ---- Category Normalization ----

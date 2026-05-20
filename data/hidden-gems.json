@@ -377,17 +377,6 @@
     "websiteLink": "https://sereneapp.com"
   },
   {
-    "id": 208,
-    "slug": "flow-state-focused-writing-app-deletes-work",
-    "name": "Flowstate",
-    "whatItDoes": "Flowstate is a minimalist Mac writing application developed by Jonathan Harris, designed to enforce sustained focus by deleting your work if you stop typing for more than five seconds. Its core feature is a 'self-destruct' mechanism that encourages continuous writing without self-editing or distractions. It's built for writers, students, and anyone who struggles with writer's block, perfectionism, or getting started with drafting. Users open Flowstate when they need to bypass their inner critic and produce a raw, unedited stream of consciousness, often for initial brainstorming or drafting. It is exclusively available for macOS.",
-    "category": "Writing",
-    "whyItIsUseful": "Flowstate provides an extreme but highly effective method for overcoming writer's block, a far cry from a standard text editor like Notes or Google Docs. For the novelist struggling with their first draft, it forces them to keep writing, building momentum and generating content without getting bogged down in edits. For the student facing a blank page for an essay, it helps them overcome procrastination and just get words down. Flowstate is a one-time purchase, not a subscription. A surprising feature is the ability to choose how long the 'pause' before deletion is, allowing for some flexibility in intensity. It's not more popular because its aggressive design, while effective for some, is too intimidating for most writers who prefer the safety of constant saving and editing. The app is a mature product with infrequent but stable updates.",
-    "imageIdea": "Minimalist text editor in dark mode with a warning message about deletion if typing stops",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 209,
     "slug": "whimsical-flowcharts-wireframes-for-ideation",
     "name": "Whimsical (Flowcharts & Wireframes)",
@@ -867,18 +856,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.metabase.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 398,
-    "slug": "gnuplot-command-line-scientific-plotting-2",
-    "name": "Gnuplot",
-    "whatItDoes": "Gnuplot is a free and open-source, command-line driven plotting utility developed by Thomas Williams, Colin Kelley, and many others, dating back to 1986. Its core feature is its powerful scripting language that allows users to generate 2D and 3D plots of functions, data, and data fits from the terminal with extreme precision and customization. It's primarily built for scientists, engineers, mathematicians, and students who need to create high-quality plots for publications, reports, or quick data exploration. Users typically open Gnuplot (or run scripts) when they have numerical data (e.g., from simulations, experiments, or calculations) and need to visualize complex mathematical relationships or scientific results with fine-grained control over every plot element. It supports a vast array of output formats including PNG, JPEG, SVG, PDF, PostScript, and various interactive terminals.",
-    "category": "Developer",
-    "whyItIsUseful": "Gnuplot offers unparalleled precision and scripting capabilities for scientific plotting, far surpassing the typical plotting functions in spreadsheet software or even some specialized tools for generating publication-quality figures. For the physicist analyzing experimental data, Gnuplot provides the exact control over axis ranges, labels, and error bars needed for rigorous scientific communication. For the engineering student, it's an invaluable tool for visualizing complex functions and data trends during coursework, enabling rapid iteration on plot designs. It is completely free and open-source, available on virtually all operating systems. A hidden gem often discovered later is its powerful `fit` command, which can perform non-linear regression to fit user-defined functions to data, a feature usually found in dedicated statistical packages. Its steep learning curve due to the command-line interface and scripting requirement makes it less accessible to casual users, who often prefer GUI-based tools. Gnuplot has a long-standing, active community, extensive documentation, and a continuous development cycle, ensuring its role as a bedrock scientific plotting tool.",
-    "imageIdea": "a Gnuplot output image showing a complex 3D surface plot of a mathematical function with contour lines and custom color mapping",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=http%3A%2F%2Fwww.gnuplot.info%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 249,
@@ -1492,17 +1469,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgofullpage.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 314,
-    "slug": "clipboard-history-two-manager",
-    "name": "Clipboard History 2",
-    "whatItDoes": "Clipboard History 2 is a free and open-source browser extension developed by a community of contributors. Its core feature is maintaining a robust history of everything copied to the clipboard, allowing users to quickly paste previous items without re-copying them. This tool was primarily built for anyone who frequently copies and pastes multiple items, such as writers, coders, and data entry specialists. It integrates seamlessly into a workflow whenever a user needs to retrieve an item they copied several steps ago, typically invoked with a keyboard shortcut or by clicking the extension icon. It functions as a browser extension for Chrome, Firefox, and other Chromium-based browsers.",
-    "category": "Productivity",
-    "whyItIsUseful": "While operating systems offer basic clipboard history, Clipboard History 2 provides a more accessible and persistent history within the browser environment, often with better search and pinning capabilities. For the content writer drafting an article, it means effortlessly assembling quotes and facts from various sources without constantly switching tabs to re-copy. For the developer, it allows for quick retrieval of code snippets, variable names, or error messages from their browser-based IDE or documentation. It is completely free and open-source, ensuring transparency and community-driven development. A neat feature often overlooked is the ability to pin frequently used items, ensuring they never leave your history, even across browser restarts. It's not more popular because many users are unaware such an advanced browser-specific clipboard manager exists, often relying on their OS-level solutions or simply re-copying. The open-source nature means a dedicated community regularly contributes updates and bug fixes, ensuring its reliability and longevity.",
-    "imageIdea": "A small popup showing a list of recently copied text snippets, ready for selection.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 315,
     "slug": "autofill-forms-fields-quickly",
     "name": "Autofill",
@@ -1646,17 +1612,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.gather.town%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 327,
-    "slug": "hypercontext-meeting-agendas-one-on-ones",
-    "name": "Hypercontext",
-    "whatItDoes": "Hypercontext is a meeting management platform developed by a startup, designed to help teams run more effective meetings and foster better one-on-one relationships. Its core feature is a collaborative agenda builder that allows team members to contribute topics, assign action items, and track decisions in real-time. It was built for managers, team leads, and remote teams who struggle with unproductive meetings, lack clear outcomes, and inconsistent one-on-one discussions. Users typically open Hypercontext to prepare for an upcoming team sync, a crucial client review, or a regular one-on-one with a direct report to ensure all important topics are covered. It integrates seamlessly with Google Calendar, Outlook Calendar, Slack, Microsoft Teams, and Zoom, and is available as a web application.",
-    "category": "Productivity",
-    "whyItIsUseful": "Hypercontext significantly improves upon generic note-taking apps or shared documents for meeting management by providing a structured, collaborative framework that ensures clear objectives and accountability. For the team lead conducting a weekly sprint review, Hypercontext allows every team member to add discussion points beforehand, ensuring all issues are addressed and action items are clearly assigned and tracked. For the remote manager performing a one-on-one, the tool provides a persistent history of discussion topics, goals, and feedback, fostering continuous growth and preventing important points from being forgotten between sessions. Hypercontext offers a free tier for up to 5 users with unlimited meetings and agendas, while paid plans unlock advanced features like meeting templates, analytics, and more integrations for larger teams. A surprisingly useful feature is its AI-powered \"question suggestions\" for one-on-ones, which helps managers ask impactful questions to foster deeper conversations and uncover crucial insights. Its struggle for broader recognition stems from the perception that \"another meeting tool\" is unnecessary, underestimating the profound impact structured agendas and follow-ups have on team efficiency. Hypercontext maintains a regular update schedule, frequently adding new integrations and enhancing its meeting intelligence capabilities.",
-    "imageIdea": "A collaborative meeting agenda with bullet points, assigned action items, and attendee avatars.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 329,
     "slug": "fathom-fm-ai-meeting-assistant",
     "name": "Fathom",
@@ -1746,17 +1701,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Flichess.org%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 339,
-    "slug": "grasshopper-learn-to-code-javascript",
-    "name": "Grasshopper",
-    "whatItDoes": "Grasshopper is a free coding app for beginners, created by Area 120, Google's in-house incubator for experimental products. Its core feature provides bite-sized, interactive coding lessons and puzzles using JavaScript, designed to make learning programming fun and accessible. It was primarily built for absolute beginners, especially those with no prior coding experience, who want to learn the fundamentals of programming logic and JavaScript. Users typically open Grasshopper for short daily sessions to practice coding concepts, solve challenges, or build small projects directly within the app's interactive environment. It is available as a web app, and as mobile applications for both Android and iOS devices, allowing learning on the go.",
-    "category": "Education",
-    "whyItIsUseful": "While platforms like Codecademy offer broader programming courses, Grasshopper excels at simplifying JavaScript fundamentals into an engaging, gamified experience, perfect for initial skill development. For the high school student curious about coding, Grasshopper offers a low-friction entry point, guiding them through concepts like functions and variables with visual puzzles. For the adult looking to pivot into tech, it provides a solid, accessible foundation in JavaScript without the overwhelm of complex IDEs or setup. Grasshopper is entirely free to use, without any paid subscriptions or premium features. A powerful but often overlooked feature is the \"Code Playground,\" where users can experiment with their own JavaScript code outside of the structured lessons. Its focus on basic fundamentals and a single language means it won't take users to advanced levels, limiting its appeal to those past the beginner stage. It receives regular updates from Google's team, ensuring content remains relevant and engaging.",
-    "imageIdea": "Cartoon grasshopper character guiding a user through simple JavaScript code in a mobile interface.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
   },
   {
     "id": 340,
@@ -2108,18 +2052,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsupernova.io&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 378,
-    "slug": "pinegrow-visual-web-editor-code",
-    "name": "Pinegrow Web Editor",
-    "whatItDoes": "Pinegrow Web Editor is a desktop application developed by Pinegrow that provides a visual editor for building responsive websites, while simultaneously offering full access and control over the underlying code. Its core feature is the ability to drag-and-drop HTML elements, visually edit CSS, and work with popular frameworks like Bootstrap, Tailwind CSS, and WordPress themes, all within a live preview. It was primarily built for web designers, developers, and theme creators who appreciate visual tools but demand the flexibility and power of coding directly. Users typically open Pinegrow when they want to rapidly prototype a website, customize a WordPress theme without touching PHP, or visually build a responsive layout with direct access to the generated HTML/CSS. It works with any HTML, CSS, and JS files, and has specialized features for WordPress, Bootstrap, and Tailwind CSS projects.",
-    "category": "Developer",
-    "whyItIsUseful": "Pinegrow offers a unique hybrid approach, bridging the gap between no-code visual builders like Webflow and pure code editors, providing the best of both worlds without abstraction layers. For the freelance web designer who needs to quickly build custom, responsive client sites without being locked into a platform's ecosystem, Pinegrow is incredibly versatile. For the WordPress theme developer who wants to visually edit templates and then export clean, standard-compliant code, Pinegrow speeds up their workflow dramatically. Pinegrow offers a free trial, with paid perpetual licenses starting from $129 (for a single platform, with a year of updates), offering various editions for specific frameworks or WordPress. A deeply powerful but often overlooked feature is its \"Master Pages\" concept, allowing users to define common elements (headers, footers) and apply them across multiple pages, ensuring consistency effortlessly. It's not more popular because it requires some understanding of HTML/CSS to fully leverage its power, positioning it between the no-code and pure-code camps, which can confuse potential users. Pinegrow has an active forum, extensive documentation, and provides consistent updates with new framework versions and features.",
-    "imageIdea": "Pinegrow interface showing a split view: live website preview on one side, code editor and CSS panel on the other, with a Bootstrap component selected.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fpinegrow.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 379,
@@ -2629,18 +2561,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fvscodium.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 457,
-    "slug": "homebank-personal-finance-money-manager",
-    "name": "HomeBank",
-    "whatItDoes": "HomeBank is a free and open-source personal finance management software, maintained by a community led by Maxime Dantec. Its core feature is to help individuals track their income and expenses, manage multiple bank accounts, categorize transactions, and generate reports to understand their financial health. It's primarily built for individuals and households who want to meticulously manage their personal finances offline, preferring a desktop application over cloud-based services for privacy. Users typically open HomeBank at the end of the day or week to record recent transactions, reconcile bank statements, or review their spending habits, triggered by the need for financial oversight. HomeBank runs on Windows, macOS, and Linux, and supports importing data from various formats like QIF, OFX/QFX, CSV, and MT940.",
-    "category": "Finance",
-    "whyItIsUseful": "HomeBank provides a straightforward, open-source alternative to commercial personal finance software like Quicken or Microsoft Money, with a strong focus on ease of use and local data storage. For the budget-conscious individual, HomeBank helps them identify spending patterns and stick to financial goals without monthly subscription fees or sharing sensitive data online. For the family trying to manage household expenses, it offers an intuitive way to track shared accounts and identify areas for savings, promoting better financial discipline. HomeBank is entirely free and open-source, relying on donations and community contributions for its development. A valuable feature often discovered later is its powerful 'Budget' module, which allows for detailed budget creation across categories, with visual progress bars that genuinely motivate better spending. Its less widespread adoption compared to web-based tools is due to its desktop-only nature and the general trend towards cloud services, despite its robust offline capabilities. The project has an active community forum, provides regular updates, and maintains comprehensive documentation.",
-    "imageIdea": "HomeBank interface showing a ledger of transactions with categories and a simple pie chart report.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=http%3A%2F%2Fhomebank.free.fr%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 458,
     "slug": "jitsi-meet-open-source-video-conferencing",
     "name": "Jitsi Meet",
@@ -2665,17 +2585,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsessionbuddy.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 466,
-    "slug": "mercury-reader-distraction-free",
-    "name": "Mercury Reader",
-    "whatItDoes": "Mercury Reader is a minimalist browser extension developed by the Arc90 team, designed to transform cluttered web pages into clean, distraction-free reading views. It strips away ads, navigation bars, comments, and other extraneous content, leaving only the main text and images. The core feature is its one-click ability to declutter any article or blog post, presenting it in a customizable, elegant layout that enhances readability. It was built for anyone who reads articles online and seeks a focused, uninterrupted reading experience, including students, researchers, and avid news consumers. Users activate Mercury Reader when they encounter an article they want to read without visual distractions or intrusive elements. It is available for Chrome and Firefox browsers.",
-    "category": "Productivity",
-    "whyItIsUseful": "Mercury Reader offers a superior, more consistent, and highly customizable reading experience compared to browser-native \"reader modes,\" which often struggle with complex layouts or lack customization. For the student conducting extensive research, Mercury Reader allows them to process dense academic articles more efficiently, reducing cognitive load and improving comprehension. For the busy professional trying to keep up with industry news, it transforms overwhelming news feeds into manageable, focused reading sessions, saving time by eliminating distractions. Mercury Reader is completely free to use, offering full functionality without any premium tiers. A useful feature often discovered after initial use is its ability to customize font size, typeface, and theme (light/dark), making it adaptable to individual preferences and environments. Its relative obscurity stems from many users not actively seeking solutions for web clutter, or simply tolerating poor reading experiences, unaware that such an elegant and effective tool exists. The extension is stable and reliable, receiving maintenance updates to ensure compatibility with modern web standards.",
-    "imageIdea": "Split screen: a chaotic webpage with ads and pop-ups on one side, and the same content in a clean, minimalist, dark-themed reading view on the other.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
   },
   {
     "id": 467,
@@ -3536,17 +3445,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Ftimqian.com%2Fchart.xkcd%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 601,
-    "slug": "contextify-visualize-text-data-browser",
-    "name": "Contextify",
-    "whatItDoes": "Contextify is a free browser extension developed by an individual, designed to visualize key information directly within any text you read online. Its core feature is parsing selected text or entire web pages to identify and highlight entities (people, organizations, locations), summarize content, extract keywords, and even perform sentiment analysis. It is primarily built for researchers, students, and anyone who frequently reads long articles or documents online and wants to quickly grasp the main points and relationships within the text. Users typically activate Contextify when they encounter a dense article and need to rapidly identify key actors, themes, or emotional tones without manually scanning the entire content. It functions entirely within your browser (Chrome and Firefox) and works on most standard web pages without needing external integrations.",
-    "category": "Research",
-    "whyItIsUseful": "Compared to manual annotation or traditional text analysis software, Contextify provides instant, on-the-fly insights directly within the reading environment, making it superior for efficient comprehension and preliminary textual analysis. For the journalist researching a complex topic, Contextify can highlight all involved organizations and individuals across multiple news articles, revealing connections and potential biases at a glance. For the student reviewing academic papers, it can extract key arguments and sentiment, helping them quickly assess relevance and summarize content. Contextify is completely free. A powerful feature often discovered later is its ability to visualize concept maps or relationship graphs between identified entities, offering a high-level overview of the text's structure. Its niche as a browser extension and its focus on on-demand text analysis means it's less known than full-fledged NLP tools, keeping it a hidden gem for focused textual exploration. It is maintained by an individual developer and receives updates as needed.",
-    "imageIdea": "a browser screenshot showing a highlighted web article, with a sidebar displaying extracted entities, keywords, and a small sentiment gauge",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 602,
     "slug": "vis-js-dynamic-browser-visualizations",
     "name": "Vis.js",
@@ -3755,17 +3653,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.wordtune.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 618,
-    "slug": "aethertext-ai-creative-writing",
-    "name": "AetherText",
-    "whatItDoes": "AetherText is an innovative AI writing assistant specifically designed to aid creative writers, storytellers, and game designers in crafting rich and immersive narratives. Developed by an indie team with a passion for world-building, its core feature is an intelligent content generator that helps create character backstories, plot points, lore, and even entire fantasy worlds. This tool was built for novelists, role-playing game masters, screenwriters, and anyone engaged in extensive creative writing that requires consistent and detailed world-building. Users typically access AetherText when they are brainstorming new ideas, encountering writer's block, or needing to flesh out specific elements of their fictional universe. It operates as a web-based application, accessible from any browser, allowing for flexible creative work on the go.",
-    "category": "Writing",
-    "whyItIsUseful": "Unlike generic AI content generators that aim for broad appeal, AetherText focuses deeply on the specific needs of creative writers, offering tools tailored for narrative development, a niche often underserved. For the fantasy novelist struggling with character development, AetherText can generate intricate backstories and personality traits, bringing characters to life with surprising depth. For the Dungeon Master preparing a new campaign, it helps construct detailed lore, unique locations, and compelling plot hooks, significantly reducing preparation time. AetherText offers a free trial with limited generation credits, with various subscription tiers unlocking more extensive usage and advanced features like custom knowledge bases. A hidden gem feature is its 'Consistency Checker,' which helps ensure that generated lore and character details remain consistent across different narrative elements, preventing plot holes and contradictions. It's not more popular because its specialized focus means it's primarily known within specific creative writing and tabletop gaming communities, rather than the broader public. The platform boasts a passionate Discord community where users share tips, provide feedback, and actively contribute to the tool's ongoing development and feature prioritization.",
-    "imageIdea": "AetherText interface showing character profile generation with fantasy-themed details and story prompts.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 619,
     "slug": "longshot-ai-content-fact-checker",
     "name": "LongShot AI",
@@ -3868,17 +3755,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.paperdigest.org%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 627,
-    "slug": "imapping-visual-knowledge-mapping",
-    "name": "iMapping.io",
-    "whatItDoes": "iMapping.io is a desktop software application developed by iMapping GmbH, designed for visual knowledge mapping and structuring complex information. Its core feature allows users to create large, interactive maps where \"cards\" of information can contain text, images, links, and even other maps, all organized spatially and hierarchically. This tool is primarily built for researchers, consultants, project managers, and anyone dealing with extensive, interconnected knowledge domains. Users turn to iMapping when they need to organize research notes, plan complex projects, or develop intricate arguments that go beyond linear outlines or simple mind maps. It functions as a standalone application for Windows and macOS, offering robust offline capabilities.",
-    "category": "Productivity",
-    "whyItIsUseful": "iMapping offers a unique blend of mind-mapping flexibility and structured outlining, surpassing traditional note-taking apps by allowing infinite zoom and nested maps for unparalleled depth. For a doctoral candidate synthesizing hundreds of research papers, it provides a visual canvas to connect ideas, methodologies, and findings from disparate sources into a coherent overview. For a consultant developing a strategy, it allows them to map client requirements, market analysis, and proposed solutions within a single, navigable knowledge space. iMapping offers a free trial, with a one-time purchase for the full license, making it a sustainable investment. A powerful feature often overlooked is the \"map-in-map\" capability, allowing users to zoom into a card to reveal an entirely new, detailed map, essentially creating a fractal knowledge base. Its desktop-only nature and a steeper learning curve than simpler tools contribute to its niche appeal, despite its power for serious knowledge work. iMapping has an active user forum, detailed tutorials, and receives consistent updates with new features and improvements.",
-    "imageIdea": "a sprawling, infinite canvas filled with interconnected cards, some zoomed in to reveal more detailed sub-maps, showcasing a complex knowledge structure",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
   },
   {
     "id": 628,
@@ -4297,17 +4173,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fthe-marvellous-suspender%2Fnoogafoofpebimajpfpamcfhoaifemoa&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 660,
-    "slug": "context-search-web-ext-multi-engine",
-    "name": "ContextSearch web-ext",
-    "whatItDoes": "ContextSearch web-ext is an open-source browser extension developed by an independent developer, 'kernelpoet'. Its core feature allows users to right-click on selected text or links and search them across multiple predefined search engines, websites, or custom URLs simultaneously. This tool is primarily built for researchers, developers, and information junkies who frequently need to cross-reference terms or find information using various sources. It fits into a workflow whenever a user highlights a word, phrase, or URL and needs to quickly look it up on Wikipedia, Google, Stack Overflow, IMDb, or a custom internal knowledge base, saving the effort of copying and pasting. ContextSearch web-ext is highly customizable and integrates directly into the browser's context menu.",
-    "category": "Research",
-    "whyItIsUseful": "ContextSearch web-ext significantly streamlines the research process compared to opening new tabs and manually pasting text into different search engines, making it far more efficient for deep dives. For the student researching a complex topic, they can highlight a term and instantly search it across academic databases, Wikipedia, and a general search engine with two clicks. For the developer encountering an error message, they can highlight the error and simultaneously search it on Stack Overflow, official documentation, and GitHub issues. It is completely free and open-source, offering extensive customization without any paid tiers. A powerful, less obvious feature is the ability to create highly specific custom search entries, including POST requests, for internal tools or niche databases. It's not more popular because many users are accustomed to the standard \"Search Google for...\" option and don't realize the power of a highly customized multi-engine search. The project is actively maintained on GitHub with a responsive developer.",
-    "imageIdea": "A webpage with selected text, a right-click context menu expanded to show a list of various search engines like Google, Wikipedia, DuckDuckGo, and a custom option",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 661,
     "slug": "leechblock-ng-website-blocker-productivity",
     "name": "LeechBlock NG",
@@ -4358,17 +4223,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.tldraw.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 665,
-    "slug": "seshie-structured-remote-meeting-facilitator",
-    "name": "Seshie",
-    "whatItDoes": "Seshie is a structured meeting facilitation tool developed by a small team, designed to make remote meetings more productive and inclusive. It provides customizable templates and timers for agendas, ensuring topics are covered efficiently and everyone has a voice. The primary users are team leads, project managers, and anyone responsible for running effective meetings in a remote or hybrid environment. Teams typically open Seshie before a meeting to set an agenda, during the meeting to guide discussions and time, and afterwards to capture action items and distribute notes. It integrates with Google Calendar and Zoom, and offers export options for meeting summaries to tools like Slack or email.",
-    "category": "Productivity",
-    "whyItIsUseful": "Seshie offers a focused and structured approach to meetings that often devolve into unproductive rambling, providing a superior alternative to basic calendar invites or unstructured video calls. For the Scrum Master leading a daily stand-up with a globally distributed team, Seshie ensures each team member gets equal time to speak on their updates and blockers, keeping the meeting concise and on track. For the HR manager conducting a remote team brainstorming session, Seshie's timed segments and clear discussion points keep the group focused and prevent a few dominant voices from taking over. It offers a generous free tier for individuals and small teams, with paid plans unlocking advanced analytics and unlimited templates. A powerful yet underutilized feature is its \"parking lot\" functionality, allowing teams to quickly defer off-topic discussions to a designated space, ensuring the main agenda stays on track. Seshie's niche focus on highly structured meetings, rather than general meeting notes, means it flies under the radar compared to broader collaboration suites. The developers actively engage with user feedback, rolling out updates and new templates based on real-world meeting challenges.",
-    "imageIdea": "Meeting agenda with timed segments, progress bar, and participant icons.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
   },
   {
     "id": 666,
@@ -4566,17 +4420,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fthebookofshaders.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 681,
-    "slug": "reflect-google-jigsaw-difficult-conversations",
-    "name": "Reflect by Google Jigsaw",
-    "whatItDoes": "Reflect by Google Jigsaw is a free, interactive online tool designed to help users practice and improve their communication skills for difficult conversations. It uses AI-powered scenarios and real-time feedback to simulate challenging interpersonal interactions, such as addressing microaggressions or providing constructive criticism. The platform is primarily for individuals seeking to develop empathy, build confidence in challenging dialogues, or enhance their leadership and conflict resolution abilities. Someone would use Reflect when they anticipate a sensitive conversation, want to rehearse their responses, or simply wish to hone their communication techniques in a safe environment. It is a web-based tool that runs in modern browsers and is a product of Google's Jigsaw unit, focused on addressing threats to open societies.",
-    "category": "Social",
-    "whyItIsUseful": "Reflect offers a unique, AI-driven practice environment that goes far beyond role-playing with a friend or reading self-help books, providing instant, objective feedback on nuanced interactions. For a manager preparing to give difficult performance feedback, it allows them to rehearse different approaches and refine their language to be both firm and empathetic. An individual who struggles with confronting bias can use it to practice speaking up effectively in various simulated social scenarios, building confidence. The entire tool is completely free, making high-quality communication training accessible to everyone. A powerful feature users often discover is the detailed breakdown of their conversation choices, highlighting areas like active listening, empathy, and assertiveness, which provides deep insights. Its connection to Google Jigsaw, while reputable, means it's not marketed as a consumer product, leading to its relative obscurity despite its innovative approach. As a Google Jigsaw project, it receives updates and research-backed improvements, though its community interaction is primarily through feedback forms.",
-    "imageIdea": "screenshot of a conversational AI interface with multiple choice responses and feedback pop-ups",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 682,
     "slug": "alcumus-aops-adaptive-math-practice",
     "name": "Alcumus by AoPS",
@@ -4640,17 +4483,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fhey.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 687,
-    "slug": "mail-tracker-blocker-privacy-apple-mail",
-    "name": "MailTrackerBlocker",
-    "whatItDoes": "MailTrackerBlocker is a free and open-source macOS plugin developed by @ReticentMark that enhances privacy within Apple Mail by detecting and blocking email tracking pixels. Its core feature is the automatic identification and neutralization of invisible tracking pixels embedded in emails, preventing senders from knowing when, where, or if you've opened their messages. This tool is primarily built for Apple Mail users who are concerned about their privacy and want to prevent senders from monitoring their email activity. Users install MailTrackerBlocker to reclaim their email privacy, ensuring that their interactions with emails remain private. It works exclusively as a plugin for the native Apple Mail application on macOS.",
-    "category": "Security",
-    "whyItIsUseful": "Unlike the default Apple Mail, which offers limited built-in tracking prevention, MailTrackerBlocker provides a robust, automatic solution that actively neutralizes a wide range of tracking methods. For the privacy-conscious individual, it offers peace of mind, allowing them to open emails without worrying about being monitored by marketers or spammers. For the professional handling sensitive communications, preventing read receipts and tracking ensures a more secure and confidential exchange. The tool is completely free and open-source, maintained by its developer and community contributions. A less-obvious benefit is its subtle visual indicator within Mail that shows when a tracker has been blocked, providing immediate feedback on its effectiveness. It's not more popular primarily because it's a niche macOS-only plugin and many users are simply unaware that email tracking is so prevalent, let alone that a solution exists. Being open-source, it benefits from community contributions and regular updates to combat new tracking techniques.",
-    "imageIdea": "a screenshot of an Apple Mail message with a small, discreet icon indicating a blocked tracker",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
   },
   {
     "id": 688,
@@ -5108,17 +4940,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.evidence.dev%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 723,
-    "slug": "exa-modern-ls-replacement",
-    "name": "exa",
-    "whatItDoes": "exa is an open-source command-line utility, written in Rust, that aims to be a modern replacement for the venerable `ls` command. It enhances the file listing experience by providing more information and better defaults. The core feature of exa is its ability to display file metadata, Git status, and file types using distinct colors and icons directly in the terminal output. It's primarily built for developers, system administrators, and power users who spend a lot of time navigating file systems in the terminal. A user would open exa when they need a quick, clear, and visually informative overview of directory contents, especially in Git repositories. It works seamlessly on Linux, macOS, and BSD systems, integrating into any shell environment.",
-    "category": "Developer",
-    "whyItIsUseful": "While `ls` is a staple, exa significantly improves upon it by offering richer visual feedback, making file inspection faster and more intuitive. For the developer constantly working in Git repositories, exa's integrated Git status display (showing modified, added, or untracked files) eliminates the need to run `git status` separately for every directory. For the system administrator troubleshooting permissions, exa's detailed permission indicators and tree view help diagnose issues at a glance. It's entirely free and open-source, with no paid tiers. A lesser-known feature is its comprehensive tree view (`exa --tree`), which can recursively list directory contents in a hierarchical structure, complete with Git status and icons. Its lack of widespread adoption often comes down to users sticking with the familiar `ls` out of habit, despite exa's clear advantages in clarity and features. It has an active community on GitHub, receiving regular updates and contributions.",
-    "imageIdea": "Terminal showing colorful `exa -l` output with file icons and Git status.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 724,
     "slug": "sd-intuitive-find-replace-cli",
     "name": "sd",
@@ -5143,17 +4964,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2Fsharkdp%2Fhexyl&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 726,
-    "slug": "dog-modern-command-line-dns-client",
-    "name": "dog",
-    "whatItDoes": "dog is an open-source command-line DNS client, written in Rust, designed to be a user-friendly and colorful alternative to the traditional `dig` utility. Its main purpose is to query DNS servers for various record types (A, MX, NS, CNAME, etc.) and present the results in a clear, human-readable format. This tool is built for network administrators, developers troubleshooting domain resolution issues, and anyone who needs to quickly verify DNS records. You'd use dog when you need to diagnose website connectivity problems, check email routing, or confirm DNS propagation after a change. It's a cross-platform tool, readily available for Linux, macOS, and Windows.",
-    "category": "Developer",
-    "whyItIsUseful": "dog offers a significantly more intuitive interface and visually appealing output compared to `dig`, which often requires parsing dense and technical raw responses. For the web developer debugging a new deployment, dog provides immediate, color-coded feedback on A records or CNAMEs, making it easier to spot misconfigurations. For the network administrator verifying SPF or DKIM records, its clean output simplifies the validation process. dog is completely free and open-source. A powerful, less-known feature is its ability to query specific DNS servers using a concise syntax, e.g., `dog @8.8.8.8 example.com`, which is crucial for testing specific configurations. Its relative newness and the long-standing prevalence of `dig` mean many users haven't discovered this more ergonomic alternative. The project is actively maintained on GitHub, with new features and improvements being added regularly by its community.",
-    "imageIdea": "Terminal showing `dog example.com mx` with colorful, structured DNS query results.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
   },
   {
     "id": 727,
@@ -5429,19 +5239,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-02",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Feducation.ti.com%2Fen%2Fproducts%2Fcalculators%2Fgraphing-calculators%2Fti-84-evo&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 747,
-    "slug": "thermodynamics-engineering-textbook",
-    "name": "Free textbook on engineering thermodynamics",
-    "seoTitle": "ThermodynamicsBook.com — Free Engineering Textbook",
-    "whatItDoes": "ThermodynamicsBook.com is a comprehensive and freely accessible online textbook dedicated entirely to the subject of engineering thermodynamics, created by academics or educators passionate about open educational resources. It systematically covers the foundational principles of thermodynamics, including the zeroth, first, second, and third laws, properties of pure substances, and their practical applications in power generation cycles (e.g., Rankine, Brayton) and refrigeration cycles. This resource is an invaluable tool for undergraduate and graduate engineering students, self-learners, professional engineers looking to refresh their knowledge, and educators seeking high-quality, no-cost course material. Structured with clear explanations, numerous worked examples, practice problems, and detailed solutions, it serves as a complete alternative to traditional, often expensive, physical textbooks for learning and mastering complex thermodynamic concepts. Accessible via any web browser, the book is designed for online readability, potentially including interactive diagrams or calculators, and is often available in downloadable PDF formats for offline study.",
-    "category": "Education",
-    "whyItIsUseful": "It directly addresses the significant financial barrier posed by commercial engineering textbooks, which can cost hundreds of dollars. By providing a complete, high-quality, and peer-reviewed alternative, it democratizes access to essential engineering education, surpassing the fragmented knowledge found in free online tutorials. A mechanical engineering student struggling with the cost of textbooks can use this resource to gain a deep understanding of entropy, enthalpy, and heat transfer without financial strain, completing homework and preparing for exams with confidence. A seasoned engineer needing to refresh their understanding of specific thermodynamic cycles for a new project can quickly reference the book's clear explanations and practical examples, saving time compared to sifting through old notes or buying a new textbook. The entire textbook is completely free to access and use, embodying the spirit of open educational resources (OER). Many users initially appreciate the core content but later discover the extensive problem sets with step-by-step solutions, which are crucial for reinforcing learning and often more comprehensive than those found in many paid textbooks. Despite its quality and accessibility, many academic institutions still mandate specific commercial textbooks for their courses, and the inertia of traditional publishing models means open resources like this, though excellent, often have to fight for wider recognition and adoption. As an online textbook, it may receive periodic updates for clarity, errata correction, or the addition of new topics, often driven by feedback from its user base or by the authors' ongoing academic work.",
-    "imageIdea": "thermodynamics textbook pages",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-02",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fthermodynamicsbook.com%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
     "id": 748,
@@ -5879,18 +5676,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.graphics.graphic%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 779,
-    "slug": "terminal-image-viewer",
-    "name": "viu",
-    "seoTitle": "viu — Terminal Image Viewer",
-    "whatItDoes": "viu is a command-line tool that allows you to display images directly within your terminal emulator. It uses Unicode characters and ANSI escape codes to render images in a pixelated but recognizable format. Developed by a community of open-source contributors, it aims to provide a quick way to preview images without leaving the terminal environment. For example, a developer could use `viu your_image.png` to instantly see a thumbnail of an icon or a generated plot before opening a full image viewer application.",
-    "category": "Developer",
-    "whyItIsUseful": "viu is a delightful utility for anyone who spends significant time in the command line. While many terminals now support image rendering to some extent, viu offers a robust and often higher-fidelity experience than basic inline image support. It's particularly useful for quickly inspecting images generated by scripts, checking image dimensions, or previewing assets without disrupting your workflow. Power users appreciate its speed and the minimal overhead it introduces. It also supports various image formats and can be configured for different terminal capabilities. For instance, a web designer could use it to check the visual appearance of a logo file directly after saving it from an editor, making iterative design much faster.",
-    "imageIdea": "pixelated landscape painting",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-12"
-  },
-  {
     "id": 780,
     "slug": "zen-writing-app",
     "name": "FocusWriter",
@@ -5961,18 +5746,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgithub.com%2FFULU-Foundation%2FOrcaSlicer-bambulab&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 785,
-    "slug": "markdeep",
-    "name": "Markdeep",
-    "seoTitle": "Markdeep — Write documents with markdown",
-    "whatItDoes": "Markdeep is a free, open-source, client-side tool that allows you to write documents in a simplified Markdown-like syntax and render them as polished HTML web pages. It's designed for technical documentation, personal blogs, or any situation where you need to create readable and easily maintainable documents that can be shared online without needing a complex build process. It supports features like code blocks with syntax highlighting, mathematical equations using MathJax, and even basic diagrams. Developed by a community of open-source enthusiasts, Markdeep aims to make content creation accessible to anyone familiar with plain text.",
-    "category": "Writing",
-    "whyItIsUseful": "Markdeep is incredibly useful for anyone who wants to create beautiful, functional web pages or documents from simple text files, bypassing the need for heavy frameworks or complex build tools. Its strength lies in its simplicity and the fact that everything happens client-side, meaning no server is required to render your pages. This is a huge advantage for privacy-conscious users or those who simply want a straightforward way to share notes, project documentation, or personal essays. Power users appreciate the ability to embed custom JavaScript and CSS for further customization, while beginners love the immediate feedback and ease of use. It’s perfect for educators creating course materials, developers documenting APIs, or writers wanting a distraction-free way to publish their work online.",
-    "imageIdea": " quill pen writing on parchment",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-13"
-  },
-  {
     "id": 786,
     "slug": "webgl-path-tracing",
     "name": "WebGL Path Tracing",
@@ -6029,18 +5802,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fandreaturchet.github.io%2Fwebsite%2Findex.html&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 790,
-    "slug": "ai-paper-summarizer-demo",
-    "name": "AI Paper Summarizer Demo",
-    "seoTitle": "AI Paper Summarizer — research paper summaries",
-    "whatItDoes": "This AI Paper Summarizer Demo is a web-based tool that uses artificial intelligence to condense lengthy research papers into concise summaries. Users can input the text of a scientific article, a URL to a PDF, or sometimes even a DOI, and the AI will process it to extract the core arguments, methodologies, findings, and conclusions. The primary goal is to save researchers, students, and anyone interested in staying current with academic literature significant time and effort by providing quick overviews of complex studies.",
-    "category": "Reference",
-    "whyItIsUseful": "The sheer volume of academic research published daily makes it nearly impossible for individuals to keep up with all relevant developments in their field. This AI summarizer democratizes access to knowledge by making it significantly faster to triage papers and identify those most critical to one's interests. It’s not just about saving time; it’s about enhancing comprehension and discovery. Power users, such as graduate students or academics with broad research interests, can quickly scan dozens of papers, identifying key methodologies or results that might inspire new research directions. While not a replacement for in-depth reading, it serves as an invaluable first pass, ensuring important findings aren’t missed due to information overload.",
-    "imageIdea": "stack of academic papers with one highlighted summary",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-14"
-  },
-  {
     "id": 791,
     "slug": "text-to-diagrams",
     "name": "Text-to-Diagrams",
@@ -6095,30 +5856,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-15",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fsimple-markdown.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 795,
-    "slug": "terminal-image-viewer-2",
-    "name": "Terminal Image Viewer",
-    "seoTitle": "Terminal Image Viewer — View Images in Terminal",
-    "whatItDoes": "This is a command-line tool that allows users to display images directly within their terminal emulator. It supports a wide range of image formats and renders them using ASCII art or block characters, effectively transforming pixel data into text-based graphics. Built with cross-platform compatibility in mind, it's useful for developers, sysadmins, or anyone working extensively in a terminal environment who needs to quickly preview images without leaving their command-line interface.",
-    "category": "Developer",
-    "whyItIsUseful": "For those who live and breathe the command line, this tool is a revelation. It bypasses the need to open separate GUI applications for image viewing, significantly streamlining workflows. Its usefulness lies in its ability to bring visual context directly into the terminal, which is particularly helpful for debugging image processing scripts or simply inspecting assets. Most users are unaware that such a capability exists within the terminal, making it a true hidden gem for terminal power users who value efficiency and a unified workspace.",
-    "imageIdea": "pixelated cat in terminal window",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-15"
-  },
-  {
-    "id": 796,
-    "slug": "visual-diff-tool-code",
-    "name": "Visual Diff Tool for Code",
-    "seoTitle": "Visual Diff Tool — Compare Code Visually",
-    "whatItDoes": "This web-based tool provides a visual comparison of two versions of code, highlighting the differences between them in a clear and intuitive manner. It goes beyond simple text-based diffing by offering side-by-side views with color-coded changes, making it easier to spot and understand modifications. Developers can use this tool to review pull requests, track changes in their projects, or simply compare different code snippets for clarity and accuracy.",
-    "category": "Developer",
-    "whyItIsUseful": "While many IDEs offer built-in diff tools, this standalone web application provides a highly accessible and visual way to compare code without needing to install any software. Its strength lies in its simplicity and the clarity of its visual output, which is often more intuitive than purely textual diffs. It’s particularly useful for quick comparisons or for sharing diffs with others who may not have specialized developer tools. Anyone who works with code and needs to understand changes effectively will find value in its straightforward approach.",
-    "imageIdea": "two code blocks with highlighting",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-15"
   },
   {
     "id": 797,
@@ -6247,18 +5984,6 @@
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fblog.mozilla.org%2Fnetpolicy%2F2026%2F05%2F15%2Fmozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined%2F&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
-    "id": 806,
-    "slug": "simple-command-line-log-viewer",
-    "name": "log-viewer",
-    "seoTitle": "log-viewer — CLI log file viewer",
-    "whatItDoes": "log-viewer is a minimalist, command-line tool designed for quickly and efficiently viewing log files. It provides features such as live tailing of files, colored output for syntax highlighting or severity levels, and basic filtering capabilities directly in the terminal. Unlike more complex log management systems, log-viewer focuses on providing a simple, fast, and unobtrusive way to inspect logs as they are generated or to quickly search through historical data. This is particularly useful for developers, system administrators, or anyone working with server logs who needs immediate insights without the overhead of graphical interfaces or extensive configurations.",
-    "category": "Developer",
-    "whyItIsUseful": "Many developers and sysadmins rely on standard tools like `tail` or `less` for log inspection, but `log-viewer` offers a more refined and user-friendly experience within the terminal. Its key advantage lies in its built-in support for color-coding, which significantly improves readability and allows for quicker identification of errors or important events. The live tailing feature is seamless, and basic filtering makes it easy to hone in on specific messages without exiting the tool. For anyone frequently working with application or system logs directly from the command line, `log-viewer` provides a noticeable productivity boost, making the process of debugging and monitoring far more intuitive and less tedious than with more rudimentary tools.",
-    "imageIdea": "terminal screen with colored text",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-17"
-  },
-  {
     "id": 807,
     "slug": "semble-code-search",
     "name": "Semble",
@@ -6383,17 +6108,5 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-19",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fexcalidraw.com&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 816,
-    "slug": "fontface-observer",
-    "name": "FontFace Observer",
-    "seoTitle": "FontFace Observer — Monitor web font loading",
-    "whatItDoes": "FontFace Observer is a JavaScript library that allows developers to monitor the loading status of web fonts. It provides an API to detect when fonts have loaded, failed to load, or are still in progress, offering granular control over how web pages adapt to font availability. This is crucial for managing layout shifts and ensuring a consistent user experience, especially for sites that rely heavily on custom typography. It helps developers implement techniques like font swapping or fallback strategies effectively.",
-    "category": "Developer",
-    "whyItIsUseful": "While many developers use basic browser font loading events, FontFace Observer provides a much more robust and controllable solution for managing web typography. It solves the common problem of 'Flash of Unstyled Text' (FOUT) or 'Flash of Invisible Text' (FOIT) by giving developers precise hooks into the font loading lifecycle. This allows for sophisticated UI updates, such as showing a skeleton screen until fonts are ready or gracefully degrading to a system font without jarring layout changes. For performance-conscious developers, it's invaluable for optimizing perceived loading times and improving Core Web Vitals scores. It's particularly useful for complex web applications or sites with many custom fonts where precise control over visual rendering is paramount.",
-    "imageIdea": "open book with letters dissolving into pixels",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-19"
   }
 ]

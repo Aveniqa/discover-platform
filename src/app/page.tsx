@@ -465,18 +465,18 @@ function AlcoveItemCard({ item }: { item: AnyItem }) {
   return (
     <Link
       href={`/item/${item.slug}`}
-      className="group block relative overflow-hidden rounded-2xl border border-white/15 bg-black/30 backdrop-blur-md hover:bg-black/40 hover:border-white/30 transition-all p-5 h-full"
+      className="alcove-card group block relative overflow-hidden rounded-2xl transition-all p-5 h-full"
     >
       <div className="flex items-start gap-3 mb-3">
         <CategoryBadge label={getItemCategory(item) || ""} color="amber" />
       </div>
-      <h3 className="text-base sm:text-lg font-semibold text-white leading-snug group-hover:text-amber-200 transition-colors line-clamp-2">
+      <h3 className="text-base sm:text-lg font-semibold leading-snug group-hover:text-amber-300 transition-colors line-clamp-2">
         {title}
       </h3>
-      <p className="mt-2 text-sm text-white/70 leading-relaxed line-clamp-2">
+      <p className="mt-2 text-sm alcove-card-muted leading-relaxed line-clamp-2">
         {getItemExcerpt(item, 130)}
       </p>
-      <div className="mt-4 text-[10px] uppercase tracking-wider text-white/60 inline-flex items-center gap-1">
+      <div className="mt-4 text-[10px] uppercase tracking-wider alcove-card-faint inline-flex items-center gap-1">
         Read the take <span className="group-hover:translate-x-0.5 transition-transform">→</span>
       </div>
     </Link>

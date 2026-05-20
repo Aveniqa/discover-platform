@@ -1,5 +1,6 @@
 import {
   getAllItems,
+  getLiveItems,
   getItemBySlug,
   getItemTitle,
   getItemDescription,
@@ -67,13 +68,16 @@ function getCrossCategoryItems(item: AnyItem, count = 4): AnyItem[] {
       .filter((w) => w.length > 3)
   );
 
-  const allItems = getAllItems();
+  // Cross-category recommendations now draw ONLY from the live niche so an
+  // archived item-page sends readers to current content (not more archive),
+  // and a live item-page never sends readers off into stale archived pages.
+  const liveItems = getLiveItems();
   const seenTypes = new Set<string>([currentType]);
   const results: AnyItem[] = [];
 
   // Score each item from a different category by keyword overlap
-  const scored = allItems
-    .filter((i) => i.type !== currentType)
+  const scored = liveItems
+    .filter((i) => i.type !== currentType && i.slug !== item.slug)
     .map((i) => {
       const iTitle = getItemTitle(i).toLowerCase();
       const iCat = getItemCategory(i).toLowerCase();
