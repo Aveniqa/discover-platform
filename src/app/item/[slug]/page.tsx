@@ -51,8 +51,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { alcoveFromCategory } from "@/lib/alcoves";
-import { AlcoveBackdrop } from "@/components/3d/AlcoveBackdrop";
+import { ItemWorldSeeder } from "@/components/3d/ItemWorldSeeder";
 import { BYLINE } from "@/lib/masthead";
+// AlcoveFromCategory still used in jsonld + scene labelling
+void alcoveFromCategory;
 
 /* ---- Cross-category recommendations ---- */
 function getCrossCategoryItems(item: AnyItem, count = 4): AnyItem[] {
@@ -316,12 +318,16 @@ export default async function ItemPage({ params }: Props) {
     <>
       <ScrollProgress />
       <BackToTop />
+      <ItemWorldSeeder slug={slug} category={category} />
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(itemLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(crumbsLd)} />
 
-      {/* ── Hero image with category alcove backdrop ─────── */}
-      <div className="w-full overflow-hidden border-b border-border/30 relative">
-        <AlcoveBackdrop alcove={alcoveFromCategory(category)} trackScroll intimate />
+      {/* ── Hero image — sits on the global 3D world ──── */}
+      <div
+        data-world-scene={`item-${item.type}`}
+        className="w-full overflow-hidden border-b border-white/[0.06] relative"
+      >
+        <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
         <div className="relative z-10">
           {item.type === "hidden-gem" && (item as HiddenGem).screenshotUrl ? (
             <ScreenshotImage src={(item as HiddenGem).screenshotUrl!} alt={title} />

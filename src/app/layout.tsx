@@ -8,6 +8,10 @@ import { ServiceWorkerRegistration } from "@/components/ServiceWorkerRegistratio
 import { PrefetchLinks } from "@/components/ui/PrefetchLinks";
 import { AdSenseLoader } from "@/components/AdSenseLoader";
 import { PageMorph } from "@/components/ui/PageMorph";
+import { GlobalWorld } from "@/components/3d/GlobalWorld";
+import { CursorCompanion } from "@/components/3d/CursorCompanion";
+import { AmbientSoundscape } from "@/components/3d/AmbientSoundscape";
+import { HiddenInteractions } from "@/components/3d/HiddenInteractions";
 import { SITE_URL, SITE_NAME, TWITTER_HANDLE, DEFAULT_OG_IMAGE } from "@/lib/seo";
 import { organizationLd, websiteLd, ldScript } from "@/lib/jsonld";
 import "./globals.css";
@@ -104,10 +108,12 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
       </head>
-      <body className="noise">
+      <body className="noise has-3d-world">
         <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(websiteLd())} />
         <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(organizationLd())} />
         <AdSenseLoader />
+        {/* GlobalWorld lives behind everything — persistent across navigation */}
+        <GlobalWorld />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:z-[200] focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded-lg focus:font-semibold focus:text-sm focus:shadow-lg"
@@ -116,12 +122,15 @@ export default function RootLayout({
         </a>
         <SearchModal />
         <Navbar />
-        <main id="main-content" className="min-h-screen pt-16">
+        <main id="main-content" className="min-h-screen pt-16 relative">
           <PageMorph>{children}</PageMorph>
         </main>
         <Footer />
         <ServiceWorkerRegistration />
         <PrefetchLinks />
+        <CursorCompanion />
+        <AmbientSoundscape />
+        <HiddenInteractions />
       </body>
     </html>
   );
