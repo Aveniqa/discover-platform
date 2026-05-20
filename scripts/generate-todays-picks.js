@@ -3,11 +3,9 @@ const path = require("path");
 const { writeJsonSafe } = require("./lib/write-safe");
 
 const dataDir = path.join(__dirname, "..", "data");
+// Pivoted 2026-05-19 — only the live niche participates in "today's picks".
 const categories = [
-  "discoveries",
-  "products",
   "hidden-gems",
-  "future-radar",
   "daily-tools",
 ];
 

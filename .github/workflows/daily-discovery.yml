@@ -1,9 +1,11 @@
 name: Daily Discovery Candidates
 
 on:
-  schedule:
-    # Runs before the daily edition so editors can review candidates first.
-    - cron: '30 9 * * *'
+  # PAUSED 2026-05-19: Surfaced pivoted to hidden-gems + daily-tools only and
+  # this script queues candidates across the legacy verticals. Re-enable after
+  # updating scripts/discover-current-events.mjs.
+  # schedule:
+  #   - cron: '30 9 * * *'
   workflow_dispatch:
 
 concurrency:

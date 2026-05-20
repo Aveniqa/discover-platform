@@ -498,13 +498,14 @@ async function buildImageCache() {
     // No existing cache, start fresh
   }
 
+  // Pivoted 2026-05-19 — image-cache only fetches for live-niche items now.
+  // discoveries/products/future-radar arrays are empty so spreading them was a
+  // no-op anyway, but kept the imports cleaner to drop them entirely.
   const allItems = [
-    ...discoveries.map((i) => ({ ...(i as Record<string, unknown>), type: "discovery" })),
-    ...products.map((i) => ({ ...(i as Record<string, unknown>), type: "product" })),
     ...gems.map((i) => ({ ...(i as Record<string, unknown>), type: "hidden-gem" })),
-    ...future.map((i) => ({ ...(i as Record<string, unknown>), type: "future-tech" })),
     ...tools.map((i) => ({ ...(i as Record<string, unknown>), type: "tool" })),
   ] as Record<string, unknown>[];
+  void discoveries; void products; void future;
 
   console.log(`Fetching images for ${allItems.length} items...\n`);
 

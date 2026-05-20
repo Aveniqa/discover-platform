@@ -269,10 +269,10 @@ export default function HiddenGemsPage() {
           <p className="text-sm text-muted-foreground mb-4">Keep discovering across all of Surfaced.</p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              { label: "Discoveries", href: "/discover" },
-              { label: "Trending Products", href: "/trending" },
-              { label: "Future Radar", href: "/future-radar" },
               { label: "Daily Tools", href: "/tools" },
+              { label: "Workflows", href: "/workflows" },
+              { label: "Today's Edition", href: "/" },
+              { label: "Archive", href: "/categories" },
             ].map((cat) => (
               <Link key={cat.href} href={cat.href}
                 className="px-4 py-2 rounded-full text-sm bg-accent/10 text-accent hover:bg-accent/20 transition-colors">

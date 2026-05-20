@@ -120,13 +120,19 @@ jobs:
           echo "🔍 Validating JSON data files..."
           ERRORS=""
 
-          for f in data/products.json data/discoveries.json data/hidden-gems.json data/future-radar.json data/daily-tools.json; do
+          # Live-niche files must have 10+ items each (regression guard).
+          # Archived files (discoveries, products, future-radar) became empty
+          # arrays after the 2026-05 pivot — they're checked for valid JSON
+          # array shape only.
+          LIVE_FILES="data/hidden-gems.json data/daily-tools.json"
+          ARCHIVED_FILES="data/products.json data/discoveries.json data/future-radar.json"
+
+          for f in $LIVE_FILES $ARCHIVED_FILES; do
             if [ ! -f "$f" ]; then
               ERRORS="${ERRORS}❌ Missing: $f\n"
               continue
             fi
 
-            # Validate JSON and check item count
             COUNT=$(node -e "
               try {
                 const d = JSON.parse(require('fs').readFileSync('$f','utf-8'));
@@ -140,8 +146,8 @@ jobs:
               ERRORS="${ERRORS}❌ Invalid JSON: $f\n"
             elif [ "$COUNT" = "NOT_ARRAY" ]; then
               ERRORS="${ERRORS}❌ Not an array: $f\n"
-            elif [ "$COUNT" -lt 10 ]; then
-              ERRORS="${ERRORS}❌ $f has only $COUNT items (expected 10+)\n"
+            elif echo "$LIVE_FILES" | grep -q "$f" && [ "$COUNT" -lt 10 ]; then
+              ERRORS="${ERRORS}❌ $f has only $COUNT items (live-niche files require 10+)\n"
             else
               echo "   ✅ $f: $COUNT items"
             fi

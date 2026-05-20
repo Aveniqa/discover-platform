@@ -1,9 +1,12 @@
 name: Daily Surfaced Edition
 
 on:
-  schedule:
-    # 7am ET = 11:00 UTC (EDT) or 12:00 UTC (EST). Using 11:00 for summer.
-    - cron: '0 11 * * *'
+  # PAUSED 2026-05-19: Surfaced pivoted to hidden-gems + daily-tools only. The
+  # generation script still targets all 5 legacy verticals and would write to
+  # empty data files. Re-enable the schedule below ONLY after updating
+  # scripts/generate-daily-content.js to skip discoveries/products/future-radar.
+  # schedule:
+  #   - cron: '0 11 * * *'
   workflow_dispatch: # Manual trigger button in GitHub Actions UI
 
 concurrency:

@@ -1,9 +1,11 @@
 name: Trending Live Content
 
 on:
-  schedule:
-    # Every 3 hours. The script fails closed unless a signal clears the editorial gate.
-    - cron: '17 */3 * * *'
+  # PAUSED 2026-05-19: Surfaced pivoted away from current-events/trending
+  # products. The script's editorial gate already fails closed without signals
+  # so it's safe, but stopping the schedule avoids API quota burn.
+  # schedule:
+  #   - cron: '17 */3 * * *'
   workflow_dispatch:
 
 concurrency:

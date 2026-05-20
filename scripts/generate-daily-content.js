@@ -16,11 +16,12 @@ const MODEL = "gemini-2.5-flash-lite";
 const DATA_DIR = path.join(__dirname, "..", "data");
 const today = new Date().toISOString().split("T")[0];
 
+// Pivoted 2026-05-19. The legacy verticals (discoveries, products,
+// future-radar) are archived — their source files are empty arrays and we no
+// longer publish new entries for them. Re-add keys here only if the pivot is
+// reversed.
 const FILES = {
-  discoveries: "discoveries.json",
-  products: "products.json",
   "hidden-gems": "hidden-gems.json",
-  "future-radar": "future-radar.json",
   "daily-tools": "daily-tools.json",
 };
 

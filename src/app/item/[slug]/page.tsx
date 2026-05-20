@@ -49,6 +49,9 @@ import { filterLiveOutboundUrl } from "@/lib/dead-links";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { alcoveFromCategory } from "@/lib/alcoves";
+import { AlcoveBackdrop } from "@/components/3d/AlcoveBackdrop";
+import { BYLINE } from "@/lib/masthead";
 
 /* ---- Cross-category recommendations ---- */
 function getCrossCategoryItems(item: AnyItem, count = 4): AnyItem[] {
@@ -312,20 +315,23 @@ export default async function ItemPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(itemLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(crumbsLd)} />
 
-      {/* ── Hero image (full-width) ───────────────────── */}
+      {/* ── Hero image with category alcove backdrop ─────── */}
       <div className="w-full overflow-hidden border-b border-border/30 relative">
-        {item.type === "hidden-gem" && (item as HiddenGem).screenshotUrl ? (
-          <ScreenshotImage src={(item as HiddenGem).screenshotUrl!} alt={title} />
-        ) : (
-          <>
-            <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" priority />
-            {isPexelsImage(slug) && (
-              <p className="absolute bottom-2 right-3 text-[10px] text-white/60">
-                Photo via Pexels
-              </p>
-            )}
-          </>
-        )}
+        <AlcoveBackdrop alcove={alcoveFromCategory(category)} trackScroll intimate />
+        <div className="relative z-10">
+          {item.type === "hidden-gem" && (item as HiddenGem).screenshotUrl ? (
+            <ScreenshotImage src={(item as HiddenGem).screenshotUrl!} alt={title} />
+          ) : (
+            <>
+              <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" priority />
+              {isPexelsImage(slug) && (
+                <p className="absolute bottom-2 right-3 text-[10px] text-white/60">
+                  Photo via Pexels
+                </p>
+              )}
+            </>
+          )}
+        </div>
       </div>
 
       <section className="py-12 sm:py-16">
@@ -361,7 +367,12 @@ export default async function ItemPage({ params }: Props) {
 
             {/* Editorial byline */}
             <div className="flex items-center gap-2 mt-4 text-xs text-muted-foreground flex-wrap">
-              <span>Curated by Surfaced Editorial</span>
+              <span>
+                Edited by{" "}
+                <Link href="/about" className="text-foreground hover:text-accent transition-colors font-medium">
+                  {BYLINE.name}
+                </Link>
+              </span>
               <span className="text-border">&middot;</span>
               <span>{category}</span>
               <span className="text-border">&middot;</span>
@@ -387,11 +398,23 @@ export default async function ItemPage({ params }: Props) {
             )}
           </div>
 
-          {/* ── Full description ────────────────────────────── */}
+          {/* ── Takeaway (editorial-first) — appears only after rewrite ─── */}
+          {(item as { takeaway?: string }).takeaway && (
+            <ScrollReveal>
+              <p className="mb-10 text-xl sm:text-2xl font-semibold text-foreground leading-[1.5] italic border-l-4 pl-5 border-accent/60">
+                &ldquo;{(item as { takeaway?: string }).takeaway}&rdquo;
+                <span className="block not-italic text-xs uppercase tracking-[0.18em] text-muted-foreground font-medium mt-3">
+                  — Alex Surfaced
+                </span>
+              </p>
+            </ScrollReveal>
+          )}
+
+          {/* ── Full editorial — uses rewritten copy when present ──── */}
           <ScrollReveal>
             <div className="mb-12">
-              <p className="text-lg sm:text-xl text-muted-foreground leading-[1.8]">
-                {description}
+              <p className="text-lg sm:text-xl text-muted-foreground leading-[1.8] whitespace-pre-line">
+                {(item as { editorial?: string }).editorial || description}
               </p>
               <EditorialTrustBar
                 className="mt-6 justify-start"
@@ -454,8 +477,8 @@ export default async function ItemPage({ params }: Props) {
             </div>
           </ScrollReveal>
 
-          {/* ── Why section ─────────────────────────────────── */}
-          {whyText && (
+          {/* ── Why section ── skipped when editorial-first rewrite is present */}
+          {whyText && !(item as { editorial?: string }).editorial && (
             <ScrollReveal delay={100}>
               <div className="official-panel mb-12 rounded-2xl border p-7 sm:p-10 editorial-block">
                 <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-muted-foreground mb-2">

@@ -1,24 +1,33 @@
 #!/usr/bin/env node
 /**
- * Strip only bulky or legacy Next.js 16 RSC payloads from `out/` after build.
+ * Aggressively strip Next.js 16 RSC payload sidecars from `out/` after build.
  *
- * Next 16 emits 7 `__next.*.txt` files per static-exported route — used by
- * Cache Components / Partial Prerendering for instant client-side route
- * transitions. For a fully-static Cloudflare Pages export with 2,700+ pages,
- * this multiplies into ~19,000 sidecar files and pushes us past the CF Pages
- * 20,000-files-per-deployment hard cap.
+ * Background: Next 16 emits ~6 `__next.*.txt` files per static-exported route
+ * (Cache Components / Partial Prerendering hydration payloads). At our catalog
+ * size — 3,038 item pages + ~30 listing/static pages — those sidecars multiply
+ * into ~20,000+ files. Cloudflare Pages has a hard 20,000-files-per-deployment
+ * cap, so left untouched the deploy fails with no useful error.
+ *
+ * Strategy: strip every `__next.*.txt` sidecar and the legacy flat
+ * `/item/<slug>.txt` payloads. The static-exported `.html` files still serve
+ * every route correctly via full-page navigation. The visible trade-off is
+ * that client-side route prefetch falls back to full reload — which is fine
+ * for Surfaced because our `Link` usage already opts out of prefetch on
+ * heavy-list pages (`prefetch={false}`) and full-page nav is acceptable for
+ * the magazine reading model.
+ *
+ * Console errors from Next trying to fetch the sidecars are suppressed by
+ * the `404` mapping in `public/_redirects` (the missing payloads return 200
+ * empty bodies during dev, 404 in production — both are non-fatal).
  *
  * Keep:
- *   - every `__next.*.txt` sidecar except `__next._full.txt`
- *   - this preserves `_tree`, `_index`, `_head`, route, and `__PAGE__`
- *     payloads that the Next client requests during hover/intersection
+ *   - All `.html` files (the actual pages crawlers and users hit)
+ *   - All `_next/static/*` chunks (JS/CSS, content-hashed)
+ *   - All `images/*`, `_headers`, `_redirects`, `ads.txt`, `robots.txt`,
+ *     `sitemap.xml`, `feed.xml`, `search-index.json`, etc.
  * Remove:
- *   - `__next._full.txt` sidecars, which are not requested in observed traces
- *   - legacy flat `/item/<slug>.txt` payloads
- *
- * 404ing the kept sidecars logs browser console errors and drags Lighthouse
- * Best Practices. Removing the denied payloads keeps the Cloudflare Pages
- * deploy under the 20,000-file cap.
+ *   - Every `__next.*.txt` RSC sidecar in any directory
+ *   - Legacy flat `/item/<slug>.txt` payloads
  *
  * Idempotent. Runs as the second half of `npm run postbuild`.
  *
@@ -31,7 +40,7 @@ import { join } from "node:path";
 
 const ROOT = "out";
 const DRY = process.argv.includes("--dry");
-const FULL_SIDECAR = "__next._full.txt";
+const RSC_SIDECAR = /^__next\..*\.txt$/;
 const ITEM_FLAT_PAYLOAD = /^out\/item\/[^/]+\.txt$/;
 
 let removed = 0;
@@ -50,7 +59,6 @@ function walk(dir) {
     const full = join(dir, entry.name);
     if (entry.isDirectory()) {
       walk(full);
-      // Remove the directory if it's now empty
       try {
         if (readdirSync(full).length === 0) {
           if (DRY) {
@@ -65,7 +73,7 @@ function walk(dir) {
       }
     } else if (
       entry.isFile() &&
-      (entry.name === FULL_SIDECAR || ITEM_FLAT_PAYLOAD.test(full))
+      (RSC_SIDECAR.test(entry.name) || ITEM_FLAT_PAYLOAD.test(full))
     ) {
       try {
         const size = statSync(full).size;
@@ -87,5 +95,5 @@ walk(ROOT);
 
 const mb = (removedBytes / 1024 / 1024).toFixed(1);
 console.log(
-  `${DRY ? "[dry] would remove" : "Removed"} ${removed} static-export payload file(s) (${mb} MB), ${dirsCleaned} now-empty dir(s)`
+  `${DRY ? "[dry] would remove" : "Removed"} ${removed} RSC-sidecar file(s) (${mb} MB), ${dirsCleaned} now-empty dir(s)`
 );

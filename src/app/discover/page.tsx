@@ -1,286 +1,78 @@
-"use client";
-
-import { useState, useMemo } from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
-import { CategoryBadge } from "@/components/ui/CategoryBadge";
-import { BookmarkButton } from "@/components/ui/BookmarkButton";
-import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import { SkeletonCard } from "@/components/ui/SkeletonCard";
-import { NewsletterForm } from "@/components/ui/NewsletterForm";
+import archiveData from "@/../data/archive.json";
+import { buildMetadata } from "@/lib/seo";
+import { type AnyItem, getItemTitle, getItemExcerpt } from "@/lib/data";
 import { ItemImage } from "@/components/ui/ItemImage";
-import { discoveries, getSubCategories, getItemExcerpt, type AnyItem } from "@/lib/data";
-import { BackToTop } from "@/components/ui/BackToTop";
-import { QuickViewModal } from "@/components/ui/QuickViewModal";
-import { AuroraBackground } from "@/components/ui/AuroraBackground";
-import { BlurText } from "@/components/ui/BlurText";
-import { TiltCard } from "@/components/ui/TiltCard";
-import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
-import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
+import { alcoveByKind } from "@/lib/alcoves";
+import { AlcoveBackdrop } from "@/components/3d/AlcoveBackdrop";
 
-export default function DiscoverPage() {
-  const [searchQuery, setSearchQuery] = useState<string>("");
-  const [activeCategory, setActiveCategory] = useState<string>("All");
-  const [sortMode, setSortMode] = useState<string>("default");
-  const [quickViewItem, setQuickViewItem] = useState<AnyItem | null>(null);
-  const [page, setPage] = useState(1);
+export const metadata: Metadata = buildMetadata({
+  title: "Discoveries — Archive",
+  description:
+    "An archive of science and discovery briefs published on Surfaced. Surfaced now focuses on software and tools — these older posts remain online.",
+  path: "/discover",
+});
 
-  const subCategories = getSubCategories("discovery");
-
-  const filtered = useMemo(() => {
-    let items = [...discoveries];
-    if (activeCategory !== "All") {
-      items = items.filter((i) => i.category === activeCategory);
-    }
-    if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      items = items.filter(
-        (i) =>
-          i.title.toLowerCase().includes(q) ||
-          i.shortDescription.toLowerCase().includes(q)
-      );
-    }
-    if (sortMode === "newest") items.sort((a, b) => (b.id || 0) - (a.id || 0));
-    else if (sortMode === "oldest") items.sort((a, b) => (a.id || 0) - (b.id || 0));
-    else if (sortMode === "az") items.sort((a, b) => a.title.localeCompare(b.title));
-    else if (sortMode === "za") items.sort((a, b) => b.title.localeCompare(a.title));
-    else if (sortMode === "category") items.sort((a, b) => a.category.localeCompare(b.category));
-    return items;
-  }, [activeCategory, searchQuery, sortMode]);
-
-  const PER_PAGE = 24;
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
-  const paginatedItems = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+export default function DiscoverArchivePage() {
+  const items = (archiveData as AnyItem[])
+    .filter((i) => i.type === "discovery")
+    .sort((a, b) => (b.id || 0) - (a.id || 0))
+    .slice(0, 60);
 
   return (
-    <>
-      {/* ── Hero ──────────────────────────────────────────── */}
-      <AuroraBackground
-        colorA="bg-indigo-500/15"
-        colorB="bg-violet-500/10"
-        colorC="bg-purple-500/6"
-        className="py-24 sm:py-32"
-      >
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-indigo-400 mb-4">
-            Discover
+    <article>
+      <section className="relative min-h-[55vh] flex items-center overflow-hidden">
+        <AlcoveBackdrop alcove={alcoveByKind("research")} trackScroll />
+        <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 py-24 sm:py-32">
+          <p className="text-xs uppercase tracking-[0.22em] text-white/70 font-semibold mb-4">
+            Archive · Discoveries
           </p>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground">
-            <BlurText as="span" wordDelay={55} onScroll={false}>Today&apos;s</BlurText>{" "}
-            <BlurText as="span" wordDelay={55} onScroll={false} className="gradient-text">Discoveries</BlurText>
+          <h1 className="text-4xl sm:text-6xl font-bold text-white tracking-tight leading-tight">
+            The science archive.
           </h1>
-          <p className="mt-5 text-muted text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed">
-            Breakthroughs, fascinating research, and things you didn&apos;t know
-            you needed to know, presented with source links and editorial context.
+          <p className="mt-5 text-white/85 text-lg leading-relaxed">
+            Surfaced now focuses on software and useful corners of the internet — but the discoveries
+            beat lives on here. Every brief stays online at its original URL.
           </p>
-          <EditorialTrustBar
-            tone="indigo"
-            className="mt-6"
-            items={["Source-linked", "Context summarized", "No medical or financial advice"]}
-          />
-        </div>
-      </AuroraBackground>
-
-      {/* ── Filter Bar ────────────────────────────────────── */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 -mt-6 mb-10">
-        <div className="flex flex-col gap-4">
-          {/* Search + Sort Row */}
-          <div className="flex flex-col sm:flex-row gap-3">
-            <div className="relative flex-1">
-              <svg
-                className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z"
-                />
-              </svg>
-              <input
-                type="text"
-                placeholder="Search discoveries..."
-                value={searchQuery}
-                onChange={(e) => { setSearchQuery(e.target.value); setPage(1); }}
-                className="w-full rounded-2xl border border-border bg-surface pl-10 pr-4 py-2.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-indigo-500/30 focus:border-indigo-500/30 transition-all"
-              />
-            </div>
-            <select aria-label="Sort items"
-              value={sortMode}
-              onChange={(e) => { setSortMode(e.target.value); setPage(1); }}
-              className="rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-indigo-500/40 transition-all cursor-pointer"
+          <div className="mt-7 flex flex-wrap gap-3">
+            <Link
+              href="/tools"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-white text-black text-sm font-semibold hover:bg-white/90 transition-colors"
             >
-              <option value="default">Default</option>
-              <option value="newest">Newest First</option>
-              <option value="oldest">Oldest First</option>
-              <option value="az">A → Z</option>
-              <option value="za">Z → A</option>
-              <option value="category">Category</option>
-            </select>
-          </div>
-
-          {/* Sub-category chips */}
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => { setActiveCategory("All"); setPage(1); }}
-              aria-pressed={activeCategory === "All"}
-              className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
-                activeCategory === "All"
-                  ? "bg-indigo-500/20 text-indigo-300 border-indigo-400/35"
-                  : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
-              }`}
+              See what Surfaced covers now →
+            </Link>
+            <Link
+              href="/"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-white/10 backdrop-blur-md text-white border border-white/20 text-sm font-medium hover:bg-white/20 transition-colors"
             >
-              All
-            </button>
-            {subCategories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => { setActiveCategory(cat); setPage(1); }}
-                aria-pressed={activeCategory === cat}
-                className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-all cursor-pointer ${
-                  activeCategory === cat
-                    ? "bg-indigo-500/20 text-indigo-300 border-indigo-400/35"
-                    : "bg-surface text-muted border-border/80 hover:text-foreground hover:border-border"
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
+              Today&rsquo;s edition
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* ── Results Grid ──────────────────────────────────── */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
-        <p className="text-sm text-muted-foreground mb-6">
-          Showing{" "}
-          <span className="font-semibold text-foreground">
-            {filtered.length === 0 ? 0 : (page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)}
-          </span>{" "}
-          of{" "}
-          <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
-          items
-        </p>
-
-        {/* AD_ZONE: sidebar */}
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {paginatedItems.map((item, index) => (
-            <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />} className={index === 0 ? "sm:col-span-2 lg:col-span-2 xl:col-span-2" : ""}>
-              <TiltCard maxTilt={6} glowColor="0 8px 40px rgba(99,102,241,0.12), 0 0 0 1px rgba(99,102,241,0.08)" className="h-full">
-              <div className="official-card group relative block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden">
-                <div className="overflow-hidden relative">
-                  <ItemImage slug={item.slug} alt={item.title} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
-                  {item.badge === "editors-pick" && (
-                    <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
-                      Editor&apos;s Pick
-                    </span>
-                  )}
-                  <button
-                    onClick={(e) => { e.preventDefault(); setQuickViewItem(item as AnyItem); }}
-                    className="absolute inset-0 z-20 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity"
-                  >
-                    <span className="px-3 py-1.5 bg-white text-black text-xs font-semibold rounded-full shadow">Quick View</span>
-                  </button>
+      <section className="bg-background py-20 px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-sm text-muted-foreground mb-8">
+            Showing the {items.length} most-recent of {(archiveData as AnyItem[]).filter((i) => i.type === "discovery").length} archived discoveries.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {items.map((item) => (
+              <Link key={item.slug} href={`/item/${item.slug}`} className="group block rounded-2xl border border-border bg-card overflow-hidden hover:border-accent/40 transition-all">
+                <div className="aspect-[16/10] overflow-hidden">
+                  <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="16/10" width={500} height={313} className="group-hover:scale-[1.03] transition-transform duration-500" />
                 </div>
-                <Link href={`/item/${item.slug}`} aria-label={`Read ${item.title}`} className="block p-6">
-                <div className="flex items-start justify-between gap-2 mb-3">
-                  <CategoryBadge label={item.category} color="indigo" />
-                  <BookmarkButton slug={item.slug} />
+                <div className="p-5">
+                  <p className="text-[10px] uppercase tracking-wider text-muted-foreground mb-2">Discovery</p>
+                  <h3 className="text-base font-semibold leading-snug group-hover:text-accent transition-colors line-clamp-2">{getItemTitle(item)}</h3>
+                  <p className="mt-2 text-sm text-muted-foreground line-clamp-2 leading-relaxed">{getItemExcerpt(item, 140)}</p>
                 </div>
-                <h2 className="text-base font-semibold text-foreground group-hover:text-indigo-300 transition-colors line-clamp-2 mb-2">
-                  {item.title}
-                </h2>
-                <p className="text-sm text-muted-foreground line-clamp-2">
-                  {getItemExcerpt(item)}
-                </p>
-                </Link>
-                {item.sourceLink && (
-                  <div className="px-6 pb-4 -mt-2">
-                    <SourceTrailLink href={item.sourceLink} label="Source" compact />
-                  </div>
-                )}
-              </div>
-              </TiltCard>
-            </ScrollReveal>
-          ))}
-        </div>
-
-        {filtered.length === 0 && (
-          <div className="text-center py-16">
-            <p className="text-muted-foreground">No discoveries match your search.</p>
-          </div>
-        )}
-
-        {totalPages > 1 && (
-          <div className="flex items-center justify-center gap-2 mt-8">
-            <button
-              onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-              disabled={page === 1}
-              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
-            >
-              ← Previous
-            </button>
-            <span className="text-sm text-muted-foreground px-3">Page {page} of {totalPages}</span>
-            <button
-              onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-              disabled={page === totalPages}
-              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
-            >
-              Next →
-            </button>
-          </div>
-        )}
-      </section>
-
-      {/* ── Explore Another Category ─────────────────────── */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-4 mb-8">
-        <div className="p-6 rounded-2xl bg-card/50 border border-border text-center">
-          <h3 className="text-lg font-semibold mb-2">Done exploring? Try another category</h3>
-          <p className="text-sm text-muted-foreground mb-4">Keep discovering across all of Surfaced.</p>
-          <div className="flex flex-wrap justify-center gap-3">
-            {[
-              { label: "Trending Products", href: "/trending" },
-              { label: "Hidden Gems", href: "/hidden-gems" },
-              { label: "Future Radar", href: "/future-radar" },
-              { label: "Daily Tools", href: "/tools" },
-            ].map((cat) => (
-              <Link key={cat.href} href={cat.href}
-                className="px-4 py-2 rounded-full text-sm bg-accent/10 text-accent hover:bg-accent/20 transition-colors">
-                {cat.label} →
               </Link>
             ))}
           </div>
         </div>
       </section>
-
-      {/* ── Newsletter CTA ────────────────────────────────── */}
-      <section className="relative py-20 sm:py-28 overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-indigo-500/[0.03] to-transparent" />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-indigo-500/5 blur-[120px]" />
-        </div>
-
-        <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-indigo-400 mb-4">
-            Stay Curious
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
-            Get discoveries delivered{" "}
-            <span className="gradient-text">every morning.</span>
-          </h2>
-          <p className="mt-4 text-muted text-lg max-w-lg mx-auto leading-relaxed">
-            Join thousands of curious readers. Five minutes every morning, zero spam.
-          </p>
-          <div className="mt-8 flex justify-center">
-            <NewsletterForm formId="newsletter-discover" ariaLabel="Subscribe — discover page" />
-          </div>
-        </div>
-      </section>
-      <BackToTop />
-      {quickViewItem && <QuickViewModal item={quickViewItem} onClose={() => setQuickViewItem(null)} />}
-    </>
+    </article>
   );
 }
