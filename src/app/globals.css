@@ -504,6 +504,83 @@ body.has-3d-world .bg-background {
   color: #1a1a1f;
 }
 
+/* ============================================
+   3D TILT CARD — used by TiltCard3D component
+   Mouse moves over the card → --tilt-x and --tilt-y vars are set, GPU
+   applies perspective transform. Inner glow tracks cursor via --mouse-x/y.
+   ============================================ */
+.tilt-3d {
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1100px;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: perspective(1100px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)) scale(var(--scale, 1));
+  will-change: transform;
+}
+.tilt-3d::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle 380px at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(var(--glow-color, 168, 85, 247), 0.22), transparent 55%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+.tilt-3d:hover::before {
+  opacity: 1;
+}
+.tilt-3d::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 0 transparent;
+  transition: box-shadow 0.35s ease;
+  pointer-events: none;
+}
+.tilt-3d:hover::after {
+  box-shadow:
+    0 0 0 1px rgba(var(--glow-color, 168, 85, 247), 0.25),
+    0 25px 60px -15px rgba(var(--glow-color, 168, 85, 247), 0.45),
+    0 50px 110px -30px rgba(0, 0, 0, 0.5);
+}
+/* All direct children sit above the ::before/::after pseudo-elements */
+.tilt-3d > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* When tilt is applied, lift child images slightly via translateZ for depth */
+.tilt-3d:hover img,
+.tilt-3d:hover .tilt-3d-pop {
+  transform: translateZ(28px);
+}
+.tilt-3d img,
+.tilt-3d .tilt-3d-pop {
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ============================================
+   SCROLL PARALLAX — applied via data attribute on layout containers
+   The HeroParallax component reads scrollY and writes --scroll-px so
+   text floats above the world at a different rate.
+   ============================================ */
+.parallax-slow {
+  transform: translate3d(0, calc(var(--scroll-px, 0) * 0.3), 0);
+  transition: transform 0.05s linear;
+  will-change: transform;
+}
+.parallax-medium {
+  transform: translate3d(0, calc(var(--scroll-px, 0) * 0.5), 0);
+  will-change: transform;
+}
+.parallax-fast {
+  transform: translate3d(0, calc(var(--scroll-px, 0) * 0.75), 0);
+  will-change: transform;
+}
+
 /* Depth mode — triggered by long-press, gives the page a temporary cinema feel */
 body.depth-mode {
   perspective: 1400px;
