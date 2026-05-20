@@ -4,7 +4,7 @@ import { useState, useRef } from "react";
 import Link from "next/link";
 import { ItemImage } from "@/components/ui/ItemImage";
 import {
-  getAllItems,
+  getLiveItems,
   getItemTitle,
   getItemDescription,
   getCategoryLabel,
@@ -20,8 +20,9 @@ import {
  */
 
 function getShowcaseItems(): AnyItem[] {
-  // Diverse round-robin: ~6 items from each of 5 categories, badged first
-  const all = getAllItems();
+  // Showcase pulls live-niche only — archived items shouldn't appear on the
+  // homepage carousel even though they keep their /item/<slug> URLs alive.
+  const all = getLiveItems();
   const byType: Record<string, AnyItem[]> = {};
   for (const item of all) {
     if (!byType[item.type]) byType[item.type] = [];

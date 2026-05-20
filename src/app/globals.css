@@ -334,6 +334,63 @@ h3 {
 }
 
 /* ============================================
+   Alcove card — sits on top of a 3D shader backdrop.
+   Theme-aware so light mode reads as a real magazine
+   layout (warm white glass) instead of a dark card on
+   a light page.
+   ============================================ */
+.alcove-card {
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(14px) saturate(1.15);
+  -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  color: #fff;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.alcove-card:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+[data-theme="light"] .alcove-card {
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(255, 255, 255, 0.85);
+  color: #1a1a1f;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+[data-theme="light"] .alcove-card:hover {
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+
+/* Pair the alcove card with adaptive sub-elements */
+.alcove-card-muted {
+  color: rgba(255, 255, 255, 0.7);
+}
+[data-theme="light"] .alcove-card-muted {
+  color: rgba(26, 26, 31, 0.65);
+}
+
+.alcove-card-faint {
+  color: rgba(255, 255, 255, 0.55);
+}
+[data-theme="light"] .alcove-card-faint {
+  color: rgba(26, 26, 31, 0.5);
+}
+
+/* Hero overlays — light mode lightens the scrim so the shader colors stay
+   readable but the page doesn't feel like night-mode-with-a-toggle. */
+.hero-scrim {
+  background: linear-gradient(180deg, rgba(0,0,0,0.30) 0%, rgba(0,0,0,0.15) 30%, rgba(0,0,0,0.55) 100%);
+}
+[data-theme="light"] .hero-scrim {
+  background: linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.05) 30%, rgba(0,0,0,0.45) 100%);
+}
+
+/* ============================================
    Shadow System
    ============================================ */
 .premium-shadow {

@@ -73,7 +73,7 @@ export default function WorkflowsPage() {
                     return (
                       <li
                         key={i}
-                        className="relative p-5 rounded-2xl bg-black/35 backdrop-blur-md border border-white/15 hover:border-white/30 transition-colors"
+                        className="alcove-card relative p-5 rounded-2xl transition-colors"
                       >
                         <div className="flex items-start gap-4">
                           <div
@@ -83,10 +83,10 @@ export default function WorkflowsPage() {
                             {i + 1}
                           </div>
                           <div className="flex-1 min-w-0">
-                            <p className="text-[10px] uppercase tracking-[0.18em] text-white/55 mb-1">
+                            <p className="text-[10px] uppercase tracking-[0.18em] alcove-card-faint mb-1">
                               {step.action}
                             </p>
-                            <h3 className="text-lg sm:text-xl font-semibold text-white">
+                            <h3 className="text-lg sm:text-xl font-semibold">
                               {tool ? (
                                 <Link href={`/item/${tool.slug}`} className="hover:underline">
                                   {toolName}
@@ -96,7 +96,7 @@ export default function WorkflowsPage() {
                               )}
                             </h3>
                             {step.note && (
-                              <p className="mt-2 text-sm text-white/75 leading-relaxed">
+                              <p className="mt-2 text-sm alcove-card-muted leading-relaxed">
                                 {step.note}
                               </p>
                             )}
