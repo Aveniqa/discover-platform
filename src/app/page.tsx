@@ -14,8 +14,10 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { NewsletterSection } from "@/components/home/NewsletterSection";
 import { alcoveByKind, alcoveFromCategory, type Alcove } from "@/lib/alcoves";
 import { ItemImage } from "@/components/ui/ItemImage";
+import { TiltCard3D } from "@/components/ui/TiltCard3D";
 import { HomeStreakStatus, SearchSurfacedButton } from "@/components/home/HomeHeroActions";
 import { LiveNowTicker } from "@/components/home/LiveNowTicker";
+import { HeroParallax } from "@/components/home/HeroParallax";
 import { BYLINE } from "@/lib/masthead";
 
 function formatEditionDate(): string {
@@ -79,8 +81,9 @@ export default function HomePage() {
         className="relative min-h-screen -mt-16 pt-16 flex items-center overflow-hidden"
       >
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
+        <HeroParallax />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-24 sm:py-32 text-center">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-24 sm:py-32 text-center parallax-slow">
           <div className="flex flex-wrap items-center justify-center gap-2 mb-6">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-[10px] font-bold uppercase tracking-[0.18em] text-white backdrop-blur-md">
               <span className="relative flex h-1.5 w-1.5">
@@ -326,9 +329,17 @@ function LeadCard({ item }: { item: AnyItem }) {
   const outbound = getOutbound(item);
   const host = getHost(outbound);
   const alcove = alcoveFromCategory(getItemCategory(item));
+  // Use the alcove's first palette color as the hover-glow tint
+  const glowRgb = hexToRgb(alcove.palette[0]);
 
   return (
-    <article className="floating-glass group relative overflow-hidden rounded-3xl h-full">
+    <TiltCard3D
+      as="article"
+      className="floating-glass relative overflow-hidden rounded-3xl h-full"
+      glowColor={glowRgb}
+      maxTilt={6}
+      hoverScale={1.015}
+    >
       <div className="relative aspect-[16/10] overflow-hidden">
         <ItemImage
           slug={item.slug}
@@ -337,19 +348,19 @@ function LeadCard({ item }: { item: AnyItem }) {
           width={1200}
           height={750}
           priority
-          className="group-hover:scale-[1.02] transition-transform duration-700 ease-out"
+          className="transition-transform duration-700 ease-out"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
         <div className="absolute inset-0 mix-blend-overlay opacity-70" style={{
           background: `radial-gradient(at 30% 80%, ${alcove.palette[0]}55, transparent 60%), radial-gradient(at 70% 20%, ${alcove.palette[1]}33, transparent 60%)`,
         }} />
-        <div className="absolute top-4 left-4">
+        <div className="absolute top-4 left-4 tilt-3d-pop">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-[0.18em] border border-white/20">
             Lead Pick
           </span>
         </div>
       </div>
-      <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+      <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8 tilt-3d-pop">
         <CategoryBadge label={getItemCategory(item) || "Tool"} color="amber" className="mb-3" />
         <Link href={`/item/${item.slug}`} data-cursor="hover" className="block group/title">
           <h3 className="text-2xl sm:text-3xl font-bold text-white leading-tight tracking-tight group-hover/title:text-amber-200 transition-colors">
@@ -381,8 +392,16 @@ function LeadCard({ item }: { item: AnyItem }) {
           )}
         </div>
       </div>
-    </article>
+    </TiltCard3D>
   );
+}
+
+function hexToRgb(hex: string): string {
+  const h = hex.replace("#", "");
+  const r = parseInt(h.slice(0, 2), 16);
+  const g = parseInt(h.slice(2, 4), 16);
+  const b = parseInt(h.slice(4, 6), 16);
+  return `${r}, ${g}, ${b}`;
 }
 
 function SupportingCard({ item, compact = false }: { item: AnyItem; compact?: boolean }) {
@@ -487,24 +506,32 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
 
 function AlcoveItemCard({ item }: { item: AnyItem }) {
   const title = getItemTitle(item);
+  const alcove = alcoveFromCategory(getItemCategory(item));
   return (
-    <Link
-      href={`/item/${item.slug}`}
-      data-cursor="hover"
-      className="alcove-card group block relative overflow-hidden rounded-2xl transition-all p-5 h-full"
+    <TiltCard3D
+      className="rounded-2xl h-full"
+      glowColor={hexToRgb(alcove.palette[0])}
+      maxTilt={8}
+      hoverScale={1.02}
     >
-      <div className="flex items-start gap-3 mb-3">
-        <CategoryBadge label={getItemCategory(item) || ""} color="amber" />
-      </div>
-      <h3 className="text-base sm:text-lg font-semibold leading-snug group-hover:text-amber-300 transition-colors line-clamp-2">
-        {title}
-      </h3>
-      <p className="mt-2 text-sm alcove-card-muted leading-relaxed line-clamp-2">
-        {getItemExcerpt(item, 130)}
-      </p>
-      <div className="mt-4 text-[10px] uppercase tracking-wider alcove-card-faint inline-flex items-center gap-1">
-        Read the take <span className="group-hover:translate-x-0.5 transition-transform">→</span>
-      </div>
-    </Link>
+      <Link
+        href={`/item/${item.slug}`}
+        data-cursor="hover"
+        className="alcove-card group block relative overflow-hidden rounded-2xl transition-all p-5 h-full"
+      >
+        <div className="flex items-start gap-3 mb-3 tilt-3d-pop">
+          <CategoryBadge label={getItemCategory(item) || ""} color="amber" />
+        </div>
+        <h3 className="text-base sm:text-lg font-semibold leading-snug group-hover:text-amber-300 transition-colors line-clamp-2 tilt-3d-pop">
+          {title}
+        </h3>
+        <p className="mt-2 text-sm alcove-card-muted leading-relaxed line-clamp-2">
+          {getItemExcerpt(item, 130)}
+        </p>
+        <div className="mt-4 text-[10px] uppercase tracking-wider alcove-card-faint inline-flex items-center gap-1">
+          Read the take <span className="group-hover:translate-x-0.5 transition-transform">→</span>
+        </div>
+      </Link>
+    </TiltCard3D>
   );
 }
