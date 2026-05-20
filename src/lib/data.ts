@@ -101,7 +101,23 @@ export interface AffiliateInfo {
 export type AnyItem = (Discovery | Product | HiddenGem | FutureTech | DailyTool) & {
   affiliate?: AffiliateInfo;
   promoCode?: string;
+  /** Single editorial paragraph from the 2026-05 rewrite, replaces the old
+   *  two-section template when present. See scripts/editorial-rewrite.mjs */
+  editorial?: string;
+  /** One-liner take that appears under the title */
+  takeaway?: string;
+  rewrittenAt?: string;
 };
+
+/** Editorial-first description getter — prefers the rewritten paragraph */
+export function getItemEditorial(item: AnyItem): string {
+  if (item.editorial) return item.editorial;
+  // Fall back to the old two-section concatenation
+  const what = getItemDescription(item);
+  const why = getItemWhyText(item);
+  if (what && why) return `${what}\n\n${why}`;
+  return what || why || "";
+}
 
 /* ---- Data Access ---- */
 export const discoveries = discoveriesData as Discovery[];
@@ -160,10 +176,29 @@ export function getItemBySlug(slug: string): AnyItem | undefined {
 }
 
 export function getItemTitle(item: AnyItem): string {
-  if (item.type === "hidden-gem") return (item as HiddenGem).name;
-  if (item.type === "future-tech") return (item as FutureTech).techName;
-  if (item.type === "tool") return (item as DailyTool).toolName;
-  return (item as Discovery | Product).title;
+  const raw =
+    item.type === "hidden-gem" ? (item as HiddenGem).name :
+    item.type === "future-tech" ? (item as FutureTech).techName :
+    item.type === "tool" ? (item as DailyTool).toolName :
+    (item as Discovery | Product).title;
+
+  // Some catalog items were generated with the slug duplicated into the
+  // title field (e.g. toolName: "guizang-ppt-skill"). When that happens,
+  // prefer the seoTitle if it exists and is actually human-readable.
+  const looksLikeSlug = !!raw && /^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(raw.trim());
+  if (looksLikeSlug) {
+    const seo = (item as { seoTitle?: string }).seoTitle;
+    if (seo && seo.length > 0) {
+      // Drop trailing " — descriptor" so the H1 stays compact
+      return seo.split(/\s+[—–-]\s+/)[0] || seo;
+    }
+    // Last-resort: title-case the slug
+    return raw
+      .split("-")
+      .map((s) => s.charAt(0).toUpperCase() + s.slice(1))
+      .join(" ");
+  }
+  return raw;
 }
 
 export function getItemDescription(item: AnyItem): string {
