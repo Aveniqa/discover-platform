@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
-import { hiddenGems, dailyTools, getItemExcerpt, getItemCategory, type AnyItem } from "@/lib/data";
+import { hiddenGems, dailyTools, getItemExcerpt, getItemCategory, getItemTitle, type AnyItem } from "@/lib/data";
 import { itemListLd, ldScript } from "@/lib/jsonld";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
@@ -289,9 +289,9 @@ export default function HomePage() {
 
 function getTitle(item: AnyItem | undefined): string {
   if (!item) return "";
-  if (item.type === "hidden-gem") return item.name;
-  if (item.type === "tool") return item.toolName;
-  return (item as { title?: string }).title ?? item.slug;
+  // Delegate to the smart helper — it falls back to seoTitle when toolName
+  // is slug-shaped (the bulk-generator wrote slugs into toolName for ~30 items).
+  return getItemTitle(item);
 }
 
 function getOutbound(item: AnyItem): string | null {
