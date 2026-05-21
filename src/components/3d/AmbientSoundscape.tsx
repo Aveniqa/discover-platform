@@ -2,169 +2,449 @@
 
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
-import { deriveWorldSeed } from "@/lib/world-seed";
+import { deriveWorldSeed, type WorldSeed } from "@/lib/world-seed";
+import {
+  ITEM_KEYFRAMES,
+  clamp01,
+  getWorldPhaseTelemetry,
+  type WorldPhaseTelemetry,
+} from "@/lib/world-phase";
 
 /**
- * Ambient soundscape — pure Web Audio synthesis (no audio files shipped).
- * Each route gets a unique chord built from the alcove palette's frequency
- * mapping. Crossfades smoothly when the user navigates.
+ * Scroll-locked layered soundscape.
  *
- * Strictly opt-in: silent until the user clicks the speaker toggle. Once
- * enabled, the preference persists in localStorage and follows the user
- * across routes. Toggle is always visible bottom-right.
- *
- * Accessibility: respects prefers-reduced-motion as a hint (still allows
- * opt-in), uses aria-pressed on the toggle, and starts at -22 LUFS so the
- * pad is felt more than heard.
+ * PR 1 for the spatial world upgrade: no shipped samples, no Tone.js, just six
+ * Web Audio synth layers that behave like short loops and crossfade by the
+ * same phase telemetry the item camera/morph uses. Default is silent; a user
+ * tap is required before an AudioContext exists.
  */
 const STORAGE_KEY = "surfaced.soundscape.enabled";
+const PHASE_EVENT = "surfaced:world-phase";
+const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
+const ROUTE_LAYER_SCALE = 0.72;
 
-// Map alcove kinds to chord roots (Hz) and intervals (semitones)
-const PALETTE: Record<string, { root: number; intervals: number[]; lfoHz: number; lpHz: number }> = {
-  ai:            { root: 220.00, intervals: [0, 7, 14, 19], lfoHz: 0.07, lpHz: 360 },
-  writing:       { root: 174.61, intervals: [0, 5, 9, 12],  lfoHz: 0.05, lpHz: 420 },
-  design:        { root: 261.63, intervals: [0, 4, 7, 11],  lfoHz: 0.09, lpHz: 480 },
-  developer:     { root: 146.83, intervals: [0, 7, 10, 17], lfoHz: 0.06, lpHz: 320 },
-  productivity: { root: 196.00, intervals: [0, 5, 7, 12],  lfoHz: 0.05, lpHz: 380 },
-  research:      { root: 110.00, intervals: [0, 3, 7, 10],  lfoHz: 0.04, lpHz: 300 },
-  audio:         { root: 261.63, intervals: [0, 7, 12, 19], lfoHz: 0.08, lpHz: 500 },
-  finance:       { root: 130.81, intervals: [0, 4, 7, 11],  lfoHz: 0.05, lpHz: 340 },
-  social:        { root: 246.94, intervals: [0, 3, 7, 10],  lfoHz: 0.07, lpHz: 440 },
-  health:        { root: 174.61, intervals: [0, 5, 7, 12],  lfoHz: 0.04, lpHz: 360 },
-  entertainment: { root: 293.66, intervals: [0, 4, 7, 11],  lfoHz: 0.10, lpHz: 520 },
-  default:       { root: 196.00, intervals: [0, 5, 9, 12],  lfoHz: 0.06, lpHz: 400 },
-};
+type OscillatorKind = OscillatorType;
 
-interface ActiveVoice {
-  ctx: AudioContext;
-  out: GainNode;
+interface LayerSpec {
+  intervals: number[];
+  oscillator: OscillatorKind;
+  detuneSpread: number;
+  filterHz: number;
+  filterQ: number;
+  delayMs: number;
+  feedback: number;
+  lfoHz: number;
+  lfoDepth: number;
+  maxGain: number;
+}
+
+interface LayerVoice {
+  gain: GainNode;
+  filter: BiquadFilterNode;
   oscs: OscillatorNode[];
   lfo: OscillatorNode;
-  lp: BiquadFilterNode;
+}
+
+interface ActiveSoundscape {
+  ctx: AudioContext;
+  master: GainNode;
+  layers: LayerVoice[];
+  key: string;
+}
+
+const ROOTS: Record<string, number> = {
+  ai: 220.0,
+  writing: 174.61,
+  design: 261.63,
+  developer: 146.83,
+  productivity: 196.0,
+  research: 110.0,
+  audio: 261.63,
+  finance: 130.81,
+  social: 246.94,
+  health: 174.61,
+  entertainment: 293.66,
+  default: 196.0,
+};
+
+const LAYERS: LayerSpec[] = [
+  // Arrival: sparse sub-bass drone.
+  {
+    intervals: [-24, -12, 0],
+    oscillator: "sine",
+    detuneSpread: 3,
+    filterHz: 150,
+    filterQ: 0.55,
+    delayMs: 0,
+    feedback: 0,
+    lfoHz: 1 / 16,
+    lfoDepth: 28,
+    maxGain: 0.72,
+  },
+  // Recognition: bell-pad layer enters.
+  {
+    intervals: [0, 7, 12, 19],
+    oscillator: "triangle",
+    detuneSpread: 9,
+    filterHz: 520,
+    filterQ: 0.7,
+    delayMs: 180,
+    feedback: 0.18,
+    lfoHz: 1 / 12,
+    lfoDepth: 70,
+    maxGain: 0.58,
+  },
+  // Heart: full harmonic stack.
+  {
+    intervals: [-12, 0, 4, 7, 12, 16],
+    oscillator: "sawtooth",
+    detuneSpread: 14,
+    filterHz: 880,
+    filterQ: 0.85,
+    delayMs: 260,
+    feedback: 0.24,
+    lfoHz: 1 / 10,
+    lfoDepth: 120,
+    maxGain: 0.42,
+  },
+  // Inversion: cooled, reverbed pulse.
+  {
+    intervals: [-12, 0, 3, 10, 15],
+    oscillator: "triangle",
+    detuneSpread: 7,
+    filterHz: 340,
+    filterQ: 1.2,
+    delayMs: 420,
+    feedback: 0.34,
+    lfoHz: 0.75,
+    lfoDepth: 150,
+    maxGain: 0.48,
+  },
+  // Communion: choral pad / constellation.
+  {
+    intervals: [-7, 0, 5, 7, 12, 19],
+    oscillator: "sine",
+    detuneSpread: 18,
+    filterHz: 740,
+    filterQ: 0.65,
+    delayMs: 520,
+    feedback: 0.28,
+    lfoHz: 1 / 14,
+    lfoDepth: 95,
+    maxGain: 0.5,
+  },
+  // Departure: collapses to a single sine.
+  {
+    intervals: [-24],
+    oscillator: "sine",
+    detuneSpread: 0,
+    filterHz: 220,
+    filterQ: 0.45,
+    delayMs: 90,
+    feedback: 0.08,
+    lfoHz: 1 / 16,
+    lfoDepth: 18,
+    maxGain: 0.68,
+  },
+];
+
+function prefersReducedMotion(): boolean {
+  return typeof window !== "undefined" && window.matchMedia?.(REDUCED_MOTION_QUERY).matches === true;
+}
+
+function readScrollT(): number {
+  if (typeof window === "undefined") return 0;
+  const max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+  return clamp01(window.scrollY / max);
+}
+
+function currentWorldSeed(pathname: string | null): WorldSeed {
+  if (typeof document === "undefined") {
+    return deriveWorldSeed({ pathname: pathname || "/" });
+  }
+  const slug = document.body.dataset.itemSlug;
+  const category = document.body.dataset.itemCategory;
+  return deriveWorldSeed({ pathname: pathname || "/", slug, category });
+}
+
+function soundscapeKey(seed: WorldSeed): string {
+  return `${seed.scene}:${seed.key}:${seed.alcove.kind}`;
+}
+
+function note(root: number, semis: number): number {
+  return root * Math.pow(2, semis / 12);
+}
+
+function rootForSeed(seed: WorldSeed): number {
+  const base = ROOTS[seed.alcove.kind] ?? ROOTS.default;
+  return base * (0.96 + seed.hue * 0.08);
+}
+
+function startLayeredSoundscape(seed: WorldSeed): ActiveSoundscape {
+  type AnyWin = Window & typeof globalThis & { webkitAudioContext?: typeof AudioContext };
+  const AC: typeof AudioContext = window.AudioContext ?? (window as AnyWin).webkitAudioContext!;
+  const ctx = new AC({ latencyHint: "interactive" });
+  const master = ctx.createGain();
+  master.gain.value = 0;
+  master.connect(ctx.destination);
+
+  const root = rootForSeed(seed);
+  const layers = LAYERS.map((spec, layerIndex) => createLayer(ctx, master, root, spec, layerIndex, seed));
+  master.gain.setValueAtTime(0, ctx.currentTime);
+  master.gain.linearRampToValueAtTime(0.058, ctx.currentTime + 1.1);
+
+  return { ctx, master, layers, key: soundscapeKey(seed) };
+}
+
+function createLayer(
+  ctx: AudioContext,
+  master: GainNode,
+  root: number,
+  spec: LayerSpec,
+  layerIndex: number,
+  seed: WorldSeed
+): LayerVoice {
+  const gain = ctx.createGain();
+  gain.gain.value = 0;
+  gain.connect(master);
+
+  const filter = ctx.createBiquadFilter();
+  filter.type = layerIndex >= 3 ? "bandpass" : "lowpass";
+  filter.frequency.value = spec.filterHz;
+  filter.Q.value = spec.filterQ;
+
+  if (spec.delayMs > 0) {
+    const delay = ctx.createDelay(1.2);
+    const feedback = ctx.createGain();
+    delay.delayTime.value = spec.delayMs / 1000;
+    feedback.gain.value = spec.feedback;
+    filter.connect(delay);
+    delay.connect(feedback);
+    feedback.connect(delay);
+    delay.connect(gain);
+  }
+  filter.connect(gain);
+
+  const lfo = ctx.createOscillator();
+  const lfoGain = ctx.createGain();
+  lfo.frequency.value = spec.lfoHz;
+  lfoGain.gain.value = spec.lfoDepth;
+  lfo.connect(lfoGain);
+  lfoGain.connect(filter.frequency);
+  lfo.start();
+
+  const oscs = spec.intervals.map((semis, i) => {
+    const osc = ctx.createOscillator();
+    const voiceGain = ctx.createGain();
+    osc.type = spec.oscillator;
+    osc.frequency.value = note(root, semis);
+    osc.detune.value = (i - (spec.intervals.length - 1) / 2) * spec.detuneSpread + (seed.hue - 0.5) * 12;
+    voiceGain.gain.value = 1 / Math.max(1.8, spec.intervals.length);
+    osc.connect(voiceGain);
+    voiceGain.connect(filter);
+    osc.start();
+    return osc;
+  });
+
+  return { gain, filter, oscs, lfo };
+}
+
+function syncLayerGains(active: ActiveSoundscape, telemetry: WorldPhaseTelemetry): void {
+  const now = active.ctx.currentTime;
+  const fromPower = Math.cos(telemetry.mix * Math.PI * 0.5);
+  const toPower = Math.sin(telemetry.mix * Math.PI * 0.5);
+  const routeScale = telemetry.scene === "route" ? ROUTE_LAYER_SCALE : 1;
+  const masterTarget = (0.048 + telemetry.glow * 0.012) * routeScale;
+
+  active.master.gain.setTargetAtTime(masterTarget, now, 0.16);
+
+  active.layers.forEach((layer, index) => {
+    let power = 0;
+    if (index === telemetry.phaseIndex) power = fromPower;
+    if (index === telemetry.nextPhaseIndex) power = Math.max(power, toPower);
+    const target = power * LAYERS[index].maxGain;
+    layer.gain.gain.setTargetAtTime(target, now, 0.085);
+    layer.filter.frequency.setTargetAtTime(
+      LAYERS[index].filterHz * (0.82 + telemetry.glow * 0.22),
+      now,
+      0.18
+    );
+  });
+}
+
+function teardown(active: ActiveSoundscape | null): void {
+  if (!active) return;
+  try {
+    const now = active.ctx.currentTime;
+    active.master.gain.cancelScheduledValues(now);
+    active.master.gain.setValueAtTime(active.master.gain.value, now);
+    active.master.gain.linearRampToValueAtTime(0, now + 0.55);
+    window.setTimeout(() => {
+      try {
+        active.layers.forEach((layer) => {
+          layer.oscs.forEach((osc) => osc.stop());
+          layer.lfo.stop();
+        });
+      } catch {}
+      try {
+        active.ctx.close();
+      } catch {}
+    }, 650);
+  } catch {}
 }
 
 export function AmbientSoundscape() {
   const pathname = usePathname();
   const [enabled, setEnabled] = useState(false);
-  const voiceRef = useRef<ActiveVoice | null>(null);
-  const currentKey = useRef<string>("");
+  const [phaseLabel, setPhaseLabel] = useState("Arrival");
+  const [reducedMotion, setReducedMotion] = useState(false);
+  const voiceRef = useRef<ActiveSoundscape | null>(null);
+  const seedRef = useRef<WorldSeed | null>(null);
+  const telemetryRef = useRef<WorldPhaseTelemetry | null>(null);
+  const rafRef = useRef(0);
+  const labelRef = useRef("Arrival");
 
-  // Restore preference from localStorage
   useEffect(() => {
-    try {
-      if (localStorage.getItem(STORAGE_KEY) === "1") setEnabled(true);
-    } catch {}
+    const syncSeed = () => {
+      const seed = currentWorldSeed(pathname);
+      const key = soundscapeKey(seed);
+      const active = voiceRef.current;
+      seedRef.current = seed;
+
+      if (active && active.key !== key && !prefersReducedMotion()) {
+        teardown(active);
+        voiceRef.current = startLayeredSoundscape(seed);
+      }
+      schedulePhaseSync();
+    };
+
+    syncSeed();
+    window.addEventListener("surfaced:world-reseed", syncSeed);
+    return () => window.removeEventListener("surfaced:world-reseed", syncSeed);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
+
+  useEffect(() => {
+    const schedule = () => schedulePhaseSync();
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule, { passive: true });
+    schedule();
+    return () => {
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Persist preference
   useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, enabled ? "1" : "0");
-    } catch {}
-  }, [enabled]);
+    const media = window.matchMedia?.(REDUCED_MOTION_QUERY);
+    if (!media) return;
+    const syncReducedMotion = () => {
+      const isReduced = media.matches;
+      setReducedMotion(isReduced);
+      if (isReduced && voiceRef.current) {
+        setEnabled(false);
+        teardown(voiceRef.current);
+        voiceRef.current = null;
+      }
+    };
+    syncReducedMotion();
+    media.addEventListener?.("change", syncReducedMotion);
+    return () => media.removeEventListener?.("change", syncReducedMotion);
+  }, []);
 
-  // Build / switch the chord when alcove changes
-  useEffect(() => {
-    if (!enabled) {
-      teardown();
+  useEffect(() => () => teardown(voiceRef.current), []);
+
+  function schedulePhaseSync() {
+    if (rafRef.current) return;
+    rafRef.current = requestAnimationFrame(() => {
+      rafRef.current = 0;
+      const seed = seedRef.current ?? currentWorldSeed(pathname);
+      const telemetry = getWorldPhaseTelemetry(seed, readScrollT());
+      telemetryRef.current = telemetry;
+      const active = voiceRef.current;
+      if (active) syncLayerGains(active, telemetry);
+      document.body.dataset.worldPhase = telemetry.id;
+      window.dispatchEvent(new CustomEvent(PHASE_EVENT, { detail: telemetry }));
+
+      if (labelRef.current !== telemetry.label) {
+        labelRef.current = telemetry.label;
+        setPhaseLabel(telemetry.label);
+      }
+    });
+  }
+
+  async function toggleSoundscape() {
+    if (enabled) {
+      setEnabled(false);
+      try {
+        localStorage.setItem(STORAGE_KEY, "0");
+      } catch {}
+      teardown(voiceRef.current);
+      voiceRef.current = null;
       return;
     }
-    const seed = deriveWorldSeed({ pathname: pathname || "/" });
-    const key = seed.alcove.kind;
-    if (key === currentKey.current && voiceRef.current) return;
-    currentKey.current = key;
 
-    teardown();
-    voiceRef.current = startVoice(PALETTE[key] || PALETTE.default);
+    if (prefersReducedMotion()) {
+      setPhaseLabel("Motion safe");
+      return;
+    }
 
-    return () => teardown();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [enabled, pathname]);
-
-  function teardown() {
-    const v = voiceRef.current;
-    if (!v) return;
+    const seed = currentWorldSeed(pathname);
+    seedRef.current = seed;
+    const active = startLayeredSoundscape(seed);
+    voiceRef.current = active;
+    if (active.ctx.state === "suspended") {
+      await active.ctx.resume();
+    }
+    const telemetry = getWorldPhaseTelemetry(seed, readScrollT());
+    telemetryRef.current = telemetry;
+    syncLayerGains(active, telemetry);
+    setEnabled(true);
     try {
-      const now = v.ctx.currentTime;
-      v.out.gain.cancelScheduledValues(now);
-      v.out.gain.setValueAtTime(v.out.gain.value, now);
-      v.out.gain.linearRampToValueAtTime(0, now + 0.9);
-      setTimeout(() => {
-        try { v.oscs.forEach((o) => o.stop()); v.lfo.stop(); } catch {}
-        try { v.ctx.close(); } catch {}
-      }, 1000);
+      localStorage.setItem(STORAGE_KEY, "1");
     } catch {}
-    voiceRef.current = null;
+    schedulePhaseSync();
   }
 
-  function startVoice(p: typeof PALETTE.default): ActiveVoice {
-    type AnyWin = Window & typeof globalThis & { webkitAudioContext?: typeof AudioContext };
-    const AC: typeof AudioContext = window.AudioContext ?? (window as AnyWin).webkitAudioContext!;
-    const ctx = new AC();
-    const out = ctx.createGain();
-    out.gain.value = 0;
-    out.connect(ctx.destination);
+  const disabledForMotion = reducedMotion;
+  const label = disabledForMotion
+    ? "Soundscape disabled while reduced motion is enabled"
+    : enabled
+      ? `Mute ${phaseLabel} soundscape`
+      : "Tap to enable scroll-locked soundscape";
 
-    out.gain.cancelScheduledValues(ctx.currentTime);
-    out.gain.setValueAtTime(0, ctx.currentTime);
-    out.gain.linearRampToValueAtTime(0.06, ctx.currentTime + 1.6);
-
-    const lp = ctx.createBiquadFilter();
-    lp.type = "lowpass";
-    lp.frequency.value = p.lpHz;
-    lp.Q.value = 0.7;
-
-    const oscs: OscillatorNode[] = p.intervals.map((semis, i) => {
-      const o = ctx.createOscillator();
-      o.type = i === 0 ? "sine" : i === 1 ? "triangle" : "sine";
-      o.frequency.value = p.root * Math.pow(2, semis / 12);
-      o.detune.value = (i - 1.5) * 6;
-      const g = ctx.createGain();
-      g.gain.value = i === 0 ? 0.7 : 0.45 - i * 0.06;
-      o.connect(g);
-      g.connect(lp);
-      o.start();
-      return o;
-    });
-
-    lp.connect(out);
-
-    const lfo = ctx.createOscillator();
-    const lfoGain = ctx.createGain();
-    lfo.frequency.value = p.lfoHz;
-    lfoGain.gain.value = 90;
-    lfo.connect(lfoGain);
-    lfoGain.connect(lp.frequency);
-    lfo.start();
-
-    return { ctx, out, oscs, lfo, lp };
-  }
-
-  // The toggle UI — fixed bottom-right
   return (
     <button
-      onClick={() => setEnabled((e) => !e)}
+      onClick={toggleSoundscape}
       aria-pressed={enabled}
-      aria-label={enabled ? "Mute ambient soundscape" : "Play ambient soundscape — adapts to each scene"}
-      title={enabled ? "Mute soundscape" : "Play ambient soundscape"}
-      className={`fixed bottom-6 right-6 z-[60] w-12 h-12 rounded-full backdrop-blur-md border transition-all flex items-center justify-center shadow-lg ${
+      aria-label={label}
+      title={label}
+      className={`fixed bottom-6 right-6 z-[60] h-12 rounded-full backdrop-blur-md border transition-all inline-flex items-center justify-center gap-2 px-3 sm:px-4 shadow-lg ${
         enabled
           ? "bg-accent text-white border-accent/40 shadow-[0_8px_30px_rgba(168,85,247,0.4)]"
           : "bg-black/40 text-white/70 border-white/15 hover:bg-black/60 hover:text-white"
       }`}
     >
       {enabled ? (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
           <path d="M11 5L6 9H2v6h4l5 4V5z" />
           <path d="M19.07 4.93a10 10 0 010 14.14M15.54 8.46a5 5 0 010 7.07" />
         </svg>
       ) : (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
           <path d="M11 5L6 9H2v6h4l5 4V5z" />
           <line x1="22" y1="9" x2="16" y2="15" />
           <line x1="16" y1="9" x2="22" y2="15" />
         </svg>
       )}
+      <span className="text-xs font-semibold leading-none">
+        {enabled ? phaseLabel : disabledForMotion ? "Motion safe" : "Tap for sound"}
+      </span>
+      <span className="sr-only">
+        {ITEM_KEYFRAMES.map((phase) => phase.label).join(", ")}
+      </span>
     </button>
   );
 }
