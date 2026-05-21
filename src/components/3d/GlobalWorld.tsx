@@ -29,6 +29,7 @@ export function GlobalWorld() {
   const [seed, setSeed] = useState(() => deriveWorldSeed({ pathname: pathname || "/" }));
   const [enabled, setEnabled] = useState(false);
   const [hidden, setHidden] = useState(false);
+  const [inViewport, setInViewport] = useState(true);
   const scrollTRef = useRef(0);
   const pointerRef = useRef({ x: 0, y: 0 });
   const [scrollT, setScrollT] = useState(0);
@@ -60,6 +61,27 @@ export function GlobalWorld() {
     const idle = (cb: () => void) =>
       w.requestIdleCallback ? w.requestIdleCallback(cb, { timeout: 1500 }) : window.setTimeout(cb, 800);
     idle(() => setEnabled(true));
+  }, []);
+
+  // Gate the persistent canvas with IntersectionObserver. It normally stays
+  // active because #main-content spans the reading surface, but it avoids a
+  // live WebGL renderer when the app shell is mounted offscreen in tests or
+  // embedded previews.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if (!("IntersectionObserver" in window)) {
+      return;
+    }
+    const target = document.getElementById("main-content");
+    if (!target) {
+      return;
+    }
+    const observer = new IntersectionObserver(
+      ([entry]) => setInViewport(entry.isIntersecting),
+      { rootMargin: "240px 0px" }
+    );
+    observer.observe(target);
+    return () => observer.disconnect();
   }, []);
 
   // Scroll progress 0..1 (capped at scrollable height)
@@ -111,7 +133,7 @@ export function GlobalWorld() {
       className="fixed inset-0 pointer-events-none -z-10"
       style={{ background: fallback }}
     >
-      {enabled && !hidden && (
+      {enabled && !hidden && inViewport && (
         <WorldCanvas seed={seed} scrollT={scrollT} pointer={pointer} />
       )}
       {/* Scrim — keeps text readable against the lively backdrop */}

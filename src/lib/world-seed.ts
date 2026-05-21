@@ -11,6 +11,10 @@
 import { alcoveFromCategory, alcoveByKind, type Alcove } from "@/lib/alcoves";
 
 export interface WorldSeed {
+  /** Route-wide world or an item-specific reading world */
+  scene: "route" | "item";
+  /** Stable key used to derive the scene, usually pathname or slug */
+  key: string;
   /** 0..1 — hash-derived but stable per slug */
   hue: number;
   /** 0..1 — depth/intensity multiplier */
@@ -71,6 +75,8 @@ export function deriveWorldSeed(opts: {
   }
 
   return {
+    scene: opts.slug ? "item" : "route",
+    key,
     hue,
     intensity,
     density,
