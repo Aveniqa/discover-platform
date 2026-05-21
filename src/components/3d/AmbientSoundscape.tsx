@@ -50,6 +50,7 @@ interface ActiveSoundscape {
   master: GainNode;
   layers: LayerVoice[];
   key: string;
+  hiddenMuted: boolean;
 }
 
 const ROOTS: Record<string, number> = {
@@ -193,7 +194,7 @@ function startLayeredSoundscape(seed: WorldSeed): ActiveSoundscape {
   master.gain.setValueAtTime(0, ctx.currentTime);
   master.gain.linearRampToValueAtTime(0.058, ctx.currentTime + 1.1);
 
-  return { ctx, master, layers, key: soundscapeKey(seed) };
+  return { ctx, master, layers, key: soundscapeKey(seed), hiddenMuted: document.hidden };
 }
 
 function createLayer(
@@ -254,7 +255,7 @@ function syncLayerGains(active: ActiveSoundscape, telemetry: WorldPhaseTelemetry
   const fromPower = Math.cos(telemetry.mix * Math.PI * 0.5);
   const toPower = Math.sin(telemetry.mix * Math.PI * 0.5);
   const routeScale = telemetry.scene === "route" ? ROUTE_LAYER_SCALE : 1;
-  const masterTarget = (0.048 + telemetry.glow * 0.012) * routeScale;
+  const masterTarget = active.hiddenMuted ? 0 : (0.048 + telemetry.glow * 0.012) * routeScale;
 
   active.master.gain.setTargetAtTime(masterTarget, now, 0.16);
 
@@ -270,6 +271,14 @@ function syncLayerGains(active: ActiveSoundscape, telemetry: WorldPhaseTelemetry
       0.18
     );
   });
+}
+
+function setHiddenMuted(active: ActiveSoundscape | null, hidden: boolean): void {
+  if (!active) return;
+  active.hiddenMuted = hidden;
+  const now = active.ctx.currentTime;
+  active.master.gain.cancelScheduledValues(now);
+  active.master.gain.setTargetAtTime(hidden ? 0 : active.master.gain.value, now, hidden ? 0.04 : 0.12);
 }
 
 function teardown(active: ActiveSoundscape | null): void {
@@ -334,6 +343,17 @@ export function AmbientSoundscape() {
       window.removeEventListener("resize", schedule);
       if (rafRef.current) cancelAnimationFrame(rafRef.current);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    const syncVisibility = () => {
+      setHiddenMuted(voiceRef.current, document.hidden);
+      if (!document.hidden) schedulePhaseSync();
+    };
+    syncVisibility();
+    document.addEventListener("visibilitychange", syncVisibility);
+    return () => document.removeEventListener("visibilitychange", syncVisibility);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
