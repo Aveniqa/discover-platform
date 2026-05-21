@@ -15,6 +15,7 @@ import { collectionPageLd, breadcrumbLd, ldScript } from "@/lib/jsonld";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import { TiltCard3D } from "@/components/ui/TiltCard3D";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -58,7 +59,7 @@ export default async function CollectionPage({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(collectionLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(crumbsLd)} />
-      <section className="relative py-24 sm:py-32 overflow-hidden">
+      <section className="depth-scene relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-32 left-1/4 w-[480px] h-[480px] rounded-full bg-accent/6 blur-[120px]" />
         </div>
@@ -85,14 +86,14 @@ export default async function CollectionPage({ params }: Props) {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-24">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+        <div className="depth-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {items.map((item) => (
+            <TiltCard3D key={item.slug} className="rounded-2xl h-full" tiltDepth="medium" maxTilt={14} glowColor="168, 85, 247">
             <Link
-              key={item.slug}
               href={`/item/${item.slug}`}
               className="group block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden"
             >
-              <div className="overflow-hidden">
+              <div className="depth-layer-1 overflow-hidden">
                 <ItemImage
                   slug={item.slug}
                   alt={getItemTitle(item)}
@@ -103,14 +104,14 @@ export default async function CollectionPage({ params }: Props) {
                 />
               </div>
               <div className="p-5">
-                <div className="flex items-start justify-between gap-2 mb-3">
+                <div className="depth-layer-3 flex items-start justify-between gap-2 mb-3">
                   <CategoryBadge
                     label={getCategoryLabel(item.type)}
                     color={getCategoryColor(item.type)}
                   />
                   <BookmarkButton slug={item.slug} />
                 </div>
-                <h3 className="text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-1">
+                <h3 className="depth-layer-2 text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-1">
                   {getItemTitle(item)}
                 </h3>
                 <p className="text-xs text-muted-foreground line-clamp-2">
@@ -118,6 +119,7 @@ export default async function CollectionPage({ params }: Props) {
                 </p>
               </div>
             </Link>
+            </TiltCard3D>
           ))}
         </div>
 

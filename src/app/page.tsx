@@ -78,7 +78,7 @@ export default function HomePage() {
           ============================================ */}
       <section
         data-world-scene="hero"
-        className="relative min-h-screen -mt-16 pt-16 flex items-center overflow-hidden"
+        className="depth-scene relative min-h-screen -mt-16 pt-16 flex items-center overflow-hidden"
       >
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
         <HeroParallax />
@@ -160,7 +160,7 @@ export default function HomePage() {
         <section
           id="today"
           data-world-scene="today"
-          className="relative py-20 sm:py-28 px-4 sm:px-6 scroll-mt-20"
+          className="depth-scene relative py-20 sm:py-28 px-4 sm:px-6 scroll-mt-20"
         >
           <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
           <div className="relative max-w-[88rem] mx-auto">
@@ -186,12 +186,12 @@ export default function HomePage() {
               </Link>
             </header>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div className="depth-grid grid grid-cols-1 lg:grid-cols-3 gap-6">
               <ScrollReveal className="lg:col-span-2">
                 <LeadCard item={leadStory} />
               </ScrollReveal>
 
-              <div className="flex flex-col gap-4">
+              <div className="depth-grid flex flex-col gap-4">
                 {supporting.slice(0, 3).map((item, idx) => (
                   <ScrollReveal key={item.slug} delay={idx * 80}>
                     <SupportingCard item={item} />
@@ -201,7 +201,7 @@ export default function HomePage() {
             </div>
 
             {supporting.length > 3 && (
-              <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="depth-grid mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {supporting.slice(3).map((item, idx) => (
                   <ScrollReveal key={item.slug} delay={idx * 100}>
                     <SupportingCard item={item} compact />
@@ -227,7 +227,7 @@ export default function HomePage() {
           ============================================ */}
       <section
         data-world-scene="workflows"
-        className="relative py-24 sm:py-32 px-4 sm:px-6 border-t border-white/[0.05]"
+        className="depth-scene relative py-24 sm:py-32 px-4 sm:px-6 border-t border-white/[0.05]"
       >
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
         <div className="relative max-w-5xl mx-auto text-center">
@@ -256,7 +256,7 @@ export default function HomePage() {
                 key={w.goal}
                 href={`/workflows#${encodeURIComponent(w.goal.toLowerCase().replace(/\s+/g, "-"))}`}
                 data-cursor="hover"
-                className="floating-glass group inline-flex items-center gap-2 px-5 py-3 rounded-full text-sm font-medium"
+                className="magnetic floating-glass group inline-flex items-center gap-2 px-5 py-3 rounded-full text-sm font-medium"
               >
                 <span className="text-accent">{w.icon}</span>
                 {w.goal}
@@ -268,7 +268,7 @@ export default function HomePage() {
             <Link
               href="/workflows"
               data-cursor="hover"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent-hover transition-all"
+              className="magnetic inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent-hover transition-all"
             >
               Explore all workflows →
             </Link>
@@ -279,7 +279,7 @@ export default function HomePage() {
       {/* ============================================
           BYLINE — E-E-A-T trust signal
           ============================================ */}
-      <section className="relative py-16 px-4 sm:px-6 border-t border-white/[0.05]">
+      <section className="depth-scene relative py-16 px-4 sm:px-6 border-t border-white/[0.05]">
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
         <div className="relative max-w-3xl mx-auto flex flex-col sm:flex-row items-center gap-6 floating-glass rounded-2xl p-8">
           <div className="w-20 h-20 rounded-full bg-gradient-to-br from-accent to-cyan flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
@@ -337,10 +337,11 @@ function LeadCard({ item }: { item: AnyItem }) {
       as="article"
       className="floating-glass relative overflow-hidden rounded-3xl h-full"
       glowColor={glowRgb}
-      maxTilt={6}
-      hoverScale={1.015}
+      maxTilt={18}
+      hoverScale={1.04}
+      tiltDepth="strong"
     >
-      <div className="relative aspect-[16/10] overflow-hidden">
+      <div className="relative aspect-[16/10] overflow-hidden depth-layer-1">
         <ItemImage
           slug={item.slug}
           alt={title}
@@ -354,15 +355,15 @@ function LeadCard({ item }: { item: AnyItem }) {
         <div className="absolute inset-0 mix-blend-overlay opacity-70" style={{
           background: `radial-gradient(at 30% 80%, ${alcove.palette[0]}55, transparent 60%), radial-gradient(at 70% 20%, ${alcove.palette[1]}33, transparent 60%)`,
         }} />
-        <div className="absolute top-4 left-4 tilt-3d-pop">
+        <div className="absolute top-4 left-4 depth-layer-3">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-[0.18em] border border-white/20">
             Lead Pick
           </span>
         </div>
       </div>
-      <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8 tilt-3d-pop">
-        <CategoryBadge label={getItemCategory(item) || "Tool"} color="amber" className="mb-3" />
-        <Link href={`/item/${item.slug}`} data-cursor="hover" className="block group/title">
+      <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8 depth-layer-2">
+        <CategoryBadge label={getItemCategory(item) || "Tool"} color="amber" className="mb-3 depth-layer-3" />
+        <Link href={`/item/${item.slug}`} data-cursor="hover" className="block group/title depth-layer-2">
           <h3 className="text-2xl sm:text-3xl font-bold text-white leading-tight tracking-tight group-hover/title:text-amber-200 transition-colors">
             {title}
           </h3>
@@ -370,11 +371,11 @@ function LeadCard({ item }: { item: AnyItem }) {
         <p className="mt-3 text-white/85 text-sm sm:text-base leading-relaxed line-clamp-2">
           {getItemExcerpt(item, 220)}
         </p>
-        <div className="mt-5 flex flex-wrap items-center gap-3">
+        <div className="mt-5 flex flex-wrap items-center gap-3 depth-layer-4">
           <Link
             href={`/item/${item.slug}`}
             data-cursor="hover"
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white text-black text-sm font-semibold hover:bg-white/90 transition-colors"
+            className="magnetic inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white text-black text-sm font-semibold hover:bg-white/90 transition-colors"
           >
             Read the take
           </Link>
@@ -385,7 +386,7 @@ function LeadCard({ item }: { item: AnyItem }) {
               rel="noopener noreferrer"
               data-outbound="true"
               data-cursor="hover"
-              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white/10 backdrop-blur-md text-white text-sm font-medium border border-white/20 hover:bg-white/20 transition-colors"
+              className="magnetic inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white/10 backdrop-blur-md text-white text-sm font-medium border border-white/20 hover:bg-white/20 transition-colors"
             >
               Visit {host} ↗
             </a>
@@ -409,15 +410,22 @@ function SupportingCard({ item, compact = false }: { item: AnyItem; compact?: bo
   const outbound = getOutbound(item);
   const host = getHost(outbound);
   const alcove = alcoveFromCategory(getItemCategory(item));
+  const glowRgb = hexToRgb(alcove.palette[0]);
 
   return (
-    <Link
-      href={`/item/${item.slug}`}
-      data-cursor="hover"
-      className="floating-glass group block relative overflow-hidden rounded-2xl"
+    <TiltCard3D
+      className="rounded-2xl h-full"
+      glowColor={glowRgb}
+      tiltDepth={compact ? "subtle" : "medium"}
+      maxTilt={14}
     >
+      <Link
+        href={`/item/${item.slug}`}
+        data-cursor="hover"
+        className="floating-glass group block relative overflow-hidden rounded-2xl h-full"
+      >
       <div className={`flex ${compact ? "flex-row" : "flex-col"}`}>
-        <div className={`relative overflow-hidden ${compact ? "w-32 flex-shrink-0" : "w-full aspect-[16/9]"}`}>
+        <div className={`depth-layer-1 relative overflow-hidden ${compact ? "w-32 flex-shrink-0" : "w-full aspect-[16/9]"}`}>
           <ItemImage
             slug={item.slug}
             alt={title}
@@ -431,8 +439,8 @@ function SupportingCard({ item, compact = false }: { item: AnyItem; compact?: bo
           }} />
         </div>
         <div className="p-4 flex flex-col flex-1 min-w-0">
-          <CategoryBadge label={getItemCategory(item) || "Tool"} color="amber" className="mb-2 self-start" />
-          <h3 className="text-sm font-semibold leading-snug group-hover:text-accent transition-colors line-clamp-2">
+          <CategoryBadge label={getItemCategory(item) || "Tool"} color="amber" className="depth-layer-3 mb-2 self-start" />
+          <h3 className="depth-layer-2 text-sm font-semibold leading-snug group-hover:text-accent transition-colors line-clamp-2">
             {title}
           </h3>
           {!compact && (
@@ -441,13 +449,14 @@ function SupportingCard({ item, compact = false }: { item: AnyItem; compact?: bo
             </p>
           )}
           {host && (
-            <p className="mt-auto pt-2 text-[10px] uppercase tracking-wider opacity-60">
+            <p className="depth-layer-4 mt-auto pt-2 text-[10px] uppercase tracking-wider opacity-60">
               {host}
             </p>
           )}
         </div>
       </div>
-    </Link>
+      </Link>
+    </TiltCard3D>
   );
 }
 
@@ -459,7 +468,7 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
   return (
     <section
       data-world-scene={`alcove-${alcove.kind}`}
-      className="relative min-h-[80vh] flex items-center overflow-hidden border-t border-white/[0.04]"
+      className="depth-scene relative min-h-[80vh] flex items-center overflow-hidden border-t border-white/[0.04]"
     >
       {/* World scrim adapts to global world rather than having its own canvas */}
       <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
@@ -491,7 +500,7 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
             </Link>
           </div>
 
-          <div className="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="depth-grid lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {items.map((item, i) => (
               <ScrollReveal key={item.slug} delay={i * 90}>
                 <AlcoveItemCard item={item} />
@@ -511,24 +520,25 @@ function AlcoveItemCard({ item }: { item: AnyItem }) {
     <TiltCard3D
       className="rounded-2xl h-full"
       glowColor={hexToRgb(alcove.palette[0])}
-      maxTilt={8}
-      hoverScale={1.02}
+      maxTilt={16}
+      hoverScale={1.035}
+      tiltDepth="medium"
     >
       <Link
         href={`/item/${item.slug}`}
         data-cursor="hover"
         className="alcove-card group block relative overflow-hidden rounded-2xl transition-all p-5 h-full"
       >
-        <div className="flex items-start gap-3 mb-3 tilt-3d-pop">
+        <div className="flex items-start gap-3 mb-3 depth-layer-3">
           <CategoryBadge label={getItemCategory(item) || ""} color="amber" />
         </div>
-        <h3 className="text-base sm:text-lg font-semibold leading-snug group-hover:text-amber-300 transition-colors line-clamp-2 tilt-3d-pop">
+        <h3 className="depth-layer-2 text-base sm:text-lg font-semibold leading-snug group-hover:text-amber-300 transition-colors line-clamp-2">
           {title}
         </h3>
         <p className="mt-2 text-sm alcove-card-muted leading-relaxed line-clamp-2">
           {getItemExcerpt(item, 130)}
         </p>
-        <div className="mt-4 text-[10px] uppercase tracking-wider alcove-card-faint inline-flex items-center gap-1">
+        <div className="depth-layer-4 mt-4 text-[10px] uppercase tracking-wider alcove-card-faint inline-flex items-center gap-1">
           Read the take <span className="group-hover:translate-x-0.5 transition-transform">→</span>
         </div>
       </Link>

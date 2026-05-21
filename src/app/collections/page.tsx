@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import { itemListLd, ldScript } from "@/lib/jsonld";
+import { TiltCard3D } from "@/components/ui/TiltCard3D";
 
 export const metadata: Metadata = buildMetadata({
   title: "Collections",
@@ -24,7 +25,7 @@ export default function CollectionsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(listLd)} />
-      <section className="relative py-24 sm:py-32 overflow-hidden">
+      <section className="depth-scene relative py-24 sm:py-32 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-32 left-1/4 w-[480px] h-[480px] rounded-full bg-accent/8 blur-[120px]" />
         </div>
@@ -42,23 +43,23 @@ export default function CollectionsPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-24">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="depth-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {collections_data.map((col) => (
+            <TiltCard3D key={col.slug} className="rounded-2xl h-full" tiltDepth="medium" maxTilt={14} glowColor="168, 85, 247">
             <Link
-              key={col.slug}
               href={`/collections/${col.slug}`}
               className="group relative rounded-2xl border border-border/60 bg-surface p-8 hover:border-accent/30 card-hover-glow transition-all flex flex-col gap-4"
             >
-              <span className="text-4xl">{col.emoji}</span>
+              <span className="depth-layer-3 text-4xl">{col.emoji}</span>
               <div>
-                <h2 className="text-xl font-bold text-foreground group-hover:text-accent transition-colors mb-2">
+                <h2 className="depth-layer-2 text-xl font-bold text-foreground group-hover:text-accent transition-colors mb-2">
                   {col.title}
                 </h2>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   {col.description}
                 </p>
               </div>
-              <div className="mt-auto flex items-center justify-between">
+              <div className="depth-layer-4 mt-auto flex items-center justify-between">
                 <span className="text-xs text-muted-foreground">
                   {col.itemSlugs.length} items
                 </span>
@@ -67,6 +68,7 @@ export default function CollectionsPage() {
                 </span>
               </div>
             </Link>
+            </TiltCard3D>
           ))}
         </div>
       </section>

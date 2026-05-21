@@ -26,17 +26,17 @@ export function AuroraBackground({
     <div className={`relative overflow-hidden ${className}`}>
       {/* Blob A — slow drift top-right */}
       <div
-        className={`pointer-events-none absolute -top-32 -right-32 h-[520px] w-[520px] rounded-full ${colorA} blur-[110px]`}
+        className={`aurora-fallback-blob pointer-events-none absolute -top-32 -right-32 h-[520px] w-[520px] rounded-full ${colorA} blur-[110px]`}
         style={{ animation: "aurora-a 14s ease-in-out infinite alternate" }}
       />
       {/* Blob B — medium drift bottom-left */}
       <div
-        className={`pointer-events-none absolute -bottom-24 -left-24 h-[440px] w-[440px] rounded-full ${colorB} blur-[90px]`}
+        className={`aurora-fallback-blob pointer-events-none absolute -bottom-24 -left-24 h-[440px] w-[440px] rounded-full ${colorB} blur-[90px]`}
         style={{ animation: "aurora-b 18s ease-in-out infinite alternate" }}
       />
       {/* Blob C — fast drift center */}
       <div
-        className={`pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[360px] w-[360px] rounded-full ${colorC} blur-[80px]`}
+        className={`aurora-fallback-blob pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[360px] w-[360px] rounded-full ${colorC} blur-[80px]`}
         style={{ animation: "aurora-c 10s ease-in-out infinite alternate" }}
       />
 
