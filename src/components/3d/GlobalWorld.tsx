@@ -124,6 +124,8 @@ export function GlobalWorld() {
     return () => document.removeEventListener("visibilitychange", handler);
   }, []);
 
+  const shouldKeepDepartureAlive = seed.scene === "item" && scrollT > 0.9;
+  const shouldRenderWorld = enabled && !hidden && (inViewport || shouldKeepDepartureAlive);
   const [a, b, c] = seed.alcove.palette;
   const fallback = `radial-gradient(at 28% 20%, ${a}55, transparent 60%), radial-gradient(at 72% 78%, ${b}33, transparent 65%), ${c}`;
 
@@ -133,7 +135,7 @@ export function GlobalWorld() {
       className="fixed inset-0 pointer-events-none -z-10"
       style={{ background: fallback }}
     >
-      {enabled && !hidden && inViewport && (
+      {shouldRenderWorld && (
         <WorldCanvas seed={seed} scrollT={scrollT} pointer={pointer} />
       )}
       {/* Scrim — keeps text readable against the lively backdrop */}
