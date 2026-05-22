@@ -351,7 +351,6 @@ function LeadCard({ item }: { item: AnyItem }) {
           aspectRatio="16/10"
           width={1200}
           height={750}
-          priority
           className="hero-zoom-out transition-transform duration-700 ease-out"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
