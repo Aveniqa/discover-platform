@@ -630,6 +630,35 @@ body.has-3d-world .bg-background {
   transition-duration: 0.22s, 0.35s, 0.35s;
 }
 
+[data-theme="light"] .specular-highlight::after {
+  background: radial-gradient(circle 240px at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255,255,255,0.55), transparent 60%);
+  mix-blend-mode: screen;
+}
+
+[data-theme="light"] .rim-light::before {
+  background:
+    conic-gradient(
+      from var(--rim-angle, 0deg) at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      transparent 0deg,
+      rgba(255, 255, 255, 0.85) 28deg,
+      rgba(var(--glow-color, 168, 85, 247), 0.55) 58deg,
+      transparent 118deg,
+      transparent 360deg
+    );
+}
+
+[data-theme="light"] .tilt-3d.is-hovered {
+  box-shadow:
+    0 0 0 1px rgba(var(--glow-color, 168, 85, 247), 0.28),
+    0 30px 60px -22px rgba(0, 0, 0, 0.22),
+    0 35px 80px -28px rgba(var(--glow-color, 168, 85, 247), 0.32);
+}
+
+[data-theme="light"] .companion-orb {
+  background: rgba(20, 20, 28, 0.85);
+  mix-blend-mode: difference;
+}
+
 .rim-light::before,
 .specular-highlight::after {
   content: "";
