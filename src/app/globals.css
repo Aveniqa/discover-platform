@@ -659,6 +659,21 @@ body.has-3d-world .bg-background {
   mix-blend-mode: difference;
 }
 
+.tilt-3d:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  box-shadow:
+    0 0 0 1px rgba(var(--glow-color, 168, 85, 247), 0.35),
+    0 25px 50px -20px rgba(0, 0, 0, 0.55);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tilt-3d:focus-within {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+  }
+}
+
 .rim-light::before,
 .specular-highlight::after {
   content: "";
