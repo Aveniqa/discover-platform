@@ -18,6 +18,7 @@ import { TiltCard3D } from "@/components/ui/TiltCard3D";
 import { HomeStreakStatus, SearchSurfacedButton } from "@/components/home/HomeHeroActions";
 import { LiveNowTicker } from "@/components/home/LiveNowTicker";
 import { HeroParallax } from "@/components/home/HeroParallax";
+import { ChapterProgress } from "@/components/home/ChapterProgress";
 import { BYLINE } from "@/lib/masthead";
 
 function formatEditionDate(): string {
@@ -470,8 +471,9 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
   return (
     <section
       data-world-scene={`alcove-${alcove.kind}`}
-      className="depth-scene no-scroll-tilt relative min-h-[80vh] flex items-center overflow-hidden border-t border-white/[0.04]"
+      className="depth-scene no-scroll-tilt chapter-pin relative min-h-[200vh] overflow-hidden border-t border-white/[0.04]"
     >
+      <ChapterProgress />
       {/* World scrim adapts to global world rather than having its own canvas */}
       <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
       <div
@@ -481,33 +483,35 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
         }}
         aria-hidden="true"
       />
-      <div className="scroll-tilt-stage relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-20 sm:py-28 w-full">
-        <div className={`flex flex-col ${flip ? "lg:flex-row-reverse" : "lg:flex-row"} gap-10 lg:gap-16 items-start`}>
-          <div className="lg:w-1/3 lg:sticky lg:top-28">
-            <p className="text-xs uppercase tracking-[0.25em] text-white/70 font-semibold mb-4">
-              Alcove · {String(index + 1).padStart(2, "0")} of 06
-            </p>
-            <h2 className="text-4xl sm:text-6xl font-bold text-white leading-[0.95] tracking-tight">
-              {alcove.label}
-            </h2>
-            <p className="mt-5 text-white/85 text-lg leading-relaxed max-w-md">
-              {alcove.tagline}
-            </p>
-            <Link
-              href={`/tools?category=${encodeURIComponent(alcove.label)}`}
-              data-cursor="hover"
-              className="mt-7 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-medium hover:bg-white/20 transition-colors"
-            >
-              See all {alcove.label} tools →
-            </Link>
-          </div>
+      <div className="chapter-stage sticky top-0 h-screen flex items-center">
+        <div className="chapter-content relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20 w-full">
+          <div className={`flex flex-col ${flip ? "lg:flex-row-reverse" : "lg:flex-row"} gap-10 lg:gap-16 items-start`}>
+            <div className="lg:w-1/3">
+              <p className="text-xs uppercase tracking-[0.25em] text-white/70 font-semibold mb-4">
+                Alcove · {String(index + 1).padStart(2, "0")} of 06
+              </p>
+              <h2 className="text-4xl sm:text-6xl font-bold text-white leading-[0.95] tracking-tight">
+                {alcove.label}
+              </h2>
+              <p className="mt-5 text-white/85 text-lg leading-relaxed max-w-md">
+                {alcove.tagline}
+              </p>
+              <Link
+                href={`/tools?category=${encodeURIComponent(alcove.label)}`}
+                data-cursor="hover"
+                className="mt-7 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-medium hover:bg-white/20 transition-colors"
+              >
+                See all {alcove.label} tools →
+              </Link>
+            </div>
 
-          <div className="depth-grid lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {items.map((item, i) => (
-              <ScrollReveal key={item.slug} delay={i * 90}>
-                <AlcoveItemCard item={item} />
-              </ScrollReveal>
-            ))}
+            <div className="depth-grid lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {items.map((item, i) => (
+                <ScrollReveal key={item.slug} delay={i * 90}>
+                  <AlcoveItemCard item={item} />
+                </ScrollReveal>
+              ))}
+            </div>
           </div>
         </div>
       </div>

@@ -588,6 +588,20 @@ body.has-3d-world .bg-background {
   transform-style: preserve-3d;
 }
 
+.chapter-pin {
+  --chapter-t: 0;
+  min-height: 200vh;
+}
+
+.chapter-content {
+  transform:
+    rotateY(calc((var(--chapter-t, 0) - 0.5) * 16deg))
+    translateZ(calc(var(--chapter-t, 0) * 40px));
+  transform-style: preserve-3d;
+  transition: transform 0.18s linear;
+  will-change: transform;
+}
+
 .depth-layer-1,
 .depth-layer-2,
 .depth-layer-3,
@@ -1145,6 +1159,19 @@ body.depth-mode .floating-item {
     opacity: 0 !important;
   }
 
+  .chapter-pin {
+    min-height: auto;
+  }
+
+  .chapter-stage {
+    position: static !important;
+    height: auto !important;
+  }
+
+  .chapter-content {
+    transform: none !important;
+  }
+
   .aurora-fallback-blob {
     display: block;
   }
@@ -1168,5 +1195,18 @@ body.depth-mode .floating-item {
   .tilt-3d::before,
   .tilt-3d::after {
     opacity: 0 !important;
+  }
+
+  .chapter-pin {
+    min-height: auto;
+  }
+
+  .chapter-stage {
+    position: static !important;
+    height: auto !important;
+  }
+
+  .chapter-content {
+    transform: none !important;
   }
 }
