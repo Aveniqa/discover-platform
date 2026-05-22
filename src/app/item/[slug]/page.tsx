@@ -346,7 +346,7 @@ export default async function ItemPage({ params }: Props) {
       </div>
 
       <section className="depth-scene py-12 sm:py-16">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <div className="scroll-tilt-stage mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           {/* ── Visible breadcrumbs ─────────────────────────── */}
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center gap-1.5 text-sm text-muted-foreground flex-wrap">

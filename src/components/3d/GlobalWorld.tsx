@@ -129,7 +129,7 @@ export function GlobalWorld() {
         const dt = Math.max(16, now - (lastScrollRef.current.time || now));
         const dy = currentY - lastScrollRef.current.y;
         const velocity = Math.max(-60, Math.min(60, dy / (dt / 16.67)));
-        const tilt = Math.max(-2.5, Math.min(2.5, velocity * 0.04));
+        const tilt = Math.max(-1.5, Math.min(1.5, velocity * 0.04));
         lastScrollRef.current = { y: currentY, time: now };
         scrollTRef.current = t;
         setScrollT(t);

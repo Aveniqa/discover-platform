@@ -72,7 +72,7 @@ export default function ToolsPage() {
         colorC="bg-red-500/6"
         className="depth-scene py-24 sm:py-32"
       >
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+        <div className="scroll-tilt-stage mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rose-400 mb-4">
             Tools
           </p>
@@ -166,22 +166,23 @@ export default function ToolsPage() {
 
       {/* ── Results Grid ──────────────────────────────────── */}
       <section className="depth-scene mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
-        <p className="text-sm text-muted-foreground mb-6">
-          Showing{" "}
-          <span className="font-semibold text-foreground">
-            {filtered.length === 0 ? 0 : (page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)}
-          </span>{" "}
-          of{" "}
-          <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
-          items
-        </p>
+        <div className="scroll-tilt-stage">
+          <p className="text-sm text-muted-foreground mb-6">
+            Showing{" "}
+            <span className="font-semibold text-foreground">
+              {filtered.length === 0 ? 0 : (page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)}
+            </span>{" "}
+            of{" "}
+            <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
+            items
+          </p>
 
-        {/* AD_ZONE: sidebar */}
+          {/* AD_ZONE: sidebar */}
 
-        <div className="depth-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {paginatedItems.map((item, index) => (
-            <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />} className={index === 0 ? "sm:col-span-2 lg:col-span-2 xl:col-span-2" : ""}>
-              <TiltCard3D maxTilt={18} glowColor="244, 63, 94" tiltDepth={index === 0 ? "strong" : "medium"} className="h-full rounded-2xl">
+          <div className="depth-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+            {paginatedItems.map((item, index) => (
+              <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />} className={index === 0 ? "sm:col-span-2 lg:col-span-2 xl:col-span-2" : ""}>
+                <TiltCard3D maxTilt={18} glowColor="244, 63, 94" tiltDepth={index === 0 ? "strong" : "medium"} className="h-full rounded-2xl">
               <div className="official-card group relative rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
                 <div className="overflow-hidden relative depth-layer-1">
                   <ItemImage slug={item.slug} alt={item.toolName} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
@@ -230,36 +231,37 @@ export default function ToolsPage() {
                 )}
                 </div>
               </div>
-              </TiltCard3D>
-            </ScrollReveal>
-          ))}
+                </TiltCard3D>
+              </ScrollReveal>
+            ))}
+          </div>
+
+          {filtered.length === 0 && (
+            <div className="text-center py-16">
+              <p className="text-muted-foreground">No tools match your search.</p>
+            </div>
+          )}
+
+          {totalPages > 1 && (
+            <div className="flex items-center justify-center gap-2 mt-8">
+              <button
+                onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                disabled={page === 1}
+                className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
+              >
+                ← Previous
+              </button>
+              <span className="text-sm text-muted-foreground px-3">Page {page} of {totalPages}</span>
+              <button
+                onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                disabled={page === totalPages}
+                className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
+              >
+                Next →
+              </button>
+            </div>
+          )}
         </div>
-
-        {filtered.length === 0 && (
-          <div className="text-center py-16">
-            <p className="text-muted-foreground">No tools match your search.</p>
-          </div>
-        )}
-
-        {totalPages > 1 && (
-          <div className="flex items-center justify-center gap-2 mt-8">
-            <button
-              onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-              disabled={page === 1}
-              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
-            >
-              ← Previous
-            </button>
-            <span className="text-sm text-muted-foreground px-3">Page {page} of {totalPages}</span>
-            <button
-              onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-              disabled={page === totalPages}
-              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
-            >
-              Next →
-            </button>
-          </div>
-        )}
       </section>
 
       {/* ── Explore Another Category ─────────────────────── */}

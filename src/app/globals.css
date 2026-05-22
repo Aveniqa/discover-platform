@@ -229,12 +229,18 @@ body {
   font-feature-settings: "ss01", "cv11";
 }
 
-#main-content {
+.scroll-tilt-stage {
   transform: rotateX(var(--scroll-tilt, 0deg));
-  transform-origin: 50% 18vh;
+  transform-origin: 50% 30%;
   transform-style: preserve-3d;
   transition: transform 0.3s cubic-bezier(0.2, 0.9, 0.3, 1);
   will-change: transform;
+}
+
+section.no-scroll-tilt .scroll-tilt-stage {
+  transform: none;
+  transition: none;
+  will-change: auto;
 }
 
 /* Display headings get tighter tracking + optical balance */
@@ -1108,6 +1114,7 @@ body.depth-mode .floating-item {
   }
 
   #main-content,
+  .scroll-tilt-stage,
   .depth-scene,
   .depth-grid,
   .tilt-3d,
@@ -1145,6 +1152,7 @@ body.depth-mode .floating-item {
 
 @media (pointer: coarse) {
   .tilt-3d,
+  .scroll-tilt-stage,
   .depth-grid .tilt-3d.is-neighbor-reacting,
   .depth-layer-1,
   .depth-layer-2,

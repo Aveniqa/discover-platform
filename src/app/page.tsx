@@ -83,65 +83,67 @@ export default function HomePage() {
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
         <HeroParallax />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-24 sm:py-32 text-center parallax-slow">
-          <div className="flex flex-wrap items-center justify-center gap-2 mb-6">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-[10px] font-bold uppercase tracking-[0.18em] text-white backdrop-blur-md">
-              <span className="relative flex h-1.5 w-1.5">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-60" />
-                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-white" />
+        <div className="scroll-tilt-stage relative z-10 w-full">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 py-24 sm:py-32 text-center parallax-slow">
+            <div className="flex flex-wrap items-center justify-center gap-2 mb-6">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-[10px] font-bold uppercase tracking-[0.18em] text-white backdrop-blur-md">
+                <span className="relative flex h-1.5 w-1.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-60" />
+                  <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-white" />
+                </span>
+                Today&rsquo;s Edition
               </span>
-              Today&rsquo;s Edition
-            </span>
-            <span className="text-xs text-white/85">{editionDate}</span>
-            <HomeStreakStatus />
-          </div>
+              <span className="text-xs text-white/85">{editionDate}</span>
+              <HomeStreakStatus />
+            </div>
 
-          <h1 className="mx-auto max-w-4xl text-center text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight leading-[0.95] mb-6 text-white drop-shadow-[0_4px_30px_rgba(0,0,0,0.6)]">
-            Software worth
-            <span className="block bg-gradient-to-r from-violet-300 via-cyan-200 to-amber-200 bg-clip-text text-transparent">
-              your attention.
-            </span>
-          </h1>
-          <p className="text-base sm:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
-            Surfaced is a hand-edited daily on the most useful tools, hidden web apps, and quiet
-            corners of the internet. One editor. No SEO slop. Real opinions on what to use.
-          </p>
-
-          <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-3">
-            <Link
-              href="#today"
-              data-cursor="hover"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-white text-black text-sm font-semibold hover:bg-white/90 transition-all shadow-[0_10px_40px_rgba(0,0,0,0.5)] active:scale-[0.98]"
-            >
-              Read today&rsquo;s edition
-              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </Link>
-            <SearchSurfacedButton />
-          </div>
-
-          <div className="mt-10 flex flex-col items-center gap-5">
-            <p className="text-[11px] uppercase tracking-[0.25em] text-white/65">
-              {hiddenGems.length + dailyTools.length} curated · {alcoves.length} alcoves · Updated daily
+            <h1 className="mx-auto max-w-4xl text-center text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight leading-[0.95] mb-6 text-white drop-shadow-[0_4px_30px_rgba(0,0,0,0.6)]">
+              Software worth
+              <span className="block bg-gradient-to-r from-violet-300 via-cyan-200 to-amber-200 bg-clip-text text-transparent">
+                your attention.
+              </span>
+            </h1>
+            <p className="text-base sm:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
+              Surfaced is a hand-edited daily on the most useful tools, hidden web apps, and quiet
+              corners of the internet. One editor. No SEO slop. Real opinions on what to use.
             </p>
-            <LiveNowTicker
-              items={allKept.slice(0, 30).map((i) => ({
-                slug: i.slug,
-                title: getItemTitle(i),
-                category: getItemCategory(i),
-                action: "open",
-              }))}
-            />
-            <Link
-              href="/roulette"
-              data-cursor="hover"
-              className="inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-white/75 hover:text-white transition-colors group"
-            >
-              <span className="block w-6 h-px bg-white/40 group-hover:bg-white transition-colors" />
-              Try the Tool Roulette
-              <span className="block w-6 h-px bg-white/40 group-hover:bg-white transition-colors" />
-            </Link>
+
+            <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-3">
+              <Link
+                href="#today"
+                data-cursor="hover"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-white text-black text-sm font-semibold hover:bg-white/90 transition-all shadow-[0_10px_40px_rgba(0,0,0,0.5)] active:scale-[0.98]"
+              >
+                Read today&rsquo;s edition
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M8 3v10M4 9l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </Link>
+              <SearchSurfacedButton />
+            </div>
+
+            <div className="mt-10 flex flex-col items-center gap-5">
+              <p className="text-[11px] uppercase tracking-[0.25em] text-white/65">
+                {hiddenGems.length + dailyTools.length} curated · {alcoves.length} alcoves · Updated daily
+              </p>
+              <LiveNowTicker
+                items={allKept.slice(0, 30).map((i) => ({
+                  slug: i.slug,
+                  title: getItemTitle(i),
+                  category: getItemCategory(i),
+                  action: "open",
+                }))}
+              />
+              <Link
+                href="/roulette"
+                data-cursor="hover"
+                className="inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-white/75 hover:text-white transition-colors group"
+              >
+                <span className="block w-6 h-px bg-white/40 group-hover:bg-white transition-colors" />
+                Try the Tool Roulette
+                <span className="block w-6 h-px bg-white/40 group-hover:bg-white transition-colors" />
+              </Link>
+            </div>
           </div>
         </div>
 
@@ -163,7 +165,7 @@ export default function HomePage() {
           className="depth-scene relative py-20 sm:py-28 px-4 sm:px-6 scroll-mt-20"
         >
           <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
-          <div className="relative max-w-[88rem] mx-auto">
+          <div className="scroll-tilt-stage relative max-w-[88rem] mx-auto">
             <header className="mb-10 flex flex-col sm:flex-row sm:items-end justify-between gap-6">
               <div>
                 <p className="text-xs uppercase tracking-[0.22em] text-white/75 font-semibold mb-3">
@@ -230,7 +232,7 @@ export default function HomePage() {
         className="depth-scene relative py-24 sm:py-32 px-4 sm:px-6 border-t border-white/[0.05]"
       >
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
-        <div className="relative max-w-5xl mx-auto text-center">
+        <div className="scroll-tilt-stage relative max-w-5xl mx-auto text-center">
           <p className="text-xs uppercase tracking-[0.22em] text-white/75 font-semibold mb-4">
             New on Surfaced
           </p>
@@ -281,7 +283,7 @@ export default function HomePage() {
           ============================================ */}
       <section className="depth-scene relative py-16 px-4 sm:px-6 border-t border-white/[0.05]">
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
-        <div className="relative max-w-3xl mx-auto flex flex-col sm:flex-row items-center gap-6 floating-glass rounded-2xl p-8">
+        <div className="scroll-tilt-stage relative max-w-3xl mx-auto flex flex-col sm:flex-row items-center gap-6 floating-glass rounded-2xl p-8">
           <div className="w-20 h-20 rounded-full bg-gradient-to-br from-accent to-cyan flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
             {BYLINE.initials}
           </div>
@@ -468,7 +470,7 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
   return (
     <section
       data-world-scene={`alcove-${alcove.kind}`}
-      className="depth-scene relative min-h-[80vh] flex items-center overflow-hidden border-t border-white/[0.04]"
+      className="depth-scene no-scroll-tilt relative min-h-[80vh] flex items-center overflow-hidden border-t border-white/[0.04]"
     >
       {/* World scrim adapts to global world rather than having its own canvas */}
       <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
@@ -479,7 +481,7 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
         }}
         aria-hidden="true"
       />
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-20 sm:py-28 w-full">
+      <div className="scroll-tilt-stage relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-20 sm:py-28 w-full">
         <div className={`flex flex-col ${flip ? "lg:flex-row-reverse" : "lg:flex-row"} gap-10 lg:gap-16 items-start`}>
           <div className="lg:w-1/3 lg:sticky lg:top-28">
             <p className="text-xs uppercase tracking-[0.25em] text-white/70 font-semibold mb-4">
