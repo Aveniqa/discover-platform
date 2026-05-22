@@ -583,9 +583,12 @@ body.has-3d-world .bg-background {
 }
 
 .depth-scene {
+  --section-exit-t: 0;
   perspective: 1800px;
   perspective-origin: 50% 30%;
   transform-style: preserve-3d;
+  filter: blur(calc(var(--section-exit-t, 0) * 6px));
+  transition: filter 0.18s linear;
 }
 
 .chapter-pin {

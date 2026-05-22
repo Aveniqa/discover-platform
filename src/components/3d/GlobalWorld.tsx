@@ -119,11 +119,29 @@ export function GlobalWorld() {
   useEffect(() => {
     let raf = 0;
     const depthScenes = Array.from(document.querySelectorAll<HTMLElement>(".depth-scene"));
+    const depthSceneRatios = new Map<HTMLElement, number>();
+    const observer = "IntersectionObserver" in window
+      ? new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              depthSceneRatios.set(entry.target as HTMLElement, entry.intersectionRatio);
+            });
+            handler();
+          },
+          { threshold: [0, 0.2, 0.4, 0.6, 0.8, 1] }
+        )
+      : null;
     const updateSectionProgress = () => {
       depthScenes.forEach((scene) => {
         const rect = scene.getBoundingClientRect();
         const sectionT = Math.max(0, Math.min(1, -rect.top / Math.max(1, rect.height)));
+        const exitStart = window.innerHeight * 0.4;
+        const exitT = rect.bottom < exitStart
+          ? Math.max(0, Math.min(1, (exitStart - rect.bottom) / Math.max(1, rect.height * 0.4)))
+          : 0;
         scene.style.setProperty("--section-scroll-t", String(sectionT));
+        scene.style.setProperty("--section-exit-t", String(exitT));
+        scene.style.setProperty("--section-io-ratio", String(depthSceneRatios.get(scene) ?? 0));
       });
     };
     const handler = () => {
@@ -156,10 +174,12 @@ export function GlobalWorld() {
     };
     window.addEventListener("scroll", handler, { passive: true });
     window.addEventListener("resize", handler);
+    depthScenes.forEach((scene) => observer?.observe(scene));
     handler();
     return () => {
       window.removeEventListener("scroll", handler);
       window.removeEventListener("resize", handler);
+      observer?.disconnect();
       if (raf) cancelAnimationFrame(raf);
       if (idleTimerRef.current) window.clearTimeout(idleTimerRef.current);
     };
