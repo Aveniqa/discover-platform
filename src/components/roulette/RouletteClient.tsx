@@ -185,7 +185,7 @@ export function RouletteClient({ pool }: Props) {
   return (
     <div className="space-y-12">
       {/* Mood picker */}
-      <div className="depth-grid flex flex-wrap justify-center gap-2.5">
+      <div className="flex flex-wrap justify-center gap-2.5">
         {MOODS.map((m) => (
           <button
             key={m.id}
@@ -311,7 +311,7 @@ export function RouletteClient({ pool }: Props) {
       {history.length > 0 && (
         <div className="text-center">
           <p className="text-xs uppercase tracking-[0.22em] text-white/55 mb-3">Recent spins</p>
-          <div className="depth-grid flex flex-wrap justify-center gap-2">
+          <div className="flex flex-wrap justify-center gap-2">
             {history.slice(0, 12).map((slug) => {
               const item = pool.find((p) => p.slug === slug);
               if (!item) return null;
@@ -334,7 +334,7 @@ export function RouletteClient({ pool }: Props) {
       {faves.length > 0 && (
         <div className="text-center">
           <p className="text-xs uppercase tracking-[0.22em] text-amber-200/85 mb-3">Your favourites</p>
-          <div className="depth-grid flex flex-wrap justify-center gap-2">
+          <div className="flex flex-wrap justify-center gap-2">
             {faves.slice(0, 20).map((slug) => {
               const item = pool.find((p) => p.slug === slug);
               if (!item) return null;
