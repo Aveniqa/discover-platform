@@ -222,7 +222,7 @@ export default function HiddenGemsPage() {
                     rel="noopener noreferrer"
                     data-outbound="true"
                     onClick={(e) => e.stopPropagation()}
-                    className="magnetic inline-flex items-center text-xs font-semibold text-amber-400 hover:text-amber-300 transition-colors"
+                    className="inline-flex items-center text-xs font-semibold text-amber-400 hover:text-amber-300 transition-colors"
                   >
                     Visit Site →
                   </a>

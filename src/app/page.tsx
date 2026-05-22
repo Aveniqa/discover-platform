@@ -386,7 +386,7 @@ function LeadCard({ item }: { item: AnyItem }) {
               rel="noopener noreferrer"
               data-outbound="true"
               data-cursor="hover"
-              className="magnetic inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white/10 backdrop-blur-md text-white text-sm font-medium border border-white/20 hover:bg-white/20 transition-colors"
+              className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-white/10 backdrop-blur-md text-white text-sm font-medium border border-white/20 hover:bg-white/20 transition-colors"
             >
               Visit {host} ↗
             </a>

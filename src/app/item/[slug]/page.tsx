@@ -566,7 +566,7 @@ export default async function ItemPage({ params }: Props) {
                     data-item-category={category}
                     data-item-type={item.type}
                     id="main-cta-button"
-                    className={`magnetic inline-flex items-center gap-2.5 px-8 py-4 rounded-xl font-bold text-base hover:-translate-y-0.5 transition-all ${
+                    className={`inline-flex items-center gap-2.5 px-8 py-4 rounded-xl font-bold text-base hover:-translate-y-0.5 transition-all ${
                       item.type === "product" && (isAffiliate && item.affiliate?.provider === "amazon" || outboundUrl?.includes("amazon.com"))
                         ? ctaStyles["product-amazon"] + " text-black"
                         : "text-white " + (ctaStyles[item.type] || ctaStyles.default)

@@ -269,7 +269,7 @@ export function RouletteClient({ pool }: Props) {
                       rel="noopener noreferrer"
                       data-outbound="true"
                       data-cursor="hover"
-                      className="magnetic px-5 py-2.5 rounded-xl bg-white/10 backdrop-blur-md text-white text-sm font-semibold border border-white/20 hover:bg-white/20 transition-colors"
+                      className="px-5 py-2.5 rounded-xl bg-white/10 backdrop-blur-md text-white text-sm font-semibold border border-white/20 hover:bg-white/20 transition-colors"
                     >
                       Try it ↗
                     </a>
