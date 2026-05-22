@@ -85,6 +85,13 @@ export function GlobalWorld() {
   useEffect(() => {
     if (typeof window === "undefined") return;
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
+    const coarse = window.matchMedia?.("(pointer: coarse)").matches === true;
+    const narrow = window.innerWidth < 900;
+    const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+    const lowData = connection && "saveData" in connection
+      ? connection.saveData === true
+      : false;
+    if (coarse || narrow || lowData) return;
     type IdleWindow = Window & {
       requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
     };
