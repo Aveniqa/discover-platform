@@ -832,7 +832,7 @@ function CameraRig({ seed, scrollT, pointer }: Props) {
       return;
     }
 
-    desired.current.set(pointer.x * 0.12, pointer.y * 0.08, 6 - scrollT * 0.35);
+    desired.current.set(pointer.x * 0.12, pointer.y * 0.08, 6 - scrollT * 0.35 + Math.max(0, scrollT - 0.95) * 1.4);
     target.current.set(0, -0.18, -2 - scrollT * 1.2);
     camera.position.lerp(desired.current, 0.04);
     camera.lookAt(target.current);

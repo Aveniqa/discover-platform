@@ -612,6 +612,12 @@ body.has-3d-world .bg-background {
   will-change: transform;
 }
 
+.footer-depth-pop {
+  transform: translate3d(0, calc((1 - clamp(0, (var(--scroll-t, 0) - 0.95) * 20, 1)) * 60px), 0);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
 .depth-layer-1,
 .depth-layer-2,
 .depth-layer-3,
@@ -1186,6 +1192,10 @@ body.depth-mode .floating-item {
     transform: none !important;
   }
 
+  .footer-depth-pop {
+    transform: none !important;
+  }
+
   .aurora-fallback-blob {
     display: block;
   }
@@ -1225,6 +1235,10 @@ body.depth-mode .floating-item {
   }
 
   .hero-zoom-out {
+    transform: none !important;
+  }
+
+  .footer-depth-pop {
     transform: none !important;
   }
 }
