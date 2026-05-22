@@ -287,12 +287,14 @@ const DRIFT_PARTICLE_FRAGMENT = /* glsl */ `
 `;
 
 /* ----- Particle field (sparse glowing dust) ----- */
-function ParticleField({ seed, scrollT }: { seed: WorldSeed; scrollT: number }) {
+function ParticleField({ seed, scrollT, quality }: { seed: WorldSeed; scrollT: number; quality: Props["quality"] }) {
   const ref = useRef<THREE.Points>(null);
   const geometryRef = useRef<THREE.BufferGeometry>(null);
   const materialRef = useRef<THREE.PointsMaterial>(null);
   const isItemScene = seed.scene === "item";
-  const count = Math.round((isItemScene ? 1300 : 800) * seed.density);
+  const count = quality === "lite"
+    ? Math.round((isItemScene ? 320 : 180) * seed.density)
+    : Math.round((isItemScene ? 1300 : 800) * seed.density);
   const baseColor = useMemo(() => new THREE.Color(seed.alcove.palette[0]), [seed.alcove.palette]);
   const accentColor = useMemo(() => new THREE.Color(seed.alcove.palette[1]), [seed.alcove.palette]);
 
@@ -852,6 +854,7 @@ export default function WorldCanvas(props: Props) {
       gl={{ antialias: false, alpha: false, powerPreference: "low-power" }}
       dpr={quality === "lite" ? [1, 1.25] : [1, 1.5]}
       frameloop="always"
+      performance={{ min: 0.4 }}
     >
       <ScenePalette seed={seed} />
       <ReactiveLights {...props} />
@@ -859,8 +862,8 @@ export default function WorldCanvas(props: Props) {
       <NebulaBackground {...props} />
       <GodRayShafts {...props} />
       <DepthDriftParticles {...props} />
-      <ParticleField seed={seed} scrollT={scrollT} />
-      {quality === "full" && <FocalBloomHalo seed={seed} scrollT={scrollT} worldIntensity={props.worldIntensity} />}
+      <ParticleField seed={seed} scrollT={scrollT} quality={quality} />
+      {quality === "full" && scrollT < 0.85 && <FocalBloomHalo seed={seed} scrollT={scrollT} worldIntensity={props.worldIntensity} />}
       <FocalObject seed={seed} scrollT={scrollT} />
     </Canvas>
   );
