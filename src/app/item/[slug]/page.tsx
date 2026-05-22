@@ -326,7 +326,7 @@ export default async function ItemPage({ params }: Props) {
       {/* ── Hero image — sits on the global 3D world ──── */}
       <div
         data-world-scene={`item-${item.type}`}
-        className="w-full overflow-hidden border-b border-white/[0.06] relative"
+        className="depth-scene w-full overflow-hidden border-b border-white/[0.06] relative"
       >
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
         <div className="relative z-10">
@@ -334,7 +334,7 @@ export default async function ItemPage({ params }: Props) {
             <ScreenshotImage src={(item as HiddenGem).screenshotUrl!} alt={title} />
           ) : (
             <>
-              <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" priority />
+              <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" priority className="hero-zoom-out" />
               {isPexelsImage(slug) && (
                 <p className="absolute bottom-2 right-3 text-[10px] text-white/60">
                   Photo via Pexels

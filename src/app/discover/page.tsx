@@ -59,11 +59,11 @@ export default function DiscoverArchivePage() {
             Showing the {items.length} most-recent of {(archiveData as AnyItem[]).filter((i) => i.type === "discovery").length} archived discoveries.
           </p>
           <div className="depth-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {items.map((item) => (
+            {items.map((item, index) => (
               <TiltCard3D key={item.slug} className="rounded-2xl h-full" tiltDepth="medium" maxTilt={14} glowColor="34, 211, 238">
               <Link href={`/item/${item.slug}`} className="group block rounded-2xl border border-border bg-card overflow-hidden hover:border-accent/40 transition-all h-full">
                 <div className="depth-layer-1 aspect-[16/10] overflow-hidden">
-                  <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="16/10" width={500} height={313} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="16/10" width={500} height={313} className={`${index === 0 ? "hero-zoom-out " : ""}group-hover:scale-[1.03] transition-transform duration-500`} />
                 </div>
                 <div className="p-5">
                   <p className="depth-layer-3 text-[10px] uppercase tracking-wider text-muted-foreground mb-2">Discovery</p>

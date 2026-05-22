@@ -185,7 +185,7 @@ export default function HiddenGemsPage() {
                 <TiltCard3D maxTilt={18} glowColor="251, 191, 36" tiltDepth={index === 0 ? "strong" : "medium"} className="h-full rounded-2xl">
               <div className="official-card group relative rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
                 <div className="overflow-hidden relative depth-layer-1">
-                  <ItemImage slug={item.slug} alt={item.name} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  <ItemImage slug={item.slug} alt={item.name} aspectRatio="3/2" width={400} height={267} priority={index < 4} className={`${index === 0 ? "hero-zoom-out " : ""}group-hover:scale-[1.03] transition-transform duration-500`} />
                   {item.badge === "editors-pick" && (
                     <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded depth-layer-3">
                       Editor&apos;s Pick

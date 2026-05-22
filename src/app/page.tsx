@@ -352,7 +352,7 @@ function LeadCard({ item }: { item: AnyItem }) {
           width={1200}
           height={750}
           priority
-          className="transition-transform duration-700 ease-out"
+          className="hero-zoom-out transition-transform duration-700 ease-out"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
         <div className="absolute inset-0 mix-blend-overlay opacity-70" style={{

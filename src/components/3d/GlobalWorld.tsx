@@ -118,6 +118,14 @@ export function GlobalWorld() {
   // Scroll progress 0..1 (capped at scrollable height)
   useEffect(() => {
     let raf = 0;
+    const depthScenes = Array.from(document.querySelectorAll<HTMLElement>(".depth-scene"));
+    const updateSectionProgress = () => {
+      depthScenes.forEach((scene) => {
+        const rect = scene.getBoundingClientRect();
+        const sectionT = Math.max(0, Math.min(1, -rect.top / Math.max(1, rect.height)));
+        scene.style.setProperty("--section-scroll-t", String(sectionT));
+      });
+    };
     const handler = () => {
       if (raf) return;
       raf = requestAnimationFrame(() => {
@@ -137,6 +145,7 @@ export function GlobalWorld() {
         document.documentElement.style.setProperty("--scroll-t", String(t));
         document.documentElement.style.setProperty("--scroll-vel", String(velocity));
         document.documentElement.style.setProperty("--scroll-tilt", `${tilt}deg`);
+        updateSectionProgress();
         if (idleTimerRef.current) window.clearTimeout(idleTimerRef.current);
         idleTimerRef.current = window.setTimeout(() => {
           setScrollVelocity(0);
@@ -146,13 +155,15 @@ export function GlobalWorld() {
       });
     };
     window.addEventListener("scroll", handler, { passive: true });
+    window.addEventListener("resize", handler);
     handler();
     return () => {
       window.removeEventListener("scroll", handler);
+      window.removeEventListener("resize", handler);
       if (raf) cancelAnimationFrame(raf);
       if (idleTimerRef.current) window.clearTimeout(idleTimerRef.current);
     };
-  }, []);
+  }, [pathname]);
 
   // Pointer parallax — normalize to -1..1
   useEffect(() => {
