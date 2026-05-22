@@ -751,7 +751,11 @@ body.has-3d-world .bg-background {
   opacity: 1;
 }
 
-.tilt-3d > * {
+.tilt-3d > .depth-layer-1,
+.tilt-3d > .depth-layer-2,
+.tilt-3d > .depth-layer-3,
+.tilt-3d > .depth-layer-4,
+.tilt-3d > .tilt-3d-pop {
   position: relative;
   z-index: 3;
   transform-style: preserve-3d;
