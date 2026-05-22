@@ -46,7 +46,7 @@ export function CursorCompanion() {
       trailRef.current?.classList.remove("companion-hidden");
       shadowRef.current?.classList.remove("companion-hidden");
 
-      if (speed > 1200) {
+      if (speed > 800) {
         for (let i = 0; i < 3; i++) {
           const echo = echoRefs.current[echoIndex.current % echoRefs.current.length];
           echoIndex.current++;
