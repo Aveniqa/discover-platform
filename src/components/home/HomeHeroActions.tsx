@@ -56,11 +56,14 @@ export function HomeStreakStatus() {
           {milestoneToast}
         </div>
       )}
-      {streakDays > 0 && (
-        <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-500/10 border border-amber-400/20 text-amber-300 text-xs">
-          {streakEmoji || "*"} Day {streakDays}
-        </span>
-      )}
+      <span
+        aria-hidden={streakDays > 0 ? undefined : "true"}
+        className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-500/10 border border-amber-400/20 text-amber-300 text-xs ${
+          streakDays > 0 ? "" : "invisible"
+        }`}
+      >
+        {streakDays > 0 ? `${streakEmoji || "*"} Day ${streakDays}` : "* Day 0"}
+      </span>
     </>
   );
 }
