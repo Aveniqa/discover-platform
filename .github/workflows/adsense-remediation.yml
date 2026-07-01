@@ -27,9 +27,11 @@ permissions:
 jobs:
   adsense-remediation:
     runs-on: ubuntu-latest
-    # Raised from 30: the archive missing-source backfill processes up to 250
-    # Gemini calls at 1 req/sec plus a verification fetch per candidate URL.
-    timeout-minutes: 45
+    # The archive missing-source backfill measured ~10s/item in run
+    # 28550210063 (Gemini free-tier throttling + a verification fetch per
+    # candidate). 250 items ≈ 45 min alone, plus npm ci and a full build —
+    # 45 min timed out at item 213 and lost the batch. 90 gives headroom.
+    timeout-minutes: 90
     permissions:
       contents: write
       pull-requests: write
