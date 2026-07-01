@@ -14,7 +14,7 @@ import { LogoImage } from "@/components/ui/LogoImage";
 import { QuickViewModal } from "@/components/ui/QuickViewModal";
 import { AuroraBackground } from "@/components/ui/AuroraBackground";
 import { BlurText } from "@/components/ui/BlurText";
-import { TiltCard } from "@/components/ui/TiltCard";
+import { TiltCard3D } from "@/components/ui/TiltCard3D";
 import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
 import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
 import { filterLiveOutboundUrl } from "@/lib/dead-links";
@@ -70,9 +70,9 @@ export default function ToolsPage() {
         colorA="bg-rose-500/15"
         colorB="bg-pink-500/10"
         colorC="bg-red-500/6"
-        className="py-24 sm:py-32"
+        className="depth-scene py-24 sm:py-32"
       >
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+        <div className="scroll-tilt-stage mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-rose-400 mb-4">
             Tools
           </p>
@@ -165,44 +165,45 @@ export default function ToolsPage() {
       </section>
 
       {/* ── Results Grid ──────────────────────────────────── */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
-        <p className="text-sm text-muted-foreground mb-6">
-          Showing{" "}
-          <span className="font-semibold text-foreground">
-            {filtered.length === 0 ? 0 : (page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)}
-          </span>{" "}
-          of{" "}
-          <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
-          items
-        </p>
+      <section className="depth-scene mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
+        <div className="scroll-tilt-stage">
+          <p className="text-sm text-muted-foreground mb-6">
+            Showing{" "}
+            <span className="font-semibold text-foreground">
+              {filtered.length === 0 ? 0 : (page - 1) * PER_PAGE + 1}–{Math.min(page * PER_PAGE, filtered.length)}
+            </span>{" "}
+            of{" "}
+            <span className="font-semibold text-foreground">{filtered.length}</span>{" "}
+            items
+          </p>
 
-        {/* AD_ZONE: sidebar */}
+          {/* AD_ZONE: sidebar */}
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {paginatedItems.map((item, index) => (
-            <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />} className={index === 0 ? "sm:col-span-2 lg:col-span-2 xl:col-span-2" : ""}>
-              <TiltCard maxTilt={6} glowColor="0 8px 40px rgba(244,63,94,0.12), 0 0 0 1px rgba(244,63,94,0.08)" className="h-full">
+          <div className="depth-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+            {paginatedItems.map((item, index) => (
+              <ScrollReveal key={item.slug} delay={Math.min(index * 50, 800)} placeholder={<SkeletonCard />} className={index === 0 ? "sm:col-span-2 lg:col-span-2 xl:col-span-2" : ""}>
+                <TiltCard3D maxTilt={18} glowColor="244, 63, 94" tiltDepth={index === 0 ? "strong" : "medium"} className="h-full rounded-2xl">
               <div className="official-card group relative rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
-                <div className="overflow-hidden relative">
-                  <ItemImage slug={item.slug} alt={item.toolName} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                <div className="overflow-hidden relative depth-layer-1">
+                  <ItemImage slug={item.slug} alt={item.toolName} aspectRatio="3/2" width={400} height={267} priority={index < 4} className={`${index === 0 ? "hero-zoom-out " : ""}group-hover:scale-[1.03] transition-transform duration-500`} />
                   {item.badge === "editors-pick" && (
-                    <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
+                    <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded depth-layer-3">
                       Editor&apos;s Pick
                     </span>
                   )}
                   <button
                     onClick={() => setQuickViewItem(item as AnyItem)}
-                    className="absolute inset-0 z-20 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity"
+                    className="magnetic absolute inset-0 z-20 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity"
                   >
                     <span className="px-3 py-1.5 bg-white text-black text-xs font-semibold rounded-full shadow">Quick View</span>
                   </button>
                 </div>
                 <div className="p-6 flex flex-col flex-1">
-                <div className="flex items-start justify-between gap-2 mb-3">
+                <div className="depth-layer-3 flex items-start justify-between gap-2 mb-3">
                   <CategoryBadge label={item.category} color="rose" />
                   <BookmarkButton slug={item.slug} />
                 </div>
-                <Link href={`/item/${item.slug}`} aria-label={`Read ${item.toolName}`} className="block mb-2">
+                <Link href={`/item/${item.slug}`} aria-label={`Read ${item.toolName}`} className="depth-layer-2 block mb-2">
                   <h2 className="text-base font-semibold text-foreground group-hover:text-rose-300 transition-colors line-clamp-2 flex items-center gap-1.5">
                     {hostForLiveUrl(item.websiteLink) && (
                       <LogoImage domain={hostForLiveUrl(item.websiteLink) || ""} />
@@ -214,7 +215,7 @@ export default function ToolsPage() {
                   {getItemExcerpt(item)}
                 </p>
                 {filterLiveOutboundUrl(item.websiteLink) && (
-                <div className="mt-auto flex flex-col gap-3">
+                <div className="depth-layer-4 mt-auto flex flex-col gap-3">
                   <SourceTrailLink href={filterLiveOutboundUrl(item.websiteLink)!} label="Official site" compact />
                   <a
                     href={filterLiveOutboundUrl(item.websiteLink)!}
@@ -230,36 +231,37 @@ export default function ToolsPage() {
                 )}
                 </div>
               </div>
-              </TiltCard>
-            </ScrollReveal>
-          ))}
+                </TiltCard3D>
+              </ScrollReveal>
+            ))}
+          </div>
+
+          {filtered.length === 0 && (
+            <div className="text-center py-16">
+              <p className="text-muted-foreground">No tools match your search.</p>
+            </div>
+          )}
+
+          {totalPages > 1 && (
+            <div className="flex items-center justify-center gap-2 mt-8">
+              <button
+                onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                disabled={page === 1}
+                className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
+              >
+                ← Previous
+              </button>
+              <span className="text-sm text-muted-foreground px-3">Page {page} of {totalPages}</span>
+              <button
+                onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                disabled={page === totalPages}
+                className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
+              >
+                Next →
+              </button>
+            </div>
+          )}
         </div>
-
-        {filtered.length === 0 && (
-          <div className="text-center py-16">
-            <p className="text-muted-foreground">No tools match your search.</p>
-          </div>
-        )}
-
-        {totalPages > 1 && (
-          <div className="flex items-center justify-center gap-2 mt-8">
-            <button
-              onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-              disabled={page === 1}
-              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
-            >
-              ← Previous
-            </button>
-            <span className="text-sm text-muted-foreground px-3">Page {page} of {totalPages}</span>
-            <button
-              onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-              disabled={page === totalPages}
-              className="px-3 py-1.5 rounded-lg border border-border text-sm disabled:opacity-30 hover:bg-card transition-colors"
-            >
-              Next →
-            </button>
-          </div>
-        )}
       </section>
 
       {/* ── Explore Another Category ─────────────────────── */}

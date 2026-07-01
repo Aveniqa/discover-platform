@@ -20,7 +20,7 @@ export function Footer() {
     .slice(0, 6);
 
   return (
-    <footer className="border-t border-border/40 bg-gradient-to-b from-surface/80 to-background">
+    <footer className="footer-depth-pop border-t border-border/40 bg-gradient-to-b from-surface/80 to-background">
       <div className="glow-line" />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 pb-16">

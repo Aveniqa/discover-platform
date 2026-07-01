@@ -15,21 +15,25 @@ export function ScrollReveal({ children, delay = 0, className = "", placeholder 
   // Start visible so SSR/SSG renders content fully — JS then hides off-screen cards
   const [visible, setVisible] = useState(true);
   const [hydrated, setHydrated] = useState(false);
+  const [reducedMotion, setReducedMotion] = useState(false);
 
   useEffect(() => {
-    setHydrated(true);
+    const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches === true;
+    const hydrationRaf = requestAnimationFrame(() => {
+      setHydrated(true);
+      setReducedMotion(reduce);
+    });
     const el = ref.current;
-    if (!el) return;
+    if (!el) return () => cancelAnimationFrame(hydrationRaf);
 
     // If already in viewport on mount, keep visible (no animation needed)
     const rect = el.getBoundingClientRect();
     if (rect.top < window.innerHeight + 50) {
-      setVisible(true);
-      return;
+      return () => cancelAnimationFrame(hydrationRaf);
     }
 
     // Below viewport — hide and animate in on scroll
-    setVisible(false);
+    const visibilityRaf = requestAnimationFrame(() => setVisible(false));
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -37,10 +41,14 @@ export function ScrollReveal({ children, delay = 0, className = "", placeholder 
           observer.unobserve(el);
         }
       },
-      { threshold: 0.01, rootMargin: "200px 0px 0px 0px" }
+      { threshold: 0.12, rootMargin: "120px 0px 0px 0px" }
     );
     observer.observe(el);
-    return () => observer.disconnect();
+    return () => {
+      cancelAnimationFrame(hydrationRaf);
+      cancelAnimationFrame(visibilityRaf);
+      observer.disconnect();
+    };
   }, []);
 
   /* When a placeholder is provided, show it until the card enters the viewport,
@@ -61,13 +69,15 @@ export function ScrollReveal({ children, delay = 0, className = "", placeholder 
         </div>
         {/* Real content — fades up on enter */}
         <div
-          className="absolute inset-0"
+          className={`absolute inset-0 ${reducedMotion ? "" : "reveal-3d"} ${visible ? "is-in" : ""}`}
           style={{
             opacity: visible ? 1 : 0,
-            transform: visible ? "translateY(0)" : "translateY(16px)",
             transition: hydrated
-              ? `opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms`
+              ? reducedMotion
+                ? `opacity 0.35s ease ${delay}ms`
+                : undefined
               : "none",
+            transitionDelay: hydrated && !reducedMotion ? `${delay}ms` : undefined,
           }}
         >
           {children}
@@ -79,13 +89,15 @@ export function ScrollReveal({ children, delay = 0, className = "", placeholder 
   return (
     <div
       ref={ref}
-      className={className}
+      className={`${className} ${reducedMotion ? "" : "reveal-3d"} ${visible ? "is-in" : ""}`}
       style={{
         opacity: visible ? 1 : 0,
-        transform: visible ? "translateY(0)" : "translateY(24px)",
         transition: hydrated
-          ? `opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delay}ms`
+          ? reducedMotion
+            ? `opacity 0.35s ease ${delay}ms`
+            : undefined
           : "none",
+        transitionDelay: hydrated && !reducedMotion ? `${delay}ms` : undefined,
       }}
     >
       {children}

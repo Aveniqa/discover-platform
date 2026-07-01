@@ -53,6 +53,7 @@ import type { Metadata } from "next";
 import { alcoveFromCategory } from "@/lib/alcoves";
 import { ItemWorldSeeder } from "@/components/3d/ItemWorldSeeder";
 import { BYLINE } from "@/lib/masthead";
+import { TiltCard3D } from "@/components/ui/TiltCard3D";
 // AlcoveFromCategory still used in jsonld + scene labelling
 void alcoveFromCategory;
 
@@ -325,7 +326,7 @@ export default async function ItemPage({ params }: Props) {
       {/* ── Hero image — sits on the global 3D world ──── */}
       <div
         data-world-scene={`item-${item.type}`}
-        className="w-full overflow-hidden border-b border-white/[0.06] relative"
+        className="depth-scene w-full overflow-hidden border-b border-white/[0.06] relative"
       >
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
         <div className="relative z-10">
@@ -333,7 +334,7 @@ export default async function ItemPage({ params }: Props) {
             <ScreenshotImage src={(item as HiddenGem).screenshotUrl!} alt={title} />
           ) : (
             <>
-              <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" priority />
+              <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" priority className="hero-zoom-out" />
               {isPexelsImage(slug) && (
                 <p className="absolute bottom-2 right-3 text-[10px] text-white/60">
                   Photo via Pexels
@@ -344,8 +345,8 @@ export default async function ItemPage({ params }: Props) {
         </div>
       </div>
 
-      <section className="py-12 sm:py-16">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+      <section className="depth-scene py-12 sm:py-16">
+        <div className="scroll-tilt-stage mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           {/* ── Visible breadcrumbs ─────────────────────────── */}
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex items-center gap-1.5 text-sm text-muted-foreground flex-wrap">
@@ -674,27 +675,36 @@ export default async function ItemPage({ params }: Props) {
                     From {crossItems.map((i) => getCategoryLabel(i.type)).filter((v, i, a) => a.indexOf(v) === i).join(" · ")}
                   </span>
                 </div>
-                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="depth-grid grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                   {crossItems.map((related) => {
                     const relTitle = getItemTitle(related);
                     const relColor = getCategoryColor(related.type);
                     const relLabel = getCategoryLabel(related.type);
                     return (
-                      <Link
+                      <TiltCard3D
                         key={related.slug}
+                        className="rounded-xl h-full"
+                        tiltDepth="medium"
+                        maxTilt={14}
+                        glowColor="168, 85, 247"
+                      >
+                      <Link
                         href={`/item/${related.slug}`}
                         aria-label={`Read ${relTitle}`}
                         className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow transition-all flex flex-col"
                       >
-                        <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        <div className="depth-layer-1">
+                          <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        </div>
                         <div className="p-4 flex flex-col flex-1">
-                          <CategoryBadge color={relColor} label={relLabel} className="mb-2" />
-                          <h3 className="text-sm font-semibold text-foreground group-hover:text-accent-hover transition-colors line-clamp-2 mb-2 flex-1">
+                          <CategoryBadge color={relColor} label={relLabel} className="depth-layer-3 mb-2" />
+                          <h3 className="depth-layer-2 text-sm font-semibold text-foreground group-hover:text-accent-hover transition-colors line-clamp-2 mb-2 flex-1">
                             {relTitle}
                           </h3>
                           <p className="text-xs text-muted-foreground line-clamp-2">{getItemExcerpt(related)}</p>
                         </div>
                       </Link>
+                      </TiltCard3D>
                     );
                   })}
                 </div>
@@ -716,55 +726,72 @@ export default async function ItemPage({ params }: Props) {
                     View all <span>&rarr;</span>
                   </Link>
                 </div>
-                <div className="hidden sm:grid sm:grid-cols-3 gap-4">
+                <div className="depth-grid hidden sm:grid sm:grid-cols-3 gap-4">
                   {moreFromCategory.map((related) => {
                     const relTitle = getItemTitle(related);
                     const relColor = getCategoryColor(related.type);
                     const relLabel = getCategoryLabel(related.type);
                     const hasAmazon = !!(related as { directAmazonUrl?: string }).directAmazonUrl || !!(related as { affiliate?: { enabled?: boolean } }).affiliate?.enabled;
                     return (
-                      <Link
+                      <TiltCard3D
                         key={related.slug}
+                        className="rounded-xl h-full"
+                        tiltDepth="medium"
+                        maxTilt={14}
+                        glowColor="168, 85, 247"
+                      >
+                      <Link
                         href={`/item/${related.slug}`}
                         aria-label={`Read ${relTitle}`}
                         className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow transition-all flex flex-col"
                       >
                         {hasAmazon && (
-                          <span className="absolute top-2 left-2 z-10 text-[10px] font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30 px-1.5 py-0.5 rounded-full">
+                          <span className="depth-layer-3 absolute top-2 left-2 z-10 text-[10px] font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30 px-1.5 py-0.5 rounded-full">
                             🛒 On Amazon
                           </span>
                         )}
-                        <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        <div className="depth-layer-1">
+                          <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        </div>
                         <div className="p-4 flex flex-col flex-1">
-                          <CategoryBadge color={relColor} label={relLabel} className="mb-2" />
-                          <h3 className="text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-2 flex-1">
+                          <CategoryBadge color={relColor} label={relLabel} className="depth-layer-3 mb-2" />
+                          <h3 className="depth-layer-2 text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-2 flex-1">
                             {relTitle}
                           </h3>
-                          <span className="text-xs text-accent font-medium">Read →</span>
+                          <span className="depth-layer-4 text-xs text-accent font-medium">Read →</span>
                         </div>
                       </Link>
+                      </TiltCard3D>
                     );
                   })}
                 </div>
-                <div className="sm:hidden flex gap-3 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" } as React.CSSProperties}>
+                <div className="depth-grid sm:hidden flex gap-3 overflow-x-auto pb-2" style={{ scrollbarWidth: "none" } as React.CSSProperties}>
                   {moreFromCategory.map((related) => {
                     const relTitle = getItemTitle(related);
                     const relColor = getCategoryColor(related.type);
                     const relLabel = getCategoryLabel(related.type);
                     const hasAmazon = !!(related as { directAmazonUrl?: string }).directAmazonUrl || !!(related as { affiliate?: { enabled?: boolean } }).affiliate?.enabled;
                     return (
-                      <Link
+                      <TiltCard3D
                         key={related.slug}
+                        className="shrink-0 w-[200px] rounded-xl"
+                        tiltDepth="subtle"
+                        maxTilt={8}
+                        glowColor="168, 85, 247"
+                      >
+                      <Link
                         href={`/item/${related.slug}`}
                         aria-label={`Read ${relTitle}`}
-                        className="group relative shrink-0 w-[200px] rounded-xl border border-border bg-card overflow-hidden card-hover-glow flex flex-col"
+                        className="group relative rounded-xl border border-border bg-card overflow-hidden card-hover-glow flex flex-col"
                       >
                         {hasAmazon && (
                           <span className="absolute top-2 left-2 z-10 text-[10px] font-medium bg-amber-500/20 text-amber-300 border border-amber-400/30 px-1.5 py-0.5 rounded-full">
                             🛒 On Amazon
                           </span>
                         )}
-                        <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={200} height={133} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        <div className="depth-layer-1">
+                          <ItemImage slug={related.slug} alt={relTitle} aspectRatio="3/2" width={200} height={133} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                        </div>
                         <div className="p-3 flex flex-col flex-1">
                           <CategoryBadge color={relColor} label={relLabel} className="mb-2" />
                           <h3 className="text-xs font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-2 flex-1">
@@ -773,6 +800,7 @@ export default async function ItemPage({ params }: Props) {
                           <span className="text-xs text-accent font-medium">Read →</span>
                         </div>
                       </Link>
+                      </TiltCard3D>
                     );
                   })}
                 </div>

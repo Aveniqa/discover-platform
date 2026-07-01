@@ -6,6 +6,7 @@ import { type AnyItem, getItemTitle, getItemExcerpt } from "@/lib/data";
 import { ItemImage } from "@/components/ui/ItemImage";
 import { alcoveByKind } from "@/lib/alcoves";
 import { AlcoveBackdrop } from "@/components/3d/AlcoveBackdrop";
+import { TiltCard3D } from "@/components/ui/TiltCard3D";
 
 export const metadata: Metadata = buildMetadata({
   title: "Discoveries — Archive",
@@ -22,7 +23,7 @@ export default function DiscoverArchivePage() {
 
   return (
     <article>
-      <section className="relative min-h-[55vh] flex items-center overflow-hidden">
+      <section className="depth-scene relative min-h-[55vh] flex items-center overflow-hidden">
         <AlcoveBackdrop alcove={alcoveByKind("research")} trackScroll />
         <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 py-24 sm:py-32">
           <p className="text-xs uppercase tracking-[0.22em] text-white/70 font-semibold mb-4">
@@ -57,18 +58,20 @@ export default function DiscoverArchivePage() {
           <p className="text-sm text-muted-foreground mb-8">
             Showing the {items.length} most-recent of {(archiveData as AnyItem[]).filter((i) => i.type === "discovery").length} archived discoveries.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {items.map((item) => (
-              <Link key={item.slug} href={`/item/${item.slug}`} className="group block rounded-2xl border border-border bg-card overflow-hidden hover:border-accent/40 transition-all">
-                <div className="aspect-[16/10] overflow-hidden">
-                  <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="16/10" width={500} height={313} className="group-hover:scale-[1.03] transition-transform duration-500" />
+          <div className="depth-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {items.map((item, index) => (
+              <TiltCard3D key={item.slug} className="rounded-2xl h-full" tiltDepth="medium" maxTilt={14} glowColor="34, 211, 238">
+              <Link href={`/item/${item.slug}`} className="group block rounded-2xl border border-border bg-card overflow-hidden hover:border-accent/40 transition-all h-full">
+                <div className="depth-layer-1 aspect-[16/10] overflow-hidden">
+                  <ItemImage slug={item.slug} alt={getItemTitle(item)} aspectRatio="16/10" width={500} height={313} className={`${index === 0 ? "hero-zoom-out " : ""}group-hover:scale-[1.03] transition-transform duration-500`} />
                 </div>
                 <div className="p-5">
-                  <p className="text-[10px] uppercase tracking-wider text-muted-foreground mb-2">Discovery</p>
-                  <h3 className="text-base font-semibold leading-snug group-hover:text-accent transition-colors line-clamp-2">{getItemTitle(item)}</h3>
+                  <p className="depth-layer-3 text-[10px] uppercase tracking-wider text-muted-foreground mb-2">Discovery</p>
+                  <h3 className="depth-layer-2 text-base font-semibold leading-snug group-hover:text-accent transition-colors line-clamp-2">{getItemTitle(item)}</h3>
                   <p className="mt-2 text-sm text-muted-foreground line-clamp-2 leading-relaxed">{getItemExcerpt(item, 140)}</p>
                 </div>
               </Link>
+              </TiltCard3D>
             ))}
           </div>
         </div>

@@ -21,8 +21,8 @@ interface Props {
  * phrasings are picked from a small bank — designed to feel alive without
  * being a fake number generator.
  *
- * Renders nothing on first paint (avoids hydration jitter) — the parent server
- * component still ships the H1/CTA so the page is content-complete for crawlers.
+ * Renders a deterministic first slot so the hero keeps a stable footprint
+ * before the live rotation starts after hydration.
  */
 const PHRASES = [
   "someone is opening",
@@ -35,16 +35,11 @@ const PHRASES = [
 ];
 
 export function LiveNowTicker({ items, intervalMs = 4200 }: Props) {
-  const [idx, setIdx] = useState<number | null>(null);
+  const [idx, setIdx] = useState(0);
   const [phrase, setPhrase] = useState<string>(PHRASES[0]);
 
   useEffect(() => {
     if (items.length === 0) return;
-    // Stagger the first render to feel alive without immediately overwriting
-    const firstPick = Math.floor(Math.random() * items.length);
-    setIdx(firstPick);
-    setPhrase(PHRASES[Math.floor(Math.random() * PHRASES.length)]);
-
     const id = setInterval(() => {
       setIdx((curr) => {
         const next = Math.floor(Math.random() * items.length);
@@ -57,7 +52,6 @@ export function LiveNowTicker({ items, intervalMs = 4200 }: Props) {
     return () => clearInterval(id);
   }, [items, intervalMs]);
 
-  if (idx === null) return null;
   const current = items[idx];
   if (!current) return null;
 

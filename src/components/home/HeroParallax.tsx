@@ -31,6 +31,7 @@ export function HeroParallax() {
       const maxOffset = rect.height * 0.5;
       const offset = Math.max(-maxOffset, Math.min(maxOffset, -rect.top * 0.6));
       section.style.setProperty("--scroll-px", `${offset}px`);
+      section.style.setProperty("--section-scroll-t", `${Math.max(0, Math.min(1, -rect.top / Math.max(1, rect.height)))}`);
     };
     const onScroll = () => {
       if (raf) return;

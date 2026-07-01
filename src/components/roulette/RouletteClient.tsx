@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { TiltCard3D } from "@/components/ui/TiltCard3D";
 
 interface PoolItem {
   slug: string;
@@ -93,10 +94,18 @@ export function RouletteClient({ pool }: Props) {
   const [tickerSlug, setTickerSlug] = useState<string>(pool[0]?.slug ?? "");
 
   useEffect(() => {
+    let raf = 0;
     try {
-      setHistory(JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]"));
-      setFaves(JSON.parse(localStorage.getItem(FAVES_KEY) || "[]"));
+      const savedHistory = JSON.parse(localStorage.getItem(HISTORY_KEY) || "[]");
+      const savedFaves = JSON.parse(localStorage.getItem(FAVES_KEY) || "[]");
+      raf = requestAnimationFrame(() => {
+        setHistory(savedHistory);
+        setFaves(savedFaves);
+      });
     } catch {}
+    return () => {
+      if (raf) cancelAnimationFrame(raf);
+    };
   }, []);
 
   const filteredPool = useMemo(() => {
@@ -171,7 +180,6 @@ export function RouletteClient({ pool }: Props) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [spinning, spin, result]);
 
   return (
@@ -184,7 +192,7 @@ export function RouletteClient({ pool }: Props) {
             onClick={() => setMood(m.id)}
             data-cursor="hover"
             aria-pressed={mood === m.id}
-            className={`px-4 py-2 rounded-full text-xs uppercase tracking-[0.18em] font-semibold border transition-all ${
+            className={`magnetic px-4 py-2 rounded-full text-xs uppercase tracking-[0.18em] font-semibold border transition-all ${
               mood === m.id
                 ? "bg-white text-black border-white shadow-[0_6px_24px_rgba(255,255,255,0.25)]"
                 : "bg-white/8 text-white/85 border-white/15 hover:bg-white/15 hover:border-white/30"
@@ -200,7 +208,8 @@ export function RouletteClient({ pool }: Props) {
       </p>
 
       {/* Slot card */}
-      <div className="floating-glass relative mx-auto max-w-2xl rounded-3xl p-8 sm:p-10 overflow-hidden">
+      <TiltCard3D className="mx-auto max-w-2xl rounded-3xl" glowColor="168, 85, 247" tiltDepth="strong" maxTilt={14}>
+      <div className="floating-glass relative rounded-3xl p-8 sm:p-10 overflow-hidden">
         {/* Glow ring while spinning */}
         {spinning && (
           <div
@@ -217,7 +226,7 @@ export function RouletteClient({ pool }: Props) {
 
         <div className="relative">
           {/* Ticker / Result */}
-          <div className="min-h-[220px] flex flex-col justify-center">
+          <div className="depth-layer-2 min-h-[220px] flex flex-col justify-center">
             {!result && !spinning && (
               <p className="text-center text-white/60 italic">
                 Press <kbd className="px-1.5 py-0.5 mx-1 rounded bg-white/15 text-white text-[10px] uppercase tracking-wider">space</kbd> or hit spin to begin.
@@ -249,7 +258,7 @@ export function RouletteClient({ pool }: Props) {
                   <Link
                     href={`/item/${result.slug}`}
                     data-cursor="hover"
-                    className="px-5 py-2.5 rounded-xl bg-white text-black text-sm font-semibold hover:bg-white/90 transition-colors"
+                    className="magnetic px-5 py-2.5 rounded-xl bg-white text-black text-sm font-semibold hover:bg-white/90 transition-colors"
                   >
                     Read the take
                   </Link>
@@ -270,7 +279,7 @@ export function RouletteClient({ pool }: Props) {
                     data-cursor="hover"
                     aria-pressed={faves.includes(result.slug)}
                     aria-label={faves.includes(result.slug) ? "Remove from favourites" : "Save to favourites"}
-                    className={`w-10 h-10 rounded-xl flex items-center justify-center text-sm border transition-all ${
+                    className={`magnetic w-10 h-10 rounded-xl flex items-center justify-center text-sm border transition-all ${
                       faves.includes(result.slug)
                         ? "bg-amber-400 text-black border-amber-400"
                         : "bg-white/10 text-white border-white/20 hover:bg-white/20"
@@ -289,13 +298,14 @@ export function RouletteClient({ pool }: Props) {
               onClick={spin}
               data-cursor="hover"
               disabled={spinning}
-              className="px-8 py-4 rounded-2xl bg-gradient-to-r from-accent to-cyan text-white text-base font-bold uppercase tracking-[0.18em] shadow-[0_10px_40px_rgba(168,85,247,0.4)] hover:shadow-[0_14px_56px_rgba(168,85,247,0.6)] active:scale-[0.98] transition-all disabled:opacity-60 disabled:cursor-wait"
+              className="magnetic px-8 py-4 rounded-2xl bg-gradient-to-r from-accent to-cyan text-white text-base font-bold uppercase tracking-[0.18em] shadow-[0_10px_40px_rgba(168,85,247,0.4)] hover:shadow-[0_14px_56px_rgba(168,85,247,0.6)] active:scale-[0.98] transition-all disabled:opacity-60 disabled:cursor-wait"
             >
               {spinning ? "Spinning…" : result ? "Spin again" : "Spin"}
             </button>
           </div>
         </div>
       </div>
+      </TiltCard3D>
 
       {/* History */}
       {history.length > 0 && (
@@ -310,7 +320,7 @@ export function RouletteClient({ pool }: Props) {
                   key={slug}
                   href={`/item/${slug}`}
                   data-cursor="hover"
-                  className="px-3 py-1.5 rounded-full bg-white/8 hover:bg-white/15 text-white/85 text-xs border border-white/10 hover:border-white/25 transition-all"
+                  className="magnetic px-3 py-1.5 rounded-full bg-white/8 hover:bg-white/15 text-white/85 text-xs border border-white/10 hover:border-white/25 transition-all"
                 >
                   {item.title}
                 </Link>
@@ -333,7 +343,7 @@ export function RouletteClient({ pool }: Props) {
                   key={slug}
                   href={`/item/${slug}`}
                   data-cursor="hover"
-                  className="px-3 py-1.5 rounded-full bg-amber-400/15 hover:bg-amber-400/25 text-amber-100 text-xs border border-amber-400/30 hover:border-amber-400/50 transition-all"
+                  className="magnetic px-3 py-1.5 rounded-full bg-amber-400/15 hover:bg-amber-400/25 text-amber-100 text-xs border border-amber-400/30 hover:border-amber-400/50 transition-all"
                 >
                   ★ {item.title}
                 </Link>

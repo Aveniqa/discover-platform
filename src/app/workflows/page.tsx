@@ -6,6 +6,7 @@ import { alcoveByKind } from "@/lib/alcoves";
 import { AlcoveBackdrop } from "@/components/3d/AlcoveBackdrop";
 import { hiddenGems, dailyTools, getItemTitle, type AnyItem } from "@/lib/data";
 import { BYLINE } from "@/lib/masthead";
+import { TiltCard3D } from "@/components/ui/TiltCard3D";
 
 export const metadata: Metadata = buildMetadata({
   title: "Workflows",
@@ -24,7 +25,7 @@ function lookupBySlug(slug?: string): AnyItem | undefined {
 export default function WorkflowsPage() {
   return (
     <>
-      <section className="relative min-h-[60vh] flex items-center overflow-hidden border-b border-white/[0.04]">
+      <section className="depth-scene relative min-h-[60vh] flex items-center overflow-hidden border-b border-white/[0.04]">
         <AlcoveBackdrop alcove={alcoveByKind("productivity")} trackScroll />
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-24 sm:py-32 text-center">
           <p className="text-xs uppercase tracking-[0.22em] text-white/70 font-semibold mb-4">
@@ -48,7 +49,7 @@ export default function WorkflowsPage() {
           <article
             id={wf.slug}
             key={wf.slug}
-            className="relative min-h-[80vh] flex items-center overflow-hidden border-t border-white/[0.04] scroll-mt-20"
+            className="depth-scene relative min-h-[80vh] flex items-center overflow-hidden border-t border-white/[0.04] scroll-mt-20"
           >
             <AlcoveBackdrop alcove={alcoveByKind(wf.alcove)} trackScroll />
             <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 py-20 w-full">
@@ -66,29 +67,33 @@ export default function WorkflowsPage() {
                   </p>
                 </div>
 
-                <ol className="lg:w-2/3 flex flex-col gap-3">
+                <ol className="depth-grid lg:w-2/3 flex flex-col gap-3">
                   {wf.steps.map((step, i) => {
                     const tool = lookupBySlug(step.toolSlug);
                     const toolName = tool ? getItemTitle(tool) : step.fallback ?? "Pick your own";
                     return (
-                      <li
+                      <TiltCard3D
+                        as="li"
                         key={i}
                         className="alcove-card relative p-5 rounded-2xl transition-colors"
+                        glowColor="168, 85, 247"
+                        tiltDepth="subtle"
+                        maxTilt={10}
                       >
                         <div className="flex items-start gap-4">
                           <div
-                            className="flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm"
+                            className="depth-layer-3 flex-shrink-0 w-9 h-9 rounded-full flex items-center justify-center font-bold text-sm"
                             style={{ background: `${wf.tint}33`, color: "#fff", border: `1px solid ${wf.tint}80` }}
                           >
                             {i + 1}
                           </div>
                           <div className="flex-1 min-w-0">
-                            <p className="text-[10px] uppercase tracking-[0.18em] alcove-card-faint mb-1">
+                            <p className="depth-layer-3 text-[10px] uppercase tracking-[0.18em] alcove-card-faint mb-1">
                               {step.action}
                             </p>
-                            <h3 className="text-lg sm:text-xl font-semibold">
+                            <h3 className="depth-layer-2 text-lg sm:text-xl font-semibold">
                               {tool ? (
-                                <Link href={`/item/${tool.slug}`} className="hover:underline">
+                                <Link href={`/item/${tool.slug}`} className="magnetic hover:underline">
                                   {toolName}
                                 </Link>
                               ) : (
@@ -102,7 +107,7 @@ export default function WorkflowsPage() {
                             )}
                           </div>
                         </div>
-                      </li>
+                      </TiltCard3D>
                     );
                   })}
                 </ol>
@@ -119,7 +124,7 @@ export default function WorkflowsPage() {
         </p>
         <Link
           href="/tools"
-          className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent-hover transition-colors"
+          className="magnetic inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-accent text-white text-sm font-semibold hover:bg-accent-hover transition-colors"
         >
           Browse the full tool catalog →
         </Link>
