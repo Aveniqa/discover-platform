@@ -38,7 +38,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
         with:
-          ref: ${{ inputs.mode == 'remediate' && inputs.target_branch || 'main' }}
+          # Always start from main: the target branch usually doesn't exist
+          # yet (checking out a missing ref fails the job). The "Create
+          # remediation branch" step below branches off main, and the push
+          # force-replaces any stale remote remediation branch — each run's
+          # PR is a fresh diff against current main.
+          ref: main
           token: ${{ secrets.PAT_TOKEN || github.token }}
 
       - name: Setup Node.js
@@ -117,7 +122,10 @@ jobs:
             exit 0
           fi
           git commit -m "content: remediate AdSense low-value signals"
-          git push --force-with-lease origin "$TARGET_BRANCH"
+          # Plain --force: this is a bot-owned scratch branch rebuilt from
+          # main each run. --force-with-lease rejects when the remote branch
+          # exists but was never fetched into this fresh clone.
+          git push --force origin "HEAD:refs/heads/$TARGET_BRANCH"
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Open or update remediation PR
