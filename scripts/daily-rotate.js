@@ -8,7 +8,10 @@ if (!process.argv.includes('--run')) {
   process.exit(0);
 }
 
-const CATS = ['discoveries', 'products', 'hidden-gems', 'future-radar', 'daily-tools'];
+// Pivoted 2026-05-19: only hidden-gems + daily-tools receive new content.
+// The legacy verticals (discoveries, products, future-radar) are empty and
+// fully archived — rotating them would be a no-op.
+const CATS = ['hidden-gems', 'daily-tools'];
 
 // Load existing archive (items keep their URLs forever for SEO)
 const archiveFile = path.join(__dirname, '..', 'data', 'archive.json');
@@ -50,4 +53,4 @@ for (const cat of catData) {
 writeJsonSafe(catFile, catData);
 console.log('Category counts updated.');
 
-console.log('\nDone. 25 items removed. Add 25 fresh ones.');
+console.log(`\nDone. ${CATS.length * 5} items rotated to archive. Generation adds ${CATS.length * 5} fresh ones.`);

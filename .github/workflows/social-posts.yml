@@ -1,13 +1,13 @@
 name: Daily Social Posts
 
 on:
-  # PAUSED 2026-05-19: social queue still contains items from the legacy
-  # verticals. Re-enable after running generate-social-posts.mjs with the
-  # new niche generator. Re-enabling earlier would post off-niche content.
-  # schedule:
-  #   - cron: '25 12 * * 1,3,5'   # Mon/Wed/Fri at 8:25 AM ET
-  #   - cron: '42 12 * * 2,4'     # Tue/Thu at 8:42 AM ET
-  #   - cron: '35 13 * * 0,6'     # Weekends at 9:35 AM ET
+  # Re-enabled 2026-07-01: generate-social-posts.mjs now targets only
+  # hidden-gems + daily-tools, and legacy-vertical posts were purged from
+  # data/social-queue.json.
+  schedule:
+    - cron: '25 12 * * 1,3,5'   # Mon/Wed/Fri at 8:25 AM ET
+    - cron: '42 12 * * 2,4'     # Tue/Thu at 8:42 AM ET
+    - cron: '35 13 * * 0,6'     # Weekends at 9:35 AM ET
   workflow_dispatch: # Manual trigger
 
 concurrency:

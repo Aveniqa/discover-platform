@@ -1,9 +1,10 @@
 name: Daily Discovery Candidates
 
 on:
-  # PAUSED 2026-05-19: Surfaced pivoted to hidden-gems + daily-tools only and
-  # this script queues candidates across the legacy verticals. Re-enable after
-  # updating scripts/discover-current-events.mjs.
+  # RETIRED 2026-05-19 (confirmed 2026-07-01): Surfaced pivoted to
+  # hidden-gems + daily-tools only; this script queues current-event
+  # candidates across the legacy verticals, which are no longer published.
+  # Do NOT re-enable the schedule unless the pivot is reversed.
   # schedule:
   #   - cron: '30 9 * * *'
   workflow_dispatch:

@@ -29,39 +29,34 @@ const SITE_URL = "https://surfaced-x.pages.dev";
 
 // Category rotation by day of week (0=Sun … 6=Sat)
 // Weekdays: 3 posts from 2 categories; Weekends: 2 posts from 2 categories
+// Pivoted 2026-05-19: Surfaced publishes hidden-gems + daily-tools only. The
+// legacy verticals (products, discoveries, future-radar) are archived — their
+// data files are empty. Alternate which niche leads so fill-from-primary
+// doesn't always favor the same one.
 const CATEGORY_ROTATION = {
-  0: ["products", "hidden-gems"],          // Sun: 2 posts
-  1: ["products", "discoveries"],           // Mon: 3 posts
-  2: ["discoveries", "hidden-gems"],        // Tue: 3 posts
-  3: ["hidden-gems", "future-radar"],       // Wed: 3 posts
-  4: ["future-radar", "daily-tools"],       // Thu: 3 posts
-  5: ["daily-tools", "products"],           // Fri: 3 posts
-  6: ["discoveries", "future-radar"],       // Sat: 2 posts
+  0: ["hidden-gems", "daily-tools"],        // Sun: 2 posts
+  1: ["hidden-gems", "daily-tools"],        // Mon: 3 posts
+  2: ["daily-tools", "hidden-gems"],        // Tue: 3 posts
+  3: ["hidden-gems", "daily-tools"],        // Wed: 3 posts
+  4: ["daily-tools", "hidden-gems"],        // Thu: 3 posts
+  5: ["hidden-gems", "daily-tools"],        // Fri: 3 posts
+  6: ["daily-tools", "hidden-gems"],        // Sat: 2 posts
 };
 
 const CATEGORY_FILES = {
-  products: "products.json",
-  discoveries: "discoveries.json",
   "hidden-gems": "hidden-gems.json",
-  "future-radar": "future-radar.json",
   "daily-tools": "daily-tools.json",
 };
 
 // Pinterest board name mapping
 const BOARD_MAP = {
-  products: "Tech Products",
-  discoveries: "New Discoveries",
   "hidden-gems": "Hidden Gems",
-  "future-radar": "Future Tech",
   "daily-tools": "Daily Tools",
 };
 
 // Category-specific hashtags for Bluesky
 const CATEGORY_HASHTAGS = {
-  products: ["#tech", "#gadgets", "#innovation"],
-  discoveries: ["#science", "#discovery", "#TIL"],
   "hidden-gems": ["#hiddenGem", "#apps", "#underrated"],
-  "future-radar": ["#futuretech", "#innovation", "#emerging"],
   "daily-tools": ["#productivity", "#tools", "#apps"],
 };
 
@@ -309,7 +304,7 @@ async function generateSocialContent(item, affiliateUrl, productUrl) {
     ? `Include affiliate disclosure: "Affiliate link — I earn a commission on purchases."`
     : `No affiliate link for this item. Link to: ${productUrl}`;
 
-  const prompt = `You write social media posts for "Surfaced," a product discovery site (surfaced-x.pages.dev).
+  const prompt = `You write social media posts for "Surfaced," a site that surfaces underrated web tools and everyday apps (surfaced-x.pages.dev).
 Tone: curious, opinionated, concise. Not corporate. Mention honest limitations when relevant.
 
 Generate exactly 5 outputs in valid JSON (no trailing commas):
