@@ -37,8 +37,8 @@ AI-generated items also get `dateAdded` (YYYY-MM-DD). Original items may lack it
 
 ## Daily automation pipeline
 Runs at 7am ET via `.github/workflows/daily-edition.yml`. Steps in order:
-1. `daily-rotate.js --run` — archives 5 oldest per category into `data/archive.json` (never deletes — archived items keep their URLs for SEO)
-2. `generate-daily-content.js` — Gemini API generates 5 fresh items per category (25 total)
+1. `daily-rotate.js --run` — archives 5 oldest per live category into `data/archive.json` (never deletes — archived items keep their URLs for SEO)
+2. `generate-daily-content.js` — Gemini API generates 5 fresh items per live category (10 total; since the 2026-05 pivot only `hidden-gems` and `daily-tools` are live — `discoveries`, `products`, and `future-radar` are empty and fully archived)
 3. `validate-data.js` — checks JSON integrity
 4. `validate-urls.js --recent` — spot-checks outbound URLs (non-fatal)
 5. `assign-badges.js` — applies editorial badges
