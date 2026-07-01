@@ -6,6 +6,12 @@
  *   GEMINI_API_KEY=xxx node scripts/retrofit-sources.mjs --dry   # preview only
  *   GEMINI_API_KEY=xxx node scripts/retrofit-sources.mjs --run   # apply changes
  *
+ *   # Fill in MISSING source URLs on archived items (the residual AdSense
+ *   # audit gap). Every candidate URL is fetched and must resolve before it
+ *   # is written. Slugs with no verifiable source are recorded in
+ *   # docs/source-retrofit-attempted.json and skipped on later runs.
+ *   GEMINI_API_KEY=xxx node scripts/retrofit-sources.mjs --run --archive-missing --limit=250
+ *
  * Requires: GEMINI_API_KEY env var
  * Rate-limit safe: 1 req/sec, exponential backoff on 429
  * Log: docs/source-retrofit.log
@@ -40,6 +46,25 @@ const PREFERRED_DOMAINS = [
 
 const args = new Set(process.argv.slice(2));
 const isDry = !args.has("--run");
+const doArchiveMissing = args.has("--archive-missing");
+const limitArg = process.argv.slice(2).find((a) => a.startsWith("--limit="));
+const LIMIT = limitArg ? Math.max(1, parseInt(limitArg.split("=")[1], 10) || 0) : Infinity;
+
+// Domains the daily-generation prompt already bans — never write these.
+const BANNED_DOMAINS = ["wikipedia.org", "wikihow.com", "blogspot.com", "wordpress.com", "medium.com"];
+
+// Ledger of archive slugs we already tried and found no verifiable source
+// for. Prevents re-burning Gemini calls on the same hopeless items each run.
+const ATTEMPTED_PATH = path.join(__dirname, "..", "docs", "source-retrofit-attempted.json");
+
+// Field that holds the outbound URL for each archived item's `type`.
+const TYPE_TO_URL_FIELD = {
+  discovery: "sourceLink",
+  product: "sourceLink",
+  "future-tech": "sourceLink",
+  "hidden-gem": "websiteLink",
+  tool: "websiteLink",
+};
 
 const API_KEY = process.env.GEMINI_API_KEY;
 if (!API_KEY) {
@@ -76,6 +101,153 @@ function sleep(ms) {
 
 function isLowQuality(url) {
   return LOW_QUALITY.some((d) => url.includes(d));
+}
+
+function isBannedOrInvalid(url) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return true;
+  }
+  if (parsed.protocol !== "https:") return true;
+  if (parsed.username || parsed.password) return true;
+  const host = parsed.hostname.toLowerCase();
+  if (!host || host === "localhost" || /^\d+\.\d+\.\d+\.\d+$/.test(host)) return true;
+  return BANNED_DOMAINS.some((d) => host === d || host.endsWith(`.${d}`));
+}
+
+/**
+ * Gemini can hallucinate URLs, so nothing gets written unless the page
+ * actually responds. 403/405/429 count as alive (bot-blocked but real, same
+ * philosophy as scripts/validate-urls.js); anything else >= 400, network
+ * errors, and timeouts are rejected.
+ */
+async function urlResolves(url) {
+  try {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 10000);
+    const res = await fetch(url, {
+      method: "GET",
+      signal: ctrl.signal,
+      redirect: "follow",
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      },
+    });
+    clearTimeout(timer);
+    if (res.status < 400) return true;
+    return [403, 405, 429].includes(res.status);
+  } catch {
+    return false;
+  }
+}
+
+function loadAttempted() {
+  try {
+    return JSON.parse(fs.readFileSync(ATTEMPTED_PATH, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+async function findMissingSourceUrl(item) {
+  const title = item.title || item.name || item.techName || item.toolName || item.slug;
+  const description = (item.shortDescription || item.whatItDoes || item.explanation || "").slice(0, 300);
+  const isToolLike = item.type === "hidden-gem" || item.type === "tool" || item.type === "product";
+
+  const ask = isToolLike
+    ? `Find the official website or official product page URL for this tool/product. Only the vendor's own site or official repository — not a review, listicle, or store search page.`
+    : `Find the single best authoritative source URL covering this specific topic (journal article, university/government page, or major science/tech outlet).
+Preferred domains: ${PREFERRED_DOMAINS.join(", ")}`;
+
+  const prompt = `You are a fact-checker locating a primary source for a published article that has none.
+
+Item: "${title}"
+Type: ${item.type}
+Description: "${description}"
+
+${ask}
+
+Rules:
+- Return ONLY the URL, nothing else — no explanation, no markdown
+- Must be a real, publicly accessible https:// page about this specific item
+- If you are not confident a real page exists, return the string: NO_SOURCE
+- Never return: ${BANNED_DOMAINS.join(", ")}`;
+
+  const result = await callGemini(prompt);
+  const cleaned = result.replace(/[`'"]/g, "").trim().split(/\s+/)[0];
+  if (!cleaned || cleaned === "NO_SOURCE" || !cleaned.startsWith("https://")) return null;
+  return cleaned;
+}
+
+/**
+ * Fill in missing outbound URLs on archive.json items — the residual gap the
+ * AdSense audit reports. Verified-only writes; hopeless slugs are remembered
+ * in the attempted ledger so later runs skip them.
+ */
+async function retrofitArchiveMissing(logLines) {
+  const fp = path.join(DATA_DIR, "archive.json");
+  const items = JSON.parse(fs.readFileSync(fp, "utf8"));
+  const attempted = loadAttempted();
+
+  const targets = items.filter((item) => {
+    const field = TYPE_TO_URL_FIELD[item.type];
+    if (!field) return false;
+    const value = item[field];
+    const missing = !value || typeof value !== "string" || !/^https?:\/\//.test(value.trim());
+    return missing && !attempted[item.slug];
+  });
+
+  const batch = targets.slice(0, LIMIT);
+  console.log(`[archive] ${targets.length} item(s) missing a source URL; processing ${batch.length} this run`);
+  logLines.push(`## archive missing-source backfill (${batch.length}/${targets.length} items)`);
+
+  let added = 0;
+  let skipped = 0;
+  let processed = 0;
+
+  for (const item of batch) {
+    const field = TYPE_TO_URL_FIELD[item.type];
+    processed++;
+    process.stdout.write(`  [${processed}/${batch.length}] ${item.slug} `);
+    try {
+      const candidate = await findMissingSourceUrl(item);
+      if (candidate && !isBannedOrInvalid(candidate) && (await urlResolves(candidate))) {
+        console.log(`→ ${candidate}`);
+        logLines.push(`ADDED     ${item.slug}`);
+        logLines.push(`  new: ${candidate}`);
+        if (!isDry) item[field] = candidate;
+        added++;
+      } else {
+        console.log(`→ NO_SOURCE${candidate ? ` (unverifiable: ${candidate.slice(0, 60)})` : ""}`);
+        logLines.push(`NO_SOURCE ${item.slug}${candidate ? `  (rejected: ${candidate})` : ""}`);
+        attempted[item.slug] = new Date().toISOString().slice(0, 10);
+        skipped++;
+      }
+    } catch (err) {
+      // Errors are NOT added to the ledger — transient failures deserve a retry.
+      console.log(`→ ERROR: ${err.message}`);
+      logLines.push(`ERROR     ${item.slug}  ${err.message}`);
+    }
+
+    // Persist progress every 25 items so a crash doesn't lose the batch.
+    if (!isDry && processed % 25 === 0) {
+      writeJsonSafe(fp, items);
+      writeJsonSafe(ATTEMPTED_PATH, attempted);
+    }
+    await sleep(1100);
+  }
+
+  if (!isDry) {
+    writeJsonSafe(fp, items);
+    writeJsonSafe(ATTEMPTED_PATH, attempted);
+  }
+  logLines.push("");
+  logLines.push(`archive summary: added=${added} no_source=${skipped} remaining=${targets.length - batch.length}`);
+  logLines.push("");
+  console.log(`[archive] added=${added} no_source=${skipped} unprocessed=${targets.length - batch.length}`);
 }
 
 function writeJsonSafe(fp, data) {
@@ -119,6 +291,10 @@ async function main() {
   let replaced = 0;
   let kept = 0;
 
+  if (doArchiveMissing) {
+    await retrofitArchiveMissing(logLines);
+  }
+
   for (const [category, urlField] of Object.entries(FILES)) {
     const fp = path.join(DATA_DIR, `${category}.json`);
     if (!fs.existsSync(fp)) continue;
@@ -139,7 +315,13 @@ async function main() {
       process.stdout.write(`  ${item.slug}: ${oldUrl.slice(0, 60)}... `);
 
       try {
-        const newUrl = await findReplacementUrl(item, urlField);
+        let newUrl = await findReplacementUrl(item, urlField);
+        // Verified-only writes: Gemini URLs must resolve and be off the
+        // banned-domain list, otherwise keep the original.
+        if (newUrl && (isBannedOrInvalid(newUrl) || !(await urlResolves(newUrl)))) {
+          logLines.push(`REJECTED  ${item.slug}  (unverifiable: ${newUrl})`);
+          newUrl = null;
+        }
         if (newUrl) {
           console.log(`→ ${newUrl}`);
           logLines.push(`REPLACED  ${item.slug}`);

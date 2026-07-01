@@ -107,6 +107,13 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Notify IndexNow of fresh sitemap
+        # Previously only the (now-retired) trending-live workflow pinged
+        # IndexNow. Daily editions rebuild the whole sitemap, so ping here.
+        # Best-effort: a Bing/Yandex 5xx must not fail the edition.
+        continue-on-error: true
+        run: npm run seo:ping
+
       - name: Send daily newsletter
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}

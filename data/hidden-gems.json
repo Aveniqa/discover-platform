@@ -1829,7 +1829,7 @@
     "imageIdea": "Clean, dark-themed email client interface with multiple inboxes consolidated, showing tracking icons.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://getmailspring.com",
+    "websiteLink": "https://www.getmailspring.com/",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fgetmailspring.com&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
@@ -2555,7 +2555,7 @@
     "category": "Design",
     "whyItIsUseful": "VisBug offers a significantly more intuitive and visual approach to modifying web styles than using complex browser developer tools, saving hours of iterative coding and refreshing. For the UX designer, VisBug allows for real-time prototyping of layout adjustments or copy changes directly on the live site, streamlining feedback and iteration cycles. For the front-end developer, it provides a fast way to debug tricky CSS issues by directly manipulating elements and seeing the impact instantly, reducing guesswork and speeding up problem-solving. VisBug is entirely free and open-source, with no hidden costs or premium features. A powerful feature often discovered later is its ability to export changes as CSS, making it easy to transfer visual experiments back into a project's codebase. Its relative lack of widespread recognition stems from being a specialized tool for visual debugging, meaning many average users won't need it, and even some developers might not realize its potential beyond basic DevTools. As a Google-backed open-source project, it benefits from community contributions and occasional updates to ensure compatibility with browser changes.",
     "imageIdea": "A webpage in a browser, with an overlay of design tool icons (e.g., move arrow, text cursor, color palette) interacting with page elements.",
-    "websiteLink": "https://visbug.web.app/",
+    "websiteLink": "https://github.com/GoogleChromeLabs/ProjectVisBug",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fvisbug.web.app%2F&screenshot=true&meta=false&embed=screenshot.url"
@@ -2713,7 +2713,7 @@
     "imageIdea": "screenshot of an interactive online course module with embedded video and quiz questions",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.curio.us",
+    "websiteLink": "https://curio.us/",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.curio.us&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
@@ -4507,7 +4507,7 @@
     "imageIdea": "A minimalist screenshot of Zenkit To Do showing a shared grocery list with items checked off and a profile icon indicating collaboration.",
     "type": "hidden-gem",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://zenkit.com/to-do",
+    "websiteLink": "https://zenkit.com/en/todo/",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fzenkit.com%2Fto-do&screenshot=true&meta=false&embed=screenshot.url"
   },
   {
