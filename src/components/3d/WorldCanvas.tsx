@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef } from "react";
+import { useMemo, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 import type { WorldSeed } from "@/lib/world-seed";
@@ -10,6 +10,237 @@ interface Props {
   seed: WorldSeed;
   scrollT: number;
   pointer: { x: number; y: number };
+}
+
+type ItemKeyframe = {
+  camera: [number, number, number];
+  lookAt: [number, number, number];
+  fov: number;
+  density: number;
+  objectScale: number;
+  objectY: number;
+  objectZ: number;
+  twist: number;
+  glow: number;
+};
+
+const ITEM_KEYFRAMES: ItemKeyframe[] = [
+  {
+    camera: [0, 0.15, 6.25],
+    lookAt: [0, -0.35, -2.1],
+    fov: 66,
+    density: 0.58,
+    objectScale: 1.0,
+    objectY: -0.42,
+    objectZ: -2.05,
+    twist: 0.22,
+    glow: 0.72,
+  },
+  {
+    camera: [0.95, 0.55, 5.45],
+    lookAt: [0.1, -0.2, -2.7],
+    fov: 61,
+    density: 0.86,
+    objectScale: 1.18,
+    objectY: -0.18,
+    objectZ: -2.65,
+    twist: 0.58,
+    glow: 0.9,
+  },
+  {
+    camera: [-1.15, 0.85, 4.75],
+    lookAt: [-0.1, -0.05, -3.25],
+    fov: 57,
+    density: 1.0,
+    objectScale: 0.92,
+    objectY: -0.02,
+    objectZ: -3.2,
+    twist: 1.08,
+    glow: 1.15,
+  },
+  {
+    camera: [1.35, -0.05, 4.2],
+    lookAt: [0, -0.18, -3.95],
+    fov: 54,
+    density: 0.74,
+    objectScale: 1.34,
+    objectY: -0.28,
+    objectZ: -3.85,
+    twist: 0.72,
+    glow: 0.96,
+  },
+  {
+    camera: [-0.55, 0.35, 3.72],
+    lookAt: [0.08, -0.32, -4.6],
+    fov: 50,
+    density: 0.96,
+    objectScale: 1.12,
+    objectY: -0.46,
+    objectZ: -4.45,
+    twist: 1.38,
+    glow: 1.22,
+  },
+  {
+    camera: [0.15, 0.08, 5.15],
+    lookAt: [0, -0.55, -5.05],
+    fov: 59,
+    density: 0.64,
+    objectScale: 0.82,
+    objectY: -0.62,
+    objectZ: -5.05,
+    twist: 0.36,
+    glow: 0.66,
+  },
+];
+
+const ITEM_MORPH_STOPS = ITEM_KEYFRAMES.length;
+
+function clamp01(value: number): number {
+  return Math.min(1, Math.max(0, value));
+}
+
+function smoothstep(value: number): number {
+  return value * value * (3 - 2 * value);
+}
+
+function lerp(a: number, b: number, t: number): number {
+  return a + (b - a) * t;
+}
+
+function getItemPhase(scrollT: number) {
+  const scaled = clamp01(scrollT) * (ITEM_MORPH_STOPS - 1);
+  const index = Math.min(ITEM_MORPH_STOPS - 2, Math.floor(scaled));
+  const next = Math.min(ITEM_MORPH_STOPS - 1, index + 1);
+  return { index, next, t: smoothstep(scaled - index), raw: scaled };
+}
+
+function getItemSceneSnapshot(seed: WorldSeed, scrollT: number) {
+  const phase = getItemPhase(scrollT);
+  const from = ITEM_KEYFRAMES[phase.index];
+  const to = ITEM_KEYFRAMES[phase.next];
+  const side = seed.rngSeed % 2 === 0 ? 1 : -1;
+  const depth = 0.9 + seed.intensity * 0.18;
+  const cameraX = lerp(from.camera[0], to.camera[0], phase.t) * side;
+  const lookX = lerp(from.lookAt[0], to.lookAt[0], phase.t) * side * 0.45;
+  const heartbeat = 0.92 + Math.sin(phase.raw * Math.PI) * 0.08;
+
+  return {
+    cameraX,
+    cameraY: lerp(from.camera[1], to.camera[1], phase.t),
+    cameraZ: lerp(from.camera[2], to.camera[2], phase.t) * depth,
+    lookX,
+    lookY: lerp(from.lookAt[1], to.lookAt[1], phase.t),
+    lookZ: lerp(from.lookAt[2], to.lookAt[2], phase.t),
+    fov: lerp(from.fov, to.fov, phase.t),
+    density: lerp(from.density, to.density, phase.t) * heartbeat,
+    objectScale: lerp(from.objectScale, to.objectScale, phase.t),
+    objectY: lerp(from.objectY, to.objectY, phase.t),
+    objectZ: lerp(from.objectZ, to.objectZ, phase.t),
+    twist: lerp(from.twist, to.twist, phase.t),
+    glow: lerp(from.glow, to.glow, phase.t),
+  };
+}
+
+function signedNoise(seed: number, vertexIndex: number, channel: number): number {
+  const n = Math.sin((seed * 0.0001 + vertexIndex * 12.9898 + channel * 78.233) * 437.585);
+  return (n - Math.floor(n)) * 2 - 1;
+}
+
+function writeTarget(
+  target: Float32Array,
+  offset: number,
+  x: number,
+  y: number,
+  z: number
+) {
+  target[offset] = x;
+  target[offset + 1] = y;
+  target[offset + 2] = z;
+}
+
+function buildItemMorphTargets(
+  base: Float32Array,
+  seed: WorldSeed
+): Float32Array[] {
+  const targets = Array.from({ length: ITEM_MORPH_STOPS }, () => new Float32Array(base.length));
+  const motifBend: Record<string, number> = {
+    orbit: 0.32,
+    lattice: 0.12,
+    ripple: 0.42,
+    particles: 0.5,
+    prism: 0.22,
+    gem: 0.28,
+  };
+  const bend = motifBend[seed.alcove.motif] ?? 0.3;
+  const seedAngle = seed.hue * Math.PI * 2;
+
+  for (let i = 0; i < base.length; i += 3) {
+    const vertexIndex = i / 3;
+    const x = base[i];
+    const y = base[i + 1];
+    const z = base[i + 2];
+    const length = Math.hypot(x, y, z) || 1;
+    const nx = x / length;
+    const ny = y / length;
+    const nz = z / length;
+    const angle = Math.atan2(nz, nx);
+    const ring = Math.hypot(nx, nz);
+    const jitter = signedNoise(seed.rngSeed, vertexIndex, 1);
+    const jitterB = signedNoise(seed.rngSeed, vertexIndex, 2);
+    const facet = Math.sin(angle * 6 + seedAngle) * 0.08;
+
+    const compactRadius = 1.0 + jitter * 0.055 + facet;
+    writeTarget(targets[0], i, nx * compactRadius, ny * compactRadius, nz * compactRadius);
+
+    const apertureRadius = 1.42 + Math.sin(angle * 4 + seedAngle) * 0.13 + jitter * 0.04;
+    writeTarget(
+      targets[1],
+      i,
+      Math.cos(angle) * apertureRadius,
+      ny * 0.24 + jitterB * 0.045,
+      Math.sin(angle) * (apertureRadius * (0.58 + Math.abs(ny) * 0.18))
+    );
+
+    const helixTurn = angle + ny * (3.6 + bend * 2.4) + seedAngle * 0.35;
+    const helixRadius = 0.72 + ring * 0.45 + jitter * 0.08;
+    writeTarget(
+      targets[2],
+      i,
+      Math.cos(helixTurn) * helixRadius,
+      ny * 1.45,
+      Math.sin(helixTurn) * helixRadius
+    );
+
+    const gridStep = 2.8;
+    writeTarget(
+      targets[3],
+      i,
+      Math.round(nx * gridStep) / gridStep * 1.42 + jitter * 0.045,
+      Math.round(ny * gridStep) / gridStep * 1.15 + jitterB * 0.035,
+      Math.round(nz * gridStep) / gridStep * 1.42 + signedNoise(seed.rngSeed, vertexIndex, 3) * 0.045
+    );
+
+    const bloomRadius = 1.22 + Math.pow(Math.abs(Math.sin(angle * 3 + seedAngle)), 1.7) * 0.5 + jitter * 0.08;
+    writeTarget(
+      targets[4],
+      i,
+      nx * bloomRadius * (1 + bend * 0.25),
+      ny * bloomRadius * 0.86,
+      nz * bloomRadius
+    );
+
+    const shardRadius = (1 - Math.abs(ny)) * 0.78 + 0.12 + jitter * 0.035;
+    const shardAngle = angle + seedAngle * 0.2 + jitterB * 0.18;
+    writeTarget(
+      targets[5],
+      i,
+      Math.cos(shardAngle) * shardRadius,
+      ny * 1.65,
+      Math.sin(shardAngle) * shardRadius * (0.72 + bend * 0.3)
+    );
+  }
+
+  return targets;
 }
 
 /* ----- Shared shaders (one set, swap uniforms) ----- */
@@ -121,7 +352,10 @@ const NEBULA_FRAGMENT = /* glsl */ `
 /* ----- Particle field (sparse glowing dust) ----- */
 function ParticleField({ seed, scrollT }: { seed: WorldSeed; scrollT: number }) {
   const ref = useRef<THREE.Points>(null);
-  const count = Math.round(800 * seed.density);
+  const geometryRef = useRef<THREE.BufferGeometry>(null);
+  const materialRef = useRef<THREE.PointsMaterial>(null);
+  const isItemScene = seed.scene === "item";
+  const count = Math.round((isItemScene ? 1300 : 800) * seed.density);
   const baseColor = useMemo(() => new THREE.Color(seed.alcove.palette[0]), [seed.alcove.palette]);
   const accentColor = useMemo(() => new THREE.Color(seed.alcove.palette[1]), [seed.alcove.palette]);
 
@@ -158,17 +392,37 @@ function ParticleField({ seed, scrollT }: { seed: WorldSeed; scrollT: number }) 
     // Slow rotation + scroll-driven dolly along z
     p.rotation.y += delta * 0.018;
     p.rotation.x = Math.sin(state.clock.elapsedTime * 0.08) * 0.04;
-    p.position.z = -scrollT * 2.5;
+    p.position.z = isItemScene ? -scrollT * 5.2 : -scrollT * 2.5;
+
+    if (isItemScene) {
+      const frame = getItemSceneSnapshot(seed, scrollT);
+      const pulse = clamp01(frame.density);
+      const visibleCount = Math.max(140, Math.floor(count * (0.34 + pulse * 0.66)));
+      geometryRef.current?.setDrawRange(0, visibleCount);
+      if (materialRef.current) {
+        materialRef.current.opacity = 0.34 + pulse * 0.5;
+        materialRef.current.size = 0.065 + pulse * 0.09;
+      }
+    } else {
+      // Reset imperatives the item scene may have set on previous frames so
+      // route pages visited after an item don't inherit a clipped/dimmed field.
+      geometryRef.current?.setDrawRange(0, Infinity);
+      if (materialRef.current) {
+        materialRef.current.opacity = 0.85;
+        materialRef.current.size = 0.12;
+      }
+    }
   });
 
   return (
     <points ref={ref}>
-      <bufferGeometry>
+      <bufferGeometry ref={geometryRef}>
         <bufferAttribute attach="attributes-position" args={[positions, 3]} />
         <bufferAttribute attach="attributes-color" args={[colors, 3]} />
         <bufferAttribute attach="attributes-size" args={[sizes, 1]} />
       </bufferGeometry>
       <pointsMaterial
+        ref={materialRef}
         size={0.12}
         sizeAttenuation
         vertexColors
@@ -225,8 +479,77 @@ function NebulaBackground({ seed, scrollT, pointer }: Props) {
   );
 }
 
-/* ----- Floating focal object (per-item or per-route hero geometry) ----- */
-function FocalObject({ seed, scrollT }: { seed: WorldSeed; scrollT: number }) {
+/* ----- Morphing focal object: item pages get six deterministic keyframes ----- */
+function ItemFocalObject({ seed, scrollT }: { seed: WorldSeed; scrollT: number }) {
+  const meshRef = useRef<THREE.Mesh>(null);
+  const geometryRef = useRef<THREE.IcosahedronGeometry>(null);
+  const materialRef = useRef<THREE.MeshStandardMaterial>(null);
+  const targetsRef = useRef<Float32Array[] | null>(null);
+  const targetKeyRef = useRef("");
+  const basePositionsRef = useRef<Float32Array | null>(null);
+  const baseColor = useMemo(() => new THREE.Color(seed.alcove.palette[0]), [seed.alcove.palette]);
+  const emissiveColor = useMemo(() => new THREE.Color(seed.alcove.palette[1]), [seed.alcove.palette]);
+
+  useFrame((state, delta) => {
+    const mesh = meshRef.current;
+    const geometry = geometryRef.current;
+    if (!geometry) return;
+    if (!basePositionsRef.current) {
+      basePositionsRef.current = (geometry.attributes.position.array as Float32Array).slice();
+    }
+    if (!targetsRef.current || targetKeyRef.current !== seed.key) {
+      targetsRef.current = buildItemMorphTargets(basePositionsRef.current, seed);
+      targetKeyRef.current = seed.key;
+    }
+    const targets = targetsRef.current;
+    const position = geometry.attributes.position;
+    const array = position.array as Float32Array;
+    const phase = getItemPhase(scrollT);
+    const from = targets[phase.index];
+    const to = targets[phase.next];
+    const frame = getItemSceneSnapshot(seed, scrollT);
+
+    for (let i = 0; i < array.length; i++) {
+      array[i] = lerp(from[i], to[i], phase.t);
+    }
+    position.needsUpdate = true;
+    geometry.computeVertexNormals();
+
+    if (!mesh) return;
+    mesh.rotation.x += delta * (0.12 + frame.twist * 0.08);
+    mesh.rotation.y += delta * (0.22 + frame.twist * 0.12);
+    mesh.rotation.z = Math.sin(state.clock.elapsedTime * 0.22 + seed.hue * 6.28) * 0.12;
+    mesh.position.y = frame.objectY + Math.sin(state.clock.elapsedTime * 0.45) * 0.08;
+    mesh.position.z = frame.objectZ;
+    mesh.scale.setScalar(frame.objectScale * (1 + Math.sin(state.clock.elapsedTime * 0.65) * 0.035));
+
+    const material = materialRef.current;
+    if (material) {
+      material.opacity = 0.48 + frame.glow * 0.18;
+      material.emissiveIntensity = frame.glow;
+      material.wireframe = seed.alcove.motif === "lattice" || phase.index === 3;
+    }
+  });
+
+  return (
+    <mesh ref={meshRef} position={[0, -0.4, -2.2]}>
+      <icosahedronGeometry ref={geometryRef} args={[1, 2]} />
+      <meshStandardMaterial
+        ref={materialRef}
+        color={baseColor}
+        emissive={emissiveColor}
+        emissiveIntensity={0.85}
+        roughness={0.28}
+        metalness={0.72}
+        transparent
+        opacity={0.62}
+      />
+    </mesh>
+  );
+}
+
+/* ----- Floating focal object for non-item routes ----- */
+function RouteFocalObject({ seed, scrollT }: { seed: WorldSeed; scrollT: number }) {
   const meshRef = useRef<THREE.Mesh>(null);
 
   // Pick geometry detail level from alcove motif (radius, detail)
@@ -273,6 +596,52 @@ function FocalObject({ seed, scrollT }: { seed: WorldSeed; scrollT: number }) {
   );
 }
 
+/* ----- Floating focal object (per-item or per-route hero geometry) ----- */
+function FocalObject({ seed, scrollT }: { seed: WorldSeed; scrollT: number }) {
+  if (seed.scene === "item") {
+    return <ItemFocalObject seed={seed} scrollT={scrollT} />;
+  }
+  return <RouteFocalObject seed={seed} scrollT={scrollT} />;
+}
+
+/* ----- Camera rig — item pages dolly through the six reading keyframes ----- */
+function CameraRig({ seed, scrollT, pointer }: Props) {
+  const desired = useRef(new THREE.Vector3(0, 0, 6));
+  const target = useRef(new THREE.Vector3(0, -0.25, -2));
+
+  useFrame((state) => {
+    const camera = state.camera as THREE.PerspectiveCamera;
+
+    if (seed.scene === "item") {
+      const frame = getItemSceneSnapshot(seed, scrollT);
+      desired.current.set(
+        frame.cameraX + pointer.x * 0.16,
+        frame.cameraY + pointer.y * 0.08,
+        frame.cameraZ
+      );
+      target.current.set(
+        frame.lookX + pointer.x * 0.05,
+        frame.lookY + pointer.y * 0.03,
+        frame.lookZ
+      );
+      camera.position.lerp(desired.current, 0.065);
+      camera.lookAt(target.current);
+      camera.fov = lerp(camera.fov, frame.fov, 0.045);
+      camera.updateProjectionMatrix();
+      return;
+    }
+
+    desired.current.set(pointer.x * 0.12, pointer.y * 0.08, 6 - scrollT * 0.35);
+    target.current.set(0, -0.18, -2 - scrollT * 1.2);
+    camera.position.lerp(desired.current, 0.04);
+    camera.lookAt(target.current);
+    camera.fov = lerp(camera.fov, 65, 0.04);
+    camera.updateProjectionMatrix();
+  });
+
+  return null;
+}
+
 /* ----- Main canvas — composes everything ----- */
 export default function WorldCanvas({ seed, scrollT, pointer }: Props) {
   return (
@@ -286,6 +655,7 @@ export default function WorldCanvas({ seed, scrollT, pointer }: Props) {
       <ambientLight intensity={0.35} />
       <pointLight position={[3, 2, 4]} intensity={1.6} color={seed.alcove.palette[0]} />
       <pointLight position={[-4, -1, 3]} intensity={1.1} color={seed.alcove.palette[1]} />
+      <CameraRig seed={seed} scrollT={scrollT} pointer={pointer} />
       <NebulaBackground seed={seed} scrollT={scrollT} pointer={pointer} />
       <ParticleField seed={seed} scrollT={scrollT} />
       <FocalObject seed={seed} scrollT={scrollT} />
