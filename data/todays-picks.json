@@ -1,46 +1,19 @@
 [
   {
-    "slug": "ancient-dna-reveals-ghost-population",
-    "title": "Ancient DNA Reveals Ghost Population",
-    "category": "discoveries",
-    "categoryLabel": "Discovery",
-    "description": "A groundbreaking analysis of ancient human DNA, published in *Cell* in 2020, has revealed the existence of a previously ",
-    "badge": null,
-    "type": "discovery"
-  },
-  {
-    "slug": "lumen-desk-lamp-with-wireless-charger",
-    "title": "Lumen Desk Lamp with Integrated Wireless Charger",
-    "category": "products",
-    "categoryLabel": "Trending Product",
-    "description": "The Lumen Desk Lamp is a modern lighting solution that combines adjustable, eye-friendly LED illumination with a built-i",
-    "badge": null,
-    "type": "product"
-  },
-  {
-    "slug": "fontface-observer",
-    "title": "FontFace Observer",
+    "slug": "color-contrast-checker-2",
+    "title": "Color Contrast Checker",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "FontFace Observer is a JavaScript library that allows developers to monitor the loading status of web fonts. It provides",
+    "description": "This web-based tool allows designers and developers to easily check the contrast ratio between two colors. It helps ensu",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "click-click-click-interactive-experience",
-    "title": "Click (2016) Interactive Experience",
-    "category": "future-radar",
-    "categoryLabel": "Future Tech",
-    "description": "Click (2016) is a seminal interactive web experience that uses the concept of a simple, continuously clicking button to ",
-    "badge": null,
-    "type": "future-tech"
-  },
-  {
-    "slug": "clipdrop-by-stability-ai",
-    "title": "Clipdrop",
+    "slug": "improve-ai-code-auditor",
+    "title": "improve",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Clipdrop is a suite of AI-powered tools designed to enhance and manipulate images with remarkable ease. It offers featur",
+    "description": "improve is an open-source tool designed to leverage your most capable AI models to audit your codebase. It then generate",
     "badge": null,
     "type": "tool"
   }

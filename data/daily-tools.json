@@ -1,65 +1,5 @@
 [
   {
-    "id": 539,
-    "slug": "zoho-books-small-business-accounting-software",
-    "toolName": "Zoho Books",
-    "whatItDoes": "Zoho Books, developed by Zoho Corporation, is a comprehensive online accounting software designed specifically for small businesses to manage their finances end-to-end. It provides tools for invoicing, expense tracking, banking, project accounting, inventory management, and financial reporting, all integrated into a single platform. The primary workflow supports creating and sending invoices, recording expenses with receipt capture, reconciling bank statements, and generating profit & loss or balance sheet reports. Zoho Books is accessible via a web browser and offers robust mobile apps for iOS and Android, alongside a dedicated app for Apple Watch. Its most used feature is the intuitive dashboard that gives a quick overview of cash flow and key financial metrics. All business financial data is securely stored and synchronized in the cloud, ensuring real-time accessibility and collaboration.",
-    "category": "Finance",
-    "whyItIsUseful": "Zoho Books eliminates the complexity and disparate tools often used by small businesses for managing their financial operations, streamlining everything into one cohesive system. For the freelance designer, it simplifies sending professional invoices, tracking payments, and recording project-specific expenses, ensuring they always know their profitability. For the small retail business owner, it integrates inventory management with sales and expenses, providing a complete picture of their business's financial health. Zoho Books offers a feature-rich free plan for businesses with revenue under $50k/year, which is genuinely useful for many startups and micro-businesses, while paid plans unlock more advanced features and higher revenue limits. Compared to simply using spreadsheets or basic invoicing tools, Zoho Books offers a true double-entry accounting system with automated bank feeds and powerful reporting. The \"Client Portal\" feature, allowing clients to view invoices, make payments, and communicate directly, is a key power feature that enhances customer experience. A non-technical business owner can set up their company profile, link bank accounts, and send their first invoice within 15-20 minutes.",
-    "imageIdea": "Zoho Books web dashboard showing an overview of invoices, expenses, cash flow, and a profit & loss summary.",
-    "websiteLink": "https://www.zoho.com/books/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 177,
-    "slug": "acorns-invest-spare-change",
-    "toolName": "Acorns",
-    "whatItDoes": "Acorns, founded by Walter W. Cruttenden, is a micro-investing platform that allows users to invest their spare change from everyday purchases. It automatically rounds up credit and debit card transactions to the nearest dollar and invests the difference into diversified portfolios of ETFs. The primary workflow involves connecting your bank accounts and credit cards, choosing a risk-appropriate portfolio, and letting the app automatically invest your round-ups. Acorns is available on iOS, Android, and through its web interface. The most used feature is 'Round-Ups,' which passively contributes small amounts to investments. All investment data and user profiles are securely stored and managed in the cloud, with bank-level encryption.",
-    "category": "Finance",
-    "whyItIsUseful": "Acorns eliminates the barrier to entry for investing by making it effortless and accessible, allowing anyone to start building wealth without large lump sums. For a college student with limited disposable income, Acorns provides a simple way to start investing in diversified portfolios without actively managing funds or making large contributions. For a busy parent, it offers a hands-off approach to saving for their child's future, accumulating small investments over time without conscious effort. Acorns charges a small monthly fee ($3-$5 for most plans), but the immediate returns from investing and the convenience often outweigh this cost, making it a genuinely valuable tool for passive savings. Compared to traditional brokerage accounts that require significant initial deposits and active trading knowledge, Acorns automates the entire process, making investing approachable for beginners. Its 'Found Money' feature, where partner brands invest a percentage of your purchase into your Acorns account, is a powerful way to accelerate savings. A non-technical person can easily link their accounts and begin investing with Acorns in under 10 minutes.",
-    "imageIdea": "Acorns app interface showing investment growth, round-up history, and portfolio allocation",
-    "websiteLink": "https://www.acorns.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 178,
-    "slug": "dext-prepare-receipt-scanning",
-    "toolName": "Dext Prepare (formerly Receipt Bank)",
-    "whatItDoes": "Dext Prepare, developed by Dext, is an intelligent accounting automation platform that digitizes and extracts data from receipts, invoices, and other financial documents. It aims to save businesses and accountants time by eliminating manual data entry and improving accuracy. Users capture documents via mobile app, email, or direct upload, and Dext Prepare automatically extracts key information like vendor, amount, and date. It integrates seamlessly with popular accounting software. Dext Prepare is available on web, iOS, and Android. The most used feature is its AI-powered data extraction, which accurately reads and categorizes expense data. All uploaded documents and extracted data are securely stored in the cloud, complying with data protection regulations.",
-    "category": "Finance",
-    "whyItIsUseful": "Dext Prepare solves the headache of manual data entry and reconciliation, ensuring accurate financial records and freeing up valuable time for businesses and their accountants. For a sole proprietor, it means no more shoeboxes full of receipts; every expense is digitized and ready for tax time with minimal effort. For an accounting firm, Dext Prepare automates the tedious process of client bookkeeping, allowing them to focus on advisory services rather than data input. While Dext Prepare primarily offers paid subscription plans for businesses and accountants, its efficiency gains justify the cost, and many accounting firms offer it as part of their service package. Compared to manual data entry or basic OCR tools, Dext Prepare offers robust AI, direct integrations with accounting software, and advanced audit trails. Its intelligent categorization and supplier rules, which learn from user input, are powerful features that further automate the process. A non-technical person can easily upload documents via the mobile app within minutes, though setting up integrations requires some initial configuration.",
-    "imageIdea": "Dext Prepare app showing a scanned receipt with automatically extracted data fields",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://dext.com"
-  },
-  {
-    "id": 179,
-    "slug": "simplifi-by-quicken",
-    "toolName": "Simplifi by Quicken",
-    "whatItDoes": "Simplifi by Quicken, a product from the long-standing financial software company Quicken Inc., is a modern personal finance app focused on helping users see all their money in one place and make smart financial decisions. It tracks spending, creates budgets, monitors subscriptions, and provides a real-time view of cash flow. Users connect their bank accounts, credit cards, investments, and loans, allowing Simplifi to automatically categorize transactions and update balances. Simplifi is available on web, iOS, and Android. The most used feature is its customized spending plan, which automatically tracks against income and expenses. All financial data is securely cloud-synced and protected with bank-level encryption.",
-    "category": "Finance",
-    "whyItIsUseful": "Simplifi eliminates the stress of managing finances across multiple platforms by providing a consolidated, real-time financial snapshot, helping users stay on top of their money without constant manual updates. For a young professional trying to save for a down payment, Simplifi visualizes their progress, identifies areas for savings, and keeps them accountable to their financial goals. For a busy parent, it simplifies household budgeting by automatically categorizing expenses and flagging unusual spending, ensuring they stay within their financial limits. Simplifi offers a paid subscription, but it comes with a 30-day free trial that is genuinely useful for evaluating its comprehensive features before committing. Unlike basic budgeting apps, Simplifi offers robust cash flow projections, personalized insights, and comprehensive financial tracking akin to its desktop counterpart, Quicken, but in a more streamlined, cloud-based format. Its 'Watchlist' feature, allowing users to track specific spending categories or goals, is a powerful tool for focused financial management. A non-technical person can easily connect their accounts and begin to understand their financial picture in under 15 minutes.",
-    "imageIdea": "Simplifi dashboard showing cash flow, spending by category, and a savings goal tracker",
-    "websiteLink": "https://www.quicken.com/simplifi/",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 180,
-    "slug": "credit-karma-free-credit-scores",
-    "toolName": "Credit Karma",
-    "whatItDoes": "Credit Karma, Inc., a subsidiary of Intuit, is a personal finance company that provides free credit scores, credit reports, and tools to monitor and improve financial health. It aims to empower consumers by giving them access to critical financial information without charge. Users connect their financial accounts to get personalized recommendations for credit cards, loans, and other financial products. Credit Karma is available on web, iOS, and Android platforms. The most used feature is the ability to check TransUnion and Equifax credit scores and reports for free, updated regularly. All user data is securely handled, and while it recommends financial products, it never sells user data to third parties.",
-    "category": "Finance",
-    "whyItIsUseful": "Credit Karma eliminates the barrier of cost and complexity to understanding one's credit health, allowing individuals to monitor and improve their scores without expensive subscriptions. For someone looking to get approved for a mortgage, Credit Karma helps them track their score, identify errors on their report, and understand factors affecting their creditworthiness. For an individual trying to recover from financial setbacks, it provides actionable advice and product recommendations to rebuild credit effectively. Credit Karma is completely free for users, making it an incredibly useful and accessible tool for millions, as it generates revenue through targeted product recommendations. Unlike paying for individual credit reports or monitoring services, Credit Karma offers continuous, free access to scores from two major bureaus and personalized insights. Its 'Credit Factors' breakdown, explaining specific elements impacting your score, is a powerful educational feature. A non-technical person can easily sign up and see their credit scores and reports within 5 minutes.",
-    "imageIdea": "Credit Karma app showing a credit score, credit factors, and recommended financial products",
-    "websiteLink": "https://www.creditkarma.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27"
-  },
-  {
     "id": 181,
     "slug": "cointracker-crypto-portfolio-tax",
     "toolName": "CoinTracker",
@@ -5457,5 +5397,70 @@
     "websiteLink": "https://clipdrop.co/",
     "type": "tool",
     "dateAdded": "2026-05-19"
+  },
+  {
+    "id": 861,
+    "slug": "ponytail-ai-developer-lazy",
+    "toolName": "ponytail",
+    "seoTitle": "ponytail — AI agent for lazy developers",
+    "whatItDoes": "ponytail is a fascinating JavaScript project that aims to make your AI agents think like the laziest, yet most senior, developer in the room. The core philosophy is that the best code is the code that never has to be written. It encourages developers to leverage AI for tasks like refactoring, optimization, and even generating tests, but with a focus on minimizing the actual code produced. This approach promotes elegant solutions and efficient development cycles. The project is open-source and built on a strong community foundation.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers, ponytail offers a unique perspective on productivity by championing the principle of 'less is more' when it comes to code. By framing AI as a tool to find the most efficient solutions, it encourages smarter problem-solving and a reduction in unnecessary complexity. Imagine an AI that helps you refactor existing code into a simpler, more maintainable form, or one that identifies and eliminates redundant logic. This not only saves development time but also leads to more robust and understandable software. It's particularly valuable for senior developers looking to instill best practices and for teams aiming to streamline their coding workflows.",
+    "imageIdea": "computer screen with minimalistic code",
+    "websiteLink": "https://github.com/DietrichGebert/ponytail",
+    "type": "tool",
+    "dateAdded": "2026-07-01"
+  },
+  {
+    "id": 862,
+    "slug": "unlimited-ocr-parsing-ai",
+    "toolName": "Unlimited-OCR",
+    "seoTitle": "Unlimited-OCR — One-shot long-horizon parsing",
+    "whatItDoes": "Unlimited-OCR is a powerful Python-based open-source project that heralds a new era of 'one-shot long-horizon parsing' using AI. It enables highly efficient and accurate optical character recognition (OCR) capable of processing extensive documents or images in a single pass. This goes beyond typical OCR by offering sophisticated parsing capabilities, allowing for the extraction of complex data structures and contextual information from large volumes of text. It's designed to handle diverse document types and layouts with remarkable precision, making it a significant advancement in document intelligence.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is incredibly useful for anyone dealing with large amounts of scanned documents, PDFs, or images that contain critical information. Think of legal firms processing case files, researchers analyzing historical texts, or businesses digitizing archives. Unlimited-OCR can extract and structure data from these sources with unparalleled efficiency, saving countless hours of manual data entry and analysis. Its 'one-shot' capability means it can process an entire document at once, understanding relationships between different parts of the text. This is a game-changer for automating data extraction and unlocking insights from unstructured information.",
+    "imageIdea": "document scanning machine with data streams",
+    "websiteLink": "https://github.com/baidu/Unlimited-OCR",
+    "type": "tool",
+    "dateAdded": "2026-07-01"
+  },
+  {
+    "id": 863,
+    "slug": "fundraisly-ai-fundraising-agent",
+    "toolName": "Fundraisly",
+    "seoTitle": "Fundraisly — AI agent for fundraising",
+    "whatItDoes": "Fundraisly is an advanced AI agent specifically designed to revolutionize the fundraising process for startups and businesses. It leverages vast datasets of over 300,000 investors and millions of deals to meticulously identify relevant investors actively funding companies in your specific niche. More importantly, it maps out warm introduction pathways from your existing network to these potential investors, significantly increasing the chances of securing meetings. This intelligent agent automates much of the tedious research and outreach involved in fundraising, allowing entrepreneurs to focus on building their business.",
+    "category": "Finance",
+    "whyItIsUseful": "For entrepreneurs and startup founders, fundraising is often a time-consuming and challenging endeavor. Fundraisly tackles this head-on by providing an AI-powered solution that dramatically streamlines the investor identification and outreach process. Its ability to analyze investor trends, identify active funders, and suggest warm introductions is invaluable. This tool can save founders weeks or even months of research and networking, allowing them to connect with the right investors more efficiently. It's an essential tool for anyone seeking venture capital or angel investment, helping to bridge the gap between innovative ideas and the funding needed to bring them to life.",
+    "imageIdea": "startup pitch deck with investment graph",
+    "websiteLink": "https://www.producthunt.com/r/SH5BHT7UOKB2F5",
+    "type": "tool",
+    "dateAdded": "2026-07-01"
+  },
+  {
+    "id": 864,
+    "slug": "upstrema-inbox-human-agent",
+    "toolName": "Upstream",
+    "seoTitle": "Upstream — Inbox for humans and agents",
+    "whatItDoes": "Upstream redefines the email experience by creating an inbox designed for seamless collaboration between humans and AI agents. It's built to be a delightful and efficient tool that handles the drudgery of email management. Agents within Upstream can sort incoming messages, draft replies, and proactively manage your communication, all while operating within a beautifully crafted interface. The goal is to make managing your inbox feel light, fast, and even enjoyable, freeing up your mental energy for more important tasks. It promises a significant upgrade from traditional email clients.",
+    "category": "Productivity",
+    "whyItIsUseful": "In today's digital communication landscape, email overload is a pervasive problem. Upstream offers a forward-thinking solution by integrating AI agents directly into the inbox. Imagine an email client that not only organizes your messages intelligently but also prepares draft responses for your approval, or filters out spam and low-priority items with uncanny accuracy. This drastically reduces the time spent on email management, allowing users to focus on high-impact communication and tasks. For busy professionals, entrepreneurs, and anyone drowning in their inbox, Upstream promises a more efficient, less stressful, and ultimately more productive way to handle their digital correspondence. Its intuitive design ensures that even complex AI-driven features are easy to access and utilize.",
+    "imageIdea": "email inbox with AI assistant icons",
+    "websiteLink": "https://www.producthunt.com/r/RWE7MKUX4XZRYA",
+    "type": "tool",
+    "dateAdded": "2026-07-01"
+  },
+  {
+    "id": 865,
+    "slug": "improve-ai-code-auditor",
+    "toolName": "improve",
+    "seoTitle": "improve — AI code auditor and planner",
+    "whatItDoes": "improve is an open-source tool designed to leverage your most capable AI models to audit your codebase. It then generates detailed plans for less capable, more cost-effective models to execute. This sophisticated approach allows for high-level code analysis and strategy development using powerful AI, followed by efficient, budget-friendly implementation. It's a smart way to manage AI resources, ensuring that complex tasks are handled by the best tools available, while more routine tasks are optimized for cost and speed. The output is structured plans that guide the execution process.",
+    "category": "Developer",
+    "whyItIsUseful": "For development teams, 'improve' offers a novel and cost-effective way to utilize AI in their workflow. Instead of relying on a single, potentially expensive AI model for all coding tasks, it intelligently distributes work. A powerful AI can act as a senior architect, identifying potential issues, suggesting architectural improvements, and creating a roadmap. Then, less powerful, more accessible AI models can be tasked with implementing specific parts of that plan, such as writing unit tests, refactoring smaller functions, or generating documentation. This hybrid approach maximizes both the quality of the AI's analysis and the efficiency of its execution, leading to faster development cycles and reduced AI operational costs.",
+    "imageIdea": "code editor with analysis overlay",
+    "websiteLink": "https://github.com/shadcn/improve",
+    "type": "tool",
+    "dateAdded": "2026-07-01"
   }
 ]

@@ -1,70 +1,5 @@
 [
   {
-    "id": 369,
-    "slug": "focusmate-virtual-coworking-accountability-partner",
-    "name": "Focusmate",
-    "whatItDoes": "Focusmate is a virtual coworking platform developed by co-founders Mike Williams and Ethan Brooks, designed to help individuals overcome procrastination and improve focus through live, virtual accountability sessions. Its core feature connects users with an accountability partner for 50-minute video sessions where they declare their goals, work silently, and then briefly report on their progress. This tool is primarily built for remote workers, freelancers, students, and anyone struggling with motivation or maintaining focus while working independently. Users typically open Focusmate when they need a dedicated block of time to concentrate on a task, knowing that a scheduled session will provide the necessary external commitment. It operates as a web-based platform accessible through any modern browser and requires a webcam and microphone for sessions.",
-    "category": "Social",
-    "whyItIsUseful": "Focusmate offers a unique, human-centric approach to productivity that digital timers or app blockers cannot replicate, by leveraging social accountability to combat procrastination. For the remote freelancer struggling with distractions at home, Focusmate provides a structured, interruption-free environment with a silent partner, simulating the focus of an office setting. For the student facing a daunting research paper, a Focusmate session creates an immediate commitment to start working, breaking down the barrier of inertia. Focusmate offers a free tier that allows up to three 50-minute sessions per week, while the paid Unlimited plan provides unlimited sessions for a monthly fee. A hidden gem feature is its \"Goals\" section within your profile, allowing you to track your intentions and successes over time, reinforcing positive work habits beyond individual sessions. Its relative obscurity stems from its unconventional approach to productivity, requiring interaction with strangers, which might seem intimidating to some users initially. Focusmate cultivates a strong and supportive community of users, with an active Discord server and regular communication from the founders, and they continuously refine the platform based on user feedback.",
-    "imageIdea": "Two small video conference windows side-by-side, showing two different people silently working at their desks, with a subtle timer overlay.",
-    "websiteLink": "https://www.focusmate.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.focusmate.com&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 465,
-    "slug": "wappalyzer-website-tech-stack",
-    "name": "Wappalyzer",
-    "whatItDoes": "Wappalyzer is a powerful browser extension and platform developed by Elbert Alias, providing detailed insights into the technologies used to build websites. It instantly identifies web technologies such as content management systems, e-commerce platforms, web servers, JavaScript frameworks, and analytics tools. The core feature is its ability to detect hundreds of web technologies across various categories with a single click, offering a comprehensive tech stack overview. It was built primarily for web developers, marketers, sales professionals, and researchers who need to understand the underlying technologies of a website. Users open Wappalyzer when they land on a website and want to quickly discover its technological makeup for competitive analysis, lead generation, or research. It is available for Chrome, Firefox, Edge, and Opera browsers.",
-    "category": "Developer",
-    "whyItIsUseful": "Wappalyzer provides a much faster and more comprehensive way to assess a website's technology stack compared to manually inspecting source code or using multiple individual lookup tools. For the competitive marketer, Wappalyzer allows them to quickly analyze what tools competitors are using for SEO, advertising, or analytics, informing their own strategy. For the sales professional targeting specific industries, it helps identify potential leads based on their tech stack (e.g., all websites using a particular e-commerce platform), saving hours of manual prospecting. The core browser extension is entirely free, while the full Wappalyzer platform offers advanced features like lead lists and reporting, which are paid. A hidden feature that becomes incredibly useful is its ability to show version numbers for detected technologies, crucial for security assessments or compatibility checks. Its niche popularity stems from being a specialized tool primarily for B2B intelligence and tech analysis, not something the average user would seek out, despite its precision and speed. Wappalyzer has a regularly updated technology database and a responsive support team.",
-    "imageIdea": "Browser toolbar with a Wappalyzer icon showing a dropdown list of logos for various technologies (e.g., WordPress, React, Google Analytics).",
-    "websiteLink": "https://www.wappalyzer.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.wappalyzer.com%2F&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 281,
-    "slug": "lunch-money-flexible-budgeting",
-    "name": "Lunch Money",
-    "whatItDoes": "Lunch Money is a modern, web-based personal finance tracker and budgeting app created by a small, independent startup.\nIt specializes in flexible rule-based transaction categorization, multi-currency support, and net worth tracking across various accounts.\nThe primary user is someone who values a clean interface, robust customization for transaction management, and the ability to track finances globally.\nPeople open Lunch Money after making purchases, receiving income, or monthly to review their financial health and ensure spending aligns with their budget goals.\nIt integrates with over 11,000 financial institutions via Plaid (US/Canada) and Finicity (US/Canada), and supports manual CSV imports for international or unsupported banks.",
-    "category": "Finance",
-    "whyItIsUseful": "Lunch Money offers a more customizable and user-friendly experience than traditional banking apps or even some older budgeting software, with features like tags and smart rules surpassing Mint's capabilities.\nFor the digital nomad or expat managing money in multiple currencies, its native multi-currency support simplifies complex financial tracking across borders.\nAn entrepreneur or freelancer will find its robust tagging system incredibly useful for separating business and personal expenses, simplifying tax preparation.\nLunch Money offers a 14-day free trial, after which it costs $10/month or $100/year; there's no free tier beyond the trial.\nMost users don't immediately discover the \"Custom Reports\" feature, which allows for incredibly detailed, filtered insights into spending patterns that go beyond standard charts.\nIts smaller marketing budget and lack of venture capital funding mean it doesn't have the broad recognition of larger, VC-backed competitors, despite its superior feature set for many users.\nThe developer is highly active, providing regular updates, engaging with users on Reddit and their feedback portal, and building a loyal community around the product.",
-    "imageIdea": "A clean dashboard with colorful charts showing different expense categories and a multi-currency symbol.",
-    "websiteLink": "https://lunchmoney.app",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Flunchmoney.app&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 280,
-    "slug": "actual-budget-open-source-finance",
-    "name": "Actual Budget",
-    "whatItDoes": "Actual Budget is an open-source, local-first budgeting application developed by James Long and an active community.\nIt offers a modern take on the envelope-style budgeting method, allowing users to allocate every dollar to a specific category before spending.\nThis tool is primarily built for individuals or households seeking a privacy-centric and transparent alternative to subscription-based budgeting apps.\nUsers typically open Actual Budget daily to log transactions, reconcile accounts, and adjust their budget, making it an integral part of proactive financial management.\nIt offers direct financial institution syncing (via Nordigen or Finicity for US/Canada) and can also import CSV files from any bank.",
-    "category": "Finance",
-    "whyItIsUseful": "Actual Budget directly competes with mainstream tools like YNAB, offering a fully open-source and local-first approach that many prefer for data privacy and control.\nFor the privacy-conscious individual who wants full ownership of their financial data without cloud reliance, Actual Budget provides peace of mind and robust budgeting features.\nA developer or power user might appreciate its self-hosting capabilities, allowing for complete customization and integration into their personal server setup.\nIt's entirely free and open-source for self-hosting; a hosted version with sync costs $12/month, with a 30-day free trial.\nA lesser-known feature is its powerful reporting engine, which allows deep dives into spending trends and net worth growth far beyond basic category breakdowns.\nIts open-source nature and \"local-first\" design can make it seem more complex to set up initially, deterring those accustomed to instant-access cloud services.\nThe project maintains a very active Discord community, consistent updates, and a transparent development roadmap on GitHub.",
-    "imageIdea": "Clean, minimalist budget interface showing categories and allocated funds, possibly with a small padlock icon for privacy.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://actualbudget.org",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Factualbudget.org&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
-    "id": 182,
-    "slug": "kubera-net-worth-tracker",
-    "name": "Kubera",
-    "whatItDoes": "Kubera is a modern, sleek net worth tracker and personal financial dashboard built by a small, dedicated team. It aggregates all your financial accounts—bank, investment, crypto, real estate, and even collectibles—into one clear, real-time view. This tool is designed for affluent individuals and families who need a comprehensive, consolidated overview of their entire financial picture without the clutter of budgeting features. Users typically check Kubera periodically to monitor asset performance, track their net worth fluctuations, and assess overall financial health. It offers direct integrations with thousands of financial institutions worldwide, supports manual asset tracking, and provides crypto wallet connections.",
-    "category": "Finance",
-    "whyItIsUseful": "Kubera provides a cleaner, more focused alternative to broad financial aggregators like Personal Capital, concentrating solely on net worth tracking without pushing investment advice or complex budgeting. For the investor with a diverse portfolio including traditional stocks, real estate, and digital assets, Kubera offers an unparalleled unified dashboard. For families managing multi-generational wealth, it provides a secure and intuitive platform to track all assets efficiently. Kubera operates on a subscription model, offering a free trial period but no permanent free tier. Its 'dead man's switch' feature, allowing access to designated beneficiaries after a period of inactivity, is a critical but often overlooked estate planning tool. It's not more popular because its premium subscription price targets a specific high-net-worth demographic, limiting broader adoption. Kubera is actively developed with regular updates and maintains a responsive support channel for its users.",
-    "imageIdea": "Kubera dashboard showing a pie chart of diversified assets (crypto, stocks, real estate)",
-    "websiteLink": "https://kubera.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fkubera.com&screenshot=true&meta=false&embed=screenshot.url"
-  },
-  {
     "id": 183,
     "slug": "debt-payoff-planner-calculator",
     "name": "Debt Payoff Planner",
@@ -5154,7 +5089,8 @@
     "websiteLink": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-30",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdpa-international.com%2Fgeneral-news%2Furn%3Anewsml%3Adpa.com%3A20090101%3A260430-930-14717%2F&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fdpa-international.com%2Fgeneral-news%2Furn%3Anewsml%3Adpa.com%3A20090101%3A260430-930-14717%2F&screenshot=true&meta=false&embed=screenshot.url",
+    "badge": "editors-pick"
   },
   {
     "id": 741,
@@ -5168,7 +5104,8 @@
     "websiteLink": "https://www.bbc.com/news/articles/c5y7yvgy0w6o",
     "type": "hidden-gem",
     "dateAdded": "2026-04-30",
-    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.bbc.com%2Fnews%2Farticles%2Fc5y7yvgy0w6o&screenshot=true&meta=false&embed=screenshot.url"
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.bbc.com%2Fnews%2Farticles%2Fc5y7yvgy0w6o&screenshot=true&meta=false&embed=screenshot.url",
+    "badge": "editors-pick"
   },
   {
     "id": 742,
@@ -6108,5 +6045,75 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-19",
     "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fexcalidraw.com&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 816,
+    "slug": "ciechanow-internal-combustion-engine",
+    "name": "Internal Combustion Engine",
+    "seoTitle": "Internal Combustion Engine — Interactive Simulation Explained",
+    "whatItDoes": "This is a highly interactive and visually rich web-based simulation that breaks down the complex workings of an internal combustion engine. Developed by Bartek, it allows users to explore the thermodynamics, mechanics, and fluid dynamics involved in the process. You can manipulate parameters like throttle, ignition timing, and fuel mixture to see in real-time how these changes affect the engine's performance and operation. It's an incredibly detailed and educational tool for anyone curious about how cars and other machines are powered.",
+    "category": "Education",
+    "whyItIsUseful": "While many resources explain internal combustion engines, few offer this level of interactive depth and clarity. Ciechanow's approach, using elegant web graphics and clear explanations, makes a notoriously complex topic accessible and engaging. Power users, like engineering students or hobbyist mechanics, can use this to test hypotheses and gain an intuitive understanding that textbooks often fail to provide. Its ability to visualize the interplay of forces and energy transfer, and to see the immediate consequences of parameter changes, makes it a standout tool for hands-on learning and exploration. It’s far more illuminating than static diagrams or dry text.",
+    "imageIdea": "cutaway view engine schematic",
+    "websiteLink": "https://ciechanow.ski/internal-combustion-engine/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fciechanow.ski%2Finternal-combustion-engine%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 817,
+    "slug": "quantamagazine-synthetic-cell-growth",
+    "name": "For first time, a cell built from scratch grows and divides",
+    "seoTitle": "Synthetic Cell Grows and Divides — Landmark Achievement",
+    "whatItDoes": "This article from Quanta Magazine reports on a groundbreaking scientific achievement: the creation of the first fully synthetic cell capable of autonomous growth and division. Researchers designed and built a minimal bacterial cell from the ground up, a significant step in synthetic biology. The work demonstrates the ability to engineer life's fundamental processes, opening doors for new approaches in medicine, materials science, and our understanding of life itself. It details the complex genetic and chemical engineering required to achieve this self-sustaining biological system.",
+    "category": "Education",
+    "whyItIsUseful": "This article is a window into cutting-edge scientific research that is often hidden behind paywalls or inaccessible jargon. Quanta Magazine excels at translating complex scientific breakthroughs into understandable narratives. For those interested in biology, genetics, or the future of medicine, this offers profound insights into the potential of synthetic life. It highlights the iterative process of scientific discovery and the immense creativity involved in engineering biological systems. Its usefulness lies in providing a clear, authoritative account of a pivotal moment in life sciences, accessible to an educated lay audience.",
+    "imageIdea": "glowing biological cell diagram",
+    "websiteLink": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwww.quantamagazine.org%2Ffor-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 818,
+    "slug": "playstation-blog-physical-disc-end",
+    "name": "Physical disc production ending in Jan 2028 for new games on PlayStation",
+    "seoTitle": "PlayStation Physical Disc Production Ending — 2028",
+    "whatItDoes": "This official announcement from the PlayStation Blog details the forthcoming cessation of physical disc production for new game releases on PlayStation consoles, scheduled for January 2028. It outlines Sony's strategic shift towards a digital-first distribution model. The article addresses implications for publishers, developers, and consumers, signaling a significant transition in the gaming industry's physical media landscape. It suggests that while existing physical titles will remain playable, new game sales will predominantly occur through digital storefronts.",
+    "category": "Entertainment",
+    "whyItIsUseful": "For gamers, collectors, and industry observers, this announcement is a crucial indicator of the future of game distribution. While many expected this shift, a definitive end date from the platform holder is significant. It informs decisions about purchasing physical copies, building collections, and understanding the long-term viability of physical media. For developers and publishers, it necessitates a re-evaluation of release strategies. It’s a stark signal about the industry's rapid move to digital, impacting preservation efforts and the very nature of game ownership, making it essential reading for anyone deeply involved in the gaming ecosystem.",
+    "imageIdea": "stack of game console discs",
+    "websiteLink": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fblog.playstation.com%2F2026%2F07%2F01%2Fphysical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles%2F&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 819,
+    "slug": "zcode-claude-code",
+    "name": "ZCode: Claude Code from the Makers of GLM",
+    "seoTitle": "ZCode — AI Code Assistant",
+    "whatItDoes": "ZCode is a new AI-powered coding assistant developed by the creators of GLM (General Language Model), a prominent AI research organization. It's designed to help developers write, debug, and optimize code more efficiently. Leveraging advanced large language models, ZCode understands context, suggests code completions, identifies potential errors, and can even generate boilerplate code based on natural language descriptions. The tool aims to streamline the software development lifecycle by providing intelligent assistance directly within the coding environment.",
+    "category": "Developer",
+    "whyItIsUseful": "In a crowded AI coding assistant market, ZCode stands out due to the pedigree of its developers and its potential to offer sophisticated, nuanced code assistance. The makers of GLM are known for pushing the boundaries of AI capabilities, suggesting ZCode might offer advantages in understanding complex code logic or generating more idiomatic and efficient code. For developers who value cutting-edge AI research applied directly to their workflow, ZCode promises a powerful, integrated solution. It’s particularly useful for those working on intricate projects or seeking to adopt the latest advancements in AI-assisted programming, potentially reducing development time and improving code quality significantly.",
+    "imageIdea": "glowing code editor interface",
+    "websiteLink": "https://zcode.z.ai/cn",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fzcode.z.ai%2Fcn&screenshot=true&meta=false&embed=screenshot.url"
+  },
+  {
+    "id": 820,
+    "slug": "color-contrast-checker-2",
+    "name": "Color Contrast Checker",
+    "seoTitle": "Color Contrast Checker — Accessible Color Palette Tool",
+    "whatItDoes": "This web-based tool allows designers and developers to easily check the contrast ratio between two colors. It helps ensure that text is legible against its background, adhering to accessibility guidelines like WCAG. You simply input your foreground and background colors using hex codes, RGB, or HSL values, and it provides the contrast ratio, along with a pass/fail indication for different WCAG levels. It's invaluable for creating websites and applications that are usable by everyone, including those with visual impairments. Built by WebAIM, a leading accessibility organization, it's a go-to resource for many in the field.",
+    "category": "Design",
+    "whyItIsUseful": "While many design tools offer basic contrast checks, this standalone checker is incredibly precise and straightforward. Its power lies in its simplicity and unwavering adherence to WCAG standards. Unlike integrated tools that can be buried in complex menus, this one is front-and-center, making it quick to access for a crucial check. It’s particularly useful for anyone working with web design, app development, or even print materials where legibility is paramount. Power users appreciate its ability to instantly verify contrast for various text sizes and weights, ensuring compliance without guesswork. People who rely on it often create universally accessible digital products, making it a vital, though often overlooked, component of a professional workflow.",
+    "imageIdea": "magnifying glass over color swatches",
+    "websiteLink": "https://webaim.org/resources/contrastchecker/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "https://api.microlink.io?url=https%3A%2F%2Fwebaim.org%2Fresources%2Fcontrastchecker%2F&screenshot=true&meta=false&embed=screenshot.url"
   }
 ]
