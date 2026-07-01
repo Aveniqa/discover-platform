@@ -3104,7 +3104,7 @@
     "category": "Design",
     "whyItIsUseful": "Dropmark eliminates the mess of scattered creative assets and the difficulty of presenting visual inspiration cohesively. For the graphic designer creating a mood board, it offers a seamless way to gather diverse images, fonts, and links into a stunning, shareable presentation. For the video editor compiling references, it provides an organized repository for video clips, audio snippets, and narrative ideas, keeping all project elements in one visual space. The free tier is useful for individual users with limited storage and collection needs, while paid plans offer expanded storage, team features, and custom branding. Compared to generic cloud storage, Dropmark wins with its focus on visual presentation and curated collections, making it ideal for creative professionals. A power feature is its integration with popular creative tools and services, allowing direct saving from applications like Photoshop or Slack, streamlining the collection process significantly. A non-technical person can create their first visual collection and start adding items in under 5 minutes.",
     "imageIdea": "dropmark collection interface showing a grid of images, videos, and link previews arranged artfully",
-    "websiteLink": "https://dropmark.com",
+    "websiteLink": "https://www.dropmark.com/",
     "type": "tool",
     "dateAdded": "2026-04-27"
   },
@@ -4510,19 +4510,6 @@
     "whyItIsUseful": "Fathom 3.0 dramatically reduces the manual effort involved in documenting meetings. Its bot-free capture is a standout feature, ensuring participants aren't distracted by an AI attendee. The ability to search across all your meetings with AI provides immense value for recalling information and identifying trends. Integrations with ChatGPT and Claude allow for seamless summarization and further analysis of discussions. This tool is particularly beneficial for remote teams, sales professionals, and project managers who juggle numerous meetings and need to efficiently extract key takeaways and action items.",
     "imageIdea": "meeting room digital notes",
     "websiteLink": "https://www.producthunt.com/r/CS4BN7LVLISWRQ",
-    "type": "tool",
-    "dateAdded": "2026-04-29"
-  },
-  {
-    "id": 790,
-    "slug": "awesome-gpt-image-2-prompts",
-    "toolName": "awesome-gpt-image-2-prompts",
-    "seoTitle": "Awesome GPT-Image-2 Prompts — OpenAI Image API Examples",
-    "whatItDoes": "\"awesome-gpt-image-2-prompts\" is a community-curated GitHub repository containing an extensive collection of optimized text prompts specifically engineered for OpenAI's DALL-E 2 (formerly referred to as GPT-Image-2) image generation API. It primarily facilitates the efficient creation of high-quality AI-generated images by providing proven prompt structures and examples, enabling users to achieve desired visual outcomes without extensive trial-and-error. As a GitHub repository, its content (text prompts and Python code examples) is accessible via any web browser or Git client, making it platform-agnostic for users interacting with the DALL-E 2 API. Its most utilized feature is the categorized examples, offering ready-to-use prompts for diverse applications such as 'photorealistic portraits of a cyborg,' 'futuristic cityscapes,' or 'minimalist UI icons,' often with variations to explore different styles and artistic directions. The repository itself is static, containing only text and code; it does not process or store user data, but rather provides the input (prompts) that users then feed into the OpenAI DALL-E 2 API, which handles the image generation and associated data processing.",
-    "category": "Developer",
-    "whyItIsUseful": "This repository directly addresses the common challenge of 'prompt engineering,' saving users countless hours of experimentation by providing a vetted library of effective prompts that consistently produce impressive and relevant AI-generated images. For example, an AI artist or creative can browse the 'portraits' or 'fantasy art' categories to find inspiration and specific prompt structures to generate unique character concepts or scene backdrops for their digital art projects. Similarly, a developer building an application that requires dynamic image generation can quickly find and adapt Python-based prompts for UI elements, marketing banners, or custom avatars, streamlining integration with the DALL-E 2 API. The repository itself is completely free and open-source, though using the OpenAI DALL-E 2 API that these prompts are designed for incurs costs based on usage (e.g., approximately $0.020 per image for 1024x1024 resolution). Instead of relying on generic prompt ideas or trying to reverse-engineer successful images, this curated collection provides structured, tested prompts, often with specific parameters and styles detailed, offering a much higher success rate. Advanced users can study the prompt structures to understand the nuances of DALL-E 2's interpretation, enabling them to deconstruct complex prompts and combine elements to create entirely new, highly specific visual outputs. The learning curve for using the prompts is low, as they are mostly copy-paste ready, but understanding the underlying principles of prompt engineering for DALL-E 2 to effectively modify or create new prompts requires a moderate level of experimentation and understanding.",
-    "imageIdea": "ai generated art collage",
-    "websiteLink": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
     "type": "tool",
     "dateAdded": "2026-04-29"
   },

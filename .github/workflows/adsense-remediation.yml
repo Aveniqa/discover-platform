@@ -27,7 +27,9 @@ permissions:
 jobs:
   adsense-remediation:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Raised from 30: the archive missing-source backfill processes up to 250
+    # Gemini calls at 1 req/sec plus a verification fetch per candidate URL.
+    timeout-minutes: 45
     permissions:
       contents: write
       pull-requests: write
@@ -72,6 +74,23 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/retrofit-sources.mjs --run
+
+      - name: Backfill missing archive source URLs (batch of 250)
+        if: ${{ inputs.mode == 'remediate' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # Verified-only writes: every Gemini-suggested URL is fetched and must
+        # resolve before it lands in archive.json. Unresolvable slugs go into
+        # docs/source-retrofit-attempted.json so re-runs skip them. Dispatch
+        # the workflow repeatedly until "unprocessed=0".
+        run: node scripts/retrofit-sources.mjs --run --archive-missing --limit=250
+
+      - name: Backfill seoTitle on over-long titles
+        if: ${{ inputs.mode == 'remediate' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/backfill-seo-titles.mjs
+        continue-on-error: true
 
       - name: Validate remediated data
         if: ${{ inputs.mode == 'remediate' }}
