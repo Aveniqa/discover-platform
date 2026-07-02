@@ -3,13 +3,14 @@ import {
   getItemBySlug,
   getItemTitle,
   getItemExcerpt,
+  getItemScreenshot,
   getCategoryColor,
   getCategoryLabel,
   type AnyItem,
 } from "@/lib/data";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
-import { ItemImage } from "@/components/ui/ItemImage";
+import { ItemVisual } from "@/components/ui/ItemVisual";
 import { buildMetadata } from "@/lib/seo";
 import { collectionPageLd, breadcrumbLd, ldScript } from "@/lib/jsonld";
 import Link from "next/link";
@@ -93,12 +94,12 @@ export default async function CollectionPage({ params }: Props) {
               className="group block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden"
             >
               <div className="overflow-hidden">
-                <ItemImage
+                <ItemVisual
                   slug={item.slug}
                   alt={getItemTitle(item)}
+                  screenshotUrl={getItemScreenshot(item)}
                   aspectRatio="3/2"
-                  width={400}
-                  height={267}
+                  size="sm"
                   className="group-hover:scale-[1.03] transition-transform duration-500"
                 />
               </div>

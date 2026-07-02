@@ -6,6 +6,7 @@ import {
   getItemExcerpt,
   getItemCategory,
   getItemTitle,
+  getItemScreenshot,
   type AnyItem,
 } from "@/lib/data";
 import { itemListLd, ldScript } from "@/lib/jsonld";
@@ -13,11 +14,15 @@ import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { NewsletterSection } from "@/components/home/NewsletterSection";
 import { alcoveByKind, alcoveFromCategory, type Alcove } from "@/lib/alcoves";
-import { ItemImage } from "@/components/ui/ItemImage";
+import { ItemVisual } from "@/components/ui/ItemVisual";
 import { TiltCard3D } from "@/components/ui/TiltCard3D";
 import { HomeStreakStatus, SearchSurfacedButton } from "@/components/home/HomeHeroActions";
 import { LiveNowTicker } from "@/components/home/LiveNowTicker";
 import { HeroParallax } from "@/components/home/HeroParallax";
+import { HeroCollage, type CollageItem } from "@/components/home/HeroCollage";
+import { ScreenshotMarquee } from "@/components/home/ScreenshotMarquee";
+import { SectionDepth } from "@/components/ui/SectionDepth";
+import { getItemImageUrl } from "@/lib/images";
 import { BYLINE } from "@/lib/masthead";
 
 function formatEditionDate(): string {
@@ -64,6 +69,15 @@ export default function HomePage() {
     return { alcove: alc, items: [...matchingTools, ...matchingGems].slice(0, 4) };
   });
 
+  // Real visuals for the hero collage + marquee — screenshot first, photo fallback
+  const visualOf = (i: AnyItem): string | null =>
+    getItemScreenshot(i) || getItemImageUrl(i.slug, 600, 375, "md");
+  const withVisuals = allKept
+    .map((i) => ({ slug: i.slug, title: getItemTitle(i), visual: visualOf(i) }))
+    .filter((v): v is CollageItem => !!v.visual);
+  const collageItems = withVisuals.slice(0, 10);
+  const marqueeItems = withVisuals.slice(10, 34);
+
   const ld = itemListLd(
     [leadStory, ...supporting].filter(Boolean).map((p) => ({ url: `/item/${p.slug}`, name: getItemTitle(p) })),
     "Today's Edition"
@@ -82,6 +96,7 @@ export default function HomePage() {
       >
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
         <HeroParallax />
+        <HeroCollage items={collageItems} />
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-24 sm:py-32 text-center parallax-slow">
           <div className="flex flex-wrap items-center justify-center gap-2 mb-6">
@@ -214,6 +229,35 @@ export default function HomePage() {
       )}
 
       {/* ============================================
+          THE WALL — angled marquee of real screenshots
+          ============================================ */}
+      {marqueeItems.length >= 6 && (
+        <section className="relative py-14 sm:py-20 overflow-hidden border-t border-white/[0.04]">
+          <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
+          <div className="relative">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-8 flex items-end justify-between">
+              <div>
+                <p className="text-xs uppercase tracking-[0.22em] text-white/70 font-semibold mb-2">
+                  The Wall
+                </p>
+                <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-white">
+                  Every pick, the real thing.
+                </h2>
+              </div>
+              <Link
+                href="/hidden-gems"
+                data-cursor="hover"
+                className="hidden sm:inline-flex items-center gap-1.5 text-sm text-white/75 hover:text-white transition-colors"
+              >
+                Browse the gems →
+              </Link>
+            </div>
+            <ScreenshotMarquee items={marqueeItems} />
+          </div>
+        </section>
+      )}
+
+      {/* ============================================
           ALCOVE TOUR — 6 worlds, scroll-driven
           ============================================ */}
       <section className="relative">
@@ -341,13 +385,13 @@ function LeadCard({ item }: { item: AnyItem }) {
       hoverScale={1.015}
     >
       <div className="relative aspect-[16/10] overflow-hidden">
-        <ItemImage
+        <ItemVisual
           slug={item.slug}
           alt={title}
+          screenshotUrl={getItemScreenshot(item)}
           aspectRatio="16/10"
-          width={1200}
-          height={750}
           priority
+          size="lg"
           className="transition-transform duration-700 ease-out"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
@@ -418,12 +462,12 @@ function SupportingCard({ item, compact = false }: { item: AnyItem; compact?: bo
     >
       <div className={`flex ${compact ? "flex-row" : "flex-col"}`}>
         <div className={`relative overflow-hidden ${compact ? "w-32 flex-shrink-0" : "w-full aspect-[16/9]"}`}>
-          <ItemImage
+          <ItemVisual
             slug={item.slug}
             alt={title}
+            screenshotUrl={getItemScreenshot(item)}
             aspectRatio={compact ? "1/1" : "16/9"}
-            width={compact ? 200 : 600}
-            height={compact ? 200 : 338}
+            size="sm"
             className="group-hover:scale-[1.03] transition-transform duration-500"
           />
           <div className="absolute inset-0 opacity-60" style={{
@@ -491,13 +535,17 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
             </Link>
           </div>
 
-          <div className="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <SectionDepth className="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {items.map((item, i) => (
-              <ScrollReveal key={item.slug} delay={i * 90}>
+              <ScrollReveal
+                key={item.slug}
+                delay={i * 90}
+                className={["depth-slow", "depth-fast", "depth-medium", "depth-slow"][i % 4]}
+              >
                 <AlcoveItemCard item={item} />
               </ScrollReveal>
             ))}
-          </div>
+          </SectionDepth>
         </div>
       </div>
     </section>
@@ -517,19 +565,37 @@ function AlcoveItemCard({ item }: { item: AnyItem }) {
       <Link
         href={`/item/${item.slug}`}
         data-cursor="hover"
-        className="alcove-card group block relative overflow-hidden rounded-2xl transition-all p-5 h-full"
+        className="alcove-card group block relative overflow-hidden rounded-2xl transition-all h-full"
       >
-        <div className="flex items-start gap-3 mb-3 tilt-3d-pop">
-          <CategoryBadge label={getItemCategory(item) || ""} color="amber" />
+        <div className="relative overflow-hidden">
+          <ItemVisual
+            slug={item.slug}
+            alt={title}
+            screenshotUrl={getItemScreenshot(item)}
+            aspectRatio="16/9"
+            size="sm"
+            imgClassName="group-hover:scale-[1.04] transition-transform duration-500"
+          />
+          <div
+            className="absolute inset-0 opacity-50 pointer-events-none"
+            style={{
+              background: `linear-gradient(160deg, ${alcove.palette[0]}22, transparent 55%)`,
+            }}
+          />
         </div>
-        <h3 className="text-base sm:text-lg font-semibold leading-snug group-hover:text-amber-300 transition-colors line-clamp-2 tilt-3d-pop">
-          {title}
-        </h3>
-        <p className="mt-2 text-sm alcove-card-muted leading-relaxed line-clamp-2">
-          {getItemExcerpt(item, 130)}
-        </p>
-        <div className="mt-4 text-[10px] uppercase tracking-wider alcove-card-faint inline-flex items-center gap-1">
-          Read the take <span className="group-hover:translate-x-0.5 transition-transform">→</span>
+        <div className="p-5">
+          <div className="flex items-start gap-3 mb-3 tilt-3d-pop">
+            <CategoryBadge label={getItemCategory(item) || ""} color="amber" />
+          </div>
+          <h3 className="text-base sm:text-lg font-semibold leading-snug group-hover:text-amber-300 transition-colors line-clamp-2 tilt-3d-pop">
+            {title}
+          </h3>
+          <p className="mt-2 text-sm alcove-card-muted leading-relaxed line-clamp-2">
+            {getItemExcerpt(item, 130)}
+          </p>
+          <div className="mt-4 text-[10px] uppercase tracking-wider alcove-card-faint inline-flex items-center gap-1">
+            Read the take <span className="group-hover:translate-x-0.5 transition-transform">→</span>
+          </div>
         </div>
       </Link>
     </TiltCard3D>

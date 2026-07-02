@@ -9,7 +9,8 @@
     "imageIdea": "CoinTracker dashboard displaying a crypto portfolio's value, asset allocation, and transaction history",
     "websiteLink": "https://www.cointracker.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/cointracker-crypto-portfolio-tax.webp"
   },
   {
     "id": 182,
@@ -21,7 +22,8 @@
     "imageIdea": "Float dashboard showing a cash flow forecast graph with different scenario lines",
     "websiteLink": "https://floatapp.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/float-cash-flow-forecasting.webp"
   },
   {
     "id": 184,
@@ -33,7 +35,8 @@
     "imageIdea": "Everlance app showing a map with tracked routes and options to classify trips",
     "websiteLink": "https://www.everlance.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/everlance-mileage-expense-tracker.webp"
   },
   {
     "id": 185,
@@ -45,7 +48,8 @@
     "imageIdea": "EveryDollar app interface showing budget categories with allocated funds and remaining balances",
     "websiteLink": "https://www.everydollar.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/everydollar-budgeting-app.webp"
   },
   {
     "id": 186,
@@ -57,7 +61,8 @@
     "imageIdea": "Browser screenshot showing Honey extension icon with a notification of applied coupons at checkout",
     "websiteLink": "https://www.joinhoney.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/honey-smart-shopping-assistant.webp"
   },
   {
     "id": 187,
@@ -69,7 +74,8 @@
     "imageIdea": "Fyle app interface showing an expense being submitted with a receipt captured from a chat app",
     "websiteLink": "https://www.fylehq.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/fyle-expense-management-software.webp"
   },
   {
     "id": 188,
@@ -81,7 +87,8 @@
     "imageIdea": "Invoice Simple app showing a customizable invoice template with itemized services and total amount",
     "websiteLink": "https://www.invoicesimple.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/invoice-simple-generator.webp"
   },
   {
     "id": 189,
@@ -93,7 +100,8 @@
     "imageIdea": "Spendee app interface showing a colorful pie chart of spending categories and recent transactions",
     "websiteLink": "https://www.spendee.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/spendee-budget-money-tracker.webp"
   },
   {
     "id": 190,
@@ -105,7 +113,8 @@
     "imageIdea": "AI content generator interface with a partially generated blog post and various content templates visible.",
     "websiteLink": "https://www.jasper.ai",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/jasper-ai-content-creation-engine.webp"
   },
   {
     "id": 486,
@@ -117,7 +126,8 @@
     "imageIdea": "Copy.ai dashboard showing templates for various marketing copy types and generated options.",
     "websiteLink": "https://www.copy.ai",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/copy-ai-marketing-copy-generator-2.webp"
   },
   {
     "id": 192,
@@ -129,7 +139,8 @@
     "imageIdea": "Surfer SEO Content Editor interface showing keyword suggestions, content score, and outline.",
     "websiteLink": "https://surferseo.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/surfer-seo-content-optimization-tool.webp"
   },
   {
     "id": 193,
@@ -141,7 +152,8 @@
     "imageIdea": "Writer.com dashboard showing brand style guide rules, team analytics, and text editor with suggestions.",
     "websiteLink": "https://writer.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/writer-dot-com-ai-content-platform.webp"
   },
   {
     "id": 198,
@@ -153,7 +165,8 @@
     "imageIdea": "A screenshot of an email client (e.g., Gmail) with ParagraphAI's interface overlaid, showing AI suggestions for replying.",
     "websiteLink": "https://paragraphai.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/paragraphai-ai-writer-for-any-app.webp"
   },
   {
     "id": 199,
@@ -165,7 +178,8 @@
     "imageIdea": "ChatGPT Plus conversational interface showing a complex query and a detailed, multi-paragraph AI-generated response.",
     "websiteLink": "https://chat.openai.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/chatgpt-plus-advanced-ai-writing-assistant.webp"
   },
   {
     "id": 209,
@@ -177,7 +191,8 @@
     "imageIdea": "Reflect app interface showing a daily note with linked ideas, and an AI assistant chat window providing a summary.",
     "websiteLink": "https://reflect.app",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/reflect-ai-powered-daily-notes.webp"
   },
   {
     "id": 503,
@@ -189,7 +204,8 @@
     "imageIdea": "Wave Accounting dashboard showing income/expense charts and invoice list",
     "websiteLink": "https://www.waveapps.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/wave-accounting-free-invoicing-software-2.webp"
   },
   {
     "id": 216,
@@ -201,7 +217,8 @@
     "imageIdea": "HoneyBook 'Smart File' interface showing a combined proposal, contract, and invoice.",
     "websiteLink": "https://www.honeybook.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/honeybook-freelance-contracts-invoicing-time-tracking.webp"
   },
   {
     "id": 222,
@@ -213,7 +230,8 @@
     "imageIdea": "Authy mobile app displaying several 6-digit TOTP codes for different services.",
     "websiteLink": "https://authy.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/authy-two-factor-authentication-app.webp"
   },
   {
     "id": 224,
@@ -225,7 +243,8 @@
     "imageIdea": "ProtonVPN mobile app interface showing a world map with a connected VPN tunnel to a server location.",
     "websiteLink": "https://protonvpn.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/protonvpn-private-secure-internet.webp"
   },
   {
     "id": 226,
@@ -237,7 +256,8 @@
     "imageIdea": "A YubiKey 5 NFC plugged into a laptop USB port with a hand hovering over its gold disc.",
     "websiteLink": "https://www.yubico.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/yubikey-hardware-security-key.webp"
   },
   {
     "id": 227,
@@ -249,7 +269,8 @@
     "imageIdea": "NordLocker desktop app showing a list of encrypted \"lockers\" with padlock icons and cloud sync status.",
     "websiteLink": "https://nordlocker.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/nordlocker-encrypted-cloud-storage.webp"
   },
   {
     "id": 228,
@@ -261,7 +282,8 @@
     "imageIdea": "Have I Been Pwned website homepage with an email input field and a prominent \"pwned\" or \"good news\" message.",
     "websiteLink": "https://haveibeenpwned.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/have-i-been-pwned-breach-checker.webp"
   },
   {
     "id": 229,
@@ -273,7 +295,8 @@
     "imageIdea": "Brave Browser interface showing a webpage with the Shields icon displaying blocked trackers and ads count.",
     "websiteLink": "https://brave.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/brave-privacy-web-browser.webp"
   },
   {
     "id": 232,
@@ -286,7 +309,8 @@
     "imageIdea": "A minimalist interface with various sound icons (rain, coffee cup, forest) and volume sliders, playing in the background of a laptop screen.",
     "websiteLink": "https://www.noisli.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/noisli-ambient-background-sound-focus-productivity.webp"
   },
   {
     "id": 235,
@@ -298,7 +322,8 @@
     "imageIdea": "A macOS desktop with one active application window brightly lit, and all other background windows noticeably dimmed.",
     "websiteLink": "https://hazeover.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/hazeover-mac-focus-app-dim-inactive-windows.webp"
   },
   {
     "id": 236,
@@ -310,7 +335,8 @@
     "imageIdea": "A browser toolbar with a small tomato icon displaying a countdown timer, with a simple pop-up showing \"Work Time\" or \"Break Time\".",
     "websiteLink": "https://chromewebstore.google.com/detail/marinara-pomodoro%C2%AE-assi/lojgmeghpddnldhjnphfdgenkkgmbbch",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/marinara-pomodoro-assistant-browser-extension-timer.webp"
   },
   {
     "id": 237,
@@ -322,7 +348,8 @@
     "imageIdea": "A sleek macOS interface showing a countdown timer, with a subtle list of blocked websites/apps visible in the background or a pop-up.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://flowapp.info"
+    "websiteLink": "https://flowapp.info",
+    "screenshotUrl": "/screenshots/flow-mac-pomodoro-focus-blocker-app.webp"
   },
   {
     "id": 238,
@@ -334,7 +361,8 @@
     "imageIdea": "A minimalist text editor screen with a single paragraph highlighted, and the rest of the interface subtly dimmed or hidden.",
     "websiteLink": "https://writeapp.co/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/write-app-distraction-free-writing-markdown.webp"
   },
   {
     "id": 240,
@@ -346,7 +374,8 @@
     "imageIdea": "YNAB dashboard showing budget categories, assigned funds, and progress bars.",
     "websiteLink": "https://www.ynab.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/you-need-a-budget-ynab.webp"
   },
   {
     "id": 242,
@@ -358,7 +387,8 @@
     "imageIdea": "Dashboard showing aggregated financial accounts, net worth graph, and investment portfolio breakdown.",
     "websiteLink": "https://www.empower.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/empower-personal-wealth-investment-tracker.webp"
   },
   {
     "id": 243,
@@ -370,7 +400,8 @@
     "imageIdea": "Mobile app screen showing a group's shared expenses and who owes whom.",
     "websiteLink": "https://www.splitwise.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/splitwise-split-bills-with-friends.webp"
   },
   {
     "id": 246,
@@ -382,7 +413,8 @@
     "imageIdea": "Mobile app screen showing various savings goals, progress bars, and a list of active savings rules.",
     "websiteLink": "https://www.qapital.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/qapital-automated-savings-goals-investing.webp"
   },
   {
     "id": 248,
@@ -394,7 +426,8 @@
     "imageIdea": "Mobile app screen showing a scanned receipt with extracted data fields (vendor, amount, date) and categorization options.",
     "websiteLink": "https://www.shoeboxed.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/shoeboxed-receipt-expense-tracking.webp"
   },
   {
     "id": 249,
@@ -406,7 +439,8 @@
     "imageIdea": "Mobile app screen showing a simple list of income and expense items with a large running total at the bottom.",
     "websiteLink": "https://www.fudget.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/fudget-simple-budget-planner.webp"
   },
   {
     "id": 250,
@@ -418,7 +452,8 @@
     "imageIdea": "Mealime app dashboard showing a weekly meal plan and an integrated grocery list",
     "websiteLink": "https://www.mealime.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mealime-meal-planner-grocery-list-app.webp"
   },
   {
     "id": 419,
@@ -430,7 +465,8 @@
     "imageIdea": "Mobile app screenshot showing a daily food diary with calorie count and macro breakdown.",
     "websiteLink": "https://www.myfitnesspal.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/myfitnesspal-nutrition-calorie-fitness-tracker.webp"
   },
   {
     "id": 252,
@@ -442,7 +478,8 @@
     "imageIdea": "Paprika Recipe Manager app interface showing a recipe with ingredients and instructions, and a web clipper icon",
     "websiteLink": "https://www.paprikaapp.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/paprika-recipe-manager-grocery-list-meal-planner.webp"
   },
   {
     "id": 404,
@@ -454,7 +491,8 @@
     "imageIdea": "Web interface of Eat This Much showing a personalized daily meal plan with breakfast, lunch, dinner, and snacks.",
     "websiteLink": "https://www.eatthismuch.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/eat-this-much-ai-meal-planner.webp"
   },
   {
     "id": 402,
@@ -466,7 +504,8 @@
     "imageIdea": "Dashboard of Cronometer app showing detailed nutrient breakdown charts and logged foods.",
     "websiteLink": "https://cronometer.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/cronometer-advanced-nutrition-tracker-micronutrients.webp"
   },
   {
     "id": 405,
@@ -490,7 +529,8 @@
     "imageIdea": "Smartphone screen displaying the Forks Over Knives app with a visually appealing plant-based meal recipe and ingredients list.",
     "websiteLink": "https://www.forksoverknives.com/app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/forks-over-knives-plant-based-meal-planner.webp"
   },
   {
     "id": 257,
@@ -502,7 +542,8 @@
     "imageIdea": "KitchenPal app interface showing a list of pantry items with expiry dates and suggested recipes",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://kitchenpalapp.com"
+    "websiteLink": "https://kitchenpalapp.com",
+    "screenshotUrl": "/screenshots/kitchenpal-pantry-manager-expiry-tracker.webp"
   },
   {
     "id": 258,
@@ -514,7 +555,8 @@
     "imageIdea": "SideChef app showing a recipe step with a large image and clear text instructions, maybe a voice command button",
     "websiteLink": "https://www.sidechef.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/sidechef-guided-cooking-smart-recipes.webp"
   },
   {
     "id": 408,
@@ -526,7 +568,8 @@
     "imageIdea": "Tablet screen showing Whisk app with a recipe open, a grocery list on the side, and community features.",
     "websiteLink": "https://www.whisk.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/whisk-recipe-saving-meal-planning-community.webp"
   },
   {
     "id": 558,
@@ -538,7 +581,8 @@
     "imageIdea": "Modern mobile app interface displaying a list of habits with progress bars, scheduled times, and a vibrant color scheme on a smartphone.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://productiveapp.io"
+    "websiteLink": "https://productiveapp.io",
+    "screenshotUrl": "/screenshots/productive-build-good-habits-break-bad-ones.webp"
   },
   {
     "id": 263,
@@ -550,7 +594,8 @@
     "imageIdea": "Way of Life app interface showing a calendar grid with green (yes) and red (no) squares, along with a bar chart visualizing habit trends.",
     "websiteLink": "https://wayoflifeapp.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/way-of-life-track-positive-negative-habits.webp"
   },
   {
     "id": 264,
@@ -562,7 +607,8 @@
     "imageIdea": "Momentum browser new tab page showing a beautiful nature photo background, a central 'What is your main focus for today?' prompt, a small to-do list, and a clock.",
     "websiteLink": "https://momentumdash.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/momentum-new-tab-daily-focus-dashboard.webp"
   },
   {
     "id": 266,
@@ -574,7 +620,8 @@
     "imageIdea": "Fabulous app interface showing a warm, inviting design with a 'Make Me Fabulous' button, a list of routine items with checkmarks, and motivational text.",
     "websiteLink": "https://www.thefabulous.co/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/fabulous-daily-routine-planner-coach.webp"
   },
   {
     "id": 267,
@@ -586,7 +633,8 @@
     "imageIdea": "Done app interface showing a clean list of habits with colorful progress bars and streak counts, against a simple white or dark background.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://apps.apple.com/app/done-a-simple-habit-tracker/id1103961876"
+    "websiteLink": "https://apps.apple.com/app/done-a-simple-habit-tracker/id1103961876",
+    "screenshotUrl": "/screenshots/done-simple-habit-tracker.webp"
   },
   {
     "id": 269,
@@ -598,7 +646,8 @@
     "imageIdea": "Beeminder website screenshot showing a 'Yellow Brick Road' graph with a user's data points, clearly illustrating the 'line' and current progress.",
     "websiteLink": "https://www.beeminder.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/beeminder-goal-tracking-with-monetary-stakes.webp"
   },
   {
     "id": 563,
@@ -610,7 +659,8 @@
     "imageIdea": "GitHub Gist website interface showing a simple code editor with syntax highlighting, public/secret options, and a 'Create Gist' button.",
     "websiteLink": "https://gist.github.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/github-gist-code-sharing-snippets.webp"
   },
   {
     "id": 271,
@@ -622,7 +672,8 @@
     "imageIdea": "GitLab Snippets interface showing a list of snippets, their visibility, and options to create new ones within a project.",
     "websiteLink": "https://docs.gitlab.com/ee/user/snippets.html",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/gitlab-snippets-share-private-code.webp"
   },
   {
     "id": 564,
@@ -634,7 +685,8 @@
     "imageIdea": "SnippetsLab macOS application interface showing a list of snippets, a search bar, and a code editor with syntax highlighting.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.renfei.org/snippets-lab/"
+    "websiteLink": "https://www.renfei.org/snippets-lab/",
+    "screenshotUrl": "/screenshots/snippetslab-mac-ios-snippet-manager.webp"
   },
   {
     "id": 273,
@@ -646,7 +698,8 @@
     "imageIdea": "MassCode desktop application interface showing a folder tree, a list of snippets, and a code editor pane with syntax highlighting.",
     "websiteLink": "https://masscode.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/masscode-open-source-snippet-manager.webp"
   },
   {
     "id": 274,
@@ -658,7 +711,8 @@
     "imageIdea": "Cacher desktop app interface showing team libraries, a list of snippets, and an integrated code editor with syntax highlighting.",
     "websiteLink": "https://www.cacher.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/cacher-team-code-snippet-manager.webp"
   },
   {
     "id": 275,
@@ -670,7 +724,8 @@
     "imageIdea": "Lepton desktop interface showing a list of snippets, a search bar, and a markdown editor with code blocks.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://github.com/hackjutsu/Lepton"
+    "websiteLink": "https://github.com/hackjutsu/Lepton",
+    "screenshotUrl": "/screenshots/lepton-beautiful-markdown-snippet-manager.webp"
   },
   {
     "id": 276,
@@ -682,7 +737,8 @@
     "imageIdea": "Raycast command bar open, showing a snippet being expanded in a text editor, or Raycast preferences with a list of snippets and their keywords.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.raycast.com"
+    "websiteLink": "https://www.raycast.com",
+    "screenshotUrl": "/screenshots/raycast-snippets-fast-text-expansion.webp"
   },
   {
     "id": 277,
@@ -694,7 +750,8 @@
     "imageIdea": "Pieces for Developers desktop app interface showing an AI-enriched code snippet, with tags, descriptions, and related links generated by AI.",
     "websiteLink": "https://pieces.app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/pieces-ai-powered-developer-workflow.webp"
   },
   {
     "id": 279,
@@ -706,7 +763,8 @@
     "imageIdea": "Quiver macOS interface showing a note composed of multiple cells: a markdown cell, a code cell with syntax highlighting, and a rich text cell.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://happenapps.com/#quiver"
+    "websiteLink": "https://happenapps.com/#quiver",
+    "screenshotUrl": "/screenshots/quiver-markdown-code-notebooks-mac.webp"
   },
   {
     "id": 280,
@@ -718,7 +776,8 @@
     "imageIdea": "macOS menu bar with Maccy icon, dropdown showing a list of copied text snippets.",
     "websiteLink": "https://maccy.app",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/maccy-simple-clipboard-manager-mac.webp"
   },
   {
     "id": 281,
@@ -730,7 +789,8 @@
     "imageIdea": "Alfred search bar overlaid on a macOS desktop, showing search results and workflow suggestions.",
     "websiteLink": "https://www.alfredapp.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/alfred-productivity-app-launcher-mac.webp"
   },
   {
     "id": 282,
@@ -742,7 +802,8 @@
     "imageIdea": "Windows desktop with Ditto's clipboard history window open, showing text and image entries.",
     "websiteLink": "https://ditto-cp.sourceforge.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/ditto-free-windows-clipboard-manager.webp"
   },
   {
     "id": 284,
@@ -754,7 +815,8 @@
     "imageIdea": "macOS screenshot showing selected text with the PopClip action bar floating above it.",
     "websiteLink": "https://pilotmoon.com/popclip/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/popclip-text-utility-mac-selected.webp"
   },
   {
     "id": 285,
@@ -766,7 +828,8 @@
     "imageIdea": "Keypirinha search bar with a minimalistic interface, showing typed query and list of suggested items.",
     "websiteLink": "https://keypirinha.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/keypirinha-fast-portable-windows-launcher.webp"
   },
   {
     "id": 286,
@@ -778,7 +841,8 @@
     "imageIdea": "Screenshot showing a text editor where a short trigger is typed and instantly replaced by a longer, predefined text block.",
     "websiteLink": "https://espanso.org",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/espanso-cross-platform-text-expander-automation.webp"
   },
   {
     "id": 287,
@@ -790,7 +854,8 @@
     "imageIdea": "Windows 11 desktop with the PowerToys Run search bar open, showing search results for \"notepad\" or similar.",
     "websiteLink": "https://learn.microsoft.com/en-us/windows/powertoys/run",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/powertoy-run-quick-launcher-windows-utility.webp"
   },
   {
     "id": 288,
@@ -802,7 +867,8 @@
     "imageIdea": "CopyQ interface showing multiple tabs with different clipboard items (text, image), and a search bar.",
     "websiteLink": "https://hluk.github.io/CopyQ/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/copyq-advanced-cross-platform-clipboard-manager.webp"
   },
   {
     "id": 289,
@@ -814,7 +880,8 @@
     "imageIdea": "macOS menu bar with Clipy icon, dropdown menu showing recent clipboard history and a \"Snippets\" submenu.",
     "websiteLink": "https://clipy-app.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/clipy-open-source-clipboard-extension-mac.webp"
   },
   {
     "id": 434,
@@ -826,7 +893,8 @@
     "imageIdea": "Pinboard's minimalist web interface displaying a list of tagged bookmarks, search bar prominent.",
     "websiteLink": "https://pinboard.in",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/pinboard-minimalist-social-bookmarking-2.webp"
   },
   {
     "id": 435,
@@ -838,7 +906,8 @@
     "imageIdea": "Cubox interface showing a saved article with AI-generated summary and highlights visible in a sidebar.",
     "websiteLink": "https://www.cubox.pro",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/cubox-smart-bookmarking-knowledge-base.webp"
   },
   {
     "id": 297,
@@ -850,7 +919,8 @@
     "imageIdea": "Memex browser extension sidebar showing highlights, notes, and search results on a saved web page.",
     "websiteLink": "https://memex.garden",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/memex-open-source-local-first-knowledge.webp"
   },
   {
     "id": 299,
@@ -862,7 +932,8 @@
     "imageIdea": "MyMind dashboard showing a grid of visually rich saved items (bookmarks, images, notes) with a prominent search bar.",
     "websiteLink": "https://mymind.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mymind-ai-private-digital-brain.webp"
   },
   {
     "id": 300,
@@ -874,7 +945,8 @@
     "imageIdea": "Miro's infinite canvas showing a collaborative brainstorming session with sticky notes, flowcharts, and mind map elements.",
     "websiteLink": "https://miro.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/miro-collaborative-online-whiteboard.webp"
   },
   {
     "id": 441,
@@ -886,7 +958,8 @@
     "imageIdea": "Whimsical interface showing a clean, pastel-colored flowchart connected to a mind map on a single canvas.",
     "websiteLink": "https://whimsical.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/whimsical-visual-workspace-flowcharts-wireframes-mind-maps.webp"
   },
   {
     "id": 303,
@@ -898,7 +971,8 @@
     "imageIdea": "MindMeister interface showing a colorful, organized mind map with a central topic and multiple branching ideas.",
     "websiteLink": "https://www.mindmeister.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mindmeister-online-collaborative-mind-mapping.webp"
   },
   {
     "id": 304,
@@ -910,7 +984,8 @@
     "imageIdea": "XMind desktop application interface showing a detailed mind map with multiple branches, icons, and different structural layouts.",
     "websiteLink": "https://xmind.app",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/xmind-professional-mind-mapping-brainstorming.webp"
   },
   {
     "id": 305,
@@ -922,7 +997,8 @@
     "imageIdea": "Coggle interface showing a colorful, organically branching mind map with distinct nodes and connecting lines.",
     "websiteLink": "https://coggle.it",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/coggle-collaborative-mind-maps-flowcharts.webp"
   },
   {
     "id": 306,
@@ -934,7 +1010,8 @@
     "imageIdea": "Obsidian Canvas showing a network of interconnected notes, images, and embedded PDFs on a dark-themed infinite canvas.",
     "websiteLink": "https://obsidian.md/canvas",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/obsidian-canvas-visual-thinking-knowledge-graph.webp"
   },
   {
     "id": 307,
@@ -946,7 +1023,8 @@
     "imageIdea": "Lucidspark virtual whiteboard displaying a brainstorming session with colorful sticky notes, arrows, and a timer in the corner.",
     "websiteLink": "https://lucidspark.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/lucidspark-collaborative-virtual-whiteboard-brainstorming.webp"
   },
   {
     "id": 313,
@@ -958,7 +1036,8 @@
     "imageIdea": "OBS Studio interface showing multiple scenes, sources, and audio mixers, with a preview of a complex stream layout.",
     "websiteLink": "https://obsproject.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/obs-studio-open-source-screen-recorder-stream.webp"
   },
   {
     "id": 315,
@@ -970,7 +1049,8 @@
     "imageIdea": "Screencastify browser extension icon active in a Chrome browser, with a recording toolbar overlayed on a webpage.",
     "websiteLink": "https://www.screencastify.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/screencastify-chrome-screen-recorder-editor.webp"
   },
   {
     "id": 316,
@@ -982,7 +1062,8 @@
     "imageIdea": "Markup Hero web interface showing an annotated screenshot with arrows, text boxes, and highlights on a webpage design.",
     "websiteLink": "https://markuphero.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/markup-hero-screenshot-annotation-sharing.webp"
   },
   {
     "id": 317,
@@ -994,7 +1075,8 @@
     "imageIdea": "Browser window with Awesome Screenshot & Screen Recorder extension icon active, showing a dropdown menu with screenshot and recording options.",
     "websiteLink": "https://www.awesomescreenshot.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/awesome-screenshot-screen-recorder-chrome-extension.webp"
   },
   {
     "id": 318,
@@ -1006,7 +1088,8 @@
     "imageIdea": "Zappy icon in macOS menubar with a small, transparent overlay showing capture options (image, GIF, video) over a desktop.",
     "websiteLink": "https://zapier.com/zappy",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/zappy-by-zapier-quick-screen-capture-gif.webp"
   },
   {
     "id": 319,
@@ -1018,7 +1101,8 @@
     "imageIdea": "Greenshot editor interface showing a screenshot being annotated with various tools like arrows, text, and highlighting, on a Windows desktop.",
     "websiteLink": "https://getgreenshot.org/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/greenshot-windows-lightweight-screenshot-annotation.webp"
   },
   {
     "id": 322,
@@ -1030,7 +1114,8 @@
     "imageIdea": "The Noun Project website showing a search result grid of diverse icons related to a keyword like \"innovation.\"",
     "websiteLink": "https://thenounproject.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/the-noun-project-icons-and-photos.webp"
   },
   {
     "id": 323,
@@ -1042,7 +1127,8 @@
     "imageIdea": "Affinity Designer interface showing a complex vector illustration with layers panel and toolbars.",
     "websiteLink": "https://affinity.serif.com/en-us/designer/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/affinity-designer-vector-graphics-editor.webp"
   },
   {
     "id": 324,
@@ -1054,7 +1140,8 @@
     "imageIdea": "Storyset website showing a customizable illustration being edited with color palette options and an animation toggle.",
     "websiteLink": "https://storyset.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/storyset-customizable-illustrations-by-freepik.webp"
   },
   {
     "id": 326,
@@ -1066,7 +1153,8 @@
     "imageIdea": "remove.bg website showing a before-and-after image of a person with a complex background, now on a transparent background.",
     "websiteLink": "https://www.remove.bg/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/remove-bg-automatic-image-background-removal.webp"
   },
   {
     "id": 328,
@@ -1078,7 +1166,8 @@
     "imageIdea": "Hero Patterns website showing a grid of diverse geometric SVG patterns, with a color customization interface.",
     "websiteLink": "https://heropatterns.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/hero-patterns-svg-background-patterns.webp"
   },
   {
     "id": 329,
@@ -1090,7 +1179,8 @@
     "imageIdea": "LottieFiles website showing a gallery of diverse Lottie animations playing, with search bar and filter options.",
     "websiteLink": "https://lottiefiles.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/lottiefiles-motion-graphics-assets-tools.webp"
   },
   {
     "id": 470,
@@ -1102,7 +1192,8 @@
     "imageIdea": "Email signature editor interface showing a professional signature with logo, photo, and social links.",
     "websiteLink": "https://newoldstamp.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/newoldstamp-professional-email-signature-generator.webp"
   },
   {
     "id": 331,
@@ -1114,7 +1205,8 @@
     "imageIdea": "Gmail inbox interface with Gmelius-specific elements: shared inbox tab, email converted to a Kanban card, assigned user icons.",
     "websiteLink": "https://www.gmelius.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/gmelius-shared-inbox-collaboration-gmail.webp"
   },
   {
     "id": 332,
@@ -1126,7 +1218,8 @@
     "imageIdea": "Browser extension showing a list of email addresses found for a specific website, with verification status.",
     "websiteLink": "https://hunter.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/hunter-find-email-addresses-verify.webp"
   },
   {
     "id": 333,
@@ -1138,7 +1231,8 @@
     "imageIdea": "TextExpander application window showing a list of snippets, with an example of an abbreviation expanding into a long email paragraph.",
     "websiteLink": "https://textexpander.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/textexpander-custom-snippets-abbreviations.webp"
   },
   {
     "id": 334,
@@ -1150,7 +1244,8 @@
     "imageIdea": "Gmail compose window with Right Inbox buttons visible for \"Send Later,\" \"Remind Me,\" \"Templates,\" and \"Signatures.\"",
     "websiteLink": "https://www.rightinbox.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/right-inbox-gmail-productivity-extension.webp"
   },
   {
     "id": 335,
@@ -1162,7 +1257,8 @@
     "imageIdea": "Stripo editor interface with a drag-and-drop email template being customized, showing content blocks and design options.",
     "websiteLink": "https://stripo.email/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/stripo-email-template-builder-editor.webp"
   },
   {
     "id": 336,
@@ -1174,7 +1270,8 @@
     "imageIdea": "A modern, colorful email signature with a profile picture, social media links, and a small banner ad for a service.",
     "websiteLink": "https://www.wisestamp.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/wisestamp-professional-email-signature-maker.webp"
   },
   {
     "id": 337,
@@ -1186,7 +1283,8 @@
     "imageIdea": "Canva editor interface showing an email newsletter template being customized with various design elements.",
     "websiteLink": "https://www.canva.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/canva-graphic-design-email-templates.webp"
   },
   {
     "id": 344,
@@ -1198,7 +1296,8 @@
     "imageIdea": "Writesonic interface showing the AI Article Writer in action, generating sections of a blog post.",
     "websiteLink": "https://writesonic.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/writesonic-ai-content-generation-suite.webp"
   },
   {
     "id": 348,
@@ -1210,7 +1309,8 @@
     "imageIdea": "Paperpal interface showing a scientific article with highlighted grammar errors and academic style suggestions.",
     "websiteLink": "https://paperpal.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/paperpal-ai-academic-writing-assistant.webp"
   },
   {
     "id": 349,
@@ -1222,7 +1322,8 @@
     "imageIdea": "Simplified dashboard showing an integrated view of AI writer, graphic design canvas, and a content calendar.",
     "websiteLink": "https://simplified.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/simplified-ai-content-design-platform.webp"
   },
   {
     "id": 352,
@@ -1234,7 +1335,8 @@
     "imageIdea": "Craft Docs interface displaying a beautifully formatted document with embedded images and nested blocks.",
     "websiteLink": "https://www.craft.do/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/craft-docs-beautiful-document-editor.webp"
   },
   {
     "id": 353,
@@ -1246,7 +1348,8 @@
     "imageIdea": "Mem.ai interface showing an AI-powered search bar with suggested connections between notes and a quick capture widget.",
     "websiteLink": "https://mem.ai/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mem-ai-smart-knowledge-assistant.webp"
   },
   {
     "id": 369,
@@ -1258,7 +1361,8 @@
     "imageIdea": "Hubstaff dashboard showing team activity levels, time logs, and optional screenshots",
     "websiteLink": "https://hubstaff.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/hubstaff-employee-time-tracking-productivity-monitoring.webp"
   },
   {
     "id": 372,
@@ -1270,7 +1374,8 @@
     "imageIdea": "LastPass browser extension icon in a browser toolbar, with a dropdown showing a list of saved logins and a 'Generate Password' button.",
     "websiteLink": "https://www.lastpass.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/lastpass-cloud-based-password-manager.webp"
   },
   {
     "id": 374,
@@ -1282,7 +1387,8 @@
     "imageIdea": "Dashlane desktop app showing a dashboard with password health score, dark web alert, and VPN status.",
     "websiteLink": "https://www.dashlane.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/dashlane-password-manager-vpn-dark-web.webp"
   },
   {
     "id": 375,
@@ -1294,7 +1400,8 @@
     "imageIdea": "NordPass mobile app interface showing password entries and a 'Password Health' score.",
     "websiteLink": "https://nordpass.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/nordpass-secure-password-manager-nord-security.webp"
   },
   {
     "id": 376,
@@ -1306,7 +1413,8 @@
     "imageIdea": "Proton Pass browser extension popup showing an auto-fill prompt and an option to generate a 'hide-my-email' alias.",
     "websiteLink": "https://proton.me/pass",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/proton-pass-privacy-focused-password-manager.webp"
   },
   {
     "id": 519,
@@ -1318,7 +1426,8 @@
     "imageIdea": "Enpass desktop application showing a list of categories and a secure note entry, with cloud sync options visible.",
     "websiteLink": "https://www.enpass.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/enpass-offline-first-password-manager.webp"
   },
   {
     "id": 378,
@@ -1330,7 +1439,8 @@
     "imageIdea": "RememBear mobile app interface with bear mascot, showing a simple list of logins and a button to generate a new password.",
     "websiteLink": "https://www.remembear.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/remembear-simple-cute-password-manager.webp"
   },
   {
     "id": 379,
@@ -1342,7 +1452,8 @@
     "imageIdea": "Keeper Security desktop application showing a vault with categorized entries, a 'Security Audit' score, and options for secure file storage.",
     "websiteLink": "https://www.keepersecurity.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/keeper-security-enterprise-grade-password-manager.webp"
   },
   {
     "id": 383,
@@ -1354,7 +1465,8 @@
     "imageIdea": "A minimalist desktop app interface showing a timer, a task list, and waveform visualizations of focus music, with subtle AI \"nudge\" notifications.",
     "websiteLink": "https://www.centered.app",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/centered-ai-flow-state-focus-app.webp"
   },
   {
     "id": 528,
@@ -1366,7 +1478,8 @@
     "imageIdea": "Pomofocus web interface showing a simple, clean Pomodoro timer with a large countdown",
     "websiteLink": "https://pomofocus.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/pomofocus-minimalist-web-pomodoro-timer.webp"
   },
   {
     "id": 385,
@@ -1378,7 +1491,8 @@
     "imageIdea": "A mobile app screen showing a minimalist interface with \"Focus\" selected, animated sound waves, and subtle indications of AI adaptation (e.g., weather icon).",
     "websiteLink": "https://endel.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/endel-ai-soundscapes-focus-sleep-relax.webp"
   },
   {
     "id": 386,
@@ -1390,7 +1504,8 @@
     "imageIdea": "A macOS desktop screenshot where the active window (e.g., a text editor) is bright and clear, while all other background windows are subtly dimmed.",
     "websiteLink": "https://hazeover.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/hazeover-dim-inactive-mac-windows.webp"
   },
   {
     "id": 529,
@@ -1402,7 +1517,8 @@
     "imageIdea": "Brain.fm app interface showing categories like 'Focus', 'Sleep', 'Meditate' with abstract sound wave visuals",
     "websiteLink": "https://www.brain.fm/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/brainfm-ai-powered-functional-music.webp"
   },
   {
     "id": 538,
@@ -1414,7 +1530,8 @@
     "imageIdea": "Rocket Money mobile app interface showing a list of detected subscriptions with options to cancel or save money.",
     "websiteLink": "https://www.rocketmoney.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/rocket-money-manage-subscriptions-save-money.webp"
   },
   {
     "id": 398,
@@ -1426,7 +1543,8 @@
     "imageIdea": "Copilot Money macOS app showing transaction feed with AI-categorized expenses and investment portfolio overview",
     "websiteLink": "https://copilot.money",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/copilot-money-ai-powered-personal-finance.webp"
   },
   {
     "id": 543,
@@ -1438,7 +1556,8 @@
     "imageIdea": "Paprika app showing a recipe imported from a website, with options to scale, add to meal plan, and categorize.",
     "websiteLink": "https://www.paprikaapp.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/paprika-recipe-manager-organizer-planner.webp"
   },
   {
     "id": 401,
@@ -1450,7 +1569,8 @@
     "imageIdea": "Smartphone screen displaying Mealime app with a vibrant healthy meal photo and grocery list side-by-side.",
     "websiteLink": "https://www.mealime.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mealime-healthy-meal-planning-grocery-lists.webp"
   },
   {
     "id": 403,
@@ -1462,7 +1582,8 @@
     "imageIdea": "Clean, minimalist iPhone screen showing FoodNoms app with food logging interface and daily macro summary.",
     "websiteLink": "https://foodnoms.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/foodnoms-privacy-focused-nutrition-tracker.webp"
   },
   {
     "id": 407,
@@ -1474,7 +1595,8 @@
     "imageIdea": "Smartphone screen of Supercook app showing a list of ingredients in a virtual pantry and corresponding recipe suggestions.",
     "websiteLink": "https://www.supercook.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/supercook-recipe-generator-ingredients-at-home.webp"
   },
   {
     "id": 414,
@@ -1486,7 +1608,8 @@
     "imageIdea": "Mobile app screenshot showing a large, active fasting timer with a streak counter below it.",
     "websiteLink": "https://www.zero.app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/zero-fasting-tracker-health-streaks.webp"
   },
   {
     "id": 415,
@@ -1498,7 +1621,8 @@
     "imageIdea": "Duolingo's green owl mascot (Duo) cheering next to a streak counter on a mobile screen.",
     "websiteLink": "https://www.duolingo.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/duolingo-language-learning-streaks-gamified.webp"
   },
   {
     "id": 423,
@@ -1510,7 +1634,8 @@
     "imageIdea": "Ditto's clipboard history window showing a list of copied items with a search bar.",
     "websiteLink": "https://ditto-cp.sourceforge.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/ditto-windows-clipboard-manager-history.webp"
   },
   {
     "id": 424,
@@ -1522,7 +1647,8 @@
     "imageIdea": "LaunchBar's compact search bar with a dropdown of intelligently suggested items.",
     "websiteLink": "https://www.obdev.at/products/launchbar/index.html",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/launchbar-mac-intelligent-keyboard-launcher.webp"
   },
   {
     "id": 425,
@@ -1534,7 +1660,8 @@
     "imageIdea": "Mac menu bar with CopyClip icon and a small dropdown showing recent text snippets.",
     "websiteLink": "https://apps.apple.com/us/app/copyclip/id595191960",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/copyclip-mac-simple-clipboard-manager.webp"
   },
   {
     "id": 427,
@@ -1546,7 +1673,8 @@
     "imageIdea": "Ueli's simple, dark-themed search bar overlaying a desktop.",
     "websiteLink": "https://ueli.app",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/ueli-cross-platform-open-source-launcher.webp"
   },
   {
     "id": 428,
@@ -1558,7 +1686,8 @@
     "imageIdea": "Clipdiary's main window showing a categorized list of past clipboard items.",
     "websiteLink": "https://clipdiary.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/clipdiary-windows-robust-clipboard-history.webp"
   },
   {
     "id": 429,
@@ -1570,7 +1699,8 @@
     "imageIdea": "Paste's visual clipboard history timeline showing various content types (text, image thumbnails).",
     "websiteLink": "https://pasteapp.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/paste-mac-visual-clipboard-manager.webp"
   },
   {
     "id": 436,
@@ -1582,7 +1712,8 @@
     "imageIdea": "Diigo browser extension sidebar showing highlights and sticky notes on a web page, with sharing options.",
     "websiteLink": "https://www.diigo.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/diigo-social-bookmarking-web-annotator.webp"
   },
   {
     "id": 439,
@@ -1594,7 +1725,8 @@
     "imageIdea": "Anybox macOS app interface showing a grid of saved links with rich previews, sidebar with tags and smart folders.",
     "websiteLink": "https://anybox.app",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/anybox-native-macos-ios-bookmark-manager.webp"
   },
   {
     "id": 448,
@@ -1606,7 +1738,8 @@
     "imageIdea": "FigJam interface filled with colorful sticky notes, hand-drawn arrows, emoji reactions, and multiple participant cursors on a bright background.",
     "websiteLink": "https://www.figma.com/figjam/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/figjam-online-whiteboard-figma-teams.webp"
   },
   {
     "id": 454,
@@ -1618,7 +1751,8 @@
     "imageIdea": "Descript interface showing a video timeline synchronized with a text transcript, with highlighted words for editing.",
     "websiteLink": "https://www.descript.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/descript-video-audio-editor-screen-recorder.webp"
   },
   {
     "id": 455,
@@ -1630,7 +1764,8 @@
     "imageIdea": "Zight desktop menu popping up with options for screenshot, GIF, and video capture, with a shareable link notification.",
     "websiteLink": "https://zight.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/zight-instant-screen-recording-gif-sharing.webp"
   },
   {
     "id": 456,
@@ -1642,7 +1777,8 @@
     "imageIdea": "Shottr editor showing a long scrolling screenshot of a webpage with parts pixelated and arrows drawn.",
     "websiteLink": "https://shottr.cc",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/shottr-lightweight-macos-screenshot-tool.webp"
   },
   {
     "id": 458,
@@ -1654,7 +1790,8 @@
     "imageIdea": "Flameshot's in-editor interface with a selected screen region and the floating annotation toolbar visible.",
     "websiteLink": "https://flameshot.org",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/flameshot-open-source-screenshot-annotation.webp"
   },
   {
     "id": 459,
@@ -1666,7 +1803,8 @@
     "imageIdea": "Veed.io's web interface showing a video being edited on a timeline with options for adding text, subtitles, and elements.",
     "websiteLink": "https://www.veed.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/veed-io-online-video-editor-screen-recorder.webp"
   },
   {
     "id": 463,
@@ -1678,7 +1816,8 @@
     "imageIdea": "Unsplash website homepage showcasing a grid of diverse, high-quality photographs and a prominent search bar.",
     "websiteLink": "https://unsplash.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/unsplash-free-high-quality-stock-photos.webp"
   },
   {
     "id": 464,
@@ -1690,7 +1829,8 @@
     "imageIdea": "Vectr web interface showing a simple vector illustration in progress, with toolbars on the side",
     "websiteLink": "https://vectr.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/vectr-free-online-vector-graphics-editor.webp"
   },
   {
     "id": 465,
@@ -1702,7 +1842,8 @@
     "imageIdea": "Smartmockups website showing a laptop mockup with a custom UI design on its screen, and options to upload image.",
     "websiteLink": "https://smartmockups.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/smartmockups-instant-product-mockups-online.webp"
   },
   {
     "id": 467,
@@ -1714,7 +1855,8 @@
     "imageIdea": "Photopea web interface showing a complex image editing project with layers panel, toolbars, and canvas.",
     "websiteLink": "https://www.photopea.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/photopea-free-online-image-editor-photoshop-alternative.webp"
   },
   {
     "id": 468,
@@ -1726,7 +1868,8 @@
     "imageIdea": "WhatTheFont website showing an uploaded image of text, with boxes around characters for identification and suggested fonts.",
     "websiteLink": "https://www.myfonts.com/whatthefont",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/whatthefont-font-identifier-online.webp"
   },
   {
     "id": 469,
@@ -1738,7 +1881,8 @@
     "imageIdea": "SVGator web interface showing an SVG animation timeline, vector elements on canvas, and animation properties panel.",
     "websiteLink": "https://www.svgator.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/svgator-animate-svg-online.webp"
   },
   {
     "id": 471,
@@ -1750,7 +1894,8 @@
     "imageIdea": "Stripo's drag-and-drop email builder interface with various content blocks and a preview on desktop and mobile.",
     "websiteLink": "https://stripo.email",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/stripo-email-template-builder.webp"
   },
   {
     "id": 473,
@@ -1762,7 +1907,8 @@
     "imageIdea": "Gmail inbox screenshot showing an email with green double-check marks next to it, indicating it has been read.",
     "websiteLink": "https://mailtrack.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mailtrack-email-tracking-for-gmail.webp"
   },
   {
     "id": 475,
@@ -1774,7 +1920,8 @@
     "imageIdea": "BEE Free online editor showing a responsive email template being built with drag-and-drop blocks, split view for desktop/mobile.",
     "websiteLink": "https://beefree.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/bee-free-drag-and-drop-email-builder.webp"
   },
   {
     "id": 477,
@@ -1786,7 +1933,8 @@
     "imageIdea": "Proton Mail inbox interface showing an encrypted email with a padlock icon, highlighting security.",
     "websiteLink": "https://proton.me/mail",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/proton-mail-secure-encrypted-email.webp"
   },
   {
     "id": 479,
@@ -1798,7 +1946,8 @@
     "imageIdea": "Gmail compose window with Mixmax features visible: template selector, tracking options, scheduling, and a sequence builder.",
     "websiteLink": "https://mixmax.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mixmax-sales-engagement-for-gmail.webp"
   },
   {
     "id": 483,
@@ -1810,7 +1959,8 @@
     "imageIdea": "Wordtune browser extension interface showing alternative phrasing suggestions for a selected sentence.",
     "websiteLink": "https://www.wordtune.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/wordtune-ai-writing-rewrite-assistant.webp"
   },
   {
     "id": 506,
@@ -1822,7 +1972,8 @@
     "imageIdea": "Indy interface showing a project dashboard with tasks, time, and invoice tabs",
     "websiteLink": "https://weareindy.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/indy-freelance-platform-independents.webp"
   },
   {
     "id": 516,
@@ -1834,7 +1985,8 @@
     "imageIdea": "LessPass web interface showing input fields for master password, login, and site, with a generated password output.",
     "websiteLink": "https://lesspass.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/lesspass-deterministic-password-generator.webp"
   },
   {
     "id": 523,
@@ -1846,7 +1998,8 @@
     "imageIdea": "Session app desktop interface showing a running Pomodoro timer and simple analytics graph",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.stayinsession.com"
+    "websiteLink": "https://www.stayinsession.com",
+    "screenshotUrl": "/screenshots/session-desktop-pomodoro-timer.webp"
   },
   {
     "id": 524,
@@ -1858,7 +2011,8 @@
     "imageIdea": "Opal iOS app interface showing blocked apps and a timer for a focus session",
     "websiteLink": "https://www.opal.so/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/opal-ios-app-blocker-focus.webp"
   },
   {
     "id": 525,
@@ -1870,7 +2024,8 @@
     "imageIdea": "Focus@Will web interface showing different music channels like 'Deep Work' and 'ADHD', with sound waves",
     "websiteLink": "https://www.focusatwill.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/focus-at-will-music-for-concentration.webp"
   },
   {
     "id": 534,
@@ -1882,7 +2037,8 @@
     "imageIdea": "Fudget mobile app interface showing a simple list of income and expenses with a running total.",
     "websiteLink": "https://fudget.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/fudget-simple-budget-planner-list.webp"
   },
   {
     "id": 536,
@@ -1894,7 +2050,8 @@
     "imageIdea": "Empower dashboard showing net worth graph, investment portfolio breakdown, and retirement planner summary.",
     "websiteLink": "https://www.empower.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/empower-free-financial-tools-wealth-management.webp"
   },
   {
     "id": 537,
@@ -1906,7 +2063,8 @@
     "imageIdea": "Spendee mobile app interface showing a colorful spending breakdown chart and a list of categorized transactions.",
     "websiteLink": "https://www.spendee.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/spendee-budget-planner-expense-tracker.webp"
   },
   {
     "id": 544,
@@ -1918,7 +2076,8 @@
     "imageIdea": "Foodvisor app screen showing a photo of a meal with AI overlays identifying different food items and their nutritional values.",
     "websiteLink": "https://www.foodvisor.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/foodvisor-ai-food-recognition-calorie-tracker.webp"
   },
   {
     "id": 549,
@@ -1930,7 +2089,8 @@
     "imageIdea": "AnyList app showing a shared grocery list with items categorized and checked off, alongside a recipe tab.",
     "websiteLink": "https://www.anylist.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/anylist-shared-grocery-lists-recipe-organizer.webp"
   },
   {
     "id": 553,
@@ -1942,7 +2102,8 @@
     "imageIdea": "A multi-device setup (laptop, phone, smartwatch) all displaying the Habitify app with synchronized habit lists and green checkmarks.",
     "websiteLink": "https://habitify.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/habitify-cross-platform-comprehensive-habit-tracker.webp"
   },
   {
     "id": 556,
@@ -1954,7 +2115,8 @@
     "imageIdea": "Clean iOS app interface on an iPhone, showing a single habit with a colorful progress bar and a calendar grid highlighting green completed days.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://apps.apple.com/app/done-a-simple-habit-tracker/id1103961876"
+    "websiteLink": "https://apps.apple.com/app/done-a-simple-habit-tracker/id1103961876",
+    "screenshotUrl": "/screenshots/done-simple-visual-ios-habit-tracker.webp"
   },
   {
     "id": 559,
@@ -1966,7 +2128,8 @@
     "imageIdea": "iOS app screen showing different goal types (habit, target, average) with progress bars, trend graphs, and a 'pace line' visualization.",
     "websiteLink": "https://www.stridesapp.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/strides-goal-habit-tracker-smart-goals.webp"
   },
   {
     "id": 562,
@@ -1978,7 +2141,8 @@
     "imageIdea": "Dash application interface showing API documentation on one side and a code snippet editor on the other.",
     "websiteLink": "https://kapeli.com/dash",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/dash-documentation-snippet-manager.webp"
   },
   {
     "id": 566,
@@ -1990,7 +2154,8 @@
     "imageIdea": "DevToys Windows application interface showing the JSON Formatter tool with input and output panes.",
     "websiteLink": "https://devtoys.app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/devtoys-developer-swiss-army-knife.webp"
   },
   {
     "id": 567,
@@ -2002,7 +2167,8 @@
     "imageIdea": "Terminal window showing `tldr git` command output with concise examples for common Git operations.",
     "websiteLink": "https://tldr.sh/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/tldr-pages-simplified-man-pages.webp"
   },
   {
     "id": 568,
@@ -2014,7 +2180,8 @@
     "imageIdea": "Insomnia desktop application interface showing an HTTP GET request being configured, with response pane below.",
     "websiteLink": "https://insomnia.rest/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/insomnia-api-client-design-debug.webp"
   },
   {
     "id": 569,
@@ -2026,7 +2193,8 @@
     "imageIdea": "ProWritingAid web editor showing text analysis with highlighted suggestions and a sidebar report.",
     "websiteLink": "https://prowritingaid.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/prowritingaid-grammar-style-editor.webp"
   },
   {
     "id": 570,
@@ -2038,7 +2206,8 @@
     "imageIdea": "Rytr dashboard showing template selection, input fields for a prompt, and AI-generated text output.",
     "websiteLink": "https://rytr.me/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/rytr-ai-writing-assistant-generator.webp"
   },
   {
     "id": 571,
@@ -2050,7 +2219,8 @@
     "imageIdea": "Browser window with an email draft open, showing Compose AI's auto-completion suggestions appearing as a popup next to the cursor.",
     "websiteLink": "https://www.compose.ai/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/compose-ai-writing-assistant-browser-extension.webp"
   },
   {
     "id": 572,
@@ -2062,7 +2232,8 @@
     "imageIdea": "Lex's minimalist white interface with text being written, and a small AI prompt pop-up generating suggestions.",
     "websiteLink": "https://lex.page/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/lex-page-ai-word-processor.webp"
   },
   {
     "id": 573,
@@ -2074,7 +2245,8 @@
     "imageIdea": "DeepL Write web interface showing original text on one side and multiple AI-generated rephrasing options on the other.",
     "websiteLink": "https://www.deepl.com/write",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/deepl-write-ai-writing-assistant-multilingual.webp"
   },
   {
     "id": 574,
@@ -2086,7 +2258,8 @@
     "imageIdea": "INK editor interface showing an article being written, with a sidebar displaying SEO score, keyword suggestions, and competitor analysis.",
     "websiteLink": "https://inkforall.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/ink-for-all-seo-ai-writing-optimizer.webp"
   },
   {
     "id": 575,
@@ -2098,7 +2271,8 @@
     "imageIdea": "Sudowrite web editor showing a story being written, with a sidebar displaying AI-generated suggestions for descriptions or plot points.",
     "websiteLink": "https://www.sudowrite.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/sudowrite-ai-creative-fiction-writing-partner.webp"
   },
   {
     "id": 576,
@@ -2110,7 +2284,8 @@
     "imageIdea": "TypingMind interface showing a chat window with a custom persona selected, a prompt library, and ongoing AI conversation.",
     "websiteLink": "https://typingmind.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/typingmind-ai-chatbot-manager-custom.webp"
   },
   {
     "id": 577,
@@ -2122,7 +2297,8 @@
     "imageIdea": "Browser window showing an email being written in Gmail, with a TextCortex AI sidebar or pop-up offering suggestions and generation options.",
     "websiteLink": "https://textcortex.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/textcortex-ai-writing-assistant-multiplatform.webp"
   },
   {
     "id": 578,
@@ -2134,7 +2310,8 @@
     "imageIdea": "QuillBot web interface showing original text input on one side and multiple paraphrased outputs with different modes selected on the other.",
     "websiteLink": "https://quillbot.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/quillbot-paraphraser-summarizer-grammar.webp"
   },
   {
     "id": 579,
@@ -2146,7 +2323,8 @@
     "imageIdea": "Roam Research graph view showing interconnected nodes and links",
     "websiteLink": "https://roamresearch.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/roam-research-graph-database-note-taking.webp"
   },
   {
     "id": 580,
@@ -2158,7 +2336,8 @@
     "imageIdea": "Anki flashcard interface showing a question, answer buttons, and a progress bar",
     "websiteLink": "https://apps.ankiweb.net/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/anki-spaced-repetition-flashcard-learning.webp"
   },
   {
     "id": 581,
@@ -2170,7 +2349,8 @@
     "imageIdea": "Zotero desktop interface showing a library of references, collection sidebar, and a PDF viewer",
     "websiteLink": "https://www.zotero.org/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/zotero-research-citation-management.webp"
   },
   {
     "id": 582,
@@ -2182,7 +2362,8 @@
     "imageIdea": "Milanote infinite canvas filled with sticky notes, images, links, and text blocks",
     "websiteLink": "https://www.milanote.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/milanote-visual-workspace-creative-ideas.webp"
   },
   {
     "id": 583,
@@ -2194,7 +2375,8 @@
     "imageIdea": "Drafts app interface showing a blank white canvas ready for text input on an iPhone",
     "websiteLink": "https://getdrafts.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/drafts-capture-process-text-anywhere.webp"
   },
   {
     "id": 584,
@@ -2206,7 +2388,8 @@
     "imageIdea": "Scapple canvas filled with interconnected text notes, some with arrows and different background colors",
     "websiteLink": "https://www.literatureandlatte.com/scapple/overview",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/scapple-freeform-brainstorming-idea-generation.webp"
   },
   {
     "id": 585,
@@ -2218,7 +2401,8 @@
     "imageIdea": "A web page with Hypothesis sidebar open, showing highlighted text and associated annotations",
     "websiteLink": "https://web.hypothes.is/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/hypothesis-web-annotation-social-reading.webp"
   },
   {
     "id": 586,
@@ -2230,7 +2414,8 @@
     "imageIdea": "TiddlyWiki interface in a browser, showing multiple open \"tiddlers\" (notes) and a sidebar",
     "websiteLink": "https://tiddlywiki.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/tiddlywiki-personal-wiki-non-linear-notebook.webp"
   },
   {
     "id": 587,
@@ -2242,7 +2427,8 @@
     "imageIdea": "Day One app interface showing a journal entry with photos, text, and contextual metadata (location, weather)",
     "websiteLink": "https://dayoneapp.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/day-one-journaling-memory-keeping-app.webp"
   },
   {
     "id": 588,
@@ -2254,7 +2440,8 @@
     "imageIdea": "Excalidraw web interface showing a hand-drawn flowchart or wireframe with sketchy lines and shapes",
     "websiteLink": "https://excalidraw.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/excalidraw-hand-drawn-diagrams-whiteboarding.webp"
   },
   {
     "id": 589,
@@ -2266,7 +2453,8 @@
     "imageIdea": "Clockify web dashboard showing a list of projects with active timers and past time entries.",
     "websiteLink": "https://clockify.me/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/clockify-free-time-tracker-and-timesheet.webp"
   },
   {
     "id": 590,
@@ -2278,7 +2466,8 @@
     "imageIdea": "Toggl Track desktop app showing a running timer, recent entries, and project tags.",
     "websiteLink": "https://toggl.com/track/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/toggl-track-simple-time-tracking-software.webp"
   },
   {
     "id": 591,
@@ -2290,7 +2479,8 @@
     "imageIdea": "DeskTime dashboard showing a productivity percentage, categorized app usage, and a timeline of activity.",
     "websiteLink": "https://desktime.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/desktime-automatic-time-tracking-and-productivity.webp"
   },
   {
     "id": 592,
@@ -2302,7 +2492,8 @@
     "imageIdea": "Zoho Invoice dashboard showing a list of recent invoices, payment statuses, and revenue charts.",
     "websiteLink": "https://www.zoho.com/invoice/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/zoho-invoice-free-invoicing-software.webp"
   },
   {
     "id": 593,
@@ -2314,7 +2505,8 @@
     "imageIdea": "Invoicely web interface showing a customizable invoice template with client details and line items.",
     "websiteLink": "https://invoicely.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/invoicely-free-online-invoicing-estimates.webp"
   },
   {
     "id": 594,
@@ -2326,7 +2518,8 @@
     "imageIdea": "TimeCamp dashboard displaying project time breakdown, productivity charts, and a list of tracked activities.",
     "websiteLink": "https://www.timecamp.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/timecamp-automatic-time-tracking-and-project-budgeting.webp"
   },
   {
     "id": 595,
@@ -2338,7 +2531,8 @@
     "imageIdea": "TMetric interface showing a project dashboard with tracked time, task lists, and a running timer.",
     "websiteLink": "https://tmetric.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/tmetric-time-tracking-project-management-invoicing.webp"
   },
   {
     "id": 596,
@@ -2350,7 +2544,8 @@
     "imageIdea": "InvoicePlane web interface showing an invoice list, client details, and payment tracking with a self-hosted feel.",
     "websiteLink": "https://invoiceplane.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/invoiceplane-open-source-self-hosted-invoicing.webp"
   },
   {
     "id": 597,
@@ -2362,7 +2557,8 @@
     "imageIdea": "Noko web interface showing a clean timer input field, recent time entries with tags, and a simple report summary.",
     "websiteLink": "https://nokotime.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/noko-simple-project-time-tracking-reporting.webp"
   },
   {
     "id": 598,
@@ -2374,7 +2570,8 @@
     "imageIdea": "Nutcache dashboard showing project timelines, task assignments, and a summary of billable hours and outstanding invoices.",
     "websiteLink": "https://www.nutcache.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/nutcache-project-management-time-tracking-invoicing.webp"
   },
   {
     "id": 599,
@@ -2386,7 +2583,8 @@
     "imageIdea": "Bitwarden browser extension pop-up showing auto-fill suggestions for login fields.",
     "websiteLink": "https://bitwarden.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/bitwarden-open-source-password-manager-2.webp"
   },
   {
     "id": 600,
@@ -2398,7 +2596,8 @@
     "imageIdea": "KeePassXC desktop application interface showing a list of entries and a strong password generator.",
     "websiteLink": "https://keepassxc.org/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/keepassxc-offline-password-manager.webp"
   },
   {
     "id": 601,
@@ -2410,7 +2609,8 @@
     "imageIdea": "Screenshot of 2FAS Authenticator app on a phone, displaying multiple TOTP codes.",
     "websiteLink": "https://2fas.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/2fas-authenticator-open-source-2fa.webp"
   },
   {
     "id": 602,
@@ -2422,7 +2622,8 @@
     "imageIdea": "Strongbox app interface on an iPhone, showing a list of logins with Face ID prompt.",
     "websiteLink": "https://strongboxsafe.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/strongbox-keepass-apple-password-manager.webp"
   },
   {
     "id": 603,
@@ -2434,7 +2635,8 @@
     "imageIdea": "Password Pusher web interface with fields for password, expiration, and view limit, showing a generated secure link.",
     "websiteLink": "https://pwpush.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/password-pusher-secure-one-time-sharing.webp"
   },
   {
     "id": 605,
@@ -2446,7 +2648,8 @@
     "imageIdea": "SimpleLogin dashboard showing a list of email aliases, their forwarding status, and a button to create a new alias.",
     "websiteLink": "https://simplelogin.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/simplelogin-email-alias-service.webp"
   },
   {
     "id": 606,
@@ -2458,7 +2661,8 @@
     "imageIdea": "Cryptomator desktop application interface showing a list of encrypted vaults and options to open/lock them.",
     "websiteLink": "https://cryptomator.org/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/cryptomator-encrypt-cloud-folders.webp"
   },
   {
     "id": 607,
@@ -2470,7 +2674,8 @@
     "imageIdea": "Privacy.com browser extension pop-up showing options to create a new virtual card with spending limits.",
     "websiteLink": "https://privacy.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/privacy-com-virtual-payment-cards.webp"
   },
   {
     "id": 608,
@@ -2482,7 +2687,8 @@
     "imageIdea": "Tresorit desktop application interface showing an encrypted folder (\"tresor\") with files inside and sharing options.",
     "websiteLink": "https://tresorit.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/tresorit-end-to-end-encrypted-cloud-storage.webp"
   },
   {
     "id": 609,
@@ -2494,7 +2700,8 @@
     "imageIdea": "Freedom app interface showing a list of blocked apps and websites with a timer countdown",
     "websiteLink": "https://freedom.to/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/freedom-distraction-blocker.webp"
   },
   {
     "id": 610,
@@ -2506,7 +2713,8 @@
     "imageIdea": "Screenshot of two users in a Focusmate video call, with a timer prominent, each focused on their own work area",
     "websiteLink": "https://www.focusmate.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/focusmate-virtual-coworking.webp"
   },
   {
     "id": 611,
@@ -2518,7 +2726,8 @@
     "imageIdea": "Sunsama daily planning interface showing a time-blocked schedule with tasks and integrations listed",
     "websiteLink": "https://sunsama.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/sunsama-daily-planning-focus.webp"
   },
   {
     "id": 612,
@@ -2530,7 +2739,8 @@
     "imageIdea": "Tide app mobile interface showing a large circular timer with a nature background image and sound controls",
     "websiteLink": "https://tide.fm/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/tide-focus-timer-white-noise.webp"
   },
   {
     "id": 613,
@@ -2542,7 +2752,8 @@
     "imageIdea": "Cold Turkey Blocker desktop app interface showing a list of blocked websites and apps, with a timer and 'lock' icon",
     "websiteLink": "https://getcoldturkey.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/cold-turkey-blocker.webp"
   },
   {
     "id": 614,
@@ -2554,7 +2765,8 @@
     "imageIdea": "PomoDone App interface showing a timer countdown with a linked task from an integrated service like Trello or Asana",
     "websiteLink": "https://pomodoneapp.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/pomodone-app-pomodoro-timer.webp"
   },
   {
     "id": 615,
@@ -2566,7 +2778,8 @@
     "imageIdea": "iA Writer interface showing a clean white background with black text, 'Focus Mode' active, highlighting a single sentence",
     "websiteLink": "https://ia.net/writer",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/ia-writer-distraction-free.webp"
   },
   {
     "id": 616,
@@ -2578,7 +2791,8 @@
     "imageIdea": "Super Productivity desktop app interface showing a task list on one side and a Pomodoro timer on the other, with a progress bar",
     "websiteLink": "https://super-productivity.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/super-productivity-open-source-tasks.webp"
   },
   {
     "id": 617,
@@ -2590,7 +2804,8 @@
     "imageIdea": "Focus Keeper mobile app interface showing a large, colorful circular timer with 'Work' or 'Break' displayed centrally",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://apps.apple.com/app/focus-keeper-time-management/id867374917"
+    "websiteLink": "https://apps.apple.com/app/focus-keeper-time-management/id867374917",
+    "screenshotUrl": "/screenshots/focus-keeper-pomodoro-timer.webp"
   },
   {
     "id": 618,
@@ -2602,7 +2817,8 @@
     "imageIdea": "Session Buddy browser extension popup showing a list of saved sessions with tab counts, and options to save current window",
     "websiteLink": "https://sessionbuddy.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/session-buddy-tab-manager-2.webp"
   },
   {
     "id": 619,
@@ -2614,7 +2830,8 @@
     "imageIdea": "Clean, modern financial dashboard with charts for net worth, spending categories, and goal progress.",
     "websiteLink": "https://www.monarchmoney.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/monarch-money-comprehensive-budgeting-personal-finance.webp"
   },
   {
     "id": 620,
@@ -2626,7 +2843,8 @@
     "imageIdea": "Mobile app screenshot showing a personalized financial insight or the auto-save feature in action.",
     "websiteLink": "https://albert.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/albert-ai-financial-assistant-savings-investing.webp"
   },
   {
     "id": 621,
@@ -2638,7 +2856,8 @@
     "imageIdea": "Google Sheet or Excel spreadsheet showing categorized financial transactions populated by Tiller, with custom charts.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.tillerhq.com"
+    "websiteLink": "https://www.tillerhq.com",
+    "screenshotUrl": "/screenshots/tiller-money-spreadsheet-budgeting-bank-sync.webp"
   },
   {
     "id": 622,
@@ -2650,7 +2869,8 @@
     "imageIdea": "Mobile app screenshot showing a list of \"envelopes\" with remaining balances, highlighting an envelope being \"filled\" or \"spent from.\"",
     "websiteLink": "https://goodbudget.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/goodbudget-digital-envelope-budgeting-system.webp"
   },
   {
     "id": 623,
@@ -2662,7 +2882,8 @@
     "imageIdea": "Clean web interface showing a budgeting dashboard with transaction list and custom tags/filters.",
     "websiteLink": "https://lunchmoney.app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/lunch-money-modern-privacy-focused-budgeting.webp"
   },
   {
     "id": 624,
@@ -2674,7 +2895,8 @@
     "imageIdea": "GnuCash desktop interface showing a ledger for an account, with transaction entries and a report open.",
     "websiteLink": "https://www.gnucash.org/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/gnucash-free-open-source-personal-accounting.webp"
   },
   {
     "id": 625,
@@ -2686,7 +2908,8 @@
     "imageIdea": "Mobile app screenshot showing \"IN MY POCKET\" amount, upcoming bills, and identified subscriptions.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://pocketguard.com"
+    "websiteLink": "https://pocketguard.com",
+    "screenshotUrl": "/screenshots/pocketguard-smart-budgeting-spending-optimizer.webp"
   },
   {
     "id": 626,
@@ -2698,7 +2921,8 @@
     "imageIdea": "Mobile app screenshot showing a shared dashboard for two people, with joint and individual transaction lists and chat bubbles for comments.",
     "websiteLink": "https://www.honeydue.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/honeydue-joint-finances-couples-budgeting.webp"
   },
   {
     "id": 629,
@@ -2710,7 +2934,8 @@
     "imageIdea": "MacroFactor app interface showing a dashboard with calorie/macro targets and a progress graph.",
     "websiteLink": "https://macrofactorapp.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/macrofactor-algorithmic-nutrition-coaching.webp"
   },
   {
     "id": 630,
@@ -2722,7 +2947,8 @@
     "imageIdea": "Lose It! app interface showing a daily calorie budget, logged meals, and a weight progress chart.",
     "websiteLink": "https://www.loseit.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/lose-it-weight-loss-calorie-tracker.webp"
   },
   {
     "id": 631,
@@ -2734,7 +2960,8 @@
     "imageIdea": "Plan to Eat app interface showing a calendar with planned meals and a grocery list.",
     "websiteLink": "https://www.plantoeat.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/plan-to-eat-meal-planner-grocery-list.webp"
   },
   {
     "id": 632,
@@ -2746,7 +2973,8 @@
     "imageIdea": "BigOven app interface showing a diverse collection of recipes, a meal plan calendar, and the \"Use Up Leftovers\" feature.",
     "websiteLink": "https://www.bigoven.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/bigoven-recipe-organizer-meal-planner.webp"
   },
   {
     "id": 633,
@@ -2758,7 +2986,8 @@
     "imageIdea": "eMeals app interface showing various meal plan options, a weekly dinner schedule, and grocery delivery integration.",
     "websiteLink": "https://emeals.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/emeals-curated-meal-plans-grocery-delivery.webp"
   },
   {
     "id": 635,
@@ -2770,7 +2999,8 @@
     "imageIdea": "Lifesum app interface showing a personalized diet plan, food logging screen, and health progress dashboard.",
     "websiteLink": "https://lifesum.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/lifesum-health-tracker-diet-plans.webp"
   },
   {
     "id": 636,
@@ -2782,7 +3012,8 @@
     "imageIdea": "Prepear app interface showing a curated recipe collection, a weekly meal plan calendar, and a smart grocery list.",
     "websiteLink": "https://www.prepear.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/prepear-recipe-app-meal-planner-community.webp"
   },
   {
     "id": 637,
@@ -2794,7 +3025,8 @@
     "imageIdea": "Fooducate app interface showing a scanned food product with its nutrition grade (e.g., 'B+') and healthier alternative suggestions.",
     "websiteLink": "https://www.fooducate.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/fooducate-nutrition-scanner-health-tracker.webp"
   },
   {
     "id": 638,
@@ -2806,7 +3038,8 @@
     "imageIdea": "ChefTap app interface showing a clean, imported recipe without ads, with ingredients and instructions clearly laid out.",
     "websiteLink": "https://www.cheftap.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/cheftap-recipe-clipper-organizer.webp"
   },
   {
     "id": 639,
@@ -2818,7 +3051,8 @@
     "imageIdea": "Web interface showing a code snippet with AI-generated tags and a natural language search bar.",
     "websiteLink": "https://snip.run/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/snip-run-ai-code-snippet-manager.webp"
   },
   {
     "id": 640,
@@ -2830,7 +3064,8 @@
     "imageIdea": "Desktop application interface showing organized code snippets with language icons and search bar.",
     "websiteLink": "https://codekeep.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/codekeep-cross-platform-snippet-manager.webp"
   },
   {
     "id": 642,
@@ -2842,7 +3077,8 @@
     "imageIdea": "Desktop app interface displaying a list of GitHub Gists on the left, an editor with syntax highlighting on the right, and a search bar.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.gistoapp.com"
+    "websiteLink": "https://www.gistoapp.com",
+    "screenshotUrl": "/screenshots/gisto-github-gist-client-snippets.webp"
   },
   {
     "id": 643,
@@ -2854,7 +3090,8 @@
     "imageIdea": "macOS menu bar icon dropdown revealing a list of developer tools, with \"Code Snippets\" highlighted and a small preview of a snippet.",
     "websiteLink": "https://devutils.app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/devutils-macos-developer-toolbox.webp"
   },
   {
     "id": 645,
@@ -2866,7 +3103,8 @@
     "imageIdea": "Desktop application interface showing markdown note with a highlighted code block, notebooks sidebar, and search bar.",
     "websiteLink": "https://joplinapp.org/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/joplin-open-source-note-taker-code.webp"
   },
   {
     "id": 646,
@@ -2878,7 +3116,8 @@
     "imageIdea": "Desktop screen showing a code editor with a small, semi-transparent pinned image of a code snippet or error message floating above it.",
     "websiteLink": "https://www.snipaste.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/snipaste-screenshot-pin-tool-snippets.webp"
   },
   {
     "id": 647,
@@ -2890,7 +3129,8 @@
     "imageIdea": "Web interface showing three panels (HTML, CSS, JS) and a live preview panel, displaying an interactive UI component.",
     "websiteLink": "https://codepen.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/codepen-online-code-editor-snippets.webp"
   },
   {
     "id": 648,
@@ -2902,7 +3142,8 @@
     "imageIdea": "Terminal window showing `pet search` command, fuzzy search results popping up, and a selected snippet being pasted into the prompt.",
     "websiteLink": "https://github.com/knqyf263/pet",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/pet-cli-snippet-manager.webp"
   },
   {
     "id": 649,
@@ -2914,7 +3155,8 @@
     "imageIdea": "macOS menu bar showing Pastebot icon, a pop-up window displaying a list of clipboard history items (text, image thumbnail), and a search bar.",
     "websiteLink": "https://tapbots.com/pastebot/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/pastebot-advanced-mac-clipboard-manager.webp"
   },
   {
     "id": 650,
@@ -2926,7 +3168,8 @@
     "imageIdea": "Windows desktop with a small, minimalist search bar (Executor's input box) overlayed, displaying auto-completion suggestions for a typed query like \"note\".",
     "websiteLink": "https://executor.dk/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/executor-powerful-windows-application-launcher.webp"
   },
   {
     "id": 651,
@@ -2938,7 +3181,8 @@
     "imageIdea": "macOS desktop screenshot with various UI elements (buttons, links, text fields) overlaid with yellow, short alphanumeric \"hints\" (e.g., \"AS\", \"DF\", \"GH\").",
     "websiteLink": "https://www.homerow.app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/homerow-keyboard-navigation-mac.webp"
   },
   {
     "id": 652,
@@ -2950,7 +3194,8 @@
     "imageIdea": "macOS menu bar with ClipMenu icon, showing a dropdown menu displaying a list of recent clipboard items, possibly with sub-menus for different content types.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://github.com/naotaka/ClipMenu"
+    "websiteLink": "https://github.com/naotaka/ClipMenu",
+    "screenshotUrl": "/screenshots/clipmenu-open-source-mac-clipboard.webp"
   },
   {
     "id": 653,
@@ -2962,7 +3207,8 @@
     "imageIdea": "Windows File Explorer window with a Listary search bar overlaid at the bottom, showing search results for \"project report\" and quick actions.",
     "websiteLink": "https://www.listary.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/listary-search-file-launcher-windows.webp"
   },
   {
     "id": 654,
@@ -2974,7 +3220,8 @@
     "imageIdea": "KDE Plasma desktop panel showing the Klipper system tray icon, with a dropdown menu displaying a list of clipboard history items (text snippets, small image previews).",
     "websiteLink": "https://userbase.kde.org/Klipper",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/klipper-kde-plasma-clipboard-manager.webp"
   },
   {
     "id": 655,
@@ -2986,7 +3233,8 @@
     "imageIdea": "Windows desktop with a clean, dark-themed WoX search bar overlayed in the center, displaying search results for \"calculator\" and plugin suggestions.",
     "websiteLink": "https://github.com/Wox-launcher/Wox",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/wox-open-source-windows-launcher.webp"
   },
   {
     "id": 656,
@@ -2998,7 +3246,8 @@
     "imageIdea": "Windows taskbar icon for Clipboard Master, with a large, multi-panel pop-up window showing clipboard history, snippets, and a search bar.",
     "websiteLink": "https://www.clipboardmaster.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/clipboard-master-ultimate-windows-clipboard.webp"
   },
   {
     "id": 657,
@@ -3010,7 +3259,8 @@
     "imageIdea": "Linux desktop (e.g., GNOME or KDE) with a minimalist, centered search bar (Albert's interface) displaying auto-completed suggestions for \"firefox\" or \"calc\".",
     "websiteLink": "https://albertlauncher.github.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/albert-extensible-linux-launcher.webp"
   },
   {
     "id": 659,
@@ -3022,7 +3272,8 @@
     "imageIdea": "raindrop.io dashboard showing various collections with visual previews of saved links",
     "websiteLink": "https://raindrop.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/raindrop-io-visual-bookmark-manager.webp"
   },
   {
     "id": 660,
@@ -3034,7 +3285,8 @@
     "imageIdea": "omnivore app interface with an article open, showing highlights and a clean reading view",
     "websiteLink": "https://omnivore.app",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/omnivore-open-source-read-later.webp"
   },
   {
     "id": 661,
@@ -3046,7 +3298,8 @@
     "imageIdea": "glasp browser extension sidebar showing highlighted text on a webpage, with user profile and social feed",
     "websiteLink": "https://glasp.co",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/glasp-social-web-highlighter.webp"
   },
   {
     "id": 662,
@@ -3058,7 +3311,8 @@
     "imageIdea": "refind daily email digest preview showing 7 curated article cards",
     "websiteLink": "https://refind.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/refind-curated-link-discovery-bookmarking.webp"
   },
   {
     "id": 663,
@@ -3070,7 +3324,8 @@
     "imageIdea": "shaarli web interface showing a list of tagged bookmarks in a clean, minimalist design",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://github.com/shaarli/Shaarli"
+    "websiteLink": "https://github.com/shaarli/Shaarli",
+    "screenshotUrl": "/screenshots/shaarli-self-hosted-bookmarking.webp"
   },
   {
     "id": 664,
@@ -3082,7 +3337,8 @@
     "imageIdea": "linkace dashboard showing a list of saved links with indicators for archived status and tags",
     "websiteLink": "https://www.linkace.org",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/linkace-modern-self-hosted-bookmark-archiver.webp"
   },
   {
     "id": 665,
@@ -3094,7 +3350,8 @@
     "imageIdea": "trove dashboard showing a shared collection of links with comments and highlights from multiple users",
     "websiteLink": "https://trove.to",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/trove-collaborative-link-management.webp"
   },
   {
     "id": 666,
@@ -3106,7 +3363,8 @@
     "imageIdea": "dropmark collection interface showing a grid of images, videos, and link previews arranged artfully",
     "websiteLink": "https://www.dropmark.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/dropmark-visual-collection-manager.webp"
   },
   {
     "id": 667,
@@ -3118,7 +3376,8 @@
     "imageIdea": "start.me dashboard showing multiple widgets: bookmarks, an RSS feed, weather, and a to-do list",
     "websiteLink": "https://start.me",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/start-me-custom-start-page-dashboard.webp"
   },
   {
     "id": 668,
@@ -3130,7 +3389,8 @@
     "imageIdea": "liner browser extension interface showing highlighted text on a webpage with an AI summary popup",
     "websiteLink": "https://liner.ai",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/liner-ai-highlighter-summarizer.webp"
   },
   {
     "id": 669,
@@ -3142,7 +3402,8 @@
     "imageIdea": "Apple Freeform board filled with sticky notes, images, text, and sketches, showing multiple cursors collaborating.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://apps.apple.com/app/freeform/id6443742539"
+    "websiteLink": "https://apps.apple.com/app/freeform/id6443742539",
+    "screenshotUrl": "/screenshots/apple-freeform-collaborative-canvas.webp"
   },
   {
     "id": 670,
@@ -3154,7 +3415,8 @@
     "imageIdea": "Logseq interface showing a daily journal page with linked blocks and a graph view visualizing interconnected notes.",
     "websiteLink": "https://logseq.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/logseq-local-first-knowledge-base.webp"
   },
   {
     "id": 671,
@@ -3166,7 +3428,8 @@
     "imageIdea": "Ayoa interface showing a vibrant organic mind map with tasks assigned to branches, alongside a Kanban board view.",
     "websiteLink": "https://www.ayoa.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/ayoa-visual-mind-mapping-tasks.webp"
   },
   {
     "id": 672,
@@ -3178,7 +3441,8 @@
     "imageIdea": "diagrams.net interface showing a complex flowchart or network diagram being built, with the shape library visible on the side.",
     "websiteLink": "https://www.diagrams.net",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/diagrams-net-versatile-diagramming-mind-maps.webp"
   },
   {
     "id": 673,
@@ -3190,7 +3454,8 @@
     "imageIdea": "Mural interface showing a collaborative brainstorming session with many colorful sticky notes, images, and diagrams, with multiple cursors active.",
     "websiteLink": "https://www.mural.co",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mural-collaborative-online-whiteboard.webp"
   },
   {
     "id": 674,
@@ -3202,7 +3467,8 @@
     "imageIdea": "Taskade interface showing an outline transforming into a mind map, with the AI assistant chat window visible, and a team member collaborating.",
     "websiteLink": "https://www.taskade.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/taskade-ai-outlines-mind-maps.webp"
   },
   {
     "id": 675,
@@ -3214,7 +3480,8 @@
     "imageIdea": "SimpleMind interface showing a clean, well-organized mind map with colorful branches and icons, focused on a central idea.",
     "websiteLink": "https://simplemind.eu",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/simplemind-dedicated-offline-mind-mapping.webp"
   },
   {
     "id": 676,
@@ -3226,7 +3493,8 @@
     "imageIdea": "Stormboard interface showing a collaborative board filled with digital sticky notes in various colors, organized into columns for a brainstorming session, with a timer visible.",
     "websiteLink": "https://stormboard.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/stormboard-virtual-sticky-notes-brainstorming.webp"
   },
   {
     "id": 677,
@@ -3238,7 +3506,8 @@
     "imageIdea": "Mindomo interface showing a colorful mind map with embedded images, videos, and links, potentially in presentation mode.",
     "websiteLink": "https://www.mindomo.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mindomo-online-mind-map-concept.webp"
   },
   {
     "id": 678,
@@ -3250,7 +3519,8 @@
     "imageIdea": "Ideaboardz interface showing a simple board with three columns (e.g., 'Good', 'Bad', 'Ideas') filled with various colored anonymous sticky notes.",
     "websiteLink": "https://ideaboardz.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/ideaboardz-simple-anonymous-brainstorming.webp"
   },
   {
     "id": 679,
@@ -3262,7 +3532,8 @@
     "imageIdea": "Minimalist browser tab showing 'Record Screen' and 'Record Camera' buttons, with a recording timer.",
     "websiteLink": "https://recordscreen.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/recordscreen-io-web-screen-recorder.webp"
   },
   {
     "id": 681,
@@ -3274,7 +3545,8 @@
     "imageIdea": "Screenpresso interface showing an annotated screenshot with arrows, text boxes, and blur effects, alongside a small video recording control panel.",
     "websiteLink": "https://www.screenpresso.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/screenpresso-windows-screen-capture-editor.webp"
   },
   {
     "id": 682,
@@ -3286,7 +3558,8 @@
     "imageIdea": "A split screen showing a phone connected to a laptop, with the phone's camera view displayed in Camo Studio software on the laptop screen, showcasing advanced controls.",
     "websiteLink": "https://reincubate.com/camo/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/reincubate-camo-phone-as-webcam.webp"
   },
   {
     "id": 683,
@@ -3298,7 +3571,8 @@
     "imageIdea": "A Mac desktop with a dashed selection box over a browser window, and a small Gifox icon in the menu bar indicating recording.",
     "websiteLink": "https://gifox.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/gifox-record-screen-to-gif-mac.webp"
   },
   {
     "id": 684,
@@ -3310,7 +3584,8 @@
     "imageIdea": "Gyazo icon in a system tray, with a notification bubble showing a freshly generated shareable link for a screenshot.",
     "websiteLink": "https://gyazo.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/gyazo-instant-screen-capture-gif-video.webp"
   },
   {
     "id": 685,
@@ -3322,7 +3597,8 @@
     "imageIdea": "Vmaker dashboard interface showing a list of recorded videos, with options to edit, share, and manage privacy settings.",
     "websiteLink": "https://www.vmaker.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/vmaker-screen-webcam-recorder-editor.webp"
   },
   {
     "id": 686,
@@ -3334,7 +3610,8 @@
     "imageIdea": "Browser toolbar with Nimbus icon highlighted, showing a dropdown menu of capture options, overlaid on a web page with annotation tools active.",
     "websiteLink": "https://nimbusweb.me/screenshot/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/nimbus-screenshot-screen-recorder-extension.webp"
   },
   {
     "id": 687,
@@ -3346,7 +3623,8 @@
     "imageIdea": "QuickTime Player menu bar item highlighted, showing 'New Screen Recording' selected, with a dashed selection box appearing on a Mac desktop.",
     "websiteLink": "https://www.apple.com/quicktime/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/quicktime-player-mac-screen-recorder.webp"
   },
   {
     "id": 688,
@@ -3358,7 +3636,8 @@
     "imageIdea": "Bandicam interface showing various recording modes (Game, Screen, Device), with settings for FPS, resolution, and audio inputs, against a blurred background of a game screen.",
     "websiteLink": "https://www.bandicam.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/bandicam-high-performance-windows-screen-recorder.webp"
   },
   {
     "id": 689,
@@ -3370,7 +3649,8 @@
     "imageIdea": "FontBase interface showing a grid of different fonts with custom text preview.",
     "websiteLink": "https://fontba.se/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/fontbase-free-font-manager.webp"
   },
   {
     "id": 690,
@@ -3382,7 +3662,8 @@
     "imageIdea": "Flaticon website interface showing search bar and a grid of diverse icons.",
     "websiteLink": "https://www.flaticon.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/flaticon-free-icons-vector-packs.webp"
   },
   {
     "id": 691,
@@ -3394,7 +3675,8 @@
     "imageIdea": "iPad screen showing Linearity Curve interface with a complex vector illustration being edited with Apple Pencil.",
     "websiteLink": "https://www.linearity.io/curve/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/linearity-curve-vector-graphic-design-2.webp"
   },
   {
     "id": 692,
@@ -3406,7 +3688,8 @@
     "imageIdea": "Khroma website interface showing a grid of diverse color palettes, gradients, and typography pairings.",
     "websiteLink": "https://www.khroma.co/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/khroma-ai-color-palette-generator.webp"
   },
   {
     "id": 693,
@@ -3418,7 +3701,8 @@
     "imageIdea": "Font Squirrel website showing a list of different fonts, each with a \"Download\" button and license information.",
     "websiteLink": "https://www.fontsquirrel.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/font-squirrel-free-commercial-webfonts.webp"
   },
   {
     "id": 694,
@@ -3430,7 +3714,8 @@
     "imageIdea": "ImageOptim app interface on a Mac, showing a list of images being processed with file size reductions.",
     "websiteLink": "https://imageoptim.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/imageoptim-lossless-image-compression-mac.webp"
   },
   {
     "id": 695,
@@ -3442,7 +3727,8 @@
     "imageIdea": "Vectary web interface showing a 3D product mockup being rendered with various textures and lighting.",
     "websiteLink": "https://www.vectary.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/vectary-online-3d-design-mockup.webp"
   },
   {
     "id": 696,
@@ -3454,7 +3740,8 @@
     "imageIdea": "CSS Gradient website interface showing a large gradient preview area with color stops, angle controls, and generated CSS code below.",
     "websiteLink": "https://cssgradient.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/css-gradient-generator-online-tool.webp"
   },
   {
     "id": 697,
@@ -3466,7 +3753,8 @@
     "imageIdea": "Patternico website interface showing a large preview of a seamless pattern with controls for icon, color, and spacing on the side.",
     "websiteLink": "https://patternico.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/patternico-seamless-pattern-generator.webp"
   },
   {
     "id": 698,
@@ -3478,7 +3766,8 @@
     "imageIdea": "Fontjoy website interface showing three text boxes with different fonts (headline, subheading, body) and a \"Generate\" button, along with \"lock\" icons.",
     "websiteLink": "https://fontjoy.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/fontjoy-ai-font-pairing-generator.webp"
   },
   {
     "id": 699,
@@ -3490,7 +3779,8 @@
     "imageIdea": "Email signature design interface with fields for name, title, company, and social links, showing a live preview.",
     "websiteLink": "https://signature.email/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/signature-email-generator-mailmeteor.webp"
   },
   {
     "id": 700,
@@ -3502,7 +3792,8 @@
     "imageIdea": "HubSpot's signature generator interface with form fields on the left and a real-time preview of a professional email signature on the right.",
     "websiteLink": "https://www.hubspot.com/email-signature-generator",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/hubspot-email-signature-generator.webp"
   },
   {
     "id": 701,
@@ -3514,7 +3805,8 @@
     "imageIdea": "Gmail inbox screenshot with Streak CRM pipelines visible on the left sidebar, showing different stages like 'Lead', 'Contacted', 'Qualified'.",
     "websiteLink": "https://www.streak.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/streak-crm-for-gmail.webp"
   },
   {
     "id": 702,
@@ -3526,7 +3818,8 @@
     "imageIdea": "Dashboard view of Saleshandy showing email campaign analytics, open rates, and a list of automated email sequences.",
     "websiteLink": "https://www.saleshandy.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/saleshandy-email-outreach-automation.webp"
   },
   {
     "id": 703,
@@ -3538,7 +3831,8 @@
     "imageIdea": "Screenshot of aText's interface showing a list of abbreviations and their corresponding expanded text snippets, with an example of an email template.",
     "websiteLink": "https://www.trankynam.com/atext/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/atext-mac-text-expander.webp"
   },
   {
     "id": 704,
@@ -3550,7 +3844,8 @@
     "imageIdea": "Screenshot of a Gmail compose window with Lavender AI's sidebar showing real-time email analysis, suggestions, and a 'Make it better' button.",
     "websiteLink": "https://www.lavender.ai/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/lavender-ai-email-assistant.webp"
   },
   {
     "id": 705,
@@ -3562,7 +3857,8 @@
     "imageIdea": "Gmail compose window with the Boomerang 'Send Later' button and options for scheduling delivery or setting a reminder.",
     "websiteLink": "https://www.boomeranggmail.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/boomerang-for-gmail.webp"
   },
   {
     "id": 706,
@@ -3574,7 +3870,8 @@
     "imageIdea": "Front's shared inbox interface showing multiple email conversations, internal comments, and assigned team members for each thread.",
     "websiteLink": "https://front.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/front-collaborative-communication-platform.webp"
   },
   {
     "id": 707,
@@ -3586,7 +3883,8 @@
     "imageIdea": "PhraseExpress application interface showing a tree view of organized phrases and a preview of a complex macro snippet.",
     "websiteLink": "https://www.phraseexpress.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/phraseexpress-text-expander-automation.webp"
   },
   {
     "id": 708,
@@ -3598,7 +3896,8 @@
     "imageIdea": "Mailtrap's virtual inbox interface showing a list of captured emails, with one email open showing its HTML content, spam score, and client preview tabs.",
     "websiteLink": "https://mailtrap.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mailtrap-email-testing-platform.webp"
   },
   {
     "id": 709,
@@ -3610,7 +3909,8 @@
     "imageIdea": "LanguageTool interface showing text with highlighted grammar errors and correction suggestions in multiple languages",
     "websiteLink": "https://languagetool.org/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/languagetool-grammar-style-checker.webp"
   },
   {
     "id": 710,
@@ -3622,7 +3922,8 @@
     "imageIdea": "Anyword dashboard showing multiple ad copy variations with numerical 'Predictive Performance Scores' next to each",
     "websiteLink": "https://anyword.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/anyword-ai-marketing-copywriter.webp"
   },
   {
     "id": 711,
@@ -3634,7 +3935,8 @@
     "imageIdea": "Otter.ai interface showing a meeting transcript with speaker labels and a generated summary on the side",
     "websiteLink": "https://otter.ai/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/otter-ai-meeting-assistant.webp"
   },
   {
     "id": 712,
@@ -3646,7 +3948,8 @@
     "imageIdea": "Trinka AI editor showing a scientific paper with highlighted corrections and style suggestions",
     "websiteLink": "https://www.trinka.ai/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/trinka-ai-academic-technical-writing.webp"
   },
   {
     "id": 713,
@@ -3658,7 +3961,8 @@
     "imageIdea": "Frase.io dashboard showing a content brief with competitor analysis, suggested topics, and an AI-generated outline",
     "websiteLink": "https://www.frase.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/frase-io-seo-content-optimization.webp"
   },
   {
     "id": 714,
@@ -3670,7 +3974,8 @@
     "imageIdea": "NovelAI interface showing a story being written with AI-generated text suggestions appearing below the cursor, alongside a 'Lorebook' panel",
     "websiteLink": "https://novelai.net/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/novelai-ai-story-generation.webp"
   },
   {
     "id": 715,
@@ -3682,7 +3987,8 @@
     "imageIdea": "DeepL Translator interface showing source text on the left and translated text on the right, with document upload option",
     "websiteLink": "https://www.deepl.com/translator",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/deepl-translator-ai-translation.webp"
   },
   {
     "id": 716,
@@ -3694,7 +4000,8 @@
     "imageIdea": "HyperWrite browser extension popup showing AI-generated text suggestions for an email draft",
     "websiteLink": "https://hyperwriteai.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/hyperwrite-ai-personal-writing-assistant.webp"
   },
   {
     "id": 717,
@@ -3706,7 +4013,8 @@
     "imageIdea": "Perplexity AI interface showing a question, a generated answer, and a list of numbered source links below",
     "websiteLink": "https://www.perplexity.ai/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/perplexity-ai-conversational-answer-engine.webp"
   },
   {
     "id": 718,
@@ -3730,7 +4038,8 @@
     "imageIdea": "Obsidian's interactive graph view showing many interconnected notes.",
     "websiteLink": "https://obsidian.md/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/obsidian-local-first-knowledge-base.webp"
   },
   {
     "id": 720,
@@ -3742,7 +4051,8 @@
     "imageIdea": "A clean flashcard interface with a question on one side and an answer revealing on the other, showing a \"good/again\" rating.",
     "websiteLink": "https://mochi.cards/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mochi-spaced-repetition-flashcards-markdown.webp"
   },
   {
     "id": 721,
@@ -3754,7 +4064,8 @@
     "imageIdea": "A journal entry showing text, a photo, and location/weather metadata.",
     "websiteLink": "https://journey.cloud/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/journey-journal-daily-reflection-app.webp"
   },
   {
     "id": 722,
@@ -3766,7 +4077,8 @@
     "imageIdea": "A grid of visually diverse \"blocks\" within an Are.na channel, showing images, text, and links.",
     "websiteLink": "https://www.are.na/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/arena-creative-research-inspiration-curation.webp"
   },
   {
     "id": 723,
@@ -3778,7 +4090,8 @@
     "imageIdea": "A split screen showing hierarchical notes on one side and automatically generated flashcards based on those notes on the other.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.remnote.com"
+    "websiteLink": "https://www.remnote.com",
+    "screenshotUrl": "/screenshots/remnote-all-in-one-notes-flashcards-pdf.webp"
   },
   {
     "id": 724,
@@ -3790,7 +4103,8 @@
     "imageIdea": "A web page with multiple highlighted sections in different colors, and a sidebar showing the organized highlights.",
     "websiteLink": "https://web-highlights.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/web-highlights-browser-extension-organize.webp"
   },
   {
     "id": 725,
@@ -3802,7 +4116,8 @@
     "imageIdea": "A note-taking interface with a calendar sidebar, showing notes linked to specific dates or events.",
     "websiteLink": "https://agenda.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/agenda-date-focused-note-taking-app.webp"
   },
   {
     "id": 726,
@@ -3814,7 +4129,8 @@
     "imageIdea": "A clean, single-pane text editor interface showing formatted Markdown (headers, bold text, lists) without any visible syntax.",
     "websiteLink": "https://typora.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/typora-markdown-editor-seamless-live-preview.webp"
   },
   {
     "id": 727,
@@ -3826,7 +4142,8 @@
     "imageIdea": "A dashboard showing various \"objects\" (e.g., a person card, a project card, a book card) linked together within Capacities.",
     "websiteLink": "https://capacities.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/capacities-object-oriented-knowledge-management.webp"
   },
   {
     "id": 728,
@@ -3838,7 +4155,8 @@
     "imageIdea": "A clean interface showing interconnected \"pages\" or \"objects\" within Anytype, possibly with a subtle graph view in the background.",
     "websiteLink": "https://anytype.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/anytype-local-first-open-source-notion-alternative.webp"
   },
   {
     "id": 729,
@@ -3850,7 +4168,8 @@
     "imageIdea": "Paymo dashboard showing project timelines, task lists, and a time tracking widget",
     "websiteLink": "https://www.paymoapp.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/paymo-project-management-time-tracking.webp"
   },
   {
     "id": 730,
@@ -3862,7 +4181,8 @@
     "imageIdea": "Clean, modern invoice template being customized on a tablet interface",
     "websiteLink": "https://www.billdu.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/billdu-invoice-maker-estimates.webp"
   },
   {
     "id": 731,
@@ -3874,7 +4194,8 @@
     "imageIdea": "Hours app interface on an iPhone, showing a list of active and paused timers with a clean timeline view",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.hourstimetracking.com"
+    "websiteLink": "https://www.hourstimetracking.com",
+    "screenshotUrl": "/screenshots/hours-app-simple-time-tracker.webp"
   },
   {
     "id": 732,
@@ -3886,7 +4207,8 @@
     "imageIdea": "Dubsado dashboard showing a client's project status, upcoming tasks, and recent invoices",
     "websiteLink": "https://www.dubsado.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/dubsado-business-management-invoicing.webp"
   },
   {
     "id": 733,
@@ -3898,7 +4220,8 @@
     "imageIdea": "Pleo mobile app showing a transaction with a photo of a receipt, overlaid on a Pleo physical card",
     "websiteLink": "https://www.pleo.io",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/pleo-spend-management-expense-cards.webp"
   },
   {
     "id": 734,
@@ -3910,7 +4233,8 @@
     "imageIdea": "ManyRequests client portal dashboard showing active requests, client communication, and file uploads",
     "websiteLink": "https://manyrequests.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/manyrequests-client-portal-for-agencies.webp"
   },
   {
     "id": 735,
@@ -3922,7 +4246,8 @@
     "imageIdea": "Timing app interface on macOS, showing a colorful pie chart of categorized activities and a timeline view",
     "websiteLink": "https://timingapp.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/timing-automatic-time-tracking-mac.webp"
   },
   {
     "id": 736,
@@ -3934,7 +4259,8 @@
     "imageIdea": "Reclaim.ai interface showing a color-coded Google Calendar with automatically scheduled 'Smart Habits' and 'Tasks'",
     "websiteLink": "https://reclaim.ai",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/reclaim-ai-intelligent-calendar-scheduling.webp"
   },
   {
     "id": 737,
@@ -3946,7 +4272,8 @@
     "imageIdea": "Simplero dashboard showing analytics for course sales, email campaign performance, and customer management",
     "websiteLink": "https://simplero.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/simplero-all-in-one-for-creators.webp"
   },
   {
     "id": 738,
@@ -3958,7 +4285,8 @@
     "imageIdea": "PandaDoc interface showing a professional sales proposal with an embedded e-signature field and a pricing table",
     "websiteLink": "https://www.pandadoc.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/pandadoc-proposals-e-signatures-payments.webp"
   },
   {
     "id": 739,
@@ -3970,7 +4298,8 @@
     "imageIdea": "Green KeePass logo shield over a lock, showing a database file icon.",
     "websiteLink": "https://keepass.info/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/keepass-password-manager-offline-security.webp"
   },
   {
     "id": 740,
@@ -3982,7 +4311,8 @@
     "imageIdea": "Firefox Relay logo (fox head with an arrow/envelope), showing an email alias being generated in a browser pop-up.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://relay.firefox.com/"
+    "websiteLink": "https://relay.firefox.com/",
+    "screenshotUrl": "/screenshots/firefox-relay-email-alias-privacy.webp"
   },
   {
     "id": 741,
@@ -3994,7 +4324,8 @@
     "imageIdea": "Aegis Authenticator logo (a shield with a lock/keyhole) on an Android phone screen, showing a list of OTP codes.",
     "websiteLink": "https://getaegis.app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/aegis-authenticator-2fa-open-source.webp"
   },
   {
     "id": 742,
@@ -4006,7 +4337,8 @@
     "imageIdea": "Signal app interface on a smartphone, showing a chat bubble with a padlock icon.",
     "websiteLink": "https://signal.org/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/signal-private-messenger-encrypted-communication.webp"
   },
   {
     "id": 743,
@@ -4018,7 +4350,8 @@
     "imageIdea": "Standard Notes app interface, showing a simple text note with a lock icon, across multiple device mockups (phone, laptop).",
     "websiteLink": "https://standardnotes.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/standard-notes-encrypted-secure-note-taking.webp"
   },
   {
     "id": 744,
@@ -4030,7 +4363,8 @@
     "imageIdea": "Sync.com logo, showing a cloud icon with a padlock, files being dragged into a folder on a desktop.",
     "websiteLink": "https://www.sync.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/sync-cloud-storage-zero-knowledge-encryption.webp"
   },
   {
     "id": 745,
@@ -4042,7 +4376,8 @@
     "imageIdea": "uBlock Origin logo (shield icon with a red circle/slash) in a browser toolbar, showing a webpage with ads removed.",
     "websiteLink": "https://ublockorigin.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/ublock-origin-ad-blocker-privacy-extension.webp"
   },
   {
     "id": 746,
@@ -4054,7 +4389,8 @@
     "imageIdea": "Mullvad VPN logo (a badger with a shield), showing a world map with encrypted tunnels originating from a device.",
     "websiteLink": "https://mullvad.net/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mullvad-vpn-private-secure-internet.webp"
   },
   {
     "id": 747,
@@ -4066,7 +4402,8 @@
     "imageIdea": "SoloKeys Solo 2 (USB-C or USB-A physical key) being plugged into a laptop, with a prompt for touch verification on the screen.",
     "websiteLink": "https://solokeys.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/solokeys-solo-2-hardware-security-key.webp"
   },
   {
     "id": 748,
@@ -4078,7 +4415,8 @@
     "imageIdea": "Quad9 logo (a stylized '9' in a shield), showing internet traffic flowing through a secure DNS server, with blocked malicious websites represented by red 'X's.",
     "websiteLink": "https://www.quad9.net/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/quad9-secure-dns-privacy-malware.webp"
   },
   {
     "id": 749,
@@ -4090,7 +4428,8 @@
     "imageIdea": "TickTick app dashboard showing a to-do list, a calendar view with time blocks, and a small Pomodoro timer widget.",
     "websiteLink": "https://ticktick.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/ticktick-todo-pomodoro-habits.webp"
   },
   {
     "id": 750,
@@ -4102,7 +4441,8 @@
     "imageIdea": "Chrome browser window with a blocked website screen showing a a 'StayFocusd' message, overlaid with a small timer icon.",
     "websiteLink": "https://www.stayfocusd.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/stayfocusd-website-blocker-chrome.webp"
   },
   {
     "id": 751,
@@ -4114,7 +4454,8 @@
     "imageIdea": "A macOS desktop with a minimal app window showing a countdown timer, with a 'Blocked' icon over a Safari browser icon.",
     "websiteLink": "https://selfcontrolapp.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/selfcontrol-mac-website-mail-blocker.webp"
   },
   {
     "id": 752,
@@ -4126,7 +4467,8 @@
     "imageIdea": "A minimalist web interface showing a play button and volume slider, with a subtle background image of rain on a window.",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.rainymood.com"
+    "websiteLink": "https://www.rainymood.com",
+    "screenshotUrl": "/screenshots/rainy-mood-relaxing-rain-sound.webp"
   },
   {
     "id": 753,
@@ -4138,7 +4480,8 @@
     "imageIdea": "Mobile app interface showing a clean to-do list on one side and an active Pomodoro timer countdown on the other.",
     "websiteLink": "https://www.focustodo.cn",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/focus-to-do-pomodoro-timer-tasklist.webp"
   },
   {
     "id": 754,
@@ -4150,7 +4493,8 @@
     "imageIdea": "macOS app interface showing the 'Today' view with a clean list of tasks and upcoming events, minimalist design.",
     "websiteLink": "https://culturedcode.com/things/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/things-3-todo-list-manager-mac-ios.webp"
   },
   {
     "id": 755,
@@ -4162,7 +4506,8 @@
     "imageIdea": "Desktop app interface showing a large, minimalist Pomodoro timer, with a small panel for selecting clients/projects.",
     "websiteLink": "https://www.focusboosterapp.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/focus-booster-pomodoro-time-tracker.webp"
   },
   {
     "id": 756,
@@ -4174,7 +4519,8 @@
     "imageIdea": "Full-screen, minimalist writing interface with plain text, a word count display, and a timer in the corner, blocking out the rest of the desktop.",
     "websiteLink": "https://getcoldturkey.com/writer/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/cold-turkey-writer-distraction-free-writing.webp"
   },
   {
     "id": 757,
@@ -4186,7 +4532,8 @@
     "imageIdea": "Firefox browser window with a 'LeechBlock NG' message on a blocked website, showing the extension icon in the toolbar.",
     "websiteLink": "https://www.proginosko.com/leechblock/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/leechblock-ng-firefox-site-blocker.webp"
   },
   {
     "id": 758,
@@ -4198,7 +4545,8 @@
     "imageIdea": "Web interface showing multiple sound sliders with icons (rain, forest, coffee, etc.), and a main play/pause button, with a serene background.",
     "websiteLink": "https://defonic.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/defonic-custom-ambient-sound-mixer.webp"
   },
   {
     "id": 759,
@@ -4210,7 +4558,8 @@
     "imageIdea": "tasty app interface showing a cooking video in progress with ingredients",
     "websiteLink": "https://tasty.co",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/tasty-recipes-video-ideas.webp"
   },
   {
     "id": 761,
@@ -4222,7 +4571,8 @@
     "imageIdea": "carbon diet coach app showing a dashboard with macro targets and progress graphs",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.carbondietcoach.com"
+    "websiteLink": "https://www.carbondietcoach.com",
+    "screenshotUrl": "/screenshots/carbon-diet-coach-macro-tracking.webp"
   },
   {
     "id": 762,
@@ -4234,7 +4584,8 @@
     "imageIdea": "happycow app map interface showing pins for vegan restaurants in a city",
     "websiteLink": "https://www.happycow.net",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/happycow-vegan-vegetarian-restaurant-finder.webp"
   },
   {
     "id": 763,
@@ -4246,7 +4597,8 @@
     "imageIdea": "kitchen stories app showing a recipe with a step-by-step video playing",
     "websiteLink": "https://www.kitchenstories.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/kitchen-stories-video-recipes-cooking.webp"
   },
   {
     "id": 765,
@@ -4258,7 +4610,8 @@
     "imageIdea": "mealpreppro app showing a weekly meal plan schedule with recipe thumbnails",
     "websiteLink": "https://mealpreppro.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/mealpreppro-healthy-fitness-meal-plans.webp"
   },
   {
     "id": 766,
@@ -4270,7 +4623,8 @@
     "imageIdea": "foodhero app showing a list of discounted grocery items from a local store",
     "websiteLink": "https://foodhero.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/foodhero-reduce-food-waste-discounts.webp"
   },
   {
     "id": 767,
@@ -4282,7 +4636,8 @@
     "imageIdea": "cooklist app showing a pantry inventory list with associated recipe suggestions",
     "websiteLink": "https://www.cooklist.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/cooklist-recipes-pantry-grocery-list.webp"
   },
   {
     "id": 768,
@@ -4294,7 +4649,8 @@
     "imageIdea": "meallogger app showing a photo of a meal with a comment from a coach",
     "websiteLink": "https://www.meallogger.com",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/meallogger-photo-food-journal-coach.webp"
   },
   {
     "id": 769,
@@ -4306,7 +4662,8 @@
     "imageIdea": "Streaks app interface showing circles for habits on an iPhone screen",
     "websiteLink": "https://streaks.app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/streaks-habit-tracker.webp"
   },
   {
     "id": 770,
@@ -4318,7 +4675,8 @@
     "imageIdea": "Habitica avatar with stats and a list of gamified daily tasks and habits",
     "websiteLink": "https://habitica.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/habitica-gamify-your-life.webp"
   },
   {
     "id": 771,
@@ -4330,7 +4688,8 @@
     "imageIdea": "Loop Habit Tracker Android app interface showing a habit strength graph",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://github.com/iSoron/uhabits"
+    "websiteLink": "https://github.com/iSoron/uhabits",
+    "screenshotUrl": "/screenshots/loop-habit-tracker-android.webp"
   },
   {
     "id": 772,
@@ -4342,7 +4701,8 @@
     "imageIdea": "Everyday.app calendar grid with colorful squares representing completed habits",
     "websiteLink": "https://everyday.app/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/everyday-app-streak-calendar.webp"
   },
   {
     "id": 773,
@@ -4354,7 +4714,8 @@
     "imageIdea": "Coach.me app showing a habit list with community comments and a coaching option",
     "websiteLink": "https://www.coach.me/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/coach-me-habit-coaching.webp"
   },
   {
     "id": 775,
@@ -4366,7 +4727,8 @@
     "imageIdea": "Streaky app interface on an iPhone showing a list of habits with streak counters",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://streaky.app"
+    "websiteLink": "https://streaky.app",
+    "screenshotUrl": "/screenshots/streaky-simple-habit-tracker-ios.webp"
   },
   {
     "id": 776,
@@ -4378,7 +4740,8 @@
     "imageIdea": "Smarter Time app showing a colorful pie chart of time spent across different activities",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.smartertime.com"
+    "websiteLink": "https://www.smartertime.com",
+    "screenshotUrl": "/screenshots/smarter-time-automatic-tracker.webp"
   },
   {
     "id": 777,
@@ -4390,7 +4753,8 @@
     "imageIdea": "Finch app showing a cute cartoon pet character evolving on a phone screen",
     "websiteLink": "https://finchcare.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/finch-self-care-pet.webp"
   },
   {
     "id": 778,
@@ -4402,7 +4766,8 @@
     "imageIdea": "Insight Timer app showing a guided meditation session with a serene background image",
     "websiteLink": "https://insighttimer.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/insight-timer-meditation-app.webp"
   },
   {
     "id": 779,
@@ -4414,7 +4779,8 @@
     "imageIdea": "Snappify interface showing a styled code snippet with a gradient background and a browser mockup",
     "websiteLink": "https://snappify.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/snappify-beautiful-code-images.webp"
   },
   {
     "id": 781,
@@ -4426,7 +4792,8 @@
     "imageIdea": "Snippyly interface showing a screenshot with annotations and a code snippet sidebar, shared with another user",
     "websiteLink": "https://www.snippyly.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/snippyly-collaborative-screenshot-code-sharing.webp"
   },
   {
     "id": 782,
@@ -4438,7 +4805,8 @@
     "imageIdea": "Snipper App menubar icon dropdown showing a list of code snippets",
     "type": "tool",
     "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.snipper.app"
+    "websiteLink": "https://www.snipper.app",
+    "screenshotUrl": "/screenshots/snipper-app-native-macos-snippet-manager.webp"
   },
   {
     "id": 783,
@@ -4450,7 +4818,8 @@
     "imageIdea": "QuickCode.io web interface showing a simple list of code snippets with tags",
     "websiteLink": "https://quickcode.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/quickcode-io-simple-web-snippet-manager.webp"
   },
   {
     "id": 784,
@@ -4462,7 +4831,8 @@
     "imageIdea": "CodeRunner 4 interface showing a code editor pane and a console output pane with syntax highlighting",
     "websiteLink": "https://coderunnerapp.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/coderunner-4-multi-language-code-runner.webp"
   },
   {
     "id": 785,
@@ -4474,7 +4844,8 @@
     "imageIdea": "Hoppscotch web interface showing an API request builder with saved snippets in a sidebar",
     "websiteLink": "https://hoppscotch.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/hoppscotch-open-source-api-development-ecosystem.webp"
   },
   {
     "id": 786,
@@ -4486,7 +4857,8 @@
     "imageIdea": "Carbon web interface showing a code snippet with a minimalist window frame and a colorful background",
     "websiteLink": "https://carbon.now.sh/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/carbon-beautiful-code-images-generator.webp"
   },
   {
     "id": 787,
@@ -4498,7 +4870,8 @@
     "imageIdea": "Snipit.io dashboard showing a search bar and a list of categorized code snippets",
     "websiteLink": "https://snipit.io/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/snipit-io-cloud-based-snippet-manager.webp"
   },
   {
     "id": 789,
@@ -4511,7 +4884,8 @@
     "imageIdea": "meeting room digital notes",
     "websiteLink": "https://www.producthunt.com/r/CS4BN7LVLISWRQ",
     "type": "tool",
-    "dateAdded": "2026-04-29"
+    "dateAdded": "2026-04-29",
+    "screenshotUrl": "/screenshots/fathom-ai-meeting-notes.webp"
   },
   {
     "id": 791,
@@ -4525,7 +4899,8 @@
     "websiteLink": "https://github.com/op7418/guizang-ppt-skill",
     "type": "tool",
     "dateAdded": "2026-04-29",
-    "badge": "editors-pick"
+    "badge": "editors-pick",
+    "screenshotUrl": "/screenshots/guizang-ppt-skill.webp"
   },
   {
     "id": 792,
@@ -4538,7 +4913,8 @@
     "imageIdea": "notebook paper and pen illustration",
     "websiteLink": "https://github.com/tw93/Kami",
     "type": "tool",
-    "dateAdded": "2026-04-29"
+    "dateAdded": "2026-04-29",
+    "screenshotUrl": "/screenshots/kami-content-for-paper.webp"
   },
   {
     "id": 793,
@@ -4551,7 +4927,8 @@
     "imageIdea": "AI generating design system UI elements on a laptop screen",
     "websiteLink": "https://github.com/nexu-io/open-design",
     "type": "tool",
-    "dateAdded": "2026-04-30"
+    "dateAdded": "2026-04-30",
+    "screenshotUrl": "/screenshots/open-design.webp"
   },
   {
     "id": 794,
@@ -4564,7 +4941,8 @@
     "imageIdea": "modern terminal interface with AI suggestions highlighted",
     "websiteLink": "https://www.warp.dev/",
     "type": "tool",
-    "dateAdded": "2026-04-30"
+    "dateAdded": "2026-04-30",
+    "screenshotUrl": "/screenshots/warp.webp"
   },
   {
     "id": 795,
@@ -4577,7 +4955,8 @@
     "imageIdea": "abstract ai art prompt",
     "websiteLink": "https://github.com/freestylefly/awesome-gpt-image-2",
     "type": "tool",
-    "dateAdded": "2026-05-02"
+    "dateAdded": "2026-05-02",
+    "screenshotUrl": "/screenshots/awesome-gpt-image-2.webp"
   },
   {
     "id": 796,
@@ -4590,7 +4969,8 @@
     "imageIdea": "open book skills knowledge",
     "websiteLink": "https://github.com/ConardLi/garden-skills",
     "type": "tool",
-    "dateAdded": "2026-05-02"
+    "dateAdded": "2026-05-02",
+    "screenshotUrl": "/screenshots/garden-skills.webp"
   },
   {
     "id": 797,
@@ -4603,7 +4983,8 @@
     "imageIdea": "digital to-do list organized",
     "websiteLink": "https://todoist.com/",
     "type": "tool",
-    "dateAdded": "2026-05-02"
+    "dateAdded": "2026-05-02",
+    "screenshotUrl": "/screenshots/todoist.webp"
   },
   {
     "id": 798,
@@ -4616,7 +4997,8 @@
     "imageIdea": "digital notebook computer workspace",
     "websiteLink": "https://www.notion.so/",
     "type": "tool",
-    "dateAdded": "2026-05-02"
+    "dateAdded": "2026-05-02",
+    "screenshotUrl": "/screenshots/notion.webp"
   },
   {
     "id": 799,
@@ -4629,7 +5011,8 @@
     "imageIdea": "network tunnel server room",
     "websiteLink": "https://github.com/masterking32/MasterHttpRelayVPN",
     "type": "tool",
-    "dateAdded": "2026-05-03"
+    "dateAdded": "2026-05-03",
+    "screenshotUrl": "/screenshots/masterhttprelayvpn.webp"
   },
   {
     "id": 800,
@@ -4642,7 +5025,8 @@
     "imageIdea": "developer laptop showing multi-agent workflow dashboard and terminal",
     "websiteLink": "https://github.com/ruvnet/ruflo",
     "type": "tool",
-    "dateAdded": "2026-05-04"
+    "dateAdded": "2026-05-04",
+    "screenshotUrl": "/screenshots/ruflo.webp"
   },
   {
     "id": 801,
@@ -4655,7 +5039,8 @@
     "imageIdea": "abstract legal document AI network",
     "websiteLink": "https://github.com/willchen96/mike",
     "type": "tool",
-    "dateAdded": "2026-05-06"
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/mike-oss-ai-legal-platform.webp"
   },
   {
     "id": 802,
@@ -4668,7 +5053,8 @@
     "imageIdea": "network traffic obfuscation diagram",
     "websiteLink": "https://github.com/denuitt1/mhr-cfw",
     "type": "tool",
-    "dateAdded": "2026-05-06"
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/mhr-cfw-domain-fronting-relay.webp"
   },
   {
     "id": 803,
@@ -4681,7 +5067,8 @@
     "imageIdea": "abstract linux kernel exploit code",
     "websiteLink": "https://github.com/theori-io/copy-fail-CVE-2026-31431",
     "type": "tool",
-    "dateAdded": "2026-05-06"
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/copy-fail-cve-2026-31431-linux-kernel-lpe.webp"
   },
   {
     "id": 804,
@@ -4694,7 +5081,8 @@
     "imageIdea": "browser extension inspect panel showing component tree",
     "websiteLink": "https://react.dev/learn/react-developer-tools",
     "type": "tool",
-    "dateAdded": "2026-05-06"
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/react-developer-tools.webp"
   },
   {
     "id": 805,
@@ -4707,7 +5095,8 @@
     "imageIdea": "digital journal displaying highlighted text from books",
     "websiteLink": "https://readwise.io/",
     "type": "tool",
-    "dateAdded": "2026-05-06"
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/readwise-read-it-later.webp"
   },
   {
     "id": 806,
@@ -4720,7 +5109,8 @@
     "imageIdea": "graphic designer laptop code interface",
     "websiteLink": "https://github.com/google-labs-code/design.md",
     "type": "tool",
-    "dateAdded": "2026-05-08"
+    "dateAdded": "2026-05-08",
+    "screenshotUrl": "/screenshots/design-md.webp"
   },
   {
     "id": 807,
@@ -4733,7 +5123,8 @@
     "imageIdea": "writing keyboard computer screen",
     "websiteLink": "https://www.grammarly.com/",
     "type": "tool",
-    "dateAdded": "2026-05-08"
+    "dateAdded": "2026-05-08",
+    "screenshotUrl": "/screenshots/daily-tool-grammarly-writing-assistant.webp"
   },
   {
     "id": 808,
@@ -4746,7 +5137,8 @@
     "imageIdea": "sticky notes organized desk",
     "websiteLink": "https://keep.google.com/",
     "type": "tool",
-    "dateAdded": "2026-05-08"
+    "dateAdded": "2026-05-08",
+    "screenshotUrl": "/screenshots/google-keep-note-taking.webp"
   },
   {
     "id": 809,
@@ -4759,7 +5151,8 @@
     "imageIdea": "team collaboration workspace chat",
     "websiteLink": "https://slack.com/",
     "type": "tool",
-    "dateAdded": "2026-05-08"
+    "dateAdded": "2026-05-08",
+    "screenshotUrl": "/screenshots/slack-communication-platform.webp"
   },
   {
     "id": 810,
@@ -4772,7 +5165,8 @@
     "imageIdea": "ai agent training dashboard",
     "websiteLink": "https://www.producthunt.com/r/2SG5VACZQUBMO7",
     "type": "tool",
-    "dateAdded": "2026-05-09"
+    "dateAdded": "2026-05-09",
+    "screenshotUrl": "/screenshots/plurai.webp"
   },
   {
     "id": 811,
@@ -4785,7 +5179,8 @@
     "imageIdea": "meeting transcription AI assistant",
     "websiteLink": "https://fireflies.ai",
     "type": "tool",
-    "dateAdded": "2026-05-09"
+    "dateAdded": "2026-05-09",
+    "screenshotUrl": "/screenshots/firefliesai-meeting-assistant.webp"
   },
   {
     "id": 812,
@@ -4798,7 +5193,8 @@
     "imageIdea": "modern web browser interface",
     "websiteLink": "https://arc.net",
     "type": "tool",
-    "dateAdded": "2026-05-09"
+    "dateAdded": "2026-05-09",
+    "screenshotUrl": "/screenshots/arc-browser.webp"
   },
   {
     "id": 813,
@@ -4824,7 +5220,8 @@
     "imageIdea": "digital notebook laptop organization",
     "websiteLink": "https://evernote.com/",
     "type": "tool",
-    "dateAdded": "2026-05-09"
+    "dateAdded": "2026-05-09",
+    "screenshotUrl": "/screenshots/evernote-note-taking-app.webp"
   },
   {
     "id": 815,
@@ -4837,7 +5234,8 @@
     "imageIdea": "web browser user interface customization",
     "websiteLink": "https://vivaldi.com/",
     "type": "tool",
-    "dateAdded": "2026-05-10"
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/arc-browser-alternative.webp"
   },
   {
     "id": 816,
@@ -4850,7 +5248,8 @@
     "imageIdea": "journaling app personal reflection",
     "websiteLink": "https://memoria.app",
     "type": "tool",
-    "dateAdded": "2026-05-10"
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/memoria-calendar-app.webp"
   },
   {
     "id": 817,
@@ -4863,7 +5262,8 @@
     "imageIdea": "social media writing app content creation",
     "websiteLink": "https://typefully.com",
     "type": "tool",
-    "dateAdded": "2026-05-10"
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/typefully-writing-platform.webp"
   },
   {
     "id": 818,
@@ -4876,7 +5276,8 @@
     "imageIdea": "people collaborating online document",
     "websiteLink": "https://docs.google.com/",
     "type": "tool",
-    "dateAdded": "2026-05-10"
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/google-docs-collaboration.webp"
   },
   {
     "id": 819,
@@ -4889,7 +5290,8 @@
     "imageIdea": "video game development code engine interface",
     "websiteLink": "https://bevyengine.org/",
     "type": "tool",
-    "dateAdded": "2026-05-10"
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/bevy-game-engine-rust.webp"
   },
   {
     "id": 820,
@@ -4902,7 +5304,8 @@
     "imageIdea": "apple macbook pro with code on screen",
     "websiteLink": "https://github.com/antirez/ds4",
     "type": "tool",
-    "dateAdded": "2026-05-11"
+    "dateAdded": "2026-05-11",
+    "screenshotUrl": "/screenshots/deepseek-4-flash.webp"
   },
   {
     "id": 821,
@@ -4915,7 +5318,8 @@
     "imageIdea": "terminal window showing code costs",
     "websiteLink": "https://github.com/getagentseal/codeburn",
     "type": "tool",
-    "dateAdded": "2026-05-11"
+    "dateAdded": "2026-05-11",
+    "screenshotUrl": "/screenshots/codeburn-ai-cost-tracker.webp"
   },
   {
     "id": 822,
@@ -4928,7 +5332,8 @@
     "imageIdea": "user feedback dashboard interface",
     "websiteLink": "https://www.canny.io/",
     "type": "tool",
-    "dateAdded": "2026-05-11"
+    "dateAdded": "2026-05-11",
+    "screenshotUrl": "/screenshots/canny-feedback.webp"
   },
   {
     "id": 823,
@@ -4954,7 +5359,8 @@
     "imageIdea": "infinite canvas visual brainstorming",
     "websiteLink": "https://museapp.com/",
     "type": "tool",
-    "dateAdded": "2026-05-11"
+    "dateAdded": "2026-05-11",
+    "screenshotUrl": "/screenshots/muse-app.webp"
   },
   {
     "id": 825,
@@ -4967,7 +5373,8 @@
     "imageIdea": "python code on a laptop screen",
     "websiteLink": "https://github.com/kyegomez/OpenMythos",
     "type": "tool",
-    "dateAdded": "2026-05-12"
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/daily-tool-openmythos.webp"
   },
   {
     "id": 826,
@@ -4980,7 +5387,8 @@
     "imageIdea": "computer screen showing code and browser interface",
     "websiteLink": "https://github.com/browser-use/browser-harness",
     "type": "tool",
-    "dateAdded": "2026-05-12"
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/daily-tool-browser-harness.webp"
   },
   {
     "id": 827,
@@ -4993,7 +5401,8 @@
     "imageIdea": "3d rendering of a cityscape",
     "websiteLink": "https://github.com/Robbyant/lingbot-map",
     "type": "tool",
-    "dateAdded": "2026-05-12"
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/daily-tool-lingbot-map.webp"
   },
   {
     "id": 828,
@@ -5006,7 +5415,8 @@
     "imageIdea": "terminal window with a to-do list",
     "websiteLink": "https://github.com/todotxt/todo.txt",
     "type": "tool",
-    "dateAdded": "2026-05-12"
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/todo-txt.webp"
   },
   {
     "id": 829,
@@ -5019,7 +5429,8 @@
     "imageIdea": "speedometer email inbox",
     "websiteLink": "https://superhuman.com/",
     "type": "tool",
-    "dateAdded": "2026-05-12"
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/superhuman-email.webp"
   },
   {
     "id": 830,
@@ -5032,7 +5443,8 @@
     "imageIdea": "abstract code flowing into animated user interface",
     "websiteLink": "https://github.com/alchaincyf/huashu-design",
     "type": "tool",
-    "dateAdded": "2026-05-13"
+    "dateAdded": "2026-05-13",
+    "screenshotUrl": "/screenshots/daily-tool-huashu-design.webp"
   },
   {
     "id": 831,
@@ -5045,7 +5457,8 @@
     "imageIdea": "AI chatbot interface generating website mockups",
     "websiteLink": "https://github.com/OpenCoworkAI/open-codesign",
     "type": "tool",
-    "dateAdded": "2026-05-13"
+    "dateAdded": "2026-05-13",
+    "screenshotUrl": "/screenshots/open-codesign.webp"
   },
   {
     "id": 832,
@@ -5058,7 +5471,8 @@
     "imageIdea": "digital whiteboard team collaboration",
     "websiteLink": "https://affine.pro/",
     "type": "tool",
-    "dateAdded": "2026-05-13"
+    "dateAdded": "2026-05-13",
+    "screenshotUrl": "/screenshots/affine-collaboration-workspace.webp"
   },
   {
     "id": 833,
@@ -5071,7 +5485,8 @@
     "imageIdea": "smartphone scanning math textbook",
     "websiteLink": "https://www.photomath.com/",
     "type": "tool",
-    "dateAdded": "2026-05-13"
+    "dateAdded": "2026-05-13",
+    "screenshotUrl": "/screenshots/photomath-math-solver.webp"
   },
   {
     "id": 834,
@@ -5097,7 +5512,8 @@
     "imageIdea": "python code scientist graph",
     "websiteLink": "https://github.com/Yuan1z0825/nature-skills",
     "type": "tool",
-    "dateAdded": "2026-05-14"
+    "dateAdded": "2026-05-14",
+    "screenshotUrl": "/screenshots/nature-skills.webp"
   },
   {
     "id": 839,
@@ -5110,7 +5526,8 @@
     "imageIdea": "server rack software icons",
     "websiteLink": "https://github.com/awesome-selfhosted/awesome-selfhosted",
     "type": "tool",
-    "dateAdded": "2026-05-14"
+    "dateAdded": "2026-05-14",
+    "screenshotUrl": "/screenshots/awesome-self-hosted.webp"
   },
   {
     "id": 840,
@@ -5123,7 +5540,8 @@
     "imageIdea": "ai robot speaking with person on phone",
     "websiteLink": "https://www.producthunt.com/r/MHJ73XCI7VH4JY",
     "type": "tool",
-    "dateAdded": "2026-05-15"
+    "dateAdded": "2026-05-15",
+    "screenshotUrl": "/screenshots/daily-tool-clera-ai-talent-agent.webp"
   },
   {
     "id": 841,
@@ -5136,7 +5554,8 @@
     "imageIdea": "team collaborating on digital design project",
     "websiteLink": "https://www.figma.com/",
     "type": "tool",
-    "dateAdded": "2026-05-15"
+    "dateAdded": "2026-05-15",
+    "screenshotUrl": "/screenshots/figma-collaborative-design-tool.webp"
   },
   {
     "id": 842,
@@ -5149,7 +5568,8 @@
     "imageIdea": "computer screen office software",
     "websiteLink": "https://www.libreoffice.org/",
     "type": "tool",
-    "dateAdded": "2026-05-15"
+    "dateAdded": "2026-05-15",
+    "screenshotUrl": "/screenshots/libreoffice-office-suite.webp"
   },
   {
     "id": 843,
@@ -5162,7 +5582,8 @@
     "imageIdea": "user interface builder software on a laptop",
     "websiteLink": "https://retool.com/",
     "type": "tool",
-    "dateAdded": "2026-05-15"
+    "dateAdded": "2026-05-15",
+    "screenshotUrl": "/screenshots/retool-app-builder.webp"
   },
   {
     "id": 844,
@@ -5175,7 +5596,8 @@
     "imageIdea": "film editing suite computer setup",
     "websiteLink": "https://www.blackmagicdesign.com/products/davinciresolve/",
     "type": "tool",
-    "dateAdded": "2026-05-15"
+    "dateAdded": "2026-05-15",
+    "screenshotUrl": "/screenshots/davinci-resolve-editing.webp"
   },
   {
     "id": 845,
@@ -5188,7 +5610,8 @@
     "imageIdea": "lawyer at desk with ai interface",
     "websiteLink": "https://github.com/anthropics/claude-for-legal",
     "type": "tool",
-    "dateAdded": "2026-05-16"
+    "dateAdded": "2026-05-16",
+    "screenshotUrl": "/screenshots/claude-for-legal.webp"
   },
   {
     "id": 846,
@@ -5201,7 +5624,8 @@
     "imageIdea": "minimalist writing app laptop screen",
     "websiteLink": "https://bearblog.dev/",
     "type": "tool",
-    "dateAdded": "2026-05-16"
+    "dateAdded": "2026-05-16",
+    "screenshotUrl": "/screenshots/bear-writing-app.webp"
   },
   {
     "id": 847,
@@ -5214,7 +5638,8 @@
     "imageIdea": "computer screen with code editor interface",
     "websiteLink": "https://code.visualstudio.com/",
     "type": "tool",
-    "dateAdded": "2026-05-16"
+    "dateAdded": "2026-05-16",
+    "screenshotUrl": "/screenshots/visual-studio-code.webp"
   },
   {
     "id": 848,
@@ -5227,7 +5652,8 @@
     "imageIdea": "website design interface laptop",
     "websiteLink": "https://webflow.com/",
     "type": "tool",
-    "dateAdded": "2026-05-17"
+    "dateAdded": "2026-05-17",
+    "screenshotUrl": "/screenshots/webflow-website-builder.webp"
   },
   {
     "id": 849,
@@ -5253,7 +5679,8 @@
     "imageIdea": "digital library bookshelf organized",
     "websiteLink": "https://calibre-ebook.com/",
     "type": "tool",
-    "dateAdded": "2026-05-17"
+    "dateAdded": "2026-05-17",
+    "screenshotUrl": "/screenshots/calibre-ebook-manager.webp"
   },
   {
     "id": 851,
@@ -5266,7 +5693,8 @@
     "imageIdea": "terminal screen with glowing code",
     "websiteLink": "https://github.com/esengine/DeepSeek-Reasonix",
     "type": "tool",
-    "dateAdded": "2026-05-18"
+    "dateAdded": "2026-05-18",
+    "screenshotUrl": "/screenshots/deepseek-reasonix.webp"
   },
   {
     "id": 852,
@@ -5279,7 +5707,8 @@
     "imageIdea": "kanban board with colorful cards",
     "websiteLink": "https://trello.com/",
     "type": "tool",
-    "dateAdded": "2026-05-18"
+    "dateAdded": "2026-05-18",
+    "screenshotUrl": "/screenshots/daily-tool-trello.webp"
   },
   {
     "id": 853,
@@ -5292,7 +5721,8 @@
     "imageIdea": "media player interface with play button",
     "websiteLink": "https://www.videolan.org/vlc/",
     "type": "tool",
-    "dateAdded": "2026-05-18"
+    "dateAdded": "2026-05-18",
+    "screenshotUrl": "/screenshots/vlc-media-player.webp"
   },
   {
     "id": 854,
@@ -5305,7 +5735,8 @@
     "imageIdea": "ftp client server connection",
     "websiteLink": "https://cyberduck.io/",
     "type": "tool",
-    "dateAdded": "2026-05-18"
+    "dateAdded": "2026-05-18",
+    "screenshotUrl": "/screenshots/cyberduck-ftp-sftp-client.webp"
   },
   {
     "id": 855,
@@ -5318,7 +5749,8 @@
     "imageIdea": "ai image generation canvas",
     "websiteLink": "https://firefly.adobe.com/",
     "type": "tool",
-    "dateAdded": "2026-05-18"
+    "dateAdded": "2026-05-18",
+    "screenshotUrl": "/screenshots/firefly-ai.webp"
   },
   {
     "id": 856,
@@ -5331,7 +5763,8 @@
     "imageIdea": "developer coding in a minimalist terminal interface",
     "websiteLink": "https://github.com/crynta/terax-ai",
     "type": "tool",
-    "dateAdded": "2026-05-19"
+    "dateAdded": "2026-05-19",
+    "screenshotUrl": "/screenshots/terax-ai.webp"
   },
   {
     "id": 857,
@@ -5344,7 +5777,8 @@
     "imageIdea": "website wireframe interactive prototype",
     "websiteLink": "https://www.framer.com/",
     "type": "tool",
-    "dateAdded": "2026-05-19"
+    "dateAdded": "2026-05-19",
+    "screenshotUrl": "/screenshots/framer-design-tool.webp"
   },
   {
     "id": 858,
@@ -5357,7 +5791,8 @@
     "imageIdea": "network of connected computers files syncing",
     "websiteLink": "https://syncthing.net/",
     "type": "tool",
-    "dateAdded": "2026-05-19"
+    "dateAdded": "2026-05-19",
+    "screenshotUrl": "/screenshots/obsidian-vault-sync.webp"
   },
   {
     "id": 859,
@@ -5370,7 +5805,8 @@
     "imageIdea": "speech bubbles connected network dark background",
     "websiteLink": "https://revolt.chat/",
     "type": "tool",
-    "dateAdded": "2026-05-19"
+    "dateAdded": "2026-05-19",
+    "screenshotUrl": "/screenshots/revolt-chat.webp"
   },
   {
     "id": 860,
@@ -5383,7 +5819,8 @@
     "imageIdea": "laptop screen showing photo editing software",
     "websiteLink": "https://clipdrop.co/",
     "type": "tool",
-    "dateAdded": "2026-05-19"
+    "dateAdded": "2026-05-19",
+    "screenshotUrl": "/screenshots/clipdrop-by-stability-ai.webp"
   },
   {
     "id": 861,
@@ -5396,7 +5833,8 @@
     "imageIdea": "computer screen with minimalistic code",
     "websiteLink": "https://github.com/DietrichGebert/ponytail",
     "type": "tool",
-    "dateAdded": "2026-07-01"
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "/screenshots/ponytail-ai-developer-lazy.webp"
   },
   {
     "id": 862,
@@ -5409,7 +5847,8 @@
     "imageIdea": "document scanning machine with data streams",
     "websiteLink": "https://github.com/baidu/Unlimited-OCR",
     "type": "tool",
-    "dateAdded": "2026-07-01"
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "/screenshots/unlimited-ocr-parsing-ai.webp"
   },
   {
     "id": 863,
@@ -5422,7 +5861,8 @@
     "imageIdea": "startup pitch deck with investment graph",
     "websiteLink": "https://www.producthunt.com/r/SH5BHT7UOKB2F5",
     "type": "tool",
-    "dateAdded": "2026-07-01"
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "/screenshots/fundraisly-ai-fundraising-agent.webp"
   },
   {
     "id": 864,
@@ -5435,7 +5875,8 @@
     "imageIdea": "email inbox with AI assistant icons",
     "websiteLink": "https://www.producthunt.com/r/RWE7MKUX4XZRYA",
     "type": "tool",
-    "dateAdded": "2026-07-01"
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "/screenshots/upstrema-inbox-human-agent.webp"
   },
   {
     "id": 865,
@@ -5448,6 +5889,7 @@
     "imageIdea": "code editor with analysis overlay",
     "websiteLink": "https://github.com/shadcn/improve",
     "type": "tool",
-    "dateAdded": "2026-07-01"
+    "dateAdded": "2026-07-01",
+    "screenshotUrl": "/screenshots/improve-ai-code-auditor.webp"
   }
 ]

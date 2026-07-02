@@ -88,8 +88,16 @@ jobs:
       - name: Populate collections
         run: node scripts/populate-collections.js
 
-      - name: Generate website screenshots for hidden gems
-        run: node scripts/fetch-screenshots.js
+      - name: Install Playwright chromium for screenshots
+        run: npx playwright install --with-deps chromium
+
+      - name: Capture website screenshots for new items
+        # Self-hosted screenshots (public/screenshots/*.webp) — skips items
+        # that already have a file, so daily runs only capture the ~10 new
+        # ones. A site that blocks headless browsers just falls back to the
+        # cached photo in the UI.
+        run: node scripts/capture-screenshots.mjs
+        continue-on-error: true
 
       - name: Fetch images for new items
         env:

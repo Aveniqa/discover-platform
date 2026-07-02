@@ -8,12 +8,13 @@ import {
   getItemTitle,
   getItemDescription,
   getItemExcerpt,
+  getItemScreenshot,
   getCategoryColor,
   getCategoryLabel,
   todaysPicks,
   type AnyItem,
 } from "@/lib/data";
-import { ItemImage } from "@/components/ui/ItemImage";
+import { ItemVisual } from "@/components/ui/ItemVisual";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
@@ -148,7 +149,7 @@ export default function SavedPage() {
                       aria-label={`Read ${pick.title}`}
                       className="group flex flex-col rounded-xl border border-border/60 bg-surface overflow-hidden hover:border-accent/30 transition-all"
                     >
-                      <ItemImage slug={pick.slug} alt={pick.title} aspectRatio="3/2" width={400} height={267} size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                      <ItemVisual slug={pick.slug} alt={pick.title} screenshotUrl={getItemScreenshot(fullItem)} aspectRatio="3/2" size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
                       <div className="p-4 flex flex-col flex-1">
                         <CategoryBadge color={getCategoryColor(fullItem.type)} label={getCategoryLabel(fullItem.type)} className="mb-2 self-start" />
                         <h3 className="text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-1">

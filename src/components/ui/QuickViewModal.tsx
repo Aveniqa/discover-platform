@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { useFocusTrap } from "@/hooks/useFocusTrap";
 import Link from "next/link";
-import { ItemImage } from "@/components/ui/ItemImage";
+import { ItemVisual } from "@/components/ui/ItemVisual";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { LogoImage } from "@/components/ui/LogoImage";
 import { ShareButtons } from "@/components/ui/ShareButtons";
@@ -12,6 +12,7 @@ import {
   getItemDescription,
   getItemWhyText,
   getItemOutboundUrl,
+  getItemScreenshot,
   getCtaLabel,
   getCategoryColor,
   getCategoryLabel,
@@ -83,7 +84,7 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
 
         {/* Image */}
         <div className="overflow-hidden rounded-t-2xl">
-          <ItemImage slug={item.slug} alt={title} aspectRatio="16/7" width={800} height={350} size="md" />
+          <ItemVisual slug={item.slug} alt={title} screenshotUrl={getItemScreenshot(item)} aspectRatio="16/7" size="md" />
         </div>
 
         <div className="p-6 sm:p-8">
