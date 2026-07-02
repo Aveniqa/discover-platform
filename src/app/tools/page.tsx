@@ -7,7 +7,7 @@ import { BookmarkButton } from "@/components/ui/BookmarkButton";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SkeletonCard } from "@/components/ui/SkeletonCard";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
-import { ItemImage } from "@/components/ui/ItemImage";
+import { ItemVisual } from "@/components/ui/ItemVisual";
 import { dailyTools, getSubCategories, getItemExcerpt, type AnyItem } from "@/lib/data";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { LogoImage } from "@/components/ui/LogoImage";
@@ -184,7 +184,7 @@ export default function ToolsPage() {
               <TiltCard maxTilt={6} glowColor="0 8px 40px rgba(244,63,94,0.12), 0 0 0 1px rgba(244,63,94,0.08)" className="h-full">
               <div className="official-card group relative rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full flex flex-col overflow-hidden">
                 <div className="overflow-hidden relative">
-                  <ItemImage slug={item.slug} alt={item.toolName} aspectRatio="3/2" width={400} height={267} priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
+                  <ItemVisual slug={item.slug} alt={item.toolName} screenshotUrl={item.screenshotUrl} aspectRatio="3/2" size="sm" priority={index < 4} className="group-hover:scale-[1.03] transition-transform duration-500" />
                   {item.badge === "editors-pick" && (
                     <span className="absolute top-2 left-2 z-10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-amber-500/90 text-black rounded">
                       Editor&apos;s Pick

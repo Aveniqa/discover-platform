@@ -43,18 +43,17 @@ import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
 import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
 import { isPexelsImage } from "@/lib/images";
 import { getItemImageUrl } from "@/lib/images";
-import { buildMetadata, getBuildDate } from "@/lib/seo";
+import { buildMetadata, getBuildDate, SITE_URL } from "@/lib/seo";
 import { articleLd, productLd, breadcrumbLd, ldScript } from "@/lib/jsonld";
 import { getItemSourceLabel, getItemSourceUrl, getItemTrustSignals, safeHostLabel } from "@/lib/trust";
 import { filterLiveOutboundUrl } from "@/lib/dead-links";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import { alcoveFromCategory } from "@/lib/alcoves";
 import { ItemWorldSeeder } from "@/components/3d/ItemWorldSeeder";
 import { BYLINE } from "@/lib/masthead";
-// AlcoveFromCategory still used in jsonld + scene labelling
-void alcoveFromCategory;
 
 /* ---- Cross-category recommendations ---- */
 function getCrossCategoryItems(item: AnyItem, count = 4): AnyItem[] {
@@ -121,7 +120,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!item) return { title: "Not Found" };
   const title = getItemTitle(item);
   const desc = getItemDescription(item);
-  const ogImage = getItemImageUrl(slug, 1200, 630, "og");
+  // Prefer the real self-hosted website screenshot for social cards; fall
+  // back to the cached stock photo. Screenshot paths are site-relative and
+  // resolved against metadataBase by Next.
+  const screenshot =
+    item.type === "hidden-gem" || item.type === "tool"
+      ? (item as HiddenGem | DailyTool).screenshotUrl
+      : null;
+  const ogImage =
+    (screenshot?.startsWith("/screenshots/") ? screenshot : null) ||
+    getItemImageUrl(slug, 1200, 630, "og");
   const isProduct = item.type === "product";
   const priceRange = isProduct ? (item as Product).estimatedPriceRange : undefined;
   const dateAdded = (item as { dateAdded?: string }).dateAdded;
@@ -283,7 +291,13 @@ export default async function ItemPage({ params }: Props) {
 
   // ── Structured Data (JSON-LD) ──────────────────────
   const pageUrl = `/item/${slug}`;
-  const imageUrl = getItemImageUrl(slug);
+  const ldScreenshot =
+    item.type === "hidden-gem" || item.type === "tool"
+      ? (item as HiddenGem | DailyTool).screenshotUrl
+      : null;
+  const imageUrl =
+    (ldScreenshot?.startsWith("/screenshots/") ? `${SITE_URL}${ldScreenshot}` : null) ||
+    getItemImageUrl(slug);
   const categoryPath = getCategoryPath(item.type);
   const dateAdded = (item as { dateAdded?: string }).dateAdded;
 
@@ -322,26 +336,71 @@ export default async function ItemPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(itemLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={ldScript(crumbsLd)} />
 
-      {/* ── Hero image — sits on the global 3D world ──── */}
+      {/* ── Hero showcase — perspective screenshot over the 3D world ──── */}
       <div
         data-world-scene={`item-${item.type}`}
         className="w-full overflow-hidden border-b border-white/[0.06] relative"
       >
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
-        <div className="relative z-10">
-          {item.type === "hidden-gem" && (item as HiddenGem).screenshotUrl ? (
-            <ScreenshotImage src={(item as HiddenGem).screenshotUrl!} alt={title} />
-          ) : (
-            <>
+        {(() => {
+          const screenshot =
+            item.type === "hidden-gem" || item.type === "tool"
+              ? (item as HiddenGem | DailyTool).screenshotUrl || null
+              : null;
+          const localScreenshot = screenshot?.startsWith("/screenshots/") ? screenshot : null;
+          const alcove = alcoveFromCategory(category);
+          if (localScreenshot) {
+            return (
+              <div className="relative z-10 showcase-stage max-w-5xl mx-auto px-4 sm:px-8 pt-12 sm:pt-16 pb-4">
+                <div
+                  className="showcase-glow"
+                  style={{ "--showcase-tint": `${alcove.palette[0]}59` } as CSSProperties}
+                  aria-hidden="true"
+                />
+                <div className="showcase-frame relative rounded-2xl overflow-hidden border border-white/15 shadow-[0_40px_120px_rgba(0,0,0,0.6)]">
+                  {/* Browser chrome bar — frames the screenshot as the real site */}
+                  <div className="flex items-center gap-2 px-4 py-2.5 bg-black/60 backdrop-blur-md border-b border-white/10">
+                    <span className="w-2.5 h-2.5 rounded-full bg-white/25" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-white/25" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-white/25" />
+                    {websiteLink && (
+                      <span className="ml-3 px-3 py-0.5 rounded-md bg-white/10 text-[11px] text-white/70 truncate max-w-[60%]">
+                        {safeHostLabel(websiteLink)}
+                      </span>
+                    )}
+                  </div>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={localScreenshot}
+                    alt={`Screenshot of ${title}`}
+                    width={800}
+                    height={500}
+                    fetchPriority="high"
+                    decoding="async"
+                    className="w-full aspect-[8/5] object-cover object-top"
+                  />
+                </div>
+              </div>
+            );
+          }
+          if (screenshot) {
+            return (
+              <div className="relative z-10">
+                <ScreenshotImage src={screenshot} alt={title} />
+              </div>
+            );
+          }
+          return (
+            <div className="relative z-10">
               <ItemImage slug={slug} alt={title} width={1200} height={686} aspectRatio="16/7" size="lg" priority />
               {isPexelsImage(slug) && (
                 <p className="absolute bottom-2 right-3 text-[10px] text-white/60">
                   Photo via Pexels
                 </p>
               )}
-            </>
-          )}
-        </div>
+            </div>
+          );
+        })()}
       </div>
 
       <section className="py-12 sm:py-16">

@@ -55,8 +55,12 @@ jobs:
       - name: Populate collections
         run: node scripts/populate-collections.js
 
-      - name: Generate website screenshots for hidden gems
-        run: node scripts/fetch-screenshots.js
+      - name: Install Playwright chromium for screenshots
+        run: npx playwright install --with-deps chromium
+
+      - name: Capture website screenshots for new items
+        run: node scripts/capture-screenshots.mjs
+        continue-on-error: true
 
       - name: Fetch images for new items
         env:

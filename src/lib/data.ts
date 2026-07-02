@@ -76,6 +76,7 @@ export interface DailyTool {
   category: string;
   whyItIsUseful: string;
   websiteLink: string;
+  screenshotUrl?: string;
   badge?: string;
   type: "tool";
 }
@@ -259,6 +260,13 @@ function trimToWordBoundary(s: string, max: number): string {
 export function getItemCategory(item: AnyItem): string {
   if (item.type === "future-tech") return (item as FutureTech).industry;
   return (item as Discovery | Product | HiddenGem | DailyTool).category;
+}
+
+/** Self-hosted website screenshot path, when captured (gems + tools only) */
+export function getItemScreenshot(item: AnyItem): string | null {
+  if (item.type === "hidden-gem") return (item as HiddenGem).screenshotUrl || null;
+  if (item.type === "tool") return (item as DailyTool).screenshotUrl || null;
+  return null;
 }
 
 export function getItemWhyText(item: AnyItem): string {

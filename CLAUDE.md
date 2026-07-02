@@ -44,7 +44,7 @@ Runs at 7am ET via `.github/workflows/daily-edition.yml`. Steps in order:
 5. `assign-badges.js` — applies editorial badges
 6. `generate-todays-picks.js` — selects homepage featured items
 7. `populate-collections.js` — updates curated collections
-8. `fetch-screenshots.js` — grabs hidden-gem screenshots
+8. `capture-screenshots.mjs` — Playwright-captures real website screenshots for new gems/tools into `public/screenshots/<slug>.webp` (self-hosted; UI falls back to cached photo when a site blocks headless browsers)
 9. `fetch-images.ts` — Pexels → Unsplash → Pixabay image cache for new items
 10. `npm run build` — rebuilds all static pages (must pass, 0 errors)
 11. Push to main → Cloudflare Pages auto-deploys
@@ -89,6 +89,6 @@ This version may have breaking changes vs. your training data. Read `node_module
 ## Rules
 - Never duplicate an existing slug (check all 5 category files + archive)
 - `imageIdea` must be concrete ("espresso machine coffee"), never abstract ("illustration of productivity")
-- Do NOT modify components, CSS, templates, or build config
+- Content/automation sessions must NOT modify components, CSS, templates, or build config — design changes only when the user explicitly asks for them (last user-approved overhaul: 2026-07-01)
 - Do NOT push if build fails
 - Archived items in `archive.json` must never be deleted — they keep `/item/<slug>` alive for Google

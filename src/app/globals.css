@@ -877,6 +877,114 @@ body.depth-mode .floating-item {
   scrollbar-width: none;
 }
 
+/* ============================================
+   HERO COLLAGE — floating screenshot wall
+   ============================================ */
+@keyframes collage-float {
+  from { transform: rotate(var(--rot, 0deg)) translateY(-7px); }
+  to   { transform: rotate(var(--rot, 0deg)) translateY(9px); }
+}
+
+.hero-collage-card {
+  position: relative;
+  background: rgba(10, 10, 16, 0.6);
+}
+
+/* On phones the ring layout collapses — keep only the first few cards and
+   fade them behind the copy so the hero stays readable. */
+@media (max-width: 640px) {
+  .hero-collage > div:nth-child(n + 5) {
+    display: none;
+  }
+  .hero-collage > div {
+    opacity: 0.35 !important;
+    filter: blur(1px);
+  }
+}
+
+/* ============================================
+   SCREENSHOT MARQUEE — angled wall of the internet
+   ============================================ */
+.shot-marquee-stage {
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+.shot-marquee-plane {
+  transform: rotateX(14deg) rotateZ(-2deg) scale(1.08);
+  transform-style: preserve-3d;
+}
+
+@keyframes shot-marquee-ltr {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@keyframes shot-marquee-rtl {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+.shot-marquee-row {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  will-change: transform;
+}
+
+.shot-marquee-row:hover {
+  animation-play-state: paused !important;
+}
+
+.shot-marquee-card {
+  position: relative;
+  width: 240px;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(10, 10, 16, 0.6);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+}
+
+.shot-marquee-card:hover {
+  transform: translateY(-8px) scale(1.05);
+  border-color: rgba(255, 255, 255, 0.35);
+  z-index: 2;
+}
+
+/* ============================================
+   DEPTH PARALLAX — scroll-driven card drift
+   Sections set --depth-t (0..1 progress through viewport) via
+   useSectionDepth; children pick a rate with these utilities.
+   ============================================ */
+.depth-slow   { transform: translateY(calc(var(--depth-t, 0) * -18px)); }
+.depth-medium { transform: translateY(calc(var(--depth-t, 0) * -42px)); }
+.depth-fast   { transform: translateY(calc(var(--depth-t, 0) * -74px)); }
+
+/* Item page hero showcase — perspective frame for the screenshot */
+.showcase-stage {
+  perspective: 1400px;
+}
+
+.showcase-frame {
+  transform: rotateX(6deg);
+  transform-style: preserve-3d;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.showcase-stage:hover .showcase-frame {
+  transform: rotateX(2deg) scale(1.01);
+}
+
+.showcase-glow {
+  position: absolute;
+  inset: -8%;
+  background: radial-gradient(ellipse at 50% 60%, var(--showcase-tint, rgba(168, 85, 247, 0.35)), transparent 65%);
+  filter: blur(40px);
+  pointer-events: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
