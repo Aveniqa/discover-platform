@@ -124,6 +124,17 @@ jobs:
             exit 0
           fi
           git commit -m "content: remediate AdSense low-value signals"
+          # Rebase onto CURRENT main before pushing. Long runs (~50 min) race
+          # against main moving; if main gained workflow-file changes since
+          # checkout, pushing the stale base is treated as a workflow edit and
+          # rejected unless the token has `workflow` scope (run 28555462361).
+          # Rebasing keeps the branch's only diff vs main the data commit.
+          git fetch origin main
+          if ! git rebase origin/main; then
+            git rebase --abort
+            echo "::error::Rebase onto main conflicted (data files changed mid-run). Re-dispatch the workflow."
+            exit 1
+          fi
           # Plain --force: this is a bot-owned scratch branch rebuilt from
           # main each run. --force-with-lease rejects when the remote branch
           # exists but was never fetched into this fresh clone.
