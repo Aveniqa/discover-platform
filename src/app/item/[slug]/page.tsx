@@ -55,6 +55,18 @@ import { alcoveFromCategory } from "@/lib/alcoves";
 import { ItemWorldSeeder } from "@/components/3d/ItemWorldSeeder";
 import { BYLINE } from "@/lib/masthead";
 
+/** Host-parsed Amazon check — a substring test would match attacker-chosen
+ *  hosts like "amazon.com.evil.example". Data is our own, but parse anyway. */
+function isAmazonUrl(url: string | null | undefined): boolean {
+  if (!url) return false;
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    return host === "amazon.com" || host.endsWith(".amazon.com");
+  } catch {
+    return false;
+  }
+}
+
 /* ---- Cross-category recommendations ---- */
 function getCrossCategoryItems(item: AnyItem, count = 4): AnyItem[] {
   const currentType = item.type;
@@ -625,12 +637,12 @@ export default async function ItemPage({ params }: Props) {
                     data-item-type={item.type}
                     id="main-cta-button"
                     className={`inline-flex items-center gap-2.5 px-8 py-4 rounded-xl font-bold text-base hover:-translate-y-0.5 transition-all ${
-                      item.type === "product" && (isAffiliate && item.affiliate?.provider === "amazon" || outboundUrl?.includes("amazon.com"))
+                      item.type === "product" && (isAffiliate && item.affiliate?.provider === "amazon" || isAmazonUrl(outboundUrl))
                         ? ctaStyles["product-amazon"] + " text-black"
                         : "text-white " + (ctaStyles[item.type] || ctaStyles.default)
                     }`}
                   >
-                    {item.type === "product" && outboundUrl?.includes("amazon.com")
+                    {item.type === "product" && isAmazonUrl(outboundUrl)
                       ? "Check Price on Amazon"
                       : ctaLabel}
                     <span aria-hidden="true">&rarr;</span>
@@ -868,7 +880,7 @@ export default async function ItemPage({ params }: Props) {
           ctaUrl={outboundUrl}
           isAffiliate={isAffiliate}
           itemType={item.type}
-          provider={item.affiliate?.provider || (outboundUrl?.includes("amazon.com") ? "amazon" : undefined)}
+          provider={item.affiliate?.provider || (isAmazonUrl(outboundUrl) ? "amazon" : undefined)}
         />
       )}
     </>
