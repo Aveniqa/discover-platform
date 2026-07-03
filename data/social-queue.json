@@ -1208,7 +1208,100 @@
         "pinterest": true,
         "twitter": false
       }
+    },
+    {
+      "id": "bearly-ai-desktop-assistant",
+      "title": "Bearly AI",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/21529965/pexels-photo-21529965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Bearly AI",
+      "productUrl": "https://surfaced-x.pages.dev/item/bearly-ai-desktop-assistant?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/bearly-ai-desktop-assistant?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Bearly AI",
+          "description": " https://surfaced-x.pages.dev/item/bearly-ai-desktop-assistant?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Bearly AI — Bearly AI is a powerful desktop AI assistant developed by a dedicated startup, designed to help users read, write, and summarize information more efficiently. Its core feature is a multi-modal AI inte\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/bearly-ai-desktop-assistant?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-03T14:36:40.001Z",
+      "publishedAt": "2026-07-03T14:36:41.178Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
+    },
+    {
+      "id": "session-buddy-tab-manager-2",
+      "title": "session-buddy-tab-manager-2",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/479359/pexels-photo-479359.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Screenshot of a browser extension interface showing saved tab sessions with clear labels.",
+      "productUrl": "https://surfaced-x.pages.dev/item/session-buddy-tab-manager-2?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/session-buddy-tab-manager-2?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Session Buddy: Tame Your Tab Chaos",
+          "description": "Overwhelmed by open tabs? Session Buddy saves your browser sessions so you can pick up right where you left off. Perfect for researchers, devs, or anyone juggling multiple projects. Free & saves time. #productivity #browsertools #tabmanagement #organization",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "Finally, a tool to stop that terrifying 'Too many tabs!' feeling. Session Buddy saves your whole browser window with one click. Swap between research projects or client work instantly. It's free, private, and actually works.\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "Drowning in browser tabs? Session Buddy is your life raft. Save entire windows as named sessions, restore them anytime. Perfect for researchers, devs, or anyone who juggles multiple projects. Free, private, and ridiculously useful. https://surfaced-x.pages.dev/item/session-buddy-tab-manager-2?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-03T14:36:40.001Z",
+      "publishedAt": "2026-07-03T14:38:10.011Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
+    },
+    {
+      "id": "toggl-track-time-tracker-habit-goal",
+      "title": "Toggl Track",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/15803843/pexels-photo-15803843.png?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: Toggl Track",
+      "productUrl": "https://surfaced-x.pages.dev/item/toggl-track-time-tracker-habit-goal?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/toggl-track-time-tracker-habit-goal?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Toggl Track",
+          "description": " https://surfaced-x.pages.dev/item/toggl-track-time-tracker-habit-goal?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post #surfaced #hidden-gems",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Toggl Track — Toggl Track is a widely used time tracking application developed by Toggl OÜ, designed to help individuals and teams understand how they spend their time, which can be powerfully applied to habit and \n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/toggl-track-time-tracker-habit-goal?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-03T14:36:40.001Z",
+      "publishedAt": "2026-07-03T14:39:44.878Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-07-02T14:57:59.954Z"
+  "lastGenerated": "2026-07-03T14:36:40.002Z"
 }
