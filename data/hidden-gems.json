@@ -1,70 +1,5 @@
 [
   {
-    "id": 183,
-    "slug": "debt-payoff-planner-calculator",
-    "name": "Debt Payoff Planner",
-    "whatItDoes": "Debt Payoff Planner is a straightforward, free online tool created by the team at Vertex42, known for their spreadsheet templates. It helps individuals visualize and plan strategies for paying off multiple debts, such as credit cards, student loans, and mortgages. The tool is designed for anyone feeling overwhelmed by debt and seeking a clear path to financial freedom. Users typically input their various debts, interest rates, and minimum payments to compare different payoff methods like the debt snowball or avalanche. It functions primarily as a web-based calculator, providing instant projections and printable schedules, without requiring any account or personal data.",
-    "category": "Finance",
-    "whyItIsUseful": "It simplifies the complex process of debt repayment planning, offering a more intuitive and visual approach than manually calculating or using basic spreadsheet formulas. For the student with multiple loans and varied interest rates, it clearly illustrates which payment strategy saves the most money and time. For the individual struggling with credit card debt, it provides a hopeful and actionable roadmap to becoming debt-free. The tool is entirely free to use, without any hidden costs or premium features. Its most useful, often undiscovered, feature is the ability to easily compare how even small extra payments drastically reduce total interest paid and payoff time. It's not more popular because it's a niche tool often overshadowed by more comprehensive budgeting apps that include debt features. As a simple web calculator, it doesn't have a community or plugin ecosystem, but Vertex42 regularly updates its resources.",
-    "imageIdea": "Debt Payoff Planner interface showing a graph of debt reduction over time with snowball vs. avalanche strategies",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.debtpayoffplanner.com",
-    "screenshotUrl": "/screenshots/debt-payoff-planner-calculator.webp"
-  },
-  {
-    "id": 184,
-    "slug": "plain-text-accounting-hledger-ledger",
-    "name": "Plain Text Accounting (hledger/ledger)",
-    "whatItDoes": "Plain Text Accounting refers to a methodology and a suite of command-line tools like 'hledger' and 'ledger,' primarily developed by open-source communities. These tools enable users to manage their finances by writing transactions in simple text files following a double-entry accounting system. It was built for developers, power users, and privacy advocates who prefer a plain text, version-controlled, and highly scriptable approach to personal or small business finance. Users integrate it into their workflow by regularly adding transactions to a text file, then running commands to generate reports, check balances, and reconcile accounts. These tools operate on plain text files, integrating seamlessly with version control systems like Git and compatible with any text editor.",
-    "category": "Finance",
-    "whyItIsUseful": "It offers a uniquely powerful, private, and flexible alternative to GUI-based accounting software, allowing for complete data ownership and scripting capabilities. For the developer who already lives in the terminal and uses version control, it provides a natural and efficient way to manage personal finances. For the small business owner who needs simple, auditable accounting without proprietary software, it offers a robust, free solution. These tools are entirely free and open-source, relying on community contributions for development. A hidden gem is its powerful reporting engine, which can generate highly custom financial reports and forecasts by simply querying your plain text data. Its steep learning curve, requiring comfort with the command line and accounting principles, is the main barrier to wider adoption. There's a vibrant, active community on forums and GitHub, with continuous development and extensive documentation for both hledger and ledger.",
-    "imageIdea": "Terminal window showing hledger command output with a financial report",
-    "websiteLink": "https://plaintextaccounting.org/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/plain-text-accounting-hledger-ledger.webp"
-  },
-  {
-    "id": 185,
-    "slug": "bobby-app-subscription-tracker",
-    "name": "Bobby - Track your subscriptions",
-    "whatItDoes": "Bobby is a minimalist and intuitive mobile app designed specifically for tracking recurring subscriptions, developed by its creators, Thomas and Nick. It helps users gain an overview of their monthly or yearly recurring expenses by listing all active subscriptions in one place. The app is ideal for anyone who has lost track of their various streaming services, software licenses, or gym memberships. Users open Bobby when they sign up for a new service or want to review their total recurring outgoings, making it easy to identify unnecessary expenses. It operates as a standalone mobile application available on iOS and Android, without requiring bank integrations.",
-    "category": "Finance",
-    "whyItIsUseful": "Bobby offers a focused, distraction-free way to manage subscriptions, unlike broader budgeting apps that can overwhelm with too many features. For the digital native juggling numerous streaming services and SaaS tools, Bobby provides a clear, actionable summary of recurring costs. For the budget-conscious individual, it serves as a powerful reminder to cancel unused subscriptions, saving significant money over time. The app is free to download and use for a limited number of subscriptions, with a one-time in-app purchase unlocking unlimited entries and additional features. A subtle but powerful feature is its notification system, which can remind you days before a subscription renews, giving you time to cancel. Its simplicity means it doesn't offer bank syncing or detailed budgeting, which might limit its appeal to users seeking comprehensive financial management. Bobby is regularly updated to ensure compatibility and add new predefined subscription templates.",
-    "imageIdea": "Bobby app interface on a smartphone showing a list of subscriptions with total monthly cost",
-    "websiteLink": "https://www.bobbyapp.co/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/bobby-app-subscription-tracker.webp"
-  },
-  {
-    "id": 186,
-    "slug": "goodbudget-envelope-budgeting-app",
-    "name": "Goodbudget",
-    "whatItDoes": "Goodbudget is a personal finance app that brings the classic envelope budgeting system to the digital age, developed by the company Dayspring Technologies. It helps users plan their spending by allocating income into virtual 'envelopes' for different expense categories. The tool is specifically designed for individuals and couples who want to budget together and stick to their financial goals. Users primarily interact with Goodbudget multiple times a week to track expenses against their allocated envelopes and ensure they don't overspend. It offers cross-platform syncing across web and mobile (iOS and Android), enabling real-time collaboration between household members.",
-    "category": "Finance",
-    "whyItIsUseful": "Goodbudget provides a user-friendly, collaborative approach to envelope budgeting, offering a more structured spending plan than many basic budgeting apps. For the couple sharing finances, its multi-device syncing and shared account features make joint budgeting seamless and transparent. For the disciplined saver, the visual envelope system provides immediate feedback on spending, reinforcing good habits. Goodbudget offers a free version with limited envelopes and accounts, while a paid 'Plus' subscription unlocks unlimited features and more historical data. A less obvious feature is its 'Fill Envelopes' function, which allows users to easily distribute income across their budget categories with smart suggestions. It's not as widely known as YNAB partly because it focuses purely on the envelope system, which might feel restrictive to some, and its marketing reach is smaller. The app receives regular updates and has a supportive online community through its blog and social channels.",
-    "imageIdea": "Goodbudget app interface showing colorful virtual envelopes with allocated funds",
-    "websiteLink": "https://goodbudget.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/goodbudget-envelope-budgeting-app.webp"
-  },
-  {
-    "id": 187,
-    "slug": "cointracking-crypto-portfolio-tax",
-    "name": "CoinTracking",
-    "whatItDoes": "CoinTracking is a comprehensive cryptocurrency portfolio tracker and tax reporting tool, developed by a dedicated team focused on digital assets. It allows users to import trades from hundreds of exchanges and wallets, track their crypto portfolio's performance in real-time, and generate detailed tax reports. This tool is built for cryptocurrency investors and traders who need to manage their diverse digital assets and comply with tax regulations in various countries. Users integrate CoinTracking into their workflow by importing transaction data regularly, especially at tax time to generate accurate reports. It integrates with over 110 crypto exchanges, supports various wallets, and provides API connections for automatic data synchronization.",
-    "category": "Finance",
-    "whyItIsUseful": "CoinTracking offers a more robust and feature-rich solution for crypto portfolio management and tax reporting than basic exchange tools or general finance apps. For the active crypto trader with transactions across multiple exchanges and DeFi platforms, it provides unparalleled data aggregation and accuracy for P&L and tax calculations. For the investor navigating complex crypto tax laws, its country-specific tax reports (e.g., FIFO, LIFO, HIFO) are indispensable. It offers a free plan for up to 200 transactions, with paid subscriptions unlocking unlimited transactions, advanced features, and priority support. A powerful but often underutilized feature is its 'Tax-Loss Harvesting' report, which identifies opportunities to minimize capital gains taxes. Its complexity and the subscription cost for large transaction volumes might deter casual crypto users, limiting its broader appeal. CoinTracking boasts an extensive knowledge base, a community forum, and receives frequent updates to comply with evolving tax laws and exchange integrations.",
-    "imageIdea": "CoinTracking dashboard showing a crypto portfolio graph and recent transaction list",
-    "websiteLink": "https://cointracking.info",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/cointracking-crypto-portfolio-tax.webp"
-  },
-  {
     "id": 283,
     "slug": "tiller-money-spreadsheets-automation",
     "name": "Tiller Money",
@@ -5057,8 +4992,8 @@
     "websiteLink": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
     "type": "hidden-gem",
     "dateAdded": "2026-04-30",
-    "badge": "editors-pick",
-    "screenshotUrl": "/screenshots/auto-architecture-tournament.webp"
+    "screenshotUrl": "/screenshots/auto-architecture-tournament.webp",
+    "badge": "editors-pick"
   },
   {
     "id": 739,
@@ -5086,8 +5021,8 @@
     "websiteLink": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
     "type": "hidden-gem",
     "dateAdded": "2026-04-30",
-    "badge": "editors-pick",
-    "screenshotUrl": "/screenshots/belgium-nuclear-decommissioning-news.webp"
+    "screenshotUrl": "/screenshots/belgium-nuclear-decommissioning-news.webp",
+    "badge": "editors-pick"
   },
   {
     "id": 741,
@@ -5101,8 +5036,8 @@
     "websiteLink": "https://www.bbc.com/news/articles/c5y7yvgy0w6o",
     "type": "hidden-gem",
     "dateAdded": "2026-04-30",
-    "badge": "editors-pick",
-    "screenshotUrl": "/screenshots/meta-smart-glasses-incident.webp"
+    "screenshotUrl": "/screenshots/meta-smart-glasses-incident.webp",
+    "badge": "editors-pick"
   },
   {
     "id": 742,
@@ -5186,8 +5121,8 @@
     "websiteLink": "https://ladybird.org/newsletter/2026-04-30/",
     "type": "hidden-gem",
     "dateAdded": "2026-05-03",
-    "badge": "editors-pick",
-    "screenshotUrl": "/screenshots/ladybird-web-browser-newsletter-april-2026.webp"
+    "screenshotUrl": "/screenshots/ladybird-web-browser-newsletter-april-2026.webp",
+    "badge": "editors-pick"
   },
   {
     "id": 749,
@@ -6106,5 +6041,75 @@
     "type": "hidden-gem",
     "dateAdded": "2026-07-01",
     "screenshotUrl": "/screenshots/color-contrast-checker-2.webp"
+  },
+  {
+    "id": 821,
+    "slug": "half-baked-product",
+    "name": "Half-Baked Product",
+    "seoTitle": "Half-Baked Product — Ideas for imperfect launches",
+    "whatItDoes": "This article explores the concept of launching 'half-baked' products, advocating for an iterative approach to software development and product releases. It challenges the conventional wisdom of aiming for perfection before launch, instead encouraging developers and entrepreneurs to release functional, albeit incomplete, versions to gather real-world feedback. The core idea is to accelerate learning and adaptation by putting products in the hands of users sooner rather than later, even if they lack a full feature set. This strategy aims to reduce wasted development effort on features that users don't actually want or need.",
+    "category": "Productivity",
+    "whyItIsUseful": "In today's fast-paced market, the pressure to release flawless products can lead to paralysis or extensive development cycles that miss market opportunities. 'Half-Baked Product' offers a pragmatic counter-narrative, emphasizing the value of Minimum Viable Products (MVPs) taken to a more actionable extreme. It's particularly useful for startups and established companies alike who want to de-risk new ventures by validating core assumptions early and often. Power users of this methodology often find it fosters a more agile culture, encourages user-centric design through direct feedback, and allows for quicker pivots based on market response rather than internal speculation. It's ideal for anyone building digital products who feels the burden of perfectionism.",
+    "imageIdea": "partially assembled robot",
+    "websiteLink": "https://weli.dev/blog/half-baked-product/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-03",
+    "screenshotUrl": "/screenshots/half-baked-product.webp"
+  },
+  {
+    "id": 822,
+    "slug": "right-to-local-intelligence",
+    "name": "Right to Local Intelligence",
+    "seoTitle": "Right to Local Intelligence — Protects your data",
+    "whatItDoes": "The 'Right to Local Intelligence' initiative advocates for individuals' fundamental rights to control and understand the data collected about them locally, especially from IoT devices and smart home technologies. It highlights the growing concerns around pervasive data collection by connected devices in our homes and environments, and the lack of transparency and user control over this information. The project aims to educate the public and policymakers about these issues, pushing for stronger regulations and technical standards that empower individuals to manage their digital footprint.",
+    "category": "Reference",
+    "whyItIsUseful": "While data privacy is a well-known concern, the specific angle of 'local intelligence' – data generated and potentially processed within your own devices and home network – is less commonly discussed. This initiative provides a crucial lens on the invisible data streams emanating from our increasingly connected lives. It's useful for anyone concerned about the privacy implications of smart speakers, security cameras, fitness trackers, and other Internet of Things (IoT) devices that are becoming ubiquitous. By focusing on local data, it tackles privacy issues at their source, offering a more granular and actionable approach to data control than general privacy policies often provide. It's particularly valuable for tech-savvy individuals and privacy advocates seeking to understand and influence the evolving landscape of personal data.",
+    "imageIdea": "digital key unlocking a smart home",
+    "websiteLink": "https://righttointelligence.org/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-03",
+    "screenshotUrl": "/screenshots/right-to-local-intelligence.webp"
+  },
+  {
+    "id": 823,
+    "slug": "virginia-bans-sale-of-geolocation-data",
+    "name": "Virginia bans sale of geolocation data",
+    "seoTitle": "Virginia bans sale of geolocation data — Privacy law",
+    "whatItDoes": "This article from Hunton Andrews Kurth LLP details the landmark legislation passed in Virginia that prohibits the sale of geolocation data without consumer consent. It explains the specifics of the law, including what constitutes 'geolocation data' and the implications for businesses that collect, process, or sell such information. The ban aims to give individuals greater control over their location data, which can be highly sensitive and revealing about their habits, routines, and personal associations. It represents a significant step forward in consumer privacy protection regarding location tracking.",
+    "category": "Reference",
+    "whyItIsUseful": "While many states are enacting privacy laws, Virginia's ban on the sale of geolocation data is a particularly strong and focused piece of legislation that directly addresses a highly sensitive data type. This article is useful for understanding the practical implications of such a ban, not just for consumers but also for businesses operating in or marketing to Virginia. It highlights a critical trend where governments are increasingly recognizing the unique privacy risks associated with location data and are taking concrete steps to regulate its monetization. Anyone involved in marketing, data analytics, or concerned about their own location privacy will find this information essential for navigating current and future data regulations. It signals a growing regulatory environment that prioritizes user consent for precise personal information.",
+    "imageIdea": "no trespassing sign over a GPS icon",
+    "websiteLink": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-03",
+    "screenshotUrl": "/screenshots/virginia-bans-sale-of-geolocation-data.webp"
+  },
+  {
+    "id": 824,
+    "slug": "carplay-is-additive",
+    "name": "CarPlay Is Additive",
+    "seoTitle": "CarPlay Is Additive — User interface critique",
+    "whatItDoes": "This article presents a critique of Apple CarPlay's user interface design, arguing that its 'additive' nature – building upon the car manufacturer's existing infotainment system – leads to a suboptimal and often confusing user experience. The author contends that CarPlay doesn't seamlessly integrate or replace the native car UI, resulting in duplicate controls, inconsistent aesthetics, and a general lack of intuitive flow. The piece uses specific examples to illustrate how this layered approach compromises usability, making it harder for drivers to access essential functions or navigate between different system layers.",
+    "category": "Productivity",
+    "whyItIsUseful": "Many users experience frustration with in-car infotainment systems, and this article provides a well-articulated explanation for why CarPlay, despite its popularity, can often fall short. It delves into the nuances of user interface design and system integration, offering valuable insights for anyone who uses CarPlay or works in the automotive tech space. The 'additive' critique is particularly resonant, as it explains the common phenomenon of encountering multiple, conflicting control schemes within a single vehicle. For designers and developers, it's a cautionary tale about the importance of true integration versus layered functionality. For end-users, it validates their frustrations and offers a framework for understanding the design choices that impact their driving experience.",
+    "imageIdea": "layered car dashboard controls",
+    "websiteLink": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-03",
+    "screenshotUrl": "/screenshots/carplay-is-additive.webp"
+  },
+  {
+    "id": 825,
+    "slug": "textgenr",
+    "name": "Text Generation Playground",
+    "seoTitle": "Text Generation Playground — Generative AI writer's block solution",
+    "whatItDoes": "This web-based tool, developed by AI21 Labs, offers a robust playground for experimenting with their Jurassic-2 large language models. It allows users to generate text, paraphrase existing content, summarize documents, and answer questions based on provided context. The interface is designed to be intuitive, enabling quick iteration and exploration of different AI capabilities without requiring complex coding. Developers and writers can use it to brainstorm ideas, draft content, or simply understand the nuances of LLM outputs.",
+    "category": "Writing",
+    "whyItIsUseful": "While many are familiar with general-purpose AI chatbots, Text Generation Playground offers a more focused and sophisticated environment for serious content creators and developers. Its strength lies in the fine-grained control it provides over generation parameters, allowing for precise tuning of creativity, length, and style. Unlike generic interfaces, it exposes the underlying capabilities of powerful language models like Jurassic-2, enabling users to truly push the boundaries of AI-assisted writing. Power users appreciate the ability to chain operations, like summarizing a long article and then using that summary to generate a social media post. It’s particularly valuable for those who need to generate high-quality, specific types of text reliably.",
+    "imageIdea": "laboratory beaker with swirling colorful liquids",
+    "websiteLink": "https://studio.ai21.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-03",
+    "screenshotUrl": "/screenshots/textgenr.webp"
   }
 ]

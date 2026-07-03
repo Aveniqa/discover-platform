@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>loop-engineering</title>
+      <link>https://surfaced-x.pages.dev/item/loop-engineering-ai</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/loop-engineering-ai</guid>
+      <description>Loop Engineering provides practical patterns, starters, and CLI tools for designing systems that effectively prompt and orchestrate AI coding agents. Inspired by prominent figures in the AI and software design fields, it focuses on building robust and scalable AI agent systems. The project includes utilities like `loop-audit` to help analyze and improve agent behavior, encouraging a systematic approach to developing AI-powered solutions. It&apos;s designed for developers who want to create more intelligent and autonomous systems by leveraging the power of multiple AI agents working in concert.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/3862374/pexels-photo-3862374.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/3862374/pexels-photo-3862374.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/3862374/pexels-photo-3862374.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>DeepSpec</title>
+      <link>https://surfaced-x.pages.dev/item/deepspec-code</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepspec-code</guid>
+      <description>DeepSpec is a full-stack codebase designed for training and evaluating speculative decoding algorithms. These algorithms are crucial for improving the efficiency and speed of large language models (LLMs) by allowing them to predict multiple future tokens in parallel, rather than sequentially. The project provides the necessary tools and infrastructure for researchers and developers to experiment with, implement, and benchmark these advanced decoding strategies, aiming to make LLMs more performant and accessible.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g58bd13e483699f504f6cd33b6b31333bd403b092973a4fbf5498679f6b63a0e618798e2bf895810ccc6ec67653627b7e37817d18cdb1e39dbbf3fdc07d708ff4_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g58bd13e483699f504f6cd33b6b31333bd403b092973a4fbf5498679f6b63a0e618798e2bf895810ccc6ec67653627b7e37817d18cdb1e39dbbf3fdc07d708ff4_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g58bd13e483699f504f6cd33b6b31333bd403b092973a4fbf5498679f6b63a0e618798e2bf895810ccc6ec67653627b7e37817d18cdb1e39dbbf3fdc07d708ff4_1280.jpg" />
+    </item>
+    <item>
+      <title>Goldfish</title>
+      <link>https://surfaced-x.pages.dev/item/goldfish-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/goldfish-app</guid>
+      <description>Goldfish is an AI-powered writing assistant for Mac that proactively understands your work context. Unlike many AI tools that require extensive prompting and background explanation, Goldfish privately remembers your ongoing projects and writing activities across your Mac. It then uses this context to provide relevant suggestions and improvements directly within any application you&apos;re using. This allows for a more seamless and intuitive writing experience, as the AI already knows what you&apos;re trying to achieve.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1730324902640-185c867d93d0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwODMyNzF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1730324902640-185c867d93d0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwODMyNzF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1730324902640-185c867d93d0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMwODMyNzF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>omnigent</title>
+      <link>https://surfaced-x.pages.dev/item/omnigent</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/omnigent</guid>
+      <description>Omnigent is a powerful open-source AI agent framework and meta-harness designed to orchestrate a diverse range of AI models and custom agents. It allows users to seamlessly swap between different AI backends, including popular options like Claude Code, Codex, Cursor, and Pi, without extensive code rewrites. A key feature is its ability to enforce policies and sandboxing, ensuring secure and controlled execution of AI tasks. This framework simplifies the complex process of integrating and managing multiple AI agents, making it easier to build sophisticated AI-powered applications.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>MiMo-Code</title>
+      <link>https://surfaced-x.pages.dev/item/mimo-code</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mimo-code</guid>
+      <description>MiMo-Code is an innovative TypeScript project focused on the co-evolution of AI models and agents. It provides a framework for exploring how these entities can learn from and influence each other over time, pushing the boundaries of artificial intelligence development. The project is open-source, encouraging community contributions and experimentation in areas like adaptive learning and multi-agent systems. It aims to facilitate the creation of more sophisticated and autonomous AI systems that can adapt to new information and challenges.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/18069694/pexels-photo-18069694.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/18069694/pexels-photo-18069694.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/18069694/pexels-photo-18069694.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>improve</title>
       <link>https://surfaced-x.pages.dev/item/improve-ai-code-auditor</link>
@@ -415,6 +470,17 @@
       <media:thumbnail url="https://images.unsplash.com/photo-1719253480609-579ad1622c65?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
+      <title>Text Generation Playground</title>
+      <link>https://surfaced-x.pages.dev/item/textgenr</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/textgenr</guid>
+      <description>This web-based tool, developed by AI21 Labs, offers a robust playground for experimenting with their Jurassic-2 large language models. It allows users to generate text, paraphrase existing content, summarize documents, and answer questions based on provided context. The interface is designed to be intuitive, enabling quick iteration and exploration of different AI capabilities without requiring complex coding. Developers and writers can use it to brainstorm ideas, draft content, or simply understand the nuances of LLM outputs.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7723275/pexels-photo-7723275.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7723275/pexels-photo-7723275.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7723275/pexels-photo-7723275.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>OpenMythos</title>
       <link>https://surfaced-x.pages.dev/item/daily-tool-openmythos</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-openmythos</guid>
@@ -424,6 +490,17 @@
       <enclosure url="https://images.pexels.com/photos/6424590/pexels-photo-6424590.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/6424590/pexels-photo-6424590.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/6424590/pexels-photo-6424590.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>CarPlay Is Additive</title>
+      <link>https://surfaced-x.pages.dev/item/carplay-is-additive</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/carplay-is-additive</guid>
+      <description>This article presents a critique of Apple CarPlay&apos;s user interface design, arguing that its &apos;additive&apos; nature – building upon the car manufacturer&apos;s existing infotainment system – leads to a suboptimal and often confusing user experience. The author contends that CarPlay doesn&apos;t seamlessly integrate or replace the native car UI, resulting in duplicate controls, inconsistent aesthetics, and a general lack of intuitive flow. The piece uses specific examples to illustrate how this layered approach compromises usability, making it harder for drivers to access essential functions or navigate between different system layers.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/13535542/pexels-photo-13535542.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/13535542/pexels-photo-13535542.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/13535542/pexels-photo-13535542.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Muse</title>
@@ -437,6 +514,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/7964034/pexels-photo-7964034.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Virginia bans sale of geolocation data</title>
+      <link>https://surfaced-x.pages.dev/item/virginia-bans-sale-of-geolocation-data</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/virginia-bans-sale-of-geolocation-data</guid>
+      <description>This article from Hunton Andrews Kurth LLP details the landmark legislation passed in Virginia that prohibits the sale of geolocation data without consumer consent. It explains the specifics of the law, including what constitutes &apos;geolocation data&apos; and the implications for businesses that collect, process, or sell such information. The ban aims to give individuals greater control over their location data, which can be highly sensitive and revealing about their habits, routines, and personal associations. It represents a significant step forward in consumer privacy protection regarding location tracking.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8684217/pexels-photo-8684217.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8684217/pexels-photo-8684217.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8684217/pexels-photo-8684217.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Ark (Desktop App)</title>
       <link>https://surfaced-x.pages.dev/item/ark-desktop</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ark-desktop</guid>
@@ -448,6 +536,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/17400199/pexels-photo-17400199.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Right to Local Intelligence</title>
+      <link>https://surfaced-x.pages.dev/item/right-to-local-intelligence</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/right-to-local-intelligence</guid>
+      <description>The &apos;Right to Local Intelligence&apos; initiative advocates for individuals&apos; fundamental rights to control and understand the data collected about them locally, especially from IoT devices and smart home technologies. It highlights the growing concerns around pervasive data collection by connected devices in our homes and environments, and the lack of transparency and user control over this information. The project aims to educate the public and policymakers about these issues, pushing for stronger regulations and technical standards that empower individuals to manage their digital footprint.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/31989061/pexels-photo-31989061.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/31989061/pexels-photo-31989061.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/31989061/pexels-photo-31989061.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Canny</title>
       <link>https://surfaced-x.pages.dev/item/canny-feedback</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/canny-feedback</guid>
@@ -457,102 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/10029877/pexels-photo-10029877.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/10029877/pexels-photo-10029877.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/10029877/pexels-photo-10029877.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>codeburn</title>
-      <link>https://surfaced-x.pages.dev/item/codeburn-ai-cost-tracker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/codeburn-ai-cost-tracker</guid>
-      <description>codeburn is an interactive Terminal User Interface (TUI) dashboard designed to provide cost observability for AI coding tools like Claude Code, Codex, and Cursor. It helps developers understand exactly where their AI token usage is going, allowing them to monitor and manage expenses associated with AI-powered coding assistance. The tool offers a clear, visual breakdown of token consumption, enabling users to identify areas of potential overspending or inefficient usage. codeburn is a free, open-source project hosted on GitHub, built with TypeScript. It addresses the growing concern of rising AI service costs by bringing transparency to LLM interactions within the development workflow.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDcyNzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDcyNzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1MDcyNzB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Color Contrast Checker</title>
-      <link>https://surfaced-x.pages.dev/item/color-contrast-checker-2</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/color-contrast-checker-2</guid>
-      <description>This web-based tool allows designers and developers to easily check the contrast ratio between two colors. It helps ensure that text is legible against its background, adhering to accessibility guidelines like WCAG. You simply input your foreground and background colors using hex codes, RGB, or HSL values, and it provides the contrast ratio, along with a pass/fail indication for different WCAG levels. It&apos;s invaluable for creating websites and applications that are usable by everyone, including those with visual impairments. Built by WebAIM, a leading accessibility organization, it&apos;s a go-to resource for many in the field.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/10481270/pexels-photo-10481270.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/10481270/pexels-photo-10481270.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/10481270/pexels-photo-10481270.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>ds4</title>
-      <link>https://surfaced-x.pages.dev/item/deepseek-4-flash</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepseek-4-flash</guid>
-      <description>ds4 (DeepSeek 4 Flash) is a highly optimized local inference engine designed specifically for Apple Silicon Macs with Metal GPU support. It allows users to run large language models (LLMs) directly on their own hardware, bypassing cloud dependencies and offering enhanced privacy and speed. This open-source tool is written in C, prioritizing efficiency and performance. Its primary value lies in its ability to leverage the unique architecture of Apple Silicon for rapid LLM execution, making advanced AI capabilities accessible without dedicated servers or expensive cloud subscriptions. The tool is freely available on GitHub.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>ZCode: Claude Code from the Makers of GLM</title>
-      <link>https://surfaced-x.pages.dev/item/zcode-claude-code</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zcode-claude-code</guid>
-      <description>ZCode is a new AI-powered coding assistant developed by the creators of GLM (General Language Model), a prominent AI research organization. It&apos;s designed to help developers write, debug, and optimize code more efficiently. Leveraging advanced large language models, ZCode understands context, suggests code completions, identifies potential errors, and can even generate boilerplate code based on natural language descriptions. The tool aims to streamline the software development lifecycle by providing intelligent assistance directly within the coding environment.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Bevy</title>
-      <link>https://surfaced-x.pages.dev/item/bevy-game-engine-rust</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bevy-game-engine-rust</guid>
-      <description>Bevy is a free, open-source, data-driven game engine built in Rust, designed for rapid development and performance. It leverages the power of the Rust programming language for safety and speed, while its architecture is inspired by data-oriented design principles. Bevy focuses on providing a modular and extensible framework, making it approachable for beginners while offering the depth needed for complex projects. It&apos;s an excellent choice for indie game developers, hobbyists, and anyone interested in exploring modern game development paradigms without the cost of proprietary engines. Bevy is particularly adept at creating efficient and scalable game logic through its robust entity-component-system (ECS) architecture.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/g6dd5172195bbaab17195847145b818e6f0d4dacfb7c1b8f5eb3c0d9f9949209bacb3914fefe9c9980bf76edc5694dc2e93a10d574a33532890b7d6d5801e4b6f_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/g6dd5172195bbaab17195847145b818e6f0d4dacfb7c1b8f5eb3c0d9f9949209bacb3914fefe9c9980bf76edc5694dc2e93a10d574a33532890b7d6d5801e4b6f_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/g6dd5172195bbaab17195847145b818e6f0d4dacfb7c1b8f5eb3c0d9f9949209bacb3914fefe9c9980bf76edc5694dc2e93a10d574a33532890b7d6d5801e4b6f_1280.jpg" />
-    </item>
-    <item>
-      <title>Physical disc production ending in Jan 2028 for new games on PlayStation</title>
-      <link>https://surfaced-x.pages.dev/item/playstation-blog-physical-disc-end</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/playstation-blog-physical-disc-end</guid>
-      <description>This official announcement from the PlayStation Blog details the forthcoming cessation of physical disc production for new game releases on PlayStation consoles, scheduled for January 2028. It outlines Sony&apos;s strategic shift towards a digital-first distribution model. The article addresses implications for publishers, developers, and consumers, signaling a significant transition in the gaming industry&apos;s physical media landscape. It suggests that while existing physical titles will remain playable, new game sales will predominantly occur through digital storefronts.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3945664/pexels-photo-3945664.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3945664/pexels-photo-3945664.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3945664/pexels-photo-3945664.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Google Docs</title>
-      <link>https://surfaced-x.pages.dev/item/google-docs-collaboration</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/google-docs-collaboration</guid>
-      <description>Google Docs is a free, web-based word processor that allows users to create, edit, and collaborate on documents in real-time. It offers a familiar interface with robust formatting tools, templates, and the ability to insert images, tables, and drawings. The key differentiator is its seamless real-time collaboration feature, allowing multiple users to work on the same document simultaneously, with changes visible instantly. Documents are automatically saved to Google Drive, ensuring they are accessible from any device. It’s particularly effective for group projects and co-authoring, making remote teamwork effortless.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8636637/pexels-photo-8636637.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8636637/pexels-photo-8636637.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8636637/pexels-photo-8636637.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>For first time, a cell built from scratch grows and divides</title>
-      <link>https://surfaced-x.pages.dev/item/quantamagazine-synthetic-cell-growth</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/quantamagazine-synthetic-cell-growth</guid>
-      <description>This article from Quanta Magazine reports on a groundbreaking scientific achievement: the creation of the first fully synthetic cell capable of autonomous growth and division. Researchers designed and built a minimal bacterial cell from the ground up, a significant step in synthetic biology. The work demonstrates the ability to engineer life&apos;s fundamental processes, opening doors for new approaches in medicine, materials science, and our understanding of life itself. It details the complex genetic and chemical engineering required to achieve this self-sustaining biological system.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/36372298/pexels-photo-36372298.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/36372298/pexels-photo-36372298.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/36372298/pexels-photo-36372298.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Typefully</title>
-      <link>https://surfaced-x.pages.dev/item/typefully-writing-platform</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typefully-writing-platform</guid>
-      <description>Typefully is a streamlined writing platform specifically built for crafting engaging social media content, particularly for Twitter (X). It provides a distraction-free environment with advanced writing tools like AI-powered suggestions, readability checks, and character count optimization, ensuring your message is clear and impactful. Typefully focuses on helping users write better threads, individual posts, and schedule them efficiently. It operates on a freemium model, offering core writing features for free and paid tiers for advanced analytics, unlimited scheduling, and team collaboration. Its strength lies in its specialized focus on making social media writing effective and efficient.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/15595294/pexels-photo-15595294.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/15595294/pexels-photo-15595294.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/15595294/pexels-photo-15595294.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

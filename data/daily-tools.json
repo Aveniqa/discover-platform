@@ -1,70 +1,5 @@
 [
   {
-    "id": 181,
-    "slug": "cointracker-crypto-portfolio-tax",
-    "toolName": "CoinTracker",
-    "whatItDoes": "CoinTracker is a leading cryptocurrency portfolio tracker and tax software developed by Chandan Lodha and Jon Lerner. It aggregates all your crypto holdings and transactions from various exchanges and wallets into a single, unified dashboard. The primary workflow involves connecting your cryptocurrency exchanges (e.g., Coinbase, Binance) and wallets (e.g., MetaMask, Ledger), then CoinTracker automatically syncs and categorizes transactions. CoinTracker is accessible via web, iOS, and Android. The most used feature is its real-time portfolio tracking, showing current value, gains/losses, and allocation across all assets. Transaction data and portfolio values are securely cloud-synced, with integrations allowing for tax report generation.",
-    "category": "Finance",
-    "whyItIsUseful": "CoinTracker eliminates the chaos and complexity of managing multiple cryptocurrency holdings and the daunting task of calculating crypto taxes. For the active crypto trader, it provides a crucial, consolidated view of their entire portfolio performance across numerous exchanges, helping them make informed trading decisions. For anyone holding crypto, it simplifies tax season by generating compliant tax reports (like Form 8949) based on all their transactions, saving countless hours of manual calculation. CoinTracker offers a genuinely useful free tier that supports up to 25 transactions and a limited number of wallets/exchanges, perfect for casual users, with paid plans for more extensive needs. Unlike manual spreadsheets or basic exchange-specific trackers, CoinTracker offers comprehensive multi-exchange integration, advanced tax calculation features, and deep analytics. Its 'What if' tool, allowing users to model future transactions for tax implications, is a powerful feature for tax planning. A non-technical person can easily connect their main exchange accounts and see their portfolio in under 10 minutes, though advanced tax features require more setup.",
-    "imageIdea": "CoinTracker dashboard displaying a crypto portfolio's value, asset allocation, and transaction history",
-    "websiteLink": "https://www.cointracker.io",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/cointracker-crypto-portfolio-tax.webp"
-  },
-  {
-    "id": 182,
-    "slug": "float-cash-flow-forecasting",
-    "toolName": "Float",
-    "whatItDoes": "Float is a cloud-based cash flow forecasting software specifically designed for small and medium-sized businesses, created by Float. It integrates with accounting software like Xero, QuickBooks Online, and FreeAgent to pull financial data and project future cash flow with accuracy. The primary workflow involves connecting your accounting system, then using Float's intuitive interface to build, adjust, and analyze cash flow forecasts based on scheduled income and expenses. Float is a web-based platform. The most used feature is its scenario planning tool, allowing users to model different financial outcomes. All financial data is securely synced from connected accounting software and stored in Float's cloud infrastructure.",
-    "category": "Finance",
-    "whyItIsUseful": "Float eliminates the uncertainty and guesswork around future business finances, allowing businesses to proactively manage their cash flow and make strategic decisions with confidence. For a startup founder, Float provides a clear runway projection, helping them understand when they might need additional funding or adjust spending. For a small business owner planning a major investment, it models the impact on their cash reserves, ensuring they maintain liquidity. Float offers a 14-day free trial that is genuinely useful for evaluating its forecasting capabilities, with full functionality behind a paid subscription. Compared to complex spreadsheet models that are prone to errors and time-consuming, Float automates data import, offers robust visualization, and provides dynamic scenario planning. Its 'What if' scenarios, such as delaying a project or securing a new client, are powerful features for strategic financial planning. While connecting accounting software requires some familiarity, a non-technical business owner can typically generate their first forecast in under 30 minutes.",
-    "imageIdea": "Float dashboard showing a cash flow forecast graph with different scenario lines",
-    "websiteLink": "https://floatapp.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/float-cash-flow-forecasting.webp"
-  },
-  {
-    "id": 184,
-    "slug": "everlance-mileage-expense-tracker",
-    "toolName": "Everlance",
-    "whatItDoes": "Everlance is an automatic mileage and expense tracker designed for freelancers, independent contractors, and businesses. Developed by Everlance Inc., it helps users maximize tax deductions and reimbursements by accurately logging business trips and expenses. The primary workflow involves automatically tracking drives in the background via GPS and allowing users to swipe to classify trips as business or personal, as well as capturing receipts. Everlance is available on iOS and Android, and has a web dashboard for reporting. The most used feature is its automatic mileage tracking, ensuring no deductible trip is missed. All mileage and expense data is securely stored and synced in the cloud.",
-    "category": "Finance",
-    "whyItIsUseful": "Everlance eliminates the tedious and often forgotten task of manual mileage logging, ensuring users capture every possible tax deduction and reimbursement for business travel. For a real estate agent, Everlance automatically records every client visit and property showing, providing an accurate, IRS-compliant log for tax time without any manual effort. For a delivery driver, it simplifies tracking all business-related drives, helping them claim significant mileage deductions against their income. Everlance offers a free tier that includes 30 trips per month and unlimited expense tracking, which is genuinely useful for casual users, with paid plans unlocking unlimited mileage. Compared to manual logs or basic GPS apps, Everlance offers automatic classification, integration with expense tracking, and IRS-compliant reports, making it a professional-grade solution. Its 'Favorites' feature, allowing users to automatically classify frequent trips or locations, is a powerful time-saver. A non-technical person can download the app, set it up, and start automatically tracking drives in under 5 minutes.",
-    "imageIdea": "Everlance app showing a map with tracked routes and options to classify trips",
-    "websiteLink": "https://www.everlance.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/everlance-mileage-expense-tracker.webp"
-  },
-  {
-    "id": 185,
-    "slug": "everydollar-budgeting-app",
-    "toolName": "EveryDollar",
-    "whatItDoes": "EveryDollar is a budgeting app created by financial expert Dave Ramsey's team, focused on helping users create a zero-based budget and track their spending. It promotes the philosophy of giving every dollar a job at the beginning of the month to avoid overspending and work towards financial goals. Users manually input their income and expenses, then track transactions against their allocated budget categories. EveryDollar is available on web, iOS, and Android. The most used feature is its intuitive drag-and-drop budget creation, making it easy to allocate funds. All budget data is securely cloud-synced across devices.",
-    "category": "Finance",
-    "whyItIsUseful": "EveryDollar eliminates the financial stress caused by not knowing where your money goes, providing a clear roadmap for intentional spending and saving. For a college graduate tackling student loan debt, EveryDollar helps them create a strict budget to funnel extra money towards their loans, accelerating their debt-free journey. For a family saving for a vacation, it allows them to allocate specific amounts each month towards their travel fund, visualizing their progress and staying on track. EveryDollar offers a robust free version for manual budgeting, which is genuinely useful for committed users, with a paid 'Plus' version adding bank connectivity. Unlike simple expense trackers, EveryDollar enforces a proactive, zero-based budgeting approach, compelling users to plan their spending rather than just record it. Its 'Baby Steps' integration, guiding users through Dave Ramsey's proven financial plan, is a powerful feature for those committed to financial freedom. A non-technical person can easily set up their first zero-based budget in under 10 minutes.",
-    "imageIdea": "EveryDollar app interface showing budget categories with allocated funds and remaining balances",
-    "websiteLink": "https://www.everydollar.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/everydollar-budgeting-app.webp"
-  },
-  {
-    "id": 186,
-    "slug": "honey-smart-shopping-assistant",
-    "toolName": "Honey (Browser Extension)",
-    "whatItDoes": "Honey, a browser extension and app by PayPal, is a smart shopping assistant designed to automatically find and apply coupon codes at checkout when shopping online. It also offers cashback rewards and price tracking features. The primary workflow involves installing the browser extension, which then automatically scans for and applies the best available coupon codes at thousands of online stores. Honey is available as a browser extension for Chrome, Firefox, Safari, Edge, and Opera, and also has an iOS and Android app. The most used feature is its automatic coupon code application, saving users money with minimal effort. User data related to shopping habits is collected to provide relevant deals, with privacy policies in place.",
-    "category": "Finance | Automation",
-    "whyItIsUseful": "Honey eliminates the frustrating and time-consuming process of searching for valid coupon codes, ensuring users never miss out on potential savings when shopping online. For the frequent online shopper, Honey acts as a silent assistant, automatically applying the best discount codes at checkout across countless retailers, saving them money effortlessly. For a budget-conscious individual, it helps stretch their budget further by finding deals on everyday purchases, making their money go a bit further without extra effort. Honey is completely free for users, making it a genuinely useful tool that provides value without a paywall, as it earns commission from retailers. Unlike manually searching for coupon codes on various websites, Honey automates the entire process and often finds exclusive deals or combines discounts for maximum savings. Its 'Droplist' feature, allowing users to track prices of items and get notifications when they drop, is a powerful tool for strategic shopping. Installing and setting up the Honey extension takes less than 1 minute for a non-technical person.",
-    "imageIdea": "Browser screenshot showing Honey extension icon with a notification of applied coupons at checkout",
-    "websiteLink": "https://www.joinhoney.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/honey-smart-shopping-assistant.webp"
-  },
-  {
     "id": 187,
     "slug": "fyle-expense-management-software",
     "toolName": "Fyle",
@@ -4899,8 +4834,8 @@
     "websiteLink": "https://github.com/op7418/guizang-ppt-skill",
     "type": "tool",
     "dateAdded": "2026-04-29",
-    "badge": "editors-pick",
-    "screenshotUrl": "/screenshots/guizang-ppt-skill.webp"
+    "screenshotUrl": "/screenshots/guizang-ppt-skill.webp",
+    "badge": "editors-pick"
   },
   {
     "id": 792,
@@ -5891,5 +5826,74 @@
     "type": "tool",
     "dateAdded": "2026-07-01",
     "screenshotUrl": "/screenshots/improve-ai-code-auditor.webp"
+  },
+  {
+    "id": 866,
+    "slug": "mimo-code",
+    "toolName": "MiMo-Code",
+    "seoTitle": "MiMo-Code — AI Models Agents Evolve",
+    "whatItDoes": "MiMo-Code is an innovative TypeScript project focused on the co-evolution of AI models and agents. It provides a framework for exploring how these entities can learn from and influence each other over time, pushing the boundaries of artificial intelligence development. The project is open-source, encouraging community contributions and experimentation in areas like adaptive learning and multi-agent systems. It aims to facilitate the creation of more sophisticated and autonomous AI systems that can adapt to new information and challenges.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers and AI researchers, MiMo-Code offers a unique playground to experiment with advanced AI concepts. Its focus on co-evolution means it's not just about building individual AI components, but about understanding how they can synergize and grow together. This can lead to more robust and intelligent systems that are less brittle and more adaptable to dynamic environments. The substantial star count on GitHub indicates a strong community interest and active development, suggesting a vibrant ecosystem for collaboration and learning. It's particularly valuable for those interested in cutting-edge AI research, distributed AI systems, and the future of machine learning.",
+    "imageIdea": "abstract ai network branches",
+    "websiteLink": "https://github.com/XiaomiMiMo/MiMo-Code",
+    "type": "tool",
+    "dateAdded": "2026-07-03",
+    "screenshotUrl": "/screenshots/mimo-code.webp"
+  },
+  {
+    "id": 867,
+    "slug": "omnigent",
+    "toolName": "omnigent",
+    "seoTitle": "omnigent — Open-Source AI Agent Framework",
+    "whatItDoes": "Omnigent is a powerful open-source AI agent framework and meta-harness designed to orchestrate a diverse range of AI models and custom agents. It allows users to seamlessly swap between different AI backends, including popular options like Claude Code, Codex, Cursor, and Pi, without extensive code rewrites. A key feature is its ability to enforce policies and sandboxing, ensuring secure and controlled execution of AI tasks. This framework simplifies the complex process of integrating and managing multiple AI agents, making it easier to build sophisticated AI-powered applications.",
+    "category": "Developer",
+    "whyItIsUseful": "Omnigent dramatically simplifies the development and deployment of AI agent-based systems. Its meta-harness approach means developers can experiment with different AI models to find the best fit for a specific task without being locked into a single vendor or architecture. The built-in policy enforcement and sandboxing are crucial for building secure and reliable AI applications, especially in sensitive environments. This tool is invaluable for developers looking to build complex AI workflows, integrate multiple AI services, or create custom AI agents that can interact with each other and the environment. Its flexibility and focus on interoperability save significant development time and effort.",
+    "imageIdea": "ai agent network orchestration",
+    "websiteLink": "https://github.com/omnigent-ai/omnigent",
+    "type": "tool",
+    "dateAdded": "2026-07-03",
+    "screenshotUrl": "/screenshots/omnigent.webp"
+  },
+  {
+    "id": 868,
+    "slug": "goldfish-app",
+    "toolName": "Goldfish",
+    "seoTitle": "Goldfish — AI Contextual Writing Assistant",
+    "whatItDoes": "Goldfish is an AI-powered writing assistant for Mac that proactively understands your work context. Unlike many AI tools that require extensive prompting and background explanation, Goldfish privately remembers your ongoing projects and writing activities across your Mac. It then uses this context to provide relevant suggestions and improvements directly within any application you're using. This allows for a more seamless and intuitive writing experience, as the AI already knows what you're trying to achieve.",
+    "category": "Productivity",
+    "whyItIsUseful": "Goldfish earns a permanent spot in a writer's workflow by removing the friction of repeatedly explaining context to an AI. Its ability to 'just know' what you're working on across your Mac significantly speeds up the writing process and improves the quality of suggestions. This is particularly beneficial for professionals, students, and anyone who writes extensively, as it reduces cognitive load and enhances creativity. The privacy-focused approach ensures your work remains secure. For users who value efficiency and intelligent assistance without constant interruption, Goldfish is a game-changer, making writing feel more natural and less like a chore.",
+    "imageIdea": "macbook screen with contextual ai suggestions",
+    "websiteLink": "https://www.producthunt.com/r/P4WFRWL26YL6CK",
+    "type": "tool",
+    "dateAdded": "2026-07-03"
+  },
+  {
+    "id": 869,
+    "slug": "deepspec-code",
+    "toolName": "DeepSpec",
+    "seoTitle": "DeepSpec — Speculative Decoding Algorithms",
+    "whatItDoes": "DeepSpec is a full-stack codebase designed for training and evaluating speculative decoding algorithms. These algorithms are crucial for improving the efficiency and speed of large language models (LLMs) by allowing them to predict multiple future tokens in parallel, rather than sequentially. The project provides the necessary tools and infrastructure for researchers and developers to experiment with, implement, and benchmark these advanced decoding strategies, aiming to make LLMs more performant and accessible.",
+    "category": "Developer",
+    "whyItIsUseful": "For anyone working with or deploying large language models, DeepSpec offers a critical set of tools to enhance performance. Speculative decoding is a key area for optimizing LLM inference, and this codebase provides a comprehensive environment for exploring and implementing these techniques. It can lead to significant reductions in inference time and computational cost, making it more feasible to run powerful AI models on less powerful hardware or to serve more users concurrently. Researchers will find it an invaluable resource for advancing the state-of-the-art in efficient LLM generation, while practitioners can leverage it to build faster and more cost-effective AI applications.",
+    "imageIdea": "neural network graph with speculative paths",
+    "websiteLink": "https://github.com/deepseek-ai/DeepSpec",
+    "type": "tool",
+    "dateAdded": "2026-07-03",
+    "screenshotUrl": "/screenshots/deepspec-code.webp"
+  },
+  {
+    "id": 870,
+    "slug": "loop-engineering-ai",
+    "toolName": "loop-engineering",
+    "seoTitle": "loop-engineering — AI Coding Agents Patterns",
+    "whatItDoes": "Loop Engineering provides practical patterns, starters, and CLI tools for designing systems that effectively prompt and orchestrate AI coding agents. Inspired by prominent figures in the AI and software design fields, it focuses on building robust and scalable AI agent systems. The project includes utilities like `loop-audit` to help analyze and improve agent behavior, encouraging a systematic approach to developing AI-powered solutions. It's designed for developers who want to create more intelligent and autonomous systems by leveraging the power of multiple AI agents working in concert.",
+    "category": "Developer",
+    "whyItIsUseful": "This project is highly valuable for developers venturing into the complex world of AI agent engineering. It abstracts away much of the boilerplate and offers proven design patterns, significantly accelerating the development of sophisticated AI systems. The inclusion of tools for auditing and refining agent performance means users can build more reliable and efficient AI applications. For teams building AI copilots, automated coding assistants, or complex simulation environments, loop-engineering offers a structured and well-supported path to success. It empowers developers to move beyond simple AI prompts and build truly integrated, agent-driven workflows.",
+    "imageIdea": "workflow diagram with interconnected ai agents",
+    "websiteLink": "https://github.com/cobusgreyling/loop-engineering",
+    "type": "tool",
+    "dateAdded": "2026-07-03",
+    "screenshotUrl": "/screenshots/loop-engineering-ai.webp"
   }
 ]

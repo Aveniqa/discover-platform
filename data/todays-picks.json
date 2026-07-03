@@ -1,19 +1,19 @@
 [
   {
-    "slug": "color-contrast-checker-2",
-    "title": "Color Contrast Checker",
+    "slug": "textgenr",
+    "title": "Text Generation Playground",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This web-based tool allows designers and developers to easily check the contrast ratio between two colors. It helps ensu",
+    "description": "This web-based tool, developed by AI21 Labs, offers a robust playground for experimenting with their Jurassic-2 large la",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "improve-ai-code-auditor",
-    "title": "improve",
+    "slug": "loop-engineering-ai",
+    "title": "loop-engineering",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "improve is an open-source tool designed to leverage your most capable AI models to audit your codebase. It then generate",
+    "description": "Loop Engineering provides practical patterns, starters, and CLI tools for designing systems that effectively prompt and ",
     "badge": null,
     "type": "tool"
   }
