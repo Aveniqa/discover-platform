@@ -30,6 +30,7 @@ import { BookmarkButton } from "@/components/ui/BookmarkButton";
 import { ShareButtons } from "@/components/ui/ShareButtons";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { ScrollProgress } from "@/components/ui/ScrollProgress";
+import { SectionDepth } from "@/components/ui/SectionDepth";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
@@ -363,7 +364,7 @@ export default async function ItemPage({ params }: Props) {
           const alcove = alcoveFromCategory(category);
           if (localScreenshot) {
             return (
-              <div className="relative z-10 showcase-stage max-w-5xl mx-auto px-4 sm:px-8 pt-12 sm:pt-16 pb-4">
+              <SectionDepth className="relative z-10 showcase-stage max-w-5xl mx-auto px-4 sm:px-8 pt-12 sm:pt-16 pb-4">
                 <div
                   className="showcase-glow"
                   style={{ "--showcase-tint": `${alcove.palette[0]}59` } as CSSProperties}
@@ -392,7 +393,7 @@ export default async function ItemPage({ params }: Props) {
                     className="w-full aspect-[8/5] object-cover object-top"
                   />
                 </div>
-              </div>
+              </SectionDepth>
             );
           }
           if (screenshot) {
