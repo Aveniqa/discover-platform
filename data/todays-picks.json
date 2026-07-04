@@ -1,19 +1,19 @@
 [
   {
-    "slug": "textgenr",
-    "title": "Text Generation Playground",
+    "slug": "asciinema",
+    "title": "Asciinema",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This web-based tool, developed by AI21 Labs, offers a robust playground for experimenting with their Jurassic-2 large la",
+    "description": "Asciinema is a free and open-source tool that lets you record your terminal sessions and share them as easily as sharing",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "loop-engineering-ai",
-    "title": "loop-engineering",
+    "slug": "streamdeck-workflow-automation",
+    "title": "Elgato Stream Deck",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Loop Engineering provides practical patterns, starters, and CLI tools for designing systems that effectively prompt and ",
+    "description": "The Elgato Stream Deck is a physical device featuring a grid of LCD keys that can be programmed to trigger a vast array ",
     "badge": null,
     "type": "tool"
   }
