@@ -50,7 +50,10 @@ const TYPE_BY_CATEGORY = {
 
 const REVIEW_MIN_WORDS = 150;
 const REVIEW_TARGET_WORDS = 170;
-const API_RETRY_ATTEMPTS = 3;
+// 5 attempts (exp backoff, 45s cap ≈ 2.5 min worst case per call): the
+// 2026-07-02 edition died to a Gemini 503 "high demand" spike that outlasted
+// 3 attempts. Rollback+alert still guards the pathological case.
+const API_RETRY_ATTEMPTS = 5;
 const API_RETRY_BASE_DELAY_MS = 5000;
 const API_RETRY_MAX_DELAY_MS = 45000;
 // Daily target per category. If retries exhaust without hitting TARGET_PER_CATEGORY,
