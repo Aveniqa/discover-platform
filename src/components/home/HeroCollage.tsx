@@ -28,34 +28,53 @@ export function HeroCollage({ items }: { items: CollageItem[] }) {
     if (!root) return;
 
     let raf = 0;
+    let running = false;
     let px = 0, py = 0;          // smoothed pointer -1..1
     let tx = 0, ty = 0;          // target pointer
-    let scroll = 0;
+    let sc = 0, tsc = 0;         // smoothed + target scroll
 
     const onPointer = (e: PointerEvent) => {
       tx = (e.clientX / window.innerWidth) * 2 - 1;
       ty = (e.clientY / window.innerHeight) * 2 - 1;
     };
     const onScroll = () => {
-      scroll = Math.min(1.4, window.scrollY / window.innerHeight);
+      tsc = Math.min(1.4, window.scrollY / window.innerHeight);
     };
 
     const tick = () => {
+      // Lerp everything — flick-scrolls glide instead of snapping.
       px += (tx - px) * 0.055;
       py += (ty - py) * 0.055;
+      sc += (tsc - sc) * 0.1;
       root.style.setProperty("--hx", px.toFixed(4));
       root.style.setProperty("--hy", py.toFixed(4));
-      root.style.setProperty("--hs", scroll.toFixed(4));
-      raf = requestAnimationFrame(tick);
+      root.style.setProperty("--hs", sc.toFixed(4));
+      if (running) raf = requestAnimationFrame(tick);
     };
+
+    // Only animate while the hero is on screen — past it, the loop is idle.
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        const was = running;
+        running = entry.isIntersecting;
+        if (running && !was) raf = requestAnimationFrame(tick);
+        if (!running && raf) {
+          cancelAnimationFrame(raf);
+          raf = 0;
+        }
+      },
+      { rootMargin: "10% 0px 10% 0px" }
+    );
+    io.observe(root);
     window.addEventListener("pointermove", onPointer, { passive: true });
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
-    raf = requestAnimationFrame(tick);
     return () => {
+      io.disconnect();
+      running = false;
       window.removeEventListener("pointermove", onPointer);
       window.removeEventListener("scroll", onScroll);
-      cancelAnimationFrame(raf);
+      if (raf) cancelAnimationFrame(raf);
     };
   }, []);
 
@@ -81,11 +100,19 @@ export function HeroCollage({ items }: { items: CollageItem[] }) {
     const scale = [0.72, 0.9, 1.08][tier];
     const opacity = [0.45, 0.62, 0.85][tier];
     const blur = [1.5, 0.5, 0][tier];
+    // Near tiers also swing subtly toward the cursor and scale up as you
+    // scroll away — the stack opens outward like passing through it.
+    const swing = [1.5, 3, 5][tier];
+    const zoom = [0.04, 0.09, 0.16][tier];
     return {
-      transform: `translate3d(calc(var(--hx, 0) * ${move}px), calc(var(--hy, 0) * ${move}px + var(--hs, 0) * -${scrollMove}px), 0) scale(${scale})`,
-      opacity,
+      transform:
+        `perspective(1200px) ` +
+        `translate3d(calc(var(--hx, 0) * ${move}px), calc(var(--hy, 0) * ${move}px + var(--hs, 0) * -${scrollMove}px), 0) ` +
+        `rotateY(calc(var(--hx, 0) * ${swing}deg)) rotateX(calc(var(--hy, 0) * ${-swing}deg)) ` +
+        `scale(calc(${scale} + var(--hs, 0) * ${zoom}))`,
+      opacity: `calc(${opacity} - var(--hs, 0) * 0.5)`,
       filter: blur ? `blur(${blur}px)` : undefined,
-    } as const;
+    } satisfies CSSProperties;
   };
 
   return (

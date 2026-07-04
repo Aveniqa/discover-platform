@@ -134,9 +134,11 @@ async function main() {
           item.screenshotUrl = local;
           dirty++;
         }
-      } else if (item.screenshotUrl && !item.screenshotUrl.startsWith("/screenshots/")) {
-        // Stale third-party URL (Microlink/mShots) with no local capture —
-        // remove so the UI falls back to the cached photo instead of a 403.
+      } else if (item.screenshotUrl) {
+        // No file on disk — whether it's a stale third-party URL
+        // (Microlink/mShots) or a dangling local path whose capture was
+        // later rejected (bot wall), remove it so the UI falls back to the
+        // cached photo instead of requesting a 403/404.
         delete item.screenshotUrl;
         dirty++;
       }

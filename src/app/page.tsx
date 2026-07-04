@@ -11,7 +11,6 @@ import {
 } from "@/lib/data";
 import { itemListLd, ldScript } from "@/lib/jsonld";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
-import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { NewsletterSection } from "@/components/home/NewsletterSection";
 import { alcoveByKind, alcoveFromCategory, type Alcove } from "@/lib/alcoves";
 import { ItemVisual } from "@/components/ui/ItemVisual";
@@ -201,29 +200,34 @@ export default function HomePage() {
               </Link>
             </header>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-              <ScrollReveal className="lg:col-span-2">
-                <LeadCard item={leadStory} />
-              </ScrollReveal>
+            <SectionDepth>
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div className="lg:col-span-2 plane-3d plane-rate-slow">
+                  <LeadCard item={leadStory} />
+                </div>
 
-              <div className="flex flex-col gap-4">
-                {supporting.slice(0, 3).map((item, idx) => (
-                  <ScrollReveal key={item.slug} delay={idx * 80}>
-                    <SupportingCard item={item} />
-                  </ScrollReveal>
-                ))}
+                <div className="flex flex-col gap-4">
+                  {supporting.slice(0, 3).map((item, idx) => (
+                    <div
+                      key={item.slug}
+                      className={`plane-3d ${["plane-rate-medium", "plane-rate-fast", "plane-rate-medium"][idx % 3]}`}
+                    >
+                      <SupportingCard item={item} />
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
 
-            {supporting.length > 3 && (
-              <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {supporting.slice(3).map((item, idx) => (
-                  <ScrollReveal key={item.slug} delay={idx * 100}>
-                    <SupportingCard item={item} compact />
-                  </ScrollReveal>
-                ))}
-              </div>
-            )}
+              {supporting.length > 3 && (
+                <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {supporting.slice(3).map((item, idx) => (
+                    <div key={item.slug} className={`plane-3d ${idx % 2 ? "plane-rate-fast" : "plane-rate-medium"}`}>
+                      <SupportingCard item={item} compact />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </SectionDepth>
           </div>
         </section>
       )}
@@ -252,7 +256,9 @@ export default function HomePage() {
                 Browse the gems →
               </Link>
             </div>
-            <ScreenshotMarquee items={marqueeItems} />
+            <SectionDepth>
+              <ScreenshotMarquee items={marqueeItems} />
+            </SectionDepth>
           </div>
         </section>
       )}
@@ -537,13 +543,12 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
 
           <SectionDepth className="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {items.map((item, i) => (
-              <ScrollReveal
+              <div
                 key={item.slug}
-                delay={i * 90}
-                className={["depth-slow", "depth-fast", "depth-medium", "depth-slow"][i % 4]}
+                className={`plane-3d ${["plane-rate-slow", "plane-rate-fast", "plane-rate-medium", "plane-rate-slow"][i % 4]}`}
               >
                 <AlcoveItemCard item={item} />
-              </ScrollReveal>
+              </div>
             ))}
           </SectionDepth>
         </div>

@@ -340,10 +340,13 @@ h3 {
    a light page.
    ============================================ */
 .alcove-card {
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.42);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(14px) saturate(1.15);
-  -webkit-backdrop-filter: blur(14px) saturate(1.15);
+  /* Blur kept modest: these cards ride scroll-scrubbed 3D planes, and
+     backdrop-filter re-samples every frame the plane moves — 10px keeps
+     the glass read while staying comfortably inside frame budget. */
+  backdrop-filter: blur(10px) saturate(1.15);
+  -webkit-backdrop-filter: blur(10px) saturate(1.15);
   color: #fff;
   transition: background-color 0.25s ease, border-color 0.25s ease;
 }
@@ -961,6 +964,65 @@ body.depth-mode .floating-item {
 .depth-slow   { transform: translateY(calc(var(--depth-t, 0) * -18px)); }
 .depth-medium { transform: translateY(calc(var(--depth-t, 0) * -42px)); }
 .depth-fast   { transform: translateY(calc(var(--depth-t, 0) * -74px)); }
+
+/* ============================================
+   SCRUBBED 3D PLANES — scroll-linked section entrances
+   Cards rise out of the page plane as the section crosses the
+   viewport: rotateX eases from 12° to 0, translateY from 56px,
+   scale from .955, opacity from .3 — all scrubbed by --depth-t
+   (smoothstep-eased + lerped in SectionDepth), fully reversible.
+
+   Effects only engage under [data-depth-active], which SectionDepth
+   sets after hydration when motion is allowed — SSR, no-JS, and
+   prefers-reduced-motion all render the finished state.
+   Transform/opacity only: composited, no layout or paint.
+   ============================================ */
+.plane-3d {
+  --rate: 0px;
+  --enter: 1;
+  transform-style: preserve-3d;
+}
+
+[data-depth-active] .plane-3d {
+  --enter: clamp(0, calc(var(--depth-t, 0) / 0.42), 1);
+  transform: perspective(1100px)
+    translateY(calc(var(--depth-t, 0) * var(--rate) + (1 - var(--enter)) * 56px))
+    rotateX(calc((1 - var(--enter)) * 12deg))
+    scale(calc(0.955 + var(--enter) * 0.045));
+  opacity: calc(0.3 + var(--enter) * 0.7);
+  will-change: transform, opacity;
+}
+
+.plane-rate-slow   { --rate: -16px; }
+.plane-rate-medium { --rate: -40px; }
+.plane-rate-fast   { --rate: -70px; }
+
+/* Marquee plane relaxes its tilt as it sweeps through the viewport —
+   the wall "stands up" toward the reader, then lies back down. */
+[data-depth-active] .shot-marquee-plane {
+  transform: rotateX(calc(8deg + (1 - clamp(0, calc(var(--depth-t, 0) / 0.55), 1)) * 16deg))
+    rotateZ(-2deg)
+    scale(1.08);
+  will-change: transform;
+}
+
+/* Item showcase untilts as you scroll into the article — the site
+   screenshot settles flat like a magazine plate being laid down.
+   transition: none is required: the transform is scrubbed every frame,
+   and the base .showcase-frame transition would lag a frame behind. */
+[data-depth-active] .showcase-frame,
+.showcase-stage[data-depth-active]:hover .showcase-frame {
+  /* The showcase sits at the very top of the item page, so --depth-t is
+     already ≈0.66 on load (measured; smoothstepped). Map the enter window
+     to [0.66 → 0.95]: tilted ~10° when the page opens, settling flat
+     across the first ~500px of scroll. */
+  --sc-enter: clamp(0, calc((var(--depth-t, 0) - 0.66) / 0.29), 1);
+  transform: rotateX(calc(1deg + (1 - var(--sc-enter)) * 9deg))
+    translateY(calc((1 - var(--sc-enter)) * 16px))
+    scale(calc(0.985 + var(--sc-enter) * 0.015));
+  transition: none;
+  will-change: transform;
+}
 
 /* Item page hero showcase — perspective frame for the screenshot */
 .showcase-stage {
