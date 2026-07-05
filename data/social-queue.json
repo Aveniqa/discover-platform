@@ -1363,7 +1363,69 @@
         "pinterest": true,
         "twitter": false
       }
+    },
+    {
+      "id": "scispace-ai-co-pilot-research-papers",
+      "title": "SciSpace (formerly Typeset.io)",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/32001505/pexels-photo-32001505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Student looking overwhelmed while reading a complex scientific research paper on a laptop",
+      "productUrl": "https://surfaced-x.pages.dev/item/scispace-ai-co-pilot-research-papers?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/scispace-ai-co-pilot-research-papers?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "SciSpace AI: Your Research Paper Co-Pilot",
+          "description": "Tired of drowning in academic papers? SciSpace uses AI to summarize, explain, and answer questions within your research docs. Perfect for students & researchers needing to grasp complex concepts fast. Explains equations too! Check it out. #AI #ResearchTools #AcademicLife #Productivity",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "This AI co-pilot for research papers is a game-changer. Upload a PDF, ask questions, get instant summaries, and even understand those dense math equations. Seriously cutting down my PhD reading time.\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "Struggling with dense research papers? SciSpace AI is your new academic co-pilot. Upload PDFs, get instant summaries, explanations, and answers to specific questions. Even breaks down complex equations! A must-have for students & researchers. https://surfaced-x.pages.dev/item/scispace-ai-co-pilot-research-papers?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-05T15:00:24.208Z",
+      "publishedAt": "2026-07-05T15:00:25.304Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
+    },
+    {
+      "id": "keypirinha-fast-portable-windows-launcher",
+      "title": "keypirinha-fast-portable-windows-launcher",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/32274788/pexels-photo-32274788.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: keypirinha-fast-portable-windows-launcher",
+      "productUrl": "https://surfaced-x.pages.dev/item/keypirinha-fast-portable-windows-launcher?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/keypirinha-fast-portable-windows-launcher?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "keypirinha-fast-portable-windows-launcher",
+          "description": " https://surfaced-x.pages.dev/item/keypirinha-fast-portable-windows-launcher?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post #surfaced #daily-tools",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "keypirinha-fast-portable-windows-launcher — Keypirinha is a fast, portable, and extensible launcher for Windows, developed by Jean-Charles Quenot, designed to quickly launch applications, find files, and perform various system commands from a u\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/keypirinha-fast-portable-windows-launcher?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-05T15:00:24.208Z",
+      "publishedAt": "2026-07-05T15:01:15.086Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-07-04T14:51:20.973Z"
+  "lastGenerated": "2026-07-05T15:00:24.209Z"
 }
