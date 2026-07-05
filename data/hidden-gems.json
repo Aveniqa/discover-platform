@@ -1,70 +1,5 @@
 [
   {
-    "id": 193,
-    "slug": "pocketsmith-forecasting-budgeting",
-    "name": "PocketSmith",
-    "whatItDoes": "PocketSmith is an advanced personal finance software focused on budgeting, expense tracking, and powerful financial forecasting, developed by a New Zealand-based company. It automatically imports transactions from bank accounts and credit cards, categorizes them, and projects future balances based on your income and spending habits. This tool is built for individuals and families who desire a detailed understanding of their current finances and a long-term view of their financial future. Users integrate PocketSmith into their routine by regularly reviewing transactions, fine-tuning their budgets, and using the forecasting tools to plan for major life events. It connects with over 12,000 financial institutions globally and supports manual data import via OFX, QIF, and CSV files.",
-    "category": "Finance",
-    "whyItIsUseful": "PocketSmith stands out with its robust forecasting capabilities, offering a more comprehensive future-gazing perspective than most budgeting apps that only focus on past spending. For the individual planning significant life changes like buying a house or early retirement, its 'What If' scenarios provide invaluable insights into financial outcomes. For the detailed budgeter, its powerful categorization rules and custom reporting allow for incredibly granular analysis of spending. PocketSmith offers a limited free tier for manual imports, while paid subscriptions unlock bank feeds, extended forecasting, and multiple budgets. Its 'Budget Calendar,' which visualizes future income and expenses on a calendar, is a highly intuitive feature often discovered later that transforms financial planning. It's not more popular globally partly due to its New Zealand origins and a focus on comprehensive features that can seem complex to casual users. PocketSmith boasts frequent updates, an active blog with financial tips, and dedicated customer support.",
-    "imageIdea": "PocketSmith interface showing a financial forecast graph extending years into the future",
-    "websiteLink": "https://www.pocketsmith.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/pocketsmith-forecasting-budgeting.webp"
-  },
-  {
-    "id": 194,
-    "slug": "buckets-budget-desktop-app",
-    "name": "Buckets Budget",
-    "whatItDoes": "Buckets Budget is a desktop-first, privacy-focused envelope budgeting application built by a small, independent developer. It implements the zero-based budgeting method, allowing users to allocate every dollar to a specific 'bucket' or category. The tool is designed for users who prefer a desktop experience, prioritize local data storage, and want a simple yet powerful budgeting system without cloud syncing or subscription fees. Users open Buckets Budget regularly to manage their income, categorize transactions, and ensure all their money is assigned a purpose. It supports manual transaction entry and CSV imports, running natively on Windows, macOS, and Linux.",
-    "category": "Finance",
-    "whyItIsUseful": "Buckets Budget offers a refreshing, privacy-centric alternative to cloud-based budgeting apps, providing full control over your financial data on your local machine. For the privacy advocate, its offline-first design and lack of bank connections ensure sensitive financial information never leaves their computer. For the disciplined budgeter, the clear, visual 'buckets' make it easy to see where every dollar is allocated and prevent overspending. Buckets Budget is a paid, one-time purchase application, with a free trial available to test its full functionality. Its 'Goals' feature, which allows you to set savings targets for specific buckets and watch them fill up, is a powerful motivator often overlooked initially. It's not more popular because its desktop-only nature and lack of direct bank syncing might deter users accustomed to mobile-first, automated solutions. The developer is active, providing regular updates and support through forums and email.",
-    "imageIdea": "Buckets Budget desktop interface with colorful budget categories and transaction list",
-    "websiteLink": "https://www.budgetwithbuckets.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/buckets-budget-desktop-app.webp"
-  },
-  {
-    "id": 289,
-    "slug": "moneycoach-apple-native-budgeting",
-    "name": "MoneyCoach",
-    "whatItDoes": "MoneyCoach is a native personal finance and budgeting app exclusively for Apple devices (iOS, iPadOS, macOS, watchOS), developed by a small independent team.\nIt provides a clean, privacy-focused interface for tracking income, expenses, setting budgets, and achieving financial goals, leveraging Apple's ecosystem features.\nThis tool is primarily built for Apple users who prioritize native app experiences, robust privacy, and seamless integration across their devices for financial management.\nUsers typically open MoneyCoach on their iPhone or Mac daily to log transactions, monitor budget performance, view their net worth, and get motivational insights on their financial journey.\nIt supports direct bank syncing via Salt Edge (covering many European banks) or Plaid (for US/Canada), and also offers extensive CSV import capabilities for other institutions.",
-    "category": "Finance",
-    "whyItIsUseful": "MoneyCoach offers a superior native experience on Apple platforms compared to cross-platform or web-first solutions, integrating deeply with iOS features like Widgets, Siri Shortcuts, and Face ID.\nFor the devoted Apple user, MoneyCoach provides a budgeting tool that feels like a natural extension of their device, offering intuitive gestures and a familiar, elegant design.\nA privacy-conscious individual will appreciate its local data processing and commitment to not selling user data, providing a secure alternative to apps that monetize financial information.\nMoneyCoach offers a free version with limited accounts and budgets; the Premium subscription ($4.99/month or $39.99/year) unlocks unlimited accounts, advanced budgets, and cloud sync across devices.\nThe \"Financial Goals\" feature, which includes visual progress bars and motivational nudges, is excellent for staying on track with savings but often isn't fully utilized until a few months in.\nIts exclusive focus on the Apple ecosystem, while a strength for its target audience, naturally limits its market reach compared to cross-platform or Android-compatible alternatives.\nThe developers are very active, providing regular updates that leverage new iOS/macOS features, maintaining a responsive support presence, and fostering a community among Apple users.",
-    "imageIdea": "A sleek iPhone screen showing a budget summary in dark mode, with a money bag icon and a graph of financial progress.",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://moneycoach.ai",
-    "screenshotUrl": "/screenshots/moneycoach-apple-native-budgeting.webp"
-  },
-  {
-    "id": 284,
-    "slug": "finary-holistic-wealth-tracker",
-    "name": "Finary",
-    "whatItDoes": "Finary is a holistic wealth-tracking platform developed by a French startup, specializing in aggregating and visualizing all types of assets in one place.\nIt allows users to track traditional investments (stocks, bonds), real estate, cryptocurrencies, precious metals, and even luxury goods, providing a real-time net worth overview.\nThis tool is primarily built for high-net-worth individuals, tech-savvy investors, and anyone with a diverse portfolio across multiple asset classes and geographies (especially Europe).\nUsers typically log into Finary to get an instant snapshot of their total wealth, monitor asset performance, and identify areas for rebalancing or strategic changes.\nFinary boasts over 25,000 integrations with European banks, brokers, crypto exchanges (e.g., Binance, Coinbase), and property managers, with manual entry options for unique assets.",
-    "category": "Finance",
-    "whyItIsUseful": "Finary consolidates what would typically require multiple platforms (e.g., Personal Capital for traditional investments, CoinTracker for crypto) into a single, elegant dashboard, offering a truly unified wealth view.\nFor the active crypto investor with holdings across various exchanges and wallets, Finary provides comprehensive tracking and performance analysis, including DeFi protocols and NFTs.\nA real estate investor can easily track the value and equity of multiple properties alongside their other financial assets, receiving automated valuations and rental income insights.\nFinary offers a free tier with limited integrations (up to 3 accounts) and features; the Premium plan, starting at €14.99/month, unlocks unlimited connections and advanced analytics.\nOne powerful but less obvious feature is its \"What if\" scenario planner, allowing users to project future wealth based on different investment contributions or market performance assumptions.\nIts strong focus on the European market and diverse asset classes means it's not as widely known globally as U.S.-centric wealth trackers, limiting its mainstream adoption.\nFinary has a very active community on Discord and Twitter, pushes frequent updates with new integrations and features, and maintains a public roadmap.",
-    "imageIdea": "A slick, dark-mode dashboard showing a net worth graph with different colored segments for crypto, stocks, real estate.",
-    "websiteLink": "https://finary.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/finary-holistic-wealth-tracker.webp"
-  },
-  {
-    "id": 197,
-    "slug": "sharesight-investment-performance-tracker",
-    "name": "Sharesight",
-    "whatItDoes": "Sharesight is an award-winning online portfolio tracker designed specifically for investors to track the true performance of their stock and fund investments, developed in Australia. It automatically records trades, calculates capital gains, dividends, and currency fluctuations, providing comprehensive performance reports. This tool is built for active investors and self-managed super fund trustees who need accurate, detailed reporting for their investment portfolios and tax obligations. Users integrate Sharesight by linking their brokerage accounts or importing trade data, then regularly monitoring their portfolio's real-time performance and preparing tax reports. It integrates with over 200 brokers and platforms globally, supporting stocks, ETFs, mutual funds, and more.",
-    "category": "Finance",
-    "whyItIsUseful": "Sharesight offers a level of investment performance tracking and tax reporting far superior to what's available through most brokerage accounts or generic finance apps. For the active stock investor, it accurately calculates total return, including dividends and currency effects, providing a true picture of investment performance. For the DIY investor managing their own taxes, its comprehensive tax reports for various jurisdictions save countless hours and ensure accuracy. Sharesight offers a free plan for up to 10 holdings, with paid subscriptions unlocking unlimited holdings, advanced reports, and tax features. Its 'Dividend Tracker,' which clearly shows upcoming and past dividends, including franking credits, is a powerful but often underutilized feature for income investors. It's not more popular globally partly due to its initial focus on Australia and New Zealand markets, although it now supports global brokers. Sharesight provides frequent updates, an active blog with investment insights, and responsive customer support.",
-    "imageIdea": "Sharesight dashboard showing investment portfolio performance graphs and dividend income",
-    "websiteLink": "https://www.sharesight.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/sharesight-investment-performance-tracker.webp"
-  },
-  {
     "id": 198,
     "slug": "zeta-joint-finances-couples",
     "name": "Zeta - Joint Finances for Couples",
@@ -5461,7 +5396,8 @@
     "imageIdea": "vintage computer monitor",
     "websiteLink": "https://www.typewritten.org/Media/",
     "type": "hidden-gem",
-    "dateAdded": "2026-05-12"
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/screenshots-of-old-desktop-oses.webp"
   },
   {
     "id": 778,
@@ -6116,5 +6052,74 @@
     "type": "hidden-gem",
     "dateAdded": "2026-07-04",
     "screenshotUrl": "/screenshots/asciinema.webp"
+  },
+  {
+    "id": 831,
+    "slug": "if-youre-a-button-you-have-one-job",
+    "name": "If you're a button, you have one job",
+    "seoTitle": "Button — Visualizing UI Interaction Logic",
+    "whatItDoes": "This is a captivating and thought-provoking exploration of the fundamental nature of user interface elements, specifically buttons. It delves into the core responsibility of a button: to trigger an action. The article uses a minimalist approach to dissect what it means for a digital button to fulfill its purpose, considering its state, feedback, and the user's expectation. It's a piece that makes you reconsider the simplicity and complexity of everyday digital interactions. For instance, a web designer might use the principles discussed here to ensure their call-to-action buttons are unambiguous and provide clear feedback upon click, thereby improving user experience and conversion rates.",
+    "category": "Developer",
+    "whyItIsUseful": "This article is a valuable, albeit conceptually driven, resource for anyone involved in UI/UX design or frontend development. It offers a philosophical yet practical lens through which to view interactive elements, pushing developers and designers beyond just making things look good to ensuring they function with absolute clarity. Its value lies in its ability to reframe a basic UI component, prompting deeper consideration of user intent and system response. Unlike standard UI guides, it encourages a more principled approach to design. Power users, especially those building robust and intuitive applications, will appreciate the emphasis on the 'single job' principle for buttons, which helps prevent feature creep and maintains a clean, predictable interface. It’s particularly useful for developers who want to build highly responsive and user-friendly interfaces where every interaction feels deliberate and correct.",
+    "imageIdea": "a single red button on a black background",
+    "websiteLink": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-05",
+    "screenshotUrl": "/screenshots/if-youre-a-button-you-have-one-job.webp"
+  },
+  {
+    "id": 832,
+    "slug": "gpt-5-5-codex-reasoning-token-clustering",
+    "name": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+    "seoTitle": "Codex — AI Model Performance Degradation Analysis",
+    "whatItDoes": "This GitHub issue report investigates a potential cause for degraded performance in OpenAI's Codex models, specifically focusing on GPT-5.5. The core hypothesis is that 'reasoning-token clustering' might be contributing to unexpected or reduced output quality. It delves into technical observations and data that suggest a correlation between how reasoning-related tokens are grouped and the model's ability to perform complex tasks accurately. This is a raw, community-driven discussion among developers and researchers working with or observing these advanced AI models. A researcher studying large language model behavior could use this to refine their own experiments or understand potential pitfalls when fine-tuning similar models for code generation or complex reasoning tasks.",
+    "category": "Developer",
+    "whyItIsUseful": "This is an invaluable resource for anyone deeply invested in the practical application and ongoing development of large language models, particularly in the realm of code generation. While not a polished tool, it represents a candid, early-stage investigation into a complex technical problem affecting state-of-the-art AI. Mainstream discussions often focus on model capabilities rather than internal performance quirks. This issue provides a direct look at how researchers are troubleshooting and diagnosing issues within powerful AI systems. Developers building with or analyzing models like Codex will find this discussion particularly enlightening for understanding potential performance ceilings and unexpected behaviors. It’s a peek behind the curtain, offering insights into the nuanced challenges of AI engineering.",
+    "imageIdea": "a tangled web of glowing blue threads",
+    "websiteLink": "https://github.com/openai/codex/issues/30364",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-05",
+    "screenshotUrl": "/screenshots/gpt-5-5-codex-reasoning-token-clustering.webp"
+  },
+  {
+    "id": 833,
+    "slug": "typewriter-sound",
+    "name": "Typewriter Sound Effect",
+    "seoTitle": "Typewriter Sound Effect — Ambient keyboard typing audio",
+    "whatItDoes": "This website provides an endless loop of realistic typewriter sound effects. It's designed to create a focused and immersive atmosphere for work or study, mimicking the tactile and auditory experience of typing on an old-fashioned mechanical typewriter. The sound is intended to aid concentration by providing a consistent, non-distracting background noise. It's a simple, single-purpose tool built by an individual developer looking to offer a productivity aid.",
+    "category": "Productivity",
+    "whyItIsUseful": "In an era of constant digital notifications and distractions, this tool offers a surprisingly effective way to enhance focus. Unlike generic white noise or ambient sound apps that can sometimes be too dynamic, the steady rhythm of a typewriter is incredibly conducive to deep work. Power users appreciate its simplicity and the ability to minimize distractions without complex settings. It's particularly useful for writers, programmers, or anyone who finds a consistent, rhythmic auditory environment helps them enter a flow state. Most people overlook how a carefully chosen, non-intrusive soundscape can profoundly impact cognitive performance.",
+    "imageIdea": "vintage typewriter keyboard",
+    "websiteLink": "https://typewriter-sound.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-05"
+  },
+  {
+    "id": 834,
+    "slug": "hidden-gem-fontjoy",
+    "name": "Fontjoy",
+    "seoTitle": "Fontjoy — AI font pairing generator",
+    "whatItDoes": "Fontjoy leverages artificial intelligence to help users find perfect font pairings for their design projects. It analyzes thousands of fonts and uses machine learning to suggest combinations that are visually harmonious and aesthetically pleasing. Users can explore various styles and adjust parameters like contrast and similarity to find the ideal match for their website, branding, or presentation. It aims to simplify the often daunting task of font selection for designers and non-designers alike.",
+    "category": "Design",
+    "whyItIsUseful": "Choosing complementary fonts can be a time-consuming and subjective process. Fontjoy democratizes good typography by providing AI-driven suggestions that often surpass manual experimentation. Its strength lies in its ability to generate novel and effective pairings that a human might not readily consider. Power users appreciate the fine-tuning controls and the iterative exploration it allows. For anyone struggling with font combinations, whether a seasoned designer seeking inspiration or a small business owner creating marketing materials, Fontjoy offers an intelligent shortcut to professional-looking results. It's a testament to AI's utility in creative fields.",
+    "imageIdea": "three interlocking abstract font shapes",
+    "websiteLink": "https://fontjoy.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-05",
+    "screenshotUrl": "/screenshots/hidden-gem-fontjoy.webp"
+  },
+  {
+    "id": 835,
+    "slug": "localradios",
+    "name": "Localradios.com",
+    "seoTitle": "Localradios.com — Listen to global radio stations",
+    "whatItDoes": "Localradios.com is a web-based platform that aggregates a vast directory of live radio stations from around the world, accessible for free streaming. It allows users to browse stations by country, city, or genre, providing a gateway to diverse audio content, from local news and music to international broadcasts. The service is maintained by a dedicated team of enthusiasts who continuously update the station list. It's designed for anyone wanting to discover or revisit radio content beyond their immediate geographic or linguistic reach.",
+    "category": "Entertainment",
+    "whyItIsUseful": "In an age dominated by curated streaming playlists, the raw, often serendipitous nature of live radio is often overlooked. Localradios.com revives this experience, offering an unfiltered connection to global culture and news. It's an invaluable tool for language learners, cultural anthropologists, and anyone curious about what people are listening to elsewhere. The sheer breadth of stations is staggering, from tiny community stations to major international broadcasters. Unlike many similar services that focus on popular stations, Localradios.com often highlights smaller, niche broadcasters, offering a truly unique listening experience. It's a treasure trove for explorers of audio content.",
+    "imageIdea": "global map with glowing radio wave icons",
+    "websiteLink": "https://www.localradios.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-05",
+    "screenshotUrl": "/screenshots/localradios.webp"
   }
 ]

@@ -1,19 +1,19 @@
 [
   {
-    "slug": "asciinema",
-    "title": "Asciinema",
+    "slug": "localradios",
+    "title": "Localradios.com",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Asciinema is a free and open-source tool that lets you record your terminal sessions and share them as easily as sharing",
+    "description": "Localradios.com is a web-based platform that aggregates a vast directory of live radio stations from around the world, a",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "streamdeck-workflow-automation",
-    "title": "Elgato Stream Deck",
+    "slug": "kanbanflow-task-manager",
+    "title": "KanbanFlow",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "The Elgato Stream Deck is a physical device featuring a grid of LCD keys that can be programmed to trigger a vast array ",
+    "description": "KanbanFlow is a free, web-based Kanban board designed to help individuals and teams visualize their workflow and manage ",
     "badge": null,
     "type": "tool"
   }

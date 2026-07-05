@@ -5,8 +5,41 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KanbanFlow</title>
+      <link>https://surfaced-x.pages.dev/item/kanbanflow-task-manager</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/kanbanflow-task-manager</guid>
+      <description>KanbanFlow is a free, web-based Kanban board designed to help individuals and teams visualize their workflow and manage tasks efficiently. It supports a highly customizable board setup with swimlanes, task columns, and the ability to assign tasks, set deadlines, and track progress. A key feature is the integrated Pomodoro timer, which encourages focused work intervals. It&apos;s ideal for anyone looking to streamline project management and improve personal or team productivity by breaking down work into manageable stages.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/9052532/pexels-photo-9052532.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/9052532/pexels-photo-9052532.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/9052532/pexels-photo-9052532.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Tencent EdgeOne Makers</title>
+      <link>https://surfaced-x.pages.dev/item/tencent-edgeone-makers</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tencent-edgeone-makers</guid>
+      <description>Tencent EdgeOne Makers is an innovative edge platform that empowers developers to deploy modern web applications and sophisticated AI agents with remarkable speed and ease. It supports popular development frameworks and integrates seamlessly with familiar tools like CLI, Git, and CI/CD pipelines, streamlining the deployment process. The platform offers built-in agent runtime environments, allowing for efficient execution of AI models at the edge. This solution is ideal for developers looking to ship complex applications and AI-driven services rapidly. Pricing is not explicitly detailed but implied to be a service offering.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>openwiki</title>
+      <link>https://surfaced-x.pages.dev/item/openwiki</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/openwiki</guid>
+      <description>OpenWiki is a command-line interface (CLI) tool designed to automate the process of writing and maintaining documentation for your AI agents. It scans your codebase, understands the agent&apos;s functions and parameters, and generates clear, structured documentation. This process eliminates the manual, often tedious task of documenting AI systems, ensuring that your agents remain understandable and maintainable as they evolve. OpenWiki is free and open-source, making it an accessible solution for developers working with AI agents.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1670057046254-3b5095eb4b66?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyNTM2MDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1670057046254-3b5095eb4b66?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyNTM2MDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1670057046254-3b5095eb4b66?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMyNTM2MDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
     <item>
       <title>Elgato Stream Deck</title>
       <link>https://surfaced-x.pages.dev/item/streamdeck-workflow-automation</link>
@@ -404,6 +437,17 @@
       <media:thumbnail url="https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MjB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
+      <title>Localradios.com</title>
+      <link>https://surfaced-x.pages.dev/item/localradios</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/localradios</guid>
+      <description>Localradios.com is a web-based platform that aggregates a vast directory of live radio stations from around the world, accessible for free streaming. It allows users to browse stations by country, city, or genre, providing a gateway to diverse audio content, from local news and music to international broadcasts. The service is maintained by a dedicated team of enthusiasts who continuously update the station list. It&apos;s designed for anyone wanting to discover or revisit radio content beyond their immediate geographic or linguistic reach.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1713507/pexels-photo-1713507.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1713507/pexels-photo-1713507.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1713507/pexels-photo-1713507.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>nature-skills</title>
       <link>https://surfaced-x.pages.dev/item/nature-skills</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nature-skills</guid>
@@ -413,6 +457,17 @@
       <enclosure url="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Fontjoy</title>
+      <link>https://surfaced-x.pages.dev/item/hidden-gem-fontjoy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hidden-gem-fontjoy</guid>
+      <description>Fontjoy leverages artificial intelligence to help users find perfect font pairings for their design projects. It analyzes thousands of fonts and uses machine learning to suggest combinations that are visually harmonious and aesthetically pleasing. Users can explore various styles and adjust parameters like contrast and similarity to find the ideal match for their website, branding, or presentation. It aims to simplify the often daunting task of font selection for designers and non-designers alike.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/29652326/pexels-photo-29652326.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/29652326/pexels-photo-29652326.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/29652326/pexels-photo-29652326.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Streamlaide</title>
@@ -426,6 +481,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/30869075/pexels-photo-30869075.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Typewriter Sound Effect</title>
+      <link>https://surfaced-x.pages.dev/item/typewriter-sound</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typewriter-sound</guid>
+      <description>This website provides an endless loop of realistic typewriter sound effects. It&apos;s designed to create a focused and immersive atmosphere for work or study, mimicking the tactile and auditory experience of typing on an old-fashioned mechanical typewriter. The sound is intended to aid concentration by providing a consistent, non-distracting background noise. It&apos;s a simple, single-purpose tool built by an individual developer looking to offer a productivity aid.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6827282/pexels-photo-6827282.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6827282/pexels-photo-6827282.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6827282/pexels-photo-6827282.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>PhotoMath</title>
       <link>https://surfaced-x.pages.dev/item/photomath-math-solver</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/photomath-math-solver</guid>
@@ -437,6 +503,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/6238026/pexels-photo-6238026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance</title>
+      <link>https://surfaced-x.pages.dev/item/gpt-5-5-codex-reasoning-token-clustering</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/gpt-5-5-codex-reasoning-token-clustering</guid>
+      <description>This GitHub issue report investigates a potential cause for degraded performance in OpenAI&apos;s Codex models, specifically focusing on GPT-5.5. The core hypothesis is that &apos;reasoning-token clustering&apos; might be contributing to unexpected or reduced output quality. It delves into technical observations and data that suggest a correlation between how reasoning-related tokens are grouped and the model&apos;s ability to perform complex tasks accurately. This is a raw, community-driven discussion among developers and researchers working with or observing these advanced AI models. A researcher studying large language model behavior could use this to refine their own experiments or understand potential pitfalls when fine-tuning similar models for code generation or complex reasoning tasks.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8452381/pexels-photo-8452381.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8452381/pexels-photo-8452381.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8452381/pexels-photo-8452381.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Affine</title>
       <link>https://surfaced-x.pages.dev/item/affine-collaboration-workspace</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/affine-collaboration-workspace</guid>
@@ -446,6 +523,17 @@
       <enclosure url="https://images.pexels.com/photos/5716013/pexels-photo-5716013.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5716013/pexels-photo-5716013.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5716013/pexels-photo-5716013.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>If you&apos;re a button, you have one job</title>
+      <link>https://surfaced-x.pages.dev/item/if-youre-a-button-you-have-one-job</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/if-youre-a-button-you-have-one-job</guid>
+      <description>This is a captivating and thought-provoking exploration of the fundamental nature of user interface elements, specifically buttons. It delves into the core responsibility of a button: to trigger an action. The article uses a minimalist approach to dissect what it means for a digital button to fulfill its purpose, considering its state, feedback, and the user&apos;s expectation. It&apos;s a piece that makes you reconsider the simplicity and complexity of everyday digital interactions. For instance, a web designer might use the principles discussed here to ensure their call-to-action buttons are unambiguous and provide clear feedback upon click, thereby improving user experience and conversion rates.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/21562934/pexels-photo-21562934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/21562934/pexels-photo-21562934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/21562934/pexels-photo-21562934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Open-codesign</title>
@@ -468,94 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/16781975/pexels-photo-16781975.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/16781975/pexels-photo-16781975.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/16781975/pexels-photo-16781975.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Huashu Design</title>
-      <link>https://surfaced-x.pages.dev/item/daily-tool-huashu-design</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-huashu-design</guid>
-      <description>Huashu Design is a groundbreaking tool that leverages HTML as its native design language for AI code generation. It enables users to create high-fidelity prototypes, presentations, and even animations directly from code. The system incorporates over 20 design philosophies, a 5-dimensional review process, and supports MP4 export, making it an agent-agnostic solution for rapid visual development. It&apos;s particularly effective for translating complex ideas into visual formats with remarkable precision.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/113850/pexels-photo-113850.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/113850/pexels-photo-113850.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/113850/pexels-photo-113850.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Giant trees have no trouble pumping water to top branches: new research</title>
-      <link>https://surfaced-x.pages.dev/item/giant-trees-water-pumping-research</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/giant-trees-water-pumping-research</guid>
-      <description>This research from the University of Exeter sheds new light on how colossal trees, some reaching over 100 meters tall, efficiently transport water from their roots to their highest leaves. The study, published in a scientific journal, challenges previous assumptions by demonstrating that a combination of capillary action and the physical structure of the tree&apos;s vascular system plays a crucial role. It investigates the forces at play, including negative pressure and structural integrity, that allow these giants to defy gravity. This finding has implications for understanding plant physiology, forest ecosystems, and potentially bio-inspired engineering.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/36249131/pexels-photo-36249131.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/36249131/pexels-photo-36249131.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/36249131/pexels-photo-36249131.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Superhuman</title>
-      <link>https://surfaced-x.pages.dev/item/superhuman-email</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/superhuman-email</guid>
-      <description>Superhuman is an email client designed for speed and efficiency, aiming to help you achieve Inbox Zero faster than ever. It employs keyboard shortcuts for virtually every action, intelligent sorting, and features like &apos;undo send&apos; and &apos;scheduled send&apos;. It&apos;s a premium, paid service focused on delivering a premium user experience for professionals who rely heavily on email communication and want to reclaim their time.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/27128551/pexels-photo-27128551.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/27128551/pexels-photo-27128551.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/27128551/pexels-photo-27128551.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Performance per dollar is getting faster and cheaper</title>
-      <link>https://surfaced-x.pages.dev/item/glm52-amd-performance</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/glm52-amd-performance</guid>
-      <description>This article from Wafer.ai explores the rapidly evolving landscape of AI hardware, specifically focusing on the increasing performance-per-dollar ratio for AI workloads. It highlights how advancements in chip technology, exemplified by new AMD offerings like the GLM52, are making powerful AI computation more accessible and affordable. The piece details benchmarks and cost analyses to demonstrate the economic advantages of utilizing these newer, more efficient hardware solutions for training and deploying AI models. It&apos;s a guide for understanding how to get the most AI performance for your budget.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/12198523/pexels-photo-12198523.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/12198523/pexels-photo-12198523.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/12198523/pexels-photo-12198523.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Todo.txt</title>
-      <link>https://surfaced-x.pages.dev/item/todo-txt</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/todo-txt</guid>
-      <description>Todo.txt is a minimalist, command-line-based to-do list manager that emphasizes simplicity and portability. It allows users to manage tasks using a plain text file, making it accessible from virtually any device or operating system. Tasks can be organized using contexts (e.g., @work) and projects (e.g., +home), with support for due dates, priorities, and recurring tasks. The tool is free and open-source, with a philosophy of keeping the core functionality lightweight and easy to understand.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1649451844897-8699a1d6d96d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1649451844897-8699a1d6d96d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1649451844897-8699a1d6d96d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg1OTExOTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Leanstral 1.5: Proof abundance for all</title>
-      <link>https://surfaced-x.pages.dev/item/leanstral-1-5-proof-abundance</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/leanstral-1-5-proof-abundance</guid>
-      <description>Mistral AI introduces Leanstral 1.5, an advanced large language model designed for enhanced efficiency and performance across a wide range of natural language processing tasks. This iteration focuses on delivering &apos;proof abundance,&apos; meaning it&apos;s capable of generating robust and accurate outputs with greater speed and fewer computational resources compared to previous models. It&apos;s built to be accessible for developers and researchers looking to integrate powerful AI capabilities into their applications without the prohibitive costs often associated with cutting-edge LLMs. The goal is to democratize access to high-performing AI.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/34991378/pexels-photo-34991378.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/34991378/pexels-photo-34991378.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/34991378/pexels-photo-34991378.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>lingbot-map</title>
-      <link>https://surfaced-x.pages.dev/item/daily-tool-lingbot-map</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-lingbot-map</guid>
-      <description>lingbot-map is a sophisticated feed-forward 3D foundation model designed for reconstructing complex scenes from streaming data. It excels at taking continuous inputs, such as from sensors or video feeds, and building a coherent, three-dimensional representation of the environment in real-time. This Python-based project focuses on efficiency and accuracy, making it suitable for applications in robotics, augmented reality, and autonomous systems where understanding spatial context is paramount. The project is open-source, promoting accessibility and further development.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/29738255/pexels-photo-29738255.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/29738255/pexels-photo-29738255.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/29738255/pexels-photo-29738255.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>The bottleneck might be the air in the room</title>
-      <link>https://surfaced-x.pages.dev/item/co2-and-decision-making</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/co2-and-decision-making</guid>
-      <description>This article delves into the often-overlooked impact of indoor air quality, specifically carbon dioxide (CO2) levels, on human cognitive function and decision-making abilities. It presents research suggesting that elevated CO2 concentrations, commonly found in poorly ventilated spaces like offices and classrooms, can subtly impair judgment, memory, and reaction times. The author, Mike Bowler, draws upon scientific findings to explain the physiological mechanisms at play and proposes practical solutions for improving ventilation to mitigate these effects. It&apos;s a deep dive into how our immediate environment can directly hinder our mental acuity.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1581595220921-eec2071e5159?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNjY2ODl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1581595220921-eec2071e5159?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNjY2ODl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1581595220921-eec2071e5159?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODMxNjY2ODl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
   </channel>
 </rss>
