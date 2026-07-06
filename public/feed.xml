@@ -5,8 +5,41 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context.dev</title>
+      <link>https://surfaced-x.pages.dev/item/context-dev-web-scraping-api</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/context-dev-web-scraping-api</guid>
+      <description>Context.dev is a powerful API designed to help AI products and developers scrape, enrich, and extract data from the internet. It provides tools to capture content from any URL, crawl entire websites, and convert web pages into LLM-ready Markdown. Beyond basic scraping, it offers features like structured data extraction into custom schemas and screenshot capture. This service is particularly vital for building AI applications that require real-time or comprehensive web data. Context.dev operates on a paid, usage-based model, offering a scalable solution for developers needing robust web data capabilities.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37605913/pexels-photo-37605913.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37605913/pexels-photo-37605913.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37605913/pexels-photo-37605913.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Acti</title>
+      <link>https://surfaced-x.pages.dev/item/acti-agentic-keyboard</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/acti-agentic-keyboard</guid>
+      <description>Acti is an innovative agentic keyboard for mobile devices that transforms how you interact with your smartphone. Instead of switching between apps for information or actions, Acti understands your intent expressed through natural language typed into its special bar. Whether you need live sports scores, restaurant recommendations, to add an event to your calendar, or to find information within your connected apps like Notion, Acti brings the relevant result or action directly to you, in context. It aims to streamline mobile tasks, reducing the need for extensive app navigation. Acti is currently free to try, with potential for future premium features.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30479283/pexels-photo-30479283.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30479283/pexels-photo-30479283.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30479283/pexels-photo-30479283.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>oomwoo</title>
+      <link>https://surfaced-x.pages.dev/item/oomwoo-open-source-vacuum-robot-cleaner</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/oomwoo-open-source-vacuum-robot-cleaner</guid>
+      <description>oomwoo is an ambitious open-source project aiming to create a fully functional, DIY vacuum robot cleaner. It leverages Python for its core logic, allowing enthusiasts and developers to customize and improve its navigation, cleaning patterns, and sensor integration. The project is ideal for those interested in robotics, home automation, and learning about the inner workings of cleaning robots. It&apos;s a free, community-driven initiative, offering a transparent and adaptable alternative to proprietary robotic vacuums.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/844874/pexels-photo-844874.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/844874/pexels-photo-844874.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/844874/pexels-photo-844874.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>KanbanFlow</title>
       <link>https://surfaced-x.pages.dev/item/kanbanflow-task-manager</link>
@@ -415,6 +448,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/7675029/pexels-photo-7675029.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Unclutter</title>
+      <link>https://surfaced-x.pages.dev/item/unclutter</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/unclutter</guid>
+      <description>Unclutter is a minimalist clipboard manager, notes app, and file archive designed for Mac users. It offers a quick and unobtrusive way to store and retrieve frequently used text snippets, URLs, and files. You access it via a global shortcut, allowing you to quickly copy and paste anything you&apos;ve previously saved without interrupting your workflow. It aims to reduce the mental overhead of managing temporary information, acting as a persistent yet invisible assistant.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/20555652/pexels-photo-20555652.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/20555652/pexels-photo-20555652.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/20555652/pexels-photo-20555652.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Clera</title>
       <link>https://surfaced-x.pages.dev/item/daily-tool-clera-ai-talent-agent</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-clera-ai-talent-agent</guid>
@@ -426,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/8294743/pexels-photo-8294743.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Castro Podcasts: Things I Got Wrong (Support)</title>
+      <link>https://surfaced-x.pages.dev/item/uncommonapps-castro-podcasts-support</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/uncommonapps-castro-podcasts-support</guid>
+      <description>This article from Uncommon Apps reflects on the founder&apos;s experiences building and supporting their podcast app, Castro. It delves into the realities of customer support, the challenges of user feedback, and lessons learned about building relationships with a user base. While not a direct tool, it offers profound insights into product development and user engagement, framed through the lens of a specific, well-regarded application. It highlights the often-unseen complexities and emotional labor involved in maintaining a successful digital product.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/31213674/pexels-photo-31213674.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/31213674/pexels-photo-31213674.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/31213674/pexels-photo-31213674.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Awesome Self-Hosted</title>
       <link>https://surfaced-x.pages.dev/item/awesome-self-hosted</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/awesome-self-hosted</guid>
@@ -435,6 +490,39 @@
       <enclosure url="https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MjB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
       <media:content url="https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MjB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NjE2MjB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Has not been viewed much</title>
+      <link>https://surfaced-x.pages.dev/item/iamwillwang-notes-has-not-been-viewed-much</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/iamwillwang-notes-has-not-been-viewed-much</guid>
+      <description>This is a personal collection of digital tools, resources, and websites curated by Will Wang that, for various reasons, haven&apos;t gained widespread recognition but are deemed highly useful. The page acts as a digital cabinet of curiosities, highlighting gems that might otherwise be lost in the noise of more popular platforms. Each entry typically includes a brief description and a direct link, encouraging exploration of the lesser-known corners of the internet for productivity, creativity, or learning.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8296051/pexels-photo-8296051.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8296051/pexels-photo-8296051.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8296051/pexels-photo-8296051.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>OpenTools Studio</title>
+      <link>https://surfaced-x.pages.dev/item/opentools-studio</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/opentools-studio</guid>
+      <description>OpenTools Studio is a curated collection of open-source tools designed to assist designers and developers throughout their creative and implementation workflows. It offers a variety of utilities ranging from color palette generators and illustration kits to code snippets and prototyping aids, all built with a focus on accessibility and collaboration. The platform aims to streamline the process of finding and integrating useful tools without the need for expensive subscriptions or complex installations, fostering a more efficient and cost-effective development environment.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/3777876/pexels-photo-3777876.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/3777876/pexels-photo-3777876.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/3777876/pexels-photo-3777876.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Signalbox Real-time Rail Map</title>
+      <link>https://surfaced-x.pages.dev/item/signalbox-realtime-rail-map</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/signalbox-realtime-rail-map</guid>
+      <description>Signalbox provides a real-time, dynamic map of Great Britain&apos;s rail network, visualizing train movements, delays, and operational status. Built by a team dedicated to open rail data, it aims to demystify the complex operations of the national railway for enthusiasts and the public alike. Users can see individual trains as they traverse the country, observe planned and unplanned disruptions, and gain a live overview of the entire system&apos;s performance at any given moment.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/35886135/pexels-photo-35886135.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/35886135/pexels-photo-35886135.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/35886135/pexels-photo-35886135.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Localradios.com</title>
@@ -468,94 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/29652326/pexels-photo-29652326.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/29652326/pexels-photo-29652326.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/29652326/pexels-photo-29652326.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Streamlaide</title>
-      <link>https://surfaced-x.pages.dev/item/streamlaide-video-editing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/streamlaide-video-editing</guid>
-      <description>Streamlaide is an AI-powered platform designed to simplify video creation for content creators. It allows users to generate videos from text or existing content, automatically adding visuals, music, and voiceovers. The tool offers a freemium model, providing basic video generation for free with tiered paid plans for more extensive features, higher resolution exports, and longer video lengths. Streamlaide excels at rapidly transforming written content into engaging video formats, significantly reducing the time and technical skill typically required for video production.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/30869075/pexels-photo-30869075.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/30869075/pexels-photo-30869075.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/30869075/pexels-photo-30869075.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Typewriter Sound Effect</title>
-      <link>https://surfaced-x.pages.dev/item/typewriter-sound</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typewriter-sound</guid>
-      <description>This website provides an endless loop of realistic typewriter sound effects. It&apos;s designed to create a focused and immersive atmosphere for work or study, mimicking the tactile and auditory experience of typing on an old-fashioned mechanical typewriter. The sound is intended to aid concentration by providing a consistent, non-distracting background noise. It&apos;s a simple, single-purpose tool built by an individual developer looking to offer a productivity aid.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6827282/pexels-photo-6827282.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6827282/pexels-photo-6827282.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6827282/pexels-photo-6827282.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>PhotoMath</title>
-      <link>https://surfaced-x.pages.dev/item/photomath-math-solver</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/photomath-math-solver</guid>
-      <description>PhotoMath is a mobile application that uses your device&apos;s camera to instantly solve mathematical problems. Simply point your camera at a math equation – from basic arithmetic to calculus – and PhotoMath will provide the answer, along with step-by-step explanations. The core scanning and solving functionality is free, with an optional premium subscription for more advanced features and ad-free experience. It&apos;s unparalleled in its ability to quickly and accurately decipher handwritten or printed math problems and offer clear, guided solutions.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6238026/pexels-photo-6238026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6238026/pexels-photo-6238026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6238026/pexels-photo-6238026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance</title>
-      <link>https://surfaced-x.pages.dev/item/gpt-5-5-codex-reasoning-token-clustering</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/gpt-5-5-codex-reasoning-token-clustering</guid>
-      <description>This GitHub issue report investigates a potential cause for degraded performance in OpenAI&apos;s Codex models, specifically focusing on GPT-5.5. The core hypothesis is that &apos;reasoning-token clustering&apos; might be contributing to unexpected or reduced output quality. It delves into technical observations and data that suggest a correlation between how reasoning-related tokens are grouped and the model&apos;s ability to perform complex tasks accurately. This is a raw, community-driven discussion among developers and researchers working with or observing these advanced AI models. A researcher studying large language model behavior could use this to refine their own experiments or understand potential pitfalls when fine-tuning similar models for code generation or complex reasoning tasks.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8452381/pexels-photo-8452381.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8452381/pexels-photo-8452381.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8452381/pexels-photo-8452381.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Affine</title>
-      <link>https://surfaced-x.pages.dev/item/affine-collaboration-workspace</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/affine-collaboration-workspace</guid>
-      <description>Affine is a versatile productivity application designed to be an all-in-one workspace for individuals and teams. It combines note-taking, project management, and document creation into a single, intuitive interface. Affine offers a free tier with generous features for personal use, with paid plans for advanced collaboration and storage. Its strength lies in its seamless integration of different productivity tools, allowing you to manage tasks, write documents, and organize information without context switching.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5716013/pexels-photo-5716013.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5716013/pexels-photo-5716013.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5716013/pexels-photo-5716013.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>If you&apos;re a button, you have one job</title>
-      <link>https://surfaced-x.pages.dev/item/if-youre-a-button-you-have-one-job</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/if-youre-a-button-you-have-one-job</guid>
-      <description>This is a captivating and thought-provoking exploration of the fundamental nature of user interface elements, specifically buttons. It delves into the core responsibility of a button: to trigger an action. The article uses a minimalist approach to dissect what it means for a digital button to fulfill its purpose, considering its state, feedback, and the user&apos;s expectation. It&apos;s a piece that makes you reconsider the simplicity and complexity of everyday digital interactions. For instance, a web designer might use the principles discussed here to ensure their call-to-action buttons are unambiguous and provide clear feedback upon click, thereby improving user experience and conversion rates.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/21562934/pexels-photo-21562934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/21562934/pexels-photo-21562934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/21562934/pexels-photo-21562934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Open-codesign</title>
-      <link>https://surfaced-x.pages.dev/item/open-codesign</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/open-codesign</guid>
-      <description>Open-codesign is an open-source alternative to proprietary AI design tools, designed to convert prompts into interactive prototypes, slides, and PDFs. It offers a one-click import for your Claude Code or Codex API key, allowing seamless integration with powerful AI models. Supporting a multi-model approach, it works with Claude, GPT, Gemini, Kimi, GLM, and Ollama. The platform emphasizes Bring Your Own Key (BYOK) and local-first functionality for enhanced privacy and control, making it a versatile and secure option for prompt-based design generation.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/16125027/pexels-photo-16125027.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/16125027/pexels-photo-16125027.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/16125027/pexels-photo-16125027.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Asciinema</title>
-      <link>https://surfaced-x.pages.dev/item/asciinema</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/asciinema</guid>
-      <description>Asciinema is a free and open-source tool that lets you record your terminal sessions and share them as easily as sharing a YouTube video. It captures everything you type and see in the terminal, preserving the timing and output exactly as it happened. This makes it incredibly useful for demonstrating command-line workflows, debugging issues, or sharing complex commands with colleagues. Developed by the Asciinema team, it&apos;s a perfect alternative to lengthy screen recordings for terminal-based tasks.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/16781975/pexels-photo-16781975.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/16781975/pexels-photo-16781975.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/16781975/pexels-photo-16781975.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

@@ -1,19 +1,19 @@
 [
   {
-    "slug": "localradios",
-    "title": "Localradios.com",
+    "slug": "unclutter",
+    "title": "Unclutter",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Localradios.com is a web-based platform that aggregates a vast directory of live radio stations from around the world, a",
+    "description": "Unclutter is a minimalist clipboard manager, notes app, and file archive designed for Mac users. It offers a quick and u",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "kanbanflow-task-manager",
-    "title": "KanbanFlow",
+    "slug": "context-dev-web-scraping-api",
+    "title": "Context.dev",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "KanbanFlow is a free, web-based Kanban board designed to help individuals and teams visualize their workflow and manage ",
+    "description": "Context.dev is a powerful API designed to help AI products and developers scrape, enrich, and extract data from the inte",
     "badge": null,
     "type": "tool"
   }

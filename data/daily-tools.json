@@ -1,70 +1,5 @@
 [
   {
-    "id": 503,
-    "slug": "wave-accounting-free-invoicing-software-2",
-    "toolName": "Wave Accounting",
-    "whatItDoes": "Wave Accounting, developed by Wave Financial Inc., is a free cloud-based software suite offering accounting, invoicing, and receipt scanning solutions primarily for small businesses and freelancers. It enables users to easily track income and expenses, send professional invoices, manage customer payments, and generate financial reports without needing accounting expertise. The platform is primarily web-based, with mobile apps (iOS, Android) available for receipt scanning and basic invoicing. Its most used feature is its completely free and comprehensive invoicing and double-entry accounting system. All financial data is securely stored in the cloud, ensuring accessibility and compliance with industry standards.",
-    "category": "Finance",
-    "whyItIsUseful": "It eliminates the high cost and complexity typically associated with professional accounting software, empowering small business owners to manage their finances independently. For a freelance web developer, it provides a free and straightforward way to send unlimited invoices, track payments, and categorize business expenses for tax purposes. For a small e-commerce entrepreneur, it offers a clear overview of cash flow, profit and loss, and enables easy reconciliation of bank transactions to maintain accurate books. The free tier is incredibly useful and provides almost all essential accounting and invoicing features, making it a complete solution for many small businesses without any cost. Compared to QuickBooks, Wave's primary advantage is its fully free core offerings, making it ideal for budget-conscious users, while still providing robust functionality. A power feature is its automatic bank and credit card transaction import, simplifying reconciliation and expense tracking. A non-technical person can definitely set up an account and send their first invoice within 10 minutes, though understanding double-entry accounting concepts might take longer.",
-    "imageIdea": "Wave Accounting dashboard showing income/expense charts and invoice list",
-    "websiteLink": "https://www.waveapps.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/wave-accounting-free-invoicing-software-2.webp"
-  },
-  {
-    "id": 216,
-    "slug": "honeybook-freelance-contracts-invoicing-time-tracking",
-    "toolName": "HoneyBook",
-    "whatItDoes": "HoneyBook, developed by HoneyBook Inc., is an all-in-one business management platform designed specifically for freelancers and small businesses to manage projects, book clients, send invoices, and get paid. It enables users to create professional proposals, contracts, invoices, and questionnaires, automating various aspects of their client workflow from inquiry to payment. The platform is primarily web-based, accessible from any browser, and also offers mobile apps for iOS and Android for on-the-go management. Its most used feature is the ability to create and send smart files that combine proposals, contracts, and invoices into one seamless client experience. All client data, project details, and financial transactions are securely stored and synced in the cloud, providing a unified workspace and ensuring data privacy.",
-    "category": "Productivity",
-    "whyItIsUseful": "HoneyBook eliminates the chaos of managing disparate tools for client communication, contracts, and billing, streamlining the entire client lifecycle. For the wedding photographer, it provides a seamless way to send branded proposals, secure signatures on contracts, and collect payments, all within a single platform. For a marketing consultant, it automates follow-ups, tracks project milestones, and offers templates for consistent client onboarding and invoicing, saving significant administrative time. HoneyBook offers a 7-day free trial and a discounted first year, providing ample opportunity to explore its comprehensive features before committing to a subscription. Compared to using separate tools for contracts (e.g., DocuSign) and invoicing (e.g., Wave), HoneyBook wins by offering a deeply integrated, client-centric workflow that enhances professionalism. Its 'Automations' feature allows advanced users to set up triggered actions for proposals, payments, and client communications, significantly reducing manual effort. A non-technical person can set up a project and send their first smart file within 15 minutes.",
-    "imageIdea": "HoneyBook 'Smart File' interface showing a combined proposal, contract, and invoice.",
-    "websiteLink": "https://www.honeybook.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/honeybook-freelance-contracts-invoicing-time-tracking.webp"
-  },
-  {
-    "id": 222,
-    "slug": "authy-two-factor-authentication-app",
-    "toolName": "Authy",
-    "whatItDoes": "Authy is a robust two-factor authentication (2FA) application developed by Twilio, designed to secure your online accounts by generating time-based one-time passwords (TOTP). It acts as a second layer of defense, requiring a unique code from your device in addition to your password, significantly reducing the risk of unauthorized access. The primary workflow involves linking your online accounts to Authy by scanning a QR code, then using the app to retrieve a 6-digit code whenever a service requires 2FA during login. It is available on iOS, Android, Windows, Mac, Linux, and as a Chrome extension. Its most used feature is the encrypted cloud backup, which allows users to restore their 2FA tokens if they lose or upgrade their device. Authy's tokens are securely synced and backed up to the cloud using strong encryption, ensuring you never lose access to your accounts.",
-    "category": "Productivity",
-    "whyItIsUseful": "Authy eliminates the critical vulnerability of relying solely on passwords, providing essential protection against phishing and credential theft. For online banking users, it adds a crucial layer of security, ensuring financial accounts are protected even if a password is stolen. For system administrators, Authy provides a reliable and synchronized solution for securing multiple server logins and administrative tools across different devices. Authy is completely free to use for individuals, making strong 2FA accessible to everyone without any paywalls. Unlike Google Authenticator, Authy offers encrypted cloud backups and multi-device sync, which means losing your phone doesn't mean losing all your 2FA access. A power feature is the ability to secure the app with a PIN or biometric lock, preventing unauthorized access to your tokens. A non-technical person can set up Authy and link their first account in under 5 minutes with clear on-screen instructions.",
-    "imageIdea": "Authy mobile app displaying several 6-digit TOTP codes for different services.",
-    "websiteLink": "https://authy.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/authy-two-factor-authentication-app.webp"
-  },
-  {
-    "id": 224,
-    "slug": "protonvpn-private-secure-internet",
-    "toolName": "ProtonVPN",
-    "whatItDoes": "ProtonVPN is a secure VPN service created by the same team behind ProtonMail, based in Switzerland, dedicated to providing private and secure internet access. It encrypts your internet connection and routes it through a server in a location of your choice, masking your IP address and protecting your online activities from monitoring. The primary workflow involves launching the app, selecting a server location, and connecting to establish a secure, encrypted tunnel for all your internet traffic. It is available on Windows, Mac, Linux, iOS, Android, and compatible with various routers. Its most used feature is its 'Secure Core' architecture, which routes traffic through multiple secure servers in privacy-friendly countries before leaving the network. ProtonVPN operates under strict Swiss privacy laws, has a no-logs policy, and all connections are secured with AES-256 encryption.",
-    "category": "Communication",
-    "whyItIsUseful": "ProtonVPN eliminates the widespread problem of internet censorship, ISP tracking, and potential data interception on public Wi-Fi networks. For digital nomads, it ensures secure access to sensitive work data from cafes or airports, protecting against cyber threats. For users in restrictive regimes, it provides a crucial tool to bypass censorship and access a free and open internet without fear of surveillance. ProtonVPN offers a genuinely useful free tier with servers in three countries and unlimited bandwidth, making basic privacy accessible to all, with premium plans for advanced features. Unlike many free VPNs that sell user data, ProtonVPN is funded by paid subscriptions and maintains a strict no-logs policy, making it a trustworthy choice. Its power feature, 'Tor over VPN,' allows users to route their traffic through the Tor network with a single click for enhanced anonymity. A non-technical person can download, install, and connect to a server in under 5 minutes, thanks to its intuitive applications.",
-    "imageIdea": "ProtonVPN mobile app interface showing a world map with a connected VPN tunnel to a server location.",
-    "websiteLink": "https://protonvpn.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/protonvpn-private-secure-internet.webp"
-  },
-  {
-    "id": 226,
-    "slug": "yubikey-hardware-security-key",
-    "toolName": "YubiKey",
-    "whatItDoes": "YubiKey is a hardware security key manufactured by Yubico, designed to provide strong two-factor and multi-factor authentication through a physical device. It aims to replace less secure methods like SMS codes or authenticator apps with a simple touch or tap, offering superior protection against phishing and man-in-the-middle attacks. The primary workflow involves plugging the YubiKey into a USB port (or tapping via NFC), then touching its gold disc when prompted during login to verify your identity. It supports various authentication protocols like FIDO2/WebAuthn, U2F, TOTP, Smart Card, and PIV, working across Windows, Mac, Linux, iOS, Android, and popular browsers. Its most used feature is its resistance to phishing, as it cryptographically verifies the origin of the login request. YubiKeys store cryptographic secrets securely on the device itself, making them resistant to remote attacks and unauthorized duplication.",
-    "category": "Productivity",
-    "whyItIsUseful": "YubiKey eliminates the critical vulnerability of software-based 2FA methods, offering an unphishable layer of security that significantly elevates account protection. For corporate IT departments, it provides a scalable and highly secure solution for securing employee accounts, reducing the risk of enterprise-wide breaches. For cryptocurrency investors, it offers unparalleled security for exchange accounts and crypto wallets, safeguarding digital assets from sophisticated hacks. YubiKeys are a one-time purchase with various models available, offering a strong return on investment for long-term security. Unlike software authenticators, YubiKey provides physical possession as a factor, making it virtually impossible for remote attackers to compromise. A power feature is its ability to store multiple cryptographic identities, allowing it to secure dozens of services and even serve as a smart card for Windows login. A non-technical person can set up a YubiKey with a compatible service like Google or GitHub in under 5 minutes, following clear online guides.",
-    "imageIdea": "A YubiKey 5 NFC plugged into a laptop USB port with a hand hovering over its gold disc.",
-    "websiteLink": "https://www.yubico.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/yubikey-hardware-security-key.webp"
-  },
-  {
     "id": 227,
     "slug": "nordlocker-encrypted-cloud-storage",
     "toolName": "NordLocker",
@@ -5856,5 +5791,45 @@
     "type": "tool",
     "dateAdded": "2026-07-05",
     "screenshotUrl": "/screenshots/kanbanflow-task-manager.webp"
+  },
+  {
+    "id": 878,
+    "slug": "oomwoo-open-source-vacuum-robot-cleaner",
+    "toolName": "oomwoo",
+    "seoTitle": "oomwoo — Open-source vacuum robot cleaner",
+    "whatItDoes": "oomwoo is an ambitious open-source project aiming to create a fully functional, DIY vacuum robot cleaner. It leverages Python for its core logic, allowing enthusiasts and developers to customize and improve its navigation, cleaning patterns, and sensor integration. The project is ideal for those interested in robotics, home automation, and learning about the inner workings of cleaning robots. It's a free, community-driven initiative, offering a transparent and adaptable alternative to proprietary robotic vacuums.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers and makers, oomwoo offers an unparalleled opportunity to dive deep into robotics hardware and software. Its open-source nature means you can examine, modify, and extend the code, making it a fantastic educational tool for learning about ROS (Robot Operating System), sensor fusion, path planning, and motor control. Unlike commercial robots that operate as black boxes, oomwoo provides complete transparency and control. Users can integrate new sensors, experiment with different cleaning algorithms, or even adapt the hardware for other tasks. The project's growing community on GitHub provides support and shared knowledge, accelerating the learning curve for newcomers. It's particularly useful for hobbyists looking to build a custom cleaning solution or students seeking a hands-on robotics project.",
+    "imageIdea": "robot vacuum cleaner circuit board",
+    "websiteLink": "https://github.com/makerspet/oomwoo",
+    "type": "tool",
+    "dateAdded": "2026-07-06",
+    "screenshotUrl": "/screenshots/oomwoo-open-source-vacuum-robot-cleaner.webp"
+  },
+  {
+    "id": 879,
+    "slug": "acti-agentic-keyboard",
+    "toolName": "Acti",
+    "seoTitle": "Acti — Mobile command and search keyboard",
+    "whatItDoes": "Acti is an innovative agentic keyboard for mobile devices that transforms how you interact with your smartphone. Instead of switching between apps for information or actions, Acti understands your intent expressed through natural language typed into its special bar. Whether you need live sports scores, restaurant recommendations, to add an event to your calendar, or to find information within your connected apps like Notion, Acti brings the relevant result or action directly to you, in context. It aims to streamline mobile tasks, reducing the need for extensive app navigation. Acti is currently free to try, with potential for future premium features.",
+    "category": "Productivity",
+    "whyItIsUseful": "Acti significantly boosts mobile productivity by acting as a universal command center. Its core value lies in its ability to process intent and deliver results without forcing you to leave your current application. Imagine asking for the latest stock price or finding a nearby coffee shop, and getting the answer displayed instantly within Acti's interface, or a direct link to the relevant app. This context-aware approach saves considerable time and reduces cognitive load. It integrates with various services and apps, acting as a powerful shortcut for everyday queries and tasks. Users who juggle multiple apps and information streams will find Acti invaluable for quick access to information and execution of commands, making their smartphone experience far more efficient and less fragmented.",
+    "imageIdea": "smartphone keyboard with ai assistant overlay",
+    "websiteLink": "https://www.producthunt.com/r/JTS2SCFXSWS3V4",
+    "type": "tool",
+    "dateAdded": "2026-07-06"
+  },
+  {
+    "id": 880,
+    "slug": "context-dev-web-scraping-api",
+    "toolName": "Context.dev",
+    "seoTitle": "Context.dev — Internet scraping and enrichment API",
+    "whatItDoes": "Context.dev is a powerful API designed to help AI products and developers scrape, enrich, and extract data from the internet. It provides tools to capture content from any URL, crawl entire websites, and convert web pages into LLM-ready Markdown. Beyond basic scraping, it offers features like structured data extraction into custom schemas and screenshot capture. This service is particularly vital for building AI applications that require real-time or comprehensive web data. Context.dev operates on a paid, usage-based model, offering a scalable solution for developers needing robust web data capabilities.",
+    "category": "Developer",
+    "whyItIsUseful": "For AI developers and data scientists, Context.dev is an indispensable tool for feeding their models high-quality, structured web data. It removes the significant hurdle of building and maintaining complex web scraping infrastructure, offering a reliable API that handles the nuances of web crawling and data extraction. The ability to convert pages into LLM-ready Markdown is a standout feature, simplifying prompt engineering and data processing for language models. Its structured data extraction allows for precise data retrieval, crucial for training models or populating databases. Context.dev saves immense development time and resources by providing a clean, efficient way to access and process the vast amount of information on the internet, enabling the creation of more intelligent and data-driven AI applications.",
+    "imageIdea": "network diagram with data nodes",
+    "websiteLink": "https://www.producthunt.com/r/XBX6EKSLADLB4V",
+    "type": "tool",
+    "dateAdded": "2026-07-06"
   }
 ]
