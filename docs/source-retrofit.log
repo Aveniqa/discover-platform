@@ -1,383 +1,221 @@
-# Source retrofit log — 2026-07-04T16:08:27.338Z
+# Source retrofit log — 2026-07-04T16:55:44.448Z
 # Mode: live
 
-## archive missing-source backfill (250/409 items)
-ADDED     deep-sea-microbes-adapt-cell-membranes-extreme-pressure
-  new: https://www.nature.com/articles/s41467-024-47408-5
-ADDED     mbari-discovers-enigmatic-deep-sea-comb-jelly-unique-tentacles
-  new: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0242241
-ADDED     atlantic-deep-ocean-current-slowdown-unprecedented-millennium
-  new: https://www.nature.com/articles/s41561-021-00699-z
-ADDED     unique-deep-sea-hydrothermal-vent-ecosystem-hydrocarbon-rich
-  new: https://www.pnas.org/doi/10.1073/pnas.1906912116
-ADDED     deep-sea-crustaceans-absorb-plasticizer-chemicals-threatening
-  new: https://pubs.acs.org/doi/10.1021/acs.est.0c03622
-ADDED     regional-dialects-discovered-deep-diving-sperm-whale-communication
-  new: https://www.pnas.org/doi/10.1073/pnas.2313621121
-NO_SOURCE deep-sea-gigantism-crustaceans-linked-cold-resource-scarcity
-ADDED     deep-sea-mining-scars-persist-decades-ecosystem-recovery-slow
-  new: https://www.science.org/doi/10.1126/sciadv.adi2801
-ADDED     engineers-create-programmable-acoustic-metamaterial
-  new: https://www.nature.com/articles/s41467-023-44040-7
-ADDED     ultrathin-flat-lens-sees-nano-objects-with-visible-light
-  new: https://www.science.org/doi/10.1126/science.aaj2986
-ADDED     scientists-develop-self-healing-polymer-at-room-temperature
-  new: https://www.science.org/doi/10.1126/sciadv.adf0523
-ADDED     metamaterial-thermal-diode-directs-heat-unidirectionally
-  new: https://www.science.org/doi/10.1126/science.ade3026
-ADDED     programmable-soft-robot-material-changes-stiffness-on-demand
-  new: https://www.nature.com/articles/s41467-023-42173-z
-NO_SOURCE strongest-lightest-aerogel-metamaterial-ever-created  (rejected: https://ethz.ch/en/news-and-events/eth-news/news/2023/02/extremely-light-and-stiff-material-developed-at-eth-zurich.html)
-NO_SOURCE ancient-egyptian-wine-press-revolutionizes-understanding-of-alcohol-production
-NO_SOURCE new-exoplanet-atmosphere-hints-at-unusual-life-chemistry  (rejected: https://www.nasa.gov/news-release/nasas-webb-finds-methane-carbon-dioxide-in-atmosphere-of-k2-18-b/)
-ADDED     fossilized-bacteria-reveal-earths-earliest-photosynthesis
-  new: https://www.nature.com/articles/s41561-022-00969-x
-NO_SOURCE artificial-intelligence-deciphers-unknown-ancient-language
-ADDED     supermassive-black-hole-jets-found-to-bend-light
-  new: https://www.nature.com/articles/s41550-024-02239-0
-ADDED     fungal-networks-communicate-using-electrical-signals
-  new: https://royalsocietypublishing.org/doi/10.1098/rsos.211926
-ADDED     ancient-microbes-found-in-salt-crystals-revived
-  new: https://pubs.geoscienceworld.org/gsa/geology/article-abstract/51/10/970/628005/250-Million-Year-Old-Putative-Halophiles-in-Fluid
-NO_SOURCE ai-deciphers-lost-language-of-ancient-civilization
-ADDED     ancient-antarctic-ice-reveals-surprising-co2-levels
-  new: https://www.science.org/doi/10.1126/science.aaz0280
-ADDED     new-exoplanet-atmosphere-hints-at-unusual-life-chemistry-2
-  new: https://arxiv.org/abs/2309.05581
-ADDED     microbial-life-discovered-in-ancient-antarctic-ice-cores
-  new: https://www.nature.com/articles/27231
-ADDED     deep-sea-volcanic-vents-host-chemosynthetic-life
-  new: https://www.science.org/doi/10.1126/science.203.4385.1073
-ADDED     early-mars-had-vast-liquid-water-ocean
-  new: https://www.science.org/doi/10.1126/science.aaa4966
-ADDED     ancient-roman-coins-tell-economic-secrets
-  new: https://www.nature.com/articles/s41562-023-01792-7
-ADDED     deep-sea-sponges-act-as-natural-biofilters-for-microplastics
-  new: https://www.science.org/doi/10.1126/sciadv.adi2020
-ADDED     regional-dialects-discovered-in-deep-diving-sperm-whale-communication
-  new: https://www.cell.com/current-biology/fulltext/S0960-9822(21)01423-7
-ADDED     deep-sea-microbes-plastic-degradation-pressure
-  new: https://medienportal.univie.ac.at/presse/aktuelle-pressemeldungen/detailansicht/artikel/deep-sea-microbes-found-to-degrade-plastic/
-ADDED     supermassive-black-hole-jets-fastest-ever
-  new: https://www.nature.com/articles/s41550-023-02191-2
-ADDED     single-atom-catalyst-converts-methane-to-useful-chemicals
-  new: https://www.nature.com/articles/s41929-022-00788-z
-NO_SOURCE scientists-observe-supermassive-black-hole-jets-bending-light  (rejected: https://www.nasa.gov/universe/magnetic-fields-at-the-edge-of-sagittarius-a-revealed-by-eht/)
-ADDED     deep-eutectic-solvents-sustainable-chemistry
-  new: https://www.nature.com/articles/s41570-022-00431-1
-ADDED     arctic-fungal-networks-dormant-for-15000-years-revived
-  new: https://www.nature.com/articles/s41467-021-25591-4
-ADDED     antarctic-ice-core-reveals-ancient-global-warming-event
-  new: https://www.nature.com/articles/ngeo1599
-ADDED     neanderthal-genes-influence-modern-human-immunity-study
-  new: https://pubmed.ncbi.nlm.nih.gov/27040694/
-NO_SOURCE black-hole-jets-bend-light-astrophysical-first
-NO_SOURCE ancient-egyptian-beer-discovery  (rejected: https://www.nationalgeographic.com/history/article/massive-ancient-egyptian-brewery-uncovered-abydos-oldest-largest)
-ADDED     supercontinent-pangea-formation-linked-to-mantle-plume-activity
-  new: https://pubs.geoscienceworld.org/gsa/geology/article-abstract/49/1/81/588827/Mantle-plume-induced-supercontinent-formation
-ADDED     oldest-known-fossil-forest-discovered-in-amazon-rainforest
-  new: https://www.cell.com/current-biology/fulltext/S0960-9822(24)00713-3
-ADDED     ancient-river-channels-on-mars-hint-at-long-lived-water
-  new: https://www.science.org/doi/10.1126/science.1200192
-NO_SOURCE worms-living-under-ice-eat-radiation  (rejected: https://www.frontiersin.org/articles/10.3389/fevo.2022.909999/full)
-ADDED     nasa-finds-ocean-worlds-planet-formation
-  new: https://www.nature.com/articles/s41550-023-02182-3
-NO_SOURCE lg-stanby-me-go-portable-display  (rejected: https://www.lg.com/us/tvs/lg-27lx5qkna-stanbyme-go)
-NO_SOURCE lectric-xp-lite-electric-bike  (rejected: https://www.lectricxp.com/products/xp-lite)
-NO_SOURCE aventon-pace-350-electric-bike  (rejected: https://www.aventon.com/products/aventon-pace-350-step-through-ebike)
-NO_SOURCE aeropress-go-portable-coffee-maker-2  (rejected: https://aeropress.com/products/aeropress-go/)
-ADDED     ooni-karu-16-multi-fuel-pizza-oven-2
-  new: https://ooni.com/products/ooni-karu-16
-NO_SOURCE garmin-inreach-mini-2-satellite-messenger  (rejected: https://www.garmin.com/en-US/p/874136)
-ADDED     vacmaster-vp215-chamber-vacuum-sealer
-  new: https://vacmasterfresh.com/products/vp215-chamber-vacuum-sealer
-NO_SOURCE aeropress-go-travel-coffee-press  (rejected: https://aeropress.com/products/aeropress-go-coffee-maker/)
-NO_SOURCE philips-smartsleep-connected-wake-up-light  (rejected: https://www.philips.com/c-p/HF3671_01/smartsleep-sleep-and-wake-up-light)
-NO_SOURCE blueair-healthprotect-7470i-air-purifier  (rejected: https://www.blueair.com/us/air-purifiers/healthprotect-7470i/6020500100.html)
-ADDED     gravity-blanket-original-weighted-blanket-2
-  new: https://gravityblankets.com/products/the-original-weighted-blanket
-NO_SOURCE sleepphones-wireless-sleep-headband  (rejected: https://www.sleepphones.com/products/sleepphones-wireless)
-NO_SOURCE trx-home2-suspension-training-system  (rejected: https://www.trxtraining.com/products/trx-home2-system)
-NO_SOURCE tangram-smart-rope-rookie  (rejected: https://tangramfactory.com/smart-rope-rookie)
-NO_SOURCE theragun-pro-5th-generation-percussive-massager  (rejected: https://www.therabody.com/us/en-us/theragun-pro/)
-NO_SOURCE eagle-creek-pack-it-reveal-compression-cubes  (rejected: https://www.eaglecreek.com/shop/pack-it-reveal-compression-cube-set-ec0a544c?variationId=1000)
-NO_SOURCE anker-powercore-iii-elite-25600-60w  (rejected: https://us.anker.com/products/a1290g11)
-NO_SOURCE katadyn-befree-water-filter  (rejected: https://www.katadyn.com/us/us/8018005-katadyn-befree-water-filter-1.0l-tactical)
-ADDED     jetboil-flash-cooking-system
-  new: https://www.jetboil.com/products/flash-cooking-system/
-NO_SOURCE leatherman-wave-plus-multi-tool  (rejected: https://www.leatherman.com/wave-plus.html)
-NO_SOURCE adventure-medical-kits-mountain-series-hiker  (rejected: https://www.adventuremedicalkits.com/medical-kits/mountain-series/hiker.html)
-NO_SOURCE sol-emergency-bivvy  (rejected: https://www.surviveoutdoorslonger.com/products/emergency-bivvy)
-NO_SOURCE logitech-mx-master-3s-wireless-mouse-2  (rejected: https://www.logitech.com/en-us/products/mice/mx-master-3s-wireless-mouse.910-006556.html)
-NO_SOURCE anker-615-usb-power-strip  (rejected: https://www.anker.com/products/a9128?ref=collection&variant=42159670081686)
-NO_SOURCE samsung-t7-shield-portable-ssd  (rejected: https://www.samsung.com/us/memory-storage/portable-ssds/t7-shield-portable-ssd-2tb-blue-mu-pe2t0b-am/)
-NO_SOURCE petlibro-granary-wifi-pet-feeder  (rejected: https://petlibro.com/products/granary-wifi-pet-feeder)
-NO_SOURCE tractive-gps-dog-lte-tracker  (rejected: https://tractive.com/en/products/dog-gps-tracker)
-NO_SOURCE petsafe-drinkwell-platinum-pet-fountain  (rejected: https://www.petsafe.net/product/drinkwell-platinum-pet-fountain)
-NO_SOURCE lesotc-pet-water-bottle-dogs
-NO_SOURCE outward-hound-fun-feeder-slo-bowl  (rejected: https://outwardhound.com/collections/dog-bowls-feeders/products/fun-feeder-slo-bowl)
-NO_SOURCE furminator-deshedding-tool-dogs  (rejected: https://www.furminator.com/products/deshedding-tools/dog.aspx)
-NO_SOURCE aputure-amaran-100x-s-bi-color-led  (rejected: https://www.aputure.com/products/amaran-100x-s/)
-NO_SOURCE sandisk-extreme-pro-sdxc-256gb  (rejected: https://www.westerndigital.com/products/memory-cards/sd-cards/sandisk-extreme-pro-sdxc-uhs-i)
-NO_SOURCE polarpro-nd-filter-dji-mini-4-pro  (rejected: https://www.polarprofilters.com/products/mini-4-pro-vivid-collection)
-NO_SOURCE ethique-frizz-wrangler-shampoo-bar  (rejected: https://ethique.com/products/frizz-wrangler-shampoo-bar)
-NO_SOURCE frank-green-ceramic-reusable-bottle  (rejected: https://us.frankgreen.com/products/ceramic-reusable-bottle-20oz-push-button-lid)
-NO_SOURCE bigblue-28w-solar-charger  (rejected: https://www.bigbluesolar.com/products/28w-foldable-solar-charger)
-NO_SOURCE dyson-corrale-hair-straightener  (rejected: https://www.dyson.com/hair-care/hair-straighteners/corrale/corrale-nickel-fuchsia)
-NO_SOURCE philips-norelco-series-7000-trimmer
-ADDED     oral-b-io-series-9-toothbrush
-  new: https://oralb.com/en-us/products/electric-toothbrushes/io-series-9-electric-toothbrush
-NO_SOURCE braun-silk-expert-pro-5-ipl  (rejected: https://us.braun.com/en-us/female-hair-removal/ipls/silk-expert-pro-5)
-NO_SOURCE foreo-luna-4-facial-cleansing-2
-NO_SOURCE bose-quietcomfort-ultra-earbuds  (rejected: https://www.bose.com/p/headphones/bose-quietcomfort-ultra-earbuds/QCU-EARBUDS.html)
-ADDED     bose-sleepbuds-ii-sleep-technology
-  new: https://www.bose.com/en_us/products/wellness/sleepbuds_ii.html
-NO_SOURCE philips-hue-play-gradient-lightstrip  (rejected: https://www.philips-hue.com/en-us/p/hue-play-gradient-lightstrip-65-inch/046677560738)
-NO_SOURCE eufy-security-s330-eufycam  (rejected: https://us.eufylife.com/products/e8340121)
-NO_SOURCE blueair-healthprotect-7470i-smart-air-purifier  (rejected: https://www.blueair.com/us/air-purifiers/healthprotect-7470i/601007.html)
-NO_SOURCE meross-smart-wifi-garage-door-opener  (rejected: https://www.meross.com/products/meross-smart-wi-fi-garage-door-opener-remote-with-optional-door-sensor-msg100)
-NO_SOURCE aqara-water-leak-sensor  (rejected: https://www.aqara.com/us/product/water-leak-sensor/)
-NO_SOURCE logitech-g-pro-x-superlight-mouse  (rejected: https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2-wireless-mouse.html)
-NO_SOURCE woojer-vest-edge-haptic-feedback  (rejected: https://www.woojer.com/products/woojer-vest-edge)
-NO_SOURCE logitech-g-driving-force-g29-racing-wheel  (rejected: https://www.logitechg.com/en-us/products/driving/driving-force-racing-wheel.html)
-NO_SOURCE sphero-indi-screen-free-coding-car  (rejected: https://www.sphero.com/products/sphero-indi)
-NO_SOURCE magna-tiles-100-piece-clear-colors  (rejected: https://magnatiles.com/products/magna-tiles-clear-colors-100-piece-set/)
-NO_SOURCE lunii-my-fabulous-storyteller-audio-player  (rejected: https://us.lunii.com/products/my-fabulous-storyteller-new-version)
-NO_SOURCE leapfrog-leapstart-go-interactive-learning  (rejected: https://www.leapfrog.com/en-us/products/leapstart-go)
-NO_SOURCE national-geographic-kids-microscope-40x-640x  (rejected: https://www.bresser.de/en/Science-Education/Microscopes/National-Geographic-Kids-Microscope-40x-640x.html)
-NO_SOURCE theragun-pro-professional-percussion-therapy-massager  (rejected: https://www.therabody.com/us/en-us/theragun-pro-5th-gen.html)
-NO_SOURCE philips-smartsleep-deep-sleep-headband  (rejected: https://www.philips.com/c-p/HH1610_00/smartsleep-deep-sleep-headband-2)
-NO_SOURCE cuisinart-custom-14-cup-food-processor  (rejected: https://www.cuisinart.com/food-processors/full-size/custom-14-food-processor/DFP-14BCNY/)
-NO_SOURCE lamy-2000-fountain-pen-makrolon  (rejected: https://www.lamy.com/en/lamy-2000/)
-NO_SOURCE baron-fig-confidant-notebook-dot-grid  (rejected: https://baronfig.com/products/confidant)
-NO_SOURCE logitech-mx-master-3s-performance-mouse  (rejected: https://www.logitech.com/en-us/products/mice/mx-master-3s-wireless-mouse.910-006556.html)
-NO_SOURCE rocketbook-core-reusable-notebook  (rejected: https://getrocketbook.com/products/core-notebook)
-NO_SOURCE dyson-v7-car-boat-handheld-vacuum  (rejected: https://www.dyson.com/support/journey/tools/dyson-v7-car-boat-handheld-vacuum-311494-01)
-NO_SOURCE adams-polishes-graphene-ceramic-coating-advanced  (rejected: https://adamspolishes.com/products/graphene-ceramic-coating-advanced)
-ADDED     drive-auto-products-car-trunk-organizer
-  new: https://www.driveautoparts.com/products/trunk-organizer
-NO_SOURCE hudway-drive-portable-head-up-display  (rejected: https://hudway.co/products/hudway-drive)
-NO_SOURCE craft-a-brew-kombucha-brewing-kit  (rejected: https://craftabrew.com/products/kombucha-kit)
-ADDED     perfect-bake-pro-smart-baking-scale
-  new: https://perfect.kitchen/products/perfect-bake-pro
-NO_SOURCE carex-day-light-classic-plus  (rejected: https://www.carex.com/products/day-light-classic-plus-bright-light-therapy-lamp)
-NO_SOURCE molekule-air-mini-plus  (rejected: https://molekule.com/products/air-mini-plus)
-NO_SOURCE philips-hue-smart-lightstrip-plus  (rejected: https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-lightstrip-plus-v4-2m/046677561849)
-ADDED     lectrofan-micro2-sleep-sound-machine
-  new: https://www.soundofsleep.com/products/lectrofan-micro2
-NO_SOURCE nutr-nutr-machine-pro  (rejected: https://nutr.com/products/nutr-machine)
-NO_SOURCE rocket-book-beeline  (rejected: https://getrocketbook.com/products/rocketbook-beeline-planner)
-NO_SOURCE soundcore-a3i-noise-cancelling-earbuds  (rejected: https://us.soundcore.com/products/life-note-3i-a3981)
-NO_SOURCE flow-water-filter-pitcher-with-uv-purification  (rejected: https://www.waterdropfilter.com/products/flow-uv-filter-pitcher)
-NO_SOURCE aarke-bubly-sparkling-water-maker-ii  (rejected: https://aarke.com/us/en/collection/carbonators/aarke-x-bubly-carbonator-3-stainless-steel-with-lime-green-and-grapefruit-pink-bubly-drops.html)
-NO_SOURCE flexi-desk-ultrawide-monitor-arm-with-wireless-charger
-NO_SOURCE audient-evo-8-usb-audio-interface  (rejected: https://audient.com/products/audio-interfaces/evo-8/overview/)
-ADDED     keychron-q1-pro-wireless-mechanical-keyboard
-  new: https://www.keychron.com/products/keychron-q1-pro-qmk-via-wireless-custom-mechanical-keyboard
-NO_SOURCE humble-audio-dual-attenuverter-module  (rejected: https://humble.audio/products/dual-attenuverter)
-NO_SOURCE axiom-audio-stomp-micro-volume-pedal
-NO_SOURCE sonoff-zbbridge-pro-zigbee-3-0-gateway  (rejected: https://sonoff.tech/product/gateway-and-bridge/zbbridge-p/)
-NO_SOURCE hypers-hyperdrive-gan-chargers  (rejected: https://www.hypershop.com/collections/gan-chargers)
-ADDED     keychron-v1-max-barebone-mechanical-keyboard
-  new: https://www.keychron.com/products/keychron-v1-max-qmk-via-wireless-custom-mechanical-keyboard?variant=41566497747033
-NO_SOURCE humble-audio-dual-vca-compressor  (rejected: https://humble.audio/dual-vca-compressor)
-ADDED     onyx-boox-tab-ultra-c-pro
-  new: https://shop.boox.com/products/tabultracpro
-NO_SOURCE roblox-cheat-ai-vercel-outage
-ADDED     making-ram-at-home
-  new: https://arxiv.org/abs/1301.6961
-NO_SOURCE 3-4m-solar-panels
-ADDED     urandom-quantum-replacement
-  new: https://arxiv.org/abs/2103.00030
-NO_SOURCE 10-gbe-usb-adapters
-NO_SOURCE sabotaging-projects-overthinking  (rejected: https://www.theverge.com/2016/5/12/11664188/future-programming-language-sketch-apple-khan-academy-kevin-lyna)
-NO_SOURCE zinc-air-batteries-grid-scale-storage  (rejected: https://www.technologyreview.com/2023/08/29/1078711/zinc-air-battery-cheaper-safer-more-powerful-alternative/)
-NO_SOURCE underground-hydrogen-storage-seasonal-energy  (rejected: https://www.technologyreview.com/2023/11/14/1083422/the-next-big-hurdle-for-green-hydrogen-figuring-out-how-to-store-it/)
-ADDED     synthetic-phage-therapies-antibiotic-resistance
-  new: https://www.nature.com/articles/s41467-023-41220-4
-ADDED     topological-qubit-architecture
-  new: https://arxiv.org/abs/0707.1889
-ADDED     quantum-repeater-networks
-  new: https://www.nature.com/articles/s41586-023-06927-4
-NO_SOURCE diamond-nitrogen-vacancy-qubits  (rejected: https://www.scientificamerican.com/article/quantum-computing-the-race-for-the-diamond-qubit/)
-ADDED     quantum-enhanced-drug-discovery
-  new: https://www.nature.com/articles/s41573-024-00913-9
-NO_SOURCE spherical-tokamak-for-energy-production-reactors  (rejected: https://www.gov.uk/government/organisations/ukaea/about/what-we-do/step)
-ADDED     high-gain-indirect-drive-inertial-confinement-fusion
-  new: https://www.nature.com/articles/d41586-022-04532-6
-ADDED     compact-field-reversed-configuration-frc-fusion-reactor
-  new: https://arxiv.org/abs/2202.04099
-ADDED     proton-boron-11-aneutronic-fusion-reactor
-  new: https://arxiv.org/abs/2009.02029
-ADDED     plasma-direct-energy-conversion-dec-for-fusion
-  new: https://arxiv.org/abs/1807.03728
-NO_SOURCE transcranial-focused-ultrasound-neuromodulation-2  (rejected: https://neuro-ultrasound.stanford.edu/technology)
-ADDED     ultra-high-density-flexible-ecog-arrays
-  new: https://www.science.org/doi/10.1126/sciadv.aat2840
-ADDED     adaptive-closed-loop-neuroprosthetic-systems
-  new: https://www.nature.com/articles/nrn3332
-ADDED     enhanced-rock-weathering
-  new: https://www.nature.com/articles/s41577-023-00832-6
-ADDED     metal-organic-frameworks-carbon-capture
-  new: https://www.nature.com/articles/s41570-023-00569-z
-NO_SOURCE v2x-communication-autonomous-vehicle-safety  (rejected: https://www.technologyreview.com/2020/07/08/1004941/v2x-self-driving-cars-5g-dsrc-cv2x/)
-NO_SOURCE edge-ai-processors-autonomous-vehicles  (rejected: https://www.technologyreview.com/2021/04/06/1022207/self-driving-cars-chips-nvidia-intel-qualcomm/)
-ADDED     high-definition-semantic-mapping-autonomy
-  new: https://arxiv.org/abs/2306.07929
-ADDED     advanced-redundancy-autonomous-vehicle-safety
-  new: https://arxiv.org/abs/2005.02987
-ADDED     mxene-based-supercapacitors
-  new: https://www.science.org/doi/10.1126/sciadv.aaz3609
-NO_SOURCE self-healing-concrete-bio-encapsulated-bacteria  (rejected: https://www.scientificamerican.com/article/self-healing-concrete/)
-ADDED     borophene-high-performance-electronics
-  new: https://www.science.org/doi/10.1126/science.aad1080
-ADDED     high-entropy-alloys-extreme-condition-components
-  new: https://arxiv.org/abs/2009.02700
-ADDED     topological-insulators-spintronics
-  new: https://www.nature.com/articles/natrevmats201614
-NO_SOURCE cultivated-leather-cell-agriculture  (rejected: https://www.technologyreview.com/2022/05/23/1052601/cultivated-leather-startup-vitrolabs/)
-ADDED     cultivated-pet-food-cell-agriculture
-  new: https://www.nature.com/articles/s43016-022-00494-0
-NO_SOURCE light-field-displays-augmented-reality  (rejected: https://wetzstein.stanford.edu/projects/augmented-reality-displays)
-ADDED     metasurface-optics-ar-waveguides
-  new: https://www.nature.com/articles/s41566-021-00812-7
-NO_SOURCE retinal-projection-displays-rpd  (rejected: https://www.technologyreview.com/2015/01/29/169999/a-headset-that-projects-video-directly-onto-your-retina/)
-ADDED     electrochromic-smart-lenses-ar
-  new: https://www.chalmers.se/en/news/Pages/Smart-lenses-for-augmented-reality.aspx
-NO_SOURCE spatial-anchoring-networks-persistent-ar  (rejected: https://www.technologyreview.com/2021/03/02/1020138/microsoft-mesh-persistent-ar-metaverse/)
-ADDED     advanced-glycation-end-product-age-breakers-2
-  new: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8900010/
-ADDED     mesenchymal-stem-cell-derived-exosome-therapies
-  new: https://www.nature.com/articles/s41392-019-0097-x
-ADDED     rram-in-memory-computing-architectures
-  new: https://www.nature.com/articles/s41928-020-00508-y
-NO_SOURCE bio-hybrid-neuromorphic-living-neurons  (rejected: https://www.scientificamerican.com/article/biohybrid-ai-the-race-to-create-living-computers/)
-ADDED     cryogenic-neuromorphic-quantum-interface
-  new: https://arxiv.org/abs/2103.00030
-ADDED     programmable-neural-morphologies-material-growth
-  new: https://arxiv.org/abs/2306.01234
-ADDED     optical-atomic-clocks-on-chip
-  new: https://www.nature.com/articles/s41566-023-01306-y
-ADDED     plasmonic-metasurfaces-data-storage
-  new: https://arxiv.org/abs/2005.07478
-ADDED     self-assembled-photonic-crystals
-  new: https://www.nature.com/articles/s41578-021-00331-1
-ADDED     vascularized-3d-bioprinted-kidneys
-  new: https://www.nature.com/articles/s41467-020-17652-3
-ADDED     microfluidic-organ-on-a-chip-platforms
-  new: https://www.nature.com/articles/s41573-021-00171-4
-ADDED     decellularized-whole-organ-scaffolds
-  new: https://www.nature.com/articles/s41578-018-0043-x
-ADDED     functional-brain-organoids-for-disease-modeling
-  new: https://www.nature.com/articles/s41582-018-0005-3
-ADDED     pancreatic-islet-cell-bioprinting-for-diabetes
-  new: https://www.nature.com/articles/s41467-020-19290-7
-ADDED     liver-spheroids-for-dili-prediction
-  new: https://www.nature.com/articles/s41467-020-19253-x
-ADDED     in-situ-bioprinting-for-wound-healing
-  new: https://www.nature.com/articles/s41467-020-14320-y
-ADDED     bioengineered-corneas-from-stem-cells
-  new: https://www.nature.com/articles/s41551-021-00806-6
-NO_SOURCE thorium-molten-salt-reactors  (rejected: https://www.technologyreview.com/2021/02/10/1017834/china-molten-salt-reactor-thorium-nuclear-power/)
-ADDED     inertial-confinement-fusion-reactors
-  new: https://www.science.org/doi/10.1126/science.ade3042
-NO_SOURCE fusion-reactor-tritium-breeding-blankets  (rejected: https://www.psfc.mit.edu/research/topics/fusion-fuel)
-NO_SOURCE stratospheric-sulfur-aerosol-injection  (rejected: https://cpo.noaa.gov/Research-and-Development/Climate-Intervention)
-NO_SOURCE marine-cloud-brightening-sea-salt  (rejected: https://gml.noaa.gov/focus_areas/mcb/)
-ADDED     cirrus-cloud-thinning-particulate-seeding
-  new: https://www.nature.com/articles/s41467-020-19211-1
-NO_SOURCE ocean-alkalinity-enhancement-carbon-removal  (rejected: https://cpo.noaa.gov/Grand-Challenges/Ocean-Carbon-Ecosystems/Ocean-Carbon-Dioxide-Removal/Ocean-Alkalinity-Enhancement)
-ADDED     high-altitude-solid-particle-injection
-  new: https://www.science.org/doi/10.1126/sciadv.aba2024
-NO_SOURCE arctic-sea-ice-albedo-restoration  (rejected: https://www.technologyreview.com/2022/02/10/1045233/researchers-are-serious-about-using-glass-beads-to-save-arctic-ice/)
-ADDED     atmospheric-methane-oxidation-catalysts
-  new: https://www.nature.com/articles/s43017-023-00481-9
-NO_SOURCE stratospheric-aerosol-monitoring-verification-systems  (rejected: https://www.technologyreview.com/2023/07/25/1076939/us-new-plan-study-solar-geoengineering-white-house-climate/)
-NO_SOURCE zinc-air-batteries-for-grid-storage  (rejected: https://www.technologyreview.com/2021/04/09/1022416/zinc-air-batteries-long-duration-storage/)
-NO_SOURCE molten-salt-thermal-energy-storage  (rejected: https://www.nrel.gov/csp/thermal-storage-materials.html)
-ADDED     bio-integrated-electronics-diagnostics
-  new: https://www.nature.com/articles/s41928-020-0402-4
-ADDED     engineered-photosynthetic-organisms-carbon-capture
-  new: https://www.nature.com/articles/s41467-021-25550-y
-ADDED     mammalian-cell-computers-drug-screening
-  new: https://www.science.org/doi/10.1126/science.aaa1965
-ADDED     error-corrected-quantum-teleportation-for-networks
-  new: https://www.nature.com/articles/s41567-023-01991-6
-NO_SOURCE laser-driven-inertial-confinement-fusion  (rejected: https://lasers.llnl.gov/facilities/nif)
-NO_SOURCE thorium-fueled-molten-salt-reactors  (rejected: https://www.technologyreview.com/2022/02/10/1045260/chinas-thorium-nuclear-reactor-safe-waste/)
-ADDED     fusion-fission-hybrid-reactors
-  new: https://arxiv.org/abs/1004.2255
-ADDED     functional-ultrasound-brain-computer-interfaces
-  new: https://www.nature.com/articles/s41467-023-37599-7
-ADDED     wireless-optogenetic-neuromodulation-systems
-  new: https://www.nature.com/articles/s41583-022-00569-8
-ADDED     transcranial-focused-ultrasound-memory-augmentation
-  new: https://www.nature.com/articles/s41593-022-01113-1
-NO_SOURCE targeted-muscle-reinnervation-neural-interfaces  (rejected: https://www.ninds.nih.gov/Current-Research/Focus-Areas/Neural-Repair/Advanced-Neural-Interfaces)
-ADDED     high-resolution-epidural-electrocorticography-arrays
-  new: https://www.nature.com/articles/s41598-020-58474-x
-ADDED     ultraminiature-wireless-neural-dust-sensors
-  new: https://www.nature.com/articles/s41551-017-0104-1
-ADDED     advanced-cryogenic-carbon-capture-flue-gas
-  new: https://arxiv.org/pdf/2012.01518
-ADDED     dissimilar-redundant-perception-stacks
-  new: https://arxiv.org/abs/2304.05389
-ADDED     ultra-low-latency-edge-ai-autonomous-driving
-  new: https://arxiv.org/abs/2103.09062
-NO_SOURCE real-time-crowdsourced-hd-semantic-maps  (rejected: https://www.technologyreview.com/2020/01/29/1017362/hd-maps-self-driving-cars-autonomous-vehicle-future/)
-ADDED     mxenes-electromagnetic-interference-shielding
-  new: https://www.nature.com/articles/ncomms16069
-NO_SOURCE perovskite-quantum-dots-next-gen-displays  (rejected: https://www.technologyreview.com/2022/10/24/1062085/perovskite-quantum-dots-are-starting-to-make-displays-better/)
-ADDED     autonomous-self-healing-polymer-composites
-  new: https://www.nature.com/articles/414794a
-NO_SOURCE bio-integrated-stretchable-electronic-skins  (rejected: https://www.technologyreview.com/2021/04/16/1023055/stanford-engineer-zhenan-bao-electronic-skin/)
-ADDED     transparent-wood-composites-sustainable-construction
-  new: https://eng.umd.edu/news/story/transparent-wood-stronger-better-insulator-glass
-ADDED     carbon-nanotube-yarns-smart-textiles
-  new: https://www.science.org/doi/10.1126/science.1235938
-NO_SOURCE recombinant-casein-precision-fermentation  (rejected: https://www.technologyreview.com/2022/08/23/1058226/synthetic-milk-precision-fermentation-dairy/)
-ADDED     microbial-oil-sustainable-fat-production
-  new: https://www.nature.com/articles/s41545-020-0062-8
-NO_SOURCE bio-identical-flavor-compound-fermentation  (rejected: https://news.mit.edu/2022/synthetic-biology-coming-for-your-food-gmo-0721)
-NO_SOURCE cell-cultivated-pet-food-proteins  (rejected: https://www.wired.com/story/lab-grown-pet-food-is-here-but-will-your-pet-eat-it/)
-NO_SOURCE microbial-derived-texturizing-proteins-plant-meat  (rejected: https://www.technologyreview.com/2022/06/28/1054944/the-rise-of-biotech-bros-in-the-plant-based-meat-industry/)
-NO_SOURCE retinal-projection-displays-ar  (rejected: https://www.scientificamerican.com/article/the-future-of-augmented-reality-is-in-your-eyes/)
-ADDED     electro-vibrational-haptics-ar
-  new: https://arxiv.org/abs/1709.02058
-ADDED     ai-generative-3d-content-spatial
-  new: https://arxiv.org/abs/2209.14988
-NO_SOURCE neural-interface-ar-input  (rejected: https://www.technologyreview.com/2021/04/21/1023159/brain-computer-interface-bci-neuralink-facebook-neural-ar-vr/)
-ADDED     foxo4-dri-peptide-senolytic-therapy
-  new: https://www.cell.com/cell/fulltext/S0092-8674(17)30312-2
-NO_SOURCE stabilized-nmn-nicotinamide-mononucleotide-supplements  (rejected: https://www.nia.nih.gov/news/are-anti-aging-pills-real-deal)
-ADDED     autophagy-inducing-small-molecule-therapies
-  new: https://www.nature.com/articles/s41573-019-0010-6
-ADDED     nad-biosynthesis-pathway-modulators
-  new: https://www.nature.com/articles/s42255-020-00331-5
-ADDED     allogeneic-mitochondrial-transfer-therapy-rejuvenation
-  new: https://www.nature.com/articles/s41574-020-0381-x
-ADDED     programmable-analog-neuromorphic-chips
-  new: https://www.nature.com/articles/s41928-021-00609-y
-ADDED     quantum-neuromorphic-computing
-  new: https://arxiv.org/abs/2309.06013
-ADDED     bio-hybrid-neuromorphic-systems
-  new: https://www.nature.com/articles/s41928-023-00981-0
-ADDED     all-optical-data-center-switches
-  new: https://arxiv.org/abs/2012.00049
-ADDED     photonic-crystal-nanocavity-sensors
-  new: https://www.nature.com/articles/ncomms3327
-ADDED     metasurface-thz-antennas
-  new: https://arxiv.org/pdf/2202.09101
-ADDED     integrated-optical-atomic-clocks
-  new: https://www.nature.com/articles/s41566-020-00742-8
-ADDED     vascularized-organoids-drug-discovery
-  new: https://www.nature.com/articles/s41551-020-00621-x
-ADDED     3d-bioprinted-functional-liver-tissue
-  new: https://www.nature.com/articles/s41467-020-19215-2
-ADDED     whole-organ-decellularization-recellularization
-  new: https://www.nature.com/articles/nrneph.2015.176
+## archive missing-source backfill (159/159 items)
+ADDED     portable-in-situ-bioprinter-skin-regeneration
+  new: https://www.nature.com/articles/s41467-020-18459-7
+ADDED     patient-specific-retinal-organoids-ipscs
+  new: https://www.nature.com/articles/s41596-023-00816-3
+ADDED     3d-bioprinted-custom-osteochondral-implants
+  new: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8900742/
+ADDED     commonwealth-fusion-systems-sparc-reactor
+  new: https://www.nature.com/articles/s41586-021-03773-9
+NO_SOURCE high-temperature-gas-cooled-reactors  (rejected: https://www.energy.gov/nuclear/advanced-reactor-designs)
+NO_SOURCE direct-air-capture-with-nuclear-power  (rejected: https://news.mit.edu/2023/nuclear-energy-carbon-capture-0328)
+NO_SOURCE calcium-carbonate-stratospheric-aerosol-injection  (rejected: https://keutschgroup.seas.harvard.edu/research/stratospheric-aerosol-injection)
+NO_SOURCE marine-cloud-brightening-2  (rejected: https://psl.noaa.gov/cloudbrightening/)
+ADDED     cirrus-cloud-thinning
+  new: https://www.nature.com/articles/s43017-023-00445-5
+NO_SOURCE enhanced-rock-weathering-agriculture  (rejected: https://www.scientificamerican.com/article/crushed-rocks-could-help-absorb-carbon-dioxide-in-farmland/)
+NO_SOURCE space-based-solar-reflectors  (rejected: https://www.technologyreview.com/2022/07/28/1056586/space-sunshade-geoengineering-climate-change/)
+NO_SOURCE direct-ocean-carbon-capture-electrochemical  (rejected: https://news.mit.edu/2023/sucking-co2-straight-out-ocean-1011)
+ADDED     bioenergy-carbon-capture-storage-algae
+  new: https://www.nature.com/articles/s41467-021-25562-4
+ADDED     solid-state-sodium-ion-batteries
+  new: https://www.nature.com/articles/s41560-022-01049-7
+ADDED     zinc-air-flow-batteries
+  new: https://www.nature.com/articles/s41560-023-01306-0
+ADDED     synthetic-microbiome-gut-health
+  new: https://www.nature.com/articles/nrmicro3367
+ADDED     synthetic-yeast-genomes-industrial-fermentation
+  new: https://www.science.org/doi/10.1126/science.aag0558
+ADDED     topological-qubits-fault-tolerant-quantum-computing
+  new: https://www.nature.com/articles/s41578-020-00192-3
+ADDED     quantum-key-distribution-networks
+  new: https://www.nature.com/articles/nature23655
+NO_SOURCE wireless-millimeter-scale-neural-dust-implants  (rejected: https://news.berkeley.edu/2016/08/03/neural-dust-could-enable-precision-brain-machine-interfaces/)
+ADDED     optogenetic-neural-interfaces
+  new: https://www.science.org/doi/10.1126/science.1206838
+ADDED     regenerative-peripheral-nerve-interfaces-prosthetics
+  new: https://www.science.org/doi/10.1126/scitranslmed.aar4281
+ADDED     ionic-liquid-post-combustion-carbon-capture
+  new: https://www.nature.com/articles/s41467-021-26792-w
+ADDED     advanced-amine-post-combustion-capture
+  new: https://www.nature.com/articles/s41467-023-40173-9
+ADDED     integrated-carbon-capture-cement
+  new: https://www.nature.com/articles/s43017-023-00508-y
+NO_SOURCE solid-state-lidar-systems  (rejected: https://www.technologyreview.com/2020/09/10/1008064/why-solid-state-lidar-is-proving-so-difficult-to-build/)
+NO_SOURCE probabilistic-human-behavior-prediction-ai  (rejected: https://www.technologyreview.com/2018/06/13/141071/how-ai-could-predict-a-pedestrians-next-move/)
+ADDED     secure-v2x-communication-autonomous-fleets
+  new: https://arxiv.org/abs/2202.09689
+NO_SOURCE real-time-hd-digital-twin-mapping  (rejected: https://www.technologyreview.com/2018/11/13/102809/autonomous-vehicles-will-need-digital-twins-of-themselves-and-the-road-to-become-truly-safe/)
+ADDED     multi-layer-fail-operational-redundancy-l5-avs
+  new: https://arxiv.org/pdf/1905.01358
+NO_SOURCE ai-powered-explainable-driving-decisions  (rejected: https://www.technologyreview.com/2021/04/28/1023793/ai-explain-self-driving-car-decisions-why/)
+ADDED     self-healing-polymers
+  new: https://www.nature.com/articles/nmat1354
+ADDED     high-entropy-alloys
+  new: https://www.nature.com/articles/s41578-021-00361-y
+ADDED     borophene-quantum-dots
+  new: https://arxiv.org/abs/2403.04781
+NO_SOURCE transparent-wood-composites  (rejected: https://www.scientificamerican.com/article/transparent-wood-is-strong-renewable-and-beautiful/)
+ADDED     janus-mos2-photocatalysts-hydrogen-production
+  new: https://www.nature.com/articles/s41467-020-17931-1
+NO_SOURCE amorphous-metal-alloys-metallic-glass  (rejected: https://www.technologyreview.com/2016/09/27/156096/why-metallic-glass-is-finally-living-up-to-its-promise/)
+ADDED     high-density-aqueous-zinc-hybrid-cathode
+  new: https://www.nature.com/articles/s41467-021-22079-y
+ADDED     quinone-bromine-aqueous-organic-flow
+  new: https://www.nature.com/articles/nenergy2016145
+ADDED     perovskite-integrated-supercapacitors
+  new: https://arxiv.org/abs/2005.02535
+ADDED     high-capacity-solid-state-chloride-batteries
+  new: https://www.science.org/doi/10.1126/science.aay9223
+NO_SOURCE molten-silicon-phase-change-storage  (rejected: https://news.mit.edu/2019/storing-solar-power-molten-silicon-0925)
+ADDED     engineered-probiotic-bioreporters
+  new: https://www.nature.com/articles/s41576-020-0220-3
+ADDED     crispr-cas-gene-circuitry-cell-fate-engineering
+  new: https://www.nature.com/articles/s41467-020-17931-z
+NO_SOURCE zed-1-0-release  (rejected: https://www.theverge.com/2024/1/17/24042079/zed-code-editor-rust-atom-tree-sitter-creators)
+NO_SOURCE mistral-medium-3-5-release
+NO_SOURCE government-open-source-platform  (rejected: https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/netherlands-dutch-government-launches-open-source-code-platform)
+NO_SOURCE ghostty-leaving-github
+NO_SOURCE tangled-federation-of-forges  (rejected: https://www.theverge.com/2023/11/14/23958938/tangled-github-federation-of-forges-decentralized-code-hosting)
+ADDED     granite-4-1-ibm-8b-model
+  new: https://arxiv.org/abs/2405.04403
+NO_SOURCE zig-project-anti-ai-policy  (rejected: https://arstechnica.com/gadgets/2023/12/the-zig-project-brings-out-the-ai-banhammer/)
+NO_SOURCE openai-where-goblins-came-from
+NO_SOURCE mozilla-opposition-chrome-prompt-api
+NO_SOURCE ladybird-web-browser-april-2026
+NO_SOURCE dav2d-hardware-accelerated-graphics
+NO_SOURCE haskell-production-engineering-mercury  (rejected: https://mercury.com/blog/our-experience-with-haskell-at-mercury)
+ADDED     maps-on-watchos-six-years
+  new: https://www.youtube.com/watch?v=F3_8fV78-1I
+ADDED     donottrack-privacy-browser-extension
+  new: https://arxiv.org/abs/2103.04870
+NO_SOURCE agents-buy-domains-deploy-cloud
+NO_SOURCE red-squares-github-outages-visualized  (rejected: https://www.theverge.com/2023/10/30/23938258/github-red-squares-outages-contributions-cian-lol)
+NO_SOURCE starfighter-16-inch-laptop
+NO_SOURCE cara-2-0-robot-dog
+NO_SOURCE dnssec-disruption-de-domains  (rejected: https://arstechnica.com/information-technology/2017/11/the-good-news-de-dnssec-problem-is-solved/)
+ADDED     clojurescript-gets-async-await
+  new: https://clojure.org/news/2023/07/03/clojurescript-1-11-60
+NO_SOURCE universal-linux-lpe-dirtyfrag  (rejected: https://arstechnica.com/information-technology/2022/03/the-linux-kernel-bug-that-lets-all-hell-break-loose-cve-2022-0847/)
+NO_SOURCE cloudflare-workforce-reduction
+NO_SOURCE abstain-from-install-software  (rejected: https://arstechnica.com/security/2024/07/prominent-technologist-advises-everyone-to-stop-installing-new-software-for-now/)
+NO_SOURCE compact-fusion-reactor-milestone  (rejected: https://www.technologyreview.com/2021/11/11/1039864/tae-technologies-fusion-power-milestone/)
+NO_SOURCE future-radar-internet-archive-switzerland
+NO_SOURCE debian-reproducible-packages  (rejected: https://arstechnica.com/gadgets/2023/01/the-reproducible-builds-project-makes-progress-with-debian-and-rust/)
+NO_SOURCE web-server-in-assembly
+NO_SOURCE one-dollar-counterfeiter  (rejected: https://www.smithsonianmag.com/history/not-so-sophisticated-sophistication-mr-880-180962772/)
+NO_SOURCE i-have-banned-query-strings
+NO_SOURCE running-local-models-on-m4  (rejected: https://arstechnica.com/gadgets/2024/05/apples-m4-chip-is-a-beast-for-ai-but-what-does-it-mean-for-mac-users/)
+NO_SOURCE ratty-terminal-emulator-3d-graphics
+NO_SOURCE future-radar-hardware-attestation-monopoly-enabler  (rejected: https://www.technologyreview.com/2018/06/13/141445/a-new-way-to-keep-computers-secure-could-backfire-on-users/)
+NO_SOURCE writing-code-by-hand  (rejected: https://www.technologyreview.com/2014/10/21/170942/you-dont-need-a-computer-to-teach-computational-thinking/)
+NO_SOURCE graphene-based-thermoelectric-generator  (rejected: https://news.ucr.edu/articles/2021/12/16/ucr-researchers-turn-waste-heat-electricity-new-thermoelectric-device)
+ADDED     ucla-stroke-rehabilitation-drug
+  new: https://www.uclahealth.org/newsroom/ucla-scientists-discover-new-way-to-promote-brain-repair-after-stroke
+NO_SOURCE tanstack-npm-supply-chain-compromise-postmortem
+NO_SOURCE if-ai-writes-your-code-why-use-python  (rejected: https://news.mit.edu/2023/how-ai-could-transform-programming-for-better-or-worse-0801)
+NO_SOURCE they-live-adblocker
+NO_SOURCE learning-software-architecture  (rejected: https://ocw.mit.edu/courses/6-170-software-architecture-and-engineering-fall-2003/)
+NO_SOURCE deterministic-whole-binary-translation
+NO_SOURCE needle-gemini-tool-calling-model
+NO_SOURCE googlebook-project
+NO_SOURCE orcaslicer-bambulab-restoration
+NO_SOURCE monokai-digital-stack-europe
+NO_SOURCE linux-gaming-performance-boost  (rejected: https://arstechnica.com/gaming/2019/07/valve-fsync-patches-linux-kernel-proton-gaming-beast/)
+NO_SOURCE anthropic-claude-small-business  (rejected: https://www.theverge.com/2024/5/29/24167192/anthropic-claude-ai-for-teams-business-pricing)
+NO_SOURCE locality-domains-internet-infrastructure
+NO_SOURCE macbook-neo-performance-analysis
+NO_SOURCE google-ide-history
+NO_SOURCE zerostack-unix-agent
+NO_SOURCE mozilla-vpn-advocacy  (rejected: https://www.theverge.com/2023/2/17/23603417/mozilla-uk-online-safety-bill-encryption-privacy-security)
+NO_SOURCE voltmeter-clock-design
+NO_SOURCE website-on-8bit-microcontroller
+NO_SOURCE openai-malta-chatgpt-partnership
+NO_SOURCE automating-data-broker-opt-outs
+ADDED     gen-cad-gene-circuitry-design
+  new: https://www.nature.com/articles/s41467-023-44670-w
+NO_SOURCE rk3562-android-to-linux-workstation
+NO_SOURCE jank-custom-ir
+NO_SOURCE askanastronaut-qa-footage  (rejected: https://www.nasa.gov/mission_pages/station/research/news/iss_in_realtime.html)
+NO_SOURCE apple-intelligence-accessibility  (rejected: https://www.theverge.com/2024/6/10/24174624/apple-intelligence-ai-features-ios-18-macos-siri-image-generation)
+ADDED     gaussian-splatting-strawberry
+  new: https://arxiv.org/abs/2308.07901
+NO_SOURCE npm-package-compromise-mini-shai-hulud
+NO_SOURCE cursor-composer-2-5-update
+NO_SOURCE click-click-click-interactive-experience
+NO_SOURCE flow-state-focused-writing-app-deletes-work  (rejected: https://flowstateapp.com)
+NO_SOURCE gnuplot-command-line-scientific-plotting-2  (rejected: https://www.gnuplot.info)
+NO_SOURCE clipboard-history-two-manager  (rejected: https://github.com/clipboard-history/clipboard-history)
+NO_SOURCE hypercontext-meeting-agendas-one-on-ones  (rejected: https://hypercontext.com/)
+NO_SOURCE grasshopper-learn-to-code-javascript  (rejected: https://grasshopper.app/)
+ADDED     pinegrow-visual-web-editor-code
+  new: https://pinegrow.com/
+NO_SOURCE homebank-personal-finance-money-manager  (rejected: https://homebank.free.fr)
+NO_SOURCE mercury-reader-distraction-free
+NO_SOURCE contextify-visualize-text-data-browser  (rejected: https://contextify.cc/)
+NO_SOURCE aethertext-ai-creative-writing  (rejected: https://aethertext.com)
+NO_SOURCE imapping-visual-knowledge-mapping  (rejected: https://imapping.io)
+NO_SOURCE context-search-web-ext-multi-engine  (rejected: https://github.com/kernelpoet/ContextSearch-web-ext)
+ADDED     seshie-structured-remote-meeting-facilitator
+  new: https://seshie.com/
+NO_SOURCE reflect-google-jigsaw-difficult-conversations  (rejected: https://jigsaw.google.com/reflect/)
+NO_SOURCE mail-tracker-blocker-privacy-apple-mail  (rejected: https://github.com/ReticentMark/MailTrackerBlocker)
+ADDED     exa-modern-ls-replacement
+  new: https://github.com/ogham/exa
+NO_SOURCE dog-modern-command-line-dns-client  (rejected: https://github.com/hexops/dog)
+ADDED     thermodynamics-engineering-textbook
+  new: https://www.thermodynamicsbook.com
+ADDED     terminal-image-viewer
+  new: https://github.com/atanunq/viu
+ADDED     markdeep
+  new: https://casual-effects.com/markdeep/
+NO_SOURCE ai-paper-summarizer-demo
+ADDED     terminal-image-viewer-2
+  new: https://github.com/stefanhaustein/TerminalImageViewer
+NO_SOURCE visual-diff-tool-code
+ADDED     simple-command-line-log-viewer
+  new: https://github.com/logviewer/logviewer
+ADDED     fontface-observer
+  new: https://github.com/bramstein/fontfaceobserver
+NO_SOURCE quickbooks-self-employed-tax-tracking  (rejected: https://quickbooks.intuit.com/self-employed/)
+ADDED     bobby-subscription-tracker-manager
+  new: https://www.getbobby.com
+NO_SOURCE boostnote-markdown-developer-notes-snippets  (rejected: https://boostnote.io/)
+ADDED     launchy-keyboard-driven-application-launcher
+  new: https://www.launchy.net/
+ADDED     wallabag-self-hosted-read-it-later
+  new: https://wallabag.org
+ADDED     matter-read-later-newsletter-highlights
+  new: https://getmatter.com
+ADDED     snagit-screen-capture-annotation-editing
+  new: https://www.techsmith.com/screen-capture.html
+NO_SOURCE shopwell-scan-food-for-nutrition-allergens  (rejected: https://www.shopwell.com/)
+NO_SOURCE platejoy-personalized-meal-plans-nutrition  (rejected: https://oviahealth.com/platejoy/)
+NO_SOURCE blur-abine-privacy-password-manager
+NO_SOURCE homebank-free-open-source-personal-accounting  (rejected: https://homebank.free.fr/)
+NO_SOURCE bills-reminder-simple-payment-tracker  (rejected: https://play.google.com/store/apps/details?id=com.ivankovalev.billsreminder)
+ADDED     recipe-keeper-digital-cookbook-meal-planner
+  new: https://www.recipekeeper.com
+ADDED     runjs-javascript-playground-snippets
+  new: https://runjs.app
+NO_SOURCE snipped-dev-collaborative-code-snippets  (rejected: https://snipped.dev)
+NO_SOURCE glyphboard-emoji-symbol-mac-clipboard  (rejected: https://glyphboard.app/)
+NO_SOURCE kap-open-source-screen-recorder-mac  (rejected: https://kap.tools/)
+NO_SOURCE allrecipes-community-shared-recipes  (rejected: https://www.allrecipes.com)
+NO_SOURCE perfect-meal-ai-meal-planner
+NO_SOURCE 7-weeks-habit-goal-tracker  (rejected: https://geekylemon.co.uk/7-weeks-habit-tracker/)
+ADDED     codever-self-hostable-snippet-manager
+  new: https://www.codever.dev/
+NO_SOURCE pastel-sh-minimalist-code-snippet-sharing  (rejected: https://pastel.sh)
+NO_SOURCE rebuild-openai-api-wrapper
+NO_SOURCE stable-diffusion-webui-docker  (rejected: https://github.com/AbdullahAlfaraj/stable-diffusion-webui-docker)
+NO_SOURCE llm-course  (rejected: https://www.llmcourse.ai/)
+NO_SOURCE awesome-gpt-image-2-prompts  (rejected: https://github.com/dalinvip/awesome-gpt-image-2-prompts)
 
-archive summary: added=124 no_source=126 remaining=159
+archive summary: added=53 no_source=106 remaining=0
 
 ## Summary
 total=0 replaced=0 kept=0 mode=live
