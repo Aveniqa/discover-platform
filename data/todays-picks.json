@@ -1,19 +1,19 @@
 [
   {
-    "slug": "unclutter",
-    "title": "Unclutter",
+    "slug": "connect-social-media-sync",
+    "title": "Multitran",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Unclutter is a minimalist clipboard manager, notes app, and file archive designed for Mac users. It offers a quick and u",
+    "description": "Multitran is a web-based platform that allows users to manage and post to multiple social media accounts from a single d",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "context-dev-web-scraping-api",
-    "title": "Context.dev",
+    "slug": "kumu-io",
+    "title": "Kumu.io",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Context.dev is a powerful API designed to help AI products and developers scrape, enrich, and extract data from the inte",
+    "description": "Kumu.io is a powerful and intuitive platform for visualizing complex systems, stakeholder networks, and feedback loops. ",
     "badge": null,
     "type": "tool"
   }

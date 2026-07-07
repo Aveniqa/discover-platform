@@ -1,70 +1,5 @@
 [
   {
-    "id": 367,
-    "slug": "capacities-block-based-knowledge-management",
-    "name": "Capacities",
-    "whatItDoes": "Capacities is a modern, block-based personal knowledge management and note-taking tool developed by a German startup, aiming to reinvent how individuals organize their digital life. Its core feature is an object-oriented approach where everything—people, projects, ideas, links—is treated as a distinct \"object,\" allowing for structured yet flexible organization and easy linking between different types of information. This tool is primarily built for creators, knowledge workers, and individuals who want a visually appealing and highly structured system to manage their notes, projects, and digital assets. Users typically open Capacities to create new content, link related information, or explore their interconnected knowledge base. It is currently available as a web app, with desktop apps (macOS, Windows) and mobile apps (iOS, Android) in beta or development, offering integrations for web capture and embedding.",
-    "category": "Reference",
-    "whyItIsUseful": "Capacities offers a more structured yet fluid alternative to general-purpose tools like Notion, by providing an opinionated object-based system that makes linking and organizing specific types of information far more intuitive. For the content creator managing ideas, research, and media assets, Capacities' ability to define custom \"object types\" for different content ensures everything is organized exactly how they need it, with rich previews. For the project manager handling client interactions and project documents, creating \"Client\" and \"Project\" objects that link seamlessly provides a comprehensive, visual overview of their work. Capacities offers a free tier with generous storage and core features, and a paid Pro plan for increased storage, advanced embeds, and team functionalities. A unique feature is its \"Daily Note\" which automatically captures thoughts and activities, acting as a personal journal that can be linked to any object, providing context and a timeline of your work. Its relative newness and unique object-oriented paradigm mean it's still building a user base and may require a slight mental shift for those accustomed to traditional folder or page-based systems. Capacities has a very active development team, a public roadmap, and a vibrant community on Discord, fostering rapid iteration and user-driven improvements.",
-    "imageIdea": "A Capacities interface showing a \"Project\" object with linked \"Person\" and \"Note\" objects, arranged visually with rich embeds and thumbnails.",
-    "websiteLink": "https://capacities.io",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/capacities-block-based-knowledge-management.webp"
-  },
-  {
-    "id": 205,
-    "slug": "scrintal-visual-knowledge-canvas-for-thinking",
-    "name": "Scrintal",
-    "whatItDoes": "Scrintal is a visual knowledge canvas and note-taking tool developed by a startup, designed to help users think spatially and connect ideas on an infinite whiteboard. Its core feature is enabling users to create 'cards' of information (text, images, PDFs) and arrange them freely on a digital canvas, linking them visually to build a mental map of their thoughts. It's built for researchers, writers, designers, and students who benefit from visual organization and non-linear thinking. Users typically open Scrintal to brainstorm, outline complex projects, or organize research, especially when dealing with a large volume of interconnected information. It is primarily a web-based application, accessible from any modern browser, with real-time cloud sync.",
-    "category": "Research",
-    "whyItIsUseful": "Scrintal provides a unique visual approach to knowledge management that surpasses the linear constraints of traditional note apps like Evernote or even the block-based structure of Notion, by emphasizing spatial arrangement. For the academic writing a thesis, it allows them to lay out research papers, quotes, and outlines on a canvas, making it easier to see connections and structure arguments. For the UX designer, it's perfect for mapping user flows, organizing research findings, and brainstorming design ideas in a fluid visual space. Scrintal offers a free tier with limited boards and storage, with paid plans unlocking unlimited boards, more storage, and advanced features. A powerful hidden feature is its 'Card Linking' which allows not just visual connections but also creates a navigable graph view of all linked cards. It's not more popular because its visual, freeform nature requires a different workflow than many are accustomed to, and it's still a relatively new tool. The team provides frequent updates, has a public roadmap, and engages with its user base through community forums and webinars.",
-    "imageIdea": "Scrintal canvas showing various text and image cards arranged spatially with lines connecting related ideas",
-    "websiteLink": "https://www.scrintal.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/scrintal-visual-knowledge-canvas-for-thinking.webp"
-  },
-  {
-    "id": 206,
-    "slug": "heptabase-visual-knowledge-base-whiteboards",
-    "name": "Heptabase",
-    "whatItDoes": "Heptabase is a visual knowledge base designed for learning and thinking, created by a startup based in Taiwan. Its core feature is 'Whiteboards,' which are infinite canvases where users can arrange notes, PDFs, images, and web pages, making connections visually. It is specifically built for learners, researchers, and anyone who wants to deeply understand complex topics by organizing information spatially and non-linearly. Users often turn to Heptabase when they need to process new information, synthesize research, or plan complex projects, often feeling overwhelmed by linear note-taking methods. It is available as a web application and dedicated desktop apps for Windows and macOS, with cloud synchronization.",
-    "category": "Research",
-    "whyItIsUseful": "Heptabase excels where linear note-taking apps like Google Keep or even Notion fall short for deep learning, by providing a superior visual environment for synthesizing information. For the student studying a new subject, Heptabase's whiteboards allow them to map out concepts, link readings, and create visual summaries that aid comprehension and retention. For the consultant preparing a strategic report, it serves as an excellent space to gather market data, client insights, and brainstorming ideas, organizing them visually to identify patterns and build a compelling narrative. Heptabase offers a 7-day free trial, after which it requires a paid subscription. A powerful feature often overlooked initially is its 'Map of Content' (MOC) strategy, which encourages users to create high-level visual maps that link to more detailed notes, creating a hierarchical yet connected knowledge system. It's not more popular because it caters to a specific, intensive learning workflow and has a premium pricing model. The team releases bi-weekly updates, maintains a public roadmap, and fosters a growing community on Discord.",
-    "imageIdea": "Heptabase whiteboard showing multiple notes, PDFs, and web links arranged and connected for a research project",
-    "websiteLink": "https://heptabase.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/heptabase-visual-knowledge-base-whiteboards.webp"
-  },
-  {
-    "id": 207,
-    "slug": "serene-deep-work-distraction-blocker",
-    "name": "Serene",
-    "whatItDoes": "Serene is a macOS application developed by a small team, dedicated to helping users achieve deep work and eliminate digital distractions. Its core feature is allowing users to define deep work sessions with specific goals, during which it blocks distracting websites and applications, mutes notifications, and optionally plays focus music. It's built for knowledge workers, freelancers, and students who struggle with maintaining concentration amidst constant digital interruptions. Users typically launch Serene when they need to tackle a high-priority task that requires uninterrupted focus, often triggered by a looming deadline or a desire to improve productivity. It is exclusively available for macOS.",
-    "category": "Productivity",
-    "whyItIsUseful": "Serene goes beyond generic website blockers by integrating a comprehensive deep work session planner, offering a more holistic solution than simple browser extensions. For the writer battling writer's block and social media urges, Serene creates a distraction-free environment, enforcing focus and protecting precious creative time. For the developer needing to solve a complex bug, it ensures uninterrupted coding sessions, preventing context switches that can derail productivity. Serene offers a 10-day free trial, then requires a paid subscription. A hidden gem within Serene is its 'Daily Plan' feature, which helps you structure your entire day around deep work sessions, integrating with your calendar. It's not more popular due to being Mac-only and having a subscription model, which deters casual users who might opt for free, less robust alternatives. The development team provides regular updates and maintains a responsive support channel.",
-    "imageIdea": "Serene app interface showing a countdown timer for a deep work session with a list of blocked apps and websites",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://sereneapp.com",
-    "screenshotUrl": "/screenshots/serene-deep-work-distraction-blocker.webp"
-  },
-  {
-    "id": 209,
-    "slug": "whimsical-flowcharts-wireframes-for-ideation",
-    "name": "Whimsical (Flowcharts & Wireframes)",
-    "whatItDoes": "Whimsical is a web-based visual communication workspace developed by a startup, offering a suite of tools including flowcharts, wireframes, mind maps, and sticky notes. While it's known for collaboration, its individual flowchart and wireframe features are particularly powerful and often underutilized. Its core feature in this context is allowing individuals to rapidly create professional-looking flowcharts and low-fidelity wireframes with incredible speed and ease, using intuitive keyboard shortcuts. It's built for designers, product managers, developers, and consultants who need to quickly visualize processes, user flows, or UI concepts. Users open Whimsical to sketch out an idea, map a user journey, or plan a website layout before diving into high-fidelity design. It is a web application, accessible on any modern browser.",
-    "category": "Design",
-    "whyItIsUseful": "Whimsical's flowchart and wireframe tools offer a significantly faster and more intuitive experience than complex diagramming software like Visio or even Figma for initial ideation. For the product manager conceptualizing a new feature, it allows them to quickly map out user flows and screen interactions in minutes, facilitating early feedback. For the solo entrepreneur planning their website, it helps sketch out page layouts and content structure without getting bogged down in design details. Whimsical offers a generous free tier with limited items, with paid plans unlocking unlimited items, team features, and advanced exports. A hidden gem is its 'Magic Organize' feature, which automatically cleans up and aligns messy diagrams with a single click. It's not more popular for individual use because many perceive it primarily as a team collaboration tool, overlooking its power for solo rapid prototyping. The team pushes updates frequently, maintains an active blog, and has a strong community for sharing templates.",
-    "imageIdea": "Minimalist Whimsical interface showing a clean flowchart of a user login process with simple shapes and arrows",
-    "websiteLink": "https://whimsical.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/whimsical-flowcharts-wireframes-for-ideation.webp"
-  },
-  {
     "id": 210,
     "slug": "scapple-freeform-virtual-notepad-connecting-ideas",
     "name": "Scapple",
@@ -6068,7 +6003,8 @@
     "imageIdea": "animated train moving on a map",
     "websiteLink": "https://www.map.signalbox.io",
     "type": "hidden-gem",
-    "dateAdded": "2026-07-06"
+    "dateAdded": "2026-07-06",
+    "screenshotUrl": "/screenshots/signalbox-realtime-rail-map.webp"
   },
   {
     "id": 837,
@@ -6124,5 +6060,75 @@
     "websiteLink": "https://unclutter.io/",
     "type": "hidden-gem",
     "dateAdded": "2026-07-06"
+  },
+  {
+    "id": 841,
+    "slug": "streetcomplete-openstreetmap",
+    "name": "StreetComplete",
+    "seoTitle": "StreetComplete — Mapmaking for everyone",
+    "whatItDoes": "StreetComplete is a mobile application designed to help users contribute to OpenStreetMap by completing small, everyday mapping tasks. It presents users with simple quests based on their current location, such as verifying building heights, adding street names, or marking whether a path is paved. The app is built by the OpenStreetMap community, making open-source mapping accessible to anyone with a smartphone. For example, a user walking down a street might be prompted to confirm if a specific building has a shop on its ground floor, a quick and easy task that enhances the richness of the map data.",
+    "category": "Social",
+    "whyItIsUseful": "StreetComplete democratizes the process of contributing to a global, open-source map. Unlike traditional mapping tools that require specialized knowledge, StreetComplete breaks down complex data collection into bite-sized, gamified tasks. This makes it incredibly accessible for casual users to make meaningful contributions to OpenStreetMap without feeling overwhelmed. Power users appreciate the sheer volume of data that can be collected quickly and the ability to correct inaccuracies on the fly. It's perfect for anyone who wants to improve the maps they use daily, from cyclists planning routes to hikers exploring new areas, and it fosters a sense of community ownership over geographic data.",
+    "imageIdea": "smartphone overlayed with a map marker",
+    "websiteLink": "https://streetcomplete.app/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-07",
+    "screenshotUrl": "/screenshots/streetcomplete-openstreetmap.webp"
+  },
+  {
+    "id": 842,
+    "slug": "fight-chat-control-overview",
+    "name": "Chat Control 1.0 and 2.0 Explained",
+    "seoTitle": "Chat Control — EU scanning explained",
+    "whatItDoes": "This website provides a clear and comprehensive explanation of the European Union's controversial 'Chat Control' proposals (currently referred to as CSA detection orders). It breaks down how these laws aim to scan private digital communications, including messages and emails, for child sexual abuse material (CSAM). The site, run by digital rights advocates, details the technical implications, the potential for mass surveillance, and the arguments against such widespread data interception. It serves as an educational resource for citizens, policymakers, and journalists seeking to understand the scope and dangers of these legislative efforts.",
+    "category": "Social",
+    "whyItIsUseful": "In an era of increasing digital surveillance, understanding the nuances of proposed legislation like Chat Control is crucial. This site cuts through the complex legal jargon and technical details to offer a straightforward explanation of what the proposals entail and why they are a significant threat to privacy. It empowers individuals to form informed opinions and engage in discussions about the balance between security and civil liberties. For those concerned about government overreach into private communications, this resource is invaluable for grasping the core issues and the potential long-term consequences for online freedom and security.",
+    "imageIdea": "magnifying glass over a chat bubble",
+    "websiteLink": "https://fightchatcontrol.eu/chat-control-overview",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-07",
+    "screenshotUrl": "/screenshots/fight-chat-control-overview.webp"
+  },
+  {
+    "id": 843,
+    "slug": "youtube-drawstring-knot",
+    "name": "A better way to tie gym shorts (or any drawstring) [video]",
+    "seoTitle": "Drawstring Knot — Improved technique",
+    "whatItDoes": "This YouTube video demonstrates a highly effective and surprisingly simple method for tying drawstrings, specifically showcasing its application on gym shorts but applicable to any garment with a drawstring. The technique avoids the common problem of drawstrings loosening or becoming uneven. It creates a secure, balanced knot that stays in place, ensuring comfort and functionality. The video is short, visual, and easy to follow, making it accessible to anyone who has ever struggled with a slipping drawstring.",
+    "category": "Productivity",
+    "whyItIsUseful": "While seemingly trivial, the frustration of a loose drawstring is a common annoyance that this video elegantly solves. Many people accept this minor inconvenience as a fact of life, but this technique offers a practical, lasting solution. It’s useful for athletes, students, or anyone who wears clothing with drawstrings and values comfort and the reliability of their apparel. The clarity and simplicity of the demonstration make it a readily adoptable skill that offers immediate, tangible improvement to everyday wear. It’s a perfect example of how a small, overlooked detail can significantly enhance user experience.",
+    "imageIdea": "drawing of a perfectly tied knot",
+    "websiteLink": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-07",
+    "screenshotUrl": "/screenshots/youtube-drawstring-knot.webp"
+  },
+  {
+    "id": 844,
+    "slug": "social-thread-reader",
+    "name": "ThreadReaderApp",
+    "seoTitle": "ThreadReaderApp — Turn Twitter threads into readable articles",
+    "whatItDoes": "ThreadReaderApp is a web-based tool designed to transform long, often fragmented Twitter threads into a single, cohesive, and easily readable article. Users can simply reply to a thread with '@threadreaderapp unroll' or paste a thread URL into the website. It then aggregates all the tweets in the thread into a clean, article-like format that can be read without constant scrolling or clicking through individual tweets. The service was developed to combat the declining readability of Twitter threads as they grew in popularity. Anyone who follows or shares lengthy discussions on Twitter will find this invaluable.",
+    "category": "Social",
+    "whyItIsUseful": "In the fast-paced world of social media, particularly Twitter, in-depth discussions are often buried in lengthy threads that become cumbersome to follow. ThreadReaderApp elegantly solves this by compiling these scattered tweets into a single, navigable piece of content. Its simplicity is its strength; a quick reply or paste action yields a much-improved reading experience. It's especially useful for researchers, journalists, or anyone who wants to archive or share complex Twitter conversations in a digestible format. Unlike native Twitter's often clunky thread viewer, ThreadReaderApp provides a distraction-free environment, making it a hidden gem for power users who want to engage deeply with content without the platform's inherent friction. It’s the perfect tool for those who appreciate structured information over a chaotic feed.",
+    "imageIdea": "stacked newspapers with twitter logo",
+    "websiteLink": "https://threadreaderapp.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-07",
+    "screenshotUrl": "/screenshots/social-thread-reader.webp"
+  },
+  {
+    "id": 845,
+    "slug": "connect-social-media-sync",
+    "name": "Multitran",
+    "seoTitle": "Multitran — Cross-platform social media posting",
+    "whatItDoes": "Multitran is a web-based platform that allows users to manage and post to multiple social media accounts from a single dashboard. It supports a wide range of platforms, enabling users to draft, schedule, and publish content across their various social presences simultaneously. The tool aims to streamline social media management for individuals and small businesses by saving time and ensuring consistent branding across different channels. For instance, a freelance designer could use Multitran to post an update to Instagram, Facebook, and Twitter all at once, with tailored captions for each if needed.",
+    "category": "Social",
+    "whyItIsUseful": "While many social media management tools exist, Multitran often flies under the radar, offering a robust set of features without the hefty price tag or complexity of some mainstream competitors. Its strength lies in its straightforward interface and broad platform support, making it accessible for users who might be intimidated by more enterprise-level solutions. It's particularly beneficial for creators and small business owners who juggle multiple online personas and need an efficient way to maintain a consistent presence without getting bogged down in manual posting. The ability to schedule posts weeks or months in advance, coupled with analytics that provide insights into performance, makes it an indispensable tool for anyone serious about their social media strategy. It cuts through the noise of the social media landscape, offering a quiet but powerful way to manage your online voice.",
+    "imageIdea": "connected social media icons",
+    "websiteLink": "https://www.multitran.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-07",
+    "screenshotUrl": "/screenshots/connect-social-media-sync.webp"
   }
 ]
