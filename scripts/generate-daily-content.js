@@ -59,10 +59,15 @@ const API_RETRY_MAX_DELAY_MS = 45000;
 // Daily target per category. If retries exhaust without hitting TARGET_PER_CATEGORY,
 // publish what we have as long as it's at least MIN_PER_CATEGORY — the alternative
 // is the entire daily edition rolling back, which means no fresh content for any
-// category. Datasets are large enough (~480 items each) that a 3-or-4-item day
-// is a small dent vs. losing all five categories.
+// category. Floor lowered 3→2 on 2026-07-07: with ~450 items per live vertical
+// the model's proposals increasingly collide with the catalog, and a lean
+// 2-item day beats a failed edition (run 28868896105 rolled back a valid
+// 2-item day).
 const TARGET_PER_CATEGORY = 5;
-const MIN_PER_CATEGORY = 3;
+const MIN_PER_CATEGORY = 2;
+// Generation attempts per category before accepting a partial day. Raised
+// 5→7 for the same saturation reason — attempts are cheap flash-lite calls.
+const MAX_GENERATION_ATTEMPTS = 7;
 
 const BODY_FIELDS_BY_CATEGORY = {
   discoveries: ["shortDescription", "whyItIsInteresting"],
@@ -356,14 +361,15 @@ Requirements:
 
 async function generateItems(category, existingItems, count, seeds = []) {
   const existingSlugs = getExistingSlugs(existingItems);
-  // Send only the 100 most-recent existing titles to Gemini. Older items in
+  // Send only the 150 most-recent existing titles to Gemini. Older items in
   // archive/data are still enforced via the JS-side duplicate-name check below;
   // this just prevents a 6KB+ token wall that the model down-weights anyway,
   // and concentrates the "do not repeat" signal on the items most likely to
-  // collide with the model's regenerate-prone priors.
+  // collide with the model's regenerate-prone priors. (100→150 on 2026-07-07
+  // after saturation started producing duplicate-heavy batches.)
   const recentExisting = [...existingItems]
     .sort((a, b) => (b.id || 0) - (a.id || 0))
-    .slice(0, 100);
+    .slice(0, 150);
   const existingTitles = recentExisting
     .map((i) => i.title || i.name || i.toolName || i.techName)
     .filter(Boolean)
@@ -474,7 +480,21 @@ ${formatSeeds(filteredSeeds)}
 `
     : "";
 
-  const prompt = `${categoryPrompts[category]}
+  // Rotating daily sub-niche focus — steers the model into a different
+  // corner of the space each day so a mature catalog (~450 items/vertical)
+  // stops producing duplicate-heavy batches. Day-of-year keyed, so all
+  // attempts within one edition share a focus but tomorrow explores elsewhere.
+  const FOCUS_ROTATION = [
+    "Productivity", "Design", "Developer", "Writing", "Finance",
+    "Health", "Education", "Entertainment", "Social", "Reference",
+  ];
+  const dayOfYear = Math.floor((Date.now() - Date.UTC(new Date().getUTCFullYear(), 0, 0)) / 86400000);
+  const dailyFocus = FOCUS_ROTATION[dayOfYear % FOCUS_ROTATION.length];
+  const focusLine = (category === "hidden-gems" || category === "daily-tools")
+    ? `\nToday's editorial focus: lean toward the "${dailyFocus}" category for at least half of your picks — surface tools in that space most people have never heard of. Obscure-but-excellent beats popular.`
+    : "";
+
+  const prompt = `${categoryPrompts[category]}${focusLine}
 ${seedBlock}
 DO NOT propose any item whose name matches or closely resembles any of these — they are already published and will be rejected: ${existingTitles}
 
@@ -614,7 +634,7 @@ async function main() {
         console.log(`[${category}] Seeded with ${seeds.length} real trending items (${[...new Set(seeds.map((s) => s.source))].join(", ")})`);
       }
       const newItems = [];
-      for (let attempt = 1; newItems.length < TARGET_PER_CATEGORY && attempt <= 5; attempt++) {
+      for (let attempt = 1; newItems.length < TARGET_PER_CATEGORY && attempt <= MAX_GENERATION_ATTEMPTS; attempt++) {
         const needed = TARGET_PER_CATEGORY - newItems.length;
         const seedsForAttempt = attempt === 1 ? seeds : [];
         if (attempt === 2 && seeds.length) {
