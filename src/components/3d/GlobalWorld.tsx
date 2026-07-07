@@ -102,8 +102,9 @@ export function GlobalWorld() {
     return () => document.removeEventListener("visibilitychange", handler);
   }, []);
 
-  const [a, b, c] = seed.alcove.palette;
-  const fallback = `radial-gradient(at 28% 20%, ${a}55, transparent 60%), radial-gradient(at 72% 78%, ${b}33, transparent 65%), ${c}`;
+  // Gold-on-near-black fallback matching the molten WebGL scene — shown to
+  // reduced-motion users and during the idle-deferred WebGL boot.
+  const fallback = `radial-gradient(ellipse at 50% 42%, rgba(246,198,109,0.14), transparent 55%), radial-gradient(at 50% 100%, rgba(138,90,28,0.10), transparent 60%), #0a0908`;
 
   return (
     <div

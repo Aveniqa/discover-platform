@@ -112,7 +112,7 @@ export default function HomePage() {
 
           <h1 className="mx-auto max-w-4xl text-center text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight leading-[0.95] mb-6 text-white drop-shadow-[0_4px_30px_rgba(0,0,0,0.6)]">
             Software worth
-            <span className="block bg-gradient-to-r from-violet-300 via-cyan-200 to-amber-200 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-400 bg-clip-text text-transparent">
               your attention.
             </span>
           </h1>
@@ -286,7 +286,7 @@ export default function HomePage() {
           </p>
           <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-white">
             Tell us your goal.<br className="hidden sm:block" />
-            <span className="bg-gradient-to-r from-violet-300 via-cyan-200 to-amber-200 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-400 bg-clip-text text-transparent">
               We&rsquo;ll stitch the toolchain.
             </span>
           </h2>
