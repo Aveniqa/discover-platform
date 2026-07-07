@@ -32,7 +32,7 @@ export default function WorkflowsPage() {
           </p>
           <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[0.95]">
             Tool recipes
-            <span className="block bg-gradient-to-r from-violet-300 via-cyan-200 to-amber-200 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-amber-200 via-yellow-100 to-amber-400 bg-clip-text text-transparent">
               for real goals.
             </span>
           </h1>
