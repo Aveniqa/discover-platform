@@ -1518,7 +1518,100 @@
         "pinterest": true,
         "twitter": false
       }
+    },
+    {
+      "id": "deepl-write-ai-writing-assistant-multilingual",
+      "title": "deepl-write-ai-writing-assistant-multilingual",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/1774301/pexels-photo-1774301.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: deepl-write-ai-writing-assistant-multilingual",
+      "productUrl": "https://surfaced-x.pages.dev/item/deepl-write-ai-writing-assistant-multilingual?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/deepl-write-ai-writing-assistant-multilingual?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "deepl-write-ai-writing-assistant-multilingual",
+          "description": " https://surfaced-x.pages.dev/item/deepl-write-ai-writing-assistant-multilingual?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post #surfaced #daily-tools",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "deepl-write-ai-writing-assistant-multilingual — DeepL Write, an innovative offering from DeepL SE, is an AI-powered writing assistant designed to elevate the quality, clarity, and style of written communication. Building on DeepL's acclaimed transl\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/deepl-write-ai-writing-assistant-multilingual?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-07T15:33:58.808Z",
+      "publishedAt": "2026-07-07T15:33:59.951Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
+    },
+    {
+      "id": "tangled-forge-federation",
+      "title": "Tangled – A Federation of Forges",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/4985154/pexels-photo-4985154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Abstract illustration of interconnected network nodes, representing a decentralized system.",
+      "productUrl": "https://surfaced-x.pages.dev/item/tangled-forge-federation?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/tangled-forge-federation?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Tangled: A Decentralized Future for Software Development?",
+          "description": "Imagine a web where GitHub, GitLab, and other dev tools *actually* talk to each other. Tangled proposes a 'federation of forges,' a decentralized network for resilient open-source. Could this be the future? 🤔 #devops #opensource #webdev #futureofcode",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "What if we didn't have to pick just one dev platform? Tangled envisions a 'federation of forges' – a decentralized network where tools like GitHub and GitLab could interoperate. Less vendor lock-in, more resilience. Intriguing concept for open-source infrastructure.\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "Tired of monolithic dev platforms? Tangled proposes a 'federation of forges' – a decentralized network where tools like GitHub & GitLab could interoperate. A future for open-source built on resilience & choice, not single points of failure. See the vision: https://surfaced-x.pages.dev/item/tangled-forge-federation?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-07T15:33:58.808Z",
+      "publishedAt": "2026-07-07T15:34:34.347Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
+    },
+    {
+      "id": "memex-open-source-local-first-knowledge",
+      "title": "memex-open-source-local-first-knowledge",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/4144768/pexels-photo-4144768.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Screenshot of a browser extension interface showing saved web pages and search results.",
+      "productUrl": "https://surfaced-x.pages.dev/item/memex-open-source-local-first-knowledge?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/memex-open-source-local-first-knowledge?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Memex: Your Personal Web Search Engine",
+          "description": "Tired of losing great web content? Memex turns your browser into a personal, searchable archive. Save, annotate, and find anything you've browsed, even offline. Open-source and local-first for ultimate privacy. #ResearchTool #KnowledgeManagement #Productivity #OpenSource",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "Forget your bookmarks. Memex is an open-source browser extension that builds a private, searchable archive of *everything* you browse. Highlight, add notes, and find content later with full-text search. Your personal web search engine is here.\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "Build your own searchable web archive with Memex! 🧠 This open-source, local-first browser extension lets you save, highlight, and annotate web pages, then find them instantly with powerful full-text search. Your personal research assistant. https://surfaced-x.pages.dev/item/memex-open-source-local-first-knowledge?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-07T15:33:58.808Z",
+      "publishedAt": "2026-07-07T15:35:32.406Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-07-06T15:58:21.543Z"
+  "lastGenerated": "2026-07-07T15:33:58.809Z"
 }
