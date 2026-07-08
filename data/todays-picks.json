@@ -1,19 +1,19 @@
 [
   {
-    "slug": "connect-social-media-sync",
-    "title": "Multitran",
+    "slug": "linguagpt",
+    "title": "LinguaGPT",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Multitran is a web-based platform that allows users to manage and post to multiple social media accounts from a single d",
+    "description": "LinguaGPT is an AI-powered language learning platform designed to provide personalized, interactive practice and feedbac",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "kumu-io",
-    "title": "Kumu.io",
+    "slug": "perchance",
+    "title": "Perchance",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Kumu.io is a powerful and intuitive platform for visualizing complex systems, stakeholder networks, and feedback loops. ",
+    "description": "Perchance is a free, web-based tool that allows users to create their own random generators. It uses a simple, intuitive",
     "badge": null,
     "type": "tool"
   }
