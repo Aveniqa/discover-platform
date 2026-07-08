@@ -77,9 +77,12 @@
   --fg: #F2F2F7;
   --muted: #8E8EA0;
   --muted-fg: #6E6E82;
-  --accent: #A855F7;
-  --accent-hover: #C084FC;
-  --accent-glow: rgba(168, 85, 247, 0.2);
+  /* One gold accent on near black — retuned from violet 2026-07-08 to
+     match the molten-gold world. --cyan kept as a secondary data hue for
+     charts/chips but no longer used in hero-level gradients. */
+  --accent: #E5B25D;
+  --accent-hover: #F0C67E;
+  --accent-glow: rgba(229, 178, 93, 0.22);
   --cyan: #22D3EE;
   --cyan-glow: rgba(34, 211, 238, 0.15);
   --amber: #FBBF24;
@@ -94,7 +97,7 @@
   --glass-bg-strong: rgba(15, 15, 20, 0.88);
   --scrollbar-track: transparent;
   --scrollbar-thumb: #22222E;
-  --selection-bg: rgba(168, 85, 247, 0.35);
+  --selection-bg: rgba(229, 178, 93, 0.32);
   --selection-fg: #F2F2F7;
   --shadow-ring: rgba(34, 34, 46, 0.7);
   --shadow-drop: rgba(0, 0, 0, 0.5);
@@ -311,7 +314,7 @@ h3 {
   inset: 0;
   border-radius: inherit;
   padding: 1px;
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.5), rgba(34, 211, 238, 0.5));
+  background: linear-gradient(135deg, rgba(229, 178, 93, 0.5), rgba(240, 198, 126, 0.45));
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -860,7 +863,7 @@ body.depth-mode .floating-item {
   left: 0;
   width: 0;
   height: 1.5px;
-  background: linear-gradient(90deg, #A855F7, #22D3EE);
+  background: linear-gradient(90deg, #E5B25D, #F0C67E);
   transition: width 0.3s ease;
 }
 

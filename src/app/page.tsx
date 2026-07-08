@@ -332,7 +332,7 @@ export default function HomePage() {
       <section className="relative py-16 px-4 sm:px-6 border-t border-white/[0.05]">
         <div className="absolute inset-0 world-scrim pointer-events-none" aria-hidden="true" />
         <div className="relative max-w-3xl mx-auto flex flex-col sm:flex-row items-center gap-6 floating-glass rounded-2xl p-8">
-          <div className="w-20 h-20 rounded-full bg-gradient-to-br from-accent to-cyan flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
+          <div className="w-20 h-20 rounded-full bg-gradient-to-br from-amber-300 to-amber-600 flex items-center justify-center text-white text-2xl font-bold flex-shrink-0">
             {BYLINE.initials}
           </div>
           <div className="text-center sm:text-left flex-1">
@@ -380,7 +380,7 @@ function LeadCard({ item }: { item: AnyItem }) {
   const host = getHost(outbound);
   const alcove = alcoveFromCategory(getItemCategory(item));
   // Use the alcove's first palette color as the hover-glow tint
-  const glowRgb = hexToRgb(alcove.palette[0]);
+  const glowRgb = "229, 178, 93";
 
   return (
     <TiltCard3D
@@ -402,7 +402,7 @@ function LeadCard({ item }: { item: AnyItem }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
         <div className="absolute inset-0 mix-blend-overlay opacity-70" style={{
-          background: `radial-gradient(at 30% 80%, ${alcove.palette[0]}55, transparent 60%), radial-gradient(at 70% 20%, ${alcove.palette[1]}33, transparent 60%)`,
+          background: `radial-gradient(at 30% 80%, #E5B25D40, transparent 60%), radial-gradient(at 70% 20%, #F0C67E26, transparent 60%)`,
         }} />
         <div className="absolute top-4 left-4 tilt-3d-pop">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 backdrop-blur-md text-white text-[10px] font-bold uppercase tracking-[0.18em] border border-white/20">
@@ -446,14 +446,6 @@ function LeadCard({ item }: { item: AnyItem }) {
   );
 }
 
-function hexToRgb(hex: string): string {
-  const h = hex.replace("#", "");
-  const r = parseInt(h.slice(0, 2), 16);
-  const g = parseInt(h.slice(2, 4), 16);
-  const b = parseInt(h.slice(4, 6), 16);
-  return `${r}, ${g}, ${b}`;
-}
-
 function SupportingCard({ item, compact = false }: { item: AnyItem; compact?: boolean }) {
   const title = getItemTitle(item);
   const outbound = getOutbound(item);
@@ -477,7 +469,7 @@ function SupportingCard({ item, compact = false }: { item: AnyItem; compact?: bo
             className="group-hover:scale-[1.03] transition-transform duration-500"
           />
           <div className="absolute inset-0 opacity-60" style={{
-            background: `linear-gradient(135deg, ${alcove.palette[0]}22, transparent 60%)`,
+            background: `linear-gradient(135deg, #E5B25D1f, transparent 60%)`,
           }} />
         </div>
         <div className="p-4 flex flex-col flex-1 min-w-0">
@@ -516,7 +508,7 @@ function AlcoveSection({ alcove, items, index }: { alcove: Alcove; items: AnyIte
       <div
         className="absolute inset-0 pointer-events-none opacity-50"
         style={{
-          background: `radial-gradient(circle at ${flip ? "75%" : "25%"} 50%, ${alcove.palette[1]}25, transparent 60%)`,
+          background: `radial-gradient(circle at ${flip ? "75%" : "25%"} 50%, #E5B25D22, transparent 60%)`,
         }}
         aria-hidden="true"
       />
@@ -563,7 +555,7 @@ function AlcoveItemCard({ item }: { item: AnyItem }) {
   return (
     <TiltCard3D
       className="rounded-2xl h-full"
-      glowColor={hexToRgb(alcove.palette[0])}
+      glowColor="229, 178, 93"
       maxTilt={8}
       hoverScale={1.02}
     >
@@ -584,7 +576,7 @@ function AlcoveItemCard({ item }: { item: AnyItem }) {
           <div
             className="absolute inset-0 opacity-50 pointer-events-none"
             style={{
-              background: `linear-gradient(160deg, ${alcove.palette[0]}22, transparent 55%)`,
+              background: `linear-gradient(160deg, #E5B25D1f, transparent 55%)`,
             }}
           />
         </div>

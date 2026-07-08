@@ -53,7 +53,7 @@ export default function ContactPage() {
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold text-foreground leading-tight">
             Let&apos;s{" "}
-            <span className="bg-gradient-to-r from-accent to-cyan bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-amber-300 to-amber-600 bg-clip-text text-transparent">
               connect
             </span>
           </h1>

@@ -93,7 +93,7 @@ export default function EditorialStandardsPage() {
 
       <section className="py-20 px-4 sm:px-6 border-t border-border/40 bg-surface/40">
         <div className="max-w-2xl mx-auto text-center">
-          <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-accent to-cyan flex items-center justify-center text-white text-2xl font-bold mb-4">
+          <div className="w-20 h-20 mx-auto rounded-full bg-gradient-to-br from-amber-300 to-amber-600 flex items-center justify-center text-white text-2xl font-bold mb-4">
             {BYLINE.initials}
           </div>
           <p className="text-xs uppercase tracking-[0.2em] text-accent font-semibold mb-2">Edited by</p>
