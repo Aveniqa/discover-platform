@@ -1611,7 +1611,100 @@
         "pinterest": true,
         "twitter": false
       }
+    },
+    {
+      "id": "hidden-gem-fontjoy",
+      "title": "Fontjoy",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/11141869/pexels-photo-11141869.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "A graphic showing two different fonts paired together harmoniously on a screen.",
+      "productUrl": "https://surfaced-x.pages.dev/item/hidden-gem-fontjoy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/hidden-gem-fontjoy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "Fontjoy: AI-Powered Font Pairings",
+          "description": "Stop guessing your font pairings! Fontjoy uses AI to suggest harmonious font combinations for your next design project. From websites to branding, get beautiful typography effortlessly. Explore, tweak, and discover pairings you wouldn't have thought of. #design #typography #AI #webdesign",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Tired of agonizing over font pairings? There's an AI for that. Fontjoy analyzes thousands of fonts to find combinations that just *work*. Seriously impressive results, even for us non-designers.\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "Choosing fonts is hard. Fontjoy uses AI to find perfect font pairings for your designs, from websites to branding. It's surprisingly good at suggesting novel combinations. Definitely worth a look if you're stuck. https://surfaced-x.pages.dev/item/hidden-gem-fontjoy?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-08T14:45:35.799Z",
+      "publishedAt": "2026-07-08T14:45:36.994Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
+    },
+    {
+      "id": "streamlaide-video-editing",
+      "title": "streamlaide-video-editing",
+      "category": "daily-tools",
+      "imageUrl": "https://images.pexels.com/photos/7549098/pexels-photo-7549098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Image related to: streamlaide-video-editing",
+      "productUrl": "https://surfaced-x.pages.dev/item/streamlaide-video-editing?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/streamlaide-video-editing?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "streamlaide-video-editing",
+          "description": " https://surfaced-x.pages.dev/item/streamlaide-video-editing?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post #surfaced #daily-tools",
+          "boardName": "Daily Tools"
+        },
+        "bluesky": {
+          "text": "streamlaide-video-editing — Streamlaide is an AI-powered platform designed to simplify video creation for content creators. It allows users to generate videos from text or existing content, automatically adding visuals, music, a\n\n#productivity #tools"
+        },
+        "twitter": {
+          "text": "undefined —  https://surfaced-x.pages.dev/item/streamlaide-video-editing?utm_source=social&utm_medium=daily-tools&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-08T14:45:35.799Z",
+      "publishedAt": "2026-07-08T14:47:06.139Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
+    },
+    {
+      "id": "uxpin-merge-code-design-systems",
+      "title": "UXPin Merge",
+      "category": "hidden-gems",
+      "imageUrl": "https://images.pexels.com/photos/6804068/pexels-photo-6804068.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAltText": "Diverse team collaborating around a screen showing code and design interfaces.",
+      "productUrl": "https://surfaced-x.pages.dev/item/uxpin-merge-code-design-systems?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "affiliateUrl": "https://surfaced-x.pages.dev/item/uxpin-merge-code-design-systems?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post",
+      "sourceLink": "",
+      "platforms": {
+        "pinterest": {
+          "title": "UXPin Merge: Prototype with Production Code",
+          "description": "Stop rebuilding components in your design tool. UXPin Merge lets you import actual code components from Git directly into your design editor. Perfect for large teams with established design systems who need 100% fidelity prototypes. It's a game-changer for bridging design & dev, but requires a mature design-ops culture. #designsystems #prototyping #uxdesign #codecomponents",
+          "boardName": "Hidden Gems"
+        },
+        "bluesky": {
+          "text": "Tired of prototypes that look *nothing* like the final product? UXPin Merge uses actual code components. Imagine, building with the exact same stuff developers use. Huge for design system consistency.\n\n#hiddenGem #apps"
+        },
+        "twitter": {
+          "text": "Ever wish your prototypes were built with actual production code? UXPin Merge lets you import components from Git directly into your design editor. Essential for enterprises with mature design systems wanting 100% fidelity. Less handoff pain, more consistency! https://surfaced-x.pages.dev/item/uxpin-merge-code-design-systems?utm_source=social&utm_medium=hidden-gems&utm_campaign=daily_post"
+        }
+      },
+      "status": "published",
+      "generatedAt": "2026-07-08T14:45:35.799Z",
+      "publishedAt": "2026-07-08T14:48:20.047Z",
+      "publishResults": {
+        "bluesky": true,
+        "pinterest": true,
+        "twitter": false
+      }
     }
   ],
-  "lastGenerated": "2026-07-07T15:33:58.809Z"
+  "lastGenerated": "2026-07-08T14:45:35.799Z"
 }
