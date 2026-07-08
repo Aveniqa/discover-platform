@@ -36,6 +36,7 @@ const NEAR_BLACK = "#0a0908";
 
 const STRUCTURE_VERTEX = /* glsl */ `
   uniform float uTime;
+  uniform float uScroll;   // 0..1 page journey — drives the shape morph
   varying vec3 vPos;
   varying vec3 vNormal;
   varying vec3 vViewDir;
@@ -49,15 +50,89 @@ const STRUCTURE_VERTEX = /* glsl */ `
                mix(hash(i + vec2(0, 1)), hash(i + vec2(1, 1)), u.x), u.y);
   }
 
+  const float TAU = 6.28318530718;
+
+  /* The mesh is a (u,v) parameter grid; the surface itself is computed
+     here, as a scroll-weighted blend of four parametric forms:
+       0  trefoil torus knot   — the award
+       1  rising helix column  — the pour
+       2  wide halo ring       — the medal
+       3  spiked molten orb    — the star
+     Tube forms share a frame built from the curve tangent. */
+
+  vec3 tubePoint(vec3 C, vec3 T, float v, float r) {
+    vec3 up = abs(T.y) > 0.94 ? vec3(1.0, 0.0, 0.0) : vec3(0.0, 1.0, 0.0);
+    vec3 B = normalize(cross(T, up));
+    vec3 N = normalize(cross(B, T));
+    float a = v * TAU;
+    return C + (cos(a) * N + sin(a) * B) * r;
+  }
+
+  vec3 knotCenter(float u) {
+    float t = u * TAU;
+    float r = 1.15 + 0.42 * cos(3.0 * t);
+    return vec3(r * cos(2.0 * t), 0.42 * sin(3.0 * t), r * sin(2.0 * t));
+  }
+  vec3 shapeKnot(float u, float v) {
+    vec3 C = knotCenter(u);
+    vec3 T = normalize(knotCenter(u + 0.004) - C);
+    return tubePoint(C, T, v, 0.30);
+  }
+
+  vec3 helixCenter(float u) {
+    float t = u * TAU * 2.6;
+    return vec3(cos(t) * 0.72, (u - 0.5) * 3.9, sin(t) * 0.72);
+  }
+  vec3 shapeHelix(float u, float v) {
+    vec3 C = helixCenter(u);
+    vec3 T = normalize(helixCenter(u + 0.004) - C);
+    return tubePoint(C, T, v, 0.24);
+  }
+
+  vec3 shapeHalo(float u, float v) {
+    float t = u * TAU;
+    vec3 C = vec3(cos(t) * 1.85, sin(t * 3.0) * 0.10, sin(t) * 1.85);
+    vec3 T = normalize(vec3(-sin(t), cos(t * 3.0) * 0.05, cos(t)));
+    return tubePoint(C, T, v, 0.22);
+  }
+
+  vec3 shapeOrb(float u, float v) {
+    float th = u * TAU;
+    float ph = v * 3.14159265;
+    float spikes = 1.0 + 0.30 * sin(8.0 * th + uTime * 0.35) * sin(6.0 * ph);
+    float R = 1.35 * spikes;
+    return vec3(sin(ph) * cos(th), cos(ph), sin(ph) * sin(th)) * R;
+  }
+
+  vec3 surfacePos(float u, float v) {
+    // chapter weights along the scroll journey (normalized)
+    float w0 = 1.0 - smoothstep(0.14, 0.32, uScroll);
+    float w1 = smoothstep(0.14, 0.32, uScroll) * (1.0 - smoothstep(0.42, 0.58, uScroll));
+    float w2 = smoothstep(0.42, 0.58, uScroll) * (1.0 - smoothstep(0.68, 0.84, uScroll));
+    float w3 = smoothstep(0.68, 0.84, uScroll);
+    float s = w0 + w1 + w2 + w3;
+    return (shapeKnot(u, v) * w0 + shapeHelix(u, v) * w1 +
+            shapeHalo(u, v) * w2 + shapeOrb(u, v) * w3) / s;
+  }
+
   void main() {
-    vPos = position;
-    vNormal = normalize(normalMatrix * normal);
+    // uv in [0,1]² comes from the parameter-grid plane geometry
+    float u = uv.x;
+    float v = uv.y;
+
+    vec3 P = surfacePos(u, v);
+    // analytic-ish normal via finite differences on the blended surface
+    vec3 Pu = surfacePos(u + 0.003, v);
+    vec3 Pv = surfacePos(u, v + 0.003);
+    vec3 N = normalize(cross(Pu - P, Pv - P));
 
     // molten wobble — the surface breathes like cooling metal
-    float w = noise(position.xy * 1.6 + uTime * 0.22)
-            + noise(position.yz * 1.6 - uTime * 0.17);
-    vec3 displaced = position + normal * (w - 1.0) * 0.09;
+    float w = noise(P.xy * 1.6 + uTime * 0.22)
+            + noise(P.yz * 1.6 - uTime * 0.17);
+    vec3 displaced = P + N * (w - 1.0) * 0.09;
 
+    vPos = P;
+    vNormal = normalize(normalMatrix * N);
     vec4 mv = modelViewMatrix * vec4(displaced, 1.0);
     vViewDir = normalize(-mv.xyz);
     gl_Position = projectionMatrix * mv;
@@ -126,6 +201,7 @@ function MoltenStructure({ scrollT, pointer }: { scrollT: number; pointer: { x: 
   const uniforms = useMemo(
     () => ({
       uTime:     { value: 0 },
+      uScroll:   { value: 0 },
       uDissolve: { value: 0 },
       uGold:     { value: GOLD.clone() },
       uGoldHot:  { value: GOLD_HOT.clone() },
@@ -141,29 +217,42 @@ function MoltenStructure({ scrollT, pointer }: { scrollT: number; pointer: { x: 
     m.uniforms.uTime.value += delta;
 
     scrollLerp.current += (scrollT - scrollLerp.current) * 0.07;
-    // The award "unravels": intact through the hero, eroding to embers by page end.
-    m.uniforms.uDissolve.value = THREE.MathUtils.clamp(scrollLerp.current * 1.05 - 0.06, 0, 0.92);
+    const sc = scrollLerp.current;
+    // Shape morph is scrubbed by the journey; the dissolve-to-embers is
+    // saved for the finale (last ~20% of the page).
+    m.uniforms.uScroll.value = sc;
+    m.uniforms.uDissolve.value = THREE.MathUtils.clamp((sc - 0.8) / 0.2, 0, 1) * 0.9;
 
     pointerLerp.current.x += (pointer.x - pointerLerp.current.x) * 0.04;
     pointerLerp.current.y += (pointer.y - pointerLerp.current.y) * 0.04;
 
-    g.rotation.y = state.clock.elapsedTime * 0.12 + pointerLerp.current.x * 0.35;
-    g.rotation.x = -0.12 + pointerLerp.current.y * 0.18 + scrollLerp.current * 0.35;
-    g.position.y = -0.3 + Math.sin(state.clock.elapsedTime * 0.35) * 0.12 + scrollLerp.current * 1.1;
-    g.position.z = -2.5 - scrollLerp.current * 1.6;
-    const s = 1.35 + scrollLerp.current * 0.5;
+    // Chapter drift: the structure travels across the screen as forms change
+    // (right for the helix, left for the halo, center for knot + finale).
+    const w1 = THREE.MathUtils.smoothstep(sc, 0.14, 0.32) * (1 - THREE.MathUtils.smoothstep(sc, 0.42, 0.58));
+    const w2 = THREE.MathUtils.smoothstep(sc, 0.42, 0.58) * (1 - THREE.MathUtils.smoothstep(sc, 0.68, 0.84));
+    const driftX = w1 * 1.7 - w2 * 1.7;
+
+    g.rotation.y = state.clock.elapsedTime * 0.12 + pointerLerp.current.x * 0.35 + sc * 2.2;
+    g.rotation.x = -0.12 + pointerLerp.current.y * 0.18 + sc * 0.3;
+    g.position.x = driftX;
+    g.position.y = -0.3 + Math.sin(state.clock.elapsedTime * 0.35) * 0.12 + sc * 0.9;
+    g.position.z = -2.5 - sc * 1.2;
+    const s = 1.35 + sc * 0.45;
     g.scale.setScalar(s);
   });
 
   return (
     <group ref={groupRef} position={[0, -0.3, -2.5]}>
       <mesh>
-        <torusKnotGeometry args={[1, 0.3, 260, 40, 2, 3]} />
+        {/* Parameter grid — the actual surface is computed in the vertex
+            shader as a scroll-morphed blend of four parametric forms. */}
+        <planeGeometry args={[1, 1, 420, 56]} />
         <shaderMaterial
           ref={matRef}
           uniforms={uniforms}
           vertexShader={STRUCTURE_VERTEX}
           fragmentShader={STRUCTURE_FRAGMENT}
+          side={THREE.DoubleSide}
         />
       </mesh>
     </group>
