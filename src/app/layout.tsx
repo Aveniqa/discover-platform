@@ -89,12 +89,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable} suppressHydrationWarning>
       <head>
-        {/* Flash-prevent: read theme before paint so the page never starts in
-            the wrong palette and flickers on hydration. Falls back to OS pref
-            on first visit, then localStorage. */}
+        {/* The molten-gold world is a committed dark ("cinema") design — the
+            light palette renders white hero copy on a light scrim and fights
+            the one-gold-accent direction, so the theme is pinned to dark.
+            Stored 'light' prefs from the old design are ignored. */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var s=localStorage.getItem('theme');var p=window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';var t=(s==='light'||s==='dark')?s:p;document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();`,
+            __html: `document.documentElement.setAttribute('data-theme','dark');`,
           }}
         />
         <meta name="impact-site-verification" content="1dd3812c-2540-4b06-b6c6-27528553b44d" />

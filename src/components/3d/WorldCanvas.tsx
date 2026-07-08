@@ -418,19 +418,22 @@ function ClickBursts() {
   const { camera, size } = useThree();
 
   const attrs = useMemo(() => {
+    // Seeded rng keeps render pure (react-hooks/purity) — burst shapes are
+    // aesthetic, so a fixed seed loses nothing.
+    const rng = makeRng(1618);
     const n = MAX_BURSTS * PER_BURST;
     const pos = new Float32Array(n * 3);
     const dir = new Float32Array(n * 3);
     const burst = new Float32Array(n);
     const sd = new Float32Array(n);
     for (let i = 0; i < n; i++) {
-      const phi = Math.random() * Math.PI * 2;
-      const theta = Math.acos(Math.random() * 2 - 1);
+      const phi = rng() * Math.PI * 2;
+      const theta = Math.acos(rng() * 2 - 1);
       dir[i * 3] = Math.sin(theta) * Math.cos(phi);
       dir[i * 3 + 1] = Math.abs(Math.cos(theta)) * 0.9 + 0.1; // bias upward
       dir[i * 3 + 2] = Math.sin(theta) * Math.sin(phi) * 0.6;
       burst[i] = Math.floor(i / PER_BURST);
-      sd[i] = Math.random();
+      sd[i] = rng();
     }
     return { pos, dir, burst, sd };
   }, []);

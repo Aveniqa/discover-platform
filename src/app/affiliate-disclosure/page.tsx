@@ -20,7 +20,7 @@ export default function AffiliateDisclosurePage() {
             </p>
             <h1 className="text-4xl sm:text-5xl font-bold text-foreground leading-tight">
               Affiliate{" "}
-              <span className="bg-gradient-to-r from-accent to-cyan bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-amber-300 to-amber-600 bg-clip-text text-transparent">
                 Disclosure
               </span>
             </h1>

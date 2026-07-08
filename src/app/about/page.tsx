@@ -22,7 +22,7 @@ export default function AboutPage() {
             About Surfaced
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[0.95]">
-            One editor. <span className="bg-gradient-to-r from-violet-300 to-cyan-200 bg-clip-text text-transparent">No slop.</span>
+            One editor. <span className="bg-gradient-to-r from-amber-200 to-amber-400 bg-clip-text text-transparent">No slop.</span>
           </h1>
           <p className="mt-6 text-white/85 text-lg sm:text-xl leading-relaxed">
             Surfaced is a hand-edited daily on the most useful software and corners of the internet.
@@ -112,7 +112,7 @@ export default function AboutPage() {
 
       <section className="py-20 px-4 sm:px-6 bg-surface/40 border-t border-border/40">
         <div className="max-w-3xl mx-auto flex flex-col sm:flex-row items-center gap-8">
-          <div className="w-28 h-28 rounded-full bg-gradient-to-br from-accent to-cyan flex items-center justify-center text-white text-4xl font-bold flex-shrink-0">
+          <div className="w-28 h-28 rounded-full bg-gradient-to-br from-amber-300 to-amber-600 flex items-center justify-center text-white text-4xl font-bold flex-shrink-0">
             {BYLINE.initials}
           </div>
           <div className="text-center sm:text-left flex-1">

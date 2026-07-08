@@ -4,7 +4,7 @@
 
 Generated dynamically by `src/app/sitemap.ts` at build time.
 - **Live:** https://surfaced-x.pages.dev/sitemap.xml
-- **URLs:** ~2,699 (15 static + ~40 collections + all `/item/` pages)
+- **URLs:** ~3,100 (15 static + ~40 collections + all `/item/` pages — grows daily)
 - **lastmod:** `dateAdded` per item when available; otherwise the build date
 
 ---

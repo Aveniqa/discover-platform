@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Node pipeline scripts are CommonJS by design (require, __dirname) —
+    // linting them with browser/React rules produces only noise.
+    "scripts/**",
   ]),
   {
     rules: {

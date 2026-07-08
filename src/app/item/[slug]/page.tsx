@@ -367,7 +367,7 @@ export default async function ItemPage({ params }: Props) {
               <SectionDepth className="relative z-10 showcase-stage max-w-5xl mx-auto px-4 sm:px-8 pt-12 sm:pt-16 pb-4">
                 <div
                   className="showcase-glow"
-                  style={{ "--showcase-tint": `${alcove.palette[0]}59` } as CSSProperties}
+                  style={{ "--showcase-tint": "rgba(229, 178, 93, 0.35)" } as CSSProperties}
                   aria-hidden="true"
                 />
                 <div className="showcase-frame relative rounded-2xl overflow-hidden border border-white/15 shadow-[0_40px_120px_rgba(0,0,0,0.6)]">
