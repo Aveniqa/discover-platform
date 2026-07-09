@@ -1,19 +1,19 @@
 [
   {
-    "slug": "linguagpt",
-    "title": "LinguaGPT",
+    "slug": "typetherapy",
+    "title": "TypeTherapy",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "LinguaGPT is an AI-powered language learning platform designed to provide personalized, interactive practice and feedbac",
+    "description": "TypeTherapy is a unique web-based tool that helps users improve their typing speed and accuracy through a series of focu",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "perchance",
-    "title": "Perchance",
+    "slug": "ciphertext-audio-editor",
+    "title": "Ciphertext",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Perchance is a free, web-based tool that allows users to create their own random generators. It uses a simple, intuitive",
+    "description": "Ciphertext is a web-based audio editing tool designed for content creators, particularly podcasters, simplifying the pro",
     "badge": null,
     "type": "tool"
   }

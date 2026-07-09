@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ciphertext</title>
+      <link>https://surfaced-x.pages.dev/item/ciphertext-audio-editor</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ciphertext-audio-editor</guid>
+      <description>Ciphertext is a web-based audio editing tool designed for content creators, particularly podcasters, simplifying the process of cleaning up and enhancing audio. It uses AI to automatically remove filler words, pauses, and background noise, allowing users to focus on their content rather than tedious editing tasks. The platform offers a freemium model, with a free tier for basic edits and paid plans for more advanced features and longer audio durations. It&apos;s built for speed and ease of use, making professional-sounding audio accessible without extensive technical knowledge.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1780570751649-6867a5f49139?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2MDQ4OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1780570751649-6867a5f49139?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2MDQ4OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1780570751649-6867a5f49139?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2MDQ4OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Nuclino</title>
+      <link>https://surfaced-x.pages.dev/item/nuclino-knowledge-base</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nuclino-knowledge-base</guid>
+      <description>Nuclino is a unified workspace for organizing and sharing your team&apos;s knowledge. It allows you to create and connect documents, build a team wiki, manage projects, and keep track of important information all in one place.  It uses a visual, interconnected approach to knowledge management, making it easy to find and navigate information. Nuclino offers a free plan for small teams and paid plans for larger organizations, with a focus on real-time collaboration and a clean, intuitive interface.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17713788/pexels-photo-17713788.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/17713788/pexels-photo-17713788.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/17713788/pexels-photo-17713788.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Krisp</title>
+      <link>https://surfaced-x.pages.dev/item/krisp-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/krisp-app</guid>
+      <description>Krisp is an AI-powered application that eliminates background noise from your voice calls and online meetings. It works by processing your audio in real-time, removing distracting sounds like keyboard typing, barking dogs, or traffic, ensuring your voice comes through clearly. Krisp is available as a freemium service, with free usage limits and paid subscriptions for unlimited use and additional features. Its primary advantage is its ability to drastically improve audio clarity in any communication scenario, making remote work and online interactions much smoother and more professional.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4476163/pexels-photo-4476163.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4476163/pexels-photo-4476163.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4476163/pexels-photo-4476163.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>TinyMed</title>
+      <link>https://surfaced-x.pages.dev/item/tinymed-minimalist-journal</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tinymed-minimalist-journal</guid>
+      <description>TinyMed is a free, open-source, and privacy-focused application designed for tracking personal health metrics and symptoms in a minimalist, user-friendly interface. It allows individuals to log daily entries related to mood, sleep, diet, medication, and custom symptoms without the overwhelming complexity of many health apps. The app&apos;s core value lies in its simplicity and its commitment to keeping all data locally on the user&apos;s device, ensuring complete privacy. TinyMed is particularly adept at helping users identify patterns and correlations between lifestyle choices and their physical or mental well-being through straightforward data visualization.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5712689/pexels-photo-5712689.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5712689/pexels-photo-5712689.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5712689/pexels-photo-5712689.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>T3MP3ST</title>
+      <link>https://surfaced-x.pages.dev/item/t3mp3st</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/t3mp3st</guid>
+      <description>T3MP3ST is an advanced, autonomous red teaming platform designed for offensive security operations. It utilizes a multi-agent meta-harness architecture to simulate sophisticated cyberattacks, allowing security professionals to test and strengthen their defenses against emergent threats. The platform is built with TypeScript and offers a highly customizable framework for automating complex penetration testing scenarios, identifying vulnerabilities, and assessing an organization&apos;s resilience in a dynamic digital landscape. It operates on a free, open-source model.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4682189/pexels-photo-4682189.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4682189/pexels-photo-4682189.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4682189/pexels-photo-4682189.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Perchance</title>
       <link>https://surfaced-x.pages.dev/item/perchance</link>
@@ -393,6 +448,17 @@
       <media:thumbnail url="https://pixabay.com/get/gf320b9625cff8d53e763a2b777ba9fe5db6cc2284985e13081ae68bbf61c54f6a5ed24c96fe26f39e6f9de0a83e30093e2b44e073f0b328928bffaf622c9f157_1280.jpg" />
     </item>
     <item>
+      <title>TypeTherapy</title>
+      <link>https://surfaced-x.pages.dev/item/typetherapy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typetherapy</guid>
+      <description>TypeTherapy is a unique web-based tool that helps users improve their typing speed and accuracy through a series of focused exercises. It offers a clean interface where users can practice typing words, sentences, and even custom paragraphs. The platform tracks WPM (words per minute) and accuracy, providing feedback to help users identify their weaknesses. Unlike generic typing tutors, TypeTherapy often incorporates more engaging content and gamified elements to keep users motivated. It&apos;s designed for anyone who wants to enhance their digital communication efficiency, from students to professionals.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1591057/pexels-photo-1591057.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1591057/pexels-photo-1591057.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1591057/pexels-photo-1591057.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Adobe Firefly</title>
       <link>https://surfaced-x.pages.dev/item/firefly-ai</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/firefly-ai</guid>
@@ -402,6 +468,17 @@
       <enclosure url="https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
       <media:content url="https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
       <media:thumbnail url="https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Logseq</title>
+      <link>https://surfaced-x.pages.dev/item/logseq</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/logseq</guid>
+      <description>Logseq is an open-source, privacy-first knowledge base that works on local Markdown files. It functions as a nonlinear note-taking application, a daily journal, and a task manager, all interconnected through a bidirectional linking system. You can organize your thoughts, projects, and learnings in a graph view, seeing connections you might have otherwise missed. It&apos;s built for individuals who want to manage their personal knowledge in a secure, self-hosted environment.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/18069816/pexels-photo-18069816.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/18069816/pexels-photo-18069816.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/18069816/pexels-photo-18069816.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Cyberduck</title>
@@ -415,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/37605911/pexels-photo-37605911.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Spider Venom for Varroa Mite Control</title>
+      <link>https://surfaced-x.pages.dev/item/spider-venom-varroa-mite-control</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spider-venom-varroa-mite-control</guid>
+      <description>This innovative research investigates the use of specific components found in spider venom as a novel method for controlling Varroa mites. Varroa destructor mites pose a severe and persistent threat to honeybee colonies globally, significantly impacting colony health and survival. The scientific exploration focuses on identifying spider venom toxins that exhibit selective toxicity towards Varroa mites, disrupting their biological functions without posing any danger to the bees themselves. This targeted approach holds promise for developing a more sustainable and bee-centric strategy within apiculture.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10068270/pexels-photo-10068270.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10068270/pexels-photo-10068270.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10068270/pexels-photo-10068270.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>VLC Media Player</title>
       <link>https://surfaced-x.pages.dev/item/vlc-media-player</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vlc-media-player</guid>
@@ -424,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>VisualShaper</title>
+      <link>https://surfaced-x.pages.dev/item/visualshaper-ai-code-to-diagram</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/visualshaper-ai-code-to-diagram</guid>
+      <description>VisualShaper is an AI-driven platform engineered to translate source code into insightful visual diagrams. It intelligently parses code across various programming languages, generating representations such as flowcharts to illustrate program execution, sequence diagrams to depict inter-component communication, and architecture diagrams to map out system structure.  The tool supports analysis of individual code snippets through to entire code repositories, aiming to provide a clear and comprehensive visual blueprint of software logic and organization. This facilitates a deeper understanding of how software functions at a structural and operational level.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34804022/pexels-photo-34804022.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34804022/pexels-photo-34804022.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34804022/pexels-photo-34804022.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Trello</title>
@@ -437,6 +536,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/6804077/pexels-photo-6804077.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Codeberg.org</title>
+      <link>https://surfaced-x.pages.dev/item/codeberg-org-developers-embrace-alternatives</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/codeberg-org-developers-embrace-alternatives</guid>
+      <description>Codeberg.org operates as a non-profit foundation, providing a comprehensive suite of tools and a collaborative environment specifically for free and open-source software (FOSS) development.  It offers robust Git hosting capabilities, integrated issue tracking systems, and a centralized platform designed to nurture community-driven projects.  By emphasizing a privacy-focused and community-centric approach, Codeberg.org distinguishes itself from commercial alternatives such as GitHub, aiming to empower developers to host their FOSS projects free from corporate influence or restrictive terms of service. This fosters a more ethical, transparent, and developer-empowered development ecosystem.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37730212/pexels-photo-37730212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37730212/pexels-photo-37730212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37730212/pexels-photo-37730212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>DeepSeek-Reasonix</title>
       <link>https://surfaced-x.pages.dev/item/deepseek-reasonix</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepseek-reasonix</guid>
@@ -446,116 +556,6 @@
       <enclosure url="https://pixabay.com/get/gdc826c918c279dd1a17253e25a0aab3e8542864b3845b25b40a871ee0a5b6ce7dd2fbd11d878abe6c9e3e551a550e6773dc88c2006f295ac76b61aa0ee6f85c6_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/gdc826c918c279dd1a17253e25a0aab3e8542864b3845b25b40a871ee0a5b6ce7dd2fbd11d878abe6c9e3e551a550e6773dc88c2006f295ac76b61aa0ee6f85c6_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/gdc826c918c279dd1a17253e25a0aab3e8542864b3845b25b40a871ee0a5b6ce7dd2fbd11d878abe6c9e3e551a550e6773dc88c2006f295ac76b61aa0ee6f85c6_1280.jpg" />
-    </item>
-    <item>
-      <title>LinguaGPT</title>
-      <link>https://surfaced-x.pages.dev/item/linguagpt</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/linguagpt</guid>
-      <description>LinguaGPT is an AI-powered language learning platform designed to provide personalized, interactive practice and feedback. It leverages advanced natural language processing to simulate real-life conversations, correct grammar and pronunciation, and adapt lessons to the user&apos;s proficiency level.  Unlike traditional apps that rely on pre-scripted dialogues, LinguaGPT can generate dynamic scenarios based on user input, making practice sessions more engaging and relevant. This tool is ideal for intermediate to advanced language learners seeking to improve their fluency and conversational skills in a more adaptive environment.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8015694/pexels-photo-8015694.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8015694/pexels-photo-8015694.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8015694/pexels-photo-8015694.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Calibre</title>
-      <link>https://surfaced-x.pages.dev/item/calibre-ebook-manager</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/calibre-ebook-manager</guid>
-      <description>Calibre is a free and open-source e-book management application. It allows users to organize, convert, and manage their e-book collection across various devices and formats. You can use it to edit metadata, convert between formats like EPUB, MOBI, and PDF, and even download news from the web to read on your e-reader. Calibre is entirely free to use, with a vibrant community contributing to its ongoing development. It stands out for its comprehensive format conversion capabilities and its ability to handle very large libraries efficiently.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6214934/pexels-photo-6214934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6214934/pexels-photo-6214934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6214934/pexels-photo-6214934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Tenda firmware (multiple versions) contains hidden authentication backdoor</title>
-      <link>https://surfaced-x.pages.dev/item/tenda-firmware-backdoor-vuln</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tenda-firmware-backdoor-vuln</guid>
-      <description>This advisory from the Cybersecurity and Infrastructure Security Agency (CISA) details a critical vulnerability found in multiple versions of Tenda router firmware. The flaw involves a hidden authentication backdoor that could allow an unauthenticated attacker to gain administrative access to affected devices. The report provides specific product versions impacted and outlines the severity of the security risk. This information is vital for users of Tenda routers to identify if their device is vulnerable and to take immediate action to secure their network.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37838642/pexels-photo-37838642.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37838642/pexels-photo-37838642.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37838642/pexels-photo-37838642.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Reshot</title>
-      <link>https://surfaced-x.pages.dev/item/reshot-com</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/reshot-com</guid>
-      <description>Reshot provides a curated collection of high-quality, free-to-use stock photos, icons, and illustrations that are not found on larger, more crowded stock photo sites. Their focus is on authentic, non-stocky imagery that stands out. You can download and use their assets for commercial and non-commercial projects without attribution, making it a reliable resource for designers and creators on a budget. The entire collection is free to use.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/2250136/pexels-photo-2250136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/2250136/pexels-photo-2250136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/2250136/pexels-photo-2250136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Decoding the obfuscated bash script on a Uniqlo t-shirt</title>
-      <link>https://surfaced-x.pages.dev/item/obfuscated-bash-script-tshirt-decode</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/obfuscated-bash-script-tshirt-decode</guid>
-      <description>This blog post meticulously dissects a complex, obfuscated bash script found embedded within the firmware of a Uniqlo smart t-shirt. The author, a security researcher, details the reverse-engineering process used to understand the script&apos;s functionality, which was found to be self-evaluating and potentially perform network requests. The article serves as a fascinating case study in firmware analysis and highlights how even seemingly innocuous consumer products can contain intricate, and sometimes concerning, code. It&apos;s a deep dive for anyone interested in embedded systems security and the hidden complexities of everyday technology.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7319070/pexels-photo-7319070.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7319070/pexels-photo-7319070.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7319070/pexels-photo-7319070.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Webflow</title>
-      <link>https://surfaced-x.pages.dev/item/webflow-website-builder</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/webflow-website-builder</guid>
-      <description>Webflow is a visual web design tool that allows users to create professional, responsive websites without writing code. It offers a robust set of design controls, similar to graphic design software, combined with powerful CMS capabilities and hosting. Webflow operates on a freemium model, offering a free tier for learning and small projects, with paid plans for custom domains, e-commerce, and increased site performance. It stands out for giving designers complete creative control over every aspect of their website&apos;s look and feel, from animations to layouts, all while generating clean, semantic code.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7190944/pexels-photo-7190944.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)</title>
-      <link>https://surfaced-x.pages.dev/item/minimal-zfs-nas-build</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/minimal-zfs-nas-build</guid>
-      <description>This guide provides a comprehensive, step-by-step walkthrough for building a custom Network Attached Storage (NAS) system using ZFS, without relying on proprietary or overly complex solutions like Synology, QNAP, or even TrueNAS. It details the hardware selection, operating system installation (often a lightweight Linux distribution), ZFS pool creation, and basic service configuration for network file sharing. The article aims to empower users with a deep understanding of their storage infrastructure, offering a cost-effective and highly customizable alternative for home or small office data management.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/20062955/pexels-photo-20062955.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/20062955/pexels-photo-20062955.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/20062955/pexels-photo-20062955.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Visual Studio Code</title>
-      <link>https://surfaced-x.pages.dev/item/visual-studio-code</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/visual-studio-code</guid>
-      <description>Visual Studio Code (VS Code) is a free, powerful, and versatile source-code editor developed by Microsoft. It supports a wide range of programming languages and offers intelligent code completion, debugging capabilities, and built-in Git control. Its extensive marketplace of extensions allows for customization to suit virtually any development workflow. VS Code is renowned for its performance, extensive feature set, and user-friendly interface, making it a top choice for developers of all skill levels.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/gc1bf719c250debba5abfed4e66e2202e1c45bc1cec1f1c2f831a555709be0a390923bdeba1b42bedcb33ff0b024f5ba381fa5d8e4d734ab29f361dddd653dbcb_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/gc1bf719c250debba5abfed4e66e2202e1c45bc1cec1f1c2f831a555709be0a390923bdeba1b42bedcb33ff0b024f5ba381fa5d8e4d734ab29f361dddd653dbcb_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/gc1bf719c250debba5abfed4e66e2202e1c45bc1cec1f1c2f831a555709be0a390923bdeba1b42bedcb33ff0b024f5ba381fa5d8e4d734ab29f361dddd653dbcb_1280.jpg" />
-    </item>
-    <item>
-      <title>GitLost: We Tricked GitHub&apos;s AI Agent into Leaking Private Repos</title>
-      <link>https://surfaced-x.pages.dev/item/gitlost-github-ai-leak</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/gitlost-github-ai-leak</guid>
-      <description>GitLost is a security research project that demonstrated a vulnerability in GitHub&apos;s AI agent, exposing how it could be tricked into revealing information from private repositories. The researchers used a novel prompt injection technique to bypass security controls, highlighting a significant risk for developers relying on AI-assisted coding tools. This research provides critical insights into the security posture of AI agents operating within code hosting platforms. Developers can use this information to better understand the potential risks associated with AI integrations and advocate for stronger security measures.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17560587/pexels-photo-17560587.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/17560587/pexels-photo-17560587.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/17560587/pexels-photo-17560587.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Bear</title>
-      <link>https://surfaced-x.pages.dev/item/bear-writing-app</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bear-writing-app</guid>
-      <description>Bear is a beautifully designed note-taking and writing app that focuses on speed, simplicity, and Markdown. It allows you to craft beautiful prose and organize your thoughts using tags and a hierarchical structure, all while enjoying a distraction-free writing environment. Bear is available on Apple devices (Mac, iPhone, iPad) and operates on a freemium model, with a subscription unlocking advanced features like sync across devices and more themes. Its elegant interface makes writing enjoyable, and its robust tagging system ensures you can easily retrieve notes when you need them, making it perfect for everything from quick notes to longer essays and journaling.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7983347/pexels-photo-7983347.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7983347/pexels-photo-7983347.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7983347/pexels-photo-7983347.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
