@@ -1,19 +1,19 @@
 [
   {
-    "slug": "typetherapy",
-    "title": "TypeTherapy",
+    "slug": "homegames-io",
+    "title": "Homegames",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "TypeTherapy is a unique web-based tool that helps users improve their typing speed and accuracy through a series of focu",
+    "description": "Homegames.io is an open-source platform designed for the creation and play of games, boasting an eight-year development ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "ciphertext-audio-editor",
-    "title": "Ciphertext",
+    "slug": "lola-visual",
+    "title": "Lola Visual",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Ciphertext is a web-based audio editing tool designed for content creators, particularly podcasters, simplifying the pro",
+    "description": "Lola Visual is an innovative AI-powered assistant that integrates directly into your design workflow to help generate an",
     "badge": null,
     "type": "tool"
   }

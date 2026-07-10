@@ -8,12 +8,70 @@
     <lastBuildDate>Fri, 10 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Lola Visual</title>
+      <link>https://surfaced-x.pages.dev/item/lola-visual</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lola-visual</guid>
+      <description>Lola Visual is an innovative AI-powered assistant that integrates directly into your design workflow to help generate and refine visual assets. It leverages artificial intelligence to offer suggestions for color palettes, typography, layout variations, and even to generate initial design concepts based on textual prompts. Lola Visual aims to augment the creative process, speeding up exploration and decision-making for designers. It operates on a freemium model, offering core functionalities for free with advanced features available through subscription.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1720962158813-29b66b8e23e1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2ODg5MTV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1720962158813-29b66b8e23e1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2ODg5MTV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1720962158813-29b66b8e23e1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2ODg5MTV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Ray Studio</title>
+      <link>https://surfaced-x.pages.dev/item/ray-studio</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ray-studio</guid>
+      <description>Ray Studio is a powerful, collaborative design tool focused on creating vector graphics and user interface elements. It offers a rich set of features for illustration, prototyping, and design system management, all within a real-time, multi-user environment. Designers can work together seamlessly on the same canvas, iterating rapidly and sharing feedback instantly. Ray Studio is available through a freemium model, with a robust free tier suitable for individual creators and small teams.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5088409/pexels-photo-5088409.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5088409/pexels-photo-5088409.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5088409/pexels-photo-5088409.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>eve</title>
+      <link>https://surfaced-x.pages.dev/item/eve-framework</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/eve-framework</guid>
+      <description>eve is a cutting-edge framework designed for building sophisticated agents. It provides a structured and scalable environment for developers to create intelligent systems capable of complex tasks and interactions. By abstracting away much of the underlying complexity, eve allows for rapid development and deployment of agent-based applications. The framework is open-source and free to use, fostering a collaborative ecosystem.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1675627453075-0f170b02186a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2ODg5MTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1675627453075-0f170b02186a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2ODg5MTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1675627453075-0f170b02186a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM2ODg5MTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>torlink</title>
+      <link>https://surfaced-x.pages.dev/item/torlink</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/torlink</guid>
+      <description>torlink is a streamlined, zero-configuration torrent finder and downloader that operates directly within your terminal. It eliminates the need for separate graphical applications or web interfaces to search for and acquire torrent files. Designed for efficiency and speed, it allows users to quickly locate desired content and initiate downloads without ever leaving their command-line environment. This tool is open-source and free to use.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/36823738/pexels-photo-36823738.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/36823738/pexels-photo-36823738.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/36823738/pexels-photo-36823738.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>wloc</title>
+      <link>https://surfaced-x.pages.dev/item/wloc</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wloc</guid>
+      <description>wloc is a sophisticated tool designed to modify your Apple device&apos;s network-based location (gs-loc). It seamlessly integrates with popular proxy tools like Surge, Quantumult X, and Loon, allowing for precise control over your device&apos;s perceived geographical position.  With a user-friendly shortcut system, you can instantly set or restore your actual location, offering unparalleled flexibility for privacy, testing, or accessing geo-restricted content. The tool is completely free to use.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8622842/pexels-photo-8622842.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8622842/pexels-photo-8622842.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8622842/pexels-photo-8622842.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Appwrite</title>
       <link>https://surfaced-x.pages.dev/item/appwrite-open-source-backend-platform</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/appwrite-open-source-backend-platform</guid>
       <description>Appwrite is an open-source backend platform that gives you authentication, databases, file storage, serverless functions, and realtime APIs out of one self-hostable box (or their managed cloud, with a generous free tier). You get SDKs for web, Flutter, React Native, and most server languages, so the same backend serves every client you ship. It started as a weekend project and grew into one of the fastest-growing developer platforms on GitHub, now past 50,000 stars.</description>
       <category>Daily Tools</category>
       <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gfa699739c21cd4ad173655a73809e01c5f69b0b20564062fee843147b0ecf55a2b4cf3c68dd30c053df7a7977060e889c186861f4b1ce0c358dbf8ed30029b33_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gfa699739c21cd4ad173655a73809e01c5f69b0b20564062fee843147b0ecf55a2b4cf3c68dd30c053df7a7977060e889c186861f4b1ce0c358dbf8ed30029b33_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gfa699739c21cd4ad173655a73809e01c5f69b0b20564062fee843147b0ecf55a2b4cf3c68dd30c053df7a7977060e889c186861f4b1ce0c358dbf8ed30029b33_1280.jpg" />
     </item>
     <item>
       <title>Ollama</title>
@@ -22,6 +80,9 @@
       <description>Ollama is a lightweight, open-source framework for downloading, running, and managing large language models entirely on your own hardware. One terminal command pulls a model like Llama or Mistral and starts chatting with it — no API keys, no cloud account, no per-token bills. It exposes a clean local API that plugs into editors, chat UIs, and scripts, and it handles the messy parts (quantized weights, GPU/CPU juggling, model updates) for you. It runs on macOS, Windows, and Linux.</description>
       <category>Daily Tools</category>
       <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/36497969/pexels-photo-36497969.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/36497969/pexels-photo-36497969.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/36497969/pexels-photo-36497969.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Ciphertext</title>
@@ -387,6 +448,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/7414211/pexels-photo-7414211.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Homegames</title>
+      <link>https://surfaced-x.pages.dev/item/homegames-io</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/homegames-io</guid>
+      <description>Homegames.io is an open-source platform designed for the creation and play of games, boasting an eight-year development history. It offers a flexible and robust environment for game developers to build unique game experiences. The platform&apos;s architecture encourages community involvement and adherence to open standards, positioning it as a compelling choice for independent developers and enthusiasts seeking an alternative to traditional, proprietary game engines.  Its focus on extensibility allows creators to shape their game development workflows and share their creations within a collaborative ecosystem.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1637436/pexels-photo-1637436.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1637436/pexels-photo-1637436.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1637436/pexels-photo-1637436.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Unlimited-OCR</title>
       <link>https://surfaced-x.pages.dev/item/unlimited-ocr-parsing-ai</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/unlimited-ocr-parsing-ai</guid>
@@ -396,6 +468,17 @@
       <enclosure url="https://images.pexels.com/photos/9301887/pexels-photo-9301887.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/9301887/pexels-photo-9301887.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/9301887/pexels-photo-9301887.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Yamanote.fun</title>
+      <link>https://surfaced-x.pages.dev/item/yamanote-fun</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/yamanote-fun</guid>
+      <description>Yamanote.fun is a unique web application that recreates the ambient soundscape of Tokyo&apos;s Yamanote line, a famously busy and iconic train loop. It allows users to experience the distinct station announcements, train sounds, and general commuter atmosphere, providing an immersive auditory journey. You can virtually &apos;ride&apos; the line, experiencing the unique sonic identity of each station. This tool is a delightful creation for those interested in urban soundscapes, Japanese culture, or simply seeking a novel and relaxing auditory experience.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12217338/pexels-photo-12217338.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12217338/pexels-photo-12217338.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12217338/pexels-photo-12217338.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>ponytail</title>
@@ -409,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/34804001/pexels-photo-34804001.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Davit</title>
+      <link>https://surfaced-x.pages.dev/item/davit-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/davit-app</guid>
+      <description>Davit is a user interface tool designed specifically for managing Apple&apos;s container technologies, such as Docker for Mac. It provides a visual and intuitive way to interact with containers, images, volumes, and networks, offering a more streamlined experience than command-line interfaces. Davit aims to simplify the development workflow for macOS users working with containerized applications, making it easier to build, run, and debug projects that rely on these technologies.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12755818/pexels-photo-12755818.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12755818/pexels-photo-12755818.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12755818/pexels-photo-12755818.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Clipdrop</title>
       <link>https://surfaced-x.pages.dev/item/clipdrop-by-stability-ai</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/clipdrop-by-stability-ai</guid>
@@ -418,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/17744148/pexels-photo-17744148.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/17744148/pexels-photo-17744148.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/17744148/pexels-photo-17744148.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Colibri</title>
+      <link>https://surfaced-x.pages.dev/item/colibri-glm</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/colibri-glm</guid>
+      <description>Colibri is an open-source project that allows users to run the GLM 5.2 large language model on their own, often less powerful, computers. It focuses on efficient implementation and optimization to make advanced AI accessible even without high-end hardware. The project provides the necessary code and instructions to download, configure, and operate the model locally, offering an alternative to cloud-based AI services. This enables users to experiment with LLMs privately and without continuous internet dependency.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g5491af39503df9cc7f8ff73e296e0bfe48f5c49abb5e8658748fa7e9f07b48e396c0d898a048247ea6e84730c607df1b0cb9c53c6c3f5ef0587bc7a323de55d8_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g5491af39503df9cc7f8ff73e296e0bfe48f5c49abb5e8658748fa7e9f07b48e396c0d898a048247ea6e84730c607df1b0cb9c53c6c3f5ef0587bc7a323de55d8_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g5491af39503df9cc7f8ff73e296e0bfe48f5c49abb5e8658748fa7e9f07b48e396c0d898a048247ea6e84730c607df1b0cb9c53c6c3f5ef0587bc7a323de55d8_1280.jpg" />
     </item>
     <item>
       <title>Revolt</title>
@@ -431,6 +536,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/31418369/pexels-photo-31418369.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>18 Words</title>
+      <link>https://surfaced-x.pages.dev/item/18-words</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/18-words</guid>
+      <description>18 Words is a simple yet surprisingly effective tool designed to generate exactly 18 words on any given topic. It&apos;s built on the idea that concise, constrained expression can lead to more focused and impactful communication. You input a prompt, and the tool provides a curated list of 18 words that aim to capture the essence of your request. It&apos;s useful for brainstorming taglines, crafting short descriptions, or even as a creative writing prompt when you&apos;re feeling stuck.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7718898/pexels-photo-7718898.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7718898/pexels-photo-7718898.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7718898/pexels-photo-7718898.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Syncthing</title>
       <link>https://surfaced-x.pages.dev/item/obsidian-vault-sync</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/obsidian-vault-sync</guid>
@@ -440,110 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/17489155/pexels-photo-17489155.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/17489155/pexels-photo-17489155.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/17489155/pexels-photo-17489155.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>FutureTools</title>
-      <link>https://surfaced-x.pages.dev/item/futuretools-ai-tool-directory</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/futuretools-ai-tool-directory</guid>
-      <description>FutureTools is a hand-curated directory of AI tools maintained by Matt Wolfe, the creator behind one of the biggest AI-focused YouTube channels. Every entry is tagged, categorized, and searchable, with a &quot;Matt’s Picks&quot; filter for the tools he actually rates, plus a news feed that tracks each day’s AI releases and announcements. Unlike auto-scraped directories, a human looks at what goes in, which keeps the spam ratio unusually low for this space.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Framer</title>
-      <link>https://surfaced-x.pages.dev/item/framer-design-tool</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/framer-design-tool</guid>
-      <description>Framer is an all-in-one design tool that allows you to create interactive prototypes and even publish live websites directly from your browser. It bridges the gap between design and development, enabling designers to build complex interactions without needing to write code. Framer uses a freemium model, with a generous free plan for individuals and small projects, and paid tiers for teams and advanced functionalities. It&apos;s particularly powerful for creating high-fidelity prototypes that precisely mimic real-world app or website behavior, making user testing incredibly accurate.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Bumblebee</title>
-      <link>https://surfaced-x.pages.dev/item/bumblebee-supply-chain-scanner</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bumblebee-supply-chain-scanner</guid>
-      <description>Bumblebee is a read-only supply-chain scanner from Perplexity that checks your project dependencies, MCP servers, and editor extensions for suspicious packages in seconds. It is written in Go with zero non-standard-library dependencies — the scanner itself cannot be supply-chain-attacked through its own dependency tree — and it never modifies anything it inspects. You point it at a repo or your editor setup and get a fast, plain-English report of anything that looks off.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>terax-ai</title>
-      <link>https://surfaced-x.pages.dev/item/terax-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/terax-ai</guid>
-      <description>Terax-AI is a lightweight, open-source AI terminal emulator designed for developers. Built with Rust, Tauri, and React, it aims to streamline command-line workflows by integrating AI assistance directly into your terminal environment. It offers features like intelligent command completion, natural language command generation, and contextual help, all within a clean and responsive user interface. Terax-AI is currently free and open-source, making it an accessible tool for anyone looking to enhance their terminal productivity.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/gf320b9625cff8d53e763a2b777ba9fe5db6cc2284985e13081ae68bbf61c54f6a5ed24c96fe26f39e6f9de0a83e30093e2b44e073f0b328928bffaf622c9f157_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/gf320b9625cff8d53e763a2b777ba9fe5db6cc2284985e13081ae68bbf61c54f6a5ed24c96fe26f39e6f9de0a83e30093e2b44e073f0b328928bffaf622c9f157_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/gf320b9625cff8d53e763a2b777ba9fe5db6cc2284985e13081ae68bbf61c54f6a5ed24c96fe26f39e6f9de0a83e30093e2b44e073f0b328928bffaf622c9f157_1280.jpg" />
-    </item>
-    <item>
-      <title>TypeTherapy</title>
-      <link>https://surfaced-x.pages.dev/item/typetherapy</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typetherapy</guid>
-      <description>TypeTherapy is a unique web-based tool that helps users improve their typing speed and accuracy through a series of focused exercises. It offers a clean interface where users can practice typing words, sentences, and even custom paragraphs. The platform tracks WPM (words per minute) and accuracy, providing feedback to help users identify their weaknesses. Unlike generic typing tutors, TypeTherapy often incorporates more engaging content and gamified elements to keep users motivated. It&apos;s designed for anyone who wants to enhance their digital communication efficiency, from students to professionals.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/1591057/pexels-photo-1591057.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/1591057/pexels-photo-1591057.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/1591057/pexels-photo-1591057.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Adobe Firefly</title>
-      <link>https://surfaced-x.pages.dev/item/firefly-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/firefly-ai</guid>
-      <description>Adobe Firefly is a family of creative generative AI models designed to be safe for commercial use. It empowers users to generate images, text effects, and other creative assets from simple text prompts, making advanced AI tools accessible to a broader audience. Firefly is integrated into Adobe Creative Cloud applications like Photoshop and Illustrator, and also available as a standalone web app. It operates on a credit-based system, with a generous free tier and subscription plans that offer more credits and features. Firefly is particularly adept at producing high-quality, commercially viable imagery that respects copyright.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
-      <media:content url="https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
-      <media:thumbnail url="https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Logseq</title>
-      <link>https://surfaced-x.pages.dev/item/logseq</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/logseq</guid>
-      <description>Logseq is an open-source, privacy-first knowledge base that works on local Markdown files. It functions as a nonlinear note-taking application, a daily journal, and a task manager, all interconnected through a bidirectional linking system. You can organize your thoughts, projects, and learnings in a graph view, seeing connections you might have otherwise missed. It&apos;s built for individuals who want to manage their personal knowledge in a secure, self-hosted environment.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/18069816/pexels-photo-18069816.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
-      <media:content url="https://images.pexels.com/photos/18069816/pexels-photo-18069816.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
-      <media:thumbnail url="https://images.pexels.com/photos/18069816/pexels-photo-18069816.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Cyberduck</title>
-      <link>https://surfaced-x.pages.dev/item/cyberduck-ftp-sftp-client</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cyberduck-ftp-sftp-client</guid>
-      <description>Cyberduck is a free and open-source client for transferring and managing files on remote servers. It supports a wide range of protocols, including FTP, SFTP, WebDAV, Amazon S3, and more, making it a versatile tool for web developers, system administrators, and anyone who needs to interact with cloud storage or web servers. Its user-friendly interface simplifies the process of uploading, downloading, and organizing files, even for those less familiar with command-line interfaces.  It&apos;s entirely free to use.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37605911/pexels-photo-37605911.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37605911/pexels-photo-37605911.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37605911/pexels-photo-37605911.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Spider Venom for Varroa Mite Control</title>
-      <link>https://surfaced-x.pages.dev/item/spider-venom-varroa-mite-control</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spider-venom-varroa-mite-control</guid>
-      <description>This innovative research investigates the use of specific components found in spider venom as a novel method for controlling Varroa mites. Varroa destructor mites pose a severe and persistent threat to honeybee colonies globally, significantly impacting colony health and survival. The scientific exploration focuses on identifying spider venom toxins that exhibit selective toxicity towards Varroa mites, disrupting their biological functions without posing any danger to the bees themselves. This targeted approach holds promise for developing a more sustainable and bee-centric strategy within apiculture.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/10068270/pexels-photo-10068270.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/10068270/pexels-photo-10068270.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/10068270/pexels-photo-10068270.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>VLC Media Player</title>
-      <link>https://surfaced-x.pages.dev/item/vlc-media-player</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vlc-media-player</guid>
-      <description>VLC Media Player is a free and open-source, cross-platform multimedia player that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols. Its primary advantage is its remarkable codec support, meaning it can play virtually any audio or video file format without requiring additional downloads or plugins. VLC is available for Windows, macOS, Linux, Android, and iOS, making it a universal solution for media playback across devices. It&apos;s completely free to use with no ads or user tracking.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5082568/pexels-photo-5082568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
