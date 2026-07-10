@@ -5842,5 +5842,33 @@
     "websiteLink": "https://www.ciphertext.audio/",
     "type": "tool",
     "dateAdded": "2026-07-09"
+  },
+  {
+    "id": 896,
+    "slug": "ollama-run-llms-locally",
+    "toolName": "Ollama",
+    "seoTitle": "Ollama — run large language models locally",
+    "whatItDoes": "Ollama is a lightweight, open-source framework for downloading, running, and managing large language models entirely on your own hardware. One terminal command pulls a model like Llama or Mistral and starts chatting with it — no API keys, no cloud account, no per-token bills. It exposes a clean local API that plugs into editors, chat UIs, and scripts, and it handles the messy parts (quantized weights, GPU/CPU juggling, model updates) for you. It runs on macOS, Windows, and Linux.",
+    "category": "Developer",
+    "whyItIsUseful": "Ollama has become the backbone of the local-AI movement, and it earns the constant coverage it gets across the big developer channels on YouTube. If you care about privacy, want to prototype against an LLM without burning API credits, or need AI features in an environment that cannot send data to a third party, this is the default answer. The magic is how boring it makes everything: \"ollama run\" and you have a capable model answering locally in seconds. Power users pair it with open-source chat frontends or use the API to give local apps AI features that work on a plane. For developers who have only ever used hosted APIs, running a model on your own laptop for free is a small revelation.",
+    "imageIdea": "laptop terminal code developer desk",
+    "websiteLink": "https://ollama.com",
+    "type": "tool",
+    "dateAdded": "2026-07-10",
+    "screenshotUrl": "/screenshots/ollama-run-llms-locally.webp"
+  },
+  {
+    "id": 897,
+    "slug": "appwrite-open-source-backend-platform",
+    "toolName": "Appwrite",
+    "seoTitle": "Appwrite — open-source backend in minutes",
+    "whatItDoes": "Appwrite is an open-source backend platform that gives you authentication, databases, file storage, serverless functions, and realtime APIs out of one self-hostable box (or their managed cloud, with a generous free tier). You get SDKs for web, Flutter, React Native, and most server languages, so the same backend serves every client you ship. It started as a weekend project and grew into one of the fastest-growing developer platforms on GitHub, now past 50,000 stars.",
+    "category": "Developer",
+    "whyItIsUseful": "Appwrite removes the most boring month of any side project: wiring up auth flows, permissions, storage buckets, and CRUD endpoints before you can build the actual idea. It is the open-source answer to Firebase that regularly features in \"build an app this weekend\" videos from major dev YouTubers, because a solo builder genuinely can stand up a production-shaped backend in an afternoon. Unlike proprietary equivalents, you can self-host it when a project outgrows a vendor, so the exit door is always open. The console UI is polished enough that non-backend developers stay oriented, and the permission model is granular enough that you will not outgrow it quickly.",
+    "imageIdea": "server racks data center glowing",
+    "websiteLink": "https://appwrite.io",
+    "type": "tool",
+    "dateAdded": "2026-07-10",
+    "screenshotUrl": "/screenshots/appwrite-open-source-backend-platform.webp"
   }
 ]

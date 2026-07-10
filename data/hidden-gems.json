@@ -6137,5 +6137,33 @@
     "type": "hidden-gem",
     "dateAdded": "2026-07-09",
     "screenshotUrl": "/screenshots/typetherapy.webp"
+  },
+  {
+    "id": 856,
+    "slug": "bumblebee-supply-chain-scanner",
+    "name": "Bumblebee",
+    "seoTitle": "Bumblebee — scan deps and MCP servers for threats",
+    "whatItDoes": "Bumblebee is a read-only supply-chain scanner from Perplexity that checks your project dependencies, MCP servers, and editor extensions for suspicious packages in seconds. It is written in Go with zero non-standard-library dependencies — the scanner itself cannot be supply-chain-attacked through its own dependency tree — and it never modifies anything it inspects. You point it at a repo or your editor setup and get a fast, plain-English report of anything that looks off.",
+    "category": "Developer",
+    "whyItIsUseful": "Every developer is suddenly installing MCP servers and AI editor extensions by the dozen, and almost nobody has a reliable way to audit what those packages actually do — Bumblebee fills exactly that gap, which is why it has been climbing GitHub and getting picked up in developer-tool roundups since its May 2026 release. It is still early (a few thousand stars and moving fast), but the design choices are the appealing part: read-only by principle, stdlib-only by discipline, and quick enough to run before every new install rather than as a quarterly chore. If you have ever pasted an MCP config from a stranger on the internet, this is the thirty-second sanity check you were missing.",
+    "imageIdea": "security scan magnifying glass code screen",
+    "websiteLink": "https://github.com/perplexityai/bumblebee",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-10",
+    "screenshotUrl": "/screenshots/bumblebee-supply-chain-scanner.webp"
+  },
+  {
+    "id": 857,
+    "slug": "futuretools-ai-tool-directory",
+    "name": "FutureTools",
+    "seoTitle": "FutureTools — Matt Wolfe’s curated AI tool directory",
+    "whatItDoes": "FutureTools is a hand-curated directory of AI tools maintained by Matt Wolfe, the creator behind one of the biggest AI-focused YouTube channels. Every entry is tagged, categorized, and searchable, with a \"Matt’s Picks\" filter for the tools he actually rates, plus a news feed that tracks each day’s AI releases and announcements. Unlike auto-scraped directories, a human looks at what goes in, which keeps the spam ratio unusually low for this space.",
+    "category": "Reference",
+    "whyItIsUseful": "New AI tools launch faster than anyone can evaluate them, and most \"directories\" are SEO farms that list everything indiscriminately. FutureTools is the rare one worth bookmarking because its curation comes from someone whose full-time job is testing these tools on camera for a million-plus subscribers. The filtering is genuinely useful: sort by category, pricing model, or special use case, and skim the news feed to catch launches the same week they happen. For anyone whose job now includes \"keep an eye on AI,\" checking this weekly beats following twenty hype accounts, and the Matt’s Picks view is a solid shortlist when you need a tool for a task today.",
+    "imageIdea": "directory catalog grid app icons screen",
+    "websiteLink": "https://www.futuretools.io",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-10",
+    "screenshotUrl": "/screenshots/futuretools-ai-tool-directory.webp"
   }
 ]
