@@ -45,6 +45,9 @@ export function GlobalWorld() {
       setSeed(deriveWorldSeed({ pathname: pathname || "/", slug, category }));
     };
     reseed();
+    // Tell the world a navigation happened — the particle systems answer
+    // with an ember surge + center burst (the "particle transformation").
+    window.dispatchEvent(new Event("surfaced:navigated"));
     window.addEventListener("surfaced:world-reseed", reseed);
     return () => window.removeEventListener("surfaced:world-reseed", reseed);
   }, [pathname]);

@@ -459,7 +459,7 @@ function SupportingCard({ item, compact = false }: { item: AnyItem; compact?: bo
       className="floating-glass group block relative overflow-hidden rounded-2xl"
     >
       <div className={`flex ${compact ? "flex-row" : "flex-col"}`}>
-        <div className={`relative overflow-hidden ${compact ? "w-32 flex-shrink-0" : "w-full aspect-[16/9]"}`}>
+        <div className={`relative overflow-hidden reveal-visual ${compact ? "w-32 flex-shrink-0" : "w-full aspect-[16/9]"}`}>
           <ItemVisual
             slug={item.slug}
             alt={title}
@@ -564,7 +564,7 @@ function AlcoveItemCard({ item }: { item: AnyItem }) {
         data-cursor="hover"
         className="alcove-card group block relative overflow-hidden rounded-2xl transition-all h-full"
       >
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden reveal-visual">
           <ItemVisual
             slug={item.slug}
             alt={title}
