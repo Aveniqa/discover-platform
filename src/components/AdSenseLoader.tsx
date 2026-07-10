@@ -6,6 +6,8 @@ import { usePathname } from "next/navigation";
 const ADSENSE_CLIENT = "ca-pub-8054019783472830";
 const ADSENSE_SCRIPT_ID = "google-adsense-auto-ads";
 
+// Ads run only on editorial content pages. Policy/utility/experience pages
+// are excluded — AdSense reviewers penalize ads on low-content surfaces.
 const NO_AD_PREFIXES = [
   "/about",
   "/privacy",
@@ -13,8 +15,9 @@ const NO_AD_PREFIXES = [
   "/affiliate-disclosure",
   "/contact",
   "/newsletter",
-  "/premium",
   "/saved",
+  "/roulette",
+  "/gallery",
 ];
 
 function canShowAds(pathname: string | null): boolean {

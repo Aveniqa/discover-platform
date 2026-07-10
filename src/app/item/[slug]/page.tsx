@@ -31,6 +31,7 @@ import { ShareButtons } from "@/components/ui/ShareButtons";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { ScrollProgress } from "@/components/ui/ScrollProgress";
 import { SectionDepth } from "@/components/ui/SectionDepth";
+import { StageTilt } from "@/components/ui/StageTilt";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { NewsletterForm } from "@/components/ui/NewsletterForm";
 import { ItemImage } from "@/components/ui/ItemImage";
@@ -364,6 +365,7 @@ export default async function ItemPage({ params }: Props) {
           const alcove = alcoveFromCategory(category);
           if (localScreenshot) {
             return (
+              <StageTilt>
               <SectionDepth className="relative z-10 showcase-stage max-w-5xl mx-auto px-4 sm:px-8 pt-12 sm:pt-16 pb-4">
                 <div
                   className="showcase-glow"
@@ -394,6 +396,7 @@ export default async function ItemPage({ params }: Props) {
                   />
                 </div>
               </SectionDepth>
+              </StageTilt>
             );
           }
           if (screenshot) {

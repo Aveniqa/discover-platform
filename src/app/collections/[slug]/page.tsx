@@ -93,7 +93,7 @@ export default async function CollectionPage({ params }: Props) {
               href={`/item/${item.slug}`}
               className="group block rounded-2xl border border-border/60 bg-surface card-hover-glow transition-all h-full overflow-hidden"
             >
-              <div className="overflow-hidden">
+              <div className="overflow-hidden reveal-visual">
                 <ItemVisual
                   slug={item.slug}
                   alt={getItemTitle(item)}

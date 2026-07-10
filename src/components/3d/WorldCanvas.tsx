@@ -340,13 +340,22 @@ function Embers({ seed, scrollT }: { seed: WorldSeed; scrollT: number }) {
     []
   );
 
+  // Navigation = transformation: embers surge for a beat on route change.
+  const navBoost = useRef(0);
+  useEffect(() => {
+    const onNav = () => { navBoost.current = 1; };
+    window.addEventListener("surfaced:navigated", onNav);
+    return () => window.removeEventListener("surfaced:navigated", onNav);
+  }, []);
+
   useFrame((_, delta) => {
     const m = matRef.current;
     if (!m) return;
     m.uniforms.uTime.value += delta;
     const dv = Math.abs(scrollT - lastScroll.current) / Math.max(delta, 1e-4);
     lastScroll.current = scrollT;
-    rush.current += (Math.min(dv * 30, 1) - rush.current) * 0.08;
+    navBoost.current = Math.max(0, navBoost.current - delta * 0.7);
+    rush.current += (Math.min(dv * 30, 1) + navBoost.current - rush.current) * 0.08;
     m.uniforms.uRush.value = rush.current;
   });
 
@@ -464,8 +473,21 @@ function ClickBursts() {
       v.set(hit.x, hit.y, hit.z, m.uniforms.uTime.value as number);
       slot.current++;
     };
+    // Route changes bloom a burst from the center of the world — the page
+    // "transforms" through a shower of cinders.
+    const onNav = () => {
+      const m = matRef.current;
+      if (!m) return;
+      const v = (m.uniforms.uBursts.value as THREE.Vector4[])[slot.current % MAX_BURSTS];
+      v.set(0, 0.1, -2.5, m.uniforms.uTime.value as number);
+      slot.current++;
+    };
     window.addEventListener("pointerdown", onDown, { passive: true });
-    return () => window.removeEventListener("pointerdown", onDown);
+    window.addEventListener("surfaced:navigated", onNav);
+    return () => {
+      window.removeEventListener("pointerdown", onDown);
+      window.removeEventListener("surfaced:navigated", onNav);
+    };
   }, [camera, size.width, size.height]);
 
   useFrame((_, delta) => {
@@ -499,7 +521,10 @@ const BACKDROP_FRAGMENT = /* glsl */ `
   precision mediump float;
   varying vec2 vUv;
   uniform float uTime;
+  uniform float uWarp;   // 0 idle .. 1 hyperspace (scroll velocity)
+  uniform float uScroll;
   uniform vec3 uGoldDeep;
+  uniform vec3 uGold;
 
   float hash(vec2 p) { return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
   float noise(vec2 p) {
@@ -515,23 +540,47 @@ const BACKDROP_FRAGMENT = /* glsl */ `
     // barely-there ambient warmth drifting behind the structure
     float breath = noise(uv * 1.6 + uTime * 0.015) * 0.5 + 0.5;
     col += uGoldDeep * breath * 0.05 * smoothstep(1.6, 0.0, length(uv));
+
+    // SPACE TRANSITION — faint gold star dust that stretches into
+    // hyperspace streaks as scroll velocity rises. The star grid's y-axis
+    // compresses with uWarp, elongating each point into a light-line.
+    float stretch = 1.0 + uWarp * 22.0;
+    vec2 sp = vec2(uv.x * 48.0, (uv.y + uScroll * 6.0) * 48.0 / stretch);
+    vec2 id = floor(sp);
+    float sN = hash(id);
+    float star = step(0.982, sN) * (1.0 - smoothstep(0.0, 0.06 + uWarp * 0.05, length(fract(sp) - 0.5)));
+    float tw = 0.55 + 0.45 * sin(uTime * (1.0 + sN * 4.0) + sN * 50.0);
+    col += uGold * star * tw * (0.10 + uWarp * 0.85);
+
     // grain
     col += (hash(uv * 700.0 + uTime) - 0.5) * 0.015;
     gl_FragColor = vec4(col, 1.0);
   }
 `;
 
-function Backdrop() {
+function Backdrop({ scrollT }: { scrollT: number }) {
   const matRef = useRef<THREE.ShaderMaterial>(null);
+  const lastScroll = useRef(scrollT);
+  const warp = useRef(0);
   const uniforms = useMemo(
     () => ({
       uTime:     { value: 0 },
+      uWarp:     { value: 0 },
+      uScroll:   { value: 0 },
       uGoldDeep: { value: GOLD_DEEP.clone() },
+      uGold:     { value: GOLD.clone() },
     }),
     []
   );
   useFrame((_, delta) => {
-    if (matRef.current) matRef.current.uniforms.uTime.value += delta;
+    const m = matRef.current;
+    if (!m) return;
+    m.uniforms.uTime.value += delta;
+    const dv = Math.abs(scrollT - lastScroll.current) / Math.max(delta, 1e-4);
+    lastScroll.current = scrollT;
+    warp.current += (Math.min(dv * 18, 1) - warp.current) * 0.09;
+    m.uniforms.uWarp.value = warp.current;
+    m.uniforms.uScroll.value = scrollT;
   });
   return (
     <mesh position={[0, 0, -12]}>
@@ -566,7 +615,7 @@ export default function WorldCanvas({ seed, scrollT, pointer }: Props) {
       frameloop="always"
     >
       <color attach="background" args={[NEAR_BLACK]} />
-      <Backdrop />
+      <Backdrop scrollT={scrollT} />
       <MoltenStructure scrollT={scrollT} pointer={pointer} />
       <Embers seed={seed} scrollT={scrollT} />
       <ClickBursts />
