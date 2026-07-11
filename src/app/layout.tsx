@@ -9,6 +9,7 @@ import { PrefetchLinks } from "@/components/ui/PrefetchLinks";
 import { AdSenseLoader } from "@/components/AdSenseLoader";
 import { PageMorph } from "@/components/ui/PageMorph";
 import { GlobalWorld } from "@/components/3d/GlobalWorld";
+import { PortalTransition } from "@/components/ui/PortalTransition";
 import { CursorCompanion } from "@/components/3d/CursorCompanion";
 import { AmbientSoundscape } from "@/components/3d/AmbientSoundscape";
 import { HiddenInteractions } from "@/components/3d/HiddenInteractions";
@@ -115,6 +116,7 @@ export default function RootLayout({
         <AdSenseLoader />
         {/* GlobalWorld lives behind everything — persistent across navigation */}
         <GlobalWorld />
+        <PortalTransition />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:z-[200] focus:top-4 focus:left-4 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:rounded-lg focus:font-semibold focus:text-sm focus:shadow-lg"

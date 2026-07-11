@@ -1,13 +1,14 @@
 name: Daily Social Posts
 
 on:
-  # Re-enabled 2026-07-01: generate-social-posts.mjs now targets only
-  # hidden-gems + daily-tools, and legacy-vertical posts were purged from
-  # data/social-queue.json.
-  schedule:
-    - cron: '25 12 * * 1,3,5'   # Mon/Wed/Fri at 8:25 AM ET
-    - cron: '42 12 * * 2,4'     # Tue/Thu at 8:42 AM ET
-    - cron: '35 13 * * 0,6'     # Weekends at 9:35 AM ET
+  # PAUSED 2026-07-10 at the owner's request — focus is on the website
+  # build + AdSense approval. The pipeline itself is healthy (Bluesky +
+  # Pinterest publish fine; X needs API credits). To resume: uncomment the
+  # schedule below and `gh workflow enable social-posts.yml`.
+  # schedule:
+  #   - cron: '25 12 * * 1,3,5'   # Mon/Wed/Fri at 8:25 AM ET
+  #   - cron: '42 12 * * 2,4'     # Tue/Thu at 8:42 AM ET
+  #   - cron: '35 13 * * 0,6'     # Weekends at 9:35 AM ET
   workflow_dispatch: # Manual trigger
 
 concurrency:
