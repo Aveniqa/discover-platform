@@ -1,19 +1,19 @@
 [
   {
-    "slug": "homegames-io",
-    "title": "Homegames",
+    "slug": "github-codespaces-cli",
+    "title": "GitHub Codespaces CLI",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Homegames.io is an open-source platform designed for the creation and play of games, boasting an eight-year development ",
+    "description": "The GitHub Codespaces CLI allows you to connect to and manage your GitHub Codespaces environments directly from your loc",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "lola-visual",
-    "title": "Lola Visual",
+    "slug": "nuage-viewer",
+    "title": "Nuage Viewer",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Lola Visual is an innovative AI-powered assistant that integrates directly into your design workflow to help generate an",
+    "description": "Nuage Viewer is a lightweight, cross-platform desktop application designed for developers and designers to efficiently p",
     "badge": null,
     "type": "tool"
   }
