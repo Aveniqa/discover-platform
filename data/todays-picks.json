@@ -1,19 +1,19 @@
 [
   {
-    "slug": "github-codespaces-cli",
-    "title": "GitHub Codespaces CLI",
+    "slug": "deepstash",
+    "title": "Deepstash",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The GitHub Codespaces CLI allows you to connect to and manage your GitHub Codespaces environments directly from your loc",
+    "description": "Deepstash is a platform designed for capturing, organizing, and discovering insights and knowledge from various sources.",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "nuage-viewer",
-    "title": "Nuage Viewer",
+    "slug": "digital-sketchbook-app",
+    "title": "Procreate",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Nuage Viewer is a lightweight, cross-platform desktop application designed for developers and designers to efficiently p",
+    "description": "Procreate is a professional-grade digital illustration and painting application developed exclusively for iPad. It offer",
     "badge": null,
     "type": "tool"
   }
