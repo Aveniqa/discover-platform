@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "boxy-svg-editor-web-app",
-      "krita-free-digital-painting-app",
-      "vectary-online-3d-modeling-design",
-      "iconjar-macos-icon-manager-organizer",
-      "ia-writer-focused-markdown-editor-2",
-      "milanote-visual-workspace-creatives",
-      "standard-notes-encrypted-private-notes",
-      "rawgraphs-custom-vector-visualizations",
-      "gephi-network-visualization-analysis",
       "kepler-gl-geospatial-big-data-tool",
       "charticulator-custom-interactive-chart-design",
-      "metabase-open-source-business-intelligence"
+      "metabase-open-source-business-intelligence",
+      "fzf-fuzzy-finder-cli",
+      "tldr-simplified-man-pages-2",
+      "lazygit-terminal-ui-for-git-2",
+      "bat-cat-clone-syntax-highlighting-2",
+      "delta-git-diff-viewer",
+      "zoxide-faster-smarter-cd",
+      "fd-faster-user-friendly-find",
+      "hyperwrite-ai-writing-assistant",
+      "deepl-write-ai-writing-style-clarity"
     ]
   },
   {
@@ -65,18 +65,18 @@
     "description": "Handpicked gifts for the person who has everything.",
     "emoji": "🎁",
     "itemSlugs": [
-      "vectary-online-3d-modeling-design",
-      "sizzy-responsive-design-testing-browser",
-      "ia-writer-focused-markdown-editor-2",
-      "milanote-visual-workspace-creatives",
-      "diarly-private-markdown-journal",
-      "rawgraphs-custom-vector-visualizations",
-      "gephi-network-visualization-analysis",
       "kepler-gl-geospatial-big-data-tool",
       "flourish-studio-interactive-data-stories",
       "charticulator-custom-interactive-chart-design",
       "observablehq-collaborative-data-exploration-notebooks",
-      "datawrapper-easy-charts-maps-journalists"
+      "datawrapper-easy-charts-maps-journalists",
+      "apache-echarts-powerful-javascript-charts",
+      "delta-git-diff-viewer",
+      "sudowrite-ai-for-creative-writers",
+      "deepl-write-ai-writing-style-clarity",
+      "frase-io-seo-content-optimization-2",
+      "quillbot-ai-paraphraser-summarizer",
+      "rytr-ai-writing-assistant-for-marketing"
     ]
   },
   {
