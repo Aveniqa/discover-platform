@@ -1,70 +1,5 @@
 [
   {
-    "id": 275,
-    "slug": "lepton-beautiful-markdown-snippet-manager",
-    "toolName": "Lepton",
-    "whatItDoes": "Lepton, an open-source project from Cosmicmind, is a minimalist and elegant code snippet manager inspired by GitHub Gist, providing a desktop client to organize and sync your gists. It focuses on a clean user interface and robust markdown support for rich text alongside code. The core workflow allows users to create new local snippets or synchronize directly with their GitHub Gist account, then organize them with tags and search efficiently. It is available as a desktop application for Windows, macOS, and Linux, making it accessible across major operating systems. Its most compelling feature is its deep integration with GitHub Gist, allowing users to manage their public and secret gists directly from a desktop app. Snippets can be stored locally or synchronized with GitHub Gist, offering both offline access and cloud backup.",
-    "category": "Developer",
-    "whyItIsUseful": "Lepton solves the problem of managing and finding your GitHub Gists, bringing them to a powerful desktop application instead of relying solely on the web interface. For the developer who frequently shares code via GitHub Gist, Lepton offers a much more pleasant and efficient experience for creating, editing, and searching their shared snippets. For the open-source contributor, it provides a simple way to keep track of useful community-contributed gists by 'starring' them within the app. Lepton is completely free and open-source, offering all its features without any cost, making it an excellent option for developers seeking a robust, no-cost solution. Compared to simply using the GitHub Gist website, Lepton provides a faster, more native experience with advanced search capabilities and offline access. The ability to 'star' gists from other users and easily pull them into your local collection is a powerful feature for leveraging community knowledge. Its clean, intuitive interface ensures that even a relatively non-technical user could set it up and start organizing their snippets within minutes.",
-    "imageIdea": "Lepton desktop interface showing a list of snippets, a search bar, and a markdown editor with code blocks.",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://github.com/hackjutsu/Lepton",
-    "screenshotUrl": "/screenshots/lepton-beautiful-markdown-snippet-manager.webp"
-  },
-  {
-    "id": 276,
-    "slug": "raycast-snippets-fast-text-expansion",
-    "toolName": "Raycast Snippets",
-    "whatItDoes": "Raycast Snippets, a feature built into the Raycast launcher application by Raycast Inc., provides a powerful and fast way to manage and expand text and code snippets across macOS. It allows users to define custom keywords (shortcuts) that automatically expand into longer text, code blocks, or even dynamic content anywhere on their system. The primary workflow involves creating a new snippet within Raycast's preferences, assigning a short keyword, and then typing that keyword in any application to trigger the expansion. It is exclusively available on macOS as part of the Raycast application. Its most loved feature is the seamless, system-wide text expansion that significantly speeds up typing repetitive phrases or code structures. Snippets are stored locally on your Mac, with optional iCloud synchronization to keep them consistent across your Apple devices.",
-    "category": "Productivity",
-    "whyItIsUseful": "Raycast Snippets eliminates the tedious and error-prone process of manually retyping common phrases, URLs, or complex code structures, boosting daily productivity significantly. For the customer support agent, it's perfect for quickly inserting templated email responses, common troubleshooting steps, or links to help articles with just a few keystrokes. For the developer, it allows for instant expansion of boilerplate code, common Git commands, or frequently used function signatures directly within their IDE or terminal. Raycast offers a generous free tier that includes full snippet functionality, making it genuinely useful without needing a subscription, though Pro plans add cloud sync and AI features. Unlike dedicated snippet managers that require opening an app, Raycast's system-wide text expansion is far more immediate and integrated into your workflow, saving constant context switching. The ability to use dynamic variables within snippets (like current date or clipboard content) is a power feature that unlocks highly customizable and intelligent text expansions. A non-technical person can easily set up their first snippet in under a minute, given Raycast's intuitive interface.",
-    "imageIdea": "Raycast command bar open, showing a snippet being expanded in a text editor, or Raycast preferences with a list of snippets and their keywords.",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.raycast.com",
-    "screenshotUrl": "/screenshots/raycast-snippets-fast-text-expansion.webp"
-  },
-  {
-    "id": 277,
-    "slug": "pieces-ai-powered-developer-workflow",
-    "toolName": "Pieces for Developers",
-    "whatItDoes": "Pieces for Developers, developed by Pieces, Inc., is an AI-powered productivity tool designed to intelligently capture, enrich, and reuse code snippets, screenshots, and other developer assets. It leverages machine learning to automatically tag, describe, and understand your saved materials, making them incredibly easy to find and share. The core workflow involves capturing code from an IDE, browser, or clipboard, where Pieces automatically processes it, then using its unified search to retrieve and share snippets. It functions as a desktop application for Windows, macOS, and Linux, with browser extensions and IDE plugins for seamless integration. Its most innovative feature is the AI-driven contextual enrichment, which adds metadata and explanations to snippets without manual effort. Pieces stores data locally by default, offering enterprise-grade security, and allows for optional cloud synchronization for backup and team collaboration.",
-    "category": "AI",
-    "whyItIsUseful": "Pieces for Developers solves the modern developer's challenge of managing vast amounts of scattered information, from code snippets to technical notes, by making it all intelligently searchable and reusable. For the busy full-stack engineer, Pieces automatically organizes every piece of code they save, instantly retrieving complex algorithms or obscure API calls when needed, even suggesting related snippets. For the technical content creator, it ensures all their code examples are meticulously documented and easily retrievable for blog posts or tutorials, complete with AI-generated explanations. Pieces offers a free individual tier with core AI features and local storage, providing significant value, with paid plans for advanced AI capabilities and team collaboration. Compared to traditional snippet managers, Pieces stands out with its proactive AI, which removes the manual burden of organization, making it a 'smart' assistant rather than just a storage locker. The 'Copilot' feature, which can suggest snippets based on your current coding context, is a powerful feature that truly enhances coding flow. While its AI capabilities are advanced, the basic capture and retrieval interface is intuitive enough for a non-technical person to start using effectively in minutes.",
-    "imageIdea": "Pieces for Developers desktop app interface showing an AI-enriched code snippet, with tags, descriptions, and related links generated by AI.",
-    "websiteLink": "https://pieces.app/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/pieces-ai-powered-developer-workflow.webp"
-  },
-  {
-    "id": 279,
-    "slug": "quiver-markdown-code-notebooks-mac",
-    "toolName": "Quiver",
-    "whatItDoes": "Quiver, developed by Hsing-Yi Chung, is an \"程序员的笔记本\" (programmer's notebook) application exclusively for macOS, designed to blend text, code, and markdown into a powerful notebook for developers. It features a unique cell-based editor that allows mixing different types of content—text, markdown, code, LaTeX—within the same note, supporting over 120 programming languages. The primary workflow involves creating notebooks and notes, adding cells of various types to construct rich documents, and using its powerful full-text search to find content. It runs solely on macOS, available for purchase on the Mac App Store. Its most distinctive feature is the \"cell\" concept, which enables developers to combine code, markdown, and rich text seamlessly within a single note, making it perfect for mixed documentation. Notes are stored locally as JSON files on your Mac, with easy integration with cloud storage services like Dropbox for synchronization.",
-    "category": "Developer",
-    "whyItIsUseful": "Quiver eliminates the fragmentation of developer notes, where code snippets live in one app, markdown explanations in another, and rich text in a third, by unifying them in a flexible notebook. For the software architect creating design documents, Quiver allows them to integrate code examples, architectural diagrams (via markdown image embeds), and detailed explanations all within one cohesive note. For the educator preparing coding lectures, it offers an excellent platform to combine pedagogical explanations with runnable code examples, ensuring clarity and context. Quiver is a paid, one-time purchase application, offering full features without recurring subscriptions, making it a robust, long-term asset for macOS users. Compared to general-purpose note apps, Quiver's cell-based editor and deep developer-centric features like code syntax highlighting and live markdown preview make it far superior for technical documentation. The ability to run code directly within a note (for some languages/environments) is a powerful feature that elevates it beyond a static notebook. Its macOS-native design and intuitive interface mean a non-technical person can easily create simple rich-text notes within five minutes.",
-    "imageIdea": "Quiver macOS interface showing a note composed of multiple cells: a markdown cell, a code cell with syntax highlighting, and a rich text cell.",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://happenapps.com/#quiver",
-    "screenshotUrl": "/screenshots/quiver-markdown-code-notebooks-mac.webp"
-  },
-  {
-    "id": 280,
-    "slug": "maccy-simple-clipboard-manager-mac",
-    "toolName": "Maccy",
-    "whatItDoes": "Maccy is a lightweight, open-source clipboard manager for macOS, developed by Alexey Ivashchenko, designed to keep a history of everything you copy. It primarily supports a workflow where users copy text, images, and files, and can later retrieve any item from a searchable history via a simple keyboard shortcut. This utility works exclusively on macOS, integrating seamlessly into the system's menu bar for quick access. Its most used feature is undoubtedly the quick search and paste function, allowing users to find and insert past clippings effortlessly. All clipboard data is stored locally on your machine, ensuring privacy and quick access without cloud reliance.",
-    "category": "Productivity",
-    "whyItIsUseful": "This tool elegantly eliminates the frustration of repeatedly copying and pasting the same information or losing a crucial piece of text copied moments ago. For the software developer who frequently copies code snippets, variable names, and error messages, Maccy provides instant recall, saving countless clicks and context switches. For the content creator drafting a social media campaign, it means easily accessing brand hashtags, common phrases, and links without retyping or navigating away. The free tier is fully functional, offering the complete feature set without hidden paywalls, making it genuinely useful from the start. Compared to more complex clipboard managers like PasteApp, Maccy wins with its minimalist interface and zero-configuration approach, prioritizing speed and simplicity. A power feature is its ability to ignore specific applications or format copied items, streamlining the clipboard history. A non-technical person can download, install, and begin using Maccy effectively in under 30 seconds.",
-    "imageIdea": "macOS menu bar with Maccy icon, dropdown showing a list of copied text snippets.",
-    "websiteLink": "https://maccy.app",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/maccy-simple-clipboard-manager-mac.webp"
-  },
-  {
     "id": 281,
     "slug": "alfred-productivity-app-launcher-mac",
     "toolName": "Alfred 5",
@@ -3311,7 +3246,8 @@
     "imageIdea": "Article Forge dashboard showing input field for a keyword, options for article length and subheadings, and a generated article preview with images",
     "websiteLink": "https://articleforge.com/",
     "type": "tool",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/article-forge-ai-article-generator.webp"
   },
   {
     "id": 719,
@@ -5884,5 +5820,74 @@
     "websiteLink": "https://www.breatheeasyapp.com/",
     "type": "tool",
     "dateAdded": "2026-07-14"
+  },
+  {
+    "id": 918,
+    "slug": "perusall",
+    "toolName": "Perusall",
+    "seoTitle": "Perusall — Collaborative social learning platform",
+    "whatItDoes": "Perusall is a social learning platform designed to make reading assignments more engaging and effective for students. It allows instructors to assign readings, ask questions, and students to highlight, annotate, and discuss course materials collaboratively. The platform uses an intelligent grading system that analyzes student contributions, rewarding thoughtful engagement rather than just participation. Perusall offers a free version for educators and students, with premium features for institutions. It excels at transforming passive reading into an active, social learning experience that fosters deeper comprehension.",
+    "category": "Education",
+    "whyItIsUseful": "Perusall revolutionizes how students interact with academic texts by gamifying engagement and encouraging peer-to-peer learning. Instructors can track student comprehension in real-time through the platform's analytics, identifying areas where students struggle and tailoring their teaching accordingly. Students benefit from seeing their peers' insights and questions, which can spark new understanding and reduce feelings of isolation. The platform supports a vast array of document types, including PDFs, web pages, and even YouTube videos, making it incredibly versatile. Educators who adopt Perusall report increased student engagement and a noticeable improvement in learning outcomes, making it an invaluable tool for modern pedagogy.",
+    "imageIdea": "student annotating digital textbook screen",
+    "websiteLink": "https://www.perusall.com/",
+    "type": "tool",
+    "dateAdded": "2026-07-15",
+    "screenshotUrl": "/screenshots/perusall.webp"
+  },
+  {
+    "id": 919,
+    "slug": "curipod-ai",
+    "toolName": "Curipod AI",
+    "seoTitle": "Curipod AI — Interactive Lesson Generator",
+    "whatItDoes": "Curipod AI is a revolutionary platform that transforms static lesson plans into dynamic, interactive learning experiences. It uses AI to help educators generate engaging activities, including polls, word clouds, and drawing boards, directly within their presentations. The tool is freemium, offering substantial value in its free tier and expanding capabilities for paid users. It excels at quickly turning a teacher's concept into a participatory lesson without requiring extensive technical skills or lesson planning time.",
+    "category": "Education",
+    "whyItIsUseful": "For educators, Curipod AI is a game-changer that injects much-needed engagement into traditional classroom settings or virtual learning environments. It dramatically reduces the preparation time for creating interactive elements, allowing teachers to focus more on instruction and student interaction. The AI's ability to suggest and implement diverse activity types helps cater to different learning styles and keeps students actively involved, fostering deeper understanding and retention. Teachers can transform a lecture into a discussion with just a few prompts. Its seamless integration with presentation software makes adoption effortless, and the free tier makes it accessible to all educators, regardless of budget. Students benefit from a more stimulating and less passive learning experience.",
+    "imageIdea": "classroom with interactive whiteboard",
+    "websiteLink": "https://www.curipod.com/",
+    "type": "tool",
+    "dateAdded": "2026-07-15",
+    "screenshotUrl": "/screenshots/curipod-ai.webp"
+  },
+  {
+    "id": 920,
+    "slug": "civic-data-explorer",
+    "toolName": "Civic Data Explorer",
+    "seoTitle": "Civic Data Explorer — Local Government Data Visualizer",
+    "whatItDoes": "Civic Data Explorer is a free, open-source web application designed to help citizens and journalists understand and visualize local government data. It allows users to explore datasets related to budgets, contracts, and expenditures in an accessible format. The platform focuses on making complex financial information transparent and easy to comprehend through interactive charts and maps. It’s particularly useful for scrutinizing how public funds are allocated and spent within specific municipalities.",
+    "category": "Education",
+    "whyItIsUseful": "For the average citizen, understanding local government finances can be daunting. Civic Data Explorer demystifies this process by transforming dense spreadsheets into understandable visuals. It empowers individuals to hold their local officials accountable by providing clear insights into public spending patterns and potential inefficiencies. Journalists can use it to uncover stories and trends that might otherwise remain hidden in complex financial reports. The tool fosters greater civic engagement by making information readily available and digestible. It’s an essential resource for anyone interested in local governance, transparency, and responsible use of taxpayer money. Its focus on local, granular data is its unique and powerful contribution.",
+    "imageIdea": "city skyline with overlapping data charts",
+    "websiteLink": "https://civicdataexplorer.org/",
+    "type": "tool",
+    "dateAdded": "2026-07-15"
+  },
+  {
+    "id": 921,
+    "slug": "learn-to-code-with-codecademy",
+    "toolName": "Codecademy",
+    "seoTitle": "Codecademy — Interactive coding education platform",
+    "whatItDoes": "Codecademy offers an interactive platform for learning various programming languages and skills. It provides hands-on coding exercises directly in the browser, allowing users to see immediate results and build projects as they learn. The platform operates on a freemium model, with a substantial amount of content available for free, and a Pro subscription unlocking more advanced courses, projects, and personalized learning paths. It excels at providing a frictionless entry into coding by eliminating setup hurdles and focusing on practical application from the first lesson.",
+    "category": "Education",
+    "whyItIsUseful": "Codecademy democratizes coding education by making it accessible and engaging for absolute beginners. Its interactive lessons are designed to build confidence quickly, moving from fundamental syntax to practical application in a way that traditional textbooks or video tutorials often cannot match. The platform's strength lies in its 'learn by doing' philosophy; instead of passively consuming information, users actively write and run code, reinforcing concepts through immediate feedback. This iterative process is crucial for skill acquisition and problem-solving in programming. Codecademy is perfect for aspiring developers, students exploring computer science, or professionals looking to upskill. Its structured curriculum covers popular languages like Python, JavaScript, and SQL, providing a clear roadmap to achieving specific career goals, and its community forums offer support for learners encountering challenges.",
+    "imageIdea": "laptop screen with code editor and programming icons",
+    "websiteLink": "https://www.codecademy.com/",
+    "type": "tool",
+    "dateAdded": "2026-07-15",
+    "screenshotUrl": "/screenshots/learn-to-code-with-codecademy.webp"
+  },
+  {
+    "id": 922,
+    "slug": "master-languages-with-lingodeer",
+    "toolName": "LingoDeer",
+    "seoTitle": "LingoDeer — Learn languages with structured lessons",
+    "whatItDoes": "LingoDeer is a language-learning app designed to provide a structured and comprehensive approach to mastering new languages, particularly focusing on East Asian languages but also offering many others. It breaks down grammar, vocabulary, and pronunciation into digestible lessons with a strong emphasis on explanation rather than rote memorization. The app offers a freemium experience, with core content available for free and full course access through a subscription. It stands out by offering detailed grammatical explanations and clear sentence structures, making it ideal for learners who prefer a deeper understanding of language mechanics.",
+    "category": "Education",
+    "whyItIsUseful": "For learners who find typical gamified language apps too superficial, LingoDeer offers a refreshing depth. It meticulously explains the 'why' behind language rules, which is invaluable for building a solid foundation and avoiding common mistakes, especially with languages that have very different grammatical structures from English. The app's well-crafted exercises, including listening, reading, and writing components, cater to a holistic learning experience. Users praise its ability to make complex grammar intuitive through clear, concise explanations and well-designed example sentences. It's particularly beneficial for serious language students, academics, and travelers who want to go beyond basic phrases and achieve a nuanced understanding. The curated curriculum ensures a logical progression, making it feel less like a game and more like a structured academic course, all accessible from one's mobile device.",
+    "imageIdea": "smartphone displaying language learning app interface",
+    "websiteLink": "https://www.lingodeer.com/",
+    "type": "tool",
+    "dateAdded": "2026-07-15",
+    "screenshotUrl": "/screenshots/master-languages-with-lingodeer.webp"
   }
 ]

@@ -1,69 +1,5 @@
 [
   {
-    "id": 242,
-    "slug": "kepler-gl-geospatial-big-data-tool",
-    "name": "Kepler.gl",
-    "whatItDoes": "Kepler.gl is a high-performance web-based geospatial analysis tool for large-scale datasets, developed by Uber Technologies. It allows users to visualize large geospatial datasets, generate interactive maps, and perform exploratory data analysis directly in the browser. Its core feature is the ability to render millions of data points on a map quickly, supporting various layer types like points, arcs, heatmaps, and 3D extrusions. It's built for data scientists, urban planners, and researchers who need to visualize geographic data trends and patterns. Someone would use Kepler.gl when they have location-based data (e.g., taxi trips, sensor readings, delivery routes) and want to uncover spatial relationships or anomalies. It integrates with various data sources like CSV, JSON, and GeoJSON files, and can be embedded into custom web applications.",
-    "category": "Data",
-    "whyItIsUseful": "Unlike standard mapping APIs or simple GIS tools, Kepler.gl is optimized for performance with massive datasets, making it superior for big data geospatial visualization where other tools might lag or crash. For the logistics manager analyzing fleet movements, Kepler.gl can visualize millions of historical routes to identify bottlenecks or inefficient patterns, providing insights that static maps cannot. For the urban researcher studying population density changes, it offers interactive filtering and aggregation capabilities to reveal demographic shifts over time in specific areas. It is completely free and open-source. A feature many users don't immediately discover is the ability to create and animate temporal data, showing changes over time, which is incredibly powerful for dynamic analysis. It's not more popular outside data science circles because its focus on large-scale geospatial data makes it highly specialized, and while user-friendly, setting up complex analyses still requires some technical understanding. It has a growing developer community and is actively maintained by Uber and open-source contributors.",
-    "imageIdea": "An interactive 3D geospatial map with multiple colored layers showing density or movement, perhaps over a city grid.",
-    "websiteLink": "https://kepler.gl/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/kepler-gl-geospatial-big-data-tool.webp"
-  },
-  {
-    "id": 243,
-    "slug": "flourish-studio-interactive-data-stories",
-    "name": "Flourish Studio",
-    "whatItDoes": "Flourish Studio is a web-based platform for creating interactive data visualizations, presentations, and stories, developed by Kiln. It allows users to transform raw data into engaging, embeddable graphics and animated narratives without coding. The core feature is its extensive library of customizable templates for various chart types, maps, and even interactive slideshows. It's built for journalists, marketers, educators, and anyone who needs to communicate data effectively to a broad audience. A user would turn to Flourish Studio when they want to create a visually appealing, interactive data presentation for a website or report quickly and easily. It supports uploading data from spreadsheets and connects with Google Sheets for live updates.",
-    "category": "Data",
-    "whyItIsUseful": "Flourish Studio offers a much smoother and more visually polished experience for creating interactive data stories than general-purpose tools like Google Sheets charts or even some basic BI dashboards. For the content marketer showcasing campaign performance, Flourish can quickly generate an animated bar chart race or an interactive map that grabs attention, far more engaging than a static image. For the educator explaining complex statistics, it allows creation of interactive quizzes or explorable data visualizations that enhance student engagement and comprehension. It offers a generous free tier for public visualizations, with paid plans for private projects and advanced features. A hidden gem is its 'story' feature, which allows chaining multiple visualizations into a guided narrative, often overlooked in favor of single charts. It's not more popular because larger organizations might opt for more enterprise-grade BI solutions, and individuals might not realize the depth of its storytelling capabilities beyond simple charts. Flourish has a vibrant user community, regularly updates its template library, and provides extensive tutorials.",
-    "imageIdea": "A dynamic 'bar chart race' animation or an interactive map with pop-up data points, embedded on a clean webpage.",
-    "websiteLink": "https://flourish.studio/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/flourish-studio-interactive-data-stories.webp"
-  },
-  {
-    "id": 396,
-    "slug": "charticulator-custom-interactive-chart-design",
-    "name": "Charticulator",
-    "whatItDoes": "Charticulator is a free, web-based tool developed by Microsoft Research that empowers users to design custom chart layouts visually, without needing to write any code. Its core feature is a unique drag-and-drop interface that allows users to define graphic marks, glyphs, and axes, then arrange them freely to create novel and precise data visualizations. It's primarily built for data visualization researchers, designers, and domain experts who need to create specific, publication-quality chart types that are not available in standard charting libraries or tools. Users typically open Charticulator when they have tabular data and a clear vision for a custom visualization that goes beyond standard templates, such as small multiples or complex relational diagrams. It runs entirely in the browser, processes data locally for privacy, and allows export of charts as high-resolution images, SVGs, or even interactive HTML.",
-    "category": "Design",
-    "whyItIsUseful": "Charticulator provides an unparalleled level of visual customization for charts, far exceeding the limited templating options in tools like Excel, Power BI, or even D3.js (for those without coding skills). For the academic researcher needing a precise, custom-designed chart to illustrate a complex theory in a journal, Charticulator offers the flexibility to build it visually rather than coding from scratch. For the data visualization consultant, it's a powerful prototyping tool to quickly demonstrate unique chart ideas to clients that would otherwise require extensive development time. It is completely free to use, being a Microsoft Research project. A powerful but often overlooked feature is its ability to create 'glyphs' – custom visual components that can represent multiple data points – enabling highly compact and information-rich displays. It's not more popular because its open-ended nature can be daunting for users accustomed to predefined chart types, and its advanced capabilities require a deeper understanding of visual grammar. The project is actively maintained by Microsoft Research, with occasional updates and academic papers demonstrating its new features.",
-    "imageIdea": "a screenshot of Charticulator's canvas showing a complex, non-standard chart being designed with drag-and-drop elements",
-    "websiteLink": "https://charticulator.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
-  },
-  {
-    "id": 544,
-    "slug": "observablehq-collaborative-data-exploration-notebooks",
-    "name": "Observable",
-    "whatItDoes": "Observable is a collaborative, web-based platform, developed by Observable, Inc. (founded by Mike Bostock, creator of D3.js), for data analysis, visualization, and communication using JavaScript notebooks. Its core feature is an interactive, reactive notebook environment where users can write, run, and share code (primarily JavaScript) to explore data and create dynamic visualizations. This platform is primarily designed for data scientists, analysts, researchers, and educators who value interactive exploration and clear communication of data insights. Users typically turn to Observable when they need to rapidly prototype data visualizations, build interactive data stories, or conduct reproducible research in a shareable format. It integrates with various data sources and offers direct embedding of notebooks into other websites.",
-    "category": "Data",
-    "whyItIsUseful": "Compared to static Jupyter notebooks, Observable offers a fundamentally more interactive and reactive environment, making it superior for dynamic data exploration and collaborative storytelling. For the data scientist exploring a complex dataset, Observable allows them to immediately see the impact of code changes and share interactive insights with colleagues. A university lecturer can use it to create live, executable examples for students, demonstrating data concepts in a hands-on way. Observable offers a generous free tier for public notebooks and personal use, with paid plans for private notebooks, teams, and advanced features. A hidden gem is its \"fork\" and \"merge\" functionality, allowing users to build upon existing notebooks and integrate changes seamlessly, akin to Git for code. Its JavaScript-centric nature and interactive paradigm, while powerful, present a learning curve for those accustomed to Python or traditional BI tools, limiting its mainstream adoption. Observable has a highly active community, extensive documentation, and frequently updated features, often showcasing cutting-edge visualization techniques.",
-    "imageIdea": "An Observable notebook showing a scatter plot linked to interactive sliders and a code cell, with multiple cursors indicating collaboration.",
-    "websiteLink": "https://observablehq.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/observablehq-collaborative-data-exploration-notebooks.webp"
-  },
-  {
-    "id": 246,
-    "slug": "datawrapper-easy-charts-maps-journalists",
-    "name": "Datawrapper",
-    "whatItDoes": "Datawrapper is a web-based tool for creating responsive charts, maps, and tables for publication, developed by a Berlin-based company. It allows users, particularly journalists and content creators, to quickly turn data into clear, embeddable visualizations. Its core feature is a streamlined workflow that guides users from data upload to publication with minimal design effort, offering a consistent, professional look. It's built for newsrooms, marketers, and anyone needing to present data visually and accurately to a broad online audience. A user would open Datawrapper when they have a dataset for a story or report and need to create a professional-looking, interactive chart or map without coding or design expertise. It supports data upload via CSV, Excel, or Google Sheets and provides direct embed codes for websites.",
-    "category": "Data",
-    "whyItIsUseful": "Datawrapper simplifies the creation of high-quality, interactive visualizations far more than generic spreadsheet software or complex design tools, making it superior for rapid, consistent data communication. For the journalist on a tight deadline, Datawrapper allows them to quickly create an embeddable map showing election results or a chart illustrating economic trends, ensuring accuracy and visual appeal. For the small business owner creating a blog post, it offers a way to present market research data professionally, enhancing credibility without needing a graphic designer. It has a free tier for public visualizations, with paid plans offering private charts, custom branding, and team features. A hidden gem is its extensive collection of 'how-to' articles and best practices for data visualization, embedded directly within the platform. It's not more popular outside of journalism and data communication circles because its specialization means it doesn't offer the broad functionality of a full BI suite, but it excels at its core task. Datawrapper maintains a strong presence in the data journalism community, regularly updates its features, and provides excellent support.",
-    "imageIdea": "A clean, responsive bar chart or choropleth map generated by Datawrapper, embedded seamlessly within a news article layout.",
-    "websiteLink": "https://www.datawrapper.de/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/datawrapper-easy-charts-maps-journalists.webp"
-  },
-  {
     "id": 247,
     "slug": "metabase-open-source-business-intelligence",
     "name": "Metabase",
@@ -333,7 +269,8 @@
     "imageIdea": "Article Forge interface with a single keyword input and a generated, multi-paragraph article appearing below, with images.",
     "websiteLink": "https://articleforge.com/",
     "type": "hidden-gem",
-    "dateAdded": "2026-04-27"
+    "dateAdded": "2026-04-27",
+    "screenshotUrl": "/screenshots/article-forge-full-article-generation-ai.webp"
   },
   {
     "id": 420,
@@ -6176,5 +6113,74 @@
     "websiteLink": "https://www.foodsensitivitytracker.com",
     "type": "hidden-gem",
     "dateAdded": "2026-07-14"
+  },
+  {
+    "id": 878,
+    "slug": "juggler-ai",
+    "name": "Juggler",
+    "seoTitle": "Juggler — GUI coding agent",
+    "whatItDoes": "Juggler is an open-source GUI agent designed to assist with coding tasks by providing a visual interface for interacting with AI models. Created by the developer behind JUCE, it aims to simplify complex AI workflows into an accessible graphical environment. Developers can use Juggler to orchestrate AI agents for tasks like code generation, debugging, or even exploring new programming paradigms through a user-friendly, point-and-click interface. This makes advanced AI coding assistance more approachable for a wider range of users.",
+    "category": "Developer",
+    "whyItIsUseful": "Juggler stands out by demystifying AI-driven coding assistance through its intuitive GUI. Instead of wrestling with command-line interfaces or complex prompt engineering, users can visually connect different AI modules and define workflows. This is particularly valuable for educators and students learning about AI in development, allowing them to experiment with AI agents without deep technical prerequisites. Power users will appreciate the transparency and control it offers over AI interactions, making it easier to debug and refine AI outputs compared to black-box solutions. It's an excellent tool for anyone looking to leverage AI for coding but who finds traditional methods intimidating or inefficient.",
+    "imageIdea": "interactive flowchart software interface",
+    "websiteLink": "https://github.com/juggler-ai/juggler",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-15",
+    "screenshotUrl": "/screenshots/juggler-ai.webp"
+  },
+  {
+    "id": 879,
+    "slug": "jurassic-park-computers",
+    "name": "Jurassic Park computers in excruciating detail",
+    "seoTitle": "Jurassic Park Computers — film tech explained",
+    "whatItDoes": "This website provides an in-depth, detailed exploration of the computer systems and technologies featured in the movie 'Jurassic Park.' It meticulously breaks down the hardware, software, and networking concepts that were imagined to be running the park's complex operations. The author dives into specific components like the Sun Microsystems workstations, the CGI rendering processes, and even the fictional operating systems, offering a fascinating glimpse into how the film depicted advanced technology for its time. It's a deep dive for film buffs and tech enthusiasts alike.",
+    "category": "Education",
+    "whyItIsUseful": "For anyone interested in the intersection of film and technology, this site is an unparalleled resource. It goes far beyond simple plot summaries to analyze the technical plausibility and innovative spirit of Jurassic Park's computer systems. Many people remember the movie's impressive visual effects and plot points, but few understand the underlying (even if fictionalized) computing challenges the filmmakers aimed to represent. This detailed breakdown offers a unique educational perspective on how technology was visualized in popular culture during the 90s, serving as a case study in fictional tech design and its impact on audience perception. It's perfect for students of film studies, computer science history, or anyone who appreciates meticulous detail in analyzing creative works.",
+    "imageIdea": "vintage computer terminal screen displaying dinosaur graphics",
+    "websiteLink": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-15",
+    "screenshotUrl": "/screenshots/jurassic-park-computers.webp"
+  },
+  {
+    "id": 880,
+    "slug": "vancouver-pd-quick-escape",
+    "name": "Vancouver PD",
+    "seoTitle": "Vancouver PD — quick history wipe",
+    "whatItDoes": "The Vancouver Police Department's website incorporates a discreet 'Quick Escape' button in its header. This feature is designed to immediately redirect users to a generic search engine page, effectively wiping their browsing history from the site and obscuring their visit. This is a crucial privacy feature intended for individuals who may be seeking information about domestic violence, abuse, or other sensitive topics and wish to do so without leaving a traceable record on their device.",
+    "category": "Reference",
+    "whyItIsUseful": "This is a vital, yet often unseen, feature that demonstrates a commitment to user privacy for vulnerable individuals. While many government websites are primarily informative, the Vancouver PD's inclusion of a 'Quick Escape' button addresses a critical safety need that most public-facing sites neglect. It's a thoughtful design choice that empowers users to seek help or information anonymously, preventing potential harm. For victims of abuse, individuals exploring sensitive legal matters, or anyone needing to research discreetly, this function provides an essential layer of security. Its inclusion on a police department's website underscores the importance of accessibility and safety in public information dissemination.",
+    "imageIdea": "browser window with a prominent red 'Quick Escape' button",
+    "websiteLink": "https://vpd.ca/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-15",
+    "screenshotUrl": "/screenshots/vancouver-pd-quick-escape.webp"
+  },
+  {
+    "id": 881,
+    "slug": "archaeology-data-service",
+    "name": "Archaeology Data Service (ADS)",
+    "seoTitle": "ADS — Digital archive for archaeology",
+    "whatItDoes": "The Archaeology Data Service (ADS) is a leading digital archive for the UK's archaeological data. It provides free online access to a vast collection of archaeological reports, surveys, and datasets, preserving and making accessible the results of archaeological investigations. The ADS is funded by Historic England, Historic Scotland, Cadw, and the Museums, Libraries and Archives Council, ensuring long-term preservation and accessibility of valuable cultural heritage information. Researchers, students, and heritage professionals can search and download this extensive repository.",
+    "category": "Education",
+    "whyItIsUseful": "For anyone involved in or interested in British archaeology, the ADS is an unparalleled resource that often goes unnoticed by the broader public. It functions as a central repository for decades of fieldwork, offering access to primary data that would otherwise be scattered and difficult to find. This includes everything from excavation reports to landscape surveys and artifact databases, providing invaluable material for academic research, educational projects, and even amateur enthusiasts looking to understand local history. The sheer depth and breadth of curated, high-quality archaeological data make it a cornerstone of digital heritage preservation and a powerful tool for scholarship that is far more comprehensive than what most might find through general web searches. Its commitment to open access for such specialized content is what makes it a genuine hidden gem.",
+    "imageIdea": "ancient pottery shard with digital interface",
+    "websiteLink": "https://archaeologydataservice.ac.uk/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-15",
+    "screenshotUrl": "/screenshots/archaeology-data-service.webp"
+  },
+  {
+    "id": 882,
+    "slug": "the-composers-art-association",
+    "name": "The Composer's Art Association",
+    "seoTitle": "Composer's Art Assoc. — Classical music scores",
+    "whatItDoes": "The Composer's Art Association is a website dedicated to providing a curated collection of classical music scores, often focusing on less commonly performed or out-of-print works. It aims to make a wide range of musical compositions accessible to musicians, educators, and enthusiasts worldwide. The site features meticulously prepared scores, often with detailed annotations and performance notes, making it a valuable resource for those seeking diverse repertoire beyond the standard concert hall selections. They are committed to preserving and promoting the broader canon of classical music.",
+    "category": "Education",
+    "whyItIsUseful": "While many sites offer sheet music, The Composer's Art Association stands out for its focus on depth and breadth within classical music, often featuring works that are hard to find elsewhere, including early music, lesser-known composers, and original editions. For music students, teachers, and performers, this offers a treasure trove of repertoire that can inspire new interpretations and expand musical horizons. The quality of the scores and the dedication to presenting a comprehensive historical view of composition is remarkable and far surpasses what is typically found on more generalized music sites. It’s a resource for those serious about exploring the vast landscape of classical music beyond the most frequently programmed pieces, providing essential tools for study and performance.",
+    "imageIdea": "antique music manuscript paper",
+    "websiteLink": "https://composersart.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-15"
   }
 ]

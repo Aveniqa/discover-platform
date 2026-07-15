@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "standard-notes-encrypted-private-notes",
-      "diarly-private-markdown-journal",
-      "the-archive-plain-text-zettelkasten",
-      "rawgraphs-custom-vector-visualizations",
-      "gephi-network-visualization-analysis",
-      "kepler-gl-geospatial-big-data-tool",
-      "flourish-studio-interactive-data-stories",
-      "charticulator-custom-interactive-chart-design",
-      "observablehq-collaborative-data-exploration-notebooks",
-      "datawrapper-easy-charts-maps-journalists",
       "metabase-open-source-business-intelligence",
-      "apache-echarts-powerful-javascript-charts"
+      "apache-echarts-powerful-javascript-charts",
+      "fzf-fuzzy-finder-cli",
+      "tldr-simplified-man-pages-2",
+      "lazygit-terminal-ui-for-git-2",
+      "direnv-per-directory-environment-variables-2",
+      "bat-cat-clone-syntax-highlighting-2",
+      "delta-git-diff-viewer",
+      "zoxide-faster-smarter-cd",
+      "fd-faster-user-friendly-find",
+      "navi-interactive-cheatsheet-tool",
+      "lex-ai-writing-editor"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "standard-notes-encrypted-private-notes",
-      "diarly-private-markdown-journal",
-      "the-archive-plain-text-zettelkasten",
-      "rawgraphs-custom-vector-visualizations",
-      "gephi-network-visualization-analysis",
-      "kepler-gl-geospatial-big-data-tool",
-      "flourish-studio-interactive-data-stories",
-      "charticulator-custom-interactive-chart-design",
-      "observablehq-collaborative-data-exploration-notebooks",
-      "datawrapper-easy-charts-maps-journalists",
       "metabase-open-source-business-intelligence",
-      "apache-echarts-powerful-javascript-charts"
+      "apache-echarts-powerful-javascript-charts",
+      "fzf-fuzzy-finder-cli",
+      "tldr-simplified-man-pages-2",
+      "lazygit-terminal-ui-for-git-2",
+      "direnv-per-directory-environment-variables-2",
+      "bat-cat-clone-syntax-highlighting-2",
+      "delta-git-diff-viewer",
+      "zoxide-faster-smarter-cd",
+      "fd-faster-user-friendly-find",
+      "navi-interactive-cheatsheet-tool",
+      "lex-ai-writing-editor"
     ]
   },
   {
