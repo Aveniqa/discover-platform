@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cinemagoer</title>
+      <link>https://surfaced-x.pages.dev/item/cinemagoer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cinemagoer</guid>
+      <description>Cinemagoer is a sophisticated yet intuitive app designed for cinephiles and TV enthusiasts to meticulously track their viewing habits. It allows users to log every movie and TV show they watch, rate them, write reviews, and discover new content based on their preferences and what their friends are enjoying. The app also provides personalized recommendations and helps users curate watchlists for future viewing. Cinemagoer operates on a freemium model, offering core tracking features for free with premium tiers unlocking advanced analytics and social features.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34084878/pexels-photo-34084878.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34084878/pexels-photo-34084878.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34084878/pexels-photo-34084878.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Song Exploder</title>
+      <link>https://surfaced-x.pages.dev/item/songexploder-podcast-music-creation</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/songexploder-podcast-music-creation</guid>
+      <description>Song Exploder is a highly acclaimed podcast and media project where musicians take apart their songs, and piece by piece, tell the story of how they were made. Each episode offers an intimate look into the creative process, as artists break down their tracks, explaining the inspiration, the instruments, the vocal performances, and the production techniques used. It&apos;s a fascinating auditory journey into the heart of music creation, offering unique insights that are rarely shared publicly. The podcast is free to listen to on all major podcast platforms, with accompanying transcripts and sometimes visual elements available on their website.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Letterboxd</title>
+      <link>https://surfaced-x.pages.dev/item/letterboxd-social-film-discovery</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/letterboxd-social-film-discovery</guid>
+      <description>Letterboxd is a social networking service for film enthusiasts to track, share, and discover movies. Users can log films they&apos;ve watched, rate them, write reviews, create lists, and follow other users to see their cinematic journeys. The platform also offers curated content, news, and discussions around the world of cinema. It operates on a freemium model, with a robust free tier and an optional Pro membership for enhanced features. Letterboxd uniquely combines personal film journaling with a vibrant community, making it the go-to place for serious movie buffs to engage with their passion.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6762236/pexels-photo-6762236.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6762236/pexels-photo-6762236.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6762236/pexels-photo-6762236.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Codex-Dream-Skin</title>
+      <link>https://surfaced-x.pages.dev/item/codex-dream-skin-powershell-tool</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/codex-dream-skin-powershell-tool</guid>
+      <description>Codex-Dream-Skin is a PowerShell module designed to dramatically enhance the visual appearance and user experience of the Windows Terminal. It allows users to apply custom themes, color schemes, font styles, and even transparency effects to their terminal sessions, transforming a utilitarian interface into something more personalized and aesthetically pleasing. The tool is free to use, leveraging PowerShell scripting to modify terminal settings. It excels at providing a highly customizable and visually appealing command-line environment that can reduce eye strain and make long coding or system administration sessions more enjoyable.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7317331/pexels-photo-7317331.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7317331/pexels-photo-7317331.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7317331/pexels-photo-7317331.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>grok-build</title>
+      <link>https://surfaced-x.pages.dev/item/grok-build-coding-agent-harness</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/grok-build-coding-agent-harness</guid>
+      <description>grok-build is a powerful, extensible, and fully interactive terminal UI (TUI) for harnessing SpaceXAI&apos;s coding agents. It provides a fullscreen, mouse-driven interface designed for efficient interaction with AI-powered development tools. This tool aims to streamline the process of interacting with and managing complex AI coding assistants, allowing developers to leverage their capabilities more effectively within a familiar command-line environment. grok-build is open-source and free to use, with a focus on extensibility to support a growing ecosystem of AI coding agents.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g736bf46cd98e75841274fe39c8e24a00e84c404565ce5e9f977b2afe42c116dcd45206f5e76fcf2317f9e47158b8a3088952add16c589c06ade3c58b86d5a037_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g736bf46cd98e75841274fe39c8e24a00e84c404565ce5e9f977b2afe42c116dcd45206f5e76fcf2317f9e47158b8a3088952add16c589c06ade3c58b86d5a037_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g736bf46cd98e75841274fe39c8e24a00e84c404565ce5e9f977b2afe42c116dcd45206f5e76fcf2317f9e47158b8a3088952add16c589c06ade3c58b86d5a037_1280.jpg" />
+    </item>
     <item>
       <title>LingoDeer</title>
       <link>https://surfaced-x.pages.dev/item/master-languages-with-lingodeer</link>
@@ -393,6 +448,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/8828615/pexels-photo-8828615.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Letterboxd Community</title>
+      <link>https://surfaced-x.pages.dev/item/letter-boxd-community</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/letter-boxd-community</guid>
+      <description>Letterboxd is a social platform for film lovers to track, rate, and review movies they&apos;ve watched. Beyond just personal logging, its robust community features allow users to discover new films through curated lists, discussions, and recommendations from friends and fellow cinephiles. It acts as a digital diary for your cinematic journey, fostering a global conversation around movies.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/18413963/pexels-photo-18413963.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/18413963/pexels-photo-18413963.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/18413963/pexels-photo-18413963.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Hypothes.is</title>
       <link>https://surfaced-x.pages.dev/item/hypothesicol-research-tool</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hypothesicol-research-tool</guid>
@@ -402,6 +468,17 @@
       <enclosure url="https://images.pexels.com/photos/34803979/pexels-photo-34803979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/34803979/pexels-photo-34803979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/34803979/pexels-photo-34803979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Inkling: Our Open-Weights Model</title>
+      <link>https://surfaced-x.pages.dev/item/inkling-open-weights-model</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/inkling-open-weights-model</guid>
+      <description>Inkling is an open-weights language model developed by Thinking Machines AI. It&apos;s designed to be a powerful and accessible tool for a wide range of natural language processing tasks. By releasing the model&apos;s weights, Inkling aims to foster innovation and enable researchers and developers to build upon its capabilities. It offers advanced text generation, understanding, and reasoning, making it a versatile foundation for AI applications.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7577815/pexels-photo-7577815.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7577815/pexels-photo-7577815.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7577815/pexels-photo-7577815.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Internet Archive&apos;s Wayback Machine</title>
@@ -415,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/37148213/pexels-photo-37148213.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Clawk – Give coding agents a disposable Linux VM, not your laptop</title>
+      <link>https://surfaced-x.pages.dev/item/clawk-coding-agents-vm</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/clawk-coding-agents-vm</guid>
+      <description>Clawk is a tool designed to provide isolated, disposable Linux virtual machines for AI coding agents. Instead of giving these agents access to your local machine&apos;s resources and potentially sensitive files, Clawk spins up a fresh VM environment for each task. This enhances security and ensures a clean, reproducible environment for agent execution. It&apos;s built with the idea of separating the powerful but potentially risky capabilities of AI agents from your primary development workstation.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34804016/pexels-photo-34804016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34804016/pexels-photo-34804016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34804016/pexels-photo-34804016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Kumu.io</title>
       <link>https://surfaced-x.pages.dev/item/kumu-io</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/kumu-io</guid>
@@ -424,6 +512,17 @@
       <enclosure url="https://images.unsplash.com/photo-1738082956242-d897b9177bba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0NjI0MTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
       <media:content url="https://images.unsplash.com/photo-1738082956242-d897b9177bba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0NjI0MTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.unsplash.com/photo-1738082956242-d897b9177bba?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODM0NjI0MTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>The lost joy of music piracy</title>
+      <link>https://surfaced-x.pages.dev/item/the-lost-joy-of-music-piracy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/the-lost-joy-of-music-piracy</guid>
+      <description>This article delves into the cultural phenomenon of music piracy, exploring not just the act of illegal downloading but the community, the effort, and the unique joy it once brought to enthusiasts. It reflects on the early days of Napster, Kazaa, and the intricate network of file-sharing communities, contrasting it with the sterile convenience of modern streaming services. The piece touches on the desire for ownership, discovery, and the &apos;treasure hunt&apos; aspect of acquiring music before its widespread digital availability.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/29609210/pexels-photo-29609210.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/29609210/pexels-photo-29609210.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/29609210/pexels-photo-29609210.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Gather Town</title>
@@ -437,6 +536,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/13798548/pexels-photo-13798548.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Firefox in WebAssembly</title>
+      <link>https://surfaced-x.pages.dev/item/firefox-in-webassembly</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/firefox-in-webassembly</guid>
+      <description>This experimental project allows you to run a full instance of the Firefox web browser directly within your existing browser using WebAssembly. It&apos;s not a replacement for your primary browser but a fascinating demonstration of what&apos;s possible with modern web technologies. Developed by the Puter Labs team, it enables you to experience a sandboxed Firefox environment, useful for testing specific browser behaviors or simply for the sheer novelty.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/331788/pexels-photo-331788.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/331788/pexels-photo-331788.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/331788/pexels-photo-331788.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Fable</title>
       <link>https://surfaced-x.pages.dev/item/collaborative-storytelling-game</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/collaborative-storytelling-game</guid>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/29716778/pexels-photo-29716778.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/29716778/pexels-photo-29716778.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/29716778/pexels-photo-29716778.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>The Composer&apos;s Art Association</title>
-      <link>https://surfaced-x.pages.dev/item/the-composers-art-association</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/the-composers-art-association</guid>
-      <description>The Composer&apos;s Art Association is a website dedicated to providing a curated collection of classical music scores, often focusing on less commonly performed or out-of-print works. It aims to make a wide range of musical compositions accessible to musicians, educators, and enthusiasts worldwide. The site features meticulously prepared scores, often with detailed annotations and performance notes, making it a valuable resource for those seeking diverse repertoire beyond the standard concert hall selections. They are committed to preserving and promoting the broader canon of classical music.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4861059/pexels-photo-4861059.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4861059/pexels-photo-4861059.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4861059/pexels-photo-4861059.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Mastodon</title>
-      <link>https://surfaced-x.pages.dev/item/decentralized-social-network</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/decentralized-social-network</guid>
-      <description>Mastodon is a free, open-source, decentralized social networking platform that operates on a network of independent servers, known as instances. Users can join existing instances or even host their own. It functions similarly to other microblogging platforms, allowing users to post short messages (toots), follow others, and engage in discussions. The key difference is its decentralized nature, which means no single entity controls the platform, fostering a more community-driven and ad-free experience. Mastodon prioritizes user privacy and control over their data and feed, avoiding algorithmic manipulation.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17489160/pexels-photo-17489160.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/17489160/pexels-photo-17489160.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/17489160/pexels-photo-17489160.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Archaeology Data Service (ADS)</title>
-      <link>https://surfaced-x.pages.dev/item/archaeology-data-service</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/archaeology-data-service</guid>
-      <description>The Archaeology Data Service (ADS) is a leading digital archive for the UK&apos;s archaeological data. It provides free online access to a vast collection of archaeological reports, surveys, and datasets, preserving and making accessible the results of archaeological investigations. The ADS is funded by Historic England, Historic Scotland, Cadw, and the Museums, Libraries and Archives Council, ensuring long-term preservation and accessibility of valuable cultural heritage information. Researchers, students, and heritage professionals can search and download this extensive repository.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/35870230/pexels-photo-35870230.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/35870230/pexels-photo-35870230.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/35870230/pexels-photo-35870230.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>ElevenLabs</title>
-      <link>https://surfaced-x.pages.dev/item/generative-voice-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/generative-voice-ai</guid>
-      <description>ElevenLabs is a powerful AI-powered platform that excels at generating incredibly realistic and emotionally nuanced synthetic voices from text. It offers a wide range of pre-made AI voices and allows users to clone their own voice or create entirely new custom voices with just a few minutes of audio input. The platform is freemium, with a generous free tier for experimentation and paid plans for professional use, offering features like longer audio generation and higher quality output. ElevenLabs stands out by its unparalleled ability to capture subtle intonations and emotional delivery, making AI-generated speech indistinguishable from human recordings for many applications.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17684563/pexels-photo-17684563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/17684563/pexels-photo-17684563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/17684563/pexels-photo-17684563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Vancouver PD</title>
-      <link>https://surfaced-x.pages.dev/item/vancouver-pd-quick-escape</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vancouver-pd-quick-escape</guid>
-      <description>The Vancouver Police Department&apos;s website incorporates a discreet &apos;Quick Escape&apos; button in its header. This feature is designed to immediately redirect users to a generic search engine page, effectively wiping their browsing history from the site and obscuring their visit. This is a crucial privacy feature intended for individuals who may be seeking information about domestic violence, abuse, or other sensitive topics and wish to do so without leaving a traceable record on their device.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/31470430/pexels-photo-31470430.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/31470430/pexels-photo-31470430.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/31470430/pexels-photo-31470430.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Context.dev</title>
-      <link>https://surfaced-x.pages.dev/item/context-dev-web-scraping-api</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/context-dev-web-scraping-api</guid>
-      <description>Context.dev is a powerful API designed to help AI products and developers scrape, enrich, and extract data from the internet. It provides tools to capture content from any URL, crawl entire websites, and convert web pages into LLM-ready Markdown. Beyond basic scraping, it offers features like structured data extraction into custom schemas and screenshot capture. This service is particularly vital for building AI applications that require real-time or comprehensive web data. Context.dev operates on a paid, usage-based model, offering a scalable solution for developers needing robust web data capabilities.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37605913/pexels-photo-37605913.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37605913/pexels-photo-37605913.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37605913/pexels-photo-37605913.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Jurassic Park computers in excruciating detail</title>
-      <link>https://surfaced-x.pages.dev/item/jurassic-park-computers</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/jurassic-park-computers</guid>
-      <description>This website provides an in-depth, detailed exploration of the computer systems and technologies featured in the movie &apos;Jurassic Park.&apos; It meticulously breaks down the hardware, software, and networking concepts that were imagined to be running the park&apos;s complex operations. The author dives into specific components like the Sun Microsystems workstations, the CGI rendering processes, and even the fictional operating systems, offering a fascinating glimpse into how the film depicted advanced technology for its time. It&apos;s a deep dive for film buffs and tech enthusiasts alike.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37878823/pexels-photo-37878823.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37878823/pexels-photo-37878823.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37878823/pexels-photo-37878823.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Acti</title>
-      <link>https://surfaced-x.pages.dev/item/acti-agentic-keyboard</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/acti-agentic-keyboard</guid>
-      <description>Acti is an innovative agentic keyboard for mobile devices that transforms how you interact with your smartphone. Instead of switching between apps for information or actions, Acti understands your intent expressed through natural language typed into its special bar. Whether you need live sports scores, restaurant recommendations, to add an event to your calendar, or to find information within your connected apps like Notion, Acti brings the relevant result or action directly to you, in context. It aims to streamline mobile tasks, reducing the need for extensive app navigation. Acti is currently free to try, with potential for future premium features.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/30479283/pexels-photo-30479283.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/30479283/pexels-photo-30479283.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/30479283/pexels-photo-30479283.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Juggler</title>
-      <link>https://surfaced-x.pages.dev/item/juggler-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/juggler-ai</guid>
-      <description>Juggler is an open-source GUI agent designed to assist with coding tasks by providing a visual interface for interacting with AI models. Created by the developer behind JUCE, it aims to simplify complex AI workflows into an accessible graphical environment. Developers can use Juggler to orchestrate AI agents for tasks like code generation, debugging, or even exploring new programming paradigms through a user-friendly, point-and-click interface. This makes advanced AI coding assistance more approachable for a wider range of users.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7369/startup-photos.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7369/startup-photos.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7369/startup-photos.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>oomwoo</title>
-      <link>https://surfaced-x.pages.dev/item/oomwoo-open-source-vacuum-robot-cleaner</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/oomwoo-open-source-vacuum-robot-cleaner</guid>
-      <description>oomwoo is an ambitious open-source project aiming to create a fully functional, DIY vacuum robot cleaner. It leverages Python for its core logic, allowing enthusiasts and developers to customize and improve its navigation, cleaning patterns, and sensor integration. The project is ideal for those interested in robotics, home automation, and learning about the inner workings of cleaning robots. It&apos;s a free, community-driven initiative, offering a transparent and adaptable alternative to proprietary robotic vacuums.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/844874/pexels-photo-844874.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/844874/pexels-photo-844874.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/844874/pexels-photo-844874.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

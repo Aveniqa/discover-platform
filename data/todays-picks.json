@@ -1,19 +1,19 @@
 [
   {
-    "slug": "the-composers-art-association",
-    "title": "The Composer's Art Association",
+    "slug": "letter-boxd-community",
+    "title": "Letterboxd Community",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Composer's Art Association is a website dedicated to providing a curated collection of classical music scores, often",
+    "description": "Letterboxd is a social platform for film lovers to track, rate, and review movies they've watched. Beyond just personal ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "master-languages-with-lingodeer",
-    "title": "LingoDeer",
+    "slug": "cinemagoer",
+    "title": "Cinemagoer",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "LingoDeer is a language-learning app designed to provide a structured and comprehensive approach to mastering new langua",
+    "description": "Cinemagoer is a sophisticated yet intuitive app designed for cinephiles and TV enthusiasts to meticulously track their v",
     "badge": null,
     "type": "tool"
   }
