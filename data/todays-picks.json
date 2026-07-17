@@ -1,19 +1,19 @@
 [
   {
-    "slug": "letter-boxd-community",
-    "title": "Letterboxd Community",
+    "slug": "readwise-reader",
+    "title": "Readwise Reader",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Letterboxd is a social platform for film lovers to track, rate, and review movies they've watched. Beyond just personal ",
+    "description": "Readwise Reader is a unified reading app that centralizes articles, PDFs, newsletters, and ebooks from various sources i",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "cinemagoer",
-    "title": "Cinemagoer",
+    "slug": "advocacy-ai",
+    "title": "Advocacy AI",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Cinemagoer is a sophisticated yet intuitive app designed for cinephiles and TV enthusiasts to meticulously track their v",
+    "description": "Advocacy AI is a platform designed to help individuals and organizations amplify their messages and mobilize support for",
     "badge": null,
     "type": "tool"
   }

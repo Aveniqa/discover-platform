@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "kepler-gl-geospatial-big-data-tool",
-      "charticulator-custom-interactive-chart-design",
-      "metabase-open-source-business-intelligence",
-      "fzf-fuzzy-finder-cli",
-      "tldr-simplified-man-pages-2",
-      "lazygit-terminal-ui-for-git-2",
-      "bat-cat-clone-syntax-highlighting-2",
-      "delta-git-diff-viewer",
-      "zoxide-faster-smarter-cd",
-      "fd-faster-user-friendly-find",
       "hyperwrite-ai-writing-assistant",
-      "deepl-write-ai-writing-style-clarity"
+      "deepl-write-ai-writing-style-clarity",
+      "frase-io-seo-content-optimization-2",
+      "quillbot-ai-paraphraser-summarizer",
+      "compose-ai-autocompletion-for-writing",
+      "bearly-ai-summarization-paraphrasing-generation",
+      "article-forge-full-article-generation-ai",
+      "tabula-extract-data-from-pdfs",
+      "inciteful-ai-interactive-citation-analysis",
+      "scite-ai-smart-citation-analysis",
+      "refind-curated-link-discovery-and-organization",
+      "beancount-plain-text-accounting"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "metabase-open-source-business-intelligence",
-      "apache-echarts-powerful-javascript-charts",
-      "fzf-fuzzy-finder-cli",
-      "tldr-simplified-man-pages-2",
-      "lazygit-terminal-ui-for-git-2",
-      "direnv-per-directory-environment-variables-2",
-      "bat-cat-clone-syntax-highlighting-2",
-      "delta-git-diff-viewer",
-      "zoxide-faster-smarter-cd",
-      "fd-faster-user-friendly-find",
       "navi-interactive-cheatsheet-tool",
-      "lex-ai-writing-editor"
+      "lex-ai-writing-editor",
+      "sudowrite-ai-for-creative-writers",
+      "hyperwrite-ai-writing-assistant",
+      "deepl-write-ai-writing-style-clarity",
+      "frase-io-seo-content-optimization-2",
+      "quillbot-ai-paraphraser-summarizer",
+      "compose-ai-autocompletion-for-writing",
+      "rytr-ai-writing-assistant-for-marketing",
+      "bearly-ai-summarization-paraphrasing-generation",
+      "article-forge-full-article-generation-ai",
+      "research-rabbit-visual-literature-discovery"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "metabase-open-source-business-intelligence",
-      "apache-echarts-powerful-javascript-charts",
-      "fzf-fuzzy-finder-cli",
-      "tldr-simplified-man-pages-2",
-      "lazygit-terminal-ui-for-git-2",
-      "direnv-per-directory-environment-variables-2",
-      "bat-cat-clone-syntax-highlighting-2",
-      "delta-git-diff-viewer",
-      "zoxide-faster-smarter-cd",
-      "fd-faster-user-friendly-find",
       "navi-interactive-cheatsheet-tool",
-      "lex-ai-writing-editor"
+      "lex-ai-writing-editor",
+      "sudowrite-ai-for-creative-writers",
+      "hyperwrite-ai-writing-assistant",
+      "deepl-write-ai-writing-style-clarity",
+      "frase-io-seo-content-optimization-2",
+      "quillbot-ai-paraphraser-summarizer",
+      "compose-ai-autocompletion-for-writing",
+      "rytr-ai-writing-assistant-for-marketing",
+      "bearly-ai-summarization-paraphrasing-generation",
+      "article-forge-full-article-generation-ai",
+      "research-rabbit-visual-literature-discovery"
     ]
   },
   {
@@ -65,18 +65,18 @@
     "description": "Handpicked gifts for the person who has everything.",
     "emoji": "🎁",
     "itemSlugs": [
-      "kepler-gl-geospatial-big-data-tool",
-      "flourish-studio-interactive-data-stories",
-      "charticulator-custom-interactive-chart-design",
-      "observablehq-collaborative-data-exploration-notebooks",
-      "datawrapper-easy-charts-maps-journalists",
-      "apache-echarts-powerful-javascript-charts",
-      "delta-git-diff-viewer",
       "sudowrite-ai-for-creative-writers",
       "deepl-write-ai-writing-style-clarity",
       "frase-io-seo-content-optimization-2",
       "quillbot-ai-paraphraser-summarizer",
-      "rytr-ai-writing-assistant-for-marketing"
+      "rytr-ai-writing-assistant-for-marketing",
+      "article-forge-full-article-generation-ai",
+      "inciteful-ai-interactive-citation-analysis",
+      "typst-markdown-like-scientific-document-typesetting",
+      "scite-ai-smart-citation-analysis",
+      "refind-curated-link-discovery-and-organization",
+      "honeydue-finance-for-couples",
+      "pocketguard-money-left-to-spend"
     ]
   },
   {
