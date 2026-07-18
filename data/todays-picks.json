@@ -1,19 +1,19 @@
 [
   {
-    "slug": "readwise-reader",
-    "title": "Readwise Reader",
+    "slug": "linguistic-maps",
+    "title": "Linguistic Maps",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Readwise Reader is a unified reading app that centralizes articles, PDFs, newsletters, and ebooks from various sources i",
+    "description": "Linguistic Maps is a freely accessible, interactive atlas of linguistic data, primarily focusing on dialectal variation ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "advocacy-ai",
-    "title": "Advocacy AI",
+    "slug": "linguascope",
+    "title": "Linguascope",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Advocacy AI is a platform designed to help individuals and organizations amplify their messages and mobilize support for",
+    "description": "Linguascope is a subscription-based online platform offering a vast library of interactive games and activities designed",
     "badge": null,
     "type": "tool"
   }
