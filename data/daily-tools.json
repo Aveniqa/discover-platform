@@ -1,70 +1,5 @@
 [
   {
-    "id": 304,
-    "slug": "xmind-professional-mind-mapping-brainstorming",
-    "toolName": "XMind",
-    "whatItDoes": "XMind is a comprehensive mind mapping and brainstorming software developed by XMind Ltd., designed for organizing thoughts, managing information, and facilitating creative thinking. It offers a rich set of features including various map structures (mind map, logic chart, brace map, etc.), professional templates, and presentation modes. The primary workflow involves creating a central topic, expanding ideas with branches and sub-branches, adding markers, notes, and attachments, and then structuring the information for clarity and impact. It is available as a robust desktop application for Windows, Mac, and Linux, with companion mobile apps for iOS and Android, and a basic web version. Its most used feature is the 'Brainstorming Mode,' which allows for quick idea capture and subsequent organization using a timer and a night mode. While primarily a desktop tool, XMind offers cloud synchronization for files across devices, ensuring accessibility and consistency.",
-    "category": "Productivity",
-    "whyItIsUseful": "XMind eliminates the disjointed nature of disparate notes and ideas, providing a powerful, structured environment for thought organization and presentation. For the project manager outlining a complex project plan, XMind allows for detailed task breakdown, resource allocation, and timeline visualization using its diverse map structures. For the writer developing a book or script, it provides an excellent canvas for plot outlining, character development, and scene mapping, keeping all narrative elements connected. XMind offers a free version (XMind Basic) which is genuinely useful for creating, editing, and saving mind maps, though advanced features are paid. Compared to simple online mind mappers, XMind wins with its desktop-grade performance, extensive customization options, and professional presentation capabilities. A power feature is the 'Gantt Chart' view, which transforms mind map tasks directly into a project schedule, useful for project management. The learning curve is moderate; a non-technical person can create a basic mind map in under 5 minutes, but mastering its advanced features and different structures takes a bit more time.",
-    "imageIdea": "XMind desktop application interface showing a detailed mind map with multiple branches, icons, and different structural layouts.",
-    "websiteLink": "https://xmind.app",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/xmind-professional-mind-mapping-brainstorming.webp"
-  },
-  {
-    "id": 305,
-    "slug": "coggle-collaborative-mind-maps-flowcharts",
-    "toolName": "Coggle",
-    "whatItDoes": "Coggle is an online collaborative mind mapping and flowcharting application developed by Coggle, Ltd., designed for simple, elegant visual note-taking and idea generation. It features a clean, intuitive interface that allows users to create beautiful and structured diagrams with ease, focusing on clarity and connectivity. The primary workflow involves starting a new diagram, adding branches by dragging from existing nodes, and then inviting others to contribute or view the map in real-time. It is entirely web-based, making it accessible from any device with a modern browser, without requiring any downloads or installations. Its most used feature is the ability to add multiple starting points to a single diagram, allowing for more complex and interconnected structures than traditional mind maps. All diagrams are stored securely in the cloud via Google Drive integration or Coggle's own storage, ensuring continuous synchronization and easy sharing.",
-    "category": "Education",
-    "whyItIsUseful": "Coggle eliminates the complexity often associated with diagramming software, providing a straightforward and visually appealing way to organize thoughts. For the educator preparing a lesson plan, Coggle helps in structuring topics, sub-topics, and learning objectives into an easily digestible visual format for students. For the small startup team brainstorming product features, it serves as a quick and effective tool to capture ideas, group them logically, and identify relationships between concepts. Coggle offers a genuinely useful free tier that allows for the creation of up to three private diagrams, along with unlimited public diagrams, making it excellent for personal use and sharing. Compared to robust, feature-heavy whiteboards, Coggle wins with its minimalist design and focus on making mind mapping incredibly fast and simple. A power feature is the ability to easily add images and icons directly into branches, enhancing visual communication within the map. The learning curve is extremely low; a non-technical person can create their first collaborative mind map in under 5 minutes, thanks to its drag-and-drop interface and intuitive controls.",
-    "imageIdea": "Coggle interface showing a colorful, organically branching mind map with distinct nodes and connecting lines.",
-    "websiteLink": "https://coggle.it",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/coggle-collaborative-mind-maps-flowcharts.webp"
-  },
-  {
-    "id": 306,
-    "slug": "obsidian-canvas-visual-thinking-knowledge-graph",
-    "toolName": "Obsidian Canvas",
-    "whatItDoes": "Obsidian Canvas is a core feature within the Obsidian knowledge management tool, developed by Dynalist Inc., offering a free-form visual workspace for connecting notes, media, and ideas. It functions as an infinite canvas where users can drag and drop existing Obsidian notes, embed web links, images, PDFs, and even create new text cards, arranging them spatially. The primary workflow involves visually linking disparate pieces of information, brainstorming new connections, and creating spatial layouts that reflect complex thought processes. It is available as part of the Obsidian desktop application for Windows, Mac, and Linux, with mobile apps for iOS and Android, ensuring local-first access to your knowledge base. Its most used feature is the seamless integration with existing Obsidian notes, allowing users to visually navigate and build upon their personal knowledge graph. All data is stored locally on your device in plain text Markdown files, giving users complete ownership and control over their information.",
-    "category": "Research",
-    "whyItIsUseful": "Obsidian Canvas eliminates the rigidity of linear note-taking, providing a fluid, non-hierarchical space to explore ideas and see relationships. For the academic researcher synthesizing a large body of literature, Canvas enables them to visually connect different papers, concepts, and arguments, forming a holistic understanding. For the creative writer developing a novel, it serves as an excellent tool for mapping character relationships, plot lines, and thematic elements, seeing the whole story at a glance. Obsidian itself is free for personal use, including Canvas, making it an incredibly powerful and genuinely useful tool for knowledge workers. Compared to online collaborative whiteboards, Obsidian Canvas wins with its deep integration into a local-first, plain-text knowledge base, offering unparalleled privacy and longevity of data. A power feature is the ability to nest canvases within other canvases, creating hierarchical visual structures for incredibly complex projects. The learning curve is moderate; while basic card placement is simple, leveraging its full potential with existing Obsidian notes and links requires some familiarity with Obsidian's ecosystem.",
-    "imageIdea": "Obsidian Canvas showing a network of interconnected notes, images, and embedded PDFs on a dark-themed infinite canvas.",
-    "websiteLink": "https://obsidian.md/canvas",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/obsidian-canvas-visual-thinking-knowledge-graph.webp"
-  },
-  {
-    "id": 307,
-    "slug": "lucidspark-collaborative-virtual-whiteboard-brainstorming",
-    "toolName": "Lucidspark",
-    "whatItDoes": "Lucidspark is a virtual whiteboard platform developed by Lucid Software Inc., designed specifically to facilitate collaborative brainstorming, ideation, and workshop sessions. It provides an expansive digital canvas equipped with sticky notes, freehand drawing tools, shapes, templates, and voting functionalities. The primary workflow involves inviting team members to a live session where they can collectively add ideas, cluster information, prioritize items, and make decisions in real-time. It is accessible through web browsers on any operating system and offers dedicated mobile apps for both iOS and Android, ensuring flexibility across devices. Its most used feature is the 'Facilitator Tools,' which include a timer, voting, and grouping functionalities to guide engaging and productive sessions. All board data is stored and synchronized in the cloud, enabling seamless collaboration and ensuring that all participants are always working on the most current version.",
-    "category": "Communication",
-    "whyItIsUseful": "Lucidspark eliminates the logistical challenges of traditional whiteboarding sessions, allowing remote and distributed teams to brainstorm as effectively as if they were in the same room. For the agile team conducting a sprint retrospective, Lucidspark provides a structured environment for collecting feedback, identifying improvements, and assigning action items using its pre-built templates. For the product design team sketching out early concepts, it acts as a dynamic space to quickly draw, annotate, and gather immediate input from stakeholders. Lucidspark offers a free tier that includes up to three editable boards, which is genuinely useful for individuals and small teams to explore its core collaborative features without cost. Compared to simpler digital whiteboards, Lucidspark wins with its robust set of facilitator tools, extensive template library, and deep integration with other Lucid products like Lucidchart. A power feature is the 'Breakout Boards' capability, allowing facilitators to split large groups into smaller, focused working spaces within the main session. The learning curve is low; a non-technical person can join a session and start contributing ideas with sticky notes in under 5 minutes, due to its intuitive interface.",
-    "imageIdea": "Lucidspark virtual whiteboard displaying a brainstorming session with colorful sticky notes, arrows, and a timer in the corner.",
-    "websiteLink": "https://lucidspark.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/lucidspark-collaborative-virtual-whiteboard-brainstorming.webp"
-  },
-  {
-    "id": 313,
-    "slug": "obs-studio-open-source-screen-recorder-stream",
-    "toolName": "OBS Studio",
-    "whatItDoes": "OBS Studio, developed by the OBS Project, is a free and open-source software for video recording and live streaming, widely regarded as the industry standard for professional broadcasters and content creators. It allows users to compose scenes from multiple sources including window captures, images, text, webcams, browser windows, and more, offering unparalleled control over output. The primary workflow involves setting up scenes with desired sources, configuring audio mixers and transitions, and then initiating recording or streaming to platforms like Twitch, YouTube, or Facebook Live. It is available across Windows, macOS, and Linux platforms, providing robust performance regardless of operating system. Its most used feature is its powerful real-time video/audio capturing and mixing capabilities, allowing dynamic scene switching. All recordings are saved locally to the user's computer, with options for various formats and quality settings, and streaming data is sent directly to configured services.",
-    "category": "Entertainment",
-    "whyItIsUseful": "OBS Studio eliminates the need for expensive, proprietary software for high-quality screen recording and live streaming, democratizing professional content creation. For the aspiring Twitch streamer, it's essential for combining gameplay footage with webcam, alerts, and custom overlays into a single, polished live broadcast. For the online educator, it enables the creation of professional-grade lecture videos, seamlessly switching between slides, screen demonstrations, and face-to-camera explanations. As open-source software, OBS Studio is entirely free with no paid tiers or hidden features, offering its full power to everyone. It significantly outperforms most built-in screen recorders and even many paid solutions with its extensive customization options, plugins, and control over every aspect of the output. A power feature is its 'Studio Mode,' which allows users to preview and adjust scenes before pushing them live, preventing on-air errors. The learning curve is steep for beginners, requiring dedication to understand its complex scene management and audio routing, but numerous community tutorials exist.",
-    "imageIdea": "OBS Studio interface showing multiple scenes, sources, and audio mixers, with a preview of a complex stream layout.",
-    "websiteLink": "https://obsproject.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/obs-studio-open-source-screen-recorder-stream.webp"
-  },
-  {
     "id": 315,
     "slug": "screencastify-chrome-screen-recorder-editor",
     "toolName": "Screencastify",
@@ -5734,7 +5669,8 @@
     "imageIdea": "vintage film reel poster collage",
     "websiteLink": "https://letterboxd.com/",
     "type": "tool",
-    "dateAdded": "2026-07-16"
+    "dateAdded": "2026-07-16",
+    "screenshotUrl": "/screenshots/letterboxd-social-film-discovery.webp"
   },
   {
     "id": 926,
@@ -5900,5 +5836,61 @@
     "type": "tool",
     "dateAdded": "2026-07-18",
     "screenshotUrl": "/screenshots/linguascope.webp"
+  },
+  {
+    "id": 938,
+    "slug": "eagle-asset-manager",
+    "toolName": "Eagle",
+    "seoTitle": "Eagle — Digital asset manager tool",
+    "whatItDoes": "Eagle is a robust digital asset management tool designed for designers, artists, and creators to collect, organize, and manage their inspiration and work files. It supports a vast array of file types, including images, videos, audio, and 3D models, allowing users to tag, categorize, and search their entire digital library with ease. Eagle operates on a one-time purchase model, offering lifetime access to the software and its features. It excels at providing a visual and highly searchable repository for creative assets, preventing inspiration from getting lost in a chaotic digital folder structure.",
+    "category": "Design",
+    "whyItIsUseful": "For anyone who deals with a significant volume of visual and creative assets, Eagle is an indispensable tool for maintaining sanity and maximizing creative output. Its intuitive interface makes it incredibly simple to clip content from the web, import local files, and organize everything with tags, colors, and smart folders. This meticulous organization means that instead of spending precious time hunting for that perfect reference image or discarded concept, users can instantly retrieve what they need. The ability to preview virtually any file type directly within Eagle further streamlines the workflow. Many designers and artists report that Eagle not only saves them hours each week but also acts as a powerful tool for rediscovering forgotten ideas and seeing patterns in their own creative journey, making it a cornerstone of their digital studio.",
+    "imageIdea": "eagle app creative assets",
+    "websiteLink": "https://eagle.cool/",
+    "type": "tool",
+    "dateAdded": "2026-07-19",
+    "screenshotUrl": "/screenshots/eagle-asset-manager.webp"
+  },
+  {
+    "id": 939,
+    "slug": "bookstack-documentation-wiki",
+    "toolName": "BookStack",
+    "seoTitle": "BookStack — Self-hosted documentation wiki",
+    "whatItDoes": "BookStack is a simple, self-hosted, and opinionated wiki system that makes it easy to create, organize, and display documentation. It structures content into books, chapters, and pages, offering a clear hierarchical organization ideal for knowledge bases, internal wikis, and project documentation. BookStack is open-source and free to use, requiring only a server environment for deployment. It stands out for its user-friendly interface and straightforward content management, making it accessible even for non-technical users to create and maintain comprehensive documentation.",
+    "category": "Productivity",
+    "whyItIsUseful": "For teams or individuals needing a reliable and structured way to document processes, projects, or internal knowledge, BookStack offers an elegant and efficient solution without the complexity of enterprise wiki software. Its 'book' metaphor provides an intuitive framework for organizing information logically, making it easy for users to find what they need quickly. This is particularly beneficial for onboarding new team members, providing clear instructions, or maintaining a central repository of company information. Being self-hostable provides complete control over data privacy and security, a significant advantage for organizations with sensitive information. Its clean interface and straightforward editing capabilities mean that maintaining up-to-date documentation is less of a chore and more of an integrated part of the workflow, leading to improved knowledge sharing and reduced reliance on tribal knowledge.",
+    "imageIdea": "bookstack app documentation organization",
+    "websiteLink": "https://www.bookstackapp.com/",
+    "type": "tool",
+    "dateAdded": "2026-07-19",
+    "screenshotUrl": "/screenshots/bookstack-documentation-wiki.webp"
+  },
+  {
+    "id": 940,
+    "slug": "reflect-app",
+    "toolName": "Reflect",
+    "seoTitle": "Reflect — Bi-directional note-taking app",
+    "whatItDoes": "Reflect is a modern note-taking application that focuses on bi-directional linking, hierarchical organization, and a clean, distraction-free interface. It allows users to build a networked knowledge base by easily connecting notes, ideas, and projects. Key features include backlinking, tagging, powerful search, and collaboration capabilities. Reflect operates on a freemium model, offering a robust free tier for individual use and paid plans for enhanced features and team collaboration.",
+    "category": "Productivity",
+    "whyItIsUseful": "Reflect is designed to help individuals and teams capture, organize, and connect their knowledge more effectively. The bi-directional linking feature is particularly powerful, allowing users to see all notes that link to a specific note, revealing connections and insights that might otherwise be missed. This makes it an excellent tool for research, content creation, and personal knowledge management. Its intuitive interface and focus on a clean writing experience minimize friction, encouraging consistent use. For those working on collaborative projects, Reflect's sharing and commenting features streamline team communication and knowledge dissemination. It’s ideal for academics, writers, project managers, and anyone who wants to build a robust and interconnected system for their thoughts and work.",
+    "imageIdea": "digital notebook interconnected pages",
+    "websiteLink": "https://reflect.app/",
+    "type": "tool",
+    "dateAdded": "2026-07-19",
+    "screenshotUrl": "/screenshots/reflect-app.webp"
+  },
+  {
+    "id": 941,
+    "slug": "briefmatic",
+    "toolName": "Briefmatic",
+    "seoTitle": "Briefmatic — AI-powered client brief and project starter",
+    "whatItDoes": "Briefmatic is an AI-powered tool designed to help creative agencies, freelancers, and businesses generate comprehensive client briefs and project proposals with remarkable efficiency. It guides users through a series of questions to capture project scope, goals, target audience, and deliverables, then uses this information to draft a structured and detailed brief. The platform aims to eliminate the guesswork and time-consuming process of initiating new projects. Briefmatic operates on a paid subscription model, offering different tiers based on usage and features. It excels at ensuring all critical project details are captured upfront, setting a solid foundation for successful project execution.",
+    "category": "Productivity",
+    "whyItIsUseful": "Briefmatic revolutionizes the often tedious process of client onboarding and project initiation. By leveraging AI, it ensures that crucial details are not overlooked, leading to clearer project scope, reduced scope creep, and ultimately, more successful project outcomes. For agencies, this means faster turnaround times for proposals and a more professional client experience. For freelancers, it simplifies the process of understanding client needs and setting expectations. The structured output of a Briefmatic brief acts as a single source of truth for all stakeholders, fostering alignment from the very beginning. Its focus on capturing strategic objectives and creative requirements makes it invaluable for ensuring that projects are well-defined and set up for creative success, saving significant time and potential rework down the line.",
+    "imageIdea": "ai project brief document",
+    "websiteLink": "https://briefmatic.com/",
+    "type": "tool",
+    "dateAdded": "2026-07-19",
+    "screenshotUrl": "/screenshots/briefmatic.webp"
   }
 ]

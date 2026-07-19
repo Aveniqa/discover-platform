@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "navi-interactive-cheatsheet-tool",
-      "lex-ai-writing-editor",
-      "sudowrite-ai-for-creative-writers",
-      "hyperwrite-ai-writing-assistant",
-      "deepl-write-ai-writing-style-clarity",
-      "frase-io-seo-content-optimization-2",
-      "quillbot-ai-paraphraser-summarizer",
-      "compose-ai-autocompletion-for-writing",
-      "rytr-ai-writing-assistant-for-marketing",
-      "bearly-ai-summarization-paraphrasing-generation",
       "article-forge-full-article-generation-ai",
-      "research-rabbit-visual-literature-discovery"
+      "research-rabbit-visual-literature-discovery",
+      "tabula-extract-data-from-pdfs",
+      "inciteful-ai-interactive-citation-analysis",
+      "typst-markdown-like-scientific-document-typesetting",
+      "scite-ai-smart-citation-analysis",
+      "refind-curated-link-discovery-and-organization",
+      "beancount-plain-text-accounting",
+      "honeydue-finance-for-couples",
+      "firefly-iii-self-hosted-finance",
+      "pocketguard-money-left-to-spend",
+      "budgetbakers-wallet-mobile-budgeting"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "navi-interactive-cheatsheet-tool",
-      "lex-ai-writing-editor",
-      "sudowrite-ai-for-creative-writers",
-      "hyperwrite-ai-writing-assistant",
-      "deepl-write-ai-writing-style-clarity",
-      "frase-io-seo-content-optimization-2",
-      "quillbot-ai-paraphraser-summarizer",
-      "compose-ai-autocompletion-for-writing",
-      "rytr-ai-writing-assistant-for-marketing",
-      "bearly-ai-summarization-paraphrasing-generation",
       "article-forge-full-article-generation-ai",
-      "research-rabbit-visual-literature-discovery"
+      "research-rabbit-visual-literature-discovery",
+      "tabula-extract-data-from-pdfs",
+      "inciteful-ai-interactive-citation-analysis",
+      "scite-ai-smart-citation-analysis",
+      "refind-curated-link-discovery-and-organization",
+      "beancount-plain-text-accounting",
+      "honeydue-finance-for-couples",
+      "firefly-iii-self-hosted-finance",
+      "pocketguard-money-left-to-spend",
+      "habitica-gamified-habit-task-manager",
+      "loop-habit-tracker-android-open-source"
     ]
   },
   {

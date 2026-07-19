@@ -1,19 +1,19 @@
 [
   {
-    "slug": "linguistic-maps",
-    "title": "Linguistic Maps",
+    "slug": "calmcode-learn-programming-visualizations",
+    "title": "CalmCode",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Linguistic Maps is a freely accessible, interactive atlas of linguistic data, primarily focusing on dialectal variation ",
+    "description": "CalmCode is an educational platform that uses clear, concise video explanations and interactive visualizations to teach ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "linguascope",
-    "title": "Linguascope",
+    "slug": "briefmatic",
+    "title": "Briefmatic",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Linguascope is a subscription-based online platform offering a vast library of interactive games and activities designed",
+    "description": "Briefmatic is an AI-powered tool designed to help creative agencies, freelancers, and businesses generate comprehensive ",
     "badge": null,
     "type": "tool"
   }
