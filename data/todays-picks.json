@@ -1,19 +1,19 @@
 [
   {
-    "slug": "calmcode-learn-programming-visualizations",
-    "title": "CalmCode",
+    "slug": "personal-knowledge-manager-linked-notes",
+    "title": "Athens Research",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "CalmCode is an educational platform that uses clear, concise video explanations and interactive visualizations to teach ",
+    "description": "Athens Research is an open-source, local-first personal knowledge management tool that focuses on interconnected notes a",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "briefmatic",
-    "title": "Briefmatic",
+    "slug": "palette-generator",
+    "title": "Coolors.co",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Briefmatic is an AI-powered tool designed to help creative agencies, freelancers, and businesses generate comprehensive ",
+    "description": "Coolors.co is a highly regarded, freemium online tool for generating, exploring, and saving color palettes. It allows us",
     "badge": null,
     "type": "tool"
   }
