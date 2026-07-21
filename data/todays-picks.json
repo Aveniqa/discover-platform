@@ -1,19 +1,19 @@
 [
   {
-    "slug": "personal-knowledge-manager-linked-notes",
-    "title": "Athens Research",
+    "slug": "wasmtime-runtime",
+    "title": "Wasmtime Runtime",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Athens Research is an open-source, local-first personal knowledge management tool that focuses on interconnected notes a",
+    "description": "Wasmtime is a high-performance, secure, and embeddable runtime designed for executing WebAssembly (Wasm) modules outside",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "palette-generator",
-    "title": "Coolors.co",
+    "slug": "lapce",
+    "title": "Lapce",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Coolors.co is a highly regarded, freemium online tool for generating, exploring, and saving color palettes. It allows us",
+    "description": "Lapce is a fast, powerful, and intuitive code editor built in Rust. It's designed from the ground up for performance, ut",
     "badge": null,
     "type": "tool"
   }

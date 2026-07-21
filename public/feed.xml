@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lapce</title>
+      <link>https://surfaced-x.pages.dev/item/lapce</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lapce</guid>
+      <description>Lapce is a fast, powerful, and intuitive code editor built in Rust. It&apos;s designed from the ground up for performance, utilizing a modern rendering engine and asynchronous operations to provide a seamless editing experience, even with large projects. Lapce offers features such as intelligent code completion, syntax highlighting, multi-cursor editing, and integrated debugging capabilities. It is a free and open-source project, aiming to provide a robust alternative to established editors for developers who value speed and efficiency. Its native Rust implementation contributes to its remarkable responsiveness and low memory footprint.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g9e4173c30d4c3bc7b0082f739452c5a1a6d37dd860c5e866f011ea9d66c4d487a7d7e98d29a861ae2ab2a5fbfb34e3140103bd94b22e1d604a5b327ecdc0a08e_1280.png" type="image/png" length="0" />
+      <media:content url="https://pixabay.com/get/g9e4173c30d4c3bc7b0082f739452c5a1a6d37dd860c5e866f011ea9d66c4d487a7d7e98d29a861ae2ab2a5fbfb34e3140103bd94b22e1d604a5b327ecdc0a08e_1280.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://pixabay.com/get/g9e4173c30d4c3bc7b0082f739452c5a1a6d37dd860c5e866f011ea9d66c4d487a7d7e98d29a861ae2ab2a5fbfb34e3140103bd94b22e1d604a5b327ecdc0a08e_1280.png" />
+    </item>
+    <item>
+      <title>Textual</title>
+      <link>https://surfaced-x.pages.dev/item/textual</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/textual</guid>
+      <description>Textual is a modern Python framework for building sophisticated terminal user interfaces (TUIs) and interactive command-line applications. It allows developers to create rich, graphical-like experiences directly within the terminal, complete with widgets, layouts, animations, and asynchronous event handling. Textual is free and open-source, making powerful TUI development accessible to a wide range of users. It excels at enabling developers to build complex applications that are both powerful and highly portable, running across various operating systems without modification. A standout feature is its CSS-like styling system, which simplifies the process of designing and customizing the look and feel of terminal applications.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37709121/pexels-photo-37709121.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37709121/pexels-photo-37709121.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37709121/pexels-photo-37709121.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Forgejo</title>
+      <link>https://surfaced-x.pages.dev/item/forgejo</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/forgejo</guid>
+      <description>Forgejo is a free and open-source, self-hosted Git service that provides a secure and performant platform for code collaboration and project management. It offers features such as Git repository hosting, issue tracking, pull requests, wikis, and CI/CD integration. Forgejo is designed to be a community-driven fork of Gitea, emphasizing a more permissive license and a focus on user control and privacy. It is completely free to use, with no enterprise editions or hidden costs, making it an attractive option for individuals and organizations that want full ownership of their code infrastructure. Its core value lies in providing a comprehensive and robust alternative to cloud-based Git hosting services.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/374563/pexels-photo-374563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/374563/pexels-photo-374563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/374563/pexels-photo-374563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>LLMOps Community</title>
+      <link>https://surfaced-x.pages.dev/item/llm-ops-community</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/llm-ops-community</guid>
+      <description>LLMOps Community is a collaborative effort focused on defining and promoting best practices for Machine Learning Operations (MLOps) specifically tailored for Large Language Models (LLMs). It provides resources, discussions, and frameworks to help organizations effectively deploy, manage, and monitor LLMs in production. The community addresses challenges such as model versioning, data drift, performance monitoring, and cost optimization in the context of LLMs. It operates as a free, community-driven initiative with no direct pricing, relying on shared knowledge and open-source contributions. A key benefit is its focus on the unique lifecycle and operational demands of LLMs, which differ significantly from traditional machine learning models.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gf8bc08227bc675b67cfa789a7081ae846a317912b717af265f417dedf68151bfe186e92982dad1235b3420731c20cb6f078c37a765bfcf48fe9250c2fdaaf4c4_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gf8bc08227bc675b67cfa789a7081ae846a317912b717af265f417dedf68151bfe186e92982dad1235b3420731c20cb6f078c37a765bfcf48fe9250c2fdaaf4c4_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gf8bc08227bc675b67cfa789a7081ae846a317912b717af265f417dedf68151bfe186e92982dad1235b3420731c20cb6f078c37a765bfcf48fe9250c2fdaaf4c4_1280.jpg" />
+    </item>
+    <item>
+      <title>AOS Community Edition</title>
+      <link>https://surfaced-x.pages.dev/item/aos-ce</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/aos-ce</guid>
+      <description>AOS Community Edition (AOS-CE) is an open-source operating system designed for building and managing autonomous agents. It provides a robust framework for developing AI agents that can perform complex tasks, interact with their environment, and collaborate with other agents. The system is built in Rust, emphasizing safety and performance. AOS-CE aims to standardize agent development by offering a flexible and extensible platform. It operates on a free and open-source model, encouraging community contributions and rapid innovation. A core strength lies in its ability to orchestrate multiple agents, allowing for the creation of sophisticated multi-agent systems.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8566464/pexels-photo-8566464.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8566464/pexels-photo-8566464.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8566464/pexels-photo-8566464.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Coolors.co</title>
       <link>https://surfaced-x.pages.dev/item/palette-generator</link>
@@ -382,6 +437,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/34803971/pexels-photo-34803971.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Wasmtime Runtime</title>
+      <link>https://surfaced-x.pages.dev/item/wasmtime-runtime</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wasmtime-runtime</guid>
+      <description>Wasmtime is a high-performance, secure, and embeddable runtime designed for executing WebAssembly (Wasm) modules outside of web browsers. Developed by the Bytecode Alliance, it provides a robust environment for running Wasm code as standalone applications or as components within larger software systems. Wasmtime leverages WebAssembly&apos;s intrinsic security model to offer a sandboxed execution environment, isolating code and preventing unintended interactions with the host system. This makes it suitable for a wide range of use cases where security and portability are paramount.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/3785926/pexels-photo-3785926.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/3785926/pexels-photo-3785926.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/3785926/pexels-photo-3785926.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Procreate</title>
       <link>https://surfaced-x.pages.dev/item/digital-sketchbook-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/digital-sketchbook-app</guid>
@@ -391,6 +457,17 @@
       <enclosure url="https://images.pexels.com/photos/8715623/pexels-photo-8715623.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/8715623/pexels-photo-8715623.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/8715623/pexels-photo-8715623.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Immersive Gaussian Splat tour of grace cathedral, San Francisco</title>
+      <link>https://surfaced-x.pages.dev/item/gaussian-splat-grace-cathedral</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/gaussian-splat-grace-cathedral</guid>
+      <description>This interactive experience offers an immersive 3D tour of Grace Cathedral in San Francisco, rendered using Gaussian Splatting technology. Users can navigate through the intricately detailed digital representation of the cathedral, exploring its architecture and ambiance from various perspectives. The visualization showcases the power of Gaussian Splatting for creating realistic and detailed 3D environments from captured data, providing a unique way to experience a landmark remotely.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/31763854/pexels-photo-31763854.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/31763854/pexels-photo-31763854.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/31763854/pexels-photo-31763854.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Ulysses</title>
@@ -404,6 +481,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/5318965/pexels-photo-5318965.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Qwen-Image-3.0</title>
+      <link>https://surfaced-x.pages.dev/item/qwen-image-3-0</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/qwen-image-3-0</guid>
+      <description>Qwen-Image-3.0 is an advanced image generation model developed by Alibaba Cloud, designed to produce outputs characterized by rich content, authentic details, and a demonstrable depth of understanding. It excels at interpreting intricate and nuanced textual prompts, translating them into visually coherent and contextually relevant images. This model&apos;s capability extends beyond mere aesthetic generation; it aims to imbue its creations with a significant level of factual or thematic accuracy, reflecting a deeper comprehension of the input request to deliver more meaningful visual narratives.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6615086/pexels-photo-6615086.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6615086/pexels-photo-6615086.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6615086/pexels-photo-6615086.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Artisanal AI</title>
       <link>https://surfaced-x.pages.dev/item/artisanal-ai-writing</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/artisanal-ai-writing</guid>
@@ -415,6 +503,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/4925635/pexels-photo-4925635.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>misa77</title>
+      <link>https://surfaced-x.pages.dev/item/misa77-codec</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/misa77-codec</guid>
+      <description>misa77 is an experimental lossless data compression codec that aims to outperform existing standards like LZ4 in both speed and compression ratio. It decodes approximately twice as fast as LZ4 while achieving better compression, making it a compelling option for applications where storage space and decompression speed are paramount. The project is actively developed on GitHub, suggesting ongoing improvements and potential for real-world adoption in specialized use cases.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8910202/pexels-photo-8910202.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8910202/pexels-photo-8910202.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8910202/pexels-photo-8910202.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>HyperDraft AI</title>
       <link>https://surfaced-x.pages.dev/item/hyperdraft-ai-writing</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hyperdraft-ai-writing</guid>
@@ -424,6 +523,17 @@
       <enclosure url="https://images.pexels.com/photos/5614124/pexels-photo-5614124.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5614124/pexels-photo-5614124.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5614124/pexels-photo-5614124.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Incremental</title>
+      <link>https://surfaced-x.pages.dev/item/incremental-computations</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/incremental-computations</guid>
+      <description>Incremental is a Haskell library designed for efficiently managing incremental computations. It allows developers to define computations where the result can be updated incrementally when input values change, rather than recomputing the entire result from scratch. This is particularly useful in scenarios involving complex data structures or simulations where performance is critical and many small updates are expected. The library provides a declarative way to express these dependencies and updates.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/158268/water-bach-river-stones-158268.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/158268/water-bach-river-stones-158268.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/158268/water-bach-river-stones-158268.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Scribe</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/35597033/pexels-photo-35597033.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/35597033/pexels-photo-35597033.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/35597033/pexels-photo-35597033.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Nuage Viewer</title>
-      <link>https://surfaced-x.pages.dev/item/nuage-viewer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nuage-viewer</guid>
-      <description>Nuage Viewer is a lightweight, cross-platform desktop application designed for developers and designers to efficiently preview and inspect `.argb` image files locally. These files, often generated by certain design tools or processes, can be cumbersome to open and manage within standard image viewers. Nuage Viewer provides a dedicated, fast interface for this specific format, supporting various features like zooming, panning, and even basic color information display. It operates on a free and open-source model, making it an accessible utility for anyone working with this particular image type.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5933/color-paint-palette-wall-painting.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5933/color-paint-palette-wall-painting.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5933/color-paint-palette-wall-painting.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Vector Paint</title>
-      <link>https://surfaced-x.pages.dev/item/vector-graphics-editor-no-install</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vector-graphics-editor-no-install</guid>
-      <description>Vector Paint is a free, in-browser vector graphics editor that allows users to create and edit scalable vector graphics (SVGs) without any installation. It provides a suite of tools for drawing shapes, lines, text, and manipulating paths, comparable to more complex desktop applications but accessible from any web browser. It&apos;s a project aimed at democratizing vector design tools.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6205267/pexels-photo-6205267.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6205267/pexels-photo-6205267.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6205267/pexels-photo-6205267.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Ray</title>
-      <link>https://surfaced-x.pages.dev/item/ray-workflow-orchestration</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ray-workflow-orchestration</guid>
-      <description>Ray is an open-source framework designed to simplify the scaling of Python applications, making it easier to build distributed applications and ML workloads. It provides a unified API for parallel and distributed execution, allowing developers to scale their code from a laptop to a large cluster without significant code changes. Ray is free and open-source, and it is particularly effective at handling complex, stateful distributed applications and machine learning tasks like hyperparameter tuning, reinforcement learning, and serving models.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17489150/pexels-photo-17489150.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/17489150/pexels-photo-17489150.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/17489150/pexels-photo-17489150.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Gradient Magic</title>
-      <link>https://surfaced-x.pages.dev/item/color-gradient-generator</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/color-gradient-generator</guid>
-      <description>Gradient Magic is a web-based tool that allows users to create beautiful, custom CSS color gradients. It offers a user-friendly interface where you can pick colors, adjust their position, opacity, and angle to generate complex and visually appealing gradients. The generated CSS code can be directly copied and applied to web design projects. It&apos;s built by a small team of developers passionate about simplifying visual design tasks.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8391355/pexels-photo-8391355.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8391355/pexels-photo-8391355.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8391355/pexels-photo-8391355.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Wormhole</title>
-      <link>https://surfaced-x.pages.dev/item/wormhole-secure-file-transfer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wormhole-secure-file-transfer</guid>
-      <description>Wormhole is a command-line tool and GUI application for securely transferring files of any size between computers, even across the internet. It uses end-to-end encryption and a temporary, unique code for each transfer, ensuring that only the intended recipient can access the files. The tool is free and open-source, making secure file sharing accessible to everyone. Wormhole excels at making the complex process of secure, direct file transfer remarkably simple and robust.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Moonshine</title>
-      <link>https://surfaced-x.pages.dev/item/moonshine</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/moonshine</guid>
-      <description>Moonshine is an open-source application that enables you to stream games from your powerful gaming PC to virtually any device on your network, including laptops, tablets, and smartphones. It utilizes the NVIDIA GameStream protocol (or Sunshine, its open-source alternative) to deliver a high-performance, low-latency streaming experience. This means you can play your PC games on the go or in other rooms of your house without needing to be tethered to your gaming rig.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/28850990/pexels-photo-28850990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/28850990/pexels-photo-28850990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/28850990/pexels-photo-28850990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>SuperAGI</title>
-      <link>https://surfaced-x.pages.dev/item/super-agi-autonomous-agents</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/super-agi-autonomous-agents</guid>
-      <description>SuperAGI is an open-source framework that enables the creation and deployment of autonomous AI agents. These agents can perform complex tasks by breaking them down into smaller steps, learning from their execution, and iterating to achieve defined goals. It provides a platform for developers to build, manage, and orchestrate AI agents capable of complex reasoning and action. The tool is free and focuses on empowering users to build intelligent systems that can operate with minimal human intervention. SuperAGI is particularly adept at managing multi-step workflows and adapting to changing conditions.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37730211/pexels-photo-37730211.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37730211/pexels-photo-37730211.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37730211/pexels-photo-37730211.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>IKEA Complexity Index</title>
-      <link>https://surfaced-x.pages.dev/item/ikea-complexity-index</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ikea-complexity-index</guid>
-      <description>The IKEA Complexity Index is a fascinating, albeit unofficial, project that attempts to quantify the difficulty of assembling various IKEA furniture products. It uses a combination of crowd-sourced data and algorithmic analysis to assign a &apos;complexity score&apos; to each item. This score is based on factors like the number of parts, the complexity of the instructions, and the estimated assembly time. The goal is to give potential buyers a realistic expectation of the effort involved before they commit to a purchase.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4562316/pexels-photo-4562316.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4562316/pexels-photo-4562316.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4562316/pexels-photo-4562316.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>devspace</title>
-      <link>https://surfaced-x.pages.dev/item/devspace-chatgpt-code-generation</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/devspace-chatgpt-code-generation</guid>
-      <description>DevSpace is an innovative open-source tool that bridges the gap between natural language and code generation by transforming large language models like ChatGPT and Claude into powerful coding assistants. It allows developers to leverage conversational AI for tasks such as generating code snippets, explaining complex code, refactoring, and even debugging. The tool is free and open-source, focusing on enhancing developer productivity by making AI-powered coding assistance accessible and efficient. It excels at translating plain English prompts into functional code across various programming languages.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/12662875/pexels-photo-12662875.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/12662875/pexels-photo-12662875.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/12662875/pexels-photo-12662875.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>CalmCode</title>
-      <link>https://surfaced-x.pages.dev/item/calmcode-learn-programming-visualizations</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/calmcode-learn-programming-visualizations</guid>
-      <description>CalmCode is an educational platform that uses clear, concise video explanations and interactive visualizations to teach programming concepts. It breaks down complex topics in languages like Python, JavaScript, and SQL into digestible lessons, focusing on understanding rather than just syntax. The site is built by developers for developers who want to deepen their grasp of fundamental programming principles and modern best practices.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8108724/pexels-photo-8108724.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8108724/pexels-photo-8108724.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8108724/pexels-photo-8108724.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

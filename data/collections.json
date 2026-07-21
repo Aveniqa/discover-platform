@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "article-forge-full-article-generation-ai",
-      "research-rabbit-visual-literature-discovery",
-      "tabula-extract-data-from-pdfs",
-      "inciteful-ai-interactive-citation-analysis",
-      "typst-markdown-like-scientific-document-typesetting",
-      "scite-ai-smart-citation-analysis",
-      "refind-curated-link-discovery-and-organization",
-      "beancount-plain-text-accounting",
-      "honeydue-finance-for-couples",
-      "firefly-iii-self-hosted-finance",
       "pocketguard-money-left-to-spend",
-      "budgetbakers-wallet-mobile-budgeting"
+      "budgetbakers-wallet-mobile-budgeting",
+      "habitica-gamified-habit-task-manager",
+      "loop-habit-tracker-android-open-source",
+      "complice-intentional-goal-setting-productivity",
+      "everyday-simple-visual-habit-tracker",
+      "daylio-micro-journaling-mood-activity-tracker",
+      "forest-focus-timer-grow-trees",
+      "atrackertrack-time-habits-goals",
+      "joplin-open-source-note-taking-markdown",
+      "bitwarden-open-source-password-manager",
+      "bookstack-open-source-documentation-wiki"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "article-forge-full-article-generation-ai",
-      "research-rabbit-visual-literature-discovery",
-      "tabula-extract-data-from-pdfs",
-      "inciteful-ai-interactive-citation-analysis",
-      "scite-ai-smart-citation-analysis",
-      "refind-curated-link-discovery-and-organization",
-      "beancount-plain-text-accounting",
-      "honeydue-finance-for-couples",
-      "firefly-iii-self-hosted-finance",
       "pocketguard-money-left-to-spend",
       "habitica-gamified-habit-task-manager",
-      "loop-habit-tracker-android-open-source"
+      "loop-habit-tracker-android-open-source",
+      "complice-intentional-goal-setting-productivity",
+      "everyday-simple-visual-habit-tracker",
+      "daylio-micro-journaling-mood-activity-tracker",
+      "forest-focus-timer-grow-trees",
+      "atrackertrack-time-habits-goals",
+      "joplin-open-source-note-taking-markdown",
+      "bitwarden-open-source-password-manager",
+      "bookstack-open-source-documentation-wiki",
+      "onlyoffice-suite-document-spreadsheets-presentations"
     ]
   },
   {
