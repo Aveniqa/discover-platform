@@ -1,19 +1,19 @@
 [
   {
-    "slug": "wasmtime-runtime",
-    "title": "Wasmtime Runtime",
+    "slug": "proselint",
+    "title": "Proselint",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Wasmtime is a high-performance, secure, and embeddable runtime designed for executing WebAssembly (Wasm) modules outside",
+    "description": "Proselint is a command-line tool designed to analyze your writing and flag stylistic issues, offering suggestions for im",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "lapce",
-    "title": "Lapce",
+    "slug": "daily-tool-plottr",
+    "title": "Plottr",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Lapce is a fast, powerful, and intuitive code editor built in Rust. It's designed from the ground up for performance, ut",
+    "description": "Plottr is a visual novel plotting software designed specifically for fiction writers. It helps you break down your story",
     "badge": null,
     "type": "tool"
   }
