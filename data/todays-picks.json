@@ -1,19 +1,19 @@
 [
   {
-    "slug": "proselint",
-    "title": "Proselint",
+    "slug": "terence-tao-chatgpt-jacobian",
+    "title": "Terence Tao's ChatGPT Conversation",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Proselint is a command-line tool designed to analyze your writing and flag stylistic issues, offering suggestions for im",
+    "description": "This is a direct transcript of a ChatGPT conversation between the renowned mathematician Terence Tao and the AI itself, ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "daily-tool-plottr",
-    "title": "Plottr",
+    "slug": "emissary-app",
+    "title": "Emissary",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Plottr is a visual novel plotting software designed specifically for fiction writers. It helps you break down your story",
+    "description": "Emissary is a platform designed to help professionals connect with potential advisors and experts for short-term, paid e",
     "badge": null,
     "type": "tool"
   }
