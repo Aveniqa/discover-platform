@@ -1,19 +1,19 @@
 [
   {
-    "slug": "terence-tao-chatgpt-jacobian",
-    "title": "Terence Tao's ChatGPT Conversation",
+    "slug": "clinicaltrials-gov-study-finder",
+    "title": "ClinicalTrials.gov",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This is a direct transcript of a ChatGPT conversation between the renowned mathematician Terence Tao and the AI itself, ",
+    "description": "ClinicalTrials.gov is an indispensable resource maintained by the U.S. National Library of Medicine (NLM) at the Nationa",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "emissary-app",
-    "title": "Emissary",
+    "slug": "personal-health-journal-app",
+    "title": "Personal Health Journal App",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Emissary is a platform designed to help professionals connect with potential advisors and experts for short-term, paid e",
+    "description": "This application serves as a comprehensive digital journal for tracking various aspects of personal health, including sy",
     "badge": null,
     "type": "tool"
   }
