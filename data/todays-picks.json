@@ -1,19 +1,19 @@
 [
   {
-    "slug": "clinicaltrials-gov-study-finder",
-    "title": "ClinicalTrials.gov",
+    "slug": "deep-math-visualizations",
+    "title": "3Blue1Brown",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "ClinicalTrials.gov is an indispensable resource maintained by the U.S. National Library of Medicine (NLM) at the Nationa",
+    "description": "3Blue1Brown is a YouTube channel and website dedicated to creating highly intuitive and visually stunning explanations o",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "personal-health-journal-app",
-    "title": "Personal Health Journal App",
+    "slug": "utterance",
+    "title": "Utterance",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "This application serves as a comprehensive digital journal for tracking various aspects of personal health, including sy",
+    "description": "Utterance is a sophisticated AI writing assistant designed to help users overcome writer's block and enhance their creat",
     "badge": null,
     "type": "tool"
   }
