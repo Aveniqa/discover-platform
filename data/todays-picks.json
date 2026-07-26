@@ -1,19 +1,19 @@
 [
   {
-    "slug": "deep-math-visualizations",
-    "title": "3Blue1Brown",
+    "slug": "synthv-studio",
+    "title": "Synthesizer V Studio",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "3Blue1Brown is a YouTube channel and website dedicated to creating highly intuitive and visually stunning explanations o",
+    "description": "Synthesizer V Studio is a professional-grade vocal synthesis software that utilizes advanced AI to create realistic and ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "utterance",
-    "title": "Utterance",
+    "slug": "audio-tools-com-synth",
+    "title": "AudioTool.com Synthesizer",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Utterance is a sophisticated AI writing assistant designed to help users overcome writer's block and enhance their creat",
+    "description": "AudioTool.com Synthesizer is a free, browser-based digital audio workstation (DAW) that empowers users to create electro",
     "badge": null,
     "type": "tool"
   }
