@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manyverse</title>
+      <link>https://surfaced-x.pages.dev/item/distributed-social-network</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/distributed-social-network</guid>
+      <description>Manyverse is a free, open-source, and decentralized social networking application that runs on the Secure Scuttlebutt (SSB) protocol. It allows users to connect and share content with friends directly, peer-to-peer, without relying on central servers. Data is replicated among connected devices, enabling offline use and ensuring that content remains accessible as long as at least one person you&apos;re connected to is online. Manyverse focuses on privacy and ownership, giving users full control over their data and social graph. It&apos;s an excellent choice for those seeking an alternative to mainstream social media platforms that are data-hungry and prone to censorship.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Tonic</title>
+      <link>https://surfaced-x.pages.dev/item/collaborative-notebook-platform</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/collaborative-notebook-platform</guid>
+      <description>Tonic is a collaborative research notebook platform designed for scientists and researchers to document, share, and reproduce their experiments. It allows users to create rich, multimedia-enabled notebooks that can include code, data, visualizations, and narrative text. The platform is free for academic and non-commercial use, with paid tiers for larger teams and commercial entities. Tonic excels at bridging the gap between computational analysis and experimental results, making research more transparent and reproducible by providing a centralized, shareable workspace for the entire research lifecycle.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8279470/pexels-photo-8279470.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8279470/pexels-photo-8279470.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8279470/pexels-photo-8279470.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Hoot</title>
+      <link>https://surfaced-x.pages.dev/item/decentralized-chat-application</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/decentralized-chat-application</guid>
+      <description>Hoot is a free, open-source, end-to-end encrypted chat application built on the Hypercore Protocol, designed for private and secure peer-to-peer communication. It enables users to connect and chat directly with others without central servers, meaning messages are not stored by a third party and are highly resistant to surveillance. The application focuses on simplicity and security, allowing for the creation of persistent chat channels that can be joined by anyone with the link. Its primary value lies in providing a truly private messaging experience that is resilient and censorship-resistant, ideal for sensitive conversations or communities seeking robust privacy.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6214968/pexels-photo-6214968.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6214968/pexels-photo-6214968.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6214968/pexels-photo-6214968.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Hypercore Protocol</title>
+      <link>https://surfaced-x.pages.dev/item/peer-to-peer-network-search</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/peer-to-peer-network-search</guid>
+      <description>Hypercore Protocol is a decentralized, peer-to-peer network protocol and set of tools for building resilient, distributed applications and data systems. It allows developers to create append-only logs of data that can be replicated and shared between many users without relying on central servers. The protocol is free and open-source, offering robust cryptographic security for data integrity and authenticity. It excels at creating live, constantly updating datasets that are resistant to censorship and downtime, making it ideal for applications requiring persistent and verifiable data availability.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g58846863a1eb3f5c2ac676a50c9a8c9bb01eca8c2fa4fca118b856bd2be04d43091262a38096dedcc15098311dacf517b28ce42b48c54a8f0210d0318bc30349_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g58846863a1eb3f5c2ac676a50c9a8c9bb01eca8c2fa4fca118b856bd2be04d43091262a38096dedcc15098311dacf517b28ce42b48c54a8f0210d0318bc30349_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g58846863a1eb3f5c2ac676a50c9a8c9bb01eca8c2fa4fca118b856bd2be04d43091262a38096dedcc15098311dacf517b28ce42b48c54a8f0210d0318bc30349_1280.jpg" />
+    </item>
+    <item>
+      <title>no-ai-slop</title>
+      <link>https://surfaced-x.pages.dev/item/no-ai-slop</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/no-ai-slop</guid>
+      <description>no-ai-slop is a Python-based tool designed to identify and remove common linguistic patterns and repetitive phrases often found in AI-generated text. It scans any given piece of writing, flagging over 20 distinct types of &apos;AI slop,&apos; such as excessive use of passive voice, generic platitudes, and unnatural sentence structures. This open-source utility is free to use and particularly effective at refining content intended for a human audience, helping to restore a more authentic and nuanced writing style.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1613677135043-a2512fbf49fa?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUxNTkzODF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1613677135043-a2512fbf49fa?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUxNTkzODF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1613677135043-a2512fbf49fa?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUxNTkzODF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
     <item>
       <title>AudioTool.com Synthesizer</title>
       <link>https://surfaced-x.pages.dev/item/audio-tools-com-synth</link>
@@ -382,6 +437,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/30557580/pexels-photo-30557580.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>The Wayback Machine</title>
+      <link>https://surfaced-x.pages.dev/item/wayback-machine-internet-archive</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wayback-machine-internet-archive</guid>
+      <description>The Wayback Machine, part of the Internet Archive, is a digital archive of the World Wide Web. It allows users to browse past versions of websites, effectively creating a time machine for the internet. Users can enter a URL and see snapshots of that website from various dates in history, provided it has been crawled and archived. It&apos;s a free service maintained by a non-profit organization.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34160686/pexels-photo-34160686.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34160686/pexels-photo-34160686.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34160686/pexels-photo-34160686.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>OrbStack</title>
       <link>https://surfaced-x.pages.dev/item/orbstack</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/orbstack</guid>
@@ -391,6 +457,17 @@
       <enclosure url="https://images.pexels.com/photos/249541/pexels-photo-249541.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/249541/pexels-photo-249541.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/249541/pexels-photo-249541.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Physically Accurate Black Hole You Can Put In Your Room</title>
+      <link>https://surfaced-x.pages.dev/item/physically-accurate-black-hole-in-your-room</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/physically-accurate-black-hole-in-your-room</guid>
+      <description>This interactive web tool provides a physically accurate simulation of a black hole that you can place and explore within a simulated 3D room. It meticulously models gravitational lensing, accretion disks, and the extreme distortions of spacetime around the black hole, adhering to general relativity. Users can manipulate the black hole&apos;s mass and spin, and observe how these parameters affect the surrounding visual environment. It&apos;s designed for education and awe, allowing a tangible visualization of one of the universe&apos;s most extreme phenomena.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/36658973/pexels-photo-36658973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/36658973/pexels-photo-36658973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/36658973/pexels-photo-36658973.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Briefmatic</title>
@@ -404,6 +481,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/7640435/pexels-photo-7640435.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Reverse Minesweeper</title>
+      <link>https://surfaced-x.pages.dev/item/reverse-minesweeper</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/reverse-minesweeper</guid>
+      <description>Reverse Minesweeper, also known as &apos;Minesweeper&apos;s Revenge&apos; or &apos;MineSweeper: The Board Game&apos;, flips the classic puzzle on its head. Instead of revealing numbers to find mines, you are presented with a grid and mine count, and your goal is to place the mines such that the numbered cells are correctly generated. This version tests your logical deduction and spatial reasoning in a unique way. It&apos;s a single-player puzzle game that challenges your understanding of the original Minesweeper mechanics from a different perspective.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7438447/pexels-photo-7438447.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7438447/pexels-photo-7438447.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7438447/pexels-photo-7438447.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Reflect</title>
       <link>https://surfaced-x.pages.dev/item/reflect-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/reflect-app</guid>
@@ -415,6 +503,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/5068299/pexels-photo-5068299.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Kimi-K3 Releases on HuggingFace</title>
+      <link>https://surfaced-x.pages.dev/item/kimi-k3-releases-on-huggingface</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/kimi-k3-releases-on-huggingface</guid>
+      <description>Kimi-K3 is a large language model developed by Moonshot AI, specifically designed for robust performance across multiple languages. It is accessible through HuggingFace, a leading platform for AI model sharing and collaboration. This model offers advanced capabilities for text generation, understanding, and translation, making it suitable for a wide range of natural language processing tasks. Developers can integrate Kimi-K3 into applications requiring sophisticated multilingual AI, such as global customer support bots or cross-lingual content generation tools.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8015683/pexels-photo-8015683.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8015683/pexels-photo-8015683.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8015683/pexels-photo-8015683.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>BookStack</title>
       <link>https://surfaced-x.pages.dev/item/bookstack-documentation-wiki</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bookstack-documentation-wiki</guid>
@@ -424,6 +523,17 @@
       <enclosure url="https://images.pexels.com/photos/7703306/pexels-photo-7703306.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7703306/pexels-photo-7703306.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7703306/pexels-photo-7703306.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>PGSimCity - How PostgreSQL Works</title>
+      <link>https://surfaced-x.pages.dev/item/pgsimcity-how-postgresql-works</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pgsimcity-how-postgresql-works</guid>
+      <description>PGSimCity is a dynamic, visual simulation that demystifies the inner workings of PostgreSQL. It allows users to see how various components of the database system interact, from query planning and execution to buffer management and transaction processing. Developed by Nikolay Stoyanov, this tool is invaluable for anyone seeking a deeper understanding of database performance and architecture beyond just SQL syntax. For instance, a developer can observe how changes in indexing strategy affect query execution plans in real-time within the simulation.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7366/startup-photos.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7366/startup-photos.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7366/startup-photos.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Eagle</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/8132964/pexels-photo-8132964.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/8132964/pexels-photo-8132964.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/8132964/pexels-photo-8132964.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Linguascope</title>
-      <link>https://surfaced-x.pages.dev/item/linguascope</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/linguascope</guid>
-      <description>Linguascope is a subscription-based online platform offering a vast library of interactive games and activities designed to make learning new languages fun and engaging. It covers a wide range of languages, including French, Spanish, German, Italian, and Mandarin, with content tailored for different proficiency levels from beginner to advanced. The platform gamifies the learning process through quizzes, matching games, listening exercises, and vocabulary builders, making it an excellent alternative to traditional textbook methods. Linguascope is particularly effective for reinforcing vocabulary and grammar in a low-pressure, enjoyable environment.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7516363/pexels-photo-7516363.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7516363/pexels-photo-7516363.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7516363/pexels-photo-7516363.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Context Engineering for Claude 5</title>
-      <link>https://surfaced-x.pages.dev/item/context-engineering-claude-5</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/context-engineering-claude-5</guid>
-      <description>This blog post from Claude.com delves into the updated principles of &apos;context engineering&apos; specifically for their latest generation of AI models, referred to as Claude 5. It outlines advanced techniques for structuring prompts and providing information to large language models to elicit more accurate, coherent, and useful responses. The guide covers strategies for managing context windows, understanding model recall, and optimizing input for complex tasks, aiming to help users maximize the capabilities of advanced AI assistants.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/g022268896287570b9e85f24a28ba8d9ccf84f3c02acee08d572378bfb5b71161d35b14d695b053bd946678fede8a13cb7704f77e3f947cac485fece849e0b6e7_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/g022268896287570b9e85f24a28ba8d9ccf84f3c02acee08d572378bfb5b71161d35b14d695b053bd946678fede8a13cb7704f77e3f947cac485fece849e0b6e7_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/g022268896287570b9e85f24a28ba8d9ccf84f3c02acee08d572378bfb5b71161d35b14d695b053bd946678fede8a13cb7704f77e3f947cac485fece849e0b6e7_1280.jpg" />
-    </item>
-    <item>
-      <title>Archive Today</title>
-      <link>https://surfaced-x.pages.dev/item/daily-tool-archive-today</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-archive-today</guid>
-      <description>Archive Today is a user-friendly, web-based service that allows individuals and organizations to easily capture and preserve digital content from the web. It enables users to create high-fidelity archives of websites, articles, and specific web pages for later reference or as a safeguard against content removal. The service offers a free tier for basic archiving needs and paid plans for more extensive storage and features. Its core value lies in its simplicity and reliability for ensuring that important digital information remains accessible, functioning as a personal Wayback Machine for specific needs, far simpler to use for one-off saves than institutional archives.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/2026620/pexels-photo-2026620.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/2026620/pexels-photo-2026620.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/2026620/pexels-photo-2026620.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Your shell and the magic colon</title>
-      <link>https://surfaced-x.pages.dev/item/shell-colon-trick</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/shell-colon-trick</guid>
-      <description>This article explores a little-known but surprisingly useful feature of Unix-like shells: the colon (:) as a no-op command. It explains how this simple character can be leveraged in shell scripting and command-line operations for various purposes, such as creating empty variables, setting default values, or providing conditional logic without executing any actual action. The author, refrp, details practical use cases that can streamline scripting and improve code readability for experienced shell users.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/28582719/pexels-photo-28582719.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/28582719/pexels-photo-28582719.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/28582719/pexels-photo-28582719.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Osmosis AI</title>
-      <link>https://surfaced-x.pages.dev/item/osmosis-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/osmosis-ai</guid>
-      <description>Osmosis AI is an advanced educational platform dedicated to making complex medical knowledge accessible and understandable. It leverages AI to break down intricate medical concepts into clear, concise explanations, visual aids, and interactive learning modules. Primarily aimed at medical students, healthcare professionals, and educators, Osmosis AI offers a freemium model, with core content available for free and advanced features and expanded libraries through subscription. Its strength lies in its ability to synthesize and present dense medical information in digestible formats, making it easier to learn and retain critical information.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6234991/pexels-photo-6234991.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6234991/pexels-photo-6234991.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6234991/pexels-photo-6234991.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Brolly Weather Forecast</title>
-      <link>https://surfaced-x.pages.dev/item/brolly-weather-forecast</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/brolly-weather-forecast</guid>
-      <description>Brolly provides weather forecasts in a clean, plain-text format, eschewing graphical charts and excessive jargon for clarity and accessibility. It&apos;s ideal for users who prefer concise, human-readable weather information, such as travelers, outdoor enthusiasts, or anyone looking for a quick, distraction-free update. The tool focuses on presenting essential data like temperature, precipitation, and wind in a straightforward manner, making it easy to digest at a glance. This approach makes it a unique alternative to feature-rich, visually complex weather apps.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/15806949/pexels-photo-15806949.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/15806949/pexels-photo-15806949.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/15806949/pexels-photo-15806949.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Archival Research Hub</title>
-      <link>https://surfaced-x.pages.dev/item/archival-research-hub</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/archival-research-hub</guid>
-      <description>The Archival Research Hub is a curated online platform that aggregates and provides access to a vast collection of digitized historical documents from various institutions worldwide. It aims to democratize access to primary source materials for researchers, students, and history enthusiasts. The service is free, supported by grants and institutional partnerships, and excels at cross-referencing and searching across diverse archival collections that might otherwise be siloed. Users can discover and analyze original texts, images, and audio recordings from different historical periods and geographical locations.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8872414/pexels-photo-8872414.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8872414/pexels-photo-8872414.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8872414/pexels-photo-8872414.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Transistor Animations</title>
-      <link>https://surfaced-x.pages.dev/item/semisim-animations</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/semisim-animations</guid>
-      <description>This website features a collection of interactive animations demonstrating the behavior of transistors and other fundamental semiconductor components. It&apos;s designed to help users visualize complex electronic concepts that are often difficult to grasp from static diagrams or textbook explanations. Each animation allows for manipulation of parameters to see how they affect the device&apos;s operation. It&apos;s built by Brandon Li, an individual passionate about making technical topics accessible.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1760842543741-876d7837fa0b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwNjcxMzd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1760842543741-876d7837fa0b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwNjcxMzd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1760842543741-876d7837fa0b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUwNjcxMzd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>scroll-world</title>
-      <link>https://surfaced-x.pages.dev/item/scroll-world</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/scroll-world</guid>
-      <description>scroll-world is a JavaScript library that transforms any brand&apos;s visual identity into an immersive, scrollable 3D world. It allows developers to create unique interactive experiences where users can navigate through a virtual representation of a brand&apos;s ecosystem. The library is open-source and free to use, offering a novel way to engage audiences. Its primary function is to translate flat brand assets into a dynamic, three-dimensional space, making brand exploration more engaging than traditional websites.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7562357/pexels-photo-7562357.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7562357/pexels-photo-7562357.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7562357/pexels-photo-7562357.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>3Blue1Brown</title>
-      <link>https://surfaced-x.pages.dev/item/deep-math-visualizations</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deep-math-visualizations</guid>
-      <description>3Blue1Brown is a YouTube channel and website dedicated to creating highly intuitive and visually stunning explanations of complex mathematical concepts. Using custom animation software, it breaks down topics from calculus, linear algebra, neural networks, and more into digestible, engaging visual narratives. The goal is to build a deeper, more conceptual understanding of mathematics rather than rote memorization. For instance, a student struggling with the concept of eigenvalues and eigenvectors could watch a series of animations that illustrate their geometric interpretation.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/14032212/pexels-photo-14032212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/14032212/pexels-photo-14032212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/14032212/pexels-photo-14032212.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

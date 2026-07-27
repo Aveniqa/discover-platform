@@ -1,19 +1,19 @@
 [
   {
-    "slug": "synthv-studio",
-    "title": "Synthesizer V Studio",
+    "slug": "wayback-machine-internet-archive",
+    "title": "The Wayback Machine",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Synthesizer V Studio is a professional-grade vocal synthesis software that utilizes advanced AI to create realistic and ",
+    "description": "The Wayback Machine, part of the Internet Archive, is a digital archive of the World Wide Web. It allows users to browse",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "audio-tools-com-synth",
-    "title": "AudioTool.com Synthesizer",
+    "slug": "distributed-social-network",
+    "title": "Manyverse",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "AudioTool.com Synthesizer is a free, browser-based digital audio workstation (DAW) that empowers users to create electro",
+    "description": "Manyverse is a free, open-source, and decentralized social networking application that runs on the Secure Scuttlebutt (S",
     "badge": null,
     "type": "tool"
   }
