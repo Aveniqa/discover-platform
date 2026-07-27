@@ -33,10 +33,10 @@
     "@react-three/fiber": "^9.6.1",
     "@react-three/postprocessing": "^3.0.4",
     "framer-motion": "^12.42.2",
-    "next": "^16.2.10",
-    "postprocessing": "^6.39.2",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "next": "^16.2.12",
+    "postprocessing": "^6.39.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "three": "^0.185.1"
   },
   "overrides": {
@@ -48,14 +48,14 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/three": "^0.185.0",
+    "@types/three": "^0.185.1",
     "dotenv": "^17.4.1",
     "eslint": "^9",
-    "eslint-config-next": "16.2.10",
-    "playwright": "^1.61.1",
+    "eslint-config-next": "16.2.12",
+    "playwright": "^1.62.0",
     "sharp": "^0.35.3",
     "tailwindcss": "^4",
-    "tsx": "^4.23.0",
+    "tsx": "^4.23.1",
     "typescript": "^5"
   }
 }
