@@ -1,19 +1,19 @@
 [
   {
-    "slug": "wayback-machine-internet-archive",
-    "title": "The Wayback Machine",
+    "slug": "wordhippo",
+    "title": "WordHippo",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Wayback Machine, part of the Internet Archive, is a digital archive of the World Wide Web. It allows users to browse",
+    "description": "WordHippo is a comprehensive online thesaurus and dictionary that goes beyond simple synonyms and antonyms. It provides ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "distributed-social-network",
-    "title": "Manyverse",
+    "slug": "journal-of-articles-in-supplements",
+    "title": "Journal of Articles in Supplements",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Manyverse is a free, open-source, and decentralized social networking application that runs on the Secure Scuttlebutt (S",
+    "description": "The Journal of Articles in Supplements (JAS) is a specialized academic journal that publishes supplemental data and deta",
     "badge": null,
     "type": "tool"
   }
