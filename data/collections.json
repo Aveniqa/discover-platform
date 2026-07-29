@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "anki-spaced-repetition-flashcards",
-      "zotero-research-reference-management",
-      "wolfram-alpha-computational-knowledge-engine",
-      "jupyterlite-in-browser-python-notebooks",
-      "project-gutenberg-free-ebooks",
-      "lichess-free-online-chess",
-      "snipd-ai-podcast-highlights",
-      "cleanvoice-ai-filler-word-removal",
-      "auphonic-audio-post-production-web-service",
-      "hindenburg-journalist-podcast-radio-editor",
       "radio-garden-live-radio-worldwide-map",
-      "loopback-virtual-audio-cables-mac"
+      "loopback-virtual-audio-cables-mac",
+      "ocenaudio-simple-fast-audio-editor",
+      "krisp-ai-noise-cancellation-app-2",
+      "freesound-collaborative-audio-database-samples",
+      "alitu-simple-podcast-production-software",
+      "shortwave-ai-powered-email-client-2",
+      "simplelogin-email-alias-service-privacy",
+      "follow-up-then-email-reminder-scheduling",
+      "missive-shared-inbox-team-communication",
+      "mailspring-desktop-email-client-productivity",
+      "flowrite-ai-email-writing-assistant"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "anki-spaced-repetition-flashcards",
-      "zotero-research-reference-management",
-      "wolfram-alpha-computational-knowledge-engine",
-      "project-gutenberg-free-ebooks",
-      "lichess-free-online-chess",
-      "snipd-ai-podcast-highlights",
-      "cleanvoice-ai-filler-word-removal",
-      "auphonic-audio-post-production-web-service",
-      "hindenburg-journalist-podcast-radio-editor",
       "radio-garden-live-radio-worldwide-map",
       "ocenaudio-simple-fast-audio-editor",
-      "krisp-ai-noise-cancellation-app-2"
+      "krisp-ai-noise-cancellation-app-2",
+      "freesound-collaborative-audio-database-samples",
+      "alitu-simple-podcast-production-software",
+      "shortwave-ai-powered-email-client-2",
+      "simplelogin-email-alias-service-privacy",
+      "follow-up-then-email-reminder-scheduling",
+      "missive-shared-inbox-team-communication",
+      "mailspring-desktop-email-client-productivity",
+      "flowrite-ai-email-writing-assistant",
+      "mailbrew-personalized-email-newsletter-digest"
     ]
   },
   {

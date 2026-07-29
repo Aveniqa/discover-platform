@@ -1,19 +1,19 @@
 [
   {
-    "slug": "wordhippo",
-    "title": "WordHippo",
+    "slug": "simulacra-ai-writing",
+    "title": "Simulacra",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "WordHippo is a comprehensive online thesaurus and dictionary that goes beyond simple synonyms and antonyms. It provides ",
+    "description": "Simulacra is an AI-powered writing assistant that goes beyond simple grammar checking. It analyzes your writing style, t",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "journal-of-articles-in-supplements",
-    "title": "Journal of Articles in Supplements",
+    "slug": "taskio",
+    "title": "Taskio",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "The Journal of Articles in Supplements (JAS) is a specialized academic journal that publishes supplemental data and deta",
+    "description": "Taskio is a visually-driven task management application focused on helping individuals organize their daily and long-ter",
     "badge": null,
     "type": "tool"
   }
