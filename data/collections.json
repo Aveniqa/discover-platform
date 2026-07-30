@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "anki-spaced-repetition-flashcards",
-      "zotero-research-reference-management",
-      "wolfram-alpha-computational-knowledge-engine",
-      "lichess-free-online-chess",
-      "snipd-ai-podcast-highlights",
-      "auphonic-audio-post-production-web-service",
-      "radio-garden-live-radio-worldwide-map",
-      "loopback-virtual-audio-cables-mac",
-      "ocenaudio-simple-fast-audio-editor",
       "alitu-simple-podcast-production-software",
       "shortwave-ai-powered-email-client-2",
-      "follow-up-then-email-reminder-scheduling"
+      "follow-up-then-email-reminder-scheduling",
+      "missive-shared-inbox-team-communication",
+      "mailspring-desktop-email-client-productivity",
+      "flowrite-ai-email-writing-assistant",
+      "mailbrew-personalized-email-newsletter-digest",
+      "leave-me-alone-unsubscribe-email-cleaner",
+      "tempo-deep-work-email-client",
+      "mailbutler-email-assistant-apple-mail-outlook",
+      "things-three-elegant-gtd-task-manager",
+      "toggl-track-time-tracker-habit-goal"
     ]
   },
   {
@@ -65,18 +65,18 @@
     "description": "Handpicked gifts for the person who has everything.",
     "emoji": "🎁",
     "itemSlugs": [
-      "tuple-remote-pair-programming",
-      "snipd-ai-podcast-highlights",
-      "cleanvoice-ai-filler-word-removal",
-      "auphonic-audio-post-production-web-service",
-      "hindenburg-journalist-podcast-radio-editor",
-      "radio-garden-live-radio-worldwide-map",
-      "loopback-virtual-audio-cables-mac",
-      "ocenaudio-simple-fast-audio-editor",
       "alitu-simple-podcast-production-software",
       "simplelogin-email-alias-service-privacy",
       "flowrite-ai-email-writing-assistant",
-      "tempo-deep-work-email-client"
+      "tempo-deep-work-email-client",
+      "things-three-elegant-gtd-task-manager",
+      "ticktick-to-do-list-habit-tracker-pomodoro",
+      "craft-docs-rich-document-editor",
+      "devonthink-knowledge-management-macos",
+      "visidata-terminal-data-exploration-plotting",
+      "dygraphs-interactive-time-series-charts",
+      "flourish-studio-animated-interactive-stories",
+      "typingmind-advanced-ui-for-llms"
     ]
   },
   {

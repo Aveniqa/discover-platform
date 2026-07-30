@@ -1,19 +1,19 @@
 [
   {
-    "slug": "simulacra-ai-writing",
-    "title": "Simulacra",
+    "slug": "typ-e-painter",
+    "title": "Typ.ePainter",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Simulacra is an AI-powered writing assistant that goes beyond simple grammar checking. It analyzes your writing style, t",
+    "description": "Typ.ePainter is a web-based tool for editing and creating vector fonts. It allows users to import existing font files, m",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "taskio",
-    "title": "Taskio",
+    "slug": "motion-design-toolkit",
+    "title": "Motion Design Toolkit",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Taskio is a visually-driven task management application focused on helping individuals organize their daily and long-ter",
+    "description": "The Motion Design Toolkit is a suite of tools and resources aimed at helping designers and developers create sophisticat",
     "badge": null,
     "type": "tool"
   }
