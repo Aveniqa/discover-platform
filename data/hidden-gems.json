@@ -1,70 +1,5 @@
 [
   {
-    "id": 498,
-    "slug": "alitu-simple-podcast-production-software",
-    "name": "Alitu",
-    "whatItDoes": "Alitu is an automated podcast production tool created by The Podcast Host, a company specializing in podcast education and tools. Its core feature simplifies the entire podcast workflow, from recording and editing to adding music and publishing, all within a single web-based platform. This tool was specifically built for new podcasters, small business owners, and educators who want to launch and maintain a professional-sounding podcast without needing extensive technical audio knowledge or complex software. Users typically record directly into Alitu or upload raw audio, then use its intuitive interface to clean up sound, add intros/outros, and export or publish their episodes. It operates entirely in the cloud, accessible via a web browser.",
-    "category": "Productivity",
-    "whyItIsUseful": "Alitu acts as an all-in-one solution that significantly reduces the learning curve and time commitment associated with traditional podcast production, offering a simpler alternative to combining Audacity for editing, Auphonic for mastering, and Libsyn for hosting. For the busy coach or consultant who wants to share expertise through a podcast, Alitu automates the technical heavy lifting, letting them focus on content. For the non-profit organization launching a series of interviews, it provides a streamlined way to produce and distribute high-quality audio without a dedicated sound engineer. Alitu offers a 7-day free trial, followed by a monthly subscription. A feature often discovered later is its integrated call recorder, which records remote guests directly within the platform, automatically cleaning up their audio. It's not more popular because many aspiring podcasters are either unaware of such comprehensive simplification tools or are drawn to free but more complex desktop software. Alitu is regularly updated with new features and improvements, backed by a wealth of educational resources from The Podcast Host.",
-    "imageIdea": "Minimalist web interface showing steps for podcast creation: record, edit, add music, publish, with clear progress indicators.",
-    "websiteLink": "https://alitu.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/alitu-simple-podcast-production-software.webp"
-  },
-  {
-    "id": 504,
-    "slug": "shortwave-ai-powered-email-client-2",
-    "name": "Shortwave",
-    "whatItDoes": "Shortwave is a modern, AI-powered email client developed by a team of ex-Google engineers, aiming to reinvent the inbox experience. Its core feature automatically bundles related emails, summarizes threads, and provides AI-powered reply suggestions, transforming a chaotic inbox into a manageable feed. This tool is primarily built for busy professionals, entrepreneurs, and anyone using Google Workspace who desires a smarter, more efficient way to process their daily email volume. Users are typically drawn to Shortwave when they feel overwhelmed by their Gmail inbox and seek an intelligent assistant to cut through the noise and prioritize communications. It works exclusively with Google Workspace accounts, offering web, iOS, and Android applications for a consistent experience across devices.",
-    "category": "AI",
-    "whyItIsUseful": "Shortwave provides a significant leap beyond traditional Gmail interfaces by integrating generative AI directly into the email workflow, making inbox management proactive rather than reactive. For the startup founder, it can condense long email threads into concise summaries, allowing quick understanding of progress or issues without reading every message. For the project manager, its intelligent bundling ensures all related updates, tasks, and discussions appear together, preventing important items from getting lost. A free plan is available for personal use with some limitations (e.g., 90-day history), with paid tiers offering unlimited history, advanced AI features, and priority support. A particularly useful feature, often discovered later, is the ability to \"Snooze\" entire bundles of emails, having them reappear when relevant, which helps maintain focus on current priorities. It's not more popular yet because it's a relatively new player in a crowded email client market, requires a Google account, and its AI capabilities are still evolving, leading some users to hesitate adopting a new core tool. Shortwave has an active Discord community, transparent roadmap, and frequent updates, demonstrating a strong commitment to development.",
-    "imageIdea": "Clean, minimalist email interface with AI-generated summaries prominently displayed above email threads.",
-    "websiteLink": "https://www.shortwave.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/shortwave-ai-powered-email-client-2.webp"
-  },
-  {
-    "id": 459,
-    "slug": "simplelogin-email-alias-service-privacy",
-    "name": "SimpleLogin",
-    "whatItDoes": "SimpleLogin is an open-source email alias service, developed by a small team and acquired by Proton in 2022, but still maintained as an open-source project. Its core feature allows users to create unique email aliases for every website or service they sign up for, forwarding emails to their real inbox while masking their actual email address. It's primarily built for privacy-conscious individuals, online shoppers, and anyone looking to protect their primary email from spam, tracking, and data breaches. Users typically create a SimpleLogin alias when signing up for a new online account, subscribing to a newsletter, or providing an email address they don't fully trust, triggered by the need for enhanced digital privacy. SimpleLogin integrates with all major email providers, offers browser extensions for easy alias creation, and provides mobile apps for iOS and Android, allowing replies from aliases.",
-    "category": "Security",
-    "whyItIsUseful": "SimpleLogin offers a powerful open-source alternative to services like DuckDuckGo Email Protection or proprietary burner email solutions, providing robust email privacy and spam protection. For the online shopper, it prevents retailers from selling their primary email address, creating a barrier against unsolicited marketing and targeted ads. For the cybersecurity enthusiast, SimpleLogin is an essential tool for identifying which services are leaking or selling their data, as a breach of an alias reveals the culprit. SimpleLogin offers a generous free tier for basic usage, with a paid premium plan unlocking unlimited aliases, custom domains, and more advanced features. A hidden gem is its 'directory' feature, which allows users to create aliases on the fly (e.g., website.name@yourdomain.simplelogin.com) without pre-registering them, streamlining the signup process even further. Its lesser popularity compared to mainstream privacy tools is partly due to the general public's lack of awareness about email tracking and the benefits of alias services. Despite the acquisition, SimpleLogin maintains an active community, regular updates, and continues to develop new features under Proton's stewardship.",
-    "imageIdea": "SimpleLogin dashboard showing a list of email aliases, their forwarding status, and a button to create a new one.",
-    "websiteLink": "https://simplelogin.io/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/simplelogin-email-alias-service-privacy.webp"
-  },
-  {
-    "id": 352,
-    "slug": "follow-up-then-email-reminder-scheduling",
-    "name": "FollowUpThen",
-    "whatItDoes": "FollowUpThen is a simple, email-based reminder and follow-up service created by a small, independent team. Its core feature is scheduling reminders for yourself or others by simply sending an email to a specific time-based address (e.g., `tomorrow@followupthen.com`). It's primarily built for busy professionals, salespersons, and anyone needing a lightweight, frictionless way to ensure tasks and communications don't fall through the cracks. Users activate it when they need to remember to follow up on an email, revisit a task, or remind someone else about an upcoming deadline. It works with any email client or platform, as it's purely email-driven, requiring no specific integrations beyond your existing email account.",
-    "category": "Productivity",
-    "whyItIsUseful": "It replaces complex CRM follow-up systems or manual calendar entries, offering a dead-simple, email-native way to schedule reminders that is far less intrusive than Boomerang for Gmail for specific tasks. Its simplicity is its strength. For the salesperson waiting on a client's response, they can BCC `3days@followupthen.com` on their outgoing email, and if no reply comes, the original email will reappear in their inbox as a reminder. For the project lead who needs to revisit a task next Monday, they can send an email to `nextmonday@followupthen.com` with task details, and it will resurface at the right time. FollowUpThen offers a generous free tier for basic usage, with paid plans unlocking more reminders, advanced recurrence, and shared reminders for teams. A less-known feature is the ability to create public URLs for reminders, allowing others to quickly set a reminder for themselves or a group with pre-filled content. It's not more popular because its email-based interface, while powerful, might seem counter-intuitive to users accustomed to graphical UIs, and it lacks aggressive marketing. The service has been consistently maintained for over a decade, receiving regular bug fixes and minor feature enhancements, ensuring reliability without a large community.",
-    "imageIdea": "An email icon with a clock or calendar overlay, showing a scheduled reminder.",
-    "websiteLink": "https://www.followupthen.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/follow-up-then-email-reminder-scheduling.webp"
-  },
-  {
-    "id": 503,
-    "slug": "missive-shared-inbox-team-communication",
-    "name": "Missive",
-    "whatItDoes": "Missive is a collaborative email client and chat platform developed by a bootstrapped startup, designed to centralize team communication around shared inboxes. Its core feature allows multiple team members to share email accounts (like support@ or info@), collaborate on drafts, assign conversations, and chat directly within email threads. This tool is primarily built for small to medium-sized teams in customer support, sales, or project management who need to manage shared communication channels efficiently. Teams are triggered to adopt Missive when their current workflow for shared inboxes involves endless forwarding, CC'ing, or internal chat messages about external emails. It supports Gmail, Outlook, and any IMAP/POP3 email account, offering desktop apps for macOS, Windows, Linux, and mobile apps for iOS and Android.",
-    "category": "Communication",
-    "whyItIsUseful": "Missive offers a significant upgrade over standard email clients for teams, eliminating the need to toggle between email, Slack, and project management tools for client communication. For the customer support team, it allows agents to see past interactions, collaborate on complex tickets, and seamlessly hand off conversations without missing context. For the sales team, it enables shared access to leads, collaborative drafting of proposals, and clear ownership of client communications, improving response times. A free plan is available for up to 3 users with limited history, while paid plans unlock unlimited history, integrations, and advanced features for larger teams. A powerful, underutilized feature is the ability to create shared \"rules\" that automate tasks like assigning specific emails or adding tags, which significantly streamlines workflow once a team scales. It's not more popular because it's a full email client replacement, which can be a significant hurdle for teams accustomed to Gmail or Outlook, and its collaboration features require a team-wide adoption. Missive boasts a responsive development team, releasing frequent updates and improvements, and a supportive community forum for best practices.",
-    "imageIdea": "Multiple cursors editing a single email draft, with chat bubbles appearing alongside the email thread.",
-    "websiteLink": "https://missiveapp.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/missive-shared-inbox-team-communication.webp"
-  },
-  {
     "id": 354,
     "slug": "mailspring-desktop-email-client-productivity",
     "name": "Mailspring",
@@ -5275,7 +5210,8 @@
     "imageIdea": "film projector reel with social media icons",
     "websiteLink": "https://letterboxd.com/",
     "type": "hidden-gem",
-    "dateAdded": "2026-07-16"
+    "dateAdded": "2026-07-16",
+    "screenshotUrl": "/screenshots/letter-boxd-community.webp"
   },
   {
     "id": 888,
@@ -6242,5 +6178,72 @@
     "websiteLink": "https://www.typepainter.com/",
     "type": "hidden-gem",
     "dateAdded": "2026-07-30"
+  },
+  {
+    "id": 958,
+    "slug": "deepseek-v4-flash-update",
+    "name": "DeepSeek-V4-Flash Update",
+    "seoTitle": "DeepSeek-V4-Flash Update — LLM progress report",
+    "whatItDoes": "This official update page from DeepSeek meticulously details the latest advancements incorporated into their DeepSeek-V4-Flash Large Language Model. The content focuses on key technical improvements designed to enhance the model's capabilities, including significant expansions to its context window, refined reasoning algorithms, and broader performance optimizations. This update is geared towards developers and researchers actively engaged in the creation and deployment of state-of-the-art artificial intelligence solutions, emphasizing efficiency and enhanced power for complex AI tasks.",
+    "category": "Developer",
+    "whyItIsUseful": "For AI professionals and researchers, a thorough understanding of LLM updates like DeepSeek-V4-Flash is paramount for effectively utilizing emerging AI functionalities. The model's emphasis on efficiency translates directly into potential reductions in inference costs and accelerated processing times, offering substantial benefits for deploying sophisticated AI applications. The detailed release notes serve as an invaluable technical resource, shedding light on underlying architectural shifts and training methodologies. This knowledge empowers developers to refine their AI development strategies, experiment with novel applications, and remain at the forefront of the rapidly advancing LLM domain, particularly for those who prioritize both performance and economic viability.",
+    "imageIdea": "neural network diagram",
+    "websiteLink": "https://api-docs.deepseek.com/updates/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-31",
+    "screenshotUrl": "/screenshots/deepseek-v4-flash-update.webp"
+  },
+  {
+    "id": 959,
+    "slug": "session-portability-essay",
+    "name": "The session you cannot take with you",
+    "seoTitle": "Session Portability — developer essay",
+    "whatItDoes": "This essay delves into the concept of session portability in software development, exploring the challenges and implications of creating user sessions that can seamlessly transition across different devices, platforms, and even application states. It discusses the technical hurdles, architectural patterns, and the user experience benefits of achieving true session continuity. The piece is aimed at developers and product designers interested in building more robust and user-friendly applications.",
+    "category": "Developer",
+    "whyItIsUseful": "While many applications aim for cross-device functionality, true session portability—where a user's exact state and context are preserved and transferable—remains a complex and often overlooked challenge. This article provides a deep dive into the intricacies, offering valuable insights for developers striving to create truly fluid user experiences. It's not just about saving progress, but about maintaining the entire interactive context. For developers building complex applications, distributed systems, or services that span multiple touchpoints, understanding these principles can lead to significant improvements in user satisfaction and application stickiness.",
+    "imageIdea": "interconnected servers",
+    "websiteLink": "https://earendil.com/posts/session-portability/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-31",
+    "screenshotUrl": "/screenshots/session-portability-essay.webp"
+  },
+  {
+    "id": 960,
+    "slug": "rustformers",
+    "name": "Rustformers",
+    "seoTitle": "Rustformers — Rust code visualizer",
+    "whatItDoes": "Rustformers is a web-based tool that visualizes the abstract syntax tree (AST) and the borrow checker's analysis of Rust code. Developed by a community of Rust enthusiasts, it helps developers understand how the Rust compiler processes their code, from parsing to static analysis. It's particularly useful for debugging complex lifetime issues or understanding why certain code compiles and others don't. Users can paste their Rust code into the interface and see a step-by-step breakdown of its transformation and the borrow checker's decisions.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is an invaluable, albeit niche, resource for anyone learning or struggling with Rust's ownership and borrowing system. Unlike generic AST visualizers, Rustformers specifically highlights the borrow checker's logic, making abstract concepts tangible. It allows developers to pinpoint exactly where and why a borrow error occurs, offering insights that are difficult to glean from compiler error messages alone. Power users of Rust appreciate it for its educational value and its ability to demystify the compiler's inner workings. It’s an excellent aid for solidifying a deep understanding of Rust's safety guarantees. Anyone deeply invested in mastering Rust's unique memory management will find this tool indispensable for accelerating their learning curve.",
+    "imageIdea": "interlocking gears circuit board",
+    "websiteLink": "https://rustformers.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-31"
+  },
+  {
+    "id": 961,
+    "slug": "code-server-browser",
+    "name": "Code-Server Browser",
+    "seoTitle": "Code-Server Browser — VS Code in browser",
+    "whatItDoes": "Code-Server Browser is a web application that allows you to run Visual Studio Code (VS Code) directly within your web browser, powered by the `codercom/code-server` project. It essentially turns any remote server or even a local machine into a VS Code instance accessible from anywhere. This is achieved by installing `code-server` on the target machine and then accessing it via a web browser. It's ideal for developers who need to access their development environment from different devices or work on machines with limited local software installation capabilities. You can edit code, run terminals, and use extensions just like you would in a desktop VS Code.",
+    "category": "Developer",
+    "whyItIsUseful": "While VS Code itself is immensely popular, the ability to run it seamlessly in a browser on any remote machine is a powerful, yet often overlooked, capability. Code-Server Browser makes full-featured VS Code accessible without needing to install it locally, which is a game-changer for developers who switch between machines, use public cloud instances, or work on tablets. Its strength lies in providing a consistent and powerful development environment anywhere. It bridges the gap between local and remote development, offering the familiarity of VS Code with the flexibility of web access. This is particularly beneficial for teams with diverse hardware or those needing quick, on-demand development setups without complex configurations. Developers seeking a portable and robust coding environment will find this immensely useful.",
+    "imageIdea": "web browser floating laptop",
+    "websiteLink": "https://github.com/codercom/code-server",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-31",
+    "screenshotUrl": "/screenshots/code-server-browser.webp"
+  },
+  {
+    "id": 962,
+    "slug": "tree-sitter-playground",
+    "name": "Tree-sitter Playground",
+    "seoTitle": "Tree-sitter Playground — Parse code visually",
+    "whatItDoes": "The Tree-sitter Playground is an interactive web-based tool that allows you to visualize the concrete syntax tree (CST) generated by the `tree-sitter` parsing library for various programming languages. Built by the creators of `tree-sitter`, it enables users to input code snippets from supported languages and see how `tree-sitter` parses them into a structured, hierarchical tree. This tool is essential for understanding how code is broken down into its constituent parts, which is fundamental for building language-aware tools like linters, code formatters, and syntax highlighters. Developers can experiment with different language grammars and observe the parsing process in real-time.",
+    "category": "Developer",
+    "whyItIsUseful": "Tree-sitter is a powerful parsing library that underpins many modern code analysis tools, but understanding its output can be challenging. The Playground demystifies this by providing an immediate, visual representation of the parsed code. It's incredibly useful for anyone developing language-specific tooling, as it allows for rapid iteration and debugging of grammar rules. Unlike static documentation, it offers an interactive way to explore how different code structures are recognized. Developers working on IDE plugins, custom static analysis tools, or even educational projects about programming language structure will find this indispensable. It offers a unique insight into the foundational mechanics of code understanding that most developers rarely encounter.",
+    "imageIdea": "decoding machine code tree",
+    "type": "hidden-gem",
+    "dateAdded": "2026-07-31"
   }
 ]

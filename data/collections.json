@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "radio-garden-live-radio-worldwide-map",
-      "loopback-virtual-audio-cables-mac",
-      "ocenaudio-simple-fast-audio-editor",
-      "krisp-ai-noise-cancellation-app-2",
-      "freesound-collaborative-audio-database-samples",
-      "alitu-simple-podcast-production-software",
-      "shortwave-ai-powered-email-client-2",
-      "simplelogin-email-alias-service-privacy",
-      "follow-up-then-email-reminder-scheduling",
-      "missive-shared-inbox-team-communication",
       "mailspring-desktop-email-client-productivity",
-      "flowrite-ai-email-writing-assistant"
+      "flowrite-ai-email-writing-assistant",
+      "mailbrew-personalized-email-newsletter-digest",
+      "leave-me-alone-unsubscribe-email-cleaner",
+      "tempo-deep-work-email-client",
+      "mailbutler-email-assistant-apple-mail-outlook",
+      "things-three-elegant-gtd-task-manager",
+      "toggl-track-time-tracker-habit-goal",
+      "mem-ai-powered-personal-knowledge-assistant",
+      "ticktick-to-do-list-habit-tracker-pomodoro",
+      "obsidian-local-markdown-knowledge-base",
+      "clockify-free-time-tracker-timesheet-app"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "radio-garden-live-radio-worldwide-map",
-      "ocenaudio-simple-fast-audio-editor",
-      "krisp-ai-noise-cancellation-app-2",
-      "freesound-collaborative-audio-database-samples",
-      "alitu-simple-podcast-production-software",
-      "shortwave-ai-powered-email-client-2",
-      "simplelogin-email-alias-service-privacy",
-      "follow-up-then-email-reminder-scheduling",
-      "missive-shared-inbox-team-communication",
       "mailspring-desktop-email-client-productivity",
       "flowrite-ai-email-writing-assistant",
-      "mailbrew-personalized-email-newsletter-digest"
+      "mailbrew-personalized-email-newsletter-digest",
+      "leave-me-alone-unsubscribe-email-cleaner",
+      "tempo-deep-work-email-client",
+      "mailbutler-email-assistant-apple-mail-outlook",
+      "things-three-elegant-gtd-task-manager",
+      "toggl-track-time-tracker-habit-goal",
+      "mem-ai-powered-personal-knowledge-assistant",
+      "ticktick-to-do-list-habit-tracker-pomodoro",
+      "obsidian-local-markdown-knowledge-base",
+      "clockify-free-time-tracker-timesheet-app"
     ]
   },
   {

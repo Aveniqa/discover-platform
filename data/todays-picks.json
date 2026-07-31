@@ -1,19 +1,19 @@
 [
   {
-    "slug": "typ-e-painter",
-    "title": "Typ.ePainter",
+    "slug": "tree-sitter-playground",
+    "title": "Tree-sitter Playground",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Typ.ePainter is a web-based tool for editing and creating vector fonts. It allows users to import existing font files, m",
+    "description": "The Tree-sitter Playground is an interactive web-based tool that allows you to visualize the concrete syntax tree (CST) ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "motion-design-toolkit",
-    "title": "Motion Design Toolkit",
+    "slug": "astro",
+    "title": "Astro",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "The Motion Design Toolkit is a suite of tools and resources aimed at helping designers and developers create sophisticat",
+    "description": "Astro is a modern, free, and open-source web framework for building fast, content-driven websites. It emphasizes content",
     "badge": null,
     "type": "tool"
   }

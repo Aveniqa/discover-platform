@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Astro</title>
+      <link>https://surfaced-x.pages.dev/item/astro</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/astro</guid>
+      <description>Astro is a modern, free, and open-source web framework for building fast, content-driven websites. It emphasizes content and performance by shipping zero JavaScript to the client by default, using an island architecture that hydrates components only when needed. This makes websites built with Astro exceptionally fast, leading to better user experiences and SEO. Astro supports many UI frameworks like React, Vue, and Svelte, allowing developers to use their preferred tools while benefiting from Astro&apos;s performance optimizations.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5310563/pexels-photo-5310563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5310563/pexels-photo-5310563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5310563/pexels-photo-5310563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Zellij</title>
+      <link>https://surfaced-x.pages.dev/item/zellij</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zellij</guid>
+      <description>Zellij is a modern, proactive, and more intuitive terminal workspace written in Rust. It offers a powerful alternative to traditional terminal multiplexers like tmux or screen, providing features such as automatic session management, pane layouts, and a rich plugin system. Zellij&apos;s goal is to make terminal work more organized and efficient by intelligently managing your sessions and windows, ensuring you never lose your work and can easily switch between tasks. It is a free and open-source tool, making it accessible to all users.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10321011/pexels-photo-10321011.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10321011/pexels-photo-10321011.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10321011/pexels-photo-10321011.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Neovim</title>
+      <link>https://surfaced-x.pages.dev/item/neovim</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/neovim</guid>
+      <description>Neovim is a free and open-source, highly extensible text editor designed for modern software development. It&apos;s a fork of the Vim editor, aiming to improve extensibility, maintainability, and user experience. Neovim provides a modal editing interface, making text manipulation incredibly efficient once learned. Its core strength lies in its plugin architecture and asynchronous I/O, allowing for powerful integrations like language servers for real-time code completion and error checking, and integrated debugging. It operates on a freemium model, being entirely free to use.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gfc6d36f906d10ce2a43e8eb4b24662987fde071afa37c1f9fa28798ecb910a73524a68194ab26711c6e7b1a69655183bfec7992f85acc55a962925490987d864_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gfc6d36f906d10ce2a43e8eb4b24662987fde071afa37c1f9fa28798ecb910a73524a68194ab26711c6e7b1a69655183bfec7992f85acc55a962925490987d864_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gfc6d36f906d10ce2a43e8eb4b24662987fde071afa37c1f9fa28798ecb910a73524a68194ab26711c6e7b1a69655183bfec7992f85acc55a962925490987d864_1280.jpg" />
+    </item>
+    <item>
+      <title>Fig</title>
+      <link>https://surfaced-x.pages.dev/item/fig-io</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fig-io</guid>
+      <description>Fig is an intelligent command-line autocompletion tool designed to enhance the developer experience directly within the terminal. It injects IDE-like features into your command-line interface, offering rich, context-aware suggestions for a vast array of popular tools, including Git, Docker, npm, and many others. As you type commands, Fig proactively provides accurate and helpful suggestions for commands themselves, their available flags, and their corresponding arguments. This significantly streamlines the process of interacting with complex command-line applications.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU1MDI0NDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU1MDI0NDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU1MDI0NDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Pazi</title>
+      <link>https://surfaced-x.pages.dev/item/pazi</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pazi</guid>
+      <description>Pazi is an AI-powered platform designed to help individuals and small teams bring their business ideas to life. You describe your vision – whether it&apos;s a book, an online shop, an app, or a service – and Pazi constructs a dedicated team of AI agents to execute it. This includes tasks like market research, content creation, business planning, and even initial development steps. It operates on a freemium model, offering basic agent access for free and more advanced capabilities through paid tiers.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/15141492/pexels-photo-15141492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/15141492/pexels-photo-15141492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/15141492/pexels-photo-15141492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Motion Design Toolkit</title>
       <link>https://surfaced-x.pages.dev/item/motion-design-toolkit</link>
@@ -382,6 +437,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/5206946/pexels-photo-5206946.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Tree-sitter Playground</title>
+      <link>https://surfaced-x.pages.dev/item/tree-sitter-playground</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tree-sitter-playground</guid>
+      <description>The Tree-sitter Playground is an interactive web-based tool that allows you to visualize the concrete syntax tree (CST) generated by the `tree-sitter` parsing library for various programming languages. Built by the creators of `tree-sitter`, it enables users to input code snippets from supported languages and see how `tree-sitter` parses them into a structured, hierarchical tree. This tool is essential for understanding how code is broken down into its constituent parts, which is fundamental for building language-aware tools like linters, code formatters, and syntax highlighters. Developers can experiment with different language grammars and observe the parsing process in real-time.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/35107698/pexels-photo-35107698.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/35107698/pexels-photo-35107698.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/35107698/pexels-photo-35107698.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>img2threejs</title>
       <link>https://surfaced-x.pages.dev/item/img2threejs</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/img2threejs</guid>
@@ -391,6 +457,17 @@
       <enclosure url="https://images.pexels.com/photos/5904088/pexels-photo-5904088.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5904088/pexels-photo-5904088.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5904088/pexels-photo-5904088.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Code-Server Browser</title>
+      <link>https://surfaced-x.pages.dev/item/code-server-browser</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/code-server-browser</guid>
+      <description>Code-Server Browser is a web application that allows you to run Visual Studio Code (VS Code) directly within your web browser, powered by the `codercom/code-server` project. It essentially turns any remote server or even a local machine into a VS Code instance accessible from anywhere. This is achieved by installing `code-server` on the target machine and then accessing it via a web browser. It&apos;s ideal for developers who need to access their development environment from different devices or work on machines with limited local software installation capabilities. You can edit code, run terminals, and use extensions just like you would in a desktop VS Code.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1742830279735-c4e986d77fb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU1MDI0Mzh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1742830279735-c4e986d77fb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU1MDI0Mzh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1742830279735-c4e986d77fb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU1MDI0Mzh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Emissary</title>
@@ -404,6 +481,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/4963359/pexels-photo-4963359.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Rustformers</title>
+      <link>https://surfaced-x.pages.dev/item/rustformers</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rustformers</guid>
+      <description>Rustformers is a web-based tool that visualizes the abstract syntax tree (AST) and the borrow checker&apos;s analysis of Rust code. Developed by a community of Rust enthusiasts, it helps developers understand how the Rust compiler processes their code, from parsing to static analysis. It&apos;s particularly useful for debugging complex lifetime issues or understanding why certain code compiles and others don&apos;t. Users can paste their Rust code into the interface and see a step-by-step breakdown of its transformation and the borrow checker&apos;s decisions.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/9242904/pexels-photo-9242904.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/9242904/pexels-photo-9242904.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/9242904/pexels-photo-9242904.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Simplenote</title>
       <link>https://surfaced-x.pages.dev/item/daily-tool-simplenote</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-simplenote</guid>
@@ -415,6 +503,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/15105440/pexels-photo-15105440.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>The session you cannot take with you</title>
+      <link>https://surfaced-x.pages.dev/item/session-portability-essay</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/session-portability-essay</guid>
+      <description>This essay delves into the concept of session portability in software development, exploring the challenges and implications of creating user sessions that can seamlessly transition across different devices, platforms, and even application states. It discusses the technical hurdles, architectural patterns, and the user experience benefits of achieving true session continuity. The piece is aimed at developers and product designers interested in building more robust and user-friendly applications.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10787344/pexels-photo-10787344.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10787344/pexels-photo-10787344.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10787344/pexels-photo-10787344.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Stream-Writer</title>
       <link>https://surfaced-x.pages.dev/item/stream-writer</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/stream-writer</guid>
@@ -424,6 +523,17 @@
       <enclosure url="https://images.pexels.com/photos/1933900/pexels-photo-1933900.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/1933900/pexels-photo-1933900.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/1933900/pexels-photo-1933900.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>DeepSeek-V4-Flash Update</title>
+      <link>https://surfaced-x.pages.dev/item/deepseek-v4-flash-update</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepseek-v4-flash-update</guid>
+      <description>This official update page from DeepSeek meticulously details the latest advancements incorporated into their DeepSeek-V4-Flash Large Language Model. The content focuses on key technical improvements designed to enhance the model&apos;s capabilities, including significant expansions to its context window, refined reasoning algorithms, and broader performance optimizations. This update is geared towards developers and researchers actively engaged in the creation and deployment of state-of-the-art artificial intelligence solutions, emphasizing efficiency and enhanced power for complex AI tasks.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30855412/pexels-photo-30855412.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30855412/pexels-photo-30855412.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30855412/pexels-photo-30855412.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>You Need A Budget (YNAB)</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/6232446/pexels-photo-6232446.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/6232446/pexels-photo-6232446.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/6232446/pexels-photo-6232446.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>open-connector</title>
-      <link>https://surfaced-x.pages.dev/item/open-connector</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/open-connector</guid>
-      <description>open-connector is an open-source authentication gateway designed to seamlessly connect AI agents to over 1000 SaaS providers. It offers flexible integration methods including SDKs, CLI, MCP, HTTP, and OpenAPI, making it a versatile tool for developers looking to empower their AI applications with access to a vast ecosystem of services. The project&apos;s primary goal is to simplify the complex process of API authentication and authorization for AI-driven workflows. It operates as a free and open-source project.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5678243/pexels-photo-5678243.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5678243/pexels-photo-5678243.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5678243/pexels-photo-5678243.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>GistBox</title>
-      <link>https://surfaced-x.pages.dev/item/code-snippet-sharing-gistbox</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/code-snippet-sharing-gistbox</guid>
-      <description>GistBox is a desktop application that provides a dedicated interface for managing and organizing your GitHub Gists. It allows for easy creation, editing, searching, and starring of gists, offering a more streamlined experience than the GitHub website for developers who frequently use gists for code snippets, notes, or configurations. It&apos;s developed by a solo developer aiming to improve the developer workflow around small code sharing.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1649451844931-57e22fc82de3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU0MTQ0OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1649451844931-57e22fc82de3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU0MTQ0OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1649451844931-57e22fc82de3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU0MTQ0OTN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Plottr</title>
-      <link>https://surfaced-x.pages.dev/item/daily-tool-plottr</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-plottr</guid>
-      <description>Plottr is a visual novel plotting software designed specifically for fiction writers. It helps you break down your story into plot points, scenes, and chapters using an intuitive timeline interface. You can organize character arcs, plot threads, and world-building elements alongside your narrative. Plottr operates on a one-time purchase model. Its unique strength lies in its highly customizable and visual approach to story structuring, allowing writers to see their entire narrative arc at a glance.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7947842/pexels-photo-7947842.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7947842/pexels-photo-7947842.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7947842/pexels-photo-7947842.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>ColorMind</title>
-      <link>https://surfaced-x.pages.dev/item/color-palette-generator-colormind</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/color-palette-generator-colormind</guid>
-      <description>ColorMind is an intelligent color palette generator that uses AI to suggest harmonious color schemes. Users can lock specific colors they like and let the AI generate complementary shades, or let the AI propose entirely new palettes based on learned aesthetics. Developed by a small independent team, it’s designed to assist designers, artists, and anyone needing cohesive color combinations for their projects, from web design to branding.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6985132/pexels-photo-6985132.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6985132/pexels-photo-6985132.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6985132/pexels-photo-6985132.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Novlr.io</title>
-      <link>https://surfaced-x.pages.dev/item/novlr-io</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/novlr-io</guid>
-      <description>Novlr.io is a sophisticated AI-powered writing assistant specifically designed for fiction authors. It goes beyond simple grammar checks to offer plot suggestions, character development prompts, and stylistic feedback, all tailored to the nuances of narrative writing. The platform operates on a freemium model, offering a generous free tier for basic use and paid subscriptions for advanced features like unlimited AI generation and deeper analysis. It excels at helping writers overcome writer&apos;s block by providing context-aware creative sparks.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5124844/pexels-photo-5124844.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5124844/pexels-photo-5124844.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5124844/pexels-photo-5124844.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>CheapFoodMap – A map of good meals under $10</title>
-      <link>https://surfaced-x.pages.dev/item/cheapfoodmap</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cheapfoodmap</guid>
-      <description>CheapFoodMap is a crowdsourced web application that visually maps out affordable dining options, specifically highlighting meals that cost under $10. It aims to solve the problem of finding budget-friendly food in various locations without endless searching. Users can contribute new entries, confirm existing ones, and browse the map to discover cheap eats. It&apos;s perfect for students, travelers, or anyone looking to save money on daily meals. For instance, if you&apos;re visiting a new city and want to grab a satisfying lunch without breaking the bank, CheapFoodMap can show you nearby restaurants and specific menu items that fit your budget.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4338273/pexels-photo-4338273.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4338273/pexels-photo-4338273.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4338273/pexels-photo-4338273.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Akiflow</title>
-      <link>https://surfaced-x.pages.dev/item/task-management-visualizer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/task-management-visualizer</guid>
-      <description>Akiflow is a productivity app designed to unify all your tasks from various sources into a single, actionable daily plan. It integrates with popular task managers (like Todoist, Asana, etc.) and calendars, allowing you to see everything you need to do in one place. Its drag-and-drop interface makes it simple to schedule tasks, block out time for them, and build a realistic daily agenda. Akiflow operates on a freemium model, with core functionality available for free and advanced features requiring a subscription.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/28891929/pexels-photo-28891929.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/28891929/pexels-photo-28891929.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/28891929/pexels-photo-28891929.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac</title>
-      <link>https://surfaced-x.pages.dev/item/turbo-fieldfare-engine</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/turbo-fieldfare-engine</guid>
-      <description>Turbo Fieldfare is an innovative open-source project that enables users to run the powerful Gemma 4 26B large language model using an astonishingly low 2GB of RAM. This breakthrough makes cutting-edge AI accessible on a wide range of M-series Mac hardware, which typically lack the substantial RAM required for such models. Developed by drumih, it addresses the growing demand for on-device AI processing without the need for expensive cloud services or high-end specialized hardware. A user could, for example, quickly test creative writing prompts or get detailed code explanations directly on their laptop, even if it&apos;s an older or base model M-series MacBook.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/15554492/pexels-photo-15554492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/15554492/pexels-photo-15554492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/15554492/pexels-photo-15554492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Zapier</title>
-      <link>https://surfaced-x.pages.dev/item/workflow-automation-tool</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/workflow-automation-tool</guid>
-      <description>Zapier is a web-based service that allows users to automate repetitive tasks between different web applications. It works by creating &apos;Zaps,&apos; which are automated workflows triggered by an event in one app that causes an action in another. For example, a new email in Gmail could automatically create a new task in Asana. Zapier offers a free tier with limited Zaps and tasks, with paid plans scaling up for more extensive automation needs.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/14158915/pexels-photo-14158915.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/14158915/pexels-photo-14158915.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/14158915/pexels-photo-14158915.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Simulacra</title>
-      <link>https://surfaced-x.pages.dev/item/simulacra-ai-writing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/simulacra-ai-writing</guid>
-      <description>Simulacra is an AI-powered writing assistant that goes beyond simple grammar checking. It analyzes your writing style, tone, and sentiment, providing actionable suggestions to improve clarity, engagement, and impact. The tool uses advanced natural language processing to understand the nuances of your text, offering advice on word choice, sentence structure, and overall readability. Simulacra is particularly adept at helping writers adapt their content for different audiences and purposes, ensuring their message resonates effectively.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3826667/pexels-photo-3826667.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3826667/pexels-photo-3826667.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3826667/pexels-photo-3826667.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
