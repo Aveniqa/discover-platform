@@ -1,19 +1,19 @@
 [
   {
-    "slug": "tree-sitter-playground",
-    "title": "Tree-sitter Playground",
+    "slug": "paper-writer",
+    "title": "Paper Writer",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Tree-sitter Playground is an interactive web-based tool that allows you to visualize the concrete syntax tree (CST) ",
+    "description": "Paper Writer is an AI-powered tool designed to assist students and academics with the complex task of writing research p",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "astro",
-    "title": "Astro",
+    "slug": "focuswriter-distraction-free-writing",
+    "title": "FocusWriter",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Astro is a modern, free, and open-source web framework for building fast, content-driven websites. It emphasizes content",
+    "description": "FocusWriter is a simple, elegant, and completely free application designed to provide a distraction-free writing environ",
     "badge": null,
     "type": "tool"
   }

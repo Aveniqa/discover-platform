@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "alitu-simple-podcast-production-software",
-      "shortwave-ai-powered-email-client-2",
-      "follow-up-then-email-reminder-scheduling",
-      "missive-shared-inbox-team-communication",
-      "mailspring-desktop-email-client-productivity",
-      "flowrite-ai-email-writing-assistant",
-      "mailbrew-personalized-email-newsletter-digest",
-      "leave-me-alone-unsubscribe-email-cleaner",
-      "tempo-deep-work-email-client",
       "mailbutler-email-assistant-apple-mail-outlook",
       "things-three-elegant-gtd-task-manager",
-      "toggl-track-time-tracker-habit-goal"
+      "toggl-track-time-tracker-habit-goal",
+      "mem-ai-powered-personal-knowledge-assistant",
+      "ticktick-to-do-list-habit-tracker-pomodoro",
+      "clockify-free-time-tracker-timesheet-app",
+      "drafts-capture-text-ideas-apple",
+      "craft-docs-rich-document-editor",
+      "visidata-terminal-data-exploration-plotting",
+      "dygraphs-interactive-time-series-charts",
+      "ripgrep-faster-file-search",
+      "taskwarrior-cli-task-manager"
     ]
   },
   {
