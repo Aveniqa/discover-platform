@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "mailspring-desktop-email-client-productivity",
-      "flowrite-ai-email-writing-assistant",
-      "mailbrew-personalized-email-newsletter-digest",
-      "leave-me-alone-unsubscribe-email-cleaner",
-      "tempo-deep-work-email-client",
-      "mailbutler-email-assistant-apple-mail-outlook",
-      "things-three-elegant-gtd-task-manager",
-      "toggl-track-time-tracker-habit-goal",
-      "mem-ai-powered-personal-knowledge-assistant",
-      "ticktick-to-do-list-habit-tracker-pomodoro",
       "obsidian-local-markdown-knowledge-base",
-      "clockify-free-time-tracker-timesheet-app"
+      "clockify-free-time-tracker-timesheet-app",
+      "supernova-design-system-management-platform",
+      "fontbase-professional-font-manager",
+      "drafts-capture-text-ideas-apple",
+      "craft-docs-rich-document-editor",
+      "devonthink-knowledge-management-macos",
+      "leaflet-interactive-mobile-friendly-maps",
+      "visidata-terminal-data-exploration-plotting",
+      "dygraphs-interactive-time-series-charts",
+      "flourish-studio-animated-interactive-stories",
+      "ripgrep-faster-file-search"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "mailspring-desktop-email-client-productivity",
-      "flowrite-ai-email-writing-assistant",
-      "mailbrew-personalized-email-newsletter-digest",
-      "leave-me-alone-unsubscribe-email-cleaner",
-      "tempo-deep-work-email-client",
-      "mailbutler-email-assistant-apple-mail-outlook",
-      "things-three-elegant-gtd-task-manager",
-      "toggl-track-time-tracker-habit-goal",
-      "mem-ai-powered-personal-knowledge-assistant",
-      "ticktick-to-do-list-habit-tracker-pomodoro",
       "obsidian-local-markdown-knowledge-base",
-      "clockify-free-time-tracker-timesheet-app"
+      "clockify-free-time-tracker-timesheet-app",
+      "supernova-design-system-management-platform",
+      "fontbase-professional-font-manager",
+      "drafts-capture-text-ideas-apple",
+      "craft-docs-rich-document-editor",
+      "devonthink-knowledge-management-macos",
+      "visidata-terminal-data-exploration-plotting",
+      "dygraphs-interactive-time-series-charts",
+      "flourish-studio-animated-interactive-stories",
+      "ripgrep-faster-file-search",
+      "taskwarrior-cli-task-manager"
     ]
   },
   {
