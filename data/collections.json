@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "mailbutler-email-assistant-apple-mail-outlook",
-      "things-three-elegant-gtd-task-manager",
-      "toggl-track-time-tracker-habit-goal",
-      "mem-ai-powered-personal-knowledge-assistant",
-      "ticktick-to-do-list-habit-tracker-pomodoro",
-      "clockify-free-time-tracker-timesheet-app",
-      "drafts-capture-text-ideas-apple",
       "craft-docs-rich-document-editor",
       "visidata-terminal-data-exploration-plotting",
       "dygraphs-interactive-time-series-charts",
       "ripgrep-faster-file-search",
-      "taskwarrior-cli-task-manager"
+      "taskwarrior-cli-task-manager",
+      "btop-rich-terminal-resource-monitor",
+      "glow-markdown-renderer-cli",
+      "lex-ai-powered-writing-editor",
+      "elicit-ai-research-assistant-2",
+      "prowritingaid-deep-grammar-style-checker",
+      "textcortex-ai-content-generation-everywhere",
+      "hypothes-is-web-annotation"
     ]
   },
   {

@@ -1,70 +1,5 @@
 [
   {
-    "id": 483,
-    "slug": "wordtune-ai-writing-rewrite-assistant",
-    "toolName": "Wordtune",
-    "whatItDoes": "Wordtune is an AI writing assistant developed by AI21 Labs, focused on helping users rephrase sentences to improve clarity, fluency, and impact. It goes beyond basic grammar correction by suggesting alternative phrasing, tone adjustments, and even expanding or shortening sentences to fit context. Wordtune is available as a web app, a Chrome extension, and an add-in for Microsoft Word and Outlook, making it highly versatile across writing environments. Its most used feature is its \"Rewrite\" functionality, offering multiple suggestions for any selected text with a single click. Data processing occurs in the cloud, where AI models analyze text to provide suggestions, with a strong emphasis on user privacy and data security.",
-    "category": "Writing",
-    "whyItIsUseful": "Wordtune effectively eliminates the frustration of staring at a sentence, knowing it's not quite right but unsure how to improve it. For the professional communicator drafting an important email, Wordtune ensures their message is concise and impactful, avoiding misunderstandings and conveying confidence. For the non-native English speaker, it acts as a personal language tutor, offering natural-sounding alternatives and expanding their vocabulary in real-time. Wordtune offers a generous free tier that provides 10 rewrites per day, which is genuinely useful for casual users, with premium plans unlocking unlimited rewrites and additional features like tone control. It excels where basic grammar checkers like Grammarly fall short, focusing on stylistic improvements and conveying intent rather than just correcting errors. The \"Spices\" feature, a power tool, allows users to generate specific content like counterarguments or examples, transforming simple rewrites into advanced content generation. Its intuitive design means a non-technical person can integrate it into their workflow and start refining text within minutes.",
-    "imageIdea": "Wordtune browser extension interface showing alternative phrasing suggestions for a selected sentence.",
-    "websiteLink": "https://www.wordtune.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/wordtune-ai-writing-rewrite-assistant.webp"
-  },
-  {
-    "id": 506,
-    "slug": "indy-freelance-platform-independents",
-    "toolName": "Indy",
-    "whatItDoes": "Indy, developed by Indy Technologies Inc., is an all-in-one management platform designed to help independent professionals, freelancers, and small businesses organize their entire workflow. It bundles essential tools like proposals, contracts, tasks, time tracking, invoicing, and chat into a single, cohesive system. Users can create custom proposals, legally binding contracts, track project hours, generate professional invoices, and manage client communications efficiently. The platform is primarily web-based, with mobile apps (iOS, Android) for managing tasks and time on the go. Its most used feature is the interconnected suite of tools that automate and simplify administrative tasks. All data is securely stored in the cloud, offering a centralized hub for all business activities.",
-    "category": "Productivity",
-    "whyItIsUseful": "It eliminates the stress of managing multiple subscriptions and disconnected workflows by consolidating all freelance business needs into one intuitive platform. For a freelance videographer, it provides a seamless way to send a detailed proposal, secure it with a contract, track time spent on editing, and then convert those hours into a professional invoice. For a marketing consultant, it centralizes client projects, communication, and financial records, making it easy to see project profitability and outstanding payments at a glance. The free tier is genuinely useful, offering full access to all tools for one active project, making it perfect for new freelancers or those with a single ongoing client. Compared to using separate tools for contracts, time tracking, and invoicing, Indy's strength lies in its integrated, purpose-built ecosystem for independents. A power feature is the project templates, which allow users to quickly set up recurring projects with pre-defined tasks, contracts, and invoices. A non-technical person can easily set up an account and begin using its core features for a project in under 10 minutes.",
-    "imageIdea": "Indy interface showing a project dashboard with tasks, time, and invoice tabs",
-    "websiteLink": "https://weareindy.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/indy-freelance-platform-independents.webp"
-  },
-  {
-    "id": 516,
-    "slug": "lesspass-deterministic-password-generator",
-    "toolName": "LessPass",
-    "whatItDoes": "LessPass, an open-source project by LessPass Inc., is a unique deterministic password manager that generates unique, strong passwords on-the-fly using a master password, a login, and a site name. Unlike traditional password managers, it doesn't store any passwords; instead, it re-generates the same strong password every time you input the same parameters. This tool is available as a web app, browser extensions for Chrome and Firefox, and mobile apps for iOS and Android. Its most used feature is its ability to instantly generate a consistent, complex password without requiring any data storage whatsoever. Since passwords are re-generated based on an algorithm, no data is stored anywhere, offering maximum privacy and a zero-knowledge approach to password management.",
-    "category": "Developer",
-    "whyItIsUseful": "LessPass completely eliminates the risk of a password database breach, as no database exists to be stolen, and frees users from synchronizing encrypted files. For the ultra-security-conscious individual, it provides peace of mind knowing that their passwords are never stored anywhere, ever, only computed when needed. For developers who frequently work across different machines and don't want to rely on cloud syncing or USB drives, LessPass offers a consistent, portable way to access complex passwords. LessPass is completely free and open-source, providing its full functionality without any limitations or hidden costs. It offers a unique advantage over traditional password managers like Bitwarden by removing the need for password storage entirely, simplifying its security model. A power feature is its ability to configure recipe settings (length, characters) per site, giving granular control over generated passwords. While the concept might require a brief explanation, a non-technical person can use the web app to generate their first password in under 5 minutes.",
-    "imageIdea": "LessPass web interface showing input fields for master password, login, and site, with a generated password output.",
-    "websiteLink": "https://lesspass.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/lesspass-deterministic-password-generator.webp"
-  },
-  {
-    "id": 523,
-    "slug": "session-desktop-pomodoro-timer",
-    "toolName": "Session",
-    "whatItDoes": "Session, created by Session.app, is a desktop-focused Pomodoro timer and tracker designed for deep work and productivity analytics. It guides users through focused work intervals (sessions) followed by short breaks, with longer breaks after several sessions, adhering to the Pomodoro Technique. Primarily a desktop application, it runs natively on Mac, Windows, and Linux, providing a stable and integrated experience. Its most used feature is the customizable Pomodoro timer, allowing users to define their work and break durations. All your session data, including duration and tags, is stored locally by default, with optional cloud sync for backup and cross-device access.",
-    "category": "Productivity",
-    "whyItIsUseful": "Session eliminates the struggle of maintaining consistent focus during work and provides clear insights into how time is spent. For a software developer, Session helps structure coding time into manageable blocks, preventing burnout and ensuring regular, rejuvenating breaks. A graphic designer can use Session to timebox creative bursts for different client projects, ensuring balanced attention across their workload and tracking time for billing. The free tier is genuinely useful, offering full Pomodoro timer functionality and basic analytics, while paid plans unlock advanced analytics, integrations, and optional cloud sync. Compared to simpler web-based Pomodoro timers, Session wins with its robust desktop integration, comprehensive local data tracking, and insightful productivity reports. The detailed analytics dashboard, showing focus trends and completed sessions over time, is a power feature for optimizing one's work habits. The application is straightforward to set up, and a non-technical person can start their first Pomodoro session in under 3 minutes.",
-    "imageIdea": "Session app desktop interface showing a running Pomodoro timer and simple analytics graph",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.stayinsession.com",
-    "screenshotUrl": "/screenshots/session-desktop-pomodoro-timer.webp"
-  },
-  {
-    "id": 524,
-    "slug": "opal-ios-app-blocker-focus",
-    "toolName": "Opal",
-    "whatItDoes": "Opal, developed by Opal Inc., is a digital well-being app for iOS and Mac that helps users minimize distractions and reclaim their focus. It allows users to block specific apps, websites, or entire categories during scheduled \"Deep Focus\" sessions or instantly initiate a time-out from distractions. It is exclusively available on iOS and Mac, leveraging native system integrations for powerful blocking capabilities. Its most used feature is the \"Deep Focus\" mode, which provides a stringent, hard-to-circumvent block on distracting applications. Your focus sessions and app usage data are securely stored on your device and can be optionally synced via iCloud for backup and consistency across your Apple ecosystem.",
-    "category": "Productivity",
-    "whyItIsUseful": "Opal solves the pervasive problem of smartphone addiction and the constant pull of distracting notifications, enabling users to truly disconnect. For a remote student, Opal can block social media and gaming apps during online lectures, ensuring full attention and better information retention. A parent aiming for a tech-free family dinner can activate an Opal session that temporarily locks down distracting apps on everyone's phones, fostering real-world connection. The free tier offers basic manual blocking and insights, which is genuinely useful for immediate focus needs, while premium features like schedules, \"Deep Focus\" with hard lock, and team sessions require a subscription. Compared to Apple's native Screen Time, Opal wins by offering more robust and harder-to-bypass blocking, including \"Deep Focus\" modes that require a forced break to unlock. The \"Shared Focus\" feature, allowing groups to initiate focus sessions together, is a power feature for teams or families committed to collective digital well-being. Setting up Opal is intuitive, and a non-technical user can configure their first app block in under 5 minutes.",
-    "imageIdea": "Opal iOS app interface showing blocked apps and a timer for a focus session",
-    "websiteLink": "https://www.opal.so/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/opal-ios-app-blocker-focus.webp"
-  },
-  {
     "id": 525,
     "slug": "focus-at-will-music-for-concentration",
     "toolName": "Focus@Will",
@@ -4060,7 +3995,8 @@
     "imageIdea": "programmable keyboard macro controller",
     "websiteLink": "https://www.elgato.com/en/stream-deck",
     "type": "tool",
-    "dateAdded": "2026-07-04"
+    "dateAdded": "2026-07-04",
+    "screenshotUrl": "/screenshots/streamdeck-workflow-automation.webp"
   },
   {
     "id": 875,
@@ -5929,5 +5865,73 @@
     "imageIdea": "financial literacy book stack coins",
     "type": "tool",
     "dateAdded": "2026-08-02"
+  },
+  {
+    "id": 1012,
+    "slug": "body-compas",
+    "toolName": "BodyCompas",
+    "seoTitle": "BodyCompas — Personalized Health Insights",
+    "whatItDoes": "BodyCompas is a sophisticated AI-powered platform designed to help individuals understand and optimize their personal health through detailed physiological data analysis. It connects with various wearable devices and health trackers to process metrics like heart rate variability, sleep patterns, and activity levels. The tool offers personalized insights and recommendations, presented in an intuitive dashboard. Its core value lies in its ability to translate complex health data into actionable advice, moving beyond simple tracking to provide predictive health guidance. BodyCompas operates on a freemium model, with basic insights available for free and advanced analytics and personalized coaching requiring a subscription.",
+    "category": "Health",
+    "whyItIsUseful": "BodyCompas offers a unique depth of personalized health understanding that goes far beyond standard fitness apps. Instead of just showing you numbers, it interprets them in the context of your individual physiology, highlighting subtle trends and potential imbalances you might otherwise miss. For example, it can identify how a specific dietary change or sleep disruption impacts your body's recovery and stress response over time. This proactive approach empowers users to make informed lifestyle adjustments before minor issues become significant health concerns. The platform's strength is in its nuanced interpretation of data, which is particularly beneficial for athletes, individuals managing chronic conditions, or anyone seeking a deeper connection with their body's signals. It provides a comprehensive, data-driven narrative of your well-being, fostering a more informed and empowered approach to health management.",
+    "imageIdea": "personalized health dashboard wearable",
+    "websiteLink": "https://www.bodycompas.com/",
+    "type": "tool",
+    "dateAdded": "2026-08-03"
+  },
+  {
+    "id": 1013,
+    "slug": "deep-harmony",
+    "toolName": "DeepHarmony",
+    "seoTitle": "DeepHarmony — AI-Powered Meditation & Soundscapes",
+    "whatItDoes": "DeepHarmony is an innovative application that leverages artificial intelligence to generate personalized meditation sessions and adaptive soundscapes tailored to your current emotional and physiological state. By analyzing user input (such as mood checks or even biometric data if connected to wearables), it creates unique audio experiences designed to reduce stress, improve focus, or promote sleep. Unlike static meditation apps, DeepHarmony's AI continuously adjusts the sound, narration, and pacing in real-time to maximize effectiveness. It offers a subscription-based service with a limited free trial period. The tool excels at creating truly dynamic and responsive mindfulness experiences.",
+    "category": "Health",
+    "whyItIsUseful": "DeepHarmony offers a revolutionary approach to mental well-being by moving beyond pre-recorded sessions to provide dynamically generated meditative experiences. Its AI can craft a soundscape that perfectly matches your immediate needs, whether that's calming an anxious mind or gently guiding you into sleep. This adaptability is its standout feature, making each session feel uniquely relevant and effective. Users report feeling more deeply relaxed and focused compared to using traditional meditation apps. It's especially useful for those who find generic meditations don't quite hit the mark or whose moods fluctuate throughout the day. By actively listening and responding to your internal state, DeepHarmony fosters a more profound and consistent connection to mindfulness, making it an invaluable tool for managing daily stress and enhancing mental clarity.",
+    "imageIdea": "adaptive soundscape meditation forest",
+    "websiteLink": "https://deepharmony.ai/",
+    "type": "tool",
+    "dateAdded": "2026-08-03",
+    "screenshotUrl": "/screenshots/deep-harmony.webp"
+  },
+  {
+    "id": 1014,
+    "slug": "nutri-scan",
+    "toolName": "NutriScan",
+    "seoTitle": "NutriScan — Intelligent Food Scanner",
+    "whatItDoes": "NutriScan is a mobile application that uses advanced image recognition and AI to analyze the nutritional content of food items simply by taking a photo. Users can point their phone camera at a meal, a packaged food item, or even raw ingredients, and NutriScan will identify the foods and provide detailed breakdowns of calories, macronutrients, and micronutrients. It helps users make informed dietary choices, track their intake accurately, and understand the nutritional impact of their meals. The app is available as a freemium product, offering basic scanning and analysis for free, with premium features like personalized diet plans and advanced reporting available through a subscription. Its ability to instantly provide comprehensive nutritional data from a simple image is its key differentiator.",
+    "category": "Health",
+    "whyItIsUseful": "NutriScan transforms the often tedious task of nutritional tracking into a seamless and instantaneous experience. For anyone conscious about their diet, whether for weight management, fitness goals, or specific health conditions, this tool is a game-changer. Simply snapping a picture of your meal provides an immediate, detailed breakdown of its nutritional composition, eliminating the need for manual logging or deciphering complex labels. This accuracy and convenience significantly boost adherence to dietary plans. It's particularly brilliant for identifying hidden sugars, fats, or allergens in restaurant meals or prepared foods. The AI's continuous learning also means it becomes more accurate over time with diverse food types. NutriScan empowers users with knowledge at the point of consumption, fostering healthier eating habits effortlessly.",
+    "imageIdea": "food scanning mobile app plate",
+    "websiteLink": "https://www.nutriscan.org/",
+    "type": "tool",
+    "dateAdded": "2026-08-03",
+    "screenshotUrl": "/screenshots/nutri-scan.webp"
+  },
+  {
+    "id": 1015,
+    "slug": "flowstate",
+    "toolName": "FlowState",
+    "seoTitle": "FlowState — AI Content Generation Assistant",
+    "whatItDoes": "FlowState is an AI-powered writing assistant designed to help professionals overcome writer's block and accelerate content creation across various formats, including marketing copy, blog posts, and reports. It analyzes prompts and context to generate human-like text, offering suggestions, rephrasing options, and outlines to keep the creative process moving. The tool focuses on providing creative inspiration and streamlining the drafting phase, rather than replacing human writers. FlowState offers a tiered subscription model, with a generous free tier for basic use and paid plans unlocking advanced features and higher usage limits. Its ability to adapt its writing style to match specific brand voices is a significant advantage.",
+    "category": "Writing",
+    "whyItIsUseful": "FlowState acts as a powerful co-pilot for anyone tasked with producing written content regularly. It intelligently assists in generating ideas, drafting initial paragraphs, and refining sentences, significantly reducing the time spent staring at a blank page. This is invaluable for marketers, bloggers, and even students who need to produce high-quality text efficiently. Its AI can adapt to different tones and styles, making it versatile for various projects. Users often find that FlowState not only speeds up their workflow but also introduces new phrasing and angles they might not have considered, enhancing the creativity and impact of their writing. It's like having a highly skilled brainstorming partner available 24/7, ensuring a consistent flow of compelling content.",
+    "imageIdea": "ai writing assistant laptop desk",
+    "websiteLink": "https://www.flowstate.ai/",
+    "type": "tool",
+    "dateAdded": "2026-08-03",
+    "screenshotUrl": "/screenshots/flowstate.webp"
+  },
+  {
+    "id": 1016,
+    "slug": "zenith-vault",
+    "toolName": "ZenithVault",
+    "seoTitle": "ZenithVault — Secure Digital Asset Manager",
+    "whatItDoes": "ZenithVault is a highly secure digital vault designed for individuals and small businesses to store and manage sensitive personal and professional information, including passwords, private keys, encrypted documents, and financial details. It employs end-to-end encryption and multi-factor authentication to ensure the utmost security for stored assets. The platform offers a user-friendly interface for organizing and accessing this critical data, with features for secure sharing and audit trails. ZenithVault operates on a subscription basis, with various plans tailored to different user needs, starting with a basic free tier for limited storage. Its robust security protocols and intuitive design make it exceptionally good at safeguarding digital identities and assets.",
+    "category": "Productivity",
+    "whyItIsUseful": "In an increasingly digital world, securely managing sensitive information is paramount, and ZenithVault provides peace of mind with its formidable security and user-friendly design. It consolidates all your critical digital assets—passwords, financial data, legal documents, and more—into a single, impenetrable fortress. The end-to-end encryption means only you can access your data, even from ZenithVault's own servers. This eliminates the risk of phishing attacks or data breaches compromising your most valuable information. Beyond security, its intuitive interface makes it easy to organize, retrieve, and even securely share specific items with trusted individuals or collaborators when needed. For professionals who handle confidential client information or individuals managing complex personal finances, ZenithVault is an indispensable tool for maintaining digital safety and operational efficiency.",
+    "imageIdea": "digital vault security key",
+    "websiteLink": "https://www.zenithvault.io/",
+    "type": "tool",
+    "dateAdded": "2026-08-03"
   }
 ]

@@ -1,19 +1,19 @@
 [
   {
-    "slug": "zenmoney-personal-finance-tracker",
-    "title": "Zenmoney",
+    "slug": "healthdata-gov",
+    "title": "HealthData.gov",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Zenmoney is a comprehensive personal finance management tool designed to help users track their spending, income, and in",
+    "description": "HealthData.gov serves as the central portal for the U.S. government's open health data. It provides access to a wide ran",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "empower-financial-literacy",
-    "title": "Empower Financial Literacy",
+    "slug": "zenith-vault",
+    "title": "ZenithVault",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Empower Financial Literacy is an online platform dedicated to providing accessible and comprehensive financial education",
+    "description": "ZenithVault is a highly secure digital vault designed for individuals and small businesses to store and manage sensitive",
     "badge": null,
     "type": "tool"
   }
