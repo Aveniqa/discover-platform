@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "obsidian-local-markdown-knowledge-base",
-      "clockify-free-time-tracker-timesheet-app",
-      "supernova-design-system-management-platform",
-      "fontbase-professional-font-manager",
-      "drafts-capture-text-ideas-apple",
-      "craft-docs-rich-document-editor",
-      "devonthink-knowledge-management-macos",
-      "leaflet-interactive-mobile-friendly-maps",
-      "visidata-terminal-data-exploration-plotting",
-      "dygraphs-interactive-time-series-charts",
       "flourish-studio-animated-interactive-stories",
-      "ripgrep-faster-file-search"
+      "ripgrep-faster-file-search",
+      "taskwarrior-cli-task-manager",
+      "btop-rich-terminal-resource-monitor",
+      "starship-cross-shell-prompt",
+      "glow-markdown-renderer-cli",
+      "lex-ai-powered-writing-editor",
+      "typingmind-advanced-ui-for-llms",
+      "elicit-ai-research-assistant-2",
+      "hyperwrite-ai-learns-your-writing-style",
+      "prowritingaid-deep-grammar-style-checker",
+      "textcortex-ai-content-generation-everywhere"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "obsidian-local-markdown-knowledge-base",
-      "clockify-free-time-tracker-timesheet-app",
-      "supernova-design-system-management-platform",
-      "fontbase-professional-font-manager",
-      "drafts-capture-text-ideas-apple",
-      "craft-docs-rich-document-editor",
-      "devonthink-knowledge-management-macos",
-      "visidata-terminal-data-exploration-plotting",
-      "dygraphs-interactive-time-series-charts",
       "flourish-studio-animated-interactive-stories",
       "ripgrep-faster-file-search",
-      "taskwarrior-cli-task-manager"
+      "taskwarrior-cli-task-manager",
+      "btop-rich-terminal-resource-monitor",
+      "starship-cross-shell-prompt",
+      "glow-markdown-renderer-cli",
+      "lex-ai-powered-writing-editor",
+      "typingmind-advanced-ui-for-llms",
+      "elicit-ai-research-assistant-2",
+      "hyperwrite-ai-learns-your-writing-style",
+      "prowritingaid-deep-grammar-style-checker",
+      "textcortex-ai-content-generation-everywhere"
     ]
   },
   {
@@ -65,18 +65,18 @@
     "description": "Handpicked gifts for the person who has everything.",
     "emoji": "🎁",
     "itemSlugs": [
-      "alitu-simple-podcast-production-software",
-      "simplelogin-email-alias-service-privacy",
-      "flowrite-ai-email-writing-assistant",
-      "tempo-deep-work-email-client",
-      "things-three-elegant-gtd-task-manager",
-      "ticktick-to-do-list-habit-tracker-pomodoro",
-      "craft-docs-rich-document-editor",
-      "devonthink-knowledge-management-macos",
-      "visidata-terminal-data-exploration-plotting",
-      "dygraphs-interactive-time-series-charts",
       "flourish-studio-animated-interactive-stories",
-      "typingmind-advanced-ui-for-llms"
+      "typingmind-advanced-ui-for-llms",
+      "prowritingaid-deep-grammar-style-checker",
+      "textcortex-ai-content-generation-everywhere",
+      "transkribus-ai-handwriting-recognition",
+      "tropy-research-photo-management",
+      "hledger-plain-text-accounting",
+      "buxfer-budgeting-forecasting-debt-management",
+      "streaks-ios-habit-tracker-design",
+      "way-of-life-good-bad-habit-tracker",
+      "productive-habit-tracker-aesthetic-mobile",
+      "everyday-app-minimalist-web-habit-tracker"
     ]
   },
   {

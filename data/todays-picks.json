@@ -1,19 +1,19 @@
 [
   {
-    "slug": "healthdata-gov",
-    "title": "HealthData.gov",
+    "slug": "scientific-illustration-viewer",
+    "title": "Scientific Illustration Viewer",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "HealthData.gov serves as the central portal for the U.S. government's open health data. It provides access to a wide ran",
+    "description": "The Scientific Illustration Viewer is a specialized online tool offering a curated collection of high-quality anatomical",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "zenith-vault",
-    "title": "ZenithVault",
+    "slug": "scrumly",
+    "title": "Scrumly",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "ZenithVault is a highly secure digital vault designed for individuals and small businesses to store and manage sensitive",
+    "description": "Scrumly is a dynamic visualizer for agile project management, specifically designed for Scrum and Kanban methodologies. ",
     "badge": null,
     "type": "tool"
   }
