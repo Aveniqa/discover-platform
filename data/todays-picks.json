@@ -1,19 +1,19 @@
 [
   {
-    "slug": "scientific-illustration-viewer",
-    "title": "Scientific Illustration Viewer",
+    "slug": "generative-art-playground",
+    "title": "Artbreeder",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Scientific Illustration Viewer is a specialized online tool offering a curated collection of high-quality anatomical",
+    "description": "Artbreeder is a web-based platform that uses AI to generate and manipulate images, particularly portraits, landscapes, a",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "scrumly",
-    "title": "Scrumly",
+    "slug": "soundscape-artist",
+    "title": "Soundscape Artist",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Scrumly is a dynamic visualizer for agile project management, specifically designed for Scrum and Kanban methodologies. ",
+    "description": "Soundscape Artist is an online application that empowers users to craft personalized ambient audio environments for focu",
     "badge": null,
     "type": "tool"
   }

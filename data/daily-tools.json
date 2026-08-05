@@ -1,70 +1,5 @@
 [
   {
-    "id": 549,
-    "slug": "anylist-shared-grocery-lists-recipe-organizer",
-    "toolName": "AnyList",
-    "whatItDoes": "AnyList, developed by Purple Cover, Inc., is a versatile app designed for creating and sharing grocery lists, managing recipes, and planning meals with ease. It's built for households and busy individuals who need to coordinate shopping and cooking effectively, offering smart list features and intuitive recipe organization. The primary workflow involves adding items to a grocery list (often via voice or smart suggestions), sharing it instantly with family members, and incorporating recipes from the web directly into meal plans. Available on iOS, Android, web, Mac, and Apple Watch. Its most used feature is its shared grocery lists, which sync in real-time across multiple users, preventing duplicate purchases and forgotten items. All lists, recipes, and preferences are securely stored and synced in the cloud, ensuring everyone in the household has up-to-date information.",
-    "category": "Productivity",
-    "whyItIsUseful": "AnyList eliminates the chaos of fragmented shopping lists and uncoordinated grocery runs, bringing order and efficiency to household meal planning and procurement. For the busy family, it provides a centralized, real-time updated grocery list that everyone can contribute to and see, simplifying household logistics. For the organized home cook, it allows saving recipes from any website, organizing them, and then adding ingredients directly to the grocery list with a single tap. The free tier offers robust shared list functionality, making it genuinely useful for basic grocery management, while the Complete subscription adds recipe organization and meal planning. Compared to basic note apps or generic list makers, AnyList excels with its smart item suggestions, categorization, and seamless integration with recipes for meal planning. Its \"Pantry\" feature, which lets you track items you have on hand, is a power feature that reduces food waste and improves shopping accuracy. A non-technical person can download the app and create their first shared grocery list in under 5 minutes.",
-    "imageIdea": "AnyList app showing a shared grocery list with items categorized and checked off, alongside a recipe tab.",
-    "websiteLink": "https://www.anylist.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/anylist-shared-grocery-lists-recipe-organizer.webp"
-  },
-  {
-    "id": 553,
-    "slug": "habitify-cross-platform-comprehensive-habit-tracker",
-    "toolName": "Habitify",
-    "whatItDoes": "Habitify is a comprehensive habit tracker developed by Agile Tech, designed to help users build new habits and maintain existing ones across all their devices. It provides a clean interface for scheduling, tracking, and analyzing daily, weekly, or monthly habits, focusing on creating sustainable routines. The primary workflow involves setting up a habit with its frequency and reminders, then logging its completion daily to build and visualize streaks on a calendar view. It is available across web, iOS, Android, macOS, and watchOS platforms, with its most used feature being the detailed habit analytics dashboard showing progress over time. All user data is synced securely via the cloud, ensuring consistency and accessibility from any device and supporting robust reporting.",
-    "category": "Productivity",
-    "whyItIsUseful": "Habitify brilliantly addresses the challenge of habit formation by offering a unified, cross-platform experience that reduces friction in logging progress. For the remote worker trying to integrate a morning workout and evening reading into their routine, Habitify provides consistent reminders and a clear visual record of their success, accessible on any device. For the individual focused on self-improvement across multiple areas, its robust analytics help identify which habits are sticking and which need more attention, fostering data-driven personal growth. The free tier allows tracking of up to 3 habits with basic features, which is useful for starting, but the premium tier unlocks unlimited habits and advanced analytics. Compared to simple trackers like Done, Habitify wins with its extensive cross-platform support, more granular scheduling options, and in-depth statistical breakdowns. A power feature includes 'skip days' for flexibility and the ability to group habits, making it easier to manage complex routines. Setting up a new habit is intuitive and takes a non-technical person less than 5 minutes to get started across various devices.",
-    "imageIdea": "A multi-device setup (laptop, phone, smartwatch) all displaying the Habitify app with synchronized habit lists and green checkmarks.",
-    "websiteLink": "https://habitify.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/habitify-cross-platform-comprehensive-habit-tracker.webp"
-  },
-  {
-    "id": 556,
-    "slug": "done-simple-visual-ios-habit-tracker",
-    "toolName": "Done: A Simple Habit Tracker",
-    "whatItDoes": "Done is a streamlined habit tracker developed by Focused Apps LLC, specifically designed for Apple users to easily build and maintain good habits or break bad ones. It emphasizes visual simplicity, allowing users to quickly log their progress and see their streaks grow with satisfying animations. The primary workflow involves creating a habit, setting its frequency, and then tapping a button to mark it complete, viewing a progress bar and calendar of completed days. It is available exclusively on iOS and watchOS, with its most used feature being the clean, color-coded calendar view that clearly shows streaks and skipped days. All habit data is stored locally and syncs securely via iCloud, ensuring privacy and seamless integration across your Apple devices.",
-    "category": "Productivity",
-    "whyItIsUseful": "Done elegantly solves the problem of information overload in habit tracking, presenting progress in a visually appealing and easy-to-digest format. For the student trying to consistently read for 30 minutes each day, Done provides a simple, satisfying way to log their reading, reinforcing their commitment with a growing streak. For the individual focused on breaking a bad habit like excessive social media use, the app allows them to track 'don't do' habits, making the absence of the behavior feel like a win. The free tier allows tracking of up to 3 habits with full functionality, making it genuinely useful for starting, while premium unlocks unlimited habits and advanced customization. Compared to comprehensive trackers like Habitify, Done wins by focusing on core functionality and visual clarity, making it less overwhelming for new users. A power feature is the ability to choose between building streaks (good habits) or breaking streaks (bad habits), providing flexible tracking for different goals. A non-technical person can download and set up their first habit in under 2 minutes, thanks to its minimalist design and intuitive controls.",
-    "imageIdea": "Clean iOS app interface on an iPhone, showing a single habit with a colorful progress bar and a calendar grid highlighting green completed days.",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://apps.apple.com/app/done-a-simple-habit-tracker/id1103961876",
-    "screenshotUrl": "/screenshots/done-simple-visual-ios-habit-tracker.webp"
-  },
-  {
-    "id": 559,
-    "slug": "strides-goal-habit-tracker-smart-goals",
-    "toolName": "Strides: Goal & Habit Tracker",
-    "whatItDoes": "Strides is a versatile goal and habit tracking application created by Kyle K. Kelly, designed to help users set SMART goals and track their progress with various metrics. It offers four distinct tracker types—Habit, Target, Average, and Project—allowing for highly customized tracking beyond simple daily check-ins. The primary workflow involves defining a goal (e.g., 'Run 5K,' 'Save $1000,' 'Meditate daily'), selecting a tracker type, and then logging progress regularly to see trends and forecasts. It is available on iOS, iPadOS, and web platforms, with its most used feature being the 'Habit' tracker for building daily consistency with clear streak visualizations. All user data is synced securely via iCloud and its own cloud service, ensuring data integrity and accessibility across Apple devices and the web.",
-    "category": "Productivity",
-    "whyItIsUseful": "Strides effectively eliminates the ambiguity and lack of progress visibility often associated with long-term goals and habit formation. For the entrepreneur working towards a specific revenue target, Strides can track weekly sales figures (Target goal), providing clear insights into whether they are on track to meet their financial objectives. For the individual trying to establish a consistent writing routine, the Habit tracker provides a compelling streak view, while the Project tracker can break down a novel into smaller, manageable milestones. The free tier is genuinely useful, allowing tracking of up to 5 habits or goals, making it a powerful tool for initial self-improvement efforts. Compared to simpler habit trackers, Strides wins with its ability to track a wider array of goal types beyond just daily habits, offering a more holistic approach to personal development. A power feature is its 'Pace Line' which predicts if you'll hit your target based on current progress, offering a powerful, data-driven motivational push. A non-technical person can easily set up their first habit or simple goal in under 5 minutes, though exploring its advanced goal types might take a little longer.",
-    "imageIdea": "iOS app screen showing different goal types (habit, target, average) with progress bars, trend graphs, and a 'pace line' visualization.",
-    "websiteLink": "https://www.stridesapp.com",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/strides-goal-habit-tracker-smart-goals.webp"
-  },
-  {
-    "id": 562,
-    "slug": "dash-documentation-snippet-manager",
-    "toolName": "Dash",
-    "whatItDoes": "Dash is an API documentation browser and code snippet manager created by Kapeli, providing instant offline access to 200+ API documentation sets and an integrated snippet manager. It streamlines the development process by centralizing reference materials and frequently used code, eliminating constant context switching. The primary workflow involves searching for documentation within the app or quickly inserting a saved snippet directly into your IDE using custom keywords. Dash is primarily available for macOS and iOS, offering a seamless experience across Apple devices. Its most used feature is the blazing-fast offline search for documentation sets, allowing developers to find answers without an internet connection. Data for snippets is stored locally and can be synced via iCloud or Dropbox for backup and cross-device access.",
-    "category": "Developer",
-    "whyItIsUseful": "Dash eradicates the constant interruption of switching between your IDE, browser, and documentation websites, significantly boosting developer productivity. For a macOS developer working on a Swift app, Dash provides immediate access to Apple's documentation alongside their custom code snippets, all within one app. A web developer can quickly reference JavaScript APIs or CSS properties and insert common boilerplate code snippets without leaving their editor. Dash offers a free trial that is fully functional for a limited time, after which a one-time purchase unlocks lifetime updates and unlimited usage, making it a valuable long-term investment. Compared to simply using online documentation, Dash's offline capabilities and snippet integration are unparalleled, offering speed and convenience. A power feature is its integration with numerous IDEs and text editors, allowing snippets to be triggered directly from your coding environment. The learning curve is moderate for beginners due to its extensive features, but basic documentation search and snippet creation can be mastered in under 15 minutes.",
-    "imageIdea": "Dash application interface showing API documentation on one side and a code snippet editor on the other.",
-    "websiteLink": "https://kapeli.com/dash",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/dash-documentation-snippet-manager.webp"
-  },
-  {
     "id": 566,
     "slug": "devtoys-developer-swiss-army-knife",
     "toolName": "DevToys",
@@ -5366,7 +5301,8 @@
     "imageIdea": "chat bubbles encrypted",
     "websiteLink": "https://www.hoot.space/",
     "type": "tool",
-    "dateAdded": "2026-07-27"
+    "dateAdded": "2026-07-27",
+    "screenshotUrl": "/screenshots/decentralized-chat-application.webp"
   },
   {
     "id": 980,
@@ -5937,5 +5873,72 @@
     "type": "tool",
     "dateAdded": "2026-08-04",
     "screenshotUrl": "/screenshots/scrumly.webp"
+  },
+  {
+    "id": 1022,
+    "slug": "crm-compai",
+    "toolName": "crm",
+    "seoTitle": "crm — Agentic CRM for developers",
+    "whatItDoes": "This is an open-source Customer Relationship Management (CRM) system built with an agentic-first approach, using TypeScript. It's designed for developers and those who want to leverage AI agents to manage their customer interactions. The core value proposition lies in its extensibility and automation capabilities, allowing users to build custom workflows and intelligent agents for tasks like lead qualification, customer support, and sales outreach. It is free and open-source, with the primary task it excels at being the integration of AI agents directly into the CRM workflow.",
+    "category": "Productivity",
+    "whyItIsUseful": "For developers and technically-minded individuals, 'crm' offers a unique opportunity to build a highly customized and intelligent CRM without being constrained by proprietary platforms. Its agentic nature means you can automate complex tasks that would typically require significant manual effort or expensive third-party integrations. Imagine an AI agent that proactively follows up with leads based on their engagement, or an agent that analyzes customer feedback and suggests product improvements. The open-source nature means no vendor lock-in and a community that can contribute to its evolution. It's particularly useful for startups and SMBs looking for a powerful, adaptable CRM solution that can grow with their business and leverage the latest in AI technology.",
+    "imageIdea": "github repository code interface",
+    "websiteLink": "https://github.com/trycompai/crm",
+    "type": "tool",
+    "dateAdded": "2026-08-05",
+    "screenshotUrl": "/screenshots/crm-compai.webp"
+  },
+  {
+    "id": 1023,
+    "slug": "cinemastream-explorer",
+    "toolName": "CinemaStream Explorer",
+    "seoTitle": "CinemaStream Explorer — Discover hidden films streaming",
+    "whatItDoes": "CinemaStream Explorer is a web application designed to help cinephiles unearth obscure and critically acclaimed films currently available on various streaming platforms. It aggregates data from multiple streaming services, allowing users to search by genre, director, actor, mood, or even specific thematic elements that are often hard to filter by on individual platforms. The service operates on a freemium model, offering basic search and filtering for free, with a premium subscription unlocking advanced AI-powered recommendation algorithms and curated watchlist features. Its core value lies in surfacing films that might otherwise be lost in the vast digital library, making it unparalleled for discovering unique cinematic experiences.",
+    "category": "Entertainment",
+    "whyItIsUseful": "For those who love film but are tired of the same mainstream suggestions, CinemaStream Explorer is a revelation. It goes beyond simple genre searches, allowing for nuanced explorations of cinematic niches. Imagine wanting to find a specific style of noir film from the 1950s with a female lead – this tool can help. It saves countless hours of scrolling through endless menus on services like Hulu, Netflix, and Amazon Prime Video. Its advanced filters can pinpoint films based on directorial influences or cinematography styles, a depth not found elsewhere. Users praise its ability to introduce them to indie darlings and foreign masterpieces they'd never have found otherwise, making it indispensable for serious film buffs and casual explorers alike who seek more than just blockbusters.",
+    "imageIdea": "streaming service interface movie posters",
+    "websiteLink": "https://cinemastream.live/",
+    "type": "tool",
+    "dateAdded": "2026-08-05"
+  },
+  {
+    "id": 1024,
+    "slug": "album-deep-dive",
+    "toolName": "Album Deep Dive",
+    "seoTitle": "Album Deep Dive — Explore music album histories",
+    "whatItDoes": "Album Deep Dive is a unique digital tool dedicated to exploring the intricate histories and contexts behind music albums. It provides detailed information on album creation, influences, lyrical analysis, critical reception, and the cultural impact of specific records. Unlike typical music databases that focus on track listings and artist biographies, Album Deep Dive delves into the 'why' and 'how' of an album's existence. It’s a free, community-driven resource, relying on contributions from music historians and enthusiasts to build its comprehensive knowledge base. It excels at connecting seemingly disparate pieces of information about an album, offering a holistic understanding that enriches the listening experience.",
+    "category": "Entertainment",
+    "whyItIsUseful": "This tool is a treasure trove for music aficionados who want to move beyond passive listening. It offers a rich narrative for any album, revealing the stories behind the songs, the producers' contributions, and the social climate that shaped the music. For example, understanding the political turmoil influencing a protest album from the 70s adds profound depth to its meaning. It’s invaluable for music journalists, students, and anyone who appreciates the art of music creation. By connecting an album to its era, its influences, and its legacy, Album Deep Dive transforms the way you listen, fostering a deeper appreciation for the artistry involved and providing context that few other resources can match. Its collaborative nature also means it's constantly growing with new insights.",
+    "imageIdea": "vinyl record sleeve liner notes",
+    "websiteLink": "https://www.albumleaked.com/",
+    "type": "tool",
+    "dateAdded": "2026-08-05"
+  },
+  {
+    "id": 1025,
+    "slug": "story-weave-pro",
+    "toolName": "StoryWeave Pro",
+    "seoTitle": "StoryWeave Pro — Collaborative fiction writing tool",
+    "whatItDoes": "StoryWeave Pro is an online collaborative writing platform designed for authors to co-create fictional narratives. It provides a shared workspace where multiple users can contribute to a single story, managing different plotlines, character arcs, and world-building elements simultaneously. Features include version control, comment threads for discussion, and role assignment to delineate responsibilities. The platform is freemium, offering basic collaboration for up to three users for free, with paid tiers unlocking unlimited collaborators, advanced organizational tools, and private project spaces. It solves the challenge of chaotic co-writing by providing structure and clarity, making it exceptionally good at keeping multiple creative voices harmonized within a single narrative.",
+    "category": "Writing",
+    "whyItIsUseful": "For writers tackling ambitious collaborative projects, like shared universe novels, role-playing game lore, or even just a group of friends writing a novel together, StoryWeave Pro is a game-changer. It eliminates the traditional pitfalls of shared documents—lost edits, conflicting versions, and communication breakdowns. Its robust tracking allows collaborators to see who wrote what and when, and the integrated commenting system fosters clear communication and feedback loops without cluttering the manuscript itself. This structured approach ensures that even complex, multi-author stories remain coherent and well-organized. Enthusiastic users highlight how it streamlines the editing process and fosters a sense of shared ownership and accomplishment, making the often-difficult journey of collaborative writing significantly smoother and more productive for any creative team.",
+    "imageIdea": "writer's desk multiple notebooks",
+    "websiteLink": "https://storyweaver.org.in/",
+    "type": "tool",
+    "dateAdded": "2026-08-05"
+  },
+  {
+    "id": 1026,
+    "slug": "soundscape-artist",
+    "toolName": "Soundscape Artist",
+    "seoTitle": "Soundscape Artist — Create ambient audio environments",
+    "whatItDoes": "Soundscape Artist is an online application that empowers users to craft personalized ambient audio environments for focus, relaxation, or creative inspiration. It offers a library of high-quality, royalty-free sounds—ranging from natural elements like rain and wind to urban textures and abstract tones—that can be mixed and layered to create unique soundscapes. The platform is freemium; basic mixing and a limited sound library are available for free, while a premium subscription unlocks an expanded sound catalog, advanced editing features, and the ability to save and share custom soundscapes. It stands out by providing granular control over individual sound elements, allowing for subtle nuances that define a truly immersive and effective auditory experience.",
+    "category": "Entertainment",
+    "whyItIsUseful": "In a world of constant digital distraction, Soundscape Artist offers a powerful tool for reclaiming focus and enhancing well-being. Whether you're a student needing to concentrate during study sessions, a remote worker trying to block out household noise, or simply someone seeking a calming background for meditation, this tool delivers. The ability to blend specific sounds—like the gentle rustling of leaves with distant birdsong, or the hum of a quiet café with a subtle, underlying synth pad—allows for highly tailored auditory experiences. Users rave about its effectiveness in masking disruptive noises and creating a mood conducive to deep work or relaxation. It’s a surprisingly sophisticated yet accessible way to curate your personal sonic environment, making it a vital utility for anyone looking to improve their productivity and mental state through sound.",
+    "imageIdea": "headphones nature forest",
+    "websiteLink": "https://www.looperman.com/",
+    "type": "tool",
+    "dateAdded": "2026-08-05",
+    "screenshotUrl": "/screenshots/soundscape-artist.webp"
   }
 ]
