@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "craft-docs-rich-document-editor",
-      "visidata-terminal-data-exploration-plotting",
-      "dygraphs-interactive-time-series-charts",
-      "ripgrep-faster-file-search",
-      "taskwarrior-cli-task-manager",
-      "btop-rich-terminal-resource-monitor",
-      "glow-markdown-renderer-cli",
-      "lex-ai-powered-writing-editor",
-      "elicit-ai-research-assistant-2",
       "prowritingaid-deep-grammar-style-checker",
       "textcortex-ai-content-generation-everywhere",
-      "hypothes-is-web-annotation"
+      "hypothes-is-web-annotation",
+      "transkribus-ai-handwriting-recognition",
+      "tropy-research-photo-management",
+      "openrefine-messy-data-cleanup",
+      "inciteful-academic-paper-discovery",
+      "portfolio-performance-investment-tracker",
+      "gnucash-desktop-accounting-personal-small-business",
+      "buxfer-budgeting-forecasting-debt-management",
+      "commitment-contracts-goal-tracking",
+      "streaks-ios-habit-tracker-design"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "flourish-studio-animated-interactive-stories",
-      "ripgrep-faster-file-search",
-      "taskwarrior-cli-task-manager",
-      "btop-rich-terminal-resource-monitor",
-      "starship-cross-shell-prompt",
-      "glow-markdown-renderer-cli",
-      "lex-ai-powered-writing-editor",
-      "typingmind-advanced-ui-for-llms",
-      "elicit-ai-research-assistant-2",
-      "hyperwrite-ai-learns-your-writing-style",
       "prowritingaid-deep-grammar-style-checker",
-      "textcortex-ai-content-generation-everywhere"
+      "textcortex-ai-content-generation-everywhere",
+      "hypothes-is-web-annotation",
+      "transkribus-ai-handwriting-recognition",
+      "tropy-research-photo-management",
+      "openrefine-messy-data-cleanup",
+      "inciteful-academic-paper-discovery",
+      "citation-gecko-reference-snowballing",
+      "portfolio-performance-investment-tracker",
+      "hledger-plain-text-accounting",
+      "gnucash-desktop-accounting-personal-small-business",
+      "buxfer-budgeting-forecasting-debt-management"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "flourish-studio-animated-interactive-stories",
-      "ripgrep-faster-file-search",
-      "taskwarrior-cli-task-manager",
-      "btop-rich-terminal-resource-monitor",
-      "starship-cross-shell-prompt",
-      "glow-markdown-renderer-cli",
-      "lex-ai-powered-writing-editor",
-      "typingmind-advanced-ui-for-llms",
-      "elicit-ai-research-assistant-2",
-      "hyperwrite-ai-learns-your-writing-style",
       "prowritingaid-deep-grammar-style-checker",
-      "textcortex-ai-content-generation-everywhere"
+      "textcortex-ai-content-generation-everywhere",
+      "hypothes-is-web-annotation",
+      "transkribus-ai-handwriting-recognition",
+      "tropy-research-photo-management",
+      "openrefine-messy-data-cleanup",
+      "inciteful-academic-paper-discovery",
+      "portfolio-performance-investment-tracker",
+      "hledger-plain-text-accounting",
+      "gnucash-desktop-accounting-personal-small-business",
+      "buxfer-budgeting-forecasting-debt-management",
+      "commitment-contracts-goal-tracking"
     ]
   },
   {
