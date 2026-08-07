@@ -1,19 +1,19 @@
 [
   {
-    "slug": "lemmy-instance-browser",
-    "title": "Lemmy Instance Browser",
+    "slug": "the-digital-public-library-of-america",
+    "title": "Digital Public Library of America (DPLA)",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Lemmy Instance Browser is a discovery tool for Lemmy, a federated social link aggregation and discussion platform, s",
+    "description": "The Digital Public Library of America (DPLA) serves as a comprehensive aggregator for digitized cultural heritage materi",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "organizr-dashboard",
-    "title": "Organizr",
+    "slug": "lexica-art-search-engine",
+    "title": "Lexica",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Organizr is a highly customizable personal dashboard designed to aggregate information and provide quick access to vario",
+    "description": "Lexica is a powerful search engine and generator for AI-created art. It allows users to search through millions of AI-ge",
     "badge": null,
     "type": "tool"
   }

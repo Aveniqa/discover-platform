@@ -1,70 +1,5 @@
 [
   {
-    "id": 571,
-    "slug": "compose-ai-writing-assistant-browser-extension",
-    "toolName": "Compose AI",
-    "whatItDoes": "Compose AI, developed by Compose Labs, is an AI-powered writing assistant available as a browser extension that automates and enhances writing across various online platforms. It uses artificial intelligence to complete sentences, rephrase text, and generate full emails or messages based on context. The primary workflow involves simply typing in any text field online, where Compose AI will offer real-time suggestions, auto-completions, or allow you to use a prompt to generate content. It functions as a browser extension for Chrome, Edge, and Brave, making it widely accessible across web applications. Its most used feature is \"Compose,\" which generates entire sentences or paragraphs from a short prompt, significantly speeding up drafting. Data is processed locally on the user's device for real-time suggestions, with some anonymized usage data sent to the cloud for model improvement, but personal content remains private.",
-    "category": "Productivity",
-    "whyItIsUseful": "It eliminates the inefficiency of repetitive typing and the mental effort required for crafting routine messages, boosting productivity significantly. For the customer support agent, Compose AI can instantly generate empathetic and clear responses to common queries, improving service speed and quality. For the professional managing numerous emails, it can draft entire replies or complete sentences, allowing them to clear their inbox faster and focus on critical tasks. The free tier offers 1,000 auto-completions per month and basic features, which is genuinely useful for everyday email and message drafting. Compared to built-in email smart replies, Compose AI wins with its deeper contextual understanding, advanced rephrasing capabilities, and ability to generate longer, more complex content on demand. A power feature is its custom shortcuts for frequently used phrases or entire email templates, accessible with just a few keystrokes. A non-technical person can install the extension and start using its core features in under 2 minutes.",
-    "imageIdea": "Browser window with an email draft open, showing Compose AI's auto-completion suggestions appearing as a popup next to the cursor.",
-    "websiteLink": "https://www.compose.ai/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/compose-ai-writing-assistant-browser-extension.webp"
-  },
-  {
-    "id": 572,
-    "slug": "lex-page-ai-word-processor",
-    "toolName": "Lex",
-    "whatItDoes": "Lex, created by Every.dev, is a minimalist, AI-powered word processor designed for writers who want to integrate artificial intelligence seamlessly into their creative process. It focuses on providing a distraction-free writing environment while offering powerful AI capabilities to assist with brainstorming, drafting, and editing. The primary workflow involves typing directly into the editor and using AI prompts (e.g., typing \"++\" followed by a query) to generate text, expand ideas, or refine existing content. It is a Web-based application, accessible through any modern browser. Its most used feature is the \"Ask AI\" prompt, which allows users to generate text directly within their document without breaking their flow. All user data and documents are stored securely in the cloud, with version history and automatic syncing, ensuring content is always backed up and accessible.",
-    "category": "Writing",
-    "whyItIsUseful": "Lex eliminates the friction and context-switching typically associated with using separate AI tools for writing, fostering a more fluid creative flow. For the fiction author, it can help overcome writer's block by generating new plot twists, character descriptions, or dialogue snippets directly within their manuscript. For the content creator, Lex allows them to quickly brainstorm blog post ideas or expand on specific paragraphs, maintaining focus within a single environment. The free tier provides generous access to its core AI features and unlimited documents, making it genuinely useful for consistent daily writing tasks. Compared to traditional word processors, Lex wins by integrating powerful, on-demand AI assistance directly into the writing interface, saving time and sparking creativity. A power feature is its ability to generate an entire first draft from a single prompt, offering a significant head start on long-form content. A non-technical person can sign up and begin writing with AI assistance in less than 3 minutes.",
-    "imageIdea": "Lex's minimalist white interface with text being written, and a small AI prompt pop-up generating suggestions.",
-    "websiteLink": "https://lex.page/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/lex-page-ai-word-processor.webp"
-  },
-  {
-    "id": 573,
-    "slug": "deepl-write-ai-writing-assistant-multilingual",
-    "toolName": "DeepL Write",
-    "whatItDoes": "DeepL Write, an innovative offering from DeepL SE, is an AI-powered writing assistant designed to elevate the quality, clarity, and style of written communication. Building on DeepL's acclaimed translation technology, it helps users refine their English and German texts, offering alternative phrasings, grammatical corrections, and stylistic improvements. The primary workflow involves pasting text into the web editor or typing directly, then reviewing the suggestions for better word choices, sentence structures, and overall tone. It is a Web-based application, optimized for use in any modern browser. Its most used feature is the ability to instantly generate multiple rephrasing options for entire sentences, allowing users to choose the most natural and impactful expression. DeepL Write processes text securely in the cloud, utilizing robust encryption and strict data protection policies, ensuring that user content remains confidential and is not stored long-term.",
-    "category": "Writing",
-    "whyItIsUseful": "DeepL Write eliminates the challenge of expressing complex ideas clearly and eloquently, especially for non-native speakers or when striving for a sophisticated tone. For the international business professional, it ensures that emails and reports are not only grammatically correct but also convey the intended nuance and professionalism in English or German. For the student writing academic papers, it offers superior stylistic alternatives, helping them to improve their vocabulary and sentence structure beyond basic grammar checks. The free tier is incredibly useful, offering unlimited text corrections and rephrasing suggestions, making it a powerful tool for daily writing tasks without a paywall. Compared to standard grammar checkers, DeepL Write wins by offering more natural, context-aware rephrasing and stylistic enhancements that truly elevate the text, rather than just fixing errors. A power feature is its ability to suggest different formal and informal tones for the same sentence, adapting to various communication contexts. A non-technical person can start using DeepL Write effectively in under a minute without any setup.",
-    "imageIdea": "DeepL Write web interface showing original text on one side and multiple AI-generated rephrasing options on the other.",
-    "websiteLink": "https://www.deepl.com/write",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/deepl-write-ai-writing-assistant-multilingual.webp"
-  },
-  {
-    "id": 574,
-    "slug": "ink-for-all-seo-ai-writing-optimizer",
-    "toolName": "INK for All (INK AI)",
-    "whatItDoes": "INK for All, developed by INK, is an all-in-one AI writing and content optimization platform specifically designed for SEO-focused creators and marketers. It integrates an AI writer, content optimizer, and keyword research tools to help users produce high-ranking and engaging content. The primary workflow involves outlining an article, using the AI to generate sections, and then optimizing the content against real-time SEO suggestions based on competitor analysis. It offers a desktop application for Windows and Mac, a browser extension for Chrome, and a web editor, providing flexible access. Its most used feature is the \"INK SEO Score,\" which guides users in optimizing their content for search engines in real-time. Content created and analyzed within INK is stored securely in the cloud, with robust privacy measures and options for team collaboration and version control.",
-    "category": "AI",
-    "whyItIsUseful": "INK for All eliminates the guesswork and manual effort involved in SEO content creation, directly addressing the challenge of ranking higher on search engines. For the digital marketing agency, it streamlines the content production process, allowing them to deliver high-quality, SEO-optimized articles more efficiently for their clients. For the individual blogger aiming to grow their organic traffic, INK provides actionable insights and AI assistance to ensure their posts are discoverable and competitive. The free tier offers 5,000 AI words and limited SEO optimization, providing a solid starting point to experience its core functionalities before committing to a paid plan. Compared to general AI writers, INK wins by deeply integrating SEO best practices and real-time optimization suggestions, making it a powerful tool for content that needs to perform in search. A power feature is its \"AI Shield\" which helps detect and prevent AI content from being flagged by search engines. The learning curve is moderate; while basic AI writing is quick, mastering the SEO optimization features might take a bit longer than 5 minutes for a non-technical user, but the interface is intuitive.",
-    "imageIdea": "INK editor interface showing an article being written, with a sidebar displaying SEO score, keyword suggestions, and competitor analysis.",
-    "websiteLink": "https://inkforall.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/ink-for-all-seo-ai-writing-optimizer.webp"
-  },
-  {
-    "id": 575,
-    "slug": "sudowrite-ai-creative-fiction-writing-partner",
-    "toolName": "Sudowrite",
-    "whatItDoes": "Sudowrite, created by a team of writers and technologists, is an AI writing partner specifically tailored for fiction authors, screenwriters, and creative writers. It offers tools to help brainstorm, expand, rewrite, and even \"describe\" text, enhancing the creative process rather than replacing it. The primary workflow involves writing your story, highlighting a section, and then using Sudowrite's various AI functions (e.g., \"Describe,\" \"Rewrite,\" \"Brainstorm\") to generate new ideas or expand on existing text. It is a Web-based application, accessible from any browser, designed to be a seamless extension of a writer's workflow. Its most used feature is \"Describe,\" which generates vivid sensory details for objects, characters, or settings, enriching prose effortlessly. All user documents and generated content are stored securely in the cloud, with robust privacy features and options for easy export.",
-    "category": "Writing",
-    "whyItIsUseful": "Sudowrite eliminates creative block and the solitary struggle of generating fresh ideas, empowering writers to push past difficult sections in their drafts. For the aspiring novelist, it can conjure up dozens of plot ideas or character backstories when they feel stuck, accelerating their manuscript development. For the screenwriter, Sudowrite helps flesh out scene descriptions or generate compelling dialogue options, enriching their scripts. The free trial offers a generous word count (e.g., 50,000 words) allowing users to fully experience its capabilities before subscribing, making it genuinely useful for a substantial project. Compared to general AI writing tools, Sudowrite wins by offering highly specialized features and a user interface designed specifically for the nuanced demands of creative writing, understanding narrative and literary elements. A power feature is \"Rewrite\" with different style options, allowing authors to experiment with tone and voice for specific passages. A non-technical person can easily create an account and start using its core features to enhance their writing in under 5 minutes.",
-    "imageIdea": "Sudowrite web editor showing a story being written, with a sidebar displaying AI-generated suggestions for descriptions or plot points.",
-    "websiteLink": "https://www.sudowrite.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/sudowrite-ai-creative-fiction-writing-partner.webp"
-  },
-  {
     "id": 576,
     "slug": "typingmind-ai-chatbot-manager-custom",
     "toolName": "TypingMind",
@@ -4791,7 +4726,8 @@
     "imageIdea": "abstract paint swatches",
     "websiteLink": "https://coolors.co/",
     "type": "tool",
-    "dateAdded": "2026-07-20"
+    "dateAdded": "2026-07-20",
+    "screenshotUrl": "/screenshots/palette-generator.webp"
   },
   {
     "id": 947,
@@ -5945,5 +5881,75 @@
     "type": "tool",
     "dateAdded": "2026-08-06",
     "screenshotUrl": "/screenshots/organizr-dashboard.webp"
+  },
+  {
+    "id": 1032,
+    "slug": "arch-linux-wiki",
+    "toolName": "Arch Linux Wiki",
+    "seoTitle": "Arch Linux Wiki — Comprehensive Linux documentation resource",
+    "whatItDoes": "The Arch Linux Wiki is an incredibly detailed and community-maintained knowledge base for the Arch Linux operating system and Linux in general. It covers installation, configuration, troubleshooting, and deep dives into various software packages and system administration tasks. While centered on Arch, its articles often provide solutions applicable to a wide range of Linux distributions. The wiki is entirely free to access, with contributions managed through a community wiki system.",
+    "category": "Reference",
+    "whyItIsUseful": "For anyone working with or learning Linux, the Arch Wiki is an indispensable resource. Its strength lies in its thoroughness and clarity, often explaining complex technical concepts in an understandable way. It's frequently the first place experienced Linux users turn to for solutions to obscure problems or to learn about advanced configurations. The community actively updates it, ensuring information remains relevant. It's particularly useful for users who prefer to understand the 'why' behind system behavior, not just the 'how'. Whether you're setting up a server, troubleshooting desktop issues, or exploring advanced networking, the Arch Wiki provides unparalleled depth.",
+    "imageIdea": "stack of open computer manuals",
+    "websiteLink": "https://wiki.archlinux.org/",
+    "type": "tool",
+    "dateAdded": "2026-08-07",
+    "screenshotUrl": "/screenshots/arch-linux-wiki.webp"
+  },
+  {
+    "id": 1033,
+    "slug": "desmos-graphing-calculator",
+    "toolName": "Desmos Graphing Calculator",
+    "seoTitle": "Desmos Graphing Calculator — Visualize mathematical equations",
+    "whatItDoes": "Desmos is a free, web-based graphing calculator that allows users to visualize mathematical equations and functions in real-time. It supports a wide range of mathematical operations, including plotting functions, inequalities, parametric equations, and creating interactive graphs. Users can explore mathematical concepts visually, test hypotheses, and save their creations. Its intuitive interface makes it accessible to students, educators, and anyone who needs to understand mathematical relationships graphically.",
+    "category": "Education",
+    "whyItIsUseful": "This tool revolutionizes the way people interact with mathematics. Instead of just crunching numbers, users can see the geometry and behavior of functions unfold before their eyes. It’s an invaluable aid for understanding calculus, algebra, and pre-calculus concepts, transforming abstract ideas into tangible visualizations. Educators use it extensively to demonstrate principles in class, and students find it an excellent way to check their work and deepen their comprehension. The ability to layer multiple functions and explore their intersections or differences is a standout feature, making it a superior tool for visual learners.",
+    "imageIdea": "computer screen displaying colorful mathematical graph",
+    "websiteLink": "https://www.desmos.com/calculator",
+    "type": "tool",
+    "dateAdded": "2026-08-07",
+    "screenshotUrl": "/screenshots/desmos-graphing-calculator.webp"
+  },
+  {
+    "id": 1034,
+    "slug": "nautil-us",
+    "toolName": "Nautilus Magazine",
+    "seoTitle": "Nautilus Magazine — Science, philosophy, and culture insights",
+    "whatItDoes": "Nautilus Magazine is a digital publication that explores the intersection of science, philosophy, and culture through deeply reported articles and essays. Published weekly, it focuses on big ideas and nuanced perspectives, often featuring long-form journalism that connects disparate fields of knowledge. The content is accessible for free online, with an option for a paid subscription for additional benefits like early access and curated collections.",
+    "category": "Reference",
+    "whyItIsUseful": "Nautilus offers a unique and intellectually stimulating reading experience, going beyond surface-level news to explore the profound implications of scientific discoveries and philosophical inquiries. It excels at presenting complex topics in an engaging and accessible manner, fostering a deeper understanding of the world and our place within it. The curated articles often spark new lines of thought and discussion, making it a valuable resource for lifelong learners, academics, and anyone curious about the frontiers of human knowledge. It's a testament to how compelling and thought-provoking science and philosophy journalism can be in the digital age.",
+    "imageIdea": "old-fashioned ship navigation compass",
+    "websiteLink": "https://nautil.us/",
+    "type": "tool",
+    "dateAdded": "2026-08-07",
+    "screenshotUrl": "/screenshots/nautil-us.webp"
+  },
+  {
+    "id": 1035,
+    "slug": "archive-org-wayback-machine",
+    "toolName": "Internet Archive Wayback Machine",
+    "seoTitle": "Internet Archive Wayback Machine — Explore Web History",
+    "whatItDoes": "The Internet Archive's Wayback Machine is a digital archive of the World Wide Web, allowing users to view past versions of websites. It operates by crawling and storing snapshots of web pages at different points in time. This incredibly valuable resource is completely free to use and is instrumental for researchers, historians, or anyone needing to access content that has since been removed or altered.",
+    "category": "Reference",
+    "whyItIsUseful": "This tool is indispensable for understanding the evolution of the internet and for recovering lost or changed information. Whether you're verifying a historical claim, checking how a company's website looked years ago for competitive analysis, or trying to find a deleted article, the Wayback Machine often has the answer. Its vast historical record makes it a unique and unparalleled resource for digital archaeology, providing context and evidence that would otherwise be inaccessible. It's a godsend for academic research, journalism, and even for personal nostalgia, offering a tangible link to the digital past.",
+    "imageIdea": "digital archive web browser",
+    "websiteLink": "https://web.archive.org/",
+    "type": "tool",
+    "dateAdded": "2026-08-07",
+    "screenshotUrl": "/screenshots/archive-org-wayback-machine.webp"
+  },
+  {
+    "id": 1036,
+    "slug": "lexica-art-search-engine",
+    "toolName": "Lexica",
+    "seoTitle": "Lexica — AI Art Search & Generation",
+    "whatItDoes": "Lexica is a powerful search engine and generator for AI-created art. It allows users to search through millions of AI-generated images, discover prompts used to create them, and even generate their own images using advanced AI models. It operates on a freemium model, offering a generous number of free generations per month with paid tiers for higher usage and more features. Lexica is particularly adept at helping users find inspiration and refine their understanding of AI art prompt engineering.",
+    "category": "Design",
+    "whyItIsUseful": "This tool is invaluable for artists, designers, writers, and hobbyists looking for visual inspiration or seeking to create unique imagery without traditional artistic skills. By searching Lexica, you can find exactly the aesthetic you're looking for, learn what prompts were effective, and then adapt them to your own needs. Its ability to generate variations and explore different styles at speed is unmatched, making it a significant time-saver for content creation. Whether you need an illustration for a blog post, concept art for a game, or simply want to experiment with creative AI, Lexica provides an accessible and highly effective platform.",
+    "imageIdea": "ai art gallery grid",
+    "websiteLink": "https://lexica.art/",
+    "type": "tool",
+    "dateAdded": "2026-08-07",
+    "screenshotUrl": "/screenshots/lexica-art-search-engine.webp"
   }
 ]
