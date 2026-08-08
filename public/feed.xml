@@ -5,8 +5,52 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anki</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-anki</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-anki</guid>
+      <description>Anki is a free and open-source flashcard program that uses spaced repetition to help you learn new information more efficiently. It intelligently schedules reviews of cards based on how well you remember them, showing you difficult cards more often and easier ones less frequently. This method is scientifically proven to improve long-term retention. Anki is available for free on desktop and Android, with a paid iOS version. It is unparalleled in its effectiveness for memorizing facts, vocabulary, and concepts across any subject.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8566454/pexels-photo-8566454.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8566454/pexels-photo-8566454.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8566454/pexels-photo-8566454.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>River</title>
+      <link>https://surfaced-x.pages.dev/item/river-project-planning-software</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/river-project-planning-software</guid>
+      <description>River is a project planning and execution tool that emphasizes visual workflows and strategic alignment. It helps teams break down complex projects into manageable stages, track progress with clarity, and ensure that day-to-day tasks contribute to overarching strategic goals. River offers a paid subscription model, tailored for businesses and teams that require sophisticated project management capabilities. It distinguishes itself by its ability to connect individual tasks directly to company objectives, providing a clear line of sight from execution to impact.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5413118/pexels-photo-5413118.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5413118/pexels-photo-5413118.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5413118/pexels-photo-5413118.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Workflowy</title>
+      <link>https://surfaced-x.pages.dev/item/workflowy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/workflowy</guid>
+      <description>Workflowy is a revolutionary outliner that allows you to organize your life with an infinite, flexible list. It functions as a digital notebook where every item can be expanded or collapsed, enabling you to drill down into details or zoom out to see the big picture. Workflowy is free, with an optional paid upgrade for additional features like increased file size and more themes. Its core strength lies in its minimalist design and powerful zooming capabilities, which allow for an unparalleled level of hierarchical organization without the complexity of traditional note-taking apps.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/131979/pexels-photo-131979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/131979/pexels-photo-131979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/131979/pexels-photo-131979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Tana</title>
+      <link>https://surfaced-x.pages.dev/item/tana-input-interface</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tana-input-interface</guid>
+      <description>Tana is a next-generation note-taking app and personal knowledge management system that emphasizes structured data and supercharged input. It allows users to define custom fields and create structured data within their notes, turning them into powerful databases. Tana uses a freemium model, with a generous free tier. Its strength lies in its ability to ingest and organize information with unprecedented speed and precision, allowing for complex querying and automated workflows that traditional note-taking apps cannot match.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4779729/pexels-photo-4779729.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4779729/pexels-photo-4779729.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4779729/pexels-photo-4779729.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Lexica</title>
       <link>https://surfaced-x.pages.dev/item/lexica-art-search-engine</link>
@@ -382,6 +426,17 @@
       <media:thumbnail url="https://pixabay.com/get/g9934d4e54a1e43cd5a7800dd395559cbba8a5407e8c7cb8b4e9258a33f57101e8ea62917a25f90af81360592bf18058a9c1c52a9e31a05435f085ed21659bd0d_1280.png" />
     </item>
     <item>
+      <title>Form.io</title>
+      <link>https://surfaced-x.pages.dev/item/form-io-headless-cms-forms</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/form-io-headless-cms-forms</guid>
+      <description>Form.io is a powerful open-source platform that provides a headless CMS for building and managing forms, data, and workflows. It allows developers to create sophisticated, data-driven applications by separating the form building interface from the front-end presentation layer. This means you can design complex forms with advanced validation, conditional logic, and integrations, and then use them across multiple applications or websites without being tied to a specific UI framework. It&apos;s ideal for businesses and developers needing a flexible, API-first approach to form management and data collection.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1774901128192-10e5b4921888?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1774901128192-10e5b4921888?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1774901128192-10e5b4921888?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>qm</title>
       <link>https://surfaced-x.pages.dev/item/qm-multiplayer-agent-harness</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/qm-multiplayer-agent-harness</guid>
@@ -391,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/8728284/pexels-photo-8728284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/8728284/pexels-photo-8728284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/8728284/pexels-photo-8728284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Typst</title>
+      <link>https://surfaced-x.pages.dev/item/typst-modern-typesetting</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typst-modern-typesetting</guid>
+      <description>Typst is a powerful and modern typesetting system designed to create beautiful and complex documents with ease, offering a significant upgrade from traditional word processors and a more accessible alternative to LaTeX. It uses a simple, declarative syntax that is easy to learn and write, focusing on automation and reproducible results. Typst compiles documents very quickly and is well-suited for creating everything from simple letters to academic papers, books, and even code documentation. The system emphasizes extensibility through its own scripting language, allowing for custom templates and complex layouts.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12040650/pexels-photo-12040650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12040650/pexels-photo-12040650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12040650/pexels-photo-12040650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Astro</title>
@@ -404,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/5310563/pexels-photo-5310563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Anytype</title>
+      <link>https://surfaced-x.pages.dev/item/anytype-personal-knowledge-tool</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/anytype-personal-knowledge-tool</guid>
+      <description>Anytype is a highly customizable, local-first, and privacy-focused personal knowledge management tool that aims to provide a secure and decentralized alternative to cloud-based note-taking apps. It uses an object-based system, allowing users to define their own types of information (like notes, tasks, contacts, or even custom project types) and link them together freely. All data is stored locally and encrypted, with optional peer-to-peer syncing capabilities for collaboration without a central server. This empowers users to build a digital workspace that truly reflects their unique organizational needs and ensures their data ownership.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10892979/pexels-photo-10892979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10892979/pexels-photo-10892979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10892979/pexels-photo-10892979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Zellij</title>
       <link>https://surfaced-x.pages.dev/item/zellij</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zellij</guid>
@@ -415,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/10321011/pexels-photo-10321011.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Zenkit Spaces</title>
+      <link>https://surfaced-x.pages.dev/item/zenkit-spaces</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zenkit-spaces</guid>
+      <description>Zenkit Spaces is a versatile platform designed to consolidate all your work and knowledge into one accessible hub. It offers a flexible environment where you can manage projects, track tasks, organize notes, and build databases, all within a single, interconnected space. Built by Zenkit, it aims to eliminate the need to jump between multiple disconnected tools, providing a unified experience for individuals and teams. A designer could use Zenkit Spaces to manage client briefs, track project progress with custom Kanban boards, and store all related design assets and feedback in a single, easily searchable location.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4069389/pexels-photo-4069389.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4069389/pexels-photo-4069389.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4069389/pexels-photo-4069389.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Neovim</title>
       <link>https://surfaced-x.pages.dev/item/neovim</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/neovim</guid>
@@ -424,6 +512,17 @@
       <enclosure url="https://pixabay.com/get/gfc6d36f906d10ce2a43e8eb4b24662987fde071afa37c1f9fa28798ecb910a73524a68194ab26711c6e7b1a69655183bfec7992f85acc55a962925490987d864_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/gfc6d36f906d10ce2a43e8eb4b24662987fde071afa37c1f9fa28798ecb910a73524a68194ab26711c6e7b1a69655183bfec7992f85acc55a962925490987d864_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/gfc6d36f906d10ce2a43e8eb4b24662987fde071afa37c1f9fa28798ecb910a73524a68194ab26711c6e7b1a69655183bfec7992f85acc55a962925490987d864_1280.jpg" />
+    </item>
+    <item>
+      <title>DeepSeek V4 Flash 0731</title>
+      <link>https://surfaced-x.pages.dev/item/deepseek-v4-flash-0731</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepseek-v4-flash-0731</guid>
+      <description>DeepSeek V4 Flash 0731 is an advanced large language model developed by the DeepSeek AI team, designed for high-performance natural language processing tasks. It excels at understanding context, generating coherent text, and performing complex reasoning. This model is particularly noteworthy for its efficiency, offering impressive capabilities with reduced computational requirements compared to some larger models. It can be utilized for a wide range of applications, from content creation and summarization to code generation and sophisticated conversational agents.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyNzZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyNzZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyNzZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Fig</title>
@@ -457,105 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/15141492/pexels-photo-15141492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/15141492/pexels-photo-15141492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/15141492/pexels-photo-15141492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Mythology - New World Encyclopedia</title>
-      <link>https://surfaced-x.pages.dev/item/mythology-the-new-world-encyclopedia</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mythology-the-new-world-encyclopedia</guid>
-      <description>This comprehensive &apos;Mythology&apos; entry from New World Encyclopedia serves as a foundational resource, meticulously dissecting the nature, purpose, and cross-cultural manifestations of myths. It defines mythology, elucidates its societal functions, and explores recurring archetypes and narrative threads found in traditions from ancient Greece and Rome to Norse sagas and beyond. The article offers a broad, interdisciplinary lens through which to understand the enduring power and diverse expressions of mythological narratives worldwide, emphasizing their significance in shaping human culture and thought.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/19153767/pexels-photo-19153767.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/19153767/pexels-photo-19153767.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/19153767/pexels-photo-19153767.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Motion Design Toolkit</title>
-      <link>https://surfaced-x.pages.dev/item/motion-design-toolkit</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/motion-design-toolkit</guid>
-      <description>The Motion Design Toolkit is a suite of tools and resources aimed at helping designers and developers create sophisticated animations for user interfaces and digital experiences. It provides pre-built animation components, easing the creation of micro-interactions, transitions, and engaging visual feedback. Available as a freemium product, it offers a solid starting point for free with premium templates and advanced customization options for subscribers. This toolkit is particularly effective at bridging the gap between static design mockups and dynamic, interactive prototypes, allowing for rapid animation development without deep coding knowledge.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/20762607/pexels-photo-20762607.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/20762607/pexels-photo-20762607.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/20762607/pexels-photo-20762607.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Online Etymology Dictionary</title>
-      <link>https://surfaced-x.pages.dev/item/etymonline</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/etymonline</guid>
-      <description>The Online Etymology Dictionary, at etymonline.com, is a remarkable repository for investigating the historical lineage and developmental journey of English vocabulary. It furnishes in-depth etymologies, frequently extending back hundreds of years, illustrating the transformations in a word&apos;s meaning and structure throughout its existence. This digital resource serves as an essential tool for authors, language scholars, and indeed anyone with a curiosity for the profound historical narratives woven into the fabric of our language.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8296039/pexels-photo-8296039.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8296039/pexels-photo-8296039.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8296039/pexels-photo-8296039.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Generative Design Explorer</title>
-      <link>https://surfaced-x.pages.dev/item/generative-design-explorer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/generative-design-explorer</guid>
-      <description>Generative Design Explorer is a cutting-edge tool that allows designers and artists to create complex and unique visual patterns through algorithmic processes. Users can manipulate parameters and rules to generate an infinite array of organic and geometric forms, transforming abstract concepts into tangible designs. This freemium tool offers a powerful way to explore creative possibilities beyond traditional manual design methods. It excels at quickly iterating on intricate visual themes that would be prohibitively time-consuming to create by hand.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/12891172/pexels-photo-12891172.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/12891172/pexels-photo-12891172.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/12891172/pexels-photo-12891172.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>I spent 2 years designing a mechanical Magic Keyboard</title>
-      <link>https://surfaced-x.pages.dev/item/i-spent-2-years-designing-a-mechanical-magic-keyboard</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/i-spent-2-years-designing-a-mechanical-magic-keyboard</guid>
-      <description>This is a Show HN post detailing the extensive two-year design process behind a custom mechanical keyboard inspired by Apple&apos;s Magic Keyboard. The creator shares insights into the material choices, ergonomic considerations, and the intricate mechanical engineering involved in achieving a specific tactile feel and aesthetic. It showcases a passion project that bridges the gap between consumer electronics and enthusiast hardware.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5805490/pexels-photo-5805490.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5805490/pexels-photo-5805490.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5805490/pexels-photo-5805490.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Remotion</title>
-      <link>https://surfaced-x.pages.dev/item/remotion-react-video-animation</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/remotion-react-video-animation</guid>
-      <description>Remotion is a modern, open-source framework that allows developers to create video content using React. It enables the creation of customizable video templates and programmatic video generation, ideal for automating personalized video messages, dynamic social media content, or animated explainers. Developers write video logic in React components, and Remotion renders these into video files. It&apos;s a free and open-source tool, empowering developers to build sophisticated video applications directly within their existing JavaScript workflows.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/34804012/pexels-photo-34804012.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/34804012/pexels-photo-34804012.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/34804012/pexels-photo-34804012.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>New Mexico Court Orders Meta to Pay $567M Over Harms to Children&apos;s Mental Health</title>
-      <link>https://surfaced-x.pages.dev/item/new-mexico-court-orders-meta-to-pay-567m-over-harms-to-childrens-mental-health</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/new-mexico-court-orders-meta-to-pay-567m-over-harms-to-childrens-mental-health</guid>
-      <description>This article reports on a landmark legal ruling in New Mexico where a court ordered Meta Platforms (formerly Facebook) to pay $567 million in damages. The lawsuit alleged that Meta&apos;s platforms contributed to harms to the mental health of children. The ruling highlights increasing legal and societal scrutiny over the impact of social media on young users and sets a precedent for corporate accountability in digital spaces.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17614479/pexels-photo-17614479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/17614479/pexels-photo-17614479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/17614479/pexels-photo-17614479.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>WebAIM Contrast Checker</title>
-      <link>https://surfaced-x.pages.dev/item/color-contrast-checker-web-aim</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/color-contrast-checker-web-aim</guid>
-      <description>The WebAIM Contrast Checker is a free online tool designed to evaluate the color contrast ratio between foreground and background text. It helps users ensure their web content meets accessibility standards, particularly WCAG (Web Content Accessibility Guidelines), by verifying that text is legible for people with visual impairments. Users input the hex codes for their chosen colors, and the tool instantly calculates the contrast ratio, indicating whether it meets the necessary levels for normal or large text.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8752798/pexels-photo-8752798.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8752798/pexels-photo-8752798.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8752798/pexels-photo-8752798.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Lemmy Instance Browser</title>
-      <link>https://surfaced-x.pages.dev/item/lemmy-instance-browser</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lemmy-instance-browser</guid>
-      <description>The Lemmy Instance Browser is a discovery tool for Lemmy, a federated social link aggregation and discussion platform, similar to Reddit. It helps users find different Lemmy instances, which are independently hosted servers operated by various communities, each with its own rules and content. By browsing these instances, users can find communities (called &apos;communities&apos; on Lemmy, analogous to subreddits) that cater to their specific interests. For example, someone interested in independent journalism could use this tool to find a Lemmy instance dedicated to that topic.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6593994/pexels-photo-6593994.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6593994/pexels-photo-6593994.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6593994/pexels-photo-6593994.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

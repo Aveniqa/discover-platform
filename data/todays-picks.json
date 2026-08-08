@@ -1,19 +1,19 @@
 [
   {
-    "slug": "the-digital-public-library-of-america",
-    "title": "Digital Public Library of America (DPLA)",
+    "slug": "form-io-headless-cms-forms",
+    "title": "Form.io",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Digital Public Library of America (DPLA) serves as a comprehensive aggregator for digitized cultural heritage materi",
+    "description": "Form.io is a powerful open-source platform that provides a headless CMS for building and managing forms, data, and workf",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "lexica-art-search-engine",
-    "title": "Lexica",
+    "slug": "daily-tool-anki",
+    "title": "Anki",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Lexica is a powerful search engine and generator for AI-created art. It allows users to search through millions of AI-ge",
+    "description": "Anki is a free and open-source flashcard program that uses spaced repetition to help you learn new information more effi",
     "badge": null,
     "type": "tool"
   }
