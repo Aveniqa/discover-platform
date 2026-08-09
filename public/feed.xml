@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proto.io</title>
+      <link>https://surfaced-x.pages.dev/item/proto-io</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/proto-io</guid>
+      <description>Proto.io is a powerful, yet user-friendly, platform for creating high-fidelity interactive prototypes for mobile, tablet, and desktop applications. It allows designers to bring their static designs to life with rich animations, gestures, and transitions, all without writing code. The tool supports importing designs from various sources and offers a robust library of interactive components. Proto.io operates on a subscription-based pricing model, offering different tiers based on features and usage. It’s designed to bridge the gap between design and development, facilitating better communication and user testing.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Spline</title>
+      <link>https://surfaced-x.pages.dev/item/spline-design</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spline-design</guid>
+      <description>Spline is a collaborative 3D design tool that empowers individuals and teams to create interactive 3D scenes and animations without needing extensive technical expertise. It offers a web-based, intuitive interface that allows for the creation of complex 3D models, animations, and even AR experiences directly in the browser. Spline provides a freemium model, with generous free tier for individuals and paid plans for teams and advanced features. Its strength lies in making 3D design accessible, enabling rapid prototyping and visually engaging content creation.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/3913016/pexels-photo-3913016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/3913016/pexels-photo-3913016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/3913016/pexels-photo-3913016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Generative Texture Kit</title>
+      <link>https://surfaced-x.pages.dev/item/generative-texture-kit</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/generative-texture-kit</guid>
+      <description>Generative Texture Kit is an AI-powered tool designed to create unique, seamless, and tileable textures for 3D rendering, game development, and graphic design. Users can generate textures based on descriptive text prompts or by providing a base image to modify and enhance. It offers a freemium service, with limited free generations and subscription plans for higher volumes and advanced features. Its strength lies in its ability to quickly produce an endless variety of high-quality, procedural materials that would be incredibly time-consuming to create manually.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/20954557/pexels-photo-20954557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/20954557/pexels-photo-20954557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/20954557/pexels-photo-20954557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Formv</title>
+      <link>https://surfaced-x.pages.dev/item/form-data-validator</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/form-data-validator</guid>
+      <description>Formv is a sophisticated JavaScript library designed for validating form data in web applications. It goes beyond basic field checks, offering a powerful and flexible API for defining complex validation rules, handling asynchronous validation, and providing custom error messages. This open-source tool is particularly useful for developers building intricate web interfaces where robust data integrity is paramount. It can be integrated into any front-end framework and excels at managing the nuances of user input validation, ensuring data submitted by users is accurate and complete before it&apos;s processed server-side. The core library is free, with potential for paid support or enterprise solutions.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1649451844808-b81427e7a1f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYyNzQ2ODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1649451844808-b81427e7a1f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYyNzQ2ODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1649451844808-b81427e7a1f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYyNzQ2ODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Typogram</title>
+      <link>https://surfaced-x.pages.dev/item/typogram-visual-editor</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typogram-visual-editor</guid>
+      <description>Typogram is a web-based tool designed to help individuals and small businesses create professional brand identities, focusing on typography and logo design. It offers a guided workflow that simplifies complex design principles, allowing users to generate unique logos, select complementary fonts, and define color palettes that align with their brand&apos;s personality. The platform operates on a freemium model, providing basic logo creation and font exploration for free, with premium tiers unlocking advanced features, more design assets, and commercial usage rights. It excels at democratizing brand design, making sophisticated visual identity creation accessible without requiring extensive graphic design experience.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7675031/pexels-photo-7675031.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7675031/pexels-photo-7675031.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7675031/pexels-photo-7675031.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Anki</title>
       <link>https://surfaced-x.pages.dev/item/daily-tool-anki</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/5789907/pexels-photo-5789907.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Deep Dream Generator</title>
+      <link>https://surfaced-x.pages.dev/item/text-to-image-ai-art</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/text-to-image-ai-art</guid>
+      <description>Deep Dream Generator is an online platform that leverages artificial intelligence to transform ordinary images into extraordinary works of art. It offers several distinct AI models, including &apos;Deep Style,&apos; which applies the artistic style of one image to the content of another, and &apos;Deep Dream,&apos; which enhances latent patterns in images to create surreal, dreamlike visuals. Users can upload their photos or create new art from text prompts, experimenting with various artistic filters and styles. The platform is accessible to artists, designers, and hobbyists looking to explore new creative avenues or generate unique visual content.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10109585/pexels-photo-10109585.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10109585/pexels-photo-10109585.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10109585/pexels-photo-10109585.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>turbo-fieldfare</title>
       <link>https://surfaced-x.pages.dev/item/turbo-fieldfare</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/turbo-fieldfare</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>SVGator</title>
+      <link>https://surfaced-x.pages.dev/item/vector-graphics-editor-svg</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vector-graphics-editor-svg</guid>
+      <description>SVGator is a powerful, web-based platform designed for creating complex and interactive SVG animations without requiring extensive coding knowledge. It offers a timeline-based interface similar to traditional animation software, allowing users to animate SVG elements by setting keyframes for properties like position, scale, rotation, opacity, and more. The tool excels at producing smooth, performant animations that are ideal for web design, UI elements, and digital marketing. It also provides options for exporting animations as embeddable SVG code, ensuring broad compatibility across devices and browsers.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8817535/pexels-photo-8817535.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8817535/pexels-photo-8817535.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8817535/pexels-photo-8817535.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>FocusWriter</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/6345304/pexels-photo-6345304.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Paletton.com</title>
+      <link>https://surfaced-x.pages.dev/item/color-palette-generator-design</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/color-palette-generator-design</guid>
+      <description>Paletton.com is a sophisticated online tool for generating harmonious color palettes. It allows designers to select a base color and then generates complementary, analogous, triadic, and tetradic color schemes based on color theory principles. You can also fine-tune the saturation and brightness of each color to create precise moods and aesthetics. This tool is invaluable for anyone working on branding, web design, illustration, or any project requiring a well-thought-out color strategy, enabling rapid iteration and exploration of visual themes.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7301922/pexels-photo-7301922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7301922/pexels-photo-7301922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7301922/pexels-photo-7301922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>World Anvil</title>
       <link>https://surfaced-x.pages.dev/item/worldanvil-worldbuilding-platform</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/worldanvil-worldbuilding-platform</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/34367174/pexels-photo-34367174.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>My server is a phone now</title>
+      <link>https://surfaced-x.pages.dev/item/my-server-is-a-phone-now</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/my-server-is-a-phone-now</guid>
+      <description>This blog post offers a comprehensive guide to transforming an old Android smartphone into a fully operational home server. It details the entire process, from hardware preparation and software installation to exploring various practical applications. Readers will find step-by-step instructions on how to set up their repurposed phone as a personal cloud storage solution, a dedicated media server for streaming content, or a reliable backup device for important data. The author provides firsthand accounts and valuable tips to ensure the stability and efficiency of this unique server configuration.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/2881224/pexels-photo-2881224.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/2881224/pexels-photo-2881224.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/2881224/pexels-photo-2881224.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Streamwriting</title>
       <link>https://surfaced-x.pages.dev/item/streamwriting-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/streamwriting-app</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/5793964/pexels-photo-5793964.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5793964/pexels-photo-5793964.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5793964/pexels-photo-5793964.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Wyzer Programming Language</title>
+      <link>https://surfaced-x.pages.dev/item/wyzer-programming-language</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wyzer-programming-language</guid>
+      <description>Wyzer is a statically-typed, functional programming language engineered for the creation of dependable and easily maintainable applications. It champions core functional programming principles, including immutability, sophisticated pattern matching, and algebraic data types, with the explicit goal of minimizing common programming pitfalls and enhancing code readability.  The language is compiled, which allows for performance characteristics competitive with established low-level languages, and it is designed to be portable across a range of computing platforms. Wyzer is developed by a community of programmers seeking a more expressive and secure environment for software development.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34268918/pexels-photo-34268918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34268918/pexels-photo-34268918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34268918/pexels-photo-34268918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Nuclide</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/8728284/pexels-photo-8728284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/8728284/pexels-photo-8728284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/8728284/pexels-photo-8728284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Typst</title>
-      <link>https://surfaced-x.pages.dev/item/typst-modern-typesetting</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typst-modern-typesetting</guid>
-      <description>Typst is a powerful and modern typesetting system designed to create beautiful and complex documents with ease, offering a significant upgrade from traditional word processors and a more accessible alternative to LaTeX. It uses a simple, declarative syntax that is easy to learn and write, focusing on automation and reproducible results. Typst compiles documents very quickly and is well-suited for creating everything from simple letters to academic papers, books, and even code documentation. The system emphasizes extensibility through its own scripting language, allowing for custom templates and complex layouts.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/12040650/pexels-photo-12040650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/12040650/pexels-photo-12040650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/12040650/pexels-photo-12040650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Astro</title>
-      <link>https://surfaced-x.pages.dev/item/astro</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/astro</guid>
-      <description>Astro is a modern, free, and open-source web framework for building fast, content-driven websites. It emphasizes content and performance by shipping zero JavaScript to the client by default, using an island architecture that hydrates components only when needed. This makes websites built with Astro exceptionally fast, leading to better user experiences and SEO. Astro supports many UI frameworks like React, Vue, and Svelte, allowing developers to use their preferred tools while benefiting from Astro&apos;s performance optimizations.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5310563/pexels-photo-5310563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5310563/pexels-photo-5310563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5310563/pexels-photo-5310563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Anytype</title>
-      <link>https://surfaced-x.pages.dev/item/anytype-personal-knowledge-tool</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/anytype-personal-knowledge-tool</guid>
-      <description>Anytype is a highly customizable, local-first, and privacy-focused personal knowledge management tool that aims to provide a secure and decentralized alternative to cloud-based note-taking apps. It uses an object-based system, allowing users to define their own types of information (like notes, tasks, contacts, or even custom project types) and link them together freely. All data is stored locally and encrypted, with optional peer-to-peer syncing capabilities for collaboration without a central server. This empowers users to build a digital workspace that truly reflects their unique organizational needs and ensures their data ownership.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/10892979/pexels-photo-10892979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/10892979/pexels-photo-10892979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/10892979/pexels-photo-10892979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Zellij</title>
-      <link>https://surfaced-x.pages.dev/item/zellij</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zellij</guid>
-      <description>Zellij is a modern, proactive, and more intuitive terminal workspace written in Rust. It offers a powerful alternative to traditional terminal multiplexers like tmux or screen, providing features such as automatic session management, pane layouts, and a rich plugin system. Zellij&apos;s goal is to make terminal work more organized and efficient by intelligently managing your sessions and windows, ensuring you never lose your work and can easily switch between tasks. It is a free and open-source tool, making it accessible to all users.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/10321011/pexels-photo-10321011.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/10321011/pexels-photo-10321011.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/10321011/pexels-photo-10321011.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Zenkit Spaces</title>
-      <link>https://surfaced-x.pages.dev/item/zenkit-spaces</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zenkit-spaces</guid>
-      <description>Zenkit Spaces is a versatile platform designed to consolidate all your work and knowledge into one accessible hub. It offers a flexible environment where you can manage projects, track tasks, organize notes, and build databases, all within a single, interconnected space. Built by Zenkit, it aims to eliminate the need to jump between multiple disconnected tools, providing a unified experience for individuals and teams. A designer could use Zenkit Spaces to manage client briefs, track project progress with custom Kanban boards, and store all related design assets and feedback in a single, easily searchable location.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4069389/pexels-photo-4069389.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4069389/pexels-photo-4069389.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4069389/pexels-photo-4069389.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Neovim</title>
-      <link>https://surfaced-x.pages.dev/item/neovim</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/neovim</guid>
-      <description>Neovim is a free and open-source, highly extensible text editor designed for modern software development. It&apos;s a fork of the Vim editor, aiming to improve extensibility, maintainability, and user experience. Neovim provides a modal editing interface, making text manipulation incredibly efficient once learned. Its core strength lies in its plugin architecture and asynchronous I/O, allowing for powerful integrations like language servers for real-time code completion and error checking, and integrated debugging. It operates on a freemium model, being entirely free to use.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/gfc6d36f906d10ce2a43e8eb4b24662987fde071afa37c1f9fa28798ecb910a73524a68194ab26711c6e7b1a69655183bfec7992f85acc55a962925490987d864_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/gfc6d36f906d10ce2a43e8eb4b24662987fde071afa37c1f9fa28798ecb910a73524a68194ab26711c6e7b1a69655183bfec7992f85acc55a962925490987d864_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/gfc6d36f906d10ce2a43e8eb4b24662987fde071afa37c1f9fa28798ecb910a73524a68194ab26711c6e7b1a69655183bfec7992f85acc55a962925490987d864_1280.jpg" />
-    </item>
-    <item>
-      <title>DeepSeek V4 Flash 0731</title>
-      <link>https://surfaced-x.pages.dev/item/deepseek-v4-flash-0731</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepseek-v4-flash-0731</guid>
-      <description>DeepSeek V4 Flash 0731 is an advanced large language model developed by the DeepSeek AI team, designed for high-performance natural language processing tasks. It excels at understanding context, generating coherent text, and performing complex reasoning. This model is particularly noteworthy for its efficiency, offering impressive capabilities with reduced computational requirements compared to some larger models. It can be utilized for a wide range of applications, from content creation and summarization to code generation and sophisticated conversational agents.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyNzZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyNzZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1738107450287-8ccd5a2f8806?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyNzZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Fig</title>
-      <link>https://surfaced-x.pages.dev/item/fig-io</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fig-io</guid>
-      <description>Fig is an intelligent command-line autocompletion tool designed to enhance the developer experience directly within the terminal. It injects IDE-like features into your command-line interface, offering rich, context-aware suggestions for a vast array of popular tools, including Git, Docker, npm, and many others. As you type commands, Fig proactively provides accurate and helpful suggestions for commands themselves, their available flags, and their corresponding arguments. This significantly streamlines the process of interacting with complex command-line applications.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU1MDI0NDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU1MDI0NDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU1MDI0NDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Digital Public Library of America (DPLA)</title>
-      <link>https://surfaced-x.pages.dev/item/the-digital-public-library-of-america</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/the-digital-public-library-of-america</guid>
-      <description>The Digital Public Library of America (DPLA) serves as a comprehensive aggregator for digitized cultural heritage materials from institutions across the United States. It meticulously collects metadata and full-text content from a wide array of libraries, archives, and museums, presenting it in a unified, accessible platform. Users can explore an extensive digital repository encompassing historical photographs, manuscripts, books, maps, oral histories, and much more. The DPLA&apos;s core mission is to democratize access to the nation&apos;s historical and cultural record, making it readily discoverable and available to a global audience.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5009083/pexels-photo-5009083.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5009083/pexels-photo-5009083.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5009083/pexels-photo-5009083.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Pazi</title>
-      <link>https://surfaced-x.pages.dev/item/pazi</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pazi</guid>
-      <description>Pazi is an AI-powered platform designed to help individuals and small teams bring their business ideas to life. You describe your vision – whether it&apos;s a book, an online shop, an app, or a service – and Pazi constructs a dedicated team of AI agents to execute it. This includes tasks like market research, content creation, business planning, and even initial development steps. It operates on a freemium model, offering basic agent access for free and more advanced capabilities through paid tiers.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/15141492/pexels-photo-15141492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/15141492/pexels-photo-15141492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/15141492/pexels-photo-15141492.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

@@ -1,19 +1,19 @@
 [
   {
-    "slug": "form-io-headless-cms-forms",
-    "title": "Form.io",
+    "slug": "text-to-image-ai-art",
+    "title": "Deep Dream Generator",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Form.io is a powerful open-source platform that provides a headless CMS for building and managing forms, data, and workf",
+    "description": "Deep Dream Generator is an online platform that leverages artificial intelligence to transform ordinary images into extr",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "daily-tool-anki",
-    "title": "Anki",
+    "slug": "proto-io",
+    "title": "Proto.io",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Anki is a free and open-source flashcard program that uses spaced repetition to help you learn new information more effi",
+    "description": "Proto.io is a powerful, yet user-friendly, platform for creating high-fidelity interactive prototypes for mobile, tablet",
     "badge": null,
     "type": "tool"
   }
