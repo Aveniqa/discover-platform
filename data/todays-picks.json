@@ -1,19 +1,19 @@
 [
   {
-    "slug": "text-to-image-ai-art",
-    "title": "Deep Dream Generator",
+    "slug": "earth-grid-calculator",
+    "title": "Earth Grid Calculator",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Deep Dream Generator is an online platform that leverages artificial intelligence to transform ordinary images into extr",
+    "description": "The Earth Grid Calculator is a web tool that helps users convert between various geographic coordinate systems. It suppo",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "proto-io",
-    "title": "Proto.io",
+    "slug": "tinygrad",
+    "title": "tinygrad",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Proto.io is a powerful, yet user-friendly, platform for creating high-fidelity interactive prototypes for mobile, tablet",
+    "description": "tinygrad is a minimalist deep learning framework designed for simplicity and ease of understanding, aiming to be a more ",
     "badge": null,
     "type": "tool"
   }

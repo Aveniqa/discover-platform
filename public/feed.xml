@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tinygrad</title>
+      <link>https://surfaced-x.pages.dev/item/tinygrad</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tinygrad</guid>
+      <description>tinygrad is a minimalist deep learning framework designed for simplicity and ease of understanding, aiming to be a more accessible alternative to larger, more complex frameworks like PyTorch or TensorFlow. It focuses on providing core functionalities with a clean, readable codebase, written primarily in Python. tinygrad is open-source and free to use, making it an excellent tool for learning about machine learning internals or for researchers and developers who need a lightweight and transparent framework for experimentation. It aims to offer a fast, flexible, and efficient path to building and training neural networks.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gaa30b2b8ba72f565c7b3e6ecc62fe6d5ee57ea18874d5e2bedb702ab6253f72840ee2a3deba89258b909c7bd81923545395596b98ffb1cb9735b218499514012_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gaa30b2b8ba72f565c7b3e6ecc62fe6d5ee57ea18874d5e2bedb702ab6253f72840ee2a3deba89258b909c7bd81923545395596b98ffb1cb9735b218499514012_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gaa30b2b8ba72f565c7b3e6ecc62fe6d5ee57ea18874d5e2bedb702ab6253f72840ee2a3deba89258b909c7bd81923545395596b98ffb1cb9735b218499514012_1280.jpg" />
+    </item>
+    <item>
+      <title>k0s</title>
+      <link>https://surfaced-x.pages.dev/item/k0s</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/k0s</guid>
+      <description>k0s is a zero-friction Kubernetes distribution designed for simplicity and ease of use, enabling users to run Kubernetes on any infrastructure with minimal configuration. It bundles all necessary components into a single binary, making installation and management incredibly straightforward. k0s is open-source and free to use, with commercial support and enterprise features available for businesses requiring enhanced capabilities. It&apos;s ideal for developers and organizations that need a fully functional Kubernetes cluster up and running quickly.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gddb057dec4303d1312de581b9c985d2f2ff1bb469f4afc60ba1f0b4d9fc9d89dde6de749648ae6010fdc517bb354db2351d84307c414bbc2f3ed9bd814dae107_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gddb057dec4303d1312de581b9c985d2f2ff1bb469f4afc60ba1f0b4d9fc9d89dde6de749648ae6010fdc517bb354db2351d84307c414bbc2f3ed9bd814dae107_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gddb057dec4303d1312de581b9c985d2f2ff1bb469f4afc60ba1f0b4d9fc9d89dde6de749648ae6010fdc517bb354db2351d84307c414bbc2f3ed9bd814dae107_1280.jpg" />
+    </item>
+    <item>
+      <title>Nuclio</title>
+      <link>https://surfaced-x.pages.dev/item/nuclio</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nuclio</guid>
+      <description>Nuclio is an open-source, high-performance, real-time serverless platform that allows developers to run event-driven applications with very low latency. It excels at processing high volumes of data in response to events from various sources, such as message queues, HTTP requests, or stream processing systems. Nuclio offers a generous free tier and paid options for advanced features and dedicated support, making it accessible for both individual developers and large organizations looking to build scalable, responsive microservices.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/38804889/pexels-photo-38804889.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/38804889/pexels-photo-38804889.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/38804889/pexels-photo-38804889.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Tiktoken</title>
+      <link>https://surfaced-x.pages.dev/item/tiktoken</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tiktoken</guid>
+      <description>Tiktoken is a fast byte pair encoding (BPE) tokenizer library developed by OpenAI, designed for use with their language models. It provides efficient encoding and decoding of text into tokens, which are the fundamental units processed by large language models. This library is open-source and free, offering excellent performance for tokenization tasks. Its primary value lies in its speed and accuracy in converting text to and from the token representations used by models like GPT-3 and GPT-4, which is crucial for understanding token limits and managing prompt costs.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Zed</title>
+      <link>https://surfaced-x.pages.dev/item/zed-dev</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zed-dev</guid>
+      <description>Zed is a high-performance, collaborative code editor built in Rust. It&apos;s designed for speed, responsiveness, and seamless real-time collaboration, allowing multiple developers to work on the same codebase simultaneously, seeing each other&apos;s cursors and edits as they happen. Zed is currently free to use and is rapidly evolving, with a focus on an excellent developer experience. It differentiates itself with its blazingly fast performance and integrated collaborative features, making pair programming and remote teamwork feel incredibly fluid and natural.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1779449191406-e5a44a002f46?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzNjIyOTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1779449191406-e5a44a002f46?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzNjIyOTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1779449191406-e5a44a002f46?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzNjIyOTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
     <item>
       <title>Proto.io</title>
       <link>https://surfaced-x.pages.dev/item/proto-io</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/880675/pexels-photo-880675.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Earth Grid Calculator</title>
+      <link>https://surfaced-x.pages.dev/item/earth-grid-calculator</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/earth-grid-calculator</guid>
+      <description>The Earth Grid Calculator is a web tool that helps users convert between various geographic coordinate systems. It supports conversions between latitude/longitude (in decimal degrees or degrees, minutes, seconds) and grid references like UTM (Universal Transverse Mercator) and MGRS (Military Grid Reference System). The tool is useful for anyone working with maps, GPS data, or geographical information systems that require precise location referencing.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/38891320/pexels-photo-38891320.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/38891320/pexels-photo-38891320.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/38891320/pexels-photo-38891320.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>BodyCompas</title>
       <link>https://surfaced-x.pages.dev/item/body-compas</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/body-compas</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/267391/pexels-photo-267391.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/267391/pexels-photo-267391.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/267391/pexels-photo-267391.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Clerk</title>
+      <link>https://surfaced-x.pages.dev/item/clerk-auth</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/clerk-auth</guid>
+      <description>Clerk is a comprehensive authentication and user management solution engineered for modern frontend development. It delivers a suite of pre-built, customizable UI components alongside a powerful API, streamlining the implementation of essential user workflows. This includes secure user sign-up and sign-in processes, robust profile management capabilities, and advanced features like multi-factor authentication. Clerk&apos;s core objective is to abstract away the intricate and often challenging aspects of building secure and user-friendly authentication systems, empowering developers to dedicate more resources to their application&apos;s core functionality and unique features.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/843229/pexels-photo-843229.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/843229/pexels-photo-843229.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/843229/pexels-photo-843229.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Empower Financial Literacy</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/12198531/pexels-photo-12198531.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Sourcegraph</title>
+      <link>https://surfaced-x.pages.dev/item/sourcegraph-code-search</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sourcegraph-code-search</guid>
+      <description>Sourcegraph is a powerful, universal code search and navigation tool designed for large codebases. It indexes all of your code, whether it&apos;s on GitHub, GitLab, Bitbucket, or even on-premises. This allows developers to quickly find specific functions, variables, or definitions across multiple repositories and languages. It also offers features like code intelligence, which provides context-aware autocompletion and cross-references.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g9a095e4a59ca40db6dac2eeb1d7daa80873f767ea3c5d6fe3b90daa378a8c29ab5a441f37b39c1a4c1794abbd954b01113a7c7891bf2ffc11be69a53d281de33_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g9a095e4a59ca40db6dac2eeb1d7daa80873f767ea3c5d6fe3b90daa378a8c29ab5a441f37b39c1a4c1794abbd954b01113a7c7891bf2ffc11be69a53d281de33_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g9a095e4a59ca40db6dac2eeb1d7daa80873f767ea3c5d6fe3b90daa378a8c29ab5a441f37b39c1a4c1794abbd954b01113a7c7891bf2ffc11be69a53d281de33_1280.jpg" />
+    </item>
+    <item>
       <title>VaultChecker</title>
       <link>https://surfaced-x.pages.dev/item/vault-checker</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vault-checker</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/22817377/pexels-photo-22817377.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Maple-Preview</title>
+      <link>https://surfaced-x.pages.dev/item/maple-preview</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/maple-preview</guid>
+      <description>Maple-Preview is a demonstration of a Ternary Mixture of Experts (MoE) large language model, called Maple-MoE, capable of running efficiently on a consumer-grade iPhone. It achieves a remarkable inference speed of 120 tokens per second, showcasing the potential for powerful AI models to operate directly on mobile devices without relying on cloud processing. This tool allows users to interact with a capable LLM on their phone, experiencing its generation capabilities firsthand. It serves as a proof-of-concept for on-device AI processing and its accessibility to everyday users.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30479287/pexels-photo-30479287.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30479287/pexels-photo-30479287.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30479287/pexels-photo-30479287.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Fund Explorers</title>
       <link>https://surfaced-x.pages.dev/item/fund-explorers</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fund-explorers</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/7873560/pexels-photo-7873560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7873560/pexels-photo-7873560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7873560/pexels-photo-7873560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Docker Sandboxes</title>
+      <link>https://surfaced-x.pages.dev/item/docker-sandboxes</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/docker-sandboxes</guid>
+      <description>Docker Sandboxes provide disposable, isolated environments specifically designed for running AI agents. This tool allows developers and researchers to experiment with AI models and agents without the risk of polluting their host system or interfering with other processes. Each sandbox is a clean slate, ensuring reproducibility and preventing dependency conflicts. For example, a machine learning engineer could use a sandbox to test a new reinforcement learning agent that requires specific library versions and system configurations, knowing that any issues or dependencies will be confined to that temporary environment.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4440987/pexels-photo-4440987.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4440987/pexels-photo-4440987.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4440987/pexels-photo-4440987.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>AllocateSmart</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>SVGator</title>
-      <link>https://surfaced-x.pages.dev/item/vector-graphics-editor-svg</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vector-graphics-editor-svg</guid>
-      <description>SVGator is a powerful, web-based platform designed for creating complex and interactive SVG animations without requiring extensive coding knowledge. It offers a timeline-based interface similar to traditional animation software, allowing users to animate SVG elements by setting keyframes for properties like position, scale, rotation, opacity, and more. The tool excels at producing smooth, performant animations that are ideal for web design, UI elements, and digital marketing. It also provides options for exporting animations as embeddable SVG code, ensuring broad compatibility across devices and browsers.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8817535/pexels-photo-8817535.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8817535/pexels-photo-8817535.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8817535/pexels-photo-8817535.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>FocusWriter</title>
-      <link>https://surfaced-x.pages.dev/item/focuswriter-distraction-free-writing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/focuswriter-distraction-free-writing</guid>
-      <description>FocusWriter is a simple, elegant, and completely free application designed to provide a distraction-free writing environment. It hides all interface elements, leaving only your text on a clean background, allowing writers to immerse themselves entirely in their work. The application supports basic text formatting and offers features like auto-save, timers, and customizable themes to enhance the user&apos;s concentration. FocusWriter is an ideal tool for anyone who struggles with the multitude of temptations offered by modern operating systems and desires a pure, unadulterated writing space to maximize their productivity and creativity. It excels at removing all visual clutter, forcing your attention solely onto the words you are crafting.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6345304/pexels-photo-6345304.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6345304/pexels-photo-6345304.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6345304/pexels-photo-6345304.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Paletton.com</title>
-      <link>https://surfaced-x.pages.dev/item/color-palette-generator-design</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/color-palette-generator-design</guid>
-      <description>Paletton.com is a sophisticated online tool for generating harmonious color palettes. It allows designers to select a base color and then generates complementary, analogous, triadic, and tetradic color schemes based on color theory principles. You can also fine-tune the saturation and brightness of each color to create precise moods and aesthetics. This tool is invaluable for anyone working on branding, web design, illustration, or any project requiring a well-thought-out color strategy, enabling rapid iteration and exploration of visual themes.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7301922/pexels-photo-7301922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7301922/pexels-photo-7301922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7301922/pexels-photo-7301922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>World Anvil</title>
-      <link>https://surfaced-x.pages.dev/item/worldanvil-worldbuilding-platform</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/worldanvil-worldbuilding-platform</guid>
-      <description>World Anvil is a comprehensive online platform designed for worldbuilding and creative writing. It allows users to create interconnected articles, maps, timelines, character sheets, and lore entries to flesh out fictional worlds in intricate detail. The platform offers a tiered subscription model, with a generous free tier available. It excels at fostering deep, organized lore management, making it easier to maintain consistency across a vast fictional universe.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/34367174/pexels-photo-34367174.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/34367174/pexels-photo-34367174.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/34367174/pexels-photo-34367174.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>My server is a phone now</title>
-      <link>https://surfaced-x.pages.dev/item/my-server-is-a-phone-now</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/my-server-is-a-phone-now</guid>
-      <description>This blog post offers a comprehensive guide to transforming an old Android smartphone into a fully operational home server. It details the entire process, from hardware preparation and software installation to exploring various practical applications. Readers will find step-by-step instructions on how to set up their repurposed phone as a personal cloud storage solution, a dedicated media server for streaming content, or a reliable backup device for important data. The author provides firsthand accounts and valuable tips to ensure the stability and efficiency of this unique server configuration.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/2881224/pexels-photo-2881224.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/2881224/pexels-photo-2881224.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/2881224/pexels-photo-2881224.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Streamwriting</title>
-      <link>https://surfaced-x.pages.dev/item/streamwriting-app</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/streamwriting-app</guid>
-      <description>Streamwriting is a minimalist, distraction-free writing application designed to help you get words on the page without the clutter of traditional word processors. It offers a clean, full-screen interface with customizable themes and a focus on a smooth writing flow. The application saves your work automatically and supports Markdown for basic formatting. Streamwriting is a paid application, offering a one-time purchase for lifetime access.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5793964/pexels-photo-5793964.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5793964/pexels-photo-5793964.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5793964/pexels-photo-5793964.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Wyzer Programming Language</title>
-      <link>https://surfaced-x.pages.dev/item/wyzer-programming-language</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wyzer-programming-language</guid>
-      <description>Wyzer is a statically-typed, functional programming language engineered for the creation of dependable and easily maintainable applications. It champions core functional programming principles, including immutability, sophisticated pattern matching, and algebraic data types, with the explicit goal of minimizing common programming pitfalls and enhancing code readability.  The language is compiled, which allows for performance characteristics competitive with established low-level languages, and it is designed to be portable across a range of computing platforms. Wyzer is developed by a community of programmers seeking a more expressive and secure environment for software development.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/34268918/pexels-photo-34268918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/34268918/pexels-photo-34268918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/34268918/pexels-photo-34268918.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Nuclide</title>
-      <link>https://surfaced-x.pages.dev/item/nuclide-code-editor</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nuclide-code-editor</guid>
-      <description>Nuclide is a free, open-source, and extensible integrated development environment (IDE) built for web and mobile development, with a strong focus on JavaScript, React, and React Native. It offers features like robust code editing, debugging, and powerful refactoring tools, aiming to provide a unified experience for building complex applications.  It&apos;s designed to be highly performant and customizable, adapting to individual developer workflows. Nuclide is built on top of Atom and leverages its plugin ecosystem.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/g9934d4e54a1e43cd5a7800dd395559cbba8a5407e8c7cb8b4e9258a33f57101e8ea62917a25f90af81360592bf18058a9c1c52a9e31a05435f085ed21659bd0d_1280.png" type="image/png" length="0" />
-      <media:content url="https://pixabay.com/get/g9934d4e54a1e43cd5a7800dd395559cbba8a5407e8c7cb8b4e9258a33f57101e8ea62917a25f90af81360592bf18058a9c1c52a9e31a05435f085ed21659bd0d_1280.png" medium="image" type="image/png" />
-      <media:thumbnail url="https://pixabay.com/get/g9934d4e54a1e43cd5a7800dd395559cbba8a5407e8c7cb8b4e9258a33f57101e8ea62917a25f90af81360592bf18058a9c1c52a9e31a05435f085ed21659bd0d_1280.png" />
-    </item>
-    <item>
-      <title>Form.io</title>
-      <link>https://surfaced-x.pages.dev/item/form-io-headless-cms-forms</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/form-io-headless-cms-forms</guid>
-      <description>Form.io is a powerful open-source platform that provides a headless CMS for building and managing forms, data, and workflows. It allows developers to create sophisticated, data-driven applications by separating the form building interface from the front-end presentation layer. This means you can design complex forms with advanced validation, conditional logic, and integrations, and then use them across multiple applications or websites without being tied to a specific UI framework. It&apos;s ideal for businesses and developers needing a flexible, API-first approach to form management and data collection.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1774901128192-10e5b4921888?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1774901128192-10e5b4921888?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1774901128192-10e5b4921888?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYxODgyODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>qm</title>
-      <link>https://surfaced-x.pages.dev/item/qm-multiplayer-agent-harness</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/qm-multiplayer-agent-harness</guid>
-      <description>qm is a cutting-edge multiplayer agent harness designed for collaborative AI development and testing. It allows multiple users to interact with and control AI agents simultaneously, fostering a dynamic environment for research, experimentation, and building complex AI systems.  The tool focuses on enabling synchronized agent actions and shared observation spaces. It&apos;s open-source and free to use, making advanced AI collaboration accessible.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8728284/pexels-photo-8728284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8728284/pexels-photo-8728284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8728284/pexels-photo-8728284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

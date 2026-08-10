@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "gnucash-desktop-accounting-personal-small-business",
-      "buxfer-budgeting-forecasting-debt-management",
-      "commitment-contracts-goal-tracking",
-      "streaks-ios-habit-tracker-design",
-      "way-of-life-good-bad-habit-tracker",
-      "productive-habit-tracker-aesthetic-mobile",
-      "coach-me-habit-tracking-coaching-community",
-      "everyday-app-minimalist-web-habit-tracker",
-      "keepassxc-secure-password-manager",
-      "gitea-lightweight-self-hosted-git-service",
       "freetube-privacy-focused-youtube-client",
-      "vscodium-open-source-code-editor"
+      "vscodium-open-source-code-editor",
+      "jitsi-meet-open-source-video-conferencing",
+      "session-buddy-tab-manager",
+      "link-to-text-fragment",
+      "mate-translate-language-translator",
+      "limnu-collaborative-online-whiteboard",
+      "linear-fast-issue-tracking",
+      "coda-docs-like-apps",
+      "savvycal-intelligent-scheduling-links",
+      "exercism-code-practice-mentorship",
+      "clozemaster-language-learning-fill-blanks"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "gnucash-desktop-accounting-personal-small-business",
-      "buxfer-budgeting-forecasting-debt-management",
-      "commitment-contracts-goal-tracking",
-      "streaks-ios-habit-tracker-design",
-      "way-of-life-good-bad-habit-tracker",
-      "productive-habit-tracker-aesthetic-mobile",
-      "coach-me-habit-tracking-coaching-community",
-      "everyday-app-minimalist-web-habit-tracker",
-      "keepassxc-secure-password-manager",
-      "gitea-lightweight-self-hosted-git-service",
       "freetube-privacy-focused-youtube-client",
-      "vscodium-open-source-code-editor"
+      "vscodium-open-source-code-editor",
+      "jitsi-meet-open-source-video-conferencing",
+      "session-buddy-tab-manager",
+      "link-to-text-fragment",
+      "mate-translate-language-translator",
+      "visbug-web-design-debug",
+      "limnu-collaborative-online-whiteboard",
+      "linear-fast-issue-tracking",
+      "yac-asynchronous-voice-video-messages",
+      "coda-docs-like-apps",
+      "savvycal-intelligent-scheduling-links"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "gnucash-desktop-accounting-personal-small-business",
-      "buxfer-budgeting-forecasting-debt-management",
-      "commitment-contracts-goal-tracking",
-      "streaks-ios-habit-tracker-design",
-      "way-of-life-good-bad-habit-tracker",
-      "productive-habit-tracker-aesthetic-mobile",
-      "coach-me-habit-tracking-coaching-community",
-      "everyday-app-minimalist-web-habit-tracker",
-      "keepassxc-secure-password-manager",
-      "gitea-lightweight-self-hosted-git-service",
       "freetube-privacy-focused-youtube-client",
-      "vscodium-open-source-code-editor"
+      "vscodium-open-source-code-editor",
+      "jitsi-meet-open-source-video-conferencing",
+      "session-buddy-tab-manager",
+      "link-to-text-fragment",
+      "mate-translate-language-translator",
+      "visbug-web-design-debug",
+      "limnu-collaborative-online-whiteboard",
+      "linear-fast-issue-tracking",
+      "yac-asynchronous-voice-video-messages",
+      "coda-docs-like-apps",
+      "savvycal-intelligent-scheduling-links"
     ]
   },
   {
@@ -85,18 +85,18 @@
     "description": "Products and tools to help you feel your best during everyday routines.",
     "emoji": "💪",
     "itemSlugs": [
-      "toggl-track-time-tracker-habit-goal",
-      "btop-rich-terminal-resource-monitor",
-      "commitment-contracts-goal-tracking",
-      "streaks-ios-habit-tracker-design",
-      "way-of-life-good-bad-habit-tracker",
-      "productive-habit-tracker-aesthetic-mobile",
-      "coach-me-habit-tracking-coaching-community",
       "exercism-code-practice-mentorship",
       "clozemaster-language-learning-fill-blanks",
       "curio-interactive-learning-course-builder",
       "mailman-inbox-pause-for-gmail",
-      "kumu-mapping-relationships-systems-visualizer"
+      "kumu-mapping-relationships-systems-visualizer",
+      "wallet-budgetbakers-mobile-expense-tracking",
+      "monarch-money-modern-personal-finance",
+      "timebloc-visual-time-blocking-schedule-planner",
+      "just-command-runner",
+      "reetro-agile-retrospective-meeting-tool",
+      "750-words-daily-free-writing",
+      "git-exercises-learn-interactive"
     ]
   }
 ]
