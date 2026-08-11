@@ -1,19 +1,19 @@
 [
   {
-    "slug": "earth-grid-calculator",
-    "title": "Earth Grid Calculator",
+    "slug": "story-boarder",
+    "title": "StoryBoarder",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Earth Grid Calculator is a web tool that helps users convert between various geographic coordinate systems. It suppo",
+    "description": "StoryBoarder is a free desktop application (available for macOS and Windows) that simplifies the process of creating vis",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "tinygrad",
-    "title": "tinygrad",
+    "slug": "typst-typesetting-system",
+    "title": "Typst",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "tinygrad is a minimalist deep learning framework designed for simplicity and ease of understanding, aiming to be a more ",
+    "description": "Typst is a modern, fast typesetting system designed to be a superior alternative to LaTeX for technical and academic wri",
     "badge": null,
     "type": "tool"
   }

@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Typst</title>
+      <link>https://surfaced-x.pages.dev/item/typst-typesetting-system</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typst-typesetting-system</guid>
+      <description>Typst is a modern, fast typesetting system designed to be a superior alternative to LaTeX for technical and academic writing. It offers a high-level, expressive markup language that is easier to learn and more efficient to use than its predecessors. Typst is free and open-source, with a rapidly growing community. Its key advantage is its speed and simpler syntax, enabling faster iteration for creating beautiful, professional-looking documents like research papers, theses, and books.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6475822/pexels-photo-6475822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6475822/pexels-photo-6475822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6475822/pexels-photo-6475822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Legendarium</title>
+      <link>https://surfaced-x.pages.dev/item/legendarium</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/legendarium</guid>
+      <description>Legendarium is a specialized application focused on helping writers build and manage detailed fictional worlds. It provides structured templates for tracking locations, characters, timelines, magic systems, cultures, and more, ensuring consistency and depth in your worldbuilding. Unlike general note-taking apps, Legendarium is purpose-built for the nuances of speculative fiction and fantasy creation. It offers a freemium model, with basic features available for free and advanced functionalities unlocked via a paid subscription.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Qualia</title>
+      <link>https://surfaced-x.pages.dev/item/qualia</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/qualia</guid>
+      <description>Qualia is a sophisticated writing tool designed to assist authors throughout the entire creative process, from initial ideation to final polish. It leverages AI to help with outlining, character development, plot generation, and even suggests stylistic improvements. Unlike generic AI writing tools, Qualia focuses on long-form narrative and integrates a powerful research and fact-checking engine. The platform operates on a subscription model, offering tiered plans based on usage and features.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6029136/pexels-photo-6029136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6029136/pexels-photo-6029136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6029136/pexels-photo-6029136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Rephraser.ai</title>
+      <link>https://surfaced-x.pages.dev/item/rephraser-ai</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rephraser-ai</guid>
+      <description>Rephraser.ai is an AI-powered text rewriting tool designed to help users rephrase sentences, paragraphs, or entire documents while preserving the original meaning. It offers multiple rewriting styles, from simpler to more complex vocabulary, making it ideal for overcoming writer&apos;s block, improving clarity, or adapting content for different audiences. The service operates on a freemium model, offering a limited number of free rewrites per day and paid plans for unlimited access and advanced features.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>The StoryGraph</title>
+      <link>https://surfaced-x.pages.dev/item/storygraph</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/storygraph</guid>
+      <description>The StoryGraph is a personalized book tracking and recommendation service designed for avid readers. It goes beyond simple logging by analyzing your reading tastes through detailed mood, pace, and character-driven metrics. You can track books you&apos;ve read, books you want to read, and books you&apos;re currently reading, receiving insightful stats and personalized recommendations based on your unique preferences. It offers a freemium model, with core tracking features available for free and advanced analytics and features requiring a subscription.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/38826838/pexels-photo-38826838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/38826838/pexels-photo-38826838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/38826838/pexels-photo-38826838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>tinygrad</title>
       <link>https://surfaced-x.pages.dev/item/tinygrad</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/11882036/pexels-photo-11882036.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>StoryBoarder</title>
+      <link>https://surfaced-x.pages.dev/item/story-boarder</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/story-boarder</guid>
+      <description>StoryBoarder is a free desktop application (available for macOS and Windows) that simplifies the process of creating visual storyboards. Developed by a solo indie developer, it allows users to quickly sketch out scenes, add dialogue and notes, and arrange them into a sequence. It includes basic drawing tools, the ability to import images, and a drag-and-drop interface for easy reordering. This tool is ideal for filmmakers, animators, comic artists, and anyone who needs to plan visual narratives.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/33495060/pexels-photo-33495060.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/33495060/pexels-photo-33495060.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/33495060/pexels-photo-33495060.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>LinguaLift</title>
       <link>https://surfaced-x.pages.dev/item/lingua-lift</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lingua-lift</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/14814047/pexels-photo-14814047.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/14814047/pexels-photo-14814047.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/14814047/pexels-photo-14814047.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Writer&apos;s Evolution</title>
+      <link>https://surfaced-x.pages.dev/item/writer-evolution</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/writer-evolution</guid>
+      <description>Writer&apos;s Evolution is a free, web-based tool designed to help writers visualize and understand the evolution of their work over time. It allows you to upload different versions of your manuscripts or documents and see how they&apos;ve changed, highlighting additions, deletions, and modifications. This is particularly useful for tracking stylistic shifts, plot development, or character arc changes across multiple drafts. The project is maintained by a small team of developers passionate about the writing process.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/9572404/pexels-photo-9572404.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/9572404/pexels-photo-9572404.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/9572404/pexels-photo-9572404.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>ZenithVault</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/37643067/pexels-photo-37643067.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Papyr</title>
+      <link>https://surfaced-x.pages.dev/item/papyr</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/papyr</guid>
+      <description>Papyr is an AI-powered platform designed to streamline the research writing process for academics and students. It helps you summarize long documents, extract key information, generate outlines, and even draft sections of your papers by feeding it your research materials. Developed by a team focused on making academic research more accessible, Papyr aims to reduce the time spent on literature review and initial drafting. For instance, a graduate student could upload a dozen journal articles and ask Papyr to summarize the main findings on a specific topic and highlight any contradictory evidence.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>FlowState</title>
       <link>https://surfaced-x.pages.dev/item/flowstate</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/flowstate</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/5489402/pexels-photo-5489402.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Scroll through all 43,252,000,327,448,985,600,000 Rubik&apos;s Cube states</title>
+      <link>https://surfaced-x.pages.dev/item/everycube-rubiks-cube-states</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/everycube-rubiks-cube-states</guid>
+      <description>This website, EveryCube, allows users to explore every single possible permutation of a standard 3x3x3 Rubik&apos;s Cube. It presents a dynamic interface where you can manipulate a virtual Rubik&apos;s Cube and see its state represented as a unique identifier among the 43 quintillion possibilities. It&apos;s a fascinating demonstration of computational complexity and combinatorics, built by an enthusiast for those curious about the sheer scale of the Rubik&apos;s Cube puzzle. You can input a specific cube state or simply scroll through them randomly.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1668000930353-7afcf10b28b3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY0NDg0NzN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1668000930353-7afcf10b28b3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY0NDg0NzN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1668000930353-7afcf10b28b3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY0NDg0NzN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>NutriScan</title>
       <link>https://surfaced-x.pages.dev/item/nutri-scan</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nutri-scan</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/16134583/pexels-photo-16134583.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/16134583/pexels-photo-16134583.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/16134583/pexels-photo-16134583.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>H3-metal – Native MiniMax-H3 inference for Apple Silicon</title>
+      <link>https://surfaced-x.pages.dev/item/h3-metal-native-minimax-h3-inference</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/h3-metal-native-minimax-h3-inference</guid>
+      <description>H3-metal is a specialized C implementation of the H3 geospatial indexing system engineered for optimal performance on Apple Silicon (M-series chips). It facilitates the native and exceptionally rapid computation of H3 indexes, empowering efficient spatial querying and analysis directly on macOS devices. This native approach bypasses the need for more resource-intensive frameworks or external cloud services, making it suitable for applications requiring on-device processing of location-based data.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/413279/pexels-photo-413279.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/413279/pexels-photo-413279.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/413279/pexels-photo-413279.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>DeepHarmony</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/267391/pexels-photo-267391.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/267391/pexels-photo-267391.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/267391/pexels-photo-267391.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Clerk</title>
-      <link>https://surfaced-x.pages.dev/item/clerk-auth</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/clerk-auth</guid>
-      <description>Clerk is a comprehensive authentication and user management solution engineered for modern frontend development. It delivers a suite of pre-built, customizable UI components alongside a powerful API, streamlining the implementation of essential user workflows. This includes secure user sign-up and sign-in processes, robust profile management capabilities, and advanced features like multi-factor authentication. Clerk&apos;s core objective is to abstract away the intricate and often challenging aspects of building secure and user-friendly authentication systems, empowering developers to dedicate more resources to their application&apos;s core functionality and unique features.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/843229/pexels-photo-843229.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/843229/pexels-photo-843229.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/843229/pexels-photo-843229.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Empower Financial Literacy</title>
-      <link>https://surfaced-x.pages.dev/item/empower-financial-literacy</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/empower-financial-literacy</guid>
-      <description>Empower Financial Literacy is an online platform dedicated to providing accessible and comprehensive financial education for individuals of all ages and backgrounds. It offers a structured curriculum covering topics from budgeting and saving to investing and retirement planning. The platform utilizes a freemium model, providing a robust selection of free introductory courses and resources, with paid subscriptions unlocking advanced modules, personalized coaching, and in-depth workshops. It excels at breaking down complex financial concepts into digestible, actionable steps.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/12198531/pexels-photo-12198531.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/12198531/pexels-photo-12198531.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/12198531/pexels-photo-12198531.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Sourcegraph</title>
-      <link>https://surfaced-x.pages.dev/item/sourcegraph-code-search</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sourcegraph-code-search</guid>
-      <description>Sourcegraph is a powerful, universal code search and navigation tool designed for large codebases. It indexes all of your code, whether it&apos;s on GitHub, GitLab, Bitbucket, or even on-premises. This allows developers to quickly find specific functions, variables, or definitions across multiple repositories and languages. It also offers features like code intelligence, which provides context-aware autocompletion and cross-references.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/g9a095e4a59ca40db6dac2eeb1d7daa80873f767ea3c5d6fe3b90daa378a8c29ab5a441f37b39c1a4c1794abbd954b01113a7c7891bf2ffc11be69a53d281de33_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/g9a095e4a59ca40db6dac2eeb1d7daa80873f767ea3c5d6fe3b90daa378a8c29ab5a441f37b39c1a4c1794abbd954b01113a7c7891bf2ffc11be69a53d281de33_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/g9a095e4a59ca40db6dac2eeb1d7daa80873f767ea3c5d6fe3b90daa378a8c29ab5a441f37b39c1a4c1794abbd954b01113a7c7891bf2ffc11be69a53d281de33_1280.jpg" />
-    </item>
-    <item>
-      <title>VaultChecker</title>
-      <link>https://surfaced-x.pages.dev/item/vault-checker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vault-checker</guid>
-      <description>VaultChecker is a comprehensive security tool designed to help individuals manage and strengthen their online passwords. It goes beyond a simple password manager by actively scanning the dark web for breaches that may have exposed your credentials and alerting you immediately. VaultChecker also analyzes your existing passwords, identifying weak, reused, or outdated ones and providing clear recommendations for improvement. The service offers a free basic scan and alerts, with a premium subscription unlocking continuous monitoring, advanced security reports, and enhanced protection features. Its unique value lies in its proactive breach detection, offering an early warning system for compromised accounts.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/22817377/pexels-photo-22817377.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/22817377/pexels-photo-22817377.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/22817377/pexels-photo-22817377.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Maple-Preview</title>
-      <link>https://surfaced-x.pages.dev/item/maple-preview</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/maple-preview</guid>
-      <description>Maple-Preview is a demonstration of a Ternary Mixture of Experts (MoE) large language model, called Maple-MoE, capable of running efficiently on a consumer-grade iPhone. It achieves a remarkable inference speed of 120 tokens per second, showcasing the potential for powerful AI models to operate directly on mobile devices without relying on cloud processing. This tool allows users to interact with a capable LLM on their phone, experiencing its generation capabilities firsthand. It serves as a proof-of-concept for on-device AI processing and its accessibility to everyday users.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/30479287/pexels-photo-30479287.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/30479287/pexels-photo-30479287.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/30479287/pexels-photo-30479287.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Fund Explorers</title>
-      <link>https://surfaced-x.pages.dev/item/fund-explorers</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fund-explorers</guid>
-      <description>Fund Explorers is a specialized online platform focused on providing in-depth, unbiased research and analysis of mutual funds. It aggregates a vast amount of data, including historical performance, expense ratios, fund manager track records, and holdings, presenting it in an intuitive dashboard. The tool&apos;s unique strength lies in its proprietary scoring system that evaluates funds based on a comprehensive set of qualitative and quantitative metrics, helping users identify top-performing and undervalued funds. Fund Explorers is primarily a subscription-based service, though some basic fund information is available for free.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7873560/pexels-photo-7873560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7873560/pexels-photo-7873560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7873560/pexels-photo-7873560.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Docker Sandboxes</title>
-      <link>https://surfaced-x.pages.dev/item/docker-sandboxes</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/docker-sandboxes</guid>
-      <description>Docker Sandboxes provide disposable, isolated environments specifically designed for running AI agents. This tool allows developers and researchers to experiment with AI models and agents without the risk of polluting their host system or interfering with other processes. Each sandbox is a clean slate, ensuring reproducibility and preventing dependency conflicts. For example, a machine learning engineer could use a sandbox to test a new reinforcement learning agent that requires specific library versions and system configurations, knowing that any issues or dependencies will be confined to that temporary environment.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4440987/pexels-photo-4440987.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4440987/pexels-photo-4440987.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4440987/pexels-photo-4440987.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>AllocateSmart</title>
-      <link>https://surfaced-x.pages.dev/item/allocatesmart</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/allocatesmart</guid>
-      <description>AllocateSmart is a web-based application that assists individual investors in optimizing their investment portfolios based on modern portfolio theory principles. It allows users to input their investment goals, risk tolerance, and available assets to generate diversified portfolio allocations designed to maximize expected returns for a given level of risk. The platform also offers scenario analysis to visualize potential outcomes under different market conditions. AllocateSmart operates on a freemium model, offering basic portfolio generation for free with advanced analytics and historical data access available through a paid subscription.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5789907/pexels-photo-5789907.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5789907/pexels-photo-5789907.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5789907/pexels-photo-5789907.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Deep Dream Generator</title>
-      <link>https://surfaced-x.pages.dev/item/text-to-image-ai-art</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/text-to-image-ai-art</guid>
-      <description>Deep Dream Generator is an online platform that leverages artificial intelligence to transform ordinary images into extraordinary works of art. It offers several distinct AI models, including &apos;Deep Style,&apos; which applies the artistic style of one image to the content of another, and &apos;Deep Dream,&apos; which enhances latent patterns in images to create surreal, dreamlike visuals. Users can upload their photos or create new art from text prompts, experimenting with various artistic filters and styles. The platform is accessible to artists, designers, and hobbyists looking to explore new creative avenues or generate unique visual content.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/10109585/pexels-photo-10109585.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/10109585/pexels-photo-10109585.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/10109585/pexels-photo-10109585.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>turbo-fieldfare</title>
-      <link>https://surfaced-x.pages.dev/item/turbo-fieldfare</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/turbo-fieldfare</guid>
-      <description>turbo-fieldfare is a Swift-based application designed for efficient inference of large language models (LLMs), specifically targeting the Gemma 4 26B-A4B model. Its primary value proposition is enabling this powerful AI model to run on Apple Silicon Macs with as little as 2GB of RAM, making advanced LLM capabilities accessible without requiring high-end hardware. This opens up possibilities for local, private AI processing and experimentation. It is free and open-source, with its core strength lying in its optimized memory management for LLM execution.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5475750/pexels-photo-5475750.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
