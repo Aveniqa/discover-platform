@@ -1,19 +1,19 @@
 [
   {
-    "slug": "story-boarder",
-    "title": "StoryBoarder",
+    "slug": "federal-tax-data-system",
+    "title": "Federal Tax Data System",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "StoryBoarder is a free desktop application (available for macOS and Windows) that simplifies the process of creating vis",
+    "description": "The Federal Tax Data System (FTDS) provides access to anonymized individual and corporate tax data compiled by the Inter",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "typst-typesetting-system",
-    "title": "Typst",
+    "slug": "firefly-personal-finance",
+    "title": "Firefly III",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Typst is a modern, fast typesetting system designed to be a superior alternative to LaTeX for technical and academic wri",
+    "description": "Firefly III is a free and open-source personal finance manager that allows you to track your income, expenses, and asset",
     "badge": null,
     "type": "tool"
   }

@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "freetube-privacy-focused-youtube-client",
-      "vscodium-open-source-code-editor",
-      "jitsi-meet-open-source-video-conferencing",
-      "session-buddy-tab-manager",
-      "link-to-text-fragment",
-      "mate-translate-language-translator",
-      "limnu-collaborative-online-whiteboard",
-      "linear-fast-issue-tracking",
       "coda-docs-like-apps",
       "savvycal-intelligent-scheduling-links",
       "exercism-code-practice-mentorship",
-      "clozemaster-language-learning-fill-blanks"
+      "clozemaster-language-learning-fill-blanks",
+      "remnote-spaced-repetition-knowledge-base",
+      "p5js-web-editor-creative-coding-environment",
+      "learn-anything-mind-maps-learning-paths",
+      "desmos-classroom-activities-interactive-math",
+      "hindenburg-journalist-pro-podcast-daw",
+      "sonic-pi-live-coding-music-synth",
+      "soundtrap-online-collaborative-music-studio",
+      "sanebox-smart-email-filtering"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "freetube-privacy-focused-youtube-client",
-      "vscodium-open-source-code-editor",
-      "jitsi-meet-open-source-video-conferencing",
-      "session-buddy-tab-manager",
-      "link-to-text-fragment",
-      "mate-translate-language-translator",
-      "visbug-web-design-debug",
-      "limnu-collaborative-online-whiteboard",
-      "linear-fast-issue-tracking",
-      "yac-asynchronous-voice-video-messages",
       "coda-docs-like-apps",
-      "savvycal-intelligent-scheduling-links"
+      "savvycal-intelligent-scheduling-links",
+      "exercism-code-practice-mentorship",
+      "clozemaster-language-learning-fill-blanks",
+      "remnote-spaced-repetition-knowledge-base",
+      "p5js-web-editor-creative-coding-environment",
+      "learn-anything-mind-maps-learning-paths",
+      "project-euler-math-programming-problem-solving",
+      "curio-interactive-learning-course-builder",
+      "desmos-classroom-activities-interactive-math",
+      "hindenburg-journalist-pro-podcast-daw",
+      "sonic-pi-live-coding-music-synth"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "freetube-privacy-focused-youtube-client",
-      "vscodium-open-source-code-editor",
-      "jitsi-meet-open-source-video-conferencing",
-      "session-buddy-tab-manager",
-      "link-to-text-fragment",
-      "mate-translate-language-translator",
-      "visbug-web-design-debug",
-      "limnu-collaborative-online-whiteboard",
-      "linear-fast-issue-tracking",
-      "yac-asynchronous-voice-video-messages",
       "coda-docs-like-apps",
-      "savvycal-intelligent-scheduling-links"
+      "savvycal-intelligent-scheduling-links",
+      "exercism-code-practice-mentorship",
+      "clozemaster-language-learning-fill-blanks",
+      "remnote-spaced-repetition-knowledge-base",
+      "p5js-web-editor-creative-coding-environment",
+      "learn-anything-mind-maps-learning-paths",
+      "project-euler-math-programming-problem-solving",
+      "curio-interactive-learning-course-builder",
+      "desmos-classroom-activities-interactive-math",
+      "hindenburg-journalist-pro-podcast-daw",
+      "sonic-pi-live-coding-music-synth"
     ]
   },
   {
