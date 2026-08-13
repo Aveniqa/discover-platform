@@ -1,70 +1,5 @@
 [
   {
-    "id": 601,
-    "slug": "2fas-authenticator-open-source-2fa",
-    "toolName": "2FAS Authenticator",
-    "whatItDoes": "2FAS Authenticator is a free, open-source two-factor authentication (2FA) app developed by 2FAS, providing secure and easy-to-use time-based one-time passwords (TOTP) and HMAC-based one-time passwords (HOTP) for online accounts. The primary workflow involves scanning a QR code from a service (like Google, Facebook, or GitHub) to add it to the app, which then generates new codes every 30 seconds for secure login. It is available on iOS and Android devices, with extensions for Chrome, Firefox, and Edge for desktop access. Its most used feature is the seamless one-tap copying of generated codes, making login quick and efficient. The app offers optional encrypted cloud backup and synchronization across devices, giving users flexibility while maintaining security.",
-    "category": "Productivity",
-    "whyItIsUseful": "2FAS Authenticator eliminates the vulnerability of relying solely on passwords, significantly enhancing the security of all online accounts against phishing and credential stuffing attacks. For an individual managing numerous online services, it consolidates all 2FA codes into one organized place, simplifying the login process while adding a critical security layer. A remote worker can ensure secure access to company resources like VPNs or internal applications by using 2FAS Authenticator as a reliable second factor. The app is entirely free, offering unlimited tokens and cloud backup without any premium features or subscriptions, making it an excellent budget-friendly choice. It stands out from competitors like Google Authenticator by offering optional cloud sync and a more modern, user-friendly interface, alongside being open-source for transparency. A power feature is its ability to transfer tokens between devices via QR code, simplifying migration for advanced users. A non-technical person can easily set up their first 2FA token by scanning a QR code in well under 5 minutes.",
-    "imageIdea": "Screenshot of 2FAS Authenticator app on a phone, displaying multiple TOTP codes.",
-    "websiteLink": "https://2fas.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/2fas-authenticator-open-source-2fa.webp"
-  },
-  {
-    "id": 602,
-    "slug": "strongbox-keepass-apple-password-manager",
-    "toolName": "Strongbox",
-    "whatItDoes": "Strongbox is a secure password manager for Apple devices, developed by strongbox-password-manager.com, which is fully compatible with the KeePass and KeePassXC database formats. It enables users to store all their passwords, secure notes, and files in an encrypted vault, leveraging native iOS and macOS security features like Face ID and Touch ID. Strongbox is available exclusively on iOS, iPadOS, and macOS, providing a deeply integrated experience within the Apple ecosystem. The most used feature is its robust auto-fill functionality, which seamlessly integrates with Safari and other apps for quick credential entry. Data is stored locally or synchronized via various cloud providers (iCloud, Dropbox, Google Drive) using end-to-end encryption, ensuring privacy even with cloud storage.",
-    "category": "Productivity",
-    "whyItIsUseful": "Strongbox eliminates the risk of using weak, duplicate passwords by providing a secure, local-first solution specifically tailored for Apple users. For a busy professional deeply embedded in the Apple ecosystem, it offers the convenience of Face ID/Touch ID access to their password vault, making security effortless and fast. A privacy-conscious individual can appreciate its open-source KeePass compatibility, allowing them to own and control their encrypted data file entirely. Strongbox offers a free tier with core features like unlimited entries and basic syncing, while a premium subscription unlocks advanced features like biometric unlock, multiple database support, and iCloud sync. Compared to general password managers, Strongbox's native Apple integration and KeePass compatibility give it an edge for users who prioritize platform-specific optimization and data control. Its power feature, advanced SSH Key and WebDAV sync, allows tech-savvy users to integrate it with their secure infrastructure. Setting up Strongbox and importing a KeePass database can be done by a non-technical person in under 5 minutes, especially with guided setup.",
-    "imageIdea": "Strongbox app interface on an iPhone, showing a list of logins with Face ID prompt.",
-    "websiteLink": "https://strongboxsafe.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/strongbox-keepass-apple-password-manager.webp"
-  },
-  {
-    "id": 603,
-    "slug": "password-pusher-secure-one-time-sharing",
-    "toolName": "Password Pusher",
-    "whatItDoes": "Password Pusher is a free, open-source web service created by Peter Dunkley, designed to securely share sensitive information like passwords or API keys that self-destruct after a specified time or number of views. Its core workflow involves users generating a unique, temporary URL containing the sensitive data, which is then shared with the recipient, who can view it once before it's permanently deleted. Password Pusher is a web-based tool, accessible from any browser on any device, requiring no installation. The most used feature is the ability to set an expiration time and view limit, ensuring data exposure is strictly controlled. All data is encrypted at rest and is automatically purged from the server after its set expiration, emphasizing ephemeral and secure sharing.",
-    "category": "Communication",
-    "whyItIsUseful": "Password Pusher eliminates the dangerous practice of sharing passwords via insecure channels like email, chat, or sticky notes, preventing credentials from lingering unnecessarily. For a freelancer needing to grant temporary access to a client for a specific service, it offers a secure, audited method without the risk of long-term exposure. An IT administrator can use it to securely provision initial passwords or temporary access tokens to new employees or contractors, ensuring they expire automatically. The service is completely free to use, without any hidden costs or feature limitations, making it accessible for everyone. Unlike generic file-sharing services, Password Pusher is purpose-built for ephemeral credential sharing, with self-destruction as a core, non-negotiable feature. Its power feature, the API, allows developers to integrate secure, temporary password sharing directly into their applications or scripts for automated provisioning. A non-technical person can generate and share a secure link in less than 30 seconds, making it incredibly easy to use.",
-    "imageIdea": "Password Pusher web interface with fields for password, expiration, and view limit, showing a generated secure link.",
-    "websiteLink": "https://pwpush.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/password-pusher-secure-one-time-sharing.webp"
-  },
-  {
-    "id": 605,
-    "slug": "simplelogin-email-alias-service",
-    "toolName": "SimpleLogin",
-    "whatItDoes": "SimpleLogin is an open-source email alias service created by the SimpleLogin team, allowing users to create unique, anonymous email addresses to protect their real inbox from spam, tracking, and data breaches. Its primary workflow involves generating a new alias for every website or service signup, with incoming emails to the alias being forwarded to the user's real email address. SimpleLogin is available as a web application, browser extension for Chrome, Firefox, Edge, and Safari, and mobile apps for iOS and Android. The most used feature is its seamless creation of new aliases directly from the browser extension when signing up for a new service. All email forwarding is end-to-end encrypted, and users can reply from their aliases, with SimpleLogin never storing email content or tracking user activity.",
-    "category": "Communication",
-    "whyItIsUseful": "SimpleLogin eliminates the problem of email address exposure, preventing spam, phishing, and the selling of personal data by third parties. For a job seeker, it can generate unique aliases for each application, allowing them to track which companies might share their data or send unsolicited emails. A social media user can protect their primary email from public exposure or unwanted messages by using an alias for profile sign-ups. SimpleLogin offers a generous free tier with 10 aliases and unlimited bandwidth, which is genuinely useful for personal use, while premium plans unlock unlimited aliases, custom domains, and more. It stands out from similar alias services by being fully open-source, providing complete transparency and auditability, which is crucial for a privacy tool. A power feature is its ability to create reverse-aliases, allowing users to send emails from their aliases, making communication completely anonymous and secure for advanced users. A non-technical person can set up SimpleLogin and create their first alias in under 5 minutes.",
-    "imageIdea": "SimpleLogin dashboard showing a list of email aliases, their forwarding status, and a button to create a new alias.",
-    "websiteLink": "https://simplelogin.io/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/simplelogin-email-alias-service.webp"
-  },
-  {
-    "id": 606,
-    "slug": "cryptomator-encrypt-cloud-folders",
-    "toolName": "Cryptomator",
-    "whatItDoes": "Cryptomator is a free, open-source software developed by Skymatic that provides transparent, client-side encryption for cloud storage, allowing users to encrypt files before uploading them to services like Dropbox or Google Drive. Its core workflow involves creating encrypted \"vaults\" locally on your device, which then synchronize seamlessly with your chosen cloud provider as regular files, making them unreadable to anyone without the decryption key. Cryptomator is available for Windows, macOS, Linux, iOS, and Android, ensuring cross-platform access to your encrypted data. The most used feature is its \"virtual drive\" integration, which makes encrypted vaults appear as regular folders, simplifying file management. All encryption happens locally on your device, with no registration or cloud connection required, ensuring zero-knowledge security and maximum privacy.",
-    "category": "Developer",
-    "whyItIsUseful": "Cryptomator eliminates the privacy risk associated with storing sensitive files on public cloud services, ensuring that even if your cloud account is compromised, your data remains secure. For a remote worker handling confidential documents, it provides an easy way to store work files in Dropbox or Google Drive while meeting strict data protection requirements. A student can encrypt their research papers or personal financial documents before uploading them to iCloud, protecting them from unauthorized access. Cryptomator is entirely free and open-source, offering full functionality without any paywalls or limitations, making it accessible to everyone seeking robust encryption. Unlike cloud-provider-specific encryption, Cryptomator is vendor-agnostic, allowing users to encrypt files for any cloud service, providing greater flexibility and avoiding vendor lock-in. Its power feature, hidden master key support, allows advanced users to utilize hardware security keys for unlocking vaults, adding an extra layer of physical security. A non-technical person can download, install, and create their first encrypted vault in less than 5 minutes, guided by a simple interface.",
-    "imageIdea": "Cryptomator desktop application interface showing a list of encrypted vaults and options to open/lock them.",
-    "websiteLink": "https://cryptomator.org/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/cryptomator-encrypt-cloud-folders.webp"
-  },
-  {
     "id": 607,
     "slug": "privacy-com-virtual-payment-cards",
     "toolName": "Privacy.com",
@@ -5204,7 +5139,8 @@
     "imageIdea": "online worldbuilding wiki",
     "websiteLink": "https://www.worldanvil.com/",
     "type": "tool",
-    "dateAdded": "2026-08-01"
+    "dateAdded": "2026-08-01",
+    "screenshotUrl": "/screenshots/worldanvil-worldbuilding-platform.webp"
   },
   {
     "id": 1006,
@@ -5955,5 +5891,71 @@
     "type": "tool",
     "dateAdded": "2026-08-12",
     "screenshotUrl": "/screenshots/firefly-personal-finance.webp"
+  },
+  {
+    "id": 1061,
+    "slug": "daily-tool-bento",
+    "toolName": "bento",
+    "seoTitle": "Bento — Office suite in a file",
+    "whatItDoes": "Bento is a novel approach to the traditional office suite, aiming to condense all essential productivity tools into a single, manageable file. This concept allows for unprecedented portability and a streamlined user experience, eliminating the need to manage multiple applications. It is currently in active development with a strong open-source community. Bento focuses on providing core functionalities for document creation, organization, and collaboration within its single-file architecture.",
+    "category": "Productivity",
+    "whyItIsUseful": "Bento offers a unique solution for users who crave simplicity and ultimate portability in their digital workspace. By packaging an entire suite of office tools into a single file, it dramatically simplifies backup, sharing, and synchronization processes. Imagine carrying your entire work environment on a USB drive or easily sharing it with a colleague without worrying about compatibility issues or multiple installations. Its open-source nature fosters rapid development and community-driven improvements, promising a robust and adaptable tool. This is particularly beneficial for individuals who work across various devices or in environments with limited internet access, ensuring that their productivity is not hindered by technological barriers. The vision of a self-contained, all-in-one office solution makes Bento a compelling proposition for anyone seeking to declutter their digital life.",
+    "imageIdea": "single file document productivity suite",
+    "websiteLink": "https://github.com/nyblnet/bento",
+    "type": "tool",
+    "dateAdded": "2026-08-13",
+    "screenshotUrl": "/screenshots/daily-tool-bento.webp"
+  },
+  {
+    "id": 1062,
+    "slug": "omnipaste-app",
+    "toolName": "Omnipaste",
+    "seoTitle": "Omnipaste — Seamless Clipboard Sharing",
+    "whatItDoes": "Omnipaste is a cross-platform clipboard manager that allows you to seamlessly share copied text and files between your devices (Windows, macOS, iOS, and Android). It operates in the background, syncing your clipboard content automatically via a cloud service. The tool is freemium, with a generous free tier for basic text syncing and a paid version unlocking larger file transfers, history, and advanced filtering. Omnipaste is exceptional at making the simple act of copying and pasting feel truly universal, eliminating the need for email, messaging apps, or cloud storage just to move a piece of information.",
+    "category": "Productivity",
+    "whyItIsUseful": "This tool fundamentally streamlines workflows for anyone who uses multiple devices throughout the day. Imagine copying a long URL on your phone and instantly having it available to paste on your laptop, or grabbing a code snippet on your desktop and needing it on your tablet. Omnipaste eliminates these friction points entirely, saving precious minutes and reducing cognitive load. Its ability to sync large files (in the paid version) is a significant advantage over simpler text-only solutions. Many power users report that Omnipaste becomes an indispensable part of their daily routine, feeling like a natural extension of their computing environment. It's a game-changer for researchers, writers, developers, and anyone engaged in content creation or multi-device multitasking.",
+    "imageIdea": "clipboard icon syncing between phone and laptop",
+    "websiteLink": "https://omnipaste.app/",
+    "type": "tool",
+    "dateAdded": "2026-08-13"
+  },
+  {
+    "id": 1063,
+    "slug": "nutri-notebook-app",
+    "toolName": "Nutri-Notebook",
+    "seoTitle": "Nutri-Notebook — Food & Mood Tracker",
+    "whatItDoes": "Nutri-Notebook is a mobile application designed to help users track their food intake, mood, and physical symptoms, with a specific focus on understanding the connection between diet and well-being. It allows for detailed logging of meals, including ingredients and preparation methods, alongside daily mood ratings and symptom descriptions. The app is free to use, with optional in-app purchases for advanced reporting features. Its unique strength lies in its intuitive interface for correlating dietary choices with emotional and physical states, making it a powerful tool for identifying food sensitivities or triggers for conditions like IBS or migraines.",
+    "category": "Health",
+    "whyItIsUseful": "For individuals struggling with unexplained digestive issues, mood swings, or fatigue, Nutri-Notebook offers a path to potential answers. By meticulously recording what is eaten and how one feels afterward, users can begin to spot patterns that might be invisible otherwise. This detailed journaling empowers them to have more informed conversations with healthcare providers or dietitians. The app's design prioritizes ease of use, ensuring that logging doesn't become a burdensome chore. It’s particularly beneficial for those on elimination diets or exploring potential allergens. Users often report discovering key insights into their personal health triggers that significantly improve their quality of life, making it a vital tool for self-discovery and management of diet-related health concerns.",
+    "imageIdea": "food diary journal open on a table",
+    "websiteLink": "https://nutri-notebook.com/",
+    "type": "tool",
+    "dateAdded": "2026-08-13"
+  },
+  {
+    "id": 1064,
+    "slug": "focus-flow-app",
+    "toolName": "Focus Flow",
+    "seoTitle": "Focus Flow — Deep Work Timer",
+    "whatItDoes": "Focus Flow is a minimalist desktop application designed to help users enter and maintain states of deep work by managing distractions and structuring work sessions. It incorporates a customizable Pomodoro-style timer, combined with website and application blocking capabilities. Users can define 'focus sessions' and 'break sessions,' during which specified distracting applications or websites are inaccessible. The app is free for personal use, with a paid pro version offering more advanced analytics and team features. Focus Flow's value is in its disciplined approach to task management, making it exceptionally effective at preventing digital interruptions during critical thinking periods.",
+    "category": "Productivity",
+    "whyItIsUseful": "In an era of constant digital noise, Focus Flow provides a sanctuary for concentration. Its ability to block distracting sites and apps is far more robust and configurable than typical browser extensions, creating a truly distraction-free environment. This is crucial for knowledge workers, students, writers, and anyone whose work demands sustained mental effort. The structured timer encourages regular breaks, preventing burnout and maintaining cognitive stamina. Users often praise its simple, uncluttered interface which doesn't add to the cognitive load. By enforcing dedicated periods of uninterrupted work, Focus Flow not only boosts output but also improves the quality of work produced, leading to greater satisfaction and efficiency.",
+    "imageIdea": "desktop computer screen with timer app",
+    "websiteLink": "https://focusflow.org/",
+    "type": "tool",
+    "dateAdded": "2026-08-13"
+  },
+  {
+    "id": 1065,
+    "slug": "menstrual-cycle-tracker-pro",
+    "toolName": "Menstrual Cycle Tracker Pro",
+    "seoTitle": "Menstrual Cycle Tracker Pro — Period Health",
+    "whatItDoes": "Menstrual Cycle Tracker Pro is a sophisticated mobile application dedicated to tracking menstrual cycles, ovulation, and fertility windows with a high degree of accuracy. It allows users to log periods, symptoms, mood changes, sexual activity, and notes, using this data to predict future cycles and fertile days. The app offers a freemium model, providing core tracking for free, with a premium subscription unlocking advanced insights, personalized tips, and enhanced privacy features. Its strength lies in its adaptive learning algorithm, which refines predictions based on user-specific data over time, making it highly personalized.",
+    "category": "Health",
+    "whyItIsUseful": "Understanding one's menstrual cycle is fundamental to reproductive health, fertility planning, and managing conditions like PCOS or endometriosis. This app provides women with a clear, data-driven overview of their cycle, transforming it from a mysterious monthly event into a predictable pattern. The ability to track symptoms alongside cycle phases can reveal important correlations, helping users anticipate and manage PMS, mood shifts, or energy fluctuations. For those trying to conceive or avoid pregnancy, the accurate prediction of ovulation is invaluable. The app’s user-friendly interface and comprehensive data logging make it a discreet yet powerful tool for women to take an active role in managing their gynecological health and understanding their bodies better.",
+    "imageIdea": "smartphone displaying menstrual cycle calendar",
+    "websiteLink": "https://www.menstrual-cycle-tracker.com/",
+    "type": "tool",
+    "dateAdded": "2026-08-13"
   }
 ]
