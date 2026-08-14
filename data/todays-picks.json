@@ -1,19 +1,19 @@
 [
   {
-    "slug": "flowstate-ai-coding-assistant",
-    "title": "Flowstate AI Coding Assistant",
+    "slug": "computational-linguistics-data-analyzer",
+    "title": "Corpus of Contemporary American English (COCA)",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Flowstate AI Coding Assistant is a web-based tool that provides context-aware code suggestions and explanations, going b",
+    "description": "The Corpus of Contemporary American English (COCA) is a massive, balanced corpus of American English text representing a",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "menstrual-cycle-tracker-pro",
-    "title": "Menstrual Cycle Tracker Pro",
+    "slug": "scidraw-3d-creator",
+    "title": "SciDraw 3D Creator",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Menstrual Cycle Tracker Pro is a sophisticated mobile application dedicated to tracking menstrual cycles, ovulation, and",
+    "description": "SciDraw 3D Creator is a powerful, yet accessible, software application designed to generate high-quality 3D scientific v",
     "badge": null,
     "type": "tool"
   }

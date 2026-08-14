@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SciDraw 3D Creator</title>
+      <link>https://surfaced-x.pages.dev/item/scidraw-3d-creator</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/scidraw-3d-creator</guid>
+      <description>SciDraw 3D Creator is a powerful, yet accessible, software application designed to generate high-quality 3D scientific visualizations and illustrations. It caters specifically to researchers, educators, and science communicators who need to present complex concepts visually. The software offers a range of tools for building molecules, cellular structures, anatomical models, and abstract scientific phenomena. It operates on a freemium model, with basic functionalities available for free and advanced features requiring a subscription, making it a versatile option for a wide range of users.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gaec1f63372a758e71ae1184fd5a63b8faec3f7e8e5653a6c02179771284c5563b94ae20102e2b6147ca9669364371375868be16f06a9131c425c912a1c4d5bf9_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gaec1f63372a758e71ae1184fd5a63b8faec3f7e8e5653a6c02179771284c5563b94ae20102e2b6147ca9669364371375868be16f06a9131c425c912a1c4d5bf9_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gaec1f63372a758e71ae1184fd5a63b8faec3f7e8e5653a6c02179771284c5563b94ae20102e2b6147ca9669364371375868be16f06a9131c425c912a1c4d5bf9_1280.jpg" />
+    </item>
+    <item>
+      <title>Zotero</title>
+      <link>https://surfaced-x.pages.dev/item/zotero-reference-manager</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zotero-reference-manager</guid>
+      <description>Zotero is a free, open-source reference management software designed to help researchers, academics, and students collect, organize, cite, and share their research sources. It functions as a personal research assistant, allowing users to save citations and full-text articles directly from the web with a single click, as well as import items from various databases and other programs. Zotero integrates seamlessly with word processors like Microsoft Word, LibreOffice, and Google Docs to automatically generate bibliographies and in-text citations in a vast array of styles. The core software is completely free, with optional paid services for increased online storage and group syncing.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Fuzzy AI</title>
+      <link>https://surfaced-x.pages.dev/item/fuzzy-ai</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fuzzy-ai</guid>
+      <description>Fuzzy AI is a sales and marketing tool designed to combat the low engagement rates of traditional cold outreach. It focuses on pre-warming prospects by identifying individuals actively engaging within your target market. By surfacing these engaged individuals and helping you stay visible through their content interactions, Fuzzy AI aims to make your eventual outreach more impactful and less likely to be ignored. The platform typically operates on a freemium or paid subscription model, offering tiered access to its features.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7947753/pexels-photo-7947753.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7947753/pexels-photo-7947753.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7947753/pexels-photo-7947753.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>watermarks-remover</title>
+      <link>https://surfaced-x.pages.dev/item/watermarks-remover</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/watermarks-remover</guid>
+      <description>Watermarks Remover is a powerful Python-based tool designed to strip various forms of AI-generated content provenance marks from digital files. This includes handling Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata embedded within common file formats like PNG, JPEG, SVG, PDF, DOCX, and HTML. The tool aims to provide a way to clean up digital assets, potentially for ethical reasons or to prepare files for specific use cases where provenance tracking is not desired or is problematic. It operates on a free and open-source basis, making its capabilities accessible to a wide range of users.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5387266/pexels-photo-5387266.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5387266/pexels-photo-5387266.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5387266/pexels-photo-5387266.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>deepseek-harness</title>
+      <link>https://surfaced-x.pages.dev/item/deepseek-harness</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepseek-harness</guid>
+      <description>DeepSeek Harness is an open-source framework designed for developing and integrating AI models, particularly focusing on a plugin architecture where &apos;everything is a plugin.&apos; It streamlines the process of building and experimenting with AI applications by providing a modular and extensible foundation. This allows developers to easily swap out components, add new functionalities, and manage dependencies efficiently. The framework is built using TypeScript, making it robust and well-suited for modern web development environments. It operates on a free and open-source model, empowering the community to contribute and benefit.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/ge74ac210be65291178d6959e6cbc6309cc449448e6726f3ea2802a80ae513921e720f7a8bc62d4f2251767d7dab8232593a208dbb031176d9aa965f3695fcc91_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/ge74ac210be65291178d6959e6cbc6309cc449448e6726f3ea2802a80ae513921e720f7a8bc62d4f2251767d7dab8232593a208dbb031176d9aa965f3695fcc91_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/ge74ac210be65291178d6959e6cbc6309cc449448e6726f3ea2802a80ae513921e720f7a8bc62d4f2251767d7dab8232593a208dbb031176d9aa965f3695fcc91_1280.jpg" />
+    </item>
     <item>
       <title>Menstrual Cycle Tracker Pro</title>
       <link>https://surfaced-x.pages.dev/item/menstrual-cycle-tracker-pro</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/25112143/pexels-photo-25112143.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Corpus of Contemporary American English (COCA)</title>
+      <link>https://surfaced-x.pages.dev/item/computational-linguistics-data-analyzer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/computational-linguistics-data-analyzer</guid>
+      <description>The Corpus of Contemporary American English (COCA) is a massive, balanced corpus of American English text representing approximately 520 million words from a wide variety of genres, including spoken, fiction, popular magazines, newspapers, and academic sources. It allows users to analyze word frequencies, collocations, and grammatical patterns over time, providing deep insights into language usage. Researchers and educators can query the corpus to understand linguistic trends and the evolution of the English language.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/23021420/pexels-photo-23021420.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/23021420/pexels-photo-23021420.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/23021420/pexels-photo-23021420.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Arch Linux Wiki</title>
       <link>https://surfaced-x.pages.dev/item/arch-linux-wiki</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/arch-linux-wiki</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/273034/pexels-photo-273034.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/273034/pexels-photo-273034.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/273034/pexels-photo-273034.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Hedy Programming Language</title>
+      <link>https://surfaced-x.pages.dev/item/interactive-programming-language-explorer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/interactive-programming-language-explorer</guid>
+      <description>Hedy is a beginner-friendly programming language designed to teach programming concepts gradually, starting with very simple commands and progressively introducing more complex syntax. It bridges the gap between human language and traditional programming languages like Python, making it an ideal first step for aspiring coders, particularly younger learners. Hedy focuses on building foundational understanding without overwhelming users with obscure technical jargon.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1667984436031-ea1d9ff307ec?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY3MDc2NTh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1667984436031-ea1d9ff307ec?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY3MDc2NTh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1667984436031-ea1d9ff307ec?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY3MDc2NTh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Organizr</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/2881228/pexels-photo-2881228.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>David Rumsey Map Collection</title>
+      <link>https://surfaced-x.pages.dev/item/historical-maps-digital-archive</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/historical-maps-digital-archive</guid>
+      <description>The David Rumsey Map Collection is a privately held online archive of over 150,000 high-resolution digital maps, atlases, and globes from the 16th to 21st centuries. This incredible resource provides access to a vast array of historical cartography, offering unparalleled insights into how the world has been mapped and understood throughout different eras. Users can explore detailed imagery of both well-known and obscure geographical representations.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10728163/pexels-photo-10728163.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10728163/pexels-photo-10728163.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10728163/pexels-photo-10728163.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>PeerTube</title>
       <link>https://surfaced-x.pages.dev/item/peertube-video</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/peertube-video</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://pixabay.com/get/gc3f90ba5ef8c832e014b48620ff2076189ca5c1ce87e6e8b24ea71545f7566cd44e6d10f390c51f38e067b1df47fc41e9a8fe666e3b8f8dfbb71ed9768d35ba4_1280.jpg" />
     </item>
     <item>
+      <title>OpenAI Jukebox</title>
+      <link>https://surfaced-x.pages.dev/item/deep-learning-for-music-generation</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deep-learning-for-music-generation</guid>
+      <description>OpenAI Jukebox is a neural network that generates music, including singing, in a wide variety of genres and artist styles. It can produce raw audio for pieces of music with a given artist and genre. This groundbreaking tool allows users to experiment with AI-driven musical composition, offering a unique way to explore creative possibilities in music production. It&apos;s trained on a massive dataset of music, enabling it to learn the complex patterns and structures that define different musical styles.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/27141312/pexels-photo-27141312.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/27141312/pexels-photo-27141312.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/27141312/pexels-photo-27141312.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Matrix</title>
       <link>https://surfaced-x.pages.dev/item/matrix-chat</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/matrix-chat</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/37557670/pexels-photo-37557670.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/37557670/pexels-photo-37557670.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/37557670/pexels-photo-37557670.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Gemini 3.7 Flash</title>
+      <link>https://surfaced-x.pages.dev/item/gemini-3-7-flash</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/gemini-3-7-flash</guid>
+      <description>Gemini 3.7 Flash is a new, highly efficient version of Google&apos;s Gemini AI model, designed for speed and broad accessibility. It offers powerful reasoning and language processing capabilities while being optimized for faster response times and lower computational costs. This makes it suitable for a wide range of applications, from real-time conversational agents to complex data analysis tasks where rapid inference is crucial.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10827984/pexels-photo-10827984.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10827984/pexels-photo-10827984.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10827984/pexels-photo-10827984.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Act</title>
@@ -446,113 +556,6 @@
       <enclosure url="https://pixabay.com/get/g0b9cbf3426142e9fa8993db8a31ae22378b49683aa404bdcfd2ba41c9ca3d681c8b419038a9dc73535b0f43653caa59b3be4f9bbb5d6f8ac067ff73af672216b_1280.png" type="image/png" length="0" />
       <media:content url="https://pixabay.com/get/g0b9cbf3426142e9fa8993db8a31ae22378b49683aa404bdcfd2ba41c9ca3d681c8b419038a9dc73535b0f43653caa59b3be4f9bbb5d6f8ac067ff73af672216b_1280.png" medium="image" type="image/png" />
       <media:thumbnail url="https://pixabay.com/get/g0b9cbf3426142e9fa8993db8a31ae22378b49683aa404bdcfd2ba41c9ca3d681c8b419038a9dc73535b0f43653caa59b3be4f9bbb5d6f8ac067ff73af672216b_1280.png" />
-    </item>
-    <item>
-      <title>My Mental Health Compass</title>
-      <link>https://surfaced-x.pages.dev/item/my-mental-health-compass</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/my-mental-health-compass</guid>
-      <description>My Mental Health Compass is an interactive, non-diagnostic web tool designed to help individuals explore and understand their mental well-being. It offers a series of guided self-assessments and thought exercises that can illuminate personal strengths, identify potential areas of stress, and suggest non-clinical resources for support. The tool was created by a coalition of mental health advocates and tech developers to provide accessible, proactive mental wellness exploration. For example, a user feeling overwhelmed by work might engage with a guided reflection on stress triggers, which could then lead to personalized suggestions for mindfulness exercises or reputable online support communities.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8386188/pexels-photo-8386188.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8386188/pexels-photo-8386188.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8386188/pexels-photo-8386188.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Soundscape Artist</title>
-      <link>https://surfaced-x.pages.dev/item/soundscape-artist</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/soundscape-artist</guid>
-      <description>Soundscape Artist is an online application that empowers users to craft personalized ambient audio environments for focus, relaxation, or creative inspiration. It offers a library of high-quality, royalty-free sounds—ranging from natural elements like rain and wind to urban textures and abstract tones—that can be mixed and layered to create unique soundscapes. The platform is freemium; basic mixing and a limited sound library are available for free, while a premium subscription unlocks an expanded sound catalog, advanced editing features, and the ability to save and share custom soundscapes. It stands out by providing granular control over individual sound elements, allowing for subtle nuances that define a truly immersive and effective auditory experience.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/235556/pexels-photo-235556.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/235556/pexels-photo-235556.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/235556/pexels-photo-235556.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>NutriData Nutrition Decoder</title>
-      <link>https://surfaced-x.pages.dev/item/nutridata-nutrition-decoder</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nutridata-nutrition-decoder</guid>
-      <description>NutriData Nutrition Decoder is a web tool that allows you to input the ingredients and nutritional information from a food product&apos;s label and it will break down the data into a more understandable format. It highlights potential allergens, sugar content, and the prevalence of certain macronutrients or micronutrients based on your personalized dietary goals. This tool was developed by a team of nutritionists and food scientists aiming to simplify nutritional information for consumers. For instance, if you&apos;re trying to limit added sugars, you can input a snack&apos;s label and the decoder will instantly show you how much of the total sugar is &apos;added&apos; versus naturally occurring.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/1639930/pexels-photo-1639930.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/1639930/pexels-photo-1639930.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/1639930/pexels-photo-1639930.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>StoryWeave Pro</title>
-      <link>https://surfaced-x.pages.dev/item/story-weave-pro</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/story-weave-pro</guid>
-      <description>StoryWeave Pro is an online collaborative writing platform designed for authors to co-create fictional narratives. It provides a shared workspace where multiple users can contribute to a single story, managing different plotlines, character arcs, and world-building elements simultaneously. Features include version control, comment threads for discussion, and role assignment to delineate responsibilities. The platform is freemium, offering basic collaboration for up to three users for free, with paid tiers unlocking unlimited collaborators, advanced organizational tools, and private project spaces. It solves the challenge of chaotic co-writing by providing structure and clarity, making it exceptionally good at keeping multiple creative voices harmonized within a single narrative.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8035284/pexels-photo-8035284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8035284/pexels-photo-8035284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8035284/pexels-photo-8035284.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Woxi - Open-source Mathematica / Wolfram Language reimplementation</title>
-      <link>https://surfaced-x.pages.dev/item/woxi-reimplementation</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/woxi-reimplementation</guid>
-      <description>Woxi is an ambitious open-source project aiming to create a functional reimplementation of Wolfram Language, the programming language behind Mathematica. Its goal is to provide a free and accessible alternative for users who rely on the powerful symbolic computation, data visualization, and advanced algorithms offered by Wolfram Language. The project focuses on compatibility and expanding the reach of this sophisticated mathematical environment.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Album Deep Dive</title>
-      <link>https://surfaced-x.pages.dev/item/album-deep-dive</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/album-deep-dive</guid>
-      <description>Album Deep Dive is a unique digital tool dedicated to exploring the intricate histories and contexts behind music albums. It provides detailed information on album creation, influences, lyrical analysis, critical reception, and the cultural impact of specific records. Unlike typical music databases that focus on track listings and artist biographies, Album Deep Dive delves into the &apos;why&apos; and &apos;how&apos; of an album&apos;s existence. It’s a free, community-driven resource, relying on contributions from music historians and enthusiasts to build its comprehensive knowledge base. It excels at connecting seemingly disparate pieces of information about an album, offering a holistic understanding that enriches the listening experience.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4383295/pexels-photo-4383295.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4383295/pexels-photo-4383295.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4383295/pexels-photo-4383295.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Tracking down the 16-year-old WAL-reset SQLite bug</title>
-      <link>https://surfaced-x.pages.dev/item/tracking-sqlite-wal-reset-bug</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tracking-sqlite-wal-reset-bug</guid>
-      <description>This article from Tailscale dives deep into a long-standing and complex bug within SQLite&apos;s Write-Ahead Logging (WAL) mechanism, specifically the &apos;WAL-reset&apos; bug. It details how this bug, present for over 16 years, could subtly corrupt databases under specific, albeit rare, conditions involving concurrent readers and writers. The post chronicles the investigation, the technical challenges in identifying and reproducing the issue, and the eventual fix implemented by the SQLite team.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/28574349/pexels-photo-28574349.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/28574349/pexels-photo-28574349.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/28574349/pexels-photo-28574349.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>CinemaStream Explorer</title>
-      <link>https://surfaced-x.pages.dev/item/cinemastream-explorer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cinemastream-explorer</guid>
-      <description>CinemaStream Explorer is a web application designed to help cinephiles unearth obscure and critically acclaimed films currently available on various streaming platforms. It aggregates data from multiple streaming services, allowing users to search by genre, director, actor, mood, or even specific thematic elements that are often hard to filter by on individual platforms. The service operates on a freemium model, offering basic search and filtering for free, with a premium subscription unlocking advanced AI-powered recommendation algorithms and curated watchlist features. Its core value lies in surfacing films that might otherwise be lost in the vast digital library, making it unparalleled for discovering unique cinematic experiences.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5082566/pexels-photo-5082566.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5082566/pexels-photo-5082566.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5082566/pexels-photo-5082566.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Federal Tax Data System</title>
-      <link>https://surfaced-x.pages.dev/item/federal-tax-data-system</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/federal-tax-data-system</guid>
-      <description>The Federal Tax Data System (FTDS) provides access to anonymized individual and corporate tax data compiled by the Internal Revenue Service (IRS). It&apos;s a crucial resource for researchers, economists, and policymakers seeking to understand the U.S. tax system&apos;s impact on income distribution, tax compliance, and economic behavior. The system allows for detailed analysis of tax returns, offering insights into various income sources, deductions, and credits claimed by taxpayers.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7821673/pexels-photo-7821673.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7821673/pexels-photo-7821673.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7821673/pexels-photo-7821673.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>crm</title>
-      <link>https://surfaced-x.pages.dev/item/crm-compai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/crm-compai</guid>
-      <description>This is an open-source Customer Relationship Management (CRM) system built with an agentic-first approach, using TypeScript. It&apos;s designed for developers and those who want to leverage AI agents to manage their customer interactions. The core value proposition lies in its extensibility and automation capabilities, allowing users to build custom workflows and intelligent agents for tasks like lead qualification, customer support, and sales outreach. It is free and open-source, with the primary task it excels at being the integration of AI agents directly into the CRM workflow.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1719253479632-61b2fdc77a65?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU5MzQzMTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1719253479632-61b2fdc77a65?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU5MzQzMTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1719253479632-61b2fdc77a65?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODU5MzQzMTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
   </channel>
 </rss>
