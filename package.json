@@ -29,14 +29,14 @@
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
-    "@react-three/drei": "^10.7.7",
-    "@react-three/fiber": "^9.6.1",
-    "@react-three/postprocessing": "^3.0.4",
-    "framer-motion": "^12.42.2",
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "@react-three/postprocessing": "^3.0.5",
+    "framer-motion": "^12.43.0",
     "next": "^16.3.0",
-    "postprocessing": "^6.39.2",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "postprocessing": "^6.39.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "three": "^0.185.1"
   },
   "overrides": {
@@ -48,14 +48,14 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@types/three": "^0.185.0",
+    "@types/three": "^0.185.4",
     "dotenv": "^17.4.1",
     "eslint": "^9",
-    "eslint-config-next": "16.2.10",
-    "playwright": "^1.61.1",
+    "eslint-config-next": "16.3.0",
+    "playwright": "^1.62.1",
     "sharp": "^0.35.3",
     "tailwindcss": "^4",
-    "tsx": "^4.23.0",
+    "tsx": "^4.23.12",
     "typescript": "^5"
   }
 }
