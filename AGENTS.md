@@ -10,9 +10,11 @@ Next.js App Router (Turbopack) · static export to `out/` (~3,100 pages) · Clou
 
 ## Design language — do not regress these
 - **One gold accent (`--accent: #E5B25D`) on near black. Dark theme is pinned** (init script hardcodes `data-theme="dark"`; toggle removed 2026-07-08). Do NOT reintroduce a light theme or violet/cyan accent gradients.
-- **The world**: `src/components/3d/WorldCanvas.tsx` renders the molten-gold WebGL backdrop — a scroll-morphing structure (knot → helix → halo → orb, dissolving to embers in the last 20% of scroll), rising ember particles, click bursts, bloom pass. Scroll position is the timeline; palette constants live in that file.
-- **Scroll 3D conventions**: `SectionDepth` writes `--depth-t` (smoothstep + lerp) and sets `data-depth-active`; children opt in via `.plane-3d` + `.plane-rate-*`. All effects are transform/opacity-only and MUST render the finished layout for SSR/no-JS/`prefers-reduced-motion` (gate effects behind `data-depth-active`).
-- **Item visuals**: `ItemVisual` resolves screenshot → cached photo → gradient. Real screenshots are self-hosted at `public/screenshots/<slug>.webp` (~25 KB each). Never hotlink third-party screenshot APIs (Microlink/mShots both failed us).
+- **The world** (rebuilt 2026-08-15): `WorldCanvas.tsx` = a raymarched volumetric `Backdrop` + `SignalField.tsx`. SignalField is ~17k points on a curl-noise flow where **the cursor is a real force** (bends particles aside, carves a hotter trail) and clicks fire healing shockwaves; palette travels cyan → violet → rose → gold with scroll. It is **stateless** — position is a pure function of (seed, time, scroll, pointer, ripples) in the vertex shader, so it stays one draw call with no feedback buffers. The molten core / branching growth / embers / gold click-bursts were removed; don't reintroduce them.
+- **Shader gotcha that costs hours**: a vertex stage defaults to `highp`. If a uniform is declared in both stages and the fragment says `mediump`, the program **fails to link silently** ("Precisions of uniform 'x' differ…") and *nothing renders* — the error appears only in a FULL console read, not the default error filter. Keep both stages `highp`.
+- **Brightness bar**: the page lays readability scrims (~0.55 black) over the canvas, so a background must output near-HDR values to survive them — but keep the *resting* state quiet so text stays legible and let interaction drive the drama.
+- **Scroll 3D conventions**: `SectionDepth` writes `--depth-t` (seeded synchronously before effects switch on) and sets `data-depth-active`; children opt in via `.plane-3d` + `.plane-rate-*`. **Content visibility must never depend on JS** — the entrance is a native `animation-timeline: view()` animation and `--depth-t` drives parallax drift only. (A rAF-driven opacity once left real cards at 0.3 on throttled tabs: an AdSense hidden-content hazard.) Everything must still render the finished layout for SSR/no-JS/`prefers-reduced-motion`.
+- **Item visuals**: `ItemVisual` resolves screenshot → **the tool's own logo** (Google favicon CDN on a tinted card) → cached photo → gradient. Real screenshots are self-hosted at `public/screenshots/<slug>.webp`. The logo tier exists because ~75 sites block headless capture and an unrelated stock photo is not an accurate image of a product — **pass `websiteLink` at every call site** or that tier can't fire. Never hotlink third-party screenshot APIs (Microlink/mShots both failed us).
 - **Perf bar**: ~120 fps during scroll with bloom active. Verify with the browser preview before shipping visual changes.
 
 ## Data files (`data/`)
@@ -31,7 +33,7 @@ Next.js App Router (Turbopack) · static export to `out/` (~3,100 pages) · Clou
 ## JSON schemas (exact field names)
 **hidden-gems** `id` `slug` `name` `whatItDoes` `category` `whyItIsUseful` `imageIdea` `websiteLink` `type:"hidden-gem"`
 **daily-tools** `id` `slug` `toolName` `whatItDoes` `category` `whyItIsUseful` `imageIdea` `websiteLink` `type:"tool"`
-Optional on live items: `screenshotUrl` (`/screenshots/<slug>.webp`, synced by capture script), `seoTitle` (≤65 chars), `badge`, `dateAdded` (YYYY-MM-DD), `editorial`, `takeaway`.
+Optional on live items: `everydayUse` (2-3 concrete "you'd reach for this when…" moments, rendered as the *In everyday life* panel; produced by the daily generator for new items, backfilled by `scripts/backfill-everyday-use.mjs`), `screenshotUrl` (`/screenshots/<slug>.webp`, synced by capture script), `seoTitle` (≤65 chars), `badge`, `dateAdded` (YYYY-MM-DD), `editorial`, `takeaway`.
 **archive.json** items keep their original fields + `archivedAt` (YYYY-MM-DD).
 Legacy schemas (discovery/product/future-tech) survive in `archive.json` — see `src/lib/data.ts` for authoritative types.
 
@@ -39,9 +41,9 @@ Legacy schemas (discovery/product/future-tech) survive in `archive.json` — see
 | Workflow | Status | Notes |
 |---|---|---|
 | Daily Surfaced Edition | **active**, 7am ET cron | the content pipeline (below) |
-| Daily Social Posts | **active**, 3×/weekday 2×/weekend | Bluesky + Pinterest OK; X fails 402 until credits topped up |
+| Daily Social Posts | **PAUSED 2026-07-10** at the owner's request (cron commented, workflow disabled, manual dispatch kept) | Pipeline is healthy — Bluesky + Pinterest publish fine; X returns 402 CreditsDepleted and is logged once as a clean skip. Resume = uncomment cron + `gh workflow enable social-posts.yml` |
 | Build Validation / CodeQL / Data Backup / Pinterest Token Refresh | active | routine |
-| AdSense Content Remediation | manual dispatch | archive source backfill **complete** (`unprocessed=0`, 2026-07-04); `docs/source-retrofit-attempted.json` ledgers ~330 confirmed-unverifiable slugs — do NOT retry them |
+| AdSense Content Remediation | manual dispatch | archive source backfill **complete** (`unprocessed=0`, 2026-07-04); `docs/source-retrofit-attempted.json` ledgers ~330 confirmed-unverifiable slugs — do NOT retry them. Also runs the `everydayUse` backfill (250/run, idempotent — re-dispatch until 0 remain) |
 | Trending Live Content, Daily Discovery Candidates | **RETIRED** | off-niche current-events automation; do not re-enable schedules |
 
 ## Daily pipeline (order matters; each step is a script in `scripts/`)
@@ -73,6 +75,9 @@ Optional: `UNSPLASH_ACCESS_KEY`, `PIXABAY_API_KEY` (image fallbacks) · `BUTTOND
 - Git worktrees trigger a Turbopack multiple-lockfile root warning — harmless.
 - Preview servers in `.claude/launch.json` (untracked): `surfaced` serves the static `out/` build; `surfaced-dev` runs `next dev`.
 - `scripts/` are CommonJS Node by design and excluded from ESLint.
+
+## Monetisation reality (read before "add affiliate links")
+The live catalogue is **free web tools and apps**, not purchasable products — most have no affiliate programme, and `products.json` has been empty since the 2026-05 pivot. **0 affiliate links on live items is correct, not a gap.** Never fabricate affiliate URLs: that is an FTC disclosure problem and an AdSense-review risk. Real options if monetisation is wanted: per-vendor SaaS affiliate programmes (each needs a human signup) or reviving a product vertical. Keep `/affiliate-disclosure` consistent with whatever is actually true — it currently implies affiliate links are in use.
 
 ## Editorial trust & AdSense (still binding)
 - Use `SourceTrailLink`, `EditorialTrustBar`, `src/lib/trust.ts` for source/trust UI — don't duplicate URL-host parsing in pages.
