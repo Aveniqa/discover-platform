@@ -56,6 +56,16 @@ export function GlobalWorld() {
   useEffect(() => {
     if (typeof window === "undefined") return;
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
+    // Progressive enhancement: the world is decorative, and a volumetric
+    // raymarch is the most expensive thing on the page. Low-core / low-memory
+    // devices keep the static gold gradient instead of paying for it — the
+    // content is identical either way, this is a capability decision, not a
+    // user-agent one.
+    type CapNav = Navigator & { deviceMemory?: number };
+    const nav = navigator as CapNav;
+    const cores = nav.hardwareConcurrency ?? 8;
+    const memory = nav.deviceMemory ?? 8;
+    if (cores <= 4 || memory <= 4) return;
     type IdleWindow = Window & {
       requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
     };

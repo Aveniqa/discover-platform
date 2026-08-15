@@ -316,17 +316,6 @@
       <media:thumbnail url="https://images.pexels.com/photos/20954557/pexels-photo-20954557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
-      <title>Formv</title>
-      <link>https://surfaced-x.pages.dev/item/form-data-validator</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/form-data-validator</guid>
-      <description>Formv is a sophisticated JavaScript library designed for validating form data in web applications. It goes beyond basic field checks, offering a powerful and flexible API for defining complex validation rules, handling asynchronous validation, and providing custom error messages. This open-source tool is particularly useful for developers building intricate web interfaces where robust data integrity is paramount. It can be integrated into any front-end framework and excels at managing the nuances of user input validation, ensuring data submitted by users is accurate and complete before it&apos;s processed server-side. The core library is free, with potential for paid support or enterprise solutions.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1649451844808-b81427e7a1f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYyNzQ2ODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1649451844808-b81427e7a1f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYyNzQ2ODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1649451844808-b81427e7a1f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYyNzQ2ODB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
       <title>Typogram</title>
       <link>https://surfaced-x.pages.dev/item/typogram-visual-editor</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typogram-visual-editor</guid>
@@ -556,6 +545,17 @@
       <enclosure url="https://pixabay.com/get/g0b9cbf3426142e9fa8993db8a31ae22378b49683aa404bdcfd2ba41c9ca3d681c8b419038a9dc73535b0f43653caa59b3be4f9bbb5d6f8ac067ff73af672216b_1280.png" type="image/png" length="0" />
       <media:content url="https://pixabay.com/get/g0b9cbf3426142e9fa8993db8a31ae22378b49683aa404bdcfd2ba41c9ca3d681c8b419038a9dc73535b0f43653caa59b3be4f9bbb5d6f8ac067ff73af672216b_1280.png" medium="image" type="image/png" />
       <media:thumbnail url="https://pixabay.com/get/g0b9cbf3426142e9fa8993db8a31ae22378b49683aa404bdcfd2ba41c9ca3d681c8b419038a9dc73535b0f43653caa59b3be4f9bbb5d6f8ac067ff73af672216b_1280.png" />
+    </item>
+    <item>
+      <title>My Mental Health Compass</title>
+      <link>https://surfaced-x.pages.dev/item/my-mental-health-compass</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/my-mental-health-compass</guid>
+      <description>My Mental Health Compass is an interactive, non-diagnostic web tool designed to help individuals explore and understand their mental well-being. It offers a series of guided self-assessments and thought exercises that can illuminate personal strengths, identify potential areas of stress, and suggest non-clinical resources for support. The tool was created by a coalition of mental health advocates and tech developers to provide accessible, proactive mental wellness exploration. For example, a user feeling overwhelmed by work might engage with a guided reflection on stress triggers, which could then lead to personalized suggestions for mindfulness exercises or reputable online support communities.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8386188/pexels-photo-8386188.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8386188/pexels-photo-8386188.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8386188/pexels-photo-8386188.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

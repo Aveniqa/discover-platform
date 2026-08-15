@@ -1,3 +1,10 @@
+---
+title: SEO + Performance Pass — Changelog
+type: reference
+updated: 2026-07-01
+tags: [surfaced, performance, changelog]
+---
+
 # SEO + Performance Pass — Changelog
 
 **Date:** 2026-04-29

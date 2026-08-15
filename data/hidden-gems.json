@@ -3811,19 +3811,6 @@
     "dateAdded": "2026-07-09"
   },
   {
-    "id": 852,
-    "slug": "visualshaper-ai-code-to-diagram",
-    "name": "VisualShaper",
-    "seoTitle": "VisualShaper — AI for Code to Diagram",
-    "whatItDoes": "VisualShaper is an AI-driven platform engineered to translate source code into insightful visual diagrams. It intelligently parses code across various programming languages, generating representations such as flowcharts to illustrate program execution, sequence diagrams to depict inter-component communication, and architecture diagrams to map out system structure.  The tool supports analysis of individual code snippets through to entire code repositories, aiming to provide a clear and comprehensive visual blueprint of software logic and organization. This facilitates a deeper understanding of how software functions at a structural and operational level.",
-    "category": "Productivity",
-    "whyItIsUseful": "In the realm of software development, deciphering complex codebases, particularly large or legacy systems, often presents a considerable hurdle. VisualShaper addresses this challenge by automating the creation of essential visual documentation. This capability significantly expedites the process of grasping software functionality and architectural design, reducing the need for exhaustive line-by-line code analysis.  It proves particularly beneficial for rapidly onboarding new developers, streamlining code reviews, and effectively communicating technical concepts to diverse audiences, including non-technical stakeholders. The platform's flexibility in generating multiple diagram types from a single code source makes it a versatile asset for various documentation and communication requirements, thereby enhancing the clarity and accessibility of intricate software systems.",
-    "imageIdea": "abstract code transitioning into a flowchart",
-    "type": "hidden-gem",
-    "dateAdded": "2026-07-09",
-    "screenshotUrl": "/screenshots/visualshaper-ai-code-to-diagram.webp"
-  },
-  {
     "id": 853,
     "slug": "spider-venom-varroa-mite-control",
     "name": "Spider Venom for Varroa Mite Control",
@@ -4004,30 +3991,6 @@
     "dateAdded": "2026-07-11"
   },
   {
-    "id": 866,
-    "slug": "replit-console-stream",
-    "name": "Replit Console Stream",
-    "seoTitle": "Replit Console Stream — Real-time Console Output",
-    "whatItDoes": "Replit Console Stream is an integrated feature of the Replit online IDE designed to provide users with live, real-time streaming of console output from their executing code. This functionality eliminates the need to wait for program completion to view results, allowing developers to observe output as it is dynamically generated. Developed by Replit, a platform renowned for its collaborative coding environment, this feature enhances the interactive nature of software development directly within the browser.",
-    "category": "Developer",
-    "whyItIsUseful": "The Replit Console Stream significantly streamlines the debugging process and deepens understanding of application execution, particularly for applications with extended runtimes or intricate command-line interfaces. Developers gain the ability to identify errors and unexpected behaviors instantaneously, accelerating the development lifecycle. This is especially advantageous for individuals learning new programming languages or frameworks, as it delivers immediate, actionable feedback. In contrast to conventional local development setups that may necessitate manual refreshes or elaborate logging mechanisms, Replit Console Stream offers an uninterrupted, cohesive browser-based experience, positioning it as a valuable asset for those seeking a more responsive and dynamic coding workflow.",
-    "imageIdea": "live television news ticker",
-    "type": "hidden-gem",
-    "dateAdded": "2026-07-11"
-  },
-  {
-    "id": 867,
-    "slug": "github-codespaces-cli",
-    "name": "GitHub Codespaces CLI",
-    "seoTitle": "GitHub Codespaces CLI — Local Codespaces Management",
-    "whatItDoes": "The GitHub Codespaces CLI allows you to connect to and manage your GitHub Codespaces environments directly from your local terminal. You can pull down your cloud-based development environment to your local machine, allowing you to work offline or leverage your local hardware for intensive tasks. It's a powerful tool for bridging the gap between cloud development and local development, built by GitHub.",
-    "category": "Developer",
-    "whyItIsUseful": "Many developers are accustomed to local IDEs and the control they offer. This CLI bridges that gap by allowing you to 'download' your cloud-based Codespace to your local machine. This is invaluable for scenarios where internet connectivity is unreliable or when you need the full power of your local machine for computationally intensive builds or testing. It offers a seamless transition, preserving your cloud environment's configuration and dependencies. Power users appreciate the flexibility to switch between cloud and local development effortlessly, making it an under-the-radar tool for maximizing productivity and catering to diverse work conditions.",
-    "imageIdea": "connected laptop and desktop computers",
-    "type": "hidden-gem",
-    "dateAdded": "2026-07-11"
-  },
-  {
     "id": 868,
     "slug": "ant-js-runtime",
     "name": "Ant – A JavaScript runtime and ecosystem",
@@ -4124,18 +4087,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-07-14",
     "screenshotUrl": "/screenshots/git-history-command.webp"
-  },
-  {
-    "id": 875,
-    "slug": "pill-identifier-ai",
-    "name": "Pill Identifier AI",
-    "seoTitle": "Pill Identifier AI — Identify medications by image",
-    "whatItDoes": "Pill Identifier AI is a web-based tool that allows users to identify medications simply by uploading a clear image of the pill. Leveraging artificial intelligence and a vast database of pharmaceutical information, it analyzes the pill's shape, color, imprints, and any other visible characteristics to provide a potential match. This is particularly helpful for individuals who may have misplaced prescription information, are dealing with multiple medications, or need to confirm the identity of a pill. The tool aims to increase medication safety and provide quick access to accurate identification.",
-    "category": "Health",
-    "whyItIsUseful": "Many people are unaware that sophisticated AI tools exist to help identify medications without needing to read the bottle or consult a pharmacist immediately. While not a substitute for professional medical advice, Pill Identifier AI offers a rapid, accessible first step in verifying a pill's identity, especially in situations where the packaging is lost or illegible. Its accuracy and ease of use make it a valuable resource for home healthcare, accidental ingestion concerns, or simply confirming medication details. Users who frequently manage complex medication regimens or care for others will find this tool a discreet and empowering addition to their health management toolkit, often overlooked in favor of more traditional methods.",
-    "imageIdea": "magnifying glass over a pill",
-    "type": "hidden-gem",
-    "dateAdded": "2026-07-14"
   },
   {
     "id": 876,
@@ -4708,18 +4659,6 @@
     "screenshotUrl": "/screenshots/diffchecker.webp"
   },
   {
-    "id": 917,
-    "slug": "proselint",
-    "name": "Proselint",
-    "seoTitle": "Proselint — Lints your prose style",
-    "whatItDoes": "Proselint is a command-line tool designed to analyze your writing and flag stylistic issues, offering suggestions for improvement. It goes beyond simple grammar checking to identify problems like passive voice, unnecessary jargon, and clichés. It's built by writers and developers who understand the nuances of clear and effective communication. For example, a novelist could run Proselint on a chapter to catch overused adverbs or wordy sentences before submitting to an editor.",
-    "category": "Writing",
-    "whyItIsUseful": "This tool is a hidden gem for anyone serious about refining their writing beyond basic spellcheck. Unlike many popular tools that focus on correctness, Proselint targets style and clarity, making your prose more engaging and impactful. It's highly customizable, allowing users to tailor its rules to their specific needs or a project's style guide. Power users appreciate its integration into automated workflows and CI/CD pipelines for consistent quality across large documents or team projects. It's particularly valuable for technical writers, academics, and fiction authors who strive for precision and elegance in their language, flagging issues that might otherwise slip through human review.",
-    "imageIdea": "pen nib with red ink splatter",
-    "type": "hidden-gem",
-    "dateAdded": "2026-07-22"
-  },
-  {
     "id": 918,
     "slug": "bento",
     "name": "Bento",
@@ -4746,18 +4685,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-07-23",
     "screenshotUrl": "/screenshots/hn-hall-of-fame.webp"
-  },
-  {
-    "id": 920,
-    "slug": "personal-capital-dashboard",
-    "name": "Personal Capital Dashboard",
-    "seoTitle": "Personal Capital — Free financial dashboard",
-    "whatItDoes": "The Personal Capital Dashboard is a free, comprehensive financial management tool that aggregates all your financial accounts—checking, savings, credit cards, investments, loans, and retirement accounts—into a single, intuitive interface. It provides a holistic view of your net worth, spending habits, and investment performance. Built by Empower (formerly Personal Capital), it uses secure connections to sync your data, offering sophisticated tools for tracking investments, budgeting, and retirement planning. This allows users to gain deep insights into their financial health and make informed decisions.",
-    "category": "Finance",
-    "whyItIsUseful": "While many people know Personal Capital for its investment management services, its free dashboard is an underutilized gem for anyone serious about personal finance. Unlike basic budgeting apps, it offers a powerful, integrated view of your entire financial life, from everyday spending to complex investment portfolios. Its retirement planner and fee analyzer are particularly insightful, helping users understand hidden costs and project future financial stability. For those looking to optimize their savings, understand their investment allocation, or simply get a true picture of their net worth without paying a subscription fee, the Personal Capital Dashboard is an exceptionally robust and valuable tool.",
-    "imageIdea": "abacus with a modern smartwatch",
-    "type": "hidden-gem",
-    "dateAdded": "2026-07-23"
   },
   {
     "id": 921,
@@ -5066,18 +4993,6 @@
     "screenshotUrl": "/screenshots/wayback-machine-internet-archive.webp"
   },
   {
-    "id": 943,
-    "slug": "perceptual-test",
-    "name": "Perceptual Test",
-    "seoTitle": "Perceptual Test — Visual sensory perception experiments",
-    "whatItDoes": "Perceptual Test is a website offering a collection of interactive experiments designed to explore the nuances of human visual perception. Developed by researchers, it allows users to directly engage with classic psychophysical phenomena that often go unnoticed in everyday life. You can test your own visual acuity, color perception, motion detection, and even susceptibility to optical illusions, providing a hands-on understanding of how your brain processes visual information. It's a digital laboratory for anyone curious about the science behind sight.",
-    "category": "Education",
-    "whyItIsUseful": "While many people are familiar with simple optical illusions, Perceptual Test delves much deeper into the scientific study of how we see. It's incredibly useful for students of psychology, neuroscience, or design, offering direct experiences that textbooks can only describe. The site presents experiments in a clear, accessible format, often with explanations of the underlying principles. For instance, users can experience the 'motion aftereffect,' where staring at a moving pattern for a while makes stationary objects appear to move in the opposite direction. This makes abstract concepts tangible and memorable. It's a fantastic resource for visual learners and educators alike, offering a more profound understanding of our visual system than readily available popular science articles.",
-    "imageIdea": "kaleidoscope geometric pattern",
-    "type": "hidden-gem",
-    "dateAdded": "2026-07-28"
-  },
-  {
     "id": 944,
     "slug": "lingua-cartographia",
     "name": "Lingua Cartographia",
@@ -5325,18 +5240,6 @@
     "screenshotUrl": "/screenshots/code-server-browser.webp"
   },
   {
-    "id": 962,
-    "slug": "tree-sitter-playground",
-    "name": "Tree-sitter Playground",
-    "seoTitle": "Tree-sitter Playground — Parse code visually",
-    "whatItDoes": "The Tree-sitter Playground is an interactive web-based tool that allows you to visualize the concrete syntax tree (CST) generated by the `tree-sitter` parsing library for various programming languages. Built by the creators of `tree-sitter`, it enables users to input code snippets from supported languages and see how `tree-sitter` parses them into a structured, hierarchical tree. This tool is essential for understanding how code is broken down into its constituent parts, which is fundamental for building language-aware tools like linters, code formatters, and syntax highlighters. Developers can experiment with different language grammars and observe the parsing process in real-time.",
-    "category": "Developer",
-    "whyItIsUseful": "Tree-sitter is a powerful parsing library that underpins many modern code analysis tools, but understanding its output can be challenging. The Playground demystifies this by providing an immediate, visual representation of the parsed code. It's incredibly useful for anyone developing language-specific tooling, as it allows for rapid iteration and debugging of grammar rules. Unlike static documentation, it offers an interactive way to explore how different code structures are recognized. Developers working on IDE plugins, custom static analysis tools, or even educational projects about programming language structure will find this indispensable. It offers a unique insight into the foundational mechanics of code understanding that most developers rarely encounter.",
-    "imageIdea": "decoding machine code tree",
-    "type": "hidden-gem",
-    "dateAdded": "2026-07-31"
-  },
-  {
     "id": 963,
     "slug": "narrative-device-finder",
     "name": "Narrative Device Finder",
@@ -5573,30 +5476,6 @@
     "screenshotUrl": "/screenshots/swiftlet-run-llm-locally.webp"
   },
   {
-    "id": 980,
-    "slug": "proto-arts-lab",
-    "name": "Proto-Arts Lab",
-    "seoTitle": "Proto-Arts Lab — AI Art Experiments For Learning",
-    "whatItDoes": "Proto-Arts Lab is an experimental platform focused on using AI to explore art history and artistic techniques. It offers a variety of interactive tools and demonstrations that allow users to understand and play with AI-generated art in a pedagogical context. The site breaks down complex AI art concepts into digestible modules, making it accessible for students and educators alike. For instance, a user could explore how an AI interprets a specific Renaissance painting or experiment with generating art in the style of a particular avant-garde movement.",
-    "category": "Education",
-    "whyItIsUseful": "This platform is a gem for anyone curious about the intersection of AI and art, particularly within an educational framework. Unlike many AI art generators that focus purely on output, Proto-Arts Lab emphasizes the learning process, deconstructing how AI models 'learn' and 'create'. It provides hands-on experiments that reveal the underlying principles of diffusion models and generative adversarial networks (GANs) in an artistic context. Educators can use it to illustrate concepts of style transfer, algorithmic creativity, and the evolution of artistic trends. Its strength lies in its ability to demystify advanced AI art concepts through engaging, accessible, and visually rich experiments, making it an invaluable, yet largely undiscovered, resource for art students, educators, and digital art enthusiasts who want to go beyond just generating images.",
-    "imageIdea": "stylus pen drawing on tablet",
-    "type": "hidden-gem",
-    "dateAdded": "2026-08-04"
-  },
-  {
-    "id": 981,
-    "slug": "textual-inversion-visualizer",
-    "name": "Textual Inversion Visualizer",
-    "seoTitle": "Textual Inversion Visualizer — AI Art Concept Explorer",
-    "whatItDoes": "The Textual Inversion Visualizer is a web-based tool designed to help users understand and experiment with 'textual inversion,' a technique used in AI image generation. This method allows users to teach AI models new concepts using a small set of example images and a unique placeholder token. The visualizer provides an interface to upload images, define tokens, and see how these custom concepts are integrated and represented by the AI. It's a hands-on way to grasp the nuances of fine-tuning AI image models for specific styles or objects.",
-    "category": "Education",
-    "whyItIsUseful": "This tool is exceptionally useful for anyone serious about mastering AI art generation beyond basic prompts. Textual inversion is a powerful but often misunderstood technique that allows for highly personalized and consistent artistic outputs. Mainstream AI art tools typically abstract this process, but the Visualizer exposes it directly, enabling users to see the direct impact of their image choices and token assignments. This transparency is crucial for deep learning and artistic control. It’s perfect for artists, researchers, or hobbyists who want to develop their own unique AI art 'vocabulary' and understand how AI models learn and represent novel concepts. Its interactive nature makes learning about latent space and concept embedding intuitive and engaging, unlike dry academic papers.",
-    "imageIdea": "magnifying glass over abstract colorful code",
-    "type": "hidden-gem",
-    "dateAdded": "2026-08-04"
-  },
-  {
     "id": 982,
     "slug": "scientific-illustration-viewer",
     "name": "Scientific Illustration Viewer",
@@ -5831,18 +5710,6 @@
     "screenshotUrl": "/screenshots/deepseek-v4-flash-0731.webp"
   },
   {
-    "id": 999,
-    "slug": "zenkit-spaces",
-    "name": "Zenkit Spaces",
-    "seoTitle": "Zenkit Spaces — Unified Project & Knowledge Hub",
-    "whatItDoes": "Zenkit Spaces is a versatile platform designed to consolidate all your work and knowledge into one accessible hub. It offers a flexible environment where you can manage projects, track tasks, organize notes, and build databases, all within a single, interconnected space. Built by Zenkit, it aims to eliminate the need to jump between multiple disconnected tools, providing a unified experience for individuals and teams. A designer could use Zenkit Spaces to manage client briefs, track project progress with custom Kanban boards, and store all related design assets and feedback in a single, easily searchable location.",
-    "category": "Productivity",
-    "whyItIsUseful": "Zenkit Spaces is an underrated champion for those drowning in a sea of specialized productivity apps. Its true power lies in its interconnectedness and deep customization. Unlike rigid, single-purpose tools, you can create entirely new 'Spaces' tailored to specific workflows—from personal knowledge management to complex team projects—and link them seamlessly. The ability to switch between different views (lists, boards, calendars, tables, mind maps) for the same data without re-entering it is a significant workflow enhancer. Power users appreciate its robust API and integration capabilities, allowing it to become the central nervous system of their digital life. It's perfect for researchers, project managers, entrepreneurs, and anyone who values a holistic approach to organizing their digital endeavors.",
-    "imageIdea": "central hub interconnected gears",
-    "type": "hidden-gem",
-    "dateAdded": "2026-08-08"
-  },
-  {
     "id": 1000,
     "slug": "anytype-personal-knowledge-tool",
     "name": "Anytype",
@@ -5967,18 +5834,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-08-10",
     "screenshotUrl": "/screenshots/docker-sandboxes.webp"
-  },
-  {
-    "id": 1009,
-    "slug": "maple-preview",
-    "name": "Maple-Preview",
-    "seoTitle": "Maple-Preview — iPhone-run MoE LLM",
-    "whatItDoes": "Maple-Preview is a demonstration of a Ternary Mixture of Experts (MoE) large language model, called Maple-MoE, capable of running efficiently on a consumer-grade iPhone. It achieves a remarkable inference speed of 120 tokens per second, showcasing the potential for powerful AI models to operate directly on mobile devices without relying on cloud processing. This tool allows users to interact with a capable LLM on their phone, experiencing its generation capabilities firsthand. It serves as a proof-of-concept for on-device AI processing and its accessibility to everyday users.",
-    "category": "Developer",
-    "whyItIsUseful": "This tool is a significant indicator of the future of AI accessibility, offering a glimpse into a world where advanced language models are not confined to powerful servers. For developers, it represents a paradigm shift, suggesting that deploying sophisticated AI on edge devices is becoming increasingly feasible. The high inference speed on a mobile device is particularly impressive, challenging the notion that such capabilities require substantial computational resources. It's a testament to efficient model architecture and optimization techniques. Anyone interested in the cutting edge of mobile AI, on-device processing, or efficient LLM deployment will find this demo fascinating and informative, highlighting a significant step beyond current mobile AI limitations.",
-    "imageIdea": "a smartphone displaying an AI chatbot interface",
-    "type": "hidden-gem",
-    "dateAdded": "2026-08-10"
   },
   {
     "id": 1010,
@@ -6146,18 +6001,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-08-12",
     "screenshotUrl": "/screenshots/aresluna-hardest-working-font.webp"
-  },
-  {
-    "id": 1022,
-    "slug": "federal-tax-data-system",
-    "name": "Federal Tax Data System",
-    "seoTitle": "Federal Tax Data System — US Tax Statistics",
-    "whatItDoes": "The Federal Tax Data System (FTDS) provides access to anonymized individual and corporate tax data compiled by the Internal Revenue Service (IRS). It's a crucial resource for researchers, economists, and policymakers seeking to understand the U.S. tax system's impact on income distribution, tax compliance, and economic behavior. The system allows for detailed analysis of tax returns, offering insights into various income sources, deductions, and credits claimed by taxpayers.",
-    "category": "Finance",
-    "whyItIsUseful": "This system is incredibly powerful for anyone needing granular, real-world data on U.S. taxation, far beyond what's available in public news reports or simplified government summaries. It allows for rigorous academic research and data-driven policy analysis, revealing trends and patterns that are invisible at a higher level. While not a tool for the casual user to check their own taxes, it's indispensable for professionals and academics who need to understand the intricate mechanics and outcomes of the U.S. tax code. Its value lies in providing a foundation of empirical evidence for discussions on tax reform and economic policy.",
-    "imageIdea": "tax form spreadsheet magnifying glass",
-    "type": "hidden-gem",
-    "dateAdded": "2026-08-12"
   },
   {
     "id": 1023,

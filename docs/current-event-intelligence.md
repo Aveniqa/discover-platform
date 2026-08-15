@@ -1,3 +1,10 @@
+---
+title: Current-Event Intelligence Layer
+type: reference
+updated: 2026-07-01
+tags: [surfaced, current, event, intelligence]
+---
+
 # Current-Event Intelligence Layer
 
 Surfaced should treat current events as an editorial commerce system, not a news scraper or affiliate feed. The production-safe V1 is static-build friendly:
