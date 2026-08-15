@@ -1,15 +1,13 @@
 [
   {
     "id": "tick-season-er-visits-2026",
-    "status": "expired",
+    "status": "active",
     "priority": 1,
     "label": "Public health",
     "topic": "public-health.tick-borne-disease",
     "sourceType": "official",
     "publisher": "CDC Newsroom",
-    "geography": [
-      "US"
-    ],
+    "geography": ["US"],
     "confidence": 94,
     "editorialStrength": 94,
     "sourceQualityScore": 96,
@@ -233,23 +231,17 @@
           }
         ]
       }
-    ],
-    "retiredAt": "2026-08-15",
-    "retiredReason": "Seasonal guide is stale; feeder workflows retired 2026-05."
+    ]
   },
   {
     "id": "hurricane-preparedness-week-2026",
-    "status": "expired",
+    "status": "active",
     "priority": 2,
     "label": "Weather readiness",
     "topic": "weather.hurricane-preparedness",
     "sourceType": "official",
     "publisher": "National Weather Service",
-    "geography": [
-      "US",
-      "Gulf Coast",
-      "Atlantic Coast"
-    ],
+    "geography": ["US", "Gulf Coast", "Atlantic Coast"],
     "confidence": 90,
     "editorialStrength": 90,
     "sourceQualityScore": 95,
@@ -385,22 +377,17 @@
           }
         ]
       }
-    ],
-    "retiredAt": "2026-08-15",
-    "retiredReason": "Seasonal guide is stale; feeder workflows retired 2026-05."
+    ]
   },
   {
     "id": "air-quality-awareness-week-2026",
-    "status": "expired",
+    "status": "active",
     "priority": 3,
     "label": "Air quality",
     "topic": "environment.air-quality-awareness",
     "sourceType": "official",
     "publisher": "Hawaii Department of Health / EPA",
-    "geography": [
-      "US",
-      "Hawaii"
-    ],
+    "geography": ["US", "Hawaii"],
     "confidence": 86,
     "editorialStrength": 86,
     "sourceQualityScore": 91,
@@ -538,8 +525,6 @@
           }
         ]
       }
-    ],
-    "retiredAt": "2026-08-15",
-    "retiredReason": "Seasonal guide is stale; feeder workflows retired 2026-05."
+    ]
   }
 ]
