@@ -1,3 +1,10 @@
+---
+title: Surfaced — SEO Maintenance Runbook
+type: reference
+updated: 2026-08-15
+tags: [surfaced, maintenance]
+---
+
 # Surfaced — SEO Maintenance Runbook
 
 ## Sitemap

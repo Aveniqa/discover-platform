@@ -1,3 +1,10 @@
+---
+title: AdSense Compliance Readiness
+type: reference
+updated: 2026-07-01
+tags: [surfaced, adsense, compliance, readiness]
+---
+
 # AdSense Compliance Readiness
 
 Last updated: 2026-05-04

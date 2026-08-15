@@ -1,3 +1,10 @@
+---
+title: Surfaced — SEO + Performance Audit
+type: reference
+updated: 2026-07-01
+tags: [surfaced, performance, audit]
+---
+
 # Surfaced — SEO + Performance Audit
 
 **Date:** 2026-04-29

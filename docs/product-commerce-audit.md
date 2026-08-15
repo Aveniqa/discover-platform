@@ -1,3 +1,10 @@
+---
+title: Product Commerce Audit
+type: reference
+updated: 2026-07-01
+tags: [surfaced, product, commerce, audit]
+---
+
 # Product Commerce Audit
 
 Last updated: 2026-05-03

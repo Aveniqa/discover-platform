@@ -1,3 +1,10 @@
+---
+title: Product Image Audit
+type: reference
+updated: 2026-07-01
+tags: [surfaced, product, image, audit]
+---
+
 # Product Image Audit
 
 Last run: 2026-05-04

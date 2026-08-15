@@ -1,3 +1,10 @@
+---
+title: Media Attributions
+type: reference
+updated: 2026-07-01
+tags: [surfaced, media, attributions]
+---
+
 # Media Attributions
 
 This file tracks third-party media used as local site assets.
