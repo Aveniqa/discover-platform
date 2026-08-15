@@ -28,8 +28,6 @@ export function SectionDepth({ children, className = "" }: { children: ReactNode
     const el = ref.current;
     if (!el) return;
 
-    el.dataset.depthActive = "";
-
     let raf = 0;
     let running = false;
     let current = 0;
@@ -45,6 +43,20 @@ export function SectionDepth({ children, className = "" }: { children: ReactNode
       const raw = Math.min(1, Math.max(0, (vh - rect.top) / (vh + rect.height)));
       target = smoothstep(raw);
     };
+
+    /* Seed --depth-t BEFORE enabling the effects.
+       The CSS dims and shrinks .plane-3d as a function of --depth-t, so if
+       we flagged the section active first and waited for the first rAF to
+       supply a value, every card would sit at opacity .3 in the gap. That
+       gap is unbounded when rAF is throttled (background tab, low-power
+       mode, heavily loaded device) — which would show dimmed content to
+       real readers and to crawlers/reviewers. Writing the true value
+       synchronously here means the effects only ever switch on with
+       correct state. */
+    computeTarget();
+    current = target;
+    el.style.setProperty("--depth-t", current.toFixed(4));
+    el.dataset.depthActive = "";
 
     const tick = () => {
       computeTarget();
@@ -71,8 +83,21 @@ export function SectionDepth({ children, className = "" }: { children: ReactNode
       { rootMargin: "25% 0px 25% 0px" }
     );
     io.observe(el);
+
+    /* rAF is throttled to a standstill in hidden tabs, so a section that
+       scrolled while hidden would still be mid-animation on return. Snap
+       to truth whenever the tab comes back. */
+    const onVisibility = () => {
+      if (document.hidden) return;
+      computeTarget();
+      current = target;
+      el.style.setProperty("--depth-t", current.toFixed(4));
+    };
+    document.addEventListener("visibilitychange", onVisibility);
+
     return () => {
       io.disconnect();
+      document.removeEventListener("visibilitychange", onVisibility);
       running = false;
       if (raf) cancelAnimationFrame(raf);
     };

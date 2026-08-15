@@ -6,6 +6,7 @@ import { EffectComposer, Bloom } from "@react-three/postprocessing";
 import * as THREE from "three";
 import type { WorldSeed } from "@/lib/world-seed";
 import { makeRng } from "@/lib/world-seed";
+import { BranchingGrowth } from "./BranchingGrowth";
 
 interface Props {
   seed: WorldSeed;
@@ -518,7 +519,7 @@ function ClickBursts() {
 /* ---------- near-black backdrop with the faintest warm breath ---------- */
 
 const BACKDROP_FRAGMENT = /* glsl */ `
-  precision mediump float;
+  precision highp float;
   varying vec2 vUv;
   uniform float uTime;
   uniform float uWarp;   // 0 idle .. 1 hyperspace (scroll velocity)
@@ -534,9 +535,61 @@ const BACKDROP_FRAGMENT = /* glsl */ `
                mix(hash(i + vec2(0, 1)), hash(i + vec2(1, 1)), u.x), u.y);
   }
 
+  // ---- 3D value noise + fbm, for the volumetric pass ----
+  float hash31(vec3 p) {
+    p = fract(p * 0.3183099 + vec3(0.71, 0.113, 0.419));
+    p *= 17.0;
+    return fract(p.x * p.y * p.z * (p.x + p.y + p.z));
+  }
+  float noise3(vec3 x) {
+    vec3 i = floor(x), f = fract(x);
+    f = f * f * (3.0 - 2.0 * f);
+    return mix(mix(mix(hash31(i + vec3(0,0,0)), hash31(i + vec3(1,0,0)), f.x),
+                   mix(hash31(i + vec3(0,1,0)), hash31(i + vec3(1,1,0)), f.x), f.y),
+               mix(mix(hash31(i + vec3(0,0,1)), hash31(i + vec3(1,0,1)), f.x),
+                   mix(hash31(i + vec3(0,1,1)), hash31(i + vec3(1,1,1)), f.x), f.y), f.z);
+  }
+  float fbm3(vec3 p) {
+    float v = 0.0, a = 0.5;
+    for (int i = 0; i < 4; i++) { v += a * noise3(p); p = p * 2.07 + 11.3; a *= 0.5; }
+    return v;
+  }
+
   void main() {
     vec2 uv = vUv * 2.0 - 1.0;
     vec3 col = vec3(0.039, 0.035, 0.031); // near black, warm
+
+    /* ---- VOLUMETRIC ATMOSPHERE (raymarched) ----
+       Marching a real density field lit by a key light gives honest depth:
+       haze thickens with distance, light scatters through it, and the
+       forge glow throws god-rays instead of a flat radial gradient.
+       20 steps keeps this comfortably inside frame budget. */
+    vec3 ro = vec3(0.0, 0.0, 2.6);                       // camera
+    vec3 rd = normalize(vec3(uv.x * 1.7, uv.y, -1.6));   // view ray
+    vec3 lightPos = vec3(0.35 + sin(uTime * 0.13) * 0.25, 0.55, -1.1);
+
+    float density = 0.0;
+    vec3  scatter = vec3(0.0);
+    const int STEPS = 20;
+    for (int i = 0; i < STEPS; i++) {
+      float t = 0.28 + float(i) * 0.19;
+      vec3 pos = ro + rd * t;
+      // The cloud drifts downward and forward as the reader travels
+      vec3 q = pos * 1.15 + vec3(uTime * 0.035, -uTime * 0.05 - uScroll * 1.6, uScroll * 2.2);
+      float d = fbm3(q) - 0.46;
+      d = max(d, 0.0) * smoothstep(4.4, 0.6, t);   // fade the far field
+      if (d <= 0.0) continue;
+      // Distance to the key light drives in-scattering
+      float lightDist = length(pos - lightPos);
+      float atten = 1.0 / (1.0 + lightDist * lightDist * 1.5);
+      // Forward scattering — brighter when looking toward the light
+      float phase = 0.55 + 0.45 * dot(rd, normalize(lightPos - pos));
+      scatter += uGold * d * atten * phase * 0.5;
+      density += d;
+    }
+    col += scatter * 0.85;
+    col += uGoldDeep * min(density * 0.05, 0.25);
+
     // barely-there ambient warmth drifting behind the structure
     float breath = noise(uv * 1.6 + uTime * 0.015) * 0.5 + 0.5;
     col += uGoldDeep * breath * 0.05 * smoothstep(1.6, 0.0, length(uv));
@@ -617,6 +670,7 @@ export default function WorldCanvas({ seed, scrollT, pointer }: Props) {
       <color attach="background" args={[NEAR_BLACK]} />
       <Backdrop scrollT={scrollT} />
       <MoltenStructure scrollT={scrollT} pointer={pointer} />
+      <BranchingGrowth rngSeed={seed.rngSeed} scrollT={scrollT} gold={GOLD} goldHot={GOLD_HOT} goldDeep={GOLD_DEEP} />
       <Embers seed={seed} scrollT={scrollT} />
       <ClickBursts />
       <EffectComposer multisampling={0}>
