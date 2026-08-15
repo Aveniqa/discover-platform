@@ -232,10 +232,10 @@ jobs:
             "out/affiliate-disclosure.html"
             "out/contact.html"
             "out/privacy.html"
-            "out/premium.html"
             "out/terms.html"
             "out/newsletter.html"
             "out/saved.html"
+            "out/gallery.html"
           )
 
           for page in "${CRITICAL_PAGES[@]}"; do

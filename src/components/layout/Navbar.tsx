@@ -226,10 +226,10 @@ export function Navbar() {
                 Subscribe Free
               </Link>
               <Link
-                href="/premium"
+                href="/gallery"
                 className="flex-1 flex items-center justify-center py-3.5 rounded-xl bg-surface-elevated border border-border text-sm font-medium text-foreground hover:bg-surface-hover hover:border-accent/20 transition-all"
               >
-                Go Premium
+                3D Gallery
               </Link>
             </div>
           </div>
