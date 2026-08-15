@@ -1,19 +1,19 @@
 [
   {
-    "slug": "computational-linguistics-data-analyzer",
-    "title": "Corpus of Contemporary American English (COCA)",
+    "slug": "text-to-stopmotion-animation",
+    "title": "Text to Stop Motion Animation",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Corpus of Contemporary American English (COCA) is a massive, balanced corpus of American English text representing a",
+    "description": "This AI-powered tool translates textual descriptions into stop-motion animation sequences. Users provide a narrative pro",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "scidraw-3d-creator",
-    "title": "SciDraw 3D Creator",
+    "slug": "productivity-dashboard-app",
+    "title": "Momentum",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "SciDraw 3D Creator is a powerful, yet accessible, software application designed to generate high-quality 3D scientific v",
+    "description": "Momentum replaces your default new tab page with a beautiful, inspiring dashboard designed to boost your daily productiv",
     "badge": null,
     "type": "tool"
   }

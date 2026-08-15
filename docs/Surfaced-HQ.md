@@ -16,23 +16,23 @@ tags: [surfaced, dashboard, generated]
 | | |
 |---|---|
 | **Live items** | **886** (453 hidden gems · 433 daily tools) |
-| **Last edition** | 2026-08-14 (10 items) |
-| **Archive** | 2579 items — permanent, keeps `/item/<slug>` alive for search |
-| **Real screenshots** | 811/886 (92%) |
-| **Cached photos** | 3936 |
+| **Last edition** | 2026-08-15 (10 items) |
+| **Archive** | 2589 items — permanent, keeps `/item/<slug>` alive for search |
+| **Real screenshots** | 807/886 (91%) |
+| **Cached photos** | 3946 |
 | **Live items missing a link** | 0 ✅ |
-| **Archived items without a source** | 356 (ledgered as unverifiable — do not retry) |
+| **Archived items without a source** | 346 (ledgered as unverifiable — do not retry) |
 
 ## Catalogue lean
 
-- **Developer** — 231
-- **Productivity** — 190
+- **Developer** — 232
+- **Productivity** — 187
 - **Design** — 83
-- **Reference** — 59
-- **Writing** — 59
+- **Reference** — 60
+- **Writing** — 58
 - **Education** — 57
 - **Finance** — 37
-- **Entertainment** — 31
+- **Entertainment** — 37
 
 ## Where things live
 
