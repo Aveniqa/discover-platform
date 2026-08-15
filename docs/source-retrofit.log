@@ -1,42 +1,9 @@
-# Source retrofit log — 2026-08-15T06:41:48.499Z
+# Source retrofit log — 2026-08-15T06:57:30.376Z
 # Mode: live
 
-## archive missing-source backfill (23/23 items)
-ADDED     visualshaper-ai-code-to-diagram
-  new: https://www.visualshaper.com
-NO_SOURCE replit-console-stream  (rejected: https://blog.replit.com/console-stream)
-NO_SOURCE github-codespaces-cli  (rejected: https://docs.github.com/en/codespaces/developing-in-codespaces/using-the-github-codespaces-cli)
-ADDED     pill-identifier-ai
-  new: https://www.pillidentifier.ai/
-ADDED     proselint
-  new: https://github.com/amperser/proselint
-ADDED     personal-capital-dashboard
-  new: https://www.personalcapital.com/dashboard
-ADDED     perceptual-test
-  new: https://www.bristol.ac.uk/psychology/research/perception/perceptual-tests/
-NO_SOURCE tree-sitter-playground  (rejected: https://tree-sitter.github.io/tree-sitter/playground)
-NO_SOURCE proto-arts-lab  (rejected: https://www.proto-artslab.com/)
-NO_SOURCE textual-inversion-visualizer  (rejected: https://huggingface.co/spaces/huggingface-projects/textual-inversion-visualizer)
-NO_SOURCE zenkit-spaces  (rejected: https://zenkit.com/spaces/)
-NO_SOURCE maple-preview  (rejected: https://github.com/Ternary-MoE/Maple-MoE/tree/main/demo/Maple-Preview)
-NO_SOURCE federal-tax-data-system  (rejected: https://www.census.gov/fsrdc/data/irs)
-ADDED     super-agi-autonomous-agents
-  new: https://superagi.com
-NO_SOURCE nuage-viewer  (rejected: https://github.com/nuagedev/NuageViewer)
-NO_SOURCE llm-ops-community  (rejected: https://www.llmops.community/)
-ADDED     text-editor-for-writers
-  new: https://www.literatureandlatte.com/scrivener/overview
-ADDED     gentle-nlp
-  new: https://github.com/lowerquality/gentle
-NO_SOURCE sleepy-head  (rejected: https://sleephyd.github.io/)
-ADDED     the-memory-palace
-  new: https://thememorypalace.us
-ADDED     focuswriter-distraction-free-writing
-  new: https://gottcode.org/focuswriter/
-NO_SOURCE empower-financial-literacy
-NO_SOURCE form-data-validator  (rejected: https://github.com/alex-k-s/formv)
+## archive missing-source backfill (0/0 items)
 
-archive summary: added=10 no_source=13 remaining=0
+archive summary: added=0 no_source=0 remaining=0
 
 ## Summary
 total=0 replaced=0 kept=0 mode=live
