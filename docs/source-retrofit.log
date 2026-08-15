@@ -1,221 +1,42 @@
-# Source retrofit log — 2026-07-04T16:55:44.448Z
+# Source retrofit log — 2026-08-15T06:41:48.499Z
 # Mode: live
 
-## archive missing-source backfill (159/159 items)
-ADDED     portable-in-situ-bioprinter-skin-regeneration
-  new: https://www.nature.com/articles/s41467-020-18459-7
-ADDED     patient-specific-retinal-organoids-ipscs
-  new: https://www.nature.com/articles/s41596-023-00816-3
-ADDED     3d-bioprinted-custom-osteochondral-implants
-  new: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8900742/
-ADDED     commonwealth-fusion-systems-sparc-reactor
-  new: https://www.nature.com/articles/s41586-021-03773-9
-NO_SOURCE high-temperature-gas-cooled-reactors  (rejected: https://www.energy.gov/nuclear/advanced-reactor-designs)
-NO_SOURCE direct-air-capture-with-nuclear-power  (rejected: https://news.mit.edu/2023/nuclear-energy-carbon-capture-0328)
-NO_SOURCE calcium-carbonate-stratospheric-aerosol-injection  (rejected: https://keutschgroup.seas.harvard.edu/research/stratospheric-aerosol-injection)
-NO_SOURCE marine-cloud-brightening-2  (rejected: https://psl.noaa.gov/cloudbrightening/)
-ADDED     cirrus-cloud-thinning
-  new: https://www.nature.com/articles/s43017-023-00445-5
-NO_SOURCE enhanced-rock-weathering-agriculture  (rejected: https://www.scientificamerican.com/article/crushed-rocks-could-help-absorb-carbon-dioxide-in-farmland/)
-NO_SOURCE space-based-solar-reflectors  (rejected: https://www.technologyreview.com/2022/07/28/1056586/space-sunshade-geoengineering-climate-change/)
-NO_SOURCE direct-ocean-carbon-capture-electrochemical  (rejected: https://news.mit.edu/2023/sucking-co2-straight-out-ocean-1011)
-ADDED     bioenergy-carbon-capture-storage-algae
-  new: https://www.nature.com/articles/s41467-021-25562-4
-ADDED     solid-state-sodium-ion-batteries
-  new: https://www.nature.com/articles/s41560-022-01049-7
-ADDED     zinc-air-flow-batteries
-  new: https://www.nature.com/articles/s41560-023-01306-0
-ADDED     synthetic-microbiome-gut-health
-  new: https://www.nature.com/articles/nrmicro3367
-ADDED     synthetic-yeast-genomes-industrial-fermentation
-  new: https://www.science.org/doi/10.1126/science.aag0558
-ADDED     topological-qubits-fault-tolerant-quantum-computing
-  new: https://www.nature.com/articles/s41578-020-00192-3
-ADDED     quantum-key-distribution-networks
-  new: https://www.nature.com/articles/nature23655
-NO_SOURCE wireless-millimeter-scale-neural-dust-implants  (rejected: https://news.berkeley.edu/2016/08/03/neural-dust-could-enable-precision-brain-machine-interfaces/)
-ADDED     optogenetic-neural-interfaces
-  new: https://www.science.org/doi/10.1126/science.1206838
-ADDED     regenerative-peripheral-nerve-interfaces-prosthetics
-  new: https://www.science.org/doi/10.1126/scitranslmed.aar4281
-ADDED     ionic-liquid-post-combustion-carbon-capture
-  new: https://www.nature.com/articles/s41467-021-26792-w
-ADDED     advanced-amine-post-combustion-capture
-  new: https://www.nature.com/articles/s41467-023-40173-9
-ADDED     integrated-carbon-capture-cement
-  new: https://www.nature.com/articles/s43017-023-00508-y
-NO_SOURCE solid-state-lidar-systems  (rejected: https://www.technologyreview.com/2020/09/10/1008064/why-solid-state-lidar-is-proving-so-difficult-to-build/)
-NO_SOURCE probabilistic-human-behavior-prediction-ai  (rejected: https://www.technologyreview.com/2018/06/13/141071/how-ai-could-predict-a-pedestrians-next-move/)
-ADDED     secure-v2x-communication-autonomous-fleets
-  new: https://arxiv.org/abs/2202.09689
-NO_SOURCE real-time-hd-digital-twin-mapping  (rejected: https://www.technologyreview.com/2018/11/13/102809/autonomous-vehicles-will-need-digital-twins-of-themselves-and-the-road-to-become-truly-safe/)
-ADDED     multi-layer-fail-operational-redundancy-l5-avs
-  new: https://arxiv.org/pdf/1905.01358
-NO_SOURCE ai-powered-explainable-driving-decisions  (rejected: https://www.technologyreview.com/2021/04/28/1023793/ai-explain-self-driving-car-decisions-why/)
-ADDED     self-healing-polymers
-  new: https://www.nature.com/articles/nmat1354
-ADDED     high-entropy-alloys
-  new: https://www.nature.com/articles/s41578-021-00361-y
-ADDED     borophene-quantum-dots
-  new: https://arxiv.org/abs/2403.04781
-NO_SOURCE transparent-wood-composites  (rejected: https://www.scientificamerican.com/article/transparent-wood-is-strong-renewable-and-beautiful/)
-ADDED     janus-mos2-photocatalysts-hydrogen-production
-  new: https://www.nature.com/articles/s41467-020-17931-1
-NO_SOURCE amorphous-metal-alloys-metallic-glass  (rejected: https://www.technologyreview.com/2016/09/27/156096/why-metallic-glass-is-finally-living-up-to-its-promise/)
-ADDED     high-density-aqueous-zinc-hybrid-cathode
-  new: https://www.nature.com/articles/s41467-021-22079-y
-ADDED     quinone-bromine-aqueous-organic-flow
-  new: https://www.nature.com/articles/nenergy2016145
-ADDED     perovskite-integrated-supercapacitors
-  new: https://arxiv.org/abs/2005.02535
-ADDED     high-capacity-solid-state-chloride-batteries
-  new: https://www.science.org/doi/10.1126/science.aay9223
-NO_SOURCE molten-silicon-phase-change-storage  (rejected: https://news.mit.edu/2019/storing-solar-power-molten-silicon-0925)
-ADDED     engineered-probiotic-bioreporters
-  new: https://www.nature.com/articles/s41576-020-0220-3
-ADDED     crispr-cas-gene-circuitry-cell-fate-engineering
-  new: https://www.nature.com/articles/s41467-020-17931-z
-NO_SOURCE zed-1-0-release  (rejected: https://www.theverge.com/2024/1/17/24042079/zed-code-editor-rust-atom-tree-sitter-creators)
-NO_SOURCE mistral-medium-3-5-release
-NO_SOURCE government-open-source-platform  (rejected: https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/netherlands-dutch-government-launches-open-source-code-platform)
-NO_SOURCE ghostty-leaving-github
-NO_SOURCE tangled-federation-of-forges  (rejected: https://www.theverge.com/2023/11/14/23958938/tangled-github-federation-of-forges-decentralized-code-hosting)
-ADDED     granite-4-1-ibm-8b-model
-  new: https://arxiv.org/abs/2405.04403
-NO_SOURCE zig-project-anti-ai-policy  (rejected: https://arstechnica.com/gadgets/2023/12/the-zig-project-brings-out-the-ai-banhammer/)
-NO_SOURCE openai-where-goblins-came-from
-NO_SOURCE mozilla-opposition-chrome-prompt-api
-NO_SOURCE ladybird-web-browser-april-2026
-NO_SOURCE dav2d-hardware-accelerated-graphics
-NO_SOURCE haskell-production-engineering-mercury  (rejected: https://mercury.com/blog/our-experience-with-haskell-at-mercury)
-ADDED     maps-on-watchos-six-years
-  new: https://www.youtube.com/watch?v=F3_8fV78-1I
-ADDED     donottrack-privacy-browser-extension
-  new: https://arxiv.org/abs/2103.04870
-NO_SOURCE agents-buy-domains-deploy-cloud
-NO_SOURCE red-squares-github-outages-visualized  (rejected: https://www.theverge.com/2023/10/30/23938258/github-red-squares-outages-contributions-cian-lol)
-NO_SOURCE starfighter-16-inch-laptop
-NO_SOURCE cara-2-0-robot-dog
-NO_SOURCE dnssec-disruption-de-domains  (rejected: https://arstechnica.com/information-technology/2017/11/the-good-news-de-dnssec-problem-is-solved/)
-ADDED     clojurescript-gets-async-await
-  new: https://clojure.org/news/2023/07/03/clojurescript-1-11-60
-NO_SOURCE universal-linux-lpe-dirtyfrag  (rejected: https://arstechnica.com/information-technology/2022/03/the-linux-kernel-bug-that-lets-all-hell-break-loose-cve-2022-0847/)
-NO_SOURCE cloudflare-workforce-reduction
-NO_SOURCE abstain-from-install-software  (rejected: https://arstechnica.com/security/2024/07/prominent-technologist-advises-everyone-to-stop-installing-new-software-for-now/)
-NO_SOURCE compact-fusion-reactor-milestone  (rejected: https://www.technologyreview.com/2021/11/11/1039864/tae-technologies-fusion-power-milestone/)
-NO_SOURCE future-radar-internet-archive-switzerland
-NO_SOURCE debian-reproducible-packages  (rejected: https://arstechnica.com/gadgets/2023/01/the-reproducible-builds-project-makes-progress-with-debian-and-rust/)
-NO_SOURCE web-server-in-assembly
-NO_SOURCE one-dollar-counterfeiter  (rejected: https://www.smithsonianmag.com/history/not-so-sophisticated-sophistication-mr-880-180962772/)
-NO_SOURCE i-have-banned-query-strings
-NO_SOURCE running-local-models-on-m4  (rejected: https://arstechnica.com/gadgets/2024/05/apples-m4-chip-is-a-beast-for-ai-but-what-does-it-mean-for-mac-users/)
-NO_SOURCE ratty-terminal-emulator-3d-graphics
-NO_SOURCE future-radar-hardware-attestation-monopoly-enabler  (rejected: https://www.technologyreview.com/2018/06/13/141445/a-new-way-to-keep-computers-secure-could-backfire-on-users/)
-NO_SOURCE writing-code-by-hand  (rejected: https://www.technologyreview.com/2014/10/21/170942/you-dont-need-a-computer-to-teach-computational-thinking/)
-NO_SOURCE graphene-based-thermoelectric-generator  (rejected: https://news.ucr.edu/articles/2021/12/16/ucr-researchers-turn-waste-heat-electricity-new-thermoelectric-device)
-ADDED     ucla-stroke-rehabilitation-drug
-  new: https://www.uclahealth.org/newsroom/ucla-scientists-discover-new-way-to-promote-brain-repair-after-stroke
-NO_SOURCE tanstack-npm-supply-chain-compromise-postmortem
-NO_SOURCE if-ai-writes-your-code-why-use-python  (rejected: https://news.mit.edu/2023/how-ai-could-transform-programming-for-better-or-worse-0801)
-NO_SOURCE they-live-adblocker
-NO_SOURCE learning-software-architecture  (rejected: https://ocw.mit.edu/courses/6-170-software-architecture-and-engineering-fall-2003/)
-NO_SOURCE deterministic-whole-binary-translation
-NO_SOURCE needle-gemini-tool-calling-model
-NO_SOURCE googlebook-project
-NO_SOURCE orcaslicer-bambulab-restoration
-NO_SOURCE monokai-digital-stack-europe
-NO_SOURCE linux-gaming-performance-boost  (rejected: https://arstechnica.com/gaming/2019/07/valve-fsync-patches-linux-kernel-proton-gaming-beast/)
-NO_SOURCE anthropic-claude-small-business  (rejected: https://www.theverge.com/2024/5/29/24167192/anthropic-claude-ai-for-teams-business-pricing)
-NO_SOURCE locality-domains-internet-infrastructure
-NO_SOURCE macbook-neo-performance-analysis
-NO_SOURCE google-ide-history
-NO_SOURCE zerostack-unix-agent
-NO_SOURCE mozilla-vpn-advocacy  (rejected: https://www.theverge.com/2023/2/17/23603417/mozilla-uk-online-safety-bill-encryption-privacy-security)
-NO_SOURCE voltmeter-clock-design
-NO_SOURCE website-on-8bit-microcontroller
-NO_SOURCE openai-malta-chatgpt-partnership
-NO_SOURCE automating-data-broker-opt-outs
-ADDED     gen-cad-gene-circuitry-design
-  new: https://www.nature.com/articles/s41467-023-44670-w
-NO_SOURCE rk3562-android-to-linux-workstation
-NO_SOURCE jank-custom-ir
-NO_SOURCE askanastronaut-qa-footage  (rejected: https://www.nasa.gov/mission_pages/station/research/news/iss_in_realtime.html)
-NO_SOURCE apple-intelligence-accessibility  (rejected: https://www.theverge.com/2024/6/10/24174624/apple-intelligence-ai-features-ios-18-macos-siri-image-generation)
-ADDED     gaussian-splatting-strawberry
-  new: https://arxiv.org/abs/2308.07901
-NO_SOURCE npm-package-compromise-mini-shai-hulud
-NO_SOURCE cursor-composer-2-5-update
-NO_SOURCE click-click-click-interactive-experience
-NO_SOURCE flow-state-focused-writing-app-deletes-work  (rejected: https://flowstateapp.com)
-NO_SOURCE gnuplot-command-line-scientific-plotting-2  (rejected: https://www.gnuplot.info)
-NO_SOURCE clipboard-history-two-manager  (rejected: https://github.com/clipboard-history/clipboard-history)
-NO_SOURCE hypercontext-meeting-agendas-one-on-ones  (rejected: https://hypercontext.com/)
-NO_SOURCE grasshopper-learn-to-code-javascript  (rejected: https://grasshopper.app/)
-ADDED     pinegrow-visual-web-editor-code
-  new: https://pinegrow.com/
-NO_SOURCE homebank-personal-finance-money-manager  (rejected: https://homebank.free.fr)
-NO_SOURCE mercury-reader-distraction-free
-NO_SOURCE contextify-visualize-text-data-browser  (rejected: https://contextify.cc/)
-NO_SOURCE aethertext-ai-creative-writing  (rejected: https://aethertext.com)
-NO_SOURCE imapping-visual-knowledge-mapping  (rejected: https://imapping.io)
-NO_SOURCE context-search-web-ext-multi-engine  (rejected: https://github.com/kernelpoet/ContextSearch-web-ext)
-ADDED     seshie-structured-remote-meeting-facilitator
-  new: https://seshie.com/
-NO_SOURCE reflect-google-jigsaw-difficult-conversations  (rejected: https://jigsaw.google.com/reflect/)
-NO_SOURCE mail-tracker-blocker-privacy-apple-mail  (rejected: https://github.com/ReticentMark/MailTrackerBlocker)
-ADDED     exa-modern-ls-replacement
-  new: https://github.com/ogham/exa
-NO_SOURCE dog-modern-command-line-dns-client  (rejected: https://github.com/hexops/dog)
-ADDED     thermodynamics-engineering-textbook
-  new: https://www.thermodynamicsbook.com
-ADDED     terminal-image-viewer
-  new: https://github.com/atanunq/viu
-ADDED     markdeep
-  new: https://casual-effects.com/markdeep/
-NO_SOURCE ai-paper-summarizer-demo
-ADDED     terminal-image-viewer-2
-  new: https://github.com/stefanhaustein/TerminalImageViewer
-NO_SOURCE visual-diff-tool-code
-ADDED     simple-command-line-log-viewer
-  new: https://github.com/logviewer/logviewer
-ADDED     fontface-observer
-  new: https://github.com/bramstein/fontfaceobserver
-NO_SOURCE quickbooks-self-employed-tax-tracking  (rejected: https://quickbooks.intuit.com/self-employed/)
-ADDED     bobby-subscription-tracker-manager
-  new: https://www.getbobby.com
-NO_SOURCE boostnote-markdown-developer-notes-snippets  (rejected: https://boostnote.io/)
-ADDED     launchy-keyboard-driven-application-launcher
-  new: https://www.launchy.net/
-ADDED     wallabag-self-hosted-read-it-later
-  new: https://wallabag.org
-ADDED     matter-read-later-newsletter-highlights
-  new: https://getmatter.com
-ADDED     snagit-screen-capture-annotation-editing
-  new: https://www.techsmith.com/screen-capture.html
-NO_SOURCE shopwell-scan-food-for-nutrition-allergens  (rejected: https://www.shopwell.com/)
-NO_SOURCE platejoy-personalized-meal-plans-nutrition  (rejected: https://oviahealth.com/platejoy/)
-NO_SOURCE blur-abine-privacy-password-manager
-NO_SOURCE homebank-free-open-source-personal-accounting  (rejected: https://homebank.free.fr/)
-NO_SOURCE bills-reminder-simple-payment-tracker  (rejected: https://play.google.com/store/apps/details?id=com.ivankovalev.billsreminder)
-ADDED     recipe-keeper-digital-cookbook-meal-planner
-  new: https://www.recipekeeper.com
-ADDED     runjs-javascript-playground-snippets
-  new: https://runjs.app
-NO_SOURCE snipped-dev-collaborative-code-snippets  (rejected: https://snipped.dev)
-NO_SOURCE glyphboard-emoji-symbol-mac-clipboard  (rejected: https://glyphboard.app/)
-NO_SOURCE kap-open-source-screen-recorder-mac  (rejected: https://kap.tools/)
-NO_SOURCE allrecipes-community-shared-recipes  (rejected: https://www.allrecipes.com)
-NO_SOURCE perfect-meal-ai-meal-planner
-NO_SOURCE 7-weeks-habit-goal-tracker  (rejected: https://geekylemon.co.uk/7-weeks-habit-tracker/)
-ADDED     codever-self-hostable-snippet-manager
-  new: https://www.codever.dev/
-NO_SOURCE pastel-sh-minimalist-code-snippet-sharing  (rejected: https://pastel.sh)
-NO_SOURCE rebuild-openai-api-wrapper
-NO_SOURCE stable-diffusion-webui-docker  (rejected: https://github.com/AbdullahAlfaraj/stable-diffusion-webui-docker)
-NO_SOURCE llm-course  (rejected: https://www.llmcourse.ai/)
-NO_SOURCE awesome-gpt-image-2-prompts  (rejected: https://github.com/dalinvip/awesome-gpt-image-2-prompts)
+## archive missing-source backfill (23/23 items)
+ADDED     visualshaper-ai-code-to-diagram
+  new: https://www.visualshaper.com
+NO_SOURCE replit-console-stream  (rejected: https://blog.replit.com/console-stream)
+NO_SOURCE github-codespaces-cli  (rejected: https://docs.github.com/en/codespaces/developing-in-codespaces/using-the-github-codespaces-cli)
+ADDED     pill-identifier-ai
+  new: https://www.pillidentifier.ai/
+ADDED     proselint
+  new: https://github.com/amperser/proselint
+ADDED     personal-capital-dashboard
+  new: https://www.personalcapital.com/dashboard
+ADDED     perceptual-test
+  new: https://www.bristol.ac.uk/psychology/research/perception/perceptual-tests/
+NO_SOURCE tree-sitter-playground  (rejected: https://tree-sitter.github.io/tree-sitter/playground)
+NO_SOURCE proto-arts-lab  (rejected: https://www.proto-artslab.com/)
+NO_SOURCE textual-inversion-visualizer  (rejected: https://huggingface.co/spaces/huggingface-projects/textual-inversion-visualizer)
+NO_SOURCE zenkit-spaces  (rejected: https://zenkit.com/spaces/)
+NO_SOURCE maple-preview  (rejected: https://github.com/Ternary-MoE/Maple-MoE/tree/main/demo/Maple-Preview)
+NO_SOURCE federal-tax-data-system  (rejected: https://www.census.gov/fsrdc/data/irs)
+ADDED     super-agi-autonomous-agents
+  new: https://superagi.com
+NO_SOURCE nuage-viewer  (rejected: https://github.com/nuagedev/NuageViewer)
+NO_SOURCE llm-ops-community  (rejected: https://www.llmops.community/)
+ADDED     text-editor-for-writers
+  new: https://www.literatureandlatte.com/scrivener/overview
+ADDED     gentle-nlp
+  new: https://github.com/lowerquality/gentle
+NO_SOURCE sleepy-head  (rejected: https://sleephyd.github.io/)
+ADDED     the-memory-palace
+  new: https://thememorypalace.us
+ADDED     focuswriter-distraction-free-writing
+  new: https://gottcode.org/focuswriter/
+NO_SOURCE empower-financial-literacy
+NO_SOURCE form-data-validator  (rejected: https://github.com/alex-k-s/formv)
 
-archive summary: added=53 no_source=106 remaining=0
+archive summary: added=10 no_source=13 remaining=0
 
 ## Summary
 total=0 replaced=0 kept=0 mode=live

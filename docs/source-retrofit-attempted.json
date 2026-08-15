@@ -331,5 +331,18 @@
   "rebuild-openai-api-wrapper": "2026-07-04",
   "stable-diffusion-webui-docker": "2026-07-04",
   "llm-course": "2026-07-04",
-  "awesome-gpt-image-2-prompts": "2026-07-04"
+  "awesome-gpt-image-2-prompts": "2026-07-04",
+  "replit-console-stream": "2026-08-15",
+  "github-codespaces-cli": "2026-08-15",
+  "tree-sitter-playground": "2026-08-15",
+  "proto-arts-lab": "2026-08-15",
+  "textual-inversion-visualizer": "2026-08-15",
+  "zenkit-spaces": "2026-08-15",
+  "maple-preview": "2026-08-15",
+  "federal-tax-data-system": "2026-08-15",
+  "nuage-viewer": "2026-08-15",
+  "llm-ops-community": "2026-08-15",
+  "sleepy-head": "2026-08-15",
+  "empower-financial-literacy": "2026-08-15",
+  "form-data-validator": "2026-08-15"
 }
