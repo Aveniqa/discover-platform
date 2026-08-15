@@ -344,6 +344,23 @@ async function publishToTwitter(post) {
 
     if (!res.ok) {
       const err = await res.text();
+      // 402 = the X account has no API credits. That's a billing state, not
+      // a bug: it recurs on every post until someone tops the account up, so
+      // log it once as a skip instead of an error and let Bluesky/Pinterest
+      // carry the run. 403 with a cap message behaves the same way.
+      const isQuota =
+        res.status === 402 ||
+        /CreditsDepleted|UsageCapExceeded|quota/i.test(err);
+      if (isQuota) {
+        if (!globalThis.__xQuotaWarned) {
+          globalThis.__xQuotaWarned = true;
+          console.log(
+            "   ⏭ X/Twitter: skipped — account is out of API credits. " +
+              "Top up at https://developer.x.com to resume; other platforms are unaffected."
+          );
+        }
+        return false;
+      }
       console.error(`   ❌ X/Twitter: ${res.status} — ${err.slice(0, 200)}`);
       return false;
     }

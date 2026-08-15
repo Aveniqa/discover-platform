@@ -198,7 +198,21 @@ if (!Array.isArray(events)) {
 
 const ids = new Set();
 const active = events.filter((event) => event.status === "active");
-if (active.length < 3) fail("At least three active current events are required for the homepage");
+
+/* A fully retired module is a valid state, not a failure.
+   The current-events feeders (Trending Live Content / Daily Discovery)
+   were retired in 2026-05 when the site pivoted to the tools niche, so
+   nothing refreshes these guides any more. Demanding three *active*
+   events forever would mean either a permanently red build or publishing
+   seasonal claims long after they stopped being true. So: if nothing is
+   active, the module is simply off — validate the records for shape and
+   stop. The freshness bar still applies to anything actually published. */
+const moduleDisabled = active.length === 0;
+if (moduleDisabled) {
+  console.log("ℹ️  Current-events module is disabled (0 active events) — homepage requirements skipped.");
+} else if (active.length < 3) {
+  fail("At least three active current events are required for the homepage");
+}
 
 for (const [index, event] of events.entries()) {
   const label = `events[${index}]`;
@@ -225,7 +239,11 @@ for (const [index, event] of events.entries()) {
   validateDate(event.publishedAt, `${label}.publishedAt`);
   validateDate(event.lastVerifiedAt, `${label}.lastVerifiedAt`);
   if (event.publishedAt !== event.sourcePublishedAt) fail(`${label}.publishedAt must match sourcePublishedAt until a separate normalized feed date is needed`);
-  if (dateAgeDays(event.sourcePublishedAt) > 90) fail(`${label}.sourcePublishedAt is stale for a current-event guide`);
+  // Freshness only binds on what is actually published. A retired/expired
+  // record is history, and history is allowed to be old.
+  if (event.status === "active" && dateAgeDays(event.sourcePublishedAt) > 90) {
+    fail(`${label}.sourcePublishedAt is stale for a current-event guide`);
+  }
 
   const sourceUrl = parseHttpsUrl(event.sourceUrl, `${label}.sourceUrl`);
   if (sourceUrl && !hostAllowed(host(sourceUrl), allowedSourceHosts)) fail(`${label}.sourceUrl host is not allowlisted: ${host(sourceUrl)}`);

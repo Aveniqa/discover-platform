@@ -1,5 +1,4 @@
 import { getAllItems, collections_data } from "@/lib/data";
-import { monitoredCurrentEvents } from "@/lib/current-events";
 import { SITE_URL, getBuildDate } from "@/lib/seo";
 import type { MetadataRoute } from "next";
 
@@ -34,12 +33,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const livePages: MetadataRoute.Sitemap = monitoredCurrentEvents.map((event) => ({
-    url: `${SITE_URL}/live/${event.id}`,
-    lastModified: new Date(event.lastVerifiedAt || getBuildDate()),
-    changeFrequency: "hourly" as const,
-    priority: 0.85,
-  }));
+  /* The /live current-event guides were retired 2026-08-15: their feeder
+     workflows were switched off during the 2026-05 niche pivot, so the
+     published guides had aged into false present-tense claims ("…Week is
+     underway") while still being indexed. The route is gone; the data,
+     lib, and validator survive for revival. */
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: SITE_URL, changeFrequency: "daily" as const, priority: 1.0 },
@@ -62,5 +60,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/affiliate-disclosure`, changeFrequency: "yearly" as const, priority: 0.3 },
   ].map((p) => ({ ...p, lastModified: buildDate }));
 
-  return [...staticPages, ...livePages, ...collectionPages, ...itemPages];
+  return [...staticPages, ...collectionPages, ...itemPages];
 }
