@@ -18,7 +18,7 @@ tags: [surfaced, dashboard, generated]
 | **Live items** | **886** (453 hidden gems · 433 daily tools) |
 | **Last edition** | 2026-08-14 (10 items) |
 | **Archive** | 2579 items — permanent, keeps `/item/<slug>` alive for search |
-| **Real screenshots** | 796/886 (90%) |
+| **Real screenshots** | 811/886 (92%) |
 | **Cached photos** | 3936 |
 | **Live items missing a link** | 0 ✅ |
 | **Archived items without a source** | 356 (ledgered as unverifiable — do not retry) |

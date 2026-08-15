@@ -425,6 +425,7 @@ async function generateItems(category, existingItems, count, seeds = []) {
   "whatItDoes": "<4-5 sentences: describe the tool's core function, the specific problem it solves, who built it, and one concrete example of how someone would use it today>",
   "category": "<Design|Productivity|Education|Finance|Developer|Writing|Health|Entertainment|Social|Reference>",
   "whyItIsUseful": "<5-7 sentences: explain why this tool is underrated — what makes it better or different from mainstream alternatives, what power users love about it, any notable features most people miss, and the type of person who gets the most value from it>",
+  "everydayUse": "<2-3 sentences, 45-70 words: concrete ordinary moments someone would actually reach for this (a Sunday budget, a group trip, a hand-off before annual leave). Second person, plain language, no hype. Situations only — do NOT restate features.>",
   "imageIdea": "<concrete visual noun>",
   "websiteLink": "<real working URL — e.g. https://obsidian.md>",
   "type": "hidden-gem"
@@ -449,6 +450,7 @@ async function generateItems(category, existingItems, count, seeds = []) {
   "whatItDoes": "<4-5 sentences: describe the tool's primary function, the workflow or problem it addresses, its pricing model (free/freemium/paid), and one specific task it handles better than any other tool>",
   "category": "<Productivity|Design|Developer|Writing|Finance|Health|Education|Entertainment|Social|Reference>",
   "whyItIsUseful": "<5-7 sentences: explain why this tool earns a permanent spot in someone's workflow — standout features, time or money it saves, any integrations with popular platforms, what its most enthusiastic users say, and who gets the most out of it>",
+  "everydayUse": "<2-3 sentences, 45-70 words: concrete ordinary moments someone would actually reach for this (a Sunday budget, a group trip, a hand-off before annual leave). Second person, plain language, no hype. Situations only — do NOT restate features.>",
   "imageIdea": "<concrete visual noun like 'productivity app laptop workspace'>",
   "websiteLink": "<real working URL — e.g. https://notion.so>",
   "type": "tool"

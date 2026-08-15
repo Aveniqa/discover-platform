@@ -4,6 +4,7 @@ import {
   getItemTitle,
   getItemExcerpt,
   getItemScreenshot,
+  getItemSiteUrl,
   getCategoryColor,
   getCategoryLabel,
   type AnyItem,
@@ -98,6 +99,7 @@ export default async function CollectionPage({ params }: Props) {
                   slug={item.slug}
                   alt={getItemTitle(item)}
                   screenshotUrl={getItemScreenshot(item)}
+          websiteLink={getItemSiteUrl(item)}
                   aspectRatio="3/2"
                   size="sm"
                   className="group-hover:scale-[1.03] transition-transform duration-500"

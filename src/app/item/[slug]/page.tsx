@@ -577,6 +577,23 @@ export default async function ItemPage({ params }: Props) {
             </ScrollReveal>
           )}
 
+          {/* ── In everyday life — concrete moments you'd reach for it ── */}
+          {(item as { everydayUse?: string }).everydayUse && (
+            <ScrollReveal delay={120}>
+              <div className="mb-12 rounded-2xl border border-amber-400/25 bg-amber-400/[0.04] p-7 sm:p-10 editorial-block">
+                <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-amber-300/90 mb-2">
+                  In everyday life
+                </p>
+                <h2 className="text-xl sm:text-2xl font-black text-foreground mb-4">
+                  When you&rsquo;d actually reach for this
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  {(item as { everydayUse?: string }).everydayUse}
+                </p>
+              </div>
+            </ScrollReveal>
+          )}
+
           {/* ── Development stage (future-tech only) ─────────── */}
           {item.type === "future-tech" && (
             <ScrollReveal delay={150}>
