@@ -7,6 +7,7 @@ import {
   getItemCategory,
   getItemTitle,
   getItemScreenshot,
+  getItemSiteUrl,
   type AnyItem,
 } from "@/lib/data";
 import { itemListLd, ldScript } from "@/lib/jsonld";
@@ -395,6 +396,7 @@ function LeadCard({ item }: { item: AnyItem }) {
           slug={item.slug}
           alt={title}
           screenshotUrl={getItemScreenshot(item)}
+          websiteLink={getItemSiteUrl(item)}
           aspectRatio="16/10"
           priority
           size="lg"
@@ -464,6 +466,7 @@ function SupportingCard({ item, compact = false }: { item: AnyItem; compact?: bo
             slug={item.slug}
             alt={title}
             screenshotUrl={getItemScreenshot(item)}
+          websiteLink={getItemSiteUrl(item)}
             aspectRatio={compact ? "1/1" : "16/9"}
             size="sm"
             className="group-hover:scale-[1.03] transition-transform duration-500"
@@ -569,6 +572,7 @@ function AlcoveItemCard({ item }: { item: AnyItem }) {
             slug={item.slug}
             alt={title}
             screenshotUrl={getItemScreenshot(item)}
+          websiteLink={getItemSiteUrl(item)}
             aspectRatio="16/9"
             size="sm"
             imgClassName="group-hover:scale-[1.04] transition-transform duration-500"

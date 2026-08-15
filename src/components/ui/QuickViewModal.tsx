@@ -13,6 +13,7 @@ import {
   getItemWhyText,
   getItemOutboundUrl,
   getItemScreenshot,
+  getItemSiteUrl,
   getCtaLabel,
   getCategoryColor,
   getCategoryLabel,
@@ -84,7 +85,7 @@ export function QuickViewModal({ item, onClose }: QuickViewModalProps) {
 
         {/* Image */}
         <div className="overflow-hidden rounded-t-2xl">
-          <ItemVisual slug={item.slug} alt={title} screenshotUrl={getItemScreenshot(item)} aspectRatio="16/7" size="md" />
+          <ItemVisual slug={item.slug} alt={title} screenshotUrl={getItemScreenshot(item)} websiteLink={getItemSiteUrl(item)} aspectRatio="16/7" size="md" />
         </div>
 
         <div className="p-6 sm:p-8">

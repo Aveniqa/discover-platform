@@ -51,6 +51,8 @@ export interface HiddenGem {
   whyItIsUseful: string;
   websiteLink: string;
   screenshotUrl?: string;
+  /** 2-3 concrete "you would actually use this when…" scenarios (everyday framing) */
+  everydayUse?: string;
   badge?: string;
   type: "hidden-gem";
 }
@@ -77,6 +79,8 @@ export interface DailyTool {
   whyItIsUseful: string;
   websiteLink: string;
   screenshotUrl?: string;
+  /** 2-3 concrete "you would actually use this when…" scenarios (everyday framing) */
+  everydayUse?: string;
   badge?: string;
   type: "tool";
 }
@@ -266,6 +270,13 @@ export function getItemCategory(item: AnyItem): string {
 export function getItemScreenshot(item: AnyItem): string | null {
   if (item.type === "hidden-gem") return (item as HiddenGem).screenshotUrl || null;
   if (item.type === "tool") return (item as DailyTool).screenshotUrl || null;
+  return null;
+}
+
+/** The item's own site URL — used to show its real logo when no screenshot exists */
+export function getItemSiteUrl(item: AnyItem): string | null {
+  if (item.type === "hidden-gem") return (item as HiddenGem).websiteLink || null;
+  if (item.type === "tool") return (item as DailyTool).websiteLink || null;
   return null;
 }
 

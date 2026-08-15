@@ -92,6 +92,15 @@ jobs:
         # the workflow repeatedly until "unprocessed=0".
         run: node scripts/retrofit-sources.mjs --run --archive-missing --limit=250
 
+      - name: Backfill "In everyday life" notes (batch of 250)
+        if: ${{ inputs.mode == 'remediate' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # Concrete "you'd reach for this when…" moments. Idempotent: skips
+        # items that already have the field, so re-dispatch until 0 remain.
+        run: node scripts/backfill-everyday-use.mjs --run --limit=250
+        continue-on-error: true
+
       - name: Backfill seoTitle on over-long titles
         if: ${{ inputs.mode == 'remediate' }}
         env:

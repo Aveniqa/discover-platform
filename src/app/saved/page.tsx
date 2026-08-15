@@ -9,6 +9,7 @@ import {
   getItemDescription,
   getItemExcerpt,
   getItemScreenshot,
+  getItemSiteUrl,
   getCategoryColor,
   getCategoryLabel,
   todaysPicks,
@@ -149,7 +150,7 @@ export default function SavedPage() {
                       aria-label={`Read ${pick.title}`}
                       className="group flex flex-col rounded-xl border border-border/60 bg-surface overflow-hidden hover:border-accent/30 transition-all"
                     >
-                      <ItemVisual slug={pick.slug} alt={pick.title} screenshotUrl={getItemScreenshot(fullItem)} aspectRatio="3/2" size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
+                      <ItemVisual slug={pick.slug} alt={pick.title} screenshotUrl={getItemScreenshot(fullItem)} websiteLink={getItemSiteUrl(fullItem)} aspectRatio="3/2" size="sm" className="group-hover:scale-[1.03] transition-transform duration-500" />
                       <div className="p-4 flex flex-col flex-1">
                         <CategoryBadge color={getCategoryColor(fullItem.type)} label={getCategoryLabel(fullItem.type)} className="mb-2 self-start" />
                         <h3 className="text-sm font-semibold text-foreground group-hover:text-accent transition-colors line-clamp-2 mb-1">
