@@ -1,19 +1,19 @@
 [
   {
-    "slug": "text-to-stopmotion-animation",
-    "title": "Text to Stop Motion Animation",
+    "slug": "pinboard-social-bookmarking",
+    "title": "Pinboard",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This AI-powered tool translates textual descriptions into stop-motion animation sequences. Users provide a narrative pro",
+    "description": "Pinboard is a specialized social bookmarking service that prioritizes speed, privacy, and user control. It functions as ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "productivity-dashboard-app",
-    "title": "Momentum",
+    "slug": "dialogue-decoder",
+    "title": "Dialogue Decoder",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Momentum replaces your default new tab page with a beautiful, inspiring dashboard designed to boost your daily productiv",
+    "description": "Dialogue Decoder is a specialized application designed to improve the quality and effectiveness of personal conversation",
     "badge": null,
     "type": "tool"
   }
