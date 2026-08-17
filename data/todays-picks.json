@@ -1,19 +1,19 @@
 [
   {
-    "slug": "pinboard-social-bookmarking",
-    "title": "Pinboard",
+    "slug": "scrapscript",
+    "title": "ScrapScript",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Pinboard is a specialized social bookmarking service that prioritizes speed, privacy, and user control. It functions as ",
+    "description": "ScrapScript is a web-based application engineered for efficient and uncluttered note-taking. It provides a minimalist en",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "dialogue-decoder",
-    "title": "Dialogue Decoder",
+    "slug": "journalytic",
+    "title": "Journalytic",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Dialogue Decoder is a specialized application designed to improve the quality and effectiveness of personal conversation",
+    "description": "Journalytic is an AI-powered platform designed to help researchers quickly analyze academic papers. It allows users to u",
     "badge": null,
     "type": "tool"
   }

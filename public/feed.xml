@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Journalytic</title>
+      <link>https://surfaced-x.pages.dev/item/journalytic</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/journalytic</guid>
+      <description>Journalytic is an AI-powered platform designed to help researchers quickly analyze academic papers. It allows users to upload research papers and then uses artificial intelligence to extract key information, such as methodology, results, limitations, and future research directions. The tool aims to significantly speed up the literature review process, making it easier for academics, students, and scientists to digest large volumes of research. It operates on a freemium model, offering basic analysis for free with advanced features available through paid subscriptions.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1608114/pexels-photo-1608114.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1608114/pexels-photo-1608114.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1608114/pexels-photo-1608114.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Taguette</title>
+      <link>https://surfaced-x.pages.dev/item/taguette</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/taguette</guid>
+      <description>Taguette is a free and open-source desktop application designed for qualitative data analysis. It allows users to code and annotate text documents, making it easier to identify themes and patterns within qualitative research data like interview transcripts or field notes. It prioritizes user privacy and data control, as all analysis happens locally on your machine. This tool is especially valuable for researchers and students who require robust qualitative analysis capabilities without the cost of proprietary software.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g2f2fff45d788f1246a3fb28b4992b2bb688530c8f5f916517a5f5da29b50b64664c6ca15c0c925b1ba1ae29b9cfecf018f63840ea7a2401bde153ab5033df57d_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g2f2fff45d788f1246a3fb28b4992b2bb688530c8f5f916517a5f5da29b50b64664c6ca15c0c925b1ba1ae29b9cfecf018f63840ea7a2401bde153ab5033df57d_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g2f2fff45d788f1246a3fb28b4992b2bb688530c8f5f916517a5f5da29b50b64664c6ca15c0c925b1ba1ae29b9cfecf018f63840ea7a2401bde153ab5033df57d_1280.jpg" />
+    </item>
+    <item>
+      <title>Connected Papers</title>
+      <link>https://surfaced-x.pages.dev/item/connected-papers</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/connected-papers</guid>
+      <description>Connected Papers is a visually driven research tool that helps you discover and explore academic papers. By inputting a single paper, it generates a graph of its related works, mapping out the research landscape and highlighting seminal studies and emerging trends. This freemium service provides a powerful alternative to traditional keyword searches, allowing for serendipitous discovery and a deeper understanding of a field&apos;s intellectual lineage. It&apos;s particularly adept at revealing connections you might have otherwise missed.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17202976/pexels-photo-17202976.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/17202976/pexels-photo-17202976.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/17202976/pexels-photo-17202976.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Hypothesis</title>
+      <link>https://surfaced-x.pages.dev/item/hypothesis-web-highlighter</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hypothesis-web-highlighter</guid>
+      <description>Hypothesis is an open-source annotation tool that allows you to highlight and comment on any webpage or PDF. It functions as a browser extension, enabling you to privately annotate content or engage in public discussions with others. This collaborative platform is free to use, making it accessible for students, researchers, and anyone who wants to deepen their engagement with online information. It excels at turning passive reading into an active, social learning experience.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7358/startup-photos.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7358/startup-photos.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7358/startup-photos.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>awesome-dsh-plugin</title>
+      <link>https://surfaced-x.pages.dev/item/deepseek-harness-plugins</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepseek-harness-plugins</guid>
+      <description>This GitHub repository functions as a dynamic, community-curated directory for plugins designed to augment DeepSeek Harness (dsh).  It centralizes open-source extensions that enhance dsh&apos;s core functionalities, enabling users to customize and expand the platform&apos;s utility. The project emphasizes modularity, allowing for tailored integration of new tools to meet diverse user requirements.  Development and maintenance are hosted on GitHub, promoting an environment of transparency and collaborative improvement for all contributors.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1516116412344-6663387e8590?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY5NjU2NTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1516116412344-6663387e8590?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY5NjU2NTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1516116412344-6663387e8590?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY5NjU2NTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
     <item>
       <title>Dialogue Decoder</title>
       <link>https://surfaced-x.pages.dev/item/dialogue-decoder</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/38804889/pexels-photo-38804889.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>ScrapScript</title>
+      <link>https://surfaced-x.pages.dev/item/scrapscript</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/scrapscript</guid>
+      <description>ScrapScript is a web-based application engineered for efficient and uncluttered note-taking. It provides a minimalist environment optimized for speed, allowing users to focus entirely on content creation. Key features include robust Markdown support for structured text formatting and effortless cloud synchronization, ensuring notes are consistently updated and accessible across multiple devices. This makes ScrapScript particularly well-suited for capturing fleeting thoughts, developing longer written pieces, or organizing ideas without the encumbrance of overly complex software.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/9890095/pexels-photo-9890095.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/9890095/pexels-photo-9890095.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/9890095/pexels-photo-9890095.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Tiktoken</title>
       <link>https://surfaced-x.pages.dev/item/tiktoken</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tiktoken</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Perpetual Calendar</title>
+      <link>https://surfaced-x.pages.dev/item/perpetual-calendar</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/perpetual-calendar</guid>
+      <description>This website provides an interactive perpetual calendar, allowing you to instantly view the day of the week for any date in history or the future. It&apos;s a simple yet powerful tool for historical research, genealogical work, or even just satisfying curiosity about when specific events occurred. The interface is clean and intuitive, making it easy to navigate through centuries. It&apos;s a straightforward reference tool for anyone needing to pinpoint dates with certainty.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/295884/pexels-photo-295884.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/295884/pexels-photo-295884.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/295884/pexels-photo-295884.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Zed</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.unsplash.com/photo-1779449191406-e5a44a002f46?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzNjIyOTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
+      <title>Quotefancy</title>
+      <link>https://surfaced-x.pages.dev/item/quotefancy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/quotefancy</guid>
+      <description>Quotefancy is a web tool that allows users to create visually appealing images featuring quotes. It offers a wide variety of customizable templates, backgrounds, and fonts, enabling anyone to transform text into shareable graphics for social media or personal use. The platform simplifies the process of finding and formatting inspirational, motivational, or meaningful quotes, making them more engaging than plain text.  It&apos;s built for individuals and marketers alike who want to enhance their content with powerful words.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6149064/pexels-photo-6149064.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6149064/pexels-photo-6149064.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6149064/pexels-photo-6149064.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Proto.io</title>
       <link>https://surfaced-x.pages.dev/item/proto-io</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/proto-io</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Anthropic&apos;s &apos;watermark&apos; text adulteration in Claude is a perversion of writing</title>
+      <link>https://surfaced-x.pages.dev/item/daring-fireball-claude-watermark</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daring-fireball-claude-watermark</guid>
+      <description>This article from Daring Fireball critically examines Anthropic&apos;s decision to embed imperceptible watermarks in the text generated by their Claude AI models. It argues that this practice, while intended for detecting AI-generated content, fundamentally alters the nature of writing and raises ethical concerns about authorship and the manipulation of information. The piece delves into the implications for writers, readers, and the broader digital landscape, questioning the trustworthiness of AI outputs.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/18449922/pexels-photo-18449922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/18449922/pexels-photo-18449922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/18449922/pexels-photo-18449922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Spline</title>
       <link>https://surfaced-x.pages.dev/item/spline-design</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spline-design</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/3913016/pexels-photo-3913016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/3913016/pexels-photo-3913016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/3913016/pexels-photo-3913016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Git-knife</title>
+      <link>https://surfaced-x.pages.dev/item/git-knife</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/git-knife</guid>
+      <description>Git-knife is a command-line tool that allows you to edit Git commit messages, authors, and dates using a spreadsheet-like interface. This is particularly useful for cleaning up a messy commit history before merging or pushing changes, or for correcting mistakes in metadata. It provides a more visual and intuitive way to manipulate Git log data than traditional Git commands alone, offering precision and flexibility for developers who need to refine their commit records.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/27603406/pexels-photo-27603406.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/27603406/pexels-photo-27603406.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/27603406/pexels-photo-27603406.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Generative Texture Kit</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/3832026/pexels-photo-3832026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/3832026/pexels-photo-3832026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/3832026/pexels-photo-3832026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Typogram</title>
-      <link>https://surfaced-x.pages.dev/item/typogram-visual-editor</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typogram-visual-editor</guid>
-      <description>Typogram is a web-based tool designed to help individuals and small businesses create professional brand identities, focusing on typography and logo design. It offers a guided workflow that simplifies complex design principles, allowing users to generate unique logos, select complementary fonts, and define color palettes that align with their brand&apos;s personality. The platform operates on a freemium model, providing basic logo creation and font exploration for free, with premium tiers unlocking advanced features, more design assets, and commercial usage rights. It excels at democratizing brand design, making sophisticated visual identity creation accessible without requiring extensive graphic design experience.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7675031/pexels-photo-7675031.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7675031/pexels-photo-7675031.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7675031/pexels-photo-7675031.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Semaglutide linked to lower predicted dementia risk</title>
-      <link>https://surfaced-x.pages.dev/item/semaglutide-dementia-risk-study</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/semaglutide-dementia-risk-study</guid>
-      <description>This article reports on a study published in the Alzheimer&apos;s &amp; Dementia journal that investigated the potential link between the use of semaglutide, a popular diabetes and weight-loss drug, and a reduced risk of developing dementia. The research analyzed real-world data to assess how semaglutide use correlated with dementia diagnoses over time. The findings suggest a promising avenue for dementia prevention, though further clinical trials are needed to confirm these associations and understand the underlying mechanisms.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4226123/pexels-photo-4226123.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4226123/pexels-photo-4226123.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4226123/pexels-photo-4226123.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Anki</title>
-      <link>https://surfaced-x.pages.dev/item/daily-tool-anki</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-anki</guid>
-      <description>Anki is a free and open-source flashcard program that uses spaced repetition to help you learn new information more efficiently. It intelligently schedules reviews of cards based on how well you remember them, showing you difficult cards more often and easier ones less frequently. This method is scientifically proven to improve long-term retention. Anki is available for free on desktop and Android, with a paid iOS version. It is unparalleled in its effectiveness for memorizing facts, vocabulary, and concepts across any subject.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8566454/pexels-photo-8566454.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8566454/pexels-photo-8566454.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8566454/pexels-photo-8566454.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Ante</title>
-      <link>https://surfaced-x.pages.dev/item/ante-offline-coding-agent</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ante-offline-coding-agent</guid>
-      <description>Ante is an innovative, offline-first coding agent packaged as a single, self-contained binary. It&apos;s designed to provide AI-powered coding assistance without requiring a constant internet connection or reliance on cloud services. Developed by Antigma Labs, Ante aims to bring the power of AI coding copilots directly to your local development environment, enhancing privacy and enabling work in environments with limited connectivity. This makes it ideal for developers who handle sensitive code or often find themselves working remotely.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1689019441613-f7742866a341?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY4Nzg5Njl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1689019441613-f7742866a341?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY4Nzg5Njl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1689019441613-f7742866a341?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODY4Nzg5Njl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>River</title>
-      <link>https://surfaced-x.pages.dev/item/river-project-planning-software</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/river-project-planning-software</guid>
-      <description>River is a project planning and execution tool that emphasizes visual workflows and strategic alignment. It helps teams break down complex projects into manageable stages, track progress with clarity, and ensure that day-to-day tasks contribute to overarching strategic goals. River offers a paid subscription model, tailored for businesses and teams that require sophisticated project management capabilities. It distinguishes itself by its ability to connect individual tasks directly to company objectives, providing a clear line of sight from execution to impact.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5413118/pexels-photo-5413118.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5413118/pexels-photo-5413118.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5413118/pexels-photo-5413118.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Eigendrum</title>
-      <link>https://surfaced-x.pages.dev/item/eigendrum-sound-designer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/eigendrum-sound-designer</guid>
-      <description>Eigendrum is a fascinating web tool that transforms geometric shapes into musical drum sounds. You can draw any shape imaginable using your mouse or stylus, and the algorithm analyzes its contours and complexity to generate a unique percussive sound. Built by Basel Ashraf, it&apos;s a playful exploration of the relationship between visual form and auditory texture, demonstrating how mathematical principles can be applied to sound synthesis. It&apos;s perfect for musicians, sound designers, or anyone curious about creative audio generation.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8041089/pexels-photo-8041089.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8041089/pexels-photo-8041089.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8041089/pexels-photo-8041089.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Workflowy</title>
-      <link>https://surfaced-x.pages.dev/item/workflowy</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/workflowy</guid>
-      <description>Workflowy is a revolutionary outliner that allows you to organize your life with an infinite, flexible list. It functions as a digital notebook where every item can be expanded or collapsed, enabling you to drill down into details or zoom out to see the big picture. Workflowy is free, with an optional paid upgrade for additional features like increased file size and more themes. Its core strength lies in its minimalist design and powerful zooming capabilities, which allow for an unparalleled level of hierarchical organization without the complexity of traditional note-taking apps.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/131979/pexels-photo-131979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/131979/pexels-photo-131979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/131979/pexels-photo-131979.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Text to Stop Motion Animation</title>
-      <link>https://surfaced-x.pages.dev/item/text-to-stopmotion-animation</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/text-to-stopmotion-animation</guid>
-      <description>This AI-powered tool translates textual descriptions into stop-motion animation sequences. Users provide a narrative prompt, detailing a scene or action, and the underlying artificial intelligence interprets this input to generate a brief animated clip.  The technology aims to facilitate rapid prototyping of animation concepts and produce distinctive visual content without requiring extensive manual animation effort. For instance, a prompt like &apos;a robot building a tower&apos; could result in a short, automated animation depicting this action.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5981703/pexels-photo-5981703.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5981703/pexels-photo-5981703.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5981703/pexels-photo-5981703.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Tana</title>
-      <link>https://surfaced-x.pages.dev/item/tana-input-interface</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tana-input-interface</guid>
-      <description>Tana is a next-generation note-taking app and personal knowledge management system that emphasizes structured data and supercharged input. It allows users to define custom fields and create structured data within their notes, turning them into powerful databases. Tana uses a freemium model, with a generous free tier. Its strength lies in its ability to ingest and organize information with unprecedented speed and precision, allowing for complex querying and automated workflows that traditional note-taking apps cannot match.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4779729/pexels-photo-4779729.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4779729/pexels-photo-4779729.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4779729/pexels-photo-4779729.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>The Map of YouTube</title>
-      <link>https://surfaced-x.pages.dev/item/map-of-youtube-channels</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/map-of-youtube-channels</guid>
-      <description>The Map of YouTube is an interactive visualization that maps out the relationships between different YouTube channels. It uses data to show which channels reference, collaborate with, or are otherwise connected to each other, creating a vast, navigable web. This tool is perfect for researchers, content strategists, or simply curious viewers looking to understand the ecosystem of online video creators. For instance, you could trace the lineage of a niche community by seeing which channels influenced each other over time.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/33440446/pexels-photo-33440446.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/33440446/pexels-photo-33440446.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/33440446/pexels-photo-33440446.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
