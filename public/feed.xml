@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readable</title>
+      <link>https://surfaced-x.pages.dev/item/readable-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/readable-app</guid>
+      <description>Readable is a web-based application designed to help users improve the readability and clarity of their writing. It analyzes text for common writing pitfalls, providing scores based on metrics like Flesch-Kincaid Grade Level and offering suggestions for word choice, sentence structure, and grammar. It operates on a freemium model, with a generous free tier for basic analysis and paid plans for advanced features and high-volume use. Readable is indispensable for anyone aiming to communicate more effectively with their audience, from bloggers to business professionals.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/110078/pexels-photo-110078.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/110078/pexels-photo-110078.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/110078/pexels-photo-110078.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Sublime Text</title>
+      <link>https://surfaced-x.pages.dev/item/sublime-text</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sublime-text</guid>
+      <description>Sublime Text is a sophisticated text editor for code, markup, and prose, known for its speed, responsiveness, and extensive feature set. It supports multiple selections, command palettes, and a vast ecosystem of plugins for customization. While it operates on a paid license, it offers an unlimited evaluation period, allowing users to experience its full capabilities before purchasing. It excels at handling large files and complex coding projects with unparalleled efficiency, making it a favorite among developers and power users.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Todo Archive</title>
+      <link>https://surfaced-x.pages.dev/item/todo-archive</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/todo-archive</guid>
+      <description>Todo Archive is a minimalist web application designed to help you meticulously record and organize tasks once they are completed. Instead of letting completed items disappear into a void or cluttering your active task list, Todo Archive provides a dedicated space to store them, allowing for reflection and data gathering. It operates on a freemium model, offering basic archiving for free with advanced features and storage available through a paid subscription. It excels at creating a searchable history of your accomplishments.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37186784/pexels-photo-37186784.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37186784/pexels-photo-37186784.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37186784/pexels-photo-37186784.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Excalidraw</title>
+      <link>https://surfaced-x.pages.dev/item/excalidraw-virtual-whiteboard</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/excalidraw-virtual-whiteboard</guid>
+      <description>Excalidraw is an open-source virtual whiteboard tool that allows users to quickly and easily sketch diagrams, flowcharts, wireframes, and mockups with a hand-drawn feel. It prioritizes simplicity and ease of use, offering a minimalist interface with a range of drawing tools. Excalidraw is free to use, with optional paid services for advanced collaboration and hosting. It’s ideal for conceptualizing ideas visually and communicating them clearly, especially in a remote work setting.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1261816/pexels-photo-1261816.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1261816/pexels-photo-1261816.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1261816/pexels-photo-1261816.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>dsh-routing-suite</title>
+      <link>https://surfaced-x.pages.dev/item/dsh-routing-suite</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dsh-routing-suite</guid>
+      <description>The dsh-routing-suite provides a comprehensive solution for managing complex task execution and reasoning within your workflows. It includes a runtime injector for seamless integration and a task-aware reasoning-mode router preset, designed to optimize the flow and processing of tasks. This suite is particularly effective for scenarios requiring sophisticated logic and dynamic task management. It is a free, open-source project.</description>
+      <category>Daily Tools</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Journalytic</title>
       <link>https://surfaced-x.pages.dev/item/journalytic</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/6029136/pexels-photo-6029136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>OpenRouter GPT-5.6 Sol Pricing Cut</title>
+      <link>https://surfaced-x.pages.dev/item/openrouter-gpt5-6-sol-pricing-cut</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/openrouter-gpt5-6-sol-pricing-cut</guid>
+      <description>This announcement details a substantial 50% price decrease for GPT-5.6 Sol, now available on the OpenRouter platform. OpenRouter functions as a centralized API aggregation service, offering a unified gateway to a diverse array of AI models. This allows developers and users to interact with various Large Language Models (LLMs) through a single, streamlined interface, frequently at advantageous price points. The notable price reduction for GPT-5.6 Sol enhances its affordability, making it a more economically practical option for sustained or large-scale implementation. This move positions GPT-5.6 Sol as a more accessible and cost-effective choice for users leveraging AI within their applications or workflows.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/10468099/pexels-photo-10468099.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/10468099/pexels-photo-10468099.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/10468099/pexels-photo-10468099.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Rephraser.ai</title>
       <link>https://surfaced-x.pages.dev/item/rephraser-ai</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rephraser-ai</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>ArcadeMaker</title>
+      <link>https://surfaced-x.pages.dev/item/arcade-maker</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/arcade-maker</guid>
+      <description>ArcadeMaker is an open-source C# game engine that includes its own integrated development environment (IDE) and a custom scripting language. It&apos;s designed to make game development more accessible, particularly for 2D games, by providing a unified platform for coding, asset management, and debugging. The engine aims to simplify complex game development processes, allowing creators to focus on gameplay mechanics and artistic design.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12355993/pexels-photo-12355993.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12355993/pexels-photo-12355993.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12355993/pexels-photo-12355993.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>The StoryGraph</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/38826838/pexels-photo-38826838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Write.md</title>
+      <link>https://surfaced-x.pages.dev/item/write-md</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/write-md</guid>
+      <description>Write.md is a free, open-source Markdown editor meticulously crafted for macOS. It prioritizes a streamlined, distraction-free writing experience, allowing users to immerse themselves in Markdown syntax. The editor features real-time previews, enabling immediate visualization of rendered Markdown as you type. A key aspect of Write.md is its extensive themeability, offering a wide range of customization options for both visual themes and typography, ensuring a personalized workspace. It&apos;s designed for individuals who value a focused approach to content creation, note-taking, and any task involving Markdown.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1629989234762-c192c92dddca?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcwNTIwMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1629989234762-c192c92dddca?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcwNTIwMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1629989234762-c192c92dddca?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcwNTIwMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>tinygrad</title>
       <link>https://surfaced-x.pages.dev/item/tinygrad</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tinygrad</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://pixabay.com/get/gaa30b2b8ba72f565c7b3e6ecc62fe6d5ee57ea18874d5e2bedb702ab6253f72840ee2a3deba89258b909c7bd81923545395596b98ffb1cb9735b218499514012_1280.jpg" />
     </item>
     <item>
+      <title>Desktopcolors.com</title>
+      <link>https://surfaced-x.pages.dev/item/desktopcolors</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/desktopcolors</guid>
+      <description>Desktopcolors.com is a delightful, niche website that serves as a digital museum of the iconic solid background colors used in classic operating systems. It meticulously archives and displays the precise hex codes and visual representations of the default wallpapers from operating systems like early Windows versions, macOS, Linux distributions, and more. The site is a nostalgic trip for designers, developers, and anyone who remembers the aesthetic of vintage computing.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/32529341/pexels-photo-32529341.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/32529341/pexels-photo-32529341.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/32529341/pexels-photo-32529341.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>k0s</title>
       <link>https://surfaced-x.pages.dev/item/k0s</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/k0s</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://pixabay.com/get/gddb057dec4303d1312de581b9c985d2f2ff1bb469f4afc60ba1f0b4d9fc9d89dde6de749648ae6010fdc517bb354db2351d84307c414bbc2f3ed9bd814dae107_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/gddb057dec4303d1312de581b9c985d2f2ff1bb469f4afc60ba1f0b4d9fc9d89dde6de749648ae6010fdc517bb354db2351d84307c414bbc2f3ed9bd814dae107_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/gddb057dec4303d1312de581b9c985d2f2ff1bb469f4afc60ba1f0b4d9fc9d89dde6de749648ae6010fdc517bb354db2351d84307c414bbc2f3ed9bd814dae107_1280.jpg" />
+    </item>
+    <item>
+      <title>ThoughtDAG</title>
+      <link>https://surfaced-x.pages.dev/item/thoughtdag</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/thoughtdag</guid>
+      <description>ThoughtDAG is an experimental, editable context graph designed for managing and visualizing Large Language Model (LLM) conversations. It helps users organize their interactions with AI by representing each turn as a node in a directed acyclic graph, allowing for branching, editing, and revisiting specific points in a conversation. This is particularly useful for complex research, brainstorming sessions, or when trying to maintain coherence across extended LLM dialogues. It was developed by Chenxi Chen.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8378730/pexels-photo-8378730.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8378730/pexels-photo-8378730.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8378730/pexels-photo-8378730.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Nuclio</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Perpetual Calendar</title>
-      <link>https://surfaced-x.pages.dev/item/perpetual-calendar</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/perpetual-calendar</guid>
-      <description>This website provides an interactive perpetual calendar, allowing you to instantly view the day of the week for any date in history or the future. It&apos;s a simple yet powerful tool for historical research, genealogical work, or even just satisfying curiosity about when specific events occurred. The interface is clean and intuitive, making it easy to navigate through centuries. It&apos;s a straightforward reference tool for anyone needing to pinpoint dates with certainty.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/295884/pexels-photo-295884.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/295884/pexels-photo-295884.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/295884/pexels-photo-295884.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Zed</title>
-      <link>https://surfaced-x.pages.dev/item/zed-dev</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zed-dev</guid>
-      <description>Zed is a high-performance, collaborative code editor built in Rust. It&apos;s designed for speed, responsiveness, and seamless real-time collaboration, allowing multiple developers to work on the same codebase simultaneously, seeing each other&apos;s cursors and edits as they happen. Zed is currently free to use and is rapidly evolving, with a focus on an excellent developer experience. It differentiates itself with its blazingly fast performance and integrated collaborative features, making pair programming and remote teamwork feel incredibly fluid and natural.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1779449191406-e5a44a002f46?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzNjIyOTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1779449191406-e5a44a002f46?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzNjIyOTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1779449191406-e5a44a002f46?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODYzNjIyOTl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Quotefancy</title>
-      <link>https://surfaced-x.pages.dev/item/quotefancy</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/quotefancy</guid>
-      <description>Quotefancy is a web tool that allows users to create visually appealing images featuring quotes. It offers a wide variety of customizable templates, backgrounds, and fonts, enabling anyone to transform text into shareable graphics for social media or personal use. The platform simplifies the process of finding and formatting inspirational, motivational, or meaningful quotes, making them more engaging than plain text.  It&apos;s built for individuals and marketers alike who want to enhance their content with powerful words.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6149064/pexels-photo-6149064.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6149064/pexels-photo-6149064.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6149064/pexels-photo-6149064.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Proto.io</title>
-      <link>https://surfaced-x.pages.dev/item/proto-io</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/proto-io</guid>
-      <description>Proto.io is a powerful, yet user-friendly, platform for creating high-fidelity interactive prototypes for mobile, tablet, and desktop applications. It allows designers to bring their static designs to life with rich animations, gestures, and transitions, all without writing code. The tool supports importing designs from various sources and offers a robust library of interactive components. Proto.io operates on a subscription-based pricing model, offering different tiers based on features and usage. It’s designed to bridge the gap between design and development, facilitating better communication and user testing.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Anthropic&apos;s &apos;watermark&apos; text adulteration in Claude is a perversion of writing</title>
-      <link>https://surfaced-x.pages.dev/item/daring-fireball-claude-watermark</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daring-fireball-claude-watermark</guid>
-      <description>This article from Daring Fireball critically examines Anthropic&apos;s decision to embed imperceptible watermarks in the text generated by their Claude AI models. It argues that this practice, while intended for detecting AI-generated content, fundamentally alters the nature of writing and raises ethical concerns about authorship and the manipulation of information. The piece delves into the implications for writers, readers, and the broader digital landscape, questioning the trustworthiness of AI outputs.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/18449922/pexels-photo-18449922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/18449922/pexels-photo-18449922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/18449922/pexels-photo-18449922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Spline</title>
-      <link>https://surfaced-x.pages.dev/item/spline-design</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spline-design</guid>
-      <description>Spline is a collaborative 3D design tool that empowers individuals and teams to create interactive 3D scenes and animations without needing extensive technical expertise. It offers a web-based, intuitive interface that allows for the creation of complex 3D models, animations, and even AR experiences directly in the browser. Spline provides a freemium model, with generous free tier for individuals and paid plans for teams and advanced features. Its strength lies in making 3D design accessible, enabling rapid prototyping and visually engaging content creation.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3913016/pexels-photo-3913016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3913016/pexels-photo-3913016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3913016/pexels-photo-3913016.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Git-knife</title>
-      <link>https://surfaced-x.pages.dev/item/git-knife</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/git-knife</guid>
-      <description>Git-knife is a command-line tool that allows you to edit Git commit messages, authors, and dates using a spreadsheet-like interface. This is particularly useful for cleaning up a messy commit history before merging or pushing changes, or for correcting mistakes in metadata. It provides a more visual and intuitive way to manipulate Git log data than traditional Git commands alone, offering precision and flexibility for developers who need to refine their commit records.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/27603406/pexels-photo-27603406.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/27603406/pexels-photo-27603406.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/27603406/pexels-photo-27603406.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Generative Texture Kit</title>
-      <link>https://surfaced-x.pages.dev/item/generative-texture-kit</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/generative-texture-kit</guid>
-      <description>Generative Texture Kit is an AI-powered tool designed to create unique, seamless, and tileable textures for 3D rendering, game development, and graphic design. Users can generate textures based on descriptive text prompts or by providing a base image to modify and enhance. It offers a freemium service, with limited free generations and subscription plans for higher volumes and advanced features. Its strength lies in its ability to quickly produce an endless variety of high-quality, procedural materials that would be incredibly time-consuming to create manually.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/20954557/pexels-photo-20954557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/20954557/pexels-photo-20954557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/20954557/pexels-photo-20954557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Pinboard</title>
-      <link>https://surfaced-x.pages.dev/item/pinboard-social-bookmarking</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pinboard-social-bookmarking</guid>
-      <description>Pinboard is a specialized social bookmarking service that prioritizes speed, privacy, and user control. It functions as a digital archive for web links, allowing users to save, organize, and retrieve them efficiently. The service emphasizes a minimalist interface, free from advertisements and algorithmic content curation, focusing solely on the utility of bookmark management. Developed with a commitment to user data protection and a straightforward approach, Pinboard aims to provide a reliable repository for online discoveries.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6333743/pexels-photo-6333743.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6333743/pexels-photo-6333743.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6333743/pexels-photo-6333743.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Hypothes.is</title>
-      <link>https://surfaced-x.pages.dev/item/hypothes-is</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hypothes-is</guid>
-      <description>Hypothes.is is an open-source annotation tool that allows users to collaboratively highlight and comment on any web page or PDF. Built by the Internet Archive and a community of developers, it enables public or private discussions tied directly to specific text passages. This is invaluable for researchers, students, and anyone who wants to engage deeply with online content by sharing insights and building collective understanding. Imagine a group of students studying a historical document online, each leaving notes on key phrases or arguments for others to see and respond to.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3832026/pexels-photo-3832026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3832026/pexels-photo-3832026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3832026/pexels-photo-3832026.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

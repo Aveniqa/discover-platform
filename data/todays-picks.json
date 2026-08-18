@@ -1,19 +1,19 @@
 [
   {
-    "slug": "scrapscript",
-    "title": "ScrapScript",
+    "slug": "openrouter-gpt5-6-sol-pricing-cut",
+    "title": "OpenRouter GPT-5.6 Sol Pricing Cut",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "ScrapScript is a web-based application engineered for efficient and uncluttered note-taking. It provides a minimalist en",
+    "description": "This announcement details a substantial 50% price decrease for GPT-5.6 Sol, now available on the OpenRouter platform. Op",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "journalytic",
-    "title": "Journalytic",
+    "slug": "readable-app",
+    "title": "Readable",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Journalytic is an AI-powered platform designed to help researchers quickly analyze academic papers. It allows users to u",
+    "description": "Readable is a web-based application designed to help users improve the readability and clarity of their writing. It anal",
     "badge": null,
     "type": "tool"
   }
