@@ -1,7 +1,7 @@
 ---
 title: Surfaced HQ
 type: dashboard
-updated: 2026-08-18
+updated: 2026-08-19
 tags: [surfaced, dashboard, generated]
 ---
 
@@ -16,10 +16,10 @@ tags: [surfaced, dashboard, generated]
 | | |
 |---|---|
 | **Live items** | **886** (453 hidden gems · 433 daily tools) |
-| **Last edition** | 2026-08-18 (10 items) |
-| **Archive** | 2619 items — permanent, keeps `/item/<slug>` alive for search |
-| **Real screenshots** | 802/886 (91%) |
-| **Cached photos** | 3975 |
+| **Last edition** | 2026-08-19 (10 items) |
+| **Archive** | 2629 items — permanent, keeps `/item/<slug>` alive for search |
+| **Real screenshots** | 801/886 (90%) |
+| **Cached photos** | 3985 |
 | **Live items missing a link** | 0 ✅ |
 | **Archived items without a source** | 346 (ledgered as unverifiable — do not retry) |
 
@@ -27,11 +27,11 @@ tags: [surfaced, dashboard, generated]
 
 - **Developer** — 238
 - **Productivity** — 180
-- **Design** — 80
+- **Design** — 84
 - **Reference** — 65
 - **Writing** — 61
 - **Education** — 57
-- **Entertainment** — 38
+- **Entertainment** — 39
 - **Social** — 31
 
 ## Where things live

@@ -1,19 +1,19 @@
 [
   {
-    "slug": "openrouter-gpt5-6-sol-pricing-cut",
-    "title": "OpenRouter GPT-5.6 Sol Pricing Cut",
+    "slug": "openlogi-logistics-platform",
+    "title": "OpenLogi",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This announcement details a substantial 50% price decrease for GPT-5.6 Sol, now available on the OpenRouter platform. Op",
+    "description": "OpenLogi is an open-source platform dedicated to digitizing and optimizing logistics operations.  It serves as a central",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "readable-app",
-    "title": "Readable",
+    "slug": "automerge",
+    "title": "Automerge",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Readable is a web-based application designed to help users improve the readability and clarity of their writing. It anal",
+    "description": "Automerge is an open-source JavaScript library designed to streamline the development of collaborative applications. It ",
     "badge": null,
     "type": "tool"
   }

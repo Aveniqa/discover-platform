@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automerge</title>
+      <link>https://surfaced-x.pages.dev/item/automerge</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/automerge</guid>
+      <description>Automerge is an open-source JavaScript library designed to streamline the development of collaborative applications. It provides a robust mechanism for automatic, conflict-free data synchronization across multiple users and devices. At its core, Automerge utilizes a sophisticated data structure known as a Conflict-free Replicated Data Type (CRDT). This innovative approach allows changes from various sources to be merged concurrently without the need for a centralized conflict resolution server. This capability is instrumental in building applications that require real-time collaboration, such as shared document editors, distributed databases, and interactive platforms where maintaining data consistency and seamless merging are critical.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>ImageMagick</title>
+      <link>https://surfaced-x.pages.dev/item/magick</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/magick</guid>
+      <description>ImageMagick is a comprehensive, free, and open-source command-line utility suite designed for the creation, editing, composition, and conversion of raster images. It boasts support for an exceptionally broad spectrum of image file formats, enabling sophisticated image manipulation.  Its functionalities encompass resizing, cropping, precise color adjustments, the application of diverse visual filters, and the generation of dynamic image sequences, including animated GIFs.  A key strength of ImageMagick lies in its robust scripting capabilities, which facilitate efficient batch processing of potentially thousands of images, allowing for the application of intricate and consistent transformations.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g052f79ee75dc57e03f8de9f759b80ec958a555c3013e56f9f132b573b245bb75350541ce1904753513bea8afe76e571dfbf8e20e009da91f4fd8ca38c746baf0_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g052f79ee75dc57e03f8de9f759b80ec958a555c3013e56f9f132b573b245bb75350541ce1904753513bea8afe76e571dfbf8e20e009da91f4fd8ca38c746baf0_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g052f79ee75dc57e03f8de9f759b80ec958a555c3013e56f9f132b573b245bb75350541ce1904753513bea8afe76e571dfbf8e20e009da91f4fd8ca38c746baf0_1280.jpg" />
+    </item>
+    <item>
+      <title>Typeform</title>
+      <link>https://surfaced-x.pages.dev/item/typeform</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typeform</guid>
+      <description>Typeform is an online tool that allows users to create engaging and conversational forms, surveys, and quizzes. It moves away from traditional, static form layouts, instead presenting questions one at a time in a user-friendly, interactive interface that feels more like a chat. This approach significantly boosts completion rates for surveys and data collection. Typeform offers a freemium model, with a free plan for basic use and paid plans providing advanced features like logic jumps, integrations, and more responses. It is exceptional at making data collection feel less like a chore and more like a natural interaction.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1758780691544-d11ce61aae47?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcxMzg2MjZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1758780691544-d11ce61aae47?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcxMzg2MjZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1758780691544-d11ce61aae47?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcxMzg2MjZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>ProcessOn</title>
+      <link>https://surfaced-x.pages.dev/item/processon</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/processon</guid>
+      <description>ProcessOn is a web-based diagramming and collaboration platform that simplifies the creation of various visual documents, including flowcharts, mind maps, organizational charts, and UML diagrams. It provides a rich library of templates and elements, making it easy for users to visualize complex information and processes. ProcessOn offers a freemium model, with a generous free plan for individual use and paid tiers for advanced team collaboration, larger storage, and premium features. Its strength lies in its ease of use for creating professional-looking diagrams quickly and its robust real-time collaboration capabilities for group projects.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Prelint</title>
+      <link>https://surfaced-x.pages.dev/item/prelint</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/prelint</guid>
+      <description>Prelint is a developer tool designed to maintain code quality and prevent &apos;product drift&apos; in projects heavily utilizing AI-generated code. It integrates into the development workflow, specifically reviewing pull requests (PRs) against predefined architectural decisions (ADRs), documentation, and past project guidelines. Prelint helps ensure that AI-written code aligns with team standards and project intent, catching deviations before they are merged. The tool is offered as a paid service, typically priced per developer or per project.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/36496927/pexels-photo-36496927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/36496927/pexels-photo-36496927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/36496927/pexels-photo-36496927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Readable</title>
       <link>https://surfaced-x.pages.dev/item/readable-app</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/732444/pexels-photo-732444.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>OpenLogi</title>
+      <link>https://surfaced-x.pages.dev/item/openlogi-logistics-platform</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/openlogi-logistics-platform</guid>
+      <description>OpenLogi is an open-source platform dedicated to digitizing and optimizing logistics operations.  It serves as a centralized hub to enhance transparency and efficiency across complex supply chains. By connecting diverse stakeholders, the platform provides essential tools for comprehensive management of shipments, real-time inventory tracking, and effective delivery coordination. OpenLogi is engineered to support businesses of varying scales, empowering them to refine their operational workflows, reduce logistical complexities, and ultimately lower overhead costs through digital transformation.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/35501714/pexels-photo-35501714.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/35501714/pexels-photo-35501714.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/35501714/pexels-photo-35501714.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Copilot Money</title>
       <link>https://surfaced-x.pages.dev/item/copilot-money-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/copilot-money-app</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/7735796/pexels-photo-7735796.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7735796/pexels-photo-7735796.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7735796/pexels-photo-7735796.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>ModelMap</title>
+      <link>https://surfaced-x.pages.dev/item/modelmap-huggingface-viz</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/modelmap-huggingface-viz</guid>
+      <description>ModelMap generates dynamic, animated visualizations for machine learning architectures hosted on Hugging Face. This allows for an in-depth exploration of individual layers, the intricate connections between them, and the overall structural blueprint of complex AI models. Users can navigate these visualizations interactively, gaining a clear and intuitive understanding of how these sophisticated systems are built and function. It serves as a powerful educational and analytical tool for anyone seeking to comprehend the inner workings of state-of-the-art AI.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/gf3e041ae993687b7332ffec5ee3cd767c4d393ebb748658371da9f8104e007215f293efef3bffff144f3f51b087d894a5bee3b998cb9f450a8b0e1437bd2cdd3_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/gf3e041ae993687b7332ffec5ee3cd767c4d393ebb748658371da9f8104e007215f293efef3bffff144f3f51b087d894a5bee3b998cb9f450a8b0e1437bd2cdd3_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/gf3e041ae993687b7332ffec5ee3cd767c4d393ebb748658371da9f8104e007215f293efef3bffff144f3f51b087d894a5bee3b998cb9f450a8b0e1437bd2cdd3_1280.jpg" />
     </item>
     <item>
       <title>Personal Capital Dashboard</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/38808473/pexels-photo-38808473.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Mic Drop</title>
+      <link>https://surfaced-x.pages.dev/item/mic-drop-karaoke</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mic-drop-karaoke</guid>
+      <description>Mic Drop transforms the traditional karaoke experience into a dynamic, real-time multiplayer online game.  It provides a platform for users to gather in virtual rooms, select from an extensive song library, and engage in singing duets, group performances, or friendly competitions.  The game fosters an interactive social environment where participants can connect with friends or fellow music enthusiasts globally, all within a fun and accessible interface.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7715793/pexels-photo-7715793.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7715793/pexels-photo-7715793.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7715793/pexels-photo-7715793.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Typst</title>
       <link>https://surfaced-x.pages.dev/item/typst-typesetting-system</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typst-typesetting-system</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/6475822/pexels-photo-6475822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Mole</title>
+      <link>https://surfaced-x.pages.dev/item/mole-research-agent</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mole-research-agent</guid>
+      <description>Mole is a sophisticated deep research agent engineered for seamless integration within your terminal. It empowers users to conduct in-depth queries and retrieve essential information directly from their command-line interface, functioning as a dedicated research assistant without disrupting their current workflow.  This tool is specifically crafted for developers and advanced users who require rapid access to contextual information, precise definitions, or practical code examples, all while maintaining their focus on the task at hand.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37179990/pexels-photo-37179990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37179990/pexels-photo-37179990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37179990/pexels-photo-37179990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Legendarium</title>
       <link>https://surfaced-x.pages.dev/item/legendarium</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/legendarium</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>LuaCAD</title>
+      <link>https://surfaced-x.pages.dev/item/luacad</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/luacad</guid>
+      <description>LuaCAD is a parametric CAD software that leverages the Lua scripting language for design and automation. It allows users to define geometric shapes and operations programmatically, enabling complex and repeatable designs. This tool is ideal for engineers, designers, and hobbyists who need to generate intricate models or automate repetitive CAD tasks.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/31336838/pexels-photo-31336838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/31336838/pexels-photo-31336838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/31336838/pexels-photo-31336838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Qualia</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>ArcadeMaker</title>
-      <link>https://surfaced-x.pages.dev/item/arcade-maker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/arcade-maker</guid>
-      <description>ArcadeMaker is an open-source C# game engine that includes its own integrated development environment (IDE) and a custom scripting language. It&apos;s designed to make game development more accessible, particularly for 2D games, by providing a unified platform for coding, asset management, and debugging. The engine aims to simplify complex game development processes, allowing creators to focus on gameplay mechanics and artistic design.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/12355993/pexels-photo-12355993.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/12355993/pexels-photo-12355993.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/12355993/pexels-photo-12355993.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>The StoryGraph</title>
-      <link>https://surfaced-x.pages.dev/item/storygraph</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/storygraph</guid>
-      <description>The StoryGraph is a personalized book tracking and recommendation service designed for avid readers. It goes beyond simple logging by analyzing your reading tastes through detailed mood, pace, and character-driven metrics. You can track books you&apos;ve read, books you want to read, and books you&apos;re currently reading, receiving insightful stats and personalized recommendations based on your unique preferences. It offers a freemium model, with core tracking features available for free and advanced analytics and features requiring a subscription.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/38826838/pexels-photo-38826838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/38826838/pexels-photo-38826838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/38826838/pexels-photo-38826838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Write.md</title>
-      <link>https://surfaced-x.pages.dev/item/write-md</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/write-md</guid>
-      <description>Write.md is a free, open-source Markdown editor meticulously crafted for macOS. It prioritizes a streamlined, distraction-free writing experience, allowing users to immerse themselves in Markdown syntax. The editor features real-time previews, enabling immediate visualization of rendered Markdown as you type. A key aspect of Write.md is its extensive themeability, offering a wide range of customization options for both visual themes and typography, ensuring a personalized workspace. It&apos;s designed for individuals who value a focused approach to content creation, note-taking, and any task involving Markdown.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1629989234762-c192c92dddca?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcwNTIwMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1629989234762-c192c92dddca?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcwNTIwMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1629989234762-c192c92dddca?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcwNTIwMjN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>tinygrad</title>
-      <link>https://surfaced-x.pages.dev/item/tinygrad</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tinygrad</guid>
-      <description>tinygrad is a minimalist deep learning framework designed for simplicity and ease of understanding, aiming to be a more accessible alternative to larger, more complex frameworks like PyTorch or TensorFlow. It focuses on providing core functionalities with a clean, readable codebase, written primarily in Python. tinygrad is open-source and free to use, making it an excellent tool for learning about machine learning internals or for researchers and developers who need a lightweight and transparent framework for experimentation. It aims to offer a fast, flexible, and efficient path to building and training neural networks.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/gaa30b2b8ba72f565c7b3e6ecc62fe6d5ee57ea18874d5e2bedb702ab6253f72840ee2a3deba89258b909c7bd81923545395596b98ffb1cb9735b218499514012_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/gaa30b2b8ba72f565c7b3e6ecc62fe6d5ee57ea18874d5e2bedb702ab6253f72840ee2a3deba89258b909c7bd81923545395596b98ffb1cb9735b218499514012_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/gaa30b2b8ba72f565c7b3e6ecc62fe6d5ee57ea18874d5e2bedb702ab6253f72840ee2a3deba89258b909c7bd81923545395596b98ffb1cb9735b218499514012_1280.jpg" />
-    </item>
-    <item>
-      <title>Desktopcolors.com</title>
-      <link>https://surfaced-x.pages.dev/item/desktopcolors</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/desktopcolors</guid>
-      <description>Desktopcolors.com is a delightful, niche website that serves as a digital museum of the iconic solid background colors used in classic operating systems. It meticulously archives and displays the precise hex codes and visual representations of the default wallpapers from operating systems like early Windows versions, macOS, Linux distributions, and more. The site is a nostalgic trip for designers, developers, and anyone who remembers the aesthetic of vintage computing.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/32529341/pexels-photo-32529341.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/32529341/pexels-photo-32529341.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/32529341/pexels-photo-32529341.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>k0s</title>
-      <link>https://surfaced-x.pages.dev/item/k0s</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/k0s</guid>
-      <description>k0s is a zero-friction Kubernetes distribution designed for simplicity and ease of use, enabling users to run Kubernetes on any infrastructure with minimal configuration. It bundles all necessary components into a single binary, making installation and management incredibly straightforward. k0s is open-source and free to use, with commercial support and enterprise features available for businesses requiring enhanced capabilities. It&apos;s ideal for developers and organizations that need a fully functional Kubernetes cluster up and running quickly.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/gddb057dec4303d1312de581b9c985d2f2ff1bb469f4afc60ba1f0b4d9fc9d89dde6de749648ae6010fdc517bb354db2351d84307c414bbc2f3ed9bd814dae107_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/gddb057dec4303d1312de581b9c985d2f2ff1bb469f4afc60ba1f0b4d9fc9d89dde6de749648ae6010fdc517bb354db2351d84307c414bbc2f3ed9bd814dae107_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/gddb057dec4303d1312de581b9c985d2f2ff1bb469f4afc60ba1f0b4d9fc9d89dde6de749648ae6010fdc517bb354db2351d84307c414bbc2f3ed9bd814dae107_1280.jpg" />
-    </item>
-    <item>
-      <title>ThoughtDAG</title>
-      <link>https://surfaced-x.pages.dev/item/thoughtdag</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/thoughtdag</guid>
-      <description>ThoughtDAG is an experimental, editable context graph designed for managing and visualizing Large Language Model (LLM) conversations. It helps users organize their interactions with AI by representing each turn as a node in a directed acyclic graph, allowing for branching, editing, and revisiting specific points in a conversation. This is particularly useful for complex research, brainstorming sessions, or when trying to maintain coherence across extended LLM dialogues. It was developed by Chenxi Chen.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8378730/pexels-photo-8378730.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8378730/pexels-photo-8378730.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8378730/pexels-photo-8378730.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Nuclio</title>
-      <link>https://surfaced-x.pages.dev/item/nuclio</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nuclio</guid>
-      <description>Nuclio is an open-source, high-performance, real-time serverless platform that allows developers to run event-driven applications with very low latency. It excels at processing high volumes of data in response to events from various sources, such as message queues, HTTP requests, or stream processing systems. Nuclio offers a generous free tier and paid options for advanced features and dedicated support, making it accessible for both individual developers and large organizations looking to build scalable, responsive microservices.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/38804889/pexels-photo-38804889.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/38804889/pexels-photo-38804889.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/38804889/pexels-photo-38804889.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>ScrapScript</title>
-      <link>https://surfaced-x.pages.dev/item/scrapscript</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/scrapscript</guid>
-      <description>ScrapScript is a web-based application engineered for efficient and uncluttered note-taking. It provides a minimalist environment optimized for speed, allowing users to focus entirely on content creation. Key features include robust Markdown support for structured text formatting and effortless cloud synchronization, ensuring notes are consistently updated and accessible across multiple devices. This makes ScrapScript particularly well-suited for capturing fleeting thoughts, developing longer written pieces, or organizing ideas without the encumbrance of overly complex software.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/9890095/pexels-photo-9890095.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/9890095/pexels-photo-9890095.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/9890095/pexels-photo-9890095.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Tiktoken</title>
-      <link>https://surfaced-x.pages.dev/item/tiktoken</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tiktoken</guid>
-      <description>Tiktoken is a fast byte pair encoding (BPE) tokenizer library developed by OpenAI, designed for use with their language models. It provides efficient encoding and decoding of text into tokens, which are the fundamental units processed by large language models. This library is open-source and free, offering excellent performance for tokenization tasks. Its primary value lies in its speed and accuracy in converting text to and from the token representations used by models like GPT-3 and GPT-4, which is crucial for understanding token limits and managing prompt costs.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/30901563/pexels-photo-30901563.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
