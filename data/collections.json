@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "kumu-mapping-relationships-systems-visualizer",
-      "mermaid-js-markdown-diagrams-flowcharts",
-      "chartbrew-open-source-dashboards-analytics",
-      "vega-lite-declarative-visualization-grammar",
-      "deck-gl-webgl-data-visualization-framework",
-      "apache-superset-open-source-business-intelligence",
-      "entr-run-commands-file-changes",
-      "consensus-ai-academic-research-engine",
-      "promptperfect-ai-prompt-optimizer",
-      "bearly-ai-desktop-assistant",
       "novelai-creative-writing-assistant",
-      "chatpdf-ai-document-summarizer"
+      "chatpdf-ai-document-summarizer",
+      "eightify-youtube-video-summarizer",
+      "gamma-ai-presentation-generator",
+      "research-rabbit-visual-bibliography",
+      "scholarcy-ai-paper-summarizer",
+      "actual-budget-open-source-finance-2",
+      "wallet-budgetbakers-mobile-expense-tracking",
+      "monarch-money-modern-personal-finance",
+      "financier-io-open-source-budgeting",
+      "goalist-structured-goal-setting-progress-tracker",
+      "timebloc-visual-time-blocking-schedule-planner"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "kumu-mapping-relationships-systems-visualizer",
-      "mermaid-js-markdown-diagrams-flowcharts",
-      "chartbrew-open-source-dashboards-analytics",
-      "vega-lite-declarative-visualization-grammar",
-      "deck-gl-webgl-data-visualization-framework",
-      "apache-superset-open-source-business-intelligence",
-      "entr-run-commands-file-changes",
-      "consensus-ai-academic-research-engine",
-      "promptperfect-ai-prompt-optimizer",
-      "bearly-ai-desktop-assistant",
       "novelai-creative-writing-assistant",
-      "chatpdf-ai-document-summarizer"
+      "chatpdf-ai-document-summarizer",
+      "eightify-youtube-video-summarizer",
+      "gamma-ai-presentation-generator",
+      "scholarcy-ai-paper-summarizer",
+      "actual-budget-open-source-finance-2",
+      "wallet-budgetbakers-mobile-expense-tracking",
+      "monarch-money-modern-personal-finance",
+      "financier-io-open-source-budgeting",
+      "goalist-structured-goal-setting-progress-tracker",
+      "timebloc-visual-time-blocking-schedule-planner",
+      "palladio-visualize-complex-humanities-data"
     ]
   },
   {

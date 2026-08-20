@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pocket</title>
+      <link>https://surfaced-x.pages.dev/item/pocket-save-articles-for-later</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pocket-save-articles-for-later</guid>
+      <description>Pocket is a service that allows you to save articles, videos, and web pages from any device to view later, even offline. When you find something interesting online but don&apos;t have time to read it immediately, you can send it to your Pocket list. It then strips away ads and distractions, presenting the content in a clean, easy-to-read format across all your synced devices. Pocket offers a freemium model, with advanced features available through a paid subscription.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/267447/pexels-photo-267447.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/267447/pexels-photo-267447.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/267447/pexels-photo-267447.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>entr</title>
+      <link>https://surfaced-x.pages.dev/item/entr-run-command-on-file-changes</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/entr-run-command-on-file-changes</guid>
+      <description>entr (event notification test runner) is a command-line utility that allows you to execute arbitrary commands whenever specified files change. It monitors a list of files and, upon detecting any modification, runs the associated command. This is particularly useful for automating development workflows like recompiling code, restarting servers, or running tests as soon as source files are updated. entr is a free and open-source tool designed to be lightweight and efficient.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1704717700476-af979f54baf1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4OTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1704717700476-af979f54baf1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4OTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1704717700476-af979f54baf1?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4OTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>jq</title>
+      <link>https://surfaced-x.pages.dev/item/jq-json-processor</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/jq-json-processor</guid>
+      <description>jq is a lightweight and flexible command-line JSON processor. It&apos;s like `sed` for JSON data, allowing you to slice, filter, map, and transform structured data with ease. Developed as a free and open-source utility, jq is invaluable for developers who need to quickly extract or manipulate JSON output from APIs, configuration files, or logs. Its powerful query language lets you select specific fields, reformat data, and perform complex operations on nested JSON structures directly from your terminal.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>GitHub Copilot</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-github-copilot</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-github-copilot</guid>
+      <description>GitHub Copilot is an AI-powered code completion tool that acts as an AI pair programmer. It suggests code snippets, entire functions, and even whole files directly within your IDE, based on the context of your current code and comments. It supports numerous programming languages and frameworks. Copilot operates on a paid subscription model, with a free trial period available for students and maintainers of popular open-source projects. It excels at boilerplate code generation and understanding natural language comments to produce corresponding code.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/16094041/pexels-photo-16094041.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/16094041/pexels-photo-16094041.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/16094041/pexels-photo-16094041.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>SKI</title>
+      <link>https://surfaced-x.pages.dev/item/ski-voice-coding-assistant</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ski-voice-coding-assistant</guid>
+      <description>SKI is a voice-powered coding assistant designed to accelerate the development workflow. Unlike simple dictation tools, SKI acts as an interactive teammate, understanding complex coding commands and responding audibly. It integrates with popular AI coding models like Claude Code and Codex, allowing developers to dictate code, ask questions about it, and receive explanations or suggestions in real-time. The tool operates on a freemium model, offering basic functionality for free and advanced features for a subscription fee.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34804007/pexels-photo-34804007.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34804007/pexels-photo-34804007.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34804007/pexels-photo-34804007.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Automerge</title>
       <link>https://surfaced-x.pages.dev/item/automerge</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/159768/journal-desk-wood-notebook-159768.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Web What Is It</title>
+      <link>https://surfaced-x.pages.dev/item/web-what-is-it</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/web-what-is-it</guid>
+      <description>Web What Is It is a robust, free online utility designed to dissect and reveal the technological foundation of any website.  It meticulously identifies and lists the core components powering a site, encompassing details such as the web server software, the underlying Content Management System (CMS), prevalent programming languages and frameworks, analytics platforms employed for data collection, Content Delivery Networks (CDNs) for improved performance, and a range of other integrated third-party services.  This comprehensive analysis empowers users to gain a deep understanding of a website&apos;s technical architecture without the need for manual source code inspection, making it accessible to a broad audience.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1740477959010-c2e99bf4a5ff?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1740477959010-c2e99bf4a5ff?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1740477959010-c2e99bf4a5ff?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>Omnipaste</title>
       <link>https://surfaced-x.pages.dev/item/omnipaste-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/omnipaste-app</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/5208362/pexels-photo-5208362.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5208362/pexels-photo-5208362.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5208362/pexels-photo-5208362.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Command Line Fu</title>
+      <link>https://surfaced-x.pages.dev/item/command-line-fu</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/command-line-fu</guid>
+      <description>Command Line Fu is a vast, community-driven wiki dedicated to collecting and showcasing effective, often overlooked, and exceptionally powerful command-line snippets for Unix-like operating systems, including Linux, macOS, and BSD.  It serves as a central hub for users to both discover and contribute practical commands that address a wide range of tasks, many of which go beyond typical terminal usage. Each entry provides the specific command, a concise explanation of its function, and is further enhanced by user-submitted tags and commentary. This collaborative approach fosters a dynamic and constantly growing repository of Unix shell expertise.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1774901128281-a884cd447af5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1774901128281-a884cd447af5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1774901128281-a884cd447af5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>bento</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/17018372/pexels-photo-17018372.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Windows brings out the Rorschach test in everyone</title>
+      <link>https://surfaced-x.pages.dev/item/the-old-new-thing-windows-rorschach-test</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/the-old-new-thing-windows-rorschach-test</guid>
+      <description>This article from Microsoft&apos;s &apos;The Old New Thing&apos; blog delves into the psychological impact of Windows&apos; user interface design choices, specifically referencing the perceived &apos;look&apos; of the windows themselves and how users interpret them. It humorously explores how different individuals see distinct patterns or &apos;faces&apos; in the windows, akin to a Rorschach test, and discusses the implications for UI designers in creating universally understood interfaces.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4049657/pexels-photo-4049657.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4049657/pexels-photo-4049657.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4049657/pexels-photo-4049657.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Firefly III</title>
       <link>https://surfaced-x.pages.dev/item/firefly-personal-finance</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/firefly-personal-finance</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://pixabay.com/get/gb45a6548f39431b99e2c1af3f4c82dc7d45e6f2698df2a007bae116267ea25c510f6d0ced0358cf6dcc1845d4c730ecc5a978b2b347b72373e204a3f35ac7bcd_1280.jpg" />
     </item>
     <item>
+      <title>Don&apos;t Paste the AI</title>
+      <link>https://surfaced-x.pages.dev/item/dontpastetheai</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dontpastetheai</guid>
+      <description>Don&apos;t Paste the AI is a web-based application designed to identify text potentially generated by artificial intelligence.  The tool meticulously examines textual content for characteristic linguistic features, statistical deviations, and recurring patterns commonly associated with AI authorship. Its core function is to provide users with an assessment of whether a given piece of writing exhibits signs of AI generation. This service is geared towards educators seeking to uphold academic integrity, content moderators aiming to filter AI-generated spam, and any individual or organization concerned with verifying the authenticity of written material.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/3729557/pexels-photo-3729557.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>MindNode</title>
       <link>https://surfaced-x.pages.dev/item/untangle-creative-ideas</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/untangle-creative-ideas</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/9034260/pexels-photo-9034260.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/9034260/pexels-photo-9034260.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/9034260/pexels-photo-9034260.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>lucasartsifier</title>
+      <link>https://surfaced-x.pages.dev/item/lucasartsifier</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lucasartsifier</guid>
+      <description>lucasartsifier is a command-line tool designed to automatically detect and patch &apos;walking-dead&apos; states in games developed by LucasArts, particularly those from the Sierra era. These states often occur due to corrupted save files or specific game conditions that prevent progress. The tool analyzes save game data and applies necessary corrections, allowing players to continue their adventures without restarting.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34890888/pexels-photo-34890888.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34890888/pexels-photo-34890888.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34890888/pexels-photo-34890888.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Beeminder</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/7735796/pexels-photo-7735796.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7735796/pexels-photo-7735796.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7735796/pexels-photo-7735796.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>ModelMap</title>
-      <link>https://surfaced-x.pages.dev/item/modelmap-huggingface-viz</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/modelmap-huggingface-viz</guid>
-      <description>ModelMap generates dynamic, animated visualizations for machine learning architectures hosted on Hugging Face. This allows for an in-depth exploration of individual layers, the intricate connections between them, and the overall structural blueprint of complex AI models. Users can navigate these visualizations interactively, gaining a clear and intuitive understanding of how these sophisticated systems are built and function. It serves as a powerful educational and analytical tool for anyone seeking to comprehend the inner workings of state-of-the-art AI.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/gf3e041ae993687b7332ffec5ee3cd767c4d393ebb748658371da9f8104e007215f293efef3bffff144f3f51b087d894a5bee3b998cb9f450a8b0e1437bd2cdd3_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/gf3e041ae993687b7332ffec5ee3cd767c4d393ebb748658371da9f8104e007215f293efef3bffff144f3f51b087d894a5bee3b998cb9f450a8b0e1437bd2cdd3_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/gf3e041ae993687b7332ffec5ee3cd767c4d393ebb748658371da9f8104e007215f293efef3bffff144f3f51b087d894a5bee3b998cb9f450a8b0e1437bd2cdd3_1280.jpg" />
-    </item>
-    <item>
-      <title>Personal Capital Dashboard</title>
-      <link>https://surfaced-x.pages.dev/item/daily-tool-personal-capital-dashboard</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-personal-capital-dashboard</guid>
-      <description>Personal Capital is a free financial dashboard that aggregates all your financial accounts—checking, savings, investments, loans, and credit cards—into a single, comprehensive view. It goes beyond basic tracking by providing powerful analytical tools for net worth, retirement planning, and investment performance. The platform&apos;s core offering is free, with optional paid advisory services available for those seeking personalized financial guidance.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/38808473/pexels-photo-38808473.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/38808473/pexels-photo-38808473.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/38808473/pexels-photo-38808473.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Mic Drop</title>
-      <link>https://surfaced-x.pages.dev/item/mic-drop-karaoke</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mic-drop-karaoke</guid>
-      <description>Mic Drop transforms the traditional karaoke experience into a dynamic, real-time multiplayer online game.  It provides a platform for users to gather in virtual rooms, select from an extensive song library, and engage in singing duets, group performances, or friendly competitions.  The game fosters an interactive social environment where participants can connect with friends or fellow music enthusiasts globally, all within a fun and accessible interface.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7715793/pexels-photo-7715793.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7715793/pexels-photo-7715793.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7715793/pexels-photo-7715793.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Typst</title>
-      <link>https://surfaced-x.pages.dev/item/typst-typesetting-system</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typst-typesetting-system</guid>
-      <description>Typst is a modern, fast typesetting system designed to be a superior alternative to LaTeX for technical and academic writing. It offers a high-level, expressive markup language that is easier to learn and more efficient to use than its predecessors. Typst is free and open-source, with a rapidly growing community. Its key advantage is its speed and simpler syntax, enabling faster iteration for creating beautiful, professional-looking documents like research papers, theses, and books.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6475822/pexels-photo-6475822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6475822/pexels-photo-6475822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6475822/pexels-photo-6475822.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Mole</title>
-      <link>https://surfaced-x.pages.dev/item/mole-research-agent</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mole-research-agent</guid>
-      <description>Mole is a sophisticated deep research agent engineered for seamless integration within your terminal. It empowers users to conduct in-depth queries and retrieve essential information directly from their command-line interface, functioning as a dedicated research assistant without disrupting their current workflow.  This tool is specifically crafted for developers and advanced users who require rapid access to contextual information, precise definitions, or practical code examples, all while maintaining their focus on the task at hand.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37179990/pexels-photo-37179990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37179990/pexels-photo-37179990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37179990/pexels-photo-37179990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Legendarium</title>
-      <link>https://surfaced-x.pages.dev/item/legendarium</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/legendarium</guid>
-      <description>Legendarium is a specialized application focused on helping writers build and manage detailed fictional worlds. It provides structured templates for tracking locations, characters, timelines, magic systems, cultures, and more, ensuring consistency and depth in your worldbuilding. Unlike general note-taking apps, Legendarium is purpose-built for the nuances of speculative fiction and fantasy creation. It offers a freemium model, with basic features available for free and advanced functionalities unlocked via a paid subscription.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>LuaCAD</title>
-      <link>https://surfaced-x.pages.dev/item/luacad</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/luacad</guid>
-      <description>LuaCAD is a parametric CAD software that leverages the Lua scripting language for design and automation. It allows users to define geometric shapes and operations programmatically, enabling complex and repeatable designs. This tool is ideal for engineers, designers, and hobbyists who need to generate intricate models or automate repetitive CAD tasks.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/31336838/pexels-photo-31336838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/31336838/pexels-photo-31336838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/31336838/pexels-photo-31336838.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Qualia</title>
-      <link>https://surfaced-x.pages.dev/item/qualia</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/qualia</guid>
-      <description>Qualia is a sophisticated writing tool designed to assist authors throughout the entire creative process, from initial ideation to final polish. It leverages AI to help with outlining, character development, plot generation, and even suggests stylistic improvements. Unlike generic AI writing tools, Qualia focuses on long-form narrative and integrates a powerful research and fact-checking engine. The platform operates on a subscription model, offering tiered plans based on usage and features.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6029136/pexels-photo-6029136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6029136/pexels-photo-6029136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6029136/pexels-photo-6029136.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>OpenRouter GPT-5.6 Sol Pricing Cut</title>
-      <link>https://surfaced-x.pages.dev/item/openrouter-gpt5-6-sol-pricing-cut</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/openrouter-gpt5-6-sol-pricing-cut</guid>
-      <description>This announcement details a substantial 50% price decrease for GPT-5.6 Sol, now available on the OpenRouter platform. OpenRouter functions as a centralized API aggregation service, offering a unified gateway to a diverse array of AI models. This allows developers and users to interact with various Large Language Models (LLMs) through a single, streamlined interface, frequently at advantageous price points. The notable price reduction for GPT-5.6 Sol enhances its affordability, making it a more economically practical option for sustained or large-scale implementation. This move positions GPT-5.6 Sol as a more accessible and cost-effective choice for users leveraging AI within their applications or workflows.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/10468099/pexels-photo-10468099.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/10468099/pexels-photo-10468099.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/10468099/pexels-photo-10468099.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Rephraser.ai</title>
-      <link>https://surfaced-x.pages.dev/item/rephraser-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rephraser-ai</guid>
-      <description>Rephraser.ai is an AI-powered text rewriting tool designed to help users rephrase sentences, paragraphs, or entire documents while preserving the original meaning. It offers multiple rewriting styles, from simpler to more complex vocabulary, making it ideal for overcoming writer&apos;s block, improving clarity, or adapting content for different audiences. The service operates on a freemium model, offering a limited number of free rewrites per day and paid plans for unlimited access and advanced features.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/360941/pexels-photo-360941.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

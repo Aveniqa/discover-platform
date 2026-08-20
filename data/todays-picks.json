@@ -1,19 +1,19 @@
 [
   {
-    "slug": "openlogi-logistics-platform",
-    "title": "OpenLogi",
+    "slug": "web-what-is-it",
+    "title": "Web What Is It",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "OpenLogi is an open-source platform dedicated to digitizing and optimizing logistics operations.  It serves as a central",
+    "description": "Web What Is It is a robust, free online utility designed to dissect and reveal the technological foundation of any websi",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "automerge",
-    "title": "Automerge",
+    "slug": "pocket-save-articles-for-later",
+    "title": "Pocket",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Automerge is an open-source JavaScript library designed to streamline the development of collaborative applications. It ",
+    "description": "Pocket is a service that allows you to save articles, videos, and web pages from any device to view later, even offline.",
     "badge": null,
     "type": "tool"
   }
