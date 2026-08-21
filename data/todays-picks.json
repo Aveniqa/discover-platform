@@ -1,19 +1,19 @@
 [
   {
-    "slug": "web-what-is-it",
-    "title": "Web What Is It",
+    "slug": "zotero-groups",
+    "title": "Zotero Groups",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Web What Is It is a robust, free online utility designed to dissect and reveal the technological foundation of any websi",
+    "description": "Zotero Groups is a free, open-source tool that allows individuals and teams to collaboratively manage research sources. ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "pocket-save-articles-for-later",
-    "title": "Pocket",
+    "slug": "focuswriter-app",
+    "title": "FocusWriter",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Pocket is a service that allows you to save articles, videos, and web pages from any device to view later, even offline.",
+    "description": "FocusWriter is a free, open-source, cross-platform writing application designed to remove all distractions, allowing use",
     "badge": null,
     "type": "tool"
   }

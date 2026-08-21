@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "apache-superset-open-source-business-intelligence",
-      "entr-run-commands-file-changes",
-      "consensus-ai-academic-research-engine",
-      "promptperfect-ai-prompt-optimizer",
-      "bearly-ai-desktop-assistant",
-      "chatpdf-ai-document-summarizer",
-      "eightify-youtube-video-summarizer",
       "actual-budget-open-source-finance-2",
       "wallet-budgetbakers-mobile-expense-tracking",
       "monarch-money-modern-personal-finance",
       "goalist-structured-goal-setting-progress-tracker",
-      "timebloc-visual-time-blocking-schedule-planner"
+      "timebloc-visual-time-blocking-schedule-planner",
+      "graphviz-visualize-graphs-networks-code",
+      "qgis-open-source-geographic-information-system",
+      "vizzu-animated-data-stories-charts",
+      "datashader-visualize-big-data-python",
+      "folium-interactive-maps-python-leaflet",
+      "chart-xkcd-humorous-hand-drawn-charts",
+      "vis-js-dynamic-browser-visualizations"
     ]
   },
   {
