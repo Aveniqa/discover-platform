@@ -1,19 +1,19 @@
 [
   {
-    "slug": "zotero-groups",
-    "title": "Zotero Groups",
+    "slug": "currency-converter-api",
+    "title": "Currency Converter API",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Zotero Groups is a free, open-source tool that allows individuals and teams to collaboratively manage research sources. ",
+    "description": "This tool provides a robust and free API for fetching real-time foreign exchange rates. It allows developers to integrat",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "focuswriter-app",
-    "title": "FocusWriter",
+    "slug": "spark-email-productivity",
+    "title": "Spark Mail",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "FocusWriter is a free, open-source, cross-platform writing application designed to remove all distractions, allowing use",
+    "description": "Spark Mail is a modern email client designed to bring order and efficiency to your inbox. It offers features like a smar",
     "badge": null,
     "type": "tool"
   }

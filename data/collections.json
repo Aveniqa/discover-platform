@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "novelai-creative-writing-assistant",
-      "chatpdf-ai-document-summarizer",
-      "eightify-youtube-video-summarizer",
-      "gamma-ai-presentation-generator",
-      "research-rabbit-visual-bibliography",
-      "scholarcy-ai-paper-summarizer",
-      "actual-budget-open-source-finance-2",
-      "wallet-budgetbakers-mobile-expense-tracking",
-      "monarch-money-modern-personal-finance",
-      "financier-io-open-source-budgeting",
       "goalist-structured-goal-setting-progress-tracker",
-      "timebloc-visual-time-blocking-schedule-planner"
+      "timebloc-visual-time-blocking-schedule-planner",
+      "palladio-visualize-complex-humanities-data",
+      "streamlit-build-data-apps-python",
+      "graphviz-visualize-graphs-networks-code",
+      "qgis-open-source-geographic-information-system",
+      "vizzu-animated-data-stories-charts",
+      "datashader-visualize-big-data-python",
+      "folium-interactive-maps-python-leaflet",
+      "chart-xkcd-humorous-hand-drawn-charts",
+      "vis-js-dynamic-browser-visualizations",
+      "micro-terminal-text-editor"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "novelai-creative-writing-assistant",
-      "chatpdf-ai-document-summarizer",
-      "eightify-youtube-video-summarizer",
-      "gamma-ai-presentation-generator",
-      "scholarcy-ai-paper-summarizer",
-      "actual-budget-open-source-finance-2",
-      "wallet-budgetbakers-mobile-expense-tracking",
-      "monarch-money-modern-personal-finance",
-      "financier-io-open-source-budgeting",
       "goalist-structured-goal-setting-progress-tracker",
       "timebloc-visual-time-blocking-schedule-planner",
-      "palladio-visualize-complex-humanities-data"
+      "palladio-visualize-complex-humanities-data",
+      "streamlit-build-data-apps-python",
+      "qgis-open-source-geographic-information-system",
+      "vizzu-animated-data-stories-charts",
+      "datashader-visualize-big-data-python",
+      "folium-interactive-maps-python-leaflet",
+      "chart-xkcd-humorous-hand-drawn-charts",
+      "vis-js-dynamic-browser-visualizations",
+      "micro-terminal-text-editor",
+      "yt-dlp-video-downloader"
     ]
   },
   {
@@ -65,18 +65,18 @@
     "description": "Handpicked gifts for the person who has everything.",
     "emoji": "🎁",
     "itemSlugs": [
-      "kumu-mapping-relationships-systems-visualizer",
-      "deck-gl-webgl-data-visualization-framework",
-      "promptperfect-ai-prompt-optimizer",
-      "bearly-ai-desktop-assistant",
-      "novelai-creative-writing-assistant",
-      "gamma-ai-presentation-generator",
-      "scholarcy-ai-paper-summarizer",
-      "wallet-budgetbakers-mobile-expense-tracking",
-      "monarch-money-modern-personal-finance",
-      "financier-io-open-source-budgeting",
       "goalist-structured-goal-setting-progress-tracker",
-      "timebloc-visual-time-blocking-schedule-planner"
+      "timebloc-visual-time-blocking-schedule-planner",
+      "streamlit-build-data-apps-python",
+      "qgis-open-source-geographic-information-system",
+      "vizzu-animated-data-stories-charts",
+      "datashader-visualize-big-data-python",
+      "folium-interactive-maps-python-leaflet",
+      "chart-xkcd-humorous-hand-drawn-charts",
+      "vis-js-dynamic-browser-visualizations",
+      "yt-dlp-video-downloader",
+      "dua-cli-disk-usage-analyzer",
+      "k9s-kubernetes-cli-ui"
     ]
   },
   {
@@ -85,18 +85,18 @@
     "description": "Products and tools to help you feel your best during everyday routines.",
     "emoji": "💪",
     "itemSlugs": [
-      "exercism-code-practice-mentorship",
-      "clozemaster-language-learning-fill-blanks",
-      "curio-interactive-learning-course-builder",
-      "mailman-inbox-pause-for-gmail",
-      "kumu-mapping-relationships-systems-visualizer",
-      "wallet-budgetbakers-mobile-expense-tracking",
-      "monarch-money-modern-personal-finance",
       "timebloc-visual-time-blocking-schedule-planner",
       "just-command-runner",
       "reetro-agile-retrospective-meeting-tool",
       "750-words-daily-free-writing",
-      "git-exercises-learn-interactive"
+      "git-exercises-learn-interactive",
+      "alcumus-aops-adaptive-math-practice",
+      "bandwhich-network-utilization-cli",
+      "red-squares",
+      "right-to-local-intelligence",
+      "co2-and-decision-making",
+      "linguagpt",
+      "spider-venom-varroa-mite-control"
     ]
   }
 ]
