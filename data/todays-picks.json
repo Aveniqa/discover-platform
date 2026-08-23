@@ -1,19 +1,19 @@
 [
   {
-    "slug": "currency-converter-api",
-    "title": "Currency Converter API",
+    "slug": "ambient-sound-generator",
+    "title": "MyNoise.net",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This tool provides a robust and free API for fetching real-time foreign exchange rates. It allows developers to integrat",
+    "description": "MyNoise.net is a sophisticated, web-based platform dedicated to the creation of highly personalized ambient soundscapes.",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "spark-email-productivity",
-    "title": "Spark Mail",
+    "slug": "thera-health-tracker",
+    "title": "Thera",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Spark Mail is a modern email client designed to bring order and efficiency to your inbox. It offers features like a smar",
+    "description": "Thera is a holistic health tracking app that goes beyond basic symptom logging to encompass mood, sleep, activity, and s",
     "badge": null,
     "type": "tool"
   }
