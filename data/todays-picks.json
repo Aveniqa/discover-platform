@@ -1,19 +1,19 @@
 [
   {
-    "slug": "ambient-sound-generator",
-    "title": "MyNoise.net",
+    "slug": "text-align-visualizer",
+    "title": "Text Alignment Visualizer",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "MyNoise.net is a sophisticated, web-based platform dedicated to the creation of highly personalized ambient soundscapes.",
+    "description": "The Text Alignment Visualizer is an intuitive web-based application designed to illustrate the practical impact of CSS `",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "thera-health-tracker",
-    "title": "Thera",
+    "slug": "libby-borrow-ebooks-audiobooks",
+    "title": "Libby",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Thera is a holistic health tracking app that goes beyond basic symptom logging to encompass mood, sleep, activity, and s",
+    "description": "Libby is a free mobile app that connects to your local public library's digital catalog, allowing you to borrow ebooks a",
     "badge": null,
     "type": "tool"
   }

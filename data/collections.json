@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "actual-budget-open-source-finance-2",
-      "wallet-budgetbakers-mobile-expense-tracking",
-      "monarch-money-modern-personal-finance",
-      "goalist-structured-goal-setting-progress-tracker",
-      "timebloc-visual-time-blocking-schedule-planner",
-      "graphviz-visualize-graphs-networks-code",
-      "qgis-open-source-geographic-information-system",
-      "vizzu-animated-data-stories-charts",
-      "datashader-visualize-big-data-python",
-      "folium-interactive-maps-python-leaflet",
-      "chart-xkcd-humorous-hand-drawn-charts",
-      "vis-js-dynamic-browser-visualizations"
+      "vis-js-dynamic-browser-visualizations",
+      "just-command-runner",
+      "dua-cli-disk-usage-analyzer",
+      "k9s-kubernetes-cli-ui",
+      "atuin-synced-shell-history",
+      "zellij-terminal-multiplexer",
+      "chezmoi-dotfile-manager",
+      "gitui-terminal-ui-for-git",
+      "sapling-ai-grammar-writing-assistant",
+      "elephas-ai-mac-writing-assistant",
+      "lightkey-predictive-typing-windows",
+      "wordtune-ai-rephrase-sentences"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "goalist-structured-goal-setting-progress-tracker",
-      "timebloc-visual-time-blocking-schedule-planner",
-      "palladio-visualize-complex-humanities-data",
-      "streamlit-build-data-apps-python",
-      "graphviz-visualize-graphs-networks-code",
-      "qgis-open-source-geographic-information-system",
-      "vizzu-animated-data-stories-charts",
-      "datashader-visualize-big-data-python",
-      "folium-interactive-maps-python-leaflet",
-      "chart-xkcd-humorous-hand-drawn-charts",
       "vis-js-dynamic-browser-visualizations",
-      "micro-terminal-text-editor"
+      "micro-terminal-text-editor",
+      "yt-dlp-video-downloader",
+      "just-command-runner",
+      "dua-cli-disk-usage-analyzer",
+      "k9s-kubernetes-cli-ui",
+      "atuin-synced-shell-history",
+      "zellij-terminal-multiplexer",
+      "mise-dev-tool-version-manager",
+      "chezmoi-dotfile-manager",
+      "gitui-terminal-ui-for-git",
+      "sapling-ai-grammar-writing-assistant"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "goalist-structured-goal-setting-progress-tracker",
-      "timebloc-visual-time-blocking-schedule-planner",
-      "palladio-visualize-complex-humanities-data",
-      "streamlit-build-data-apps-python",
-      "qgis-open-source-geographic-information-system",
-      "vizzu-animated-data-stories-charts",
-      "datashader-visualize-big-data-python",
-      "folium-interactive-maps-python-leaflet",
-      "chart-xkcd-humorous-hand-drawn-charts",
       "vis-js-dynamic-browser-visualizations",
       "micro-terminal-text-editor",
-      "yt-dlp-video-downloader"
+      "yt-dlp-video-downloader",
+      "just-command-runner",
+      "dua-cli-disk-usage-analyzer",
+      "k9s-kubernetes-cli-ui",
+      "atuin-synced-shell-history",
+      "zellij-terminal-multiplexer",
+      "sapling-ai-grammar-writing-assistant",
+      "jenni-ai-academic-research-assistant",
+      "elephas-ai-mac-writing-assistant",
+      "lightkey-predictive-typing-windows"
     ]
   },
   {
@@ -65,18 +65,18 @@
     "description": "Handpicked gifts for the person who has everything.",
     "emoji": "🎁",
     "itemSlugs": [
-      "goalist-structured-goal-setting-progress-tracker",
-      "timebloc-visual-time-blocking-schedule-planner",
-      "streamlit-build-data-apps-python",
-      "qgis-open-source-geographic-information-system",
-      "vizzu-animated-data-stories-charts",
-      "datashader-visualize-big-data-python",
-      "folium-interactive-maps-python-leaflet",
-      "chart-xkcd-humorous-hand-drawn-charts",
       "vis-js-dynamic-browser-visualizations",
       "yt-dlp-video-downloader",
       "dua-cli-disk-usage-analyzer",
-      "k9s-kubernetes-cli-ui"
+      "k9s-kubernetes-cli-ui",
+      "gitui-terminal-ui-for-git",
+      "jenni-ai-academic-research-assistant",
+      "lightkey-predictive-typing-windows",
+      "wordtune-ai-rephrase-sentences",
+      "longshot-ai-content-fact-checker",
+      "moonbeam-ai-longform-content",
+      "aiprm-chatgpt-prompt-manager",
+      "paragraphai-mobile-writing-assistant"
     ]
   },
   {
