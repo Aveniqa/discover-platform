@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "vis-js-dynamic-browser-visualizations",
-      "just-command-runner",
-      "dua-cli-disk-usage-analyzer",
-      "k9s-kubernetes-cli-ui",
-      "atuin-synced-shell-history",
-      "zellij-terminal-multiplexer",
-      "chezmoi-dotfile-manager",
       "gitui-terminal-ui-for-git",
       "sapling-ai-grammar-writing-assistant",
       "elephas-ai-mac-writing-assistant",
       "lightkey-predictive-typing-windows",
-      "wordtune-ai-rephrase-sentences"
+      "wordtune-ai-rephrase-sentences",
+      "aiprm-chatgpt-prompt-manager",
+      "paragraphai-mobile-writing-assistant",
+      "scispace-ai-co-pilot-research-papers",
+      "litmaps-visualize-research-landscape",
+      "vosviewer-bibliometric-network-visualization",
+      "scrutiny-ai-academic-peer-review",
+      "lean-library-academic-resource-access"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "vis-js-dynamic-browser-visualizations",
-      "micro-terminal-text-editor",
-      "yt-dlp-video-downloader",
-      "just-command-runner",
-      "dua-cli-disk-usage-analyzer",
-      "k9s-kubernetes-cli-ui",
-      "atuin-synced-shell-history",
-      "zellij-terminal-multiplexer",
-      "mise-dev-tool-version-manager",
-      "chezmoi-dotfile-manager",
       "gitui-terminal-ui-for-git",
-      "sapling-ai-grammar-writing-assistant"
+      "sapling-ai-grammar-writing-assistant",
+      "jenni-ai-academic-research-assistant",
+      "elephas-ai-mac-writing-assistant",
+      "lightkey-predictive-typing-windows",
+      "wordtune-ai-rephrase-sentences",
+      "longshot-ai-content-fact-checker",
+      "moonbeam-ai-longform-content",
+      "aiprm-chatgpt-prompt-manager",
+      "paragraphai-mobile-writing-assistant",
+      "scispace-ai-co-pilot-research-papers",
+      "litmaps-visualize-research-landscape"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "vis-js-dynamic-browser-visualizations",
-      "micro-terminal-text-editor",
-      "yt-dlp-video-downloader",
-      "just-command-runner",
-      "dua-cli-disk-usage-analyzer",
-      "k9s-kubernetes-cli-ui",
-      "atuin-synced-shell-history",
-      "zellij-terminal-multiplexer",
       "sapling-ai-grammar-writing-assistant",
       "jenni-ai-academic-research-assistant",
       "elephas-ai-mac-writing-assistant",
-      "lightkey-predictive-typing-windows"
+      "lightkey-predictive-typing-windows",
+      "wordtune-ai-rephrase-sentences",
+      "longshot-ai-content-fact-checker",
+      "moonbeam-ai-longform-content",
+      "aiprm-chatgpt-prompt-manager",
+      "paragraphai-mobile-writing-assistant",
+      "scispace-ai-co-pilot-research-papers",
+      "litmaps-visualize-research-landscape",
+      "vosviewer-bibliometric-network-visualization"
     ]
   },
   {
