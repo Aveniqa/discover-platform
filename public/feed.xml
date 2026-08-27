@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nomics Data Explorer</title>
+      <link>https://surfaced-x.pages.dev/item/nomics-data-explorer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nomics-data-explorer</guid>
+      <description>Nomics provides a comprehensive platform for exploring financial market data, with a particular focus on cryptocurrencies. It offers real-time price feeds, historical data, market cap rankings, trading volume, and detailed information on thousands of digital assets. The service is available through a freemium model, with a robust free tier for basic exploration and paid subscriptions for API access, advanced analytics, and institutional-grade data. Its strength lies in its clean interface and the depth of historical data available for cryptocurrencies.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/39052111/pexels-photo-39052111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/39052111/pexels-photo-39052111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/39052111/pexels-photo-39052111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Scout API</title>
+      <link>https://surfaced-x.pages.dev/item/scout-api</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/scout-api</guid>
+      <description>Scout API provides a suite of essential developer tools designed to streamline the creation and management of APIs. It offers features for API design, documentation generation, mock server creation, and automated testing, allowing developers to build robust and well-documented APIs more efficiently. The platform operates on a freemium model, offering a generous free tier for individual use and smaller teams, with paid plans unlocking advanced features and higher usage limits. A key strength is its intuitive visual API designer, which simplifies complex endpoint creation.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1763568258612-0ae7f6eb1422?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1763568258612-0ae7f6eb1422?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1763568258612-0ae7f6eb1422?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>The Documentation Project</title>
+      <link>https://surfaced-x.pages.dev/item/documentation-project</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/documentation-project</guid>
+      <description>The Documentation Project is an initiative dedicated to creating and maintaining high-quality, user-friendly documentation for a wide range of software and technical topics. It focuses on clear explanations, comprehensive guides, and accessible information, often curated by communities of experts. While not a single tool, it serves as a valuable reference point for finding reliable and well-structured documentation that is often freely available. Its strength lies in its commitment to clarity and the collaborative effort to improve technical information.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/459819/pexels-photo-459819.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/459819/pexels-photo-459819.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/459819/pexels-photo-459819.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>NixOS Packages</title>
+      <link>https://surfaced-x.pages.dev/item/nix-community-packages</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nix-community-packages</guid>
+      <description>The NixOS Packages collection is a vast repository of software packages managed by the Nix package manager. It allows for declarative system configuration, meaning you define your desired system state in a configuration file, and Nix builds it reproducibly. This approach prevents dependency hell and allows for easy rollbacks and system replication. The service is free, with the underlying Nix package manager being open-source. It&apos;s unparalleled in its ability to ensure reproducible and isolated software environments.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1714846201575-4f06e069dc6f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1714846201575-4f06e069dc6f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1714846201575-4f06e069dc6f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Wordnik</title>
+      <link>https://surfaced-x.pages.dev/item/wordnik</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wordnik</guid>
+      <description>Wordnik is a comprehensive online dictionary and thesaurus that goes far beyond basic definitions. It aggregates definitions from numerous reputable sources, provides extensive usage examples drawn from real-world text, and offers detailed etymology and word history.  It&apos;s completely free to use, making it an indispensable resource for writers, lexicographers, and anyone curious about language. Wordnik excels at providing nuanced understanding of word usage through its vast corpus of examples.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6997/books-writing-reading-sonja-langford.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6997/books-writing-reading-sonja-langford.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6997/books-writing-reading-sonja-langford.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Peerboard</title>
       <link>https://surfaced-x.pages.dev/item/peerboard-com</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.unsplash.com/photo-1629654291663-b91ad427698f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODcyMjQ4ODl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
+      <title>Typtop Code Language</title>
+      <link>https://surfaced-x.pages.dev/item/typtop-code-language</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typtop-code-language</guid>
+      <description>Typtop Code Language is an educational web tool designed to teach children the fundamentals of programming through a visual, block-based interface that closely resembles musical notation. Instead of typical code blocks, users arrange symbolic &apos;notes&apos; that represent commands and logic. This approach makes it intuitive for young learners, particularly those who might be drawn to music. Developed by educational technology innovators, it aims to make coding accessible and fun. A child could use Typtop to compose a short animated sequence by &apos;writing&apos; a program like a musical piece.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1642860552637-8164f7777edf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1642860552637-8164f7777edf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1642860552637-8164f7777edf?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>GitHub Copilot</title>
       <link>https://surfaced-x.pages.dev/item/daily-tool-github-copilot</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-github-copilot</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/16094041/pexels-photo-16094041.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/16094041/pexels-photo-16094041.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/16094041/pexels-photo-16094041.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Small Models Have Arrived</title>
+      <link>https://surfaced-x.pages.dev/item/small-models-have-arrived</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/small-models-have-arrived</guid>
+      <description>Calvin&apos;s article, &apos;Small Models Have Arrived,&apos; discusses the recent surge and effectiveness of smaller, more efficient AI models. It argues that while large language models (LLMs) have dominated headlines, significant advancements are being made in creating models that are not only smaller but also highly capable, often rivaling their larger counterparts in specific tasks. The piece explores the implications of this trend for accessibility, deployment, and the democratization of AI technology. It&apos;s essential reading for anyone tracking the evolution of AI beyond just the biggest names.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8294622/pexels-photo-8294622.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8294622/pexels-photo-8294622.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8294622/pexels-photo-8294622.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>SKI</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/34804007/pexels-photo-34804007.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Saving 100 terabytes of memory by optimizing 1.1.1.1&apos;s DNS cache</title>
+      <link>https://surfaced-x.pages.dev/item/dns-cache-memory-optimization</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dns-cache-memory-optimization</guid>
+      <description>This article from Cloudflare details a significant memory optimization achieved for their 1.1.1.1 DNS resolver. The engineers identified inefficiencies in their DNS cache storage, leading to an astounding reduction of 100 terabytes of memory usage. They explain the technical challenges and the innovative data structures and algorithms implemented to achieve this massive saving. This is a deep dive into high-performance distributed systems and practical memory management at an immense scale.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1717386255950-f7fbe05eb6c0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1717386255950-f7fbe05eb6c0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1717386255950-f7fbe05eb6c0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>Automerge</title>
       <link>https://surfaced-x.pages.dev/item/automerge</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/automerge</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/16592498/pexels-photo-16592498.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>I wrote a BASIC interpreter that boots on UEFI machines</title>
+      <link>https://surfaced-x.pages.dev/item/thoreaubasic-interpreter</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/thoreaubasic-interpreter</guid>
+      <description>This project presents Thoreaubasic, a functional BASIC interpreter written in C that can be compiled into a UEFI (Unified Extensible Firmware Interface) application. This means you can boot your computer directly into a BASIC environment without needing an operating system. The interpreter is designed to be relatively small and self-contained, allowing for direct interaction with the hardware at a low level. It&apos;s a nostalgic yet technically impressive feat for retro computing enthusiasts and low-level system programmers.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5185166/pexels-photo-5185166.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5185166/pexels-photo-5185166.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5185166/pexels-photo-5185166.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>ImageMagick</title>
       <link>https://surfaced-x.pages.dev/item/magick</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/magick</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://pixabay.com/get/g052f79ee75dc57e03f8de9f759b80ec958a555c3013e56f9f132b573b245bb75350541ce1904753513bea8afe76e571dfbf8e20e009da91f4fd8ca38c746baf0_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/g052f79ee75dc57e03f8de9f759b80ec958a555c3013e56f9f132b573b245bb75350541ce1904753513bea8afe76e571dfbf8e20e009da91f4fd8ca38c746baf0_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/g052f79ee75dc57e03f8de9f759b80ec958a555c3013e56f9f132b573b245bb75350541ce1904753513bea8afe76e571dfbf8e20e009da91f4fd8ca38c746baf0_1280.jpg" />
+    </item>
+    <item>
+      <title>The load-bearing vocabulary of Claude</title>
+      <link>https://surfaced-x.pages.dev/item/load-bearing-vocabulary</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/load-bearing-vocabulary</guid>
+      <description>This is a fascinating exploration of how specific, carefully chosen words function as &apos;load-bearing vocabulary&apos; within Anthropic&apos;s Claude AI. The author, Louisa Abraham, analyzes how certain phrases and linguistic structures are crucial for Claude&apos;s ability to maintain context, follow instructions, and generate coherent responses. It delves into the subtle architecture of AI communication, highlighting the importance of precise language in guiding AI behavior. This resource is for anyone curious about the inner workings of large language models and the linguistic engineering behind them.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4440715/pexels-photo-4440715.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4440715/pexels-photo-4440715.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4440715/pexels-photo-4440715.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Typeform</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Notesnook</title>
-      <link>https://surfaced-x.pages.dev/item/notesnook-app</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/notesnook-app</guid>
-      <description>Notesnook is a private and secure note-taking application that offers end-to-end encryption, ensuring that your notes are protected and only you can access them. It&apos;s designed for users who are concerned about data privacy and want a reliable place to store sensitive information, thoughts, and ideas. The app supports rich text formatting, tagging, and organization, with sync capabilities across multiple devices (web, desktop, mobile). Developed with a focus on user control and security, it provides an alternative to cloud-based note services that may have less robust privacy policies.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5861185/pexels-photo-5861185.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5861185/pexels-photo-5861185.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5861185/pexels-photo-5861185.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Prelint</title>
-      <link>https://surfaced-x.pages.dev/item/prelint</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/prelint</guid>
-      <description>Prelint is a developer tool designed to maintain code quality and prevent &apos;product drift&apos; in projects heavily utilizing AI-generated code. It integrates into the development workflow, specifically reviewing pull requests (PRs) against predefined architectural decisions (ADRs), documentation, and past project guidelines. Prelint helps ensure that AI-written code aligns with team standards and project intent, catching deviations before they are merged. The tool is offered as a paid service, typically priced per developer or per project.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/36496927/pexels-photo-36496927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/36496927/pexels-photo-36496927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/36496927/pexels-photo-36496927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>HealthKit Data Explorer</title>
-      <link>https://surfaced-x.pages.dev/item/healthkit-data-explorer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/healthkit-data-explorer</guid>
-      <description>The HealthKit Data Explorer is a web-based tool that allows users to upload their HealthKit data (exported from iOS devices) and visualize it in various ways. It helps individuals understand trends in their physical activity, sleep patterns, heart rate, and other health metrics collected by their Apple devices. Developed by an independent creator, it offers a more detailed and customizable analysis than the native Health app, empowering users to gain deeper insights into their well-being. The tool is designed to be user-friendly and privacy-conscious, processing data locally whenever possible.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6203473/pexels-photo-6203473.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6203473/pexels-photo-6203473.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6203473/pexels-photo-6203473.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Readable</title>
-      <link>https://surfaced-x.pages.dev/item/readable-app</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/readable-app</guid>
-      <description>Readable is a web-based application designed to help users improve the readability and clarity of their writing. It analyzes text for common writing pitfalls, providing scores based on metrics like Flesch-Kincaid Grade Level and offering suggestions for word choice, sentence structure, and grammar. It operates on a freemium model, with a generous free tier for basic analysis and paid plans for advanced features and high-volume use. Readable is indispensable for anyone aiming to communicate more effectively with their audience, from bloggers to business professionals.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/110078/pexels-photo-110078.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/110078/pexels-photo-110078.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/110078/pexels-photo-110078.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>CarWatch</title>
-      <link>https://surfaced-x.pages.dev/item/car-watch</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/car-watch</guid>
-      <description>CarWatch is an open-source project that enables you to build a local AI assistant for your car using a Raspberry Pi and the Qwen language model. This allows for personalized voice commands, real-time information retrieval, and potentially advanced car control features, all processed locally without constant cloud connectivity. The project aims to bring AI capabilities to automotive environments in a private and customizable manner, making it an interesting endeavor for hobbyists and automotive enthusiasts. It is hosted on GitHub for community development.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4061596/pexels-photo-4061596.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4061596/pexels-photo-4061596.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4061596/pexels-photo-4061596.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Sublime Text</title>
-      <link>https://surfaced-x.pages.dev/item/sublime-text</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sublime-text</guid>
-      <description>Sublime Text is a sophisticated text editor for code, markup, and prose, known for its speed, responsiveness, and extensive feature set. It supports multiple selections, command palettes, and a vast ecosystem of plugins for customization. While it operates on a paid license, it offers an unlimited evaluation period, allowing users to experience its full capabilities before purchasing. It excels at handling large files and complex coding projects with unparalleled efficiency, making it a favorite among developers and power users.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>LatticeDB</title>
-      <link>https://surfaced-x.pages.dev/item/lattice-db</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lattice-db</guid>
-      <description>LatticeDB is an open-source, embeddable graph database designed to feel as familiar and straightforward as SQLite. It aims to simplify the process of working with graph data by offering a familiar API and on-disk storage, making it accessible for developers who might find full-fledged graph databases overly complex for their needs. It’s particularly useful for applications requiring interconnected data structures but without the overhead of a dedicated graph database server. This project is developed and maintained on GitHub.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/9329805/pexels-photo-9329805.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/9329805/pexels-photo-9329805.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/9329805/pexels-photo-9329805.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Todo Archive</title>
-      <link>https://surfaced-x.pages.dev/item/todo-archive</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/todo-archive</guid>
-      <description>Todo Archive is a minimalist web application designed to help you meticulously record and organize tasks once they are completed. Instead of letting completed items disappear into a void or cluttering your active task list, Todo Archive provides a dedicated space to store them, allowing for reflection and data gathering. It operates on a freemium model, offering basic archiving for free with advanced features and storage available through a paid subscription. It excels at creating a searchable history of your accomplishments.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37186784/pexels-photo-37186784.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37186784/pexels-photo-37186784.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37186784/pexels-photo-37186784.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>iCloud+ Hide My Email addresses will remain on icloud.com</title>
-      <link>https://surfaced-x.pages.dev/item/icloud-hide-my-email</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/icloud-hide-my-email</guid>
-      <description>This announcement from Apple details how Hide My Email addresses, a feature of iCloud+, will continue to be accessible and manageable through the icloud.com web interface. The service allows users to create unique, random email addresses that forward to their personal inbox, enhancing privacy by preventing the direct sharing of their primary email. This update assures users that they can continue to manage these forwarding addresses conveniently from any web browser.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1633675253938-6e02ecfa75b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc2NTY5NDh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1633675253938-6e02ecfa75b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc2NTY5NDh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1633675253938-6e02ecfa75b6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc2NTY5NDh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Excalidraw</title>
-      <link>https://surfaced-x.pages.dev/item/excalidraw-virtual-whiteboard</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/excalidraw-virtual-whiteboard</guid>
-      <description>Excalidraw is an open-source virtual whiteboard tool that allows users to quickly and easily sketch diagrams, flowcharts, wireframes, and mockups with a hand-drawn feel. It prioritizes simplicity and ease of use, offering a minimalist interface with a range of drawing tools. Excalidraw is free to use, with optional paid services for advanced collaboration and hosting. It’s ideal for conceptualizing ideas visually and communicating them clearly, especially in a remote work setting.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/1261816/pexels-photo-1261816.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/1261816/pexels-photo-1261816.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/1261816/pexels-photo-1261816.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
