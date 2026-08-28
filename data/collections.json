@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "gitui-terminal-ui-for-git",
-      "sapling-ai-grammar-writing-assistant",
-      "elephas-ai-mac-writing-assistant",
-      "lightkey-predictive-typing-windows",
-      "wordtune-ai-rephrase-sentences",
-      "aiprm-chatgpt-prompt-manager",
-      "paragraphai-mobile-writing-assistant",
       "scispace-ai-co-pilot-research-papers",
       "litmaps-visualize-research-landscape",
       "vosviewer-bibliometric-network-visualization",
       "scrutiny-ai-academic-peer-review",
-      "lean-library-academic-resource-access"
+      "lean-library-academic-resource-access",
+      "sciwheel-reference-management-manuscript",
+      "quartr-investor-call-transcripts-audio",
+      "undebt-it-debt-payoff-planner",
+      "portfolio-visualizer-investment-backtesting",
+      "firecalc-financial-independence-retire-early",
+      "collectr-physical-collectibles-tracker",
+      "and-co-free-invoicing-and-expense-tracker"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "gitui-terminal-ui-for-git",
-      "sapling-ai-grammar-writing-assistant",
-      "jenni-ai-academic-research-assistant",
-      "elephas-ai-mac-writing-assistant",
-      "lightkey-predictive-typing-windows",
-      "wordtune-ai-rephrase-sentences",
-      "longshot-ai-content-fact-checker",
-      "moonbeam-ai-longform-content",
-      "aiprm-chatgpt-prompt-manager",
-      "paragraphai-mobile-writing-assistant",
       "scispace-ai-co-pilot-research-papers",
-      "litmaps-visualize-research-landscape"
+      "litmaps-visualize-research-landscape",
+      "vosviewer-bibliometric-network-visualization",
+      "paper-digest-ai-summaries-research",
+      "scrutiny-ai-academic-peer-review",
+      "lean-library-academic-resource-access",
+      "sciwheel-reference-management-manuscript",
+      "quartr-investor-call-transcripts-audio",
+      "taguette-open-source-qualitative-analysis",
+      "wealthica-all-financial-accounts-in-canada",
+      "undebt-it-debt-payoff-planner",
+      "portfolio-visualizer-investment-backtesting"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "sapling-ai-grammar-writing-assistant",
-      "jenni-ai-academic-research-assistant",
-      "elephas-ai-mac-writing-assistant",
-      "lightkey-predictive-typing-windows",
-      "wordtune-ai-rephrase-sentences",
-      "longshot-ai-content-fact-checker",
-      "moonbeam-ai-longform-content",
-      "aiprm-chatgpt-prompt-manager",
-      "paragraphai-mobile-writing-assistant",
       "scispace-ai-co-pilot-research-papers",
       "litmaps-visualize-research-landscape",
-      "vosviewer-bibliometric-network-visualization"
+      "vosviewer-bibliometric-network-visualization",
+      "paper-digest-ai-summaries-research",
+      "scrutiny-ai-academic-peer-review",
+      "quartr-investor-call-transcripts-audio",
+      "taguette-open-source-qualitative-analysis",
+      "wealthica-all-financial-accounts-in-canada",
+      "undebt-it-debt-payoff-planner",
+      "portfolio-visualizer-investment-backtesting",
+      "firecalc-financial-independence-retire-early",
+      "collectr-physical-collectibles-tracker"
     ]
   },
   {
