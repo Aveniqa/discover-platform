@@ -1,19 +1,19 @@
 [
   {
-    "slug": "superhuman",
-    "title": "Superhuman",
+    "slug": "type-scale",
+    "title": "Type Scale",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Superhuman is an email client designed for speed and efficiency, aiming to help users achieve inbox zero and manage thei",
+    "description": "Type Scale is a simple, yet powerful web tool that generates a visual hierarchy of font sizes based on a starting value ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "formsy-form-builder",
-    "title": "Formsy",
+    "slug": "interleaf",
+    "title": "Interleaf",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Formsy is a powerful, open-source form building library designed for web developers seeking extensive customization and ",
+    "description": "Interleaf is a cutting-edge design tool focused on creating dynamic and interactive user experiences directly within the",
     "badge": null,
     "type": "tool"
   }
