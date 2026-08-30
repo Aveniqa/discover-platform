@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Font Manager</title>
+      <link>https://surfaced-x.pages.dev/item/font-manager</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/font-manager</guid>
+      <description>Font Manager is a comprehensive, free, and open-source application designed to streamline font management for users on Linux and Windows. It offers a dedicated interface for previewing, organizing, and activating or deactivating fonts across your system. This tool centralizes your font library, providing a structured approach to managing your typeface collection and preventing the common issue of font clutter within design applications. Font Manager aims to ensure that only necessary fonts are loaded, contributing to a cleaner and more efficient workflow.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6475823/pexels-photo-6475823.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6475823/pexels-photo-6475823.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6475823/pexels-photo-6475823.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>DVC (Data Version Control)</title>
+      <link>https://surfaced-x.pages.dev/item/dvc-data-version-control</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dvc-data-version-control</guid>
+      <description>DVC (Data Version Control) is an open-source version control system for machine learning projects. It extends Git to handle large files, data sets, and machine learning models, which are not well-suited for traditional Git repositories. DVC tracks data and model versions using lightweight pointers, while the actual data is stored in external storage solutions like cloud buckets or network drives. It&apos;s free and open-source.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/4578660/pexels-photo-4578660.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/4578660/pexels-photo-4578660.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/4578660/pexels-photo-4578660.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Taskcafe</title>
+      <link>https://surfaced-x.pages.dev/item/taskcafe-task-manager</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/taskcafe-task-manager</guid>
+      <description>Taskcafe is a user-friendly, offline-first task manager that employs a Kanban-style interface for intuitive personal productivity. It empowers users to establish custom boards, organize tasks within lists, and detail each task on individual cards. Key functionalities include setting due dates, incorporating comprehensive notes, and attaching relevant files directly to tasks. A defining feature of Taskcafe is its &apos;offline-first&apos; architecture, ensuring that your task data remains accessible and private at all times. This design prioritizes local data storage, with seamless automatic synchronization occurring once an internet connection is re-established. Taskcafe is also distinguished by its commitment to being free and open-source software.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7680098/pexels-photo-7680098.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7680098/pexels-photo-7680098.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7680098/pexels-photo-7680098.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Ruff</title>
+      <link>https://surfaced-x.pages.dev/item/ruff-linter</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ruff-linter</guid>
+      <description>Ruff is an exceptionally fast Python linter and formatter, written in Rust. It aims to replace multiple existing Python tools like Flake8, isort, and Black with a single, unified, and blazingly fast executable. Ruff offers extensive configuration options and supports a vast array of linting rules and code formatting styles. Its pricing model is open-source (free), making it accessible to all developers.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34803986/pexels-photo-34803986.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34803986/pexels-photo-34803986.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34803986/pexels-photo-34803986.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Zsh Autosuggestions</title>
+      <link>https://surfaced-x.pages.dev/item/zsh-autosuggestions</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zsh-autosuggestions</guid>
+      <description>Zsh Autosuggestions is an advanced Zsh shell plugin designed to enhance command-line efficiency by offering real-time, inline command suggestions. As you type, it intelligently analyzes your command history to predict and propose commands, arguments, and options. This dynamic feature aims to accelerate your interaction with the terminal, making it easier to recall and construct even intricate command sequences. The plugin operates as a free and open-source tool, positioning itself as an essential utility for individuals who regularly engage with the command line and seek a more streamlined experience.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/22890050/pexels-photo-22890050.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/22890050/pexels-photo-22890050.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/22890050/pexels-photo-22890050.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Interleaf</title>
       <link>https://surfaced-x.pages.dev/item/interleaf</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/8250833/pexels-photo-8250833.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Regex Crossword</title>
+      <link>https://surfaced-x.pages.dev/item/regex-trainer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/regex-trainer</guid>
+      <description>Regex Crossword is a gamified learning platform designed to teach and reinforce regular expression (regex) skills. It presents challenges in the form of a crossword puzzle where the &apos;words&apos; are strings, and the &apos;clues&apos; are regular expressions that must match those strings. By solving these puzzles, users learn to construct and interpret complex regex patterns in an intuitive and engaging way. It&apos;s an excellent resource for anyone who needs to master pattern matching for text processing, data validation, or scripting.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12585534/pexels-photo-12585534.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12585534/pexels-photo-12585534.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12585534/pexels-photo-12585534.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>BioSymphony</title>
       <link>https://surfaced-x.pages.dev/item/biosymphony-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/biosymphony-app</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/3861968/pexels-photo-3861968.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/3861968/pexels-photo-3861968.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/3861968/pexels-photo-3861968.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>API Explorer</title>
+      <link>https://surfaced-x.pages.dev/item/rest-api-browser</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rest-api-browser</guid>
+      <description>API Explorer is a web-based tool that allows developers to discover and interact with public REST APIs. It provides a curated list of APIs, often categorized by function, and offers a user-friendly interface to view their endpoints, request methods, parameters, and response structures without needing to write any code. You can send test requests directly from the browser and see the raw JSON or XML responses, making it easy to understand how an API works and what data it returns.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/906055/pexels-photo-906055.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/906055/pexels-photo-906055.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/906055/pexels-photo-906055.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>ChronoDiet</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://pixabay.com/get/g0ec7bf805783163958102a53fe39a47d59ddac4d74081060753add229429ceffd3267e5f8fcaaf6936f88fa289ba79d0808ffac7695874e5e836c0a7b8544774_1280.jpg" />
     </item>
     <item>
+      <title>SQL Formatter Online</title>
+      <link>https://surfaced-x.pages.dev/item/sql-formatter</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sql-formatter</guid>
+      <description>This is a simple yet powerful online tool that automatically formats your SQL code, making it significantly more readable and maintainable. It takes messy, unindented SQL queries and transforms them into a clean, structured format with consistent indentation and capitalization. This is especially useful for developers working with complex SQL statements or inheriting code from others. You can paste your SQL directly into the web interface and get a neatly formatted version back instantly.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>Spark Mail</title>
       <link>https://surfaced-x.pages.dev/item/spark-email-productivity</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spark-email-productivity</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/8829445/pexels-photo-8829445.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Brits&apos; privacy preferences</title>
+      <link>https://surfaced-x.pages.dev/item/the-register-brits-privacy</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/the-register-brits-privacy</guid>
+      <description>This article from The Register examines survey results that indicate a widespread British preference for maintaining the privacy of their personal digital communications. It explores anxieties surrounding government surveillance activities, data retention mandates, and the perceived decline of privacy in the realm of electronic messaging.  The report elaborates on public attitudes toward the significance of secure and confidential messaging platforms, with direct relevance for technology developers, product designers, and legislative bodies. The findings underscore a clear public expectation for robust privacy protections in their digital interactions.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/2214876/pexels-photo-2214876.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/2214876/pexels-photo-2214876.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/2214876/pexels-photo-2214876.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Empower Personal Dashboard™ (formerly Personal Capital)</title>
       <link>https://surfaced-x.pages.dev/item/personal-capital-net-worth</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/personal-capital-net-worth</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/7109243/pexels-photo-7109243.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7109243/pexels-photo-7109243.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7109243/pexels-photo-7109243.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>RISC-V support in CPython</title>
+      <link>https://surfaced-x.pages.dev/item/cpython-risc-v-support</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cpython-risc-v-support</guid>
+      <description>This development signifies the official inclusion of support for the RISC-V architecture within the CPython interpreter, the standard implementation of the Python programming language. This means that Python code compiled with CPython can now run natively on devices and systems powered by RISC-V processors without the need for complex workarounds or unofficial ports. This integration is a crucial step in broadening Python&apos;s reach into new hardware ecosystems.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1782432229482-5abb987729f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1782432229482-5abb987729f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1782432229482-5abb987729f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Tiller Money</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/7735775/pexels-photo-7735775.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7735775/pexels-photo-7735775.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7735775/pexels-photo-7735775.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Spec Checker</title>
-      <link>https://surfaced-x.pages.dev/item/spec-checker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spec-checker</guid>
-      <description>Spec Checker is a lightweight web tool designed to help web designers and developers easily extract and visualize design specifications from mockups. It allows you to upload design files (like Figma or Sketch exports) and then provides an interactive overlay where you can measure distances, inspect colors, and check typography attributes directly on the image. This simplifies the handoff process between design and development teams.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5562092/pexels-photo-5562092.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5562092/pexels-photo-5562092.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5562092/pexels-photo-5562092.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>AdAnt AI</title>
-      <link>https://surfaced-x.pages.dev/item/adant-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/adant-ai</guid>
-      <description>AdAnt AI acts as a suite of AI-powered creative agents designed to automate and optimize social media advertising. It handles the entire ad lifecycle, from initial strategy and content creation to continuous iteration and performance analysis. The tool leverages proprietary strategies developed by its founding team, which have previously driven over 50 million organic views and significantly reduced paid acquisition costs. Pricing is subscription-based, offering tiered plans based on usage and features.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17497303/pexels-photo-17497303.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
-      <media:content url="https://images.pexels.com/photos/17497303/pexels-photo-17497303.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
-      <media:thumbnail url="https://images.pexels.com/photos/17497303/pexels-photo-17497303.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Repper</title>
-      <link>https://surfaced-x.pages.dev/item/repper</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/repper</guid>
-      <description>Repper is a web-based pattern design tool that allows users to create seamless, repeatable patterns for textiles, wallpapers, and digital backgrounds. It offers an intuitive interface where you can upload images, apply various transformations like scaling, rotating, and mirroring, and arrange elements to achieve a perfect tile. The tool is excellent for designers, crafters, or anyone looking to generate custom repeating visuals without complex software.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/33991120/pexels-photo-33991120.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/33991120/pexels-photo-33991120.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/33991120/pexels-photo-33991120.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>FocusWriter</title>
-      <link>https://surfaced-x.pages.dev/item/focuswriter-app</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/focuswriter-app</guid>
-      <description>FocusWriter is a free, open-source, cross-platform writing application designed to remove all distractions, allowing users to concentrate on what matters most: their words. It features a movable, hideable toolbar, customizable themes, and basic document formatting options. The app includes goals and alarms to help users track their progress and manage writing sessions. It is particularly effective for long-form writing and drafting, offering a serene, full-screen writing experience that minimizes interruptions.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/9830817/pexels-photo-9830817.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/9830817/pexels-photo-9830817.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/9830817/pexels-photo-9830817.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Typewell</title>
-      <link>https://surfaced-x.pages.dev/item/type-well</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/type-well</guid>
-      <description>Typewell is a transcription service specifically designed for accessibility, particularly for individuals who are deaf or hard of hearing. It employs real human transcribers who provide live, accurate captions and notes for lectures, meetings, and events. Unlike automated captioning, Typewell focuses on clarity, context, and meaning, making it easier to follow complex discussions or rapid speech. It&apos;s ideal for educational institutions, businesses, and organizations committed to inclusive communication.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/1650208/pexels-photo-1650208.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/1650208/pexels-photo-1650208.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/1650208/pexels-photo-1650208.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Writer&apos;s First Notebook</title>
-      <link>https://surfaced-x.pages.dev/item/writer-first-notebook</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/writer-first-notebook</guid>
-      <description>Writer&apos;s First Notebook is a minimalist, distraction-free writing application designed to help authors focus purely on their craft. It offers a clean interface with essential formatting tools and project management features, such as chapter organization and word count tracking. This free, open-source tool aims to emulate the tactile experience of writing in a physical notebook without digital clutter. It excels at providing an uncluttered space for uninterrupted drafting, making it ideal for writers who find traditional word processors overwhelming.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/159538/school-book-binder-folder-notebook-159538.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/159538/school-book-binder-folder-notebook-159538.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/159538/school-book-binder-folder-notebook-159538.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>vphone-cli</title>
-      <link>https://surfaced-x.pages.dev/item/vphone-cli</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vphone-cli</guid>
-      <description>vphone-cli is a command-line utility that leverages Apple&apos;s Virtualization.framework to enable the booting of virtual iPhones directly on macOS. Designed for developers and testers, it offers a streamlined approach to running iOS simulations independent of the full Xcode simulator. This enables users to efficiently test applications, explore various iOS features, and even utilize iOS applications directly on their desktop environments.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/g372291fa5a3b2ec5b67761b4170ea4f18fa265f5f9a741a620d10ef7bf0a3331d94204ffdd686b8aaf0ac27d1a9dfdcaa21e780c2a608f84d52ab3a76cee76e3_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/g372291fa5a3b2ec5b67761b4170ea4f18fa265f5f9a741a620d10ef7bf0a3331d94204ffdd686b8aaf0ac27d1a9dfdcaa21e780c2a608f84d52ab3a76cee76e3_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/g372291fa5a3b2ec5b67761b4170ea4f18fa265f5f9a741a620d10ef7bf0a3331d94204ffdd686b8aaf0ac27d1a9dfdcaa21e780c2a608f84d52ab3a76cee76e3_1280.jpg" />
-    </item>
-    <item>
-      <title>Manuscript</title>
-      <link>https://surfaced-x.pages.dev/item/manuscript-app</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/manuscript-app</guid>
-      <description>Manuscript is a comprehensive, free, and open-source application specifically designed for academic writing. It handles everything from manuscript creation and editing to journal submission, streamlining the entire research publishing workflow. It features robust support for citations, references, figures, tables, and complex formatting required by academic journals. Manuscript excels at managing the intricate details of scholarly articles, allowing authors to focus on their research rather than wrestling with formatting and submission systems.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/9572697/pexels-photo-9572697.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/9572697/pexels-photo-9572697.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/9572697/pexels-photo-9572697.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Superhuman</title>
-      <link>https://surfaced-x.pages.dev/item/superhuman</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/superhuman</guid>
-      <description>Superhuman is an email client designed for speed and efficiency, aiming to help users achieve inbox zero and manage their communications more effectively. It offers a keyboard-centric interface, AI-powered features like smart summaries and scheduled send, and tools for tracking email opens. The service focuses on reducing the time spent on email by streamlining common actions and minimizing distractions. It&apos;s built for professionals who handle a high volume of emails and need to process them rapidly without sacrificing thoroughness.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/19730401/pexels-photo-19730401.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/19730401/pexels-photo-19730401.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/19730401/pexels-photo-19730401.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Zenodo</title>
-      <link>https://surfaced-x.pages.dev/item/zenodo</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/zenodo</guid>
-      <description>Zenodo is a free, open-access repository for research data and publications, allowing scientists, researchers, and anyone involved in academic pursuits to deposit, share, and cite their work. It assigns a persistent Digital Object Identifier (DOI) to each upload, ensuring long-term discoverability and citation. Zenodo supports a wide range of file formats and sizes, making it a versatile platform for archiving research outputs. It&apos;s funded by the European Commission and managed by CERN.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/669613/pexels-photo-669613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/669613/pexels-photo-669613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/669613/pexels-photo-669613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

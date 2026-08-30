@@ -1,19 +1,19 @@
 [
   {
-    "slug": "type-scale",
-    "title": "Type Scale",
+    "slug": "regex-trainer",
+    "title": "Regex Crossword",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Type Scale is a simple, yet powerful web tool that generates a visual hierarchy of font sizes based on a starting value ",
+    "description": "Regex Crossword is a gamified learning platform designed to teach and reinforce regular expression (regex) skills. It pr",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "interleaf",
-    "title": "Interleaf",
+    "slug": "font-manager",
+    "title": "Font Manager",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Interleaf is a cutting-edge design tool focused on creating dynamic and interactive user experiences directly within the",
+    "description": "Font Manager is a comprehensive, free, and open-source application designed to streamline font management for users on L",
     "badge": null,
     "type": "tool"
   }
