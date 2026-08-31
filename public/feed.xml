@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forest</title>
+      <link>https://surfaced-x.pages.dev/item/forest-focus-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/forest-focus-app</guid>
+      <description>Forest is a gamified productivity app designed to help users stay focused by growing virtual trees. When you want to concentrate, you start a timer in the app, and a virtual tree begins to grow. If you leave the app before the timer is up, your tree withers. This freemium app offers basic functionality for free, with premium features available via purchase. It gamifies the challenge of resisting digital distractions, turning focus into a rewarding experience.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/296331/pexels-photo-296331.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/296331/pexels-photo-296331.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/296331/pexels-photo-296331.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Scrivener</title>
+      <link>https://surfaced-x.pages.dev/item/scrivener-writing-software</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/scrivener-writing-software</guid>
+      <description>Scrivener is a powerful writing application designed for long-form projects like novels, theses, and screenplays. It allows writers to break down their work into smaller, manageable sections, organize research, and view their project from multiple perspectives. This freemium tool offers a robust free trial and then a one-time purchase, making it an accessible investment for serious writers. It excels at managing complex outlines and scattered research notes, transforming them into a cohesive narrative.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/13334827/pexels-photo-13334827.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/13334827/pexels-photo-13334827.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/13334827/pexels-photo-13334827.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Hemingway Editor</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-hemingway-editor</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-hemingway-editor</guid>
+      <description>Hemingway Editor is a digital writing assistant available as both a free web application and a paid desktop program. Its primary function is to enhance the clarity and conciseness of written content. The application meticulously scans text, identifying and visually highlighting potential areas for improvement. These include sentences that are excessively long or complex, instances of passive voice, overuse of adverbs, and words that have simpler, more direct synonyms. By employing a system of color-coded annotations, Hemingway Editor guides users toward a more direct and impactful writing style, reminiscent of the celebrated author Ernest Hemingway&apos;s characteristic prose.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/270238/pexels-photo-270238.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/270238/pexels-photo-270238.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/270238/pexels-photo-270238.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>PRAXIST</title>
+      <link>https://surfaced-x.pages.dev/item/praxist</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/praxist</guid>
+      <description>PRAXIST is an open-source Python project that functions as an autonomous research system. Its core capability is to execute measurable, computer-executable research, aiming to automate significant portions of the scientific inquiry process. This includes steps from initial hypothesis generation through to experimental validation. The system is engineered to manage intricate data analysis and interpretation tasks, presenting a contemporary methodology for conducting research in a manner that prioritizes reproducibility and scalability. PRAXIST facilitates a more efficient and systematic approach to scientific exploration.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8439005/pexels-photo-8439005.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8439005/pexels-photo-8439005.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8439005/pexels-photo-8439005.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>openGym</title>
+      <link>https://surfaced-x.pages.dev/item/open-gym</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/open-gym</guid>
+      <description>openGym is a toolkit for developing and comparing reinforcement learning algorithms. It provides a wide range of environments, from classic control tasks to more complex simulations, allowing researchers to test their agents in diverse scenarios. The project is open-source and free to use, focusing on providing a standardized interface for easy integration with various machine learning frameworks. It excels at offering a consistent benchmarking platform for RL research.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30901567/pexels-photo-30901567.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30901567/pexels-photo-30901567.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30901567/pexels-photo-30901567.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Font Manager</title>
       <link>https://surfaced-x.pages.dev/item/font-manager</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/27141307/pexels-photo-27141307.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Literary Devices Atlas</title>
+      <link>https://surfaced-x.pages.dev/item/literary-devices-atlas</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/literary-devices-atlas</guid>
+      <description>This website is a comprehensive and visually organized database of literary devices and rhetorical techniques. It breaks down complex concepts into understandable explanations, often with clear examples from literature and everyday language. It&apos;s maintained by a collective of literature enthusiasts and educators who aim to demystify the art of writing and analysis. For instance, a student struggling to identify irony in a novel could use this site to explore its different forms and see how authors employ it.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/35955726/pexels-photo-35955726.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/35955726/pexels-photo-35955726.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/35955726/pexels-photo-35955726.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Artbreeder</title>
       <link>https://surfaced-x.pages.dev/item/daily-tool-generative-art-playground</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-generative-art-playground</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/8090125/pexels-photo-8090125.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/8090125/pexels-photo-8090125.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/8090125/pexels-photo-8090125.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>NFC Energy-Harvesting PCB Business Card with an MCU</title>
+      <link>https://surfaced-x.pages.dev/item/wilsonharper-projects-businesscard</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wilsonharper-projects-businesscard</guid>
+      <description>This project details an ingenious NFC (Near Field Communication) enabled printed circuit board designed to function as a business card.  The core innovation lies in its ability to harvest sufficient energy directly from an NFC reader&apos;s electromagnetic field to power an embedded microcontroller. This eliminates the need for any onboard battery, allowing the card to store and wirelessly transmit dynamic information.  The design serves as a compelling proof-of-concept for self-sustaining electronic devices, opening avenues for interactive business cards, compact, battery-free sensors, and small-scale Internet of Things (IoT) nodes.  The project&apos;s open-source nature further promotes community engagement and exploration in the realm of ultra-low-power electronics.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/19716297/pexels-photo-19716297.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/19716297/pexels-photo-19716297.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/19716297/pexels-photo-19716297.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Roam Research</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.unsplash.com/photo-1630756539201-f435ba29f1fe?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc1NzA1NDR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
+      <title>Voronoi Go</title>
+      <link>https://surfaced-x.pages.dev/item/voronoigo-com</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/voronoigo-com</guid>
+      <description>Voronoi Go is a web-based tool that generates interactive Voronoi diagrams directly on a map interface. Users can input a set of points on a global map, and the tool will compute and visualize the corresponding Voronoi tessellation, dividing the map into regions based on the closest point. It&apos;s particularly useful for understanding spatial relationships, territorial divisions, or proximity analysis in a geographical context. The interactive nature allows for easy manipulation of points and exploration of the resulting spatial patterns.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/38251244/pexels-photo-38251244.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/38251244/pexels-photo-38251244.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/38251244/pexels-photo-38251244.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Thera</title>
       <link>https://surfaced-x.pages.dev/item/thera-health-tracker</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/thera-health-tracker</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/8391376/pexels-photo-8391376.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Playa Phone</title>
+      <link>https://surfaced-x.pages.dev/item/playaphone</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/playaphone</guid>
+      <description>Playa Phone is a sophisticated web-based platform engineered for seamless, real-time, collaborative music creation. It empowers multiple musicians to connect and perform together virtually, simulating the experience of being in the same physical space.  The platform prioritizes ultra-low-latency audio streaming and precise synchronization, which are fundamental for authentic virtual jamming, remote rehearsals, and collaborative songwriting. Playa Phone accommodates a diverse range of instruments and establishes a shared digital environment conducive to creative musical expression, positioning it as a forward-thinking solution for geographically dispersed musical ensembles and individual artists seeking remote creative partnerships.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6250/technology-music-phone-screen.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6250/technology-music-phone-screen.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6250/technology-music-phone-screen.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Cognito</title>
       <link>https://surfaced-x.pages.dev/item/cognito-writing-assistant</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cognito-writing-assistant</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/17483907/pexels-photo-17483907.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
       <media:content url="https://images.pexels.com/photos/17483907/pexels-photo-17483907.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
       <media:thumbnail url="https://images.pexels.com/photos/17483907/pexels-photo-17483907.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>OpenShot 4.0 – Open-source video editor</title>
+      <link>https://surfaced-x.pages.dev/item/openshot-40</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/openshot-40</guid>
+      <description>OpenShot 4.0 is a significant update to the popular open-source video editing software. This version introduces advanced features for recording screen content, professional-grade editing tools, and robust color correction capabilities. Designed for ease of use while offering deep functionality, OpenShot empowers creators to produce polished videos without the steep learning curve or cost associated with proprietary software. It&apos;s ideal for hobbyists, educators, and small businesses looking to create tutorials, promotional content, or personal projects.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/9439248/pexels-photo-9439248.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/9439248/pexels-photo-9439248.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/9439248/pexels-photo-9439248.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Symple Productivity Planner</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/3861968/pexels-photo-3861968.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/3861968/pexels-photo-3861968.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/3861968/pexels-photo-3861968.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>API Explorer</title>
-      <link>https://surfaced-x.pages.dev/item/rest-api-browser</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rest-api-browser</guid>
-      <description>API Explorer is a web-based tool that allows developers to discover and interact with public REST APIs. It provides a curated list of APIs, often categorized by function, and offers a user-friendly interface to view their endpoints, request methods, parameters, and response structures without needing to write any code. You can send test requests directly from the browser and see the raw JSON or XML responses, making it easy to understand how an API works and what data it returns.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/906055/pexels-photo-906055.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/906055/pexels-photo-906055.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/906055/pexels-photo-906055.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>ChronoDiet</title>
-      <link>https://surfaced-x.pages.dev/item/chrono-diet-app</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/chrono-diet-app</guid>
-      <description>ChronoDiet is a mobile application designed to help users align their eating habits with their natural circadian rhythms, optimizing digestion, metabolism, and overall health. It provides personalized meal timing recommendations based on individual chronotypes and daily schedules. The app offers a freemium model, with core features available for free and advanced analytics and coaching offered through a premium subscription. It excels at translating complex chronobiology research into actionable, daily eating advice, which is a unique and valuable feature.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/g0ec7bf805783163958102a53fe39a47d59ddac4d74081060753add229429ceffd3267e5f8fcaaf6936f88fa289ba79d0808ffac7695874e5e836c0a7b8544774_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/g0ec7bf805783163958102a53fe39a47d59ddac4d74081060753add229429ceffd3267e5f8fcaaf6936f88fa289ba79d0808ffac7695874e5e836c0a7b8544774_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/g0ec7bf805783163958102a53fe39a47d59ddac4d74081060753add229429ceffd3267e5f8fcaaf6936f88fa289ba79d0808ffac7695874e5e836c0a7b8544774_1280.jpg" />
-    </item>
-    <item>
-      <title>SQL Formatter Online</title>
-      <link>https://surfaced-x.pages.dev/item/sql-formatter</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sql-formatter</guid>
-      <description>This is a simple yet powerful online tool that automatically formats your SQL code, making it significantly more readable and maintainable. It takes messy, unindented SQL queries and transforms them into a clean, structured format with consistent indentation and capitalization. This is especially useful for developers working with complex SQL statements or inheriting code from others. You can paste your SQL directly into the web interface and get a neatly formatted version back instantly.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDh8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Spark Mail</title>
-      <link>https://surfaced-x.pages.dev/item/spark-email-productivity</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spark-email-productivity</guid>
-      <description>Spark Mail is a modern email client designed to bring order and efficiency to your inbox. It offers features like a smart inbox that categorizes emails into groups (people, notifications, newsletters), quick replies, email scheduling, and a unified inbox for multiple accounts. The core features are free, with an optional premium subscription for team collaboration and advanced functionalities. Spark excels at decluttering your inbox and helping you process emails faster.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8829445/pexels-photo-8829445.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8829445/pexels-photo-8829445.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8829445/pexels-photo-8829445.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Brits&apos; privacy preferences</title>
-      <link>https://surfaced-x.pages.dev/item/the-register-brits-privacy</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/the-register-brits-privacy</guid>
-      <description>This article from The Register examines survey results that indicate a widespread British preference for maintaining the privacy of their personal digital communications. It explores anxieties surrounding government surveillance activities, data retention mandates, and the perceived decline of privacy in the realm of electronic messaging.  The report elaborates on public attitudes toward the significance of secure and confidential messaging platforms, with direct relevance for technology developers, product designers, and legislative bodies. The findings underscore a clear public expectation for robust privacy protections in their digital interactions.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/2214876/pexels-photo-2214876.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/2214876/pexels-photo-2214876.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/2214876/pexels-photo-2214876.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Empower Personal Dashboard™ (formerly Personal Capital)</title>
-      <link>https://surfaced-x.pages.dev/item/personal-capital-net-worth</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/personal-capital-net-worth</guid>
-      <description>Empower Personal Dashboard is a comprehensive personal finance platform that offers free tools for tracking net worth, analyzing spending, and planning for retirement. It securely aggregates all your financial accounts—bank accounts, credit cards, investments, and loans—into a single dashboard. While the tracking tools are free, the platform also offers paid financial advisory services. It stands out for its robust investment tracking and analysis capabilities, providing a holistic view of your financial health.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7109243/pexels-photo-7109243.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7109243/pexels-photo-7109243.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7109243/pexels-photo-7109243.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>RISC-V support in CPython</title>
-      <link>https://surfaced-x.pages.dev/item/cpython-risc-v-support</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cpython-risc-v-support</guid>
-      <description>This development signifies the official inclusion of support for the RISC-V architecture within the CPython interpreter, the standard implementation of the Python programming language. This means that Python code compiled with CPython can now run natively on devices and systems powered by RISC-V processors without the need for complex workarounds or unofficial ports. This integration is a crucial step in broadening Python&apos;s reach into new hardware ecosystems.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1782432229482-5abb987729f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1782432229482-5abb987729f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1782432229482-5abb987729f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgxMDI2NDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Tiller Money</title>
-      <link>https://surfaced-x.pages.dev/item/tiller</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tiller</guid>
-      <description>Tiller Money automates the process of pulling your financial data from various accounts (banks, credit cards, investments) directly into Google Sheets or Microsoft Excel. It offers a freemium model with a paid subscription for full functionality. Tiller eliminates the manual work of data entry, allowing you to focus on analyzing your finances. Its key differentiator is its ability to keep your financial spreadsheets consistently updated with live data, ensuring accuracy for all your budgeting and financial planning needs.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8292795/pexels-photo-8292795.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8292795/pexels-photo-8292795.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8292795/pexels-photo-8292795.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Type Scale</title>
-      <link>https://surfaced-x.pages.dev/item/type-scale</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/type-scale</guid>
-      <description>Type Scale is a simple, yet powerful web tool that generates a visual hierarchy of font sizes based on a starting value and a chosen ratio. It helps designers and developers quickly establish a consistent and aesthetically pleasing typographic scale for headings, subheadings, and body text, ensuring visual rhythm and readability across a design system. You can see how different sizes will look and export the generated scale for use in your projects.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/31646832/pexels-photo-31646832.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/31646832/pexels-photo-31646832.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/31646832/pexels-photo-31646832.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>YNAB (You Need A Budget)</title>
-      <link>https://surfaced-x.pages.dev/item/ynab-2</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ynab-2</guid>
-      <description>YNAB is a budgeting app that helps you gain control over your money through its unique four-rule system. It employs an zero-based budgeting approach, meaning every dollar is assigned a job, preventing overspending and promoting intentional financial decisions. The app offers a one-time purchase or a subscription model, with a generous free trial available. It excels at providing actionable insights into your spending habits and future financial needs, making it more than just a tracker but a proactive financial planning tool.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7735775/pexels-photo-7735775.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7735775/pexels-photo-7735775.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7735775/pexels-photo-7735775.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

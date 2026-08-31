@@ -1,19 +1,19 @@
 [
   {
-    "slug": "regex-trainer",
-    "title": "Regex Crossword",
+    "slug": "literary-devices-atlas",
+    "title": "Literary Devices Atlas",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Regex Crossword is a gamified learning platform designed to teach and reinforce regular expression (regex) skills. It pr",
+    "description": "This website is a comprehensive and visually organized database of literary devices and rhetorical techniques. It breaks",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "font-manager",
-    "title": "Font Manager",
+    "slug": "forest-focus-app",
+    "title": "Forest",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Font Manager is a comprehensive, free, and open-source application designed to streamline font management for users on L",
+    "description": "Forest is a gamified productivity app designed to help users stay focused by growing virtual trees. When you want to con",
     "badge": null,
     "type": "tool"
   }
