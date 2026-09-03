@@ -1,19 +1,19 @@
 [
   {
-    "slug": "glycemic-index-calculator",
-    "title": "Glycemic Index Calculator",
+    "slug": "historical-census-data-browser",
+    "title": "IPUMS USA",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This accessible online tool serves as a Glycemic Index (GI) and Glycemic Load (GL) calculator, designed to help users un",
+    "description": "IPUMS USA, the Integrated Public Use Microdata Series, offers free and comprehensive access to U.S. census data spanning",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "habitflow-app",
-    "title": "HabitFlow App",
+    "slug": "scispace-com",
+    "title": "SciSpace",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "HabitFlow is a visually oriented habit-tracking application that focuses on building sustainable routines through positi",
+    "description": "SciSpace is an AI-powered platform designed to help researchers, students, and academics navigate and understand scienti",
     "badge": null,
     "type": "tool"
   }
