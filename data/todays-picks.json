@@ -1,19 +1,19 @@
 [
   {
-    "slug": "historical-census-data-browser",
-    "title": "IPUMS USA",
+    "slug": "text-based-game-engine-ink",
+    "title": "Ink",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "IPUMS USA, the Integrated Public Use Microdata Series, offers free and comprehensive access to U.S. census data spanning",
+    "description": "Ink is a powerful, yet approachable, scripting language developed by inkle Studios specifically for writing interactive ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "scispace-com",
-    "title": "SciSpace",
+    "slug": "note-taking-app-chronicle",
+    "title": "Chronicle",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "SciSpace is an AI-powered platform designed to help researchers, students, and academics navigate and understand scienti",
+    "description": "Chronicle is a private, encrypted journaling and note-taking application designed for personal reflection and knowledge ",
     "badge": null,
     "type": "tool"
   }
