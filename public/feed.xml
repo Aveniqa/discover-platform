@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pinboard</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-pinboard-social-bookmarking</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-pinboard-social-bookmarking</guid>
+      <description>Pinboard is a fast, private, and advertising-free bookmarking service that helps you save and organize the web pages you want to remember. Unlike many free services that are riddled with ads and track your activity, Pinboard offers a simple, subscription-based model that prioritizes user privacy and a clean interface. It allows for tagging, searching, and even private bookmarking, ensuring your collected links are for your eyes only. It also offers an API for developers and integrations with other tools.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/22815845/pexels-photo-22815845.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/22815845/pexels-photo-22815845.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/22815845/pexels-photo-22815845.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Nextcloud</title>
+      <link>https://surfaced-x.pages.dev/item/nextcloud-collaboration-suite</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nextcloud-collaboration-suite</guid>
+      <description>Nextcloud is a powerful, open-source suite of online collaboration tools that allows users to host their own cloud storage, file sharing, calendar, contacts, and more. Unlike proprietary cloud services, Nextcloud gives you complete control over your data, offering a secure and private alternative. It provides robust file synchronization across devices, collaborative document editing through its integrated Nextcloud Office, and a vast ecosystem of apps for extending its functionality. Pricing is based on the hardware and maintenance you provide for your own server or through managed hosting providers.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g4baef7ce4e6d566d585e3673371002ef56fe4f7f3ca354947f1c00b4084e43abd80c823d69d1dc0308678fcbd2dc93629588c9aa738b4596ab148043efcaf5e9_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g4baef7ce4e6d566d585e3673371002ef56fe4f7f3ca354947f1c00b4084e43abd80c823d69d1dc0308678fcbd2dc93629588c9aa738b4596ab148043efcaf5e9_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g4baef7ce4e6d566d585e3673371002ef56fe4f7f3ca354947f1c00b4084e43abd80c823d69d1dc0308678fcbd2dc93629588c9aa738b4596ab148043efcaf5e9_1280.jpg" />
+    </item>
+    <item>
+      <title>Element (formerly Riot)</title>
+      <link>https://surfaced-x.pages.dev/item/matrix-chat-client</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/matrix-chat-client</guid>
+      <description>Element is a free, open-source, and end-to-end encrypted chat and collaboration client built on the Matrix protocol. It allows users to communicate securely with individuals and groups across different servers, fostering a decentralized and privacy-focused alternative to traditional messaging apps.  It offers features like direct messaging, group chats, voice and video calls, and file sharing.  Its unique value lies in its interoperability and the fact that you can self-host your own server or join public ones without being tied to a single company.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8284722/pexels-photo-8284722.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8284722/pexels-photo-8284722.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8284722/pexels-photo-8284722.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Utopia</title>
+      <link>https://surfaced-x.pages.dev/item/utopia</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/utopia</guid>
+      <description>Utopia presents itself as the inaugural open-source enterprise world model, built with the Rust programming language.  Its core objective is to establish a robust, extensible framework for simulating and interpreting multifaceted global systems.  The project prioritizes transparency and flexibility, aiming to equip organizations with the capability to construct intricate models that represent the interwoven dynamics of economic, social, and environmental elements.  By embracing an open-source methodology, Utopia fosters collaborative development and enables users to tailor the model extensively to their specific requirements.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30547606/pexels-photo-30547606.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30547606/pexels-photo-30547606.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30547606/pexels-photo-30547606.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Dograh</title>
+      <link>https://surfaced-x.pages.dev/item/dograh</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dograh</guid>
+      <description>Dograh is an open-source platform designed to provide an alternative to closed voice AI services like VAPI. It empowers users to build and deploy their own voice agents without being tied to a specific provider or paying recurring rental fees. The tool features a visual flow builder that allows for easy integration with over 30 services, or the option to use local models. It also supports telephony, making it a comprehensive solution for custom voice applications.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7709193/pexels-photo-7709193.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7709193/pexels-photo-7709193.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7709193/pexels-photo-7709193.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Chronicle</title>
       <link>https://surfaced-x.pages.dev/item/note-taking-app-chronicle</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/3688759/pexels-photo-3688759.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>CivilServant</title>
+      <link>https://surfaced-x.pages.dev/item/civilservant-digital-participation</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/civilservant-digital-participation</guid>
+      <description>CivilServant is an open-source platform designed to facilitate digital civic participation and collective intelligence. Created by researchers from institutions like the MIT Media Lab, it enables governments and organizations to crowdsource ideas, feedback, and data from citizens on policy issues and public services. Users can contribute to discussions, answer surveys, and engage in collaborative problem-solving, providing valuable insights for decision-makers.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6077325/pexels-photo-6077325.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6077325/pexels-photo-6077325.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6077325/pexels-photo-6077325.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Palette Generator</title>
       <link>https://surfaced-x.pages.dev/item/palette-generator-2</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/palette-generator-2</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/33176608/pexels-photo-33176608.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/33176608/pexels-photo-33176608.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/33176608/pexels-photo-33176608.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>JoinMastodon</title>
+      <link>https://surfaced-x.pages.dev/item/joinmastodon-fediverse</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/joinmastodon-fediverse</guid>
+      <description>JoinMastodon is a portal to the Mastodon social network, a free, open-source, decentralized platform that allows you to connect with people across thousands of independent servers (instances). Unlike traditional social media, Mastodon isn&apos;t owned by a single company, giving users more control and a more diverse online experience. You can follow people, share posts (toots), and engage in conversations without algorithmic manipulation or data mining.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1664526936886-67d4e7ff743c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg2MTU2MTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1664526936886-67d4e7ff743c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg2MTU2MTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1664526936886-67d4e7ff743c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg2MTU2MTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Clipto MCP</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.unsplash.com/photo-1542039375-28138150cc31?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODgwMTcxODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
+      <title>RemNote</title>
+      <link>https://surfaced-x.pages.dev/item/remnote-knowledge-management</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/remnote-knowledge-management</guid>
+      <description>RemNote is an innovative note-taking and learning tool that combines the power of spaced repetition flashcards with traditional note-taking. Developed by RemNote GmbH, it allows you to create interconnected notes with bi-directional linking, turning your knowledge base into a navigable graph. The built-in spaced repetition system helps you memorize information effectively by prompting you to review notes at optimal intervals, making it ideal for students and lifelong learners.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7319198/pexels-photo-7319198.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7319198/pexels-photo-7319198.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7319198/pexels-photo-7319198.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Formsy</title>
       <link>https://surfaced-x.pages.dev/item/formsy-form-builder</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/formsy-form-builder</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://pixabay.com/get/g42ad8d6c7f7b619ea0487213e54fd5bd0957d3befb33e8f4ea88ab1e62ae3e45c2be3af9bddb8548a9e451f5f027cc1c8853596e7ac95215f32a672937f06326_1280.jpg" />
     </item>
     <item>
+      <title>Element (Matrix Client)</title>
+      <link>https://surfaced-x.pages.dev/item/matrix-chat-clients</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/matrix-chat-clients</guid>
+      <description>Element is a powerful, end-to-end encrypted messaging and collaboration client built on the open Matrix protocol. Developed by Element, it offers secure communication for individuals and teams, acting as a gateway to the decentralized Matrix network. You can chat, voice/video call, share files, and collaborate on projects with unparalleled privacy and control over your data, as it allows you to host your own server or join public ones.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/31418370/pexels-photo-31418370.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/31418370/pexels-photo-31418370.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/31418370/pexels-photo-31418370.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Orchestra</title>
       <link>https://surfaced-x.pages.dev/item/orchestraflow</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/orchestraflow</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/270283/pexels-photo-270283.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/270283/pexels-photo-270283.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/270283/pexels-photo-270283.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Rec Room</title>
+      <link>https://surfaced-x.pages.dev/item/recroom-social</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/recroom-social</guid>
+      <description>Rec Room is a vibrant, user-generated social VR platform where you can play games, create rooms, and hang out with friends. Built by Rec Room Inc., it offers a wide array of activities, from competitive paintball to collaborative art projects, all within a persistent virtual world accessible on VR headsets, PC, and mobile devices. It empowers users to design and share their own experiences, fostering a dynamic and ever-evolving digital space.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6498306/pexels-photo-6498306.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6498306/pexels-photo-6498306.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6498306/pexels-photo-6498306.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Logseq</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://pixabay.com/get/g3c1ce187b523382e9eae21343d17f7d9a0163ec08ba860d44d0893a750b99b0e64df4bde7668def946b64fe848f8ae3e151e08086c734dba16ec1f873e919476_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/g3c1ce187b523382e9eae21343d17f7d9a0163ec08ba860d44d0893a750b99b0e64df4bde7668def946b64fe848f8ae3e151e08086c734dba16ec1f873e919476_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/g3c1ce187b523382e9eae21343d17f7d9a0163ec08ba860d44d0893a750b99b0e64df4bde7668def946b64fe848f8ae3e151e08086c734dba16ec1f873e919476_1280.jpg" />
-    </item>
-    <item>
-      <title>Chords.rocks</title>
-      <link>https://surfaced-x.pages.dev/item/generative-music-tool-chords</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/generative-music-tool-chords</guid>
-      <description>Chords.rocks is an innovative web application that generates novel chord progressions based on user-defined parameters and moods. It leverages a sophisticated algorithm to suggest musically pleasing and interesting sequences of chords, moving beyond basic diatonic patterns. Users can specify genre influences, desired emotional tone, and even select specific scales or modes to guide the generation process. The tool is ideal for songwriters, composers, and producers looking for fresh harmonic ideas or to break out of creative ruts. It provides MIDI output and a visual representation of the progressions.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4146645/pexels-photo-4146645.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4146645/pexels-photo-4146645.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4146645/pexels-photo-4146645.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>dsh-web</title>
-      <link>https://surfaced-x.pages.dev/item/dsh-web</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dsh-web</guid>
-      <description>dsh-web is a versatile web-based plugin aggregation ecosystem designed to facilitate the development and distribution of AI-powered tools. It operates on a modular plugin architecture, allowing users to integrate various functionalities and create custom workflows. The platform serves as a creative workshop for developing and sharing these plugins. It is an open-source project, meaning it&apos;s free to use and contribute to. One of its standout capabilities is enabling seamless integration of diverse AI models and tools into a single, cohesive interface, making complex AI tasks more manageable.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1613490900233-141c5560d75d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc5NTIwNDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1613490900233-141c5560d75d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc5NTIwNDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1613490900233-141c5560d75d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc5NTIwNDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>AudioVis.js Reactor</title>
-      <link>https://surfaced-x.pages.dev/item/audio-visualizer-reactor</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/audio-visualizer-reactor</guid>
-      <description>AudioVis.js Reactor is a powerful, yet surprisingly simple, web-based tool that allows you to create custom, interactive audio visualizers without any coding. Developed by the creators of the AudioVis.js library, this platform provides a drag-and-drop interface where you can select from a variety of visual elements and effects, then link them to specific audio frequencies and amplitudes. You can then export your creations as embeddable web components or share them directly via a link. It&apos;s designed for artists, musicians, and anyone looking to add dynamic visual flair to their audio content.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/1191244/pexels-photo-1191244.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/1191244/pexels-photo-1191244.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/1191244/pexels-photo-1191244.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Nomics Data Explorer</title>
-      <link>https://surfaced-x.pages.dev/item/nomics-data-explorer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nomics-data-explorer</guid>
-      <description>Nomics provides a comprehensive platform for exploring financial market data, with a particular focus on cryptocurrencies. It offers real-time price feeds, historical data, market cap rankings, trading volume, and detailed information on thousands of digital assets. The service is available through a freemium model, with a robust free tier for basic exploration and paid subscriptions for API access, advanced analytics, and institutional-grade data. Its strength lies in its clean interface and the depth of historical data available for cryptocurrencies.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/39052111/pexels-photo-39052111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/39052111/pexels-photo-39052111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/39052111/pexels-photo-39052111.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>OwnTime</title>
-      <link>https://surfaced-x.pages.dev/item/own-time</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/own-time</guid>
-      <description>OwnTime is a productivity tool that reimagines time management through the lens of a chess clock. Instead of a passive timer, it encourages active engagement with your daily tasks by assigning time limits to each priority. Users set up their &apos;moves&apos; or tasks, allocate a specific time for each, and then &apos;play&apos; through their day, pausing and starting timers as they transition between activities. This gamified approach aims to foster focus and accountability, helping users make more conscious decisions about how they spend their time.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6598712/pexels-photo-6598712.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6598712/pexels-photo-6598712.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6598712/pexels-photo-6598712.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Scout API</title>
-      <link>https://surfaced-x.pages.dev/item/scout-api</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/scout-api</guid>
-      <description>Scout API provides a suite of essential developer tools designed to streamline the creation and management of APIs. It offers features for API design, documentation generation, mock server creation, and automated testing, allowing developers to build robust and well-documented APIs more efficiently. The platform operates on a freemium model, offering a generous free tier for individual use and smaller teams, with paid plans unlocking advanced features and higher usage limits. A key strength is its intuitive visual API designer, which simplifies complex endpoint creation.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1763568258612-0ae7f6eb1422?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1763568258612-0ae7f6eb1422?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1763568258612-0ae7f6eb1422?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Collusion.wiki</title>
-      <link>https://surfaced-x.pages.dev/item/collusion-wiki</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/collusion-wiki</guid>
-      <description>Collusion.wiki is an experimental platform designed to foster discussion and discovery around OpenAI&apos;s agent models. It serves as a message board and wiki where users can share insights, observations, and research related to the emergent behaviors and capabilities of these advanced AI systems. The site aims to be a central hub for understanding the potential and challenges of AI agents, offering a space for collaborative learning and exploration for researchers, developers, and AI enthusiasts alike.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg1MzI5NDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg1MzI5NDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg1MzI5NDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>The Documentation Project</title>
-      <link>https://surfaced-x.pages.dev/item/documentation-project</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/documentation-project</guid>
-      <description>The Documentation Project is an initiative dedicated to creating and maintaining high-quality, user-friendly documentation for a wide range of software and technical topics. It focuses on clear explanations, comprehensive guides, and accessible information, often curated by communities of experts. While not a single tool, it serves as a valuable reference point for finding reliable and well-structured documentation that is often freely available. Its strength lies in its commitment to clarity and the collaborative effort to improve technical information.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/459819/pexels-photo-459819.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/459819/pexels-photo-459819.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/459819/pexels-photo-459819.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>IPUMS USA</title>
-      <link>https://surfaced-x.pages.dev/item/historical-census-data-browser</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/historical-census-data-browser</guid>
-      <description>IPUMS USA, the Integrated Public Use Microdata Series, offers free and comprehensive access to U.S. census data spanning from 1790 to the most recent available surveys. This extensive archive empowers researchers, historians, demographers, and social scientists to explore and analyze intricate U.S. population dynamics over two centuries.  Users can meticulously select specific variables, geographic areas, and time periods to construct customized datasets, facilitating detailed investigations into historical trends, societal evolution, and the demographic underpinnings of American life. It provides a granular view into the lives and characteristics of individuals and households across generations.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6863512/pexels-photo-6863512.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6863512/pexels-photo-6863512.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6863512/pexels-photo-6863512.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>NixOS Packages</title>
-      <link>https://surfaced-x.pages.dev/item/nix-community-packages</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nix-community-packages</guid>
-      <description>The NixOS Packages collection is a vast repository of software packages managed by the Nix package manager. It allows for declarative system configuration, meaning you define your desired system state in a configuration file, and Nix builds it reproducibly. This approach prevents dependency hell and allows for easy rollbacks and system replication. The service is free, with the underlying Nix package manager being open-source. It&apos;s unparalleled in its ability to ensure reproducible and isolated software environments.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1714846201575-4f06e069dc6f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1714846201575-4f06e069dc6f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1714846201575-4f06e069dc6f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODc4NjQxMTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
   </channel>
 </rss>

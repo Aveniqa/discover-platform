@@ -1,19 +1,19 @@
 [
   {
-    "slug": "text-based-game-engine-ink",
-    "title": "Ink",
+    "slug": "civilservant-digital-participation",
+    "title": "CivilServant",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Ink is a powerful, yet approachable, scripting language developed by inkle Studios specifically for writing interactive ",
+    "description": "CivilServant is an open-source platform designed to facilitate digital civic participation and collective intelligence. ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "note-taking-app-chronicle",
-    "title": "Chronicle",
+    "slug": "daily-tool-pinboard-social-bookmarking",
+    "title": "Pinboard",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Chronicle is a private, encrypted journaling and note-taking application designed for personal reflection and knowledge ",
+    "description": "Pinboard is a fast, private, and advertising-free bookmarking service that helps you save and organize the web pages you",
     "badge": null,
     "type": "tool"
   }
