@@ -1,19 +1,19 @@
 [
   {
-    "slug": "archive-of-scientific-philosophy",
-    "title": "Archive of Scientific Philosophy",
+    "slug": "bookstack-documentation-wiki",
+    "title": "BookStack",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Archive of Scientific Philosophy is a dedicated digital repository housing a comprehensive collection of research pa",
+    "description": "BookStack is an open-source, self-hostable wiki system that makes creating and organizing documentation incredibly simpl",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "global-allergy-allergen-information-tool",
-    "title": "Global Allergy",
+    "slug": "fontbase-font-manager-for-creatives",
+    "title": "FontBase",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Global Allergy is an online resource providing comprehensive information on food allergies, environmental allergens, and",
+    "description": "FontBase is a powerful yet user-friendly font manager designed for designers, developers, and anyone who works extensive",
     "badge": null,
     "type": "tool"
   }

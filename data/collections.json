@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "gatheround-virtual-team-events-connection-platform",
-      "wikijs-open-source-collaborative-knowledge-base",
-      "codetogether-collaborative-ide-pair-programming",
-      "markup-io-visual-feedback-website-documents",
-      "reetro-agile-retrospective-meeting-tool",
-      "plane-open-source-project-management-linear-alternative",
-      "slite-collaborative-knowledge-base-document-workspace",
-      "plectica-visual-knowledge-mapping",
-      "the-odin-project-learn-web-development",
-      "750-words-daily-free-writing",
       "turing-machine-simulator-learn-cs",
-      "toucan-learn-language-in-context"
+      "toucan-learn-language-in-context",
+      "typingclub-free-typing-tutor",
+      "git-exercises-learn-interactive",
+      "the-book-of-shaders-graphics-programming",
+      "alcumus-aops-adaptive-math-practice",
+      "mailstrom-email-cleanup-bulk-manager",
+      "unroll-me-unsubscribe-email-newsletters",
+      "spark-mail-smart-email-client",
+      "hey-com-email-reimagined-service",
+      "hiri-email-client-reduce-overload",
+      "shift-multiple-accounts-apps-desktop"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "gatheround-virtual-team-events-connection-platform",
-      "wikijs-open-source-collaborative-knowledge-base",
-      "codetogether-collaborative-ide-pair-programming",
-      "markup-io-visual-feedback-website-documents",
-      "reetro-agile-retrospective-meeting-tool",
-      "plane-open-source-project-management-linear-alternative",
-      "slite-collaborative-knowledge-base-document-workspace",
-      "plectica-visual-knowledge-mapping",
-      "the-odin-project-learn-web-development",
-      "750-words-daily-free-writing",
       "turing-machine-simulator-learn-cs",
-      "typingclub-free-typing-tutor"
+      "typingclub-free-typing-tutor",
+      "git-exercises-learn-interactive",
+      "the-book-of-shaders-graphics-programming",
+      "alcumus-aops-adaptive-math-practice",
+      "mailstrom-email-cleanup-bulk-manager",
+      "unroll-me-unsubscribe-email-newsletters",
+      "spark-mail-smart-email-client",
+      "hey-com-email-reimagined-service",
+      "hiri-email-client-reduce-overload",
+      "shift-multiple-accounts-apps-desktop",
+      "polymail-sales-productivity-email-client"
     ]
   },
   {
