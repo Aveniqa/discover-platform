@@ -1,19 +1,19 @@
 [
   {
-    "slug": "bookstack-documentation-wiki",
-    "title": "BookStack",
+    "slug": "color-space-visualizer",
+    "title": "Color Space Visualizer",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "BookStack is an open-source, self-hostable wiki system that makes creating and organizing documentation incredibly simpl",
+    "description": "The Color Space Visualizer is a sophisticated, browser-based application that renders multiple color spaces in an intera",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "fontbase-font-manager-for-creatives",
-    "title": "FontBase",
+    "slug": "font-management-tool",
+    "title": "RightFont",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "FontBase is a powerful yet user-friendly font manager designed for designers, developers, and anyone who works extensive",
+    "description": "RightFont is a professional font management application specifically for macOS, designed to help designers, typographers",
     "badge": null,
     "type": "tool"
   }
