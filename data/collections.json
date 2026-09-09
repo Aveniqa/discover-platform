@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "plane-open-source-project-management-linear-alternative",
-      "slite-collaborative-knowledge-base-document-workspace",
-      "turing-machine-simulator-learn-cs",
-      "typingclub-free-typing-tutor",
-      "git-exercises-learn-interactive",
-      "the-book-of-shaders-graphics-programming",
-      "alcumus-aops-adaptive-math-practice",
-      "mailstrom-email-cleanup-bulk-manager",
-      "unroll-me-unsubscribe-email-newsletters",
-      "spark-mail-smart-email-client",
-      "hey-com-email-reimagined-service",
-      "hiri-email-client-reduce-overload"
+      "hiri-email-client-reduce-overload",
+      "shift-multiple-accounts-apps-desktop",
+      "polymail-sales-productivity-email-client",
+      "mailparser-io-extract-data-from-emails",
+      "front-shared-inbox-team-email",
+      "quire-nested-task-lists",
+      "zenkit-to-do-simple-tasks",
+      "agenda-project-notes-macos",
+      "structured-visual-daily-planner",
+      "mymind-visual-bookmarking-notes",
+      "clockk-automatic-time-tracking",
+      "superpowered-ai-meeting-notes"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "turing-machine-simulator-learn-cs",
-      "toucan-learn-language-in-context",
-      "typingclub-free-typing-tutor",
-      "git-exercises-learn-interactive",
-      "the-book-of-shaders-graphics-programming",
-      "alcumus-aops-adaptive-math-practice",
-      "mailstrom-email-cleanup-bulk-manager",
-      "unroll-me-unsubscribe-email-newsletters",
-      "spark-mail-smart-email-client",
-      "hey-com-email-reimagined-service",
       "hiri-email-client-reduce-overload",
-      "shift-multiple-accounts-apps-desktop"
+      "shift-multiple-accounts-apps-desktop",
+      "polymail-sales-productivity-email-client",
+      "mailparser-io-extract-data-from-emails",
+      "front-shared-inbox-team-email",
+      "quire-nested-task-lists",
+      "zenkit-to-do-simple-tasks",
+      "agenda-project-notes-macos",
+      "structured-visual-daily-planner",
+      "mymind-visual-bookmarking-notes",
+      "clockk-automatic-time-tracking",
+      "superpowered-ai-meeting-notes"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "turing-machine-simulator-learn-cs",
-      "typingclub-free-typing-tutor",
-      "git-exercises-learn-interactive",
-      "the-book-of-shaders-graphics-programming",
-      "alcumus-aops-adaptive-math-practice",
-      "mailstrom-email-cleanup-bulk-manager",
-      "unroll-me-unsubscribe-email-newsletters",
-      "spark-mail-smart-email-client",
-      "hey-com-email-reimagined-service",
       "hiri-email-client-reduce-overload",
       "shift-multiple-accounts-apps-desktop",
-      "polymail-sales-productivity-email-client"
+      "polymail-sales-productivity-email-client",
+      "mailparser-io-extract-data-from-emails",
+      "front-shared-inbox-team-email",
+      "quire-nested-task-lists",
+      "zenkit-to-do-simple-tasks",
+      "structured-visual-daily-planner",
+      "mymind-visual-bookmarking-notes",
+      "clockk-automatic-time-tracking",
+      "superpowered-ai-meeting-notes",
+      "dynalist-powerful-outliner"
     ]
   },
   {

@@ -1,19 +1,19 @@
 [
   {
-    "slug": "color-space-visualizer",
-    "title": "Color Space Visualizer",
+    "slug": "flock-surveilled-world",
+    "title": "Flock Wants a Closely Surveilled World with No Exit",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "The Color Space Visualizer is a sophisticated, browser-based application that renders multiple color spaces in an intera",
+    "description": "This New Yorker article critically examines the implications of 'Flock,' a company whose technology enables widespread s",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "font-management-tool",
-    "title": "RightFont",
+    "slug": "tldr-pages",
+    "title": "TLDR Pages",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "RightFont is a professional font management application specifically for macOS, designed to help designers, typographers",
+    "description": "TLDR Pages is an open-source, community-driven project that offers concise, practical, and human-readable summaries of c",
     "badge": null,
     "type": "tool"
   }
