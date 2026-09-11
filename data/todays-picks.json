@@ -1,19 +1,19 @@
 [
   {
-    "slug": "textkool",
-    "title": "Textkool",
+    "slug": "writelatex-academic-writing",
+    "title": "Overleaf (formerly WriteLaTeX)",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Textkool is a sophisticated web-based platform designed for in-depth textual analysis. It empowers users to delve into e",
+    "description": "Overleaf is a powerful, web-based collaborative editor designed specifically for the LaTeX typesetting system. It facili",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "focal-point-planner",
-    "title": "Focal Point",
+    "slug": "volt-budgeting",
+    "title": "Volt Money",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Focal Point is a visually driven project management and task organization tool that uses a unique mind-mapping interface",
+    "description": "Volt Money is a personal finance app designed to provide a holistic view of your financial life by aggregating all your ",
     "badge": null,
     "type": "tool"
   }
