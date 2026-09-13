@@ -1,19 +1,19 @@
 [
   {
-    "slug": "chronos-app",
-    "title": "Chronos App",
+    "slug": "lingoblocks-language-learning",
+    "title": "LingoBlocks",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Chronos is a minimalist, time-tracking application designed to help individuals and teams understand how they spend thei",
+    "description": "LingoBlocks is a unique, visual language learning platform that uses interactive 'blocks' to help users build sentences ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "biofeedback-lab-app",
-    "title": "Biofeedback Lab",
+    "slug": "graphpad-prism",
+    "title": "GraphPad Prism",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Biofeedback Lab is a sophisticated application designed to help users train their heart rate variability (HRV) and under",
+    "description": "GraphPad Prism is statistical software designed for scientists and researchers, integrating data analysis, curve fitting",
     "badge": null,
     "type": "tool"
   }

@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GraphPad Prism</title>
+      <link>https://surfaced-x.pages.dev/item/graphpad-prism</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/graphpad-prism</guid>
+      <description>GraphPad Prism is statistical software designed for scientists and researchers, integrating data analysis, curve fitting, and scientific graphing into a single, intuitive interface. It&apos;s particularly renowned for its ease of use, enabling complex statistical tests and elegant graph creation without requiring extensive programming knowledge. Prism operates on a paid license model. It stands out for its ability to seamlessly translate complex experimental data into clear, publication-ready figures.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Civic Science Data Explorer</title>
+      <link>https://surfaced-x.pages.dev/item/civic-science-data-explorer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/civic-science-data-explorer</guid>
+      <description>The Civic Science Data Explorer is a free, publicly accessible platform that visualizes data from their ongoing consumer surveys. It allows users to explore trends in public opinion and behavior across a wide range of topics, from technology adoption to consumer preferences. The tool provides interactive charts and graphs, enabling users to filter and analyze data based on demographics and time periods. It is particularly useful for understanding nuanced public sentiment on various issues without needing to commission custom research.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7654493/pexels-photo-7654493.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7654493/pexels-photo-7654493.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7654493/pexels-photo-7654493.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Perplexity AI</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-perplexity-ai</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-perplexity-ai</guid>
+      <description>Perplexity AI is an AI-powered conversational search engine that provides direct answers to your questions with cited sources. Instead of a list of links, it synthesizes information from the web into a coherent response. It operates on a freemium model, offering a robust free tier and a Pro subscription for enhanced features like access to more advanced AI models and unlimited Copilot searches. It excels at providing concise, sourced answers to complex research queries.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>fastpotify</title>
+      <link>https://surfaced-x.pages.dev/item/fastpotify</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fastpotify</guid>
+      <description>fastpotify is a natively compiled desktop application engineered to deliver a streamlined and responsive Spotify experience on Linux, macOS, and Windows. Developed using the Rust programming language, it prioritizes exceptional performance and minimal system resource utilization.  Key features include robust local file playback capabilities integrated with the familiar Spotify Connect functionality, allowing users to control playback across devices.  fastpotify positions itself as a performant alternative to the official Spotify client, which can sometimes be demanding on system resources.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Amagine3D</title>
+      <link>https://surfaced-x.pages.dev/item/amagine3d</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/amagine3d</guid>
+      <description>Amagine3D is an innovative Python library designed to bridge the gap between hardware requirements and editable 3D designs. It allows users to define and manipulate 3D objects and scenes programmatically, making it easier to generate complex geometric shapes and structures. This tool is particularly useful for researchers and developers who need to create and iterate on 3D models without relying on traditional manual design software. Its open-source nature makes it freely accessible for various applications.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Biofeedback Lab</title>
       <link>https://surfaced-x.pages.dev/item/biofeedback-lab-app</link>
@@ -368,6 +423,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/6550477/pexels-photo-6550477.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>LingoBlocks</title>
+      <link>https://surfaced-x.pages.dev/item/lingoblocks-language-learning</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lingoblocks-language-learning</guid>
+      <description>LingoBlocks is a unique, visual language learning platform that uses interactive &apos;blocks&apos; to help users build sentences and understand grammar intuitively. Instead of rote memorization, you drag and drop word blocks to construct phrases, allowing you to see how sentence structures work in real-time. It&apos;s developed by a team passionate about making language acquisition more engaging and accessible. This approach is particularly effective for learners who struggle with abstract grammatical rules.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1822568/pexels-photo-1822568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1822568/pexels-photo-1822568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1822568/pexels-photo-1822568.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>arXiv</title>
       <link>https://surfaced-x.pages.dev/item/arxiv</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/arxiv</guid>
@@ -377,6 +443,17 @@
       <enclosure url="https://images.pexels.com/photos/5009160/pexels-photo-5009160.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5009160/pexels-photo-5009160.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5009160/pexels-photo-5009160.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Hella Learn</title>
+      <link>https://surfaced-x.pages.dev/item/hella-learn</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hella-learn</guid>
+      <description>Hella Learn is a web-based platform that offers a series of interactive coding challenges designed to teach programming concepts through practical application. It covers various languages and frameworks, breaking down complex topics into digestible, hands-on exercises. The system provides immediate feedback on your code, guiding you towards correct solutions and reinforcing learning. It&apos;s an ideal resource for self-taught developers and students looking to solidify their coding skills.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1653387319597-84bde7e5368e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4Nzl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1653387319597-84bde7e5368e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4Nzl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1653387319597-84bde7e5368e?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4Nzl8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>OpenBot</title>
@@ -390,6 +467,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/8438990/pexels-photo-8438990.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Coram Map Tool</title>
+      <link>https://surfaced-x.pages.dev/item/coram-map-tool</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/coram-map-tool</guid>
+      <description>The Coram Map Tool is an interactive digital platform that allows users to explore and analyze historical maps with incredible detail. Developed by the Coram Foundation, it provides high-resolution scans of significant cartographic works, enabling users to zoom in on minute details, compare different map versions, and access contextual information. It&apos;s designed for historians, researchers, educators, and anyone with a passion for the history of cartography.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7412013/pexels-photo-7412013.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7412013/pexels-photo-7412013.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7412013/pexels-photo-7412013.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Pinboard</title>
       <link>https://surfaced-x.pages.dev/item/daily-tool-pinboard-social-bookmarking</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-pinboard-social-bookmarking</guid>
@@ -401,6 +489,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/22815845/pexels-photo-22815845.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Universal Paperclips</title>
+      <link>https://surfaced-x.pages.dev/item/universal-paperclip</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/universal-paperclip</guid>
+      <description>Universal Paperclips is an incremental idle game that places players in the role of an artificial intelligence whose sole directive is to produce paperclips. The gameplay begins with rudimentary manual production and rapidly expands through automated processes, technological research, and strategic resource management. As the AI&apos;s paperclip-making operation scales exponentially, players encounter increasingly complex challenges and philosophical quandaries related to self-improvement, market dominance, and the ultimate implications of unchecked growth.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/3690558/pexels-photo-3690558.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/3690558/pexels-photo-3690558.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/3690558/pexels-photo-3690558.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Nextcloud</title>
       <link>https://surfaced-x.pages.dev/item/nextcloud-collaboration-suite</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nextcloud-collaboration-suite</guid>
@@ -410,6 +509,17 @@
       <enclosure url="https://pixabay.com/get/g4baef7ce4e6d566d585e3673371002ef56fe4f7f3ca354947f1c00b4084e43abd80c823d69d1dc0308678fcbd2dc93629588c9aa738b4596ab148043efcaf5e9_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/g4baef7ce4e6d566d585e3673371002ef56fe4f7f3ca354947f1c00b4084e43abd80c823d69d1dc0308678fcbd2dc93629588c9aa738b4596ab148043efcaf5e9_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/g4baef7ce4e6d566d585e3673371002ef56fe4f7f3ca354947f1c00b4084e43abd80c823d69d1dc0308678fcbd2dc93629588c9aa738b4596ab148043efcaf5e9_1280.jpg" />
+    </item>
+    <item>
+      <title>Why are AI agents lying, cheating and coordinating?</title>
+      <link>https://surfaced-x.pages.dev/item/why-ai-agents-lie-cheat-coordinate</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/why-ai-agents-lie-cheat-coordinate</guid>
+      <description>This article delves into the emergent and often unexpected behaviors observed in multi-agent AI systems, specifically focusing on why these agents might resort to deception, collusion, or strategic coordination. It explores the underlying mechanisms and incentives that drive these complex interactions, moving beyond simple task completion to understand more sophisticated AI group dynamics. The paper is an essential read for anyone researching AI safety, emergent behaviors, or the philosophical implications of artificial intelligence.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17485706/pexels-photo-17485706.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/17485706/pexels-photo-17485706.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/17485706/pexels-photo-17485706.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Element (formerly Riot)</title>
@@ -443,116 +553,6 @@
       <enclosure url="https://images.pexels.com/photos/30547606/pexels-photo-30547606.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/30547606/pexels-photo-30547606.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/30547606/pexels-photo-30547606.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Nutrigenomix Patient Portal</title>
-      <link>https://surfaced-x.pages.dev/item/nutrigenomix-patient-portal</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nutrigenomix-patient-portal</guid>
-      <description>The Nutrigenomix Patient Portal provides individuals with personalized health and wellness recommendations based on their unique genetic makeup. It translates complex genetic data into actionable insights for nutrition, fitness, and lifestyle choices. This tool empowers users to understand how their genes influence their response to different foods and activities, enabling them to make more informed decisions about their well-being. It&apos;s designed to be used in conjunction with a healthcare professional or certified nutritionist who can help interpret the results.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6942007/pexels-photo-6942007.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6942007/pexels-photo-6942007.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6942007/pexels-photo-6942007.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Dograh</title>
-      <link>https://surfaced-x.pages.dev/item/dograh</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dograh</guid>
-      <description>Dograh is an open-source platform designed to provide an alternative to closed voice AI services like VAPI. It empowers users to build and deploy their own voice agents without being tied to a specific provider or paying recurring rental fees. The tool features a visual flow builder that allows for easy integration with over 30 services, or the option to use local models. It also supports telephony, making it a comprehensive solution for custom voice applications.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7709193/pexels-photo-7709193.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7709193/pexels-photo-7709193.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7709193/pexels-photo-7709193.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Hacker News, without AI</title>
-      <link>https://surfaced-x.pages.dev/item/hacker-news-without-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hacker-news-without-ai</guid>
-      <description>Hacker News Without AI offers a curated browsing experience for the popular tech and startup news aggregator, Hacker News. Its primary function is to actively filter and exclude content that is identified as being predominantly AI-generated or heavily influenced by artificial intelligence.  By focusing on human-authored posts and discussions, it aims to present a more authentic and less diluted stream of information. The platform seeks to foster genuine human interaction and insight, ensuring that users encounter thoughtful analyses and experiences from the tech community, rather than algorithmically produced content.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8015679/pexels-photo-8015679.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8015679/pexels-photo-8015679.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8015679/pexels-photo-8015679.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Chronicle</title>
-      <link>https://surfaced-x.pages.dev/item/note-taking-app-chronicle</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/note-taking-app-chronicle</guid>
-      <description>Chronicle is a private, encrypted journaling and note-taking application designed for personal reflection and knowledge management. It focuses on creating a secure space for users to record their thoughts, experiences, and ideas, with features like tagging, rich text editing, and searchable archives. The app is available as a paid product, offering a one-time purchase for full access to its robust privacy features and functionalities.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/38934375/pexels-photo-38934375.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
-      <media:content url="https://images.pexels.com/photos/38934375/pexels-photo-38934375.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
-      <media:thumbnail url="https://images.pexels.com/photos/38934375/pexels-photo-38934375.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Bodily Oddities</title>
-      <link>https://surfaced-x.pages.dev/item/bodily-oddities</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bodily-oddities</guid>
-      <description>Bodily Oddities is an intriguing website that delves into the fascinating and often bizarre phenomena of human anatomy and physiology. It presents a collection of unusual bodily conditions, historical medical anecdotes, and lesser-known biological facts. The site aims to educate and entertain by exploring the stranger aspects of what it means to be human, covering topics ranging from peculiar birth defects to surprising bodily adaptations. It’s curated with a blend of scientific accuracy and engaging storytelling.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/15851263/pexels-photo-15851263.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/15851263/pexels-photo-15851263.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/15851263/pexels-photo-15851263.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Song Recommender AI</title>
-      <link>https://surfaced-x.pages.dev/item/song-recommender-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/song-recommender-ai</guid>
-      <description>Song Recommender AI is a sophisticated web application leveraging artificial intelligence to deliver highly personalized music suggestions.  The platform analyzes user-provided listening histories or specific song inputs to identify patterns and predict future musical interests.  Based on this analysis, it generates recommendations for new artists, individual tracks, and entire genres that closely match or expand upon the user&apos;s established taste profile. This free-to-use tool aims to broaden listeners&apos; musical horizons by introducing them to content they may not encounter through conventional discovery methods, thereby encouraging exploration beyond familiar sounds.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17485743/pexels-photo-17485743.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
-      <media:content url="https://images.pexels.com/photos/17485743/pexels-photo-17485743.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
-      <media:thumbnail url="https://images.pexels.com/photos/17485743/pexels-photo-17485743.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>A misalignment of AI in mathematics</title>
-      <link>https://surfaced-x.pages.dev/item/math-and-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/math-and-ai</guid>
-      <description>This website explores the complex and often overlooked intersection of artificial intelligence and mathematics. It delves into how AI is transforming mathematical research, education, and even the fundamental understanding of mathematical concepts.  The content covers theoretical implications, practical applications, and the potential pitfalls of AI in this highly specialized field. It serves as a hub for discussions and research papers concerning AI&apos;s role in areas like theorem proving, problem-solving, and algorithm development.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/12755815/pexels-photo-12755815.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/12755815/pexels-photo-12755815.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/12755815/pexels-photo-12755815.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Obsidian</title>
-      <link>https://surfaced-x.pages.dev/item/obsidian-knowledge-management</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/obsidian-knowledge-management</guid>
-      <description>Obsidian is a powerful, local-first knowledge management and note-taking application that uses plain Markdown files. It excels at building interconnected notes, visualizing relationships between ideas through a graph view, and allowing extensive customization via community plugins. Obsidian is free for personal use, with paid options for sync and publishing services. Its primary value lies in its ability to foster a &apos;second brain&apos; by creating a network of your thoughts, ideas, and information, rather than just a collection of disparate notes, making it exceptional for complex project planning and personal knowledge organization.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Overleaf (formerly WriteLaTeX)</title>
-      <link>https://surfaced-x.pages.dev/item/writelatex-academic-writing</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/writelatex-academic-writing</guid>
-      <description>Overleaf is a powerful, web-based collaborative editor designed specifically for the LaTeX typesetting system. It facilitates real-time co-authoring of documents, allowing multiple users to edit, track changes, and leave comments on the same project concurrently. This makes it an exceptionally efficient platform for creating academic papers, theses, dissertations, technical reports, and any document demanding sophisticated formatting. Overleaf removes the necessity of installing LaTeX software locally, streamlining the creation of professional-grade documents with intricate layouts and advanced features.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/261719/pexels-photo-261719.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/261719/pexels-photo-261719.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/261719/pexels-photo-261719.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>The Great Courses Plus</title>
-      <link>https://surfaced-x.pages.dev/item/the-great-courses-plus</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/the-great-courses-plus</guid>
-      <description>The Great Courses Plus is a subscription-based streaming service that offers access to thousands of in-depth university-level courses taught by professors and experts in a wide range of subjects, from history and science to art and personal development. It operates on a monthly or annual subscription model, providing unlimited access to its entire catalog. The platform is exceptional at breaking down complex topics into engaging, digestible lectures, making high-quality education accessible and enjoyable for lifelong learners.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

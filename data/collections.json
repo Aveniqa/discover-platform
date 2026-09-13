@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "clockk-automatic-time-tracking",
-      "superpowered-ai-meeting-notes",
-      "dynalist-powerful-outliner",
-      "my-life-organized-gtd",
-      "taskheat-visual-project-scheduling",
-      "uxpin-merge-code-design-systems",
-      "photopea-web-photoshop-editor",
-      "artboard-studio-online-mockup-animation",
-      "magicavoxel-3d-voxel-art-editor",
       "lottiefiles-animate-web-app-ui",
       "linearity-curve-vector-graphic-design",
-      "alva-open-source-design-system"
+      "alva-open-source-design-system",
+      "squoosh-optimize-image-compression",
+      "altair-declarative-statistical-visualization-python",
+      "gleam-interactive-large-dataset-exploration",
+      "perspective-high-performance-streaming-data-visualization",
+      "plotly-dash-python-analytical-web-apps",
+      "graphistry-gpu-accelerated-visual-graph-analytics",
+      "pygwalker-interactive-data-exploration-pandas",
+      "sd-intuitive-find-replace-cli",
+      "hexyl-command-line-hex-viewer"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "clockk-automatic-time-tracking",
-      "superpowered-ai-meeting-notes",
-      "dynalist-powerful-outliner",
-      "my-life-organized-gtd",
-      "taskheat-visual-project-scheduling",
-      "uxpin-merge-code-design-systems",
-      "photopea-web-photoshop-editor",
-      "artboard-studio-online-mockup-animation",
-      "magicavoxel-3d-voxel-art-editor",
-      "fontself-maker-create-custom-fonts",
       "lottiefiles-animate-web-app-ui",
-      "linearity-curve-vector-graphic-design"
+      "linearity-curve-vector-graphic-design",
+      "alva-open-source-design-system",
+      "mixamo-adobe-3d-character-animation",
+      "squoosh-optimize-image-compression",
+      "altair-declarative-statistical-visualization-python",
+      "gleam-interactive-large-dataset-exploration",
+      "perspective-high-performance-streaming-data-visualization",
+      "chart-js-simple-html5-charts",
+      "plotly-dash-python-analytical-web-apps",
+      "graphistry-gpu-accelerated-visual-graph-analytics",
+      "vispy-high-performance-scientific-visualization-python"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "clockk-automatic-time-tracking",
-      "superpowered-ai-meeting-notes",
-      "dynalist-powerful-outliner",
-      "my-life-organized-gtd",
-      "taskheat-visual-project-scheduling",
-      "uxpin-merge-code-design-systems",
-      "photopea-web-photoshop-editor",
-      "artboard-studio-online-mockup-animation",
-      "magicavoxel-3d-voxel-art-editor",
-      "fontself-maker-create-custom-fonts",
       "lottiefiles-animate-web-app-ui",
-      "linearity-curve-vector-graphic-design"
+      "linearity-curve-vector-graphic-design",
+      "mixamo-adobe-3d-character-animation",
+      "squoosh-optimize-image-compression",
+      "altair-declarative-statistical-visualization-python",
+      "gleam-interactive-large-dataset-exploration",
+      "perspective-high-performance-streaming-data-visualization",
+      "chart-js-simple-html5-charts",
+      "plotly-dash-python-analytical-web-apps",
+      "graphistry-gpu-accelerated-visual-graph-analytics",
+      "vispy-high-performance-scientific-visualization-python",
+      "pygwalker-interactive-data-exploration-pandas"
     ]
   },
   {
