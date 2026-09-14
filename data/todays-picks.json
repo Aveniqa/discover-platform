@@ -1,19 +1,19 @@
 [
   {
-    "slug": "lingoblocks-language-learning",
-    "title": "LingoBlocks",
+    "slug": "re-chord",
+    "title": "Rechord",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "LingoBlocks is a unique, visual language learning platform that uses interactive 'blocks' to help users build sentences ",
+    "description": "Rechord is a dynamic web-based application meticulously crafted to empower musicians with a visual understanding of chor",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "graphpad-prism",
-    "title": "GraphPad Prism",
+    "slug": "cineast",
+    "title": "Cineast",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "GraphPad Prism is statistical software designed for scientists and researchers, integrating data analysis, curve fitting",
+    "description": "Cineast is a delightful web application designed to help you discover your next film by focusing on mood and atmosphere ",
     "badge": null,
     "type": "tool"
   }

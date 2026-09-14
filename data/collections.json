@@ -65,18 +65,18 @@
     "description": "Handpicked gifts for the person who has everything.",
     "emoji": "🎁",
     "itemSlugs": [
-      "taskheat-visual-project-scheduling",
-      "photopea-web-photoshop-editor",
-      "artboard-studio-online-mockup-animation",
-      "fontself-maker-create-custom-fonts",
-      "lottiefiles-animate-web-app-ui",
-      "linearity-curve-vector-graphic-design",
-      "alva-open-source-design-system",
-      "squoosh-optimize-image-compression",
       "altair-declarative-statistical-visualization-python",
       "graphistry-gpu-accelerated-visual-graph-analytics",
       "vispy-high-performance-scientific-visualization-python",
-      "anychart-javascript-charting-library"
+      "anychart-javascript-charting-library",
+      "evidence-code-based-business-intelligence-reports",
+      "sd-intuitive-find-replace-cli",
+      "hexyl-command-line-hex-viewer",
+      "gping-graphical-ping-utility",
+      "bandwhich-network-utilization-cli",
+      "dust-disk-usage-cli",
+      "xh-friendly-fast-http-client",
+      "wuphf-llm-wiki"
     ]
   },
   {
