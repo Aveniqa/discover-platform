@@ -1,75 +1,5 @@
 [
   {
-    "id": 777,
-    "slug": "finch-self-care-pet",
-    "toolName": "Finch: Self Care Pet",
-    "whatItDoes": "Finch, developed by Finch Inc., is a unique self-care app that gamifies mental wellness and habit formation by allowing users to nurture a virtual pet through self-care activities. Users set and complete daily self-care goals and habits, like journaling or exercise, which in turn helps their Finch pet grow, evolve, and explore new areas. It is available on iOS and Android devices, offering a mobile-first experience for engaging with self-care and mental well-being on the go. Its most used feature is the interactive pet, which provides delightful visual feedback and encouragement as users complete their daily self-care journeys. Data, including journal entries and habit progress, is stored securely in the cloud, syncing across devices and offering options for data export, prioritizing user privacy.",
-    "category": "Health",
-    "whyItIsUseful": "Finch eliminates the intimidation and lack of motivation often associated with traditional self-care practices, making mental wellness engaging and even joyful through gamification. For someone struggling with anxiety, the app provides a gentle, non-judgmental way to build habits like gratitude journaling or deep breathing, with the pet's growth serving as a positive reinforcement. A teenager can use it to learn about emotional regulation and healthy habits in a fun, accessible format, fostering self-awareness and self-compassion. The free tier is genuinely useful, offering access to core self-care journeys, habit tracking, and the evolving pet, with premium features providing additional content and insights. Compared to clinical mental health apps, Finch wins by using a compassionate, gamified approach that makes self-care feel less like a chore and more like a delightful personal journey. A power feature is the \"Quests\" system, which provides guided self-care activities and prompts, helping users explore new aspects of their well-being. A non-technical person can set up their Finch pet and start their first self-care journey within five minutes, thanks to its friendly onboarding and intuitive design.",
-    "imageIdea": "Finch app showing a cute cartoon pet character evolving on a phone screen",
-    "websiteLink": "https://finchcare.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/finch-self-care-pet.webp",
-    "everydayUse": "When you're feeling overwhelmed after a stressful workday, you can check in on your Finch to get a gentle nudge towards a calming activity. After a long weekend, you might open it to log a few minutes of meditation before diving into your week. If you're trying to build a new healthy habit, Finch offers a cute companion to keep you motivated."
-  },
-  {
-    "id": 778,
-    "slug": "insight-timer-meditation-app",
-    "toolName": "Insight Timer: Meditation App",
-    "whatItDoes": "Insight Timer, developed by the same team, is the world's largest free meditation app, offering thousands of guided meditations, talks, and ambient sounds from renowned teachers. Users can discover diverse meditation practices, participate in live sessions, track their meditation streaks and milestones, and connect with a global community of practitioners. It is available on iOS, Android, and via web browser, making it widely accessible for anyone looking to cultivate a meditation or mindfulness habit. Its most used feature is the vast library of free guided meditations, catering to various needs from sleep to anxiety, available in multiple languages. User data, including meditation history and streaks, is securely stored in the cloud, syncing across devices to maintain a continuous record of personal practice.",
-    "category": "Health",
-    "whyItIsUseful": "Insight Timer eliminates the financial barrier and perceived complexity of starting a meditation practice, providing a rich, free resource for mental well-being. For the stressed professional, it offers quick guided meditations to decompress during a lunch break, building a consistent mindfulness habit that improves focus and reduces burnout. An insomniac can leverage its extensive sleep-focused meditations and ambient sounds to establish a calming nightly routine, tracking their streak of successful sleep preparations. The free tier is exceptionally robust, offering access to over 100,000 guided meditations and a community, making it genuinely useful for long-term practice without any cost. Compared to subscription-only meditation apps, Insight Timer wins by providing an unparalleled volume of high-quality, free content, fostering a more inclusive meditation community. A power feature is the \"Timer\" mode, allowing experienced meditators to customize their unguided sessions with bells, ambient sounds, and interval chimes. A non-technical person can download the app and start their first guided meditation in under two minutes, with intuitive navigation to explore its vast content.",
-    "imageIdea": "Insight Timer app showing a guided meditation session with a serene background image",
-    "websiteLink": "https://insighttimer.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/insight-timer-meditation-app.webp",
-    "everydayUse": "When you're feeling overwhelmed by a mountain of unanswered emails before a vacation, or when the Sunday scaries creep in before a busy week. You might also use it to find a moment of calm before a difficult conversation with a colleague."
-  },
-  {
-    "id": 779,
-    "slug": "snappify-beautiful-code-images",
-    "toolName": "Snappify",
-    "whatItDoes": "Snappify, created by a team focused on developer tools, is a web-based application designed to transform code snippets into visually appealing images for sharing. It allows developers to customize themes, fonts, backgrounds, and add elements like annotations or device mockups around their code. The tool operates entirely on the web, accessible from any browser, and it also offers a VS Code extension for seamless integration. Its most used feature is the ability to quickly generate a beautiful code image from a simple paste, complete with syntax highlighting. All user-created \"snaps\" are stored securely in the cloud, allowing for easy access and sharing.",
-    "category": "Developer",
-    "whyItIsUseful": "Snappify eliminates the problem of sharing raw, unformatted code snippets that look unprofessional or are hard to read on social media or in presentations. For the developer creating a tutorial, it provides a simple way to embed clear, attractive code examples directly into their blog posts or video content. For the tech recruiter showcasing a candidate's impressive GitHub contributions, Snappify allows them to visually highlight key code segments in a visually engaging manner. It offers a free tier that is genuinely useful for individual developers, providing access to core features and a good number of snaps, with paid plans for more advanced features like custom branding and higher resolution exports. While similar to Carbon, Snappify excels with its broader range of templates, device mockups, and collaborative features for teams. Its \"Magic Wand\" power feature intelligently suggests visual improvements for your code, making design effortless even for non-designers. A non-technical person could easily set up and create their first code image in under 5 minutes due to its intuitive drag-and-drop interface.",
-    "imageIdea": "Snappify interface showing a styled code snippet with a gradient background and a browser mockup",
-    "websiteLink": "https://snappify.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/snappify-beautiful-code-images.webp",
-    "everydayUse": "You need to share a quick code example with your non-technical colleague explaining a feature. You're documenting a bug fix for your team and want to make the relevant code snippet easy to see in your report."
-  },
-  {
-    "id": 781,
-    "slug": "snippyly-collaborative-screenshot-code-sharing",
-    "toolName": "Snippyly",
-    "whatItDoes": "Snippyly, developed by a team focused on real-time collaboration, is a browser-based tool for capturing screenshots, recording screen videos, and sharing code snippets collaboratively. It allows users to annotate screenshots, highlight code, and share these assets instantly with team members, facilitating quick feedback loops. The tool functions as a web application and offers a Chrome browser extension for direct capture from webpages. Its most used feature is the real-time collaborative annotation of screenshots and code snippets, making communication effortless. All shared content, including snippets and visual feedback, is synchronized and stored in the cloud, enabling persistent access and discussions.",
-    "category": "Communication",
-    "whyItIsUseful": "Snippyly eliminates the friction and time wasted in explaining visual bugs or sharing code issues through fragmented messages and static images. For the UI/UX designer, it's perfect for quickly capturing a design flaw, annotating it with suggestions, and sharing it with developers for immediate action. For the front-end developer debugging a complex CSS issue, Snippyly enables them to capture the problematic element, paste the relevant code, and get real-time input from a colleague. Snippyly offers a free tier that is genuinely useful for individuals and small teams, providing core collaboration features and sufficient storage, with paid plans unlocking unlimited storage and advanced team management. It stands out against general screenshot tools by offering dedicated code snippet sharing and real-time collaborative annotation, making feedback more precise and contextual. The \"live cursor\" power feature, which shows collaborators' cursors in real-time on shared content, significantly enhances the feeling of joint problem-solving. A non-technical person could easily set up an account and start sharing annotated screenshots or snippets within minutes.",
-    "imageIdea": "Snippyly interface showing a screenshot with annotations and a code snippet sidebar, shared with another user",
-    "websiteLink": "https://www.snippyly.com/",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "screenshotUrl": "/screenshots/snippyly-collaborative-screenshot-code-sharing.webp",
-    "everydayUse": "You need to show your spouse a funny meme you found online or explain a confusing website error. When planning that group trip, you might want to quickly share a screenshot of a potential hotel or a funny conversation from the group chat."
-  },
-  {
-    "id": 782,
-    "slug": "snipper-app-native-macos-snippet-manager",
-    "toolName": "Snipper App",
-    "whatItDoes": "Snipper App, a native macOS application developed by independent creators, is a lightweight and elegant code snippet manager designed specifically for Mac users. It lives in the menubar, providing quick access to your organized collection of code, notes, and commands. Users can store snippets with syntax highlighting for various languages, add tags, and quickly search through their library. The application runs exclusively on macOS, offering a seamless native experience and integration with the operating system. Its most used feature is the ability to quickly paste a previously saved snippet into any application with a simple keyboard shortcut. Snipper App stores all user data locally on your Mac, ensuring privacy and offline access, with an option to sync via iCloud for multi-device consistency.",
-    "category": "Developer",
-    "whyItIsUseful": "Snipper App solves the problem of repeatedly searching for or re-typing frequently used code blocks, commands, or boilerplate text on macOS. For the iOS developer, it's invaluable for instantly inserting common Swift patterns, Xcode shortcuts, or debugging commands without breaking their flow. For the macOS-focused DevOps engineer, Snipper App becomes a central hub for managing shell scripts, server configurations, and system commands, accessible right from the menubar. The app is a one-time paid purchase, offering a fully featured and genuinely useful experience without recurring subscriptions or feature limitations after purchase. It differentiates itself from cross-platform solutions like MassCode by offering a truly native, lightweight, and deeply integrated macOS experience, feeling like an extension of the OS itself. The \"smart placeholders\" power feature allows snippets to contain dynamic variables that are prompted upon insertion, making them highly reusable across different contexts. A non-technical person comfortable with macOS apps could easily set it up and start saving snippets in under 5 minutes.",
-    "imageIdea": "Snipper App menubar icon dropdown showing a list of code snippets",
-    "type": "tool",
-    "dateAdded": "2026-04-27",
-    "websiteLink": "https://www.snipper.app",
-    "screenshotUrl": "/screenshots/snipper-app-native-macos-snippet-manager.webp",
-    "everydayUse": "You're debugging a recurring issue and need to recall a specific command you used last month. Or perhaps you're onboarding a new team member and need to share a boilerplate code snippet you frequently use. You might also want to quickly save that interesting article you found online for later reference."
-  },
-  {
     "id": 783,
     "slug": "quickcode-io-simple-web-snippet-manager",
     "toolName": "QuickCode.io",
@@ -3514,7 +3444,7 @@
   },
   {
     "id": 1029,
-    "slug": "matrix-chat",
+    "slug": "daily-tool-matrix-chat",
     "toolName": "Matrix",
     "seoTitle": "Matrix — Decentralized Chat & Collaboration",
     "whatItDoes": "Matrix is an open standard for real-time, secure, and decentralized communication, enabling rich messaging, voice, and video calls. It functions as a protocol, allowing anyone to run their own server and communicate with users on other servers. This interoperability is key, offering an alternative to proprietary chat platforms. Matrix is free to use, with optional paid services for enterprise-grade hosting and support from various providers. It excels at providing end-to-end encryption and self-hosting capabilities, giving users complete control over their data.",
@@ -3524,7 +3454,7 @@
     "websiteLink": "https://matrix.org/",
     "type": "tool",
     "dateAdded": "2026-08-06",
-    "screenshotUrl": "/screenshots/matrix-chat.webp",
+    "screenshotUrl": "/screenshots/daily-tool-matrix-chat.webp",
     "everydayUse": "You need to coordinate a group trip with friends, sharing multiple photos and planning details without a central point of control. You also want to discuss sensitive topics or share personal updates with a small group, knowing your conversations are end-to-end encrypted."
   },
   {
@@ -5266,7 +5196,8 @@
     "imageIdea": "machine learning model data pipeline",
     "websiteLink": "https://dvc.org/",
     "type": "tool",
-    "dateAdded": "2026-08-30"
+    "dateAdded": "2026-08-30",
+    "screenshotUrl": "/screenshots/dvc-data-version-control.webp"
   },
   {
     "id": 1150,
@@ -6385,5 +6316,79 @@
     "websiteLink": "https://cineast.co",
     "type": "tool",
     "dateAdded": "2026-09-14"
+  },
+  {
+    "id": 1226,
+    "slug": "memo-app",
+    "toolName": "Memo",
+    "seoTitle": "Memo — Lightweight and fast note-taking app",
+    "whatItDoes": "Memo is a minimalist and highly performant note-taking application designed for speed and simplicity. It focuses on providing a distraction-free writing experience with features like quick capture, markdown support, and robust search capabilities. Memo is available as a free download with optional premium features for enhanced synchronization and cloud storage. Its core strength lies in its no-frills approach, allowing users to jot down ideas and information rapidly without being bogged down by complex interfaces.",
+    "category": "Productivity",
+    "whyItIsUseful": "Memo earns its place by offering a lightning-fast and uncluttered way to capture thoughts and information. In a world of feature-heavy apps, its dedication to core functionality makes it incredibly efficient for quickly saving anything from grocery lists to fleeting inspirations. The markdown support appeals to those who appreciate simple formatting, and its powerful search ensures you can always find what you're looking for. Users who prioritize speed and a clean interface find Memo indispensable for keeping their ideas organized without any friction, making it perfect for students, writers, and anyone who needs to jot things down on the go.",
+    "everydayUse": "You have a sudden brilliant idea while walking and need to quickly save it before you forget. Or, you're at the grocery store and need to pull up your shopping list instantly.",
+    "imageIdea": "tablet displaying simple text notes",
+    "websiteLink": "https://memo.fm/",
+    "type": "tool",
+    "dateAdded": "2026-09-15",
+    "screenshotUrl": "/screenshots/memo-app.webp"
+  },
+  {
+    "id": 1227,
+    "slug": "cohost-app",
+    "toolName": "cohost",
+    "seoTitle": "cohost — Independent social media platform",
+    "whatItDoes": "Cohost is an independent social media platform focused on fostering a more thoughtful and less algorithm-driven online experience. It allows users to create profiles, share various forms of content (text, images, links, polls), and interact with others through posts and comments. Cohost operates on a subscription model, ensuring the platform's sustainability without relying on advertising or data harvesting. This model aims to prioritize user experience and content creators.",
+    "category": "Social",
+    "whyItIsUseful": "Cohost offers a refreshing alternative to mainstream social media, prioritizing community and creator support over algorithmic engagement. Its subscription-based model means users aren't subjected to invasive ads or their data being exploited, fostering a more genuine interaction space. The platform is designed to encourage deeper dives into topics with features like customizable blog-like pages and robust content formatting. It's particularly appealing to artists, writers, and niche communities looking for a more intentional and less performative online home where their content can be appreciated without constant pressure to chase virality.",
+    "everydayUse": "You want to share a personal essay or a series of photos with a dedicated following without worrying about algorithmic suppression. Or, you're looking to discover artists and writers in a space that feels more curated and less overwhelming.",
+    "imageIdea": "desktop computer displaying a social media feed",
+    "websiteLink": "https://cohost.org/",
+    "type": "tool",
+    "dateAdded": "2026-09-15",
+    "screenshotUrl": "/screenshots/cohost-app.webp"
+  },
+  {
+    "id": 1228,
+    "slug": "songnotes-app",
+    "toolName": "Songnotes",
+    "seoTitle": "Songnotes — Collaborative songwriting tool",
+    "whatItDoes": "Songnotes is a digital tool designed to facilitate collaborative songwriting and music creation. It provides a shared workspace where musicians can write lyrics, record musical ideas, and organize song projects together in real-time. The platform offers features for version control, commenting, and task management, aimed at streamlining the creative process for bands and co-writers. Songnotes typically operates on a freemium model, with basic features available for free and advanced collaboration and storage options under a paid subscription.",
+    "category": "Creativity",
+    "whyItIsUseful": "For any songwriter or band working remotely or even in the same room, Songnotes transforms the often fragmented process of creating music. It acts as a shared canvas where lyrics and melody ideas can be captured, refined, and built upon collaboratively, ensuring everyone is on the same page. The real-time editing and commenting features minimize miscommunication and speed up iteration, making it far more efficient than relying on scattered email attachments or outdated lyric sheets. Musicians who value a structured yet flexible approach to songwriting find it invaluable for bringing their musical visions to life together, making it a standout for keeping creative momentum alive.",
+    "everydayUse": "You're working on a new song with a bandmate who lives in another city and need to quickly share a lyrical idea. Or, you've just come up with a melody and want to record it and add placeholder lyrics before your next rehearsal.",
+    "imageIdea": "studio desk with music notation and a laptop",
+    "websiteLink": "https://songnotes.io/",
+    "type": "tool",
+    "dateAdded": "2026-09-15",
+    "screenshotUrl": "/screenshots/songnotes-app.webp"
+  },
+  {
+    "id": 1229,
+    "slug": "bulletin-public-broadcast",
+    "toolName": "Bulletin",
+    "seoTitle": "Bulletin — Public Broadcast Service.",
+    "whatItDoes": "Bulletin is a decentralized, community-driven platform for sharing and discovering long-form content, prioritizing user control and data privacy. It functions as a public broadcast service where creators can publish articles, essays, and other written works without censorship or algorithmic manipulation. The platform operates on a freemium model, offering basic publishing tools for free and premium features for enhanced discoverability and monetization options. Bulletin excels at providing a calm, focused reading experience, free from intrusive ads and distractions, allowing users to truly engage with the content.",
+    "category": "Social",
+    "whyItIsUseful": "Bulletin offers a refreshing antidote to the noise and sensationalism prevalent on mainstream social media. Its commitment to user privacy and content ownership makes it an attractive alternative for those who value thoughtful discussion and long-form journalism. The decentralized nature ensures resilience and prevents single points of failure or control. Users appreciate the ability to curate their own feeds and support creators directly. It's particularly beneficial for writers, thinkers, and communities seeking a more substantive online space for intellectual exchange and connection, fostering a sense of belonging around shared interests.",
+    "everydayUse": "You might use Bulletin to share a detailed travelogue of your trip with friends and family, or to discover in-depth articles about your favorite hobby from passionate enthusiasts. It's perfect for when you want to dive deep into a topic without the usual social media distractions.",
+    "imageIdea": "bulletin board community forum",
+    "websiteLink": "https://bulletin.seashell.chat",
+    "type": "tool",
+    "dateAdded": "2026-09-15"
+  },
+  {
+    "id": 1230,
+    "slug": "coauthor-collaborative-writing",
+    "toolName": "Coauthor",
+    "seoTitle": "Coauthor — Collaborative Writing Tool.",
+    "whatItDoes": "Coauthor is a real-time collaborative writing application designed to facilitate seamless teamwork on documents. It allows multiple users to edit the same text simultaneously, with changes appearing instantly for everyone involved. The platform offers version history, commenting, and task assignment features, streamlining the entire writing process from drafting to finalization. Coauthor operates on a freemium model, providing essential collaborative features for free and advanced project management tools for paid subscribers. Its key strength lies in its intuitive interface and robust real-time synchronization, making co-writing feel effortless.",
+    "category": "Productivity",
+    "whyItIsUseful": "For teams or groups working on shared projects, Coauthor is invaluable for eliminating the confusion of multiple document versions and email attachments. It fosters efficient communication and ensures everyone is working with the most up-to-date information. Integrations with cloud storage services like Google Drive and Dropbox further enhance its utility. Students collaborating on research papers, professionals drafting reports, or even friends planning an event can all benefit immensely from Coauthor's ability to make collective writing smooth and productive. It saves significant time and reduces the potential for miscommunication.",
+    "everydayUse": "Use Coauthor when planning a group vacation with friends, needing to brainstorm ideas for a joint presentation, or collaboratively writing a birthday card for a mutual acquaintance. It ensures everyone's input is captured easily and efficiently.",
+    "imageIdea": "coauthor writing collaboration laptop",
+    "websiteLink": "https://coauthor.ai",
+    "type": "tool",
+    "dateAdded": "2026-09-15",
+    "screenshotUrl": "/screenshots/coauthor-collaborative-writing.webp"
   }
 ]

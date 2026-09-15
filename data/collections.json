@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "lottiefiles-animate-web-app-ui",
-      "linearity-curve-vector-graphic-design",
-      "alva-open-source-design-system",
-      "squoosh-optimize-image-compression",
-      "altair-declarative-statistical-visualization-python",
-      "gleam-interactive-large-dataset-exploration",
-      "perspective-high-performance-streaming-data-visualization",
-      "plotly-dash-python-analytical-web-apps",
       "graphistry-gpu-accelerated-visual-graph-analytics",
       "pygwalker-interactive-data-exploration-pandas",
       "sd-intuitive-find-replace-cli",
-      "hexyl-command-line-hex-viewer"
+      "hexyl-command-line-hex-viewer",
+      "gping-graphical-ping-utility",
+      "bandwhich-network-utilization-cli",
+      "procs-modern-process-monitor",
+      "dust-disk-usage-cli",
+      "dirac-oss-agent",
+      "zed-editor-1-0",
+      "lumara-space-dashboard",
+      "belgium-nuclear-decommissioning-news"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "lottiefiles-animate-web-app-ui",
-      "linearity-curve-vector-graphic-design",
-      "alva-open-source-design-system",
-      "mixamo-adobe-3d-character-animation",
-      "squoosh-optimize-image-compression",
-      "altair-declarative-statistical-visualization-python",
-      "gleam-interactive-large-dataset-exploration",
-      "perspective-high-performance-streaming-data-visualization",
-      "chart-js-simple-html5-charts",
-      "plotly-dash-python-analytical-web-apps",
       "graphistry-gpu-accelerated-visual-graph-analytics",
-      "vispy-high-performance-scientific-visualization-python"
+      "vispy-high-performance-scientific-visualization-python",
+      "pygwalker-interactive-data-exploration-pandas",
+      "anychart-javascript-charting-library",
+      "evidence-code-based-business-intelligence-reports",
+      "sd-intuitive-find-replace-cli",
+      "hexyl-command-line-hex-viewer",
+      "gping-graphical-ping-utility",
+      "bandwhich-network-utilization-cli",
+      "procs-modern-process-monitor",
+      "dust-disk-usage-cli",
+      "xh-friendly-fast-http-client"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "lottiefiles-animate-web-app-ui",
-      "linearity-curve-vector-graphic-design",
-      "mixamo-adobe-3d-character-animation",
-      "squoosh-optimize-image-compression",
-      "altair-declarative-statistical-visualization-python",
-      "gleam-interactive-large-dataset-exploration",
-      "perspective-high-performance-streaming-data-visualization",
-      "chart-js-simple-html5-charts",
-      "plotly-dash-python-analytical-web-apps",
       "graphistry-gpu-accelerated-visual-graph-analytics",
       "vispy-high-performance-scientific-visualization-python",
-      "pygwalker-interactive-data-exploration-pandas"
+      "pygwalker-interactive-data-exploration-pandas",
+      "anychart-javascript-charting-library",
+      "evidence-code-based-business-intelligence-reports",
+      "sd-intuitive-find-replace-cli",
+      "hexyl-command-line-hex-viewer",
+      "bandwhich-network-utilization-cli",
+      "procs-modern-process-monitor",
+      "dust-disk-usage-cli",
+      "xh-friendly-fast-http-client",
+      "mdbook-markdown-documentation-generator"
     ]
   },
   {

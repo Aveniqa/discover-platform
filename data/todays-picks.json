@@ -1,19 +1,19 @@
 [
   {
-    "slug": "re-chord",
-    "title": "Rechord",
+    "slug": "friend-web",
+    "title": "Friend.web",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Rechord is a dynamic web-based application meticulously crafted to empower musicians with a visual understanding of chor",
+    "description": "Friend.web is a community-driven, open-source interface for the decentralized social network based on the Farcaster prot",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "cineast",
-    "title": "Cineast",
+    "slug": "coauthor-collaborative-writing",
+    "title": "Coauthor",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Cineast is a delightful web application designed to help you discover your next film by focusing on mood and atmosphere ",
+    "description": "Coauthor is a real-time collaborative writing application designed to facilitate seamless teamwork on documents. It allo",
     "badge": null,
     "type": "tool"
   }
