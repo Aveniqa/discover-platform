@@ -1,19 +1,19 @@
 [
   {
-    "slug": "friend-web",
-    "title": "Friend.web",
+    "slug": "refseek-reference",
+    "title": "Refseek",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Friend.web is a community-driven, open-source interface for the decentralized social network based on the Farcaster prot",
+    "description": "Refseek is a meta search engine that aggregates results from a vast array of academic databases, libraries, and scholarl",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "coauthor-collaborative-writing",
-    "title": "Coauthor",
+    "slug": "archive-of-nfs-tuning-and-racing",
+    "title": "Archive of NFS Tuning & Racing",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Coauthor is a real-time collaborative writing application designed to facilitate seamless teamwork on documents. It allo",
+    "description": "The Archive of NFS Tuning & Racing is a community-driven repository dedicated to the car customization and performance t",
     "badge": null,
     "type": "tool"
   }
