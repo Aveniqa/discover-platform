@@ -5,18 +5,18 @@
     "description": "Everything you need for a productive home office — from standing desks to focus apps.",
     "emoji": "🏠",
     "itemSlugs": [
-      "graphistry-gpu-accelerated-visual-graph-analytics",
-      "pygwalker-interactive-data-exploration-pandas",
-      "sd-intuitive-find-replace-cli",
-      "hexyl-command-line-hex-viewer",
-      "gping-graphical-ping-utility",
-      "bandwhich-network-utilization-cli",
-      "procs-modern-process-monitor",
       "dust-disk-usage-cli",
       "dirac-oss-agent",
       "zed-editor-1-0",
       "lumara-space-dashboard",
-      "belgium-nuclear-decommissioning-news"
+      "belgium-nuclear-decommissioning-news",
+      "meta-smart-glasses-incident",
+      "whatcable",
+      "cua-background-app-launcher",
+      "noctua-black-fan-release-expertise",
+      "ladybird-web-browser-newsletter-april-2026",
+      "mercury-production-engineering-haskell",
+      "fontshare-font-collection"
     ]
   },
   {
@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "graphistry-gpu-accelerated-visual-graph-analytics",
-      "vispy-high-performance-scientific-visualization-python",
-      "pygwalker-interactive-data-exploration-pandas",
-      "anychart-javascript-charting-library",
-      "evidence-code-based-business-intelligence-reports",
-      "sd-intuitive-find-replace-cli",
-      "hexyl-command-line-hex-viewer",
-      "gping-graphical-ping-utility",
-      "bandwhich-network-utilization-cli",
-      "procs-modern-process-monitor",
       "dust-disk-usage-cli",
-      "xh-friendly-fast-http-client"
+      "xh-friendly-fast-http-client",
+      "mdbook-markdown-documentation-generator",
+      "dirac-oss-agent",
+      "wuphf-llm-wiki",
+      "zed-editor-1-0",
+      "gaussian-splat-to-game-playcanvas",
+      "tangled-forge-federation",
+      "auto-architecture-tournament",
+      "lumara-space-dashboard",
+      "belgium-nuclear-decommissioning-news",
+      "meta-smart-glasses-incident"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "graphistry-gpu-accelerated-visual-graph-analytics",
-      "vispy-high-performance-scientific-visualization-python",
-      "pygwalker-interactive-data-exploration-pandas",
-      "anychart-javascript-charting-library",
-      "evidence-code-based-business-intelligence-reports",
-      "sd-intuitive-find-replace-cli",
-      "hexyl-command-line-hex-viewer",
-      "bandwhich-network-utilization-cli",
-      "procs-modern-process-monitor",
       "dust-disk-usage-cli",
       "xh-friendly-fast-http-client",
-      "mdbook-markdown-documentation-generator"
+      "mdbook-markdown-documentation-generator",
+      "dirac-oss-agent",
+      "wuphf-llm-wiki",
+      "zed-editor-1-0",
+      "gaussian-splat-to-game-playcanvas",
+      "tangled-forge-federation",
+      "auto-architecture-tournament",
+      "lumara-space-dashboard",
+      "belgium-nuclear-decommissioning-news",
+      "meta-smart-glasses-incident"
     ]
   },
   {
@@ -65,18 +65,18 @@
     "description": "Handpicked gifts for the person who has everything.",
     "emoji": "🎁",
     "itemSlugs": [
-      "altair-declarative-statistical-visualization-python",
-      "graphistry-gpu-accelerated-visual-graph-analytics",
-      "vispy-high-performance-scientific-visualization-python",
-      "anychart-javascript-charting-library",
-      "evidence-code-based-business-intelligence-reports",
-      "sd-intuitive-find-replace-cli",
-      "hexyl-command-line-hex-viewer",
-      "gping-graphical-ping-utility",
-      "bandwhich-network-utilization-cli",
       "dust-disk-usage-cli",
       "xh-friendly-fast-http-client",
-      "wuphf-llm-wiki"
+      "wuphf-llm-wiki",
+      "zed-editor-1-0",
+      "gaussian-splat-to-game-playcanvas",
+      "auto-architecture-tournament",
+      "lumara-space-dashboard",
+      "belgium-nuclear-decommissioning-news",
+      "pixel-perfect-layout-tool",
+      "ti-84-evo-calculator",
+      "textio-writing-analysis",
+      "fontshare-font-collection"
     ]
   },
   {
@@ -85,18 +85,18 @@
     "description": "Products and tools to help you feel your best during everyday routines.",
     "emoji": "💪",
     "itemSlugs": [
-      "timebloc-visual-time-blocking-schedule-planner",
-      "just-command-runner",
-      "reetro-agile-retrospective-meeting-tool",
-      "750-words-daily-free-writing",
-      "git-exercises-learn-interactive",
-      "alcumus-aops-adaptive-math-practice",
-      "bandwhich-network-utilization-cli",
       "red-squares",
       "right-to-local-intelligence",
       "co2-and-decision-making",
       "linguagpt",
-      "spider-venom-varroa-mite-control"
+      "spider-venom-varroa-mite-control",
+      "typetherapy",
+      "quantified-self-project",
+      "food-sensitivity-tracker",
+      "writing-by-hand-brain-boost",
+      "medlineplus-drug-information",
+      "clinicaltrials-gov-study-finder",
+      "reverse-minesweeper"
     ]
   }
 ]

@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Circling the Drain</title>
+      <link>https://surfaced-x.pages.dev/item/circling-the-drain</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/circling-the-drain</guid>
+      <description>Circling the Drain is a deliberately minimalist time tracking application engineered for users who desire a clear, unobtrusive method to monitor their daily activities. Its core function is to provide an accurate overview of how time is spent, emphasizing simplicity over feature bloat.  The application operates on a freemium structure, offering fundamental time tracking capabilities at no cost. For users who require more in-depth analysis and extended connectivity, a subscription unlocks advanced reporting features and integration options.  Distinct from comprehensive project management suites, Circling the Drain is adept at capturing granular moments of engagement, making it ideal for understanding micro-activities.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6446672/pexels-photo-6446672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6446672/pexels-photo-6446672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6446672/pexels-photo-6446672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Taskwarrior</title>
+      <link>https://surfaced-x.pages.dev/item/taskwarrior</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/taskwarrior</guid>
+      <description>Taskwarrior is a powerful, flexible, and free open-source command-line tool for managing your to-do lists. It allows for complex task organization through tags, priorities, projects, and due dates, all manipulated via simple text commands. While it has a steeper learning curve than GUI applications, it offers unparalleled speed and efficiency for users comfortable in a terminal environment. It excels at rapid task entry, filtering, and modification without ever taking your hands off the keyboard. Taskwarrior is entirely free and its open-source nature means it&apos;s constantly being improved by its community.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g45b47684ddd496e540217c5a17a8b4b0e022bbc78085cbcf608b07e634e3e21075fd726c705904ab3f0b3d1fd84f567dcdf052859e9c2dc429984baced571c34_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g45b47684ddd496e540217c5a17a8b4b0e022bbc78085cbcf608b07e634e3e21075fd726c705904ab3f0b3d1fd84f567dcdf052859e9c2dc429984baced571c34_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g45b47684ddd496e540217c5a17a8b4b0e022bbc78085cbcf608b07e634e3e21075fd726c705904ab3f0b3d1fd84f567dcdf052859e9c2dc429984baced571c34_1280.jpg" />
+    </item>
+    <item>
+      <title>Mindly</title>
+      <link>https://surfaced-x.pages.dev/item/mindly</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mindly</guid>
+      <description>Mindly is a digital mind mapping tool that helps you visualize your thoughts, ideas, and projects in a hierarchical structure. It features a clean, intuitive interface that makes it easy to add nodes, connect concepts, and organize information for brainstorming, planning, or note-taking. Mindly is available as a freemium app, with basic functionality free and advanced features via subscription. Its primary value lies in its ability to transform abstract thoughts into structured, visual representations, making complex ideas more digestible and actionable. It excels at helping you quickly capture and arrange ideas without getting bogged down by rigid formatting.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7710204/pexels-photo-7710204.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7710204/pexels-photo-7710204.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7710204/pexels-photo-7710204.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Human Atlas</title>
+      <link>https://surfaced-x.pages.dev/item/human-atlas</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/human-atlas</guid>
+      <description>Human Atlas is an open-source 3D anatomy explorer that provides a detailed and interactive visualization of the human body. It features over 2,300 selectable BodyParts3D meshes, allowing users to isolate and examine specific anatomical structures. The tool includes system layers for understanding organ and tissue organization and offers search functionalities and exploded views for deeper exploration. It&apos;s built with TypeScript, making it a modern and efficient web-based application for anatomical study.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>FrontierAgent</title>
+      <link>https://surfaced-x.pages.dev/item/frontier-agent</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/frontier-agent</guid>
+      <description>FrontierAgent is an open-source AI agent framework designed for developers to build sophisticated autonomous agents. It offers a native command-line TUI, supports ReAct and Agent Team modes, and is easy to set up with a single command on macOS and Linux, minimizing installation friction and avoiding heavy Docker dependencies. This framework allows for the creation of complex AI workflows and multi-agent systems with relative ease, empowering users to experiment with advanced AI capabilities.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk2NTg3ODd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk2NTg3ODd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1566915896913-549d796d2166?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk2NTg3ODd8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
     <item>
       <title>Archive of NFS Tuning &amp; Racing</title>
       <link>https://surfaced-x.pages.dev/item/archive-of-nfs-tuning-and-racing</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/16094044/pexels-photo-16094044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Nufo</title>
+      <link>https://surfaced-x.pages.dev/item/nufo-visual-note-taking-tool</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nufo-visual-note-taking-tool</guid>
+      <description>Nufo is a unique visual note-taking application that allows users to create interconnected notes arranged on a flexible canvas. Unlike traditional linear note-takers, Nufo encourages spatial organization, where you can link ideas, images, and text snippets in a freeform manner. This approach is ideal for complex research, brainstorming sessions, or knowledge management where relationships between pieces of information are crucial. It&apos;s developed by a small team focused on enhancing creative thinking through visual organization.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/15084281/pexels-photo-15084281.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/15084281/pexels-photo-15084281.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/15084281/pexels-photo-15084281.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Typely</title>
       <link>https://surfaced-x.pages.dev/item/typely</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typely</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://pixabay.com/get/ga4502512954cc18a65b3eb4b4e8e33cb34116d62b614f167b5e937ba13841609bc2c19b50fd56c788894724618089c39e592ae1775c8dc12c0b8f3698e49b64d_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/ga4502512954cc18a65b3eb4b4e8e33cb34116d62b614f167b5e937ba13841609bc2c19b50fd56c788894724618089c39e592ae1775c8dc12c0b8f3698e49b64d_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/ga4502512954cc18a65b3eb4b4e8e33cb34116d62b614f167b5e937ba13841609bc2c19b50fd56c788894724618089c39e592ae1775c8dc12c0b8f3698e49b64d_1280.jpg" />
+    </item>
+    <item>
+      <title>In-Flight Simulator</title>
+      <link>https://surfaced-x.pages.dev/item/flight-simulator-passenger-view</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/flight-simulator-passenger-view</guid>
+      <description>In-Flight Simulator offers a unique take on flight simulation by allowing users to experience the journey solely from the perspective of a passenger. Instead of controlling the aircraft, players can relax and enjoy the views from various cabin seats on a variety of aircraft models. It focuses on the immersive aspect of flying, recreating the visual and auditory experience of being on a commercial flight, complete with in-flight entertainment and cabin ambiance. It&apos;s designed for those who enjoy the novelty and relaxation of simulated air travel.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/9683615/pexels-photo-9683615.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
+      <media:content url="https://images.pexels.com/photos/9683615/pexels-photo-9683615.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
+      <media:thumbnail url="https://images.pexels.com/photos/9683615/pexels-photo-9683615.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Proselab</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/771322/pexels-photo-771322.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Hacking a $20 4G wireless hotspot into a texting device</title>
+      <link>https://surfaced-x.pages.dev/item/hacking-4g-hotspot-texting</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hacking-4g-hotspot-texting</guid>
+      <description>This project details the process of repurposing a low-cost 4G wireless hotspot into a dedicated device for sending and receiving SMS messages. By leveraging its existing cellular modem and network connectivity, the author developed a custom firmware or software solution that allows for text communication independent of a smartphone or computer. The goal is to create a simple, potentially offline-first texting solution using readily available and inexpensive hardware, showcasing the power of hardware hacking and embedded systems.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/16388464/pexels-photo-16388464.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/16388464/pexels-photo-16388464.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/16388464/pexels-photo-16388464.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>TLDR Pages</title>
       <link>https://surfaced-x.pages.dev/item/tldr-pages</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tldr-pages</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.unsplash.com/photo-1487505983481-9aa2d9f9901a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
+      <title>One Year of Sponsored Servo Development</title>
+      <link>https://surfaced-x.pages.dev/item/one-year-sponsored-servo-development</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/one-year-sponsored-servo-development</guid>
+      <description>This post details the progress and impact of one year of sponsored development for Servo, an experimental web browser engine primarily developed by Mozilla Research. The sponsorship allowed for dedicated engineering effort to improve Servo&apos;s performance, security, and feature set, demonstrating the viability of its parallel, multi-process architecture. It highlights specific advancements in areas like CSS parsing, rendering, and web compatibility, showcasing Servo as a platform for exploring new web technologies and browser design paradigms.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/32900156/pexels-photo-32900156.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/32900156/pexels-photo-32900156.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/32900156/pexels-photo-32900156.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Chrony</title>
       <link>https://surfaced-x.pages.dev/item/chrony-ntp-client</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/chrony-ntp-client</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://pixabay.com/get/gd8a463fc76ba40ec86305669c91daf7e776952ac8ace40afb1005dbe2ff4094a696b62044333bed2c3955965309b1c65debcccf39a9c30bfe71eedee524651b0_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/gd8a463fc76ba40ec86305669c91daf7e776952ac8ace40afb1005dbe2ff4094a696b62044333bed2c3955965309b1c65debcccf39a9c30bfe71eedee524651b0_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/gd8a463fc76ba40ec86305669c91daf7e776952ac8ace40afb1005dbe2ff4094a696b62044333bed2c3955965309b1c65debcccf39a9c30bfe71eedee524651b0_1280.jpg" />
+    </item>
+    <item>
+      <title>Introducing CUDA-Rust</title>
+      <link>https://surfaced-x.pages.dev/item/cuda-rust-gpu-programming</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cuda-rust-gpu-programming</guid>
+      <description>Nvidia has announced native GPU programming capabilities for Rust developers with the introduction of CUDA-Rust. This initiative aims to bring the safety and performance benefits of Rust to the massively parallel world of GPU computing. Developers can now write GPU kernels using Rust, enabling them to leverage Nvidia&apos;s hardware for computationally intensive tasks with greater confidence and potentially reduced development time. This opens up new possibilities for high-performance computing, machine learning, and scientific simulations.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6385893/pexels-photo-6385893.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6385893/pexels-photo-6385893.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6385893/pexels-photo-6385893.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>bat</title>
@@ -446,113 +556,6 @@
       <enclosure url="https://images.unsplash.com/photo-1598520106864-72ed7919100b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
       <media:content url="https://images.unsplash.com/photo-1598520106864-72ed7919100b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.unsplash.com/photo-1598520106864-72ed7919100b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Periodic Table Elements Database</title>
-      <link>https://surfaced-x.pages.dev/item/periodic-table-elements-database</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/periodic-table-elements-database</guid>
-      <description>This website provides a detailed, interactive periodic table of elements, offering comprehensive data for each element. Users can click on any element to access information such as its atomic number, atomic weight, electron configuration, physical properties (melting point, boiling point), chemical properties, history, and uses. It&apos;s an excellent resource for students, educators, chemists, and anyone interested in the fundamental building blocks of matter.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8533139/pexels-photo-8533139.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8533139/pexels-photo-8533139.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8533139/pexels-photo-8533139.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Firefly 3 (Code Generator)</title>
-      <link>https://surfaced-x.pages.dev/item/firefly-3-code-generator</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/firefly-3-code-generator</guid>
-      <description>Firefly 3 is an AI-powered tool that generates functional web application code directly from natural language descriptions or sketches. Users can describe the interface and functionality they need, and Firefly 3 will output code for front-end frameworks like React, Vue, or Angular, as well as back-end logic and database schemas. It aims to accelerate the prototyping and development process for web applications. It operates on a freemium model, with free usage tiers and paid plans for higher usage limits and advanced features.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>RadioPublic</title>
-      <link>https://surfaced-x.pages.dev/item/radiopublic</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/radiopublic</guid>
-      <description>RadioPublic is a free, ad-supported podcast player app designed to make discovering and listening to podcasts easy and accessible for everyone. It offers a vast library of podcasts, curated lists, and robust playback features without requiring users to pay for subscriptions. The platform is funded by advertisers and podcast creators who choose to integrate ads, ensuring content remains free for listeners.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/32007691/pexels-photo-32007691.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/32007691/pexels-photo-32007691.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/32007691/pexels-photo-32007691.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>RightFont</title>
-      <link>https://surfaced-x.pages.dev/item/font-management-tool</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/font-management-tool</guid>
-      <description>RightFont is a professional font management application specifically for macOS, designed to help designers, typographers, and content creators organize, preview, and activate their font libraries efficiently. It allows users to manage thousands of fonts without filling up system resources, offering features like font tagging, smart searching, and automatic activation for specific applications. The software operates on a paid license model, with different tiers for individual and team use, providing a robust solution for anyone who works extensively with typography.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4348296/pexels-photo-4348296.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4348296/pexels-photo-4348296.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4348296/pexels-photo-4348296.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Capsule – Single-file web apps that save their data into SQLite</title>
-      <link>https://surfaced-x.pages.dev/item/capsule-single-file-web-apps</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/capsule-single-file-web-apps</guid>
-      <description>Capsule is a framework that allows developers to build and distribute web applications contained within a single, self-executable file. These applications bundle their code, dependencies, and data storage into a single binary, with all data persistently saved into an embedded SQLite database. This innovative approach simplifies deployment and sharing, enabling users to run complex web applications locally without traditional server setups or complex installation procedures. It&apos;s ideal for creating portable, offline-first applications or for quickly prototyping and sharing small tools.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7033945/pexels-photo-7033945.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7033945/pexels-photo-7033945.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7033945/pexels-photo-7033945.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Vectr</title>
-      <link>https://surfaced-x.pages.dev/item/illustrator-online-vector-editor</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/illustrator-online-vector-editor</guid>
-      <description>Vectr is a free, intuitive vector graphics editor that runs directly in your web browser, making it accessible to anyone without needing to download any software. It&apos;s designed for creating and editing scalable vector images for websites, logos, presentations, and more. The platform uses a familiar interface, making it easy for beginners to pick up, while offering enough power for more complex designs.  It operates on a freemium model, with advanced features and cloud storage available through paid plans, but its core functionality is entirely free.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/12891180/pexels-photo-12891180.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/12891180/pexels-photo-12891180.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/12891180/pexels-photo-12891180.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Mistral X Mozilla: Private, Multilingual AI Browsing</title>
-      <link>https://surfaced-x.pages.dev/item/mistral-x-mozilla</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mistral-x-mozilla</guid>
-      <description>Mistral AI has partnered with Mozilla to develop a private, multilingual AI browsing experience. This collaboration aims to integrate Mistral&apos;s advanced AI models directly into the browser, offering users sophisticated AI assistance without compromising their privacy. The system is designed to understand and respond in multiple languages, making it accessible to a global audience. This initiative is a significant step towards a more privacy-conscious AI-powered internet. Users can expect features like enhanced search, content summarization, and AI-driven assistance within their browsing sessions, all while their data remains protected.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5472310/pexels-photo-5472310.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5472310/pexels-photo-5472310.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5472310/pexels-photo-5472310.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Affinity Designer</title>
-      <link>https://surfaced-x.pages.dev/item/affinity-designer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/affinity-designer</guid>
-      <description>Affinity Designer is a professional-grade vector graphics editor for Windows, macOS, and iPad, offering a powerful and affordable alternative to industry-standard software. It excels at creating complex illustrations, UI designs, and art with a focus on speed and precision. A key differentiator is its ability to seamlessly switch between vector and raster modes within a single application, providing unparalleled flexibility for graphic designers. It is available as a one-time purchase with no subscriptions, making it highly accessible.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7147720/pexels-photo-7147720.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7147720/pexels-photo-7147720.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7147720/pexels-photo-7147720.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Friend.web</title>
-      <link>https://surfaced-x.pages.dev/item/friend-web</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/friend-web</guid>
-      <description>Friend.web is a community-driven, open-source interface for the decentralized social network based on the Farcaster protocol. It allows users to browse, post, and interact within a social graph that is not controlled by a single entity. Unlike traditional social media, your data and social connections are more portable and censorship-resistant. It&apos;s built by the community for the community, offering an alternative to centralized platforms.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/38787318/pexels-photo-38787318.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/38787318/pexels-photo-38787318.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/38787318/pexels-photo-38787318.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Whimsical</title>
-      <link>https://surfaced-x.pages.dev/item/whimsical</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/whimsical</guid>
-      <description>Whimsical is an online visual workspace designed for teams to brainstorm, plan, and document their ideas. It offers a suite of integrated tools, including flowcharts, wireframes, mind maps, and sticky notes, all within a single, collaborative canvas. This allows for seamless transitions between different stages of ideation and documentation. Whimsical operates on a freemium model, with a robust free tier for individuals and small teams, and paid plans for enhanced features and larger team collaboration. It&apos;s particularly adept at visualizing complex processes and fostering collective thinking.</description>
-      <category>Daily Tools</category>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/38984817/pexels-photo-38984817.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/38984817/pexels-photo-38984817.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/38984817/pexels-photo-38984817.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

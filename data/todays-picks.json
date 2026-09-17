@@ -1,19 +1,19 @@
 [
   {
-    "slug": "refseek-reference",
-    "title": "Refseek",
+    "slug": "nufo-visual-note-taking-tool",
+    "title": "Nufo",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Refseek is a meta search engine that aggregates results from a vast array of academic databases, libraries, and scholarl",
+    "description": "Nufo is a unique visual note-taking application that allows users to create interconnected notes arranged on a flexible ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "archive-of-nfs-tuning-and-racing",
-    "title": "Archive of NFS Tuning & Racing",
+    "slug": "circling-the-drain",
+    "title": "Circling the Drain",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "The Archive of NFS Tuning & Racing is a community-driven repository dedicated to the car customization and performance t",
+    "description": "Circling the Drain is a deliberately minimalist time tracking application engineered for users who desire a clear, unobt",
     "badge": null,
     "type": "tool"
   }
