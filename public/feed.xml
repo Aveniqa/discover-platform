@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arktype</title>
+      <link>https://surfaced-x.pages.dev/item/arktype-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/arktype-app</guid>
+      <description>Arktype is a comprehensive starter kit for building design systems, offering pre-built components, foundational styles, and a structured approach to maintain consistency across digital products. It&apos;s designed to accelerate the creation of robust and scalable design systems for teams of any size. The tool provides a solid foundation that can be customized to fit specific brand guidelines and project needs, operating on a freemium model with generous core offerings. Arktype excels at providing a well-organized structure for design tokens and component documentation.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/33475289/pexels-photo-33475289.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/33475289/pexels-photo-33475289.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/33475289/pexels-photo-33475289.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>jev-ultrafast</title>
+      <link>https://surfaced-x.pages.dev/item/jev-ultrafast-python-script</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/jev-ultrafast-python-script</guid>
+      <description>jev-ultrafast is a Python script designed for extreme speed in data processing tasks. Its core promise is to deliver unparalleled performance, likely through highly optimized algorithms and efficient use of system resources. While the exact nature of the data processing isn&apos;t detailed, its significant popularity on GitHub suggests it addresses a common need for faster execution in data-intensive applications. It operates as a standalone script, implying it&apos;s intended for developers looking to accelerate specific processing bottlenecks.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12696650/pexels-photo-12696650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12696650/pexels-photo-12696650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12696650/pexels-photo-12696650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Inkscape</title>
+      <link>https://surfaced-x.pages.dev/item/inkscape-vector-graphics</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/inkscape-vector-graphics</guid>
+      <description>Inkscape is a free and open-source vector graphics editor for GNU/Linux, Windows, and macOS. It is the premier free and open-source SVG (Scalable Vector Graphics) editor, with sophisticated capabilities. Its primary function is to create and edit vector graphics, making it ideal for illustrations, logos, icons, diagrams, and any design that needs to scale without losing quality. Inkscape supports advanced features like gradient meshes, path effects, and object grouping, offering a professional-grade alternative to proprietary software.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/39110986/pexels-photo-39110986.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/39110986/pexels-photo-39110986.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/39110986/pexels-photo-39110986.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>FontForge</title>
+      <link>https://surfaced-x.pages.dev/item/fontforge-font-editor</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fontforge-font-editor</guid>
+      <description>FontForge is a powerful, free, and open-source font editor designed for comprehensive font creation and modification. It natively supports a wide array of essential desktop font formats, including TrueType, OpenType, and PostScript, enabling seamless workflow across different platforms and applications.  Users can draw entirely new glyphs from scratch, meticulously refine existing letterforms, and effortlessly convert fonts between various formats. The software provides granular control over typographic elements such as glyph outlines, spacing, kerning pairs, font hinting for improved rendering, and the management of extensive font metadata.  It is an indispensable tool for professional type designers, graphic designers, and anyone requiring precise and detailed manipulation of typographic assets.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/29504352/pexels-photo-29504352.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/29504352/pexels-photo-29504352.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/29504352/pexels-photo-29504352.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>HowToLiveBetter</title>
+      <link>https://surfaced-x.pages.dev/item/howtolivebetter</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/howtolivebetter</guid>
+      <description>HowToLiveBetter offers a scientifically grounded and economically efficient approach to personal improvement.  This resource synthesizes actionable strategies across diverse life domains, including extending lifespan, preventing illness, optimizing financial planning, navigating legal considerations, and making informed decisions about family. Each presented recommendation is meticulously supported by a cost-benefit analysis, a transparent evidence grading system, and direct citations to original academic research or authoritative public documents. This ensures that users receive not only reliable guidance but also the underlying data for verification and deeper understanding.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6285258/pexels-photo-6285258.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6285258/pexels-photo-6285258.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6285258/pexels-photo-6285258.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Circling the Drain</title>
       <link>https://surfaced-x.pages.dev/item/circling-the-drain</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/6896184/pexels-photo-6896184.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>JSON Formatter &amp; Validator</title>
+      <link>https://surfaced-x.pages.dev/item/json-formatter-online</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/json-formatter-online</guid>
+      <description>This free, browser-based utility transforms raw, often jumbled JSON (JavaScript Object Notation) data into a neatly organized, indented, and easily digestible format.  Beyond mere formatting, it actively validates the JSON for syntax correctness, pinpointing and highlighting any errors.  Crafted by a provider specializing in software development tools, this application serves as an essential resource for individuals engaged with APIs, configuration files, or any data interchange protocols.  A primary application involves pasting data received from API responses to rapidly decipher their underlying structure.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/11035481/pexels-photo-11035481.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/11035481/pexels-photo-11035481.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/11035481/pexels-photo-11035481.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Port.trade</title>
       <link>https://surfaced-x.pages.dev/item/port-trade-portfolio-tracker</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/port-trade-portfolio-tracker</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/38796151/pexels-photo-38796151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/38796151/pexels-photo-38796151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/38796151/pexels-photo-38796151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Bézier Curve Editor</title>
+      <link>https://surfaced-x.pages.dev/item/bezier-curve-editor</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bezier-curve-editor</guid>
+      <description>This interactive web application allows users to visually create and manipulate Bézier curves, fundamental elements in vector graphics. You can add, move, and adjust anchor points and control handles to shape complex paths. It’s a simple yet powerful tool for understanding and working with vector geometry, perfect for designers or anyone needing to create custom shapes for logos, illustrations, or UI elements. For instance, you could use it to design a unique, flowing line for a logo mark.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37421762/pexels-photo-37421762.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37421762/pexels-photo-37421762.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37421762/pexels-photo-37421762.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Liberapay</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/38429807/pexels-photo-38429807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Colour Contrast Checker</title>
+      <link>https://surfaced-x.pages.dev/item/contrast-checker</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/contrast-checker</guid>
+      <description>This straightforward web tool helps designers and developers ensure that their color combinations meet accessibility standards. It allows you to input foreground and background colors, then instantly calculates the contrast ratio and provides a WCAG 2.1 compliance rating. Built by a small team passionate about web accessibility, it&apos;s an essential utility for anyone building inclusive digital experiences. For example, you could use it to check if your button text is sufficiently visible against its background for users with visual impairments.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6474450/pexels-photo-6474450.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6474450/pexels-photo-6474450.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6474450/pexels-photo-6474450.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Focal Point</title>
       <link>https://surfaced-x.pages.dev/item/focal-point-planner</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/focal-point-planner</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/7947843/pexels-photo-7947843.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Bend 2 and the Vibe-Coding Trap</title>
+      <link>https://surfaced-x.pages.dev/item/bend-2-vibe-coding-trap</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bend-2-vibe-coding-trap</guid>
+      <description>This is a blog post that delves into the concept of &apos;vibe-coding,&apos; a phenomenon where developers find themselves deeply immersed in the aesthetic and tooling choices of a project, sometimes to the detriment of actual productivity or code quality. The author uses the example of &apos;Bend 2,&apos; a tool or concept, to illustrate how the pursuit of a particular coding &apos;vibe&apos; can become a trap. It’s a philosophical exploration of how tooling and subjective preferences can influence development workflows and potentially lead to an overly self-indulgent development process.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1774901128215-3549cc686921?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1774901128215-3549cc686921?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1774901128215-3549cc686921?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
       <title>Recollect</title>
       <link>https://surfaced-x.pages.dev/item/recollect-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/recollect-app</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/13092802/pexels-photo-13092802.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/13092802/pexels-photo-13092802.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/13092802/pexels-photo-13092802.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>MySetup AI</title>
+      <link>https://surfaced-x.pages.dev/item/mysetup-ai</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mysetup-ai</guid>
+      <description>MySetup AI is a platform where individuals can share their specific AI setups, including hardware, software configurations, and the models they use for various tasks. It allows users to browse and discover how others are leveraging AI, fostering a community of AI enthusiasts and professionals. You can see what prompts people use with specific models and what results they achieve, making it easier to replicate successful workflows. It&apos;s built to democratize access to AI knowledge by making successful implementations public and searchable.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1602193435187-1fc23249c8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1602193435187-1fc23249c8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1602193435187-1fc23249c8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
       <title>Rezi</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://pixabay.com/get/ga4502512954cc18a65b3eb4b4e8e33cb34116d62b614f167b5e937ba13841609bc2c19b50fd56c788894724618089c39e592ae1775c8dc12c0b8f3698e49b64d_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/ga4502512954cc18a65b3eb4b4e8e33cb34116d62b614f167b5e937ba13841609bc2c19b50fd56c788894724618089c39e592ae1775c8dc12c0b8f3698e49b64d_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/ga4502512954cc18a65b3eb4b4e8e33cb34116d62b614f167b5e937ba13841609bc2c19b50fd56c788894724618089c39e592ae1775c8dc12c0b8f3698e49b64d_1280.jpg" />
-    </item>
-    <item>
-      <title>In-Flight Simulator</title>
-      <link>https://surfaced-x.pages.dev/item/flight-simulator-passenger-view</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/flight-simulator-passenger-view</guid>
-      <description>In-Flight Simulator offers a unique take on flight simulation by allowing users to experience the journey solely from the perspective of a passenger. Instead of controlling the aircraft, players can relax and enjoy the views from various cabin seats on a variety of aircraft models. It focuses on the immersive aspect of flying, recreating the visual and auditory experience of being on a commercial flight, complete with in-flight entertainment and cabin ambiance. It&apos;s designed for those who enjoy the novelty and relaxation of simulated air travel.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/9683615/pexels-photo-9683615.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
-      <media:content url="https://images.pexels.com/photos/9683615/pexels-photo-9683615.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
-      <media:thumbnail url="https://images.pexels.com/photos/9683615/pexels-photo-9683615.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Proselab</title>
-      <link>https://surfaced-x.pages.dev/item/proselab</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/proselab</guid>
-      <description>Proselab is an AI-powered writing assistant designed to elevate your prose by suggesting alternative phrasings, identifying clichés, and enhancing sentence structure. It goes beyond simple grammar checks to offer nuanced stylistic improvements for fiction and non-fiction writers. The tool operates on a freemium model, offering basic analysis for free and advanced features through a subscription, allowing users to refine their writing with AI-driven insights.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/771322/pexels-photo-771322.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/771322/pexels-photo-771322.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/771322/pexels-photo-771322.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Hacking a $20 4G wireless hotspot into a texting device</title>
-      <link>https://surfaced-x.pages.dev/item/hacking-4g-hotspot-texting</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hacking-4g-hotspot-texting</guid>
-      <description>This project details the process of repurposing a low-cost 4G wireless hotspot into a dedicated device for sending and receiving SMS messages. By leveraging its existing cellular modem and network connectivity, the author developed a custom firmware or software solution that allows for text communication independent of a smartphone or computer. The goal is to create a simple, potentially offline-first texting solution using readily available and inexpensive hardware, showcasing the power of hardware hacking and embedded systems.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/16388464/pexels-photo-16388464.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/16388464/pexels-photo-16388464.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/16388464/pexels-photo-16388464.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>TLDR Pages</title>
-      <link>https://surfaced-x.pages.dev/item/tldr-pages</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tldr-pages</guid>
-      <description>TLDR Pages is an open-source, community-driven project that offers concise, practical, and human-readable summaries of common command-line tools.  It serves as a valuable supplement to traditional man pages, focusing on everyday use cases and providing clear, actionable examples.  Unlike the comprehensive and often dense documentation found in man pages, TLDR Pages prioritizes speed and accessibility. The project&apos;s collaborative nature ensures that the information remains relevant and up-to-date with current command-line practices, making it a readily available and free resource for all users.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1487505983481-9aa2d9f9901a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1487505983481-9aa2d9f9901a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1487505983481-9aa2d9f9901a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMTF8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>One Year of Sponsored Servo Development</title>
-      <link>https://surfaced-x.pages.dev/item/one-year-sponsored-servo-development</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/one-year-sponsored-servo-development</guid>
-      <description>This post details the progress and impact of one year of sponsored development for Servo, an experimental web browser engine primarily developed by Mozilla Research. The sponsorship allowed for dedicated engineering effort to improve Servo&apos;s performance, security, and feature set, demonstrating the viability of its parallel, multi-process architecture. It highlights specific advancements in areas like CSS parsing, rendering, and web compatibility, showcasing Servo as a platform for exploring new web technologies and browser design paradigms.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/32900156/pexels-photo-32900156.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/32900156/pexels-photo-32900156.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/32900156/pexels-photo-32900156.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Chrony</title>
-      <link>https://surfaced-x.pages.dev/item/chrony-ntp-client</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/chrony-ntp-client</guid>
-      <description>Chrony is a sophisticated implementation of the Network Time Protocol (NTP) engineered to precisely synchronize system clocks with designated reference servers. Its design prioritizes efficiency and adaptability, making it an ideal solution for systems with intermittent network connectivity, such as laptops or mobile workstations. Unlike traditional NTP daemons that require constant network access, Chrony can compensate for significant clock drift accumulated during periods of disconnection. This allows for more accurate timekeeping even after extended offline intervals. Chrony is a free and open-source software project, commonly included by default in many contemporary Linux distributions, ensuring accessibility and widespread adoption within the development community.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/gd8a463fc76ba40ec86305669c91daf7e776952ac8ace40afb1005dbe2ff4094a696b62044333bed2c3955965309b1c65debcccf39a9c30bfe71eedee524651b0_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/gd8a463fc76ba40ec86305669c91daf7e776952ac8ace40afb1005dbe2ff4094a696b62044333bed2c3955965309b1c65debcccf39a9c30bfe71eedee524651b0_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/gd8a463fc76ba40ec86305669c91daf7e776952ac8ace40afb1005dbe2ff4094a696b62044333bed2c3955965309b1c65debcccf39a9c30bfe71eedee524651b0_1280.jpg" />
-    </item>
-    <item>
-      <title>Introducing CUDA-Rust</title>
-      <link>https://surfaced-x.pages.dev/item/cuda-rust-gpu-programming</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cuda-rust-gpu-programming</guid>
-      <description>Nvidia has announced native GPU programming capabilities for Rust developers with the introduction of CUDA-Rust. This initiative aims to bring the safety and performance benefits of Rust to the massively parallel world of GPU computing. Developers can now write GPU kernels using Rust, enabling them to leverage Nvidia&apos;s hardware for computationally intensive tasks with greater confidence and potentially reduced development time. This opens up new possibilities for high-performance computing, machine learning, and scientific simulations.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6385893/pexels-photo-6385893.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6385893/pexels-photo-6385893.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6385893/pexels-photo-6385893.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>bat</title>
-      <link>https://surfaced-x.pages.dev/item/bat-cat-alternative</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bat-cat-alternative</guid>
-      <description>bat is an advanced command-line utility that enhances the functionality of the traditional &apos;cat&apos; command. It offers a superior file viewing experience within the terminal by incorporating automatic syntax highlighting for a wide array of programming languages.  Beyond basic content display, bat integrates seamlessly with Git, visually indicating lines that have been added, modified, or deleted directly within the file&apos;s output. This powerful combination of features, built with the performance and reliability of Rust, makes it an essential tool for anyone working with code or configuration files in a command-line environment.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1774901128275-dcba96786383?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1774901128275-dcba96786383?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1774901128275-dcba96786383?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMDZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Refseek</title>
-      <link>https://surfaced-x.pages.dev/item/refseek-reference</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/refseek-reference</guid>
-      <description>Refseek is a meta search engine that aggregates results from a vast array of academic databases, libraries, and scholarly search engines. It aims to provide a comprehensive and unbiased starting point for research by consolidating information from diverse sources. Developed by a team passionate about open access and research dissemination, it helps users discover relevant papers, theses, and articles across disciplines. For instance, a student researching climate change impacts could use Refseek to find studies published by institutions worldwide without needing to query each database individually.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/35100900/pexels-photo-35100900.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/35100900/pexels-photo-35100900.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/35100900/pexels-photo-35100900.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>exa</title>
-      <link>https://surfaced-x.pages.dev/item/exa-ls-commands</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/exa-ls-commands</guid>
-      <description>exa is a powerful and modern command-line utility designed to serve as a superior replacement for the traditional Unix `ls` command. Written entirely in Rust, it delivers a significantly enhanced user experience with a richer set of features and more intelligent default configurations. Key improvements include integrated Git status reporting, allowing immediate visualization of file modifications within your repository. It also offers an intuitive tree view for exploring directory hierarchies, support for extended file attributes, and vibrant, color-coded output to distinguish file types and permissions at a glance. exa is freely available as an open-source project, aiming to make terminal-based file system navigation more informative and efficient.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1598520106864-72ed7919100b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1598520106864-72ed7919100b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1598520106864-72ed7919100b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODg5NjYwMDJ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
   </channel>
 </rss>

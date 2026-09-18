@@ -1,19 +1,19 @@
 [
   {
-    "slug": "nufo-visual-note-taking-tool",
-    "title": "Nufo",
+    "slug": "json-formatter-online",
+    "title": "JSON Formatter & Validator",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Nufo is a unique visual note-taking application that allows users to create interconnected notes arranged on a flexible ",
+    "description": "This free, browser-based utility transforms raw, often jumbled JSON (JavaScript Object Notation) data into a neatly orga",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "circling-the-drain",
-    "title": "Circling the Drain",
+    "slug": "arktype-app",
+    "title": "Arktype",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Circling the Drain is a deliberately minimalist time tracking application engineered for users who desire a clear, unobt",
+    "description": "Arktype is a comprehensive starter kit for building design systems, offering pre-built components, foundational styles, ",
     "badge": null,
     "type": "tool"
   }
