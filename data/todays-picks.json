@@ -1,19 +1,19 @@
 [
   {
-    "slug": "json-formatter-online",
-    "title": "JSON Formatter & Validator",
+    "slug": "htmx",
+    "title": "HTMX",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "This free, browser-based utility transforms raw, often jumbled JSON (JavaScript Object Notation) data into a neatly orga",
+    "description": "HTMX is a lightweight JavaScript library that allows you to access modern browser features directly from HTML, enabling ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "arktype-app",
-    "title": "Arktype",
+    "slug": "tailscale-vpn",
+    "title": "Tailscale",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Arktype is a comprehensive starter kit for building design systems, offering pre-built components, foundational styles, ",
+    "description": "Tailscale is a zero-configuration VPN that creates a secure, private network for your devices, regardless of their locat",
     "badge": null,
     "type": "tool"
   }

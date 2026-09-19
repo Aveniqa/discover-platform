@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tailscale</title>
+      <link>https://surfaced-x.pages.dev/item/tailscale-vpn</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tailscale-vpn</guid>
+      <description>Tailscale is a zero-configuration VPN that creates a secure, private network for your devices, regardless of their location. It uses WireGuard to create an encrypted mesh network, making it incredibly easy to connect to your home servers, development environments, or cloud instances securely. Tailscale offers a generous free tier for personal use and paid plans for businesses. It excels at providing seamless, secure connectivity without complex network configuration.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk4MjY5MDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk4MjY5MDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1744868562210-fffb7fa882d9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk4MjY5MDV8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Warp</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-warp-terminal</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-warp-terminal</guid>
+      <description>Warp is a next-generation terminal emulator designed to modernize the command-line experience for developers. It incorporates artificial intelligence to assist with a range of tasks, including generating commands, debugging errors, and providing context-aware suggestions.  Key features include collaborative live sessions for remote teamwork and an advanced, searchable command history.  This innovative approach aims to make complex terminal operations more approachable and efficient for users of all skill levels.  Warp offers a robust free tier for individual users and provides subscription-based plans for teams that unlock additional collaborative and administrative functionalities.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37755432/pexels-photo-37755432.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37755432/pexels-photo-37755432.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37755432/pexels-photo-37755432.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Superlists</title>
+      <link>https://surfaced-x.pages.dev/item/superlists</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/superlists</guid>
+      <description>Superlists is a simple yet powerful application designed for managing and sharing to-do lists collaboratively. It allows users to create, organize, and share lists of tasks with others, making it ideal for coordinating group projects, family chores, or shared shopping lists. The app focuses on a clean, intuitive interface and real-time syncing to ensure everyone involved is always up-to-date. Superlists offers a freemium model, with basic functionality available for free and premium features for enhanced collaboration and organization.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/163184/instagram-cell-phone-tablet-device-163184.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/163184/instagram-cell-phone-tablet-device-163184.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/163184/instagram-cell-phone-tablet-device-163184.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>rust-analyzer</title>
+      <link>https://surfaced-x.pages.dev/item/rust-analyzer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rust-analyzer</guid>
+      <description>rust-analyzer is a language server that provides rich IDE features for the Rust programming language. It works by integrating with text editors and IDEs that support the Language Server Protocol (LSP) to offer intelligent code completion, diagnostics, refactoring, and code navigation. It&apos;s a free and open-source project developed by the Rust community, offering a powerful and efficient way to develop in Rust. Pricing is non-applicable as it&apos;s a community-driven tool.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34804010/pexels-photo-34804010.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34804010/pexels-photo-34804010.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34804010/pexels-photo-34804010.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>CREEM 2.0</title>
+      <link>https://surfaced-x.pages.dev/item/creem</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/creem</guid>
+      <description>CREEM 2.0 is a comprehensive platform designed to empower creators and developers to sell their AI-generated software and digital products globally. It streamlines the entire business process, handling everything from payment processing and tax compliance to payouts and affiliate management. The tool offers integrated usage-based billing, allowing creators to monetize their AI products effectively based on consumption. It&apos;s a robust financial infrastructure built specifically for the burgeoning AI economy.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1765445774015-da30988cd25f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk4MjY5MDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
+      <media:content url="https://images.unsplash.com/photo-1765445774015-da30988cd25f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk4MjY5MDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.unsplash.com/photo-1765445774015-da30988cd25f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk4MjY5MDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
     <item>
       <title>Arktype</title>
       <link>https://surfaced-x.pages.dev/item/arktype-app</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/4298306/pexels-photo-4298306.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>HTMX</title>
+      <link>https://surfaced-x.pages.dev/item/htmx</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/htmx</guid>
+      <description>HTMX is a lightweight JavaScript library that allows you to access modern browser features directly from HTML, enabling you to build highly interactive web applications without writing complex JavaScript. It works by allowing you to make AJAX requests directly from HTML attributes and update parts of the page based on the response. This approach simplifies front-end development by keeping logic within your HTML and server-side code, making it ideal for developers who prefer a more declarative and less JavaScript-heavy approach.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/2861984/pexels-photo-2861984.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/2861984/pexels-photo-2861984.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/2861984/pexels-photo-2861984.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>codex-with-chatgpt</title>
       <link>https://surfaced-x.pages.dev/item/codex-with-chatgpt</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/codex-with-chatgpt</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/16018145/pexels-photo-16018145.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/16018145/pexels-photo-16018145.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/16018145/pexels-photo-16018145.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Textual</title>
+      <link>https://surfaced-x.pages.dev/item/textual</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/textual</guid>
+      <description>Textual is a modern Python framework for building sophisticated and visually rich command-line applications (TUIs). It allows developers to create interactive interfaces within the terminal, complete with widgets, layouts, and custom styling, moving beyond the limitations of basic text output. Textual is open-source and was created by Will McGugan, the developer behind Textualize.io. It&apos;s designed for building applications that are both powerful and user-friendly directly from the command line.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/37709121/pexels-photo-37709121.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/37709121/pexels-photo-37709121.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/37709121/pexels-photo-37709121.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>AutoResearch</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/8439093/pexels-photo-8439093.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>JSONResume</title>
+      <link>https://surfaced-x.pages.dev/item/jsonresume-developer-tool</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/jsonresume-developer-tool</guid>
+      <description>JSONResume is an innovative open-source initiative that establishes a standardized JSON schema for crafting resumes. This structured data format transforms the traditional resume from a static document into a dynamic, machine-readable asset. By adhering to the JSONResume standard, users can create a single source of truth for their professional history and qualifications. This data can then be programmatically processed, enabling seamless conversion into diverse human-readable formats such as PDFs, HTML web pages, or even interactive online portfolios.  Its core purpose is to empower developers and job seekers with a more flexible and efficient method for managing and presenting their professional identities, moving beyond the limitations of conventional document-based resumes.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/590044/pexels-photo-590044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/590044/pexels-photo-590044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/590044/pexels-photo-590044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Volt Money</title>
       <link>https://surfaced-x.pages.dev/item/volt-budgeting</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/volt-budgeting</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/7947997/pexels-photo-7947997.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Human brain is two separate organs, Stanford Medicine-led research finds</title>
+      <link>https://surfaced-x.pages.dev/item/stanford-brain-research</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/stanford-brain-research</guid>
+      <description>Research spearheaded by Stanford Medicine has uncovered novel insights suggesting the human brain may operate as two largely independent systems rather than a singular, integrated organ. This groundbreaking study meticulously details observed disparities in how the left and right hemispheres process information, learn, and communicate. The findings indicate a more profound degree of lateralization than previously theorized, potentially reshaping our fundamental understanding of brain architecture and its operational principles.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/7723398/pexels-photo-7723398.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/7723398/pexels-photo-7723398.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/7723398/pexels-photo-7723398.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Copilot Personal Finance</title>
       <link>https://surfaced-x.pages.dev/item/copilot-personal-finance</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/copilot-personal-finance</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://images.pexels.com/photos/7821761/pexels-photo-7821761.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7821761/pexels-photo-7821761.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7821761/pexels-photo-7821761.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Laya the open source version of Jev</title>
+      <link>https://surfaced-x.pages.dev/item/laya-ai-coding-assistant</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/laya-ai-coding-assistant</guid>
+      <description>Laya is an open-source AI coding assistant designed to help developers write, debug, and understand code more efficiently. It functions as an alternative to proprietary tools, offering similar functionalities such as code completion, generation, and explanation directly within your development environment. Developed with a focus on privacy and extensibility, Laya aims to provide a transparent and customizable AI coding experience.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/1472443/pexels-photo-1472443.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/1472443/pexels-photo-1472443.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/1472443/pexels-photo-1472443.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Rehearsal</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/38796151/pexels-photo-38796151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/38796151/pexels-photo-38796151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/38796151/pexels-photo-38796151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Bézier Curve Editor</title>
-      <link>https://surfaced-x.pages.dev/item/bezier-curve-editor</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bezier-curve-editor</guid>
-      <description>This interactive web application allows users to visually create and manipulate Bézier curves, fundamental elements in vector graphics. You can add, move, and adjust anchor points and control handles to shape complex paths. It’s a simple yet powerful tool for understanding and working with vector geometry, perfect for designers or anyone needing to create custom shapes for logos, illustrations, or UI elements. For instance, you could use it to design a unique, flowing line for a logo mark.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37421762/pexels-photo-37421762.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37421762/pexels-photo-37421762.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37421762/pexels-photo-37421762.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Liberapay</title>
-      <link>https://surfaced-x.pages.dev/item/liberpay-expense-tracking</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/liberpay-expense-tracking</guid>
-      <description>Liberapay is an open-source, non-profit platform dedicated to facilitating recurring donations from individuals to creators and projects. It focuses on providing a sustainable funding model for open-source software, online communities, and individuals who contribute valuable content or services online. The platform operates on a &apos;pay-what-you-want&apos; model for its own operational costs, encouraging transparency and community involvement. It simplifies the process for both donors and recipients, making it easy to set up and manage regular financial support without intrusive advertising or complex subscription tiers.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/38429807/pexels-photo-38429807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/38429807/pexels-photo-38429807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/38429807/pexels-photo-38429807.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Colour Contrast Checker</title>
-      <link>https://surfaced-x.pages.dev/item/contrast-checker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/contrast-checker</guid>
-      <description>This straightforward web tool helps designers and developers ensure that their color combinations meet accessibility standards. It allows you to input foreground and background colors, then instantly calculates the contrast ratio and provides a WCAG 2.1 compliance rating. Built by a small team passionate about web accessibility, it&apos;s an essential utility for anyone building inclusive digital experiences. For example, you could use it to check if your button text is sufficiently visible against its background for users with visual impairments.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6474450/pexels-photo-6474450.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6474450/pexels-photo-6474450.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6474450/pexels-photo-6474450.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Focal Point</title>
-      <link>https://surfaced-x.pages.dev/item/focal-point-planner</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/focal-point-planner</guid>
-      <description>Focal Point is a visually driven project management and task organization tool that uses a unique mind-mapping interface to help users break down complex projects into manageable steps. It emphasizes a top-down approach, allowing you to define goals and then recursively detail the tasks and sub-tasks required to achieve them. Available as a paid software with a free trial, Focal Point is particularly effective for visual thinkers and those who prefer seeing the entire project landscape at a glance, offering a powerful alternative to traditional list-based task managers.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7947843/pexels-photo-7947843.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7947843/pexels-photo-7947843.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7947843/pexels-photo-7947843.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Bend 2 and the Vibe-Coding Trap</title>
-      <link>https://surfaced-x.pages.dev/item/bend-2-vibe-coding-trap</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bend-2-vibe-coding-trap</guid>
-      <description>This is a blog post that delves into the concept of &apos;vibe-coding,&apos; a phenomenon where developers find themselves deeply immersed in the aesthetic and tooling choices of a project, sometimes to the detriment of actual productivity or code quality. The author uses the example of &apos;Bend 2,&apos; a tool or concept, to illustrate how the pursuit of a particular coding &apos;vibe&apos; can become a trap. It’s a philosophical exploration of how tooling and subjective preferences can influence development workflows and potentially lead to an overly self-indulgent development process.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1774901128215-3549cc686921?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1774901128215-3549cc686921?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1774901128215-3549cc686921?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTZ8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Recollect</title>
-      <link>https://surfaced-x.pages.dev/item/recollect-app</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/recollect-app</guid>
-      <description>Recollect is an application designed for personal knowledge management (PKM) and note-taking, offering a rich, networked approach to organizing your thoughts, ideas, and research. It allows you to create interconnected notes, link them bi-directionally, and build a personal knowledge graph. Recollect is a paid application, with a focus on providing a robust, private, and extensible platform for individuals. It stands out by offering deep customization and offline-first functionality, ensuring your data is always accessible and under your control.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/13092802/pexels-photo-13092802.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/13092802/pexels-photo-13092802.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/13092802/pexels-photo-13092802.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>MySetup AI</title>
-      <link>https://surfaced-x.pages.dev/item/mysetup-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mysetup-ai</guid>
-      <description>MySetup AI is a platform where individuals can share their specific AI setups, including hardware, software configurations, and the models they use for various tasks. It allows users to browse and discover how others are leveraging AI, fostering a community of AI enthusiasts and professionals. You can see what prompts people use with specific models and what results they achieve, making it easier to replicate successful workflows. It&apos;s built to democratize access to AI knowledge by making successful implementations public and searchable.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1602193435187-1fc23249c8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1602193435187-1fc23249c8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1602193435187-1fc23249c8f2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk3NDI3OTR8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>Rezi</title>
-      <link>https://surfaced-x.pages.dev/item/rezi</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rezi</guid>
-      <description>Rezi is an advanced AI-powered platform designed to revolutionize resume creation for job seekers. Leveraging sophisticated algorithms, Rezi analyzes specific job descriptions to pinpoint essential skills, keywords, and qualifications that employers are actively seeking. It then intelligently guides users through the process of integrating these crucial elements into their resumes, ensuring maximum relevance and impact. The platform offers a tiered subscription model, including a free option, to provide access to its comprehensive suite of tools. These features encompass ATS-optimized formatting to bypass initial screening filters, AI-driven content suggestions to enhance professional narratives, and extensive template customization to produce visually appealing and effective resumes, all aimed at increasing the likelihood of securing an interview.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/16094044/pexels-photo-16094044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/16094044/pexels-photo-16094044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/16094044/pexels-photo-16094044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Nufo</title>
-      <link>https://surfaced-x.pages.dev/item/nufo-visual-note-taking-tool</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nufo-visual-note-taking-tool</guid>
-      <description>Nufo is a unique visual note-taking application that allows users to create interconnected notes arranged on a flexible canvas. Unlike traditional linear note-takers, Nufo encourages spatial organization, where you can link ideas, images, and text snippets in a freeform manner. This approach is ideal for complex research, brainstorming sessions, or knowledge management where relationships between pieces of information are crucial. It&apos;s developed by a small team focused on enhancing creative thinking through visual organization.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/15084281/pexels-photo-15084281.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/15084281/pexels-photo-15084281.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/15084281/pexels-photo-15084281.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Typely</title>
-      <link>https://surfaced-x.pages.dev/item/typely</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typely</guid>
-      <description>Typely is an advanced AI-powered writing assistant designed to enhance written communication. It moves beyond rudimentary spell and grammar checks to provide sophisticated stylistic recommendations, analyze the emotional tone of text, and offer generative prompts to inspire content creation.  The platform aims to empower writers to cultivate a distinct voice and significantly improve the lucidity and persuasive power of their prose across a broad spectrum of writing tasks. Typely offers a flexible freemium structure, providing substantial functionality in its free tier, with premium subscriptions unlocking more comprehensive capabilities.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/ga4502512954cc18a65b3eb4b4e8e33cb34116d62b614f167b5e937ba13841609bc2c19b50fd56c788894724618089c39e592ae1775c8dc12c0b8f3698e49b64d_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/ga4502512954cc18a65b3eb4b4e8e33cb34116d62b614f167b5e937ba13841609bc2c19b50fd56c788894724618089c39e592ae1775c8dc12c0b8f3698e49b64d_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/ga4502512954cc18a65b3eb4b4e8e33cb34116d62b614f167b5e937ba13841609bc2c19b50fd56c788894724618089c39e592ae1775c8dc12c0b8f3698e49b64d_1280.jpg" />
     </item>
   </channel>
 </rss>
