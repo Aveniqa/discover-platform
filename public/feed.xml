@@ -5,8 +5,63 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sidenotes</title>
+      <link>https://surfaced-x.pages.dev/item/sidenotes-app</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sidenotes-app</guid>
+      <description>Sidenotes is a compact and accessible note-taking application that allows users to capture fleeting thoughts and information instantly. It lives as a small, always-on window or a global hotkey away, preventing the need to switch contexts to a full-fledged note-taking suite. This tool is completely free, making it an easily adoptable addition to any digital workflow. Its primary advantage is its pervasive availability, ensuring that no idea or piece of information is lost due to the inconvenience of opening a larger application.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8124379/pexels-photo-8124379.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8124379/pexels-photo-8124379.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8124379/pexels-photo-8124379.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Resty</title>
+      <link>https://surfaced-x.pages.dev/item/resty-beta</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/resty-beta</guid>
+      <description>Resty is a straightforward and intuitive HTTP client application designed for developers to test and interact with web services and APIs. It provides a clean interface for crafting requests, inspecting responses, and managing collections of API endpoints. The tool is entirely free and open-source, making it an accessible choice for individuals and teams. Its strength lies in its no-frills approach, offering essential functionalities without the complexity of larger, more feature-rich API clients.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g952c27cce3e11f54bae7740e93978af069eded622a74a9f03b1e515bd80e0c810d0c25452e0169a09f9d6f2c69fd69bb56eabedb38db25ffc80858a1ff381d87_1280.png" type="image/png" length="0" />
+      <media:content url="https://pixabay.com/get/g952c27cce3e11f54bae7740e93978af069eded622a74a9f03b1e515bd80e0c810d0c25452e0169a09f9d6f2c69fd69bb56eabedb38db25ffc80858a1ff381d87_1280.png" medium="image" type="image/png" />
+      <media:thumbnail url="https://pixabay.com/get/g952c27cce3e11f54bae7740e93978af069eded622a74a9f03b1e515bd80e0c810d0c25452e0169a09f9d6f2c69fd69bb56eabedb38db25ffc80858a1ff381d87_1280.png" />
+    </item>
+    <item>
+      <title>Typeshare</title>
+      <link>https://surfaced-x.pages.dev/item/typeshare</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/typeshare</guid>
+      <description>Typeshare is a dedicated platform for writing and publishing social media content, particularly long-form posts for platforms like Twitter (X) and LinkedIn. It provides a distraction-free writing environment with features like a word count, readability score, and the ability to preview how your post will look. Typeshare helps users craft engaging threads and articles, streamlining the process of sharing insights and building an audience online. It&apos;s a freemium service, with advanced analytics and team features available in paid plans.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/16229745/pexels-photo-16229745.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/16229745/pexels-photo-16229745.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/16229745/pexels-photo-16229745.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Notion</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-notion</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-notion</guid>
+      <description>Notion is a highly flexible, all-in-one workspace that combines note-taking, task management, databases, and project collaboration into a single application. You can build custom workflows, organize information with pages and sub-pages, and use various blocks like checklists, tables, Kanban boards, and calendars. Notion operates on a freemium model, offering extensive capabilities for individuals and small teams, with paid tiers unlocking more features for larger organizations. It excels at creating interconnected systems for managing diverse information.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17754375/pexels-photo-17754375.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/17754375/pexels-photo-17754375.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/17754375/pexels-photo-17754375.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Grammarly</title>
+      <link>https://surfaced-x.pages.dev/item/grammarly</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/grammarly</guid>
+      <description>Grammarly is an AI-powered writing assistant that goes beyond simple spell check and grammar correction. It analyzes your text for clarity, conciseness, tone, and style, offering suggestions to improve your overall communication. It operates across various platforms, from web browsers and desktop apps to mobile keyboards, ensuring your writing is polished wherever you are. Grammarly offers a freemium model, with advanced features like plagiarism detection and fluency suggestions available in its premium version.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/6636117/pexels-photo-6636117.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/6636117/pexels-photo-6636117.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/6636117/pexels-photo-6636117.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Tailscale</title>
       <link>https://surfaced-x.pages.dev/item/tailscale-vpn</link>
@@ -371,6 +426,17 @@
       <media:thumbnail url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
     <item>
+      <title>AnySubtitle</title>
+      <link>https://surfaced-x.pages.dev/item/anysubtitle</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/anysubtitle</guid>
+      <description>AnySubtitle is a sophisticated web application engineered to automate the subtitle generation process for video and audio content. Leveraging cutting-edge speech-to-text algorithms, it meticulously transcribes spoken words into accurate text, supporting a diverse array of languages and file formats.  The generated transcripts are readily exportable in industry-standard subtitle formats, such as SRT, facilitating seamless integration into various media players and editing software. This functionality is particularly beneficial for content creators aiming to enhance the accessibility and search engine optimization of their digital media assets.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8770513/pexels-photo-8770513.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8770513/pexels-photo-8770513.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8770513/pexels-photo-8770513.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>fastpotify</title>
       <link>https://surfaced-x.pages.dev/item/fastpotify</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fastpotify</guid>
@@ -380,6 +446,17 @@
       <enclosure url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Lexal Writer</title>
+      <link>https://surfaced-x.pages.dev/item/lexal-writer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lexal-writer</guid>
+      <description>Lexal Writer is a comprehensive platform engineered to elevate collaborative writing and provide advanced text analysis. It offers a robust suite of tools that extend beyond basic grammatical correction, incorporating features like sentiment analysis to gauge emotional tone, readability scoring for audience comprehension, and integrated collaborative version control for seamless team co-editing. The interface is designed for intuitive navigation, ensuring that users can easily access and utilize its sophisticated analytical capabilities. This platform is the product of a dedicated team focused on enhancing the efficiency and overall quality of collaborative writing endeavors.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17724746/pexels-photo-17724746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/17724746/pexels-photo-17724746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/17724746/pexels-photo-17724746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Amagine3D</title>
@@ -393,6 +470,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Word Explorer</title>
+      <link>https://surfaced-x.pages.dev/item/word-explorer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/word-explorer</guid>
+      <description>Word Explorer is an innovative online platform designed to illuminate the intricate connections between words. It goes beyond simple definitions to offer a visually engaging experience, mapping out semantic relationships, tracing etymological lineages, and presenting a comprehensive network of synonyms, antonyms, and semantically linked terms. This tool facilitates a deeper exploration of language, catering to users seeking to understand the historical evolution and interconnectedness of vocabulary in a dynamic and interactive manner.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/9494914/pexels-photo-9494914.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/9494914/pexels-photo-9494914.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/9494914/pexels-photo-9494914.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Biofeedback Lab</title>
       <link>https://surfaced-x.pages.dev/item/biofeedback-lab-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/biofeedback-lab-app</guid>
@@ -404,6 +492,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/8376310/pexels-photo-8376310.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Exfiltrate Your Weights</title>
+      <link>https://surfaced-x.pages.dev/item/exfiltrate-your-weights</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/exfiltrate-your-weights</guid>
+      <description>This tool, &apos;Exfiltrate Your Weights,&apos; addresses a growing need for AI practitioners and researchers: the ability to easily extract and manage the trained weights of their machine learning models. It provides a straightforward mechanism to export these critical parameters, facilitating model sharing, deployment on different platforms, and archiving. Developed by a community of AI enthusiasts, it aims to democratize access to and control over AI model components.  It&apos;s particularly useful when moving between different deep learning frameworks or cloud environments.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/19226354/pexels-photo-19226354.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/19226354/pexels-photo-19226354.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/19226354/pexels-photo-19226354.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Cronometer</title>
       <link>https://surfaced-x.pages.dev/item/cronometer-nutrition-tracker</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/cronometer-nutrition-tracker</guid>
@@ -413,6 +512,17 @@
       <enclosure url="https://pixabay.com/get/g2e9d3ba187ca82c0bda27c17805463f882ca145dade0d251b4aad09a4e6bb9913f67e6c57378e9b710da523f29708f53884286968c7e443dac5ee776b3eef1bc_1280.jpg" type="image/jpeg" length="0" />
       <media:content url="https://pixabay.com/get/g2e9d3ba187ca82c0bda27c17805463f882ca145dade0d251b4aad09a4e6bb9913f67e6c57378e9b710da523f29708f53884286968c7e443dac5ee776b3eef1bc_1280.jpg" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://pixabay.com/get/g2e9d3ba187ca82c0bda27c17805463f882ca145dade0d251b4aad09a4e6bb9913f67e6c57378e9b710da523f29708f53884286968c7e443dac5ee776b3eef1bc_1280.jpg" />
+    </item>
+    <item>
+      <title>English: A vs. An</title>
+      <link>https://surfaced-x.pages.dev/item/english-a-vs-an</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/english-a-vs-an</guid>
+      <description>This article delves into the often-overlooked complexities of using &apos;a&apos; versus &apos;an&apos; in English. It goes beyond the simple vowel rule to explore nuances like silent letters, foreign word pronunciations, and even specific acronyms. Written by Amit Patel, known for his insightful explanations of complex topics, it aims to provide a comprehensive understanding for writers and language learners alike.  The piece offers clear examples and detailed reasoning for each scenario, making it a valuable reference for anyone striving for linguistic precision.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12944758/pexels-photo-12944758.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12944758/pexels-photo-12944758.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12944758/pexels-photo-12944758.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>DLSS5-Swapper</title>
@@ -446,116 +556,6 @@
       <enclosure url="https://images.pexels.com/photos/16018145/pexels-photo-16018145.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/16018145/pexels-photo-16018145.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/16018145/pexels-photo-16018145.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Textual</title>
-      <link>https://surfaced-x.pages.dev/item/textual</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/textual</guid>
-      <description>Textual is a modern Python framework for building sophisticated and visually rich command-line applications (TUIs). It allows developers to create interactive interfaces within the terminal, complete with widgets, layouts, and custom styling, moving beyond the limitations of basic text output. Textual is open-source and was created by Will McGugan, the developer behind Textualize.io. It&apos;s designed for building applications that are both powerful and user-friendly directly from the command line.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37709121/pexels-photo-37709121.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37709121/pexels-photo-37709121.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37709121/pexels-photo-37709121.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>AutoResearch</title>
-      <link>https://surfaced-x.pages.dev/item/auto-research</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/auto-research</guid>
-      <description>AutoResearch is an open-source AI/ML project designed to streamline the research process, guiding users from an initial idea to generating paper-ready evidence. It leverages advanced AI agents to automate various stages of research, including literature review, hypothesis generation, and data analysis. This tool aims to significantly reduce the time and effort researchers spend on tedious tasks, allowing them to focus on innovation and discovery. It is a free and open-source solution.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8439093/pexels-photo-8439093.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8439093/pexels-photo-8439093.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8439093/pexels-photo-8439093.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>JSONResume</title>
-      <link>https://surfaced-x.pages.dev/item/jsonresume-developer-tool</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/jsonresume-developer-tool</guid>
-      <description>JSONResume is an innovative open-source initiative that establishes a standardized JSON schema for crafting resumes. This structured data format transforms the traditional resume from a static document into a dynamic, machine-readable asset. By adhering to the JSONResume standard, users can create a single source of truth for their professional history and qualifications. This data can then be programmatically processed, enabling seamless conversion into diverse human-readable formats such as PDFs, HTML web pages, or even interactive online portfolios.  Its core purpose is to empower developers and job seekers with a more flexible and efficient method for managing and presenting their professional identities, moving beyond the limitations of conventional document-based resumes.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/590044/pexels-photo-590044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/590044/pexels-photo-590044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/590044/pexels-photo-590044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Volt Money</title>
-      <link>https://surfaced-x.pages.dev/item/volt-budgeting</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/volt-budgeting</guid>
-      <description>Volt Money is a personal finance app designed to provide a holistic view of your financial life by aggregating all your bank accounts, credit cards, and investments in one place. It offers automated expense categorization, spending analysis, and goal setting features. The platform operates on a freemium model, with core aggregation and tracking available for free, and advanced insights and planning tools offered through a paid subscription.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7947997/pexels-photo-7947997.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7947997/pexels-photo-7947997.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7947997/pexels-photo-7947997.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Human brain is two separate organs, Stanford Medicine-led research finds</title>
-      <link>https://surfaced-x.pages.dev/item/stanford-brain-research</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/stanford-brain-research</guid>
-      <description>Research spearheaded by Stanford Medicine has uncovered novel insights suggesting the human brain may operate as two largely independent systems rather than a singular, integrated organ. This groundbreaking study meticulously details observed disparities in how the left and right hemispheres process information, learn, and communicate. The findings indicate a more profound degree of lateralization than previously theorized, potentially reshaping our fundamental understanding of brain architecture and its operational principles.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7723398/pexels-photo-7723398.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7723398/pexels-photo-7723398.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7723398/pexels-photo-7723398.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Copilot Personal Finance</title>
-      <link>https://surfaced-x.pages.dev/item/copilot-personal-finance</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/copilot-personal-finance</guid>
-      <description>Copilot is an AI-driven personal finance application available for iOS and macOS, providing a streamlined interface for comprehensive financial oversight. It enables users to meticulously track their spending habits, monitor investment performance, and assess their overall net worth. The app leverages intelligent categorization and forecasting features to deliver insightful summaries and identify financial trends, offering a proactive approach to money management. Copilot operates as a paid subscription service, aiming to deliver a premium experience for users seeking advanced financial tools.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7821761/pexels-photo-7821761.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7821761/pexels-photo-7821761.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7821761/pexels-photo-7821761.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Laya the open source version of Jev</title>
-      <link>https://surfaced-x.pages.dev/item/laya-ai-coding-assistant</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/laya-ai-coding-assistant</guid>
-      <description>Laya is an open-source AI coding assistant designed to help developers write, debug, and understand code more efficiently. It functions as an alternative to proprietary tools, offering similar functionalities such as code completion, generation, and explanation directly within your development environment. Developed with a focus on privacy and extensibility, Laya aims to provide a transparent and customizable AI coding experience.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/1472443/pexels-photo-1472443.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/1472443/pexels-photo-1472443.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/1472443/pexels-photo-1472443.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Rehearsal</title>
-      <link>https://surfaced-x.pages.dev/item/rehearsal-performance-planner</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/rehearsal-performance-planner</guid>
-      <description>Rehearsal is a specialized app designed for actors and performers to help them prepare for auditions and performances. It allows users to import scripts, break them down into manageable scenes, and record themselves practicing their lines and delivery. Key features include intelligent line memorization aids, character journaling for deeper understanding, and scene partner practice modes. The app provides a focused environment for honing performance skills, offering tools that go beyond simple script reading to facilitate thorough preparation. Rehearsal operates on a freemium model, with core functionality available for free and advanced features like extended recording times and cloud backup requiring a subscription.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6896184/pexels-photo-6896184.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6896184/pexels-photo-6896184.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6896184/pexels-photo-6896184.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>JSON Formatter &amp; Validator</title>
-      <link>https://surfaced-x.pages.dev/item/json-formatter-online</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/json-formatter-online</guid>
-      <description>This free, browser-based utility transforms raw, often jumbled JSON (JavaScript Object Notation) data into a neatly organized, indented, and easily digestible format.  Beyond mere formatting, it actively validates the JSON for syntax correctness, pinpointing and highlighting any errors.  Crafted by a provider specializing in software development tools, this application serves as an essential resource for individuals engaged with APIs, configuration files, or any data interchange protocols.  A primary application involves pasting data received from API responses to rapidly decipher their underlying structure.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/11035481/pexels-photo-11035481.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/11035481/pexels-photo-11035481.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/11035481/pexels-photo-11035481.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Port.trade</title>
-      <link>https://surfaced-x.pages.dev/item/port-trade-portfolio-tracker</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/port-trade-portfolio-tracker</guid>
-      <description>Port.trade is a sophisticated cryptocurrency portfolio tracker designed to provide users with a comprehensive overview of their digital asset holdings across multiple exchanges and wallets. It automatically syncs with various blockchain networks and centralized exchanges to consolidate all your investments into a single, intuitive dashboard. The platform excels at calculating capital gains and losses, crucial for tax reporting, and offers advanced charting and analytics to help users make informed trading decisions. Port.trade operates on a freemium model, offering basic tracking for free and premium features like advanced tax reports and real-time alerts for a subscription fee.</description>
-      <category>Daily Tools</category>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/38796151/pexels-photo-38796151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/38796151/pexels-photo-38796151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/38796151/pexels-photo-38796151.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

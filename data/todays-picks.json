@@ -1,19 +1,19 @@
 [
   {
-    "slug": "htmx",
-    "title": "HTMX",
+    "slug": "anysubtitle",
+    "title": "AnySubtitle",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "HTMX is a lightweight JavaScript library that allows you to access modern browser features directly from HTML, enabling ",
+    "description": "AnySubtitle is a sophisticated web application engineered to automate the subtitle generation process for video and audi",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "tailscale-vpn",
-    "title": "Tailscale",
+    "slug": "sidenotes-app",
+    "title": "Sidenotes",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Tailscale is a zero-configuration VPN that creates a secure, private network for your devices, regardless of their locat",
+    "description": "Sidenotes is a compact and accessible note-taking application that allows users to capture fleeting thoughts and informa",
     "badge": null,
     "type": "tool"
   }
