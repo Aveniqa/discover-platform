@@ -4,14 +4,25 @@ const { writeJsonSafe } = require('./lib/write-safe');
 
 if (!process.argv.includes('--run')) {
   console.log('Usage: node scripts/daily-rotate.js --run');
-  console.log('Rotates the 5 oldest items from each category into the archive. Add --run to execute.');
+  console.log('Rotates the oldest items from each category into the archive. Add --run to execute.');
   process.exit(0);
+}
+
+function envInt(name, fallback, min = 1) {
+  const raw = process.env[name];
+  if (!raw) return fallback;
+  const value = Number.parseInt(raw, 10);
+  if (!Number.isFinite(value) || value < min) {
+    throw new Error(`${name} must be an integer >= ${min}; received ${JSON.stringify(raw)}`);
+  }
+  return value;
 }
 
 // Pivoted 2026-05-19: only hidden-gems + daily-tools receive new content.
 // The legacy verticals (discoveries, products, future-radar) are empty and
 // fully archived — rotating them would be a no-op.
 const CATS = ['hidden-gems', 'daily-tools'];
+const ROTATE_PER_CATEGORY = envInt('DAILY_ROTATE_COUNT', 5);
 
 // Load existing archive (items keep their URLs forever for SEO)
 const archiveFile = path.join(__dirname, '..', 'data', 'archive.json');
@@ -27,7 +38,7 @@ for (const cat of CATS) {
     const db = b.dateAdded ? new Date(b.dateAdded).getTime() : 0;
     return da - db;
   });
-  const rotated = items.splice(0, 5);
+  const rotated = items.splice(0, ROTATE_PER_CATEGORY);
   // Move to archive instead of deleting — keeps /item/<slug> URLs alive for Google
   for (const item of rotated) {
     if (!archivedSlugs.has(item.slug)) {
@@ -53,4 +64,4 @@ for (const cat of catData) {
 writeJsonSafe(catFile, catData);
 console.log('Category counts updated.');
 
-console.log(`\nDone. ${CATS.length * 5} items rotated to archive. Generation adds ${CATS.length * 5} fresh ones.`);
+console.log(`\nDone. ${CATS.length * ROTATE_PER_CATEGORY} items rotated to archive. Generation should add the same count back.`);

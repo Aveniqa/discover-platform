@@ -1,13 +1,31 @@
 name: Daily Surfaced Edition
 
 on:
-  # Re-enabled 2026-07-01: the pipeline is fully pivoted to hidden-gems +
-  # daily-tools (generate-daily-content.js, daily-rotate.js, and
-  # generate-social-posts.mjs all target only the two live verticals; the
-  # legacy data files are empty and archived).
+  # Maintenance mode: the site stays fresh without spending daily model/API,
+  # GitHub Actions, and Cloudflare deploy credits. Manual dispatch can run a
+  # larger refresh when Surfaced is actively being worked on again.
   schedule:
-    - cron: '0 11 * * *' # 7am ET daily
-  workflow_dispatch: # Manual trigger button in GitHub Actions UI
+    - cron: '0 11 * * 1,3,5' # Morning ET on Mon/Wed/Fri
+  workflow_dispatch:
+    inputs:
+      content_budget:
+        description: "How much fresh content to generate per live category"
+        required: true
+        default: "low"
+        type: choice
+        options:
+          - low
+          - normal
+      refresh_media:
+        description: "Capture screenshots and fetch stock images"
+        required: true
+        default: false
+        type: boolean
+      send_newsletter:
+        description: "Send the Buttondown newsletter after a clean build"
+        required: true
+        default: false
+        type: boolean
 
 concurrency:
   group: daily-edition
@@ -35,13 +53,73 @@ jobs:
           node-version: '22'
           cache: 'npm'
 
+      - name: Set automation budget
+        id: budget
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          CONTENT_BUDGET: ${{ github.event.inputs.content_budget || 'low' }}
+          REFRESH_MEDIA_INPUT: ${{ github.event.inputs.refresh_media || 'false' }}
+          SEND_NEWSLETTER_INPUT: ${{ github.event.inputs.send_newsletter || 'false' }}
+        run: |
+          set -euo pipefail
+
+          case "${CONTENT_BUDGET:-low}" in
+            normal)
+              rotate=5
+              target=5
+              minimum=2
+              attempts=7
+              ;;
+            low|*)
+              rotate=2
+              target=2
+              minimum=1
+              attempts=3
+              ;;
+          esac
+
+          refresh_media="${REFRESH_MEDIA_INPUT:-false}"
+          send_newsletter="${SEND_NEWSLETTER_INPUT:-false}"
+
+          # Scheduled maintenance only does media/API-heavy garnish once a week.
+          # The content itself still refreshes on every scheduled run.
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            if [ "$(date -u +%u)" = "1" ]; then
+              refresh_media=true
+              send_newsletter=true
+            else
+              refresh_media=false
+              send_newsletter=false
+            fi
+          fi
+
+          {
+            echo "DAILY_ROTATE_COUNT=$rotate"
+            echo "DAILY_TARGET_PER_CATEGORY=$target"
+            echo "DAILY_MIN_PER_CATEGORY=$minimum"
+            echo "DAILY_MAX_GENERATION_ATTEMPTS=$attempts"
+          } >> "$GITHUB_ENV"
+
+          {
+            echo "refresh_media=$refresh_media"
+            echo "send_newsletter=$send_newsletter"
+          } >> "$GITHUB_OUTPUT"
+
+          echo "Budget: ${CONTENT_BUDGET:-low}"
+          echo "Per category: rotate=$rotate target=$target minimum=$minimum attempts=$attempts"
+          echo "Media refresh: $refresh_media"
+          echo "Newsletter: $send_newsletter"
+
       - name: Validate secrets
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          REFRESH_MEDIA: ${{ steps.budget.outputs.refresh_media }}
         run: |
           [ -n "$GEMINI_API_KEY" ] || (echo "❌ GEMINI_API_KEY is not set" && exit 1)
-          [ -n "$PEXELS_API_KEY" ] || echo "⚠️ PEXELS_API_KEY is not set — images will not be fetched"
+          if [ "$REFRESH_MEDIA" = "true" ] && [ -z "$PEXELS_API_KEY" ]; then
+            echo "⚠️ PEXELS_API_KEY is not set — images will not be fetched"
+          fi
 
       - name: Install dependencies
         run: npm ci
@@ -89,6 +167,7 @@ jobs:
         run: node scripts/populate-collections.js
 
       - name: Install Playwright chromium for screenshots
+        if: steps.budget.outputs.refresh_media == 'true'
         run: npx playwright install --with-deps chromium
 
       - name: Capture website screenshots for new items
@@ -96,10 +175,12 @@ jobs:
         # that already have a file, so daily runs only capture the ~10 new
         # ones. A site that blocks headless browsers just falls back to the
         # cached photo in the UI.
+        if: steps.budget.outputs.refresh_media == 'true'
         run: node scripts/capture-screenshots.mjs
         continue-on-error: true
 
       - name: Fetch images for new items
+        if: steps.budget.outputs.refresh_media == 'true'
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
@@ -127,7 +208,8 @@ jobs:
         continue-on-error: true
         run: npm run seo:ping
 
-      - name: Send daily newsletter
+      - name: Send newsletter
+        if: steps.budget.outputs.send_newsletter == 'true'
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: node scripts/send-newsletter.mjs

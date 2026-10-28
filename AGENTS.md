@@ -40,15 +40,15 @@ Legacy schemas (discovery/product/future-tech) survive in `archive.json` — see
 ## Workflows (`.github/workflows/`)
 | Workflow | Status | Notes |
 |---|---|---|
-| Daily Surfaced Edition | **active**, 7am ET cron | the content pipeline (below) |
+| Daily Surfaced Edition | **active, low-credit Mon/Wed/Fri** (resumed 2026-10-28 after a 2026-09-20 → 10-28 pause) | the content pipeline (below). Cron `0 11 * * 1,3,5`: 2 new items per vertical per run; screenshots, stock images and the Buttondown newsletter run **only on Mondays**. Manual dispatch takes `content_budget` (low\|normal), `refresh_media`, `send_newsletter`. Rationale and knobs: `docs/automation-budget.md`. Do NOT restore the old daily cron unless the owner asks — it spent model/API/deploy credit every day on an untended site. |
 | Daily Social Posts | **PAUSED 2026-07-10** at the owner's request (cron commented, workflow disabled, manual dispatch kept) | Pipeline is healthy — Bluesky + Pinterest publish fine; X returns 402 CreditsDepleted and is logged once as a clean skip. Resume = uncomment cron + `gh workflow enable social-posts.yml` |
 | Build Validation / CodeQL / Data Backup / Pinterest Token Refresh | active | routine |
 | AdSense Content Remediation | manual dispatch | archive source backfill **complete** (`unprocessed=0`, 2026-07-04); `docs/source-retrofit-attempted.json` ledgers ~330 confirmed-unverifiable slugs — do NOT retry them. Also runs the `everydayUse` backfill (250/run, idempotent — re-dispatch until 0 remain) |
 | Trending Live Content, Daily Discovery Candidates | **RETIRED** | off-niche current-events automation; do not re-enable schedules |
 
 ## Daily pipeline (order matters; each step is a script in `scripts/`)
-1. `daily-rotate.js --run` — archive 5 oldest per live vertical (never deletes)
-2. `generate-daily-content.js` — Gemini (flash-lite) generates 5/vertical. Saturation-tuned: floor `MIN_PER_CATEGORY=2` (lean days beat failed editions), 7 attempts, 150-title dedup window, rotating day-of-year sub-niche focus, API retries ×5 for 503 spikes
+1. `daily-rotate.js --run` — archive the oldest `DAILY_ROTATE_COUNT` per live vertical (default 5; scheduled runs set 2; never deletes)
+2. `generate-daily-content.js` — Gemini (flash-lite) generates `DAILY_TARGET_PER_CATEGORY`/vertical (default 5; scheduled runs set 2 with floor 1 and 3 attempts — the workflow's "Set automation budget" step owns these). Saturation-tuned defaults: floor `MIN_PER_CATEGORY=2` (lean days beat failed editions), 7 attempts, 150-title dedup window, rotating day-of-year sub-niche focus, API retries ×5 for 503 spikes
 3. `normalize-affiliate-links.js`, `fetch-product-asins.js` — no-op on empty products, keep
 4. `validate-data.js` → `audit-adsense-content.mjs --strict` — hard gates
 5. `validate-urls.js --recent` (non-fatal) → `assign-badges.js` → `generate-todays-picks.js` → `populate-collections.js`

@@ -50,6 +50,17 @@ const TYPE_BY_CATEGORY = {
 
 const REVIEW_MIN_WORDS = 150;
 const REVIEW_TARGET_WORDS = 170;
+
+function envInt(name, fallback, min = 1) {
+  const raw = process.env[name];
+  if (!raw) return fallback;
+  const value = Number.parseInt(raw, 10);
+  if (!Number.isFinite(value) || value < min) {
+    throw new Error(`${name} must be an integer >= ${min}; received ${JSON.stringify(raw)}`);
+  }
+  return value;
+}
+
 // 5 attempts (exp backoff, 45s cap ≈ 2.5 min worst case per call): the
 // 2026-07-02 edition died to a Gemini 503 "high demand" spike that outlasted
 // 3 attempts. Rollback+alert still guards the pathological case.
@@ -63,11 +74,11 @@ const API_RETRY_MAX_DELAY_MS = 45000;
 // the model's proposals increasingly collide with the catalog, and a lean
 // 2-item day beats a failed edition (run 28868896105 rolled back a valid
 // 2-item day).
-const TARGET_PER_CATEGORY = 5;
-const MIN_PER_CATEGORY = 2;
+const TARGET_PER_CATEGORY = envInt("DAILY_TARGET_PER_CATEGORY", 5);
+const MIN_PER_CATEGORY = Math.min(envInt("DAILY_MIN_PER_CATEGORY", 2), TARGET_PER_CATEGORY);
 // Generation attempts per category before accepting a partial day. Raised
 // 5→7 for the same saturation reason — attempts are cheap flash-lite calls.
-const MAX_GENERATION_ATTEMPTS = 7;
+const MAX_GENERATION_ATTEMPTS = envInt("DAILY_MAX_GENERATION_ATTEMPTS", 7);
 
 const BODY_FIELDS_BY_CATEGORY = {
   discoveries: ["shortDescription", "whyItIsInteresting"],

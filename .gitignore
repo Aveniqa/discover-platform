@@ -50,3 +50,9 @@ test-results/
 data/current-events-candidates.json
 docs/*-backfill.log
 docs/design-refs/
+
+# Lighthouse CI output — regenerable, never commit
+lh-*.json
+
+# Business docs kept locally, not part of the site
+Surfaced-Business-Overview*.pdf
