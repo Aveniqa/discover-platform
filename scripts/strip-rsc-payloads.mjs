@@ -11,14 +11,14 @@
  * Strategy: strip every `__next.*.txt` sidecar and the legacy flat
  * `/item/<slug>.txt` payloads. The static-exported `.html` files still serve
  * every route correctly via full-page navigation. The visible trade-off is
- * that client-side route prefetch falls back to full reload — which is fine
- * for Surfaced because our `Link` usage already opts out of prefetch on
- * heavy-list pages (`prefetch={false}`) and full-page nav is acceptable for
- * the magazine reading model.
+ * that client-side navigation falls back to a full page load, which is
+ * acceptable for the magazine reading model.
  *
- * Console errors from Next trying to fetch the sidecars are suppressed by
- * the `404` mapping in `public/_redirects` (the missing payloads return 200
- * empty bodies during dev, 404 in production — both are non-fatal).
+ * Known cost (checked 2026-10-28, Next 16.4.3): no `Link` sets
+ * `prefetch={false}`, so every visible link still prefetches its
+ * `__next._tree.txt` sidecar and logs a 404 in the console (~15 per page).
+ * Harmless — navigation still works — and Next has no global switch to turn
+ * prefetch off; silencing it means `prefetch={false}` on all ~86 `<Link>`s.
  *
  * Keep:
  *   - All `.html` files (the actual pages crawlers and users hit)
