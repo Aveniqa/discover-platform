@@ -1,79 +1,5 @@
 [
   {
-    "id": 810,
-    "slug": "plurai",
-    "toolName": "Plurai",
-    "seoTitle": "Plurai — AI agent training and validation",
-    "whatItDoes": "Plurai is an AI development tool designed to ensure the reliability and safety of AI agents. It allows users to define specific behaviors and constraints for their AI agents, acting as guardrails. Plurai then generates training data based on these specifications, validates the data to ensure it aligns with the intended guidelines, and deploys a custom-trained model in mere minutes. This streamlined process accelerates the development and deployment of dependable AI agents for various use cases. The service operates on a freemium model, offering basic features for free with paid tiers for advanced capabilities and higher usage limits.",
-    "category": "Developer",
-    "whyItIsUseful": "Plurai significantly reduces the time and effort required to build robust AI agents. By automating the generation and validation of training data, it eliminates a common bottleneck in AI development. This tool is particularly valuable for developers building complex AI systems that require strict adherence to specific operational parameters, preventing undesirable or harmful outputs. Its ability to rapidly iterate on agent behavior and deployment makes it a powerful asset for startups and established companies alike. Users praise its intuitive interface and the confidence it instills in the reliability of their AI creations. Plurai is ideal for anyone developing AI agents, from individual developers to large engineering teams, looking to ensure predictable and safe AI performance.",
-    "imageIdea": "ai agent training dashboard",
-    "websiteLink": "https://www.producthunt.com/r/2SG5VACZQUBMO7",
-    "type": "tool",
-    "dateAdded": "2026-05-09",
-    "screenshotUrl": "/screenshots/plurai.webp",
-    "everydayUse": "When you're building a chatbot to help with family vacation planning, you need to make sure it doesn't suggest anything too expensive. You'd use Plurai to set budget limits before letting it interact with your travel itineraries. It's also helpful for creating a customer service bot that won't accidentally promise discounts it can't deliver."
-  },
-  {
-    "id": 811,
-    "slug": "firefliesai-meeting-assistant",
-    "toolName": "Fireflies.ai",
-    "seoTitle": "Fireflies.ai — AI Meeting Assistant & Recorder",
-    "whatItDoes": "Fireflies.ai is an AI-powered assistant that automatically records, transcribes, and summarizes your meetings across various platforms like Zoom, Google Meet, and Microsoft Teams. It integrates with your calendar to join scheduled calls and takes detailed notes, identifying action items and key decisions. The tool offers a freemium model, with paid tiers unlocking more advanced features like in-depth analytics and custom integrations. It excels at providing searchable transcripts and concise summaries, saving significant time on post-meeting follow-up.",
-    "category": "Productivity",
-    "whyItIsUseful": "This tool is invaluable for anyone who attends frequent online meetings and struggles with information overload or remembering critical details. Fireflies.ai eliminates the need for manual note-taking, allowing participants to focus entirely on the discussion. Its AI-generated summaries are remarkably accurate, quickly highlighting the most important takeaways and action items, which can then be easily shared. The searchable transcripts make it effortless to revisit specific parts of a conversation. It integrates seamlessly with popular CRMs and collaboration tools like Salesforce and Asana, streamlining workflows. Users consistently praise its accuracy and the time saved in processing meeting information, making it a favorite among sales teams, project managers, and remote workers.",
-    "imageIdea": "meeting transcription AI assistant",
-    "websiteLink": "https://fireflies.ai",
-    "type": "tool",
-    "dateAdded": "2026-05-09",
-    "screenshotUrl": "/screenshots/firefliesai-meeting-assistant.webp",
-    "everydayUse": "You're trying to remember the exact budget discussed for the family reunion last Tuesday. After a long day, you need a quick recap of the key action items from that project status meeting. You're reviewing notes from a client call you missed because you were in another meeting."
-  },
-  {
-    "id": 812,
-    "slug": "arc-browser",
-    "toolName": "Arc Browser",
-    "seoTitle": "Arc Browser — Innovative Internet Browser",
-    "whatItDoes": "Arc Browser is a reimagined web browser built for a more organized and efficient online experience. It features a unique sidebar interface that keeps your tabs, bookmarks, and downloads neatly organized, allowing for quick switching between tasks and projects. Instead of traditional tabs, Arc uses 'spaces' and 'pinnable' tabs to categorize your browsing. It offers a freemium model with core features available at no cost, while advanced functionalities might be part of future paid tiers. Arc's standout feature is its intuitive tab management system, which significantly reduces tab clutter and enhances focus.",
-    "category": "Productivity",
-    "whyItIsUseful": "Arc Browser fundamentally changes how users interact with the web, moving away from the overwhelming grid of tabs found in traditional browsers. Its 'spaces' feature allows users to create distinct browsing environments for different projects or aspects of their lives, preventing context switching fatigue. The ability to pin frequently used sites and organize them makes essential resources readily accessible. This browser is a game-changer for power users, researchers, and anyone who juggles multiple online tasks. By minimizing digital distractions and streamlining navigation, Arc helps users reclaim focus and boost their overall productivity, making it an essential tool for a cleaner, more efficient digital life.",
-    "imageIdea": "modern web browser interface",
-    "websiteLink": "https://arc.net",
-    "type": "tool",
-    "dateAdded": "2026-05-09",
-    "screenshotUrl": "/screenshots/arc-browser.webp",
-    "everydayUse": "You're planning a group trip and need to gather links for hotels, flights, and activities. When you're reviewing your budget on a Sunday, you can easily find all your financial tabs without a cluttered screen. You can also keep those articles you meant to read later from disappearing into a sea of open tabs."
-  },
-  {
-    "id": 813,
-    "slug": "martha-ai-research-assistant",
-    "toolName": "Martha",
-    "seoTitle": "Martha — AI Research and Writing Assistant",
-    "whatItDoes": "Martha is an AI-powered research and writing assistant designed to help users gather information, synthesize complex topics, and generate initial drafts of written content. It allows you to input a topic, and Martha will scour the web for relevant sources, present them in an organized manner, and help you understand the key arguments and evidence. The tool operates on a freemium model, offering basic research capabilities for free with premium subscriptions unlocking more extensive search parameters, advanced synthesis tools, and longer output limits. Martha's strength lies in its ability to quickly provide a structured overview of a subject, saving immense time in the initial research phase.",
-    "category": "Writing",
-    "whyItIsUseful": "For students, academics, journalists, and content creators, Martha can be a revolutionary tool for overcoming the initial hurdles of research and writing. It demystifies complex subjects by providing concise summaries and curated sources, significantly reducing the time spent on literature reviews. The AI's ability to identify key themes and opposing viewpoints across multiple documents is particularly useful for building a robust argument. Martha integrates with common citation managers and can export research notes, further streamlining the writing process. Its intuitive interface makes sophisticated research accessible to users of all technical backgrounds, making it an indispensable ally in any writing-intensive endeavor.",
-    "imageIdea": "AI research synthesis document",
-    "websiteLink": "https://martha.ai",
-    "type": "tool",
-    "dateAdded": "2026-05-09",
-    "everydayUse": "You're trying to understand a complex bill that just arrived and need to quickly grasp the core charges. Or perhaps you're planning that group trip and need to summarize conflicting travel suggestions from friends. You've also got those dozen articles saved for later that you'll likely never get to."
-  },
-  {
-    "id": 814,
-    "slug": "evernote-note-taking-app",
-    "toolName": "Evernote",
-    "seoTitle": "Evernote — Digital Note Taking App",
-    "whatItDoes": "Evernote is a powerful note-taking and organization app that allows users to capture ideas, to-do lists, photos, voice memos, and web clippings in a single, searchable database. It supports rich text formatting, tagging, and notebook organization to keep information structured and accessible. Evernote operates on a freemium model, offering a robust free tier with limitations on monthly uploads and device syncing, and paid tiers that unlock advanced features and unlimited usage. It excels at rapidly capturing and finding any piece of information you've stored, making it a digital brain for your personal and professional life.",
-    "category": "Productivity",
-    "whyItIsUseful": "Evernote acts as a central hub for all your thoughts, inspirations, and important documents, eliminating the need to juggle multiple apps or notebooks. Its powerful search functionality means you can find that obscure note from years ago in seconds, a feat unmatched by many simpler note-taking tools. The ability to clip entire web pages, save PDFs, and record voice notes makes it incredibly versatile for students, researchers, writers, and anyone who needs to gather and retain information. Integrations with other productivity tools and its cross-platform availability ensure that your information is always at your fingertips, whether you're on a desktop, tablet, or smartphone. Users rave about how Evernote has helped them declutter their minds and streamline their research processes.",
-    "imageIdea": "digital notebook laptop organization",
-    "websiteLink": "https://evernote.com/",
-    "type": "tool",
-    "dateAdded": "2026-05-09",
-    "screenshotUrl": "/screenshots/evernote-note-taking-app.webp",
-    "everydayUse": "You're planning a group trip and need to collect everyone's flight details and hotel preferences in one place. Before heading out on vacation, you jot down important client contacts and project notes for a colleague to reference. You save interesting articles you find online to read later when you have some downtime."
-  },
-  {
     "id": 815,
     "slug": "arc-browser-alternative",
     "toolName": "Vivaldi Browser",
@@ -1739,7 +1665,8 @@
     "websiteLink": "https://www.polywork.com/",
     "type": "tool",
     "dateAdded": "2026-07-17",
-    "everydayUse": "You need to find someone to help brainstorm a side project idea you've been mulling over. Perhaps you're looking for a new mentor to guide you through a career transition. Or maybe you want to connect with fellow enthusiasts for a shared hobby outside of work."
+    "everydayUse": "You need to find someone to help brainstorm a side project idea you've been mulling over. Perhaps you're looking for a new mentor to guide you through a career transition. Or maybe you want to connect with fellow enthusiasts for a shared hobby outside of work.",
+    "screenshotUrl": "/screenshots/daily-tool-polywork.webp"
   },
   {
     "id": 932,
@@ -2097,7 +2024,8 @@
     "type": "tool",
     "dateAdded": "2026-07-23",
     "screenshotUrl": "/screenshots/open-connector.webp",
-    "everydayUse": "You might use this when setting up an AI to automatically track your personal budget across different financial apps. It's also helpful when building a system for a team to share access to project management tools without each person needing to log in individually."
+    "everydayUse": "You might use this when setting up an AI to automatically track your personal budget across different financial apps. It's also helpful when building a system for a team to share access to project management tools without each person needing to log in individually.",
+    "badge": "editors-pick"
   },
   {
     "id": 958,
@@ -2524,7 +2452,8 @@
     "type": "tool",
     "dateAdded": "2026-07-29",
     "screenshotUrl": "/screenshots/craft-document-editor.webp",
-    "everydayUse": "You might use Craft to draft that lengthy email to your landlord about a repair, or to organize your thoughts for a weekend project. It's also perfect for jotting down recipe ideas or planning your next book club discussion."
+    "everydayUse": "You might use Craft to draft that lengthy email to your landlord about a repair, or to organize your thoughts for a weekend project. It's also perfect for jotting down recipe ideas or planning your next book club discussion.",
+    "badge": "editors-pick"
   },
   {
     "id": 990,
@@ -2922,7 +2851,8 @@
     "websiteLink": "https://www.mythexplorers.org/",
     "type": "tool",
     "dateAdded": "2026-08-04",
-    "everydayUse": "You're helping your child with a school project and need a quick explanation of the Minotaur's story. Later, you're discussing a book's symbolism with friends and want to verify a detail about Norse creation myths."
+    "everydayUse": "You're helping your child with a school project and need a quick explanation of the Minotaur's story. Later, you're discussing a book's symbolism with friends and want to verify a detail about Norse creation myths.",
+    "badge": "editors-pick"
   },
   {
     "id": 1019,
@@ -6387,5 +6317,79 @@
     "type": "tool",
     "dateAdded": "2026-09-20",
     "screenshotUrl": "/screenshots/sidenotes-app.webp"
+  },
+  {
+    "id": 1256,
+    "slug": "anatomy-illustrations",
+    "toolName": "anatomy",
+    "seoTitle": "anatomy — Isometric illustration generator",
+    "whatItDoes": "Anatomy is a powerful JavaScript-based agent skill designed for creating detailed, interactive isometric illustrations of complex real-world machines and systems. It generates polished Scalable Vector Graphics (SVGs) that can be further enhanced with optional WebGL shaders and 3D effects for a dynamic visual experience. This tool is particularly adept at visualizing intricate mechanical processes and technical diagrams with a high degree of accuracy and aesthetic appeal. It's free and open-source, making advanced visualization accessible to a wide range of users.",
+    "category": "Design",
+    "whyItIsUseful": "This tool is invaluable for anyone needing to explain complex technical concepts visually. Its ability to generate interactive isometric illustrations sets it apart, allowing for dynamic exploration of machinery and systems that static diagrams cannot offer. The SVG output ensures scalability without loss of quality, perfect for web use or print. Its open-source nature means continuous community-driven improvements and accessibility for individuals and small teams. Users particularly praise its potential for educational content and technical documentation, making it a standout for clear, engaging design.",
+    "everydayUse": "Imagine you're explaining a complicated gadget to a friend, or need to show how a new piece of equipment works to your team. Instead of confusing words, you can use anatomy to generate a clear, interactive diagram that lets anyone zoom in and understand the inner workings, making complex ideas instantly accessible.",
+    "imageIdea": "isometric illustration workshop",
+    "websiteLink": "https://github.com/wheresryan22/anatomy",
+    "type": "tool",
+    "dateAdded": "2026-10-28",
+    "screenshotUrl": "/screenshots/anatomy-illustrations.webp"
+  },
+  {
+    "id": 1257,
+    "slug": "filee-converter",
+    "toolName": "Filee",
+    "seoTitle": "Filee — Offline file converter",
+    "whatItDoes": "Filee is a free, open-source desktop application that allows users to convert files across a remarkable 263 different formats, all offline. Simply drag and drop your files into the intuitive interface to convert images, PDFs, Office documents (Word, Excel, PowerPoint), HWP/HWPX, videos, audio, e-books, and archives. It's designed for privacy and speed, as no files are uploaded to the cloud, and it doesn't require any additional software like Microsoft Office to perform conversions. This makes it an incredibly versatile and secure solution for everyday file management needs.",
+    "category": "Productivity",
+    "whyItIsUseful": "Filee removes the friction of online converters, offering a secure, private, and incredibly broad range of conversion capabilities directly on your computer. The offline functionality is a game-changer for sensitive documents or users with limited internet access. Its ability to handle such a vast array of file types, from common documents to niche formats, means you’re unlikely to encounter a conversion task it can’t handle. This tool saves time, ensures data privacy, and eliminates the need for multiple single-purpose converters, making it a staple for anyone who regularly works with different file formats.",
+    "everydayUse": "You receive a document in a format you can't open, or need to send a presentation to someone who uses different software. With Filee, you can quickly convert it on your computer without uploading anything online, ensuring your file stays private and you can share it in a universally compatible format with ease.",
+    "imageIdea": "computer screen with multiple file icons",
+    "websiteLink": "https://github.com/KnifeLemon/Filee",
+    "type": "tool",
+    "dateAdded": "2026-10-28",
+    "screenshotUrl": "/screenshots/filee-converter.webp"
+  },
+  {
+    "id": 1258,
+    "slug": "spira-maxima-video-generator",
+    "toolName": "Spira Maxima",
+    "seoTitle": "Spira Maxima — AI social video creator",
+    "whatItDoes": "Spira Maxima is an innovative AI-powered tool that transforms written scripts into complete, ready-to-post social media videos. It automates the entire production process, from selecting an AI presenter and sourcing on-trend B-roll footage to adding captions and background music, all in a single pass. The platform even allows for the creation of an AI clone of your photo and voice for a personalized touch. This service streamlines video creation for social media marketing, offering a fast and efficient way to generate engaging content.",
+    "category": "Design",
+    "whyItIsUseful": "For content creators and marketers, Spira Maxima drastically reduces the time and technical skill required to produce professional-looking social media videos. Its ability to handle everything from script to final edit, including presenter and visuals, means users can focus on strategy rather than production. The option for AI voice and avatar cloning provides a unique way to maintain brand consistency or personal presence across videos without needing to film yourself. This tool is ideal for businesses and individuals looking to scale their social media video output efficiently.",
+    "everydayUse": "You have a brilliant idea for a TikTok or Instagram Reel but no time to edit. You can feed your script into Spira Maxima, and it will generate a polished video with visuals and music, ready for you to share with your audience in minutes.",
+    "imageIdea": "AI generated video montage",
+    "websiteLink": "https://www.producthunt.com/r/IAN7QVRIFKVUDA",
+    "type": "tool",
+    "dateAdded": "2026-10-28"
+  },
+  {
+    "id": 1259,
+    "slug": "cleanyourtv-debloater",
+    "toolName": "cleanyourtv",
+    "seoTitle": "cleanyourtv — Android TV cleaner",
+    "whatItDoes": "Cleanyourtv is a Python-based utility designed to debloat any Android or Google TV, transforming its user interface to resemble the cleaner, more streamlined experience of an Apple TV. It operates over Wi-Fi, allowing for remote management and cleanup of pre-installed bloatware and unnecessary applications that often clutter smart TV operating systems. This tool is particularly useful for users who find their TV's default interface slow or filled with unwanted apps and advertisements, offering a way to reclaim performance and simplify navigation.",
+    "category": "Productivity",
+    "whyItIsUseful": "This tool is a godsend for Android TV users frustrated by slow performance and an overwhelming interface. By removing unnecessary system apps and services, cleanyourtv can significantly improve the responsiveness and usability of your smart TV. The Apple TV-like interface it offers is a welcome aesthetic and functional upgrade for many. Its high star count on GitHub indicates strong community trust and widespread utility, making it a reliable choice for anyone looking to optimize their television experience without resorting to complex rooting procedures.",
+    "everydayUse": "Your smart TV feels sluggish, and you're bombarded with ads and apps you never use. You can use cleanyourtv to remotely clean up the system, making your TV faster and giving it a simple, clean interface that makes finding your favorite shows effortless.",
+    "imageIdea": "smart tv remote control clutter",
+    "websiteLink": "https://github.com/Gathin23/cleanyourtv",
+    "type": "tool",
+    "dateAdded": "2026-10-28",
+    "screenshotUrl": "/screenshots/cleanyourtv-debloater.webp"
+  },
+  {
+    "id": 1260,
+    "slug": "gpu-unlock-performance-booster",
+    "toolName": "gpu-unlock",
+    "seoTitle": "gpu-unlock — NVIDIA GPU performance unlocker",
+    "whatItDoes": "gpu-unlock is a C-based utility designed to significantly boost the AI performance of select NVIDIA GeForce graphics cards, specifically targeting the 20, 30, and 40 series. It addresses a common limitation where these GPUs operate at half speed for AI tasks, unlocking up to 2x the FP16, BF16, and TF32 tensor throughput. This tool is essential for individuals and professionals working with demanding AI workloads, machine learning models, and deep learning applications who want to maximize their hardware's potential without purchasing more expensive professional-grade GPUs.",
+    "category": "Developer",
+    "whyItIsUseful": "For AI developers, researchers, and hobbyists using compatible NVIDIA GPUs, gpu-unlock offers a direct and substantial performance improvement for computationally intensive tasks. It essentially unlocks the latent power of consumer-grade hardware, making complex AI computations more accessible and faster. This can translate to shorter training times for machine learning models, quicker inference, and the ability to run more sophisticated AI projects on existing hardware. The significant performance gains without requiring new hardware make it a highly valuable and cost-effective tool for the AI community.",
+    "everydayUse": "You're training a machine learning model on your personal computer and it's taking ages. You can use gpu-unlock to significantly speed up the AI processing on your NVIDIA graphics card, getting your results much faster and allowing you to iterate on your projects more efficiently.",
+    "imageIdea": "computer graphics card circuit board",
+    "websiteLink": "https://github.com/Zagitta/gpu-unlock",
+    "type": "tool",
+    "dateAdded": "2026-10-28",
+    "screenshotUrl": "/screenshots/gpu-unlock-performance-booster.webp"
   }
 ]

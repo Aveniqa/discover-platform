@@ -1,19 +1,19 @@
 [
   {
-    "slug": "anysubtitle",
-    "title": "AnySubtitle",
+    "slug": "dsmurrell-onkey-app-show-where-im-off-key",
+    "title": "OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "AnySubtitle is a sophisticated web application engineered to automate the subtitle generation process for video and audi",
+    "description": "OnKey is a desktop application designed to help amateur singers improve their pitch accuracy. Developed by someone who a",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "sidenotes-app",
-    "title": "Sidenotes",
+    "slug": "gpu-unlock-performance-booster",
+    "title": "gpu-unlock",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Sidenotes is a compact and accessible note-taking application that allows users to capture fleeting thoughts and informa",
+    "description": "gpu-unlock is a C-based utility designed to significantly boost the AI performance of select NVIDIA GeForce graphics car",
     "badge": null,
     "type": "tool"
   }

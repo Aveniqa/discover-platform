@@ -1,7 +1,7 @@
 ---
 title: Surfaced HQ
 type: dashboard
-updated: 2026-09-20
+updated: 2026-10-28
 tags: [surfaced, dashboard, generated]
 ---
 
@@ -16,22 +16,22 @@ tags: [surfaced, dashboard, generated]
 | | |
 |---|---|
 | **Live items** | **886** (453 hidden gems · 433 daily tools) |
-| **Last edition** | 2026-09-20 (10 items) |
-| **Archive** | 2949 items — permanent, keeps `/item/<slug>` alive for search |
-| **Real screenshots** | 714/886 (81%) |
-| **Cached photos** | 4305 |
+| **Last edition** | 2026-10-28 (10 items) |
+| **Archive** | 2959 items — permanent, keeps `/item/<slug>` alive for search |
+| **Real screenshots** | 716/886 (81%) |
+| **Cached photos** | 4315 |
 | **Live items missing a link** | 21 ⚠️ |
 | **Archived items without a source** | 346 (ledgered as unverifiable — do not retry) |
 
 ## Catalogue lean
 
 - **Developer** — 257
-- **Productivity** — 136
-- **Reference** — 95
-- **Design** — 76
-- **Writing** — 74
-- **Education** — 69
-- **Entertainment** — 57
+- **Productivity** — 135
+- **Reference** — 94
+- **Design** — 80
+- **Writing** — 72
+- **Education** — 68
+- **Entertainment** — 58
 - **Social** — 43
 
 ## Where things live
@@ -44,6 +44,7 @@ tags: [surfaced, dashboard, generated]
 ## Docs in this vault
 
 - [[adsense-compliance-readiness]]
+- [[automation-budget]]
 - [[current-event-intelligence]]
 - [[media-attributions]]
 - [[product-commerce-audit]]
