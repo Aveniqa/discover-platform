@@ -1,53 +1,5 @@
 [
   {
-    "id": 817,
-    "slug": "typefully-writing-platform",
-    "toolName": "Typefully",
-    "seoTitle": "Typefully — Write better social media.",
-    "whatItDoes": "Typefully is a streamlined writing platform specifically built for crafting engaging social media content, particularly for Twitter (X). It provides a distraction-free environment with advanced writing tools like AI-powered suggestions, readability checks, and character count optimization, ensuring your message is clear and impactful. Typefully focuses on helping users write better threads, individual posts, and schedule them efficiently. It operates on a freemium model, offering core writing features for free and paid tiers for advanced analytics, unlimited scheduling, and team collaboration. Its strength lies in its specialized focus on making social media writing effective and efficient.",
-    "category": "Writing",
-    "whyItIsUseful": "Typefully empowers individuals and businesses to significantly elevate their social media presence by making the writing process more deliberate and effective. The AI assistance helps overcome writer's block and refine messaging for maximum engagement, while the thread composer simplifies the creation of longer-form narratives. For content creators, marketers, and thought leaders, this tool translates into saved time and increased impact, as well-crafted posts are more likely to resonate with audiences and achieve communication goals. Integrations with social media platforms allow for seamless publishing. Typefully is invaluable for anyone who relies on social media for communication, branding, or influence, transforming it from a chore into a strategic advantage.",
-    "imageIdea": "social media writing app content creation",
-    "websiteLink": "https://typefully.com",
-    "type": "tool",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/typefully-writing-platform.webp",
-    "everydayUse": "You're trying to explain a complex idea in a Twitter thread on a Tuesday morning. You need to summarize those articles you saved for later into a quick LinkedIn post.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "video": {
-        "id": "Pa4U-IkirbU",
-        "title": "Typefully Review: Best X/Twitter, Threads, LinkedIn Scheduler 2026",
-        "channel": "David Alex",
-        "durationSec": 753
-      }
-    }
-  },
-  {
-    "id": 818,
-    "slug": "google-docs-collaboration",
-    "toolName": "Google Docs",
-    "seoTitle": "Google Docs — Free Online Document Editor",
-    "whatItDoes": "Google Docs is a free, web-based word processor that allows users to create, edit, and collaborate on documents in real-time. It offers a familiar interface with robust formatting tools, templates, and the ability to insert images, tables, and drawings. The key differentiator is its seamless real-time collaboration feature, allowing multiple users to work on the same document simultaneously, with changes visible instantly. Documents are automatically saved to Google Drive, ensuring they are accessible from any device. It’s particularly effective for group projects and co-authoring, making remote teamwork effortless.",
-    "category": "Writing",
-    "whyItIsUseful": "Google Docs revolutionizes collaborative writing by enabling simultaneous editing with clear visibility of who is working where. This feature alone saves immense time and reduces confusion compared to traditional document sharing methods. Its cloud-based nature means no lost work due to crashes, and documents are accessible from any internet-connected device. The extensive revision history allows users to track changes and revert to previous versions if needed. Integrations with other Google Workspace apps like Sheets and Slides create a cohesive productivity suite. It’s an essential tool for students, teams, and anyone who needs to write and share documents efficiently with others.",
-    "imageIdea": "people collaborating online document",
-    "websiteLink": "https://docs.google.com/",
-    "type": "tool",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/google-docs-collaboration.webp",
-    "everydayUse": "You can use it to draft your weekly grocery list with your partner or jot down notes for a book club meeting. It's also helpful for quickly creating a shared itinerary for a weekend getaway.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "video": {
-        "id": "U2ISJJQ1URw",
-        "title": "How to use Google Docs - Beginners Tutorial",
-        "channel": "Teacher's Tech",
-        "durationSec": 1957
-      }
-    }
-  },
-  {
     "id": 819,
     "slug": "bevy-game-engine-rust",
     "toolName": "Bevy",
@@ -9026,7 +8978,24 @@
     "imageIdea": "deep learning model server rack",
     "websiteLink": "https://github.com/deepseek-ai/DeepInfer",
     "type": "tool",
-    "dateAdded": "2026-10-29"
+    "dateAdded": "2026-10-29",
+    "signals": {
+      "checkedAt": "2026-10-29",
+      "github": {
+        "repo": "deepseek-ai/DeepInfer",
+        "stars": 23916,
+        "forks": 2844,
+        "archived": false,
+        "pushedAt": "2026-10-26",
+        "license": "Apache-2.0"
+      },
+      "video": {
+        "id": "-MfFXZJt7Mo",
+        "title": "DeepInfer Explained: How DeepSeek Runs AI at Scale",
+        "channel": "Singularity Feed | AI Models , Agents & Robotics",
+        "durationSec": 453
+      }
+    }
   },
   {
     "id": 1262,
@@ -9039,6 +9008,43 @@
     "everydayUse": "You could use Pancake to quickly set up an AI-powered outreach campaign for a new product launch, letting it identify potential customers and draft personalized messages, or to automate lead qualification and routing based on real-time market signals.",
     "websiteLink": "https://www.producthunt.com/r/TK5WOCVR7ZG7IU",
     "type": "tool",
-    "dateAdded": "2026-10-29"
+    "dateAdded": "2026-10-29",
+    "signals": {
+      "checkedAt": "2026-10-29"
+    }
+  },
+  {
+    "id": 1263,
+    "slug": "sigil",
+    "toolName": "Sigil",
+    "seoTitle": "Sigil — EPUB Editor for Authors",
+    "whatItDoes": "Sigil is a free and open-source ebook editor that allows you to create and edit EPUB files directly, without the need for complex markup. It provides a WYSIWYG (What You See Is What You Get) interface alongside a code editor, making it accessible for both novice and experienced ebook creators.  This tool is invaluable for authors and publishers who want fine-grained control over their ebook formatting, allowing for precise adjustments to layout, metadata, and content that automated conversion tools often miss. It excels at producing clean, standards-compliant EPUBs.",
+    "category": "Developer",
+    "whyItIsUseful": "Sigil empowers creators to take full control of their ebook's presentation. Unlike conversion tools that can mangle formatting, Sigil lets you directly manipulate the HTML, CSS, and XML that make up an EPUB. This means you can ensure your book looks exactly as you intend across various e-readers and devices, fixing layout issues, embedding fonts, and adding custom styling with confidence. Its robust feature set, including chapter splitting, metadata editing, and spell-checking, streamlines the ebook production process. Many independent authors and small publishers rely on Sigil to produce professional-quality ebooks efficiently, saving on potentially expensive design services.",
+    "everydayUse": "When you've finished writing your novel and want to self-publish, you'll reach for Sigil to format it into a clean EPUB file. You can then upload this professional-looking ebook to platforms like Amazon Kindle Direct Publishing or Apple Books, ensuring your readers have a seamless experience.",
+    "imageIdea": "epud ebook editor software",
+    "websiteLink": "https://sigil-ebook.com/",
+    "type": "tool",
+    "dateAdded": "2026-10-29",
+    "signals": {
+      "checkedAt": "2026-10-29"
+    }
+  },
+  {
+    "id": 1264,
+    "slug": "daily-tool-htmx",
+    "toolName": "HTMX",
+    "seoTitle": "HTMX — HTML-centric Web Development",
+    "whatItDoes": "HTMX is a library that allows you to access modern browser features directly from HTML, enabling you to build dynamic web applications without writing extensive JavaScript. It achieves this by allowing server-rendered HTML fragments to update parts of a webpage in response to user interactions. This approach significantly simplifies front-end development, making it easier to build interactive UIs with less code and fewer dependencies. HTMX is particularly adept at creating responsive and fluid user experiences with minimal client-side complexity.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers tired of the complexity of modern JavaScript frameworks, HTMX offers a refreshing return to simplicity by leveraging HTML as the primary communication medium between the client and server. It allows you to create highly interactive applications by simply adding attributes to your HTML elements, triggering AJAX requests that update specific DOM elements with server responses. This drastically reduces the amount of JavaScript you need to write and manage, leading to faster development cycles and more maintainable codebases. HTMX integrates seamlessly with any server-side language or framework, making it a versatile tool for both new projects and modernizing existing ones. Its intuitive approach makes dynamic web development accessible to a broader range of developers.",
+    "everydayUse": "Imagine you're building a web application with a form. Instead of writing JavaScript to handle form submissions and update the page, you can use HTMX to send the form data to your server, and then have the server respond with HTML to update a specific part of the page, like a confirmation message, without a full page reload.",
+    "imageIdea": "web development code on screen",
+    "websiteLink": "https://htmx.org/",
+    "type": "tool",
+    "dateAdded": "2026-10-29",
+    "signals": {
+      "checkedAt": "2026-10-29"
+    }
   }
 ]

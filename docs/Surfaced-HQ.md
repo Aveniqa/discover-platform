@@ -16,20 +16,20 @@ tags: [surfaced, dashboard, generated]
 | | |
 |---|---|
 | **Live items** | **829** (399 hidden gems · 430 daily tools) |
-| **Last edition** | 2026-10-29 (4 items) |
-| **Archive** | 3020 items — permanent, keeps `/item/<slug>` alive for search |
-| **Real screenshots** | 670/829 (81%) |
+| **Last edition** | 2026-10-29 (8 items) |
+| **Archive** | 3024 items — permanent, keeps `/item/<slug>` alive for search |
+| **Real screenshots** | 666/829 (80%) |
 | **Cached photos** | 4315 |
 | **Live items missing a link** | 0 ✅ |
 | **Archived items without a source** | 360 (ledgered as unverifiable — do not retry) |
 
 ## Catalogue lean
 
-- **Developer** — 242
+- **Developer** — 245
 - **Productivity** — 128
 - **Reference** — 81
-- **Design** — 78
-- **Writing** — 69
+- **Design** — 77
+- **Writing** — 67
 - **Education** — 62
 - **Entertainment** — 55
 - **Social** — 42

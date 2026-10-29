@@ -46059,5 +46059,100 @@
       "checkedAt": "2026-10-28"
     },
     "archivedAt": "2026-10-29"
+  },
+  {
+    "id": 753,
+    "slug": "palette-inspiration",
+    "name": "Palette Inspiration",
+    "seoTitle": "Palette Inspiration — Master painter color palettes",
+    "whatItDoes": "Palette Inspiration allows users to explore and discover color palettes derived from the artworks of master painters throughout history. By analyzing thousands of famous paintings, the website extracts harmonious and aesthetically pleasing color combinations. Users can browse by artist, era, or even specific moods, making it an invaluable resource for designers, artists, and anyone seeking visual inspiration for their projects. The tool helps translate the timeless color theories of art into practical applications for digital design, branding, and more.",
+    "category": "Design",
+    "whyItIsUseful": "While many tools offer color palette generation, Palette Inspiration's unique angle is its direct link to art history. It moves beyond algorithmic color generation by leveraging the curated aesthetic choices of legendary artists. This provides a rich source of proven, time-tested color combinations that can inspire more sophisticated and nuanced designs. It's particularly useful for those who find inspiration in traditional art but need to apply it to modern digital mediums. Designers looking to break away from generic palettes or achieve a classic, refined look will find immense value here, as will individuals who simply appreciate art and color theory.",
+    "imageIdea": "artist easel palette",
+    "websiteLink": "https://paletteinspiration.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/palette-inspiration.webp",
+    "everydayUse": "When you're trying to pick colors for a personal project, like painting a room or designing a social media post, this tool helps you find pleasing combinations. If you need a mood board for a client presentation or are just looking for color inspiration for your next creative endeavor, it offers a rich source of ideas.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-10-29"
+  },
+  {
+    "id": 754,
+    "slug": "ml-sharp-web",
+    "name": "ML SHARP Web",
+    "seoTitle": "ML SHARP Web — Apple's SHARP in browser",
+    "whatItDoes": "ML SHARP Web is a fascinating project that brings Apple's SHARP (Speech, Hearing, and Recognition Processing) technology to the web browser. It utilizes ONNX Runtime Web, a JavaScript API that allows running ONNX models directly in the browser, enabling powerful machine learning capabilities without server-side processing. This means you can experiment with advanced speech and audio processing features, like those found in Apple's ecosystem, directly from your web development environment. It's primarily for developers and researchers interested in exploring on-device ML for audio applications.",
+    "category": "Developer",
+    "whyItIsUseful": "This is a highly technical but incredibly useful tool for developers pushing the boundaries of browser-based AI. The ability to run sophisticated models like SHARP directly in the browser dramatically reduces latency, enhances privacy by keeping data local, and opens up new possibilities for real-time audio analysis in web applications. Most people are unaware that complex ML tasks can be executed client-side with such efficiency. Developers specializing in audio processing, AI, or those looking to create offline-first web applications will find this tool invaluable for prototyping and experimentation.",
+    "imageIdea": "browser window speech bubble",
+    "websiteLink": "https://github.com/bring-shrubbery/ml-sharp-web",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/ml-sharp-web.webp",
+    "everydayUse": "You're trying to quickly transcribe a snippet of a podcast for your notes before you forget it. Or perhaps you're testing out a new voice command idea for a personal project and need to see how it performs in real-time.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "bring-shrubbery/ml-sharp-web",
+        "stars": 298,
+        "forks": 10,
+        "archived": false,
+        "pushedAt": "2026-07-01"
+      }
+    },
+    "archivedAt": "2026-10-29"
+  },
+  {
+    "id": 817,
+    "slug": "typefully-writing-platform",
+    "toolName": "Typefully",
+    "seoTitle": "Typefully — Write better social media.",
+    "whatItDoes": "Typefully is a streamlined writing platform specifically built for crafting engaging social media content, particularly for Twitter (X). It provides a distraction-free environment with advanced writing tools like AI-powered suggestions, readability checks, and character count optimization, ensuring your message is clear and impactful. Typefully focuses on helping users write better threads, individual posts, and schedule them efficiently. It operates on a freemium model, offering core writing features for free and paid tiers for advanced analytics, unlimited scheduling, and team collaboration. Its strength lies in its specialized focus on making social media writing effective and efficient.",
+    "category": "Writing",
+    "whyItIsUseful": "Typefully empowers individuals and businesses to significantly elevate their social media presence by making the writing process more deliberate and effective. The AI assistance helps overcome writer's block and refine messaging for maximum engagement, while the thread composer simplifies the creation of longer-form narratives. For content creators, marketers, and thought leaders, this tool translates into saved time and increased impact, as well-crafted posts are more likely to resonate with audiences and achieve communication goals. Integrations with social media platforms allow for seamless publishing. Typefully is invaluable for anyone who relies on social media for communication, branding, or influence, transforming it from a chore into a strategic advantage.",
+    "imageIdea": "social media writing app content creation",
+    "websiteLink": "https://typefully.com",
+    "type": "tool",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/typefully-writing-platform.webp",
+    "everydayUse": "You're trying to explain a complex idea in a Twitter thread on a Tuesday morning. You need to summarize those articles you saved for later into a quick LinkedIn post.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "video": {
+        "id": "Pa4U-IkirbU",
+        "title": "Typefully Review: Best X/Twitter, Threads, LinkedIn Scheduler 2026",
+        "channel": "David Alex",
+        "durationSec": 753
+      }
+    },
+    "archivedAt": "2026-10-29"
+  },
+  {
+    "id": 818,
+    "slug": "google-docs-collaboration",
+    "toolName": "Google Docs",
+    "seoTitle": "Google Docs — Free Online Document Editor",
+    "whatItDoes": "Google Docs is a free, web-based word processor that allows users to create, edit, and collaborate on documents in real-time. It offers a familiar interface with robust formatting tools, templates, and the ability to insert images, tables, and drawings. The key differentiator is its seamless real-time collaboration feature, allowing multiple users to work on the same document simultaneously, with changes visible instantly. Documents are automatically saved to Google Drive, ensuring they are accessible from any device. It’s particularly effective for group projects and co-authoring, making remote teamwork effortless.",
+    "category": "Writing",
+    "whyItIsUseful": "Google Docs revolutionizes collaborative writing by enabling simultaneous editing with clear visibility of who is working where. This feature alone saves immense time and reduces confusion compared to traditional document sharing methods. Its cloud-based nature means no lost work due to crashes, and documents are accessible from any internet-connected device. The extensive revision history allows users to track changes and revert to previous versions if needed. Integrations with other Google Workspace apps like Sheets and Slides create a cohesive productivity suite. It’s an essential tool for students, teams, and anyone who needs to write and share documents efficiently with others.",
+    "imageIdea": "people collaborating online document",
+    "websiteLink": "https://docs.google.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/google-docs-collaboration.webp",
+    "everydayUse": "You can use it to draft your weekly grocery list with your partner or jot down notes for a book club meeting. It's also helpful for quickly creating a shared itinerary for a weekend getaway.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "video": {
+        "id": "U2ISJJQ1URw",
+        "title": "How to use Google Docs - Beginners Tutorial",
+        "channel": "Teacher's Tech",
+        "durationSec": 1957
+      }
+    },
+    "archivedAt": "2026-10-29"
   }
 ]

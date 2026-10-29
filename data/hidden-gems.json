@@ -1,48 +1,5 @@
 [
   {
-    "id": 753,
-    "slug": "palette-inspiration",
-    "name": "Palette Inspiration",
-    "seoTitle": "Palette Inspiration — Master painter color palettes",
-    "whatItDoes": "Palette Inspiration allows users to explore and discover color palettes derived from the artworks of master painters throughout history. By analyzing thousands of famous paintings, the website extracts harmonious and aesthetically pleasing color combinations. Users can browse by artist, era, or even specific moods, making it an invaluable resource for designers, artists, and anyone seeking visual inspiration for their projects. The tool helps translate the timeless color theories of art into practical applications for digital design, branding, and more.",
-    "category": "Design",
-    "whyItIsUseful": "While many tools offer color palette generation, Palette Inspiration's unique angle is its direct link to art history. It moves beyond algorithmic color generation by leveraging the curated aesthetic choices of legendary artists. This provides a rich source of proven, time-tested color combinations that can inspire more sophisticated and nuanced designs. It's particularly useful for those who find inspiration in traditional art but need to apply it to modern digital mediums. Designers looking to break away from generic palettes or achieve a classic, refined look will find immense value here, as will individuals who simply appreciate art and color theory.",
-    "imageIdea": "artist easel palette",
-    "websiteLink": "https://paletteinspiration.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-06",
-    "screenshotUrl": "/screenshots/palette-inspiration.webp",
-    "everydayUse": "When you're trying to pick colors for a personal project, like painting a room or designing a social media post, this tool helps you find pleasing combinations. If you need a mood board for a client presentation or are just looking for color inspiration for your next creative endeavor, it offers a rich source of ideas.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 754,
-    "slug": "ml-sharp-web",
-    "name": "ML SHARP Web",
-    "seoTitle": "ML SHARP Web — Apple's SHARP in browser",
-    "whatItDoes": "ML SHARP Web is a fascinating project that brings Apple's SHARP (Speech, Hearing, and Recognition Processing) technology to the web browser. It utilizes ONNX Runtime Web, a JavaScript API that allows running ONNX models directly in the browser, enabling powerful machine learning capabilities without server-side processing. This means you can experiment with advanced speech and audio processing features, like those found in Apple's ecosystem, directly from your web development environment. It's primarily for developers and researchers interested in exploring on-device ML for audio applications.",
-    "category": "Developer",
-    "whyItIsUseful": "This is a highly technical but incredibly useful tool for developers pushing the boundaries of browser-based AI. The ability to run sophisticated models like SHARP directly in the browser dramatically reduces latency, enhances privacy by keeping data local, and opens up new possibilities for real-time audio analysis in web applications. Most people are unaware that complex ML tasks can be executed client-side with such efficiency. Developers specializing in audio processing, AI, or those looking to create offline-first web applications will find this tool invaluable for prototyping and experimentation.",
-    "imageIdea": "browser window speech bubble",
-    "websiteLink": "https://github.com/bring-shrubbery/ml-sharp-web",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-06",
-    "screenshotUrl": "/screenshots/ml-sharp-web.webp",
-    "everydayUse": "You're trying to quickly transcribe a snippet of a podcast for your notes before you forget it. Or perhaps you're testing out a new voice command idea for a personal project and need to see how it performs in real-time.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "bring-shrubbery/ml-sharp-web",
-        "stars": 298,
-        "forks": 10,
-        "archived": false,
-        "pushedAt": "2026-07-01"
-      }
-    }
-  },
-  {
     "id": 755,
     "slug": "hnup-sota",
     "name": "HN UP",
@@ -7786,7 +7743,10 @@
     "imageIdea": "dog with multiple leashes",
     "websiteLink": "https://corgi.computer/",
     "type": "hidden-gem",
-    "dateAdded": "2026-10-29"
+    "dateAdded": "2026-10-29",
+    "signals": {
+      "checkedAt": "2026-10-29"
+    }
   },
   {
     "id": 1224,
@@ -7800,6 +7760,58 @@
     "imageIdea": "gears interlocking with code snippets",
     "websiteLink": "https://www.impossiblemachines.xyz/",
     "type": "hidden-gem",
-    "dateAdded": "2026-10-29"
+    "dateAdded": "2026-10-29",
+    "signals": {
+      "checkedAt": "2026-10-29"
+    }
+  },
+  {
+    "id": 1225,
+    "slug": "keybytes-modular-keyboard",
+    "name": "keybytes",
+    "seoTitle": "keybytes — Modular Keyboard",
+    "whatItDoes": "Keybytes is an innovative, fully modular keyboard project that redefines input device customization. Each keycap is an independent 1u PCB, allowing users unparalleled freedom to rearrange their keyboard layout. Assembly is streamlined with magnetic cases, and the system boasts seamless Bluetooth connectivity. Developed by notaroomba, the project leverages the compact and powerful CH32V003 RISC-V microcontroller for each individual key module. This architecture empowers keyboard enthusiasts and developers with a highly adaptable platform for creating personalized keyboard experiences.",
+    "category": "Developer",
+    "whyItIsUseful": "Keybytes caters to hardware tinkerers and those seeking absolute control over their input devices. It radically departs from fixed keyboard layouts, offering virtually limitless possibilities for key placement and function assignment. The intrinsic modularity eliminates the need for complex soldering when adding, removing, or repositioning keys. Power users can craft highly ergonomic, specialized layouts optimized for coding, gaming, or specific professional workflows. This open-source endeavor stands as a significant contribution for individuals who prioritize deep customization and hands-on hardware exploration.",
+    "everydayUse": "Imagine needing a specific key layout for a new programming language or a demanding game. With Keybytes, you can physically rearrange your keys within minutes, or even swap out a faulty key module without replacing the entire keyboard. It's ideal for custom input solutions.",
+    "imageIdea": "keyboard circuit board",
+    "websiteLink": "https://github.com/notaroomba/keybytes",
+    "type": "hidden-gem",
+    "dateAdded": "2026-10-29",
+    "signals": {
+      "checkedAt": "2026-10-29",
+      "github": {
+        "repo": "notaroomba/keybytes",
+        "stars": 377,
+        "forks": 9,
+        "archived": false,
+        "pushedAt": "2026-10-28"
+      }
+    }
+  },
+  {
+    "id": 1226,
+    "slug": "r2d2-tv-smart-tv-mod",
+    "name": "r2d2-tv",
+    "seoTitle": "r2d2-tv — Smart TV Mod",
+    "whatItDoes": "R2D2 TV is an open-source project that aims to make smart TVs more private and functional by giving users a local home screen, a private remote browser, and a push-to-talk voice assistant. It runs on a Linux compute host, leveraging the TV's display and application capabilities. The project was developed by anubhavmalhotra and targets webOS TVs, offering more control and customization than standard manufacturer interfaces.",
+    "category": "Developer",
+    "whyItIsUseful": "This project is invaluable for users concerned about the privacy implications of smart TVs or those frustrated by manufacturer bloatware and limited functionality. R2D2 TV provides a powerful alternative by putting control back in the user's hands. It's especially appealing to developers and tech enthusiasts who want to repurpose existing hardware for more beneficial uses. The ability to run a local browser and a custom voice assistant offers significant privacy and convenience advantages over the default smart TV experience. It’s a deep dive into operating system-level customization.",
+    "everydayUse": "You can use R2D2 TV to browse the web privately on your television without worrying about tracking, or quickly launch specific apps with custom voice commands. It's perfect for a family movie night where you want direct control over content and privacy settings.",
+    "imageIdea": "robot astromech droid",
+    "websiteLink": "https://github.com/anubhavmalhotra/r2d2-tv",
+    "type": "hidden-gem",
+    "dateAdded": "2026-10-29",
+    "signals": {
+      "checkedAt": "2026-10-29",
+      "github": {
+        "repo": "anubhavmalhotra/r2d2-tv",
+        "stars": 68,
+        "forks": 0,
+        "archived": false,
+        "pushedAt": "2026-10-27",
+        "license": "MIT"
+      }
+    }
   }
 ]

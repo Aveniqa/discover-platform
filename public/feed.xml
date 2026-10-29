@@ -8,6 +8,22 @@
     <lastBuildDate>Thu, 29 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>HTMX</title>
+      <link>https://surfaced-x.pages.dev/item/daily-tool-htmx</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-htmx</guid>
+      <description>HTMX is a library that allows you to access modern browser features directly from HTML, enabling you to build dynamic web applications without writing extensive JavaScript. It achieves this by allowing server-rendered HTML fragments to update parts of a webpage in response to user interactions. This approach significantly simplifies front-end development, making it easier to build interactive UIs with less code and fewer dependencies. HTMX is particularly adept at creating responsive and fluid user experiences with minimal client-side complexity.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sigil</title>
+      <link>https://surfaced-x.pages.dev/item/sigil</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sigil</guid>
+      <description>Sigil is a free and open-source ebook editor that allows you to create and edit EPUB files directly, without the need for complex markup. It provides a WYSIWYG (What You See Is What You Get) interface alongside a code editor, making it accessible for both novice and experienced ebook creators.  This tool is invaluable for authors and publishers who want fine-grained control over their ebook formatting, allowing for precise adjustments to layout, metadata, and content that automated conversion tools often miss. It excels at producing clean, standards-compliant EPUBs.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Pancake</title>
       <link>https://surfaced-x.pages.dev/item/pancake-io</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pancake-io</guid>
@@ -398,6 +414,14 @@
       <media:thumbnail url="https://images.pexels.com/photos/15555858/pexels-photo-15555858.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>r2d2-tv</title>
+      <link>https://surfaced-x.pages.dev/item/r2d2-tv-smart-tv-mod</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/r2d2-tv-smart-tv-mod</guid>
+      <description>R2D2 TV is an open-source project that aims to make smart TVs more private and functional by giving users a local home screen, a private remote browser, and a push-to-talk voice assistant. It runs on a Linux compute host, leveraging the TV&apos;s display and application capabilities. The project was developed by anubhavmalhotra and targets webOS TVs, offering more control and customization than standard manufacturer interfaces.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Memo</title>
       <link>https://surfaced-x.pages.dev/item/memo-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/memo-app</guid>
@@ -407,6 +431,14 @@
       <enclosure url="https://images.pexels.com/photos/8850716/pexels-photo-8850716.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/8850716/pexels-photo-8850716.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/8850716/pexels-photo-8850716.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>keybytes</title>
+      <link>https://surfaced-x.pages.dev/item/keybytes-modular-keyboard</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/keybytes-modular-keyboard</guid>
+      <description>Keybytes is an innovative, fully modular keyboard project that redefines input device customization. Each keycap is an independent 1u PCB, allowing users unparalleled freedom to rearrange their keyboard layout. Assembly is streamlined with magnetic cases, and the system boasts seamless Bluetooth connectivity. Developed by notaroomba, the project leverages the compact and powerful CH32V003 RISC-V microcontroller for each individual key module. This architecture empowers keyboard enthusiasts and developers with a highly adaptable platform for creating personalized keyboard experiences.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cineast</title>
@@ -500,50 +532,6 @@
       <enclosure url="https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>GraphPad Prism</title>
-      <link>https://surfaced-x.pages.dev/item/graphpad-prism</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/graphpad-prism</guid>
-      <description>GraphPad Prism is statistical software designed for scientists and researchers, integrating data analysis, curve fitting, and scientific graphing into a single, intuitive interface. It&apos;s particularly renowned for its ease of use, enabling complex statistical tests and elegant graph creation without requiring extensive programming knowledge. Prism operates on a paid license model. It stands out for its ability to seamlessly translate complex experimental data into clear, publication-ready figures.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Market Cap vs. Employees</title>
-      <link>https://surfaced-x.pages.dev/item/bigwhalehunting-employees-in-sp500-bubbles</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bigwhalehunting-employees-in-sp500-bubbles</guid>
-      <description>This interactive data visualization project, hosted on BigWhaleHunting.com, illustrates the size of major S&amp;P 500 companies by their market capitalization, represented as bubbles. Within each bubble, the number of employees for that company is visually depicted. The tool allows users to explore the relationship between a company&apos;s financial valuation and its workforce size, offering a unique perspective on corporate scale and employment.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>TitleArt – Make text like it&apos;s 1997</title>
-      <link>https://surfaced-x.pages.dev/item/titleart-make-text-like-its-1997</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/titleart-make-text-like-its-1997</guid>
-      <description>TitleArt is a web-based tool that generates retro, pixelated text effects reminiscent of 1990s computer graphics and video game titles. It allows users to input custom text and choose from a variety of pre-defined styles inspired by the era. The tool is ideal for anyone looking to add a nostalgic, pixel-art aesthetic to their projects, whether for web design, social media graphics, or personal art.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4842564/pexels-photo-4842564.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4842564/pexels-photo-4842564.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4842564/pexels-photo-4842564.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Perplexity AI</title>
-      <link>https://surfaced-x.pages.dev/item/daily-tool-perplexity-ai</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-perplexity-ai</guid>
-      <description>Perplexity AI is an AI-powered conversational search engine that provides direct answers to your questions with cited sources. Instead of a list of links, it synthesizes information from the web into a coherent response. It operates on a freemium model, offering a robust free tier and a Pro subscription for enhanced features like access to more advanced AI models and unlimited Copilot searches. It excels at providing concise, sourced answers to complex research queries.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
-      <media:content url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
     </item>
   </channel>
 </rss>
