@@ -8,14 +8,6 @@
     <lastBuildDate>Thu, 29 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HTMX</title>
-      <link>https://surfaced-x.pages.dev/item/daily-tool-htmx</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/daily-tool-htmx</guid>
-      <description>HTMX is a library that allows you to access modern browser features directly from HTML, enabling you to build dynamic web applications without writing extensive JavaScript. It achieves this by allowing server-rendered HTML fragments to update parts of a webpage in response to user interactions. This approach significantly simplifies front-end development, making it easier to build interactive UIs with less code and fewer dependencies. HTMX is particularly adept at creating responsive and fluid user experiences with minimal client-side complexity.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Sigil</title>
       <link>https://surfaced-x.pages.dev/item/sigil</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sigil</guid>
@@ -460,17 +452,6 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Anytype</title>
-      <link>https://surfaced-x.pages.dev/item/anytype</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/anytype</guid>
-      <description>Anytype is a privacy-first, local-first personal knowledge management (PKM) and productivity application. It functions as a decentralized workspace where your data is stored locally on your devices, with optional end-to-end encrypted syncing to other personal devices. It allows you to create interconnected notes, tasks, and projects using a flexible, object-based system, offering a powerful alternative to cloud-dependent note-taking apps. The core application is free and open-source.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/4226613/pexels-photo-4226613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/4226613/pexels-photo-4226613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/4226613/pexels-photo-4226613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
       <title>Corgi</title>
       <link>https://surfaced-x.pages.dev/item/corgi-terminal-multiplexer</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/corgi-terminal-multiplexer</guid>
@@ -532,6 +513,28 @@
       <enclosure url="https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>GraphPad Prism</title>
+      <link>https://surfaced-x.pages.dev/item/graphpad-prism</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/graphpad-prism</guid>
+      <description>GraphPad Prism is statistical software designed for scientists and researchers, integrating data analysis, curve fitting, and scientific graphing into a single, intuitive interface. It&apos;s particularly renowned for its ease of use, enabling complex statistical tests and elegant graph creation without requiring extensive programming knowledge. Prism operates on a paid license model. It stands out for its ability to seamlessly translate complex experimental data into clear, publication-ready figures.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Market Cap vs. Employees</title>
+      <link>https://surfaced-x.pages.dev/item/bigwhalehunting-employees-in-sp500-bubbles</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bigwhalehunting-employees-in-sp500-bubbles</guid>
+      <description>This interactive data visualization project, hosted on BigWhaleHunting.com, illustrates the size of major S&amp;P 500 companies by their market capitalization, represented as bubbles. Within each bubble, the number of employees for that company is visually depicted. The tool allows users to explore the relationship between a company&apos;s financial valuation and its workforce size, offering a unique perspective on corporate scale and employment.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

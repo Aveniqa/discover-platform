@@ -20,8 +20,8 @@ Next.js App Router (Turbopack) · static export to `out/` (~3,100 pages) · Clou
 ## Data files (`data/`)
 | File | Type key | Status |
 |------|----------|--------|
-| `hidden-gems.json` | `hidden-gem` | **live** (~400 items — 57 off-niche/linkless items archived 2026-10-28) |
-| `daily-tools.json` | `tool` | **live** (~430 items) |
+| `hidden-gems.json` | `hidden-gem` | **live** (~385 items — off-niche, linkless and duplicate items archived 2026-10-28/29) |
+| `daily-tools.json` | `tool` | **live** (~405 items) |
 | `discoveries.json` | `discovery` | archived — empty `[]`, do not add |
 | `products.json` | `product` | archived — empty `[]`, do not add |
 | `future-radar.json` | `future-tech` | archived — empty `[]`, do not add |
@@ -34,7 +34,7 @@ Next.js App Router (Turbopack) · static export to `out/` (~3,100 pages) · Clou
 **hidden-gems** `id` `slug` `name` `whatItDoes` `category` `whyItIsUseful` `imageIdea` `websiteLink` `type:"hidden-gem"`
 **daily-tools** `id` `slug` `toolName` `whatItDoes` `category` `whyItIsUseful` `imageIdea` `websiteLink` `type:"tool"`
 Optional on live items: `everydayUse` (2-3 concrete "you'd reach for this when…" moments, rendered as the *In everyday life* panel; produced by the daily generator for new items, backfilled by `scripts/backfill-everyday-use.mjs`), `signals` (`{checkedAt, github?: {repo, stars, forks, archived, pushedAt?, license?}, video?: {id, title, channel, durationSec?}}` — written only by `scripts/enrich-signals.js`; renders as *Project signals* and *See it in action*), `screenshotUrl` (`/screenshots/<slug>.webp`, synced by capture script), `seoTitle` (≤65 chars), `badge`, `dateAdded` (YYYY-MM-DD), `editorial`, `takeaway`.
-**archive.json** items keep their original fields + `archivedAt` (YYYY-MM-DD).
+**archive.json** items keep their original fields + `archivedAt` (YYYY-MM-DD), and optionally `archiveReason` (`missing-source` | `off-niche` | `duplicate`). A `duplicate` also carries `duplicateOf: <live slug>`: its page canonicalises to that slug and it is left out of the sitemap.
 Legacy schemas (discovery/product/future-tech) survive in `archive.json` — see `src/lib/data.ts` for authoritative types.
 
 ## Workflows (`.github/workflows/`)
@@ -99,6 +99,7 @@ Installed Next may be newer than your training data. Read `node_modules/next/dis
 
 ## Rules
 - Never duplicate an existing slug (check both live files + `archive.json`).
+- Never publish the same product twice, **including across verticals** — 37 such duplicates (Logseq, Excalidraw, Typst, three Textuals…) were archived on 2026-10-29. The generator now dedupes names/URLs against the other live vertical (`alsoPublished` in `generateItems`).
 - `imageIdea` must be a concrete visual noun ("espresso machine coffee"), never abstract.
 - Content/automation sessions must NOT modify components, CSS, templates, or build config — design changes only when the user explicitly asks (last user-approved overhaul: 2026-07-08, gold alignment).
 - Do NOT push if the build fails.

@@ -3262,24 +3262,6 @@
     }
   },
   {
-    "id": 951,
-    "slug": "kanbanflow",
-    "name": "KanbanFlow",
-    "seoTitle": "KanbanFlow — Minimalist Kanban board & Pomodoro",
-    "whatItDoes": "KanbanFlow is a streamlined, open-source Kanban board tool designed for individual and small team productivity. It offers a clean, uncluttered interface that focuses on essential Kanban principles: visualizing workflow, limiting work in progress, and continuous flow. The tool integrates a built-in Pomodoro timer, allowing users to easily time their work sessions directly within the task management interface. This combination helps users break down tasks, maintain focus, and track progress effectively.",
-    "category": "Productivity",
-    "whyItIsUseful": "Unlike feature-bloated project management suites, KanbanFlow excels in its simplicity and focus. Its primary draw is the seamless integration of a Pomodoro timer, which is absent in many free Kanban tools. This feature directly addresses the common productivity challenge of maintaining focus and managing time effectively. Users can assign time estimates to tasks and track them against the Pomodoro timer, receiving gentle reminders to take breaks. The tool also boasts a lean design, avoiding distractions and making it incredibly fast to use. It supports subtasks, tags, and simple collaboration for small teams, making it ideal for freelancers, students, and small businesses who need an efficient way to organize their work without a steep learning curve or hefty subscription fees.",
-    "imageIdea": "simple wooden abacus beads on a string",
-    "websiteLink": "https://kanbanflow.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-07-29",
-    "screenshotUrl": "/screenshots/kanbanflow.webp",
-    "everydayUse": "You might use KanbanFlow to organize your personal projects, like planning a weekend DIY task or breaking down your reading list. It's also helpful for coordinating shared responsibilities, such as managing household chores or planning a potluck.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 952,
     "slug": "simulacra-ai-writing",
     "name": "Simulacra",
@@ -4549,23 +4531,6 @@
     }
   },
   {
-    "id": 1027,
-    "slug": "flowstate-ai-coding-assistant",
-    "name": "Flowstate AI Coding Assistant",
-    "seoTitle": "Flowstate AI Coding Assistant — Context-Aware Code Helper",
-    "whatItDoes": "Flowstate AI Coding Assistant is a web-based tool that provides context-aware code suggestions and explanations, going beyond simple autocomplete. It analyzes your current coding project's structure, dependencies, and even your recent code modifications to offer more relevant and helpful recommendations. Developed by a team of software engineers interested in enhancing developer productivity, it aims to reduce cognitive load. For instance, if you're working within a specific framework and have just added a new dependency, Flowstate might suggest common patterns or boilerplate code that utilizes that dependency effectively within your existing codebase.",
-    "category": "Developer",
-    "whyItIsUseful": "This tool is a gem for developers because it offers a deeper level of contextual understanding than many mainstream IDE features or simpler AI assistants. Instead of just suggesting generic code snippets, Flowstate's suggestions are informed by the nuances of your specific project, leading to more practical and less disruptive assistance. It can help developers discover efficient ways to integrate new libraries, refactor complex functions, or even understand legacy code by providing insights based on its analysis of the surrounding logic. Developers who appreciate finely-tuned tools that anticipate their needs and minimize context-switching will find Flowstate significantly speeds up their workflow and reduces frustration.",
-    "imageIdea": "circuit board with flowing lines of code",
-    "websiteLink": "https://flowstate.ai/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-08-13",
-    "everydayUse": "You're trying to quickly fix a bug before a big meeting, or maybe you're picking up someone else's project right before their vacation. When you're trying to understand a complex snippet you found in a saved tab, this tool can help you grasp it faster.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 1028,
     "slug": "gemini-3-7-flash",
     "name": "Gemini 3.7 Flash",
@@ -4796,30 +4761,6 @@
     "dateAdded": "2026-08-16",
     "signals": {
       "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 1041,
-    "slug": "hypothes-is",
-    "name": "Hypothes.is",
-    "seoTitle": "Hypothes.is — Annotate the web collaboratively",
-    "whatItDoes": "Hypothes.is is an open-source annotation tool that allows users to collaboratively highlight and comment on any web page or PDF. Built by the Internet Archive and a community of developers, it enables public or private discussions tied directly to specific text passages. This is invaluable for researchers, students, and anyone who wants to engage deeply with online content by sharing insights and building collective understanding. Imagine a group of students studying a historical document online, each leaving notes on key phrases or arguments for others to see and respond to.",
-    "category": "Social",
-    "whyItIsUseful": "Unlike simple bookmarking or note-taking apps, Hypothes.is transforms passive reading into active engagement. Its strength lies in its collaborative, layer-based approach to annotations, making it ideal for group projects, academic discussions, or even collaborative fact-checking. The tool is particularly powerful for scholarly work, allowing professors to assign readings with embedded questions or for researchers to share preliminary findings. Its open-source nature and commitment to a decentralized web mean your annotations aren't locked into a proprietary platform. Power users appreciate its API for programmatic access to annotations and its integration with various reading tools.",
-    "everydayUse": "You're reading an article about a complex topic with friends. You use Hypothes.is to highlight confusing sentences and ask questions directly on the text, making it easier for everyone to follow along and discuss.",
-    "imageIdea": "pile of sticky notes on a book page",
-    "websiteLink": "https://hypothes.is/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-08-16",
-    "screenshotUrl": "/screenshots/hypothes-is.webp",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "video": {
-        "id": "fo2It8SEWcU",
-        "title": "How to Use Hypothes is Video",
-        "channel": "Janet Mitchell",
-        "durationSec": 183
-      }
     }
   },
   {
@@ -5778,24 +5719,6 @@
     }
   },
   {
-    "id": 1102,
-    "slug": "superhuman",
-    "name": "Superhuman",
-    "seoTitle": "Superhuman — Faster Email Experience",
-    "whatItDoes": "Superhuman is an email client designed for speed and efficiency, aiming to help users achieve inbox zero and manage their communications more effectively. It offers a keyboard-centric interface, AI-powered features like smart summaries and scheduled send, and tools for tracking email opens. The service focuses on reducing the time spent on email by streamlining common actions and minimizing distractions. It's built for professionals who handle a high volume of emails and need to process them rapidly without sacrificing thoroughness.",
-    "category": "Productivity",
-    "whyItIsUseful": "While often perceived as a premium tool, Superhuman's value lies in its fanatical focus on optimizing every aspect of email interaction. Its speed is its primary draw; keyboard shortcuts and an intuitive design drastically reduce the clicks and cognitive load associated with traditional email clients. Features like 'undo send,' 'scheduled send,' and AI-powered summaries allow users to communicate more deliberately and efficiently. For individuals whose productivity hinges on managing communications effectively—sales professionals, executives, entrepreneurs—it offers a significant competitive advantage by reclaiming valuable time.",
-    "everydayUse": "If your inbox is constantly overflowing, you can use Superhuman to triage messages quickly using keyboard shortcuts. You can then schedule follow-ups or send replies instantly, clearing your inbox faster than ever before.",
-    "imageIdea": "stylized stopwatch with an email icon",
-    "websiteLink": "https://superhuman.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-08-28",
-    "screenshotUrl": "/screenshots/superhuman.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 1103,
     "slug": "vphone-cli",
     "name": "vphone-cli",
@@ -6025,24 +5948,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-08-31",
     "screenshotUrl": "/screenshots/wilsonharper-projects-businesscard.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 1117,
-    "slug": "literary-devices-atlas",
-    "name": "Literary Devices Atlas",
-    "seoTitle": "Literary Devices Atlas — Find Writing Tropes",
-    "whatItDoes": "This website is a comprehensive and visually organized database of literary devices and rhetorical techniques. It breaks down complex concepts into understandable explanations, often with clear examples from literature and everyday language. It's maintained by a collective of literature enthusiasts and educators who aim to demystify the art of writing and analysis. For instance, a student struggling to identify irony in a novel could use this site to explore its different forms and see how authors employ it.",
-    "category": "Writing",
-    "whyItIsUseful": "Unlike dry academic glossaries, the Atlas uses a highly intuitive visual interface that allows users to navigate connections between devices and their effects. It's exceptionally useful for writers who want to enrich their prose by understanding how to intentionally employ specific techniques, or for readers seeking to deepen their analytical skills. The site's strength lies in its interconnectedness, showing how metaphors relate to similes, or how anaphora can build to a powerful climax. Power users appreciate the depth of cross-referencing and the quality of illustrative examples, making it an invaluable resource for anyone serious about dissecting or crafting compelling narratives.",
-    "everydayUse": "When you're stuck on a sentence and want to add more flair, you can quickly look up a device like 'litotes' to see how to create subtle understatement. Or, if you're analyzing a poem for class, you can use it to identify and understand figures of speech.",
-    "imageIdea": "open book illuminated scroll",
-    "websiteLink": "https://literarydevices.net/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-08-31",
-    "screenshotUrl": "/screenshots/literary-devices-atlas.webp",
     "signals": {
       "checkedAt": "2026-10-28"
     }
@@ -6419,24 +6324,6 @@
     }
   },
   {
-    "id": 1141,
-    "slug": "joinmastodon-fediverse",
-    "name": "JoinMastodon",
-    "seoTitle": "JoinMastodon — Decentralized Social Networking",
-    "whatItDoes": "JoinMastodon is a portal to the Mastodon social network, a free, open-source, decentralized platform that allows you to connect with people across thousands of independent servers (instances). Unlike traditional social media, Mastodon isn't owned by a single company, giving users more control and a more diverse online experience. You can follow people, share posts (toots), and engage in conversations without algorithmic manipulation or data mining.",
-    "category": "Social",
-    "whyItIsUseful": "Mastodon, accessible through portals like JoinMastodon, represents a significant departure from the centralized social media landscape. Its federated nature means it's not controlled by a single entity, offering a refreshing escape from algorithmic feeds, intrusive ads, and pervasive data collection. Users appreciate the chronological timelines, the ability to choose servers based on community or moderation policies, and the overall emphasis on user well-being over engagement metrics. It's particularly appealing to those seeking more authentic online interactions and greater control over their digital footprint, fostering niche communities and more meaningful connections.",
-    "everydayUse": "Tired of a noisy, algorithm-driven social feed? Browse JoinMastodon to find a server that aligns with your interests, then start following people and engaging in conversations on a chronological timeline. Want to share updates with a community that values thoughtful discussion? Post on your chosen Mastodon instance, knowing your content won't be pushed or suppressed by unseen algorithms.",
-    "imageIdea": "network of interconnected speech bubbles",
-    "websiteLink": "https://joinmastodon.org/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-09-05",
-    "screenshotUrl": "/screenshots/joinmastodon-fediverse.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 1142,
     "slug": "civilservant-digital-participation",
     "name": "CivilServant",
@@ -6608,24 +6495,6 @@
     }
   },
   {
-    "id": 1152,
-    "slug": "bookstack-documentation-wiki",
-    "name": "BookStack",
-    "seoTitle": "BookStack — Simple documentation wiki",
-    "whatItDoes": "BookStack is an open-source, self-hostable wiki system that makes creating and organizing documentation incredibly simple and intuitive. It uses a structured approach of Books, Chapters, and Pages to manage content, making it easy to build out comprehensive knowledge bases. Developed by the team at Freedom High School, it's designed to be user-friendly for both creators and readers, with a clean interface and powerful search capabilities. It’s ideal for internal team documentation, project wikis, or even personal knowledge management.",
-    "category": "Productivity",
-    "whyItIsUseful": "Many documentation tools are either overly complex or lack the structured organization needed for larger projects. BookStack strikes a perfect balance, offering a clear hierarchy that prevents information sprawl. Its emphasis on simplicity means that even non-technical users can contribute effectively. Features like drag-and-drop page reordering, content versioning, and role-based permissions make it a robust yet accessible platform. For teams or individuals who need a reliable, self-managed way to store and share knowledge without a steep learning curve, BookStack is an excellent, often overlooked, choice.",
-    "everydayUse": "Imagine you’re starting a new team and need a central place for onboarding documents, project guidelines, and company policies. You can set up BookStack to easily organize this information, making it accessible for everyone to read and contribute to as needed.",
-    "imageIdea": "stack of books with glowing spines",
-    "websiteLink": "https://www.bookstackapp.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-09-07",
-    "screenshotUrl": "/screenshots/bookstack-documentation-wiki.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 1153,
     "slug": "i-ve-factored-the-rsa-keys-of-a-certificate-authority-from-the-90s",
     "name": "RSA Key Factoring from the 90s",
@@ -6673,24 +6542,6 @@
         "channel": "Dave's Garage",
         "durationSec": 1068
       }
-    }
-  },
-  {
-    "id": 1155,
-    "slug": "glaze-ai",
-    "name": "Glaze",
-    "seoTitle": "Glaze — AI art protection tool",
-    "whatItDoes": "Glaze is a powerful defense tool developed by the University of Chicago's Sand Lab to protect digital artists' work from unauthorized AI training. It works by subtly altering an artist's image in ways that are imperceptible to the human eye but confuse AI models trained to mimic artistic styles. This allows artists to share their work online with a layer of protection against being scraped and replicated by AI systems without their consent. The tool is open-source and freely available.",
-    "category": "Design",
-    "whyItIsUseful": "In an era where AI art generation is rapidly advancing, Glaze offers a vital, practical solution for artists concerned about their style being absorbed and replicated by AI without permission. While many tools focus on AI art generation, Glaze shifts the focus to defense, empowering creators. Its effectiveness lies in its subtlety; the visual integrity of the artwork remains intact for human viewers. This is crucial for artists who rely on their unique style for their livelihood and creative identity. It's a proactive measure for any digital artist wanting to maintain control over their intellectual property in the digital space.",
-    "everydayUse": "You're an illustrator planning to post your latest piece on social media and want to ensure AI models can't easily learn and replicate your distinctive style. Applying Glaze before uploading adds a layer of unseen protection without altering how your art looks to your followers.",
-    "imageIdea": "artist palette brush abstract shield",
-    "websiteLink": "https://glaze.cs.uchicago.edu/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-09-08",
-    "screenshotUrl": "/screenshots/glaze-ai.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
     }
   },
   {
@@ -6884,24 +6735,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-09-11",
     "screenshotUrl": "/screenshots/credit-karma-tax.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 1170,
-    "slug": "texual-documentation",
-    "name": "Texual",
-    "seoTitle": "Texual — Terminal UI library",
-    "whatItDoes": "Texual is a Python library for building sophisticated and interactive applications entirely within the terminal. It provides widgets, layout management, and event handling, enabling developers to create complex UIs with rich text, colors, and mouse support, without needing a graphical environment. Developed by the creator of Rich, it aims to make terminal application development more accessible and powerful. A developer could use Texual to build a custom command-line task manager with progress bars, lists, and interactive menus.",
-    "category": "Developer",
-    "whyItIsUseful": "Texual is a hidden gem for developers who want to create powerful, cross-platform terminal applications without the overhead of full GUI frameworks. Its strength lies in its ability to build truly interactive experiences using only text, offering a level of sophistication often associated with graphical interfaces. It’s superior to basic terminal output because it provides structured widgets, theming capabilities, and robust event handling, making complex applications feel polished and professional. Users who appreciate CLI tools with excellent UX, like command-line editors or database interfaces, will find Texual's capabilities remarkable for building their own.",
-    "everydayUse": "You might use Texual to build a custom CLI tool for managing your project's dependencies, featuring interactive selection menus and real-time status updates. It helps create more user-friendly and efficient command-line experiences.",
-    "imageIdea": "terminal window with colorful interface",
-    "websiteLink": "https://textual.textualize.io/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-09-11",
-    "screenshotUrl": "/screenshots/texual-documentation.webp",
     "signals": {
       "checkedAt": "2026-10-28"
     }
@@ -7165,24 +6998,6 @@
     }
   },
   {
-    "id": 1188,
-    "slug": "explain-shell",
-    "name": "Explain Shell",
-    "seoTitle": "Explain Shell — Decipher shell commands",
-    "whatItDoes": "Explain Shell is a web-based tool that takes any command-line command and breaks it down into its individual components, explaining each flag, option, and argument. It helps users understand complex commands they encounter in terminal environments, whether from documentation, tutorials, or fellow users. The tool draws from man pages and other sources to provide clear, human-readable explanations.",
-    "category": "Developer",
-    "whyItIsUseful": "For anyone navigating the complexities of the command line, Explain Shell is an invaluable resource that often gets overlooked in favor of more prominent documentation tools. It democratizes understanding of shell commands, making them accessible even to beginners. Its strength lies in its simplicity and directness; you paste a command, and get a clear, itemized breakdown. This is far more user-friendly than sifting through lengthy man pages for a single option. Power users appreciate it for quickly verifying unfamiliar commands or discovering new, efficient flag combinations. It's a sanity-saver for anyone who spends time in a terminal.",
-    "everydayUse": "You've copied a terminal command from a blog post but don't understand a specific part. Paste it into Explain Shell to see exactly what each flag does before you run it on your system.",
-    "imageIdea": "magnifying glass over terminal window",
-    "websiteLink": "https://explainshell.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-09-15",
-    "screenshotUrl": "/screenshots/explain-shell.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 1189,
     "slug": "hylo-community",
     "name": "Hylo Community",
@@ -7196,42 +7011,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-09-15",
     "screenshotUrl": "/screenshots/hylo-community.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 1190,
-    "slug": "matrix-chat",
-    "name": "Matrix.org",
-    "seoTitle": "Matrix.org — Open, Decentralized Communication",
-    "whatItDoes": "Matrix is a cutting-edge, open-source protocol that facilitates secure and real-time communication through a decentralized network of independent servers. This federated system provides an robust alternative to centralized messaging applications, capable of handling text, voice, and video conversations seamlessly. The protocol's development is spearheaded by the Matrix.org Foundation, and its capabilities are readily accessible through popular client applications such as Element, offering users a transparent and community-driven communication infrastructure.",
-    "category": "Social",
-    "whyItIsUseful": "Matrix empowers users with a flexible and resilient communication paradigm, placing a strong emphasis on data sovereignty and interoperability. Its federated architecture liberates users from the control of any single corporation, enhancing privacy and network stability. For individuals seeking absolute control over their data, the option to self-host or select preferred servers is a significant advantage. Furthermore, Matrix's sophisticated bridging technologies enable it to connect with other communication platforms, including Slack and Discord. This extensibility makes Matrix an exceptionally versatile solution for managing a wide array of communication requirements across different networks and communities.",
-    "everydayUse": "Set up a private chat room for your extended family with end-to-end encryption, coordinate with a distributed team using secure channels, or join a public community discussing your favorite open-source projects.",
-    "imageIdea": "network of interconnected speech bubbles",
-    "websiteLink": "https://matrix.org",
-    "type": "hidden-gem",
-    "dateAdded": "2026-09-15",
-    "screenshotUrl": "/screenshots/matrix-chat.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 1191,
-    "slug": "thread-reader-app",
-    "name": "Thread Reader App",
-    "seoTitle": "Thread Reader App — Summarize Twitter threads",
-    "whatItDoes": "Thread Reader App is a simple web service designed to help users easily consume long Twitter threads. You simply reply to a thread with '@threadreaderapp unroll' or send it a direct message with the thread's URL, and it will compile all the tweets into a single, easily readable page or even send you an email summary. This tool solves the common problem of fragmented information on Twitter, making it far more accessible for in-depth reading.",
-    "category": "Social",
-    "whyItIsUseful": "While Twitter itself has introduced some thread-related features, Thread Reader App remains a more robust and versatile solution, especially for users who prefer a clean, distraction-free reading experience. It's incredibly straightforward to use, requiring no complicated setup or sign-in. Power users appreciate its ability to quickly distill complex discussions and research papers shared on Twitter into digestible formats. Its 'save for later' functionality also makes it a handy bookmarking tool for important Twitter content. It's a lifesaver for anyone who's ever gotten lost in a 50-tweet analysis.",
-    "everydayUse": "You're scrolling through Twitter and find an incredibly insightful thread about a new technology or a historical event. Instead of trying to read it piece by piece, you simply reply '@threadreaderapp unroll' to the first tweet. You'll receive a link to a clean, single-page version, making it easy to digest the full story without distraction.",
-    "imageIdea": "stack of neatly folded paper",
-    "websiteLink": "https://threadreaderapp.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-09-15",
-    "screenshotUrl": "/screenshots/thread-reader-app.webp",
     "signals": {
       "checkedAt": "2026-10-28"
     }
@@ -7516,24 +7295,6 @@
     "type": "hidden-gem",
     "dateAdded": "2026-09-19",
     "screenshotUrl": "/screenshots/jsonresume-developer-tool.webp",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 1211,
-    "slug": "textual",
-    "name": "Textual",
-    "seoTitle": "Textual — TUI framework for Python",
-    "whatItDoes": "Textual is a modern Python framework for building sophisticated and visually rich command-line applications (TUIs). It allows developers to create interactive interfaces within the terminal, complete with widgets, layouts, and custom styling, moving beyond the limitations of basic text output. Textual is open-source and was created by Will McGugan, the developer behind Textualize.io. It's designed for building applications that are both powerful and user-friendly directly from the command line.",
-    "category": "Developer",
-    "whyItIsUseful": "While many developers are familiar with web frameworks or GUI toolkits, Textual offers a compelling way to build rich desktop-like applications entirely within the terminal. This is incredibly useful for developers who spend a lot of time in the CLI, need to create internal tools, or want to build cross-platform applications without relying on traditional GUI libraries. Its reactive design, comprehensive widget set, and CSS-like styling make it surprisingly powerful and enjoyable to use. It's an underrated tool for anyone who wants to elevate their command-line experience beyond simple scripts and build truly interactive terminal applications.",
-    "everydayUse": "Imagine you need to create a custom dashboard for monitoring your server logs or managing cloud resources directly from your terminal. Textual allows you to build a polished, interactive interface for this, making complex tasks more manageable on the go.",
-    "imageIdea": "command prompt icon with decorative border",
-    "websiteLink": "https://textual.textualize.io/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-09-19",
-    "screenshotUrl": "/screenshots/textual.webp",
     "signals": {
       "checkedAt": "2026-10-28"
     }

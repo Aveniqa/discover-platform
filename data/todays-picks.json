@@ -9,11 +9,11 @@
     "type": "hidden-gem"
   },
   {
-    "slug": "daily-tool-htmx",
-    "title": "HTMX",
+    "slug": "sigil",
+    "title": "Sigil",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "HTMX is a library that allows you to access modern browser features directly from HTML, enabling you to build dynamic we",
+    "description": "Sigil is a free and open-source ebook editor that allows you to create and edit EPUB files directly, without the need fo",
     "badge": null,
     "type": "tool"
   }
