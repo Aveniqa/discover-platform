@@ -24,6 +24,7 @@ import {
   type FutureTech,
   type HiddenGem,
   type DailyTool,
+  type ItemSignals,
 } from "@/lib/data";
 import { CategoryBadge } from "@/components/ui/CategoryBadge";
 import { BookmarkButton } from "@/components/ui/BookmarkButton";
@@ -43,6 +44,7 @@ import { LogoImage } from "@/components/ui/LogoImage";
 import { ScreenshotImage } from "@/components/ui/ScreenshotImage";
 import { EditorialTrustBar } from "@/components/ui/EditorialTrustBar";
 import { SourceTrailLink } from "@/components/ui/SourceTrailLink";
+import { ProjectSignals } from "@/components/ui/ProjectSignals";
 import { isPexelsImage } from "@/lib/images";
 import { getItemImageUrl } from "@/lib/images";
 import { buildMetadata, getBuildDate, SITE_URL } from "@/lib/seo";
@@ -265,6 +267,10 @@ export default async function ItemPage({ params }: Props) {
   const sourceHost = safeHostLabel(sourceUrl);
   const sourceLabel = getItemSourceLabel(item);
   const trustSignals = getItemTrustSignals(item);
+  const signals = item.type === "hidden-gem" || item.type === "tool"
+    ? (item as { signals?: ItemSignals }).signals
+    : undefined;
+  const videoId = item.type === "product" ? (item as Product).youtubeVideoId : signals?.video?.id;
 
   // Prev / next within the same type array
   const typeArrayMap: Record<string, AnyItem[]> = {
@@ -603,8 +609,15 @@ export default async function ItemPage({ params }: Props) {
             </ScrollReveal>
           )}
 
-          {/* ── YouTube product video ───────────────────────── */}
-          {item.type === "product" && (item as Product).youtubeVideoId && (
+          {/* ── Project signals — live repo facts via Agent Reach ── */}
+          {signals?.github && (
+            <ScrollReveal delay={120}>
+              <ProjectSignals github={signals.github} checkedAt={signals.checkedAt} />
+            </ScrollReveal>
+          )}
+
+          {/* ── YouTube video (product field, or matched walkthrough) ── */}
+          {videoId && (
             <ScrollReveal delay={120}>
               <div className="mb-12">
                 <h2 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
@@ -616,13 +629,19 @@ export default async function ItemPage({ params }: Props) {
                 <div className="relative w-full rounded-xl overflow-hidden border border-border" style={{paddingBottom: "56.25%"}}>
                   <iframe
                     className="absolute inset-0 w-full h-full"
-                    src={`https://www.youtube-nocookie.com/embed/${(item as Product).youtubeVideoId}?rel=0&modestbranding=1`}
-                    title={`${title} video`}
+                    src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1`}
+                    title={signals?.video ? signals.video.title : `${title} video`}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                     loading="lazy"
                   />
                 </div>
+                {signals?.video && (
+                  <p className="mt-3 text-xs text-muted-foreground">
+                    &ldquo;{signals.video.title}&rdquo; &mdash; {signals.video.channel}, via YouTube. Picked by Surfaced as a
+                    walkthrough; not sponsored.
+                  </p>
+                )}
               </div>
             </ScrollReveal>
           )}

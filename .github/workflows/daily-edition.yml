@@ -124,6 +124,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install Agent Reach
+        # Grounds generation in each candidate's own page and gathers GitHub /
+        # YouTube signals (scripts/lib/agent-reach.js). Pinned release; every
+        # caller falls back to the pre-Agent-Reach behaviour if this fails.
+        continue-on-error: true
+        run: |
+          pipx install uv==0.11.8
+          "$HOME/.local/bin/uv" tool install https://github.com/Panniantong/Agent-Reach/releases/download/v1.6.0/agent-reach.zip
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/agent-reach" version
+
       - name: Remove oldest items
         run: node scripts/daily-rotate.js --run
 
@@ -165,6 +176,14 @@ jobs:
 
       - name: Populate collections
         run: node scripts/populate-collections.js
+
+      - name: Enrich items with outside signals
+        # New items + up to 20 stale re-checks: GitHub stats and a matched
+        # YouTube walkthrough. Free (no paid APIs), so it runs every edition.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/enrich-signals.js --refresh 20
+        continue-on-error: true
 
       - name: Install Playwright chromium for screenshots
         if: steps.budget.outputs.refresh_media == 'true'

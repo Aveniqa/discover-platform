@@ -5,6 +5,8 @@ const path = require("path");
 const { writeJsonSafe } = require("./lib/write-safe");
 const { createLogger } = require("./lib/logger");
 const { getSeedsForCategory, formatSeeds } = require("./lib/signal-sources");
+const { agentReachAvailable, readPage, mapLimit } = require("./lib/agent-reach");
+const { isCoverageLink, looksLikeHeadline } = require("./lib/item-guards");
 
 const log = createLogger({ script: 'generate-daily-content' });
 
@@ -120,6 +122,34 @@ function isLikelyDuplicateName(candidate, existingNames) {
   });
 }
 
+/**
+ * "Ratty – A terminal emulator with inline 3D graphics" → "Ratty". Launch
+ * posts pack a tagline into the title; the tagline belongs in whatItDoes.
+ */
+function brandName(name) {
+  const text = String(name || "").trim();
+  const m = /^(.{2,40}?)(?:\s+[–—-]\s+|:\s+|,\s+(?:a|an|the)\s+)\S/.exec(text);
+  return m ? m[1].trim() : text;
+}
+
+/**
+ * Read each seed's own page through Agent Reach so the prompt carries the
+ * product's real title and opening text. Best-effort: a seed that can't be
+ * read keeps only its feed blurb, exactly as before.
+ */
+async function groundSeeds(seeds) {
+  if (!seeds.length || !(await agentReachAvailable())) return;
+  let grounded = 0;
+  await mapLimit(seeds, 3, async (seed) => {
+    const page = await readPage(seed.url, { maxChars: 600 });
+    if (!page) return;
+    if (page.title) seed.pageTitle = page.title;
+    if (page.text) seed.pageExcerpt = page.text;
+    grounded++;
+  });
+  console.log(`  Grounded ${grounded}/${seeds.length} seed(s) in their own pages via Agent Reach`);
+}
+
 function itemBody(item) {
   return [
     item.shortDescription,
@@ -199,13 +229,13 @@ function normalizeGeneratedItem(category, item) {
       if (normalized.amazonAsin === undefined) normalized.amazonAsin = "";
       break;
     case "hidden-gems":
-      normalized.name = firstString(normalized.name, normalized.title, normalized.toolName);
+      normalized.name = brandName(firstString(normalized.name, normalized.title, normalized.toolName));
       normalized.whatItDoes = firstString(normalized.whatItDoes, normalized.shortDescription, normalized.description);
       normalized.whyItIsUseful = firstString(normalized.whyItIsUseful, normalized.whyItIsInteresting, normalized.whyItMatters);
       normalized.websiteLink = firstString(normalized.websiteLink, normalized.sourceLink, normalized.url);
       break;
     case "daily-tools":
-      normalized.toolName = firstString(normalized.toolName, normalized.name, normalized.title);
+      normalized.toolName = brandName(firstString(normalized.toolName, normalized.name, normalized.title));
       normalized.whatItDoes = firstString(normalized.whatItDoes, normalized.shortDescription, normalized.description);
       normalized.whyItIsUseful = firstString(normalized.whyItIsUseful, normalized.whyItIsInteresting, normalized.whyItMatters);
       normalized.websiteLink = firstString(normalized.websiteLink, normalized.sourceLink, normalized.url);
@@ -399,6 +429,7 @@ async function generateItems(category, existingItems, count, seeds = []) {
     const u = (s.url || "").replace(/\/$/, "").toLowerCase();
     return !existingUrls.has(u) && !isLikelyDuplicateName(s.title, existingNamesComparable);
   });
+  await groundSeeds(filteredSeeds);
 
   const schemas = {
     discoveries: `{
@@ -484,9 +515,14 @@ async function generateItems(category, existingItems, count, seeds = []) {
   const seedBlock = filteredSeeds.length
     ? `
 REAL TRENDING ITEMS — pick the ${count} most interesting and fitting for Surfaced from this list.
-These are currently trending on Hacker News / GitHub / Product Hunt. You MUST use the EXACT name
-and EXACT URL from the chosen seed (do not invent, rename, or substitute). Only the copy
-(description/why fields/imageIdea/category/slug) is yours to write:
+These are currently trending on Hacker News / GitHub / Product Hunt. You MUST use the EXACT URL
+from the chosen seed (never invent or substitute one). Name it by the product's own short name as
+its page shows it (see "Page title") — e.g. "TitleArt", never a launch-post headline like
+"TitleArt – Make text like it's 1997" or "I built X so you can Y". Where a seed has a Page excerpt,
+that is the product's own page: ground every factual claim in it or the seed, and never describe
+features neither mentions. Skip seeds that are news, essays, opinion pieces or announcements —
+pick only things a reader can open and use. The copy (description/why fields/imageIdea/category/slug)
+is yours to write:
 
 ${formatSeeds(filteredSeeds)}
 
@@ -507,6 +543,12 @@ ${formatSeeds(filteredSeeds)}
     ? `\nToday's editorial focus: lean toward the "${dailyFocus}" category for at least half of your picks — surface tools in that space most people have never heard of. Obscure-but-excellent beats popular.`
     : "";
 
+  // The news-outlet preference predates the 2026-05 pivot; for the live
+  // verticals it pulled op-eds and breach reports in as "gems".
+  const sourceRule = (category === "hidden-gems" || category === "daily-tools")
+    ? `- LINK: websiteLink is the product's own website or official repository — never a news article, blog post, social post or forum thread about it. BANNED: wikipedia.org, wikihow.com, medium.com, and any news or social site.`
+    : `- SOURCE QUALITY: For sourceLink/websiteLink, strongly prefer authoritative primary sources. Preferred domains: nytimes.com, wsj.com, reuters.com, apnews.com, bloomberg.com, ft.com, bbc.com, theverge.com, wired.com, arstechnica.com, technologyreview.com, scientificamerican.com, nature.com, science.org, theatlantic.com, newyorker.com, economist.com, nationalgeographic.com, smithsonianmag.com, nasa.gov, noaa.gov, nih.gov, arxiv.org, mit.edu, stanford.edu. Also acceptable: direct manufacturer/product pages, official GitHub repos, official tool websites. BANNED sources (never use): wikipedia.org, wikihow.com, blogspot.com, any wordpress.com blog, medium.com (except official brand publications). If no preferred source exists, use the most authoritative primary source available.`;
+
   const prompt = `${categoryPrompts[category]}${focusLine}
 ${seedBlock}
 DO NOT propose any item whose name matches or closely resembles any of these — they are already published and will be rejected: ${existingTitles}
@@ -520,7 +562,7 @@ Rules:
 - slug must be kebab-case, unique, derived from the title/name
 - Descriptions should be engaging and informative — add depth, context, and specifics beyond the raw seed blurb. Use at least ${REVIEW_TARGET_WORDS} combined words across the description and why fields.
 - Today's date for reference: ${today}
-- SOURCE QUALITY: For sourceLink/websiteLink, strongly prefer authoritative primary sources. Preferred domains: nytimes.com, wsj.com, reuters.com, apnews.com, bloomberg.com, ft.com, bbc.com, theverge.com, wired.com, arstechnica.com, technologyreview.com, scientificamerican.com, nature.com, science.org, theatlantic.com, newyorker.com, economist.com, nationalgeographic.com, smithsonianmag.com, nasa.gov, noaa.gov, nih.gov, arxiv.org, mit.edu, stanford.edu. Also acceptable: direct manufacturer/product pages, official GitHub repos, official tool websites. BANNED sources (never use): wikipedia.org, wikihow.com, blogspot.com, any wordpress.com blog, medium.com (except official brand publications). If no preferred source exists, use the most authoritative primary source available.
+${sourceRule}
 
 Return ONLY the JSON array, no markdown fencing, no explanation.`;
 
@@ -574,6 +616,12 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
       // Item passed required-field check; clean up the diagnostic field
       // so it doesn't end up in the persisted JSON.
       delete item.__rejectedUrl;
+    }
+
+    if ((category === "hidden-gems" || category === "daily-tools") &&
+        (looksLikeHeadline(itemName) || isCoverageLink(item.websiteLink))) {
+      console.warn(`  ⚠ Off-niche item discarded: "${itemName}" (${item.websiteLink}) — headline name or news/social link`);
+      continue;
     }
 
     let bodyWords = wordCount(itemBody(item));

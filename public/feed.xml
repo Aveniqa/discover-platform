@@ -426,7 +426,7 @@
       <media:thumbnail url="https://images.pexels.com/photos/37983582/pexels-photo-37983582.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
-      <title>OnKey – I&apos;m a bad singer, so I built an app to show where I&apos;m off-key</title>
+      <title>OnKey</title>
       <link>https://surfaced-x.pages.dev/item/dsmurrell-onkey-app-show-where-im-off-key</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dsmurrell-onkey-app-show-where-im-off-key</guid>
       <description>OnKey is a desktop application designed to help amateur singers improve their pitch accuracy. Developed by someone who admits to being a poor singer, the app analyzes vocal input in real-time and visually displays where the singer is hitting the correct notes and where they are deviating. It&apos;s a practical tool for anyone looking to practice singing with immediate, objective feedback on their pitch.</description>
@@ -448,17 +448,6 @@
       <media:thumbnail url="https://images.pexels.com/photos/2881227/pexels-photo-2881227.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
-      <title>Why is this fingerprinting script creating bioweapons?</title>
-      <link>https://surfaced-x.pages.dev/item/nullptrs-fingerprinting-bioweapons</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nullptrs-fingerprinting-bioweapons</guid>
-      <description>This article from nullpt.rs delves into a surprising and technical discovery: a seemingly innocuous website fingerprinting script was found to be generating code that resembles bioweapon specifications. The author meticulously analyzes the script&apos;s behavior and output, revealing how unusual code patterns could be interpreted as potentially harmful instructions. It&apos;s a deep dive into the unexpected outcomes of code generation and security analysis.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3872166/pexels-photo-3872166.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3872166/pexels-photo-3872166.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3872166/pexels-photo-3872166.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
       <title>spotifast</title>
       <link>https://surfaced-x.pages.dev/item/spotifast</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spotifast</guid>
@@ -470,7 +459,7 @@
       <media:thumbnail url="https://images.pexels.com/photos/27742641/pexels-photo-27742641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
-      <title>Hob - Open-source, on device alternative to Claude Cowork and ChatGPT</title>
+      <title>Hob</title>
       <link>https://surfaced-x.pages.dev/item/hob-open-source-on-device-alternative-to-claude-cowork-and-chatgpt</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hob-open-source-on-device-alternative-to-claude-cowork-and-chatgpt</guid>
       <description>Hob is an open-source desktop application designed to provide an AI chat assistant experience that runs entirely on your device, without relying on cloud services like ChatGPT or Claude. It aims to offer privacy-focused, offline AI interactions, allowing users to chat with models directly on their local machine. This makes it suitable for individuals who are concerned about data privacy or who want to use AI capabilities without an internet connection.</description>
@@ -492,7 +481,7 @@
       <media:thumbnail url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
-      <title>I put employees inside S&amp;P 500 market-cap bubbles</title>
+      <title>Market Cap vs. Employees</title>
       <link>https://surfaced-x.pages.dev/item/bigwhalehunting-employees-in-sp500-bubbles</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bigwhalehunting-employees-in-sp500-bubbles</guid>
       <description>This interactive data visualization project, hosted on BigWhaleHunting.com, illustrates the size of major S&amp;P 500 companies by their market capitalization, represented as bubbles. Within each bubble, the number of employees for that company is visually depicted. The tool allows users to explore the relationship between a company&apos;s financial valuation and its workforce size, offering a unique perspective on corporate scale and employment.</description>
@@ -501,17 +490,6 @@
       <enclosure url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Civic Science Data Explorer</title>
-      <link>https://surfaced-x.pages.dev/item/civic-science-data-explorer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/civic-science-data-explorer</guid>
-      <description>The Civic Science Data Explorer is a free, publicly accessible platform that visualizes data from their ongoing consumer surveys. It allows users to explore trends in public opinion and behavior across a wide range of topics, from technology adoption to consumer preferences. The tool provides interactive charts and graphs, enabling users to filter and analyze data based on demographics and time periods. It is particularly useful for understanding nuanced public sentiment on various issues without needing to commission custom research.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7654493/pexels-photo-7654493.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7654493/pexels-photo-7654493.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7654493/pexels-photo-7654493.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>TitleArt – Make text like it&apos;s 1997</title>
@@ -556,6 +534,28 @@
       <enclosure url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Lexal Writer</title>
+      <link>https://surfaced-x.pages.dev/item/lexal-writer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lexal-writer</guid>
+      <description>Lexal Writer is a comprehensive platform engineered to elevate collaborative writing and provide advanced text analysis. It offers a robust suite of tools that extend beyond basic grammatical correction, incorporating features like sentiment analysis to gauge emotional tone, readability scoring for audience comprehension, and integrated collaborative version control for seamless team co-editing. The interface is designed for intuitive navigation, ensuring that users can easily access and utilize its sophisticated analytical capabilities. This platform is the product of a dedicated team focused on enhancing the efficiency and overall quality of collaborative writing endeavors.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17724746/pexels-photo-17724746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/17724746/pexels-photo-17724746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/17724746/pexels-photo-17724746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Amagine3D</title>
+      <link>https://surfaced-x.pages.dev/item/amagine3d</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/amagine3d</guid>
+      <description>Amagine3D is an innovative Python library designed to bridge the gap between hardware requirements and editable 3D designs. It allows users to define and manipulate 3D objects and scenes programmatically, making it easier to generate complex geometric shapes and structures. This tool is particularly useful for researchers and developers who need to create and iterate on 3D models without relying on traditional manual design software. Its open-source nature makes it freely accessible for various applications.</description>
+      <category>Daily Tools</category>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

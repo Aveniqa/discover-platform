@@ -42,6 +42,28 @@ export interface Product {
   type: "product";
 }
 
+/**
+ * Outside signals gathered by scripts/enrich-signals.js via Agent Reach.
+ * Every field is verifiable from its source and dated by `checkedAt`.
+ */
+export interface ItemSignals {
+  checkedAt: string;
+  github?: {
+    repo: string;
+    stars: number;
+    forks: number;
+    archived: boolean;
+    pushedAt?: string;
+    license?: string;
+  };
+  video?: {
+    id: string;
+    title: string;
+    channel: string;
+    durationSec?: number;
+  };
+}
+
 export interface HiddenGem {
   id: number;
   slug: string;
@@ -53,6 +75,7 @@ export interface HiddenGem {
   screenshotUrl?: string;
   /** 2-3 concrete "you would actually use this when…" scenarios (everyday framing) */
   everydayUse?: string;
+  signals?: ItemSignals;
   badge?: string;
   type: "hidden-gem";
 }
@@ -81,6 +104,7 @@ export interface DailyTool {
   screenshotUrl?: string;
   /** 2-3 concrete "you would actually use this when…" scenarios (everyday framing) */
   everydayUse?: string;
+  signals?: ItemSignals;
   badge?: string;
   type: "tool";
 }
