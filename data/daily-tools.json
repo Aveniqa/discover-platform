@@ -1,47 +1,5 @@
 [
   {
-    "id": 815,
-    "slug": "arc-browser-alternative",
-    "toolName": "Vivaldi Browser",
-    "seoTitle": "Vivaldi Browser — Customizable power user browser",
-    "whatItDoes": "Vivaldi is a highly customizable web browser built for power users, offering unparalleled control over your browsing experience. It goes far beyond basic tab management with features like tab stacking, tiling, and a command chain system for automating tasks. Vivaldi is free to use and runs on Chromium, ensuring compatibility with most websites and extensions. It's particularly adept at managing complex browsing sessions with numerous open tabs, allowing users to organize and switch between them efficiently and without performance degradation, a task many simpler browsers struggle with.",
-    "category": "Productivity",
-    "whyItIsUseful": "Vivaldi is for anyone who feels constrained by mainstream browsers. Its extensive customization options, from appearance to shortcuts and even mouse gestures, allow users to tailor the browser precisely to their workflow. The built-in tools like a note-taker, web panel for keeping sites open in a sidebar, and robust history explorer reduce the need for numerous plugins. For professionals who juggle many projects and research concurrently, Vivaldi's ability to tile tabs, stack them logically, and quickly navigate between them is a significant time-saver. It also offers advanced privacy features and syncs settings across devices. Enthusiasts often highlight how it evolves with their needs, providing a stable yet adaptable platform for deep web immersion.",
-    "imageIdea": "web browser user interface customization",
-    "websiteLink": "https://vivaldi.com/",
-    "type": "tool",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/arc-browser-alternative.webp",
-    "everydayUse": "You're trying to compare prices for that Sunday budget, with a dozen tabs open for different retailers. Planning that group trip requires keeping track of everyone's availability and flight options across several pages. You're about to hand off projects before annual leave and need to quickly organize all the relevant research tabs you've been saving.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "video": {
-        "id": "d1rUh12-onc",
-        "title": "The Vivaldi Browser - Powerful Personal and Private!",
-        "channel": "Productive Tech",
-        "durationSec": 1424
-      }
-    }
-  },
-  {
-    "id": 816,
-    "slug": "memoria-calendar-app",
-    "toolName": "Memoria",
-    "seoTitle": "Memoria — Digital journaling memory keeper.",
-    "whatItDoes": "Memoria is a private and secure digital journaling application designed to help users capture and reflect on their daily lives. It goes beyond simple text entries by allowing users to enrich their journal with photos, videos, location data, and even mood tracking. The app prioritizes user privacy with end-to-end encryption and local storage options, ensuring personal thoughts remain confidential. Memoria offers a one-time purchase for full functionality, with no subscriptions. It is particularly adept at creating rich, multimedia-filled journal entries that serve as a comprehensive personal archive.",
-    "category": "Productivity",
-    "whyItIsUseful": "In an era of constant digital distraction, Memoria offers a sanctuary for personal reflection and memory preservation. Its emphasis on privacy means users can be completely open with their entries, fostering genuine self-discovery and emotional processing. The ability to attach media to entries transforms static text into vivid recollections, making reviewing past moments a truly immersive experience. Memoria acts as a personal time capsule, allowing users to track personal growth, document life events, and revisit cherished memories with unparalleled detail. It's perfect for anyone seeking to cultivate mindfulness, improve self-awareness, or simply ensure their life's stories are beautifully and securely preserved.",
-    "imageIdea": "journaling app personal reflection",
-    "websiteLink": "https://memoria.app",
-    "type": "tool",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/memoria-calendar-app.webp",
-    "everydayUse": "You might use Memoria to jot down thoughts after a busy workday or to document a memorable weekend getaway. It's also helpful for recording observations about a new hobby or tracking your progress on a personal project.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 817,
     "slug": "typefully-writing-platform",
     "toolName": "Typefully",
@@ -9055,5 +9013,32 @@
         "pushedAt": "2026-10-28"
       }
     }
+  },
+  {
+    "id": 1261,
+    "slug": "deepinfer",
+    "toolName": "DeepInfer",
+    "seoTitle": "DeepInfer — High-performance inference framework",
+    "whatItDoes": "DeepInfer is a cutting-edge, high-performance inference framework specifically designed for large-scale deployment of DeepSeek models. It is built in Python and optimized to maximize throughput and minimize latency for complex deep learning workloads. The framework is open-source and free to use, offering advanced features for efficient model execution in production environments. It excels at handling batched inference requests with optimal resource utilization.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers working with large language models and deep learning, DeepInfer offers a significant advantage in performance and scalability. Its specialized architecture for DeepSeek models allows for faster predictions, which is critical for real-time applications and handling massive datasets. The framework's focus on efficiency means you can deploy more powerful models with less hardware, saving on operational costs. Its open-source nature fosters community contributions and ensures continuous improvement. Enthusiastic users highlight its ease of integration and the substantial performance gains observed in their inference pipelines, making it indispensable for data science teams pushing the boundaries of AI.",
+    "everydayUse": "You might reach for DeepInfer when deploying a new AI-powered feature for your application, needing to serve user requests with very low latency, or optimizing the inference speed of your large language model to handle increased traffic without adding more servers.",
+    "imageIdea": "deep learning model server rack",
+    "websiteLink": "https://github.com/deepseek-ai/DeepInfer",
+    "type": "tool",
+    "dateAdded": "2026-10-29"
+  },
+  {
+    "id": 1262,
+    "slug": "pancake-io",
+    "toolName": "Pancake",
+    "seoTitle": "Pancake — Vercel for GTM",
+    "whatItDoes": "Pancake positions itself as the 'Vercel for Go-To-Market' (GTM), providing developers and marketers with the essential building blocks to deploy any GTM strategy powered by AI agents like Claude or Codex. It offers a 'GTM Brain' for strategic decision-making, robust sending infrastructure, and integrations with over 40 data sources. Pancake is a freemium product, with core functionalities available to get started quickly. It streamlines the process of launching and managing AI-driven growth initiatives.",
+    "category": "Developer",
+    "whyItIsUseful": "Pancake drastically simplifies the complex process of launching and managing AI-driven go-to-market strategies. By abstracting away the technical intricacies of AI agent integration and infrastructure management, it allows teams to focus on strategy and execution. The ability to leverage powerful AI agents for tasks like customer segmentation, personalized outreach, or market analysis, coupled with reliable sending mechanisms, accelerates innovation and iteration. Integrations with a wide array of data sources ensure that GTM efforts are informed and targeted. It’s particularly useful for startups and product teams looking to rapidly test and scale new growth hypotheses with minimal engineering overhead.",
+    "everydayUse": "You could use Pancake to quickly set up an AI-powered outreach campaign for a new product launch, letting it identify potential customers and draft personalized messages, or to automate lead qualification and routing based on real-time market signals.",
+    "websiteLink": "https://www.producthunt.com/r/TK5WOCVR7ZG7IU",
+    "type": "tool",
+    "dateAdded": "2026-10-29"
   }
 ]

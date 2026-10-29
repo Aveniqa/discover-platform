@@ -5,8 +5,24 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pancake</title>
+      <link>https://surfaced-x.pages.dev/item/pancake-io</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/pancake-io</guid>
+      <description>Pancake positions itself as the &apos;Vercel for Go-To-Market&apos; (GTM), providing developers and marketers with the essential building blocks to deploy any GTM strategy powered by AI agents like Claude or Codex. It offers a &apos;GTM Brain&apos; for strategic decision-making, robust sending infrastructure, and integrations with over 40 data sources. Pancake is a freemium product, with core functionalities available to get started quickly. It streamlines the process of launching and managing AI-driven growth initiatives.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DeepInfer</title>
+      <link>https://surfaced-x.pages.dev/item/deepinfer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/deepinfer</guid>
+      <description>DeepInfer is a cutting-edge, high-performance inference framework specifically designed for large-scale deployment of DeepSeek models. It is built in Python and optimized to maximize throughput and minimize latency for complex deep learning workloads. The framework is open-source and free to use, offering advanced features for efficient model execution in production environments. It excels at handling batched inference requests with optimal resource utilization.</description>
+      <category>Daily Tools</category>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>gpu-unlock</title>
       <link>https://surfaced-x.pages.dev/item/gpu-unlock-performance-booster</link>
@@ -404,6 +420,14 @@
       <media:thumbnail url="https://images.pexels.com/photos/34085954/pexels-photo-34085954.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Impossible Machines</title>
+      <link>https://surfaced-x.pages.dev/item/impossible-machines-physical-world-programming</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/impossible-machines-physical-world-programming</guid>
+      <description>Impossible Machines is a novel web tool that allows you to declaratively program the physical world. It bridges the gap between software and hardware by enabling users to define desired physical states and behaviors using code. This platform is designed for creators, engineers, and hobbyists looking to build complex interactive systems, robots, or automated setups with unprecedented ease. For instance, you could use Impossible Machines to describe a robotic arm&apos;s movement sequence or define the environmental conditions for a smart greenhouse.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Anytype</title>
       <link>https://surfaced-x.pages.dev/item/anytype</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/anytype</guid>
@@ -413,6 +437,14 @@
       <enclosure url="https://images.pexels.com/photos/4226613/pexels-photo-4226613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/4226613/pexels-photo-4226613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/4226613/pexels-photo-4226613.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Corgi</title>
+      <link>https://surfaced-x.pages.dev/item/corgi-terminal-multiplexer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/corgi-terminal-multiplexer</guid>
+      <description>Corgi is a helpful terminal multiplexer that acts as an agent, enhancing your command-line workflow. It allows you to manage multiple terminal sessions, windows, and panes within a single interface, making it easier to switch between tasks and view information concurrently. Built by the community, Corgi aims to provide a more intuitive and powerful alternative to traditional multiplexers. For example, a developer could use Corgi to keep their code editor, compilation process, and server logs all visible and accessible in different panes.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Board Game Arena</title>
@@ -512,50 +544,6 @@
       <enclosure url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
       <media:content url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.unsplash.com/photo-1674049405545-beb0b3fbb11b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODkzMTA4ODN8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
-    </item>
-    <item>
-      <title>AnySubtitle</title>
-      <link>https://surfaced-x.pages.dev/item/anysubtitle</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/anysubtitle</guid>
-      <description>AnySubtitle is a sophisticated web application engineered to automate the subtitle generation process for video and audio content. Leveraging cutting-edge speech-to-text algorithms, it meticulously transcribes spoken words into accurate text, supporting a diverse array of languages and file formats.  The generated transcripts are readily exportable in industry-standard subtitle formats, such as SRT, facilitating seamless integration into various media players and editing software. This functionality is particularly beneficial for content creators aiming to enhance the accessibility and search engine optimization of their digital media assets.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8770513/pexels-photo-8770513.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8770513/pexels-photo-8770513.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8770513/pexels-photo-8770513.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>fastpotify</title>
-      <link>https://surfaced-x.pages.dev/item/fastpotify</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/fastpotify</guid>
-      <description>fastpotify is a natively compiled desktop application engineered to deliver a streamlined and responsive Spotify experience on Linux, macOS, and Windows. Developed using the Rust programming language, it prioritizes exceptional performance and minimal system resource utilization.  Key features include robust local file playback capabilities integrated with the familiar Spotify Connect functionality, allowing users to control playback across devices.  fastpotify positions itself as a performant alternative to the official Spotify client, which can sometimes be demanding on system resources.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/340103/pexels-photo-340103.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Lexal Writer</title>
-      <link>https://surfaced-x.pages.dev/item/lexal-writer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lexal-writer</guid>
-      <description>Lexal Writer is a comprehensive platform engineered to elevate collaborative writing and provide advanced text analysis. It offers a robust suite of tools that extend beyond basic grammatical correction, incorporating features like sentiment analysis to gauge emotional tone, readability scoring for audience comprehension, and integrated collaborative version control for seamless team co-editing. The interface is designed for intuitive navigation, ensuring that users can easily access and utilize its sophisticated analytical capabilities. This platform is the product of a dedicated team focused on enhancing the efficiency and overall quality of collaborative writing endeavors.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/17724746/pexels-photo-17724746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/17724746/pexels-photo-17724746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/17724746/pexels-photo-17724746.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Amagine3D</title>
-      <link>https://surfaced-x.pages.dev/item/amagine3d</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/amagine3d</guid>
-      <description>Amagine3D is an innovative Python library designed to bridge the gap between hardware requirements and editable 3D designs. It allows users to define and manipulate 3D objects and scenes programmatically, making it easier to generate complex geometric shapes and structures. This tool is particularly useful for researchers and developers who need to create and iterate on 3D models without relying on traditional manual design software. Its open-source nature makes it freely accessible for various applications.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/12664707/pexels-photo-12664707.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

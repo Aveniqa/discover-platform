@@ -45970,5 +45970,94 @@
     "dateAdded": "2026-09-13",
     "archivedAt": "2026-10-28",
     "archiveReason": "missing-source"
+  },
+  {
+    "id": 751,
+    "slug": "fontshare-font-collection",
+    "name": "Fontshare",
+    "seoTitle": "Fontshare — Free Fonts for Designers",
+    "whatItDoes": "Fontshare is a distinguished, free-to-use font service created by Indian Type Foundry (ITF), a renowned type foundry, offering a meticulously curated collection of professional-grade fonts. Its core feature is providing a diverse library of over 300 unique font families, including advanced variable fonts and multiple weights, all available for complimentary download and web embedding without any licensing fees for both commercial and personal projects. The platform is primarily designed for graphic designers, web developers, content creators, and small businesses seeking high-quality, distinctive typography without the typical financial constraints of premium font licenses. Users can seamlessly integrate Fontshare into their creative workflow by browsing and previewing fonts on the website, then downloading desktop files (OTF/TTF) or generating web embed codes for direct use. The fonts are universally compatible with major design software like Adobe Creative Suite, Figma, and Sketch, as well as all modern web platforms.",
+    "category": "Design",
+    "whyItIsUseful": "While Google Fonts offers a broad selection, Fontshare distinguishes itself by providing a more curated, professional, and often unique collection of typefaces, many of which are not available for free elsewhere, allowing designs to truly stand out. For a freelance graphic designer, Fontshare is a game-changer: they can explore hundreds of modern, high-quality typefaces to craft a unique brand identity for a client, from a striking sans-serif logo to elegant body text, all without incurring any licensing costs that would typically eat into their project budget. A web developer can leverage Fontshare's extensive support for variable fonts, which allows for granular control over weight, width, and other parameters within a single font file, leading to significantly optimized page load times and enhanced aesthetic consistency across responsive designs. All fonts on Fontshare are completely free for both personal and commercial use, making it an entirely accessible resource. A powerful feature often overlooked is the depth of its variable font collection, providing unparalleled typographic flexibility and allowing designers to fine-tune font characteristics in ways static fonts cannot. Despite its exceptional quality and zero cost, Fontshare is still gaining traction compared to the more established Google Fonts, partly due to its newer presence and its association with a specific foundry, though its offerings are globally relevant. Fontshare consistently updates its library with new and innovative font families from ITF and other partners, maintaining an active presence in the design community.",
+    "imageIdea": "collection of diverse font samples",
+    "websiteLink": "https://www.fontshare.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-03",
+    "screenshotUrl": "/screenshots/fontshare-font-collection.webp",
+    "everydayUse": "You need to make a flyer for a local bake sale to help a friend, or perhaps you're updating your resume for a new job application and want it to look more professional. When designing a personal project like a digital scrapbook or a custom birthday invitation, you might reach for Fontshare.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "video": {
+        "id": "MfY7lhcHCrA",
+        "title": "How to Get Free Custom Fonts on Fontshare Website",
+        "channel": "Tongbos_EN",
+        "durationSec": 94
+      }
+    },
+    "badge": "editors-pick",
+    "archivedAt": "2026-10-29"
+  },
+  {
+    "id": 752,
+    "slug": "red-squares",
+    "name": "Red Squares",
+    "seoTitle": "Red Squares — GitHub outages as contributions",
+    "whatItDoes": "Red Squares visualizes GitHub outages as contributions, offering a unique and thought-provoking perspective on platform reliability. It aggregates data on GitHub's downtime and translates it into a graphical representation, allowing users to see periods of unreliability as if they were active code contributions. This tool is built by Cian.lol and provides a novel way to understand and discuss the impact of service disruptions on developers and projects that rely on GitHub's infrastructure. It's particularly useful for developers, project managers, and anyone interested in the operational health of major software development platforms.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is a genuinely novel way to look at a common frustration for developers: platform downtime. Instead of just reporting outages, Red Squares reframes them as 'contributions,' which is a powerful conceptual shift. It prompts deeper thinking about what constitutes value and reliability in the software development ecosystem. Power users will appreciate the stark visualization that bypasses traditional uptime metrics and directly illustrates the 'lost time' or 'unavailable time' for the platform. It's an excellent conversation starter for teams discussing dependencies or for anyone building tools on top of cloud services. This is ideal for engineers, SREs, and tech enthusiasts who appreciate creative data visualization and a critical look at service reliability.",
+    "imageIdea": "red square grid",
+    "websiteLink": "https://red-squares.cian.lol/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/red-squares.webp",
+    "everydayUse": "You might check Red Squares before a project deadline to see if recent GitHub issues could explain unexpected delays. It's also useful for gauging platform stability when planning a critical deployment.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-10-29"
+  },
+  {
+    "id": 815,
+    "slug": "arc-browser-alternative",
+    "toolName": "Vivaldi Browser",
+    "seoTitle": "Vivaldi Browser — Customizable power user browser",
+    "whatItDoes": "Vivaldi is a highly customizable web browser built for power users, offering unparalleled control over your browsing experience. It goes far beyond basic tab management with features like tab stacking, tiling, and a command chain system for automating tasks. Vivaldi is free to use and runs on Chromium, ensuring compatibility with most websites and extensions. It's particularly adept at managing complex browsing sessions with numerous open tabs, allowing users to organize and switch between them efficiently and without performance degradation, a task many simpler browsers struggle with.",
+    "category": "Productivity",
+    "whyItIsUseful": "Vivaldi is for anyone who feels constrained by mainstream browsers. Its extensive customization options, from appearance to shortcuts and even mouse gestures, allow users to tailor the browser precisely to their workflow. The built-in tools like a note-taker, web panel for keeping sites open in a sidebar, and robust history explorer reduce the need for numerous plugins. For professionals who juggle many projects and research concurrently, Vivaldi's ability to tile tabs, stack them logically, and quickly navigate between them is a significant time-saver. It also offers advanced privacy features and syncs settings across devices. Enthusiasts often highlight how it evolves with their needs, providing a stable yet adaptable platform for deep web immersion.",
+    "imageIdea": "web browser user interface customization",
+    "websiteLink": "https://vivaldi.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/arc-browser-alternative.webp",
+    "everydayUse": "You're trying to compare prices for that Sunday budget, with a dozen tabs open for different retailers. Planning that group trip requires keeping track of everyone's availability and flight options across several pages. You're about to hand off projects before annual leave and need to quickly organize all the relevant research tabs you've been saving.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "video": {
+        "id": "d1rUh12-onc",
+        "title": "The Vivaldi Browser - Powerful Personal and Private!",
+        "channel": "Productive Tech",
+        "durationSec": 1424
+      }
+    },
+    "archivedAt": "2026-10-29"
+  },
+  {
+    "id": 816,
+    "slug": "memoria-calendar-app",
+    "toolName": "Memoria",
+    "seoTitle": "Memoria — Digital journaling memory keeper.",
+    "whatItDoes": "Memoria is a private and secure digital journaling application designed to help users capture and reflect on their daily lives. It goes beyond simple text entries by allowing users to enrich their journal with photos, videos, location data, and even mood tracking. The app prioritizes user privacy with end-to-end encryption and local storage options, ensuring personal thoughts remain confidential. Memoria offers a one-time purchase for full functionality, with no subscriptions. It is particularly adept at creating rich, multimedia-filled journal entries that serve as a comprehensive personal archive.",
+    "category": "Productivity",
+    "whyItIsUseful": "In an era of constant digital distraction, Memoria offers a sanctuary for personal reflection and memory preservation. Its emphasis on privacy means users can be completely open with their entries, fostering genuine self-discovery and emotional processing. The ability to attach media to entries transforms static text into vivid recollections, making reviewing past moments a truly immersive experience. Memoria acts as a personal time capsule, allowing users to track personal growth, document life events, and revisit cherished memories with unparalleled detail. It's perfect for anyone seeking to cultivate mindfulness, improve self-awareness, or simply ensure their life's stories are beautifully and securely preserved.",
+    "imageIdea": "journaling app personal reflection",
+    "websiteLink": "https://memoria.app",
+    "type": "tool",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/memoria-calendar-app.webp",
+    "everydayUse": "You might use Memoria to jot down thoughts after a busy workday or to document a memorable weekend getaway. It's also helpful for recording observations about a new hobby or tracking your progress on a personal project.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-10-29"
   }
 ]

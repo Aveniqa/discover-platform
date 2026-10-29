@@ -1,19 +1,19 @@
 [
   {
-    "slug": "dsmurrell-onkey-app-show-where-im-off-key",
-    "title": "OnKey",
+    "slug": "impossible-machines-physical-world-programming",
+    "title": "Impossible Machines",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "OnKey is a desktop application designed to help amateur singers improve their pitch accuracy. Developed by someone who a",
+    "description": "Impossible Machines is a novel web tool that allows you to declaratively program the physical world. It bridges the gap ",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "gpu-unlock-performance-booster",
-    "title": "gpu-unlock",
+    "slug": "pancake-io",
+    "title": "Pancake",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "gpu-unlock is a C-based utility designed to significantly boost the AI performance of select NVIDIA GeForce graphics car",
+    "description": "Pancake positions itself as the 'Vercel for Go-To-Market' (GTM), providing developers and marketers with the essential b",
     "badge": null,
     "type": "tool"
   }
