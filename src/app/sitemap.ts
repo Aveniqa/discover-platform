@@ -13,7 +13,9 @@ export const dynamic = "force-static";
  * Google from seeing every URL refreshed on every push.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const items = getAllItems();
+  // Archived duplicates canonicalise to the page they repeat; listing them
+  // would advertise URLs we've told Google not to index separately.
+  const items = getAllItems().filter((item) => !(item as { duplicateOf?: string }).duplicateOf);
   const buildDate = new Date(getBuildDate());
 
   const itemPages: MetadataRoute.Sitemap = items.map((item) => {

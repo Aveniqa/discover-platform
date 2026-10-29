@@ -154,11 +154,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Falls back to `title` when missing. Visible H1 still uses the full title.
   const seoTitle = (item as { seoTitle?: string }).seoTitle;
 
+  // An archived duplicate (archiveReason "duplicate") points search engines
+  // at the live page it repeats; the URL itself keeps working.
+  const duplicateOf = (item as { duplicateOf?: string }).duplicateOf;
+
   const meta = buildMetadata({
     title,
     seoTitle,
     description: desc,
-    path: `/item/${slug}`,
+    path: `/item/${duplicateOf || slug}`,
     image: ogImage,
     ogType: "article",
     publishedTime: dateAdded,

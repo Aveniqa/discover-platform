@@ -400,7 +400,9 @@ Requirements:
   }
 }
 
-async function generateItems(category, existingItems, count, seeds = []) {
+// alsoPublished: other live verticals — checked for duplicate names/URLs only,
+// never used for ids, slugs or the prompt's recent-titles list.
+async function generateItems(category, existingItems, count, seeds = [], alsoPublished = []) {
   const existingSlugs = getExistingSlugs(existingItems);
   // Send only the 150 most-recent existing titles to Gemini. Older items in
   // archive/data are still enforced via the JS-side duplicate-name check below;
@@ -418,11 +420,11 @@ async function generateItems(category, existingItems, count, seeds = []) {
 
   // De-dupe seeds against items we already have (by URL host+path or name)
   const existingUrls = new Set(
-    existingItems
+    [...existingItems, ...alsoPublished]
       .map((i) => (i.websiteLink || i.sourceLink || "").replace(/\/$/, "").toLowerCase())
       .filter(Boolean)
   );
-  const existingNamesComparable = existingItems
+  const existingNamesComparable = [...existingItems, ...alsoPublished]
     .map((i) => comparableName(i.title || i.name || i.toolName || i.techName || ""))
     .filter(Boolean);
   const filteredSeeds = seeds.filter((s) => {
@@ -583,7 +585,7 @@ Return ONLY the JSON array, no markdown fencing, no explanation.`;
   });
 
   // Assign IDs and reject true duplicates (same name as existing item)
-  const existingNames = existingItems
+  const existingNames = [...existingItems, ...alsoPublished]
     .map((i) => comparableName(i.title || i.name || i.toolName || i.techName || ""))
     .filter(Boolean);
   let nextId = getNextId(existingItems);
@@ -690,6 +692,12 @@ async function main() {
     for (const [category, filename] of Object.entries(FILES)) {
       console.log(`[${category}] Generating ${TARGET_PER_CATEGORY} new items...`);
       const existing = readJSON(filename);
+      // Dedupe across verticals too: "HTMX" went live as a daily tool on
+      // 2026-10-29 while already published as a hidden gem. Each vertical is
+      // written before the next starts, so this includes today's picks.
+      const otherVerticals = Object.entries(FILES)
+        .filter(([other]) => other !== category)
+        .flatMap(([, otherFile]) => readJSON(otherFile));
       const seeds = await getSeedsForCategory(category);
       if (seeds.length) {
         console.log(`[${category}] Seeded with ${seeds.length} real trending items (${[...new Set(seeds.map((s) => s.source))].join(", ")})`);
@@ -702,7 +710,7 @@ async function main() {
           console.warn(`[${category}] Falling back to unseeded generation for remaining item(s).`);
         }
         const requestCount = seedsForAttempt.length ? needed : TARGET_PER_CATEGORY;
-        const batch = await generateItems(category, [...existing, ...newItems], requestCount, seedsForAttempt);
+        const batch = await generateItems(category, [...existing, ...newItems], requestCount, seedsForAttempt, otherVerticals);
         newItems.push(...batch.slice(0, needed));
         if (newItems.length < TARGET_PER_CATEGORY) {
           console.warn(`[${category}] ${newItems.length}/${TARGET_PER_CATEGORY} valid items after attempt ${attempt}; retrying for ${TARGET_PER_CATEGORY - newItems.length} item(s).`);
