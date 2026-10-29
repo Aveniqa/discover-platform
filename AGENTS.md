@@ -20,8 +20,8 @@ Next.js App Router (Turbopack) · static export to `out/` (~3,100 pages) · Clou
 ## Data files (`data/`)
 | File | Type key | Status |
 |------|----------|--------|
-| `hidden-gems.json` | `hidden-gem` | **live** (~465 items) |
-| `daily-tools.json` | `tool` | **live** (~450 items) |
+| `hidden-gems.json` | `hidden-gem` | **live** (~400 items — 57 off-niche/linkless items archived 2026-10-28) |
+| `daily-tools.json` | `tool` | **live** (~430 items) |
 | `discoveries.json` | `discovery` | archived — empty `[]`, do not add |
 | `products.json` | `product` | archived — empty `[]`, do not add |
 | `future-radar.json` | `future-tech` | archived — empty `[]`, do not add |
@@ -33,7 +33,7 @@ Next.js App Router (Turbopack) · static export to `out/` (~3,100 pages) · Clou
 ## JSON schemas (exact field names)
 **hidden-gems** `id` `slug` `name` `whatItDoes` `category` `whyItIsUseful` `imageIdea` `websiteLink` `type:"hidden-gem"`
 **daily-tools** `id` `slug` `toolName` `whatItDoes` `category` `whyItIsUseful` `imageIdea` `websiteLink` `type:"tool"`
-Optional on live items: `everydayUse` (2-3 concrete "you'd reach for this when…" moments, rendered as the *In everyday life* panel; produced by the daily generator for new items, backfilled by `scripts/backfill-everyday-use.mjs`), `screenshotUrl` (`/screenshots/<slug>.webp`, synced by capture script), `seoTitle` (≤65 chars), `badge`, `dateAdded` (YYYY-MM-DD), `editorial`, `takeaway`.
+Optional on live items: `everydayUse` (2-3 concrete "you'd reach for this when…" moments, rendered as the *In everyday life* panel; produced by the daily generator for new items, backfilled by `scripts/backfill-everyday-use.mjs`), `signals` (`{checkedAt, github?: {repo, stars, forks, archived, pushedAt?, license?}, video?: {id, title, channel, durationSec?}}` — written only by `scripts/enrich-signals.js`; renders as *Project signals* and *See it in action*), `screenshotUrl` (`/screenshots/<slug>.webp`, synced by capture script), `seoTitle` (≤65 chars), `badge`, `dateAdded` (YYYY-MM-DD), `editorial`, `takeaway`.
 **archive.json** items keep their original fields + `archivedAt` (YYYY-MM-DD).
 Legacy schemas (discovery/product/future-tech) survive in `archive.json` — see `src/lib/data.ts` for authoritative types.
 
@@ -48,14 +48,22 @@ Legacy schemas (discovery/product/future-tech) survive in `archive.json` — see
 
 ## Daily pipeline (order matters; each step is a script in `scripts/`)
 1. `daily-rotate.js --run` — archive the oldest `DAILY_ROTATE_COUNT` per live vertical (default 5; scheduled runs set 2; never deletes)
-2. `generate-daily-content.js` — Gemini (flash-lite) generates `DAILY_TARGET_PER_CATEGORY`/vertical (default 5; scheduled runs set 2 with floor 1 and 3 attempts — the workflow's "Set automation budget" step owns these). Saturation-tuned defaults: floor `MIN_PER_CATEGORY=2` (lean days beat failed editions), 7 attempts, 150-title dedup window, rotating day-of-year sub-niche focus, API retries ×5 for 503 spikes
+2. `generate-daily-content.js` — Gemini (flash-lite) generates `DAILY_TARGET_PER_CATEGORY`/vertical (default 5; scheduled runs set 2 with floor 1 and 3 attempts — the workflow's "Set automation budget" step owns these). Saturation-tuned defaults: floor `MIN_PER_CATEGORY=2` (lean days beat failed editions), 7 attempts, 150-title dedup window, rotating day-of-year sub-niche focus, API retries ×5 for 503 spikes. Seeds (Show HN only for gems; GitHub + Product Hunt for tools) are **grounded**: each seed's own page is read via Agent Reach and passed to Gemini as `Page title`/`Page excerpt`. Candidates with a headline-style name or a news/social link are dropped (`scripts/lib/item-guards.js`), and "Brand – tagline" names are cut to the brand
 3. `normalize-affiliate-links.js`, `fetch-product-asins.js` — no-op on empty products, keep
 4. `validate-data.js` → `audit-adsense-content.mjs --strict` — hard gates
-5. `validate-urls.js --recent` (non-fatal) → `assign-badges.js` → `generate-todays-picks.js` → `populate-collections.js`
+5. `validate-urls.js --recent` (non-fatal) → `assign-badges.js` → `generate-todays-picks.js` → `populate-collections.js` → `enrich-signals.js --refresh 20` (non-fatal; GitHub stats + matched YouTube walkthrough for new items, re-checks 20 stalest >30 days)
 6. `capture-screenshots.mjs` — Playwright screenshots for new items only (bot-wall detection built in; failures fall back to photos)
 7. `fetch-images.ts` — Pexels→Unsplash→Pixabay cache
 8. `npm run build` (must pass, 0 errors) → IndexNow ping → `send-newsletter.mjs` (Buttondown) → commit/push with 3× rebase-retry
 Failures roll data back, open a GitHub issue, and optionally ping `SLACK_WEBHOOK_URL`.
+
+## Agent Reach (added 2026-10-28)
+[Agent Reach](https://github.com/Panniantong/Agent-Reach) is a CLI that reads the web for agents. Surfaced uses three channels through `scripts/lib/agent-reach.js`: **web read** (seed grounding), **github read** (repo stats), **youtube search** (walkthroughs).
+- **Install from the GitHub release only** — the PyPI package named `agent-reach` is a different project. CI pins `releases/download/v1.6.0/agent-reach.zip` via `uv tool install`; bump the pin deliberately.
+- **Everything is best-effort.** Each helper returns `null`/`[]` when the CLI is missing, a channel is down or a call times out, and the edition carries on as before. Never make a gate depend on it.
+- **Precision over recall for videos.** A match must name the item in its title *and* mention the brand as one word or the domain (`mentionsBrand` in `enrich-signals.js`); one-word names also need a software cue, and the video must share topic words with the item's own description (two for one-word names) — that check is what separated "Swiftlet" the LLM runtime from swiftlet bird farming. Roundups ("GitHub Trending Weekly #46: a, b, c…") are skipped. Coverage on 2026-10-28: video on 58/399 gems and 123/430 tools; GitHub stats on 129 items. Do not loosen this — a wrong video on a product page is worse than none.
+- Reddit was broken upstream on 2026-10-28 (its backend paused with `UPSTREAM_BROKEN`), and YouTube may refuse GitHub's datacenter IPs. Both fail soft.
+- Local gotcha: Agent Reach refuses a config dir reached through a symlink, so `HOME=$(mktemp -d)` fails on macOS (`/var` → `/private/var`). Use a real path.
 
 ## GitHub secrets
 Required: `GEMINI_API_KEY`, `PEXELS_API_KEY`, `BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD`, `PINTEREST_ACCESS_TOKEN`/`PINTEREST_BOARD_ID` (+ `PINTEREST_APP_SECRET`/`PINTEREST_REFRESH_TOKEN` for token refresh), `X_API_KEY`/`X_API_SECRET`/`X_ACCESS_TOKEN`/`X_ACCESS_SECRET`, `AMAZON_AFFILIATE_TAG`.
@@ -96,3 +104,4 @@ Installed Next may be newer than your training data. Read `node_modules/next/dis
 - Do NOT push if the build fails.
 - `archive.json` entries are permanent — they keep `/item/<slug>` alive for search engines.
 - New live items must have a working `https://` `websiteLink`; sourceless live items get archived by `archive-missing-sources.mjs`.
+- A gem or tool is something a reader can open and use. News stories, essays, op-eds, GitHub issues and social posts are off-niche even when Show HN surfaces them — archive with `archiveReason: "off-niche"`, never delete.

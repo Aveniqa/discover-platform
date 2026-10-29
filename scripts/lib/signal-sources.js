@@ -275,6 +275,9 @@ function formatSeeds(seeds) {
       if (s.description && s.description !== s.tagline) parts.push(`   Desc: ${s.description.slice(0, 200)}`);
       if (s.language) parts.push(`   Language: ${s.language}`);
       if (s.topics?.length) parts.push(`   Topics: ${s.topics.join(", ")}`);
+      // Added by groundSeeds() in generate-daily-content.js via Agent Reach.
+      if (s.pageTitle) parts.push(`   Page title: ${s.pageTitle}`);
+      if (s.pageExcerpt) parts.push(`   Page excerpt: ${s.pageExcerpt}`);
       parts.push(`   URL: ${s.url}`);
       if (s.score) parts.push(`   Signal: ${s.score} ${s.source === "github" ? "stars" : "points/votes"} on ${s.source}`);
       return parts.join("\n");
@@ -289,8 +292,10 @@ function formatSeeds(seeds) {
 async function getSeedsForCategory(category) {
   switch (category) {
     case "hidden-gems": {
-      const [show, hn] = await Promise.all([fetchShowHN({ limit: 6 }), fetchHackerNews({ limit: 4, minScore: 200 })]);
-      return [...show, ...hn].slice(0, 8);
+      // Show HN only. Front-page stories are mostly news and essays, and they
+      // were seeding off-niche "gems" (breach reports, op-eds, regulator
+      // letters) until 2026-10-28 — a gem is something a reader can open and use.
+      return fetchShowHN({ limit: 10 });
     }
     case "daily-tools": {
       // Widen the GitHub seed pool: more candidates (10 vs 6) over a longer
