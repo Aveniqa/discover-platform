@@ -5,8 +5,24 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian</title>
+      <link>https://surfaced-x.pages.dev/item/obsidian-markdown-notes</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/obsidian-markdown-notes</guid>
+      <description>Obsidian is a powerful, local-first knowledge base and note-taking app that uses Markdown files. It excels at creating interconnected notes through bi-directional linking, allowing you to build a personal wiki or a second brain. The core app is free for personal use, with paid options for commercial use and advanced sync/publish features. It&apos;s particularly adept at surfacing relationships between disparate ideas, a feat few other Markdown editors manage with such elegance.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>nxnative</title>
+      <link>https://surfaced-x.pages.dev/item/nxnative</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/nxnative</guid>
+      <description>nxnative enables you to run Nintendo Switch games natively on your iPhone, iPad, and Mac. By converting your game&apos;s NSP files and prod.keys into an IPA, it allows the game&apos;s original code to execute directly on Apple silicon. This isn&apos;t an emulator; it rebuilds Switch graphics using Metal, offering a direct experience. The project is free and open-source, with community Mac apps available to simplify the conversion process without needing command-line knowledge.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Sigil</title>
       <link>https://surfaced-x.pages.dev/item/sigil</link>
@@ -384,6 +400,14 @@
       <media:thumbnail url="https://images.pexels.com/photos/31128802/pexels-photo-31128802.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Encarta 95 Web</title>
+      <link>https://surfaced-x.pages.dev/item/encarta-95-web</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/encarta-95-web</guid>
+      <description>Encarta 95 Web is a fascinating recreation of Microsoft&apos;s iconic Encarta &apos;95 encyclopedia, brought to life in a web browser by benwinding. It allows you to navigate through the articles, images, and interface as it was experienced nearly three decades ago. This project is a nostalgic trip for those who grew up with digital encyclopedias and a historical glimpse for younger users into how information was accessed before the dominance of search engines. It’s a pure piece of digital history preserved for interactive exploration.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Songnotes</title>
       <link>https://surfaced-x.pages.dev/item/songnotes-app</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/songnotes-app</guid>
@@ -393,6 +417,14 @@
       <enclosure url="https://images.pexels.com/photos/7285163/pexels-photo-7285163.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7285163/pexels-photo-7285163.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7285163/pexels-photo-7285163.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>SlideBySide</title>
+      <link>https://surfaced-x.pages.dev/item/slidebyside-present-together-live</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/slidebyside-present-together-live</guid>
+      <description>SlideBySide allows you to present slides without the need to share your entire screen. You can upload PDFs, PowerPoints, or connect to Google Drive/OneDrive to share your presentation. It provides a unique link for your audience to follow along, displaying the same slide simultaneously. Live cursors and drawing tools are also included, enabling interactive presentations. This tool was built by a team focused on making presentations more streamlined and accessible, especially for remote work environments.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>cohost</title>
@@ -491,50 +523,6 @@
       <enclosure url="https://images.pexels.com/photos/2881227/pexels-photo-2881227.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/2881227/pexels-photo-2881227.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/2881227/pexels-photo-2881227.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>spotifast</title>
-      <link>https://surfaced-x.pages.dev/item/spotifast</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/spotifast</guid>
-      <description>Spotifast is a lightweight, native desktop client for Spotify built with Rust, designed to offer a faster and more responsive experience than the official web wrapper. It provides full access to your Spotify library, enables local playback of downloaded music, and supports Spotify Connect for seamless audio streaming across devices.  The tool is completely free and open-source, making it an excellent alternative for users seeking a more streamlined Spotify interaction on Linux, macOS, and Windows.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/27742641/pexels-photo-27742641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/27742641/pexels-photo-27742641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/27742641/pexels-photo-27742641.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Hob</title>
-      <link>https://surfaced-x.pages.dev/item/hob-open-source-on-device-alternative-to-claude-cowork-and-chatgpt</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hob-open-source-on-device-alternative-to-claude-cowork-and-chatgpt</guid>
-      <description>Hob is an open-source desktop application designed to provide an AI chat assistant experience that runs entirely on your device, without relying on cloud services like ChatGPT or Claude. It aims to offer privacy-focused, offline AI interactions, allowing users to chat with models directly on their local machine. This makes it suitable for individuals who are concerned about data privacy or who want to use AI capabilities without an internet connection.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/15940000/pexels-photo-15940000.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>GraphPad Prism</title>
-      <link>https://surfaced-x.pages.dev/item/graphpad-prism</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/graphpad-prism</guid>
-      <description>GraphPad Prism is statistical software designed for scientists and researchers, integrating data analysis, curve fitting, and scientific graphing into a single, intuitive interface. It&apos;s particularly renowned for its ease of use, enabling complex statistical tests and elegant graph creation without requiring extensive programming knowledge. Prism operates on a paid license model. It stands out for its ability to seamlessly translate complex experimental data into clear, publication-ready figures.</description>
-      <category>Daily Tools</category>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/8279723/pexels-photo-8279723.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Market Cap vs. Employees</title>
-      <link>https://surfaced-x.pages.dev/item/bigwhalehunting-employees-in-sp500-bubbles</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/bigwhalehunting-employees-in-sp500-bubbles</guid>
-      <description>This interactive data visualization project, hosted on BigWhaleHunting.com, illustrates the size of major S&amp;P 500 companies by their market capitalization, represented as bubbles. Within each bubble, the number of employees for that company is visually depicted. The tool allows users to explore the relationship between a company&apos;s financial valuation and its workforce size, offering a unique perspective on corporate scale and employment.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/33345044/pexels-photo-33345044.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

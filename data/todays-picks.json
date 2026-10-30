@@ -1,19 +1,19 @@
 [
   {
-    "slug": "r2d2-tv-smart-tv-mod",
-    "title": "r2d2-tv",
+    "slug": "encarta-95-web",
+    "title": "Encarta 95 Web",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "R2D2 TV is an open-source project that aims to make smart TVs more private and functional by giving users a local home s",
+    "description": "Encarta 95 Web is a fascinating recreation of Microsoft's iconic Encarta '95 encyclopedia, brought to life in a web brow",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "sigil",
-    "title": "Sigil",
+    "slug": "obsidian-markdown-notes",
+    "title": "Obsidian",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Sigil is a free and open-source ebook editor that allows you to create and edit EPUB files directly, without the need fo",
+    "description": "Obsidian is a powerful, local-first knowledge base and note-taking app that uses Markdown files. It excels at creating i",
     "badge": null,
     "type": "tool"
   }

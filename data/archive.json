@@ -47004,5 +47004,89 @@
     "archivedAt": "2026-10-29",
     "archiveReason": "duplicate",
     "duplicateOf": "htmx"
+  },
+  {
+    "id": 755,
+    "slug": "hnup-sota",
+    "name": "HN UP",
+    "seoTitle": "HN UP — Coding models state of the art",
+    "whatItDoes": "HN UP (Hacker News Up) is a tool that analyzes Hacker News comments to identify and present the 'state of the art' in coding models. It aggregates discussions and sentiments from the Hacker News community to provide insights into which AI models for code generation, completion, and understanding are currently considered most effective or promising by experienced developers. This resource is invaluable for anyone looking to stay updated on the rapidly evolving landscape of AI in software development, offering a community-driven perspective on cutting-edge tools.",
+    "category": "Developer",
+    "whyItIsUseful": "In the fast-paced world of AI, staying informed about the best tools can be a challenge. HN UP cuts through the noise by leveraging the collective intelligence of the Hacker News community, a group known for its technical expertise and critical evaluation of new technologies. It's more than just a list; it reflects real-world developer opinions and practical experiences with coding models. This is particularly useful for developers, researchers, and product managers who need to make informed decisions about which AI tools to integrate into their workflows or products. It provides a grounded, peer-validated perspective on what's truly effective.",
+    "imageIdea": "laptop code screen",
+    "websiteLink": "https://hnup.date/hn-sota",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/hnup-sota.webp",
+    "everydayUse": "When you're deciding which AI coding assistant to recommend to your team, or researching the latest buzzworthy models for a personal project. You might also use it to settle a friendly debate about the best tools for code generation among colleagues.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-10-30"
+  },
+  {
+    "id": 756,
+    "slug": "cloudflare-agents",
+    "name": "Cloudflare Agents",
+    "seoTitle": "Cloudflare Agents — Deploy agents to Cloudflare",
+    "whatItDoes": "This Cloudflare blog post details the exciting advancement where agents can now autonomously create Cloudflare accounts, purchase domains, and deploy services. This signifies a significant leap in automation capabilities, allowing AI agents to perform complex infrastructure management tasks. By leveraging tools like Stripe for payments and deploying applications on Cloudflare's platform, these agents can essentially build and manage web presences from scratch. This technology is geared towards developers, DevOps engineers, and anyone interested in the future of AI-driven infrastructure and autonomous systems.",
+    "category": "Developer",
+    "whyItIsUseful": "The ability for agents to handle account creation, domain acquisition, and deployment represents a fundamental shift in how infrastructure can be managed. It moves beyond simple scripting to true autonomous operational capabilities. For developers and DevOps teams, this means the potential for highly automated workflows, faster deployment cycles, and the ability to offload complex, repetitive tasks to intelligent agents. It’s a glimpse into a future where managing cloud infrastructure becomes significantly more accessible and efficient. Those who are early adopters of automation and interested in the practical applications of AI in real-world infrastructure management will find this groundbreaking.",
+    "imageIdea": "server rack robot",
+    "websiteLink": "https://blog.cloudflare.com/agents-stripe-projects/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-06",
+    "screenshotUrl": "/screenshots/cloudflare-agents.webp",
+    "everydayUse": "You need to quickly set up a staging environment for a side project before your vacation. Or perhaps you're testing a new domain for a hobby blog and want to see how it performs without manual setup.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-10-30"
+  },
+  {
+    "id": 819,
+    "slug": "bevy-game-engine-rust",
+    "toolName": "Bevy",
+    "seoTitle": "Bevy — Open-Source Data-Driven Game Engine",
+    "whatItDoes": "Bevy is a free, open-source, data-driven game engine built in Rust, designed for rapid development and performance. It leverages the power of the Rust programming language for safety and speed, while its architecture is inspired by data-oriented design principles. Bevy focuses on providing a modular and extensible framework, making it approachable for beginners while offering the depth needed for complex projects. It's an excellent choice for indie game developers, hobbyists, and anyone interested in exploring modern game development paradigms without the cost of proprietary engines. Bevy is particularly adept at creating efficient and scalable game logic through its robust entity-component-system (ECS) architecture.",
+    "category": "Developer",
+    "whyItIsUseful": "Bevy offers a compelling alternative in the game development landscape, prioritizing developer experience and modern architectural patterns. Its foundation in Rust ensures memory safety and high performance, critical for demanding game applications. The data-driven ECS architecture promotes a clean separation of concerns, leading to more maintainable and scalable codebases. For developers frustrated with the complexity or licensing of other engines, Bevy provides a refreshing, community-driven, and transparent path to creating games. The engine's rapid iteration cycle and growing community support mean it's constantly improving, making it an exciting choice for those looking to build innovative 2D and 3D experiences. Its focus on emergent behavior and component-based design makes it particularly powerful for prototyping and complex simulations.",
+    "imageIdea": "video game development code engine interface",
+    "websiteLink": "https://bevyengine.org/",
+    "type": "tool",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/bevy-game-engine-rust.webp",
+    "everydayUse": "When you need to quickly prototype a fun little game idea you had during your commute, or when you're looking to build a personal project that feels both fast and safe.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-10-30"
+  },
+  {
+    "id": 820,
+    "slug": "deepseek-4-flash",
+    "toolName": "ds4",
+    "seoTitle": "ds4 — Local AI Inference Engine",
+    "whatItDoes": "ds4 (DeepSeek 4 Flash) is a highly optimized local inference engine designed specifically for Apple Silicon Macs with Metal GPU support. It allows users to run large language models (LLMs) directly on their own hardware, bypassing cloud dependencies and offering enhanced privacy and speed. This open-source tool is written in C, prioritizing efficiency and performance. Its primary value lies in its ability to leverage the unique architecture of Apple Silicon for rapid LLM execution, making advanced AI capabilities accessible without dedicated servers or expensive cloud subscriptions. The tool is freely available on GitHub.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers and AI enthusiasts working with Apple Silicon Macs, ds4 offers a powerful way to experiment with and deploy LLMs locally. Its deep integration with the Metal graphics API ensures that users can harness the full computational power of their Mac's GPU for inference, leading to significantly faster response times compared to CPU-based processing or less optimized GPU implementations. This is particularly beneficial for tasks like code generation, text summarization, and creative writing directly on a personal machine, providing a tangible performance boost and cost savings by eliminating cloud inference fees. The open-source nature fosters community collaboration and allows for deep customization, making it an invaluable asset for those pushing the boundaries of on-device AI. Its efficiency means more complex models can be run locally, democratizing access to cutting-edge AI.",
+    "imageIdea": "apple macbook pro with code on screen",
+    "websiteLink": "https://github.com/antirez/ds4",
+    "type": "tool",
+    "dateAdded": "2026-05-11",
+    "screenshotUrl": "/screenshots/deepseek-4-flash.webp",
+    "everydayUse": "You might use it to quickly summarize a long article you saved for a Sunday afternoon read, or to brainstorm ideas for a group trip itinerary without needing an internet connection. It's also handy for drafting a quick response to an email before you hand off your work for annual leave.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "antirez/ds4",
+        "stars": 24131,
+        "forks": 2336,
+        "archived": false,
+        "pushedAt": "2026-10-23",
+        "license": "MIT"
+      }
+    },
+    "archivedAt": "2026-10-30"
   }
 ]

@@ -1,49 +1,5 @@
 [
   {
-    "id": 819,
-    "slug": "bevy-game-engine-rust",
-    "toolName": "Bevy",
-    "seoTitle": "Bevy — Open-Source Data-Driven Game Engine",
-    "whatItDoes": "Bevy is a free, open-source, data-driven game engine built in Rust, designed for rapid development and performance. It leverages the power of the Rust programming language for safety and speed, while its architecture is inspired by data-oriented design principles. Bevy focuses on providing a modular and extensible framework, making it approachable for beginners while offering the depth needed for complex projects. It's an excellent choice for indie game developers, hobbyists, and anyone interested in exploring modern game development paradigms without the cost of proprietary engines. Bevy is particularly adept at creating efficient and scalable game logic through its robust entity-component-system (ECS) architecture.",
-    "category": "Developer",
-    "whyItIsUseful": "Bevy offers a compelling alternative in the game development landscape, prioritizing developer experience and modern architectural patterns. Its foundation in Rust ensures memory safety and high performance, critical for demanding game applications. The data-driven ECS architecture promotes a clean separation of concerns, leading to more maintainable and scalable codebases. For developers frustrated with the complexity or licensing of other engines, Bevy provides a refreshing, community-driven, and transparent path to creating games. The engine's rapid iteration cycle and growing community support mean it's constantly improving, making it an exciting choice for those looking to build innovative 2D and 3D experiences. Its focus on emergent behavior and component-based design makes it particularly powerful for prototyping and complex simulations.",
-    "imageIdea": "video game development code engine interface",
-    "websiteLink": "https://bevyengine.org/",
-    "type": "tool",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/bevy-game-engine-rust.webp",
-    "everydayUse": "When you need to quickly prototype a fun little game idea you had during your commute, or when you're looking to build a personal project that feels both fast and safe.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 820,
-    "slug": "deepseek-4-flash",
-    "toolName": "ds4",
-    "seoTitle": "ds4 — Local AI Inference Engine",
-    "whatItDoes": "ds4 (DeepSeek 4 Flash) is a highly optimized local inference engine designed specifically for Apple Silicon Macs with Metal GPU support. It allows users to run large language models (LLMs) directly on their own hardware, bypassing cloud dependencies and offering enhanced privacy and speed. This open-source tool is written in C, prioritizing efficiency and performance. Its primary value lies in its ability to leverage the unique architecture of Apple Silicon for rapid LLM execution, making advanced AI capabilities accessible without dedicated servers or expensive cloud subscriptions. The tool is freely available on GitHub.",
-    "category": "Developer",
-    "whyItIsUseful": "For developers and AI enthusiasts working with Apple Silicon Macs, ds4 offers a powerful way to experiment with and deploy LLMs locally. Its deep integration with the Metal graphics API ensures that users can harness the full computational power of their Mac's GPU for inference, leading to significantly faster response times compared to CPU-based processing or less optimized GPU implementations. This is particularly beneficial for tasks like code generation, text summarization, and creative writing directly on a personal machine, providing a tangible performance boost and cost savings by eliminating cloud inference fees. The open-source nature fosters community collaboration and allows for deep customization, making it an invaluable asset for those pushing the boundaries of on-device AI. Its efficiency means more complex models can be run locally, democratizing access to cutting-edge AI.",
-    "imageIdea": "apple macbook pro with code on screen",
-    "websiteLink": "https://github.com/antirez/ds4",
-    "type": "tool",
-    "dateAdded": "2026-05-11",
-    "screenshotUrl": "/screenshots/deepseek-4-flash.webp",
-    "everydayUse": "You might use it to quickly summarize a long article you saved for a Sunday afternoon read, or to brainstorm ideas for a group trip itinerary without needing an internet connection. It's also handy for drafting a quick response to an email before you hand off your work for annual leave.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "antirez/ds4",
-        "stars": 24131,
-        "forks": 2336,
-        "archived": false,
-        "pushedAt": "2026-10-23",
-        "license": "MIT"
-      }
-    }
-  },
-  {
     "id": 821,
     "slug": "codeburn-ai-cost-tracker",
     "toolName": "codeburn",
@@ -8545,6 +8501,60 @@
     "dateAdded": "2026-10-29",
     "signals": {
       "checkedAt": "2026-10-29"
+    }
+  },
+  {
+    "id": 1264,
+    "slug": "nxnative",
+    "toolName": "nxnative",
+    "seoTitle": "nxnative — Run Switch Games Natively",
+    "whatItDoes": "nxnative enables you to run Nintendo Switch games natively on your iPhone, iPad, and Mac. By converting your game's NSP files and prod.keys into an IPA, it allows the game's original code to execute directly on Apple silicon. This isn't an emulator; it rebuilds Switch graphics using Metal, offering a direct experience. The project is free and open-source, with community Mac apps available to simplify the conversion process without needing command-line knowledge.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is incredibly innovative for Apple device owners interested in gaming. It bypasses the need for emulation, directly leveraging the device's powerful hardware for a smoother, more authentic gaming experience. For users with a library of Switch games, nxnative offers a unique way to play them on the go or at their desk without requiring a dedicated Switch console. The community-driven Mac apps make it accessible even for those less technically inclined, streamlining the process of creating sideloadable IPAs. It’s a standout for its direct hardware utilization and impressive performance potential.",
+    "everydayUse": "Imagine wanting to revisit a favorite Switch game while commuting or during a break. With nxnative, you could convert your game files beforehand using a Mac app. Then, simply sideload the resulting IPA onto your iPhone or iPad for instant, native gameplay, enjoying a familiar experience on a device you already carry.",
+    "imageIdea": "iphone running nintendo switch game",
+    "websiteLink": "https://github.com/seedds/nxnative",
+    "type": "tool",
+    "dateAdded": "2026-10-30",
+    "signals": {
+      "checkedAt": "2026-10-30",
+      "github": {
+        "repo": "seedds/nxnative",
+        "stars": 10098,
+        "forks": 1624,
+        "archived": false,
+        "pushedAt": "2026-10-30",
+        "license": "MIT"
+      },
+      "video": {
+        "id": "-7w9o09K47w",
+        "title": "nxnative: 6,000 Stars in 2 Weeks for Switch Games on iPhone",
+        "channel": "AwesomeFOSS",
+        "durationSec": 435
+      }
+    }
+  },
+  {
+    "id": 1265,
+    "slug": "obsidian-markdown-notes",
+    "toolName": "Obsidian",
+    "seoTitle": "Obsidian — Link your notes with markdown",
+    "whatItDoes": "Obsidian is a powerful, local-first knowledge base and note-taking app that uses Markdown files. It excels at creating interconnected notes through bi-directional linking, allowing you to build a personal wiki or a second brain. The core app is free for personal use, with paid options for commercial use and advanced sync/publish features. It's particularly adept at surfacing relationships between disparate ideas, a feat few other Markdown editors manage with such elegance.",
+    "category": "Writing",
+    "whyItIsUseful": "Obsidian's true power lies in its graph view and backlinking capabilities, which visually represent how your notes connect, revealing emergent patterns and insights you might otherwise miss. This makes it an indispensable tool for researchers, writers, students, and anyone who needs to manage complex information. Its extensibility through community plugins allows for customization that can tailor it to virtually any workflow, from project management to creative writing outlines. Users praise its speed and the freedom of owning their data locally, fostering a sense of security and control that is rare in cloud-centric apps. It's also incredibly fast, even with thousands of notes.",
+    "everydayUse": "You can use Obsidian to jot down meeting notes and instantly link them to project pages. Later, when researching a new topic, you can see all related past discussions and ideas, helping you avoid repeating yourself and build on existing knowledge.",
+    "imageIdea": "obsidian app knowledge graph",
+    "websiteLink": "https://obsidian.md/",
+    "type": "tool",
+    "dateAdded": "2026-10-30",
+    "signals": {
+      "checkedAt": "2026-10-30",
+      "video": {
+        "id": "lsytBlAdJK4",
+        "title": "Obsidian Tutorial for Beginners",
+        "channel": "Kevin Stratvert",
+        "durationSec": 837
+      }
     }
   }
 ]
