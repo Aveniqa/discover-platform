@@ -5,8 +5,30 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DeepSeek SuperAgent Prototype</title>
+      <link>https://surfaced-x.pages.dev/item/dsh-superagent-prototype</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dsh-superagent-prototype</guid>
+      <description>The DeepSeek SuperAgent Prototype is a research project exploring the development of more autonomous agent systems, primarily built using TypeScript. It&apos;s not intended for production use and should be treated as experimental code, potentially containing bugs and inconsistent engineering practices. The core value lies in its demonstration of agent-based development, where coding agents contribute to the engineering process. It&apos;s a free, open-source initiative from DeepSeek-AI aimed at advancing research in AI agent capabilities and is particularly relevant for developers and researchers interested in the cutting edge of AI-driven software development.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/g2e438836e8cfe07b12be63c2dd73554c2666bc5b67551a63bee5b0c9d5de117698be76ff096b189527bfc0c782095d6f659ab6ded131d2d6cdb1323fa652796d_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/g2e438836e8cfe07b12be63c2dd73554c2666bc5b67551a63bee5b0c9d5de117698be76ff096b189527bfc0c782095d6f659ab6ded131d2d6cdb1323fa652796d_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/g2e438836e8cfe07b12be63c2dd73554c2666bc5b67551a63bee5b0c9d5de117698be76ff096b189527bfc0c782095d6f659ab6ded131d2d6cdb1323fa652796d_1280.jpg" />
+    </item>
+    <item>
+      <title>Aerial TV</title>
+      <link>https://surfaced-x.pages.dev/item/aerial-tv</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/aerial-tv</guid>
+      <description>Aerial TV is an open-source, ad-free launcher for Android TV devices, inspired by the clean interface of tvOS. It replaces cluttered manufacturer home screens with a minimalist display of your apps, wallpapers, and captivating aerial screen savers. The launcher is designed for devices like Xiaomi, TCL, and other Chinese market TVs, but works on most Android TV boxes and projectors. It&apos;s free and open-source, offering a streamlined user experience without intrusive recommendations or advertisements. It excels at creating a visually pleasing and distraction-free media center environment.</description>
+      <category>Daily Tools</category>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/28549934/pexels-photo-28549934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/28549934/pexels-photo-28549934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/28549934/pexels-photo-28549934.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
     <item>
       <title>Obsidian</title>
       <link>https://surfaced-x.pages.dev/item/obsidian-markdown-notes</link>
@@ -14,6 +36,9 @@
       <description>Obsidian is a powerful, local-first knowledge base and note-taking app that uses Markdown files. It excels at creating interconnected notes through bi-directional linking, allowing you to build a personal wiki or a second brain. The core app is free for personal use, with paid options for commercial use and advanced sync/publish features. It&apos;s particularly adept at surfacing relationships between disparate ideas, a feat few other Markdown editors manage with such elegance.</description>
       <category>Daily Tools</category>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5717758/pexels-photo-5717758.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5717758/pexels-photo-5717758.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5717758/pexels-photo-5717758.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>nxnative</title>
@@ -22,6 +47,9 @@
       <description>nxnative enables you to run Nintendo Switch games natively on your iPhone, iPad, and Mac. By converting your game&apos;s NSP files and prod.keys into an IPA, it allows the game&apos;s original code to execute directly on Apple silicon. This isn&apos;t an emulator; it rebuilds Switch graphics using Metal, offering a direct experience. The project is free and open-source, with community Mac apps available to simplify the conversion process without needing command-line knowledge.</description>
       <category>Daily Tools</category>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/34482313/pexels-photo-34482313.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/34482313/pexels-photo-34482313.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/34482313/pexels-photo-34482313.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Sigil</title>
@@ -30,6 +58,9 @@
       <description>Sigil is a free and open-source ebook editor that allows you to create and edit EPUB files directly, without the need for complex markup. It provides a WYSIWYG (What You See Is What You Get) interface alongside a code editor, making it accessible for both novice and experienced ebook creators.  This tool is invaluable for authors and publishers who want fine-grained control over their ebook formatting, allowing for precise adjustments to layout, metadata, and content that automated conversion tools often miss. It excels at producing clean, standards-compliant EPUBs.</description>
       <category>Daily Tools</category>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/30105086/pexels-photo-30105086.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/30105086/pexels-photo-30105086.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/30105086/pexels-photo-30105086.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Pancake</title>
@@ -38,6 +69,9 @@
       <description>Pancake positions itself as the &apos;Vercel for Go-To-Market&apos; (GTM), providing developers and marketers with the essential building blocks to deploy any GTM strategy powered by AI agents like Claude or Codex. It offers a &apos;GTM Brain&apos; for strategic decision-making, robust sending infrastructure, and integrations with over 40 data sources. Pancake is a freemium product, with core functionalities available to get started quickly. It streamlines the process of launching and managing AI-driven growth initiatives.</description>
       <category>Daily Tools</category>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/730922/pancakes-food-eat-breakfast-730922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/730922/pancakes-food-eat-breakfast-730922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/730922/pancakes-food-eat-breakfast-730922.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>DeepInfer</title>
@@ -46,6 +80,9 @@
       <description>DeepInfer is a cutting-edge, high-performance inference framework specifically designed for large-scale deployment of DeepSeek models. It is built in Python and optimized to maximize throughput and minimize latency for complex deep learning workloads. The framework is open-source and free to use, offering advanced features for efficient model execution in production environments. It excels at handling batched inference requests with optimal resource utilization.</description>
       <category>Daily Tools</category>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://pixabay.com/get/ge7c5d9c12c4fa2c45ca4292dbb71704bef677d0c551c79887f036004597b7d51228bab19e5500050d70bc8470e6d3ee942e5ee2fa641ed7fa30488f4ca24ae7d_1280.jpg" type="image/jpeg" length="0" />
+      <media:content url="https://pixabay.com/get/ge7c5d9c12c4fa2c45ca4292dbb71704bef677d0c551c79887f036004597b7d51228bab19e5500050d70bc8470e6d3ee942e5ee2fa641ed7fa30488f4ca24ae7d_1280.jpg" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://pixabay.com/get/ge7c5d9c12c4fa2c45ca4292dbb71704bef677d0c551c79887f036004597b7d51228bab19e5500050d70bc8470e6d3ee942e5ee2fa641ed7fa30488f4ca24ae7d_1280.jpg" />
     </item>
     <item>
       <title>gpu-unlock</title>
@@ -378,6 +415,17 @@
       <media:thumbnail url="https://images.pexels.com/photos/2105927/pexels-photo-2105927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Outcrop</title>
+      <link>https://surfaced-x.pages.dev/item/outcrop-rocks</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/outcrop-rocks</guid>
+      <description>Outcrop is a mobile application for iPhone and Android that allows users to learn about the geology of their surroundings by simply pointing their camera at the landscape. It identifies rocks, explains how and when they formed, and provides context within Earth&apos;s history. Built with worldwide geologic map data from Macrostrat, the app offers an augmented reality experience, overlaying geological information directly onto the view from your phone. It&apos;s a powerful educational tool that works offline, making it accessible even in remote areas.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/29231601/pexels-photo-29231601.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/29231601/pexels-photo-29231601.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/29231601/pexels-photo-29231601.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
       <title>Coauthor</title>
       <link>https://surfaced-x.pages.dev/item/coauthor-collaborative-writing</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/coauthor-collaborative-writing</guid>
@@ -387,6 +435,17 @@
       <enclosure url="https://images.pexels.com/photos/5537940/pexels-photo-5537940.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5537940/pexels-photo-5537940.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5537940/pexels-photo-5537940.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>HackerBooks</title>
+      <link>https://surfaced-x.pages.dev/item/hackerbooks-org</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hackerbooks-org</guid>
+      <description>HackerBooks is a curated collection of books that have been mentioned in comments on Hacker News. It serves as a daily updated shelf, allowing users to discover and rank books based on their popularity and relevance within the tech community. The tool provides a fresh mix of well-loved titles, enabling readers to explore recommendations that have resonated with an audience known for its technical and intellectual curiosity. You can browse by score or by the date a book was first mentioned.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/5218386/pexels-photo-5218386.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/5218386/pexels-photo-5218386.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/5218386/pexels-photo-5218386.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Bulletin</title>
@@ -406,6 +465,9 @@
       <description>Encarta 95 Web is a fascinating recreation of Microsoft&apos;s iconic Encarta &apos;95 encyclopedia, brought to life in a web browser by benwinding. It allows you to navigate through the articles, images, and interface as it was experienced nearly three decades ago. This project is a nostalgic trip for those who grew up with digital encyclopedias and a historical glimpse for younger users into how information was accessed before the dominance of search engines. It’s a pure piece of digital history preserved for interactive exploration.</description>
       <category>Hidden Gems</category>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/17489158/pexels-photo-17489158.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/17489158/pexels-photo-17489158.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/17489158/pexels-photo-17489158.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Songnotes</title>
@@ -425,6 +487,9 @@
       <description>SlideBySide allows you to present slides without the need to share your entire screen. You can upload PDFs, PowerPoints, or connect to Google Drive/OneDrive to share your presentation. It provides a unique link for your audience to follow along, displaying the same slide simultaneously. Live cursors and drawing tools are also included, enabling interactive presentations. This tool was built by a team focused on making presentations more streamlined and accessible, especially for remote work environments.</description>
       <category>Hidden Gems</category>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/18306899/pexels-photo-18306899.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/18306899/pexels-photo-18306899.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/18306899/pexels-photo-18306899.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>cohost</title>
@@ -444,6 +509,9 @@
       <description>R2D2 TV is an open-source project that aims to make smart TVs more private and functional by giving users a local home screen, a private remote browser, and a push-to-talk voice assistant. It runs on a Linux compute host, leveraging the TV&apos;s display and application capabilities. The project was developed by anubhavmalhotra and targets webOS TVs, offering more control and customization than standard manufacturer interfaces.</description>
       <category>Hidden Gems</category>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/35425419/pexels-photo-35425419.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/35425419/pexels-photo-35425419.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/35425419/pexels-photo-35425419.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Memo</title>
@@ -463,6 +531,9 @@
       <description>Keybytes is an innovative, fully modular keyboard project that redefines input device customization. Each keycap is an independent 1u PCB, allowing users unparalleled freedom to rearrange their keyboard layout. Assembly is streamlined with magnetic cases, and the system boasts seamless Bluetooth connectivity. Developed by notaroomba, the project leverages the compact and powerful CH32V003 RISC-V microcontroller for each individual key module. This architecture empowers keyboard enthusiasts and developers with a highly adaptable platform for creating personalized keyboard experiences.</description>
       <category>Hidden Gems</category>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <enclosure url="https://images.pexels.com/photos/12741856/pexels-photo-12741856.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/12741856/pexels-photo-12741856.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/12741856/pexels-photo-12741856.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
       <title>Cineast</title>
@@ -482,47 +553,9 @@
       <description>Impossible Machines is a novel web tool that allows you to declaratively program the physical world. It bridges the gap between software and hardware by enabling users to define desired physical states and behaviors using code. This platform is designed for creators, engineers, and hobbyists looking to build complex interactive systems, robots, or automated setups with unprecedented ease. For instance, you could use Impossible Machines to describe a robotic arm&apos;s movement sequence or define the environmental conditions for a smart greenhouse.</description>
       <category>Hidden Gems</category>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Corgi</title>
-      <link>https://surfaced-x.pages.dev/item/corgi-terminal-multiplexer</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/corgi-terminal-multiplexer</guid>
-      <description>Corgi is a helpful terminal multiplexer that acts as an agent, enhancing your command-line workflow. It allows you to manage multiple terminal sessions, windows, and panes within a single interface, making it easier to switch between tasks and view information concurrently. Built by the community, Corgi aims to provide a more intuitive and powerful alternative to traditional multiplexers. For example, a developer could use Corgi to keep their code editor, compilation process, and server logs all visible and accessible in different panes.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Board Game Arena</title>
-      <link>https://surfaced-x.pages.dev/item/boardgamearena</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/boardgamearena</guid>
-      <description>Board Game Arena (BGA) is a premier online platform that hosts a vast library of popular and niche board games, allowing players to compete against each other from around the world. It offers a seamless interface for playing games, with automatic rule enforcement to ensure fair play. Many games are free to play, with a premium subscription unlocking access to more exclusive titles and advanced features like tournaments.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/37983582/pexels-photo-37983582.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/37983582/pexels-photo-37983582.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/37983582/pexels-photo-37983582.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>OnKey</title>
-      <link>https://surfaced-x.pages.dev/item/dsmurrell-onkey-app-show-where-im-off-key</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dsmurrell-onkey-app-show-where-im-off-key</guid>
-      <description>OnKey is a desktop application designed to help amateur singers improve their pitch accuracy. Developed by someone who admits to being a poor singer, the app analyzes vocal input in real-time and visually displays where the singer is hitting the correct notes and where they are deviating. It&apos;s a practical tool for anyone looking to practice singing with immediate, objective feedback on their pitch.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/15789095/pexels-photo-15789095.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/15789095/pexels-photo-15789095.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/15789095/pexels-photo-15789095.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>sprix-sage-router</title>
-      <link>https://surfaced-x.pages.dev/item/sprix-sage-router</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/sprix-sage-router</guid>
-      <description>Sprix Sage Router is an advanced routing system designed for complex agent networks, particularly in AI-driven collaborative environments. It implements state-aware routing mechanisms, enabling agents to self-organize, collaborate effectively, and seamlessly hand off tasks. This sophisticated system is built in Python and is intended for developers and researchers working on multi-agent systems that require intelligent and dynamic task allocation and communication flow. It is open-source and available on GitHub.</description>
-      <category>Daily Tools</category>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/2881227/pexels-photo-2881227.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/2881227/pexels-photo-2881227.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/2881227/pexels-photo-2881227.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+      <enclosure url="https://images.pexels.com/photos/40633167/pexels-photo-40633167.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
+      <media:content url="https://images.pexels.com/photos/40633167/pexels-photo-40633167.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
+      <media:thumbnail url="https://images.pexels.com/photos/40633167/pexels-photo-40633167.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

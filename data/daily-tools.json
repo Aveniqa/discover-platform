@@ -1,55 +1,5 @@
 [
   {
-    "id": 821,
-    "slug": "codeburn-ai-cost-tracker",
-    "toolName": "codeburn",
-    "seoTitle": "codeburn — AI Coding Token Cost Tracker",
-    "whatItDoes": "codeburn is an interactive Terminal User Interface (TUI) dashboard designed to provide cost observability for AI coding tools like Claude Code, Codex, and Cursor. It helps developers understand exactly where their AI token usage is going, allowing them to monitor and manage expenses associated with AI-powered coding assistance. The tool offers a clear, visual breakdown of token consumption, enabling users to identify areas of potential overspending or inefficient usage. codeburn is a free, open-source project hosted on GitHub, built with TypeScript. It addresses the growing concern of rising AI service costs by bringing transparency to LLM interactions within the development workflow.",
-    "category": "Developer",
-    "whyItIsUseful": "As AI coding assistants become more integrated into developer workflows, managing the associated costs is crucial. codeburn provides an essential layer of transparency, allowing developers to see precisely how their AI token budget is being utilized. This insight is invaluable for optimizing prompts, refining workflows, and making informed decisions about which AI tools to employ for specific tasks. The TUI interface is intuitive and efficient, fitting seamlessly into a developer's command-line environment. By highlighting potential cost sinks, codeburn empowers developers to save money and use AI coding tools more strategically. It's particularly useful for teams or individuals who rely heavily on AI for coding and want to maintain budgetary control without sacrificing productivity.",
-    "imageIdea": "terminal window showing code costs",
-    "websiteLink": "https://github.com/getagentseal/codeburn",
-    "type": "tool",
-    "dateAdded": "2026-05-11",
-    "screenshotUrl": "/screenshots/codeburn-ai-cost-tracker.webp",
-    "everydayUse": "You're reviewing your monthly tech subscriptions and want to see if your AI coding assistant is contributing more to your bill than expected. Before handing off a project, you check how much AI token usage has accumulated so far to set expectations for your colleague. You're curious if the AI suggestions you've been using extensively for a complex feature are impacting your budget.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "getagentseal/codeburn",
-        "stars": 11604,
-        "forks": 893,
-        "archived": false,
-        "pushedAt": "2026-10-27",
-        "license": "MIT"
-      },
-      "video": {
-        "id": "bDrqIFwy4VQ",
-        "title": "I Tried CodeBurn: Where My Tokens Go in Claude Code / Codex?",
-        "channel": "AI Coding Daily",
-        "durationSec": 443
-      }
-    }
-  },
-  {
-    "id": 822,
-    "slug": "canny-feedback",
-    "toolName": "Canny",
-    "seoTitle": "Canny — Product feedback management",
-    "whatItDoes": "Canny is a comprehensive platform designed for collecting, prioritizing, and organizing product feedback. It allows companies to create a public or private feedback portal where users can submit ideas, vote on existing suggestions, and track the status of features. Canny operates on a paid subscription model. Its standout feature is the seamless integration of user feedback into the product development lifecycle, providing a clear roadmap of what users genuinely want.",
-    "category": "Productivity",
-    "whyItIsUseful": "Canny is invaluable for product teams looking to truly understand and act on user needs. By centralizing feedback from various channels into a single, searchable database, it eliminates scattered spreadsheets and lost emails. The voting system helps identify high-impact feature requests, ensuring development efforts are focused on what matters most to the user base. Its ability to automatically update users on the status of their submitted ideas fosters transparency and builds stronger customer relationships. Canny streamlines the entire feedback loop, saving product managers countless hours and reducing the risk of building features that won't resonate. Companies of all sizes, from startups to enterprises, leverage Canny to build better products by listening effectively to their customers.",
-    "imageIdea": "user feedback dashboard interface",
-    "websiteLink": "https://www.canny.io/",
-    "type": "tool",
-    "dateAdded": "2026-05-11",
-    "screenshotUrl": "/screenshots/canny-feedback.webp",
-    "everydayUse": "You're reviewing a pile of customer suggestions for your small business and need to decide which ones to tackle next. You're also planning your vacation and need to hand off ongoing customer requests to a colleague.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 823,
     "slug": "ark-desktop",
     "toolName": "Ark (Desktop App)",
@@ -5372,7 +5322,8 @@
     "websiteLink": "https://eradman.com/entrproject/",
     "signals": {
       "checkedAt": "2026-10-28"
-    }
+    },
+    "screenshotUrl": "/screenshots/entr-run-command-on-file-changes.webp"
   },
   {
     "id": 1100,
@@ -5529,7 +5480,8 @@
         "channel": "Feasible Creative",
         "durationSec": 492
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/personal-capital-net-worth.webp"
   },
   {
     "id": 1110,
@@ -5779,7 +5731,8 @@
     "websiteLink": "https://archive.org/details/etree",
     "signals": {
       "checkedAt": "2026-10-28"
-    }
+    },
+    "screenshotUrl": "/screenshots/archive-org-live-music.webp"
   },
   {
     "id": 1124,
@@ -6061,7 +6014,8 @@
         "pushedAt": "2026-10-17",
         "license": "MIT"
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/formsy-form-builder.webp"
   },
   {
     "id": 1141,
@@ -8468,7 +8422,8 @@
         "channel": "Singularity Feed | AI Models , Agents & Robotics",
         "durationSec": 453
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/deepinfer.webp"
   },
   {
     "id": 1262,
@@ -8501,7 +8456,8 @@
     "dateAdded": "2026-10-29",
     "signals": {
       "checkedAt": "2026-10-29"
-    }
+    },
+    "screenshotUrl": "/screenshots/sigil.webp"
   },
   {
     "id": 1264,
@@ -8532,7 +8488,8 @@
         "channel": "AwesomeFOSS",
         "durationSec": 435
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/nxnative.webp"
   },
   {
     "id": 1265,
@@ -8555,6 +8512,59 @@
         "channel": "Kevin Stratvert",
         "durationSec": 837
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/obsidian-markdown-notes.webp"
+  },
+  {
+    "id": 1266,
+    "slug": "aerial-tv",
+    "toolName": "Aerial TV",
+    "seoTitle": "Aerial TV — Android TV Launcher",
+    "whatItDoes": "Aerial TV is an open-source, ad-free launcher for Android TV devices, inspired by the clean interface of tvOS. It replaces cluttered manufacturer home screens with a minimalist display of your apps, wallpapers, and captivating aerial screen savers. The launcher is designed for devices like Xiaomi, TCL, and other Chinese market TVs, but works on most Android TV boxes and projectors. It's free and open-source, offering a streamlined user experience without intrusive recommendations or advertisements. It excels at creating a visually pleasing and distraction-free media center environment.",
+    "category": "Entertainment",
+    "whyItIsUseful": "For users tired of overwhelming, ad-filled default TV interfaces, Aerial TV offers a breath of fresh air. Its tvOS-like design is intuitive and visually appealing, making navigation a pleasure rather than a chore. The absence of ads and recommendation streams means you can access your content faster and focus on what you want to watch. The automatic startup feature ensures your preferred interface is ready the moment you turn on your TV, and it's robust enough to prevent being cleared during standby. This is particularly valuable for those who prioritize a clean aesthetic and efficient media consumption, especially users with compatible Chinese market TVs.",
+    "everydayUse": "You'll reach for Aerial TV every time you turn on your smart TV. Instead of wading through sponsored content, you'll see your favorite apps immediately. It makes choosing what to watch feel more intentional and less like an advertisement parade.",
+    "imageIdea": "minimalist android tv launcher",
+    "websiteLink": "https://github.com/pengchujin/aerial-tv",
+    "type": "tool",
+    "dateAdded": "2026-11-02",
+    "signals": {
+      "checkedAt": "2026-11-02",
+      "github": {
+        "repo": "pengchujin/aerial-tv",
+        "stars": 8999,
+        "forks": 766,
+        "archived": false,
+        "pushedAt": "2026-11-02",
+        "license": "MIT"
+      }
+    },
+    "screenshotUrl": "/screenshots/aerial-tv.webp"
+  },
+  {
+    "id": 1267,
+    "slug": "dsh-superagent-prototype",
+    "toolName": "DeepSeek SuperAgent Prototype",
+    "seoTitle": "DeepSeek SuperAgent Prototype — AI Agent Research",
+    "whatItDoes": "The DeepSeek SuperAgent Prototype is a research project exploring the development of more autonomous agent systems, primarily built using TypeScript. It's not intended for production use and should be treated as experimental code, potentially containing bugs and inconsistent engineering practices. The core value lies in its demonstration of agent-based development, where coding agents contribute to the engineering process. It's a free, open-source initiative from DeepSeek-AI aimed at advancing research in AI agent capabilities and is particularly relevant for developers and researchers interested in the cutting edge of AI-driven software development.",
+    "category": "Developer",
+    "whyItIsUseful": "This prototype offers a fascinating glimpse into the future of software development, where AI agents play a significant role in building and refining code. For developers and AI enthusiasts, it's an invaluable resource for understanding the practical application of agent systems beyond theoretical discussions. Its high star count on GitHub indicates strong community interest and potential for future development. By studying this code, individuals can gain insights into the architecture and methodologies for creating more autonomous AI agents, potentially accelerating their own research or contributing to the open-source community's collective knowledge in this rapidly evolving field.",
+    "everydayUse": "You might explore the DeepSeek SuperAgent Prototype when you're curious about how AI can write code or when you're researching new ways to automate development tasks. It's a tool for understanding the potential of AI in software engineering.",
+    "imageIdea": "github repository code abstract",
+    "websiteLink": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+    "type": "tool",
+    "dateAdded": "2026-11-02",
+    "signals": {
+      "checkedAt": "2026-11-02",
+      "github": {
+        "repo": "deepseek-ai/dsh-superagent-prototype",
+        "stars": 12795,
+        "forks": 1326,
+        "archived": false,
+        "pushedAt": "2026-10-31",
+        "license": "MIT"
+      }
+    },
+    "screenshotUrl": "/screenshots/dsh-superagent-prototype.webp"
   }
 ]

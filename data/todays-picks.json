@@ -1,19 +1,19 @@
 [
   {
-    "slug": "encarta-95-web",
-    "title": "Encarta 95 Web",
+    "slug": "outcrop-rocks",
+    "title": "Outcrop",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Encarta 95 Web is a fascinating recreation of Microsoft's iconic Encarta '95 encyclopedia, brought to life in a web brow",
+    "description": "Outcrop is a mobile application for iPhone and Android that allows users to learn about the geology of their surrounding",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "obsidian-markdown-notes",
-    "title": "Obsidian",
+    "slug": "dsh-superagent-prototype",
+    "title": "DeepSeek SuperAgent Prototype",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "Obsidian is a powerful, local-first knowledge base and note-taking app that uses Markdown files. It excels at creating i",
+    "description": "The DeepSeek SuperAgent Prototype is a research project exploring the development of more autonomous agent systems, prim",
     "badge": null,
     "type": "tool"
   }

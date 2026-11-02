@@ -1,41 +1,5 @@
 [
   {
-    "id": 757,
-    "slug": "hallucinopedia-ai-driven-creative-writing-tool",
-    "name": "Hallucinopedia",
-    "seoTitle": "Hallucinopedia — AI for creative writing",
-    "whatItDoes": "Hallucinopedia is an AI-powered tool designed to assist writers in generating creative text, brainstorming ideas, and overcoming writer's block. Built by a community of developers and writers, it leverages large language models to produce novel concepts, story prompts, character descriptions, and even entire narrative segments. For instance, a fiction author struggling with a plot point could input their current scenario and ask Hallucinopedia for five different ways the story could proceed, receiving unique and unexpected suggestions. It aims to be a collaborative partner, enhancing the human creative process rather than replacing it.",
-    "category": "Writing",
-    "whyItIsUseful": "This tool stands out by focusing on enhancing creative output rather than just providing generic text generation. Its strength lies in its ability to produce surprisingly original and unconventional ideas, which can be a goldmine for writers seeking inspiration. Unlike more straightforward AI writing assistants, Hallucinopedia is geared towards sparking imagination and pushing creative boundaries. Power users appreciate its flexibility in generating diverse content types, from poetry to prose to scriptwriting. Its open-source nature also means it benefits from continuous community development and a growing array of features. Writers who often hit creative walls or need novel perspectives will find Hallucinopedia an invaluable, albeit lesser-known, ally.",
-    "imageIdea": "inkwell feather quill",
-    "websiteLink": "https://halupedia.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-08",
-    "screenshotUrl": "/screenshots/hallucinopedia-ai-driven-creative-writing-tool.webp",
-    "everydayUse": "You're staring at a blank page for your novel's next chapter and can't think of what happens. You're trying to come up with unique character names for your Dungeons & Dragons campaign. You need a creative description for a haunted house for your Halloween party invitation.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 758,
-    "slug": "tilde-run-transactional-agent-sandbox",
-    "name": "Tilde.run",
-    "seoTitle": "Tilde.run — Agent sandbox with versioned filesystem",
-    "whatItDoes": "Tilde.run offers a unique sandbox environment for running agent-based code. It provides a transactional, versioned filesystem that allows developers to experiment with code and observe its effects without permanent changes. The system tracks all modifications, enabling users to revert to previous states or fork entire experiments. This is particularly useful for testing complex algorithms, simulating distributed systems, or developing and debugging agents that interact with a simulated environment. A developer could, for example, run a bot designed to trade on a simulated stock market, test different trading strategies, and then easily roll back to a prior state if a strategy proves detrimental, all within a safe, isolated environment.",
-    "category": "Developer",
-    "whyItIsUseful": "Tilde.run is a gem for anyone needing a reliable and reproducible environment for experimentation, especially in agent-based development. Its transactional filesystem is a significant differentiator, offering a level of control and safety that many standard development environments lack. This feature means you can make radical changes, test risky hypotheses, and always have a clean slate to return to, fostering bolder experimentation. For those working with AI agents, simulations, or any process involving iterative modification and observation, Tilde.run provides a powerful, yet accessible, platform. It's especially valuable for individuals who appreciate meticulous state management and want to avoid the mess of manual backups and rollbacks. The ability to easily share and reproduce specific states of an experiment is also a hidden benefit for collaborative projects.",
-    "imageIdea": "gears cogs circuit board",
-    "websiteLink": "https://tilde.run/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-08",
-    "screenshotUrl": "/screenshots/tilde-run-transactional-agent-sandbox.webp",
-    "everydayUse": "You're trying out a new recipe for your weekly meal prep and want to see if a minor ingredient swap affects the outcome without ruining your current batch. You're also experimenting with a new budgeting strategy for your household expenses and need a safe space to test out different allocation methods.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 759,
     "slug": "templatical-open-source-email-builder",
     "name": "Templatical",
@@ -5249,7 +5213,8 @@
     "websiteLink": "https://www.currencyconverterapi.com/",
     "signals": {
       "checkedAt": "2026-10-28"
-    }
+    },
+    "screenshotUrl": "/screenshots/currency-converter-api.webp"
   },
   {
     "id": 1075,
@@ -6796,7 +6761,8 @@
     "websiteLink": "https://nutrigenomix.com/",
     "signals": {
       "checkedAt": "2026-10-28"
-    }
+    },
+    "screenshotUrl": "/screenshots/nutrigenomix-patient-portal.webp"
   },
   {
     "id": 1177,
@@ -7471,7 +7437,8 @@
     "dateAdded": "2026-10-29",
     "signals": {
       "checkedAt": "2026-10-29"
-    }
+    },
+    "screenshotUrl": "/screenshots/corgi-terminal-multiplexer.webp"
   },
   {
     "id": 1224,
@@ -7488,7 +7455,8 @@
     "dateAdded": "2026-10-29",
     "signals": {
       "checkedAt": "2026-10-29"
-    }
+    },
+    "screenshotUrl": "/screenshots/impossible-machines-physical-world-programming.webp"
   },
   {
     "id": 1225,
@@ -7512,7 +7480,8 @@
         "archived": false,
         "pushedAt": "2026-10-28"
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/keybytes-modular-keyboard.webp"
   },
   {
     "id": 1226,
@@ -7537,7 +7506,8 @@
         "pushedAt": "2026-10-27",
         "license": "MIT"
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/r2d2-tv-smart-tv-mod.webp"
   },
   {
     "id": 1227,
@@ -7554,7 +7524,8 @@
     "dateAdded": "2026-10-30",
     "signals": {
       "checkedAt": "2026-10-30"
-    }
+    },
+    "screenshotUrl": "/screenshots/slidebyside-present-together-live.webp"
   },
   {
     "id": 1228,
@@ -7571,6 +7542,43 @@
     "dateAdded": "2026-10-30",
     "signals": {
       "checkedAt": "2026-10-30"
-    }
+    },
+    "screenshotUrl": "/screenshots/encarta-95-web.webp"
+  },
+  {
+    "id": 1229,
+    "slug": "hackerbooks-org",
+    "name": "HackerBooks",
+    "seoTitle": "HackerBooks — Books Mentioned on Hacker News",
+    "whatItDoes": "HackerBooks is a curated collection of books that have been mentioned in comments on Hacker News. It serves as a daily updated shelf, allowing users to discover and rank books based on their popularity and relevance within the tech community. The tool provides a fresh mix of well-loved titles, enabling readers to explore recommendations that have resonated with an audience known for its technical and intellectual curiosity. You can browse by score or by the date a book was first mentioned.",
+    "category": "Education",
+    "whyItIsUseful": "This tool is a hidden gem for anyone looking to discover intellectually stimulating reading material vetted by a highly informed community. Unlike generic book recommendation sites, HackerBooks taps into the collective knowledge and interests of Hacker News users, a demographic often interested in technology, science, philosophy, and in-depth analysis. It surfaces titles that might otherwise be missed, from classic seminal works to contemporary must-reads, providing a unique, community-driven discovery engine. Power users appreciate the ability to see how many users recommended a book and its historical mentions, offering a deeper insight into its impact and longevity within the HN discourse.",
+    "everydayUse": "When you're looking for your next read and trust the opinions of tech-savvy individuals, you can visit HackerBooks. Imagine browsing the latest daily shelf to find a highly recommended book that aligns with current tech discussions or a classic piece of literature that has consistently earned praise.",
+    "imageIdea": "stack of books with computer code on pages",
+    "websiteLink": "https://hackerbooks.org",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-02",
+    "signals": {
+      "checkedAt": "2026-11-02"
+    },
+    "screenshotUrl": "/screenshots/hackerbooks-org.webp"
+  },
+  {
+    "id": 1230,
+    "slug": "outcrop-rocks",
+    "name": "Outcrop",
+    "seoTitle": "Outcrop — Identify Geology With Your Camera",
+    "whatItDoes": "Outcrop is a mobile application for iPhone and Android that allows users to learn about the geology of their surroundings by simply pointing their camera at the landscape. It identifies rocks, explains how and when they formed, and provides context within Earth's history. Built with worldwide geologic map data from Macrostrat, the app offers an augmented reality experience, overlaying geological information directly onto the view from your phone. It's a powerful educational tool that works offline, making it accessible even in remote areas.",
+    "category": "Education",
+    "whyItIsUseful": "This app is a phenomenal, yet underutilized, tool for anyone curious about the natural world, from students and amateur geologists to casual hikers. While many apps might offer general nature identification, Outcrop delves into the complex science of geology with incredible depth and accessibility. Its augmented reality feature is particularly groundbreaking, transforming the way we interact with and understand the Earth's features. The ability to work offline is a significant advantage for fieldwork or travel in areas with poor connectivity. It democratizes geological knowledge, making it understandable and engaging for the public.",
+    "everydayUse": "While on a hike or exploring a new place, you can open Outcrop to understand the rock formations you're seeing. Imagine holding up your phone to a canyon wall and instantly learning about the geological periods represented and how the landscape was sculpted over millennia.",
+    "imageIdea": "smartphone displaying augmented reality geology overlay on a mountain",
+    "websiteLink": "https://outcrop.rocks/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-02",
+    "signals": {
+      "checkedAt": "2026-11-02"
+    },
+    "screenshotUrl": "/screenshots/outcrop-rocks.webp"
   }
 ]

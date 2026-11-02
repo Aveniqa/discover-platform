@@ -47088,5 +47088,95 @@
       }
     },
     "archivedAt": "2026-10-30"
+  },
+  {
+    "id": 757,
+    "slug": "hallucinopedia-ai-driven-creative-writing-tool",
+    "name": "Hallucinopedia",
+    "seoTitle": "Hallucinopedia — AI for creative writing",
+    "whatItDoes": "Hallucinopedia is an AI-powered tool designed to assist writers in generating creative text, brainstorming ideas, and overcoming writer's block. Built by a community of developers and writers, it leverages large language models to produce novel concepts, story prompts, character descriptions, and even entire narrative segments. For instance, a fiction author struggling with a plot point could input their current scenario and ask Hallucinopedia for five different ways the story could proceed, receiving unique and unexpected suggestions. It aims to be a collaborative partner, enhancing the human creative process rather than replacing it.",
+    "category": "Writing",
+    "whyItIsUseful": "This tool stands out by focusing on enhancing creative output rather than just providing generic text generation. Its strength lies in its ability to produce surprisingly original and unconventional ideas, which can be a goldmine for writers seeking inspiration. Unlike more straightforward AI writing assistants, Hallucinopedia is geared towards sparking imagination and pushing creative boundaries. Power users appreciate its flexibility in generating diverse content types, from poetry to prose to scriptwriting. Its open-source nature also means it benefits from continuous community development and a growing array of features. Writers who often hit creative walls or need novel perspectives will find Hallucinopedia an invaluable, albeit lesser-known, ally.",
+    "imageIdea": "inkwell feather quill",
+    "websiteLink": "https://halupedia.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-08",
+    "screenshotUrl": "/screenshots/hallucinopedia-ai-driven-creative-writing-tool.webp",
+    "everydayUse": "You're staring at a blank page for your novel's next chapter and can't think of what happens. You're trying to come up with unique character names for your Dungeons & Dragons campaign. You need a creative description for a haunted house for your Halloween party invitation.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-02"
+  },
+  {
+    "id": 758,
+    "slug": "tilde-run-transactional-agent-sandbox",
+    "name": "Tilde.run",
+    "seoTitle": "Tilde.run — Agent sandbox with versioned filesystem",
+    "whatItDoes": "Tilde.run offers a unique sandbox environment for running agent-based code. It provides a transactional, versioned filesystem that allows developers to experiment with code and observe its effects without permanent changes. The system tracks all modifications, enabling users to revert to previous states or fork entire experiments. This is particularly useful for testing complex algorithms, simulating distributed systems, or developing and debugging agents that interact with a simulated environment. A developer could, for example, run a bot designed to trade on a simulated stock market, test different trading strategies, and then easily roll back to a prior state if a strategy proves detrimental, all within a safe, isolated environment.",
+    "category": "Developer",
+    "whyItIsUseful": "Tilde.run is a gem for anyone needing a reliable and reproducible environment for experimentation, especially in agent-based development. Its transactional filesystem is a significant differentiator, offering a level of control and safety that many standard development environments lack. This feature means you can make radical changes, test risky hypotheses, and always have a clean slate to return to, fostering bolder experimentation. For those working with AI agents, simulations, or any process involving iterative modification and observation, Tilde.run provides a powerful, yet accessible, platform. It's especially valuable for individuals who appreciate meticulous state management and want to avoid the mess of manual backups and rollbacks. The ability to easily share and reproduce specific states of an experiment is also a hidden benefit for collaborative projects.",
+    "imageIdea": "gears cogs circuit board",
+    "websiteLink": "https://tilde.run/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-08",
+    "screenshotUrl": "/screenshots/tilde-run-transactional-agent-sandbox.webp",
+    "everydayUse": "You're trying out a new recipe for your weekly meal prep and want to see if a minor ingredient swap affects the outcome without ruining your current batch. You're also experimenting with a new budgeting strategy for your household expenses and need a safe space to test out different allocation methods.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-02"
+  },
+  {
+    "id": 821,
+    "slug": "codeburn-ai-cost-tracker",
+    "toolName": "codeburn",
+    "seoTitle": "codeburn — AI Coding Token Cost Tracker",
+    "whatItDoes": "codeburn is an interactive Terminal User Interface (TUI) dashboard designed to provide cost observability for AI coding tools like Claude Code, Codex, and Cursor. It helps developers understand exactly where their AI token usage is going, allowing them to monitor and manage expenses associated with AI-powered coding assistance. The tool offers a clear, visual breakdown of token consumption, enabling users to identify areas of potential overspending or inefficient usage. codeburn is a free, open-source project hosted on GitHub, built with TypeScript. It addresses the growing concern of rising AI service costs by bringing transparency to LLM interactions within the development workflow.",
+    "category": "Developer",
+    "whyItIsUseful": "As AI coding assistants become more integrated into developer workflows, managing the associated costs is crucial. codeburn provides an essential layer of transparency, allowing developers to see precisely how their AI token budget is being utilized. This insight is invaluable for optimizing prompts, refining workflows, and making informed decisions about which AI tools to employ for specific tasks. The TUI interface is intuitive and efficient, fitting seamlessly into a developer's command-line environment. By highlighting potential cost sinks, codeburn empowers developers to save money and use AI coding tools more strategically. It's particularly useful for teams or individuals who rely heavily on AI for coding and want to maintain budgetary control without sacrificing productivity.",
+    "imageIdea": "terminal window showing code costs",
+    "websiteLink": "https://github.com/getagentseal/codeburn",
+    "type": "tool",
+    "dateAdded": "2026-05-11",
+    "screenshotUrl": "/screenshots/codeburn-ai-cost-tracker.webp",
+    "everydayUse": "You're reviewing your monthly tech subscriptions and want to see if your AI coding assistant is contributing more to your bill than expected. Before handing off a project, you check how much AI token usage has accumulated so far to set expectations for your colleague. You're curious if the AI suggestions you've been using extensively for a complex feature are impacting your budget.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "getagentseal/codeburn",
+        "stars": 11604,
+        "forks": 893,
+        "archived": false,
+        "pushedAt": "2026-10-27",
+        "license": "MIT"
+      },
+      "video": {
+        "id": "bDrqIFwy4VQ",
+        "title": "I Tried CodeBurn: Where My Tokens Go in Claude Code / Codex?",
+        "channel": "AI Coding Daily",
+        "durationSec": 443
+      }
+    },
+    "archivedAt": "2026-11-02"
+  },
+  {
+    "id": 822,
+    "slug": "canny-feedback",
+    "toolName": "Canny",
+    "seoTitle": "Canny — Product feedback management",
+    "whatItDoes": "Canny is a comprehensive platform designed for collecting, prioritizing, and organizing product feedback. It allows companies to create a public or private feedback portal where users can submit ideas, vote on existing suggestions, and track the status of features. Canny operates on a paid subscription model. Its standout feature is the seamless integration of user feedback into the product development lifecycle, providing a clear roadmap of what users genuinely want.",
+    "category": "Productivity",
+    "whyItIsUseful": "Canny is invaluable for product teams looking to truly understand and act on user needs. By centralizing feedback from various channels into a single, searchable database, it eliminates scattered spreadsheets and lost emails. The voting system helps identify high-impact feature requests, ensuring development efforts are focused on what matters most to the user base. Its ability to automatically update users on the status of their submitted ideas fosters transparency and builds stronger customer relationships. Canny streamlines the entire feedback loop, saving product managers countless hours and reducing the risk of building features that won't resonate. Companies of all sizes, from startups to enterprises, leverage Canny to build better products by listening effectively to their customers.",
+    "imageIdea": "user feedback dashboard interface",
+    "websiteLink": "https://www.canny.io/",
+    "type": "tool",
+    "dateAdded": "2026-05-11",
+    "screenshotUrl": "/screenshots/canny-feedback.webp",
+    "everydayUse": "You're reviewing a pile of customer suggestions for your small business and need to decide which ones to tackle next. You're also planning your vacation and need to hand off ongoing customer requests to a colleague.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-02"
   }
 ]
