@@ -1,40 +1,5 @@
 [
   {
-    "id": 823,
-    "slug": "ark-desktop",
-    "toolName": "Ark (Desktop App)",
-    "seoTitle": "Ark — Digital asset management app",
-    "whatItDoes": "Ark is a desktop application that acts as a central hub for managing your digital assets, such as photos, videos, documents, and creative projects. It provides powerful tools for organizing, tagging, searching, and previewing files across different locations on your computer. Ark employs a freemium model, with advanced features available in paid tiers. Its primary value lies in its ability to create a unified, searchable library of all your digital content, regardless of where it's stored, significantly reducing the time spent hunting for files.",
-    "category": "Productivity",
-    "whyItIsUseful": "Ark transforms the often-chaotic experience of managing digital files into an organized and efficient process. For creatives, researchers, or anyone dealing with a large volume of digital assets, Ark offers a much-needed solution to declutter and streamline. Its intelligent tagging and metadata capabilities allow for incredibly granular searching, making it far superior to standard operating system search functions. The universal preview feature means you can quickly get a sense of any file type without needing to open individual applications. Integrations with cloud storage services further enhance its utility, creating a cohesive digital workspace. Ark saves users significant time and reduces frustration by making every digital asset instantly discoverable and manageable, becoming an indispensable tool for digital organization.",
-    "imageIdea": "digital asset management interface",
-    "websiteLink": "https://arkdesktop.com/",
-    "type": "tool",
-    "dateAdded": "2026-05-11",
-    "everydayUse": "You need to find that vacation photo from last summer to send to your parents. You're sorting through digital files before handing off projects for annual leave. You're trying to locate that article you saved for your Sunday budget review.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 824,
-    "slug": "muse-app",
-    "toolName": "Muse",
-    "seoTitle": "Muse — Visual note-taking and idea board",
-    "whatItDoes": "Muse is a visually oriented note-taking and idea-capture app that uses an infinite canvas. It allows users to combine text, images, drawings, audio, and links in a freeform space, making it ideal for brainstorming, mind mapping, and visual organization. Muse offers a freemium model. It stands out for its intuitive drag-and-drop interface and the ability to freely arrange elements, fostering a more natural and creative approach to capturing and developing ideas than traditional linear note formats.",
-    "category": "Productivity",
-    "whyItIsUseful": "Muse revolutionizes how individuals brainstorm and organize their thoughts by moving beyond the limitations of linear text. Its infinite canvas empowers users to create rich, interconnected boards that mimic the way the brain naturally makes associations. This visual approach is incredibly beneficial for anyone who thinks in a non-linear fashion, such as designers, writers, students, and strategists. The ability to seamlessly integrate various media types – from sketches and photos to web links and audio notes – makes it a dynamic tool for capturing inspiration and developing complex projects. Muse saves time by consolidating disparate ideas into a single, easily navigable visual space, preventing the loss of creative sparks and making the ideation process more enjoyable and productive. Its simplicity and flexibility make it a go-to for those who need to think outside the box.",
-    "imageIdea": "infinite canvas visual brainstorming",
-    "websiteLink": "https://museapp.com/",
-    "type": "tool",
-    "dateAdded": "2026-05-11",
-    "screenshotUrl": "/screenshots/muse-app.webp",
-    "everydayUse": "You need to map out a complex project plan before a major deadline. You're trying to organize all the articles you've saved for research or plan that upcoming group vacation with friends.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 825,
     "slug": "daily-tool-openmythos",
     "toolName": "OpenMythos",
@@ -8566,5 +8531,39 @@
       }
     },
     "screenshotUrl": "/screenshots/dsh-superagent-prototype.webp"
+  },
+  {
+    "id": 1268,
+    "slug": "couchers-social-network",
+    "toolName": "Couchers.org",
+    "seoTitle": "Couchers.org — Decentralized Social Media Platform",
+    "whatItDoes": "Couchers.org is a new, open-source social network designed to give users more control over their data and online interactions. It operates on a federated model, meaning no single entity owns or controls the entire network, fostering a more resilient and privacy-focused experience. The platform is free to use, with development supported by donations and volunteer contributions, aiming to provide a sustainable alternative to commercial social media giants. A key feature is its emphasis on granular privacy controls, allowing users to precisely dictate who sees their content.",
+    "category": "Social",
+    "whyItIsUseful": "This tool offers a refreshing antidote to the data harvesting and algorithmic manipulation prevalent on mainstream social platforms. Its decentralized nature means it's less susceptible to censorship or the whims of a single corporation, fostering a more stable and community-driven environment. Users appreciate the genuine sense of ownership over their digital presence and the absence of intrusive advertising. It's particularly valuable for those seeking authentic connections and discussions without the pressure of constant performance for engagement metrics. The ability to self-host an instance also appeals to technically inclined users who want ultimate control.",
+    "everydayUse": "You'd reach for Couchers.org to share updates with close friends, join niche interest groups, or simply browse content without worrying about your personal data being sold. It’s for meaningful online interactions with people you trust, away from the noise of commercial platforms.",
+    "imageIdea": "social media feed abstract",
+    "websiteLink": "https://couchers.org/",
+    "type": "tool",
+    "dateAdded": "2026-11-04",
+    "signals": {
+      "checkedAt": "2026-11-04"
+    }
+  },
+  {
+    "id": 1269,
+    "slug": "hyperaud-io",
+    "toolName": "HyperAud.io",
+    "seoTitle": "HyperAud.io — Podcast analytics and growth",
+    "whatItDoes": "HyperAud.io is a powerful analytics platform specifically designed for podcasters, offering deep insights into listener behavior and content performance. It provides detailed data on downloads, listener demographics, episode popularity, and audience retention, all presented through an intuitive dashboard. The platform operates on a freemium model, offering a robust free tier for basic analytics and paid plans for advanced features and larger podcasts. It excels at pinpointing exactly where listeners drop off within an episode, a crucial metric for improving content engagement.",
+    "category": "Social",
+    "whyItIsUseful": "For podcasters, understanding audience engagement is paramount to growth, and HyperAud.io delivers this understanding with exceptional clarity. Its ability to track listener journeys, identify popular segments, and analyze demographic breakdowns allows creators to make data-driven decisions about content strategy, episode length, and promotional efforts. Unlike generic analytics tools, HyperAud.io is built with the unique needs of audio content in mind, offering features like cross-platform tracking that aggregate data from various listening apps. This saves podcasters countless hours of manual data compilation and provides actionable insights that can lead to a larger, more engaged audience. Enthusiastic users often praise its user-friendly interface and the depth of actionable data it provides, making it an indispensable tool for anyone serious about their podcast's success.",
+    "everydayUse": "If you host a podcast, you'd check HyperAud.io weekly to see which recent episodes are resonating most, or if a specific topic is drawing in a new demographic. This helps you plan future content that keeps your audience hooked and growing.",
+    "imageIdea": "podcast analytics dashboard",
+    "websiteLink": "https://hyperaud.io/",
+    "type": "tool",
+    "dateAdded": "2026-11-04",
+    "signals": {
+      "checkedAt": "2026-11-04"
+    }
   }
 ]

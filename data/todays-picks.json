@@ -1,19 +1,19 @@
 [
   {
-    "slug": "outcrop-rocks",
-    "title": "Outcrop",
+    "slug": "wikihack",
+    "title": "Wikihack",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Outcrop is a mobile application for iPhone and Android that allows users to learn about the geology of their surrounding",
+    "description": "Wikihack presents Wikipedia articles that have been linked from Hacker News discussions, offering a unique lens into top",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "dsh-superagent-prototype",
-    "title": "DeepSeek SuperAgent Prototype",
+    "slug": "hyperaud-io",
+    "title": "HyperAud.io",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "The DeepSeek SuperAgent Prototype is a research project exploring the development of more autonomous agent systems, prim",
+    "description": "HyperAud.io is a powerful analytics platform specifically designed for podcasters, offering deep insights into listener ",
     "badge": null,
     "type": "tool"
   }
