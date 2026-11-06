@@ -47253,5 +47253,116 @@
       "checkedAt": "2026-10-28"
     },
     "archivedAt": "2026-11-04"
+  },
+  {
+    "id": 764,
+    "slug": "vimwiki-vim-plugin",
+    "name": "Vimwiki",
+    "seoTitle": "Vimwiki — Personal wiki for Vim",
+    "whatItDoes": "Vimwiki is a plugin for the Vim text editor that allows you to create and manage personal wikis directly within Vim. It leverages Vim's powerful editing capabilities to provide a seamless way to link and navigate notes, blog posts, and other personal knowledge fragments. You can write content in plain text or Markdown, create internal links between pages, embed images, and even export your wiki to various formats like HTML. It's designed for users who live in their terminal and want a distraction-free, highly customizable environment for organizing their thoughts and information.",
+    "category": "Productivity",
+    "whyItIsUseful": "For Vim users, Vimwiki offers an unparalleled integrated solution for personal knowledge management. It bypasses the need to switch between different applications for note-taking and writing, keeping everything within a single, familiar interface. The ability to create complex internal linking structures effortlessly, combined with Vim's powerful search and editing commands, makes it incredibly efficient for building and navigating a personal knowledge base. Its extensibility through Vimscript further allows for deep customization. Power users appreciate the plain-text nature of the files, ensuring longevity and portability, and the seamless integration with other Vim tools for project management or code documentation.",
+    "imageIdea": "interconnected nodes inside a computer monitor",
+    "websiteLink": "https://github.com/vimwiki/vimwiki",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-09",
+    "screenshotUrl": "/screenshots/vimwiki-vim-plugin.webp",
+    "everydayUse": "You can jot down meeting notes and quickly link related action items for follow-up. When planning a group trip, you might create a shared page for all itinerary details and contact information. You'll also find it useful for organizing those articles you saved to read later, linking them to relevant projects.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "vimwiki/vimwiki",
+        "stars": 9515,
+        "forks": 647,
+        "archived": false,
+        "pushedAt": "2026-04-30"
+      },
+      "video": {
+        "id": "HbF0yAghbDo",
+        "title": "The Ultimate Note-Taking App is... Vim? (VimWiki)",
+        "channel": "Eric Murphy",
+        "durationSec": 656
+      }
+    },
+    "archivedAt": "2026-11-06"
+  },
+  {
+    "id": 765,
+    "slug": "replit-ai-code-optimizer",
+    "name": "Replit AI Code Optimizer",
+    "seoTitle": "Replit AI Code Optimizer — Refine your code instantly",
+    "whatItDoes": "Replit's AI Code Optimizer is an integrated feature within the Replit online IDE designed to help developers write cleaner, more efficient, and idiomatic code. Leveraging artificial intelligence, it analyzes your code in real-time as you type, suggesting improvements for syntax, logic, performance, and adherence to best practices for the language you're using. It can help identify potential bugs, refactor complex sections into simpler forms, and even suggest more performant algorithms. This tool is for anyone coding on Replit, from beginners learning to structure their programs correctly to experienced developers seeking to polish their work.",
+    "category": "Developer",
+    "whyItIsUseful": "What makes the Replit AI Code Optimizer genuinely useful and often overlooked is its seamless integration into the development workflow. Unlike standalone linters or refactoring tools, it provides immediate feedback directly within the coding environment, preventing issues before they become major problems. It acts like an always-on pair programmer, offering context-aware suggestions that go beyond basic syntax checking. For newer developers, it's an invaluable learning tool, helping them internalize good coding habits. Experienced developers appreciate its ability to quickly suggest optimizations or alternative approaches, saving significant refactoring time and improving the overall quality and maintainability of their projects without requiring them to context-switch to external services.",
+    "imageIdea": "digital brain analyzing code lines",
+    "websiteLink": "https://replit.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-09",
+    "screenshotUrl": "/screenshots/replit-ai-code-optimizer.webp",
+    "everydayUse": "You're trying to finish a small script before a weekend trip and want to make sure it runs smoothly. Or perhaps you're handing off a project to a colleague and want to ensure your code is as clear as possible. You might also be reviewing that collection of articles you saved about code efficiency.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-06"
+  },
+  {
+    "id": 825,
+    "slug": "daily-tool-openmythos",
+    "toolName": "OpenMythos",
+    "seoTitle": "OpenMythos — Reconstructs AI Architecture From Research",
+    "whatItDoes": "OpenMythos is a theoretical reconstruction of the Claude Mythos architecture, built from first principles using available research literature. It aims to demystify the inner workings of advanced AI models by providing a framework that can be understood and experimented with by developers and researchers.  The project is released under an open-source model, fostering community collaboration and advancement in AI understanding.  Its primary function is to serve as an educational and experimental tool for understanding complex AI systems.",
+    "category": "Developer",
+    "whyItIsUseful": "For AI enthusiasts and developers looking to grasp the foundational concepts behind large language models, OpenMythos offers an unparalleled, hands-on approach. Unlike opaque, proprietary AI systems, this tool provides a transparent, code-based exploration of architectural principles, allowing users to learn by doing. Its detailed reconstruction from academic research means it's grounded in solid theoretical understanding.  The Python codebase is accessible for modification and experimentation, making it ideal for students, researchers, and hobbyists who want to delve deeper into AI without needing access to proprietary models. The project's popularity on GitHub, with over 12,000 stars, highlights its significant community interest and perceived value.",
+    "imageIdea": "python code on a laptop screen",
+    "websiteLink": "https://github.com/kyegomez/OpenMythos",
+    "type": "tool",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/daily-tool-openmythos.webp",
+    "everydayUse": "You're trying to understand a complex AI paper you saved months ago, or perhaps you need to explain how a sophisticated AI system might be structured to a colleague before you go on vacation. You're looking for a clear way to conceptualize the underlying mechanics of advanced AI models.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "kyegomez/OpenMythos",
+        "stars": 14906,
+        "forks": 3270,
+        "archived": false,
+        "pushedAt": "2026-05-23",
+        "license": "MIT"
+      },
+      "video": {
+        "id": "ahhwQ8DLud8",
+        "title": "OpenMythos: Open-Source Reconstruction of Anthropic's Mythos",
+        "channel": "Prism Labs",
+        "durationSec": 565
+      }
+    },
+    "archivedAt": "2026-11-06"
+  },
+  {
+    "id": 826,
+    "slug": "daily-tool-browser-harness",
+    "toolName": "browser-harness",
+    "seoTitle": "browser-harness — LLM Browser Automation For Any Task",
+    "whatItDoes": "browser-harness is a self-healing harness designed to empower Large Language Models (LLMs) to complete any task by enabling them to interact with web browsers effectively. It provides a robust framework for LLMs to navigate websites, extract information, and perform actions, overcoming common issues like broken selectors or unexpected page changes through its self-healing capabilities. This open-source Python project aims to bridge the gap between LLM intelligence and real-world web interaction. It operates on a free, open-source model, encouraging broad adoption and contribution.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is a game-changer for developers and researchers looking to leverage LLMs for complex web automation tasks that go beyond simple scraping. The 'self-healing' aspect is crucial, significantly reducing the maintenance overhead typically associated with web automation scripts. Imagine an LLM being able to book flights, fill out forms, or perform customer support tasks on a website autonomously – browser-harness makes this a reality by ensuring the LLM's interactions are resilient to website changes. Its extensive GitHub star count (over 12,000) indicates a strong community recognition of its utility and potential. It's particularly valuable for building AI agents that need to perform multi-step operations across the web.",
+    "imageIdea": "computer screen showing code and browser interface",
+    "websiteLink": "https://github.com/browser-use/browser-harness",
+    "type": "tool",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/daily-tool-browser-harness.webp",
+    "everydayUse": "You need to quickly research the best deals for your upcoming group trip. You also want to find out if that interesting article you bookmarked last week is still relevant before you hand over your projects for annual leave.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "browser-use/browser-harness",
+        "stars": 18678,
+        "forks": 1848,
+        "archived": false,
+        "pushedAt": "2026-10-25",
+        "license": "MIT"
+      }
+    },
+    "archivedAt": "2026-11-06"
   }
 ]

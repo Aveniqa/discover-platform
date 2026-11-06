@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "hnup-sota",
-      "cloudflare-agents",
-      "hallucinopedia-ai-driven-creative-writing-tool",
-      "tilde-run-transactional-agent-sandbox",
-      "templatical-open-source-email-builder",
-      "google-broke-recaptcha-for-de-googled-android-users",
-      "vimwiki-vim-plugin",
-      "replit-ai-code-optimizer",
       "diagrams-as-code-tool",
       "internet-archive-switzerland",
       "let-go-clojure-go-lang",
-      "trust-rust-1989"
+      "trust-rust-1989",
+      "ymawky-assembly-web-server",
+      "project-jupyter",
+      "rust-but-lisp",
+      "ratty-terminal-emulator",
+      "mindmapping-mind-gardener",
+      "code-documentation-doc-without-code",
+      "screenshots-of-old-desktop-oses",
+      "graphics-graphic"
     ]
   },
   {
@@ -45,18 +45,18 @@
     "description": "The smartest tools using artificial intelligence to supercharge your workflow.",
     "emoji": "🤖",
     "itemSlugs": [
-      "hnup-sota",
-      "cloudflare-agents",
-      "hallucinopedia-ai-driven-creative-writing-tool",
-      "tilde-run-transactional-agent-sandbox",
-      "templatical-open-source-email-builder",
-      "google-broke-recaptcha-for-de-googled-android-users",
-      "vimwiki-vim-plugin",
-      "replit-ai-code-optimizer",
       "internet-archive-switzerland",
       "let-go-clojure-go-lang",
       "trust-rust-1989",
-      "project-jupyter"
+      "project-jupyter",
+      "rust-but-lisp",
+      "ratty-terminal-emulator",
+      "mindmapping-mind-gardener",
+      "code-documentation-doc-without-code",
+      "screenshots-of-old-desktop-oses",
+      "graphics-graphic",
+      "zen-writing-app",
+      "color-contrast-checker"
     ]
   },
   {

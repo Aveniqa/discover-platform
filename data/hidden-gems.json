@@ -1,54 +1,5 @@
 [
   {
-    "id": 764,
-    "slug": "vimwiki-vim-plugin",
-    "name": "Vimwiki",
-    "seoTitle": "Vimwiki — Personal wiki for Vim",
-    "whatItDoes": "Vimwiki is a plugin for the Vim text editor that allows you to create and manage personal wikis directly within Vim. It leverages Vim's powerful editing capabilities to provide a seamless way to link and navigate notes, blog posts, and other personal knowledge fragments. You can write content in plain text or Markdown, create internal links between pages, embed images, and even export your wiki to various formats like HTML. It's designed for users who live in their terminal and want a distraction-free, highly customizable environment for organizing their thoughts and information.",
-    "category": "Productivity",
-    "whyItIsUseful": "For Vim users, Vimwiki offers an unparalleled integrated solution for personal knowledge management. It bypasses the need to switch between different applications for note-taking and writing, keeping everything within a single, familiar interface. The ability to create complex internal linking structures effortlessly, combined with Vim's powerful search and editing commands, makes it incredibly efficient for building and navigating a personal knowledge base. Its extensibility through Vimscript further allows for deep customization. Power users appreciate the plain-text nature of the files, ensuring longevity and portability, and the seamless integration with other Vim tools for project management or code documentation.",
-    "imageIdea": "interconnected nodes inside a computer monitor",
-    "websiteLink": "https://github.com/vimwiki/vimwiki",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-09",
-    "screenshotUrl": "/screenshots/vimwiki-vim-plugin.webp",
-    "everydayUse": "You can jot down meeting notes and quickly link related action items for follow-up. When planning a group trip, you might create a shared page for all itinerary details and contact information. You'll also find it useful for organizing those articles you saved to read later, linking them to relevant projects.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "vimwiki/vimwiki",
-        "stars": 9515,
-        "forks": 647,
-        "archived": false,
-        "pushedAt": "2026-04-30"
-      },
-      "video": {
-        "id": "HbF0yAghbDo",
-        "title": "The Ultimate Note-Taking App is... Vim? (VimWiki)",
-        "channel": "Eric Murphy",
-        "durationSec": 656
-      }
-    }
-  },
-  {
-    "id": 765,
-    "slug": "replit-ai-code-optimizer",
-    "name": "Replit AI Code Optimizer",
-    "seoTitle": "Replit AI Code Optimizer — Refine your code instantly",
-    "whatItDoes": "Replit's AI Code Optimizer is an integrated feature within the Replit online IDE designed to help developers write cleaner, more efficient, and idiomatic code. Leveraging artificial intelligence, it analyzes your code in real-time as you type, suggesting improvements for syntax, logic, performance, and adherence to best practices for the language you're using. It can help identify potential bugs, refactor complex sections into simpler forms, and even suggest more performant algorithms. This tool is for anyone coding on Replit, from beginners learning to structure their programs correctly to experienced developers seeking to polish their work.",
-    "category": "Developer",
-    "whyItIsUseful": "What makes the Replit AI Code Optimizer genuinely useful and often overlooked is its seamless integration into the development workflow. Unlike standalone linters or refactoring tools, it provides immediate feedback directly within the coding environment, preventing issues before they become major problems. It acts like an always-on pair programmer, offering context-aware suggestions that go beyond basic syntax checking. For newer developers, it's an invaluable learning tool, helping them internalize good coding habits. Experienced developers appreciate its ability to quickly suggest optimizations or alternative approaches, saving significant refactoring time and improving the overall quality and maintainability of their projects without requiring them to context-switch to external services.",
-    "imageIdea": "digital brain analyzing code lines",
-    "websiteLink": "https://replit.com/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-09",
-    "screenshotUrl": "/screenshots/replit-ai-code-optimizer.webp",
-    "everydayUse": "You're trying to finish a small script before a weekend trip and want to make sure it runs smoothly. Or perhaps you're handing off a project to a colleague and want to ensure your code is as clear as possible. You might also be reviewing that collection of articles you saved about code efficiency.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 766,
     "slug": "diagrams-as-code-tool",
     "name": "Diagrams: Code for Visuals",
@@ -7577,6 +7528,47 @@
     "dateAdded": "2026-11-04",
     "signals": {
       "checkedAt": "2026-11-04"
+    }
+  },
+  {
+    "id": 1233,
+    "slug": "omnidiff",
+    "name": "OmniDiff",
+    "seoTitle": "OmniDiff — Fast Content-Aware Git Diff",
+    "whatItDoes": "OmniDiff is an open-source, exceptionally fast, and content-aware Git difftool built with Rust. It aims to provide more accurate and efficient diffing for various file types, including code, images, fonts, and even PDFs, by employing specialized algorithms for each. This tool is designed for developers and anyone who frequently works with version control systems and needs to understand changes with high precision.",
+    "category": "Developer",
+    "whyItIsUseful": "Unlike standard Git diff tools that often provide noisy or less informative comparisons, OmniDiff's content-aware approach means it understands the structure and nature of different file formats. This results in significantly cleaner and more meaningful diffs, especially for complex files like images or configuration files where simple line-by-line comparisons fall short. Developers who value precision and speed in their version control workflow will find OmniDiff invaluable, reducing the time spent deciphering changes and minimizing the risk of overlooking critical modifications. Its focus on accuracy across diverse file types makes it a superior choice for projects involving mixed media or complex data formats.",
+    "everydayUse": "When reviewing a pull request with complex code changes or comparing different versions of an image, you can quickly see precisely what has been altered. It helps you confidently merge updates or identify subtle issues before they become problems, ensuring your project stays on track.",
+    "imageIdea": "magnifying glass over code",
+    "websiteLink": "https://github.com/ivankovic/omnidiff",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-06",
+    "signals": {
+      "checkedAt": "2026-11-06",
+      "github": {
+        "repo": "ivankovic/omnidiff",
+        "stars": 1163,
+        "forks": 28,
+        "archived": false,
+        "pushedAt": "2026-11-06"
+      }
+    }
+  },
+  {
+    "id": 1234,
+    "slug": "syscall-sh",
+    "name": "Linux System Call Tables",
+    "seoTitle": "Linux Syscall Tables — All Architectures",
+    "whatItDoes": "Linux System Call Tables by Architecture, or syscall.sh, provides a comprehensive and organized reference for Linux system calls. It lists calls for numerous architectures, including x64, ARM, and RISC-V, across various Linux kernel versions. For each system call, it details its number, arguments, and registers, making it an indispensable resource for system-level programming, debugging, and understanding kernel interactions.",
+    "category": "Developer",
+    "whyItIsUseful": "This website offers a level of detail and breadth that is hard to find in a single, easily accessible location. Mainstream developers might rely on man pages or kernel documentation, which can be dense and fragmented. Syscall.sh consolidates this information, presenting it in a clear, searchable format grouped by architecture and kernel version. This is crucial for developers working on cross-platform Linux applications, embedded systems, or anyone needing to interact directly with the kernel. Its accuracy and the inclusion of historical versions make it a powerful tool for understanding how system calls have evolved, a feature often overlooked but vital for long-term software maintenance and optimization.",
+    "everydayUse": "While debugging a low-level issue in a Linux application, you might use this site to quickly look up the exact arguments and return values for a specific syscall. This saves you from sifting through lengthy documentation, allowing you to pinpoint the problem faster.",
+    "imageIdea": "circuit board with glowing lines",
+    "websiteLink": "https://syscall.sh/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-06",
+    "signals": {
+      "checkedAt": "2026-11-06"
     }
   }
 ]

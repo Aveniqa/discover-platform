@@ -1,63 +1,5 @@
 [
   {
-    "id": 825,
-    "slug": "daily-tool-openmythos",
-    "toolName": "OpenMythos",
-    "seoTitle": "OpenMythos — Reconstructs AI Architecture From Research",
-    "whatItDoes": "OpenMythos is a theoretical reconstruction of the Claude Mythos architecture, built from first principles using available research literature. It aims to demystify the inner workings of advanced AI models by providing a framework that can be understood and experimented with by developers and researchers.  The project is released under an open-source model, fostering community collaboration and advancement in AI understanding.  Its primary function is to serve as an educational and experimental tool for understanding complex AI systems.",
-    "category": "Developer",
-    "whyItIsUseful": "For AI enthusiasts and developers looking to grasp the foundational concepts behind large language models, OpenMythos offers an unparalleled, hands-on approach. Unlike opaque, proprietary AI systems, this tool provides a transparent, code-based exploration of architectural principles, allowing users to learn by doing. Its detailed reconstruction from academic research means it's grounded in solid theoretical understanding.  The Python codebase is accessible for modification and experimentation, making it ideal for students, researchers, and hobbyists who want to delve deeper into AI without needing access to proprietary models. The project's popularity on GitHub, with over 12,000 stars, highlights its significant community interest and perceived value.",
-    "imageIdea": "python code on a laptop screen",
-    "websiteLink": "https://github.com/kyegomez/OpenMythos",
-    "type": "tool",
-    "dateAdded": "2026-05-12",
-    "screenshotUrl": "/screenshots/daily-tool-openmythos.webp",
-    "everydayUse": "You're trying to understand a complex AI paper you saved months ago, or perhaps you need to explain how a sophisticated AI system might be structured to a colleague before you go on vacation. You're looking for a clear way to conceptualize the underlying mechanics of advanced AI models.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "kyegomez/OpenMythos",
-        "stars": 14906,
-        "forks": 3270,
-        "archived": false,
-        "pushedAt": "2026-05-23",
-        "license": "MIT"
-      },
-      "video": {
-        "id": "ahhwQ8DLud8",
-        "title": "OpenMythos: Open-Source Reconstruction of Anthropic's Mythos",
-        "channel": "Prism Labs",
-        "durationSec": 565
-      }
-    }
-  },
-  {
-    "id": 826,
-    "slug": "daily-tool-browser-harness",
-    "toolName": "browser-harness",
-    "seoTitle": "browser-harness — LLM Browser Automation For Any Task",
-    "whatItDoes": "browser-harness is a self-healing harness designed to empower Large Language Models (LLMs) to complete any task by enabling them to interact with web browsers effectively. It provides a robust framework for LLMs to navigate websites, extract information, and perform actions, overcoming common issues like broken selectors or unexpected page changes through its self-healing capabilities. This open-source Python project aims to bridge the gap between LLM intelligence and real-world web interaction. It operates on a free, open-source model, encouraging broad adoption and contribution.",
-    "category": "Developer",
-    "whyItIsUseful": "This tool is a game-changer for developers and researchers looking to leverage LLMs for complex web automation tasks that go beyond simple scraping. The 'self-healing' aspect is crucial, significantly reducing the maintenance overhead typically associated with web automation scripts. Imagine an LLM being able to book flights, fill out forms, or perform customer support tasks on a website autonomously – browser-harness makes this a reality by ensuring the LLM's interactions are resilient to website changes. Its extensive GitHub star count (over 12,000) indicates a strong community recognition of its utility and potential. It's particularly valuable for building AI agents that need to perform multi-step operations across the web.",
-    "imageIdea": "computer screen showing code and browser interface",
-    "websiteLink": "https://github.com/browser-use/browser-harness",
-    "type": "tool",
-    "dateAdded": "2026-05-12",
-    "screenshotUrl": "/screenshots/daily-tool-browser-harness.webp",
-    "everydayUse": "You need to quickly research the best deals for your upcoming group trip. You also want to find out if that interesting article you bookmarked last week is still relevant before you hand over your projects for annual leave.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "browser-use/browser-harness",
-        "stars": 18678,
-        "forks": 1848,
-        "archived": false,
-        "pushedAt": "2026-10-25",
-        "license": "MIT"
-      }
-    }
-  },
-  {
     "id": 827,
     "slug": "daily-tool-lingbot-map",
     "toolName": "lingbot-map",
@@ -8564,6 +8506,56 @@
     "dateAdded": "2026-11-04",
     "signals": {
       "checkedAt": "2026-11-04"
+    }
+  },
+  {
+    "id": 1270,
+    "slug": "dsh-go",
+    "toolName": "dsh-Go",
+    "seoTitle": "dsh-Go — Mobile Computer Remote Control",
+    "whatItDoes": "dsh-Go is an Android client for DeepSeek Harness, allowing you to run and control your computer's DeepSeek Harness instance directly from your mobile device. It provides a convenient way to manage your computational tasks remotely. This tool is free to use. It excels at offering on-the-go access to your powerful computing resources without needing to be physically at your desk.",
+    "category": "Productivity",
+    "whyItIsUseful": "This tool is a game-changer for users who need constant access to their development or computational environments. Imagine needing to check on a long-running process, deploy a quick update, or simply control your desktop while on the move – dsh-Go makes it possible. Its integration with DeepSeek Harness means you're not just remotely controlling your screen, but interacting with a powerful AI development framework. Enthusiastic users praise its seamless performance and the freedom it offers, transforming your phone into a powerful command center. Developers, data scientists, and anyone managing remote computing tasks will find immense value in this application.",
+    "everydayUse": "You're out for lunch and remember a crucial command you need to run on your desktop. Instead of waiting until you're back, you pull out your phone, open dsh-Go, and execute it in seconds. Later, while commuting, you can monitor the progress of a render or a data analysis job without being tied to your workstation.",
+    "imageIdea": "android phone controlling laptop screen",
+    "websiteLink": "https://github.com/ccch1mneyyy/dsh-Go",
+    "type": "tool",
+    "dateAdded": "2026-11-06",
+    "signals": {
+      "checkedAt": "2026-11-06",
+      "github": {
+        "repo": "ccch1mneyyy/dsh-Go",
+        "stars": 12828,
+        "forks": 585,
+        "archived": false,
+        "pushedAt": "2026-11-06",
+        "license": "AGPL-3.0"
+      }
+    }
+  },
+  {
+    "id": 1271,
+    "slug": "unslop",
+    "toolName": "unslop",
+    "seoTitle": "unslop — AI UI to Designed Interface",
+    "whatItDoes": "unslop is a specialized Claude Code and Codex skill designed to transform AI-generated, often messy 'vibecoded' user interfaces into polished, designed interfaces. It intelligently identifies and removes common AI UI 'slop'—like excessive gradients, glows, emoji clutter, and inconsistent spacing—and applies design principles to create a cohesive look. This tool is free. Its strength lies in its ability to interpret your product's intent and meticulously refine UI elements, pass by pass, much like a human designer.",
+    "category": "Design",
+    "whyItIsUseful": "In the age of rapid AI-powered design generation, unslop bridges the gap between quick mockups and professional, user-friendly interfaces. It saves designers and developers significant time by automating the tedious process of cleaning up AI-generated UI. It works seamlessly with various frameworks like Next.js, React, Vue, Svelte, and plain HTML/CSS, making it incredibly versatile. Users appreciate its ability to imbue AI designs with character and polish, making dashboards, apps, and landing pages look truly professional. It's an essential tool for anyone leveraging AI for UI design who needs to ensure a high-quality final product.",
+    "everydayUse": "You've used an AI tool to quickly generate a dashboard mockup. Before presenting it, you run it through unslop to remove the garish gradients and uneven spacing. The result is a sleek, professional interface that perfectly reflects your brand's aesthetic, ready for stakeholder review.",
+    "imageIdea": "clean ui interface redesign",
+    "websiteLink": "https://github.com/heydamir/unslop",
+    "type": "tool",
+    "dateAdded": "2026-11-06",
+    "signals": {
+      "checkedAt": "2026-11-06",
+      "github": {
+        "repo": "heydamir/unslop",
+        "stars": 10597,
+        "forks": 576,
+        "archived": false,
+        "pushedAt": "2026-11-01",
+        "license": "CC-BY-4.0"
+      }
     }
   }
 ]

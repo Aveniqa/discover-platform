@@ -1,19 +1,19 @@
 [
   {
-    "slug": "wikihack",
-    "title": "Wikihack",
+    "slug": "syscall-sh",
+    "title": "Linux System Call Tables",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Wikihack presents Wikipedia articles that have been linked from Hacker News discussions, offering a unique lens into top",
+    "description": "Linux System Call Tables by Architecture, or syscall.sh, provides a comprehensive and organized reference for Linux syst",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "hyperaud-io",
-    "title": "HyperAud.io",
+    "slug": "unslop",
+    "title": "unslop",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "HyperAud.io is a powerful analytics platform specifically designed for podcasters, offering deep insights into listener ",
+    "description": "unslop is a specialized Claude Code and Codex skill designed to transform AI-generated, often messy 'vibecoded' user int",
     "badge": null,
     "type": "tool"
   }
