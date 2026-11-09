@@ -47364,5 +47364,103 @@
       }
     },
     "archivedAt": "2026-11-06"
+  },
+  {
+    "id": 766,
+    "slug": "diagrams-as-code-tool",
+    "name": "Diagrams: Code for Visuals",
+    "seoTitle": "Diagrams — Infrastructure diagrams as code",
+    "whatItDoes": "Diagrams is a Python library that allows you to programmatically create cloud system architecture diagrams. Instead of manually dragging and dropping shapes in a GUI tool, you write Python code to define your infrastructure, and Diagrams generates the visual representation. It supports a wide range of cloud providers and services, making it incredibly useful for documenting complex systems. Developers and architects can use it to version control their diagrams, automatically update them with infrastructure changes, and integrate diagram generation into CI/CD pipelines.",
+    "category": "Developer",
+    "whyItIsUseful": "For anyone who has struggled with keeping architectural diagrams up-to-date or has faced the tediousness of manual drawing tools, Diagrams is a revelation. It treats infrastructure diagrams as code, which means they can be version-controlled, reviewed, and automated just like any other piece of software. This approach ensures accuracy and consistency, especially in dynamic cloud environments. It's a fantastic tool for teams to collaboratively define and document their systems, ensuring that the documentation always reflects the reality of the infrastructure. Developers who appreciate automation and the 'infrastructure as code' philosophy will find immense value in this library.",
+    "imageIdea": "python code generating cloud icons",
+    "websiteLink": "https://diagrams.mingrammer.com",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-09",
+    "screenshotUrl": "/screenshots/diagrams-as-code-tool.webp",
+    "everydayUse": "You need to quickly sketch out the system you're proposing for a new project, or show your team how a recent change impacts the existing infrastructure. It's also helpful when you're preparing to hand off responsibilities to a colleague before a vacation.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-09"
+  },
+  {
+    "id": 767,
+    "slug": "internet-archive-switzerland",
+    "name": "Internet Archive Switzerland",
+    "seoTitle": "Internet Archive Switzerland — Global Knowledge Preservation",
+    "whatItDoes": "The Internet Archive has announced the establishment of a new data center in Switzerland, marking a significant expansion of its global mission to preserve digital knowledge. This move is a direct response to growing concerns about data sovereignty and the long-term accessibility of digital archives. The Swiss facility will host a duplicate copy of the Internet Archive's vast collection, ensuring redundancy and resilience against potential censorship or data loss in other locations. This initiative is crucial for safeguarding cultural heritage, research data, and historical web content for future generations.",
+    "category": "Reference",
+    "whyItIsUseful": "This initiative is a vital, yet often overlooked, effort in ensuring the permanence of our digital history. While many users are familiar with the Internet Archive's Wayback Machine, the establishment of regional data centers like this Switzerland hub signifies a more robust, decentralized approach to preservation. It's a proactive measure against potential geopolitical risks and data access challenges. For researchers, historians, archivists, and anyone concerned about digital preservation, this expansion is a testament to the Internet Archive's commitment to its mission. It offers a layer of security and accessibility that is increasingly important in our data-driven world, making the vast repository of human knowledge more resilient than ever.",
+    "imageIdea": "server racks in a data center",
+    "websiteLink": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/internet-archive-switzerland.webp",
+    "everydayUse": "You might need this if you're trying to find a specific historical news article for a school project or want to revisit an old website you loved as a kid. It's also useful for accessing out-of-print books or checking if a digital resource is still available when its original source is gone.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-09"
+  },
+  {
+    "id": 827,
+    "slug": "daily-tool-lingbot-map",
+    "toolName": "lingbot-map",
+    "seoTitle": "lingbot-map — 3D Scene Reconstruction From Streaming Data",
+    "whatItDoes": "lingbot-map is a sophisticated feed-forward 3D foundation model designed for reconstructing complex scenes from streaming data. It excels at taking continuous inputs, such as from sensors or video feeds, and building a coherent, three-dimensional representation of the environment in real-time. This Python-based project focuses on efficiency and accuracy, making it suitable for applications in robotics, augmented reality, and autonomous systems where understanding spatial context is paramount. The project is open-source, promoting accessibility and further development.",
+    "category": "Developer",
+    "whyItIsUseful": "For anyone working with spatial computing, robotics, or advanced sensor data, lingbot-map offers a powerful and efficient solution for real-time 3D scene understanding. Its ability to process streaming data means it can continuously update its understanding of an environment, which is critical for dynamic situations like a robot navigating a moving space or an AR application overlaying virtual objects onto a changing real world. The 'foundation model' aspect suggests it can be adapted and fine-tuned for specific tasks, offering a versatile starting point. The high star count on GitHub (over 6,000) reflects its significant impact and interest within the computer vision and robotics communities. It allows for the creation of more intelligent and context-aware AI systems.",
+    "imageIdea": "3d rendering of a cityscape",
+    "websiteLink": "https://github.com/Robbyant/lingbot-map",
+    "type": "tool",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/daily-tool-lingbot-map.webp",
+    "everydayUse": "You might use it to quickly map out a new hiking trail from your phone's GPS data to share with friends. Or, if you're setting up a home security system, you could use it to create a real-time 3D model of your property.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "Robbyant/lingbot-map",
+        "stars": 18419,
+        "forks": 1958,
+        "archived": false,
+        "pushedAt": "2026-10-14",
+        "license": "Apache-2.0"
+      }
+    },
+    "archivedAt": "2026-11-09"
+  },
+  {
+    "id": 828,
+    "slug": "todo-txt",
+    "toolName": "Todo.txt",
+    "seoTitle": "Todo.txt — Simple Command-Line To-Do List Manager",
+    "whatItDoes": "Todo.txt is a minimalist, command-line-based to-do list manager that emphasizes simplicity and portability. It allows users to manage tasks using a plain text file, making it accessible from virtually any device or operating system. Tasks can be organized using contexts (e.g., @work) and projects (e.g., +home), with support for due dates, priorities, and recurring tasks. The tool is free and open-source, with a philosophy of keeping the core functionality lightweight and easy to understand.",
+    "category": "Productivity",
+    "whyItIsUseful": "Todo.txt offers a refreshing alternative to feature-heavy to-do apps by providing a highly efficient and flexible way to manage tasks for those who are comfortable with the command line. Its strength lies in its simplicity and the fact that all your tasks are stored in a single, human-readable text file. This means your data is incredibly portable and future-proof; you can open your to-do list with any text editor or use various companion apps and plugins that interface with the .txt file. For developers, system administrators, or anyone who spends a lot of time in a terminal, Todo.txt seamlessly integrates into their existing workflow without requiring a separate GUI application. It saves time by allowing rapid task entry and manipulation via keyboard commands, and its open-source nature ensures it remains free and adaptable.",
+    "imageIdea": "terminal window with a to-do list",
+    "websiteLink": "https://github.com/todotxt/todo.txt",
+    "type": "tool",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/todo-txt.webp",
+    "everydayUse": "You need to track grocery items for your weekly shop. You're juggling multiple client requests and need to note down actionable items for each before a team meeting. You want to bookmark articles to read later without losing them in browser tabs.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "todotxt/todo.txt",
+        "stars": 3436,
+        "forks": 135,
+        "archived": false,
+        "pushedAt": "2026-06-28",
+        "license": "GPL-3.0"
+      },
+      "video": {
+        "id": "rm12kDVM1ps",
+        "title": "Todo.txt - Todo List Manager - Linux CLI",
+        "channel": "gotbletu",
+        "durationSec": 713
+      }
+    },
+    "archivedAt": "2026-11-09"
   }
 ]

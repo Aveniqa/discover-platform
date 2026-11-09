@@ -1,63 +1,5 @@
 [
   {
-    "id": 827,
-    "slug": "daily-tool-lingbot-map",
-    "toolName": "lingbot-map",
-    "seoTitle": "lingbot-map — 3D Scene Reconstruction From Streaming Data",
-    "whatItDoes": "lingbot-map is a sophisticated feed-forward 3D foundation model designed for reconstructing complex scenes from streaming data. It excels at taking continuous inputs, such as from sensors or video feeds, and building a coherent, three-dimensional representation of the environment in real-time. This Python-based project focuses on efficiency and accuracy, making it suitable for applications in robotics, augmented reality, and autonomous systems where understanding spatial context is paramount. The project is open-source, promoting accessibility and further development.",
-    "category": "Developer",
-    "whyItIsUseful": "For anyone working with spatial computing, robotics, or advanced sensor data, lingbot-map offers a powerful and efficient solution for real-time 3D scene understanding. Its ability to process streaming data means it can continuously update its understanding of an environment, which is critical for dynamic situations like a robot navigating a moving space or an AR application overlaying virtual objects onto a changing real world. The 'foundation model' aspect suggests it can be adapted and fine-tuned for specific tasks, offering a versatile starting point. The high star count on GitHub (over 6,000) reflects its significant impact and interest within the computer vision and robotics communities. It allows for the creation of more intelligent and context-aware AI systems.",
-    "imageIdea": "3d rendering of a cityscape",
-    "websiteLink": "https://github.com/Robbyant/lingbot-map",
-    "type": "tool",
-    "dateAdded": "2026-05-12",
-    "screenshotUrl": "/screenshots/daily-tool-lingbot-map.webp",
-    "everydayUse": "You might use it to quickly map out a new hiking trail from your phone's GPS data to share with friends. Or, if you're setting up a home security system, you could use it to create a real-time 3D model of your property.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "Robbyant/lingbot-map",
-        "stars": 18419,
-        "forks": 1958,
-        "archived": false,
-        "pushedAt": "2026-10-14",
-        "license": "Apache-2.0"
-      }
-    }
-  },
-  {
-    "id": 828,
-    "slug": "todo-txt",
-    "toolName": "Todo.txt",
-    "seoTitle": "Todo.txt — Simple Command-Line To-Do List Manager",
-    "whatItDoes": "Todo.txt is a minimalist, command-line-based to-do list manager that emphasizes simplicity and portability. It allows users to manage tasks using a plain text file, making it accessible from virtually any device or operating system. Tasks can be organized using contexts (e.g., @work) and projects (e.g., +home), with support for due dates, priorities, and recurring tasks. The tool is free and open-source, with a philosophy of keeping the core functionality lightweight and easy to understand.",
-    "category": "Productivity",
-    "whyItIsUseful": "Todo.txt offers a refreshing alternative to feature-heavy to-do apps by providing a highly efficient and flexible way to manage tasks for those who are comfortable with the command line. Its strength lies in its simplicity and the fact that all your tasks are stored in a single, human-readable text file. This means your data is incredibly portable and future-proof; you can open your to-do list with any text editor or use various companion apps and plugins that interface with the .txt file. For developers, system administrators, or anyone who spends a lot of time in a terminal, Todo.txt seamlessly integrates into their existing workflow without requiring a separate GUI application. It saves time by allowing rapid task entry and manipulation via keyboard commands, and its open-source nature ensures it remains free and adaptable.",
-    "imageIdea": "terminal window with a to-do list",
-    "websiteLink": "https://github.com/todotxt/todo.txt",
-    "type": "tool",
-    "dateAdded": "2026-05-12",
-    "screenshotUrl": "/screenshots/todo-txt.webp",
-    "everydayUse": "You need to track grocery items for your weekly shop. You're juggling multiple client requests and need to note down actionable items for each before a team meeting. You want to bookmark articles to read later without losing them in browser tabs.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "todotxt/todo.txt",
-        "stars": 3436,
-        "forks": 135,
-        "archived": false,
-        "pushedAt": "2026-06-28",
-        "license": "GPL-3.0"
-      },
-      "video": {
-        "id": "rm12kDVM1ps",
-        "title": "Todo.txt - Todo List Manager - Linux CLI",
-        "channel": "gotbletu",
-        "durationSec": 713
-      }
-    }
-  },
-  {
     "id": 829,
     "slug": "superhuman-email",
     "toolName": "Superhuman",
@@ -8489,7 +8431,8 @@
     "dateAdded": "2026-11-04",
     "signals": {
       "checkedAt": "2026-11-04"
-    }
+    },
+    "screenshotUrl": "/screenshots/couchers-social-network.webp"
   },
   {
     "id": 1269,
@@ -8506,7 +8449,8 @@
     "dateAdded": "2026-11-04",
     "signals": {
       "checkedAt": "2026-11-04"
-    }
+    },
+    "screenshotUrl": "/screenshots/hyperaud-io.webp"
   },
   {
     "id": 1270,
@@ -8531,7 +8475,8 @@
         "pushedAt": "2026-11-06",
         "license": "AGPL-3.0"
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/dsh-go.webp"
   },
   {
     "id": 1271,
@@ -8556,6 +8501,56 @@
         "pushedAt": "2026-11-01",
         "license": "CC-BY-4.0"
       }
+    },
+    "screenshotUrl": "/screenshots/unslop.webp"
+  },
+  {
+    "id": 1272,
+    "slug": "openidea",
+    "toolName": "openidea",
+    "seoTitle": "openidea — Rust-powered IDE for Developers",
+    "whatItDoes": "OpenIDEA is a native desktop IDE built in Rust, aiming to replicate the familiar IntelliJ IDEA workflow for developers. It offers an IntelliJ IDEA-style keymap, tool windows, and the powerful 'search everywhere' functionality, all within a fast, native application. Beyond the editor, it includes code insight, a debugger, Git integration, a terminal, and database and HTTP clients, supporting over 60 languages. It's a free and open-source project focused on delivering a premium IDE experience with excellent performance.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers accustomed to the robust feature set and intuitive navigation of IntelliJ IDEA, OpenIDEA presents a compelling alternative. Its native Rust implementation promises significant performance gains, reducing lag and improving responsiveness, especially with large projects. The faithful replication of keybindings and UI elements means a minimal learning curve for existing IDEA users. It's particularly useful for those who appreciate the deep integration of tools like Git, debuggers, and database clients within a single application, streamlining complex development tasks. Enthusiast users praise its potential to become a high-performance, open-source powerhouse for serious coding.",
+    "everydayUse": "When you're diving into a new coding project or need to quickly navigate complex codebases, OpenIDEA offers a familiar yet speedier environment. Its integrated tools mean you can debug, commit code, and query databases without switching between multiple applications, making your development cycle more efficient.",
+    "imageIdea": "developer coding on a laptop",
+    "websiteLink": "https://github.com/l0ng-ai/openidea",
+    "type": "tool",
+    "dateAdded": "2026-11-09",
+    "signals": {
+      "checkedAt": "2026-11-09",
+      "github": {
+        "repo": "l0ng-ai/openidea",
+        "stars": 8148,
+        "forks": 707,
+        "archived": false,
+        "pushedAt": "2026-11-09",
+        "license": "Apache-2.0"
+      },
+      "video": {
+        "id": "moLLxyFw3hw",
+        "title": "OpenIDEA GitHub Explained: Native Rust IDE Architecture and Memory Trade-offs",
+        "channel": "Alex Hitt",
+        "durationSec": 454
+      }
+    },
+    "screenshotUrl": "/screenshots/openidea.webp"
+  },
+  {
+    "id": 1273,
+    "slug": "quoteblaze",
+    "toolName": "Quoteblaze",
+    "seoTitle": "Quoteblaze — AI for Writing Quotes",
+    "whatItDoes": "Quoteblaze is an AI-powered tool designed to help writers generate compelling quotes and impactful text snippets. It analyzes your input and can suggest variations, rephrasings, and entirely new quotes that capture a specific tone or message. This freemium tool is particularly useful for content creators, marketers, and anyone looking to enhance their writing with memorable phrases. It excels at quickly producing multiple quote options for social media posts, blog intros, or even creative writing.",
+    "category": "Writing",
+    "whyItIsUseful": "Quoteblaze can significantly speed up the creative process when you're stuck trying to find the perfect words. Its AI understands nuance and can offer unexpected but effective turns of phrase, saving hours of brainstorming. For social media managers, it’s a goldmine for generating engaging captions and tweet ideas. Bloggers can use it to craft catchy headlines and introductory sentences that hook readers instantly. Users often report a boost in their content's memorability and shareability thanks to the unique quotes it generates, making it an invaluable asset for anyone whose livelihood depends on effective communication.",
+    "everydayUse": "You’re drafting a social media post and need a punchy quote to accompany an image. Instead of staring at a blank screen, you can use Quoteblaze to generate several options in seconds, saving you time and boosting engagement.",
+    "imageIdea": "ai robot writing on a notepad",
+    "websiteLink": "https://quoteblaze.com/",
+    "type": "tool",
+    "dateAdded": "2026-11-09",
+    "signals": {
+      "checkedAt": "2026-11-09"
     }
   }
 ]

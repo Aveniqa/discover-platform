@@ -1,41 +1,5 @@
 [
   {
-    "id": 766,
-    "slug": "diagrams-as-code-tool",
-    "name": "Diagrams: Code for Visuals",
-    "seoTitle": "Diagrams — Infrastructure diagrams as code",
-    "whatItDoes": "Diagrams is a Python library that allows you to programmatically create cloud system architecture diagrams. Instead of manually dragging and dropping shapes in a GUI tool, you write Python code to define your infrastructure, and Diagrams generates the visual representation. It supports a wide range of cloud providers and services, making it incredibly useful for documenting complex systems. Developers and architects can use it to version control their diagrams, automatically update them with infrastructure changes, and integrate diagram generation into CI/CD pipelines.",
-    "category": "Developer",
-    "whyItIsUseful": "For anyone who has struggled with keeping architectural diagrams up-to-date or has faced the tediousness of manual drawing tools, Diagrams is a revelation. It treats infrastructure diagrams as code, which means they can be version-controlled, reviewed, and automated just like any other piece of software. This approach ensures accuracy and consistency, especially in dynamic cloud environments. It's a fantastic tool for teams to collaboratively define and document their systems, ensuring that the documentation always reflects the reality of the infrastructure. Developers who appreciate automation and the 'infrastructure as code' philosophy will find immense value in this library.",
-    "imageIdea": "python code generating cloud icons",
-    "websiteLink": "https://diagrams.mingrammer.com",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-09",
-    "screenshotUrl": "/screenshots/diagrams-as-code-tool.webp",
-    "everydayUse": "You need to quickly sketch out the system you're proposing for a new project, or show your team how a recent change impacts the existing infrastructure. It's also helpful when you're preparing to hand off responsibilities to a colleague before a vacation.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 767,
-    "slug": "internet-archive-switzerland",
-    "name": "Internet Archive Switzerland",
-    "seoTitle": "Internet Archive Switzerland — Global Knowledge Preservation",
-    "whatItDoes": "The Internet Archive has announced the establishment of a new data center in Switzerland, marking a significant expansion of its global mission to preserve digital knowledge. This move is a direct response to growing concerns about data sovereignty and the long-term accessibility of digital archives. The Swiss facility will host a duplicate copy of the Internet Archive's vast collection, ensuring redundancy and resilience against potential censorship or data loss in other locations. This initiative is crucial for safeguarding cultural heritage, research data, and historical web content for future generations.",
-    "category": "Reference",
-    "whyItIsUseful": "This initiative is a vital, yet often overlooked, effort in ensuring the permanence of our digital history. While many users are familiar with the Internet Archive's Wayback Machine, the establishment of regional data centers like this Switzerland hub signifies a more robust, decentralized approach to preservation. It's a proactive measure against potential geopolitical risks and data access challenges. For researchers, historians, archivists, and anyone concerned about digital preservation, this expansion is a testament to the Internet Archive's commitment to its mission. It offers a layer of security and accessibility that is increasingly important in our data-driven world, making the vast repository of human knowledge more resilient than ever.",
-    "imageIdea": "server racks in a data center",
-    "websiteLink": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/internet-archive-switzerland.webp",
-    "everydayUse": "You might need this if you're trying to find a specific historical news article for a school project or want to revisit an old website you loved as a kid. It's also useful for accessing out-of-print books or checking if a digital resource is still available when its original source is gone.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 768,
     "slug": "let-go-clojure-go-lang",
     "name": "let-go",
@@ -7511,7 +7475,8 @@
     "dateAdded": "2026-11-04",
     "signals": {
       "checkedAt": "2026-11-04"
-    }
+    },
+    "screenshotUrl": "/screenshots/hackertv.webp"
   },
   {
     "id": 1232,
@@ -7528,7 +7493,8 @@
     "dateAdded": "2026-11-04",
     "signals": {
       "checkedAt": "2026-11-04"
-    }
+    },
+    "screenshotUrl": "/screenshots/wikihack.webp"
   },
   {
     "id": 1233,
@@ -7552,7 +7518,8 @@
         "archived": false,
         "pushedAt": "2026-11-06"
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/omnidiff.webp"
   },
   {
     "id": 1234,
@@ -7569,6 +7536,43 @@
     "dateAdded": "2026-11-06",
     "signals": {
       "checkedAt": "2026-11-06"
-    }
+    },
+    "screenshotUrl": "/screenshots/syscall-sh.webp"
+  },
+  {
+    "id": 1235,
+    "slug": "uncracked-city",
+    "name": "Uncracked City",
+    "seoTitle": "Uncracked City — Detective game asking LLMs",
+    "whatItDoes": "Uncracked City is a unique detective game where players interrogate AI suspects. These AI models are programmed to lie, mirroring the complexities of real-life investigations. You'll need to carefully question them, analyze their responses, and look for inconsistencies to uncover the truth and solve the mystery. The game is built for browser-based play and features a narrative that unfolds as you investigate crime scenes and question suspects.",
+    "category": "Entertainment",
+    "whyItIsUseful": "This game offers a novel way to engage with AI technology by turning it into an adversarial opponent within a compelling narrative. For writers, it's an excellent tool for understanding how to craft believable deception and how to spot it. The LLM suspects' untrustworthiness provides a unique challenge that goes beyond typical puzzle games, forcing players to think critically about language and intent. Power users will appreciate the sophisticated AI underpinning the suspects, which provides a challenging and often surprising experience. It's perfect for anyone who enjoys intricate mysteries and wants to explore the darker, more nuanced side of AI interaction.",
+    "everydayUse": "When you're looking for a mental challenge that goes beyond standard crosswords or escape rooms. You might play it on a quiet afternoon when you want to immerse yourself in a compelling story and test your deductive reasoning against AI that actively tries to mislead you.",
+    "imageIdea": "magnifying glass over a tangled web",
+    "websiteLink": "https://uncracked.city",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-09",
+    "signals": {
+      "checkedAt": "2026-11-09"
+    },
+    "screenshotUrl": "/screenshots/uncracked-city.webp"
+  },
+  {
+    "id": 1236,
+    "slug": "vegetable-gardening-for-engineers",
+    "name": "Vegetable Gardening for Engineers",
+    "seoTitle": "Vegetable Gardening for Engineers — Data-driven guide",
+    "whatItDoes": "This is a comprehensive, data-driven guide to vegetable gardening, specifically curated for those who appreciate detail and scientific rigor. The creator, dissatisfied with the lack of depth in popular gardening resources, synthesized information from academic extensions, commercial seed companies, agricultural training, and even indoor cannabis cultivation techniques. It aims to provide clear, actionable advice grounded in empirical data and logical principles, making gardening more accessible and effective for individuals with an analytical mindset.",
+    "category": "Education",
+    "whyItIsUseful": "It's an incredibly underrated resource because it bridges the gap between theoretical knowledge and practical application with exceptional clarity. Unlike typical gardening books that can be overly simplistic or anecdotal, this guide uses a systematic approach, offering precise data on soil pH, nutrient requirements, light exposure, and planting schedules. Engineers and analytical thinkers will find its structured format and evidence-based recommendations highly valuable. It avoids the fluff and clickbait often found in online gardening communities, providing a reliable foundation for successful cultivation.",
+    "everydayUse": "If you're planning your first garden and want a structured approach, or if you've struggled with past gardening attempts and need a more scientific understanding. You'd consult it to optimize your planting strategy based on specific crop data and environmental factors.",
+    "imageIdea": "detailed blueprint of a raised garden bed",
+    "websiteLink": "https://jrcpl.us/contrib/2020/gardening-for-engineers/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-09",
+    "signals": {
+      "checkedAt": "2026-11-09"
+    },
+    "screenshotUrl": "/screenshots/vegetable-gardening-for-engineers.webp"
   }
 ]
