@@ -5,8 +5,24 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inner Balance</title>
+      <link>https://surfaced-x.pages.dev/item/heart-rate-variability-trainer</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/heart-rate-variability-trainer</guid>
+      <description>Inner Balance is a biofeedback device and app designed to help users improve their heart rate variability (HRV). By using a small sensor that attaches to your earlobe and connects to your smartphone or tablet, the app provides real-time feedback on your HRV, guiding you through breathing exercises to promote a state of coherence. This practice is known to reduce stress and enhance emotional regulation. The core functionality is free with optional premium features for deeper analysis and guided programs.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>learnharness</title>
+      <link>https://surfaced-x.pages.dev/item/learn-harness</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/learn-harness</guid>
+      <description>LearnHarness is an open-source AI agent harness engineered to streamline the learning of complex subjects. It constructs personalized learning roadmaps by assessing a user&apos;s existing knowledge base and articulating their specific learning objectives. The system then orchestrates a sequence of lessons and practical exercises, dynamically adjusting the learning path in response to the user&apos;s ongoing progress.  This adaptive methodology is especially effective for dissecting intricate topics into more digestible components.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Quoteblaze</title>
       <link>https://surfaced-x.pages.dev/item/quoteblaze</link>
@@ -393,6 +409,14 @@
       <media:thumbnail url="https://pixabay.com/get/g45b47684ddd496e540217c5a17a8b4b0e022bbc78085cbcf608b07e634e3e21075fd726c705904ab3f0b3d1fd84f567dcdf052859e9c2dc429984baced571c34_1280.jpg" />
     </item>
     <item>
+      <title>Symplur Signals</title>
+      <link>https://surfaced-x.pages.dev/item/symplur-signal</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/symplur-signal</guid>
+      <description>Symplur Signals is a powerful, yet often overlooked, platform that analyzes social media conversations within the healthcare and biomedical communities. It provides insights into trends, key influencers, and public sentiment around specific diseases, treatments, and health initiatives. Built by Symplur, a company dedicated to advancing health through data, it offers a professional-grade tool for researchers, public health officials, and anyone needing to understand the digital discourse in medicine. It&apos;s particularly valuable for tracking the spread of health information and misinformation.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Mindly</title>
       <link>https://surfaced-x.pages.dev/item/mindly</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mindly</guid>
@@ -402,6 +426,14 @@
       <enclosure url="https://images.pexels.com/photos/7710204/pexels-photo-7710204.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7710204/pexels-photo-7710204.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7710204/pexels-photo-7710204.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Chronos Journal</title>
+      <link>https://surfaced-x.pages.dev/item/chronos-journal</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/chronos-journal</guid>
+      <description>Chronos Journal is a beautifully designed, minimalist app for tracking your daily mood, activities, and habits. It aims to help you understand the patterns and correlations between your lifestyle choices and your emotional well-being without overwhelming you with data. The app focuses on simplicity and introspection, providing gentle prompts and visual summaries of your progress over time. It&apos;s built by an independent developer focused on user privacy and a clutter-free experience.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Human Atlas</title>
@@ -512,50 +544,6 @@
       <enclosure url="https://images.pexels.com/photos/3074542/pexels-photo-3074542.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/3074542/pexels-photo-3074542.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/3074542/pexels-photo-3074542.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Wolfram|Alpha</title>
-      <link>https://surfaced-x.pages.dev/item/wolframalpha-computational-knowledge-engine</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wolframalpha-computational-knowledge-engine</guid>
-      <description>Wolfram|Alpha functions as a computational knowledge engine, designed to directly compute answers to factual inquiries rather than simply returning a list of web links. It leverages structured data to perform a wide range of operations, from solving complex mathematical equations and performing symbolic computations to providing in-depth data and analysis across diverse fields such as science, technology, history, and economics. The engine can also generate visualizations to help users understand data. Wolfram|Alpha operates on a freemium basis, offering a robust set of free functionalities for basic queries and a premium Pro subscription for access to more advanced features and expanded capabilities.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/5833301/pexels-photo-5833301.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/5833301/pexels-photo-5833301.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/5833301/pexels-photo-5833301.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>HackerTV</title>
-      <link>https://surfaced-x.pages.dev/item/hackertv</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hackertv</guid>
-      <description>HackerTV curates and streams YouTube videos that are highly recommended within the Hacker News community, presenting them as 24/7 &apos;TV channels.&apos; It&apos;s built on the open-index/hacker-news archive and updated weekly using the HN Search API, with content further refined and labeled by Claude. The platform aims to provide a continuous stream of insightful tech-related content from the Hacker News ecosystem without requiring users to sift through individual comments or links.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/ge77f5732af024908b7c5c775917122f51d1854ca11fe6f7e14a20513f0b9fb3a2000c9878aa6c5a8ffe231003d9c5b4d7a5292aadbaf11253651ad0aba25cf4b_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/ge77f5732af024908b7c5c775917122f51d1854ca11fe6f7e14a20513f0b9fb3a2000c9878aa6c5a8ffe231003d9c5b4d7a5292aadbaf11253651ad0aba25cf4b_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/ge77f5732af024908b7c5c775917122f51d1854ca11fe6f7e14a20513f0b9fb3a2000c9878aa6c5a8ffe231003d9c5b4d7a5292aadbaf11253651ad0aba25cf4b_1280.jpg" />
-    </item>
-    <item>
-      <title>ai-infra-book</title>
-      <link>https://surfaced-x.pages.dev/item/ai-infra-book</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ai-infra-book</guid>
-      <description>This is an open-source book titled &apos;Understanding AI Infra: Quantitative Analysis and System Design&apos; by Bojie Li. It delves into the quantitative analysis and system design principles for Large Language Model (LLM) inference and training, starting from hardware constraints and model architectures. The book is freely available, offering the full text, PDF versions, and accompanying computational tools and experiments. Its primary value lies in providing a deep, practical understanding of the engineering challenges behind AI infrastructure.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/2105927/pexels-photo-2105927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/2105927/pexels-photo-2105927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/2105927/pexels-photo-2105927.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Outcrop</title>
-      <link>https://surfaced-x.pages.dev/item/outcrop-rocks</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/outcrop-rocks</guid>
-      <description>Outcrop is a mobile application for iPhone and Android that allows users to learn about the geology of their surroundings by simply pointing their camera at the landscape. It identifies rocks, explains how and when they formed, and provides context within Earth&apos;s history. Built with worldwide geologic map data from Macrostrat, the app offers an augmented reality experience, overlaying geological information directly onto the view from your phone. It&apos;s a powerful educational tool that works offline, making it accessible even in remote areas.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/29231601/pexels-photo-29231601.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/29231601/pexels-photo-29231601.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/29231601/pexels-photo-29231601.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

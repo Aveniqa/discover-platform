@@ -1,57 +1,5 @@
 [
   {
-    "id": 768,
-    "slug": "let-go-clojure-go-lang",
-    "name": "let-go",
-    "seoTitle": "let-go — Clojure-like language in Go",
-    "whatItDoes": "let-go is a fascinating project that implements a Clojure-like programming language entirely in Go. The primary goal is to achieve exceptionally fast startup times, boasting boots in as little as 7 milliseconds. It offers functional programming paradigms inspired by Clojure, such as immutability and first-class functions, but within the Go ecosystem. This makes it suitable for developers who appreciate functional approaches and need rapid execution for certain types of applications, like scripting or embedded systems where quick initialization is paramount.",
-    "category": "Developer",
-    "whyItIsUseful": "This project is a hidden gem for developers interested in exploring language design and performance optimization without abandoning the familiar Go environment. While Clojure is known for its JVM strengths, let-go brings a similar expressive, functional style to Go's efficient compilation and deployment. Its standout feature is the incredibly low boot time, making it an attractive option for tasks that require instant startup, such as command-line tools or serverless functions. It's a proof of concept that demonstrates the power of language implementation and how familiar paradigms can be adapted to different runtime environments, appealing to language enthusiasts and performance-critical developers alike.",
-    "imageIdea": "code editor with abstract syntax tree",
-    "websiteLink": "https://github.com/nooga/let-go",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/let-go-clojure-go-lang.webp",
-    "everydayUse": "You need to quickly spin up a small script to automate a repetitive task, like renaming a batch of photos. Or perhaps you're building a small, internal tool for your team that needs to start instantly every time it's used.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "nooga/let-go",
-        "stars": 575,
-        "forks": 31,
-        "archived": false,
-        "pushedAt": "2026-10-28",
-        "license": "MIT"
-      }
-    }
-  },
-  {
-    "id": 769,
-    "slug": "trust-rust-1989",
-    "name": "TRUST",
-    "seoTitle": "TRUST — Rust like it's 1989",
-    "whatItDoes": "TRUST is an experimental project that aims to make coding Rust feel like programming in the late 1980s, reminiscent of languages like C. It achieves this by imposing certain constraints and offering a different syntax and development experience compared to modern Rust. The project focuses on low-level control and a more direct interaction with hardware, stripping away some of Rust's higher-level abstractions. This is an exploration into retro-computing aesthetics and programming styles within a contemporary language.",
-    "category": "Developer",
-    "whyItIsUseful": "For developers who have a nostalgic inclination towards older programming paradigms or who need to understand systems programming at a more fundamental level, TRUST offers a unique perspective. It's an educational tool that challenges conventional Rust development by reintroducing concepts and a feel from a bygone era. While not intended for mainstream production use, it allows programmers to experiment with the underlying mechanics of Rust in a way that might be obscured by its modern features. This project is particularly valuable for those interested in systems programming history, embedded development, or simply exploring different ways to interact with a powerful language like Rust.",
-    "imageIdea": "vintage computer terminal screen",
-    "websiteLink": "https://github.com/wojtczyk/trust",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/trust-rust-1989.webp",
-    "everydayUse": "You might reach for TRUST when you need to understand exactly how a small embedded system is behaving without the distractions of modern abstractions. It's for those times you're debugging a performance-critical loop in a legacy system and want a more direct, C-like feel to your Rust code.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "wojtczyk/trust",
-        "stars": 253,
-        "forks": 6,
-        "archived": false,
-        "pushedAt": "2026-07-15",
-        "license": "MIT"
-      }
-    }
-  },
-  {
     "id": 770,
     "slug": "ymawky-assembly-web-server",
     "name": "ymawky",
@@ -7574,5 +7522,39 @@
       "checkedAt": "2026-11-09"
     },
     "screenshotUrl": "/screenshots/vegetable-gardening-for-engineers.webp"
+  },
+  {
+    "id": 1237,
+    "slug": "chronos-journal",
+    "name": "Chronos Journal",
+    "seoTitle": "Chronos Journal — Daily mood and habit tracker",
+    "whatItDoes": "Chronos Journal is a beautifully designed, minimalist app for tracking your daily mood, activities, and habits. It aims to help you understand the patterns and correlations between your lifestyle choices and your emotional well-being without overwhelming you with data. The app focuses on simplicity and introspection, providing gentle prompts and visual summaries of your progress over time. It's built by an independent developer focused on user privacy and a clutter-free experience.",
+    "category": "Health",
+    "whyItIsUseful": "Unlike many complex wellness apps that bombard users with features, Chronos Journal excels in its focused simplicity. Its strength lies in its unobtrusive nature; you can log your mood and a few key habits in seconds, making it easy to maintain consistency. The clean, card-based interface presents your data in an intuitive, visually appealing way, allowing for quick pattern recognition. It's particularly useful for individuals who find other trackers too demanding or data-heavy, offering a more mindful approach to self-observation. The lack of social features and extensive analytics means your focus remains solely on your personal journey.",
+    "everydayUse": "When you wake up feeling a certain way, quickly tap your mood and note if you slept well. Before bed, check off your habits like 'drank water' and add a brief thought about your day. Over time, you'll see how consistent sleep or hydration impacts your mood.",
+    "imageIdea": "minimalist daily planner journal",
+    "websiteLink": "https://chronos.app/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-11",
+    "signals": {
+      "checkedAt": "2026-11-11"
+    }
+  },
+  {
+    "id": 1238,
+    "slug": "symplur-signal",
+    "name": "Symplur Signals",
+    "seoTitle": "Symplur Signals — Healthcare social media analytics",
+    "whatItDoes": "Symplur Signals is a powerful, yet often overlooked, platform that analyzes social media conversations within the healthcare and biomedical communities. It provides insights into trends, key influencers, and public sentiment around specific diseases, treatments, and health initiatives. Built by Symplur, a company dedicated to advancing health through data, it offers a professional-grade tool for researchers, public health officials, and anyone needing to understand the digital discourse in medicine. It's particularly valuable for tracking the spread of health information and misinformation.",
+    "category": "Health",
+    "whyItIsUseful": "While social media analytics tools abound, Symplur Signals is unique in its deep specialization in healthcare. It cuts through the noise of general social media chatter to focus on the conversations that matter most in public health and medical research. Its ability to identify key opinion leaders, track the virality of health topics, and even monitor the spread of misinformation makes it an indispensable tool for evidence-based communication strategies. Healthcare professionals and organizations often miss out on this granular, healthcare-specific perspective offered by more general tools. Its rigorous data collection and visualization make complex health dialogues understandable.",
+    "everydayUse": "A public health official might use it to monitor online conversations about a new vaccination campaign, identifying concerns and correcting misinformation. A researcher could track discussions around a rare disease to understand patient experiences and unmet needs.",
+    "imageIdea": "network graph of interconnected medical icons",
+    "websiteLink": "https://www.symplur.com/symplur-signals/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-11",
+    "signals": {
+      "checkedAt": "2026-11-11"
+    }
   }
 ]

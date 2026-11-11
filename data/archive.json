@@ -47462,5 +47462,105 @@
       }
     },
     "archivedAt": "2026-11-09"
+  },
+  {
+    "id": 768,
+    "slug": "let-go-clojure-go-lang",
+    "name": "let-go",
+    "seoTitle": "let-go — Clojure-like language in Go",
+    "whatItDoes": "let-go is a fascinating project that implements a Clojure-like programming language entirely in Go. The primary goal is to achieve exceptionally fast startup times, boasting boots in as little as 7 milliseconds. It offers functional programming paradigms inspired by Clojure, such as immutability and first-class functions, but within the Go ecosystem. This makes it suitable for developers who appreciate functional approaches and need rapid execution for certain types of applications, like scripting or embedded systems where quick initialization is paramount.",
+    "category": "Developer",
+    "whyItIsUseful": "This project is a hidden gem for developers interested in exploring language design and performance optimization without abandoning the familiar Go environment. While Clojure is known for its JVM strengths, let-go brings a similar expressive, functional style to Go's efficient compilation and deployment. Its standout feature is the incredibly low boot time, making it an attractive option for tasks that require instant startup, such as command-line tools or serverless functions. It's a proof of concept that demonstrates the power of language implementation and how familiar paradigms can be adapted to different runtime environments, appealing to language enthusiasts and performance-critical developers alike.",
+    "imageIdea": "code editor with abstract syntax tree",
+    "websiteLink": "https://github.com/nooga/let-go",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/let-go-clojure-go-lang.webp",
+    "everydayUse": "You need to quickly spin up a small script to automate a repetitive task, like renaming a batch of photos. Or perhaps you're building a small, internal tool for your team that needs to start instantly every time it's used.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "nooga/let-go",
+        "stars": 575,
+        "forks": 31,
+        "archived": false,
+        "pushedAt": "2026-10-28",
+        "license": "MIT"
+      }
+    },
+    "archivedAt": "2026-11-11"
+  },
+  {
+    "id": 769,
+    "slug": "trust-rust-1989",
+    "name": "TRUST",
+    "seoTitle": "TRUST — Rust like it's 1989",
+    "whatItDoes": "TRUST is an experimental project that aims to make coding Rust feel like programming in the late 1980s, reminiscent of languages like C. It achieves this by imposing certain constraints and offering a different syntax and development experience compared to modern Rust. The project focuses on low-level control and a more direct interaction with hardware, stripping away some of Rust's higher-level abstractions. This is an exploration into retro-computing aesthetics and programming styles within a contemporary language.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers who have a nostalgic inclination towards older programming paradigms or who need to understand systems programming at a more fundamental level, TRUST offers a unique perspective. It's an educational tool that challenges conventional Rust development by reintroducing concepts and a feel from a bygone era. While not intended for mainstream production use, it allows programmers to experiment with the underlying mechanics of Rust in a way that might be obscured by its modern features. This project is particularly valuable for those interested in systems programming history, embedded development, or simply exploring different ways to interact with a powerful language like Rust.",
+    "imageIdea": "vintage computer terminal screen",
+    "websiteLink": "https://github.com/wojtczyk/trust",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/trust-rust-1989.webp",
+    "everydayUse": "You might reach for TRUST when you need to understand exactly how a small embedded system is behaving without the distractions of modern abstractions. It's for those times you're debugging a performance-critical loop in a legacy system and want a more direct, C-like feel to your Rust code.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "wojtczyk/trust",
+        "stars": 253,
+        "forks": 6,
+        "archived": false,
+        "pushedAt": "2026-07-15",
+        "license": "MIT"
+      }
+    },
+    "archivedAt": "2026-11-11"
+  },
+  {
+    "id": 829,
+    "slug": "superhuman-email",
+    "toolName": "Superhuman",
+    "seoTitle": "Superhuman — Fast Email Inbox",
+    "whatItDoes": "Superhuman is an email client designed for speed and efficiency, aiming to help you achieve Inbox Zero faster than ever. It employs keyboard shortcuts for virtually every action, intelligent sorting, and features like 'undo send' and 'scheduled send'. It's a premium, paid service focused on delivering a premium user experience for professionals who rely heavily on email communication and want to reclaim their time.",
+    "category": "Productivity",
+    "whyItIsUseful": "For professionals drowning in emails, Superhuman offers a radical solution to regain control. Its lightning-fast interface, driven by extensive keyboard shortcuts, allows seasoned users to process hundreds of emails in minutes. Features like 'Triage' help you swiftly decide what to do with each email, while 'Smart Search' finds anything instantly. The ability to schedule emails and 'undo' sends adds a layer of polish and confidence to your communication. Superhuman users often report a significant reduction in email-related stress and a substantial increase in their responsiveness, making it a transformative tool for busy executives, entrepreneurs, and anyone whose productivity hinges on effective email management.",
+    "imageIdea": "speedometer email inbox",
+    "websiteLink": "https://superhuman.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/superhuman-email.webp",
+    "everydayUse": "You're trying to clear your inbox before a long weekend, or quickly respond to a client's urgent request while on the go. You also want to finally get through those articles you saved to read later without them piling up.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-11"
+  },
+  {
+    "id": 830,
+    "slug": "daily-tool-huashu-design",
+    "toolName": "Huashu Design",
+    "seoTitle": "Huashu Design — HTML-native AI design",
+    "whatItDoes": "Huashu Design is a groundbreaking tool that leverages HTML as its native design language for AI code generation. It enables users to create high-fidelity prototypes, presentations, and even animations directly from code. The system incorporates over 20 design philosophies, a 5-dimensional review process, and supports MP4 export, making it an agent-agnostic solution for rapid visual development. It's particularly effective for translating complex ideas into visual formats with remarkable precision.",
+    "category": "Design",
+    "whyItIsUseful": "This tool is revolutionary for anyone working with AI code generation and visual design. By treating HTML as the native format, Huashu Design bridges the gap between functional code and polished visual output, something many other tools struggle with. Its ability to generate high-fidelity prototypes, slides, and animations streamlines the creative process significantly, saving immense amounts of time. The integrated design philosophies and review system ensure that outputs are not just visually appealing but also adhere to strong design principles. This is invaluable for developers, designers, and product managers who need to quickly iterate on concepts and present them effectively. It excels at turning abstract code concepts into tangible visual assets with unparalleled speed.",
+    "imageIdea": "abstract code flowing into animated user interface",
+    "websiteLink": "https://github.com/alchaincyf/huashu-design",
+    "type": "tool",
+    "dateAdded": "2026-05-13",
+    "screenshotUrl": "/screenshots/daily-tool-huashu-design.webp",
+    "everydayUse": "You need to quickly visualize a new budget spreadsheet layout for your family's Sunday meeting. Or perhaps you're sketching out a simple infographic to explain a group trip itinerary to friends.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "alchaincyf/huashu-design",
+        "stars": 27960,
+        "forks": 3026,
+        "archived": false,
+        "pushedAt": "2026-10-23",
+        "license": "MIT"
+      }
+    },
+    "archivedAt": "2026-11-11"
   }
 ]

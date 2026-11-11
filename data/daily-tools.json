@@ -1,49 +1,5 @@
 [
   {
-    "id": 829,
-    "slug": "superhuman-email",
-    "toolName": "Superhuman",
-    "seoTitle": "Superhuman — Fast Email Inbox",
-    "whatItDoes": "Superhuman is an email client designed for speed and efficiency, aiming to help you achieve Inbox Zero faster than ever. It employs keyboard shortcuts for virtually every action, intelligent sorting, and features like 'undo send' and 'scheduled send'. It's a premium, paid service focused on delivering a premium user experience for professionals who rely heavily on email communication and want to reclaim their time.",
-    "category": "Productivity",
-    "whyItIsUseful": "For professionals drowning in emails, Superhuman offers a radical solution to regain control. Its lightning-fast interface, driven by extensive keyboard shortcuts, allows seasoned users to process hundreds of emails in minutes. Features like 'Triage' help you swiftly decide what to do with each email, while 'Smart Search' finds anything instantly. The ability to schedule emails and 'undo' sends adds a layer of polish and confidence to your communication. Superhuman users often report a significant reduction in email-related stress and a substantial increase in their responsiveness, making it a transformative tool for busy executives, entrepreneurs, and anyone whose productivity hinges on effective email management.",
-    "imageIdea": "speedometer email inbox",
-    "websiteLink": "https://superhuman.com/",
-    "type": "tool",
-    "dateAdded": "2026-05-12",
-    "screenshotUrl": "/screenshots/superhuman-email.webp",
-    "everydayUse": "You're trying to clear your inbox before a long weekend, or quickly respond to a client's urgent request while on the go. You also want to finally get through those articles you saved to read later without them piling up.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 830,
-    "slug": "daily-tool-huashu-design",
-    "toolName": "Huashu Design",
-    "seoTitle": "Huashu Design — HTML-native AI design",
-    "whatItDoes": "Huashu Design is a groundbreaking tool that leverages HTML as its native design language for AI code generation. It enables users to create high-fidelity prototypes, presentations, and even animations directly from code. The system incorporates over 20 design philosophies, a 5-dimensional review process, and supports MP4 export, making it an agent-agnostic solution for rapid visual development. It's particularly effective for translating complex ideas into visual formats with remarkable precision.",
-    "category": "Design",
-    "whyItIsUseful": "This tool is revolutionary for anyone working with AI code generation and visual design. By treating HTML as the native format, Huashu Design bridges the gap between functional code and polished visual output, something many other tools struggle with. Its ability to generate high-fidelity prototypes, slides, and animations streamlines the creative process significantly, saving immense amounts of time. The integrated design philosophies and review system ensure that outputs are not just visually appealing but also adhere to strong design principles. This is invaluable for developers, designers, and product managers who need to quickly iterate on concepts and present them effectively. It excels at turning abstract code concepts into tangible visual assets with unparalleled speed.",
-    "imageIdea": "abstract code flowing into animated user interface",
-    "websiteLink": "https://github.com/alchaincyf/huashu-design",
-    "type": "tool",
-    "dateAdded": "2026-05-13",
-    "screenshotUrl": "/screenshots/daily-tool-huashu-design.webp",
-    "everydayUse": "You need to quickly visualize a new budget spreadsheet layout for your family's Sunday meeting. Or perhaps you're sketching out a simple infographic to explain a group trip itinerary to friends.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "alchaincyf/huashu-design",
-        "stars": 27960,
-        "forks": 3026,
-        "archived": false,
-        "pushedAt": "2026-10-23",
-        "license": "MIT"
-      }
-    }
-  },
-  {
     "id": 831,
     "slug": "open-codesign",
     "toolName": "Open-codesign",
@@ -8551,6 +8507,47 @@
     "dateAdded": "2026-11-09",
     "signals": {
       "checkedAt": "2026-11-09"
+    }
+  },
+  {
+    "id": 1274,
+    "slug": "learn-harness",
+    "toolName": "learnharness",
+    "seoTitle": "learnharness — AI agent for learning",
+    "whatItDoes": "LearnHarness is an open-source AI agent harness engineered to streamline the learning of complex subjects. It constructs personalized learning roadmaps by assessing a user's existing knowledge base and articulating their specific learning objectives. The system then orchestrates a sequence of lessons and practical exercises, dynamically adjusting the learning path in response to the user's ongoing progress.  This adaptive methodology is especially effective for dissecting intricate topics into more digestible components.",
+    "category": "Education",
+    "whyItIsUseful": "LearnHarness provides a structured yet flexible learning framework, acting as a virtual personalized tutor for individuals encountering difficulties with complex material. Its AI agents meticulously identify knowledge deficits and formulate bespoke learning trajectories toward mastery. This targeted approach often surpasses the efficacy of standardized educational resources. The capacity to generate custom curricula and monitor developmental strides makes LearnHarness an invaluable asset for independent learners, students engaged in challenging academic disciplines, and professionals seeking to acquire new competencies. It is particularly beneficial for demystifying abstract concepts within STEM disciplines.",
+    "everydayUse": "Imagine you need to understand quantum physics for a project. You'd input your goal and current knowledge into LearnHarness, and it would then generate a step-by-step learning journey, guiding you through concepts one by one until you're confident.",
+    "imageIdea": "AI learning agent interface",
+    "websiteLink": "https://github.com/amosblomqvist/learnharness",
+    "type": "tool",
+    "dateAdded": "2026-11-11",
+    "signals": {
+      "checkedAt": "2026-11-11",
+      "github": {
+        "repo": "amosblomqvist/learnharness",
+        "stars": 8653,
+        "forks": 1165,
+        "archived": false,
+        "pushedAt": "2026-11-11",
+        "license": "AGPL-3.0"
+      }
+    }
+  },
+  {
+    "id": 1275,
+    "slug": "heart-rate-variability-trainer",
+    "toolName": "Inner Balance",
+    "seoTitle": "Inner Balance — HRV training for well-being",
+    "whatItDoes": "Inner Balance is a biofeedback device and app designed to help users improve their heart rate variability (HRV). By using a small sensor that attaches to your earlobe and connects to your smartphone or tablet, the app provides real-time feedback on your HRV, guiding you through breathing exercises to promote a state of coherence. This practice is known to reduce stress and enhance emotional regulation. The core functionality is free with optional premium features for deeper analysis and guided programs.",
+    "category": "Health",
+    "whyItIsUseful": "Inner Balance offers a tangible and accessible way to actively manage your physiological stress response. Unlike passive meditation apps, it provides objective, real-time data on your body's state, empowering you to learn and master techniques for self-regulation. Users report a significant reduction in anxiety, improved focus, and better sleep quality after consistent use. It's particularly beneficial for individuals seeking evidence-based methods to combat chronic stress or improve their overall resilience. The device is a one-time purchase, and the app's foundational features are free, making it a cost-effective long-term health investment.",
+    "everydayUse": "When you feel overwhelmed or agitated, you can use Inner Balance for a quick 5-minute session to help calm your nervous system. It’s a practical tool to bring yourself back to center before a stressful meeting or after a challenging interaction, helping you regain composure and clarity.",
+    "imageIdea": "biofeedback heart rate sensor",
+    "type": "tool",
+    "dateAdded": "2026-11-11",
+    "signals": {
+      "checkedAt": "2026-11-11"
     }
   }
 ]
