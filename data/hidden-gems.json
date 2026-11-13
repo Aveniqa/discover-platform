@@ -1,55 +1,5 @@
 [
   {
-    "id": 770,
-    "slug": "ymawky-assembly-web-server",
-    "name": "ymawky",
-    "seoTitle": "ymawky — Web server in assembly",
-    "whatItDoes": "ymawky is an ambitious project that demonstrates the construction of a functional web server written entirely in assembly language. This endeavor pushes the boundaries of low-level programming, requiring deep understanding of system architecture, network protocols, and instruction sets. The primary motivation is often to explore the absolute limits of performance and control, or simply as a testament to the programmer's dedication and skill. It allows for a hyper-optimized and fundamental approach to web serving, far removed from the abstractions of modern languages.",
-    "category": "Developer",
-    "whyItIsUseful": "This project is a deep dive into the fundamental building blocks of computing and networking. While most developers rely on high-level languages and frameworks for web development, ymawky showcases what's possible when you go down to the bare metal. It’s an incredibly niche but powerful learning tool for understanding how web servers actually operate at their most basic level. For those fascinated by computer architecture, operating systems, or extreme performance tuning, this project offers unparalleled insight. It’s a testament to the fact that even for complex tasks like web serving, assembly language can still be a viable, albeit challenging, choice, revealing the intricate dance of bits and bytes that powers the internet.",
-    "imageIdea": "circuit board with glowing lines",
-    "websiteLink": "https://github.com/imtomt/ymawky",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/ymawky-assembly-web-server.webp",
-    "everydayUse": "You might reach for ymawky when you need to understand exactly how your web traffic is being handled at the most fundamental level. It's the tool you'd use if you were debugging a critical performance bottleneck in a highly specialized application.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "imtomt/ymawky",
-        "stars": 579,
-        "forks": 23,
-        "archived": false,
-        "pushedAt": "2026-06-23",
-        "license": "GPL-3.0"
-      }
-    }
-  },
-  {
-    "id": 771,
-    "slug": "project-jupyter",
-    "name": "Project Jupyter",
-    "seoTitle": "Project Jupyter — Interactive Notebooks for Data",
-    "whatItDoes": "Project Jupyter provides open-source software, interactive computing environments, and data science tools. Its flagship product, Jupyter Notebook, allows users to create and share documents that contain live code, equations, visualizations, and narrative text. This makes it incredibly powerful for data exploration, statistical modeling, machine learning, and scientific research, enabling reproducible workflows. Data scientists, researchers, and educators use it daily to analyze data and communicate findings.",
-    "category": "Developer",
-    "whyItIsUseful": "While many in the tech industry know of Jupyter Notebooks, the broader Project Jupyter ecosystem and its underlying philosophy are often overlooked. It's more than just a notebook; it's a community-driven initiative fostering open standards for interactive computing. Its true power lies in its extensibility with kernels for numerous programming languages (not just Python) and its integration into various workflows, including cloud platforms and CI/CD pipelines. For anyone working with data who wants a highly interactive and shareable way to experiment and document their work, Jupyter is an indispensable, yet often underestimated, tool that promotes collaboration and transparency in computational science and beyond.",
-    "imageIdea": "glowing digital notebook",
-    "websiteLink": "https://jupyter.org/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-10",
-    "screenshotUrl": "/screenshots/project-jupyter.webp",
-    "everydayUse": "You might use it to track your household budget over the past year, showing spending trends with charts. Or perhaps you're planning a group trip and want to visualize shared expenses and potential itineraries. It's also useful for summarizing those long articles you saved, creating digestible notes with key takeaways.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "video": {
-        "id": "xuNj5paMuow",
-        "title": "Project Jupyter: From interactive Python to open science - Fernando Perez",
-        "channel": "O'Reilly",
-        "durationSec": 1196
-      }
-    }
-  },
-  {
     "id": 772,
     "slug": "rust-but-lisp",
     "name": "Rust but Lisp",
@@ -7555,6 +7505,40 @@
     "dateAdded": "2026-11-11",
     "signals": {
       "checkedAt": "2026-11-11"
+    }
+  },
+  {
+    "id": 1239,
+    "slug": "tiny-valencia",
+    "name": "Tiny València",
+    "seoTitle": "Tiny València — Isometric pixel-art map",
+    "whatItDoes": "Tiny València is a meticulously crafted isometric pixel-art map of the city of Valencia, Spain. Inspired by the aesthetic of SimCity and Isometric NYC, every building is a true representation of its real-world counterpart, rendered from an aerial perspective at a consistent angle. The project meticulously recreates the entire municipal territory, from the agricultural huerta to the Albufera natural park, using 3D city data and an AI image model trained on a specific pixel-art style to ensure seamless integration of each tile. This tool allows users to explore a digital, stylized version of Valencia.",
+    "category": "Entertainment",
+    "whyItIsUseful": "This is an exceptionally niche and artful project that appeals to urban planning enthusiasts, geographers, and fans of pixel art. Unlike broad mapping tools, Tiny València offers a unique artistic interpretation of a city, transforming complex urban data into a charming, retro-inspired visual experience. Its 'block by block' creation process and seamless tile generation are remarkable technical achievements. For those who appreciate the detailed reconstruction of urban environments with an artistic flair, it's a captivating digital diorama.",
+    "everydayUse": "You might explore Tiny València on a quiet afternoon when you feel like virtually wandering through a beautifully rendered city. It's perfect for appreciating detailed digital art or sparking inspiration for a creative project involving urban landscapes.",
+    "imageIdea": "isometric pixel art city",
+    "websiteLink": "https://tinyvalencia.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-13",
+    "signals": {
+      "checkedAt": "2026-11-13"
+    }
+  },
+  {
+    "id": 1240,
+    "slug": "term-sheet-please",
+    "name": "Term Sheet, Please",
+    "seoTitle": "Term Sheet, Please — YC startup funding simulator",
+    "whatItDoes": "Term Sheet, Please is a compelling web-based simulation game that immerses players in the high-stakes world of early-stage startup investment, specifically mirroring the Y Combinator accelerator program. Drawing inspiration from the acclaimed game 'Papers, Please,' this title challenges users to act as venture capitalists, meticulously sifting through an array of simulated startup pitches. Each pitch comes with a dossier of documents, including fact sheets, investor notes, and market research. Players must critically analyze this information, applying their judgment to decide which ventures warrant funding and which to pass on, effectively managing their investment portfolio under a simulated time constraint and pressure.",
+    "category": "Entertainment",
+    "whyItIsUseful": "This game provides a unique and insightful educational experience, demystifying the often complex and opaque process of venture capital funding and startup evaluation. It transforms the critical due diligence steps into an engaging and interactive gameplay loop. By adopting the 'Papers, Please' style of document scrutiny, it hones players' analytical skills, forcing them to discern valuable signals from distracting noise. For aspiring entrepreneurs seeking to understand investor perspectives, budding investors looking to grasp foundational evaluation principles, or anyone simply curious about the dynamics of the startup ecosystem, Term Sheet, Please offers a highly accessible and entertaining learning tool.",
+    "everydayUse": "You might play Term Sheet, Please during a commute or a lunch break when you want a quick, engaging mental challenge. It's a great way to pass the time while also learning about business evaluation.",
+    "imageIdea": "startup pitch deck document",
+    "websiteLink": "https://termsheetplease.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-13",
+    "signals": {
+      "checkedAt": "2026-11-13"
     }
   }
 ]

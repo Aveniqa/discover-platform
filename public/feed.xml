@@ -5,8 +5,24 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>/dev/null</title>
+      <link>https://surfaced-x.pages.dev/item/dev-null</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/dev-null</guid>
+      <description>/dev/null is a social network specifically built for web developers, conceived and constructed from scratch in a 48-hour live stream event. It aims to foster a community where developers can connect, share knowledge, and discuss topics relevant to their craft. The platform emphasizes open communication and collaboration, mirroring the spirit of open-source development. While the core concept originated from a live coding session, its evolution suggests a platform dedicated to the practical needs and shared experiences of software engineers.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lichii</title>
+      <link>https://surfaced-x.pages.dev/item/lichii</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/lichii</guid>
+      <description>Lichii is a highly experimental emulator designed to run Nintendo Switch 2 games on PC. Developed with C++, it aims to replicate the hardware and software environment of the next-generation Switch console. As a bleeding-edge project, it&apos;s primarily intended for developers and enthusiasts testing compatibility and performance. The project offers no official support beyond its GitHub repository and a game compatibility website, emphasizing that downloads should only come from its official release pages to avoid malware.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Inner Balance</title>
       <link>https://surfaced-x.pages.dev/item/heart-rate-variability-trainer</link>
@@ -387,6 +403,14 @@
       <media:thumbnail url="https://images.pexels.com/photos/6285258/pexels-photo-6285258.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Term Sheet, Please</title>
+      <link>https://surfaced-x.pages.dev/item/term-sheet-please</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/term-sheet-please</guid>
+      <description>Term Sheet, Please is a compelling web-based simulation game that immerses players in the high-stakes world of early-stage startup investment, specifically mirroring the Y Combinator accelerator program. Drawing inspiration from the acclaimed game &apos;Papers, Please,&apos; this title challenges users to act as venture capitalists, meticulously sifting through an array of simulated startup pitches. Each pitch comes with a dossier of documents, including fact sheets, investor notes, and market research. Players must critically analyze this information, applying their judgment to decide which ventures warrant funding and which to pass on, effectively managing their investment portfolio under a simulated time constraint and pressure.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>Circling the Drain</title>
       <link>https://surfaced-x.pages.dev/item/circling-the-drain</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/circling-the-drain</guid>
@@ -396,6 +420,14 @@
       <enclosure url="https://images.pexels.com/photos/6446672/pexels-photo-6446672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/6446672/pexels-photo-6446672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/6446672/pexels-photo-6446672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>Tiny València</title>
+      <link>https://surfaced-x.pages.dev/item/tiny-valencia</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tiny-valencia</guid>
+      <description>Tiny València is a meticulously crafted isometric pixel-art map of the city of Valencia, Spain. Inspired by the aesthetic of SimCity and Isometric NYC, every building is a true representation of its real-world counterpart, rendered from an aerial perspective at a consistent angle. The project meticulously recreates the entire municipal territory, from the agricultural huerta to the Albufera natural park, using 3D city data and an AI image model trained on a specific pixel-art style to ensure seamless integration of each tile. This tool allows users to explore a digital, stylized version of Valencia.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Taskwarrior</title>
@@ -500,50 +532,6 @@
       <enclosure url="https://images.pexels.com/photos/5554949/pexels-photo-5554949.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/5554949/pexels-photo-5554949.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/5554949/pexels-photo-5554949.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>World History Encyclopedia</title>
-      <link>https://surfaced-x.pages.dev/item/world-history-encyclopedia</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/world-history-encyclopedia</guid>
-      <description>World History Encyclopedia is a non-profit organization dedicated to providing free, accurate, and engaging content about history to a global audience. It features thousands of articles, timelines, images, and maps covering the entirety of human history, from prehistory to the present day. The content is written and reviewed by experts, making it a reliable source for research and general knowledge. It is entirely free to access, with no subscription required, and is funded by donations and grants.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/69004/pexels-photo-69004.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/69004/pexels-photo-69004.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/69004/pexels-photo-69004.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>OmniDiff</title>
-      <link>https://surfaced-x.pages.dev/item/omnidiff</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/omnidiff</guid>
-      <description>OmniDiff is an open-source, exceptionally fast, and content-aware Git difftool built with Rust. It aims to provide more accurate and efficient diffing for various file types, including code, images, fonts, and even PDFs, by employing specialized algorithms for each. This tool is designed for developers and anyone who frequently works with version control systems and needs to understand changes with high precision.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/g4f49f73fe45ebd016194c78a4181b6114f8de40b15267060d330ea46207e31b8ec99f748fb4750c0056d116af6f08532acee7192db41483bd134d1d89fec92f0_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/g4f49f73fe45ebd016194c78a4181b6114f8de40b15267060d330ea46207e31b8ec99f748fb4750c0056d116af6f08532acee7192db41483bd134d1d89fec92f0_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/g4f49f73fe45ebd016194c78a4181b6114f8de40b15267060d330ea46207e31b8ec99f748fb4750c0056d116af6f08532acee7192db41483bd134d1d89fec92f0_1280.jpg" />
-    </item>
-    <item>
-      <title>draw.io (Diagrams.net)</title>
-      <link>https://surfaced-x.pages.dev/item/drawio-diagramming-tool</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/drawio-diagramming-tool</guid>
-      <description>Diagrams.net, also widely recognized by its former name draw.io, is a powerful and completely free, open-source diagramming application accessible via web browser.  It empowers users to construct a diverse array of visual representations, including intricate flowcharts, structured organizational charts, detailed network diagrams, and interactive mockups.  The platform boasts an extensive library of pre-built shapes, ready-to-use templates, and comprehensive customization tools, enabling users to tailor their diagrams precisely.  Furthermore, its seamless integration with leading cloud storage providers such as Google Drive, OneDrive, and Dropbox enhances workflow efficiency by facilitating easy saving and retrieval of created diagrams. Basic functionality requires no user account, offering immediate access and convenience.</description>
-      <category>Daily Tools</category>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7964254/pexels-photo-7964254.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7964254/pexels-photo-7964254.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7964254/pexels-photo-7964254.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Wikihack</title>
-      <link>https://surfaced-x.pages.dev/item/wikihack</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/wikihack</guid>
-      <description>Wikihack presents Wikipedia articles that have been linked from Hacker News discussions, offering a unique lens into topics of interest to the tech community. It displays a count of Hacker News users who have linked to each article and the total number of links, along with the most recent HN discussions related to that topic. The tool allows users to explore these articles as if they were curated by the HN community, highlighting their relevance and the depth of engagement.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3074542/pexels-photo-3074542.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3074542/pexels-photo-3074542.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3074542/pexels-photo-3074542.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

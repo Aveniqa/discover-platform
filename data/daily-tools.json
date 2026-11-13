@@ -1,55 +1,5 @@
 [
   {
-    "id": 831,
-    "slug": "open-codesign",
-    "toolName": "Open-codesign",
-    "seoTitle": "Open-codesign — AI code to prototype",
-    "whatItDoes": "Open-codesign is an open-source alternative to proprietary AI design tools, designed to convert prompts into interactive prototypes, slides, and PDFs. It offers a one-click import for your Claude Code or Codex API key, allowing seamless integration with powerful AI models. Supporting a multi-model approach, it works with Claude, GPT, Gemini, Kimi, GLM, and Ollama. The platform emphasizes Bring Your Own Key (BYOK) and local-first functionality for enhanced privacy and control, making it a versatile and secure option for prompt-based design generation.",
-    "category": "Design",
-    "whyItIsUseful": "Open-codesign empowers users to transform their ideas into visual designs with unprecedented ease, leveraging the power of multiple leading AI models. Its ability to generate prototypes, presentations, and PDFs directly from textual prompts dramatically accelerates the design iteration cycle. For individuals and teams who rely on rapid prototyping and visual communication, this tool is a game-changer. The support for various AI models offers flexibility, while the BYOK and local-first approach ensures data privacy and security, which is crucial in professional settings. It’s particularly beneficial for those who want to experiment with different AI engines without being locked into a single ecosystem, and for users who prioritize having more control over their design generation process.",
-    "imageIdea": "AI chatbot interface generating website mockups",
-    "websiteLink": "https://github.com/OpenCoworkAI/open-codesign",
-    "type": "tool",
-    "dateAdded": "2026-05-13",
-    "screenshotUrl": "/screenshots/open-codesign.webp",
-    "everydayUse": "Need to quickly visualize a presentation for a client meeting tomorrow morning? Or perhaps you want to sketch out a user flow for a new app idea you had last night before you forget it.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "OpenCoworkAI/open-codesign",
-        "stars": 8129,
-        "forks": 855,
-        "archived": false,
-        "pushedAt": "2026-10-28",
-        "license": "MIT"
-      }
-    }
-  },
-  {
-    "id": 832,
-    "slug": "affine-collaboration-workspace",
-    "toolName": "Affine",
-    "seoTitle": "Affine — All-in-One Workspace App",
-    "whatItDoes": "Affine is a versatile productivity application designed to be an all-in-one workspace for individuals and teams. It combines note-taking, project management, and document creation into a single, intuitive interface. Affine offers a free tier with generous features for personal use, with paid plans for advanced collaboration and storage. Its strength lies in its seamless integration of different productivity tools, allowing you to manage tasks, write documents, and organize information without context switching.",
-    "category": "Productivity",
-    "whyItIsUseful": "Affine streamlines daily workflows by centralizing essential productivity functions. Users can create detailed notes, manage projects with Kanban boards and to-do lists, and even build collaborative documents, all within one application. The clean, user-friendly interface reduces the learning curve, making it accessible to a wide range of users. Its ability to foster collaboration for small teams is a significant advantage, allowing for shared project spaces and real-time document editing. Affine is ideal for students managing coursework, freelancers juggling multiple clients, and small businesses seeking an integrated system for planning and communication.",
-    "imageIdea": "digital whiteboard team collaboration",
-    "websiteLink": "https://affine.pro/",
-    "type": "tool",
-    "dateAdded": "2026-05-13",
-    "screenshotUrl": "/screenshots/affine-collaboration-workspace.webp",
-    "everydayUse": "You can use Affine to jot down your grocery list and plan your weekly meals. It's helpful for organizing your thoughts before a big meeting or brainstorming ideas for a weekend project. You might also use it to keep track of all those interesting articles you've saved to read later.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "video": {
-        "id": "PK5B_xapfxg",
-        "title": "AFFiNE: The Open-Source Alternative for Notion, Miro and Airtable",
-        "channel": "Better Stack",
-        "durationSec": 451
-      }
-    }
-  },
-  {
     "id": 833,
     "slug": "photomath-math-solver",
     "toolName": "PhotoMath",
@@ -8548,6 +8498,54 @@
     "dateAdded": "2026-11-11",
     "signals": {
       "checkedAt": "2026-11-11"
+    }
+  },
+  {
+    "id": 1276,
+    "slug": "lichii",
+    "toolName": "Lichii",
+    "seoTitle": "Lichii — Nintendo Switch 2 Emulator",
+    "whatItDoes": "Lichii is a highly experimental emulator designed to run Nintendo Switch 2 games on PC. Developed with C++, it aims to replicate the hardware and software environment of the next-generation Switch console. As a bleeding-edge project, it's primarily intended for developers and enthusiasts testing compatibility and performance. The project offers no official support beyond its GitHub repository and a game compatibility website, emphasizing that downloads should only come from its official release pages to avoid malware.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers and advanced emulation enthusiasts, Lichii represents a frontier in console emulation. Its experimental nature means it can provide early insights into how next-generation console hardware might be emulated, paving the way for future, more stable emulators. By contributing to compatibility reports on its dedicated website, users can actively help shape the development of the emulator, identifying bugs and performance bottlenecks. This collaborative aspect is crucial for such ambitious projects, allowing for rapid iteration and improvement. While not for casual gamers, it's an invaluable tool for those who want to push the boundaries of PC-based gaming and contribute to the preservation of gaming history.",
+    "everydayUse": "You might use Lichii if you're a developer testing early-stage emulation or an enthusiast eager to see what's technically possible with unreleased console hardware. It's for those who enjoy delving into the inner workings of software and contributing to experimental projects.",
+    "imageIdea": "github repository code structure",
+    "websiteLink": "https://github.com/zortos293/Lichii",
+    "type": "tool",
+    "dateAdded": "2026-11-13",
+    "signals": {
+      "checkedAt": "2026-11-13",
+      "github": {
+        "repo": "zortos293/Lichii",
+        "stars": 8934,
+        "forks": 1444,
+        "archived": false,
+        "pushedAt": "2026-11-13",
+        "license": "GPL-3.0"
+      },
+      "video": {
+        "id": "EhVytKjLVhM",
+        "title": "Lichii: Switch 2 Emulator | Explained (Ocarina of Time Remake Gameplay on PC)",
+        "channel": "msalmaan76",
+        "durationSec": 251
+      }
+    }
+  },
+  {
+    "id": 1277,
+    "slug": "dev-null",
+    "toolName": "/dev/null",
+    "seoTitle": "/dev/null — Social Network for Devs",
+    "whatItDoes": "/dev/null is a social network specifically built for web developers, conceived and constructed from scratch in a 48-hour live stream event. It aims to foster a community where developers can connect, share knowledge, and discuss topics relevant to their craft. The platform emphasizes open communication and collaboration, mirroring the spirit of open-source development. While the core concept originated from a live coding session, its evolution suggests a platform dedicated to the practical needs and shared experiences of software engineers.",
+    "category": "Social",
+    "whyItIsUseful": "In the often fragmented landscape of developer communication, /dev/null offers a dedicated space for professionals to engage with peers without the noise of general social media. Its origin story, rooted in a collaborative, rapid development effort, suggests a platform built by developers for developers, focusing on genuine utility. This can lead to more insightful discussions, faster problem-solving, and a stronger sense of community. For developers looking to network with like-minded individuals, find collaborators, or simply stay updated on industry trends within a specialized context, /dev/null provides a focused and potentially highly valuable environment.",
+    "everydayUse": "You might turn to /dev/null when you're stuck on a coding problem and want quick, expert advice from other developers. It's also a place to share your latest project, find out about new tools, or simply connect with people who understand the daily challenges of software engineering.",
+    "imageIdea": "network connections technology abstract",
+    "websiteLink": "https://www.producthunt.com/r/CQPWN4LKI7SB2C",
+    "type": "tool",
+    "dateAdded": "2026-11-13",
+    "signals": {
+      "checkedAt": "2026-11-13"
     }
   }
 ]

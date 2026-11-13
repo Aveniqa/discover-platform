@@ -47562,5 +47562,109 @@
       }
     },
     "archivedAt": "2026-11-11"
+  },
+  {
+    "id": 770,
+    "slug": "ymawky-assembly-web-server",
+    "name": "ymawky",
+    "seoTitle": "ymawky — Web server in assembly",
+    "whatItDoes": "ymawky is an ambitious project that demonstrates the construction of a functional web server written entirely in assembly language. This endeavor pushes the boundaries of low-level programming, requiring deep understanding of system architecture, network protocols, and instruction sets. The primary motivation is often to explore the absolute limits of performance and control, or simply as a testament to the programmer's dedication and skill. It allows for a hyper-optimized and fundamental approach to web serving, far removed from the abstractions of modern languages.",
+    "category": "Developer",
+    "whyItIsUseful": "This project is a deep dive into the fundamental building blocks of computing and networking. While most developers rely on high-level languages and frameworks for web development, ymawky showcases what's possible when you go down to the bare metal. It’s an incredibly niche but powerful learning tool for understanding how web servers actually operate at their most basic level. For those fascinated by computer architecture, operating systems, or extreme performance tuning, this project offers unparalleled insight. It’s a testament to the fact that even for complex tasks like web serving, assembly language can still be a viable, albeit challenging, choice, revealing the intricate dance of bits and bytes that powers the internet.",
+    "imageIdea": "circuit board with glowing lines",
+    "websiteLink": "https://github.com/imtomt/ymawky",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/ymawky-assembly-web-server.webp",
+    "everydayUse": "You might reach for ymawky when you need to understand exactly how your web traffic is being handled at the most fundamental level. It's the tool you'd use if you were debugging a critical performance bottleneck in a highly specialized application.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "imtomt/ymawky",
+        "stars": 579,
+        "forks": 23,
+        "archived": false,
+        "pushedAt": "2026-06-23",
+        "license": "GPL-3.0"
+      }
+    },
+    "archivedAt": "2026-11-13"
+  },
+  {
+    "id": 771,
+    "slug": "project-jupyter",
+    "name": "Project Jupyter",
+    "seoTitle": "Project Jupyter — Interactive Notebooks for Data",
+    "whatItDoes": "Project Jupyter provides open-source software, interactive computing environments, and data science tools. Its flagship product, Jupyter Notebook, allows users to create and share documents that contain live code, equations, visualizations, and narrative text. This makes it incredibly powerful for data exploration, statistical modeling, machine learning, and scientific research, enabling reproducible workflows. Data scientists, researchers, and educators use it daily to analyze data and communicate findings.",
+    "category": "Developer",
+    "whyItIsUseful": "While many in the tech industry know of Jupyter Notebooks, the broader Project Jupyter ecosystem and its underlying philosophy are often overlooked. It's more than just a notebook; it's a community-driven initiative fostering open standards for interactive computing. Its true power lies in its extensibility with kernels for numerous programming languages (not just Python) and its integration into various workflows, including cloud platforms and CI/CD pipelines. For anyone working with data who wants a highly interactive and shareable way to experiment and document their work, Jupyter is an indispensable, yet often underestimated, tool that promotes collaboration and transparency in computational science and beyond.",
+    "imageIdea": "glowing digital notebook",
+    "websiteLink": "https://jupyter.org/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-10",
+    "screenshotUrl": "/screenshots/project-jupyter.webp",
+    "everydayUse": "You might use it to track your household budget over the past year, showing spending trends with charts. Or perhaps you're planning a group trip and want to visualize shared expenses and potential itineraries. It's also useful for summarizing those long articles you saved, creating digestible notes with key takeaways.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "video": {
+        "id": "xuNj5paMuow",
+        "title": "Project Jupyter: From interactive Python to open science - Fernando Perez",
+        "channel": "O'Reilly",
+        "durationSec": 1196
+      }
+    },
+    "archivedAt": "2026-11-13"
+  },
+  {
+    "id": 831,
+    "slug": "open-codesign",
+    "toolName": "Open-codesign",
+    "seoTitle": "Open-codesign — AI code to prototype",
+    "whatItDoes": "Open-codesign is an open-source alternative to proprietary AI design tools, designed to convert prompts into interactive prototypes, slides, and PDFs. It offers a one-click import for your Claude Code or Codex API key, allowing seamless integration with powerful AI models. Supporting a multi-model approach, it works with Claude, GPT, Gemini, Kimi, GLM, and Ollama. The platform emphasizes Bring Your Own Key (BYOK) and local-first functionality for enhanced privacy and control, making it a versatile and secure option for prompt-based design generation.",
+    "category": "Design",
+    "whyItIsUseful": "Open-codesign empowers users to transform their ideas into visual designs with unprecedented ease, leveraging the power of multiple leading AI models. Its ability to generate prototypes, presentations, and PDFs directly from textual prompts dramatically accelerates the design iteration cycle. For individuals and teams who rely on rapid prototyping and visual communication, this tool is a game-changer. The support for various AI models offers flexibility, while the BYOK and local-first approach ensures data privacy and security, which is crucial in professional settings. It’s particularly beneficial for those who want to experiment with different AI engines without being locked into a single ecosystem, and for users who prioritize having more control over their design generation process.",
+    "imageIdea": "AI chatbot interface generating website mockups",
+    "websiteLink": "https://github.com/OpenCoworkAI/open-codesign",
+    "type": "tool",
+    "dateAdded": "2026-05-13",
+    "screenshotUrl": "/screenshots/open-codesign.webp",
+    "everydayUse": "Need to quickly visualize a presentation for a client meeting tomorrow morning? Or perhaps you want to sketch out a user flow for a new app idea you had last night before you forget it.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "OpenCoworkAI/open-codesign",
+        "stars": 8129,
+        "forks": 855,
+        "archived": false,
+        "pushedAt": "2026-10-28",
+        "license": "MIT"
+      }
+    },
+    "archivedAt": "2026-11-13"
+  },
+  {
+    "id": 832,
+    "slug": "affine-collaboration-workspace",
+    "toolName": "Affine",
+    "seoTitle": "Affine — All-in-One Workspace App",
+    "whatItDoes": "Affine is a versatile productivity application designed to be an all-in-one workspace for individuals and teams. It combines note-taking, project management, and document creation into a single, intuitive interface. Affine offers a free tier with generous features for personal use, with paid plans for advanced collaboration and storage. Its strength lies in its seamless integration of different productivity tools, allowing you to manage tasks, write documents, and organize information without context switching.",
+    "category": "Productivity",
+    "whyItIsUseful": "Affine streamlines daily workflows by centralizing essential productivity functions. Users can create detailed notes, manage projects with Kanban boards and to-do lists, and even build collaborative documents, all within one application. The clean, user-friendly interface reduces the learning curve, making it accessible to a wide range of users. Its ability to foster collaboration for small teams is a significant advantage, allowing for shared project spaces and real-time document editing. Affine is ideal for students managing coursework, freelancers juggling multiple clients, and small businesses seeking an integrated system for planning and communication.",
+    "imageIdea": "digital whiteboard team collaboration",
+    "websiteLink": "https://affine.pro/",
+    "type": "tool",
+    "dateAdded": "2026-05-13",
+    "screenshotUrl": "/screenshots/affine-collaboration-workspace.webp",
+    "everydayUse": "You can use Affine to jot down your grocery list and plan your weekly meals. It's helpful for organizing your thoughts before a big meeting or brainstorming ideas for a weekend project. You might also use it to keep track of all those interesting articles you've saved to read later.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "video": {
+        "id": "PK5B_xapfxg",
+        "title": "AFFiNE: The Open-Source Alternative for Notion, Miro and Airtable",
+        "channel": "Better Stack",
+        "durationSec": 451
+      }
+    },
+    "archivedAt": "2026-11-13"
   }
 ]
