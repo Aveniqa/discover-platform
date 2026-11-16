@@ -1,19 +1,19 @@
 [
   {
-    "slug": "term-sheet-please",
-    "title": "Term Sheet, Please",
+    "slug": "frigadehq-yogurt",
+    "title": "Yogurt",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Term Sheet, Please is a compelling web-based simulation game that immerses players in the high-stakes world of early-sta",
+    "description": "Yogurt is a free, open-source application designed to provide private AI-driven meeting summaries. It records your calls",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "dev-null",
-    "title": "/dev/null",
+    "slug": "rea-video",
+    "title": "rea-video",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "/dev/null is a social network specifically built for web developers, conceived and constructed from scratch in a 48-hour",
+    "description": "rea-video is a revolutionary tool designed for reverse-engineering video content, allowing users to break down any video",
     "badge": null,
     "type": "tool"
   }

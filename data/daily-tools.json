@@ -1,46 +1,5 @@
 [
   {
-    "id": 833,
-    "slug": "photomath-math-solver",
-    "toolName": "PhotoMath",
-    "seoTitle": "PhotoMath — Solve Math Problems Instantly",
-    "whatItDoes": "PhotoMath is a mobile application that uses your device's camera to instantly solve mathematical problems. Simply point your camera at a math equation – from basic arithmetic to calculus – and PhotoMath will provide the answer, along with step-by-step explanations. The core scanning and solving functionality is free, with an optional premium subscription for more advanced features and ad-free experience. It's unparalleled in its ability to quickly and accurately decipher handwritten or printed math problems and offer clear, guided solutions.",
-    "category": "Education",
-    "whyItIsUseful": "PhotoMath serves as an invaluable educational aid for students and anyone needing to brush up on their math skills. It demystifies complex equations by breaking them down into understandable steps, fostering a deeper comprehension of mathematical concepts rather than just providing answers. This is particularly useful for homework help, exam preparation, or for adult learners returning to education. The app's instant feedback and clear guidance make difficult math problems feel more approachable and less intimidating. It saves significant time compared to manual calculation or searching for similar problems online, making it a go-to tool for quick math assistance.",
-    "imageIdea": "smartphone scanning math textbook",
-    "websiteLink": "https://www.photomath.com/",
-    "type": "tool",
-    "dateAdded": "2026-05-13",
-    "screenshotUrl": "/screenshots/photomath-math-solver.webp",
-    "everydayUse": "You're trying to help your child with their homework and need a quick check on a complex equation. Or perhaps you're reviewing a budget spreadsheet and need to quickly verify a calculation before sending it off.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "video": {
-        "id": "pyjZ58tTWUI",
-        "title": "Amazing! Photomath App solves math problems by taking a picture of them",
-        "channel": "Rich DeMuro",
-        "durationSec": 286
-      }
-    }
-  },
-  {
-    "id": 834,
-    "slug": "streamlaide-video-editing",
-    "toolName": "Streamlaide",
-    "seoTitle": "Streamlaide — AI Video Creation Tool",
-    "whatItDoes": "Streamlaide is an AI-powered platform designed to simplify video creation for content creators. It allows users to generate videos from text or existing content, automatically adding visuals, music, and voiceovers. The tool offers a freemium model, providing basic video generation for free with tiered paid plans for more extensive features, higher resolution exports, and longer video lengths. Streamlaide excels at rapidly transforming written content into engaging video formats, significantly reducing the time and technical skill typically required for video production.",
-    "category": "Creative",
-    "whyItIsUseful": "In an era where video content dominates online engagement, Streamlaide democratizes video creation. It empowers individuals and businesses to produce professional-looking videos without needing advanced editing software or specialized skills. Content creators can quickly repurpose blog posts, articles, or scripts into shareable video content for social media, marketing, or educational purposes. The AI handles the heavy lifting of selecting appropriate visuals, generating captions, and even adding fitting background music, making the entire process remarkably efficient. This tool is a game-changer for anyone looking to expand their content strategy into video, saving valuable time and resources.",
-    "imageIdea": "ai generating video from text prompt",
-    "websiteLink": "https://www.streamlaide.com/",
-    "type": "tool",
-    "dateAdded": "2026-05-13",
-    "everydayUse": "You need a quick explainer video for your book club's next read, or want to share a funny recap of your weekend trip with friends. When you have those interesting articles you meant to bookmark but now need to summarize for a work update, Streamlaide can help.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 835,
     "slug": "nature-skills",
     "toolName": "nature-skills",
@@ -3923,7 +3882,8 @@
     "everydayUse": "When you're planning a complex group trip and need to see how everyone's contributions fit together, or when you're trying to make sense of a pile of articles you meant to read for a personal project. You might also reach for it when preparing a detailed hand-off to a colleague before taking extended leave.",
     "signals": {
       "checkedAt": "2026-10-28"
-    }
+    },
+    "screenshotUrl": "/screenshots/river-project-planning-software.webp"
   },
   {
     "id": 1040,
@@ -5324,7 +5284,8 @@
     "dateAdded": "2026-08-23",
     "signals": {
       "checkedAt": "2026-10-28"
-    }
+    },
+    "screenshotUrl": "/screenshots/cognito-writing-assistant.webp"
   },
   {
     "id": 1115,
@@ -8482,7 +8443,8 @@
         "pushedAt": "2026-11-11",
         "license": "AGPL-3.0"
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/learn-harness.webp"
   },
   {
     "id": 1275,
@@ -8529,7 +8491,8 @@
         "channel": "msalmaan76",
         "durationSec": 251
       }
-    }
+    },
+    "screenshotUrl": "/screenshots/lichii.webp"
   },
   {
     "id": 1277,
@@ -8547,5 +8510,57 @@
     "signals": {
       "checkedAt": "2026-11-13"
     }
+  },
+  {
+    "id": 1278,
+    "slug": "misterdownloadmanager",
+    "toolName": "misterdownloadmanager",
+    "seoTitle": "misterdownloadmanager — Faster downloads, cross-platform",
+    "whatItDoes": "misterdownloadmanager is a powerful, open-source download manager built from the ground up in Rust, offering a clean and efficient alternative to traditional download tools. It focuses on speed and reliability, claiming to be faster than established download managers like Internet Download Manager (IDM). The tool supports Windows, macOS, and Linux, ensuring broad compatibility. A key feature is its browser extension, simplifying the process of capturing and managing downloads directly from your web browser.",
+    "category": "Productivity",
+    "whyItIsUseful": "For anyone who frequently downloads large files or many individual files, misterdownloadmanager promises a significant boost in efficiency. Its 'clean-room' build in Rust means it's not burdened by legacy code, aiming for peak performance and stability. The cross-platform availability is a major advantage for users who switch between operating systems or collaborate with others on different platforms. The integration with browsers makes capturing download links seamless, reducing the friction of managing multiple downloads. It's ideal for researchers, developers, or anyone needing to manage substantial digital assets without compromise.",
+    "everydayUse": "When you need to download a collection of research papers for a project, or if you're downloading software updates for multiple devices, this manager can queue and accelerate the process. It ensures files are downloaded quickly and reliably, saving you time and hassle, especially when dealing with unstable internet connections.",
+    "imageIdea": "download manager application interface",
+    "websiteLink": "https://github.com/anefzaoui/misterdownloadmanager",
+    "type": "tool",
+    "dateAdded": "2026-11-16",
+    "signals": {
+      "checkedAt": "2026-11-16",
+      "github": {
+        "repo": "anefzaoui/misterdownloadmanager",
+        "stars": 11084,
+        "forks": 930,
+        "archived": false,
+        "pushedAt": "2026-11-16",
+        "license": "GPL-3.0"
+      }
+    },
+    "screenshotUrl": "/screenshots/misterdownloadmanager.webp"
+  },
+  {
+    "id": 1279,
+    "slug": "rea-video",
+    "toolName": "rea-video",
+    "seoTitle": "rea-video — Analyze and recreate any video",
+    "whatItDoes": "rea-video is a revolutionary tool designed for reverse-engineering video content, allowing users to break down any video—whether filmed, AI-generated, or coded—shot by shot. It details the creation process and provides insights on how to remake it. The analyses are documented in the open VIDEO.md format, making the breakdowns accessible and interpretable. This tool is invaluable for understanding video production techniques, identifying AI influences, and learning how to replicate complex visual effects.",
+    "category": "Creative",
+    "whyItIsUseful": "For video creators, VFX artists, and researchers studying AI in media, rea-video offers unparalleled depth in understanding how videos are constructed. It demystifies complex visual effects and AI-generated content, providing a clear roadmap for replication. The VIDEO.md format ensures that analyses are shareable and can be processed by other tools or agents, fostering a more collaborative and transparent approach to video analysis. It's a powerful learning resource that can elevate your own creative capabilities by dissecting the work of others.",
+    "everydayUse": "If you're a content creator who saw a viral video with an effect you can't figure out, this tool helps you understand how it was made. It's also useful for students learning filmmaking or AI researchers analyzing generated content, providing a clear, step-by-step breakdown of any visual creation.",
+    "imageIdea": "video editing software timeline",
+    "websiteLink": "https://github.com/JuneYaooo/rea-video",
+    "type": "tool",
+    "dateAdded": "2026-11-16",
+    "signals": {
+      "checkedAt": "2026-11-16",
+      "github": {
+        "repo": "JuneYaooo/rea-video",
+        "stars": 9639,
+        "forks": 1419,
+        "archived": false,
+        "pushedAt": "2026-11-16",
+        "license": "Apache-2.0"
+      }
+    },
+    "screenshotUrl": "/screenshots/rea-video.webp"
   }
 ]

@@ -25,18 +25,18 @@
     "description": "High-quality products and tools that won't break the bank.",
     "emoji": "💰",
     "itemSlugs": [
-      "diagrams-as-code-tool",
-      "internet-archive-switzerland",
-      "let-go-clojure-go-lang",
-      "trust-rust-1989",
-      "ymawky-assembly-web-server",
-      "project-jupyter",
-      "rust-but-lisp",
-      "ratty-terminal-emulator",
       "mindmapping-mind-gardener",
       "code-documentation-doc-without-code",
       "screenshots-of-old-desktop-oses",
-      "graphics-graphic"
+      "graphics-graphic",
+      "zen-writing-app",
+      "color-contrast-checker",
+      "needle-gemini-tool-calling",
+      "orcaslicer-bambulab-printer-support",
+      "webgl-path-tracing",
+      "index-fyi",
+      "claude-for-small-business",
+      "andreaturchet-website-index-html"
     ]
   },
   {
