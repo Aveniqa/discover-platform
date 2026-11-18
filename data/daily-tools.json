@@ -1,56 +1,5 @@
 [
   {
-    "id": 835,
-    "slug": "nature-skills",
-    "toolName": "nature-skills",
-    "seoTitle": "nature-skills — Python for scientific plotting",
-    "whatItDoes": "nature-skills is a Python library designed to help researchers and academics create publication-quality figures and visualizations that adhere to the stylistic standards of top scientific journals like Nature. It streamlines the process of generating complex scientific plots, offering pre-built templates and functions for common chart types used in fields such as biology, chemistry, and physics. The library is free to use and open-source, with its primary value lying in its ability to simplify and standardize the visual communication of scientific data, saving researchers significant time and effort in data visualization.",
-    "category": "Developer",
-    "whyItIsUseful": "For anyone involved in scientific research, nature-skills offers a significant advantage by automating the creation of visually polished figures that are often a prerequisite for publication. Instead of spending hours manually tweaking plot aesthetics to meet journal requirements, researchers can leverage this library to generate publication-ready graphics quickly. Its focus on scientific accuracy and adherence to academic standards means users can trust the output for their critical work. The extensive GitHub community and star count (5821 stars) indicate strong adoption and ongoing development. It's particularly invaluable for early-career scientists or those who find data visualization a time-consuming bottleneck, empowering them to focus more on their research and less on the intricacies of graphic design for academic papers.",
-    "imageIdea": "python code scientist graph",
-    "websiteLink": "https://github.com/Yuan1z0825/nature-skills",
-    "type": "tool",
-    "dateAdded": "2026-05-14",
-    "screenshotUrl": "/screenshots/nature-skills.webp",
-    "everydayUse": "You're trying to visualize your personal carbon footprint from last year to see where you can make changes. Later, you need to quickly create a simple bar chart showing your monthly savings for a family budget meeting.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "Yuan1z0825/nature-skills",
-        "stars": 51196,
-        "forks": 2650,
-        "archived": false,
-        "pushedAt": "2026-10-28",
-        "license": "Apache-2.0"
-      }
-    }
-  },
-  {
-    "id": 839,
-    "slug": "awesome-self-hosted",
-    "toolName": "Awesome Self-Hosted",
-    "seoTitle": "Awesome Self-Hosted — Curated self-hosted software",
-    "whatItDoes": "Awesome Self-Hosted is a meticulously curated list of free and open-source software that can be installed and run on one's own server infrastructure. It covers a vast array of categories, including productivity, media, communication, and security tools, providing links to projects and essential setup information. This resource is invaluable for individuals and organizations looking to gain more control over their data, avoid subscription fees, and customize their digital environments. It helps users discover and evaluate self-hostable alternatives to popular proprietary services, with a strong emphasis on privacy and ownership.",
-    "category": "Productivity",
-    "whyItIsUseful": "For privacy-conscious users and those who prefer to manage their own data and services, Awesome Self-Hosted is an indispensable guide. It cuts through the noise of the internet to present a vetted selection of high-quality open-source projects that can replace many commercial applications. Whether you're looking for a self-hosted email server, a personal cloud storage solution, a collaborative document editor, or even a password manager, this list offers reliable options. By enabling self-hosting, users can often save significant amounts of money on subscriptions, enhance their security, and tailor software precisely to their needs. It’s a foundational resource for anyone building their own private cloud or seeking greater digital autonomy.",
-    "imageIdea": "server rack software icons",
-    "websiteLink": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-    "type": "tool",
-    "dateAdded": "2026-05-14",
-    "screenshotUrl": "/screenshots/awesome-self-hosted.webp",
-    "everydayUse": "When you need a better way to manage your personal finances beyond spreadsheets, or when planning a group vacation and wanting a shared calendar and task list. You might also use it to find a secure alternative for cloud storage before you hand over your projects for annual leave.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "github": {
-        "repo": "awesome-selfhosted/awesome-selfhosted",
-        "stars": 331443,
-        "forks": 15623,
-        "archived": false,
-        "pushedAt": "2026-10-27"
-      }
-    }
-  },
-  {
     "id": 840,
     "slug": "daily-tool-clera-ai-talent-agent",
     "toolName": "Clera",
@@ -8562,5 +8511,60 @@
       }
     },
     "screenshotUrl": "/screenshots/rea-video.webp"
+  },
+  {
+    "id": 1280,
+    "slug": "kiri",
+    "toolName": "kiri",
+    "seoTitle": "kiri — Fast Container Runtime",
+    "whatItDoes": "Kiri is a lightweight and high-performance container runtime designed for macOS, Windows, and Linux. It's built to be a direct replacement for Docker, allowing you to run your existing Docker images seamlessly. Kiri works with the Docker CLI, Compose, and buildx that you already use, ensuring a smooth transition. It also offers a free alternative to services like Ngrok for exposing local services to the internet. Its primary focus is on speed and minimal resource consumption, making it ideal for development environments.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers, Kiri significantly speeds up the containerization workflow without requiring changes to existing tooling. Its ability to use familiar Docker commands and configurations means minimal learning curve. The built-in Ngrok alternative is a major boon for testing webhooks, sharing local development servers, or collaborating on projects. By offering a faster, more efficient runtime, Kiri helps developers iterate more quickly and reduce machine resource load. Enthusiasts praise its robust performance and ease of integration into daily development tasks, particularly for those working across multiple operating systems. It's an excellent choice for anyone looking to optimize their container development pipeline.",
+    "everydayUse": "When you need to quickly test a local web application with an external service, like a payment gateway or a webhook, you can use Kiri to create a secure tunnel. It's also useful for running microservices locally for development and debugging, ensuring your development environment is as close to production as possible.",
+    "imageIdea": "rust-colored gears interlocking",
+    "websiteLink": "https://github.com/libracoder/kiri",
+    "type": "tool",
+    "dateAdded": "2026-11-18",
+    "signals": {
+      "checkedAt": "2026-11-18",
+      "github": {
+        "repo": "libracoder/kiri",
+        "stars": 10720,
+        "forks": 486,
+        "archived": false,
+        "pushedAt": "2026-11-18",
+        "license": "Apache-2.0"
+      },
+      "video": {
+        "id": "qy4ajsBbOKw",
+        "title": "This Docker Alternative Starts Containers 8× Faster (Kiri)",
+        "channel": "Better Stack",
+        "durationSec": 433
+      }
+    }
+  },
+  {
+    "id": 1281,
+    "slug": "hghub",
+    "toolName": "HGhub",
+    "seoTitle": "HGhub — Universal Media Player",
+    "whatItDoes": "HGhub is a universal video player that connects to content through plugins. It consolidates browsing, searching, playback, and personal media libraries into a single application. By importing JavaScript plugins, users can access diverse content sources and manage them through a unified interface. HGhub itself does not provide content sources or distribute third-party plugins, placing the control and responsibility with the user. It supports HLS and standard video formats, offering flexible playback options like line switching and resolution adjustments.",
+    "category": "Entertainment",
+    "whyItIsUseful": "HGhub offers an unparalleled level of control and flexibility for media consumption, especially for users who rely on various online sources. Its plugin architecture means you're not tied to a single provider and can adapt the player to your evolving needs. The immersive playback experience, combined with multi-source browsing and searching capabilities, streamlines finding and watching content. It's particularly useful for users who want to aggregate content from niche or less mainstream platforms that aren't well-supported by standard players. The ability to manage all your viewing in one place, without content being dictated by the app itself, is a significant draw for privacy-conscious or specialized users.",
+    "everydayUse": "When you want to watch a series from a streaming service not directly supported by your smart TV, you can find a plugin for HGhub. If you're organizing a movie night with friends and want to easily access content from different sources, HGhub can act as your central hub.",
+    "imageIdea": "stylized video play button integrated into a globe",
+    "websiteLink": "https://github.com/Minireel/HGhub",
+    "type": "tool",
+    "dateAdded": "2026-11-18",
+    "signals": {
+      "checkedAt": "2026-11-18",
+      "github": {
+        "repo": "Minireel/HGhub",
+        "stars": 10067,
+        "forks": 8545,
+        "archived": false,
+        "pushedAt": "2026-11-18"
+      }
+    }
   }
 ]

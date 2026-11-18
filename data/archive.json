@@ -47755,5 +47755,95 @@
       "checkedAt": "2026-10-28"
     },
     "archivedAt": "2026-11-16"
+  },
+  {
+    "id": 775,
+    "slug": "mindmapping-mind-gardener",
+    "name": "MindGardener",
+    "seoTitle": "MindGardener — Visual thought mapping tool",
+    "whatItDoes": "MindGardener is a visually rich and interactive tool for creating and organizing mind maps. Unlike traditional static diagrams, it offers dynamic features for exploring connections between ideas, tasks, and notes. Developed by an independent team, it aims to provide a more intuitive and fluid way to brainstorm, plan projects, and capture complex information. For example, a student could use it to map out essay arguments, linking sources, key points, and potential counter-arguments in a visually navigable structure.",
+    "category": "Productivity",
+    "whyItIsUseful": "MindGardener stands out in the crowded mind-mapping space due to its emphasis on visual appeal and user experience, offering a refreshing alternative to more utilitarian tools. It allows for deep customization of nodes and connections, enabling users to build highly personalized visual knowledge structures. Power users appreciate its robust feature set for complex project management and research organization, where visualizing intricate relationships is paramount. A unique feature is its 'focus mode' which gradually fades out peripheral elements, helping users concentrate on specific branches of their map. This tool is ideal for visual thinkers, researchers, students, and anyone who benefits from seeing the 'big picture' of their ideas and projects in a highly engaging way.",
+    "imageIdea": "glowing brain synapse network",
+    "websiteLink": "https://mindgardener.app/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-11",
+    "everydayUse": "You might use it to plan your weekly meals and grocery list, or to brainstorm gift ideas for an upcoming birthday. It's also helpful for sketching out the steps for a DIY project or jotting down ideas for a new hobby.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-18"
+  },
+  {
+    "id": 776,
+    "slug": "code-documentation-doc-without-code",
+    "name": "Docforge",
+    "seoTitle": "Docforge — AI-powered code documentation",
+    "whatItDoes": "Docforge is an AI-driven platform designed to automatically generate comprehensive documentation for your codebase. It analyzes your code, identifies key functions, classes, and modules, and produces clear, concise, and human-readable explanations. This tool addresses the common pain point of maintaining up-to-date documentation, especially in large or rapidly evolving projects. Developers can use Docforge to quickly generate initial documentation drafts, significantly reducing the manual effort involved in explaining their code to colleagues or future maintainers. It supports multiple programming languages, making it a versatile solution for diverse development teams.",
+    "category": "Developer",
+    "whyItIsUseful": "Docforge is an underrated gem for developers because it tackles the often-tedious task of code documentation with intelligent automation. While many IDEs offer basic code completion hints, Docforge goes much further by generating narrative explanations that capture the intent and functionality of code sections. This significantly speeds up onboarding for new team members and improves collaboration by ensuring consistent and high-quality documentation. Its AI capabilities learn from your coding patterns, leading to more contextually relevant and accurate descriptions over time. Developers who value efficient workflows and robust project maintainability will find Docforge indispensable for keeping their codebases well-understood and accessible.",
+    "imageIdea": "open book with code snippets",
+    "websiteLink": "https://docforge.dev/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-11",
+    "screenshotUrl": "/screenshots/code-documentation-doc-without-code.webp",
+    "everydayUse": "You're onboarding a new team member and need to quickly explain how a complex feature works. Or perhaps you're handing over a project before going on vacation and want to ensure everything is clear. You also reach for it when you finally get around to those articles you bookmarked months ago.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-18"
+  },
+  {
+    "id": 835,
+    "slug": "nature-skills",
+    "toolName": "nature-skills",
+    "seoTitle": "nature-skills — Python for scientific plotting",
+    "whatItDoes": "nature-skills is a Python library designed to help researchers and academics create publication-quality figures and visualizations that adhere to the stylistic standards of top scientific journals like Nature. It streamlines the process of generating complex scientific plots, offering pre-built templates and functions for common chart types used in fields such as biology, chemistry, and physics. The library is free to use and open-source, with its primary value lying in its ability to simplify and standardize the visual communication of scientific data, saving researchers significant time and effort in data visualization.",
+    "category": "Developer",
+    "whyItIsUseful": "For anyone involved in scientific research, nature-skills offers a significant advantage by automating the creation of visually polished figures that are often a prerequisite for publication. Instead of spending hours manually tweaking plot aesthetics to meet journal requirements, researchers can leverage this library to generate publication-ready graphics quickly. Its focus on scientific accuracy and adherence to academic standards means users can trust the output for their critical work. The extensive GitHub community and star count (5821 stars) indicate strong adoption and ongoing development. It's particularly invaluable for early-career scientists or those who find data visualization a time-consuming bottleneck, empowering them to focus more on their research and less on the intricacies of graphic design for academic papers.",
+    "imageIdea": "python code scientist graph",
+    "websiteLink": "https://github.com/Yuan1z0825/nature-skills",
+    "type": "tool",
+    "dateAdded": "2026-05-14",
+    "screenshotUrl": "/screenshots/nature-skills.webp",
+    "everydayUse": "You're trying to visualize your personal carbon footprint from last year to see where you can make changes. Later, you need to quickly create a simple bar chart showing your monthly savings for a family budget meeting.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "Yuan1z0825/nature-skills",
+        "stars": 51196,
+        "forks": 2650,
+        "archived": false,
+        "pushedAt": "2026-10-28",
+        "license": "Apache-2.0"
+      }
+    },
+    "archivedAt": "2026-11-18"
+  },
+  {
+    "id": 839,
+    "slug": "awesome-self-hosted",
+    "toolName": "Awesome Self-Hosted",
+    "seoTitle": "Awesome Self-Hosted — Curated self-hosted software",
+    "whatItDoes": "Awesome Self-Hosted is a meticulously curated list of free and open-source software that can be installed and run on one's own server infrastructure. It covers a vast array of categories, including productivity, media, communication, and security tools, providing links to projects and essential setup information. This resource is invaluable for individuals and organizations looking to gain more control over their data, avoid subscription fees, and customize their digital environments. It helps users discover and evaluate self-hostable alternatives to popular proprietary services, with a strong emphasis on privacy and ownership.",
+    "category": "Productivity",
+    "whyItIsUseful": "For privacy-conscious users and those who prefer to manage their own data and services, Awesome Self-Hosted is an indispensable guide. It cuts through the noise of the internet to present a vetted selection of high-quality open-source projects that can replace many commercial applications. Whether you're looking for a self-hosted email server, a personal cloud storage solution, a collaborative document editor, or even a password manager, this list offers reliable options. By enabling self-hosting, users can often save significant amounts of money on subscriptions, enhance their security, and tailor software precisely to their needs. It’s a foundational resource for anyone building their own private cloud or seeking greater digital autonomy.",
+    "imageIdea": "server rack software icons",
+    "websiteLink": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "type": "tool",
+    "dateAdded": "2026-05-14",
+    "screenshotUrl": "/screenshots/awesome-self-hosted.webp",
+    "everydayUse": "When you need a better way to manage your personal finances beyond spreadsheets, or when planning a group vacation and wanting a shared calendar and task list. You might also use it to find a secure alternative for cloud storage before you hand over your projects for annual leave.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "github": {
+        "repo": "awesome-selfhosted/awesome-selfhosted",
+        "stars": 331443,
+        "forks": 15623,
+        "archived": false,
+        "pushedAt": "2026-10-27"
+      }
+    },
+    "archivedAt": "2026-11-18"
   }
 ]

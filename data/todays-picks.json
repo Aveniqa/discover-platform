@@ -1,19 +1,19 @@
 [
   {
-    "slug": "frigadehq-yogurt",
-    "title": "Yogurt",
+    "slug": "hidden-gem-explain-shell",
+    "title": "Explain Shell",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Yogurt is a free, open-source application designed to provide private AI-driven meeting summaries. It records your calls",
+    "description": "Explain Shell is a web-based tool that demystifies complex command-line arguments for various Unix-like systems. Users p",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "rea-video",
-    "title": "rea-video",
+    "slug": "hghub",
+    "title": "HGhub",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "rea-video is a revolutionary tool designed for reverse-engineering video content, allowing users to break down any video",
+    "description": "HGhub is a universal video player that connects to content through plugins. It consolidates browsing, searching, playbac",
     "badge": null,
     "type": "tool"
   }

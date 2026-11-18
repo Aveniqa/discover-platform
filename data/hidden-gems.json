@@ -1,40 +1,5 @@
 [
   {
-    "id": 775,
-    "slug": "mindmapping-mind-gardener",
-    "name": "MindGardener",
-    "seoTitle": "MindGardener — Visual thought mapping tool",
-    "whatItDoes": "MindGardener is a visually rich and interactive tool for creating and organizing mind maps. Unlike traditional static diagrams, it offers dynamic features for exploring connections between ideas, tasks, and notes. Developed by an independent team, it aims to provide a more intuitive and fluid way to brainstorm, plan projects, and capture complex information. For example, a student could use it to map out essay arguments, linking sources, key points, and potential counter-arguments in a visually navigable structure.",
-    "category": "Productivity",
-    "whyItIsUseful": "MindGardener stands out in the crowded mind-mapping space due to its emphasis on visual appeal and user experience, offering a refreshing alternative to more utilitarian tools. It allows for deep customization of nodes and connections, enabling users to build highly personalized visual knowledge structures. Power users appreciate its robust feature set for complex project management and research organization, where visualizing intricate relationships is paramount. A unique feature is its 'focus mode' which gradually fades out peripheral elements, helping users concentrate on specific branches of their map. This tool is ideal for visual thinkers, researchers, students, and anyone who benefits from seeing the 'big picture' of their ideas and projects in a highly engaging way.",
-    "imageIdea": "glowing brain synapse network",
-    "websiteLink": "https://mindgardener.app/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-11",
-    "everydayUse": "You might use it to plan your weekly meals and grocery list, or to brainstorm gift ideas for an upcoming birthday. It's also helpful for sketching out the steps for a DIY project or jotting down ideas for a new hobby.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 776,
-    "slug": "code-documentation-doc-without-code",
-    "name": "Docforge",
-    "seoTitle": "Docforge — AI-powered code documentation",
-    "whatItDoes": "Docforge is an AI-driven platform designed to automatically generate comprehensive documentation for your codebase. It analyzes your code, identifies key functions, classes, and modules, and produces clear, concise, and human-readable explanations. This tool addresses the common pain point of maintaining up-to-date documentation, especially in large or rapidly evolving projects. Developers can use Docforge to quickly generate initial documentation drafts, significantly reducing the manual effort involved in explaining their code to colleagues or future maintainers. It supports multiple programming languages, making it a versatile solution for diverse development teams.",
-    "category": "Developer",
-    "whyItIsUseful": "Docforge is an underrated gem for developers because it tackles the often-tedious task of code documentation with intelligent automation. While many IDEs offer basic code completion hints, Docforge goes much further by generating narrative explanations that capture the intent and functionality of code sections. This significantly speeds up onboarding for new team members and improves collaboration by ensuring consistent and high-quality documentation. Its AI capabilities learn from your coding patterns, leading to more contextually relevant and accurate descriptions over time. Developers who value efficient workflows and robust project maintainability will find Docforge indispensable for keeping their codebases well-understood and accessible.",
-    "imageIdea": "open book with code snippets",
-    "websiteLink": "https://docforge.dev/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-11",
-    "screenshotUrl": "/screenshots/code-documentation-doc-without-code.webp",
-    "everydayUse": "You're onboarding a new team member and need to quickly explain how a complex feature works. Or perhaps you're handing over a project before going on vacation and want to ensure everything is clear. You also reach for it when you finally get around to those articles you bookmarked months ago.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 777,
     "slug": "screenshots-of-old-desktop-oses",
     "name": "Screenshots of Old Desktop OSes",
@@ -7544,5 +7509,47 @@
       }
     },
     "screenshotUrl": "/screenshots/frigadehq-yogurt.webp"
+  },
+  {
+    "id": 1243,
+    "slug": "agweb",
+    "name": "agweb",
+    "seoTitle": "agweb — Browser for coding agents",
+    "whatItDoes": "Agweb is a lightweight, macOS-native browser designed specifically for developers working with multiple AI coding agents. It utilizes WebKit, the same engine as Safari, to provide a stable and unobtrusive browsing experience. Unlike standard browser windows that can steal focus or become resource-heavy, agweb allows agents to control tabs programmatically via a command-line interface. This means you can watch your agents work in real-time without interruption, and idle tabs are efficiently suspended to minimize CPU and memory usage. It's built by a developer for developers who need to manage a fleet of AI assistants.",
+    "category": "Developer",
+    "whyItIsUseful": "This tool is a godsend for anyone managing multiple AI coding agents simultaneously. Traditional browser windows are notoriously distracting, and headless browsers can be opaque. Agweb bridges this gap by providing a visible, yet non-intrusive, interface for your agents. Its ability to suspend idle tabs is a significant power-saver, especially when running many agents concurrently. The shell-based control means seamless integration into existing developer workflows. It's an excellent example of a niche tool built by a user who deeply understands and solves a specific pain point for advanced AI development.",
+    "everydayUse": "When you're running several AI agents to generate code or research different solutions, agweb lets you keep an eye on all of them without their windows popping up and demanding attention. You can simply check in on their progress, knowing your focus remains on your primary tasks.",
+    "imageIdea": "open browser tabs on a mac screen",
+    "websiteLink": "https://github.com/paul-nameless/agweb",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-18",
+    "signals": {
+      "checkedAt": "2026-11-18",
+      "github": {
+        "repo": "paul-nameless/agweb",
+        "stars": 271,
+        "forks": 8,
+        "archived": false,
+        "pushedAt": "2026-11-16",
+        "license": "MIT"
+      }
+    }
+  },
+  {
+    "id": 1244,
+    "slug": "hidden-gem-explain-shell",
+    "name": "Explain Shell",
+    "seoTitle": "Explain Shell — Understand command-line arguments",
+    "whatItDoes": "Explain Shell is a web-based tool that demystifies complex command-line arguments for various Unix-like systems. Users paste a command, and the tool breaks down each option and argument, explaining its purpose and how it affects the command's execution. It leverages a comprehensive database of common commands and their options, providing context and definitions that would otherwise require extensive manual research or man page diving. It's built and maintained by the community, ensuring its utility across a wide range of command-line tools.",
+    "category": "Developer",
+    "whyItIsUseful": "While many developers are comfortable with the command line, the sheer volume of flags and options for even common tools can be overwhelming. Explain Shell acts as an intelligent interpreter, making obscure arguments clear and accessible. It's far more intuitive than sifting through lengthy man pages, offering concise explanations tailored to the specific command provided. Power users appreciate its ability to quickly recall or discover the function of rarely used flags, while beginners find it an indispensable learning aid. It significantly lowers the barrier to entry for mastering advanced shell usage, making complex operations approachable.",
+    "everydayUse": "You encounter a lengthy `find` command with many options you don't fully recognize. You paste it into Explain Shell, and it immediately clarifies what each flag does, helping you understand the command's precise behavior and modify it if needed.",
+    "imageIdea": "open book revealing intricate gears",
+    "websiteLink": "https://explainshell.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-18",
+    "signals": {
+      "checkedAt": "2026-11-18"
+    }
   }
 ]

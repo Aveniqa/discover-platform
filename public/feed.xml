@@ -5,8 +5,24 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HGhub</title>
+      <link>https://surfaced-x.pages.dev/item/hghub</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hghub</guid>
+      <description>HGhub is a universal video player that connects to content through plugins. It consolidates browsing, searching, playback, and personal media libraries into a single application. By importing JavaScript plugins, users can access diverse content sources and manage them through a unified interface. HGhub itself does not provide content sources or distribute third-party plugins, placing the control and responsibility with the user. It supports HLS and standard video formats, offering flexible playback options like line switching and resolution adjustments.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>kiri</title>
+      <link>https://surfaced-x.pages.dev/item/kiri</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/kiri</guid>
+      <description>Kiri is a lightweight and high-performance container runtime designed for macOS, Windows, and Linux. It&apos;s built to be a direct replacement for Docker, allowing you to run your existing Docker images seamlessly. Kiri works with the Docker CLI, Compose, and buildx that you already use, ensuring a smooth transition. It also offers a free alternative to services like Ngrok for exposing local services to the internet. Its primary focus is on speed and minimal resource consumption, making it ideal for development environments.</description>
+      <category>Daily Tools</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>rea-video</title>
       <link>https://surfaced-x.pages.dev/item/rea-video</link>
@@ -393,6 +409,14 @@
       <media:thumbnail url="https://images.pexels.com/photos/33475289/pexels-photo-33475289.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Explain Shell</title>
+      <link>https://surfaced-x.pages.dev/item/hidden-gem-explain-shell</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/hidden-gem-explain-shell</guid>
+      <description>Explain Shell is a web-based tool that demystifies complex command-line arguments for various Unix-like systems. Users paste a command, and the tool breaks down each option and argument, explaining its purpose and how it affects the command&apos;s execution. It leverages a comprehensive database of common commands and their options, providing context and definitions that would otherwise require extensive manual research or man page diving. It&apos;s built and maintained by the community, ensuring its utility across a wide range of command-line tools.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>jev-ultrafast</title>
       <link>https://surfaced-x.pages.dev/item/jev-ultrafast-python-script</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/jev-ultrafast-python-script</guid>
@@ -402,6 +426,14 @@
       <enclosure url="https://images.pexels.com/photos/12696650/pexels-photo-12696650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/12696650/pexels-photo-12696650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/12696650/pexels-photo-12696650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
+    </item>
+    <item>
+      <title>agweb</title>
+      <link>https://surfaced-x.pages.dev/item/agweb</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/agweb</guid>
+      <description>Agweb is a lightweight, macOS-native browser designed specifically for developers working with multiple AI coding agents. It utilizes WebKit, the same engine as Safari, to provide a stable and unobtrusive browsing experience. Unlike standard browser windows that can steal focus or become resource-heavy, agweb allows agents to control tabs programmatically via a command-line interface. This means you can watch your agents work in real-time without interruption, and idle tabs are efficiently suspended to minimize CPU and memory usage. It&apos;s built by a developer for developers who need to manage a fleet of AI assistants.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Inkscape</title>
@@ -512,50 +544,6 @@
       <enclosure url="https://images.pexels.com/photos/39612971/pexels-photo-39612971.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
       <media:content url="https://images.pexels.com/photos/39612971/pexels-photo-39612971.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
       <media:thumbnail url="https://images.pexels.com/photos/39612971/pexels-photo-39612971.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Mindly</title>
-      <link>https://surfaced-x.pages.dev/item/mindly</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/mindly</guid>
-      <description>Mindly is a digital mind mapping tool that helps you visualize your thoughts, ideas, and projects in a hierarchical structure. It features a clean, intuitive interface that makes it easy to add nodes, connect concepts, and organize information for brainstorming, planning, or note-taking. Mindly is available as a freemium app, with basic functionality free and advanced features via subscription. Its primary value lies in its ability to transform abstract thoughts into structured, visual representations, making complex ideas more digestible and actionable. It excels at helping you quickly capture and arrange ideas without getting bogged down by rigid formatting.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/7710204/pexels-photo-7710204.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/7710204/pexels-photo-7710204.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/7710204/pexels-photo-7710204.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Chronos Journal</title>
-      <link>https://surfaced-x.pages.dev/item/chronos-journal</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/chronos-journal</guid>
-      <description>Chronos Journal is a beautifully designed, minimalist app for tracking your daily mood, activities, and habits. It aims to help you understand the patterns and correlations between your lifestyle choices and your emotional well-being without overwhelming you with data. The app focuses on simplicity and introspection, providing gentle prompts and visual summaries of your progress over time. It&apos;s built by an independent developer focused on user privacy and a clutter-free experience.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/10902646/pexels-photo-10902646.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/10902646/pexels-photo-10902646.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/10902646/pexels-photo-10902646.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Human Atlas</title>
-      <link>https://surfaced-x.pages.dev/item/human-atlas</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/human-atlas</guid>
-      <description>Human Atlas is an open-source 3D anatomy explorer that provides a detailed and interactive visualization of the human body. It features over 2,300 selectable BodyParts3D meshes, allowing users to isolate and examine specific anatomical structures. The tool includes system layers for understanding organ and tissue organization and offers search functionalities and exploded views for deeper exploration. It&apos;s built with TypeScript, making it a modern and efficient web-based application for anatomical study.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/3825539/pexels-photo-3825539.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Vegetable Gardening for Engineers</title>
-      <link>https://surfaced-x.pages.dev/item/vegetable-gardening-for-engineers</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/vegetable-gardening-for-engineers</guid>
-      <description>This is a comprehensive, data-driven guide to vegetable gardening, specifically curated for those who appreciate detail and scientific rigor. The creator, dissatisfied with the lack of depth in popular gardening resources, synthesized information from academic extensions, commercial seed companies, agricultural training, and even indoor cannabis cultivation techniques. It aims to provide clear, actionable advice grounded in empirical data and logical principles, making gardening more accessible and effective for individuals with an analytical mindset.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/38020402/pexels-photo-38020402.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/38020402/pexels-photo-38020402.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/38020402/pexels-photo-38020402.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>
