@@ -1,47 +1,5 @@
 [
   {
-    "id": 840,
-    "slug": "daily-tool-clera-ai-talent-agent",
-    "toolName": "Clera",
-    "seoTitle": "Clera — AI talent agent for roles",
-    "whatItDoes": "Clera is an AI-powered talent agent designed to help individuals find job opportunities that genuinely align with their aspirations. It operates through conversational interfaces like iMessage and WhatsApp, learning your career goals, preferences, and desired work environments. Clera then proactively surfaces relevant job openings, acting as a personalized recruiter to streamline your job search. It's particularly adept at filtering out irrelevant listings and presenting you with roles you'd be truly excited about, a feat often challenging with traditional job boards. Clera offers a freemium model, with core functionalities available at no cost.",
-    "category": "Productivity",
-    "whyItIsUseful": "In today's crowded job market, Clera offers a refreshing and highly personalized approach to career advancement. By leveraging AI to understand your unique career trajectory and desires, it significantly reduces the time and effort spent sifting through countless unsuitable job postings. Its integration with popular messaging apps makes it incredibly accessible and convenient to use on the go. Enthusiastic users praise Clera for its ability to uncover hidden gem opportunities and for the intelligent way it matches skills to roles. This tool is invaluable for job seekers who are tired of generic alerts and are looking for a more curated, efficient, and engaging job search experience, ultimately helping them land roles that offer better long-term career satisfaction.",
-    "imageIdea": "ai robot speaking with person on phone",
-    "websiteLink": "https://www.producthunt.com/r/MHJ73XCI7VH4JY",
-    "type": "tool",
-    "dateAdded": "2026-05-15",
-    "screenshotUrl": "/screenshots/daily-tool-clera-ai-talent-agent.webp",
-    "everydayUse": "When you're scrolling through job boards during your lunch break, or when you're finally ready to update your resume after months of putting it off. You might also use it when you see a job posting that seems perfect, but you don't have time to apply right away.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 841,
-    "slug": "figma-collaborative-design-tool",
-    "toolName": "Figma",
-    "seoTitle": "Figma — Collaborative interface design tool",
-    "whatItDoes": "Figma is a cloud-based design tool primarily used for user interface (UI) and user experience (UX) design, but it's also versatile enough for wireframing, prototyping, and even graphic design. Its standout feature is real-time collaboration, allowing multiple designers to work on the same file simultaneously, making it ideal for team projects. Figma offers a free tier with generous features for individual designers and small teams, with paid plans providing more advanced capabilities for larger organizations. It simplifies the design process by offering a unified platform for creation, prototyping, and handoff to developers.",
-    "category": "Design",
-    "whyItIsUseful": "Figma has revolutionized collaborative design by enabling live co-editing, akin to Google Docs for designers. This eliminates version control issues and streamlines feedback loops, significantly speeding up the design iteration process. Its browser-based nature means no downloads are required for basic use, making it accessible from any computer. The platform's robust prototyping features allow designers to create interactive mockups that accurately represent the user flow, which is invaluable for client presentations and developer handoffs. Designers praise its clean interface, powerful vector editing tools, and its extensive plugin ecosystem that further extends its functionality, making it an indispensable tool for modern design workflows.",
-    "imageIdea": "team collaborating on digital design project",
-    "websiteLink": "https://www.figma.com/",
-    "type": "tool",
-    "dateAdded": "2026-05-15",
-    "screenshotUrl": "/screenshots/figma-collaborative-design-tool.webp",
-    "everydayUse": "You're planning a weekend project with friends and need to visually map out the steps. You're also trying to organize all those articles you saved for later, creating a visual overview to make sense of them.",
-    "signals": {
-      "checkedAt": "2026-10-28",
-      "video": {
-        "id": "jQ1sfKIl50E",
-        "title": "Figma Tutorial for Beginners (13-min crash course!)",
-        "channel": "Flux Academy",
-        "durationSec": 802
-      }
-    }
-  },
-  {
     "id": 842,
     "slug": "libreoffice-office-suite",
     "toolName": "LibreOffice",
@@ -8564,6 +8522,48 @@
         "forks": 8545,
         "archived": false,
         "pushedAt": "2026-11-18"
+      }
+    }
+  },
+  {
+    "id": 1282,
+    "slug": "alsona",
+    "toolName": "Alsona",
+    "seoTitle": "Alsona — AI finds buying signals",
+    "whatItDoes": "Alsona is an AI-powered sales intelligence tool that identifies prospects showing immediate buying intent. It analyzes over 32 diverse signals, including hiring trends, funding announcements, technology adoption, customer reviews, and ad spend, to pinpoint individuals and companies most likely to purchase. The platform then translates these signals into personalized outreach strategies, aiming to convert passive interest into booked sales calls. Pricing is typically offered via custom quotes, reflecting its enterprise-grade capabilities.",
+    "category": "Finance",
+    "whyItIsUseful": "For sales teams struggling with low conversion rates due to out-of-market outreach, Alsona offers a significant advantage by focusing efforts on high-intent leads. Its ability to aggregate and interpret fragmented buyer signals from numerous sources – some publicly available, others hidden in online discussions or podcasts – allows for hyper-personalized and timely engagement. This drastically improves sales efficiency and ROI, as your team spends less time prospecting and more time closing deals with ready buyers. Its G2 rating of 4.9 underscores its effectiveness. It's particularly valuable for B2B sales organizations looking to optimize their outreach and pipeline generation.",
+    "everydayUse": "Imagine you're a sales development representative. Instead of cold calling a broad list, Alsona highlights companies actively seeking solutions like yours because they just received funding. You can then craft a targeted message referencing this specific event, making your outreach far more relevant and effective.",
+    "imageIdea": "sales meeting data analysis",
+    "websiteLink": "https://alsona.ai",
+    "type": "tool",
+    "dateAdded": "2026-11-20",
+    "signals": {
+      "checkedAt": "2026-11-20"
+    }
+  },
+  {
+    "id": 1283,
+    "slug": "beacon",
+    "toolName": "beacon.sh",
+    "seoTitle": "beacon.sh — AI agent memory",
+    "whatItDoes": "beacon.sh provides an open-source, self-improving memory layer for AI coding agents. It integrates with over 20 different agent harnesses, including popular ones like Claude Code and Cursor. By capturing and compounding knowledge from every agent session, beacon.sh ensures that each subsequent agent interaction starts with a richer, more informed context. This eliminates redundant learning and allows AI agents to become progressively smarter and more efficient over time. The project is licensed under MIT and is actively developed on GitHub.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers leveraging AI coding assistants, beacon.sh is revolutionary because it addresses a fundamental limitation: AI's tendency to forget or start from scratch with each new session. By creating a persistent, shared knowledge base for your AI agents, beacon.sh significantly accelerates development cycles. Imagine your AI remembering complex project structures, past debugging insights, or team coding conventions across multiple tasks and projects. This makes AI assistants more like true collaborators, saving developers countless hours of repetitive explanation and context-setting. It's an essential tool for anyone serious about maximizing AI's productivity in software development.",
+    "everydayUse": "You’re working on a complex coding project with an AI assistant. After a break, you resume work, and the AI instantly recalls the architecture and your previous lines of thought, ready to pick up exactly where you left off, rather than needing a full re-explanation.",
+    "imageIdea": "computer screen code abstract",
+    "websiteLink": "https://github.com/Asymptote-Labs/agent-beacon",
+    "type": "tool",
+    "dateAdded": "2026-11-20",
+    "signals": {
+      "checkedAt": "2026-11-20",
+      "github": {
+        "repo": "Asymptote-Labs/agent-beacon",
+        "stars": 3582,
+        "forks": 325,
+        "archived": false,
+        "pushedAt": "2026-11-20",
+        "license": "MIT"
       }
     }
   }

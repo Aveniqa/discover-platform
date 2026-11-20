@@ -1,40 +1,5 @@
 [
   {
-    "id": 777,
-    "slug": "screenshots-of-old-desktop-oses",
-    "name": "Screenshots of Old Desktop OSes",
-    "seoTitle": "Screenshots Old OSes — Digital Nostalgia Archive",
-    "whatItDoes": "This is a meticulously curated archive of screenshots from various vintage desktop operating systems. It serves as a digital museum, preserving the visual history of computing interfaces from eras past. You can browse through images of operating systems that were once cutting-edge, offering a glimpse into the evolution of user experience and design aesthetics in computing. It's a fascinating resource for anyone interested in the history of technology or simply for a dose of digital nostalgia.",
-    "category": "Reference",
-    "whyItIsUseful": "This site offers a unique and often overlooked perspective on technological evolution. While many resources discuss OS history, the sheer volume and variety of visual examples here make it invaluable for designers, developers, and historians. It’s particularly useful for understanding the design constraints and innovations of different periods, which can inform modern UI/UX decisions or simply serve as inspiration. Power users and researchers appreciate the deep dive into visual heritage, providing a tangible connection to how users interacted with computers decades ago. It's a hidden gem for anyone feeling the pull of retro computing or studying the aesthetics of digital interfaces.",
-    "imageIdea": "vintage computer monitor",
-    "websiteLink": "https://www.typewritten.org/Media/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-12",
-    "screenshotUrl": "/screenshots/screenshots-of-old-desktop-oses.webp",
-    "everydayUse": "You might find yourself looking for inspiration for a retro-themed graphic design project. Or perhaps you're reminiscing about your first computer and want to see what it looked like again. It's also useful for quickly illustrating a point about how far user interfaces have come in a presentation.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
-    "id": 778,
-    "slug": "graphics-graphic",
-    "name": "Graphics graphic",
-    "seoTitle": "Graphics graphic — Data Visualization Tools",
-    "whatItDoes": "Graphics graphic is a comprehensive hub and collection of tools and libraries for data visualization. It aims to bring together various approaches to creating charts, graphs, and interactive visual representations of data, catering to developers and data scientists. The platform showcases a wide range of charting technologies, from simple bar charts to complex network diagrams, often providing examples and links to their respective projects. Its purpose is to simplify the process of finding and integrating effective data visualization solutions into projects.",
-    "category": "Developer",
-    "whyItIsUseful": "In a world awash with data, effective visualization is key, and this site cuts through the noise to present a curated selection of powerful tools. Unlike generic lists, it often highlights more specialized or cutting-edge libraries that might not be on the radar of mainstream developers. It's a fantastic resource for finding the perfect charting library for a specific need, whether it's for web-based interactive dashboards, scientific plotting, or complex geospatial data. Developers who want to go beyond basic charts and explore sophisticated visual storytelling with data will find immense value here. It champions tools that offer both flexibility and performance, often appreciated by seasoned practitioners.",
-    "imageIdea": "abstract geometric data visualization",
-    "websiteLink": "https://www.graphics.graphic/",
-    "type": "hidden-gem",
-    "dateAdded": "2026-05-12",
-    "everydayUse": "You might use this to visualize your personal budget for the month, or to create a quick infographic for a neighborhood meeting. When planning a group trip, it can help you illustrate potential spending scenarios.",
-    "signals": {
-      "checkedAt": "2026-10-28"
-    }
-  },
-  {
     "id": 780,
     "slug": "zen-writing-app",
     "name": "FocusWriter",
@@ -7550,6 +7515,46 @@
     "dateAdded": "2026-11-18",
     "signals": {
       "checkedAt": "2026-11-18"
+    }
+  },
+  {
+    "id": 1245,
+    "slug": "ground-stop-watch",
+    "name": "Ground Stop Watch",
+    "seoTitle": "Ground Stop Watch — FAA flight tracker",
+    "whatItDoes": "This tool provides a live and replayable map of U.S. flights during FAA nationwide ground stops. It visualizes aircraft in the air relative to normal operations, allowing users to see the immediate impact of such events. Built by grounds.top, it's designed to offer transparency during air traffic disruptions. For instance, during an FAA ground stop, you could monitor how many flights are still attempting to depart or are airborne versus typical traffic patterns.",
+    "category": "Developer",
+    "whyItIsUseful": "Ground Stop Watch is an invaluable, albeit niche, tool for anyone interested in the intricacies of air traffic control and the real-time effects of disruptions. Unlike general flight trackers, it specifically focuses on the impact of ground stops, offering a granular view of aviation system behavior under stress. Its replayability allows for post-event analysis, which is particularly useful for researchers, aviation enthusiasts, or even those impacted by travel delays. Power users appreciate its focused data presentation, highlighting deviations from normal operations that might be lost in more generalized trackers.",
+    "everydayUse": "If you're an aviation enthusiast, you might check this tool during a significant FAA ground stop to observe the immediate impact on air traffic. It helps visualize how grounded flights and the sky clear during such events, offering a unique perspective on the system's response.",
+    "imageIdea": "radar screen aviation",
+    "websiteLink": "https://grounds.top/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-20",
+    "signals": {
+      "checkedAt": "2026-11-20"
+    }
+  },
+  {
+    "id": 1246,
+    "slug": "unpoly-javascript-framework",
+    "name": "Unpoly",
+    "seoTitle": "Unpoly — Faster web applications framework",
+    "whatItDoes": "Unpoly is a JavaScript framework designed to make dynamic web applications feel faster and more responsive without the complexity of modern SPA frameworks. It works by enhancing HTML with special attributes, allowing for partial page updates, instant navigation, and form submissions that don't require a full page reload. It's built by the creators of the HTML5 Canvas Game Framework and is focused on developer productivity and a fluid user experience.",
+    "category": "Developer",
+    "whyItIsUseful": "For developers looking to add modern interactivity to their existing server-rendered applications, Unpoly offers a compelling alternative to heavy SPA frameworks. It significantly reduces the amount of JavaScript needed, leading to smaller bundle sizes and faster initial page loads. Its attribute-driven approach makes it intuitive to integrate into any HTML structure. Developers who appreciate progressive enhancement and want to avoid JavaScript fatigue will find Unpoly a breath of fresh air, enabling them to build sophisticated, yet lightweight, dynamic web experiences.",
+    "everydayUse": "After you've pushed a new feature to your website, you can use Unpoly to ensure that user interactions like editing a comment or submitting a form update instantly. This provides a smoother experience for your visitors.",
+    "imageIdea": "speedometer dashboard chrome",
+    "websiteLink": "https://unpoly.com/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-11-20",
+    "signals": {
+      "checkedAt": "2026-11-20",
+      "video": {
+        "id": "NhLHbGZPlWk",
+        "title": "Unpoly Intro - Interactive apps with Django & Unpoly (HTMX Alternative!)",
+        "channel": "BugBytes",
+        "durationSec": 1142
+      }
     }
   }
 ]

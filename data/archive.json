@@ -47845,5 +47845,86 @@
       }
     },
     "archivedAt": "2026-11-18"
+  },
+  {
+    "id": 777,
+    "slug": "screenshots-of-old-desktop-oses",
+    "name": "Screenshots of Old Desktop OSes",
+    "seoTitle": "Screenshots Old OSes — Digital Nostalgia Archive",
+    "whatItDoes": "This is a meticulously curated archive of screenshots from various vintage desktop operating systems. It serves as a digital museum, preserving the visual history of computing interfaces from eras past. You can browse through images of operating systems that were once cutting-edge, offering a glimpse into the evolution of user experience and design aesthetics in computing. It's a fascinating resource for anyone interested in the history of technology or simply for a dose of digital nostalgia.",
+    "category": "Reference",
+    "whyItIsUseful": "This site offers a unique and often overlooked perspective on technological evolution. While many resources discuss OS history, the sheer volume and variety of visual examples here make it invaluable for designers, developers, and historians. It’s particularly useful for understanding the design constraints and innovations of different periods, which can inform modern UI/UX decisions or simply serve as inspiration. Power users and researchers appreciate the deep dive into visual heritage, providing a tangible connection to how users interacted with computers decades ago. It's a hidden gem for anyone feeling the pull of retro computing or studying the aesthetics of digital interfaces.",
+    "imageIdea": "vintage computer monitor",
+    "websiteLink": "https://www.typewritten.org/Media/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-12",
+    "screenshotUrl": "/screenshots/screenshots-of-old-desktop-oses.webp",
+    "everydayUse": "You might find yourself looking for inspiration for a retro-themed graphic design project. Or perhaps you're reminiscing about your first computer and want to see what it looked like again. It's also useful for quickly illustrating a point about how far user interfaces have come in a presentation.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-20"
+  },
+  {
+    "id": 778,
+    "slug": "graphics-graphic",
+    "name": "Graphics graphic",
+    "seoTitle": "Graphics graphic — Data Visualization Tools",
+    "whatItDoes": "Graphics graphic is a comprehensive hub and collection of tools and libraries for data visualization. It aims to bring together various approaches to creating charts, graphs, and interactive visual representations of data, catering to developers and data scientists. The platform showcases a wide range of charting technologies, from simple bar charts to complex network diagrams, often providing examples and links to their respective projects. Its purpose is to simplify the process of finding and integrating effective data visualization solutions into projects.",
+    "category": "Developer",
+    "whyItIsUseful": "In a world awash with data, effective visualization is key, and this site cuts through the noise to present a curated selection of powerful tools. Unlike generic lists, it often highlights more specialized or cutting-edge libraries that might not be on the radar of mainstream developers. It's a fantastic resource for finding the perfect charting library for a specific need, whether it's for web-based interactive dashboards, scientific plotting, or complex geospatial data. Developers who want to go beyond basic charts and explore sophisticated visual storytelling with data will find immense value here. It champions tools that offer both flexibility and performance, often appreciated by seasoned practitioners.",
+    "imageIdea": "abstract geometric data visualization",
+    "websiteLink": "https://www.graphics.graphic/",
+    "type": "hidden-gem",
+    "dateAdded": "2026-05-12",
+    "everydayUse": "You might use this to visualize your personal budget for the month, or to create a quick infographic for a neighborhood meeting. When planning a group trip, it can help you illustrate potential spending scenarios.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-20"
+  },
+  {
+    "id": 840,
+    "slug": "daily-tool-clera-ai-talent-agent",
+    "toolName": "Clera",
+    "seoTitle": "Clera — AI talent agent for roles",
+    "whatItDoes": "Clera is an AI-powered talent agent designed to help individuals find job opportunities that genuinely align with their aspirations. It operates through conversational interfaces like iMessage and WhatsApp, learning your career goals, preferences, and desired work environments. Clera then proactively surfaces relevant job openings, acting as a personalized recruiter to streamline your job search. It's particularly adept at filtering out irrelevant listings and presenting you with roles you'd be truly excited about, a feat often challenging with traditional job boards. Clera offers a freemium model, with core functionalities available at no cost.",
+    "category": "Productivity",
+    "whyItIsUseful": "In today's crowded job market, Clera offers a refreshing and highly personalized approach to career advancement. By leveraging AI to understand your unique career trajectory and desires, it significantly reduces the time and effort spent sifting through countless unsuitable job postings. Its integration with popular messaging apps makes it incredibly accessible and convenient to use on the go. Enthusiastic users praise Clera for its ability to uncover hidden gem opportunities and for the intelligent way it matches skills to roles. This tool is invaluable for job seekers who are tired of generic alerts and are looking for a more curated, efficient, and engaging job search experience, ultimately helping them land roles that offer better long-term career satisfaction.",
+    "imageIdea": "ai robot speaking with person on phone",
+    "websiteLink": "https://www.producthunt.com/r/MHJ73XCI7VH4JY",
+    "type": "tool",
+    "dateAdded": "2026-05-15",
+    "screenshotUrl": "/screenshots/daily-tool-clera-ai-talent-agent.webp",
+    "everydayUse": "When you're scrolling through job boards during your lunch break, or when you're finally ready to update your resume after months of putting it off. You might also use it when you see a job posting that seems perfect, but you don't have time to apply right away.",
+    "signals": {
+      "checkedAt": "2026-10-28"
+    },
+    "archivedAt": "2026-11-20"
+  },
+  {
+    "id": 841,
+    "slug": "figma-collaborative-design-tool",
+    "toolName": "Figma",
+    "seoTitle": "Figma — Collaborative interface design tool",
+    "whatItDoes": "Figma is a cloud-based design tool primarily used for user interface (UI) and user experience (UX) design, but it's also versatile enough for wireframing, prototyping, and even graphic design. Its standout feature is real-time collaboration, allowing multiple designers to work on the same file simultaneously, making it ideal for team projects. Figma offers a free tier with generous features for individual designers and small teams, with paid plans providing more advanced capabilities for larger organizations. It simplifies the design process by offering a unified platform for creation, prototyping, and handoff to developers.",
+    "category": "Design",
+    "whyItIsUseful": "Figma has revolutionized collaborative design by enabling live co-editing, akin to Google Docs for designers. This eliminates version control issues and streamlines feedback loops, significantly speeding up the design iteration process. Its browser-based nature means no downloads are required for basic use, making it accessible from any computer. The platform's robust prototyping features allow designers to create interactive mockups that accurately represent the user flow, which is invaluable for client presentations and developer handoffs. Designers praise its clean interface, powerful vector editing tools, and its extensive plugin ecosystem that further extends its functionality, making it an indispensable tool for modern design workflows.",
+    "imageIdea": "team collaborating on digital design project",
+    "websiteLink": "https://www.figma.com/",
+    "type": "tool",
+    "dateAdded": "2026-05-15",
+    "screenshotUrl": "/screenshots/figma-collaborative-design-tool.webp",
+    "everydayUse": "You're planning a weekend project with friends and need to visually map out the steps. You're also trying to organize all those articles you saved for later, creating a visual overview to make sense of them.",
+    "signals": {
+      "checkedAt": "2026-10-28",
+      "video": {
+        "id": "jQ1sfKIl50E",
+        "title": "Figma Tutorial for Beginners (13-min crash course!)",
+        "channel": "Flux Academy",
+        "durationSec": 802
+      }
+    },
+    "archivedAt": "2026-11-20"
   }
 ]

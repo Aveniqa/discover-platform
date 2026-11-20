@@ -5,8 +5,24 @@
     <link>https://surfaced-x.pages.dev</link>
     <description>Fresh discoveries, trending products, hidden gems, future tech, and daily tools — curated every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://surfaced-x.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>beacon.sh</title>
+      <link>https://surfaced-x.pages.dev/item/beacon</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/beacon</guid>
+      <description>beacon.sh provides an open-source, self-improving memory layer for AI coding agents. It integrates with over 20 different agent harnesses, including popular ones like Claude Code and Cursor. By capturing and compounding knowledge from every agent session, beacon.sh ensures that each subsequent agent interaction starts with a richer, more informed context. This eliminates redundant learning and allows AI agents to become progressively smarter and more efficient over time. The project is licensed under MIT and is actively developed on GitHub.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Alsona</title>
+      <link>https://surfaced-x.pages.dev/item/alsona</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/alsona</guid>
+      <description>Alsona is an AI-powered sales intelligence tool that identifies prospects showing immediate buying intent. It analyzes over 32 diverse signals, including hiring trends, funding announcements, technology adoption, customer reviews, and ad spend, to pinpoint individuals and companies most likely to purchase. The platform then translates these signals into personalized outreach strategies, aiming to convert passive interest into booked sales calls. Pricing is typically offered via custom quotes, reflecting its enterprise-grade capabilities.</description>
+      <category>Daily Tools</category>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>HGhub</title>
       <link>https://surfaced-x.pages.dev/item/hghub</link>
@@ -387,6 +403,14 @@
       <media:thumbnail url="https://images.pexels.com/photos/34804010/pexels-photo-34804010.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
     <item>
+      <title>Unpoly</title>
+      <link>https://surfaced-x.pages.dev/item/unpoly-javascript-framework</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/unpoly-javascript-framework</guid>
+      <description>Unpoly is a JavaScript framework designed to make dynamic web applications feel faster and more responsive without the complexity of modern SPA frameworks. It works by enhancing HTML with special attributes, allowing for partial page updates, instant navigation, and form submissions that don&apos;t require a full page reload. It&apos;s built by the creators of the HTML5 Canvas Game Framework and is focused on developer productivity and a fluid user experience.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>CREEM 2.0</title>
       <link>https://surfaced-x.pages.dev/item/creem</link>
       <guid isPermaLink="true">https://surfaced-x.pages.dev/item/creem</guid>
@@ -396,6 +420,14 @@
       <enclosure url="https://images.unsplash.com/photo-1765445774015-da30988cd25f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk4MjY5MDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" type="image/jpeg" length="0" />
       <media:content url="https://images.unsplash.com/photo-1765445774015-da30988cd25f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk4MjY5MDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.unsplash.com/photo-1765445774015-da30988cd25f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTg2MDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODk4MjY5MDB8&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" />
+    </item>
+    <item>
+      <title>Ground Stop Watch</title>
+      <link>https://surfaced-x.pages.dev/item/ground-stop-watch</link>
+      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/ground-stop-watch</guid>
+      <description>This tool provides a live and replayable map of U.S. flights during FAA nationwide ground stops. It visualizes aircraft in the air relative to normal operations, allowing users to see the immediate impact of such events. Built by grounds.top, it&apos;s designed to offer transparency during air traffic disruptions. For instance, during an FAA ground stop, you could monitor how many flights are still attempting to depart or are airborne versus typical traffic patterns.</description>
+      <category>Hidden Gems</category>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Arktype</title>
@@ -500,50 +532,6 @@
       <enclosure url="https://images.pexels.com/photos/7841818/pexels-photo-7841818.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
       <media:content url="https://images.pexels.com/photos/7841818/pexels-photo-7841818.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
       <media:thumbnail url="https://images.pexels.com/photos/7841818/pexels-photo-7841818.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Circling the Drain</title>
-      <link>https://surfaced-x.pages.dev/item/circling-the-drain</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/circling-the-drain</guid>
-      <description>Circling the Drain is a deliberately minimalist time tracking application engineered for users who desire a clear, unobtrusive method to monitor their daily activities. Its core function is to provide an accurate overview of how time is spent, emphasizing simplicity over feature bloat.  The application operates on a freemium structure, offering fundamental time tracking capabilities at no cost. For users who require more in-depth analysis and extended connectivity, a subscription unlocks advanced reporting features and integration options.  Distinct from comprehensive project management suites, Circling the Drain is adept at capturing granular moments of engagement, making it ideal for understanding micro-activities.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/6446672/pexels-photo-6446672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/6446672/pexels-photo-6446672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/6446672/pexels-photo-6446672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Tiny València</title>
-      <link>https://surfaced-x.pages.dev/item/tiny-valencia</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/tiny-valencia</guid>
-      <description>Tiny València is a meticulously crafted isometric pixel-art map of the city of Valencia, Spain. Inspired by the aesthetic of SimCity and Isometric NYC, every building is a true representation of its real-world counterpart, rendered from an aerial perspective at a consistent angle. The project meticulously recreates the entire municipal territory, from the agricultural huerta to the Albufera natural park, using 3D city data and an AI image model trained on a specific pixel-art style to ensure seamless integration of each tile. This tool allows users to explore a digital, stylized version of Valencia.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/34812042/pexels-photo-34812042.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/jpeg" length="0" />
-      <media:content url="https://images.pexels.com/photos/34812042/pexels-photo-34812042.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://images.pexels.com/photos/34812042/pexels-photo-34812042.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
-    </item>
-    <item>
-      <title>Taskwarrior</title>
-      <link>https://surfaced-x.pages.dev/item/taskwarrior</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/taskwarrior</guid>
-      <description>Taskwarrior is a powerful, flexible, and free open-source command-line tool for managing your to-do lists. It allows for complex task organization through tags, priorities, projects, and due dates, all manipulated via simple text commands. While it has a steeper learning curve than GUI applications, it offers unparalleled speed and efficiency for users comfortable in a terminal environment. It excels at rapid task entry, filtering, and modification without ever taking your hands off the keyboard. Taskwarrior is entirely free and its open-source nature means it&apos;s constantly being improved by its community.</description>
-      <category>Daily Tools</category>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://pixabay.com/get/g45b47684ddd496e540217c5a17a8b4b0e022bbc78085cbcf608b07e634e3e21075fd726c705904ab3f0b3d1fd84f567dcdf052859e9c2dc429984baced571c34_1280.jpg" type="image/jpeg" length="0" />
-      <media:content url="https://pixabay.com/get/g45b47684ddd496e540217c5a17a8b4b0e022bbc78085cbcf608b07e634e3e21075fd726c705904ab3f0b3d1fd84f567dcdf052859e9c2dc429984baced571c34_1280.jpg" medium="image" type="image/jpeg" />
-      <media:thumbnail url="https://pixabay.com/get/g45b47684ddd496e540217c5a17a8b4b0e022bbc78085cbcf608b07e634e3e21075fd726c705904ab3f0b3d1fd84f567dcdf052859e9c2dc429984baced571c34_1280.jpg" />
-    </item>
-    <item>
-      <title>Symplur Signals</title>
-      <link>https://surfaced-x.pages.dev/item/symplur-signal</link>
-      <guid isPermaLink="true">https://surfaced-x.pages.dev/item/symplur-signal</guid>
-      <description>Symplur Signals is a powerful, yet often overlooked, platform that analyzes social media conversations within the healthcare and biomedical communities. It provides insights into trends, key influencers, and public sentiment around specific diseases, treatments, and health initiatives. Built by Symplur, a company dedicated to advancing health through data, it offers a professional-grade tool for researchers, public health officials, and anyone needing to understand the digital discourse in medicine. It&apos;s particularly valuable for tracking the spread of health information and misinformation.</description>
-      <category>Hidden Gems</category>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <enclosure url="https://images.pexels.com/photos/39612971/pexels-photo-39612971.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" type="image/png" length="0" />
-      <media:content url="https://images.pexels.com/photos/39612971/pexels-photo-39612971.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" medium="image" type="image/png" />
-      <media:thumbnail url="https://images.pexels.com/photos/39612971/pexels-photo-39612971.png?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940" />
     </item>
   </channel>
 </rss>

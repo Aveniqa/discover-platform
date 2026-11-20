@@ -1,19 +1,19 @@
 [
   {
-    "slug": "hidden-gem-explain-shell",
-    "title": "Explain Shell",
+    "slug": "unpoly-javascript-framework",
+    "title": "Unpoly",
     "category": "hidden-gems",
     "categoryLabel": "Hidden Gem",
-    "description": "Explain Shell is a web-based tool that demystifies complex command-line arguments for various Unix-like systems. Users p",
+    "description": "Unpoly is a JavaScript framework designed to make dynamic web applications feel faster and more responsive without the c",
     "badge": null,
     "type": "hidden-gem"
   },
   {
-    "slug": "hghub",
-    "title": "HGhub",
+    "slug": "beacon",
+    "title": "beacon.sh",
     "category": "daily-tools",
     "categoryLabel": "Daily Tool",
-    "description": "HGhub is a universal video player that connects to content through plugins. It consolidates browsing, searching, playbac",
+    "description": "beacon.sh provides an open-source, self-improving memory layer for AI coding agents. It integrates with over 20 differen",
     "badge": null,
     "type": "tool"
   }

@@ -1,7 +1,7 @@
 ---
 title: Surfaced HQ
 type: dashboard
-updated: 2026-11-18
+updated: 2026-11-20
 tags: [surfaced, dashboard, generated]
 ---
 
@@ -16,19 +16,19 @@ tags: [surfaced, dashboard, generated]
 | | |
 |---|---|
 | **Live items** | **792** (386 hidden gems · 406 daily tools) |
-| **Last edition** | 2026-11-18 (4 items) |
-| **Archive** | 3097 items — permanent, keeps `/item/<slug>` alive for search |
-| **Real screenshots** | 642/792 (81%) |
+| **Last edition** | 2026-11-20 (4 items) |
+| **Archive** | 3101 items — permanent, keeps `/item/<slug>` alive for search |
+| **Real screenshots** | 639/792 (81%) |
 | **Cached photos** | 4354 |
 | **Live items missing a link** | 1 ⚠️ |
 | **Archived items without a source** | 360 (ledgered as unverifiable — do not retry) |
 
 ## Catalogue lean
 
-- **Developer** — 225
-- **Productivity** — 114
-- **Reference** — 78
-- **Design** — 72
+- **Developer** — 227
+- **Productivity** — 113
+- **Reference** — 77
+- **Design** — 71
 - **Writing** — 65
 - **Education** — 65
 - **Entertainment** — 59
